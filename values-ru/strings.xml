@@ -15,4 +15,5 @@
 <string name="button_save">Сохранить</string>
     <string name="button_cancel">Отмена</string>
     <string name="button_add_field">Добавить поле</string>
+    <string name="add_new_library_item">Добавить запись…</string>
     </resources>
