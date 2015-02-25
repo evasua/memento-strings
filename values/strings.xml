@@ -49,6 +49,21 @@
     <string name="removed">Deleted on %s</string>
     <string name="trush">Recycle Bin</string>
     <string name="library_item_restore">Restore</string>
+	<string name="clear_trash">Empty Trash</string>
+	<string name="clear_trash_progress_dialog_title">Empty Trash</string>
+
+	<string name="clear_trash_dialog_title">Empty Trash</string>
+	<string name="clear_trash_dialog_text">Do you really want to delete all entries from the Trash ?</string>
+
+	<string name="empty_contact_title">No contact is selected</string>
+	<string name="empty_contact_hint">Touch to select the contact</string>
+
+
+	<string name="mobile">mobile</string>
+	<string name="home">home</string>
+	<string name="work">work</string>
+	<string name="other">other</string>
+	<string name="pager">pager</string>
 
 </resources>
 
