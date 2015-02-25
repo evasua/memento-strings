@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hello">Hello World, DroidBaseActivity!</string>
+    <string name="app_name">Memento</string>
+    <string name="notes_lib_title">Notes</string>
+    <string name="library_menu_add_item">Добавить</string>
+    <string name="main_menu_add_lib">Добавить библиотеку</string>
+    <string name="ghostData_lib_title">Название</string>
+    <string name="custom_template_title">Пользовательский</string>
+    <string name="button_create">Создать</string>
+    <string name="button_yes">Да</string>
+    <string name="button_ok">ОК</string>
+    <string name="button_no">Нет</string>
+	  
+</resources>

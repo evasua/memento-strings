@@ -1,0 +1,56 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="app_name">Memento</string>
+    <string name="notes_lib_title">Notes</string>
+    <string name="library_menu_add_item">Add an entry</string>
+    <string name="main_menu_add_lib">Add Library</string>
+    <string name="ghostData_lib_title">Library name</string>
+    <string name="custom_template_title">Custom</string>
+    <string name="button_create">Create</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_ok">OK</string>
+    <string name="button_no">No</string>
+    <string name="button_save">Save</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_add_field">Add a field</string>
+    <string name="add_new_library_item">Add an entry ...</string>
+    <string name="flex_type_title_string">Text</string>
+    <string name="flex_type_title_int">Integer</string>
+    <string name="flex_type_title_bool">Boolean (Checkbox)</string>
+    <string name="flex_type_title_date">Date</string>
+    <string name="flex_type_title_date_time">Date/Time</string>
+    <string name="flex_type_contact">Contact</string>
+    <string name="flex_type_image">Image</string>
+    <string name="flex_type_string_list">Single-choice list</string>
+    <string name="flex_type_audio">Audio</string>
+    <string name="flex_type_money">Currency</string>
+    <string name="flex_type_rating">Rating</string>
+    <string name="flex_type_web">Hyperlink</string>
+    <string name="flex_type_map">Location</string>
+    <string name="flex_type_real">Real number</string>
+    <string name="field_list_caption">Library entry fields</string>
+    <string name="flextemplate_up_item">Up</string>
+    <string name="flextemplate_down_item">Down</string>
+    <string name="flextemplate_edit_item">Change</string>
+    <string name="flextemplate_delete_item">Delete</string>
+    <string name="ghostData_template_title">Enter the field name</string>
+    <string name="template_title">Field name</string>
+    <string name="select_flex_template_title">Field type</string>
+    <string name="select_flex_template_role">Field function</string>
+    <string name="select_create_lib_template">Select the library template</string>
+    <string name="button_next">Next</string>
+
+    <plurals name="NItemsFind">
+        <item quantity="one">1 entry found</item>
+        <item quantity="other">Entries found: <xliff:g id="COUNT">%d</xliff:g></item>
+    </plurals>
+    <string name="memento_search">Memento Search</string>
+    <string name="memento_search_in_lib">Memento Search in "%s"</string>
+    <string name="removed">Deleted on %s</string>
+    <string name="trush">Recycle Bin</string>
+    <string name="library_item_restore">Restore</string>
+
+</resources>
+
+
+
