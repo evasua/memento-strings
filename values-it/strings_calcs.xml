@@ -1,0 +1,23 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="math_func_desc_0">Valore assoluto di un numero reale.</string>
+    <string name="math_func_desc_1">Angolo (radianti) di cui il valore è il coseno.</string>
+    <string name="math_func_desc_2">Angolo (radianti) di cui il valore è il seno.</string>
+    <string name="math_func_desc_3">Angolo (radianti) di cui il valore è la tangente.</string>
+    <string name="math_func_desc_4">Per convertire coordinate cartesiane in coordinate polari.</string>
+    <string name="math_func_desc_5">Intero superiore di un numero reale.</string>
+    <string name="math_func_desc_6">Coseno di un angolo (radianti).</string>
+    <string name="math_func_desc_7">Esponenziale (e^x) di un numero reale.</string>
+    <string name="math_func_desc_8">Intero inferiore di un numero reale.</string>
+    <string name="math_func_desc_9">Logaritmo naturale (base e) di un un numero reale.</string>
+    <string name="math_func_desc_10">Maggiore di due numeri reali.</string>
+    <string name="math_func_desc_11">Minore di due numeri reali.</string>
+    <string name="math_func_desc_12">Elevamento a potenza (primo argomento elevato al secondo).</string>
+    <string name="math_func_desc_13">Intero (reale) più vicino a un numero reale</string>
+    <string name="math_func_desc_14">Intero (intero) più vicino a un numero reale</string>
+    <string name="math_func_desc_15">Seno di un angolo (radianti).</string>
+    <string name="math_func_desc_16">Radice quadrata di un numero reale.</string>
+    <string name="math_func_desc_17">Tangente di un angolo (radianti).</string>
+    <string name="math_func_desc_18">Funzione che converte la misura di un angolo da radianti in gradi.</string>
+    <string name="math_func_desc_19">Funzione che converte la misura di un angolo da gradi in radianti.</string>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+     <string name="call">Chiama</string>
+    <string name="send_sms">Invia SMS</string>
+    <string name="light_theme">Tema chiaro</string>
+    <string name="dark_theme">Tema scuro</string>
+    <string name="datetime_filter_items_today">Oggi</string>
+    <string name="datetime_filter_items_yesterday">Ieri</string>
+    <string name="datetime_filter_items_week">Settimana corrente</string>
+    <string name="datetime_filter_items_month">Mese corrente</string>
+    <string name="datetime_filter_items_last_week">Settimana scorsa</string>
+    <string name="datetime_filter_items_last_month">Mese scorso</string>
+    <string name="datetime_filter_items_custom">Scegli</string>
+    <string name="calc_result_types_real">Risultato reale</string>
+    <string name="calc_result_types_int">Risultato intero</string>
+    <string name="template_category_arts">Arti</string>
+    <string name="template_category_business">Affari</string>
+    <string name="template_category_contacts">Contatti</string>
+    <string name="template_category_cook">Cucina, Ricette e Vini</string>
+    <string name="template_category_edu">Educazione</string>
+    <string name="template_category_events">Eventi</string>
+    <string name="template_category_fin">Finanze</string>
+    <string name="template_category_health">Salute</string>
+    <string name="template_category_home">Casa e Hobby</string>
+    <string name="template_category_internet">Internet e Passwords</string>
+    <string name="template_category_music">Musica e Cinema</string>
+    <string name="template_category_research">Ricerche e Appunti</string>
+    <string name="template_category_sports">Sport</string>
+    <string name="template_category_travel">Viaggi</string>
+    <string name="template_category_other">Altro</string>
+ </resources>
