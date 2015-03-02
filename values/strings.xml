@@ -1061,4 +1061,7 @@
         <item quantity="one">1 day</item>
         <item quantity="other">%d days</item>
     </plurals>
+    <string name="all">All</string>
+    <string name="page">Page</string>
+    <string name="translate">Translate</string>
 </resources>
