@@ -1044,36 +1044,21 @@
     <string name="auto_backup_when_sync">Before sync with Google</string>
     <string name="auto_backup_when_edit_libs">Before changing libraries</string>
     <string name="free_version_multi_field_limit">In the free version, you can add only two elements. Upgrade to PRO version to remove this restriction.</string>
-    <!-- 3.0.0 from arrays -->
-    <string name="call">Call</string>
-    <string name="send_sms">Send SMS message</string>
-    <string name="light_theme">Light Theme</string>
-    <string name="dark_theme">Dark Theme</string>
-    <string name="datetime_filter_items_today">Today</string>
-    <string name="datetime_filter_items_yesterday">Yesterday</string>
-    <string name="datetime_filter_items_week">This week</string>
-    <string name="datetime_filter_items_month">This month</string>
-    <string name="datetime_filter_items_last_week">Last week</string>
-    <string name="datetime_filter_items_last_month">Last month</string>
-    <string name="datetime_filter_items_custom">Custom</string>
-    <string name="calc_result_types_real">Real result</string>
-    <string name="calc_result_types_int">Integer result</string>
-    <string name="calc_result_types_date">Date result</string>
-    <string name="calc_result_types_datetime">Date/Time result</string>
-    <string name="calc_result_types_string">String result</string>
-    <string name="template_category_arts">Arts</string>
-    <string name="template_category_business">Business</string>
-    <string name="template_category_contacts">Contacts and People</string>
-    <string name="template_category_cook">Cooking, Food and Wine</string>
-    <string name="template_category_edu">Education</string>
-    <string name="template_category_events">Events Planning</string>
-    <string name="template_category_fin">Finance</string>
-    <string name="template_category_health">Health</string>
-    <string name="template_category_home">Home and Hobbies</string>
-    <string name="template_category_internet">Internet and Passwords</string>
-    <string name="template_category_music">Music and Movies</string>
-    <string name="template_category_research">Research and Notes</string>
-    <string name="template_category_sports">Sports</string>
-    <string name="template_category_travel">Travel</string>
-    <string name="template_category_other">Other</string>
+    <string name="scale">Scale %d</string>
+    <plurals name="duration_seconds">
+        <item quantity="one">1 second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="one">1 minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">1 hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="duration_days">
+        <item quantity="one">1 day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
 </resources>
