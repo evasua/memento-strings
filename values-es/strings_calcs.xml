@@ -1,0 +1,23 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="math_func_desc_0">Valor absoluto de un valor doble.</string>
+    <string name="math_func_desc_1">Arco coseno de un ángulo.</string>
+    <string name="math_func_desc_2">Arco seno de un ángulo.</string>
+    <string name="math_func_desc_3">Arco tangente de un ángulo.</string>
+    <string name="math_func_desc_4">La función convierte coordenadas cartesianas en polares</string>
+    <string name="math_func_desc_5">Techo valor de un valor doble</string>
+    <string name="math_func_desc_6">Trigonométrico coseno de un ángulo</string>
+    <string name="math_func_desc_7">Número exponencial ej. (i.e., 2.718...) elevado a la potencia de un valor doble</string>
+    <string name="math_func_desc_8">Valor minimo de un doble valor.</string>
+    <string name="math_func_desc_9">Logaritmo natural (base e) de un valor doble</string>
+    <string name="math_func_desc_10">El más elevado de los dos valores dobles</string>
+    <string name="math_func_desc_11">Menor de dos valores dobles</string>
+    <string name="math_func_desc_12">Valor del primer argumento elevado a la segunda potencia del segundo argumento</string>
+    <string name="math_func_desc_13">Valor doble que está más cerca en valor para el argumento y es igual a un entero matem�tico</string>
+    <string name="math_func_desc_14">Limitar largo a un valor doble</string>
+    <string name="math_func_desc_15">Seno de un ángulo</string>
+    <string name="math_func_desc_16">Raíz cuadrada de un valor doble</string>
+    <string name="math_func_desc_17">Tangente trigonométrica de un ángulo</string>
+    <string name="math_func_desc_18">La función convierte un ángulo medido en radianes en el ángulo medido en grados equivalente</string>
+    <string name="math_func_desc_19">La función convierte un ángulo medido en grados del ángulo equivalente medido en radianes.</string>
+
+</resources>

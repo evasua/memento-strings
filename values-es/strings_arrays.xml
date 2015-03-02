@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call">Llamar</string>
+    <string name="send_sms">Enviar mensaje SMS</string>
+    <string name="light_theme">Tema Claro</string>
+    <string name="dark_theme">Tema Oscuro</string>
+    <string name="datetime_filter_items_today">Hoy</string>
+    <string name="datetime_filter_items_yesterday">Ayer</string>
+    <string name="datetime_filter_items_week">Esta semana</string>
+    <string name="datetime_filter_items_month">Este mes</string>
+    <string name="datetime_filter_items_last_week">Última semana</string>
+    <string name="datetime_filter_items_last_month">Último mes</string>
+    <string name="datetime_filter_items_custom">Definir</string>
+    <string name="calc_result_types_real">Resultado real</string>
+    <string name="calc_result_types_int">Resultado entero</string>
+    <string name="template_category_arts">Arte</string>
+    <string name="template_category_business">Negocios</string>
+    <string name="template_category_contacts">Contactos y Gente</string>
+    <string name="template_category_cook">Cocina, Comida y Vinos</string>
+    <string name="template_category_edu">Educación</string>
+    <string name="template_category_events">Eventos Planeados</string>
+    <string name="template_category_fin">Finanzas</string>
+    <string name="template_category_health">Salud</string>
+    <string name="template_category_home">Hogar y entretenimiento</string>
+    <string name="template_category_internet">Internet y contraseñas</string>
+    <string name="template_category_music">Musica y Películas</string>
+    <string name="template_category_research">Investigación y Notas</string>
+    <string name="template_category_sports">Deportes</string>
+    <string name="template_category_travel">ViajesTravel</string>
+    <string name="template_category_other">Otros</string>    
+    <string name="flex_edit_option_values_list">Lista de entrada</string>
+    <string name="flex_edit_option_values_card">Entradas por recuadros</string>
+    <string name="date_format_list_current_locale">Fecha Actual</string>
+    <string name="date_format_list_date_pref">User\'s preferencias de fecha</string>
+    <string name="db_location_pref_internal">Almacenamiento interno</string>
+    <string name="db_location_pref_sd">Tarjeta SD</string>
+</resources>
