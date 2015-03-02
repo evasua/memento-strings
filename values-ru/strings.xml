@@ -351,7 +351,7 @@
     <string name="flex_type_library_entry">Запись библиотеки</string>
     <string name="flex_type_entry_option_title">Библиотека</string>
     <string name="flex_type_entry_option_dlg_title">Выберите библиотеку</string>
-    <string name="flex_type_entry_select_library">Выберите библиотеку записи которой будут использоваться в данном поле</string>
+    <string name="flex_type_entry_select_library">Выберите библиотеку записи которой будут использоваться в данном поле.</string>
     <string name="error_template_wrong_title">В имени поля должны быть только буквы и цифры</string>
     <!-- 1.4.8 -->
     <string name="filter_not_set">Нет фильтра</string>
@@ -551,7 +551,7 @@
     <string name="button_add_stat_item">Добавить функцию</string>
     <string name="stats_edit_title_hint">Префикс результата</string>
     <string name="stat_item_align_prompt">Выравнивание результата</string>
-    <string name="stat_item_line_prompt">Линия результата</string>
+    <string name="stat_item_line_prompt">Линия результата.</string>
     <string name="create_stat_item_title">Создание функции</string>
     <string name="select_stat_function_title">Выберите функцию</string>
     <string name="select_field_title">Выберите поле</string>
@@ -720,7 +720,7 @@
     <string name="files_cloud_storage_pref">Синхронизация файлов</string>
     <string name="link_to_new_document">Связать с новым документом</string>
     <string name="link_to_existing_document">Связать с существующим документом</string>
-    <string name="google_sync_files_checkbox">Загружать файлы (фотографии) прикрепленные к записям в облачное хранилище</string>
+    <string name="google_sync_files_checkbox">Загружать файлы (фотографии) прикрепленные к записям в облачное хранилище.</string>
     <string name="list_library_in_google">Список библиотек в Google Drive</string>
     <string name="add_lib_from_google_drive">Из Google Drive</string>
     <string name="selected">%s выбрано</string>
@@ -757,14 +757,14 @@
     <string name="sort_desc">DESC</string>
     <string name="sliding_hint_text">Сортировка, группировка, фильтры и многое другое</string>
     <string name="multy_sorting">Сортировка по нескольким полям</string>
-    <string name="new_button">new</string>
+    <string name="new_button">новый</string>
     <string name="free_version_entry_page_limit">В бесплатной версии вы можете создать только две страницы. Обновитесь до PRO версии для снятия этого ограничения.</string>
     <string name="button_change_activation_code">Активация</string>
     <!-- 2.5.0 -->
     <string name="select_button">ВЫБРАТЬ</string>
     <string name="clear_button">ОЧИСТИТЬ</string>
     <string name="image_info_button">ИНФО</string>
-    <string name="error_library_not_unique_field_names">Имена полей в библиотеке должны быть уникальны. Проверьте поля: %s</string>
+    <string name="error_library_not_unique_field_names">Имена полей в библиотеке должны быть уникальны. Проверьте поля: %s.</string>
     <string name="info_path">Путь:</string>
     <string name="info_resolution">Разрешение:</string>
     <string name="info_size">Размер:</string>
@@ -895,7 +895,7 @@
     <string name="move_to_page">Переместить на страницу</string>
     <string name="empty_entry_page_text">Эта страница пока пустая.\nВы можете добавить сюда поля или списки связанных записей.</string>
     <string name="empty_fields_list_text">В этой библиотеке пока нет полей.</string>
-    <string name="empty_aggregation_list_text">В этой библиотеке пока нет функций агрегирования</string>
+    <string name="empty_aggregation_list_text">В этой библиотеке пока нет функций агрегирования.</string>
     <string name="empty_chart_list_text">В этой библиотеке пока нет графиков.</string>
     <string name="empty_entry_list_text">В этой библиотеке пока нет записей.</string>
     <string name="empty_recycle_bin_text">В этой библиотеке нет доступных для восстановления записей.</string>
