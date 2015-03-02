@@ -1,0 +1,24 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="math_func_desc_0">Valor absoluto de um valor duplo.</string>
+    <string name="math_func_desc_1">Arco-coseno de um ângulo.</string>
+    <string name="math_func_desc_2">Arco-seno de um ângulo.</string>
+    <string name="math_func_desc_3">Arco-tangente de um ângulo.</string>
+    <string name="math_func_desc_4">Essa função converte coordenadas retangulares em polares.</string>
+    <string name="math_func_desc_5">Arredonda um valor para cima.</string>
+    <string name="math_func_desc_6">Coseno trigonométrico de um ângulo.</string>
+    <string name="math_func_desc_7">Número exponencial e (i.e., 2.718...) elevado à potência de um valor.</string>
+    <string name="math_func_desc_8">Arredonda um valor para baixo.</string>
+    <string name="math_func_desc_9">Logarítmo (base e) de um valor.</string>
+    <string name="math_func_desc_10">Maior de dois valores.</string>
+    <string name="math_func_desc_11">Menor de dois valores.</string>
+    <string name="math_func_desc_12">Valor do primeiro argumento elevado à segunda potência do segundo argumento.</string>
+    <string name="math_func_desc_13">O valor mais próximo para o argumento que é igual a um inteiro matemático.</string>
+    <string name="math_func_desc_14">Arredondamento mais próximo para um valor.</string>
+    <string name="math_func_desc_15">Seno de um ângulo.</string>
+    <string name="math_func_desc_16">Raiz quadrada de um valor.</string>
+    <string name="math_func_desc_17">Tangente trigonométrica de um ângulo.</string>
+    <string name="math_func_desc_18">A função converte a medida de um ângulo em radianos para seu ângulo equivalente medido em graus.</string>
+    <string name="math_func_desc_19">A função converte a medida de um ângulo em graus para seu ângulo equivalente medido em radianos.</string>
+
+</resources>

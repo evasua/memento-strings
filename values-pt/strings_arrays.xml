@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call">Chamar</string>
+    <string name="send_sms">Enviar mensagem SMS</string>
+    <string name="light_theme">Tema Iluminado</string>
+    <string name="dark_theme">Tema Sombrio</string>
+    <string name="datetime_filter_items_today">Hoje</string>
+    <string name="datetime_filter_items_yesterday">Ontem</string>
+    <string name="datetime_filter_items_week">Nessa semana</string>
+    <string name="datetime_filter_items_month">Nesse mês</string>
+    <string name="datetime_filter_items_last_week">Semana passada</string>
+    <string name="datetime_filter_items_last_month">Mês passado</string>
+    <string name="datetime_filter_items_custom">Personalizado</string>
+    <string name="calc_result_types_real">Resultado real</string>
+    <string name="calc_result_types_int">Resultado inteiro</string>
+    <string name="template_category_arts">Artes</string>
+    <string name="template_category_business">Negócios</string>
+    <string name="template_category_contacts">Contatos e Pessoas</string>
+    <string name="template_category_cook">Cozinhar, Comidas e Vinhos</string>
+    <string name="template_category_edu">Educação</string>
+    <string name="template_category_events">Planejamento de Eventos</string>
+    <string name="template_category_fin">Finançãs</string>
+    <string name="template_category_health">Saúde</string>
+    <string name="template_category_home">Casa e Passatempos</string>
+    <string name="template_category_internet">Internet e Senhas</string>
+    <string name="template_category_music">Músicas e Filmes</string>
+    <string name="template_category_research">Investigação e Notas</string>
+    <string name="template_category_sports">Esportes</string>
+    <string name="template_category_travel">Viajens</string>
+    <string name="template_category_other">Outros</string>    
+</resources>
