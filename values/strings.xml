@@ -918,7 +918,7 @@
     <string name="empty_entry_page_text">This page is empty.\nYou can add fields or lists of records here.</string>
     <string name="empty_fields_list_text">There are no fields in this library.</string>
     <string name="empty_aggregation_list_text">This library does not contain aggregation functions.</string>
-    <string name="empty_chart_list_text">This library does not contain charts</string>
+    <string name="empty_chart_list_text">This library does not contain charts.</string>
     <string name="empty_entry_list_text">The library has no entries yet.</string>
     <string name="empty_recycle_bin_text">There are no entries available for recovery in this library.</string>
     <string name="empty_main_recycle_bin_text">No libraries available for the recovery.</string>
