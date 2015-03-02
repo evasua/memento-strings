@@ -699,7 +699,7 @@
     <string name="start_reindex_summary">Пересоздание поискового индекса</string>
     <string name="search_pref_category">Поиск</string>
     <string name="reindex_complete_message">Переиндексация выполнена</string>
-    <string name="files_backup_not_found_files">Не найденные файлы</string>
+    <string name="files_backup_not_found_files">Не найденные файлы:</string>
     <string name="files_storage_settings_screen">Хранилище файлов</string>
     <string name="files_storage_settings_screen_summary">Местоположение фотографий и других файлов</string>
     <string name="files_storage_settings_path_title">Каталог хранилища файлов</string>
