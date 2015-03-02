@@ -885,8 +885,8 @@
     <string name="create_chart">Create chart</string>
     <string name="edit_chart">Edit chart</string>
     <string name="edit_library_main_color">Color of library</string>
-    <string name="color_swatch_description">Color <xliff:g example="14" id="color_index">%1$d</xliff:g></string>
-    <string name="color_swatch_description_selected">Color <xliff:g example="14" id="color_index">%1$d</xliff:g> selected</string>
+    <string name="color_swatch_description">Color $d</string>
+    <string name="color_swatch_description_selected">Color $d selected</string>
     <string name="button_palette">Palette...</string>
     <string name="button_own_pictures">Gallery...</string>
     <string name="icon_pack_title_flat">Flat</string>
