@@ -1,0 +1,22 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="math_func_desc_0">Absolutt verdi av en dobbelverdi.</string>
+    <string name="math_func_desc_1">Arc cosinus av en vinkel.</string>
+    <string name="math_func_desc_2">Arc sinus av en vinkel.</string>
+    <string name="math_func_desc_3">Arcustangens av en vinkel.</string>
+    <string name="math_func_desc_4">Funsjonen omgjør rektangulære koordinater till polæra</string>
+    <string name="math_func_desc_5">Takverdiet av et dobbelverdi</string>
+    <string name="math_func_desc_6">Trigonometrisk cosinus av en vinkel</string>
+    <string name="math_func_desc_7">Exponential verdi (f.eks. 2,718 ...) opphøyd til dobbeltverdi</string>
+    <string name="math_func_desc_8">Bunnverdi av en dobbeltverdi.</string>
+    <string name="math_func_desc_9">Logiske logaritmer (basverdi) av en dobbeltverdi</string>
+    <string name="math_func_desc_10">Største verdi av to dobbelte verdier</string>
+    <string name="math_func_desc_11">Minste verdi av de to dobbelte verdiene</string>
+    <string name="math_func_desc_12">Første verdi opphøyd i andre verdi som argumentet</string>
+    <string name="math_func_desc_13">Dobbeltverdi som er nærmeste verdi i argumentet og er lik med et matematisk heltall</string>
+    <string name="math_func_desc_14">Nærmest lang til en dobbelt verdi</string>
+    <string name="math_func_desc_15">Sinus for en vinkel</string>
+    <string name="math_func_desc_16">Kvadratroten av en dobbeltverdi</string>
+    <string name="math_func_desc_17">Trigonometriske tangens for en vinkel</string>
+    <string name="math_func_desc_18">Funsjonen konverterer en vinkel målt i radianer til motsvarende vinkel målt i grader</string>
+    <string name="math_func_desc_19">Funsjonen konverterer en vinkel målt i grader till motsvarende vinkel målt i radianer.</string>       
+</resources>

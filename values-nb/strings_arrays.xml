@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call">Ringe</string>
+    <string name="send_sms">Sende SMS</string>
+    <string name="light_theme">Lyst Tema</string>
+    <string name="dark_theme">Mørkt Tema</string>
+    <string name="datetime_filter_items_today">Idag</string>
+    <string name="datetime_filter_items_yesterday">Igår</string>
+    <string name="datetime_filter_items_week">Denne uken</string>
+    <string name="datetime_filter_items_month">Denne mnd</string>
+    <string name="datetime_filter_items_last_week">Forrige uke</string>
+    <string name="datetime_filter_items_last_month">Forrige mnd</string>
+    <string name="datetime_filter_items_custom">Vanlig</string>
+    <string name="template_category_arts">Kunst</string>
+    <string name="template_category_business">Næringsliv</string>
+    <string name="template_category_contacts">Kontakter og personer</string>
+    <string name="template_category_cook">Matlaging, mat og vin</string>
+    <string name="template_category_edu">Utdannelse</string>
+    <string name="template_category_events">Hendelser Planlegging</string>
+    <string name="template_category_fin">Økonomi</string>
+    <string name="template_category_health">Helse</string>
+    <string name="template_category_home">Hjem og fritid</string>
+    <string name="template_category_internet">Internet och passord</string>
+    <string name="template_category_music">Musikk og Film</string>
+    <string name="template_category_research">Forskning og Notater</string>
+    <string name="template_category_sports">Sport</string>
+    <string name="template_category_travel">Reiser</string>
+    <string name="template_category_other">Andre kategorier</string>
+    <string name="flex_edit_option_values_list">Listeposter</string>
+    <string name="flex_edit_option_values_card">Kortposter</string>
+    <string name="date_format_list_current_locale">Gjeldende sted</string>
+    <string name="date_format_list_date_pref">Bruker\'s dato preferanse</string>
+    <string name="db_location_pref_internal">Intern enhetslagring</string>
+    <string name="db_location_pref_sd">SD kort</string>    
+</resources>
