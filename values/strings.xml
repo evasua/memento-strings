@@ -966,7 +966,7 @@
     <string name="aggregation_delete_title">Delete the aggregation</string>
     <string name="aggregation_delete_message">Do you really want to delete the aggregation \"%s\" ?</string>
     <string name="aggregation_need_select_field_message">You must select a field for this aggregation function</string>
-    <string name="open_object_by_uri_error">Не могу открыть объект: %s</string>
+    <string name="open_object_by_uri_error">Can't open object: %s</string>
     <string name="import_and_export_menu_item">Import and export...</string>
     <string name="entries_export_snackbar_ok">Entries exported successfully</string>
     <string name="entries_import_result_dialog_title">Import entries</string>
