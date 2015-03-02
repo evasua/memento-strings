@@ -906,14 +906,10 @@
     <string name="only_title_on_tile">Only the name of the library</string>
     <plurals name="fields_count">
         <item quantity="one">One field</item>
-    	<item quantity="few">%d fields</item>
-    	<item quantity="many">%d fields</item>       
         <item quantity="other">%d fields</item>                
     </plurals>
     <plurals name="libraries_count">
         <item quantity="one">One library</item>
-    	<item quantity="few">%d libraries</item>
-    	<item quantity="many">%d libraries</item>       
         <item quantity="other">%d libraries</item>                
     </plurals>
     <string name="empty">Empty</string>
@@ -955,8 +951,6 @@
     <plurals name="string_list_import_snackbar_ok">
         <item quantity="zero">Imported 0 items</item>
         <item quantity="one">Imported %d item</item>
-    	<item quantity="few">Imported %d items</item>
-    	<item quantity="many">Imported %d items</item>       
         <item quantity="other">Imported %d items</item>
       </plurals>
     <string name="export_template_snackbar_ok">The template has been exported</string>
@@ -985,15 +979,10 @@
     <plurals name="rating_stars_count">
         <item quantity="zero">%d star</item>
         <item quantity="one">%d star</item>
-    	<item quantity="few">%d stars</item>
-    	<item quantity="many">%d stars</item>       
         <item quantity="other">%d stars</item>
      </plurals>
     <plurals name="delete_entries_snackbar_text">
-        <item quantity="zero"/>
         <item quantity="one">%d entry has been moved to trash</item>
-    	<item quantity="few">%d entries has been moved to trash</item>
-    	<item quantity="many">%d entries has been moved to trash</item>       
         <item quantity="other">%d entries has been moved to trash</item>
      </plurals>
     <string name="auto_fill_barcode_empty2">Compare the attributes of the autocomplete source and entry fields</string>
