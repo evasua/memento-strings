@@ -1,0 +1,100 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="math_func_desc_0">Absolute value of a double value.</string>
+    <string name="math_func_desc_1">Arc cosine of an angle.</string>
+    <string name="math_func_desc_2">Arc sine of an angle.</string>
+    <string name="math_func_desc_3">Arc tangent of an angle.</string>
+    <string name="math_func_desc_4">The function converts rectangular coordinates to polar</string>
+    <string name="math_func_desc_5">Ceiling value of a double value</string>
+    <string name="math_func_desc_6">Trigonometric cosine of an angle</string>
+    <string name="math_func_desc_7">Exponential number e (i.e., 2.718...) raised to the power of a double value</string>
+    <string name="math_func_desc_8">Floor value of a double value.</string>
+    <string name="math_func_desc_9">Natural logarithm (base e) of a double value</string>
+    <string name="math_func_desc_10">Greater of two double values</string>
+    <string name="math_func_desc_11">Smaller of two double values</string>
+    <string name="math_func_desc_12">Value of the first argument raised to the second power of the second argument</string>
+    <string name="math_func_desc_13">Double value that is closest in value to the argument and is equal to a mathematical integer</string>
+    <string name="math_func_desc_14">Closet long to a double value</string>
+    <string name="math_func_desc_15">Sine of an angle</string>
+    <string name="math_func_desc_16">A square root of a double value</string>
+    <string name="math_func_desc_17">Trigonometric tangent of an angle</string>
+    <string name="math_func_desc_18">The function converts an angle measured in radians to the equivalent angle measured in degrees</string>
+	<string name="math_func_desc_19">The function converts an angle measured in degress to the equivalent angle measured in radians.</string>  	
+ 	
+ 	
+
+	 <string name="function_args_compareto">
+		<![CDATA[
+    	<b>Parameters:</b> The first argument is the first string to compare and the second argument is the second string to compare.<br/>
+    	<b>Returns:</b> Returns an integer value of zero if the strings are equal, an integer value less than zero if the first string precedes the second string or an integer value greater than zero if the first string follows the second string.    	
+  		]]>	     	    
+	 </string>
+	 
+	 <string name="function_args_comparetoignorecase">
+		<![CDATA[
+    	<b>Parameters:</b> The first argument is the first string to compare and the second argument is the second string to compare.<br/>
+    	<b>Returns:</b> Returns an integer value of zero if the strings are equal, an integer value less than zero if the first string precedes the second string or an integer value greater than zero if the first string follows the second string.    	
+  		]]>	  	     	     	     
+	 </string>
+	 
+	 <string name="function_args_concat">
+		<![CDATA[
+    	<b>Parameters:</b> The first argument is the string in which the second argument string will be concatenated. <br/>
+    	<b>Returns:</b> Returns a string that is made up the first string, followed by the second string.    	
+  		]]>	  		     	     
+	 </string>
+	 
+	 <string name="function_args_endswith">
+		<![CDATA[
+    	<b>Parameters:</b> The first argument is the string to test and second argument is the suffix. <br/>
+    	<b>Returns:</b> Returns "1.0" (true) if the string ends with the suffix, otherwise it returns "0.0" (false).    	
+  		]]>	  		     	     
+	 </string>	 
+	 
+	 <string name="function_args_equals">
+		<![CDATA[
+    	<b>Parameters:</b> The first argument is a string that will be compared to the second argument string.<br/>
+    	<b>Returns:</b> Returns "1.0" (true) if the strings is equals, otherwise it returns "0.0" (false).    	
+  		]]>	  		     	     
+	 </string>	 	 
+	 
+	 <string name="function_args_equalsignorecase">
+		<![CDATA[
+    	<b>Parameters:</b> The first argument is a string that will be compared to the second argument string.<br/>
+    	<b>Returns:</b> Returns "1.0" (true) if the strings is equals, otherwise it returns "0.0" (false).    	
+  		]]>	  		     	     
+	 </string>	 	
+	 
+	 <string name="function_args_indexof">
+		<![CDATA[
+    	<b>Parameters:</b> The first argument is the source string, the second argument is the substring and the third argument is the index.<br/>
+    	<b>Returns:</b> Returns The index at where the substring is found. If the substring is not found, then -1 is returned. 	
+  		]]>	  		     	     
+	 </string>	 	
+	 
+	 
+	 <string name="function_args_replace">
+		<![CDATA[
+    	<b>Parameters:</b> The first argument is the source string to replace the charactes in. 
+    		The second argument is the old character to replace in the source string. 
+    		The third argument is the new character to replace the old character with in the source string.<br/>
+    	<b>Returns:</b> Returns a string with every occurence of the old character replaced with the new character.
+  		]]>	  		     	     
+	 </string>	
+	 
+	 <string name="function_args_startswith">
+		<![CDATA[
+    	<b>Parameters:</b> The first argument is the string to test, the second argument is the prefix and the third argument is the index to start at. <br/>
+    	<b>Returns:</b> Returns "1.0" (true) if the string starts with the prefix, otherwise it returns "0.0" (false).
+  		]]>	  		     	     
+	 </string>	 
+	 
+	 <string name="function_args_substring">
+		<![CDATA[
+    	<b>Parameters:</b> The first argument is the  source string, the second argument is the beginning index and the third argument is the ending index.<br/>
+    	<b>Returns:</b> Returns the specified substring.
+  		]]>	  		     	     
+	 </string>	 	 	 
+	 	 	
+	 	 
+</resources>
