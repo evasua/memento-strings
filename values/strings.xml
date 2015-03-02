@@ -1118,19 +1118,4 @@
     <string name="slice_text_value">Value</string>
     <string name="slice_text_label">Label</string>
     <string name="slice_text_none">None</string>
-    <string name="chart_discrete_axis">Discrete axis</string>
-    <string name="chart_continuous_axis">Continuous axis</string>
-    <string name="edit_library_tabs_facade">FACADE</string>
-    <string name="edit_library_tabs_fields">FIELDS</string>
-    <string name="edit_library_tabs_aggr">AGGREGATION</string>
-    <string name="show_soft_keyboard_no">Don\'t show</string>
-    <string name="show_soft_keyboard_create">When you create entry</string>
-    <string name="show_soft_keyboard_always">Always</string>
-    <string name="auto_backup_time_never">Never</string>
-    <string name="auto_backup_time_always">Every time</string>
-    <string name="auto_backup_time_hour">No more than once per hour</string>
-    <string name="auto_backup_time_day">No more than once a day</string>
-    <string name="all">All</string>
-    <string name="page">Page</string>
-    <string name="translate">Translate</string>
 </resources>
