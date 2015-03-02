@@ -885,8 +885,8 @@
     <string name="create_chart">Create chart</string>
     <string name="edit_chart">Edit chart</string>
     <string name="edit_library_main_color">Color of library</string>
-    <string name="color_swatch_description">Color $d</string>
-    <string name="color_swatch_description_selected">Color $d selected</string>
+    <string name="color_swatch_description">Color %d</string>
+    <string name="color_swatch_description_selected">Color %d selected</string>
     <string name="button_palette">Palette...</string>
     <string name="button_own_pictures">Gallery...</string>
     <string name="icon_pack_title_flat">Flat</string>
@@ -954,10 +954,10 @@
     <string name="something_wrong_dialog_title">Something wrong</string>
     <plurals name="string_list_import_snackbar_ok">
         <item quantity="zero">Imported 0 items</item>
-        <item quantity="one">Imported %1$d item</item>
-    	<item quantity="few">Imported %1$d items</item>
-    	<item quantity="many">Imported %1$d items</item>       
-        <item quantity="other">Imported %1$d items</item>
+        <item quantity="one">Imported %d item</item>
+    	<item quantity="few">Imported %d items</item>
+    	<item quantity="many">Imported %d items</item>       
+        <item quantity="other">Imported %d items</item>
       </plurals>
     <string name="export_template_snackbar_ok">The template has been exported</string>
     <string name="import_template_error">Error import template: %s</string>
@@ -983,18 +983,18 @@
     <string name="google_sync_without_memento_id_text">This library is synchronized using the old method, which has the potential errors.\nPerform the rebinding of the library to the new table to use the new method.\nRun rebinding now?</string>
     <string name="rating_field_max_value">Maximum rating</string>
     <plurals name="rating_stars_count">
-        <item quantity="zero">%1$d star</item>
-        <item quantity="one">%1$d star</item>
-    	<item quantity="few">%1$d stars</item>
-    	<item quantity="many">%1$d stars</item>       
-        <item quantity="other">%1$d stars</item>
+        <item quantity="zero">%d star</item>
+        <item quantity="one">%d star</item>
+    	<item quantity="few">%d stars</item>
+    	<item quantity="many">%d stars</item>       
+        <item quantity="other">%d stars</item>
      </plurals>
     <plurals name="delete_entries_snackbar_text">
         <item quantity="zero"/>
-        <item quantity="one">%1$d entry has been moved to trash</item>
-    	<item quantity="few">%1$d entries has been moved to trash</item>
-    	<item quantity="many">%1$d entries has been moved to trash</item>       
-        <item quantity="other">%1$d entries has been moved to trash</item>
+        <item quantity="one">%d entry has been moved to trash</item>
+    	<item quantity="few">%d entries has been moved to trash</item>
+    	<item quantity="many">%d entries has been moved to trash</item>       
+        <item quantity="other">%d entries has been moved to trash</item>
      </plurals>
     <string name="auto_fill_barcode_empty2">Compare the attributes of the autocomplete source and entry fields</string>
     <string name="barcode_rule_delete_title">Delete the rule</string>
