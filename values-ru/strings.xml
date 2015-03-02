@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Добавить</string>
@@ -140,8 +140,8 @@
     <string name="activate_main_text">Перейти на PRO версию</string>
     <string name="activation_dialog_text_hint">Введите код активации</string>
     <string name="activation_dialog_title">Активация PRO версии</string>
-    <string name="activation_ok">Thank you for activation Memento</string>
-    <string name="activation_error">Activation code is invalid. Please, try again.</string>
+    <string name="activation_ok">Спасибо за активацию Memento Database</string>
+    <string name="activation_error">Код активации неверен. Попробуйте ещё раз.</string>
     <string name="about">О программе</string>
     <string name="copyright">Copyright © 2013 LuckyDroid\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
@@ -325,7 +325,7 @@
     <string name="unpublish_success">Библиотека снята с публикации</string>
     <string name="unpublic_message_text">Вы действительно желаете снять библиотеку \"%s\" с публикации?</string>
     <string name="unbind_from_gdocs_hint">Отвязка библиотеки от Google Sheets</string>
-    <string name="preference_category_google_docs">Google Sheets</string>
+    <string name="preference_category_google_docs">Google Таблицы</string>
     <string name="unbind_from_google_docs_success">Отвязка библиотеки от Google Sheets выполнена</string>
     <string name="preference_category_memento_server">Memento Server</string>
     <string name="unpublic_library_hint">Снятие библиотеки с публикации в интернете</string>
@@ -409,7 +409,7 @@
     <string name="library_protection_pass">Пароль</string>
     <string name="library_protection_pass_checkbox">Доступ по паролю</string>
     <string name="buy_from_market_title">Купить через Google Play</string>
-    <string name="buy_from_market_hint">Google Wallet</string>
+    <string name="buy_from_market_hint">Google Кошелек</string>
     <!-- 1.6.2 -->
     <string name="flex_type_password">Пароль</string>
     <string name="flex_type_phone">Телефон</string>
@@ -445,7 +445,7 @@
     <!-- 1.7.5 -->
     <string name="template_save_button">Экспорт</string>
     <string name="template_load_button">Импорт</string>
-    <string name="template_share_button">Share</string>
+    <string name="template_share_button">Поделиться</string>
     <string name="library_template_name">Имя шаблона</string>
     <string name="template_category">Категория</string>
     <string name="template_description">Описание шаблоны</string>
@@ -697,7 +697,7 @@
     <!-- 2.3.0 -->
     <string name="start_reindex_title">Переиндексация</string>
     <string name="start_reindex_summary">Пересоздание поискового индекса</string>
-    <string name="search_pref_category">Search</string>
+    <string name="search_pref_category">Поиск</string>
     <string name="reindex_complete_message">Переиндексация выполнена</string>
     <string name="files_backup_not_found_files">Не найденные файлы</string>
     <string name="files_storage_settings_screen">Хранилище файлов</string>
@@ -712,9 +712,9 @@
     <string name="normal">Схема</string>
     <string name="hybrid">Гибрид</string>
     <string name="satellite">Спутник</string>
-    <string name="terrain">Terrain</string>
+    <string name="terrain">Местность</string>
     <string name="open_map_menu_item">Карта</string>
-    <string name="google_drive">Google Drive"</string>
+    <string name="google_drive">Google Диск</string>
     <string name="none_files_cloud_storage">Нет</string>
     <string name="select_files_cloud_storage">Выберите облачное хранилище для синхронизации</string>
     <string name="files_cloud_storage_pref">Синхронизация файлов</string>
