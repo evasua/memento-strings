@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Přidat záznam</string>
@@ -178,8 +178,7 @@
     <string name="export_error">Chyba při exportu záznamů: %s</string>
     <string name="library_saved">Knihovna uložena</string>
     <string name="library_created">Knihovna vytvořena</string>
-    <string name="msg_default_status">Umístěte čarový kód doprostřed hledáčku pro naskenování.
-  	</string>
+    <string name="msg_default_status">Umístěte čarový kód doprostřed hledáčku pro naskenování.</string>
     <string name="scan_library_item">Skenování čarového kódu</string>
     <string name="search_product_title">Hledání produktu v Google Base ...</string>
     <string name="empty_result_text">Bohužel\nProdukt nenalezen</string>
@@ -534,7 +533,7 @@
     <string name="google_doc_exists_link_option">Parametry propojení knihoven</string>
     <string name="get_google_docs_columns_message">Stažení seznamu sloupců pro vybranou Google tabulku ...</string>
     <string name="field_not_found">Nenalezen</string>
-    <string name="field_not_sync">Nesynchr.</string>
+    <string name="field_not_sync">Nesynchr</string>
     <string name="link_button">Propojit</string>
     <string name="prepare_linking_library">Příprava k propojení ... </string>
     <string name="error_prepare_linking">Chyba při přípravě k propojení: %s</string>
