@@ -947,7 +947,7 @@
     <string name="aggregation_delete_message">Вы действительно хоитите удалмит агрегацию \"%s\" ?</string>
     <string name="aggregation_need_select_field_message">Вы должны выбрать поле для функции агрегирования</string>
     <string name="open_object_by_uri_error">Не могу открыть объект: %s</string>
-    <string name="import_and_export_menu_item">Импорт и экспорт</string>
+    <string name="import_and_export_menu_item">Импорт и экспорт…</string>
     <string name="entries_export_snackbar_ok">Записи успешно экспортированы</string>
     <string name="entries_import_result_dialog_title">Результаты импорта</string>
     <string name="csv_import_total_lines">Обработано строк:</string>
@@ -970,7 +970,7 @@
     	<item quantity="many">%1$d записей отправлено в корзину</item>       
         <item quantity="other">%1$d записей отправлено в корзину</item>
      </plurals>
-    <string name="auto_fill_barcode_empty2">Сопоставьте атрибуты из источника автозаполнения и поля записей.</string>
+    <string name="auto_fill_barcode_empty2">Сопоставьте атрибуты из источника автозаполнения и поля записей</string>
     <string name="barcode_rule_delete_title">Удалить правило</string>
     <string name="barcode_rule_delete_text">Вы действительно хотите удалить правило автозаполнения для поля \"%s\" ?</string>
     <string name="multi_library_item_trush_message_text">Вы действительно хотите отправить выбранные записи в Корзину ?</string>
@@ -981,8 +981,8 @@
     <string name="library_recover_snackbar_text">Библиотека восстановлена в группе \"%s\"</string>
     <string name="sort_by_name">Сортировка по Имени</string>
     <string name="sort_by_time">Сортировка по Времени</string>
-    <string name="favorites_empty_list_layout">Нет избранных записей</string>
-    <string name="history_empty_list_layout">Нет ранее просмотренных записей</string>
+    <string name="favorites_empty_list_layout">Нет избранных записей.</string>
+    <string name="history_empty_list_layout">Нет ранее просмотренных записей.</string>
     <string name="clear_history">Очистить историю</string>
     <string name="entry_not_found">Запись не найдена</string>
     <string name="field">Поле</string>
@@ -997,7 +997,7 @@
     <string name="sort_by_downloads">Сортировка по загрузкам</string>
     <string name="need_auth_on_memento_server">Требуется создать аккаунт на Memento Server</string>
     <string name="empty_my_templates_list">У вас пока нет опубликованных шаблонов библиотек.</string>
-    <string name="empty_field_depend_list">Это поле не имеет зависимостей от других полей</string>
+    <string name="empty_field_depend_list">Это поле не имеет зависимостей от других полей.</string>
     <string name="share_template_dialog_title">Поделиться шаблоном через он-лайн каталог</string>
     <string name="catalog_templates">Каталог шаблонов</string>
     <string name="empty_search_result2">По запросу %s ничего не найдено</string>
@@ -1015,7 +1015,7 @@
     <string name="flex_edit_option_in_table">таблица</string>
     <string name="table_cell_image_text">ПОКАЗАТЬ</string>
     <string name="table_column_width">Ширина столбца</string>
-    <string name="empty_list_after_filter">Нет записей удовлетворяющих условиям фильтра</string>
+    <string name="empty_list_after_filter">Нет записей удовлетворяющих условиям фильтра.</string>
     <string name="size_of_line">Размер линии</string>
     <string name="map_coord_source_network">Сеть</string>
     <string name="search_address_hint">Поиск адреса</string>
