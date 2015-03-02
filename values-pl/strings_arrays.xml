@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call">Zadzwoń</string>
+    <string name="send_sms">Wyślij SMS</string>
+    <string name="light_theme">Jasny Temat</string>
+    <string name="dark_theme">Czarny Temat</string> 
+</resources>

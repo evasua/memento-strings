@@ -1,2 +1,551 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Memento</string>
+    <string name="library_menu_add_item">Dodaj rekord</string>
+    <string name="main_menu_add_lib">Dodaj bazę</string>
+    <string name="ghostData_lib_title">Nazwa bazy</string>
+    <string name="custom_template_title">Użytkownika</string>
+    <string name="button_create">Dodaj</string>
+    <string name="button_yes">Tak</string>
+    <string name="button_ok">OK</string>
+    <string name="button_no">Nie</string>
+    <string name="button_save">Zapisz</string>
+    <string name="button_cancel">Anuluj</string>
+    <string name="button_add_field">Dodaj pole</string>
+    <string name="add_new_library_item">Dodaj rekord ...</string>
+    <string name="flex_type_title_string">Tekst</string>
+    <string name="flex_type_title_int">Liczba całkowita</string>
+    <string name="flex_type_title_bool">Zmienna</string>
+    <string name="flex_type_title_date">Data</string>
+    <string name="flex_type_title_date_time">Data/Godz.</string>
+    <string name="flex_type_contact">Kontakt</string>
+    <string name="flex_type_image">Zdjęcie</string>
+    <string name="flex_type_string_list">Ciąg wartości</string>
+    <string name="flex_type_audio">Dźwięk</string>
+    <string name="flex_type_money">Waluta</string>
+    <string name="flex_type_rating">Ocena</string>
+    <string name="flex_type_web">Hiperlink</string>
+    <string name="flex_type_map">Pozycja w Google Maps</string>
+    <string name="flex_type_real">Liczba rzeczywista</string>
+    <string name="field_list_caption">Pola bazy</string>
+    <string name="flextemplate_up_item">Do góry</string>
+    <string name="flextemplate_down_item">W dół</string>
+    <string name="flextemplate_edit_item">Edytuj</string>
+    <string name="flextemplate_delete_item">Usuń</string>
+    <string name="ghostData_template_title">Wprowadź nazwę pola</string>
+    <string name="template_title">Nazwa pola</string>
+    <string name="select_flex_template_title">Typ pola</string>
+    <string name="select_flex_template_role">Funkcja pola</string>
+    <string name="select_create_lib_template">Wybierz szablon bazy</string>
+    <string name="button_next">Dalej</string>
+    <string name="select_flex_template_type">Typ pola</string>
+    <string name="default_value">Wartość domyślna</string>
+    <string name="flex_template_options_title">Parametry
+zaawansowane</string>
+    <string name="error_template_empty_title">Wprowadź nazwę pola</string>
+    <string name="error_library_withous_name_flex">Baza musi posiadać
+przynajmniej jedno pole z funkcją – \"nazwa\".</string>
+    <string name="select_library_icon_activity">Wybór ikony dla
+bazy</string>
+    <string name="select_flex_template_role_title">Funkcja pola</string>
+    <string name="library_edit2">Edytuj bazę</string>
+    <string name="library_edit">Edytuj</string>
+    <string name="library_delete">Usuń</string>
+    <string name="library_delete_message_title">Usuń bazę</string>
+    <string name="library_delete_message_text">Naprawdę chcesz usunąć
+bazę \"%s\" ?</string>
+    <string name="error_library_empty_title">Wprowadź nazwę bazy</string>
+    <string name="library_item_edit">Edytuj</string>
+    <string name="library_item_delete">Usuń</string>
+    <string name="library_item_delete_message_text">Naprawdę chcesz
+usunąć rekord \"%s\" ?</string>
+    <string name="library_item_trush_message_text">Naprawdę chcesz wysłać
+rekord \"%s\" do kosza ?</string>
+    <string name="library_items_count">Rekordów: %s</string>
+    <string name="library_menu_select_sort">Sortuj</string>
+    <string name="library_menu_select_group">Grupuj</string>
+    <string name="select_sort_template">Wybierz pole do sortowania</string>
+    <string name="select_group_template">Wybierz pole do grupowania</string>
+    <string name="sort_by_date">Data utworzenia</string>
+    <string name="flex_delete_message_title">Usuń pole</string>
+    <string name="flex_delete_message_text">Naprawdę chcesz usunąć pole
+\"%s\" ?</string>
+    <string name="not_group">Bez grupowania</string>
+    <string name="bool_yes">Tak</string>
+    <string name="bool_not">Nie</string>
+    <string name="group_null_value">Puste rekordy</string>
+    <string name="date_not_set">Puste pole</string>
+    <string name="set_default_value">Wprowadź wartość domyślną</string>
+    <string name="date_default_null">Pole domyślnie puste</string>
+    <string name="date_default_now">Domyślnie obecna data</string>
+    <string name="search">Szukaj</string>
+    <string name="search_hint">Czego szukamy ?</string>
+    <string name="search_parse_exception_messagee">Niewałaściwa wartość szukania</string>
+    <plurals name="NItemsFind">
+        <item quantity="one">Znalezionych wpisów: 1</item>
+        <item quantity="few">Znalezionych wpisów: <xliff:g id="COUNT">%d</xliff:g>
+        </item>
+        <item quantity="many">Znalezionych wpisów: <xliff:g id="COUNT">%d</xliff:g>
+        </item>
+        <item quantity="other">Znalezionych wpisów: <xliff:g id="COUNT">%d</xliff:g>
+        </item>
+    </plurals>
+    <string name="memento_search">Wyszukiwanie Memento</string>
+    <string name="memento_search_in_lib">Wyszukiwanie Memento w"%s"</string>
+    <string name="removed">Usunięty %s</string>
+    <string name="trush">Kosz</string>
+    <string name="library_item_restore">Przywracanie</string>
+    <string name="clear_trash">Opróżnij Kosz</string>
+    <string name="clear_trash_progress_dialog_title">Kosz pusty</string>
+    <string name="clear_trash_dialog_title">Opróżnij Kosz</string>
+    <string name="clear_trash_dialog_text">Czy naprawdę chcesz usunąć z
+Kosza wszystkie wpisy ?</string>
+    <string name="mobile">komórka</string>
+    <string name="home">domowy</string>
+    <string name="work">praca</string>
+    <string name="other">inny</string>
+    <string name="pager">pager</string>
+    <string name="image_not_found">Obrazu nie znaleziono</string>
+    <string name="audio_not_found">Nie znaleziono pliku audio</string>
+    <string name="flex_type_money_currency_dlg_title">Wybierz walutę</string>
+    <string name="flex_type_money_currency_option_title">Waluta</string>
+    <string name="flex_type_money_default_currency">PLN</string>
+    <string name="flex_role_not_usage">Zwykłe pole</string>
+    <string name="flex_role_name">Pole nazwy</string>
+    <string name="flex_role_hint">Pole opisu</string>
+    <string name="flex_role_status">Pole statusu</string>
+    <string name="short_flex_role_name">nazwa</string>
+    <string name="short_flex_role_hint">opis</string>
+    <string name="short_flex_role_status">status</string>
+    <string name="item_add_to_favorite">Rekord jest dodany do
+Ulubionych</string>
+    <string name="item_remove_from_favorite">Rekord jest usunięty z
+ulubionych</string>
+    <string name="history_dialog_title">Historia</string>
+    <string name="favorites_dialog_title">Ulubione</string>
+    <string name="map_coord_not_set_hint">Dotknij by wybrać
+lokalizację</string>
+    <string name="select_map_coord">Wybór lokalizacji</string>
+    <string name="find_selected_address">Szukanie adresu ...</string>
+    <string name="open_gmap">Otwórz Mapy Google</string>
+    <string name="help">Pomoc</string>
+    <string name="preference_category_backup">Kopia</string>
+    <string name="main_preferences_title">Ustawienia</string>
+    <string name="backup_preference">Kopiuj</string>
+    <string name="backup_summary_preference">Kopiowanie wszystkich bazy na
+kartę pamięci</string>
+    <string name="backup_fail">Błąd kopiowania</string>
+    <string name="cdcard_not_found">Przepraszam, Twoja karta SD jest
+zajęta</string>
+    <string name="backup_process">Kopiowanie baz.</string>
+    <string name="restore_preference">Odzyskiwanie</string>
+    <string name="restore_summary_preference">Odzyskiwanie baz z kopii</string>
+    <string name="backup_file_not_found">Nie znaleziono plików kopii.</string>
+    <string name="restore_dialog_message">W trakcie odtwarzania kopii,
+istniejące bazy zostaną zastąpione bazami z kopii.\nWszystkie zmiany
+wprowadzone po stworzeniu kopii zostaną utracone.\nZacząć odtwarzanie
+?</string>
+    <string name="backup_dialog_message">Zastąpić istniejący plik kopii
+?</string>
+    <string name="restore_success">Bazy zostały pomyślnie odtworzone z
+plików kopii.</string>
+    <string name="restore_step1">Odtwarzanie</string>
+    <string name="restore_step2">Czyszczenie cache</string>
+    <string name="clear_index">Usuwanie indeksów</string>
+    <string name="reindex">Reindeksowanie:</string>
+    <string name="load_templates_title">Ładowanie szablonów</string>
+    <string name="load_templates_message">Proszę czekać, szablony baz są
+ładowane.</string>
+    <string name="help_title">Pomoc Memento</string>
+    <string name="activate_button_title">Aktywuj wersję PRO</string>
+    <string name="activate_button_hint">Potrzebujesz klucz aktywacyjny</string>
+    <string name="activate_main_text">Uaktualnij do wersji PRO</string>
+    <string name="activation_dialog_text_hint">Kod aktywacji</string>
+    <string name="activation_dialog_title">Uaktualnienie do wersji PRO</string>
+    <string name="activation_ok">Dziękuję za aktywację Memento</string>
+    <string name="activation_error">Nieważny kod aktywacyjny. Spróbuj
+ponownie.</string>
+    <string name="about">Informacje</string>
+    <string name="copyright">Copyright © 2012 LuckyDroid\nWszelkie prawa
+zastrzeżone</string>
+    <string name="luckydroid_web">www.mementodatabase.com</string>
+    <string name="about_hint">Sprawdź wersję programu</string>
+    <string name="about_license_type">Licencja:</string>
+    <string name="pro_version">Wersja PRO</string>
+    <string name="send_library_item">Wyślij</string>
+    <string name="send_chooser_title">Wybierz aplikację:</string>
+    <string name="create_shortcut">Utwórz skrót</string>
+    <string name="app_name_library">Baza Memento</string>
+    <string name="error_cant_open_memento_dir">Błąd: nie mogę otworzyć
+folderu memento na karcie SD</string>
+    <string name="preference_category_csv_import">Operacje na danych</string>
+    <string name="csvexport">Eksport do CSV</string>
+    <string name="csvexport_summary">Eksportowanie rekordów do pliku
+CSV</string>
+    <string name="csvimport">Import z pliku CSV</string>
+    <string name="csvimport_from">Import z %s</string>
+    <string name="csvexport_to">Eksport do %s</string>
+    <string name="csvimport_summary">Import rekordów z pliku CSV</string>
+    <string name="select_csv_file_title">Pliki CSV w katalogu memento</string>
+    <string name="button_import">Importuj</string>
+    <string name="button_export">Eksportuj</string>
+    <string name="find_csv_column_title">Pola rekordów znalezione we wskazanym
+pliku:</string>
+    <string name="not_find_csv_column_title">Nie znaleziono pól we wskazanym
+pliku.</string>
+    <string name="csv_delimiter_text">Wartości kolumn muszą być rozdzielone
+przecinkiem (,)</string>
+    <string name="need_title_column_text">Nazwa kolumny musi być taka sama jak
+nazwa pola rekordu. </string>
+    <string name="csv_result_import_text">Rekordy zostały
+zaimportowane</string>
+    <string name="csv_result_import_succes_items">Dodane rekordy:</string>
+    <string formatted="false" name="csv_result_import_fail_items">Numery wierszy z błędami: %s
+\nWiersze: %s</string>
+    <string name="enter_csv_name_dialog_title">Eksport do pliku CSV</string>
+    <string name="enter_csv_name_dialog_value_title">Wprowadź nazwę pliku
+CSV</string>
+    <string name="enter_csv_name_dialog_value_hint">Nazwa pliku</string>
+    <string name="export_success">Rekordy zostały wyeksportowane do
+/sdcard/memento/%s</string>
+    <string name="export_error">Błąd eksportu rekordów: %s</string>
+    <string name="library_saved">Baza zapisana</string>
+    <string name="library_created">Baza utworzona</string>
+    <string name="msg_default_status">Aby zeskanować, umieść kod paskowy
+wewnątrz pola.
+  	</string>
+    <string name="scan_library_item">Skanowanie Barcodu</string>
+    <string name="search_product_title">Szukanie produktu w Bazie Google
+...</string>
+    <string name="empty_result_text">Przepraszam\nProdukt nie został
+znaleziony</string>
+    <string name="add_entry_manual">Dodaj ręcznie ...</string>
+    <string name="fill_entry_manual">Uzupełnij ręcznie ...</string>
+    <string name="flex_type_barcode">Kod paskowy</string>
+    <string name="flex_type_barcode_option">Automatyczna konfiguracja
+pola</string>
+    <string name="button_add_fill_field">Dodaj zasadę
+autouzupełniania</string>
+    <string name="barcode_auto_fill_checkbox">Pole autouzupełniania</string>
+    <string name="add_fill_field_dialog_title">Tworzeniezasady
+autouzupełniania</string>
+    <string name="memento_field">Zostanie to zachowane w polach
+rekordu</string>
+    <string name="memento_field_promt">Pola rekordu bazy</string>
+    <string name="uniquery_check_fail">Baza może zawierać tylkoo jedno pole
+typu "%s"</string>
+    <string name="to">do</string>
+    <string name="barcode_search">Szukanie Barcode</string>
+    <!-- 1.2.1 -->
+    <string name="msg_camera_framework_bug">Przepraszam, kamera Androida
+napotkała problem. Może być konieczny restart urządzenia.</string>
+    <!-- 1.2.3 -->
+    <string name="deleted_library_hint">Rekordy: %s</string>
+    <string name="preference_restore_libs_title">Odzyskiwanie baz</string>
+    <string name="preference_restore_libs_hint">Odzyskiwanie usuniętych
+baz</string>
+    <string name="preference_category_general">Główne</string>
+    <string name="library_import_and_export">Import i Eksport</string>
+    <string name="recovering">Odzyskiwanie</string>
+    <string name="recovering_message">Odzyskiwanie bazy</string>
+    <string name="library_recover">Odzyskaj</string>
+    <string name="deleting_library_title">Usuwanie</string>
+    <string name="deleting_library_message">Usuwanie bazy</string>
+    <!-- 1.2.5 -->
+    <string name="view_category">Widok</string>
+    <string name="title_lib_theme_preference">Wygląd</string>
+    <string name="summary_lib_theme_preference">Ustawienia wyglądu
+baz</string>
+    <string name="dialog_title_lib_theme_preference">Ustawienia wyglądu
+baz</string>
+    <!-- 1.3.0 -->
+    <string name="unbind_from_gdocs">Rozłącz z Google Sheets</string>
+    <string name="bind_to_gdocs">Połącz z Google Sheets</string>
+    <string name="bind_to_gdocs_title">Połącz z Google Sheets</string>
+    <string name="unbind_message_title">Rozłącz z Google Sheets</string>
+    <string name="unbind_message_text">Czy naprawdę chcesz odłączyć bazę
+\"%s\" od Google Sheets ?</string>
+    <string name="bind_to_gdocs_message">Łączenie bazy z Arkuszem
+Google.</string>
+    <string name="bind_to_gdocs_success">Baza została połączona z Arkuszem
+Google. Zaczynam synchronizację rekordów.</string>
+    <string name="sync_with_gdocs_success">Zsynchronizowano bazę z Arkuszem Google</string>
+    <string name="sync_with_gdocs_success_2">Zsynchronizowano bazę \"%s\" z Arkuszem Google</string>
+    <string name="sync_with_gdocs_title">Synchronizacja z Google Sheets</string>
+    <string name="sync_with_gdocs_message">Synchronizacja bazy z Arkuszem Google.</string>
+    <string name="sync_with_gdocs_message_2">Synchronizacja bazy \"%s\" z Arkuszem Google.</string>
+    <string name="sync_with_gdocs">Synch. z Google Sheets</string>
+    <string name="google_docs_task_step_auth">Uwierzytelnianie w serwisie
+Google</string>
+    <string name="google_docs_task_step_get_rows">Pobieranie zawartości
+bazy</string>
+    <string formatted="false" name="google_docs_task_step_process_row">Przetwarzanie wierszy. %s
+z %s</string>
+    <string formatted="false" name="google_docs_task_step_send_row">Dodawanie wierszy. %s z
+%s</string>
+    <string formatted="false" name="google_docs_task_step_update_row">Aktualizacja wierszy. %s z
+%s</string>
+    <string name="google_docs_task_create_document">Tworzenie Arkusza</string>
+    <string name="google_docs_task_create_worksheet">Dodawanie Arkusza</string>
+    <string name="google_docs_task_shange_columns">Aktualizacja
+Arkusza</string>
+    <string name="username_hint">Adres email</string>
+    <string name="pass_hint">Hasło</string>
+    <string name="gdocs_error">Błąd synchronizacji z Google Sheets -
+%s</string>
+    <string name="preference_category_accounts">Konta</string>
+    <string name="preference_google_account_title">Konto Google</string>
+    <string name="preference_google_account_hint">Email i hasło Twojego konta
+Google</string>
+    <string name="conflict_dialog_text">Zostały edytowane te same wpisy w
+Memento i Google Sheets. Która wersja jest właściwa ? </string>
+    <string name="copy_memento_to_gdocs">Wpisy z Memento</string>
+    <string name="copy_gdocs_to_memento">Wpisy z Google Sheets</string>
+    <string name="edit_flex_title_disabled">To pole nie może zostać zmienione
+ponieważ baza jest połączona z Google Sheets</string>
+    <string name="cant_bind">Darmowa wersja pozwala na połączenie z z Google
+Docs tylko trzech baz.\nAktualizuj do wersji PRO w celu usunięcia tego
+limitu.</string>
+    <string name="button_pro_version">Wersja PRO</string>
+    <!-- 1.3.1 -->
+    <string name="option_autofill_title">Autouzupełnianie</string>
+    <string name="option_autofill_hint">Pole wyboru możliwych wartości z
+poprzednich wpisów</string>
+    <string name="capture_picture">Zrób zdjęcie</string>
+    <string name="please_wait">Proszę czekać...</string>
+    <!-- 1.4.0 -->
+    <string name="public_library_title">Publikuję bazę</string>
+    <string name="public_to_picasa_message">Wgrywam obrazy bazy do
+Picasa</string>
+    <string name="public_to_picasa_create_album">Tworzenie albumu Picasa dla
+publikowanej bazy</string>
+    <string name="public_to_picasa_success">Obrazy zostały wgrane do
+Picasa</string>
+    <string name="picasa_task_step_auth">Uwierzytelnianie w serwisie
+Picasa</string>
+    <string formatted="false" name="picasa_send_image_step">Wgrywanie obrazów bazy do Picasa. %s
+z %s</string>
+    <string name="public_library">Opublikuj bazę</string>
+    <string name="update_public_library">Aktualizuj publikację</string>
+    <string name="memento_register_account_title">Tworzenie konta\nna serwerze
+Memento</string>
+    <string name="memento_register_account_text">Aby mieć możliwość
+publokowania własnych baz i subskrypcji baz innych użytkowników, wymagane
+jest konto na serwerze Memento</string>
+    <string name="memento_login_hint">Użytkownik</string>
+    <string name="memento_pass_hint">Hasło</string>
+    <string name="memento_pass_hint2">Powtórz hasło</string>
+    <string name="memento_email_hint">Email</string>
+    <string name="memento_register_button">Utwórz</string>
+    <string name="memento_have_button">Mam już konto</string>
+    <string name="login_empty">Wprowadź użytkownika</string>
+    <string name="login_format_error">Login może zawierać tylko litery i
+cyfry</string>
+    <string name="pass_not_equal">Zweryfikuj swoje hasło</string>
+    <string name="incorrect_email">Niewłaściwy email</string>
+    <string name="create_memento_account_dlg_title">Rejestracja</string>
+    <string name="create_memento_account_dlg_text">Rejestruję użytkownika na
+serwerze Memento ...</string>
+    <string name="memento_register_user_exists">Taki użytkownik już
+istnieje</string>
+    <string name="memento_register_email_exists">Użytkownik z takim adresem
+email już istnieje</string>
+    <string name="memento_server_error">Błąd serwera, spróbuj
+później</string>
+    <string name="memento_account_title">Konto Memento</string>
+    <string name="memento_create_account_button">Nowe konto</string>
+    <string name="memento_auth_error">Błędny użytkownik lub hasło</string>
+    <string name="memento_library_lock">Baza jest zablokowana, spróbuj
+później</string>
+    <string name="preference_memento_account_title">Konto Memento</string>
+    <string name="preference_memento_account_hint">Twoje konto Memento. Nazwa
+użytkownika i hasło</string>
+    <string name="public_library_task_auth">Uwierzytelnianie serwisu
+Memento</string>
+    <string name="public_library_task_send_template">Transfer szablonu
+bazy</string>
+    <string formatted="false" name="public_library_task_send_items">Transfer rekordów bazy.\n%s
+z %s</string>
+    <string name="memento_not_support_template">Twoja wersja Memento jest
+nieaktualna, uaktualnij ją</string>
+    <string name="memento_not_found">Nie znaleziono zasobu</string>
+    <string name="alias_hint">Wprowadź alias bazy</string>
+    <string name="button_publish">Publikuj</string>
+    <string name="publish_update_success">Publikacja bazy została
+uaktualniona</string>
+    <string name="private_library_checkbox">Dostęp prywatny</string>
+    <string name="private_library_checkbox_hint">Tylko wskazani użytkownicy
+będą mieli dostęp do bazy</string>
+    <string name="enter_alias">Wprowadź alias bazy</string>
+    <string name="incorrect_alias">Alias może zawierać tylko litery i
+cyfry</string>
+    <string name="public_library_address_text">Adres bazy</string>
+    <string name="alias_exists">Już opublikowałeś bazę z takim
+aliasem</string>
+    <string name="memento_forbidden_error">Dostęp do bazy jest
+zabroniony</string>
+    <string name="publish_library_address">Baza %s jest teraz dostępna
+na</string>
+    <string name="publish_library_address_hint">Twoi przyjaciele mogą używać
+Memento aby przeglądać tą bazę. Aby to zrobić, powinni użyć
+powyższego adresu subskrybując bazę.</string>
+    <string name="deafult_group_title">Moje bazy</string>
+    <string name="subscribe_activity_title">Subskrypcja baz</string>
+    <string name="library_uri_hint">Adres bazy</string>
+    <string name="find_libraries_task_title">Szukanie bazy</string>
+    <string name="find_libraries_task_by_uri">Dostęp do bazy\npo jej
+adresie</string>
+    <string name="find_libraries_task_by_user">Dostęp do listy\nbaz
+użytkownika</string>
+    <string name="libraries_list_result_header">Znalezione bazy</string>
+    <string name="libraries_by_user_not_found">Podany użytkownik nie został
+znaleziony lub nie opublikował baz</string>
+    <string name="library_not_found">Nie znaleziono bazy pod tym
+adresem</string>
+    <string name="wrong_library_address_format">Błędny format adresu
+bazy</string>
+    <string name="last_update">Ostatnia aktualizacja: %s</string>
+    <string name="subscribe_button">Subskrybuj</string>
+    <string name="subscribe_task_get_library">Pobieranie rekordów
+bazy</string>
+    <string name="subscribe_task_create_library">Tworzenie bazy</string>
+    <string formatted="false" name="subscribe_task_save_library_task">Sapisywanie rekordów.\n%s
+z %s</string>
+    <string name="subscribe_task_create_index">Tworzenie indeksów</string>
+    <string name="subscribes_group_title">Moje subskrypcje</string>
+    <string name="library_settings">Ustawienia</string>
+    <string name="subscribe_get_updated_pack">Sprawdzanie aktualizacji</string>
+    <string name="subscribe_have_updated_pack">Otrzymano aktualizację
+bazy</string>
+    <string name="subscribe_last_update">Ostatnia aktualizacja %s</string>
+    <string name="subscribe_last_update_dialog_title">Aktualizuj bazę</string>
+    <string name="subscribe_last_update_dialog_message">Aktualizuję
+bazę</string>
+    <string name="clear_preference">Czyszczenie bazy</string>
+    <string name="clear_preference_hint">Usuwanie wszystkich rekordów w
+bazie</string>
+    <string name="clear_preference_quest">Usunąć wszystkie rekordy bazy
+?</string>
+    <string name="last_sync">Ostatnia synch.: %s</string>
+    <string name="last_public">Opublikowane: %s</string>
+    <string name="unpublic_library_title">Wycofanie publikacji bazy</string>
+    <string name="unpublic_library">Wycofaj publikację</string>
+    <string name="unpublish_success">Publikacja bazy została wycofana</string>
+    <string name="unpublic_message_text">Czy naprawdę chcesz wycofać
+publikację bazy \"%s\" ?</string>
+    <string name="unbind_from_gdocs_hint">Odłącz od Google Sheets</string>
+    <string name="preference_category_google_docs">Google Sheets</string>
+    <string name="unbind_from_google_docs_success">Baza nie jest już
+połączona z Google Sheets</string>
+    <string name="preference_category_memento_server">Serwer Memento</string>
+    <string name="unpublic_library_hint">Wycofanie publikacji bazy</string>
+    <string name="need_unpublic_library">Przed usunięciem bazy powinieneś
+wycofać jej publikację</string>
+    <string name="rename_library">Zmiana nazwy</string>
+    <string name="rename_dialog_title">Zmiana nazwy</string>
+    <string name="rename_dialog_text">Nazwa bazy</string>
+    <string name="flex_image_load">Ładowanie obraz ...</string>
+    <string name="subscribed">Subskrybowana</string>
+    <string name="info_public_library">Adres bazy</string>
+    <string name="cant_public">Darmowa wersja umożliwia Ci publikację tylko
+trzech baz.\nUaktualni do wersji PRO w celu likwidacji tego
+ograniczenia.</string>
+    <string name="add_permission_user_hint">Wprowadź nazwę użytkownika lub
+email</string>
+    <string name="edit_pub_permissions">Prawa dostępu do bazy</string>
+    <string name="edit_pub_permissions_hint">Edycja listy użytkowników
+mających dostęp do bazy</string>
+    <string name="edit_pub_permissions_task_dialog_message">Zmiana praw
+dostępu do bazy</string>
+    <!-- 1.4.5 -->
+    <string name="import_template">Import szablonu</string>
+    <string name="export_template">Eksport szablonu</string>
+    <string name="export_template_error">Błąd eksportu szablonu: %s</string>
+    <string name="import_template_success">Szablon został zaimportowany</string>
+    <string name="wrong_template_version">Twoja wersja Memento nie wspiera wybranego pliku szablonu. Uaktualnij Memento.</string>
+    <string name="flex_type_library_entry">Link do rekordu</string>
+    <string name="flex_type_entry_option_title">Baza</string>
+    <string name="flex_type_entry_option_dlg_title">Wybierz bazę</string>
+    <string name="flex_type_entry_select_library">Wybierz bazę, rekordy, które zostaną użyte w tym polu.</string>
+    <string name="error_template_wrong_title">Nazwa pola może zawierać jedynie litery i cyfry</string>
+    <!-- 1.4.8 -->
+    <string name="filter_not_set">Brak Filtrów</string>
+    <string name="filters">Filtry</string>
+    <string name="button_remove_all">Usuń wszystko</string>
+    <string name="period">Okres</string>
+    <string name="period_from">Okres od</string>
+    <string name="period_to">Okres do</string>
+    <string name="period_today">Dziś</string>
+    <string name="period_yesterday">Wczoraj</string>
+    <string name="period_this_week">Ten tydzień</string>
+    <string name="period_this_month">Ten miesiąc</string>
+    <string name="period_last_week">Ostatni tydzień</string>
+    <string name="period_last_month">Ostatni miesiąc</string>
+    <string name="flex_type_multy_sl">Pole wyboru</string>
+    <string name="library_item_copy">Kopiuj</string>
+    <string name="send_all_dialog_title">Wyślij wszystko</string>
+    <string name="send_all_dialog_message">Przygotowuję rekordy do
+wysłania...</string>
+    <string name="send_all_csv">Wyślij jako csv</string>
+    <string name="send_all_text">Wyślij jako tekst</string>
+    <string name="flex_type_time">Godzina</string>
+    <!-- 1.6.0 -->
+    <string name="set_library_protection">Ustawienia zabezpieczeń</string>
+    <string name="set_master_pass_text">Ustaw hasło główne dostępu do baz.\nW celu dostępu do chronionych baz będziesz musiał wprowadzać to hasło.</string>
+    <string name="master_pass_hint">Hasło</string>
+    <string name="master_pass_hint2">Powtórz hasło</string>
+    <string name="set_master_pass_dialog">Ustawienia hasła głównego</string>
+    <string name="check_master_pass_text">Proszę wprowadzić hasło główne\ndostępu do baz</string>
+    <string name="master_password_hint">Hasło główne</string>
+    <string name="button_continue">Kontynuuj</string>
+    <string name="wrong_master_password">Błędne hasło</string>
+    <string name="button_home">Powrót</string>
+    <string name="library_is_locked">Dostęp do szyfrowanych baz jest zablokowany</string>
+    <string name="library_pass_access_description">W celu dostępu do tej bazy będziesz musiał wprowadzić hasło główne.</string>
+    <string name="library_encription_checkbox">Szyfruj zawartość</string>
+    <string name="library_encription_description">Zawartość pól rekordów będzie szyfrowana za pomocą AES</string>
+    <string name="set_library_protection_title">Szyfrowanie rekordów</string>
+    <string name="set_library_protection_message">Szyfruję rekordy bazy ...</string>
+    <string name="remove_library_protection">Usuń ochronę</string>
+    <string name="remove_library_protection_desc">Dostęp do bazy nie będzie wymagał hasła</string>
+    <string name="remove_library_protection_question">Czy naprawdę chcesz zdjąć ochronę bazy?</string>
+    <string name="preference_category_security">Zabezpieczenia</string>
+    <string name="remove_library_protection_title">Usuń ochronę</string>
+    <string name="remove_library_protection_message">Deszyfruję rekordy bazy ...</string>
+    <!-- 1.6.1 -->
+    <string name="change_master_password">Zmień hasło główne</string>
+    <string name="change_master_password_hint">Twoje dane zostaną zaszyfrowane za pomocą nowego hasła.</string>
+    <string name="old_master_pass_hint">Stare hasło</string>
+    <string name="new_master_pass_hint">Nowe hasło</string>
+    <string name="new_master_pass_hint2">Zweryfikuj haslo</string>
+    <string name="re_encripted_entries">Szyfrowanie wpisów ...</string>
+    <string name="pass_changed">Hasło zmienione pomyślnie</string>
+    <string name="library_protection_options">Ochrona bazy</string>
+    <string name="library_protection_not">Żadna</string>
+    <string name="library_protection_pass">Hasło</string>
+    <string name="library_protection_pass_checkbox">Dostęp z hasłem</string>
+    <!-- 1.6.2 -->
+    <string name="flex_type_password">Hasło</string>
+    <string name="flex_type_phone">Telefon</string>
+    <string name="license_check">Sprawdzam licencję</string>
+    <string name="license_wrong">Kluch licencyjny PRO nie pasuje do Twojego konta Google</string>
+    <!-- 1.6.5 -->
+    <string name="flex_type_email">Email</string>
+    <string name="email_chooser_title">Wybierz aplikację Email</string>
+    <string name="choose_own_icon_text">Wybierz własną ikonę</string>
+    <string name="font_size_screen_preference">Rozmiar czcionki</string>
+    <string name="font_size_screen_preference_summary">Rozmiar czcionki rekordu i listy rekordów</string>
+    <string name="font_size_category_entries_list">Czcionki listy rekordów</string>
+    <string name="font_size_category_entries_card">Czcionki w rekordzie</string>
+    <string name="font_size_dialog">Rozmiar czcionki</string>
+    <string name="entry_name_font_size_preference">Nazwa rekordu</string>
+    <string name="entry_name_font_size_preference_summary">Ustaw rozmiar czcionki nazwy</string>
+    <string name="entry_desc_font_size_preference">Opis rekordu</string>
+    <string name="entry_desc_font_size_preference_summary">Ustaw rozmiar czcionki opisu</string>
+    <string name="entry_status_font_size_preference">Stan rekordu</string>
+    <string name="entry_status_font_size_preference_summary">Ustaw rozmiar czcionki statusu</string>
+    <string name="entry_field_title_font_size_preference">Pole Nazwa</string>
+    <string name="entry_field_title_font_size_preference_summary">Ustaw rozmiar czcionki pola Nazwa</string>
+    <string name="entry_field_value_font_size_preference">Pole Wartość</string>
+    <string name="entry_field_value_font_size_preference_summary">Ustaw rozmiar czcionki pola Wartość</string>
+</resources>
