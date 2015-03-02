@@ -34,8 +34,6 @@
     <string name="flex_edit_option_values_list">List entries</string>
     <string name="flex_edit_option_values_card">Card entry</string>
     <string name="flex_edit_option_values_table">Table entries</string>
-    <string name="link_to_google_type_new">Link to new document</string>
-    <string name="link_to_google_type_exists">Link to existing document</string>
     <string name="date_format_list_current_locale">Current locale</string>
     <string name="date_format_list_date_pref">User\'s date preference</string>
     <string name="db_location_pref_internal">Internal device storage</string>

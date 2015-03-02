@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call">Zavolat</string>
+    <string name="send_sms">Poslat SMS zprávu</string>
+    <string name="light_theme">Světlé téma</string>
+    <string name="dark_theme">Tmavé téma</string>
+    <string name="datetime_filter_items_today">Dnes</string>
+    <string name="datetime_filter_items_yesterday">Včera</string>
+    <string name="datetime_filter_items_week">Tento týden</string>
+    <string name="datetime_filter_items_month">Tento měsíc</string>
+    <string name="datetime_filter_items_last_week">Minulý týden</string>
+    <string name="datetime_filter_items_last_month">Minulý měsíc</string>
+    <string name="datetime_filter_items_custom">Uživatelský</string>
+    <string name="calc_result_types_real">Reálný výsledek</string>
+    <string name="calc_result_types_int">Celočíselný výsledek</string>
+    <string name="template_category_arts">Umění</string>
+    <string name="template_category_business">Obchod</string>
+    <string name="template_category_contacts">Kontakty a lidé</string>
+    <string name="template_category_cook">Vaření, jídlo a víno</string>
+    <string name="template_category_edu">Vzdělání</string>
+    <string name="template_category_events">Plánování událostí</string>
+    <string name="template_category_fin">Finance</string>
+    <string name="template_category_health">Zdraví</string>
+    <string name="template_category_home">Domácnost a koníčky</string>
+    <string name="template_category_internet">Internet a hesla</string>
+    <string name="template_category_music">Hudba a filmy</string>
+    <string name="template_category_research">Výzkum a poznámky</string>
+    <string name="template_category_sports">Sporty</string>
+    <string name="template_category_travel">Cestování</string>
+    <string name="template_category_other">Jiné</string>
+    <string name="flex_edit_option_values_list">Seznam položek</string>
+    <string name="flex_edit_option_values_card">Seznam karet</string> 
+</resources>

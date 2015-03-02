@@ -1,0 +1,24 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="math_func_desc_0">Absolutní hodnota z double hodnoty.</string>
+    <string name="math_func_desc_1">Arcus cosinus úhlu.</string>
+    <string name="math_func_desc_2">Arcus sinus úhlu.</string>
+    <string name="math_func_desc_3">Arcus tangent úhlu.</string>
+    <string name="math_func_desc_4">Funkce převádí pravoúhlé souřadnice na polární</string>
+    <string name="math_func_desc_5">Horní mez double hodnoty</string>
+    <string name="math_func_desc_6">Trigonometrický cosinus úhlu</string>
+    <string name="math_func_desc_7">Exponenciální číslo e (i.e., 2.718...) umocněné double hodnotou</string>
+    <string name="math_func_desc_8">Dolní mez double hodnoty.</string>
+    <string name="math_func_desc_9">Přirozený logaritmus (základ e) double hodnoty</string>
+    <string name="math_func_desc_10">Větší ze dvou double hodnot</string>
+    <string name="math_func_desc_11">Menší ze dvou double hodnot</string>
+    <string name="math_func_desc_12">Hodnota prvního argumentu umocněná hodnotou druhého argumentu</string>
+    <string name="math_func_desc_13">Double hodnota, která je nejblíže hodnotě argumentu a je rovna matematicky celému číslu</string>
+    <string name="math_func_desc_14">Nejbližší long k double hodnotě</string>
+    <string name="math_func_desc_15">Sinus úhlu</string>
+    <string name="math_func_desc_16">Druhá odmocnina double hodnoty</string>
+    <string name="math_func_desc_17">Trigonometrický tangent úhlu</string>
+    <string name="math_func_desc_18">Funkce převede úhel měřený v radiánech na odpovídající úhel měřený ve stupních</string>
+    <string name="math_func_desc_19">Funkce převede úhel měřený ve stupních na odpovídající úhel měřený v radiánech.</string>
+
+</resources>
