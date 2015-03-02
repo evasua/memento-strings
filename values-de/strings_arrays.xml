@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call">Anrufen</string>
+    <string name="send_sms">Sende SMS</string>
+    <string name="light_theme">Helles Theme</string>
+    <string name="dark_theme">Dunkles Theme</string>
+    <string name="datetime_filter_items_today">Heute</string>
+    <string name="datetime_filter_items_yesterday">Gestern</string>
+    <string name="datetime_filter_items_week">Diese Woche</string>
+    <string name="datetime_filter_items_month">Dieser Monat</string>
+    <string name="datetime_filter_items_last_week">Letzte Woche</string>
+    <string name="datetime_filter_items_last_month">Letzer Monat</string>
+    <string name="datetime_filter_items_custom">Benutzerdefiniert</string>   
+</resources>
