@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Aggiungi un elemento</string>
@@ -79,13 +79,13 @@
         <item quantity="other">Elementi trovati: <xliff:g id="COUNT">%d</xliff:g>
         </item>
     </plurals>
-    <string name="memento_search">Memento sta ricercando ...</string>
-    <string name="memento_search_in_lib">Memento ricerca in "%s" ...</string>
+    <string name="memento_search">Memento sta ricercando</string>
+    <string name="memento_search_in_lib">Memento ricerca in %s</string>
     <string name="removed">Cancellato il %s</string>
     <string name="trush">Cestino</string>
     <string name="library_item_restore">Ripristina</string>
     <string name="clear_trash">Svuota cestino</string>
-    <string name="clear_trash_progress_dialog_title">Memento svuota cestino ...</string>
+    <string name="clear_trash_progress_dialog_title">Svuota cestino</string>
     <string name="clear_trash_dialog_title">Svuota cestino</string>
     <string name="clear_trash_dialog_text">Sei sicuro di volere eliminare tutti gli elementi nel cestino?</string>
     <string name="mobile">Mobile</string>
@@ -123,7 +123,7 @@
     <string name="backup_process">Memento sta eseguendo il backup ...</string>
     <string name="restore_preference">Ripristino</string>
     <string name="restore_summary_preference">Recupera tutte le librerie da una precedente copia di backup</string>
-    <string name="backup_file_not_found">Nessun file di backup è stato trovato</string>
+    <string name="backup_file_not_found">Nessun file di backup è stato trovato.</string>
     <string name="restore_dialog_message">Le librerie caricate saranno sostituite con la versione recuperata dalla copia di backup.\nTutte le modifiche eseguite andranno perdute.\nConfermi il ripristino?</string>
     <string name="backup_dialog_message">Sostituisci il backup esistente con la nuova copia?</string>
     <string name="restore_success">Le librerie sono state ripristinate con successo dalla copia di backup</string>
@@ -132,7 +132,7 @@
     <string name="clear_index">Elimino gli indici</string>
     <string name="reindex">Aggiungo nuovi indici:</string>
     <string name="load_templates_title">Caricamento delle librerie</string>
-    <string name="load_templates_message">Attendere mentre i modelli delle librerie vengono caricati</string>
+    <string name="load_templates_message">Attendere mentre i modelli delle librerie vengono caricati.</string>
     <string name="help_title">Aiuto di Memento</string>
     <string name="activate_button_title">Attiva la versione PRO</string>
     <string name="activate_button_hint">Ti serve la chiave di attivazione</string>
@@ -163,7 +163,7 @@
     <string name="button_import">Importa</string>
     <string name="button_export">Esporta</string>
     <string name="find_csv_column_title">Campi trovati nel file indicato:</string>
-    <string name="not_find_csv_column_title">Nel file indicato non è stato trovato alcun campo</string>
+    <string name="not_find_csv_column_title">Nel file indicato non è stato trovato alcun campo.</string>
     <string name="csv_delimiter_text">I valori (colonne) devono essere separati con una \",\")</string>
     <string name="need_title_column_text">Il nome delle colonne deve corrispondere al nome del campo</string>
     <string name="csv_result_import_text">Gli elementi sono stati importati</string>
@@ -176,8 +176,7 @@
     <string name="export_error">Errori nell\'esportazione degli elementi: %s</string>
     <string name="library_saved">Libreria salvata</string>
     <string name="library_created">Libreria creata</string>
-    <string name="msg_default_status">Centra il barcode all\'interno del mirino rettangolare per decodificarlo.
-  	</string>
+    <string name="msg_default_status">Centra il barcode all\'interno del mirino rettangolare per decodificarlo.</string>
     <string name="scan_library_item">Acquisisci il barcode</string>
     <string name="search_product_title">Ricerca all\'interno di Google Base per trovare il prodotto ...</string>
     <string name="empty_result_text">Prodotto non trovato</string>
@@ -194,7 +193,7 @@
     <string name="to">a</string>
     <string name="barcode_search">Ricerca del barcode</string>
     <!-- 1.2.1 -->
-    <string name="msg_camera_framework_bug">La camera Android ha avuto un problema. Potrebbe essere necessario riavviare il dispositivo</string>
+    <string name="msg_camera_framework_bug">La camera Android ha avuto un problema. Potrebbe essere necessario riavviare il dispositivo.</string>
     <!-- 1.2.3 -->
     <string name="deleted_library_hint">Elementi: %s</string>
     <string name="preference_restore_libs_title">Ripristina la libreria</string>
@@ -202,10 +201,10 @@
     <string name="preference_category_general">Caratteristiche generali</string>
     <string name="library_import_and_export">Parametri %s</string>
     <string name="recovering">Ripristino in corso</string>
-    <string name="recovering_message">Memento sta ripristinando la libreria ...</string>
+    <string name="recovering_message">Sta ripristinando la libreria</string>
     <string name="library_recover">Ripristino</string>
     <string name="deleting_library_title">Eliminazione</string>
-    <string name="deleting_library_message">Memento sta eliminando la libreria ...</string>
+    <string name="deleting_library_message">Sta eliminando la libreria</string>
     <!-- 1.2.5 -->
     <string name="view_category">Vista</string>
     <string name="title_lib_theme_preference">Tema grafico</string>
@@ -251,9 +250,9 @@
     <!-- 1.4.0 -->
     <string name="public_library_title">Pubblicazione della libreria</string>
     <string name="public_to_picasa_message">Carica le immagini su Picasa</string>
-    <string name="public_to_picasa_create_album">Sto creando su Picasa un album per la libreria ...</string>
+    <string name="public_to_picasa_create_album">Sto creando su Picasa un album per la libreria</string>
     <string name="public_to_picasa_success">Le immagini sono state caricate su Picasa</string>
-    <string name="picasa_task_step_auth">Sto autenticando su Picasa ...</string>
+    <string name="picasa_task_step_auth">Sto autenticando su Picasa</string>
     <string formatted="false" name="picasa_send_image_step">Sto caricando le immagini su Picasa: %s di %s</string>
     <string name="public_library">Pubblica la libreria</string>
     <string name="update_public_library">Aggiorna la pubblicazione</string>
@@ -283,7 +282,7 @@
     <string name="public_library_task_auth">Autenticazione sul server Memento</string>
     <string name="public_library_task_send_template">Trasferimento del modello per la libreria</string>
     <string formatted="false" name="public_library_task_send_items">Trasferimento degli elementi della libreria: %s di %s</string>
-    <string name="memento_not_support_template">La tua versione di Memento non è aggiornata.</string>
+    <string name="memento_not_support_template">La tua versione di Memento non è aggiornata</string>
     <string name="memento_not_found">Risorsa non trovata</string>
     <string name="alias_hint">E\' possibile indicare un alias con cui verrà identificata la libreria</string>
     <string name="button_publish">Pubblica</string>
@@ -362,8 +361,8 @@
     <string name="filters">Filtri</string>
     <string name="button_remove_all">Rimuovi tutti</string>
     <string name="period">Periodo</string>
-    <string name="period_from">Periodo da:</string>
-    <string name="period_to">Periodo a:</string>
+    <string name="period_from">Periodo da</string>
+    <string name="period_to">Periodo a</string>
     <string name="period_today">Oggi</string>
     <string name="period_yesterday">Ieri</string>
     <string name="period_this_week">Settimana corrente</string>
