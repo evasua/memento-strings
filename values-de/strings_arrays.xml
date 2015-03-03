@@ -31,4 +31,26 @@
     <string name="flex_edit_option_values_card">Karten-Einträge</string>
     <string name="flex_edit_option_values_table">Tabellen-Einträge</string>
     <string name="db_location_pref_sd">SD-Karte</string>
+    <string name="auto_backup_time_day">Nicht häufiger als einmal am Tag</string>
+<string name="string_filter_types_contains">Enthält</string>
+    <string name="string_filter_types_notcontains">Enthält nicht</string>
+    <string name="time_field_group_entries_no">Kein Gruppieren</string>
+    <string name="time_field_group_entries_hour">Gruppiere nach Stunden</string>
+    <string name="time_field_group_entries_day">Gruppiere nach Tag</string>
+    <string name="time_field_group_entries_month">Gruppiere nach Monat</string>
+    <string name="time_field_group_entries_year">Gruppiere nach Jahr</string>
+    <string name="slice_text_percent">Prozent</string>
+    <string name="slice_text_value">Wert</string>
+    <string name="slice_text_label">Label</string>
+    <string name="slice_text_none">Nichts</string>
+    <string name="chart_discrete_axis">Einzelne Achse</string>
+    <string name="edit_library_tabs_facade">FASSADE</string>
+    <string name="edit_library_tabs_fields">FELDER</string>
+    <string name="edit_library_tabs_aggr">ADDITION</string>
+    <string name="show_soft_keyboard_no">Nicht zeigen</string>
+    <string name="show_soft_keyboard_create">Beim Erstellen eines Eintrags</string>
+    <string name="show_soft_keyboard_always">Immer</string>
+    <string name="auto_backup_time_never">Nie</string>
+    <string name="auto_backup_time_always">Immer</string>
+    <string name="auto_backup_time_hour">Nicht häufiger als einmal pro Stunde</string>
     </resources>
