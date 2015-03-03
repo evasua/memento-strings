@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!-- German Translation Dirk Sudowe 09:40 26.09.2010 --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<?xml version='1.0' encoding='utf-8'?>
+<!-- German Translation Dirk Sudowe 09:40 26.09.2010 -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Eintrag hinzufügen</string>
     <string name="main_menu_add_lib">Verzeichnis hinzufügen</string>
@@ -225,7 +226,7 @@
     <string name="sync_with_gdocs_success_2">Das Verzeichnis \"%s\" wurde mit Google Text Tabellen synchronisiert</string>
     <string name="sync_with_gdocs_title">Synchronisation mit Google Sheets</string>
     <string name="sync_with_gdocs_message">Synchronisation des Verzeichnisses mit Google Text Tabellen.</string>
-    <string name="sync_with_gdocs">Sync mit Google Sheets</string>
+    <string name="sync_with_gdocs">Synchronisiere mit Google Sheets</string>
     <string name="google_docs_task_step_auth">Anmeldung an den Text Tabellen-Service</string>
     <string name="google_docs_task_step_get_rows">Empfange einen Listen-basierten Datenfluss</string>
     <string formatted="false" name="google_docs_task_step_process_row">Bearbeite Listenzeilen. %s von %s</string>
@@ -390,4 +391,5 @@
     <string name="help_gdocs_sync">Synchronisiere mit Google Text &amp; Tabellen</string>
     <string name="help_publish">Verzeichnisse veröffentlichen</string>
     <string name="help_subscribe">Verzeichnisse abonnieren</string>
-</resources>
+<string name="sync_with_gdocs_message_2">Synchronisiere \"%s\" mit Google Spreadsheets.</string>
+    </resources>
