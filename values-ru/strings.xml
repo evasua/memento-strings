@@ -530,7 +530,7 @@
     <string name="field_not_found">Не найден</string>
     <string name="field_not_sync">Не синхр.</string>
     <string name="link_button">Связать</string>
-    <string name="prepare_linking_library">Подготовка к связыванию ... </string>
+    <string name="prepare_linking_library">Подготовка к связыванию...</string>
     <string name="error_prepare_linking">Ошибка при подготовки связывания: %s</string>
     <string name="have_library_items_ask_title">Привязка к Google Spreadsheet</string>
     <string name="have_library_items_ask_message">Библиотека содержит записи которые будут удалены во время привязки к Google Spreadsheet. Выполнить привязку библиотеки ?</string>
