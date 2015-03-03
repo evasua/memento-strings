@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="call">Anrufen</string>
     <string name="send_sms">Sende SMS</string>
@@ -11,4 +11,24 @@
     <string name="datetime_filter_items_last_week">Letzte Woche</string>
     <string name="datetime_filter_items_last_month">Letzer Monat</string>
     <string name="datetime_filter_items_custom">Benutzerdefiniert</string>   
-</resources>
+<string name="calc_result_types_real">Echtes Ergebnis</string>
+    <string name="template_category_arts">Kunst</string>
+    <string name="template_category_business">Geschäftliches</string>
+    <string name="template_category_contacts">Kontakte und Personen</string>
+    <string name="template_category_cook">Kochen, Essen und Wein</string>
+    <string name="template_category_edu">Unterricht</string>
+    <string name="template_category_events">Veranstaltungen planen</string>
+    <string name="template_category_fin">Finanzen</string>
+    <string name="template_category_health">Gesundheit</string>
+    <string name="template_category_home">Zuhause und Hobbies</string>
+    <string name="template_category_internet">Internet und Passwörter</string>
+    <string name="template_category_music">Musik und Filme</string>
+    <string name="template_category_research">Recherche und Notizen</string>
+    <string name="template_category_sports">Sport</string>
+    <string name="template_category_travel">Reisen</string>
+    <string name="template_category_other">Sonstiges</string>
+    <string name="flex_edit_option_values_list">Listen-Einträge</string>
+    <string name="flex_edit_option_values_card">Karten-Einträge</string>
+    <string name="flex_edit_option_values_table">Tabellen-Einträge</string>
+    <string name="db_location_pref_sd">SD-Karte</string>
+    </resources>
