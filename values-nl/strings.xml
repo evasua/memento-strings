@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Object toevoegen</string>
@@ -236,7 +236,7 @@
     <string name="preference_category_accounts">Accounts</string>
     <string name="preference_google_account_title">Google Account</string>
     <string name="preference_google_account_hint">Uw Google Account email en wachtwoord</string>
-    <string name="conflict_dialog_text">Deze objecten zijn zowel in Memento als Google Sheets gewijzigd. Welke versies zijn de juiste? </string>
+    <string name="conflict_dialog_text">Deze objecten zijn zowel in Memento als Google Sheets gewijzigd. Welke versies zijn de juiste?</string>
     <string name="copy_memento_to_gdocs">Objecten in Memento</string>
     <string name="copy_gdocs_to_memento">Objecten in Google Sheets</string>
     <string name="edit_flex_title_disabled">Dit veld kan niet hernoemd worden omdat de collectie gelinkt is naar Google Sheets</string>
