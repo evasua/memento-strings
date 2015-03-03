@@ -240,7 +240,7 @@
     <string name="preference_category_accounts">Účty</string>
     <string name="preference_google_account_title">Google účet</string>
     <string name="preference_google_account_hint">Email a heslo Vašeho Google účtu</string>
-    <string name="conflict_dialog_text">Ty samé záznamy byly editovány v Mementu a Google Sheets. Která verze je správná? </string>
+    <string name="conflict_dialog_text">Ty samé záznamy byly editovány v Mementu a Google Sheets. Která verze je správná?</string>
     <string name="copy_memento_to_gdocs">Záznamy z Mementa</string>
     <string name="copy_gdocs_to_memento">Záznamy z Google Sheets</string>
     <string name="edit_flex_title_disabled">Toto pole nemůže být přejmenováno, protože knihovna je spojená s Google Sheets</string>
@@ -535,7 +535,7 @@
     <string name="field_not_found">Nenalezen</string>
     <string name="field_not_sync">Nesynchr</string>
     <string name="link_button">Propojit</string>
-    <string name="prepare_linking_library">Příprava k propojení ... </string>
+    <string name="prepare_linking_library">Příprava k propojení...</string>
     <string name="error_prepare_linking">Chyba při přípravě k propojení: %s</string>
     <string name="have_library_items_ask_title">Propojení k Google tabulce</string>
     <string name="have_library_items_ask_message">Knihovna obsahuje položky, které budou odstraněny během propojení s tabulkou Google. Provést propojení knihovny?</string>
