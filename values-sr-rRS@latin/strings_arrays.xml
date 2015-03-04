@@ -1,2 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="call">Pozovi</string>
+    <string name="send_sms">Pošalji SMS poruku</string>
+    <string name="light_theme">Svetla tema</string>
+    <string name="dark_theme">Tamna tema</string>
+    <string name="datetime_filter_items_today">Danas</string>
+    <string name="datetime_filter_items_yesterday">Juče</string>
+    <string name="datetime_filter_items_week">Ova nedelja</string>
+    <string name="datetime_filter_items_month">Ovaj mesec</string>
+    <string name="datetime_filter_items_last_week">Prošla nedelja</string>
+    <string name="datetime_filter_items_last_month">Prošli mesec</string>
+    <string name="calc_result_types_real">Realni rezultat</string>
+    <string name="calc_result_types_date">Rezultat za Datum</string>
+    <string name="calc_result_types_datetime">Rezultat za Datum/Vreme</string>
+    <string name="template_category_arts">Umetnosti</string>
+    <string name="template_category_business">Poslovni</string>
+    <string name="template_category_contacts">Kontakti i Osobe</string>
+    <string name="template_category_cook">Kuvanje, Hrana i Vino</string>
+    <string name="template_category_edu">Obrazovanje</string>
+    <string name="template_category_events">Planiranje događaja</string>
+    <string name="template_category_fin">Finansije</string>
+    <string name="template_category_health">Zdravlje</string>
+    <string name="template_category_home">Kuća i Hobi</string>
+    <string name="template_category_internet">Internet i lozinke</string>
+    <string name="template_category_music">Muzika i Filmovi</string>
+    <string name="template_category_research">Istraživanja i Beleške</string>
+    <string name="template_category_sports">Sport</string>
+    <string name="template_category_travel">Putovanja</string>
+    <string name="template_category_other">Ostalo</string>
+    <string name="flex_edit_option_values_list"/>
+    <string name="date_format_list_current_locale">Lokalna valuta</string>
+    <string name="db_location_pref_sd">SD kartica</string>
+    <string name="number_filter_types_less">Manje od</string>
+    <string name="number_filter_types_greater">Veće od</string>
+    <string name="number_filter_types_equal">jednako</string>
+    <string name="number_filter_types_notequal">nije jednako</string>
+    <string name="string_filter_types_contains">Sadrži</string>
+    <string name="string_filter_types_notcontains">Ne sadrži</string>
+    <string name="time_field_group_entries_no">Ne grupiši</string>
+    <string name="time_field_group_entries_hour">Grupiši po satu</string>
+    <string name="time_field_group_entries_day">Grupiši po danu</string>
+    <string name="time_field_group_entries_month">Grupiši po mesecu</string>
+    <string name="time_field_group_entries_year">Grupiši po godini</string>
+    <string name="slice_text_percent">Procenat</string>
+    <string name="slice_text_value">Vrednost</string>
+    <string name="slice_text_label">Naziv</string>
+    <string name="slice_text_none">Ništa</string>
+    <string name="show_soft_keyboard_no">Ne prikazuj</string>
+    <string name="show_soft_keyboard_create">Kada kreiraš unos</string>
+    <string name="show_soft_keyboard_always">Uvek</string>
+    <string name="auto_backup_time_never">Nikad</string>
+    <string name="auto_backup_time_hour">Ne više od jednom na sat</string>
+    <string name="auto_backup_time_day">Ne više od jednom na dan</string>
+</resources>
