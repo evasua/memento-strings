@@ -1,2 +1,41 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Memento</string>
+    <string name="main_menu_add_lib">Dodaj biblioteku</string>
+    <string name="ghostData_lib_title">Ime biblioteke</string>
+    <string name="button_create">Kreiraj</string>
+    <string name="button_yes">Da</string>
+    <string name="button_ok">U redu</string>
+    <string name="button_no">Ne</string>
+    <string name="button_save">Sačuvaj</string>
+    <string name="button_cancel">Otkaži</string>
+    <string name="button_add_field">Dodaj polje</string>
+    <string name="flex_type_title_string">Tekst</string>
+    <string name="flex_type_title_date">Datum</string>
+    <string name="flex_type_title_date_time">Datum/Vreme</string>
+    <string name="flex_type_contact">Kontakt</string>
+    <string name="flex_type_image">Slika</string>
+    <string name="flex_type_audio">Zvučni zapis</string>
+    <string name="flex_type_money">Valuta</string>
+    <string name="flex_type_real">Realni broj</string>
+    <string name="flextemplate_up_item">Gore</string>
+    <string name="flextemplate_down_item">Dole</string>
+    <string name="flextemplate_edit_item">Promeni</string>
+    <string name="flextemplate_delete_item">Obriši</string>
+    <string name="ghostData_template_title">Unesi naziv polja</string>
+    <string name="template_title">Naziv polja</string>
+    <string name="select_flex_template_title">Vrsta polja</string>
+    <string name="select_flex_template_role">Funkcija polja</string>
+    <string name="button_next">Sledeće</string>
+    <string name="select_flex_template_type">Vrsta polja</string>
+    <string name="flex_template_options_title">Napredni parametri</string>
+    <string name="error_library_withous_name_flex">Biblioteka mora imati najmanje jedno polje sa funkcijom - \"name\".</string>
+    <string name="select_library_icon_activity">Izaberi ikonu biblioteke</string>
+    <string name="select_flex_template_role_title">Funkcija polja</string>
+    <string name="library_edit2">Izmeni biblioteku</string>
+    <string name="library_edit">Izmeni</string>
+    <string name="library_delete">Obriši</string>
+    <string name="library_delete_message_title">Obriši biblioteku</string>
+    <string name="library_delete_message_text">Da li zaista želiš da obrišeš biblioteku \"%s\" ?</string>
+    <string name="library_item_edit">Izmeni</string>
+    <string name="library_item_delete">Obriši</string>
+    </resources>
