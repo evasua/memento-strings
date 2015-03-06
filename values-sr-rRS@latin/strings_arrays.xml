@@ -27,7 +27,7 @@
     <string name="template_category_sports">Sport</string>
     <string name="template_category_travel">Putovanja</string>
     <string name="template_category_other">Ostalo</string>
-    <string name="flex_edit_option_values_list"/>
+    <string name="flex_edit_option_values_list">Unos u vidu liste</string>
     <string name="date_format_list_current_locale">Lokalna valuta</string>
     <string name="db_location_pref_sd">SD kartica</string>
     <string name="number_filter_types_less">Manje od</string>
@@ -51,4 +51,16 @@
     <string name="auto_backup_time_never">Nikad</string>
     <string name="auto_backup_time_hour">Ne više od jednom na sat</string>
     <string name="auto_backup_time_day">Ne više od jednom na dan</string>
-</resources>
+<string name="calc_result_types_int">Integer rezultat</string>
+    <string name="flex_edit_option_values_card">Unos u vidu kartice</string>
+    <string name="flex_edit_option_values_table">Unos u vidu tabele</string>
+    <string name="date_format_list_date_pref">Željeni korisnički datum</string>
+    <string name="db_location_pref_internal">Unutrašnje skladište uređaja</string>
+    <string name="chart_discrete_axis">Diskretna osa</string>
+    <string name="chart_continuous_axis">Kontinualna osa</string>
+    <string name="edit_library_tabs_facade">IZGLED</string>
+    <string name="edit_library_tabs_fields">POLJA</string>
+    <string name="edit_library_tabs_aggr">OBJEDINJENO</string>
+    <string name="auto_backup_time_always">Svaki put</string>
+    <string name="calc_result_types_string">Rezultat niza</string>
+    </resources>
