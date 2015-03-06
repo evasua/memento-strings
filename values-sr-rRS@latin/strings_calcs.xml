@@ -1,2 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_0">Apsolutna vrednost dvostruke vrednosti.</string>
+    <string name="math_func_desc_1">Arkus kosinus ugla.</string>
+    <string name="math_func_desc_2">Arkus sinus ugla.</string>
+    <string name="math_func_desc_4">Funkcija pretvara rektangularne koordinate u polarne</string>
+    <string name="math_func_desc_5">Maksimalna vrednost od dvostruke vrednosti</string>
+    <string name="math_func_desc_6">Trigonometrijski cosinus ugla</string>
+    <string name="math_func_desc_7">Eksponencijalni broj e (na pr. 2,718...) uvećan na vrednost dvostruke vrednosti</string>
+    <string name="math_func_desc_8">Minimalna vrednost dvostruke vrednosti.</string>
+    <string name="math_func_desc_9">Prirodni logaritam (osnova e) dvostruke vrednosti</string>
+    <string name="math_func_desc_3">Arkus tangens ugla.</string>
+    <string name="math_func_desc_10">Veća od dve dvostruke vrednosti</string>
+    <string name="math_func_desc_11">Manja od dve dvostruke vrednosti</string>
+    <string name="math_func_desc_13">Dvostruka vrednost koja je bliža vrednosti argumenta i jednaka matematičkom intedžeru</string>
+    <string name="math_func_desc_15">Sinus ugla</string>
+    <string name="math_func_desc_16">Kvadratni koren dvostruke vrednosti</string>
+    <string name="math_func_desc_17">Trigonometrijski tangens ugla</string>
+    <string name="math_func_desc_18">Funkcija pretvara ugao izražen u radianima u jednaki ugao izražen u stepenima</string>
+	<string name="math_func_desc_19">Funkcija pretvara ugao izražen u stepenima u jednaki ugao izražen u radianima.</string>  	
+ 	
+ 	
+
+	 </resources>
