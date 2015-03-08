@@ -1,7 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
      <string name="call">Oproepen</string>
     <string name="send_sms">Stuur SMS bericht</string>
     <string name="light_theme">Licht Thema</string>
     <string name="dark_theme">Donker Thema</string>    
-</resources>
+<string name="datetime_filter_items_today">Vandaag</string>
+    <string name="datetime_filter_items_yesterday">Gisteren</string>
+    <string name="datetime_filter_items_week">Deze week</string>
+    <string name="datetime_filter_items_month">Deze maand</string>
+    <string name="datetime_filter_items_last_week">Afgelopen week</string>
+    <string name="datetime_filter_items_last_month">Afgelopen maand</string>
+    <string name="datetime_filter_items_custom">Aangepast</string>
+    <string name="calc_result_types_real">Eind resultaat</string>
+    <string name="template_category_arts">Kunst</string>
+    <string name="template_category_business">Zakelijk</string>
+    <string name="auto_backup_time_day">Niet meer dan een keer per dag</string>
+<string name="auto_backup_time_hour">Niet meer dan een keer per uur</string>
+    <string name="auto_backup_time_always">Elke keer</string>
+    </resources>
