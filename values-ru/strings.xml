@@ -1059,4 +1059,5 @@
     <string name="all">Все</string>
     <string name="page">Страница</string>
     <string name="translate">Перевести</string>    
-</resources>
+<string name="msg_default_status">Для сканирования, поместите штрих-код в активную область видоискателя.</string>
+    </resources>
