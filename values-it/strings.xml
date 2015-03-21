@@ -657,4 +657,25 @@
     <string name="library_not_found_dialog_message">Libreria non trovata, forse è stata eliminata.</string>
     <string name="add_field_above">Aggiungi campo in alto</string>
     <string name="add_field_below">Aggiungi campo in basso</string>
-</resources>
+<string name="sync_with_gdocs_success_2">La libreria \"%s\" è stata sincronizzata con Google</string>
+    <string name="sync_with_gdocs_message_2">Sincronizza \"%s\" con Fogli di lavoro Google.</string>
+    <string name="year_default_now">Anno corrente di default</string>
+    <string name="flex_type_int_list">Valori interi</string>
+    <string name="flex_type_int_default_value">Specifica valore di default</string>
+    <string name="flex_type_int_min">Inizio</string>
+    <string name="wrong_search_query_string_1">La stringa di ricerca non può cominciare con \"-\"</string>
+    <string name="flex_type_int_max">Fine</string>
+    <string name="flex_type_int_main_options_title">La sequenza di numeri</string>
+    <string name="flex_type_int_allow_direct_input">Consenti input diretto</string>
+    <string name="flex_type_int_allow_direct_input2">input diretto</string>
+    <string name="visible_field_depend_type">Visibilità del campo</string>
+    <string name="visible_field_depend_state_visible">Visibile</string>
+    <string name="field_depends">Dipendenze del campo</string>
+    <string name="field_depends_activity_title">Dipendenze</string>
+    <string name="no_dependencies">Nessuna dipendenza</string>
+    <string name="add_depends_button_title">Aggiungi dipendenza</string>
+    <string name="library_dont_have_fields_for_depends">La libreria non contiene campi appropriati per la costruzione di dipendenze di questo campo</string>
+    <string name="select_type_depends">Seleziona il tipo di dipendenza</string>
+    <string name="select_type_depends_spinner_title">Tipo di dipendenza</string>
+    <string name="select_master_field_for_depend">Seleziona il campo da cui deriva la dipendenza</string>
+    </resources>
