@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="call">Llamar</string>
     <string name="send_sms">Enviar mensaje SMS</string>
@@ -34,4 +34,10 @@
     <string name="date_format_list_date_pref">User\'s preferencias de fecha</string>
     <string name="db_location_pref_internal">Almacenamiento interno</string>
     <string name="db_location_pref_sd">Tarjeta SD</string>
+<string name="show_soft_keyboard_create">Cuando creas una entrada</string>
+    <string name="show_soft_keyboard_always">Siempre</string>
+    <string name="auto_backup_time_never">Nunca</string>
+    <string name="auto_backup_time_always">Cada vez</string>
+    <string name="auto_backup_time_hour">No más de una vez por hora</string>
+    <string name="auto_backup_time_day">No más de una vez por día</string>
 </resources>
