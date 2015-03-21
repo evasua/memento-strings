@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Añadir una entrada</string>
@@ -239,7 +239,7 @@
     <string name="preference_category_accounts">Cuentas</string>
     <string name="preference_google_account_title">Cuenta Google</string>
     <string name="preference_google_account_hint">Su Cuenta Google y contraseña</string>
-    <string name="conflict_dialog_text">Las mismas entradas han sido editadas en Google Sheets y en Memento, que entradas son correctas? </string>
+    <string name="conflict_dialog_text">Las mismas entradas han sido editadas en Google Sheets y en Memento, ¿cuál de las dos es correcta?</string>
     <string name="copy_memento_to_gdocs">Entradas desde Memento</string>
     <string name="copy_gdocs_to_memento">Entradas desde Google Sheets</string>
     <string name="edit_flex_title_disabled">Este campo no puede ser renombrado porque la librería está enlazada con Google Sheets</string>
@@ -550,7 +550,7 @@
     <string name="field_not_found">No se encuentra</string>
     <string name="field_not_sync">No sincroniza</string>
     <string name="link_button">Enlace</string>
-    <string name="prepare_linking_library">Preparando para enlazar ... </string>
+    <string name="prepare_linking_library">Preparando para enlazar ...</string>
     <string name="error_prepare_linking">Ocurrió un error mientras se enlazaba: %s</string>
     <string name="have_library_items_ask_title"> Enlazando con Hoja Google </string>
     <string name="have_library_items_ask_message">La librerías contiene entradas que serán eliminadas durante la operación de enlace. Realizar la operación de enlazar con Hoja Google?</string>
@@ -646,4 +646,10 @@
     <string name="internal_storage_title">Almacenamiento interno</string>
     <string name="sd_storage_title">Tarjeta SD</string>
 	<string name="all">Todo</string>        
+<string name="no_entries">Ninguna entrada</string>
+    <string name="stat_result_type">Formato del resultado</string>
+    <string name="backup_file_name_title">Nombre del archivo de recuperación</string>
+    <string name="change_dir_button">Cambiar</string>
+    <string name="backup_success2">El archivo de recuperación está realizado</string>
+    <string name="translate">Traducir</string>
 </resources>
