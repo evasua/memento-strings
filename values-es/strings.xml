@@ -71,7 +71,7 @@
     <string name="set_default_value">Especificar valor por defecto</string>
     <string name="date_default_null">Campo vacío por defecto</string>
     <string name="date_default_now">Fecha actula por defecto</string>
-    <string name="search">Search</string>
+    <string name="search">Buscar</string>
     <string name="search_hint">Búsqueda</string>
     <string name="search_parse_exception_messagee">Búsqueda no válida</string>
     <plurals name="NItemsFind">
@@ -99,7 +99,7 @@
     <string name="flex_type_money_currency_option_title">Moneda</string>
     <string name="flex_type_money_default_currency">USD</string>
     <string name="flex_role_not_usage">Campo regular</string>
-    <string name="flex_role_name">Entry name</string>
+    <string name="flex_role_name">Ingresa nombre</string>
     <string name="flex_role_hint">Introduzca descripcción</string>
     <string name="flex_role_status">Introduzca estado</string>
     <string name="short_flex_role_name">nombre</string>
