@@ -1,2 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_0">Абсолютне значення дійсного числа.</string>
+    <string name="math_func_desc_1">Арккосинус кута.</string>
+    <string name="math_func_desc_2">Арксинус кута.</string>
+    <string name="math_func_desc_3">Арктангенс кута.</string>
+    <string name="math_func_desc_4">Функція перетворює декартові координати у полярні</string>
+    <string name="math_func_desc_5">Максимум дійсного числа</string>
+    <string name="math_func_desc_6">Тригонометричний косинус кута</string>
+    <string name="math_func_desc_7">Експонента (число 2.718...) возведена у степінь дійсного числа</string>
+    <string name="math_func_desc_9">Натуральний логарифм (за основою е) дійсного числа</string>
+    <string name="math_func_desc_10">Найбільше з двох дійсних значень</string>
+    <string name="math_func_desc_11">Найменше з двох дійсних значень</string>
+    <string name="math_func_desc_12">Значення першого аргументу у степені другого</string>
+    <string name="math_func_desc_13">Округлення десяткового чила до цілого</string>
+    <string name="math_func_desc_14">Найближче натуральне число до дійсного</string>
+    <string name="math_func_desc_15">Синус кута</string>
+    <string name="math_func_desc_16">Квадратний корінь дійсного числа</string>
+    <string name="math_func_desc_17">Тригонометричний тангенс кута</string>
+    <string name="math_func_desc_18">Функція конвертує кут у радіанах у кут, що вимірюється в градусах</string>
+	<string name="math_func_desc_19">Функція конвертує кут в градусах в еквівалентний кут у радіанах.</string>  	
+ 	
+ 	
+
+	 <string name="function_args_compareto"> <b>Параметри:</b> Перший аргумент - перший рядок, що порівнюється, другий аргумент - наступний рядок, що порівнюється.<br/> <b>Повертає:</b> Нуль, якщо рядки еквівалентні, натуральне число менше нуля, якщо перший рядок випереджає другий, натуральне число більше нуля - якщо навпаки. </string>
+	 
+	 <string name="math_func_desc_8">Округлення вниз дійного числа</string>
+    </resources>
