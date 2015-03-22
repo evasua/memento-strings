@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Мементо</string>
+    <string name="library_menu_add_item">Додати</string>
+    <string name="main_menu_add_lib">Додати бібліотеку</string>
+    <string name="ghostData_lib_title">Назва</string>
+    <string name="custom_template_title">Користувацький</string>
+    <string name="button_create">Створити</string>
+    <string name="button_yes">Так</string>
+    <string name="button_ok">Ок</string>
+    <string name="button_no">Ні</string>
+    <string name="button_save">Зберегти</string>
+    <string name="button_cancel">Відмінити</string>
+    <string name="button_add_field">Додати поле</string>
+    <string name="add_new_library_item">Додати запис ...</string>
+    <string name="flex_type_title_string">Текст</string>
+    <string name="flex_type_title_int">Ціле число</string>
+    <string name="flex_type_title_bool">Логічне (прапорець)</string>
+    <string name="flex_type_title_date">Дата</string>
+    <string name="flex_type_title_date_time">Дата/Час</string>
+    </resources>

@@ -107,12 +107,12 @@
     <string name="short_flex_role_status">estado</string>
     <string name="item_add_to_favorite">Entrada añadida a Favoritos</string>
     <string name="item_remove_from_favorite">Entrada eliminada de Favoritos</string>
-    <string name="history_dialog_title">History</string>
+    <string name="history_dialog_title">Historial</string>
     <string name="favorites_dialog_title">Favoritos</string>
     <string name="map_coord_not_set_hint">Tocar para seleccionar localización</string>
     <string name="select_map_coord">Seleccione localizaciçon</string>
     <string name="find_selected_address">Buscar dirección ...</string>
-    <string name="open_gmap">Open Google Maps</string>
+    <string name="open_gmap">Abrir Google Maps</string>
     <string name="help">Ayuda</string>
     <string name="preference_category_backup">Copia de seguridad</string>
     <string name="main_preferences_title">Ajustes</string>
@@ -175,9 +175,8 @@
     <string name="export_success">Las entradas han sido exportadas a /sdcard/memento/%s</string>
     <string name="export_error">Fallo al exportar entradas : %s</string>
     <string name="library_saved">Librería guardada</string>
-    <string name="library_created">Library created</string>
-    <string name="msg_default_status">Coloque código de barras dentro del rectángulo para escanearlo.
-  	</string>
+    <string name="library_created">Librería creada</string>
+    <string name="msg_default_status">Coloque el código de barras dentro del área rectangular para escanearlo.</string>
     <string name="scan_library_item">Escanear código de barras</string>
     <string name="search_product_title">Buscando producto con código de barras...</string>
     <string name="empty_result_text">Sorry\nProducto no encontrado</string>
@@ -269,34 +268,34 @@
     <string name="memento_have_button">Ya tengo una cuenta</string>
     <string name="login_empty">Introduza Usuario</string>
     <string name="login_format_error">Solo puede contener letras o números</string>
-    <string name="pass_not_equal">Please verify your password again</string>
-    <string name="incorrect_email">Invalid email</string>
-    <string name="create_memento_account_dlg_title">Registration</string>
-    <string name="create_memento_account_dlg_text">Registering the user on the Memento server ...</string>
-    <string name="memento_register_user_exists">This username already exists</string>
-    <string name="memento_register_email_exists">A user with this email address already exists</string>
-    <string name="memento_server_error">Server error, try again later</string>
-    <string name="memento_account_title">Cuenta Memento</string>
+    <string name="pass_not_equal">Verifica de nuevo tu contraseña</string>
+    <string name="incorrect_email">Correo electrónico inválido</string>
+    <string name="create_memento_account_dlg_title">Registro</string>
+    <string name="create_memento_account_dlg_text">Registrando al usuario en el servidor de Memento...</string>
+    <string name="memento_register_user_exists">Éste usuario ya existe</string>
+    <string name="memento_register_email_exists">Ya existe un usuario con el mismo correo electrónico</string>
+    <string name="memento_server_error">Error del servidor, vuelve a intentarlo más tarde</string>
+    <string name="memento_account_title">Cuenta de Memento</string>
     <string name="memento_create_account_button">Nueva cuenta</string>
-    <string name="memento_auth_error">Usuario o contraseña erronea</string>
-    <string name="memento_library_lock">La librería está bloqueada, prueba mas tarde</string>
-    <string name="preference_memento_account_title">Cuenta Memento</string>
+    <string name="memento_auth_error">Usuario o contraseña errónea</string>
+    <string name="memento_library_lock">La librería está bloqueada, prueba más tarde</string>
+    <string name="preference_memento_account_title">Cuenta de Memento</string>
     <string name="preference_memento_account_hint">Usuario y contraseña de su cuenta Memento</string>
-    <string name="public_library_task_auth">Autentificando servicio Memento</string>
-    <string name="public_library_task_send_template">Transfiriendo plantilla de librería</string>
-    <string formatted="false" name="public_library_task_send_items">Transfiriendo entradas de librería.\n%s from %s</string>
-    <string name="memento_not_support_template">Su versión de Memento está fuera de fecha, actualice</string>
-    <string name="memento_not_found">No se encuentra recurso</string>
-    <string name="alias_hint">Introduzca nombre para la librería</string>
+    <string name="public_library_task_auth">Autentificando servicio de Memento</string>
+    <string name="public_library_task_send_template">Transfiriendo plantilla de la librería</string>
+    <string formatted="false" name="public_library_task_send_items">Transfiriendo entradas de librería.\n%s de %s</string>
+    <string name="memento_not_support_template">Su versión de Memento es obsoleta, favor de actualizar</string>
+    <string name="memento_not_found">Recurso no encontrado</string>
+    <string name="alias_hint">Introduzca un alias para la librería</string>
     <string name="button_publish">Publicar</string>
-    <string name="publish_update_success">La publicación de la librería se ha actualizado</string>
-    <string name="private_library_checkbox">Acceso Privado</string>
-    <string name="private_library_checkbox_hint">Solo usuarios específicos tienen acceso a la librería</string>
-    <string name="enter_alias">Introduzca nombre para la librería</string>
-    <string name="incorrect_alias">El nombre solo puede contener letras y números</string>
-    <string name="public_library_address_text">Dirección de librería</string>
-    <string name="alias_exists">Ya tiene una librería publicada con ese nombre</string>
-    <string name="memento_forbidden_error">Acceso a librería prohibido</string>
+    <string name="publish_update_success">La publicación de la librería ha sido actualizada</string>
+    <string name="private_library_checkbox">Acceso privado</string>
+    <string name="private_library_checkbox_hint">Sólo los usuarios especificados tendrán acceso a la librería</string>
+    <string name="enter_alias">Introduzca el alias para la librería</string>
+    <string name="incorrect_alias">El alias de la librería sólo puede contener letras y números</string>
+    <string name="public_library_address_text">Dirección de la librería</string>
+    <string name="alias_exists">Ya tiene una librería publicada con ese alias</string>
+    <string name="memento_forbidden_error">El acceso a la librería está prohibido</string>
     <string name="publish_library_address">La librería %s está ahora disponibles en</string>
     <string name="publish_library_address_hint">Sus amigos pueden usar Memento para ver esta librería. Hágalo, ellos deben usan la dirección para suscribirse a la librería.</string>
     <string name="deafult_group_title">Mis librerías</string>
@@ -652,4 +651,5 @@
     <string name="change_dir_button">Cambiar</string>
     <string name="backup_success2">El archivo de recuperación está realizado</string>
     <string name="translate">Traducir</string>
-</resources>
+<string name="backup_file_path_title">Directorio raíz del archivo de recuperación</string>
+    </resources>
