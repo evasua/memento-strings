@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="math_func_desc_0">Valor absoluto de un valor doble.</string>
     <string name="math_func_desc_1">Arco coseno de un ángulo.</string>
@@ -20,4 +21,19 @@
     <string name="math_func_desc_18">La función convierte un ángulo medido en radianes en el ángulo medido en grados equivalente</string>
     <string name="math_func_desc_19">La función convierte un ángulo medido en grados del ángulo equivalente medido en radianes.</string>
 
-</resources>
+<string name="function_args_compareto"> <b>Parametros:</b> El primer argumento es la primera cadena a comparar y el segundo argumento es la segunda cadena a comparar.<br/> <b>Resultado:</b> Devuelve un entero con valor de cero si las cadenas son iguales, un entero con valor menor que cero si la primera cadena precede a la segunda cadena, o un entero mayor que cero si la primera cadena sigue la segunda cadena. </string>
+	 
+	 <string name="function_args_comparetoignorecase"> <b>Parametros:</b> El primer argumento es la primera cadena a comparar y el segundo argumento es la segunda cadena a comparar.<br/> <b>Resultado:</b> Devuelve un entero con valor de cero si las cadenas son iguales, un entero con valor menor que cero si la primera cadena precede a la segunda cadena, o un entero mayor que cero si la primera cadena sigue la segunda cadena. </string>
+	 
+	 <string name="function_args_concat"> <b>Parámetros:</b> El primer argumento es la cadena en la que la cadena del segundo argumento será concatenado. <br/> <b>Resultado:</b> Devuelve una cadena que está formada por la primera cadena, seguida de la segunda cadena. </string>
+	 
+	 <string name="function_args_endswith"> <b>Parámetros:</b> El primer argumento es la cadena a probar y el segundo argumento es el sufijo. <br/> <b>Resultado:</b> Devuelve 1.0 (verdadero) si la cadena termina con el sufijo, de lo contrario devuelve 0.0 (falso). </string>	 
+	 
+	 <string name="function_args_equals"> <b>Parámetros:</b> El primer argumento es la cadena que será comparada con la cadena del segundo argumento. <br/> <b>Resultado:</b> Devuelve 1.0 (verdadero) si las cadenas son iguales, de lo contrario devuelve 0.0 (falso). </string>	 	 
+	 
+	 <string name="function_args_equalsignorecase"> <b>Parámetros:</b> El primer argumento es la cadena que será comparada con la cadena del segundo argumento. <br/> <b>Resultado:</b> Devuelve 1.0 (verdadero) si las cadenas son iguales, de lo contrario devuelve 0.0 (falso). </string>	 	
+	 
+	 <string name="function_args_indexof"> <b>Parámetros:</b> El primer argumento es la cadena origen, la cadena del segundo argumento es la subcadena y el tercer argumento es el índice. <br/> <b>Resultado:</b> Devuelve el índice en el que la subcadena es encontrada. Si no encuentra la subcadena, entonces devuelve -1. </string>	 	
+	 
+	 
+	 </resources>
