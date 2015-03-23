@@ -440,4 +440,6 @@
     <string name="entry_name_font_size_preference_summary">Schriftgröße für den Namen einstellen</string>
     <string name="entry_desc_font_size_preference">Beschreibung des Eintrags</string>
     <string name="entry_desc_font_size_preference_summary">Schriftgröße für den Eintrag einstellen</string>
+    <string name="button_home">Startseite</string>
+    <string name="library_encription_description">Felder mit Zeichenketten werden bei diesen Einträgen mit AES verschlüsselt.\nDie Suche in den verschlüsselten Einträgen wird nicht unterstützt.</string>
     </resources>
