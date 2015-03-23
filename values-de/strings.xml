@@ -241,7 +241,7 @@
     <string name="preference_category_accounts">Konten</string>
     <string name="preference_google_account_title">Google Passwort</string>
     <string name="preference_google_account_hint">Ihre Email und Passwort bei Google</string>
-    <string name="conflict_dialog_text">Ein Eintrag wurde sowohl in Memento als auch bei Google Text &amp; Tabellen verändert. Welche Version ist die aktuelle? </string>
+    <string name="conflict_dialog_text">Ein Eintrag wurde sowohl in Memento als auch bei Google Text &amp; Tabellen verändert. Welche Version ist die aktuelle?</string>
     <string name="copy_memento_to_gdocs">Eintrag in Memento</string>
     <string name="copy_gdocs_to_memento">Eintrag von Google Text &amp; Tabellen</string>
     <string name="edit_flex_title_disabled">Dieses Feld kann nicht umbenannt werden weil das Verzeichnis mit Google Text &amp; Tabellen verknüpft ist.</string>
