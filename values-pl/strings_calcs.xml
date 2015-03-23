@@ -1,2 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_0">Wartość bezwzględna zmiennoprzecinkowej podwójnej precyzji.</string>
+    <string name="math_func_desc_1">Arcus cosinus kąta.</string>
+    <string name="math_func_desc_2">Arcus sinus kąta.</string>
+    <string name="math_func_desc_3">Arcus tangens kąta.</string>
+    <string name="math_func_desc_4">Funkcja konwertuje współrzędne prostokątne do współrzędnych biegunowych</string>
+    <string name="math_func_desc_5">Wartość górna zmiennoprzecinkowej podwójnej precyzji</string>
+    <string name="math_func_desc_6">Trygonometryczny cosinus kąta</string>
+    </resources>
