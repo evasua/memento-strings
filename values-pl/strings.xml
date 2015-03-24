@@ -778,4 +778,8 @@ wysłania...</string>
     <string name="restore_files_message">Kopia zapasowa zawiera archiwum z plikami powiązanymi; czy chcesz je odtworzyć?</string>
     <string name="restore_files_progress_title">Odtwarzanie plików</string>
     <string name="restore_files_success2">Wszystkie pliki powiązane z bazą danych zostały rozpakowane</string>
+    <string formatted="false" name="restore_files_error_message">Nieudana próba odtworzenia plików z archiwum: %s</string>
+    <string name="restore_files_error">Nieudana próba odtworzenia plików</string>
+    <string name="select_google_account">Wybierz konto Google</string>
+    <string name="send_files_to_cloud_error">Błąd przesyłania plików do chmury:</string>
     </resources>
