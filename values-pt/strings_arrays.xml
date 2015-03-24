@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="call">Chamar</string>
     <string name="send_sms">Enviar mensagem SMS</string>
@@ -19,7 +19,7 @@
     <string name="template_category_cook">Cozinhar, Comidas e Vinhos</string>
     <string name="template_category_edu">Educação</string>
     <string name="template_category_events">Planejamento de Eventos</string>
-    <string name="template_category_fin">Finançãs</string>
+    <string name="template_category_fin">Finanças</string>
     <string name="template_category_health">Saúde</string>
     <string name="template_category_home">Casa e Passatempos</string>
     <string name="template_category_internet">Internet e Senhas</string>
@@ -28,4 +28,7 @@
     <string name="template_category_sports">Esportes</string>
     <string name="template_category_travel">Viajens</string>
     <string name="template_category_other">Outros</string>    
-</resources>
+<string name="calc_result_types_date">Resultado Data</string>
+    <string name="calc_result_types_datetime">Resultado (Data/Hora)</string>
+    <string name="calc_result_types_string">Resultado da String</string>
+    </resources>
