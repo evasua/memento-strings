@@ -1,2 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_0">Çift değerin mutlak değeri.</string>
+    <string name="math_func_desc_1">Bir açının ark kosinüsü.</string>
+    <string name="math_func_desc_2">Bir açının arksinüsü.</string>
+    <string name="math_func_desc_3">Bir açının arktanjantı.</string>
+    <string name="math_func_desc_4">Bu fonksiyon diktörtgen koordinatları tam zıttına çevirir</string>
+    <string name="math_func_desc_5">Çift değerin tavan değeri</string>
+    <string name="math_func_desc_6">Bir açının trigonometrik kosinüsü</string>
+    <string name="math_func_desc_8">Çift değerin taban değeri.</string>
+    </resources>
