@@ -77,7 +77,7 @@ bazę \"%s\" ?</string>
     <string name="date_default_null">Pole domyślnie puste</string>
     <string name="date_default_now">Domyślnie obecna data</string>
     <string name="search">Szukaj</string>
-    <string name="search_hint">Czego szukamy ?</string>
+    <string name="search_hint">Wpisz tekst do wyszukania</string>
     <string name="search_parse_exception_messagee">Niewałaściwa wartość szukania</string>
     <plurals name="NItemsFind">
         <item quantity="one">Znalezionych wpisów: 1</item>
@@ -143,8 +143,7 @@ wprowadzone po stworzeniu kopii zostaną utracone.\nZacząć odtwarzanie
 ?</string>
     <string name="backup_dialog_message">Zastąpić istniejący plik kopii
 ?</string>
-    <string name="restore_success">Bazy zostały pomyślnie odtworzone z
-plików kopii.</string>
+    <string name="restore_success">Bazy zostały pomyślnie odtworzone z plików kopii zapasowej</string>
     <string name="restore_step1">Odtwarzanie</string>
     <string name="restore_step2">Czyszczenie cache</string>
     <string name="clear_index">Usuwanie indeksów</string>
@@ -202,9 +201,7 @@ CSV</string>
     <string name="export_error">Błąd eksportu wpisów: %s</string>
     <string name="library_saved">Baza zapisana</string>
     <string name="library_created">Baza utworzona</string>
-    <string name="msg_default_status">Aby zeskanować, umieść kod paskowy
-wewnątrz pola.
-  	</string>
+    <string name="msg_default_status">Aby zeskanować, umieść kod paskowy wewnątrz pola.</string>
     <string name="scan_library_item">Skanowanie Barcodu</string>
     <string name="search_product_title">Szukanie produktu w Bazie Google
 ...</string>
@@ -491,9 +488,9 @@ wysłania...</string>
     <string name="wrong_master_password">Błędne hasło</string>
     <string name="button_home">Powrót</string>
     <string name="library_is_locked">Dostęp do szyfrowanych baz jest zablokowany</string>
-    <string name="library_pass_access_description">W celu dostępu do tej bazy będziesz musiał wprowadzić hasło główne.</string>
+    <string name="library_pass_access_description">W celu dostępu do tej bazy będziesz musiał wprowadzić hasło główne</string>
     <string name="library_encription_checkbox">Szyfruj zawartość</string>
-    <string name="library_encription_description">Zawartość pól rekordów będzie szyfrowana za pomocą AES</string>
+    <string name="library_encription_description">Zawartość pól rekordów będzie szyfrowana za pomocą AES\nPrzeszukiwanie zaszyfrowanych baz niemożliwe.</string>
     <string name="set_library_protection_title">Szyfrowanie rekordów</string>
     <string name="set_library_protection_message">Szyfruję rekordy bazy ...</string>
     <string name="remove_library_protection">Usuń ochronę</string>
@@ -962,7 +959,7 @@ wysłania...</string>
     <string name="icon_pack_title_field_material">Materiał</string>
     <string name="icon_pack_title_field_general_flat">Ogólne</string>
     <string name="icon_pack_title_field_account_flat">Księgowość</string>
-    <string name="icon_pack_title_field_business_flat">Business</string>
+    <string name="icon_pack_title_field_business_flat">Biznes</string>
     <string name="icon_pack_title_field_edu_flat">Edukacja</string>
     <string name="icon_pack_title_field_mult_flat">Multimedia</string>
     <string name="icon_pack_title_field_net_flat">Networking</string>
@@ -1068,4 +1065,33 @@ wysłania...</string>
     <string name="rename_group">Zmień nazwę grupy</string>
     <string name="move">Przenieś</string>
     <string name="select_group">Wybierz grupę</string>
-    </resources>
+    <string name="library_moved_message">Baza przeniesiona do grupy \"%s\"</string>
+    <string name="master_library_entries">Wpisy z powiązanej bazy</string>
+    <string name="invisible">niewidoczne</string>
+    <string name="display_master_libraries_items">Wyświetla na karcie</string>
+    <string name="sync_with_google_left_menu_item">Synchronizacja z Google</string>
+    <string name="entries_view_menu_title">Widok</string>
+    <string name="entries_view_list">Lista</string>
+    <string name="entries_view_table">Tabela</string>
+    <string name="flex_edit_option_in_table">wpisy tabeli</string>
+    <string name="table_cell_image_text">WYŚWIETL</string>
+    <string name="table_column_width">Szerokość kolumny</string>
+    <string name="empty_list_after_filter">Brak wpisów zgodnych z kryteriami filtra.</string>
+    <string name="size_of_line">Grubość linii</string>
+    <string name="map_coord_source_network">Sieć</string>
+    <string name="search_address_hint">Szukanie adresu</string>
+    <string name="map_field_fast_option_title">Szybkie określanie współrzędnych</string>
+    <string name="map_field_fast_option_hint">Lokalizacja będzie określona z wolną dokładnością</string>
+    <string name="map_field_address_option_title">Pola rozdzielone dla adresu</string>
+    <string name="off">Wył.</string>
+    <string name="auto_backup_not_yeat_launched">Jeszcze nie uruchomiono</string>
+    <string name="auto_backup_run_group">Podczas autozapisu kopii zapasowej</string>
+    <string name="auto_backup_when_close_app">Po zamknięciu aplikacji</string>
+    <string name="auto_backup_when_sync">Przed synchronizacją z Google</string>
+    <string name="auto_backup_when_edit_libs">Przed zmianą baz</string>
+    <string name="free_version_multi_field_limit">W darmowej wersji możesz dodać tylko dwa elementy. Zakup wersję PRO, aby usunąć to ograniczenie.</string>
+    <string name="scale">Skala %d</string>
+    <string name="all">Wszystkie</string>
+    <string name="page">Strona</string>
+    <string name="translate">Tłumaczenie</string>
+</resources>
