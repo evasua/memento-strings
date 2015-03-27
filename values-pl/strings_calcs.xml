@@ -6,4 +6,13 @@
     <string name="math_func_desc_4">Funkcja konwertuje współrzędne prostokątne do współrzędnych biegunowych</string>
     <string name="math_func_desc_5">Wartość górna zmiennoprzecinkowej podwójnej precyzji</string>
     <string name="math_func_desc_6">Trygonometryczny cosinus kąta</string>
-    </resources>
+    <string name="math_func_desc_10">Większa z dwóch zmiennoprzecinkowych podwójnej precyzji</string>
+    <string name="math_func_desc_11">Mniejsza z dwóch zmiennoprzecinkowych podwójnej precyzji</string>
+    <string name="math_func_desc_12">Wartość pierwszego argumentu podniesionego do drugiej potęgi drugiego argumentu</string>
+    <string name="math_func_desc_15">Sinus kąta</string>
+    <string name="math_func_desc_18">Funkcja konwertuje radiany na stopnie</string>
+	<string name="math_func_desc_19">Funkcja konwertuje stopnie na radiany.</string>  	
+ 	
+ 	
+
+	 </resources>
