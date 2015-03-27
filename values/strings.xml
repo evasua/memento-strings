@@ -142,7 +142,7 @@
     <string name="activation_ok">Thank you for activation Memento</string>
     <string name="activation_error">Activation code is invalid. Please, try again.</string>
     <string name="about">About</string>
-    <string name="copyright">Copyright © 2013 LuckyDroid\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2015 LuckyDroid\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">View software version</string>
     <string name="about_license_type">License:</string>
@@ -1064,4 +1064,29 @@
     <string name="all">All</string>
     <string name="page">Page</string>
     <string name="translate">Translate</string>
+    <!-- 3.0beta3 -->
+    <string name="entries_view_type_calendar">Calendar</string>
+    <string name="calendar_field_role">Use in Сalendar as</string>
+    <string name="calendar_field_role_start">Start time</string>
+    <string name="calendar_field_role_end">End time</string>
+    <string name="calendar_field_role_duration_min">Duration, min</string>
+    <string name="calendar_field_role_duration_hour">Duration, hour</string>
+    <string name="calendar_field_role_duration_hour_time">Duration</string>
+    <string name="calendar_field_role_start_short">start</string>
+    <string name="calendar_field_role_end_short">end</string>
+    <string name="calendar_field_role_duration_short">duration</string>
+    <string name="calendar_day_view">Day view</string>
+    <string name="calendar_3day_view">3 day view</string>
+    <string name="calendar_week_view">Week view</string>
+    <string name="go_to_date">Go to date</string>
+    <!-- 3.0.2 -->
+    <string name="lost_linked_library">Linked library is not found, perhaps it was removed.</string>
+    <string name="multichoice_field_empty">No values available for selection</string>
+    <string name="show_add_button_on_tile">Button \"Add entry\"</string>
+    <string name="cant_find_audio_selection_app">Sorry, but application for choice audio-track does not found.</string>
+    <string name="library_group_view_type">View</string>
+    <string name="library_group_view_type_big_tile">Large tiles</string>
+    <string name="library_group_view_type_small_tile">Small tiles</string>
+    <string name="library_group_view_type_icons">Icons</string>
+    
 </resources>
