@@ -15,12 +15,12 @@
     <string name="add_new_library_item">Dodaj wpis ...</string>
     <string name="flex_type_title_string">Tekst</string>
     <string name="flex_type_title_int">Liczba całkowita</string>
-    <string name="flex_type_title_bool">Zmienna</string>
+    <string name="flex_type_title_bool">Boolean (0-1 Box)</string>
     <string name="flex_type_title_date">Data</string>
-    <string name="flex_type_title_date_time">Data/Godz.</string>
+    <string name="flex_type_title_date_time">Data/Godz</string>
     <string name="flex_type_contact">Kontakt</string>
     <string name="flex_type_image">Zdjęcie</string>
-    <string name="flex_type_string_list">Ciąg wartości</string>
+    <string name="flex_type_string_list">Lista rozwijalna</string>
     <string name="flex_type_audio">Dźwięk</string>
     <string name="flex_type_money">Waluta</string>
     <string name="flex_type_rating">Ocena</string>
@@ -30,7 +30,7 @@
     <string name="field_list_caption">Pola bazy</string>
     <string name="flextemplate_up_item">Do góry</string>
     <string name="flextemplate_down_item">W dół</string>
-    <string name="flextemplate_edit_item">Edytuj</string>
+    <string name="flextemplate_edit_item">Zmień</string>
     <string name="flextemplate_delete_item">Usuń</string>
     <string name="ghostData_template_title">Wprowadź nazwę pola</string>
     <string name="template_title">Nazwa pola</string>
@@ -78,7 +78,7 @@ bazę \"%s\" ?</string>
     <string name="date_default_now">Domyślnie obecna data</string>
     <string name="search">Szukaj</string>
     <string name="search_hint">Wpisz tekst do wyszukania</string>
-    <string name="search_parse_exception_messagee">Niewałaściwa wartość szukania</string>
+    <string name="search_parse_exception_messagee">Niepoprawne dane do wyszukania</string>
     <plurals name="NItemsFind">
         <item quantity="one">Znalezionych wpisów: 1</item>
         <item quantity="few">Znalezionych wpisów: <xliff:g id="COUNT">%d</xliff:g>
@@ -89,7 +89,7 @@ bazę \"%s\" ?</string>
         </item>
     </plurals>
     <string name="memento_search">Wyszukiwanie Memento</string>
-    <string name="memento_search_in_lib">Wyszukiwanie Memento w"%s"</string>
+    <string name="memento_search_in_lib">Wyszukiwanie Memento w %s</string>
     <string name="removed">Usunięty %s</string>
     <string name="trush">Kosz</string>
     <string name="library_item_restore">Przywracanie</string>
@@ -111,12 +111,12 @@ Kosza wszystkie wpisy ?</string>
     <string name="flex_role_not_usage">Zwykłe pole</string>
     <string name="flex_role_name">Pole nazwy</string>
     <string name="flex_role_hint">Pole opisu</string>
-    <string name="flex_role_status">Pole statusu</string>
+    <string name="flex_role_status">Status wpisu</string>
     <string name="short_flex_role_name">nazwa</string>
     <string name="short_flex_role_hint">opis</string>
     <string name="short_flex_role_status">status</string>
     <string name="item_add_to_favorite">Wpis jest dodany do Ulubionych</string>
-    <string name="item_remove_from_favorite">Wpis jest usunięty z ulubionych</string>
+    <string name="item_remove_from_favorite">Wpis jest usunięty z Ulubionych</string>
     <string name="history_dialog_title">Historia</string>
     <string name="favorites_dialog_title">Ulubione</string>
     <string name="map_coord_not_set_hint">Dotknij by wybrać
@@ -158,8 +158,7 @@ wprowadzone po stworzeniu kopii zostaną utracone.\nZacząć odtwarzanie
     <string name="activation_dialog_text_hint">Kod aktywacji</string>
     <string name="activation_dialog_title">Uaktualnienie do wersji PRO</string>
     <string name="activation_ok">Dziękuję za aktywację Memento</string>
-    <string name="activation_error">Nieważny kod aktywacyjny. Spróbuj
-ponownie.</string>
+    <string name="activation_error">Niepoprawny kod aktywacyjny. Spróbuj ponownie.</string>
     <string name="about">Informacje</string>
     <string name="copyright">Copyright © 2012 LuckyDroid\nWszelkie prawa
 zastrzeżone</string>
@@ -215,13 +214,11 @@ pola</string>
     <string name="button_add_fill_field">Dodaj zasadę
 autouzupełniania</string>
     <string name="barcode_auto_fill_checkbox">Pole autouzupełniania</string>
-    <string name="add_fill_field_dialog_title">Tworzeniezasady
-autouzupełniania</string>
+    <string name="add_fill_field_dialog_title">Tworzenie zasady autouzupełniania</string>
     <string name="memento_field">Zostanie to zachowane w polach
 rekordu</string>
     <string name="memento_field_promt">Pola rekordu bazy</string>
-    <string name="uniquery_check_fail">Baza może zawierać tylkoo jedno pole
-typu "%s"</string>
+    <string name="uniquery_check_fail">Baza może zawierać tylko jedno pole typu %s</string>
     <string name="to">do</string>
     <string name="barcode_search">Szukanie Barcode</string>
     <!-- 1.2.1 -->
@@ -233,7 +230,7 @@ napotkała problem. Może być konieczny restart urządzenia.</string>
     <string name="preference_restore_libs_hint">Odzyskiwanie usuniętych
 baz</string>
     <string name="preference_category_general">Główne</string>
-    <string name="library_import_and_export">Import i Eksport</string>
+    <string name="library_import_and_export">Ustawienia %s</string>
     <string name="recovering">Odzyskiwanie</string>
     <string name="recovering_message">Odzyskiwanie bazy</string>
     <string name="library_recover">Odzyskaj</string>
@@ -316,9 +313,7 @@ z %s</string>
     <string name="update_public_library">Aktualizuj publikację</string>
     <string name="memento_register_account_title">Tworzenie konta\nna serwerze
 Memento</string>
-    <string name="memento_register_account_text">Aby mieć możliwość
-publokowania własnych baz i subskrypcji baz innych użytkowników, wymagane
-jest konto na serwerze Memento</string>
+    <string name="memento_register_account_text">Aby mieć możliwość publikowania własnych baz i subskrypcji baz innych użytkowników, wymagane jest konto na serwerze Memento</string>
     <string name="memento_login_hint">Użytkownik</string>
     <string name="memento_pass_hint">Hasło</string>
     <string name="memento_pass_hint2">Powtórz hasło</string>
@@ -396,8 +391,7 @@ bazy</string>
     <string name="subscribe_task_get_library">Pobieranie rekordów
 bazy</string>
     <string name="subscribe_task_create_library">Tworzenie bazy</string>
-    <string formatted="false" name="subscribe_task_save_library_task">Sapisywanie rekordów.\n%s
-z %s</string>
+    <string formatted="false" name="subscribe_task_save_library_task">Zapisywanie rekordów.\n%s z %s</string>
     <string name="subscribe_task_create_index">Tworzenie indeksów</string>
     <string name="subscribes_group_title">Moje subskrypcje</string>
     <string name="library_settings">Ustawienia</string>
@@ -431,12 +425,10 @@ wycofać jej publikację</string>
     <string name="rename_library">Zmiana nazwy</string>
     <string name="rename_dialog_title">Zmiana nazwy</string>
     <string name="rename_dialog_text">Nazwa bazy</string>
-    <string name="flex_image_load">Ładowanie obraz ...</string>
+    <string name="flex_image_load">Ładowanie obrazu...</string>
     <string name="subscribed">Subskrybowana</string>
     <string name="info_public_library">Adres bazy</string>
-    <string name="cant_public">Darmowa wersja umożliwia Ci publikację tylko
-trzech baz.\nUaktualni do wersji PRO w celu likwidacji tego
-ograniczenia.</string>
+    <string name="cant_public">Darmowa wersja umożliwia Ci publikację tylko dwie baz.\nUaktualnij do wersji PRO w celu likwidacji tego ograniczenia.</string>
     <string name="add_permission_user_hint">Wprowadź nazwę użytkownika lub
 email</string>
     <string name="edit_pub_permissions">Prawa dostępu do bazy</string>
@@ -468,7 +460,7 @@ dostępu do bazy</string>
     <string name="period_this_month">Ten miesiąc</string>
     <string name="period_last_week">Ostatni tydzień</string>
     <string name="period_last_month">Ostatni miesiąc</string>
-    <string name="flex_type_multy_sl">Pole wyboru</string>
+    <string name="flex_type_multy_sl">Lista wielokrotnego wyboru</string>
     <string name="library_item_copy">Kopiuj</string>
     <string name="send_all_dialog_title">Wyślij wszystko</string>
     <string name="send_all_dialog_message">Przygotowuję rekordy do
@@ -515,7 +507,7 @@ wysłania...</string>
     <string name="flex_type_password">Hasło</string>
     <string name="flex_type_phone">Telefon</string>
     <string name="license_check">Sprawdzam licencję</string>
-    <string name="license_wrong">Kluch licencyjny PRO nie pasuje do Twojego konta Google</string>
+    <string name="license_wrong">Klucz licencyjny PRO nie pasuje do Twojego konta Google</string>
     <!-- 1.6.5 -->
     <string name="flex_type_email">Email</string>
     <string name="email_chooser_title">Wybierz aplikację Email</string>
@@ -529,7 +521,7 @@ wysłania...</string>
     <string name="entry_name_font_size_preference_summary">Ustaw rozmiar czcionki nazwy</string>
     <string name="entry_desc_font_size_preference">Opis rekordu</string>
     <string name="entry_desc_font_size_preference_summary">Ustaw rozmiar czcionki opisu</string>
-    <string name="entry_status_font_size_preference">Stan rekordu</string>
+    <string name="entry_status_font_size_preference">Status wpisu</string>
     <string name="entry_status_font_size_preference_summary">Ustaw rozmiar czcionki statusu</string>
     <string name="entry_field_title_font_size_preference">Pole Nazwa</string>
     <string name="entry_field_title_font_size_preference_summary">Ustaw rozmiar czcionki pola Nazwa</string>
@@ -611,7 +603,7 @@ wysłania...</string>
     <string name="remove_encript_lib_dlg_msg">Usuwanie szyfrowanych baz</string>
     <string name="master_password_reset">Reset głównego hasła</string>
     <string name="edit_entry_screen_preference">Edycja danych</string>
-    <string name="edit_entry_screen_preference_summary">Formularz parametrów tworzenia/edycji danych</string>
+    <string name="edit_entry_screen_preference_summary">Parametry formularza tworzenia/edycji danych</string>
     <string name="auto_show_soft_keyboard">Pokaż klawiaturę</string>
     <string name="auto_show_soft_keyboard_summary">Po otwarciu formularza - pokaż klawiaturę</string>
     <string name="flex_type_file">Łącze do pliku</string>
@@ -620,14 +612,14 @@ wysłania...</string>
     <string name="select_app">Wybierz aplikację</string>
     <string name="forum">Forum</string>
     <string name="autoincrement">Auto-przyrost</string>
-    <string name="cant_protect">Wersja darmowa pozwala ci chronić tylko dwie bazy.\nZakup wersję PRO aby wyłączyć to ograniczenie.</string>
+    <string name="cant_protect">Wersja darmowa pozwala ci chronić tylko dwie bazy.\nUaktualnij do wersji PRO aby wyłączyć to ograniczenie.</string>
     <string name="flex_edit_option_title">Kiedy możesz edytować</string>
     <string name="flex_edit_option_default">Formularz edycji danych</string>
     <string name="flex_edit_option_in_list">lista rekordów</string>
     <string name="flex_edit_option_in_view">karta rekordu</string>
     <string name="loading_google_document_list">Wczytywanie...</string>
     <string name="google_doc_list_title">Dokumenty Google</string>
-    <string name="updated_document_time">Aktualizacja: %s</string>
+    <string name="updated_document_time">Zaktualizowano: %s</string>
     <string name="move_from_google_docs">Przesyłanie danych z Arkusza Google do Memento</string>
     <string name="move_from_google_docs_attention">Wszystkie dostępne wpisy bazy będą usunięte</string>
     <string name="move_from_memento">Przesyłanie danych z Memento do Arkusza Google</string>
@@ -1094,4 +1086,46 @@ wysłania...</string>
     <string name="all">Wszystkie</string>
     <string name="page">Strona</string>
     <string name="translate">Tłumaczenie</string>
-</resources>
+<plurals name="library_box_entries_count">
+	<item quantity="one">Wpisów: 1</item>
+	<item quantity="other">Wpisów: %d</item>
+</plurals>
+    <plurals name="field_depends_count">
+	<item quantity="one">Zależności: 1</item>
+	<item quantity="other">Zależności: %d</item>
+</plurals>
+    <plurals name="fields_count">
+	<item quantity="one">Pól: 1</item>
+	<item quantity="other">Pól: %d</item>
+</plurals>
+    <plurals name="libraries_count">
+	<item quantity="one">Bibliotek: 1</item>
+	<item quantity="few">Bibliotek: %d</item>
+	<item quantity="many">Bibliotek: %d</item>
+	<item quantity="other"/>
+</plurals>
+    <plurals name="rating_stars_count">
+	<item quantity="one">Gwiazdek: %d</item>
+	<item quantity="other">Gwiazdek: %d</item>
+</plurals>
+    <plurals name="delete_entries_snackbar_text">
+	<item quantity="one">Wpisów przeniesionych do kosza: %d</item>
+	<item quantity="other">Wpisów przeniesionych do kosza: %d</item>
+</plurals>
+    <plurals name="duration_seconds">
+	<item quantity="one">Sekund: 1</item>
+	<item quantity="other">Sekund: %d</item>
+</plurals>
+    <plurals name="duration_minutes">
+	<item quantity="one">Minut: 1</item>
+	<item quantity="other">Minut: %d</item>
+</plurals>
+    <plurals name="duration_hours">
+	<item quantity="one">Godzin: 1</item>
+	<item quantity="other">Godzin: %d</item>
+</plurals>
+    <plurals name="duration_days">
+	<item quantity="one">Dni: 1</item>
+	<item quantity="other">Dni: %d</item>
+</plurals>
+    </resources>
