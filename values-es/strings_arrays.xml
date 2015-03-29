@@ -40,4 +40,17 @@
     <string name="auto_backup_time_always">Cada vez</string>
     <string name="auto_backup_time_hour">No más de una vez por hora</string>
     <string name="auto_backup_time_day">No más de una vez por día</string>
-</resources>
+<string name="calc_result_types_date">Resultado fecha</string>
+    <string name="calc_result_types_datetime">Resultado fecha/hora</string>
+    <string name="calc_result_types_string">Resultado cadena de caracteres</string>
+    <string name="number_filter_types_less">Menor que</string>
+    <string name="number_filter_types_greater">Mayor que</string>
+    <string name="number_filter_types_equal">Es igual a</string>
+    <string name="number_filter_types_notequal">No es igual a</string>
+    <string name="string_filter_types_contains">Contiene</string>
+    <string name="string_filter_types_notcontains">No contiene</string>
+    <string name="slice_text_percent">Porcentaje</string>
+    <string name="slice_text_value">Valor</string>
+    <string name="slice_text_label">Etiqueta</string>
+    <string name="show_soft_keyboard_no">No mostrar</string>
+    </resources>
