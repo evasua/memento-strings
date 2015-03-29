@@ -1128,4 +1128,31 @@ wysłania...</string>
 	<item quantity="one">Dni: 1</item>
 	<item quantity="other">Dni: %d</item>
 </plurals>
+    <string name="entries_view_type_calendar">Kalendarz</string>
+    <string name="calendar_field_role">Użyj w Kalendarzu jako</string>
+    <string name="calendar_field_role_start">Czas rozpoczęcia</string>
+    <string name="calendar_field_role_end">Czas zakończenia</string>
+    <string name="calendar_field_role_duration_min">Czas trwania, min</string>
+    <string name="calendar_field_role_duration_hour">Czas trwania, godz</string>
+    <string name="calendar_field_role_duration_hour_time">Czas trwania</string>
+    <string name="calendar_field_role_start_short">początek</string>
+    <string name="calendar_field_role_end_short">koniec</string>
+    <string name="calendar_field_role_duration_short">czas trwania</string>
+    <string name="calendar_day_view">Widok dnia</string>
+    <string name="calendar_3day_view">Widok 3 dni</string>
+    <string name="calendar_week_view">Widok 7 dni</string>
+    <string name="go_to_date">Idź do daty</string>
+    <string name="lost_linked_library">"Powiązana baza nie odnaleziona,  być może została usunięta."</string>
+    <string name="multichoice_field_empty">Brak wartości do wyboru</string>
+    <string name="show_add_button_on_tile">Przycisk \"Dodaj wpis\"</string>
+    <string name="cant_find_audio_selection_app">Przepraszamy, aplikacja do wybierania zapisów audio nie znaleziona.</string>
+    <string name="library_group_view_type">Widok</string>
+    <string name="library_group_view_type_big_tile">Duże panele</string>
+    <string name="library_group_view_type_small_tile">Małe panele</string>
+    <string name="library_group_view_type_icons">Ikony</string>
+    
+<plurals name="string_list_import_snackbar_ok">
+	<item quantity="one">Zaimportowano punktów: 0</item>
+	<item quantity="other">Zaimportowano punktów: %d</item>
+</plurals>
     </resources>
