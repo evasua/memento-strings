@@ -971,7 +971,7 @@ wysłania...</string>
     <string name="empty_entry_list_text">Baza jeszcze nie zawiera wpisów.</string>
     <string name="empty_recycle_bin_text">W tej bazie nie ma wpisów do odtworzenia.</string>
     <string name="empty_main_recycle_bin_text">Brak baz do odtworzenia.</string>
-    <string name="string_edit_cap_options_title">Indeks górny</string>
+    <string name="string_edit_cap_options_title">Wielkie litery</string>
     <string name="string_edit_cap_options_none">Nie</string>
     <string name="string_edit_cap_options_sent">Na początku zdania</string>
     <string name="string_edit_cap_options_wolds">Na początku każdego słowa</string>
