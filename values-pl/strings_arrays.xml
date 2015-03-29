@@ -3,7 +3,7 @@
     <string name="call">Zadzwoń</string>
     <string name="send_sms">Wyślij SMS</string>
     <string name="light_theme">Jasny Temat</string>
-    <string name="dark_theme">Czarny Temat</string> 
+    <string name="dark_theme">Ciemny Temat</string> 
 <string name="datetime_filter_items_today">Dziś</string>
     <string name="datetime_filter_items_yesterday">Wczoraj</string>
     <string name="datetime_filter_items_week">Ten tydzień</string>
