@@ -13,4 +13,13 @@
     <string name="math_func_desc_11">По-малкото от две реални стойности</string>
     <string name="math_func_desc_12">Стойността на първия аргумент повдигната на степен с втория</string>
     <string name="math_func_desc_13">Реална стойност, която е най-близка по стойност на аргумента, и е равна на една математическа число</string>
-    </resources>
+    <string name="math_func_desc_14">Най-близкото цяло число до реалното</string>
+    <string name="math_func_desc_15">Синус на ъгъл</string>
+    <string name="math_func_desc_16">Квадратен корен на реално число</string>
+    <string name="math_func_desc_17">Тригонометричен тангенс на ъгъл</string>
+    <string name="math_func_desc_18">Функцията преобразува ъгъл измерен в радиани до еквивалентен ъгъл в градуси</string>
+	<string name="math_func_desc_19">Функцията преобразува ъгъл измерен в градуси до еквивалентен ъгъл в радиани.</string>  	
+ 	
+ 	
+
+	 </resources>
