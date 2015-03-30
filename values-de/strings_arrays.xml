@@ -53,4 +53,17 @@
     <string name="auto_backup_time_never">Nie</string>
     <string name="auto_backup_time_always">Immer</string>
     <string name="auto_backup_time_hour">Nicht häufiger als einmal pro Stunde</string>
+    <string name="calc_result_types_int">Ergebnis Integer</string>
+    <string name="calc_result_types_date">Ergebnis Datum</string>
+    <string name="calc_result_types_datetime">Ergebnis Datum/Zeit</string>
+    <string name="calc_result_types_string">Ergebnis Text</string>
+    <string name="date_format_list_current_locale">aktuell lokal</string>
+    <string name="date_format_list_date_pref">Anwender Datumseinstellung</string>
+    <string name="db_location_pref_internal">interner Gerätespeicher</string>
+    <string name="db_location_pref_custom">Benutzer</string>
+    <string name="number_filter_types_less">weniger als</string>
+    <string name="number_filter_types_greater">größer als</string>
+    <string name="number_filter_types_equal">ist gleich zu</string>
+    <string name="number_filter_types_notequal">ist ungleich zu</string>
+    <string name="chart_continuous_axis">fortlaufende Achse</string>
     </resources>
