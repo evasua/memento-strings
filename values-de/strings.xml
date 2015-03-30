@@ -442,4 +442,16 @@
     <string name="entry_desc_font_size_preference_summary">Schriftgröße für den Eintrag einstellen</string>
     <string name="button_home">Startseite</string>
     <string name="library_encription_description">Felder mit Zeichenketten werden bei diesen Einträgen mit AES verschlüsselt.\nDie Suche in den verschlüsselten Einträgen wird nicht unterstützt.</string>
+    <string name="re_encripted_entries">Entschlüsselungs-Einträge...</string>
+    <string name="buy_from_market_hint">Google Wallet</string>
+    <string name="entry_status_font_size_preference">Status des Eintrages</string>
+    <string name="entry_status_font_size_preference_summary">Textgröße für Status</string>
+    <string name="entry_field_title_font_size_preference">Feldname</string>
+    <string name="entry_field_title_font_size_preference_summary">Textgröße für Feldname</string>
+    <string name="entry_field_value_font_size_preference">Wert des Feldes</string>
+    <string name="entry_field_value_font_size_preference_summary">Textgröße für Feld Wert</string>
+    <string name="flex_type_calc">Berechnung</string>
+    <string name="flex_type_calc_option_header">Ausdruck</string>
+    <string name="expression_hint">Geben Sie hier Ihre Berechnungsformel ein</string>
+    <string name="add_function_button">Funktion hinzufügen</string>
     </resources>
