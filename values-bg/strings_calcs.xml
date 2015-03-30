@@ -1,2 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_0">Абсолютна стойност на реално число.</string>
+    <string name="math_func_desc_1">Аркускосинус на ъгъл.</string>
+    <string name="math_func_desc_2">Аркуссинус на ъгъл.</string>
+    <string name="math_func_desc_3">Аркустангенс на ъгъл.</string>
+    <string name="math_func_desc_4">Функцията преобразува правоъгълни координати в полярни</string>
+    <string name="math_func_desc_5">Максимално реално число</string>
+    <string name="math_func_desc_6">Тригонометричен косинус на ъгъл</string>
+    <string name="math_func_desc_7">Експоненциално число е (т.е. 2.718 ...) повдигнато на степен на реално число</string>
+    <string name="math_func_desc_8">Закръгляне надолу на реално число.</string>
+    <string name="math_func_desc_9">Натурален логаритъм (база е) на реално число</string>
+    <string name="math_func_desc_10">По-голямото от две реални стойности</string>
+    <string name="math_func_desc_11">По-малкото от две реални стойности</string>
+    <string name="math_func_desc_12">Стойността на първия аргумент повдигната на степен с втория</string>
+    <string name="math_func_desc_13">Реална стойност, която е най-близка по стойност на аргумента, и е равна на една математическа число</string>
+    </resources>
