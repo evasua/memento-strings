@@ -923,7 +923,7 @@
     <string name="reminders_count_limit">Можете да добавите максимум 10 напомняния за поле</string>
     <plurals name="NItemsFind">
 	<item quantity="one">1 намерен запис</item>
-	<item quantity="other">Намерени записи:</item>
+	<item quantity="other">Намерени записи: %d</item>
 </plurals>
     <string name="aggregation_add_item_dialog_title">Добави функция за агрегация</string>
     <string name="aggregation_edit_item_dialog_title">Редактиране на функция за агрегация</string>
