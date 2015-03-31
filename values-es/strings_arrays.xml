@@ -53,4 +53,8 @@
     <string name="slice_text_value">Valor</string>
     <string name="slice_text_label">Etiqueta</string>
     <string name="show_soft_keyboard_no">No mostrar</string>
+    <string name="slice_text_none">Ninguno</string>
+    <string name="chart_discrete_axis">Eje discontinuo</string>
+    <string name="chart_continuous_axis">Eje continuo</string>
+    <string name="edit_library_tabs_fields">CAMPOS</string>
     </resources>
