@@ -781,7 +781,7 @@
     <string name="chart_type_line">Linea</string>
     <string name="chart_type_bar">Barra</string>
     <string name="chart_type_column">Columnas</string>
-    <string name="chart_type_area">Area</string>
+    <string name="chart_type_area">Área</string>
     <string name="chart_name_hint">Nombre de la grafica</string>
     <string name="chart_data_source_category_title">Fuente de los datos</string>
     <string name="chart_display_option_category_title">Opciones de la grafica</string>
@@ -999,4 +999,20 @@
     <string name="library_group_view_type">Vista</string>
     <string name="library_group_view_type_icons">Iconos</string>
     
-</resources>
+<string name="backup_files_error">Error durante la copia de seguridad de archivos: %s</string>
+    <string formatted="false" name="restore_files_error_message">No se pudo restaurar archivos de archivo: %s</string>
+    <string formatted="false" name="upload_file_to_cloud_message">Subir %s (%d/%d)</string>
+    <string name="boolen_filter_checkbox">El valor del campo</string>
+    <string name="start_reindex_summary">Reconstruir el índice de búsqueda</string>
+    <string name="reindex_complete_message">La reindexación esta completa</string>
+    <string name="start_reindex_title">Reindexar</string>
+    <string name="files_backup_not_found_files">No se encuentran los archivos:</string>
+    <string name="lock_edit_library_pref_title">Diseño bloqueado</string>
+    <string name="entry_page_default">Por defecto</string>
+    <string name="sort_asc">ASC</string>
+    <string name="flex_type_signature_width_title">Ancho de la firma</string>
+    <string name="chart_option_display_legends">Mostrar leyenda</string>
+    <string name="chart_values_function">Función</string>
+    <string name="link_master_library_not_found">Lo siento, la librería que estaba vinculada a este campo no se encuentra</string>
+    <string name="empty_main_recycle_bin_text">No hay librerías disponibles para recuperación.</string>
+    </resources>
