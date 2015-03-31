@@ -454,4 +454,24 @@
     <string name="flex_type_calc_option_header">Ausdruck</string>
     <string name="expression_hint">Geben Sie hier Ihre Berechnungsformel ein</string>
     <string name="add_function_button">Funktion hinzufügen</string>
+    <string name="calc_result_type_prompt">Ergebnistyp</string>
+    <string name="save_library_task_message">Sichere Bibliotheksstruktur</string>
+    <string name="save_library_task_recalc">Felder neuberechnen</string>
+    <string name="memento_funct_promt">Funktionen</string>
+    <string name="help_calc">Berechnungsfeld</string>
+    <string name="template_save_button">Export</string>
+    <string name="template_load_button">Import</string>
+    <string name="template_share_button">Teilen</string>
+    <string name="library_template_name">Vorlagenname</string>
+    <string name="template_category">Kategorie</string>
+    <string name="template_description">Beschreibung der Vorlage</string>
+    <string name="button_share_template">Vorlage teilen</string>
+    <string name="share_template_text">Bibliotheksvorlage zum Online-Katalog hochladen</string>
+    <string name="share_success">Bibliotheksvorlage erfolgreich zum Online-K atalog hochgeladen</string>
+    <string name="template_from_catalog_title">vom Online-Katalog</string>
+    <string name="template_category_text">Vorlagenkategorie</string>
+    <string name="template_description_title">Beschreibung der Vorlage</string>
+    <string name="template_author_text">von %s</string>
+    <string name="template_date_text">%s erstellt</string>
+    <string name="button_download">Download</string>
     </resources>
