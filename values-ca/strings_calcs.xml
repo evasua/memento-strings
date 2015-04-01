@@ -4,8 +4,44 @@
     <string name="math_func_desc_2">Arc sinus d\'un angle.</string>
     <string name="math_func_desc_3">Arc tangent d\'un angle.</string>
     <string name="math_func_desc_4">La funció transforma coordenades rectangulars a polars</string>
-    <string name="math_func_desc_5">Valor superior d\'un doble valor</string>
+    <string name="math_func_desc_5">Valor superior d\'un valor doble</string>
     <string name="math_func_desc_6">Cosinus trigonomètric d\'un angle</string>
-    <string name="math_func_desc_7">Nombre exponencial e (2,718...) elevat a la potència d\'un doble valor</string>
+    <string name="math_func_desc_7">Nombre exponencial e (2,718...) elevat a la potència d\'un valor doble</string>
     <string name="math_func_desc_8">Valor inferior d\'un valor doble.</string>
-    </resources>
+    <string name="math_func_desc_9">Logaritme natural (base e) d\'un valor doble</string>
+    <string name="math_func_desc_10">El més gran de dos valors dobles</string>
+    <string name="math_func_desc_11">El més petit de dos valors dobles</string>
+    <string name="math_func_desc_12">Valor del primer argument elevat a la segona potència del segon argument</string>
+    <string name="math_func_desc_13">Valor doble més proper en valor a l\'argument i igual que un nombre enter</string>
+    <string name="math_func_desc_14">Arrodoniment d\'un valor doble</string>
+    <string name="math_func_desc_15">Sinus d\'un angle</string>
+    <string name="math_func_desc_16">Arrel quadrada d\'un valor doble</string>
+    <string name="math_func_desc_17">Tangent trigonomètrica d\'un angle</string>
+    <string name="math_func_desc_18">La funció passa un angle mesurat en radians a l\'equivalent mesurat en graus</string>
+	<string name="math_func_desc_19">La funció passa un angle mesurat en graus a l\'equivalent en radians.</string>  	
+ 	
+ 	
+
+	 <string name="function_args_compareto"> <b>Paràmetres:</b> El primer argument és la primera cadena a comparar, i el segon argument la segona cadena.<br/> <b>Resultat:</b> Retorna un enter de valor zero si les cadenes son iguals, un enter de valor menor que zero si la primera cadena precedeix a la segona, o un enter de valor més gran que zero si la primera cadena segueix a la segona. </string>
+	 
+	 <string name="function_args_comparetoignorecase"> <b>Paràmetres:</b> El primer argument és la primera cadena a comparar, i el segon argument la segona cadena.<br/> <b>Resultat:</b> Retorna un enter de valor zero si les cadenes son iguals, un enter de valor menor que zero si la primera cadena precedeix a la segona, o un enter de valor més gran que zero si la primera cadena segueix a la segona. </string>
+	 
+	 <string name="function_args_concat"> <b>Paràmetres:</b> El primer argument és la cadena a la que es concatenarà la cadena del segon argument.<br/> <b>Resultat:</b> Retorna una cadena constituïda per la primera cadena, seguida de la segona. </string>
+	 
+	 <string name="function_args_endswith"> <b>Paràmetres:</b> El primer argument és la cadena per provar i el segon argument és el sufix. <br/> <b>Resultat:</b> Retorna 1.0 (cert) si la cadena acaba amb el sufix, sinó retorna 0.0 (fals). </string>	 
+	 
+	 <string name="function_args_equals"> <b>Paràmetres:</b> El primer argument és una cadena que es compararà amb la cadena del segon argument.<br/> <b>Resultat:</b> Retorna 1.0 (cert) si les cadenes son iguals, sinó retorna 0.0 (fals). </string>	 	 
+	 
+	 <string name="function_args_equalsignorecase"> <b>Paràmetres:</b> El primer argument és una cadena que es compararà amb la cadena del segon argument.<br/> <b>Resultat:</b> Retorna 1.0 (cert) si les cadenes son iguals, sinó retorna 0.0 (fals). </string>	 	
+	 
+	 <string name="function_args_indexof"> <b>Paràmetres:</b> El primer argument és la cadena origen, el segon argument és la subcadena, i el tercer argument és l\'índex.<br/> <b>Resultat:</b> Retorna l\'índex on es troba la subcadena. Si aquesta no es trobés, retorna -1. </string>	 	
+	 
+	 
+	 <string name="function_args_replace"> <b>Paràmetres:</b> El primer argument és la cadena origen on substituir els caràcters. El segon argument és el caràcter a substituir en la cadena. El tercer argument és el nou caràcter que ha de substituir a l\'anterior.<br/> <b>Resultat:</b> Retorna una cadena en la que els antics caràcters han estat substituits pels nous. </string>	
+	 
+	 <string name="function_args_startswith"> <b>Paràmetres:</b> El primer argument és la cadena a provar, el segon argument és el prefix i el tercer argument és l\'índex on començar. <br/> <b>Resultat:</b> Retorna 1.0 (cert) si la cadena comença amb el prefix, sinó retorna 0.0 (fals). </string>	 
+	 
+	 <string name="function_args_substring"> <b>Paràmetres:</b> El primer argument és la cadena origen, el segon argument és l\'índex d\'inici i el tercer argument és l\'índex de final.<br/> <b>Resultat:</b> Retorna la subcadena especificada. </string>	 	 	 
+	 	 	
+	 	 
+</resources>
