@@ -3,4 +3,26 @@
     <string name="math_func_desc_2">Arkussinus eines Winkels.</string>
     <string name="math_func_desc_3">Arkustangens eines Winkels.</string>
     <string name="math_func_desc_4">Die Funktion wandelt rechtwinklige Koordinaten in Polarkoordinaten um</string>
-    </resources>
+    <string name="math_func_desc_0">Absoluter Wert des doppelten Wertes</string>
+    <string name="math_func_desc_5">Zellwert eines doppelten Wertes</string>
+    <string name="math_func_desc_6">Trigonometrischer Cosinus eines Winkels</string>
+    <string name="math_func_desc_7">Exponential Nummer e (z.B., 2.718...) des Wertes eines doppelten Wertes</string>
+    <string name="math_func_desc_8">Grundwert eines doppelten Wertes.</string>
+    <string name="math_func_desc_9">Natürlicher Logaritmus (Basis e) eines doppelten Wertes</string>
+    <string name="math_func_desc_10">Größer als zwei doppelte Werte</string>
+    <string name="math_func_desc_11">Kleiner als zwei doppelte Werte</string>
+    <string name="math_func_desc_12">Wert des ersten Arguments erhöht um den zweiten Wert des zweiten Arguments</string>
+    <string name="math_func_desc_13">Doppelwert am nächsten zum Wert des Arguments und ist gleich zum mathematischen Integer</string>
+    <string name="math_func_desc_14">Long-Wert zum Doppelwert</string>
+    <string name="math_func_desc_15">Sinus eines Winkels</string>
+    <string name="math_func_desc_16">Wurzel eines Doppelwertes</string>
+    <string name="math_func_desc_17">Trigometrischer Tangent eines Winkels</string>
+    <string name="math_func_desc_18">Diese Funktion konvertiert einen Radius eines Winkels zum äquivalenten Winkel gemessen in Grad</string>
+	<string name="math_func_desc_19">Diese Funktion konvertiert einen Winkel gemessen in Grad zum äquivalenten Winkel gemessen am Radius.</string>  	
+ 	
+ 	
+
+	 <string name="function_args_compareto"> &lt;b&gt;Parameter:&lt;/b&gt;Das erste Argument ist der erste Text, der mit dem zweiten Text verglichen werden soll.&lt;br/&gt;
+&lt;b&gt;Rückgabewerte:&lt;/b&gt;Gibt eine "0" zurück, wenn die beiden Texten gleich sind, einen Wert &lt;0 wenn der erste Text am Beginn des zweiten Textes gefunden wurde oder einen Wert &gt;0, wenn der zweite Text hinter dem ersten Text steht </string>
+	 
+	 </resources>
