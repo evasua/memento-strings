@@ -1,2 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_0">Valor absolut d\'un valor doble.</string>
+    <string name="math_func_desc_1">Arc cosinus d\'un angle.</string>
+    <string name="math_func_desc_2">Arc sinus d\'un angle.</string>
+    <string name="math_func_desc_3">Arc tangent d\'un angle.</string>
+    <string name="math_func_desc_4">La funció transforma coordenades rectangulars a polars</string>
+    <string name="math_func_desc_5">Valor superior d\'un doble valor</string>
+    <string name="math_func_desc_6">Cosinus trigonomètric d\'un angle</string>
+    <string name="math_func_desc_7">Nombre exponencial e (2,718...) elevat a la potència d\'un doble valor</string>
+    <string name="math_func_desc_8">Valor inferior d\'un valor doble.</string>
+    </resources>
