@@ -75,7 +75,7 @@
     <string name="search_parse_exception_messagee">Cerca no vàlida</string>
     <plurals name="NItemsFind">
 	<item quantity="one">1 entrada trobada</item>
-	<item quantity="other">Entrades trobades: &lt;  ...  &gt;%d&lt; ... &gt;</item>
+	<item quantity="other">Entrades trobades: %d</item>
 </plurals>
     <string name="memento_search">Cerca de Memento</string>
     <string name="memento_search_in_lib">Cerca de Memento a %s</string>
