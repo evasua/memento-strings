@@ -36,4 +36,6 @@
 	 <string name="function_args_indexof"> <b>Parámetros:</b> El primer argumento es la cadena origen, la cadena del segundo argumento es la subcadena y el tercer argumento es el índice. <br/> <b>Resultado:</b> Devuelve el índice en el que la subcadena es encontrada. Si no encuentra la subcadena, entonces devuelve -1. </string>	 	
 	 
 	 
+	 <string name="function_args_startswith"> &lt;b&gt;Parametros:&lt;/b&gt; El primer argumento es la cadena a comprobar, el segundo argumento es el prefijo y el tercer argumento es el índice para empezar. &lt;br/&gt; &lt;b&gt; Devoluciones: &lt;/ b&gt; Devuelve 1,0 (verdad) si la cadena comienza con el prefijo de lo contrario, devuelve 0.0 (falso) </string>	 
+	 
 	 </resources>
