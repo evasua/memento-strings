@@ -10,7 +10,7 @@
     <string name="datetime_filter_items_month">Este mes</string>
     <string name="datetime_filter_items_last_week">Última semana</string>
     <string name="datetime_filter_items_last_month">Último mes</string>
-    <string name="datetime_filter_items_custom">Definir</string>
+    <string name="datetime_filter_items_custom">Personalizar</string>
     <string name="calc_result_types_real">Resultado real</string>
     <string name="calc_result_types_int">Resultado entero</string>
     <string name="template_category_arts">Arte</string>
@@ -26,12 +26,12 @@
     <string name="template_category_music">Musica y Películas</string>
     <string name="template_category_research">Investigación y Notas</string>
     <string name="template_category_sports">Deportes</string>
-    <string name="template_category_travel">ViajesTravel</string>
+    <string name="template_category_travel">Viajes</string>
     <string name="template_category_other">Otros</string>    
     <string name="flex_edit_option_values_list">Lista de entrada</string>
     <string name="flex_edit_option_values_card">Entradas por recuadros</string>
     <string name="date_format_list_current_locale">Fecha Actual</string>
-    <string name="date_format_list_date_pref">User\'s preferencias de fecha</string>
+    <string name="date_format_list_date_pref">Fecha de preferencia del usuario</string>
     <string name="db_location_pref_internal">Almacenamiento interno</string>
     <string name="db_location_pref_sd">Tarjeta SD</string>
 <string name="show_soft_keyboard_create">Cuando creas una entrada</string>
@@ -62,7 +62,7 @@
     <string name="time_field_group_entries_day">Agrupar por dia</string>
     <string name="time_field_group_entries_month">Agrupar por mes</string>
     <string name="time_field_group_entries_year">Agrupar por año</string>
-    <string name="edit_library_tabs_facade">INTERFAZ</string>
+    <string name="edit_library_tabs_facade">PORTADA</string>
     <string name="flex_edit_option_values_table">Entradas de la tabla</string>
     <string name="time_field_group_entries_no">Sin agrupación</string>
     <string name="edit_library_tabs_aggr">AGREGACIÓN</string>
