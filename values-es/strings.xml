@@ -85,7 +85,7 @@
     <string name="trush">Papelera</string>
     <string name="library_item_restore">Restaurar</string>
     <string name="clear_trash">Papelera vacía</string>
-    <string name="clear_trash_progress_dialog_title">Vaciando papelera</string>
+    <string name="clear_trash_progress_dialog_title">Vaciar Papelera</string>
     <string name="clear_trash_dialog_title">Papelera vacía</string>
     <string name="clear_trash_dialog_text">¿Desea eliminar todas las entradas de la papelera?</string>
     <string name="mobile">móvil</string>
@@ -118,7 +118,7 @@
     <string name="main_preferences_title">Ajustes</string>
     <string name="backup_preference">Copia de seguridad</string>
     <string name="backup_summary_preference">Volcando todas la librerías a tarjeta flash</string>
-    <string name="backup_fail">Error en copia</string>
+    <string name="backup_fail">Error en copia de seguridad</string>
     <string name="cdcard_not_found">Lo siento, su SD está completa</string>
     <string name="backup_process">Copiando librerías.</string>
     <string name="restore_preference">Restaurar</string>
@@ -1071,4 +1071,9 @@
     <string name="empty_list_after_filter">No hay registros que cumplan los criterios del filtro.</string>
     <string name="auto_backup_not_yeat_launched">No ha sido lanzado aun</string>
     <string name="library_tile_options">Poner en mosaico</string>
-    </resources>
+    <string name="icon_pack_title_files_types">Archivos</string>
+    <string name="use_depend_only_in_edit_title">Donde usar</string>
+    <string name="use_depend_only_in_edit_hint_true">Sólo al editar la entrada</string>
+    <string name="use_depend_only_in_edit_hint_false">Al editar y visualizar la entrada</string>
+    
+</resources>
