@@ -1088,5 +1088,10 @@
     <string name="library_group_view_type_big_tile">Large tiles</string>
     <string name="library_group_view_type_small_tile">Small tiles</string>
     <string name="library_group_view_type_icons">Icons</string>
+    <!-- 3.2.0 -->
+    <string name="icon_pack_title_files_types">Files</string>
+    <string name="use_depend_only_in_edit_title">Where to use</string>
+    <string name="use_depend_only_in_edit_hint_true">Only when editing entry</string>
+    <string name="use_depend_only_in_edit_hint_false">When editing and viewing entry</string>
     
 </resources>
