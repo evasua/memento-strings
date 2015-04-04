@@ -57,4 +57,13 @@
     <string name="chart_discrete_axis">Eje discontinuo</string>
     <string name="chart_continuous_axis">Eje continuo</string>
     <string name="edit_library_tabs_fields">CAMPOS</string>
+    <string name="db_location_pref_custom">Personalizar</string>
+    <string name="time_field_group_entries_hour">Agrupar por hora</string>
+    <string name="time_field_group_entries_day">Agrupar por dia</string>
+    <string name="time_field_group_entries_month">Agrupar por mes</string>
+    <string name="time_field_group_entries_year">Agrupar por año</string>
+    <string name="edit_library_tabs_facade">INTERFAZ</string>
+    <string name="flex_edit_option_values_table">Entradas de la tabla</string>
+    <string name="time_field_group_entries_no">Sin agrupación</string>
+    <string name="edit_library_tabs_aggr">AGREGACIÓN</string>
     </resources>
