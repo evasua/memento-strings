@@ -31,7 +31,7 @@
     <string name="flextemplate_up_item">Arriba</string>
     <string name="flextemplate_down_item">Abajo</string>
     <string name="flextemplate_edit_item">Cambiar</string>
-    <string name="flextemplate_delete_item">eliminar</string>
+    <string name="flextemplate_delete_item">Eliminar</string>
     <string name="ghostData_template_title">Introducir nombre de campo</string>
     <string name="template_title">Nombre del campo</string>
     <string name="select_flex_template_title">Tipo de campo</string>
@@ -42,19 +42,19 @@
     <string name="default_value">Valor por defecto</string>
     <string name="flex_template_options_title">Parámetros avanzados</string>
     <string name="error_template_empty_title">Tipo del nombre de campo</string>
-    <string name="error_library_withous_name_flex">La librería debe tener al menos un campo con la función – \"name\".</string>
+    <string name="error_library_withous_name_flex">La librería debe tener al menos un campo con la función – \"nombre\".</string>
     <string name="select_library_icon_activity">Seleccione un icono para la librería</string>
     <string name="select_flex_template_role_title">Función del campo</string>
     <string name="library_edit2">Editar la librería</string>
     <string name="library_edit">Editar</string>
     <string name="library_delete">Eliminar</string>
     <string name="library_delete_message_title">Eliminar la librería</string>
-    <string name="library_delete_message_text">Desea eliminar la librería \"%s\" ?</string>
+    <string name="library_delete_message_text">¿Desea eliminar la librería \"%s\" ?</string>
     <string name="error_library_empty_title">Nombre de la librería</string>
     <string name="library_item_edit">Editar</string>
     <string name="library_item_delete">Eliminar</string>
-    <string name="library_item_delete_message_text">Desea eliminar esta entrada \"%s\" ?</string>
-    <string name="library_item_trush_message_text">Realmente quiere enviar esta entrada \"%s\" a la papelera?</string>
+    <string name="library_item_delete_message_text">¿Desea eliminar esta entrada \"%s\" ?</string>
+    <string name="library_item_trush_message_text">¿Realmente quiere enviar esta entrada \"%s\" a la papelera?</string>
     <string name="library_items_count">Entradas: %s</string>
     <string name="library_menu_select_sort">Orden</string>
     <string name="library_menu_select_group">Grupo</string>
@@ -62,7 +62,7 @@
     <string name="select_group_template">Seleccione campo a agrupar por</string>
     <string name="sort_by_date">Hora de creación</string>
     <string name="flex_delete_message_title">Eliminar este campo</string>
-    <string name="flex_delete_message_text">Desea eliminar este campo \"%s\" ?</string>
+    <string name="flex_delete_message_text">¿Desea eliminar este campo \"%s\" ?</string>
     <string name="not_group">Sin grupo</string>
     <string name="bool_yes">Si</string>
     <string name="bool_not">No</string>
@@ -70,7 +70,7 @@
     <string name="date_not_set">Sin valor</string>
     <string name="set_default_value">Especificar valor por defecto</string>
     <string name="date_default_null">Campo vacío por defecto</string>
-    <string name="date_default_now">Fecha actula por defecto</string>
+    <string name="date_default_now">Fecha actual por defecto</string>
     <string name="search">Buscar</string>
     <string name="search_hint">Búsqueda</string>
     <string name="search_parse_exception_messagee">Búsqueda no válida</string>
@@ -87,13 +87,13 @@
     <string name="clear_trash">Papelera vacía</string>
     <string name="clear_trash_progress_dialog_title">Vaciando papelera</string>
     <string name="clear_trash_dialog_title">Papelera vacía</string>
-    <string name="clear_trash_dialog_text">Desea eliminar todas las entradas de la papelera?</string>
+    <string name="clear_trash_dialog_text">¿Desea eliminar todas las entradas de la papelera?</string>
     <string name="mobile">móvil</string>
     <string name="home">casa</string>
     <string name="work">trabajo</string>
     <string name="other">otro</string>
     <string name="pager">busca</string>
-    <string name="image_not_found">No hay imágen</string>
+    <string name="image_not_found">Imagen no encontrada</string>
     <string name="audio_not_found">No hay pista de audio</string>
     <string name="flex_type_money_currency_dlg_title">Seleccione moneda</string>
     <string name="flex_type_money_currency_option_title">Moneda</string>
@@ -101,7 +101,7 @@
     <string name="flex_role_not_usage">Campo regular</string>
     <string name="flex_role_name">Ingresa nombre</string>
     <string name="flex_role_hint">Introduzca descripcción</string>
-    <string name="flex_role_status">Introduzca estado</string>
+    <string name="flex_role_status">Estado de la entrada</string>
     <string name="short_flex_role_name">nombre</string>
     <string name="short_flex_role_hint">desc</string>
     <string name="short_flex_role_status">estado</string>
@@ -110,7 +110,7 @@
     <string name="history_dialog_title">Historial</string>
     <string name="favorites_dialog_title">Favoritos</string>
     <string name="map_coord_not_set_hint">Tocar para seleccionar localización</string>
-    <string name="select_map_coord">Seleccione localizaciçon</string>
+    <string name="select_map_coord">Seleccione localización</string>
     <string name="find_selected_address">Buscar dirección ...</string>
     <string name="open_gmap">Abrir Google Maps</string>
     <string name="help">Ayuda</string>
@@ -124,8 +124,8 @@
     <string name="restore_preference">Restaurar</string>
     <string name="restore_summary_preference">Restaurando librerías desde su copia de seguridad</string>
     <string name="backup_file_not_found">No se encuentra copia de seguridad previa.</string>
-    <string name="restore_dialog_message">La librerías existentes serán reemplazadas con las de la copia de seguridad durante la restauración.\nATodos los cambiaos realizados despues de la copia de seguridad se perderán.\nComenzar la restauración ?</string>
-    <string name="backup_dialog_message">Reemplazar la copia de seguridad con la nueva?</string>
+    <string name="restore_dialog_message">La librerías existentes serán reemplazadas con las de la copia de seguridad durante la restauración.\nTodos los cambios realizados después de la copia de seguridad se perderán.\n¿Comenzar la restauración ?</string>
+    <string name="backup_dialog_message">¿Reemplazar la copia de seguridad con la nueva?</string>
     <string name="restore_success">Las librerías han sido restauradas satisfactoriamente desde la copia</string>
     <string name="restore_step1">Restaurando</string>
     <string name="restore_step2">Limpiando caché</string>
@@ -135,10 +135,10 @@
     <string name="load_templates_message">Por favor, espere mientras las plantillas se cargan.</string>
     <string name="help_title">Ayuda de Memento</string>
     <string name="activate_button_title">Activar versión PRO</string>
-    <string name="activate_button_hint">Usted necesita el código de activación</string>
-    <string name="activate_main_text">Actualice a versión PRO</string>
+    <string name="activate_button_hint">Necesitaras el código de activación</string>
+    <string name="activate_main_text">Actualice a la versión PRO</string>
     <string name="activation_dialog_text_hint">Código de Activación</string>
-    <string name="activation_dialog_title">Actualizar a versión PRO</string>
+    <string name="activation_dialog_title">Actualizar a la versión PRO</string>
     <string name="activation_ok">Gracias por activar Memento</string>
     <string name="activation_error">El código no es válido. Por favor, inténtelo de nuevo.</string>
     <string name="about">Acerca de</string>
@@ -193,7 +193,7 @@
     <string name="to">a</string>
     <string name="barcode_search">Buscar código de barras</string>
     <!-- 1.2.1 -->
-    <string name="msg_camera_framework_bug">Lo siengto, la camara Android encontró un problema. Usted necesita reiniciar el dispositivo.</string>
+    <string name="msg_camera_framework_bug">Lo siento, la cámara Android encontró un problema. Puede que necesites reiniciar el dispositivo.</string>
     <!-- 1.2.3 -->
     <string name="deleted_library_hint">Entradas: %s</string>
     <string name="preference_restore_libs_title">Recuperar Librerías</string>
@@ -206,22 +206,22 @@
     <string name="deleting_library_title">Eliminando</string>
     <string name="deleting_library_message">Eliminando la librería</string>
     <!-- 1.2.5 -->
-    <string name="view_category">Ver</string>
+    <string name="view_category">Vista</string>
     <string name="title_lib_theme_preference">Tema</string>
-    <string name="summary_lib_theme_preference">Eligiendo tema para librería</string>
+    <string name="summary_lib_theme_preference">Eligir tema para librería</string>
     <string name="dialog_title_lib_theme_preference">Eliegiendo tema para librerias</string>
     <!-- 1.3.0 -->
     <string name="unbind_from_gdocs">Desvinculando desde Google Sheets</string>
     <string name="bind_to_gdocs">Enlazando con Google Sheets</string>
     <string name="bind_to_gdocs_title">Enlazando con Google Sheets</string>
     <string name="unbind_message_title">Desvinculando desde Google Sheets</string>
-    <string name="unbind_message_text">Desea desvincular la librería \"%s\" de Google Sheets ?</string>
+    <string name="unbind_message_text">¿Realmente desea desvincular la librería \"%s\" de Google Sheets ?</string>
     <string name="bind_to_gdocs_message">Enlazando librería con hoja de cálculo  Google.</string>
-    <string name="bind_to_gdocs_success">La librería se enlazo con hoja de cálculo en Google. Comenzando sincronización.</string>
-    <string name="sync_with_gdocs_success">La librería ha sido sincronizada con Google</string>
+    <string name="bind_to_gdocs_success">La librería se enlazo con hoja de cálculo en Google.</string>
+    <string name="sync_with_gdocs_success">La librería ha sido sincronizada con Google Spreadsheets</string>
     <string name="sync_with_gdocs_success_2">La librería \"%s\" ha sido sincronizada con Google</string>
     <string name="sync_with_gdocs_title">Sincronizando con Google Sheets</string>
-    <string name="sync_with_gdocs_message">Sincronizando librería y hoja de cálculo Google.</string>
+    <string name="sync_with_gdocs_message">Sincronizando librería con Google Spreadsheets.</string>
     <string name="sync_with_gdocs_message_2">Sincronizando \"%s\" con Google hoja de cáculo.</string>
     <string name="sync_with_gdocs">Sincronizando con Google Sheets</string>
     <string name="google_docs_task_step_auth">Autentificando servicio con Hojas de Cálculo</string>
@@ -246,7 +246,7 @@
     <string name="button_pro_version">Versión PRO</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">Autocompletar</string>
-    <string name="option_autofill_hint">Es posible arrastar valores desde otras entradass</string>
+    <string name="option_autofill_hint">Es posible arrastar valores desde otras entradas</string>
     <string name="capture_picture">Capturar Imagen</string>
     <string name="please_wait">Por favor espere...</string>
     <!-- 1.4.0 -->
@@ -284,7 +284,7 @@
     <string name="public_library_task_auth">Autentificando servicio de Memento</string>
     <string name="public_library_task_send_template">Transfiriendo plantilla de la librería</string>
     <string formatted="false" name="public_library_task_send_items">Transfiriendo entradas de librería.\n%s de %s</string>
-    <string name="memento_not_support_template">Su versión de Memento es obsoleta, favor de actualizar</string>
+    <string name="memento_not_support_template">Su versión de Memento es obsoleta, actualizalo</string>
     <string name="memento_not_found">Recurso no encontrado</string>
     <string name="alias_hint">Introduzca un alias para la librería</string>
     <string name="button_publish">Publicar</string>
@@ -297,20 +297,20 @@
     <string name="alias_exists">Ya tiene una librería publicada con ese alias</string>
     <string name="memento_forbidden_error">El acceso a la librería está prohibido</string>
     <string name="publish_library_address">La librería %s está ahora disponibles en</string>
-    <string name="publish_library_address_hint">Sus amigos pueden usar Memento para ver esta librería. Hágalo, ellos deben usan la dirección para suscribirse a la librería.</string>
+    <string name="publish_library_address_hint">Sus amigos pueden usar Memento para ver esta librería. Para hacerlo, deben usan la dirección anterior para suscribirse a la librería.</string>
     <string name="deafult_group_title">Mis librerías</string>
     <string name="subscribe_activity_title">Suscribiendose a las librerías</string>
-    <string name="library_uri_hint">Dirección de librería</string>
+    <string name="library_uri_hint">Dirección de librería / usuario</string>
     <string name="find_libraries_task_title">Buscar librería</string>
     <string name="find_libraries_task_by_uri">Obteniendo librería\npor dirección</string>
-    <string name="find_libraries_task_by_user">Obteniendo lista de librerís de\nof the user\</string>
-    <string name="libraries_list_result_header">Librería encontradas</string>
-    <string name="libraries_by_user_not_found">El usuario especificado no se encuentra o no tiene librería publicadas por usuario</string>
+    <string name="find_libraries_task_by_user">Obteniendo la lista\nde las librerías del usuario</string>
+    <string name="libraries_list_result_header">Librerías encontradas</string>
+    <string name="libraries_by_user_not_found">El usuario especificado no se encuentra o no tiene librerías publicadas por usuario</string>
     <string name="library_not_found">No se encuentran librerías para esta dirección</string>
     <string name="wrong_library_address_format">Dirección de librería con formato no válido</string>
     <string name="last_update">Última actualización: %s</string>
     <string name="subscribe_button">Suscribirse</string>
-    <string name="subscribe_task_get_library">Obteniendo entradasde librería</string>
+    <string name="subscribe_task_get_library">Obteniendo entradas de librería</string>
     <string name="subscribe_task_create_library">Creando librería</string>
     <string formatted="false" name="subscribe_task_save_library_task">Guardando entradas.\n%s desde %s</string>
     <string name="subscribe_task_create_index">Creando índices</string>
@@ -319,10 +319,10 @@
     <string name="subscribe_get_updated_pack">Comprobando actualizaciones</string>
     <string name="subscribe_have_updated_pack">Recibiendo actualización de librería</string>
     <string name="subscribe_last_update">Última actualización %s</string>
-    <string name="subscribe_last_update_dialog_title">Actualizando librería</string>
+    <string name="subscribe_last_update_dialog_title">Actualizar librería</string>
     <string name="subscribe_last_update_dialog_message">Actualizando librería</string>
     <string name="clear_preference">Limpiando librería</string>
-    <string name="clear_preference_hint">Eliminando todas las entradas de la librería</string>
+    <string name="clear_preference_hint">Eliminar todas las entradas de la librería</string>
     <string name="clear_preference_quest">¿Borrar todas las entradas de la librería?</string>
     <string name="last_sync">Última sincronización: %s</string>
     <string name="last_public">Publicado: %s</string>
@@ -335,7 +335,7 @@
     <string name="unbind_from_google_docs_success">La librería no seguira vinculada a Google Sheets</string>
     <string name="preference_category_memento_server">Servidor Memento</string>
     <string name="unpublic_library_hint">Eliminando publicación de librería</string>
-    <string name="need_unpublic_library">Antes de elimnar la librería, desea que tampoco esté publicada</string>
+    <string name="need_unpublic_library">Antes de eliminar la librería, deberías anular la publicacion</string>
     <string name="rename_library">Renombrar</string>
     <string name="rename_dialog_title">Renombrar</string>
     <string name="rename_dialog_text">Nombre de librería</string>
@@ -350,7 +350,7 @@
     <!-- 1.4.5 -->
     <string name="import_template">Importar Plantilla</string>
     <string name="export_template">Exportar Plantilla</string>
-    <string name="export_template_error">Error al exportar plantillas: %s</string>
+    <string name="export_template_error">Error al exportar plantilla: %s</string>
     <string name="import_template_success">La plantilla ha sido importada</string>
     <string name="wrong_template_version">Su versión de Memento no soporta la plantilla seleccionada. Actualice Memento.</string>
     <string name="flex_type_library_entry">Enlace a entrada</string>
@@ -385,7 +385,7 @@
     <string name="help_library_items">Trabajando con entradas de la librería</string>
     <string name="help_import_export">Importando y exportando archivos CSV</string>
     <string name="help_barcode">Escanear CódigoBarras</string>
-    <string name="help_gdocs_sync">Sincronizando con Google Sheets</string>
+    <string name="help_gdocs_sync">Sincronizar con Google Sheets</string>
     <string name="help_publish">Publicando librerías</string>
     <string name="help_subscribe">Suscribiendose a las librerías</string>
     <string name="lib_protection">Protección de librería</string>
@@ -402,13 +402,13 @@
     <string name="button_home">Inicio</string>
     <string name="library_is_locked">El acceso a librerías cifradas está cerrado</string>
     <string name="library_pass_access_description">Debe tener contraseña maestra para acceder a esta librería</string>
-    <string name="library_encription_checkbox">Cifrando los contenidos</string>
+    <string name="library_encription_checkbox">Cifrar los contenidos</string>
     <string name="library_encription_description">Las entradas será cifradas usando AES.\nLa búsqueda en entradas cifradas no está permitida.</string>
     <string name="set_library_protection_title">Cifrando entradas</string>
     <string name="set_library_protection_message">Cifrando entradas de la librería ...</string>
     <string name="remove_library_protection">Eliminar protección</string>
     <string name="remove_library_protection_desc">No será necesario contraseña para acceder a esta librería</string>
-    <string name="remove_library_protection_question">¿Desea realmente no proteger esta librería?</string>
+    <string name="remove_library_protection_question">¿Desea realmente desproteger esta librería?</string>
     <string name="preference_category_security">Seguridad</string>
     <string name="remove_library_protection_title">Eliminar protección</string>
     <string name="remove_library_protection_message">Descifrando entradas de librería ...</string>
@@ -425,8 +425,8 @@
     <string name="library_protection_pass">Contraseña</string>
     <string name="library_protection_pass_checkbox">Contraseña de acceso</string>
     <!-- while not used -->
-    <string name="buy_from_market_title">Comprar a través de Android Market</string>
-    <string name="buy_from_market_hint">Google Checkout</string>
+    <string name="buy_from_market_title">Comprar a través de Google Play</string>
+    <string name="buy_from_market_hint">Google Wallet</string>
     <!-- 1.6.2 -->
     <string name="flex_type_password">Contraseña</string>
     <string name="flex_type_phone">Teléfono</string>
@@ -441,11 +441,11 @@
     <string name="font_size_category_entries_list">Fuente en la lista de entradas</string>
     <string name="font_size_category_entries_card">Fuente en la entrada</string>
     <string name="font_size_dialog">Tamaño de fuente</string>
-    <string name="entry_name_font_size_preference">Introduzca nombre</string>
-    <string name="entry_name_font_size_preference_summary">Definar una tamaño de texto para el nombre</string>
-    <string name="entry_desc_font_size_preference">Introduzca descripción</string>
+    <string name="entry_name_font_size_preference">Nombre en la entrada</string>
+    <string name="entry_name_font_size_preference_summary">Defina tamaño de la fuente para el nombre</string>
+    <string name="entry_desc_font_size_preference">Descripción en la entrada</string>
     <string name="entry_desc_font_size_preference_summary">Defina tamaño de fuente para la descripción</string>
-    <string name="entry_status_font_size_preference">Introduzca estado</string>
+    <string name="entry_status_font_size_preference">Estado en la entrada</string>
     <string name="entry_status_font_size_preference_summary">Defina tamaño de fuente para el estado</string>
     <string name="entry_field_title_font_size_preference">Nombre del campo</string>
     <string name="entry_field_title_font_size_preference_summary">Defina tamaño de fuente para el nombre del campo</string>
@@ -455,12 +455,12 @@
     <string name="flex_type_calc">Cálculo</string>
     <string name="flex_type_calc_option_header">Expresión</string>
     <string name="expression_hint">Introduzca expresión a calcular aquí</string>
-    <string name="add_function_button">Añadir\nfunction</string>
+    <string name="add_function_button">Añadir function</string>
     <string name="calc_result_type_prompt">Tipo de resultado</string>
     <string name="save_library_task_message">Guardando estructura de librería</string>
     <string name="save_library_task_recalc">Recalculando campos</string>
     <string name="memento_funct_promt">Funciones</string>
-    <string name="help_calc">Calculando campo</string>
+    <string name="help_calc">Campo de cálculo</string>
     <!-- 1.7.5 -->
     <string name="template_save_button">Exportar</string>
     <string name="template_load_button">Importar</string>
@@ -470,30 +470,30 @@
     <string name="template_description">Descripción de plantilla</string>
     <string name="button_share_template">Compartir plantilla</string>
     <string name="share_template_text">Subiendo plantilla al catálogo online</string>
-    <string name="share_success">Plantilla de librería cargada satisfactoriamente</string>
+    <string name="share_success">Plantilla de librería cargada satisfactoriamente al catalogo online</string>
     <string name="template_from_catalog_title">Desde catálogo online</string>
     <string name="template_category_text">Categoría de plantilla</string>
     <string name="template_description_title">Descripción de plantilla</string>
     <string name="template_author_text">desde %s</string>
     <string name="template_date_text">creada %s</string>
     <string name="button_download">Descargar</string>
-    <string name="get_template_body_message">Descargra platilla de librería...</string>
-    <string name="error_empty_template_title">Introduzca nombre para la plantilla</string>
+    <string name="get_template_body_message">Descargar platilla de librería...</string>
+    <string name="error_empty_template_title">Introduzca nombre de la plantilla</string>
     <string name="error_empty_template_desc">Introduzca despcipción de la plantilla</string>
     <string name="template_downloads">Descargas: %s</string>
     <string name="clear">Limpiar</string>
     <string name="latest">Últimas</string>
     <string name="scale_dialog">Escala del resultado</string>
     <!-- 1.7.7 -->
-    <string name="pref_cat_library_view">Ver</string>
+    <string name="pref_cat_library_view">Vista</string>
     <string name="field_email_preferences">Formato e-mail</string>
-    <string name="field_email_preferences_summary">Dandoformato a entradas que enviaras por e-mail</string>
+    <string name="field_email_preferences_summary">Dando formato a entradas que enviaras por e-mail</string>
     <string name="formatted_field_prompt">Seleccione campos</string>
     <string name="formatted_field_name">El formato para el campo</string>
     <string name="field_email_enter">Comenzar linea nueva</string>
     <string name="field_email_enter_summary">Nombre y valor serán mostrados en nueva línea</string>
-    <string name="colon_after_name">Después del nombre</string>
-    <string name="colon_after_name_summary">Usar colon depués del nombre del campo</string>
+    <string name="colon_after_name">Dos puntos después del nombre</string>
+    <string name="colon_after_name_summary">Usar dos puntos depués del nombre del campo</string>
     <string name="formatted_string_value">Campo tipo "Multiselect values"</string>
     <string name="formatted_string_value_summary">Número de valores en una fila</string>
     <!-- 1.8.0 -->
@@ -502,7 +502,7 @@
     <string name="short_flex_role_icon">miniatura</string>
     <string name="email_templates_spinner_hint">Dando formato a plantilla</string>
     <string name="default_email_template_title">Por defecto</string>
-    <string name="field_send_by_email">Enivar campo</string>
+    <string name="field_send_by_email">Enviar campo</string>
     <string name="field_send_by_email_summary">Enviar nombre y valor del campo por e-mail/sms</string>
     <string name="add_email_template_dialog_title">Crear una plantilla</string>
     <string name="add_email_template_dialog_text">Nombre de plantilla</string>
@@ -514,10 +514,10 @@
     <string name="fill_required_fields">Campos que deben ser rellenados</string>
     <string name="required_mark">requerido</string>
     <!-- 1.8.3 -->
-    <string name="reset_master_password">Reajustar contraseña maestra</string>
+    <string name="reset_master_password">Restablecer contraseña maestra</string>
     <string name="reset_master_password_hint">Todas las librerías cifradas serán eliminadas</string>
-    <string name="reset_master_quest">¿Desea realmente reajustar la contraseña?\nAtención! Todas las librería cifradas serán eliminadas!</string>
-    <string name="remove_encript_lib_dlg_msg">Eliminar librería cifradas</string>
+    <string name="reset_master_quest">¿Desea realmente restablecer la contraseña?\nAtención! Todas las librería cifradas serán eliminadas!</string>
+    <string name="remove_encript_lib_dlg_msg">Eliminar librerías cifradas</string>
     <string name="master_password_reset">Reajustar contraseña</string>
     <string name="edit_entry_screen_preference">Editando entradas</string>
     <string name="edit_entry_screen_preference_summary">Parámetros de formulario para crear/editar entradas</string>
@@ -538,11 +538,11 @@
     <!-- 1.9.0 -->
     <string name="loading_google_document_list">Cargando...</string>
     <string name="google_doc_list_title">Google Sheets</string>
-    <string name="updated_document_time">ActualizadoActualizado: %s</string>
+    <string name="updated_document_time">Actualizado: %s</string>
     <string name="move_from_google_docs">Transferir datos desde Google Spreadsheet a Memento</string>
     <string name="move_from_google_docs_attention">Todas las entradas de biblioteca disponibles serán borradas</string>
     <string name="move_from_memento">Transferir datos desde Memento a Google Spreadsheet</string>
-    <string name="move_from_memento_attention">Todos los datos disponibles en Google serán eliminados</string>
+    <string name="move_from_memento_attention">Todos los datos disponibles en Google Spreadsheet serán eliminados</string>
     <string name="find_in_spreadsheet_column_title">Lista de campos en Memento y Google Spreadsheet</string>
     <string name="google_doc_exists_link_option">Parametros de enlace</string>
     <string name="get_google_docs_columns_message">Cargando lista de columnas para la hoja Google seleccionada ...</string>
@@ -552,13 +552,13 @@
     <string name="prepare_linking_library">Preparando para enlazar ...</string>
     <string name="error_prepare_linking">Ocurrió un error mientras se enlazaba: %s</string>
     <string name="have_library_items_ask_title"> Enlazando con Hoja Google </string>
-    <string name="have_library_items_ask_message">La librerías contiene entradas que serán eliminadas durante la operación de enlace. Realizar la operación de enlazar con Hoja Google?</string>
+    <string name="have_library_items_ask_message">La librerías contiene entradas que serán eliminadas durante la operación de enlace. ¿Realizar la operación de enlazar la librería con Google Spreadsheet?</string>
     <string name="autofill_source_option_title">Fuente de datos</string>
     <string name="amazon_source_option_title">Amazon</string>
     <!-- 1.9.1 -->
-    <string name="auto_backup_option_title">Copia de seguridad automática</string>
+    <string name="auto_backup_option_title">Copia seguridad automática</string>
     <string name="last_auto_backup_time">Última copia automática: %s</string>
-    <string name="select_file_for_restore_db">Seleccionar copia</string>
+    <string name="select_file_for_restore_db">Seleccione el archivo de copia de seguridad</string>
     <string name="date_format_sample">Formato de fecha: %s</string>
     <string formatted="false" name="stats_title_in_list">%s by %s</string>
     <string name="sum_function_title">Suma</string>
@@ -576,11 +576,11 @@
     <string name="select_field_title">Seleccionar un campo</string>
     <string name="dont_have_field_for_function">No se encuentran campos</string>
     <string name="line_number">Linea %s</string>
-    <string name="ghostData_template_hint">Introduzca el campo a buscar</string>
-    <string name="template_hint">Filed hint</string>
+    <string name="ghostData_template_hint">Introduzca la descripción del campo</string>
+    <string name="template_hint">Descripción campo</string>
     <!-- 1.9.2 -->
     <string name="time_default_now">Hora actual por defecto</string>
-    <string name="determination_location">Determinando ubicación...</string>
+    <string name="determination_location">Determinación de la ubicación...</string>
     <!-- 1.9.3 -->
     <string name="preference_category_export_data_cfg">Ajustes para Importar/Exportar/Sincronizar</string>
     <string name="import_export_date_format">Seleccione formato de fecha</string>
@@ -591,7 +591,7 @@
     <string name="main_menu_bookmarks">Historial y Favoritos</string>
     <string name="main_menu_add_lib_group">Añadir librería o Grupo</string>
     <string name="add_group_dialog_text">Nombre del grupo</string>
-    <string name="add_group_dialog_hint">Tipo del nombre de grupo</string>
+    <string name="add_group_dialog_hint">Escriba el nombre del grupo</string>
     <string name="button_delete_goup">Borrar el Grupo</string>
     <string name="group_delete_message_title">Eliminar el grupo</string>
     <string name="group_delete_message_text">¿Desea realmente eliminar el grupo \"%s\" ?</string>
@@ -613,8 +613,8 @@
     <string name="delete_filter">Eliminar filtro</string>
     <string name="clear_filter">Limpiar filtro</string>
     <string name="new_filter_dialog_title">Nuevo filtro</string>
-    <string name="new_filter_dialog_text">Nombre del filtro</string>
-    <string name="delete_filter_dialog_text">D¿Desea realmente eliminar este filtro?</string>
+    <string name="new_filter_dialog_text">El nombre del filtro</string>
+    <string name="delete_filter_dialog_text">¿Desea realmente eliminar este filtro?</string>
     <string name="add_to_favorite">Añadir a Favoritos</string>
     <string name="remove_from_favorite">Eliminar de Favoritos</string>
     <string name="search_result_subtitle">Buscar resultados</string>
@@ -635,7 +635,7 @@
     <string name="request_pass_dialog_title">Cambio de contraseña</string>
     <string name="request_pass_dialog_text">Por favor, introduzca un email para ayudarle a localizar su cuenta Memento</string>
     <string name="request_pass_dialog_hint">Dirección Email</string>
-    <string name="change_password_success">Por favor, compruebe su email\nWe\'ve hemos enviado un email para cambiar su contraseña facílmente.</string>
+    <string name="change_password_success">Por favor, compruebe su email\nHemos enviado un email para cambiar su contraseña fácilmente.</string>
     <string name="tile_options_text">título</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
     <!-- 2.0.3 -->
@@ -647,16 +647,16 @@
 	<string name="all">Todo</string>        
 <string name="no_entries">Ninguna entrada</string>
     <string name="stat_result_type">Formato del resultado</string>
-    <string name="backup_file_name_title">Nombre del archivo de recuperación</string>
+    <string name="backup_file_name_title">Nombre del archivo de copia seguridad</string>
     <string name="change_dir_button">Cambiar</string>
-    <string name="backup_success2">El archivo de recuperación está realizado</string>
+    <string name="backup_success2">Copia de seguridad esta completa</string>
     <string name="translate">Traducir</string>
-<string name="backup_file_path_title">Directorio raíz del archivo de recuperación</string>
+<string name="backup_file_path_title">Directorio del archivo de copia seguridad</string>
     <string name="restore_file_path_title">Directorio con copias de seguridad</string>
     <string name="auto_bakup_dir_pref_title">Directorio para copia de seguridad automatica</string>
     <string name="google_play_not_found_message">Tu dispositivo no tiene Google Play. Puedes bajarte OI File Manager desde el sitio del dasarroyador.</string>
-    <string name="library_not_found_dialog_title">Biblioteca</string>
-    <string name="library_not_found_dialog_message">Biblioteca no encontrada. Quizás la biblioteca se ha eliminado.</string>
+    <string name="library_not_found_dialog_title">Libreria</string>
+    <string name="library_not_found_dialog_message">Librería no encontrada. Quizás la librería se ha eliminado.</string>
     <string name="add_field_above">Añadir campo por encima</string>
     <string name="add_field_below">Añadir campo por debajo</string>
     <string name="year_default_now">Año actual por defecto</string>
@@ -672,11 +672,11 @@
     <string name="field_depends_activity_title">Dependencias</string>
     <string name="no_dependencies">Sin dependencias</string>
     <string name="add_depends_button_title">Añadir a dependencia</string>
-    <string name="library_dont_have_fields_for_depends">La biblioteca no contiene los campos apropiados para la construcción de dependencia en este campo</string>
+    <string name="library_dont_have_fields_for_depends">La librería no contiene los campos apropiados para la construcción de dependencia en este campo</string>
     <string name="select_type_depends">Selecciona el tipo de dependencia</string>
     <string name="select_type_depends_spinner_title">Tipo de dependencia</string>
     <string name="select_master_field_for_depend">Selecciona el campo desde el cual ser dependiente</string>
-    <string name="library_fields">Campos de entrada de la biblioteca</string>
+    <string name="library_fields">Campos de entrada de la librería</string>
     <string name="boolean_field_check_value">Comprobado</string>
     <string name="boolean_field_uncheck_value">Sin comprobar</string>
     <plurals name="field_depends_count">
@@ -822,7 +822,7 @@
     <string name="custom_storage_title">Personalizada</string>
     <string name="choose_dir">Selecciona una carpeta</string>
     <string name="choose_file">Selecciona un archivo</string>
-    <string name="file_is_not_database">El archivo seleccionado no esta en la base de datos</string>
+    <string name="file_is_not_database">El archivo seleccionado no es una base de datos</string>
     <string name="create_collection">Crear libreria</string>
     <string name="edit_collection">Editar libreria</string>
     <string name="create_field">Crear campo</string>
@@ -843,7 +843,7 @@
     <string name="icon_pack_title_old">Viejo</string>
     <string name="icon_pack_title_field_material">Material</string>
     <string name="icon_pack_title_field_general_flat">General</string>
-    <string name="icon_pack_title_field_account_flat">Contabilidad</string>
+    <string name="icon_pack_title_field_account_flat">Registro actividad</string>
     <string name="icon_pack_title_field_business_flat">Negocios</string>
     <string name="icon_pack_title_field_edu_flat">Educacion</string>
     <string name="icon_pack_title_field_mult_flat">Multimedia</string>
@@ -872,7 +872,7 @@
     <string name="string_edit_cap_options_sent">En el comienzo de la oración</string>
     <string name="string_edit_cap_options_wolds">Al comienzo de cada palabra</string>
     <string name="string_edit_cap_options_all">Todas la letras</string>
-    <string name="single_line_options_title"/>
+    <string name="single_line_options_title">Una sola línea\ncampo de texto</string>
     <string name="main_field_options_tab_title">Principal</string>
     <string name="string_list_items_tab_title">Articulos</string>
     <string name="string_list_edit_item_title_hint">Titulo del articulo</string>
@@ -922,7 +922,7 @@
     <string name="multi_library_item_trush_message_text">¿Estas seguro de querer enviar las entradas seleccionadas a la papelera?</string>
     <string name="delete_library_snackbar_text">La librería \"%s\" se ha movido a la papelera</string>
     <string name="deleted">Eliminada</string>
-    <string name="library_recover_dialog_text">¿Quieres restaurar la libreria \"%s\" ?</string>
+    <string name="library_recover_dialog_text">¿Quieres restaurar la librería \"%s\" ?</string>
     <string name="library_recover_snackbar_text">Librería restaurada en el grupo \"%s\"</string>
     <string name="sort_by_name">Ordenar por nombre</string>
     <string name="clear_history">Borrar Historial</string>
@@ -930,7 +930,7 @@
     <string name="function">Funcion</string>
     <string name="math_functions">Matematica</string>
     <string name="datetime_functions">Fecha/hora</string>
-    <string name="string_functions">cadena de carecteres</string>
+    <string name="string_functions">Cadena de carecteres</string>
     <string name="logic_functions">Logica</string>
     <string name="calc_value_type_date">Tipo de valor numérico, segundos</string>
     <string name="calc_value_type_number">Tipo de valor numérico</string>
@@ -989,13 +989,13 @@
     <string name="calendar_field_role_duration_hour_time">Duración</string>
     <string name="calendar_field_role_start_short">Inicio</string>
     <string name="calendar_field_role_end_short">Fin</string>
-    <string name="calendar_field_role_duration_short">Duración</string>
+    <string name="calendar_field_role_duration_short">duración</string>
     <string name="calendar_day_view">Vista del día</string>
     <string name="calendar_3day_view">Vista 3 días</string>
     <string name="calendar_week_view">Vista semana</string>
     <string name="go_to_date">Ir a la fecha</string>
     <string name="show_add_button_on_tile">Botón \"añadir entrada\"</string>
-    <string name="cant_find_audio_selection_app"/>
+    <string name="cant_find_audio_selection_app">Lo sentiento, pero la aplicación para la elección de pista de sonido no se encontró.</string>
     <string name="library_group_view_type">Vista</string>
     <string name="library_group_view_type_icons">Iconos</string>
     
@@ -1015,4 +1015,58 @@
     <string name="chart_values_function">Función</string>
     <string name="link_master_library_not_found">Lo siento, la librería que estaba vinculada a este campo no se encuentra</string>
     <string name="empty_main_recycle_bin_text">No hay librerías disponibles para recuperación.</string>
+    <string name="file_already_exists">* Ya existe el archivo en directorio</string>
+    <string name="flex_type_int_default_value">Especifica valor por defecto</string>
+    <string name="visible_field_depend_pretitle">Estado del campo %s</string>
+    <string name="sl_content_depend_pretitle">El valor del campo %s</string>
+    <string name="sl_content_depend_description">El valor del campo estará disponible para seleccionar si el valor del campo %s esta</string>
+    <string name="set_default_page">Establecer por defecto</string>
+    <string name="contact_not_found">El contacto no esta</string>
+    <string name="pref_entry_editor_with_margin">Campos durante edición</string>
+    <string name="flex_type_signature_options_title">Opciones de pintura</string>
+    <string name="chart_type_scatter">Dispersion</string>
+    <string name="chart_type_stepped_area">Apilada</string>
+    <string name="pie_chart_slice_text_options">Texto mostrado en el segmento</string>
+    <string name="line_width_titles">Ancho linea datos</string>
+    <string name="change_chart_type_menu_item">Cambiar tipo</string>
+    <string name="favorites_empty_list_layout">Sin entradas favoritas.</string>
+    <string name="map_field_fast_option_hint">Localización será determinada con baja precisión</string>
+    <string name="map_field_address_option_title">Campos separados para la dirección</string>
+    <string name="auto_backup_run_group">Cuando ejecutar copia de seguridad automatica</string>
+    <string name="auto_backup_when_edit_libs">Antes de cambiar las librerías</string>
+    <string name="multichoice_field_empty">No hay valores disponibles para seleccionar</string>
+    <string name="library_group_view_type_big_tile">Mosaicos grandes</string>
+    <string name="library_group_view_type_small_tile">Mosaicos pequeños</string>
+    <string name="visible_field_depend_description">El campo estará en este estado si el campo %s acepta los valores</string>
+    <string name="lock_library_edit_message">Cambios en el diseño de la librería están bloqueados\nPuedes encender la capacidad de edición en los ajustes de esta librería.</string>
+    <string name="add_library_tabs_header">Paginas en entradas</string>
+    <string name="sort_desc">DESC</string>
+    <string name="flex_type_signature_options_hint">Tamaño y fondo del lienzo, configuración del pincel</string>
+    <string name="line_chart_smooth_lines">Los ángulos de la línea serán suavizados</string>
+    <string name="barcode_auto_fill_checkbox_hint_new">Datos desde la web se introducirán en los campos de entrada</string>
+    <string name="wrong_search_query_string_1">La búsqueda no puede comenzar con \"-\"</string>
+    <string name="empty_recycle_bin_text">No hay entradas disponibles para la recuperación de esta librería.</string>
+    <string name="something_wrong_dialog_title">Algo esta mal</string>
+    <string name="aggregation_add_item_dialog_title">Añadir función de agregación</string>
+    <string name="aggregation_edit_item_dialog_title">Editar función de agregación</string>
+    <string name="aggregation_result_prev_line">No comenzar desde una linea nueva</string>
+    <string name="aggregation_delete_title">Borrar la agregación</string>
+    <string name="aggregation_delete_message">¿Realmente quieres borrar la agregación \"%s\" ?</string>
+    <string name="aggregation_need_select_field_message">Debes seleccionar un campo para esta función de agregacion</string>
+    <string name="csv_import_total_lines">Filas procesadas:</string>
+    <string name="google_sync_without_memento_id_text">Esta librería se sincroniza utilizando el método antiguo, que tiene posibilidad de errores.↵\nRealizar la revinculacion de la librería a la nueva tabla para utilizar el nuevo método.↵\n¿Ejecutar revinculacion ahora?</string>
+    <string name="rating_field_max_value">Máxima valoración</string>
+    <string name="auto_fill_barcode_empty2">Comparar los atributos de la fuente de autocompletado y campos de entrada</string>
+    <string name="barcode_rule_delete_text">¿Seguro que quieres eliminar la regla de autocompletar para el campo \"%s\"?</string>
+    <string name="multi_library_item_delete_message_text">¿Esta seguro que quiere borrar las entradas seleccionadas?</string>
+    <string name="lost_linked_library">Librería vinculada no se encontró, quizás fue eliminada.</string>
+    <string name="chart_option_stack_series">Elementos de la serie se apilan</string>
+    <string name="history_empty_list_layout">Sin estradas vistas previamente.</string>
+    <string name="entry_not_found">La entrada no se encuentra</string>
+    <string name="empty_search_result2">Su búsqueda -%s - no encontro ninguna entrada</string>
+    <string name="sort_by_time">Ordenar por hora añadido</string>
+    <string name="empty_aggregation_list_text">Esta librería no contiene funciones de agregación.</string>
+    <string name="google_base_field_new">Valor del atributo del producto desde origen</string>
+    <string name="master_library_entries">Entradas desde una biblioteca relacionada</string>
+    <string name="empty_list_after_filter">No hay registros que cumplan los criterios del filtro.</string>
     </resources>
