@@ -1070,4 +1070,5 @@
     <string name="master_library_entries">Entradas desde una biblioteca relacionada</string>
     <string name="empty_list_after_filter">No hay registros que cumplan los criterios del filtro.</string>
     <string name="auto_backup_not_yeat_launched">No ha sido lanzado aun</string>
+    <string name="library_tile_options">Poner en mosaico</string>
     </resources>
