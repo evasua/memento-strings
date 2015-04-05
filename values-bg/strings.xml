@@ -1043,4 +1043,9 @@
     <string name="library_group_view_type_small_tile">Малки плочки</string>
     <string name="library_group_view_type_icons">Икони</string>
     
-</resources>
+<string name="icon_pack_title_files_types">Файлове</string>
+    <string name="use_depend_only_in_edit_title">Къде да използваме</string>
+    <string name="use_depend_only_in_edit_hint_false">При редактиране и разглеждане на запис</string>
+    
+<string name="use_depend_only_in_edit_hint_true">Само при редактиране на запис</string>
+    </resources>
