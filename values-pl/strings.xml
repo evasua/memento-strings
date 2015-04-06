@@ -1155,4 +1155,9 @@ wysłania...</string>
 	<item quantity="one">Zaimportowano punktów: 0</item>
 	<item quantity="other">Zaimportowano punktów: %d</item>
 </plurals>
-    </resources>
+    <string name="icon_pack_title_files_types">Pliki</string>
+    <string name="use_depend_only_in_edit_title">Gdzie użyć</string>
+    <string name="use_depend_only_in_edit_hint_true">Tylko podczas edycji</string>
+    <string name="use_depend_only_in_edit_hint_false">Podczas edycji i przeglądania</string>
+    
+</resources>
