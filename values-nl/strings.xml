@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
-    <string name="library_menu_add_item">Item toevoegen</string>
-    <string name="main_menu_add_lib">Collectie toevoegen</string>
-    <string name="ghostData_lib_title">Collectienaam</string>
+    <string name="library_menu_add_item">Voeg een item toe</string>
+    <string name="main_menu_add_lib">Bibliotheek toevoegen</string>
+    <string name="ghostData_lib_title">Naam van de bibliotheek</string>
     <string name="custom_template_title">Aangepast</string>
     <string name="button_create">Aanmaken</string>
     <string name="button_yes">Ja</string>
@@ -12,10 +12,10 @@
     <string name="button_save">Opslaan</string>
     <string name="button_cancel">Annuleren</string>
     <string name="button_add_field">Veld toevoegen</string>
-    <string name="add_new_library_item">Object toevoegen ...</string>
+    <string name="add_new_library_item">Item toevoegen ...</string>
     <string name="flex_type_title_string">Tekst</string>
     <string name="flex_type_title_int">Geheel getal</string>
-    <string name="flex_type_title_bool">Boolean</string>
+    <string name="flex_type_title_bool">Boolean (Aankruisveld)</string>
     <string name="flex_type_title_date">Datum</string>
     <string name="flex_type_title_date_time">Datum/Tijd</string>
     <string name="flex_type_contact">Contact</string>
@@ -133,7 +133,7 @@
     <string name="reindex">Herindexeren:</string>
     <string name="load_templates_title">Sjablonen laden</string>
     <string name="load_templates_message">Even geduld totdat de collectiesjablonen geladen zijn.</string>
-    <string name="help_title">Memento Help</string>
+    <string name="help_title">Memento Hulp</string>
     <string name="activate_button_title">Activeren van de PRO-versie</string>
     <string name="activate_button_hint">U heeft een activatiecode nodig</string>
     <string name="activate_main_text">Upgrade naar de PRO-versie</string>
@@ -663,5 +663,8 @@
 </plurals>
     <string name="add_depends_button_title">Een afhankelijkheid toevoegen</string>
     <string name="library_dont_have_fields_for_depends">De collectie bevat niet de juiste velden om een afhankelijkheid van dit veld te maken</string>
-    <string name="select_type_depends"></string>
+    <string name="select_type_depends">Selecteer het type van afhankelijkheid</string>
+    <string name="select_type_depends_spinner_title">Type van afhankelijkheid</string>
+    <string name="select_master_field_for_depend">Selecteer het veld waarvan het afhankelijk is</string>
+    <string name="library_fields">Collectie item velden</string>
     </resources>
