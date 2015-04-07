@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Voeg een item toe</string>
-    <string name="main_menu_add_lib">Bibliotheek toevoegen</string>
+    <string name="main_menu_add_lib">Verzameling toevoegen</string>
     <string name="ghostData_lib_title">Naam van de bibliotheek</string>
     <string name="custom_template_title">Aangepast</string>
     <string name="button_create">Aanmaken</string>
