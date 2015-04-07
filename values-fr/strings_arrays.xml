@@ -1,5 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="call">Appeler</string>
     <string name="send_sms">Envoyer un SMS</string>    
-</resources>
+<string name="light_theme"/>
+    <string name="dark_theme">Thème clair</string>
+    <string name="datetime_filter_items_today">Aujourd\'hui</string>
+    <string name="datetime_filter_items_yesterday">Hier</string>
+    <string name="datetime_filter_items_week">Cette semaine</string>
+    <string name="datetime_filter_items_month">Ce mois</string>
+    <string name="datetime_filter_items_last_week">La semaine dernière</string>
+    <string name="datetime_filter_items_last_month">Le mois dernier</string>
+    <string name="datetime_filter_items_custom">Personnalisé</string>
+    <string name="calc_result_types_real">Résultat Réel</string>
+    <string name="calc_result_types_int">Résultat Entier</string>
+    <string name="calc_result_types_date">Résultat Date</string>
+    <string name="calc_result_types_datetime">Résultat Date/Heure</string>
+    <string name="calc_result_types_string">Résultat Chaîne de caractères</string>
+    <string name="template_category_arts">Arts</string>
+    <string name="template_category_business">Affaires</string>
+    <string name="template_category_contacts">Contacts et Personnes</string>
+    <string name="template_category_cook">Cuisine, alimentation et vin</string>
+    <string name="template_category_edu">Formation</string>
+    <string name="template_category_events">Calendrier événementiel</string>
+    <string name="template_category_fin">Finances</string>
+    <string name="template_category_health">Santé</string>
+    <string name="template_category_home">Maison et loisirs</string>
+    <string name="template_category_internet">Internet et mots de passe</string>
+    <string name="template_category_music">Musique et films</string>
+    <string name="template_category_research">Recherche et notes</string>
+    <string name="template_category_sports">Sport</string>
+    <string name="template_category_travel">Voyage</string>
+    <string name="template_category_other">Autres</string>
+    </resources>
