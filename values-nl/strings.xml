@@ -674,4 +674,5 @@
     <string name="depend_from">Afhankelijkheid van %s</string>
     <string name="delete_depend_dialog_title">Verwijder de afhankelijkheid</string>
     <string name="delete_depend_dialog_message">Wilt u de afhankelijkheid van veld \"%s\" echt verwijderen?</string>
+    <string name="sl_content_depend_type">Inhoud van dit veld</string>
     </resources>

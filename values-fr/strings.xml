@@ -130,7 +130,7 @@
     <string name="restore_step1">Restauration</string>
     <string name="restore_step2">Effacement du cache</string>
     <string name="clear_index">Suppression des indexes</string>
-    <string name="reindex">Re-indexation:</string>
+    <string name="reindex">Re-indexation :</string>
     <string name="load_templates_title">Chargement des modèles</string>
     <string name="load_templates_message">Patientez pendant que les modèles de bases se chargent.</string>
     <string name="help_title">Aide de Memento</string>
@@ -145,7 +145,7 @@
     <string name="copyright">Copyright © 2010 LuckyDroid\nTout droits réservés</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Version du logiciel</string>
-    <string name="about_license_type">Licence:</string>
+    <string name="about_license_type">Licence :</string>
     <string name="pro_version">Version PRO</string>
     <string name="send_library_item">Partager</string>
     <string name="send_chooser_title">Partager via :</string>
@@ -162,12 +162,12 @@
     <string name="select_csv_file_title">Fichiers .csv dans le répertoire memento</string>
     <string name="button_import">Import</string>
     <string name="button_export">Export</string>
-    <string name="find_csv_column_title">Enregistrements trouvés dans le fichier sélectionné:</string>
+    <string name="find_csv_column_title">Enregistrements trouvés dans le fichier sélectionné :</string>
     <string name="not_find_csv_column_title">Aucun champ n\'a été trouvé dans le fichier sélectionné.</string>
     <string name="csv_delimiter_text">Les valeurs doivent être séparées par une virgule (,)</string>
     <string name="need_title_column_text">Le nom de la colonne doit correspondre au nom du champ de l\'enregistrement. </string>
     <string name="csv_result_import_text">Les enregistrements ont été importés</string>
-    <string name="csv_result_import_succes_items">Enregistrements ajoutés:</string>
+    <string name="csv_result_import_succes_items">Enregistrements ajoutés :</string>
     <string formatted="false" name="csv_result_import_fail_items">Nombre de lignes en erreur: %s \nLignes: %s</string>
     <string name="enter_csv_name_dialog_title">Export en CSV</string>
     <string name="enter_csv_name_dialog_value_title">Entrez le nom du fichier CSV</string>
@@ -403,6 +403,7 @@
     <string name="remove_library_protection_title">Suppression de la protection</string>
     <string name="remove_library_protection_message">Déchiffrement des enregistrements de la base ...</string>
 <string name="help_import_export">Importation et exportation de fichiers CSV</string>
-    <string name="help_barcode">Lire un code barre</string>
+    <string name="help_barcode">Lecteur de code barre</string>
     <string name="help_gdocs_sync">"Synchroniser  avec Google  sheets"</string>
+    <string name="help_intro">Qu\'est-ce que Memento</string>
     </resources>

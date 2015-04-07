@@ -84,9 +84,9 @@
     <string name="removed">Eliminadas en %s</string>
     <string name="trush">Papelera</string>
     <string name="library_item_restore">Restaurar</string>
-    <string name="clear_trash">Papelera vacía</string>
+    <string name="clear_trash">Vaciar papelera</string>
     <string name="clear_trash_progress_dialog_title">Vaciar Papelera</string>
-    <string name="clear_trash_dialog_title">Papelera vacía</string>
+    <string name="clear_trash_dialog_title">Vaciar papelera</string>
     <string name="clear_trash_dialog_text">¿Desea eliminar todas las entradas de la papelera?</string>
     <string name="mobile">móvil</string>
     <string name="home">casa</string>
@@ -99,8 +99,8 @@
     <string name="flex_type_money_currency_option_title">Moneda</string>
     <string name="flex_type_money_default_currency">USD</string>
     <string name="flex_role_not_usage">Campo regular</string>
-    <string name="flex_role_name">Ingresa nombre</string>
-    <string name="flex_role_hint">Introduzca descripcción</string>
+    <string name="flex_role_name">Nombre de la entrada</string>
+    <string name="flex_role_hint">Descripción de la entrada</string>
     <string name="flex_role_status">Estado de la entrada</string>
     <string name="short_flex_role_name">nombre</string>
     <string name="short_flex_role_hint">desc</string>
@@ -256,7 +256,7 @@
     <string name="public_to_picasa_success">Imágenes subidas en Picasa</string>
     <string name="picasa_task_step_auth">Autentificando servicio en Picasa</string>
     <string formatted="false" name="picasa_send_image_step">Cargando imágnes de librería en Picasa. %s из %s</string>
-    <string name="public_library">Publicando la librería</string>
+    <string name="public_library">Publicar la librería</string>
     <string name="update_public_library">Actualizando publicación</string>
     <string name="memento_register_account_title">Creando una cuenta\nen el servidor de Memento</string>
     <string name="memento_register_account_text">Para poder publicar librerías y suscribirse a ellas, se requiere una cuenta en el servidor de Memento</string>
@@ -359,7 +359,7 @@
     <string name="flex_type_entry_select_library">Seleccione una librería, entradas que se utilizan en este campo.</string>
     <string name="error_template_wrong_title">El nombre del campo solo puede incluir letras y números</string>
     <!-- 1.4.8 -->
-    <string name="filter_not_set">No filter</string>
+    <string name="filter_not_set">Sin filtro</string>
     <string name="filters">Filtros</string>
     <string name="button_remove_all">Eliminar todo</string>
     <string name="period">Periodo</string>
@@ -394,7 +394,7 @@
     <string name="set_master_pass_text">Definir contraseña maestra para acceso a librerías.\nDebe introducir esta contraseña para acceder a librerías protegidas.</string>
     <string name="master_pass_hint">Contraseña</string>
     <string name="master_pass_hint2">Repetir contraseña</string>
-    <string name="set_master_pass_dialog">Definiendo contraseña maestra</string>
+    <string name="set_master_pass_dialog">Establecer contraseña maestra</string>
     <string name="check_master_pass_text">Por favor, introduzca contraseña maestra para acceder a las librerías</string>
     <string name="master_password_hint">Contraseña maestra</string>
     <string name="button_continue">Continuar</string>
@@ -531,7 +531,7 @@
     <string name="autoincrement">Autoincrementar</string>
     <string name="cant_protect">La versión gratuita solo permite proteger dos librerías.\nActualice a versión PRO y elimine esta limitación.</string>
     <!-- 1.8.4 -->
-    <string name="flex_edit_option_title">Donde puede editar</string>
+    <string name="flex_edit_option_title">Donde puedes editar</string>
     <string name="flex_edit_option_default">Formulario de edición de entrada</string>
     <string name="flex_edit_option_in_list">lista de entradas</string>
     <string name="flex_edit_option_in_view">Tarjeta de entrada</string>
@@ -560,7 +560,7 @@
     <string name="last_auto_backup_time">Última copia automática: %s</string>
     <string name="select_file_for_restore_db">Seleccione el archivo de copia de seguridad</string>
     <string name="date_format_sample">Formato de fecha: %s</string>
-    <string formatted="false" name="stats_title_in_list">%s by %s</string>
+    <string formatted="false" name="stats_title_in_list">%s por %s</string>
     <string name="sum_function_title">Suma</string>
     <string name="max_function_title">Max</string>
     <string name="min_function_title">Min</string>
@@ -969,7 +969,7 @@
 </plurals>
     <plurals name="duration_minutes">
 	<item quantity="one">1 minuto</item>
-	<item quantity="other">&amp;d minutos</item>
+	<item quantity="other">%d minutos</item>
 </plurals>
     <plurals name="duration_hours">
 	<item quantity="one">1 hora</item>
@@ -1070,7 +1070,7 @@
     <string name="master_library_entries">Entradas desde una biblioteca relacionada</string>
     <string name="empty_list_after_filter">No hay registros que cumplan los criterios del filtro.</string>
     <string name="auto_backup_not_yeat_launched">No ha sido lanzado aun</string>
-    <string name="library_tile_options">Poner en mosaico</string>
+    <string name="library_tile_options">Poner en el mosaico</string>
     <string name="icon_pack_title_files_types">Archivos</string>
     <string name="use_depend_only_in_edit_title">Donde usar</string>
     <string name="use_depend_only_in_edit_hint_true">Sólo al editar la entrada</string>
