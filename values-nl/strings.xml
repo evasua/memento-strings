@@ -663,8 +663,15 @@
 </plurals>
     <string name="add_depends_button_title">Een afhankelijkheid toevoegen</string>
     <string name="library_dont_have_fields_for_depends">De collectie bevat niet de juiste velden om een afhankelijkheid van dit veld te maken</string>
-    <string name="select_type_depends">Selecteer het type van afhankelijkheid</string>
-    <string name="select_type_depends_spinner_title">Type van afhankelijkheid</string>
+    <string name="select_type_depends">Selecteer het soort afhankelijkheid</string>
+    <string name="select_type_depends_spinner_title">Soort afhankelijkheid</string>
     <string name="select_master_field_for_depend">Selecteer het veld waarvan het afhankelijk is</string>
     <string name="library_fields">Collectie item velden</string>
+    <string name="boolean_field_check_value">Aangekruist</string>
+    <string name="visible_field_depend_pretitle">Status van het veld %s</string>
+    <string name="boolean_field_uncheck_value">Niet aangekruist</string>
+    <string name="visible_field_depend_description">Het veld krijgt deze status als het %s veld de waarden accepteert</string>
+    <string name="depend_from">Afhankelijkheid van %s</string>
+    <string name="delete_depend_dialog_title">Verwijder de afhankelijkheid</string>
+    <string name="delete_depend_dialog_message">Wilt u de afhankelijkheid van veld \"%s\" echt verwijderen?</string>
     </resources>
