@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Ajouter enregistrement</string>
@@ -402,4 +402,7 @@
     <string name="preference_category_security">Sécurité</string>
     <string name="remove_library_protection_title">Suppression de la protection</string>
     <string name="remove_library_protection_message">Déchiffrement des enregistrements de la base ...</string>
-</resources>
+<string name="help_import_export">Importation et exportation de fichiers CSV</string>
+    <string name="help_barcode">Lire un code barre</string>
+    <string name="help_gdocs_sync">"Synchroniser  avec Google  sheets"</string>
+    </resources>
