@@ -8,7 +8,7 @@
     <string name="math_func_desc_4">Ez a funkció átalakítja a háromszög kordinátákat polárrá.</string>
     <string name="math_func_desc_5">Egy dupla érték plafonértéke</string>
     <string name="math_func_desc_6">Egy szög trigonometrikus koszinusza</string>
-    <string name="math_func_desc_7">Exponential number e (i.e., 2.718...) raised to the power of a double value</string>
+    <string name="math_func_desc_7">Az e exponenciális szám (pl. 2,718...) egy dupla érték kitevőjére lett emelve</string>
     <string name="math_func_desc_8">Egy dupla érték padló értéke.</string>
     <string name="math_func_desc_9">Egy dupla érték (e alapú) természetes logaritmusa</string>
     <string name="math_func_desc_10">Két dupla értéknél nagyobb</string>
