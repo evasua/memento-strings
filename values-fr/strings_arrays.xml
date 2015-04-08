@@ -27,7 +27,7 @@
     <string name="template_category_home">Maison et loisirs</string>
     <string name="template_category_internet">Internet et mots de passe</string>
     <string name="template_category_music">Musique et films</string>
-    <string name="template_category_research">Recherche et notes</string>
+    <string name="template_category_research">Référence et notes</string>
     <string name="template_category_sports">Sport</string>
     <string name="template_category_travel">Voyage</string>
     <string name="template_category_other">Autres</string>
@@ -58,5 +58,12 @@
     <string name="auto_backup_time_always">Chaque fois</string>
     <string name="auto_backup_time_hour">Pas plus d\'une fois par heure</string>
     <string name="auto_backup_time_day">Pas plus d\'une fois par jour</string>
-<string name="flex_edit_option_values_list"/>
+<string name="flex_edit_option_values_list">Liste d\'enregistrements</string>
+    <string name="date_format_list_current_locale">Régional actuel</string>
+    <string name="time_field_group_entries_no">Non groupé</string>
+    <string name="chart_discrete_axis">Axe discret</string>
+    <string name="chart_continuous_axis">Axe continu</string>
+    <string name="show_soft_keyboard_create">En création d\'enregistrement</string>
+    <string name="flex_edit_option_values_card">Fiche enregistrement</string>
+    <string name="flex_edit_option_values_table">Enregistrements</string>
     </resources>
