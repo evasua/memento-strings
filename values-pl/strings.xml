@@ -1088,15 +1088,21 @@ wysłania...</string>
     <string name="translate">Tłumaczenie</string>
 <plurals name="library_box_entries_count">
 	<item quantity="one">Wpisów: 1</item>
-	<item quantity="other">Wpisów: %d</item>
+	<item quantity="few">Wpisów: %d</item>
+	<item quantity="many"/>
+	<item quantity="other"/>
 </plurals>
     <plurals name="field_depends_count">
 	<item quantity="one">Zależności: 1</item>
-	<item quantity="other">Zależności: %d</item>
+	<item quantity="few">Zależności: %d</item>
+	<item quantity="many"/>
+	<item quantity="other"/>
 </plurals>
     <plurals name="fields_count">
 	<item quantity="one">Pól: 1</item>
-	<item quantity="other">Pól: %d</item>
+	<item quantity="few">Pól: %d</item>
+	<item quantity="many"/>
+	<item quantity="other"/>
 </plurals>
     <plurals name="libraries_count">
 	<item quantity="one">Bibliotek: 1</item>
@@ -1106,27 +1112,39 @@ wysłania...</string>
 </plurals>
     <plurals name="rating_stars_count">
 	<item quantity="one">Gwiazdek: %d</item>
-	<item quantity="other">Gwiazdek: %d</item>
+	<item quantity="few">Gwiazdek: %d</item>
+	<item quantity="many"/>
+	<item quantity="other"/>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
 	<item quantity="one">Wpisów przeniesionych do kosza: %d</item>
-	<item quantity="other">Wpisów przeniesionych do kosza: %d</item>
+	<item quantity="few">Wpisów przeniesionych do kosza: %d</item>
+	<item quantity="many"/>
+	<item quantity="other"/>
 </plurals>
     <plurals name="duration_seconds">
 	<item quantity="one">Sekund: 1</item>
-	<item quantity="other">Sekund: %d</item>
+	<item quantity="few">Sekund: %d</item>
+	<item quantity="many"/>
+	<item quantity="other"/>
 </plurals>
     <plurals name="duration_minutes">
 	<item quantity="one">Minut: 1</item>
-	<item quantity="other">Minut: %d</item>
+	<item quantity="few">Minut: %d</item>
+	<item quantity="many"/>
+	<item quantity="other"/>
 </plurals>
     <plurals name="duration_hours">
 	<item quantity="one">Godzin: 1</item>
-	<item quantity="other">Godzin: %d</item>
+	<item quantity="few">Godzin: %d</item>
+	<item quantity="many"/>
+	<item quantity="other"/>
 </plurals>
     <plurals name="duration_days">
 	<item quantity="one">Dni: 1</item>
-	<item quantity="other">Dni: %d</item>
+	<item quantity="few">Dni: %d</item>
+	<item quantity="many"></item>
+	<item quantity="other"></item>
 </plurals>
     <string name="entries_view_type_calendar">Kalendarz</string>
     <string name="calendar_field_role">Użyj w Kalendarzu jako</string>
@@ -1153,7 +1171,9 @@ wysłania...</string>
     
 <plurals name="string_list_import_snackbar_ok">
 	<item quantity="one">Zaimportowano punktów: 0</item>
-	<item quantity="other">Zaimportowano punktów: %d</item>
+	<item quantity="few">Zaimportowano punktów: %d</item>
+	<item quantity="many"/>
+	<item quantity="other"/>
 </plurals>
     <string name="icon_pack_title_files_types">Pliki</string>
     <string name="use_depend_only_in_edit_title">Gdzie użyć</string>
