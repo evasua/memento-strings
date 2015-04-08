@@ -17,4 +17,26 @@
     <string name="auto_backup_time_day">Niet meer dan een keer per dag</string>
 <string name="auto_backup_time_hour">Niet meer dan een keer per uur</string>
     <string name="auto_backup_time_always">Elke keer</string>
+    <string name="calc_result_types_int">Integer resultaat</string>
+    <string name="calc_result_types_date">Datum resultaat</string>
+    <string name="calc_result_types_datetime">Datum/Tijd resultaat</string>
+    <string name="calc_result_types_string">Alfanumeriek resultaat</string>
+    <string name="template_category_contacts">Contactpersonen en Mensen</string>
+    <string name="template_category_cook">Koken, Eten en Wijn</string>
+    <string name="template_category_edu">Educatie</string>
+    <string name="template_category_events">Evenementen Planning</string>
+    <string name="template_category_fin">Financieel</string>
+    <string name="template_category_health">Gezondheid</string>
+    <string name="template_category_home">Thuis en Hobby\'s</string>
+    <string name="template_category_internet">Internet en Wachtwoorden</string>
+    <string name="template_category_music">Muziek en Film</string>
+    <string name="template_category_research">Onderzoek en Notities</string>
+    <string name="template_category_sports">Sport</string>
+    <string name="template_category_travel">Reizen</string>
+    <string name="template_category_other">Overig</string>
+    <string name="flex_edit_option_values_list">Invoer lijst</string>
+    <string name="flex_edit_option_values_card">Kaartgegevens</string>
+    <string name="flex_edit_option_values_table">Tabelgegevens</string>
+    <string name="date_format_list_current_locale">Huidig lokaal</string>
+    <string name="date_format_list_date_pref">Datum voorkeur gebruiker</string>
     </resources>
