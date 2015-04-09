@@ -212,8 +212,8 @@
     <string name="dialog_title_lib_theme_preference">Choisir un thème pour les bases</string>
     <!-- 1.3.0 -->
     <string name="unbind_from_gdocs">Délier de Google Sheets</string>
-    <string name="bind_to_gdocs">Attacher à Google Sheets</string>
-    <string name="bind_to_gdocs_title">Liaison avec Google Sheets</string>
+    <string name="bind_to_gdocs">Lier à Google Sheets</string>
+    <string name="bind_to_gdocs_title">Lier à Google Sheets</string>
     <string name="unbind_message_title">Délier de Google Sheets</string>
     <string name="unbind_message_text">Voulez-vous vraiment supprimer le lien entre la base \"%s\" et Google Sheets ?</string>
     <string name="bind_to_gdocs_message">Liaison de la base avec Google Sheets.</string>
@@ -242,7 +242,7 @@
     <string name="copy_memento_to_gdocs">Enregistrement de Memento</string>
     <string name="copy_gdocs_to_memento">Enregistrements de Google Sheets</string>
     <string name="edit_flex_title_disabled">Ce champ ne peut être renommé car la base est liée à Google Sheets</string>
-    <string name="cant_bind">La version gratuite vous permet d\'attacher seulement trois bases à Google Sheets.\nMerci de bien vouloir acheter la version PRO pour désactiver cette limitation.</string>
+    <string name="cant_bind">La version gratuite vous permet de lier seulement trois bases à Google Sheets.\nMerci de bien vouloir acheter la version PRO pour dépasser cette limitation.</string>
     <string name="button_pro_version">Version PRO</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">Remplissage Auto</string>
@@ -353,7 +353,7 @@
     <string name="export_template_error">Erreur d\'export du modèle : %s</string>
     <string name="import_template_success">Le modèle a été importé</string>
     <string name="wrong_template_version">Votre version de Memento ne supporte pas le fichier de modèle sélectionné. Veuillez mettre à jour Memento.</string>
-    <string name="flex_type_library_entry">Lien vers un enregistrement</string>
+    <string name="flex_type_library_entry">Lier à un enregistrement</string>
     <string name="flex_type_entry_option_title">Base</string>
     <string name="flex_type_entry_option_dlg_title">Sélectionner la base</string>
     <string name="flex_type_entry_select_library">Sélectionner une base, enregistrements qui seront utilisés dans ce champ.</string>
@@ -562,7 +562,7 @@
     <string name="updated_document_time">Mis à jour : %s</string>
     <string name="field_not_found">Non trouvé</string>
     <string name="field_not_sync">Non synchronisé</string>
-    <string name="link_button">Attachement</string>
+    <string name="link_button">Lier</string>
     <string name="amazon_source_option_title">Amazon</string>
     <string name="auto_backup_option_title">Sauvegarde automatique</string>
     <string name="last_auto_backup_time">Dernière sauvegarde automatique : %s</string>
@@ -684,8 +684,8 @@
     <string name="none_files_cloud_storage">Aucun</string>
     <string name="select_files_cloud_storage">Choisir un serveur cloud pour la synchronisation</string>
     <string name="files_cloud_storage_pref">Synchronisation des fichiers</string>
-    <string name="link_to_new_document">Attachement à un nouveau document</string>
-    <string name="link_to_existing_document">Attachement à un document existant</string>
+    <string name="link_to_new_document">Lier à un nouveau document</string>
+    <string name="link_to_existing_document">Lier à un document existant</string>
     <string name="list_library_in_google">Liste des bases de Google Drive</string>
     <string name="add_lib_from_google_drive">De Google Drive</string>
     <string name="delete_template_from_google_drive_question">Voulez-vous vraiment supprimer les bases sélectionnées de Google Drive ?</string>
@@ -1034,14 +1034,14 @@
     <string name="field_display_title_in_card_hint">Afficher le nom du champ sur la fiche enregistrement</string>
     <string name="flex_edit_option_title">Où il est possible de modifier</string>
     <string name="flex_edit_option_default">Formulaire de modification d\'enregistrement</string>
-    <string name="stat_item_line_prompt">Emplacement des résultats.</string>
+    <string name="stat_item_line_prompt">Emplacement de ligne des résultats.</string>
     <string name="create_stat_item_title">Créer une fonction</string>
     <string name="library_last_edit">Mise à jour de %s</string>
     <string name="boolen_filter_checkbox">La valeur du champ</string>
     <string name="add_library_tabs_header">Pages dans les enregistrements</string>
     <string name="master_libraries_list_caption">Liste des enregistrements de la base</string>
     <string name="pref_entry_editor_with_margin">Champs lors de la modification</string>
-    <string name="line_width_titles">Largeur de la ligne des données</string>
+    <string name="line_width_titles">Largeur de la ligne de données</string>
     <string name="line_chart_smooth_lines">Les angles de la ligne seront atténués</string>
     <string name="chart_option_stack_series">Les éléments des séries sont empilés</string>
     <string name="change_chart_type_menu_item">Changer le type</string>
