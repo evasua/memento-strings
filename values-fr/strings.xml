@@ -913,7 +913,7 @@
     <string name="master_library_entries">Enregistrement de la base attachée</string>
     <string name="invisible">invisible</string>
     <string name="display_master_libraries_items">Afficher sur la fiche enregistrement</string>
-    <string name="flex_edit_option_in_table"/>
+    <string name="flex_edit_option_in_table">enregistrements de table</string>
     <string name="search_address_hint">Recherche sur adresse</string>
     <string name="map_field_fast_option_title">Détermination rapide des coordonnées</string>
     <string name="map_field_address_option_title">Champ distinct pour l\'adresse</string>
@@ -961,8 +961,8 @@
     <string name="info_date">Date :</string>
     <string name="contact_not_found">Contact absent</string>
     <string name="pref_entry_editor_with_margin_summary">Option pour le mode paysage</string>
-    <string name="flex_type_signature_options_title"/>
-    <string name="flex_type_signature_options_hint"/>
+    <string name="flex_type_signature_options_title">Options de dessin</string>
+    <string name="flex_type_signature_options_hint">Taille et arrière-plan du support, paramètres du pinceau</string>
     <string name="pie_chart_slice_text_options">Texte affiché sur la section</string>
     <string name="line_chart_category_title">Axe des X</string>
     <string name="line_chart_value_title">Axe des Y</string>
@@ -975,7 +975,7 @@
     <string name="need_internet_for_charts">Google Charts nécessite une connexion active à internet</string>
     <string name="download_image_from_google_photo_message">Téléchargement de l\'image depuis Google Photo...</string>
     <string name="wrong_search_query_string_1">Une requête ne peut débuter par \"-\"</string>
-    <string name="link_master_library_not_found"/>
+    <string name="link_master_library_not_found">Désolé, la base liée à ce champ est introuvable</string>
     <string name="create_collection">Créer une base</string>
     <string name="edit_collection">Modifier une base</string>
     <string name="create_field">Créer un champ</string>
@@ -1032,4 +1032,31 @@
     <string name="set_default_page">Définir par défaut</string>
     <string name="flex_edit_option_in_view">fiche enregistrement</string>
     <string name="field_display_title_in_card_hint">Afficher le nom du champ sur la fiche enregistrement</string>
+    <string name="flex_edit_option_title">Où il est possible de modifier</string>
+    <string name="flex_edit_option_default">Formulaire de modification d\'enregistrement</string>
+    <string name="stat_item_line_prompt">Emplacement des résultats.</string>
+    <string name="create_stat_item_title">Créer une fonction</string>
+    <string name="library_last_edit">Mise à jour de %s</string>
+    <string name="boolen_filter_checkbox">La valeur du champ</string>
+    <string name="add_library_tabs_header">Pages dans les enregistrements</string>
+    <string name="master_libraries_list_caption">Liste des enregistrements de la base</string>
+    <string name="pref_entry_editor_with_margin">Champs lors de la modification</string>
+    <string name="line_width_titles">Largeur de la ligne des données</string>
+    <string name="line_chart_smooth_lines">Les angles de la ligne seront atténués</string>
+    <string name="chart_option_stack_series">Les éléments des séries sont empilés</string>
+    <string name="change_chart_type_menu_item">Changer le type</string>
+    <string name="chart_validate_error_empty_fields">Vous devez sélectionner un champ de donnée</string>
+    <string name="no_data_for_chart">Pas de données</string>
+    <string name="barcode_auto_fill_checkbox_hint_new">Les données du Web peupleront les champs des enregistrements</string>
+    <string name="icon_pack_title_field_material">Matériel</string>
+    <string name="google_base_field_new">Valeur de l\'attribut du produit d\'après la source</string>
+    <string name="icon_pack_title_field_general_flat">Général</string>
+    <string name="single_line_options_title">Ligne simple↵\nchamp texte</string>
+    <string name="reminders_count_limit">Vous pouvez ajouter un maximum de 10 rappels par champ</string>
+    <string name="aggregation_result_position">Emplacement</string>
+    <string name="aggregation_result_prev_line">Ne pas commencer par une nouvelle ligne</string>
+    <string name="csv_import_total_lines">Lignes traitées :</string>
+    <string formatted="false" name="csv_import_error_item">Ligne %d - %s</string>
+    <string name="google_sync_without_memento_id_text">La base est synchronisée en utilisant l\'ancienne méthode qui comporte potentiellement des erreurs .↵\nEffectuer la reconsolidation de la base vers la nouvelle table pour utiliser la nouvelle méthode.↵\nDémarrer la reconsolidation maintenant ?</string>
+    <string name="auto_fill_barcode_empty2">Comparer les attributs de la source d\'autocomplétion et les champs des enregistrements</string>
     </resources>
