@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
-    <string name="library_menu_add_item">Ajouter enregistrement</string>
+    <string name="library_menu_add_item">Ajouter un enregistrement</string>
     <string name="main_menu_add_lib">Ajouter une base</string>
-    <string name="ghostData_lib_title">Nom de la Base</string>
+    <string name="ghostData_lib_title">Nom de la base</string>
     <string name="custom_template_title">Personnalisé</string>
     <string name="button_create">Créer</string>
     <string name="button_yes">Oui</string>
@@ -15,7 +15,7 @@
     <string name="add_new_library_item">Ajouter un enregistrement...</string>
     <string name="flex_type_title_string">Texte</string>
     <string name="flex_type_title_int">Entier</string>
-    <string name="flex_type_title_bool">Booléen</string>
+    <string name="flex_type_title_bool">Booléen (case à cocher)</string>
     <string name="flex_type_title_date">Date</string>
     <string name="flex_type_title_date_time">Date/Heure</string>
     <string name="flex_type_contact">Contact</string>
@@ -55,7 +55,7 @@
     <string name="library_item_delete">Supprimer</string>
     <string name="library_item_delete_message_text">Voulez-vous vraiment supprimer l\'enregistrement \"%s\" ?</string>
     <string name="library_item_trush_message_text">Voulez-vous vraiment envoyer l\'enregistrement \"%s\" à la Corbeille ?</string>
-    <string name="library_items_count">Enregistrements: %s</string>
+    <string name="library_items_count">Enregistrements : %s</string>
     <string name="library_menu_select_sort">Trier</string>
     <string name="library_menu_select_group">Grouper</string>
     <string name="select_sort_template">Sélectionner le champ de tri</string>
@@ -101,10 +101,10 @@
     <string name="flex_role_not_usage">Champ standard</string>
     <string name="flex_role_name">Nom de l\'enregistrement</string>
     <string name="flex_role_hint">Description de l\'enregistrement</string>
-    <string name="flex_role_status">Status de l\'enregistrement</string>
-    <string name="short_flex_role_name">Nom</string>
-    <string name="short_flex_role_hint">Description</string>
-    <string name="short_flex_role_status">Status</string>
+    <string name="flex_role_status">Statut de l\'enregistrement</string>
+    <string name="short_flex_role_name">nom</string>
+    <string name="short_flex_role_hint">description</string>
+    <string name="short_flex_role_status">Statut</string>
     <string name="item_add_to_favorite">L\'enregistrement a été ajouté aux favoris</string>
     <string name="item_remove_from_favorite">L\'enregistrement a été supprimé des favoris</string>
     <string name="history_dialog_title">Historique</string>
@@ -302,11 +302,11 @@
     <string name="subscribe_activity_title">Abonnement à une base</string>
     <string name="library_uri_hint">Adresse de la base</string>
     <string name="find_libraries_task_title">Recherche de base</string>
-    <string name="find_libraries_task_by_uri">Recherche une base\npar son adresse</string>
+    <string name="find_libraries_task_by_uri">Recherche d\'une base\npar son adresse</string>
     <string name="find_libraries_task_by_user">Recherche de la liste\ndes bases de l\'utilisateur</string>
     <string name="libraries_list_result_header">Bases trouvées</string>
     <string name="libraries_by_user_not_found">L\'utilisateur spécifié n\'existe pas ou n\'a publié aucune base</string>
-    <string name="library_not_found">Aucune base n\'a été trouvé à cette adresse</string>
+    <string name="library_not_found">Aucune base n\'a été trouvée à cette adresse</string>
     <string name="wrong_library_address_format">Le format de l\'adresse de la base est invalide</string>
     <string name="last_update">Dernière mise à jour: %s</string>
     <string name="subscribe_button">S\'abonner</string>
@@ -529,8 +529,8 @@
     <string name="font_size_category_entries_list">Polices de la liste des enregistrements</string>
     <string name="font_size_category_entries_card">Polices des enregistrements</string>
     <string name="entry_name_font_size_preference">Nom d\'enregistrement</string>
-    <string name="entry_desc_font_size_preference">Description d\'enregistrement</string>
-    <string name="entry_status_font_size_preference">Statut d\'enregistrement</string>
+    <string name="entry_desc_font_size_preference">Description de l\'enregistrement</string>
+    <string name="entry_status_font_size_preference">Statut de l\'enregistrement</string>
     <string name="entry_field_value_font_size_preference">Valeur du champ</string>
     <string name="expression_hint">Saisir l\'expression calculée ici</string>
     <string name="add_function_button">Ajouter une fonction</string>
@@ -830,8 +830,8 @@
     <string name="autofill_source_option_title">Source de données</string>
     <string name="dont_have_field_for_function">Aucun champ correspondant</string>
     <string name="line_number">Ligne %s</string>
-    <string name="ghostData_template_hint">Saisir une indication pour le champ</string>
-    <string name="template_hint">Indication pour le champ</string>
+    <string name="ghostData_template_hint">Saisir un indice pour le champ</string>
+    <string name="template_hint">Indice pour le champ</string>
     <string name="main_title">Base de données Memento</string>
     <string name="stat_result_type">Format du résultat</string>
     <string name="flex_type_int_allow_direct_input">Autoriser l\'entrée directe</string>
@@ -945,7 +945,7 @@
     <string formatted="false" name="restore_files_error_message">Impossible de restaurer les fichiers de l\'archive : %s</string>
     <string name="restore_files_error">Impossible de restaurer les fichiers</string>
     <string formatted="false" name="upload_file_to_cloud_message">Téléversement %s (%d/%d)</string>
-    <string formatted="false" name="stats_title_in_list">%s par %s</string>
+    <string formatted="false" name="stats_title_in_list">%s de %s</string>
     <string name="search_pref_category">Recherche</string>
     <string name="files_storage_settings_screen_summary">Rangement photos et autres fichiers</string>
     <string name="files_storage_settings_dublicate_title">Copier dans le stockage</string>
