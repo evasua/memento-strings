@@ -38,4 +38,9 @@
 	 
 	 <string name="function_args_startswith"> &lt;b&gt;Parametros:&lt;/b&gt; El primer argumento es la cadena a comprobar, el segundo argumento es el prefijo y el tercer argumento es el índice para empezar. &lt;br/&gt; &lt;b&gt; Devoluciones: &lt;/ b&gt; Devuelve 1,0 (verdad) si la cadena comienza con el prefijo de lo contrario, devuelve 0.0 (falso) </string>	 
 	 
+	 <string name="function_args_substring"> <b>Parametros:</b> El primer argumento es la cadena de origen, el segundo argumento es el indice de inicio y el tercer argumento es el indice de final.<br/> <b>Resultado:</b> Devuelve la subcadena especifica. </string>	 	 	 
+	 	 	
+	 	 
+<string name="function_args_replace"> <b>Parámetros:</b> El primer argumento es la cadena de origen donde sustituir los caracteres. El segundo argumento es el carácter a sustituir en la cadena. El tercer argumento es el carácter nuevo que reemplazara al carácter antiguo en la cadena de origen.<br/> <b>Resultado:</b> Devuelve una cadena con cada aparición del carácter antiguo reemplazado por el nuevo carácter. </string>	
+	 
 	 </resources>
