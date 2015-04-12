@@ -1061,4 +1061,5 @@
     <string name="library_group_view_type_small_tile">kleine Teile</string>
     <string name="library_group_view_type_icons">Symbole</string>
     
-</resources>
+<string name="icon_pack_title_files_types">Dateien</string>
+    </resources>
