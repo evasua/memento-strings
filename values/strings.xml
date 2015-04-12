@@ -937,9 +937,9 @@
     <string name="icon">ICON</string>
     <string name="color">COLOR</string>
     <string name="edit_library_entries_options_group">List of entries</string>
-    <string name="entries_color">Color of entry</string>
+    <string name="entries_color">Entry color</string>
     <string name="entries_color_dialog_title">Color is determined by the value of the field</string>
-    <string name="entries_icon">Thumbnail of entry</string>
+    <string name="entries_icon">Entry thumbnail</string>
     <string name="entries_icon_dialog_title">Thumbnail is determined by the value of the field</string>
     <string name="string_list_export_menu_title">Export items</string>
     <string name="string_list_import_menu_title">Import items</string>
@@ -1088,10 +1088,34 @@
     <string name="library_group_view_type_big_tile">Large tiles</string>
     <string name="library_group_view_type_small_tile">Small tiles</string>
     <string name="library_group_view_type_icons">Icons</string>
-    <!-- 3.2.0 -->
+    <!-- 3.1.2 -->
     <string name="icon_pack_title_files_types">Files</string>
     <string name="use_depend_only_in_edit_title">Where to use</string>
     <string name="use_depend_only_in_edit_hint_true">Only when editing entry</string>
     <string name="use_depend_only_in_edit_hint_false">When editing and viewing entry</string>
-    
+	<!-- 3.2.0 -->
+	<string name="most_viewed_templates">Most viewed</string>    
+	<string name="featured_templates">Featured</string>
+	<string name="template_views_count">Views: %s</string>
+	<string name="sort_by_views">Sort by Views</string>
+	<string name="select_category_template">Please select category</string>	
+	<string name="select_template_lang">Select language of template</string>
+	<string name="template_language">Language:</string>	
+	<string name="display_lang_option">Filter by language</string>
+	<string name="display_lang_option_all">All templates</string>
+	<string name="entries_name_dialog_title">Entry names are determined by the values of chosen fields</string>
+	<string name="entries_name_is_unique">The entry name is unique</string> 
+	<string name="no_fields_for_role">In this library there are no suitable fields for this role</string>
+	<string name="update_item_name_index">Building the index...</string>	
+	<string name="entry_name_must_be_unique">The entry name is not unique</string>
+	<string name="entry_name_must_be_notnull">The entry name shouldn\'t be empty</string>
+	<string name="library_have_duplicates">In the library, entries with similar names</string>
+	<string name="library_have_duplicates2">Change or delete duplicates for working correctly.</string>
+	<string name="dont_show_anymore">Don\'t show anymore</string>
+	<string name="need_make_slave_library_unique">To synchronize \"Link to entry\" fields, you must enable entry name uniqueness control in the library to which the links refer.\nDo this now?</string>
+	<string name="need_make_slave_library_unique_import">To import \"Link to entry\" fields, you must enable entry name uniqueness control in the library to which the links refer.\nDo this now?</string>
+	<string name="run_sync_slave_libraries_pref">Related libraries</string>
+	<string name="run_sync_slave_libraries_summary">First synchronize associated libraries</string>
+	<string name="choice_type_add_button_in_edit_title">The creation of elements while a entry is being edited</string>	
+	
 </resources>
