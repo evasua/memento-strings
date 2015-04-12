@@ -45,18 +45,18 @@
     <string name="error_library_withous_name_flex">Une base doit avoir au moins un champ de type \"nom\".</string>
     <string name="select_library_icon_activity">Sélectionner une icône pour la base</string>
     <string name="select_flex_template_role_title">Type de champ</string>
-    <string name="library_edit2">Editer la base</string>
-    <string name="library_edit">Editer</string>
+    <string name="library_edit2">Modifier la base</string>
+    <string name="library_edit">Modifier</string>
     <string name="library_delete">Supprimer</string>
     <string name="library_delete_message_title">Supprimer la base</string>
     <string name="library_delete_message_text">Voulez-vous vraiment supprimer la base \"%s\" ?</string>
     <string name="error_library_empty_title">Saisir le nom de la base</string>
-    <string name="library_item_edit">Editer</string>
+    <string name="library_item_edit">Modifier</string>
     <string name="library_item_delete">Supprimer</string>
     <string name="library_item_delete_message_text">Voulez-vous vraiment supprimer l\'enregistrement \"%s\" ?</string>
     <string name="library_item_trush_message_text">Voulez-vous vraiment envoyer l\'enregistrement \"%s\" à la Corbeille ?</string>
     <string name="library_items_count">Enregistrements : %s</string>
-    <string name="library_menu_select_sort">Trier</string>
+    <string name="library_menu_select_sort">Tri</string>
     <string name="library_menu_select_group">Grouper</string>
     <string name="select_sort_template">Sélectionner le champ de tri</string>
     <string name="select_group_template">Sélectionner le champ de regroupement</string>
@@ -85,9 +85,9 @@
     <string name="trush">Corbeille</string>
     <string name="library_item_restore">Restaurer</string>
     <string name="clear_trash">Vider la corbeille</string>
-    <string name="clear_trash_progress_dialog_title">Vidage de la corbeille</string>
+    <string name="clear_trash_progress_dialog_title">Vider la corbeille</string>
     <string name="clear_trash_dialog_title">Vider la corbeille</string>
-    <string name="clear_trash_dialog_text">Voulez-vous vraiment supprimer tous les enregistrements de votre Corbeille ?</string>
+    <string name="clear_trash_dialog_text">Voulez-vous vraiment supprimer tous les enregistrements de la corbeille ?</string>
     <string name="mobile">mobile</string>
     <string name="home">maison</string>
     <string name="work">travail</string>
@@ -227,7 +227,7 @@
     <string name="google_docs_task_step_auth">Connexion à Google Sheets</string>
     <string name="google_docs_task_step_get_rows">Récupération de la liste des champs</string>
     <string formatted="false" name="google_docs_task_step_process_row">Traitement de la liste des lignes. %s sur %s</string>
-    <string formatted="false" name="google_docs_task_step_send_row">Ajout d\'une liste de champ. %s sur %s</string>
+    <string formatted="false" name="google_docs_task_step_send_row">Ajout d\'une liste de lignes : %s sur %s</string>
     <string formatted="false" name="google_docs_task_step_update_row">Mise à jour d\'une liste de ligne. %s sur %s</string>
     <string name="google_docs_task_create_document">Création d\'une feuille de classeur</string>
     <string name="google_docs_task_create_worksheet">Ajout d\'une feuille de classeur</string>
@@ -259,7 +259,7 @@
     <string name="public_library">Publier la base</string>
     <string name="update_public_library">Mettre à jour la publication</string>
     <string name="memento_register_account_title">Création d\'un compte\nsur le serveur Memento</string>
-    <string name="memento_register_account_text">Pour permettre la publication de base et s\'y abonner, un compte sur le serveur Memento est requis</string>
+    <string name="memento_register_account_text">Pour permettre de publier des bases et de s\'y abonner, un compte sur le serveur Memento est requis</string>
     <string name="memento_login_hint">Nom</string>
     <string name="memento_pass_hint">Mot de passe</string>
     <string name="memento_pass_hint2">Répétez le mot de passe</string>
@@ -448,7 +448,7 @@
     <string name="get_template_body_message">Télécharger le modèle de base...</string>
     <string name="error_empty_template_title">Saisir le nom du modèle</string>
     <string name="error_empty_template_desc">Saisir une description du modèle</string>
-    <string name="latest">Plus récent</string>
+    <string name="latest">Récents</string>
     <string name="formatted_field_prompt">Choisir un champ</string>
     <string name="formatted_field_name">Le format pour le champ</string>
     <string name="field_email_enter">Commencer une nouvelle ligne</string>
@@ -534,7 +534,7 @@
     <string name="entry_field_value_font_size_preference">Valeur du champ</string>
     <string name="expression_hint">Saisir l\'expression calculée ici</string>
     <string name="add_function_button">Ajouter une fonction</string>
-    <string name="calc_result_type_prompt">Type de résultat</string>
+    <string name="calc_result_type_prompt">Format du résultat</string>
     <string name="save_library_task_message">Sauvegarde de la structure de la base</string>
     <string name="save_library_task_recalc">Recalcule des champs</string>
     <string name="library_template_name">Nom du modèle</string>
@@ -669,7 +669,7 @@
     <string name="bakup_files_need_pro_title">Nécessite la version PRO</string>
     <string name="bakup_files_need_pro_message">La création de fichiers de sauvegarde n\'est disponible qu\'en version PRO du logiciel</string>
     <string name="start_reindex_title">Réindexer</string>
-    <string name="start_reindex_summary">Recréation de l\'index de recherche</string>
+    <string name="start_reindex_summary">Reconstruction de l\'index de recherche</string>
     <string name="reindex_complete_message">Réindexation terminée</string>
     <string name="files_backup_not_found_files">Fichiers non trouvés :</string>
     <string name="files_storage_settings_remove_original_title">Supprimer les originaux</string>
@@ -707,7 +707,7 @@
     <string name="accept_button">J\'accepte</string>
     <string name="sort_asc">ASC</string>
     <string name="sort_desc">DESC</string>
-    <string name="sliding_hint_text">TRI, GROUPE, FILTRES et plus</string>
+    <string name="sliding_hint_text">TRI, GROUPE, FILTRES et autres</string>
     <string name="multy_sorting">Trier sur champs multiples</string>
     <string name="new_button">nouveau</string>
     <string name="free_version_entry_page_limit">Dans la version gratuite vous ne pouvez créer que deux pages. Passer à la version PRO pour supprimer cette limitation.</string>
@@ -808,8 +808,8 @@
 	<item quantity="one">%d étoile</item>
 	<item quantity="other">%d étoiles</item>
 </plurals>
-    <string name="sort_by_name">Tri par nom</string>
-    <string name="sort_by_time">Tri par date d\'ajout</string>
+    <string name="sort_by_name">Trier par nom</string>
+    <string name="sort_by_time">Trier par date d\'ajout</string>
     <string name="field">Champ</string>
     <string name="function">Fonction</string>
     <string name="math_functions">Mathématiques</string>
@@ -881,9 +881,9 @@
     <string name="calendar_field_role_start_short">début</string>
     <string name="calendar_field_role_end_short">fin</string>
     <string name="calendar_field_role_duration_short">durée</string>
-    <string name="calendar_day_view">Vue quotidienne</string>
+    <string name="calendar_day_view">Vue 1 jour</string>
     <string name="calendar_3day_view">Vue 3 jours</string>
-    <string name="calendar_week_view">Vue hebdomadaire</string>
+    <string name="calendar_week_view">Vue 1 semaine</string>
     <string name="go_to_date">Aller à la date</string>
     <string name="lost_linked_library">Base liée introuvable, elle a peut-être été retirée.</string>
     <string name="multichoice_field_empty">Aucune valeur disponible pour la sélection</string>
@@ -990,7 +990,7 @@
     <string name="only_title_on_tile">Nom de la base seul</string>
     <string name="empty_fields_list_text">Il n\'y a pas de champs dans cette base.</string>
     <string name="empty_aggregation_list_text">La base ne contient pas de fonctions d’agrégation.</string>
-    <string name="empty_main_recycle_bin_text">Aucune base disponible pour la restauration.</string>
+    <string name="empty_main_recycle_bin_text">Aucune base à restaurer.</string>
     <string name="string_list_items_tab_title">Items</string>
     <string name="string_list_edit_item_title_hint">Titre de l\'item</string>
     <string name="string_list_edit_item_dialog_title">Modifier l\'item</string>
