@@ -1076,4 +1076,26 @@
     <string name="use_depend_only_in_edit_hint_true">Sólo al editar la entrada</string>
     <string name="use_depend_only_in_edit_hint_false">Al editar y visualizar la entrada</string>
     
+<string name="most_viewed_templates">Más vistos</string>    
+	<string name="featured_templates">Destacados</string>
+	<string name="template_views_count">Vistos: %s</string>
+	<string name="sort_by_views">Ordenar por vistas</string>
+	<string name="select_category_template">Por favor selecciona categoría</string>	
+	<string name="select_template_lang">Seleccionar lenguaje de la plantilla</string>
+	<string name="template_language">Lenguaje:</string>	
+	<string name="display_lang_option">Filtrar por lenguaje</string>
+	<string name="display_lang_option_all">Todas las plantillas</string>
+	<string name="entries_name_dialog_title">Los nombres de la entrada son determinados por los valores de los campos elegidos</string>
+	<string name="entries_name_is_unique">El nombre de la entrada es único</string> 
+	<string name="no_fields_for_role">En esta librería no hay campos adecuados para esta función</string>
+	<string name="update_item_name_index">Construyendo el indice...</string>	
+	<string name="entry_name_must_be_unique">El nombre de la entrada no es único</string>
+	<string name="entry_name_must_be_notnull">El nombre de la entrada no debe estar vacio</string>
+	<string name="library_have_duplicates">En la librería, entradas con nombres similares</string>
+	<string name="library_have_duplicates2">Cambia o borra los duplicados para trabajar correctamente.</string>
+	<string name="dont_show_anymore">No mostrar nunca mas</string>
+	<string name="run_sync_slave_libraries_pref">Librerías relacionadas</string>
+	<string name="run_sync_slave_libraries_summary">Primero sincroniza librerías asociadas</string>
+	<string name="choice_type_add_button_in_edit_title">La creación de elementos mientras una entrada esta siendo editada</string>	
+	
 </resources>
