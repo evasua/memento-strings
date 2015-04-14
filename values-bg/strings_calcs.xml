@@ -22,4 +22,7 @@
  	
  	
 
-	 </resources>
+	 <string name="function_args_substring"> Parametros:&lt;/b&gt; El primer argumento es la cadena de origen, el segundo argumento es el indice de inicio y el tercer argumento es el indice de final.&lt;br/&gt; &lt;b&gt;Resultado:&lt;/b&gt; Devuelve la subcadena especifica. </string>	 	 	 
+	 	 	
+	 	 
+</resources>
