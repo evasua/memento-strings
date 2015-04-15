@@ -14,7 +14,7 @@
     <string name="math_func_desc_10">Két dupla értéknél nagyobb</string>
     <string name="math_func_desc_11">Két dupla értéknél kisebb</string>
     <string name="math_func_desc_12">Az első változó értéke a második változó második hatványára emelve</string>
-    <string name="math_func_desc_13">Double value that is closest in value to the argument and is equal to a mathematical integer</string>
+    <string name="math_func_desc_13">Dupla érték, amely értékében a változóhoz áll közelebb és azonos a matematikai egész számmal</string>
     <string name="math_func_desc_14">Közel olyan hosszú mint a dupla érték</string>
     <string name="math_func_desc_15">Egy szög szinusza</string>
     <string name="math_func_desc_16">Egy dupla érték négyzetgyöke</string>
