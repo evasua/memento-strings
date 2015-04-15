@@ -1,2 +1,45 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Mementó</string>
+    <string name="library_menu_add_item">Új bejegyzés</string>
+    <string name="main_menu_add_lib">Új könyvtár</string>
+    <string name="ghostData_lib_title">Könyvtár neve</string>
+    <string name="custom_template_title">Egyedi</string>
+    <string name="button_create">Létrehoz</string>
+    <string name="button_yes">Igen</string>
+    <string name="button_ok">Ok</string>
+    <string name="button_no">Nem</string>
+    <string name="button_save">Mentés</string>
+    <string name="button_cancel">Mégsem</string>
+    <string name="button_add_field">Új mező</string>
+    <string name="add_new_library_item">Új bejegyzés ...</string>
+    <string name="flex_type_title_string">Szöveg</string>
+    <string name="flex_type_title_int">Egész szám</string>
+    <string name="flex_type_title_bool">Logikai (Jelölőnégyzet)</string>
+    <string name="flex_type_title_date">Dátum</string>
+    <string name="flex_type_title_date_time">Dátum/Idő</string>
+    <string name="flex_type_contact">Kapcsolat</string>
+    <string name="flex_type_image">Kép</string>
+    <string name="flex_type_string_list">Egyválasztós lista</string>
+    <string name="flex_type_audio">Hang</string>
+    <string name="flex_type_money">Pénznem</string>
+    <string name="flex_type_rating">Értékelés</string>
+    <string name="flex_type_web">Hivatkozás</string>
+    <string name="flex_type_map">Hely</string>
+    <string name="flex_type_real">Valós szám</string>
+    <string name="field_list_caption">Könyvtárbejegyzés mezők</string>
+    <string name="flextemplate_up_item">Fel</string>
+    <string name="flextemplate_down_item">Le</string>
+    <string name="flextemplate_edit_item">Változtat</string>
+    <string name="flextemplate_delete_item">Töröl</string>
+    <string name="ghostData_template_title">Adja meg a mező nevét</string>
+    <string name="template_title">Mező név</string>
+    <string name="select_flex_template_title">Mező típus</string>
+    <string name="select_flex_template_role">Mező funkció</string>
+    <string name="select_create_lib_template">Könyvtárminta kiválasztás</string>
+    <string name="button_next">Következő</string>
+    <string name="select_flex_template_type">Mező típus</string>
+    <string name="default_value">Alap érték</string>
+    <string name="flex_template_options_title">Haladó paraméterek</string>
+    <string name="error_template_empty_title">Adja meg a mező nevét</string>
+    <string name="error_library_withous_name_flex">A könvtárna</string>
+    </resources>
