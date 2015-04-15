@@ -1,2 +1,33 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="call">Hívás</string>
+    <string name="send_sms">SMS küldése</string>
+    <string name="light_theme">Világos téma</string>
+    <string name="dark_theme">Sötét téma</string>
+    <string name="datetime_filter_items_today">Ma</string>
+    <string name="datetime_filter_items_yesterday">Tegnap</string>
+    <string name="datetime_filter_items_week">Ezen a héten</string>
+    <string name="datetime_filter_items_month">Ebben a hónapban</string>
+    <string name="datetime_filter_items_last_week">Múlt héten</string>
+    <string name="datetime_filter_items_last_month">Múlt hónapban</string>
+    <string name="datetime_filter_items_custom">Egyedi</string>
+    <string name="calc_result_types_real">Tizedes eredmény</string>
+    <string name="calc_result_types_int">Egész eredmény</string>
+    <string name="calc_result_types_date">Dátum eredmény</string>
+    <string name="calc_result_types_datetime">Dátum/idő eredmény</string>
+    <string name="calc_result_types_string">Szöveges eredmény</string>
+    <string name="template_category_arts">Művészetek</string>
+    <string name="template_category_business">Üzlet</string>
+    <string name="template_category_contacts">Kapcsolatok és Emberek</string>
+    <string name="template_category_cook">Főzés, Ételek and Bor</string>
+    <string name="template_category_edu">Oktatás</string>
+    <string name="template_category_events">Események tervezés</string>
+    <string name="template_category_fin">Pénzügy</string>
+    <string name="template_category_health">Egészség</string>
+    <string name="template_category_home">Otthon és hobbik</string>
+    <string name="template_category_internet">Internet és jelszavak</string>
+    <string name="template_category_music">Zene és mozi</string>
+    <string name="template_category_research">Kutatás és jegyzetek</string>
+    <string name="template_category_sports">Sport</string>
+    <string name="template_category_travel">Utazás</string>
+    <string name="template_category_other">Egyéb</string>
+    </resources>
