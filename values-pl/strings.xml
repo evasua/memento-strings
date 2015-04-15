@@ -1180,4 +1180,29 @@ wysłania...</string>
     <string name="use_depend_only_in_edit_hint_true">Tylko podczas edycji</string>
     <string name="use_depend_only_in_edit_hint_false">Podczas edycji i przeglądania</string>
     
+<string name="most_viewed_templates">Najczęściej oglądane</string>    
+	<string name="featured_templates">Polecane</string>
+	<string name="template_views_count">Oglądane: %s</string>
+	<string name="sort_by_views">Sortuj przez Oglądane</string>
+	<string name="select_category_template">Proszę wybrać kategorię</string>	
+	<string name="select_template_lang">Wybierz język szablonu</string>
+	<string name="template_language">Język:</string>	
+	<string name="display_lang_option">Filtruj wg języka</string>
+	<string name="display_lang_option_all">Wszystkie szablony</string>
+	<string name="entries_name_dialog_title">Nazwy wpisów są określane przez wartości wybranych pól</string>
+	<string name="entries_name_is_unique">Nazwa wpisu jest unikalna</string> 
+	<string name="no_fields_for_role">W tej bibliotece brak jest odpowiednich pól do tej roli</string>
+	<string name="update_item_name_index">Budowanie indeksów...</string>	
+	<string name="entry_name_must_be_unique">Nazwa wpisu nie jest unikalna</string>
+	<string name="entry_name_must_be_notnull">Nazwa wpisu nie może być pusta</string>
+	<string name="library_have_duplicates">Wpisy z podobnymi nazwami w bibliotece</string>
+	<string name="library_have_duplicates2">Zmień lub usuń duplikaty dla poprawnego działania.</string>
+	<string name="dont_show_anymore">Nie pokazuj więcej</string>
+	<string name="need_make_slave_library_unique">Aby zsynchronizować pola \"Łącze do wpisu\", musisz włączyć kontrolę unikalności nazw wpisów w bibliotece, do której łącze się odwołuje.
+\nWłączyć kontrolę teraz?</string>
+	<string name="need_make_slave_library_unique_import">Aby zaimportować pola \"Łącze do wpisu\", musisz włączyć kontrolę unikalności nazw wpisów w bibliotece, do której łącze się odwołuje. ↵\nWłączyć kontrolę teraz?</string>
+	<string name="run_sync_slave_libraries_pref">Powiązane biblioteki</string>
+	<string name="run_sync_slave_libraries_summary">Najpierw zsynchronizuj powiązane biblioteki</string>
+	<string name="choice_type_add_button_in_edit_title">Tworzenie elementów w trakcie edycji wpisu</string>	
+	
 </resources>
