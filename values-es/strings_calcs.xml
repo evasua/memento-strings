@@ -23,7 +23,7 @@
 
 <string name="function_args_compareto"> <b>Parámetros:</b> El primer argumento es la primera cadena a comparar y el segundo argumento es la segunda cadena a comparar.<br/> <b>Resultado:</b> Devuelve un entero con valor de cero si las cadenas son iguales, un entero con valor menor que cero si la primera cadena precede a la segunda cadena, o un entero mayor que cero si la primera cadena sigue la segunda cadena. </string>
 	 
-	 <string name="function_args_comparetoignorecase"> &lt;b&gt;Parámetros:&lt;/b&gt; El primer argumento es la primera cadena a comparar y el segundo argumento es la segunda cadena a comparar.&lt;br&gt; &lt;b&gt;Resultado:&lt;/b&gt; Devuelve un entero con valor de cero si las cadenas son iguales, un entero con valor menor que cero si la primera cadena precede a la segunda cadena, o un entero mayor que cero si la primera cadena sigue la segunda cadena. </string>
+	 <string name="function_args_comparetoignorecase"> <b>Parámetros:</b> El primer argumento es la primera cadena a comparar y el segundo argumento es la segunda cadena a comparar.<br/> <b>Resultado:</b> Devuelve un entero con valor de cero si las cadenas son iguales, un entero con valor menor que cero si la primera cadena precede a la segunda cadena, o un entero mayor que cero si la primera cadena sigue la segunda cadena. </string>
 	 
 	 <string name="function_args_concat"> <b>Parámetros:</b> El primer argumento es la cadena en la que la cadena del segundo argumento será concatenado. <br/> <b>Resultado:</b> Devuelve una cadena que está formada por la primera cadena, seguida de la segunda cadena. </string>
 	 
@@ -36,9 +36,9 @@
 	 <string name="function_args_indexof"> <b>Parámetros:</b> El primer argumento es la cadena origen, la cadena del segundo argumento es la subcadena y el tercer argumento es el índice. <br/> <b>Resultado:</b> Devuelve el índice en el que la subcadena es encontrada. Si no encuentra la subcadena, entonces devuelve -1. </string>	 	
 	 
 	 
-	 <string name="function_args_startswith"> &lt;b&gt;Parametros:&lt;/b&gt; El primer argumento es la cadena a comprobar, el segundo argumento es el prefijo y el tercer argumento es el índice para empezar. &lt;br/&gt; &lt;b&gt; Devoluciones: &lt;/ b&gt; Devuelve 1,0 (verdad) si la cadena comienza con el prefijo de lo contrario, devuelve 0.0 (falso) </string>	 
+	 <string name="function_args_startswith"> &lt;b&gt;Parámetros:&lt;/b&gt; El primer argumento es la cadena a comprobar, el segundo argumento es el prefijo y el tercer argumento es el índice para empezar. &lt;br/&gt; &lt;b&gt; Respuesta: &lt;/ b&gt; Devuelve 1.0 (verdad) si la cadena comienza con el prefijo de lo contrario, devuelve 0.0 (falso) </string>	 
 	 
-	 <string name="function_args_substring"> <b>Parametros:</b> El primer argumento es la cadena de origen, el segundo argumento es el indice de inicio y el tercer argumento es el indice de final.<br/> <b>Resultado:</b> Devuelve la subcadena especifica. </string>	 	 	 
+	 <string name="function_args_substring"> <b>Parámetros:</b> El primer argumento es la cadena de origen, el segundo argumento es el índice de inicio y el tercer argumento es el índice de final.<br/> <b>Resultado:</b> Devuelve la subcadena especifica. </string>	 	 	 
 	 	 	
 	 	 
 <string name="function_args_replace"> <b>Parámetros:</b> El primer argumento es la cadena de origen donde sustituir los caracteres. El segundo argumento es el carácter a sustituir en la cadena. El tercer argumento es el carácter nuevo que reemplazara al carácter antiguo en la cadena de origen.<br/> <b>Resultado:</b> Devuelve una cadena con cada aparición del carácter antiguo reemplazado por el nuevo carácter. </string>	
