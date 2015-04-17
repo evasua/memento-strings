@@ -770,5 +770,5 @@
     <string name="info_size">Rozměr/velikost:</string>
     <string name="info_camera">Kamera:</string>
     <string name="info_date">Datum:</string>
-    <string name="info_exif">EXIF - formát metadat pro foto</string>
+    <string name="info_exif">EXIF</string>
     </resources>
