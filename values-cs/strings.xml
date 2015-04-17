@@ -147,7 +147,7 @@
     <string name="copyright">Copyright © 2010 LuckyDroid\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Prohlédnou softwarovou verzi</string>
-    <string name="about_license_type">License:</string>
+    <string name="about_license_type">Licence:</string>
     <string name="pro_version">PRO verze</string>
     <string name="send_library_item">Odeslat</string>
     <string name="send_chooser_title">Vyberte aplikaci pro odeslání:</string>
@@ -771,4 +771,18 @@
     <string name="info_camera">Kamera:</string>
     <string name="info_date">Datum:</string>
     <string name="info_exif">EXIF</string>
+    <string name="contact_not_found">Kontakt není přítomen</string>
+    <string name="open_slide_menu_item">Více</string>
+    <string name="flex_type_signature">Podpis</string>
+    <string name="chart_list_activity_title">Diagramy</string>
+    <string name="chart_type_pie">Koláč</string>
+    <string name="chart_type_line">Čára</string>
+    <string name="chart_type_bar">Sloupec</string>
+    <string name="chart_type_column">Sloupec</string>
+    <string name="chart_type_area">Plocha</string>
+    <string name="chart_type_scatter">Rozptyl</string>
+    <string name="chart_type_stepped_area">Stupňový prostor</string>
+    <string name="chart_name_hint">Název diagramu</string>
+    <string name="chart_data_source_category_title">Zdrojové údaje</string>
+    <string name="chart_display_option_category_title">Možnosti diagramu</string>
     </resources>
