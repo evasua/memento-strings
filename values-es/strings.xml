@@ -1098,4 +1098,6 @@
 	<string name="run_sync_slave_libraries_summary">Primero sincroniza librerías asociadas</string>
 	<string name="choice_type_add_button_in_edit_title">La creación de elementos mientras una entrada esta siendo editada</string>	
 	
-</resources>
+<string name="need_make_slave_library_unique">"Para sincronizar los campos de tipo  \"Enlace a entrada\", debes habilitar el control de nombre de entrada único en la librería a la que harás referencia.\n¿Deseas hacerlo ahora?"</string>
+	<string name="need_make_slave_library_unique_import">"Para importar los campos de tipo  \"Enlace a entrada\", debes habilitar el control de nombre de entrada único en la librería a la que harás referencia.↵\n¿Deseas hacerlo ahora?"</string>
+	</resources>
