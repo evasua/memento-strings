@@ -752,7 +752,7 @@
     <string name="accept_button">Acepto</string>
     <string name="sort_by_subtitle">por %s</string>
     <string name="group_by_subtitle">por %s</string>
-    <string name="sliding_hint_text">"ORDENAR, AGRUPAR, FILTRAR  y mas"</string>
+    <string name="sliding_hint_text">"ORDENAR, AGRUPAR, FILTRAR  y más"</string>
     <string name="multy_sorting">Ordenar por múltiples campos</string>
     <string name="new_button">Nuevo</string>
     <string name="free_version_entry_page_limit">En la versión gratuita solo puedes crear dos paginas. Actualiza a la versión PRO para eliminar esta limitación.</string>
@@ -767,7 +767,7 @@
     <string name="info_camera">Cámara:</string>
     <string name="info_date">Fecha:</string>
     <string name="info_exif">EXIF:</string>
-    <string name="open_slide_menu_item">Mas</string>
+    <string name="open_slide_menu_item">Más</string>
     <string name="pref_entry_editor_with_margin_summary">Opción para el modo paisaje</string>
     <string name="flex_type_signature">Firma</string>
     <string name="flex_type_signature_height_title">Alto de la firma</string>
@@ -882,7 +882,7 @@
     <string name="icon">ICONO</string>
     <string name="color">COLOR</string>
     <string name="edit_library_entries_options_group">Listado de entradas</string>
-    <string name="entries_color">Color de entrada</string>
+    <string name="entries_color">Color de la entrada</string>
     <string name="entries_color_dialog_title">El color es determinado por el valor del campo</string>
     <string name="entries_icon">Miniatura de la entrada</string>
     <string name="entries_icon_dialog_title">La miniatura es determinada por el valor del campo</string>
