@@ -980,4 +980,24 @@
     <string name="calc_value_type_number">Numerieke waarde type</string>
     <string name="calc_value_type_string">Alfanumerieke waarde type</string>
     <string name="sort_by_downloads">Sorteer op Downloads</string>
+    <string name="need_auth_on_memento_server">Je moet het account aanmaken op de Memento Server</string>
+    <string name="empty_my_templates_list">Je hebt geen sojabonen voor verzamelingen gepubliceerd.</string>
+    <string name="empty_field_depend_list">Dit veld heeft geen afhankelijkheden van andere velden.</string>
+    <string name="share_template_dialog_title">Deel het sjabloon met anderen via de online catalogus</string>
+    <string name="catalog_templates">Sjablonen in de catalogus</string>
+    <string name="empty_search_result2">Er zijn geen items die voldoen aan je zoekopdracht %s</string>
+    <string name="rename_group">Hernoem groep</string>
+    <string name="move">Verplaats</string>
+    <string name="select_group">Selecteer groep</string>
+    <string name="library_moved_message">Verzameling verplaatst naar groep \"%s\"</string>
+    <string name="master_library_entries">Items in gerelateerde verzameling</string>
+    <string name="invisible">onzichtbaar</string>
+    <string name="display_master_libraries_items">Weergave op de kaart</string>
+    <string name="sync_with_google_left_menu_item">Synchroniseer met Google</string>
+    <string name="entries_view_menu_title">Bekijk</string>
+    <string name="entries_view_list">Lijst</string>
+    <string name="entries_view_table">Tabel</string>
+    <string name="flex_edit_option_in_table">tabel items</string>
+    <string name="table_cell_image_text">SCHERM</string>
+    <string name="table_column_width">Kolombreedte</string>
     </resources>
