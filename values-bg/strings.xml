@@ -894,9 +894,9 @@
     <string name="icon">ИКОНА</string>
     <string name="color">ЦВЯТ</string>
     <string name="edit_library_entries_options_group">Списък записи</string>
-    <string name="entries_color">Цвят на записи</string>
+    <string name="entries_color">Добавяне на цвят</string>
     <string name="entries_color_dialog_title">Цветът се определя от стойността на полето</string>
-    <string name="entries_icon">Миниатюра на запис</string>
+    <string name="entries_icon">Добавяне на миниатюра</string>
     <string name="entries_icon_dialog_title">Миниатюрата се определя от полето</string>
     <string name="string_list_export_menu_title">Експорт на елементи</string>
     <string name="string_list_import_menu_title">Импорт на елементи</string>
@@ -1048,4 +1048,28 @@
     <string name="use_depend_only_in_edit_hint_false">При редактиране и разглеждане на запис</string>
     
 <string name="use_depend_only_in_edit_hint_true">Само при редактиране на запис</string>
-    </resources>
+    <string name="most_viewed_templates">Най-гледани</string>    
+	<string name="featured_templates">Най-показвани</string>
+	<string name="template_views_count">Прегледи: %s</string>
+	<string name="sort_by_views">Сортиране по прегледи</string>
+	<string name="select_category_template">Моля изберете категория</string>	
+	<string name="select_template_lang">Избор на език на шаблон</string>
+	<string name="template_language">Език:</string>	
+	<string name="display_lang_option">Филтър по език</string>
+	<string name="display_lang_option_all">Всички шаблони</string>
+	<string name="entries_name_dialog_title">Въведените имена се определят от стойностите на избраните полета</string>
+	<string name="entries_name_is_unique">Входящото име е уникално</string> 
+	<string name="no_fields_for_role">В тази библиотека няма подходящи области за тази роля</string>
+	<string name="update_item_name_index">Изграждане на индекс ...</string>	
+	<string name="entry_name_must_be_unique">Входящото име не е уникално</string>
+	<string name="entry_name_must_be_notnull">Входящото име не трябва да е празно</string>
+	<string name="library_have_duplicates">В библиотеката има записи с подобни имена</string>
+	<string name="library_have_duplicates2">Променете или изтрийте дубликатите за правилна работа.</string>
+	<string name="dont_show_anymore">Не показвай повече</string>
+	<string name="run_sync_slave_libraries_pref">Подобни библиотеки</string>
+	<string name="run_sync_slave_libraries_summary">Първо се синхронизират свързаните библиотеки</string>
+	<string name="choice_type_add_button_in_edit_title">Създаване на елементи, докато записът се редактира</string>	
+	
+<string name="need_make_slave_library_unique">За да синхронизирате \"Линк към позиция\" полета, трябва да се даде възможност за контрол на уникалните имена на записи в библиотеката, към която сочи връзката.↵\nНаправете това сега?</string>
+	<string name="need_make_slave_library_unique_import">За да импортирате \"Линк към позиция\" полета, трябва да се даде възможност за контрол на уникалните имена записи в библиотеката, към която сочи връзката.↵\nНаправете това сега?</string>
+	</resources>
