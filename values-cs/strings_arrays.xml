@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="call">Zavolat</string>
     <string name="send_sms">Poslat SMS zprávu</string>
@@ -30,4 +30,34 @@
     <string name="template_category_other">Jiné</string>
     <string name="flex_edit_option_values_list">Seznam položek</string>
     <string name="flex_edit_option_values_card">Seznam karet</string> 
-</resources>
+<string name="db_location_pref_internal">Vnitřní úložiště zařízení</string>
+    <string name="db_location_pref_sd">SD karta</string>
+    <string name="number_filter_types_less">méně než</string>
+    <string name="number_filter_types_greater">více než</string>
+    <string name="number_filter_types_equal">je rovno</string>
+    <string name="number_filter_types_notequal">není rovno</string>
+    <string name="string_filter_types_contains">zahrnuje</string>
+    <string name="string_filter_types_notcontains">nezahrnuje</string>
+    <string name="time_field_group_entries_no">Bez seskupování</string>
+    <string name="time_field_group_entries_hour">Skupina podle hodin</string>
+    <string name="time_field_group_entries_day">Skupina podle dne</string>
+    <string name="time_field_group_entries_month">Skupina podle měsíce</string>
+    <string name="time_field_group_entries_year">Skupina podle roku</string>
+    <string name="slice_text_percent">Procento</string>
+    <string name="slice_text_value">Hodnota</string>
+    <string name="slice_text_label">Štítek</string>
+    <string name="slice_text_none">Žádný</string>
+    <string name="chart_discrete_axis">Nespojitá osa</string>
+    <string name="chart_continuous_axis">Spojitá osa</string>
+    <string name="edit_library_tabs_facade">MASKA</string>
+    <string name="edit_library_tabs_fields">POLE</string>
+    <string name="edit_library_tabs_aggr">SLOŽENÍ</string>
+    <string name="show_soft_keyboard_no">Neukazovat</string>
+    <string name="show_soft_keyboard_create">Když vytvoříte záznam</string>
+    <string name="show_soft_keyboard_always">Vždy</string>
+    <string name="auto_backup_time_never">Nikdy</string>
+    <string name="auto_backup_time_always">Pokaždé</string>
+    <string name="auto_backup_time_hour">Ne častěji než jednou za hodinu</string>
+    <string name="auto_backup_time_day">Ne častěji než jednou za den</string>
+<string name="date_format_list_current_locale">Aktuální místo</string>
+    </resources>
