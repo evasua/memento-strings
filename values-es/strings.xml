@@ -58,8 +58,8 @@
     <string name="library_items_count">Entradas: %s</string>
     <string name="library_menu_select_sort">Orden</string>
     <string name="library_menu_select_group">Grupo</string>
-    <string name="select_sort_template">Seleccione campo a ordenar por</string>
-    <string name="select_group_template">Seleccione campo a agrupar por</string>
+    <string name="select_sort_template">Seleccione campo para ordenar por</string>
+    <string name="select_group_template">Seleccione campo para agrupar por</string>
     <string name="sort_by_date">Hora de creación</string>
     <string name="flex_delete_message_title">Eliminar este campo</string>
     <string name="flex_delete_message_text">¿Realmente desea eliminar este campo \"%s\" ?</string>
@@ -209,7 +209,7 @@
     <string name="view_category">Vista</string>
     <string name="title_lib_theme_preference">Tema</string>
     <string name="summary_lib_theme_preference">Eligir tema para librería</string>
-    <string name="dialog_title_lib_theme_preference">Eliegiendo tema para librerias</string>
+    <string name="dialog_title_lib_theme_preference">Seleccione un tema para librerias</string>
     <!-- 1.3.0 -->
     <string name="unbind_from_gdocs">Desvinculando desde Google Sheets</string>
     <string name="bind_to_gdocs">Enlazando con Google Sheets</string>
