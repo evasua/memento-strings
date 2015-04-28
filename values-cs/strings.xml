@@ -883,7 +883,7 @@
     <string name="move_to_page">Přesunout na stránku</string>
     <string name="empty_entry_page_text">Tato stránka je prázdná.↵\nMůžete zde přidat pole nebo seznamy záznamů.</string>
     <string name="empty_fields_list_text">V této knihovně nejsou žádná pole.</string>
-    <string name="empty_aggregation_list_text">Tato knihovna neobsahuje složené funkce.</string>
+    <string name="empty_aggregation_list_text">Tato knihovna neobsahuje agregační funkce.</string>
     <string name="empty_chart_list_text">Tato knihovna neobsahuje diagramy.</string>
     <string name="empty_entry_list_text">Tato knihovna ještě nemá žádné záznamy.</string>
     <string name="empty_recycle_bin_text">V této knihovně nejsou pro obnovení k dispozici žádné záznamy.</string>
@@ -962,11 +962,11 @@
 	<item quantity="few">importovány %d položky</item>
 	<item quantity="other">importováno %d položek</item>
 </plurals>
-    <string name="aggregation_add_item_dialog_title">Přidat složenou funkci</string>
-    <string name="aggregation_edit_item_dialog_title">Upravit složenou funkci</string>
-    <string name="aggregation_delete_title">Smazat seskupení</string>
-    <string name="aggregation_delete_message">Chcete skutečně smazat seskupení \"%s\"?</string>
-    <string name="aggregation_need_select_field_message">Musíte vybrat pole pro tuto složenou funkci</string>
+    <string name="aggregation_add_item_dialog_title">Přidat agragační funkci</string>
+    <string name="aggregation_edit_item_dialog_title">Upravit agregační funkci</string>
+    <string name="aggregation_delete_title">Smazat agregaci/seskupení</string>
+    <string name="aggregation_delete_message">Chcete skutečně smazat agregaci/seskupení \"%s\"?</string>
+    <string name="aggregation_need_select_field_message">Musíte vybrat pole pro tuto agregační funkci</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d hvězda</item>
 	<item quantity="other">%d hvězdy</item>
