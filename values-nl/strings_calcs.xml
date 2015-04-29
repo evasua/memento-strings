@@ -1,2 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_0">Absolute waarde van een reëel getal (double).</string>
+    <string name="math_func_desc_1">Boogcosinus van een hoek.</string>
+    <string name="math_func_desc_2">Boogsinus van een hoek.</string>
+    <string name="math_func_desc_3">Boogtangens van een hoek.</string>
+    <string name="math_func_desc_4">De functie converteert cartesische coördinaten naar poolcoördinaten.</string>
+    <string name="math_func_desc_5">Afronding naar boven van een reëel getal</string>
+    <string name="math_func_desc_6">Cosinus van een hoek</string>
+    <string name="math_func_desc_7">Het exponentiële getal e (2,718...) tot de macht x waarbij x is reëel getal</string>
+    <string name="math_func_desc_8">Afronding naar beneden van een reëel getal.</string>
+    <string name="math_func_desc_9">De natuurlijke logaritme (basis e) van een reëel getal</string>
+    <string name="math_func_desc_10">De grootste van twee reële getallen</string>
+    <string name="math_func_desc_11">De kleinste van twee reële getallen</string>
+    <string name="math_func_desc_12">Het eerste getal verheven tot de macht met als exponent het tweede getal</string>
+    <string name="math_func_desc_13">Het dichtstbijgelegen reële getal dat een gehele waarde heeft</string>
+    <string name="math_func_desc_14">Conversie van double naar long</string>
+    <string name="math_func_desc_15">Sinus van een hoek</string>
+    <string name="math_func_desc_16">Vierkantswortel van een reëel getal</string>
+    <string name="math_func_desc_17">Tangens van een hoek</string>
+    <string name="math_func_desc_18">De functie converteert radialen naar graden</string>
+	<string name="math_func_desc_19">De functie converteert graden naar radialen.</string>  	
+ 	
+ 	
+
+	 <string name="function_args_compareto"> <b>Parameters:</b>  De twee te vergelijken teksten.<br/> <b>Retourneert:</b> De waarde 0 als beide teksten gelijk zijn, een geheel getal kleiner dan nul als de eerste tekst vooraf gaat ( lexicografische sortering) aan de tweede tekst, een geheel getal groter dan nul als de tweede tekst vooraf gaat aan de eerste tekst. </string>
+	 
+	 <string name="function_args_comparetoignorecase"> <b>Parameters:</b>  De twee te vergelijken teksten.<br/> <b>Retourneert:</b> De waarde 0 als beide teksten gelijk zijn, een geheel getal kleiner dan nul als de eerste tekst vooraf gaat ( lexicografische sortering) aan de tweede tekst, een geheel getal groter dan nul als de tweede tekst vooraf gaat aan de eerste tekst. </string>
+	 
+	 <string name="function_args_concat"> <b>Parameters:</b>  De twee te concateneren teksten.<br/> <b>Retourneert:</b> De tekst die bestaat uit de eerste tekst gevolgd door de tweede tekst </string>
+	 
+	 <string name="function_args_endswith"> <b>Parameters:</b> Het eerste argument is de te testen tekst en het tweede ‘argument‘ is de suffix. <br/> <b>Retourneert:</b> 1.0 (waar) als de tekst eindigt met de suffix, en anders 0.0 (onwaar). </string>	 
+	 
+	 <string name="function_args_equals"> <b>Parameters:</b> De twee te vergelijken teksten.<br/> <b>Retourneert:</b> 1.0 (waar) als de teksten gelijk zijn, en anders 0.0 (onwaar). </string>	 	 
+	 
+	 <string name="function_args_equalsignorecase"> <b>Parameters:</b> De twee te vergelijken teksten.<br/> <b>Retourneert:</b> 1.0 (waar) als de teksten gelijk zijn, en anders 0.0 (onwaar). </string>	 	
+	 
+	 <string name="function_args_indexof"> <b>Parameters:</b> Het eerste argument is de brontekst, het tweede argument is de deeltekst en het derde argument is de index.<br/> <b>Retourneert:</b> de index van de positie waar de deeltekst is gevonden. Als de deeltekst niet wordt gevonden, dan wordt -1 geretourneerd. </string>	 	
+	 
+	 
+	 <string name="function_args_replace"> <b>Parameters:</b> Het eerste argument is de brontekst waarin tekens vervangen moeten worden. Het tweede argument is het te vervangen teken in de brontekst. Het derde argument is het nieuwe teken dat het oude moet vervangen.<br/> <b>Retourneert:</b> De tekst waarin elk aanwezig te vervangen teken is vervangen door het nieuwe teken. </string>	
+	 
+	 <string name="function_args_startswith"> <b>Parameters:</b> Het eerste argument is de te testen tekst, het tweede argument is de prefix en het derde argument is de index waarop de te starten. <br/> <b>Retourneert:</b> 1.0 (waar) als de tekst begint met de prefix, en anders 0.0 (onwaar). </string>	 
+	 
+	 <string name="function_args_substring"> <b>Parameters:</b> Het eerste argument is de brontekst, het tweede argument is de startindex en het derde argument is de eindindex.<br/> <b>Retourneert:</b> De gespecificeerde deeltekst. </string>	 	 	 
+	 	 	
+	 	 
+</resources>
