@@ -1,2 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_1">아크 코사인</string>
+    <string name="math_func_desc_2">아크 사인</string>
+    <string name="math_func_desc_3">아크 탄젠트</string>
+    <string name="math_func_desc_9">자연로그</string>
+    <string name="math_func_desc_15">사인 값</string>
+    </resources>
