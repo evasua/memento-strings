@@ -1100,4 +1100,9 @@
 	
 <string name="need_make_slave_library_unique">"Para sincronizar los campos de tipo  \"Enlace a entrada\", debes habilitar el control de nombre de entrada único en la librería a la que harás referencia.\n¿Deseas hacerlo ahora?"</string>
 	<string name="need_make_slave_library_unique_import">"Para importar los campos de tipo  \"Enlace a entrada\", debes habilitar el control de nombre de entrada único en la librería a la que harás referencia.↵\n¿Deseas hacerlo ahora?"</string>
-	</resources>
+	<string name="show_deleted_entries_menu_item">Mostrar entradas borradas</string>
+	<string name="upload_to_cloud_menu_item">A la Nube</string>
+	<string name="welcome_text_title">Bienvenido a Memento Database</string>
+	<string name="welcome_text_description">La librería es el lugar donde tus entradas se almacenan.\nPuedes empezar familiarizándote con el programa creando una librería basada en una de las plantillas proporcionadas.</string>	
+	
+</resources>
