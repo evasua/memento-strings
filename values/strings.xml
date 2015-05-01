@@ -1116,6 +1116,12 @@
 	<string name="need_make_slave_library_unique_import">To import \"Link to entry\" fields, you must enable entry name uniqueness control in the library to which the links refer.\nDo this now?</string>
 	<string name="run_sync_slave_libraries_pref">Related libraries</string>
 	<string name="run_sync_slave_libraries_summary">First synchronize associated libraries</string>
-	<string name="choice_type_add_button_in_edit_title">The creation of elements while a entry is being edited</string>	
+	<string name="choice_type_add_button_in_edit_title">The creation of elements while a entry is being edited</string>
+	
+	<!-- 3.2.3 -->
+	<string name="show_deleted_entries_menu_item">Show deleted entries</string>
+	<string name="upload_to_cloud_menu_item">To Cloud</string>
+	<string name="welcome_text_title">Welcome to Memento Database</string>
+	<string name="welcome_text_description">The Library is the place where your entries will be stored.\nYou can begin familiarizing yourself with the program by creating a library based on one of the templates provided.</string>	
 	
 </resources>
