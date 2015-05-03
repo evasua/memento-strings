@@ -1072,4 +1072,9 @@
 	
 <string name="need_make_slave_library_unique">За да синхронизирате \"Линк към позиция\" полета, трябва да се даде възможност за контрол на уникалните имена на записи в библиотеката, към която сочи връзката.↵\nНаправете това сега?</string>
 	<string name="need_make_slave_library_unique_import">За да импортирате \"Линк към позиция\" полета, трябва да се даде възможност за контрол на уникалните имена записи в библиотеката, към която сочи връзката.↵\nНаправете това сега?</string>
-	</resources>
+	<string name="show_deleted_entries_menu_item">Показване на изтритите записи</string>
+	<string name="upload_to_cloud_menu_item">Към облак</string>
+	<string name="welcome_text_title">Добре дошли в Memento Database</string>
+	<string name="welcome_text_description">Библиотеката е мястото, където записите ви ще се съхраняват.↵\nМожете да започнете да се запознавате с програмата чрез създаване на библиотека въз основа на един от предвидените шаблони.</string>	
+	
+</resources>
