@@ -1205,4 +1205,10 @@ wysłania...</string>
 	<string name="run_sync_slave_libraries_summary">Najpierw zsynchronizuj powiązane biblioteki</string>
 	<string name="choice_type_add_button_in_edit_title">Tworzenie elementów w trakcie edycji wpisu</string>	
 	
+<string name="show_deleted_entries_menu_item">Pokaż skasowane wpisy</string>
+	<string name="upload_to_cloud_menu_item">Do Chmury</string>
+	<string name="welcome_text_title">Witaj w Memento Database</string>
+	<string name="welcome_text_description">"Biblioteka jest miejscem, gdzie przechowywane są twoje wpisy.
+\nMożesz rozpocząć poznawanie programu,  poprzez utworzenie biblioteki opartej na jednym z dołączonych szablonów."</string>	
+	
 </resources>
