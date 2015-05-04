@@ -910,8 +910,8 @@
 	<item quantity="other">Импортирани %d елемента</item>
 </plurals>
     <plurals name="library_box_entries_count">
-	<item quantity="one">Един запис</item>
-	<item quantity="other">%d записи</item>
+	<item quantity="one">1 запис</item>
+	<item quantity="other">%d записа</item>
 </plurals>
     <plurals name="field_depends_count">
 	<item quantity="one">Една зависимост</item>
