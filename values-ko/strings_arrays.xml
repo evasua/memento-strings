@@ -1,2 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="call">전화</string>
+    <string name="send_sms">SMS 메시지 보내기</string>
+    <string name="light_theme">밝은 테마</string>
+    <string name="dark_theme">다크 테마</string>
+    <string name="datetime_filter_items_today">오늘</string>
+    <string name="datetime_filter_items_yesterday">어제</string>
+    <string name="datetime_filter_items_week">이번 주</string>
+    <string name="datetime_filter_items_month">이번 달</string>
+    <string name="datetime_filter_items_last_week">지난 주</string>
+    <string name="datetime_filter_items_last_month">지난 달</string>
+    <string name="datetime_filter_items_custom">사용자 설정</string>
+    <string name="calc_result_types_real">실제 결과</string>
+    <string name="calc_result_types_int">정수값 결과</string>
+    <string name="calc_result_types_date"></string>
+    </resources>
