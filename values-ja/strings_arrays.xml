@@ -55,9 +55,9 @@
     <string name="slice_text_none">なし</string>
     <string name="chart_discrete_axis">独立した軸</string>
     <string name="chart_continuous_axis">連続した軸</string>
-    <string name="edit_library_tabs_facade">FACADE</string>
+    <string name="edit_library_tabs_facade">パターン</string>
     <string name="edit_library_tabs_fields">項目</string>
-    <string name="edit_library_tabs_aggr">集合</string>
+    <string name="edit_library_tabs_aggr">集約</string>
     <string name="show_soft_keyboard_no">非表示</string>
     <string name="show_soft_keyboard_create">エントリーを作成する時</string>
     <string name="show_soft_keyboard_always">常時</string>
