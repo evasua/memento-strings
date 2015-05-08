@@ -1,2 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_0">倍精度浮動小数点実数値の絶対値。</string>
+    <string name="math_func_desc_1">角度の弧コサイン。</string>
+    <string name="math_func_desc_2">角度の弧サイン。</string>
+    <string name="math_func_desc_3">角度の弧タンジェント。</string>
+    <string name="math_func_desc_4">関数は直交座標を極線に変換</string>
+    <string name="math_func_desc_5">倍精度浮動小数点実数値の上限値</string>
+    <string name="math_func_desc_6">角度の三角法のコサイン</string>
+    <string name="math_func_desc_7">倍精度浮動小数点実数値で累乗された指数e （すなわち、2.718 ...）</string>
+    <string name="math_func_desc_8">倍精度浮動小数点実数値の下限値</string>
+    <string name="math_func_desc_9">倍精度浮動小数点実数値の自然対数（底e）</string>
+    <string name="math_func_desc_10">2つの倍精度浮動小数点実数値の大きい方</string>
+    <string name="math_func_desc_11">2つの倍精度浮動小数点実数値の小さい方</string>
+    <string name="math_func_desc_12">第1引数の値は第2引数の2乗</string>
+    <string name="math_func_desc_13">引数の値に最も近くINT型整数に等しい倍精度浮動小数点実数値</string>
+    <string name="math_func_desc_14">Long型整数に最も近い倍精度浮動小数点実数値</string>
+    <string name="math_func_desc_15">角度のサイン</string>
+    <string name="math_func_desc_16">倍精度浮動小数点実数値の平方根</string>
+    <string name="math_func_desc_17">角度の三角法タンジェント</string>
+    <string name="math_func_desc_18">関数は弧度法角度を度数法角度に変換します</string>
+	<string name="math_func_desc_19">関数は度数法角度を弧度法角度に変換します</string>  	
+ 	
+ 	
+
+	 <string name="function_args_compareto"> <b>パラメータ:</b> 第1引数は比較する最初の文字列、第2引数は比較する2番目の文字列です。<br/><b>戻り値：</b>両方の文字列が同じであれば、0のINT型整数値を返します。最初の文字列が2番目の文字列に続く場合は0より小さいINT型整数値を、それ以外の場合は、0より大きいINT型整数値を返します。 </string>
+	 
+	 <string name="function_args_comparetoignorecase"> <b>パラメータ:</b> 第1引数は比較する最初の文字列、第2引数は比較する2番目の文字列です。<br/><b>戻り値：</b>両方の文字列が同じであれば、0のINT型整数値を返します。最初の文字列が2番目の文字列に続く場合は0より小さいINT型整数値を、それ以外の場合は、0より大きいINT型整数値を返します。 </string>
+	 
+	 <string name="function_args_concat"> <b>パラメータ：</b> 第1引数は第2引数の文字列で連結される文字列です。<br/><b>戻り値：</b>最初の文字列+2番目の文字列で連結された文字列を返します。 </string>
+	 
+	 <string name="function_args_endswith"> <b>パラメータ：</b>第1引数はテストするための文字列で、第2引数は接尾辞です。 <br/><b>戻り値：</b>文字列が接尾辞で終わる場合は1.0（真）を、それ以外の場合は0.0（偽）を返します。 </string>	 
+	 
+	 <string name="function_args_equals"> <b>パラメータ：</b>第1引数は第2引数の文字列と比較する文字列です。 <br/><b>戻り値：</b>文字列が接尾辞で終わる同じである場合は1.0（真）を、それ以外の場合は0.0（偽）を返します。 </string>	 	 
+	 
+	 <string name="function_args_equalsignorecase"> <b>パラメータ：</b>第1引数は第2引数の文字列と比較する文字列です。 <br/><b>戻り値：</b>文字列が接尾辞で終わる同じである場合は1.0（真）を、それ以外の場合は0.0（偽）を返します。 </string>	 	
+	 
+	 <string name="function_args_indexof"> <b>パラメータ：</b>第1引数は元になる文字列、第2引数は探す文字列、第3引数はインデックスです。<br/><b>戻り値：</b>探す文字列が見つかった場合はインデックス値を、それ以外の場合は-1を返します。 </string>	 	
+	 
+	 
+	 <string name="function_args_replace"> <b>パラメータ：</b>第1引数は置換したい文字列が含まれる文字列、第2引数は置換したい文字列、第3引数は置換する文字列です。<br/><b>戻り値：</b>置換したい文字列を置換する文字列で置き換えた結果を返します。 </string>	
+	 
+	 <string name="function_args_startswith"> <b>パラメータ：</b>第1引数はテストするための文字列で、第2引数は接頭辞です。 <br/><b>戻り値：</b>文字列が接頭辞で始まる場合は1.0（真）を、それ以外の場合は0.0（偽）を返します。 </string>	 
+	 
+	 <string name="function_args_substring"> <b>パラメータ：</b>第1引数は元になる文字列、第2引数は開始位置、第3引数は終了位置です。<br/><b>戻り値：</b>開始位置から終了位置までの部分文字列を返します。 </string>	 	 	 
+	 	 	
+	 	 
+</resources>
