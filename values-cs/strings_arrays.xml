@@ -51,7 +51,7 @@
     <string name="chart_continuous_axis">Spojitá osa</string>
     <string name="edit_library_tabs_facade">MASKA</string>
     <string name="edit_library_tabs_fields">POLE</string>
-    <string name="edit_library_tabs_aggr">SLOŽENÍ</string>
+    <string name="edit_library_tabs_aggr">SESKUPENÍ</string>
     <string name="show_soft_keyboard_no">Neukazovat</string>
     <string name="show_soft_keyboard_create">Když vytvoříte záznam</string>
     <string name="show_soft_keyboard_always">Vždy</string>
@@ -60,4 +60,5 @@
     <string name="auto_backup_time_hour">Ne častěji než jednou za hodinu</string>
     <string name="auto_backup_time_day">Ne častěji než jednou za den</string>
 <string name="date_format_list_current_locale">Aktuální místo</string>
+    <string name="db_location_pref_custom">Uživatelský</string>
     </resources>
