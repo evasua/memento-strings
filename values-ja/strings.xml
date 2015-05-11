@@ -74,8 +74,7 @@
     <string name="search_hint">エントリー検索</string>
     <string name="search_parse_exception_messagee">無効な検索文字列</string>
     <plurals name="NItemsFind">
-	<item quantity="one">1エントリー該当</item>
-	<item quantity="other"/>
+	<item quantity="other">1 エントリー該当</item>
 </plurals>
     <string name="memento_search">Memento 検索</string>
     <string name="memento_search_in_lib">%s より Memento 検索</string>
@@ -118,10 +117,10 @@
     <string name="backup_summary_preference">フラッシュカードへすべてのライブラリをバックアップ</string>
     <string name="backup_fail">バックアップエラー</string>
     <string name="cdcard_not_found">SDカードの容量が一杯です</string>
-    <string name="backup_process">ライブラリをバックアップ中</string>
+    <string name="backup_process">ライブラリをバックアップ中。</string>
     <string name="restore_preference">復元</string>
     <string name="restore_summary_preference">バックアップコピーよりライブラリを復元中</string>
-    <string name="backup_file_not_found">バックアップファイルが見つかりません</string>
+    <string name="backup_file_not_found">バックアップファイルが見つかりません。</string>
     <string name="restore_dialog_message">復元によって、既存のライブラリは、バックアップコピーに置き換わります。\nバックアップコピーを実施した後に加えられた変更はすべて失われます。\n復元を開始しますか？</string>
     <string name="backup_dialog_message">バックアップコピーを新しいものに置き換えますか？</string>
     <string name="restore_success">ライブラリは、バックアップコピーから復元されました</string>
@@ -130,11 +129,31 @@
     <string name="clear_index">インデックスを削除中</string>
     <string name="reindex">インデックス再設定：</string>
     <string name="load_templates_title">テンプレート読込中</string>
-    <string name="load_templates_message">テンプレートが読み込まれる間お待ちください</string>
+    <string name="load_templates_message">テンプレートが読み込まれる間お待ちください。</string>
     <string name="help_title">Memento ヘルプ</string>
     <string name="activate_button_title">PRO バージョン有効化</string>
     <string name="activate_button_hint">アクティベーションキーが必要です</string>
     <string name="activate_main_text">PRO バージョンへアップグレード</string>
     <string name="activation_dialog_text_hint">アクティベーションコード</string>
     <string name="activation_dialog_title">PRO バージョンへアップグレード</string>
+    <string name="activation_ok">Memento を有効化していただきありがとうございます</string>
+    <string name="activation_error">アクティベーションコードは無効です。再度実行してください。</string>
+    <string name="about">Memento について</string>
+    <string name="copyright">Copyright © 2015 LuckyDroid\nAll rights reserved</string>
+    <string name="luckydroid_web">www.mementodatabase.com</string>
+    <string name="about_hint">バージョン情報</string>
+    <string name="about_license_type">ライセンス：</string>
+    <string name="pro_version">PRO バージョン</string>
+    <string name="send_library_item">送信</string>
+    <string name="send_chooser_title">送信するアプリケーションを選択：</string>
+    <string name="create_shortcut">ショートカット作成</string>
+    <string name="app_name_library">Memento ライブラリ</string>
+    <string name="error_cant_open_memento_dir">エラー：フラッシュカードのディレクトリを開けません</string>
+    <string name="preference_category_csv_import">データ操作</string>
+    <string name="csvexport">CSV エクスポート</string>
+    <string name="csvexport_summary">エントリーを CSV ファイルへエクスポート中</string>
+    <string name="csvimport">CSV からインポート</string>
+    <string name="csvimport_from">%s からインポート</string>
+    <string name="csvexport_to">%s へエクスポート</string>
+    <string name="csvimport_summary">CSV ファイルからエントリーをインポート中</string>
     </resources>
