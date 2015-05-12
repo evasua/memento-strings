@@ -1,11 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="math_func_desc_0">Valor absoluto de um valor duplo.</string>
     <string name="math_func_desc_1">Arco-coseno de um ângulo.</string>
     <string name="math_func_desc_2">Arco-seno de um ângulo.</string>
     <string name="math_func_desc_3">Arco-tangente de um ângulo.</string>
-    <string name="math_func_desc_4">Essa função converte coordenadas retangulares em polares.</string>
-    <string name="math_func_desc_5">Arredonda um valor para cima.</string>
+    <string name="math_func_desc_4">A função converte coordenadas retangulares em polares.</string>
+    <string name="math_func_desc_5">Arredonda um valor duplo para cima</string>
     <string name="math_func_desc_6">Coseno trigonométrico de um ângulo.</string>
     <string name="math_func_desc_7">Número exponencial e (i.e., 2.718...) elevado à potência de um valor.</string>
     <string name="math_func_desc_8">Arredonda um valor para baixo.</string>
