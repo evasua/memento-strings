@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Adicione uma entrada</string>
@@ -516,4 +516,80 @@
     <string name="required_mark">Obrigatório</string>
     <string name="all">Todos</string>    
     <string name="scale">Escala %d</string>
-</resources>
+<string name="reset_master_password">Redefinir a palavra-passe principal</string>
+    <string name="reset_master_password_hint">Todas as livrarias encriptadas serão removidas</string>
+    <string name="reset_master_quest">Você realmente deseja redefinir a palavra-passe principal?
+\nAtenção! Todas as bibliotecas encriptadas serão removidas!</string>
+    <string name="remove_encript_lib_dlg_msg">Apagar as bibliotecas encriptadas</string>
+    <string name="master_password_reset">Redefinição da palavra-passe principal</string>
+    <string name="edit_entry_screen_preference">Edição de entradas</string>
+    <string name="edit_entry_screen_preference_summary">Parâmetros de formulário para criar/editar entradas</string>
+    <string name="auto_show_soft_keyboard">Mostrar o teclado virtual</string>
+    <string name="auto_show_soft_keyboard_summary">Quando o formulário está aberto - abrir o teclado virtual</string>
+    <string name="flex_type_file">Ligação para arquivo</string>
+    <string name="file_size">Tamanho do ficheiro: %sb</string>
+    <string name="file_not_found">Ficheiro não encontrado</string>
+    <string name="select_app">Selecione uma aplicação</string>
+    <string name="forum">Fórum</string>
+    <string name="autoincrement">Auto incremento</string>
+    <string name="cant_protect">A versão gratuita permite que você proteja apenas dous livrarias.↵\nAtualize para a versão PRO para desabilitar esta limitação.</string>
+    <string name="flex_edit_option_title">Onde você pode editar</string>
+    <string name="flex_edit_option_default">Formulário para editar a entrada</string>
+    <string name="loading_google_document_list">Carregando...</string>
+    <string name="flex_edit_option_in_list">Listagem de registos</string>
+    <string name="flex_edit_option_in_view">Cartão do registo</string>
+    <string name="google_doc_list_title">Google documentos</string>
+    <string name="updated_document_time">Atualizado: %s</string>
+    <string name="move_from_google_docs">Transferência de dados de folha de cálculo do Google para o Memento</string>
+    <string name="move_from_google_docs_attention">Todas os registos de bibliotecas disponíveis serão eliminados</string>
+    <string name="move_from_memento">Transferir dados do Google Spreadsheet para o Memento</string>
+    <string name="move_from_memento_attention">Todos os dados disponíveis no Google Spreadsheet serão removidos</string>
+    <string name="find_in_spreadsheet_column_title">Lista de campos no Memento e folha de cálculo da Google</string>
+    <string name="google_doc_exists_link_option">Parâmetros da ligação</string>
+    <string name="get_google_docs_columns_message">Carregando a lista de colunas para a folha de cálculo Google selecionada</string>
+    <string name="field_not_found">Não encontrado</string>
+    <string name="field_not_sync">Não sincronizado</string>
+    <string name="link_button">Ligação</string>
+    <string name="prepare_linking_library">Preparando para a ligação ...</string>
+    <string name="error_prepare_linking">Ocorreu um erro ao preparar a ligação: %s</string>
+    <string name="have_library_items_ask_title">Ligando a uma folha de cálculo Google</string>
+    <string name="have_library_items_ask_message">A biblioteca contém registos que serão removidos durante a operação de ligação. Realizar a operação de ligar a Biblioteca com a folha de cálculo Google?</string>
+    <string name="autofill_source_option_title">Origem dos dados</string>
+    <string name="amazon_source_option_title">Amazon</string>
+    <string name="auto_backup_option_title">Backup automático</string>
+    <string name="last_auto_backup_time">Último backup automático: %s</string>
+    <string name="select_file_for_restore_db">Selecione o ficheiro de backup</string>
+    <string name="date_format_sample">Formato da data: %s</string>
+    <string formatted="false" name="stats_title_in_list">%s por %s</string>
+    <string name="sum_function_title">Soma</string>
+    <string name="max_function_title">Máximo</string>
+    <string name="min_function_title">Mínimo</string>
+    <string name="avg_function_title">Média</string>
+    <string name="align_left">Esquerda</string>
+    <string name="align_right">Direita</string>
+    <string name="button_add_stat_item">Adicionar uma função</string>
+    <string name="stats_edit_title_hint">Prefixo do resultado</string>
+    <string name="stat_item_align_prompt">Alinhamento do resultado</string>
+    <string name="stat_item_line_prompt">Colocação da linha de resultados.</string>
+    <string name="create_stat_item_title">Criando uma função</string>
+    <string name="select_stat_function_title">Selecione uma função</string>
+    <string name="select_field_title">Selecione um campo</string>
+    <string name="dont_have_field_for_function">Não há campos correspondentes</string>
+    <string name="line_number">Linha: %s</string>
+    <string name="ghostData_template_hint">Digite a dica de campo</string>
+    <string name="template_hint">Dica do campo</string>
+    <string name="time_default_now">Hora atual por defeito</string>
+    <string name="determination_location">Determinação do localização ...</string>
+    <string name="preference_category_export_data_cfg">Configurações de Importação/Exportação/Sincronização</string>
+    <string name="import_export_date_format">Selecione o formato da data</string>
+    <string name="import_export_date_format_dialog">Selecione um formato da data para importar/exportar/sincronizar</string>
+    <string name="main_title">Memento Database</string>
+    <string name="main_menu_add_group">Adicionar Grupo</string>
+    <string name="main_menu_bookmarks">Marcadores de favoritos e histórico</string>
+    <string name="main_menu_add_lib_group">Adicionar Livraria ou Grupo</string>
+    <string name="no_entries">Sem registos</string>
+    <plurals name="library_box_entries_count">
+	<item quantity="one">Um registo</item>
+	<item quantity="other">%d registos</item>
+</plurals>
+    </resources>
