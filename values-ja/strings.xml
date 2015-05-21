@@ -48,12 +48,12 @@
     <string name="library_edit">編集</string>
     <string name="library_delete">削除</string>
     <string name="library_delete_message_title">ライブラリを削除</string>
-    <string name="library_delete_message_text">本当にライブラリ \"%s\" を削除しますか？</string>
+    <string name="library_delete_message_text">ライブラリ \"%s\" を本当に削除しますか？</string>
     <string name="error_library_empty_title">ライブラリ名をタイプ</string>
     <string name="library_item_edit">編集</string>
     <string name="library_item_delete">削除</string>
-    <string name="library_item_delete_message_text">本当にライブラリのエントリー \"%s\" を削除しますか？</string>
-    <string name="library_item_trush_message_text">本当にエントリー \"%s\" をゴミ箱に移動しますか？</string>
+    <string name="library_item_delete_message_text">ライブラリのエントリー \"%s\" を本当に削除しますか？</string>
+    <string name="library_item_trush_message_text">エントリー \"%s\" をゴミ箱へ本当に移動しますか？</string>
     <string name="library_items_count">エントリー: %s</string>
     <string name="library_menu_select_sort">並び替え</string>
     <string name="library_menu_select_group">グループ</string>
@@ -61,10 +61,10 @@
     <string name="select_group_template">グループ化する項目を選択</string>
     <string name="sort_by_date">作成時刻</string>
     <string name="flex_delete_message_title">項目を削除</string>
-    <string name="flex_delete_message_text">本当に項目 \"%s\" を削除しますか？</string>
+    <string name="flex_delete_message_text">項目 \"%s\" を本当に削除しますか？</string>
     <string name="not_group">グループ化解除</string>
-    <string name="bool_yes">はい</string>
-    <string name="bool_not">いいえ</string>
+    <string name="bool_yes">Yes</string>
+    <string name="bool_not">No</string>
     <string name="group_null_value">空白</string>
     <string name="date_not_set">空白</string>
     <string name="set_default_value">既定値を設定</string>
@@ -297,7 +297,7 @@
     <string name="find_libraries_task_by_user">ユーザライブラリの\nリスト取得中</string>
     <string name="libraries_list_result_header">ライブラリが見つかりました</string>
     <string name="libraries_by_user_not_found">このユーザが見つからないか、このユーザが発行したライブラリが無いかのどちらかです</string>
-    <string name="library_not_found">このアドレスではライブラリがありません</string>
+    <string name="library_not_found">このアドレスのライブラリがありません</string>
     <string name="wrong_library_address_format">不正なライブラリアドレスフォーマット</string>
     <string name="last_update">最終更新： %s</string>
     <string name="subscribe_button">購読</string>
@@ -314,7 +314,7 @@
     <string name="subscribe_last_update_dialog_message">ライブラリ更新中</string>
     <string name="clear_preference">ライブラリ消去中</string>
     <string name="clear_preference_hint">ライブラリエントリー全件削除中</string>
-    <string name="clear_preference_quest">ライブラリエントリを全件削除する？</string>
+    <string name="clear_preference_quest">ライブラリエントリを全件削除しますか？</string>
     <string name="last_sync">最終同期： %s</string>
     <string name="last_public">発行： %s</string>
     <string name="unpublic_library_title">ライブラリ非発行中</string>
@@ -494,7 +494,7 @@
     <string name="required_mark">必須</string>
     <string name="reset_master_password">マスタパスワードをリセット</string>
     <string name="reset_master_password_hint">すべての暗号化されたライブラリを消去</string>
-    <string name="reset_master_quest">本当にマスタパスワードをリセットしても良いですか？\n注意！すべての暗号化されたライブラリが消去されます！</string>
+    <string name="reset_master_quest">マスタパスワードを本当にリセットしますか？\n注意！すべての暗号化されたライブラリが消去されます！</string>
     <string name="remove_encript_lib_dlg_msg">暗号化されたライブラリを削除</string>
     <string name="master_password_reset">マスタパスワードリセット</string>
     <string name="edit_entry_screen_preference">エントリー編集中</string>
@@ -530,7 +530,7 @@
     <string name="have_library_items_ask_title">Google スプレッドシートへリンク中</string>
     <string name="have_library_items_ask_message">ライブラリにはリンク操作中に消去されたレコードが含まれています。ライブラリを Google スプレッドシートとリンクしますか？</string>
     <string name="autofill_source_option_title">データソース</string>
-    <string name="amazon_source_option_title">アマゾン</string>
+    <string name="amazon_source_option_title">Amazon</string>
     <string name="auto_backup_option_title">自動バックアップ</string>
     <string name="last_auto_backup_time">最終自動バックアップ： %s</string>
     <string name="select_file_for_restore_db">バックアップファイルを選択</string>
@@ -870,7 +870,7 @@
     <string name="move_to_page">ページへ移動</string>
     <string name="empty_entry_page_text">このページは空です。\nここへ項目かレコードリストを追加することができます。</string>
     <string name="empty_fields_list_text">このライブラリには項目がありません。</string>
-    <string name="empty_aggregation_list_text">このライブラリには集約関数がありません。</string>
+    <string name="empty_aggregation_list_text">このライブラリには集計関数がありません。</string>
     <string name="empty_chart_list_text">このライブラリにはグラフがありません。</string>
     <string name="empty_entry_list_text">このライブラリにはエントリーがまだありません。</string>
     <string name="empty_recycle_bin_text">このライブラリから復元できるエントリーがありません。</string>
@@ -902,21 +902,21 @@
     <string name="string_list_import_error">インポート中にエラーが発生しました： %s</string>
     <string name="something_wrong_dialog_title">何かが問題</string>
     <plurals name="string_list_import_snackbar_ok">
-	<item quantity="other">%d アイテムインポート</item>
+	<item quantity="other">%d アイテムをインポート</item>
 </plurals>
     <string name="export_template_snackbar_ok">テンプレートがエクスポートされました</string>
     <string name="import_template_error">テンプレートインポートエラー： %s</string>
     <string name="mass_delete_string_list_item_message">選択したアイテムを削除しますか？</string>
     <string name="reminders_count_limit">項目に最大10個のリマインダーを追加することができます</string>
-    <string name="aggregation_add_item_dialog_title">集約関数を追加</string>
-    <string name="aggregation_edit_item_dialog_title">集約関数を編集</string>
+    <string name="aggregation_add_item_dialog_title">集計関数を追加</string>
+    <string name="aggregation_edit_item_dialog_title">集計関数を編集</string>
     <string name="aggregation_result_position">位置</string>
     <string name="aggregation_result_prev_line">新行から始めないでください</string>
     <string name="aggregation_result_left">左</string>
     <string name="aggregation_result_right">右</string>
-    <string name="aggregation_delete_title">集約を削除</string>
-    <string name="aggregation_delete_message">集約 \"%s\" を本当に削除しますか？</string>
-    <string name="aggregation_need_select_field_message">集約関数で使用する項目を選択しなければなりません</string>
+    <string name="aggregation_delete_title">集計を削除</string>
+    <string name="aggregation_delete_message">集計 \"%s\" を本当に削除しますか？</string>
+    <string name="aggregation_need_select_field_message">集計関数で使用する項目を選択しなければなりません</string>
     <string name="open_object_by_uri_error">オブジェクト %s をオープンすることができません</string>
     <string name="import_and_export_menu_item">インポートとエクスポート ...</string>
     <string name="entries_export_snackbar_ok">エントリーはエクスポートされました</string>
@@ -1012,7 +1012,7 @@
 	<item quantity="other"/>
 </plurals>
     <string name="all">すべて</string>
-    <string name="page">ページ「</string>
+    <string name="page">ページ</string>
     <string name="translate">翻訳</string>
     <string name="entries_view_type_calendar">カレンダ</string>
     <string name="calendar_field_role">カレンダで使用</string>
