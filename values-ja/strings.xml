@@ -148,7 +148,7 @@
     <string name="send_chooser_title">送信するアプリケーションを選択：</string>
     <string name="create_shortcut">ショートカット作成</string>
     <string name="app_name_library">Memento ライブラリ</string>
-    <string name="error_cant_open_memento_dir">エラー：フラッシュカードのディレクトリを開けません</string>
+    <string name="error_cant_open_memento_dir">エラー： フラッシュカードのディレクトリを開けません</string>
     <string name="preference_category_csv_import">データ操作</string>
     <string name="csvexport">CSV エクスポート</string>
     <string name="csvexport_summary">エントリーを CSV ファイルへエクスポート中</string>
@@ -314,7 +314,7 @@
     <string name="subscribe_last_update_dialog_message">ライブラリ更新中</string>
     <string name="clear_preference">ライブラリ消去中</string>
     <string name="clear_preference_hint">ライブラリエントリー全件削除中</string>
-    <string name="clear_preference_quest">ライブラリエントリを全件削除しますか？</string>
+    <string name="clear_preference_quest">ライブラリエントリーを全件削除しますか？</string>
     <string name="last_sync">最終同期： %s</string>
     <string name="last_public">発行： %s</string>
     <string name="unpublic_library_title">ライブラリ非発行中</string>
@@ -536,12 +536,12 @@
     <string name="select_file_for_restore_db">バックアップファイルを選択</string>
     <string name="date_format_sample">データフォーマット： %s</string>
     <string formatted="false" name="stats_title_in_list">%s による %s</string>
-    <string name="sum_function_title">Sum</string>
-    <string name="max_function_title">Max</string>
-    <string name="min_function_title">Min</string>
-    <string name="avg_function_title">Average</string>
-    <string name="align_left">left</string>
-    <string name="align_right">right</string>
+    <string name="sum_function_title">合計</string>
+    <string name="max_function_title">最大値</string>
+    <string name="min_function_title">最小値</string>
+    <string name="avg_function_title">平均</string>
+    <string name="align_left">左</string>
+    <string name="align_right">右</string>
     <string name="button_add_stat_item">関数を追加</string>
     <string name="stats_edit_title_hint">結果の接頭辞</string>
     <string name="stat_item_align_prompt">結果の整列</string>
