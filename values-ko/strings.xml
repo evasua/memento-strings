@@ -69,7 +69,7 @@
     <string name="date_not_set">비어있음</string>
     <string name="set_default_value">초기값을 설정</string>
     <string name="date_default_null"/>
-    <string name="date_default_now"/>
+    <string name="date_default_now">현재 날짜를 초기값으로</string>
     <string name="search">검색</string>
     <string name="search_hint">엔트리 검색</string>
     <string name="search_parse_exception_messagee">유효하지않은 검색</string>
@@ -78,7 +78,7 @@
 </plurals>
     <string name="memento_search">메멘토 검색</string>
     <string name="memento_search_in_lib">%s 로 메멘토 검색</string>
-    <string name="removed"/>
+    <string name="removed">%s이 삭제됨</string>
     <string name="trush">휴지통</string>
     <string name="library_item_restore">복구</string>
     <string name="clear_trash">비어있는 휴지통</string>
@@ -89,7 +89,7 @@
     <string name="home">홈</string>
     <string name="work">작업</string>
     <string name="other">기타</string>
-    <string name="pager"/>
+    <string name="pager">페이저</string>
     <string name="image_not_found">이미지를 찾을 수 없음</string>
     <string name="audio_not_found">오디오 트랙을 찾을 수 없음</string>
     <string name="flex_type_money_currency_dlg_title">통화를 선택하세요</string>
@@ -100,7 +100,7 @@
     <string name="flex_role_hint">엔트리 설명</string>
     <string name="flex_role_status">엔트리 상태</string>
     <string name="short_flex_role_name">이름</string>
-    <string name="short_flex_role_hint"/>
+    <string name="short_flex_role_hint">내림차순</string>
     <string name="short_flex_role_status">상태</string>
     <string name="item_add_to_favorite">이 엔트리를 즐겨찾기에 추가 합니다</string>
     <string name="item_remove_from_favorite">이 엔트리를 즐겨찾기에서 제거합니다</string>
@@ -116,13 +116,13 @@
     <string name="backup_preference">백업</string>
     <string name="backup_summary_preference">플래시 카드에 모든 라이브러리를 백업</string>
     <string name="backup_fail">백업 에러</string>
-    <string name="cdcard_not_found"/>
+    <string name="cdcard_not_found">죄송합니다. SD 카드가 가득 찼습니다</string>
     <string name="backup_process">라이브러리를 백업하는 중.</string>
     <string name="restore_preference">복구</string>
     <string name="restore_summary_preference">백업으로부터 라이브러리 복구</string>
     <string name="backup_file_not_found">백업 파일이 없습니다.</string>
     <string name="restore_dialog_message"/>
-    <string name="backup_dialog_message"/>
+    <string name="backup_dialog_message">새로운 것으로 백업 카피를 교체할까요?</string>
     <string name="restore_success">백업 사본으로부터 라이브러리가 성공적으로 복구됨</string>
     <string name="restore_step1">복구중</string>
     <string name="restore_step2">캐시 삭제</string>
@@ -218,7 +218,7 @@
     <string name="sync_with_gdocs_success_2">라이브러리 \"%s\"이 구글과 동기화되었습니다</string>
     <string name="sync_with_gdocs_title">구글 시트와 동기화</string>
     <string name="sync_with_gdocs_message">구글 스프레드시트와 라이브러리를 동기화</string>
-    <string name="sync_with_gdocs_message_2"/>
+    <string name="sync_with_gdocs_message_2">\"%s\"을 Google Spreadsheets와 싱크.</string>
     <string name="sync_with_gdocs">구글 시트와 동기화</string>
     <string name="google_docs_task_step_auth">"스프레드시트  서비스 인증"</string>
     <string name="google_docs_task_step_get_rows"/>
@@ -246,7 +246,7 @@
     <string name="please_wait">기다려주세요…</string>
     <string name="public_library_title">라이브러리를 퍼블리싱</string>
     <string name="public_to_picasa_message">Picasa에 이미지 업로드</string>
-    <string name="public_to_picasa_create_album"/>
+    <string name="public_to_picasa_create_album">발행된 라이브러리를 Picasa 앨범으로 만들기</string>
     <string name="public_to_picasa_success">이미지가 Picasa에 업로드 되었습니다</string>
     <string name="picasa_task_step_auth">Picasa 서비스 인증</string>
     <string formatted="false" name="picasa_send_image_step">이미지를 Picasa에 업로드. %s из %s</string>
@@ -286,7 +286,7 @@
     <string name="enter_alias">라이브러리 통칭(별칭) 입력</string>
     <string name="incorrect_alias">라이브러리의 통칭(별칭)은 오직 글자와 숫자만 가능합니다</string>
     <string name="public_library_address_text">라이브러리 주소</string>
-    <string name="alias_exists"/>
+    <string name="alias_exists">특정 별칭으로 이미 발행된 라이브러리가 있습니다</string>
     <string name="memento_forbidden_error">라이브러리 접근이 금지되었습니다</string>
     <string name="publish_library_address">라이브러리 %s는 지금 사용가능합니다</string>
     <string name="publish_library_address_hint">당신의 동료도 라이브러리를 보기위하여 메멘토를 이용할 수 있습니다. 상기 라이브러리를 구독하기 위하여 상기 주소를 사용해야 합니다.</string>
@@ -295,14 +295,14 @@
     <string name="library_uri_hint">라이브러리 주소 / 계정</string>
     <string name="find_libraries_task_title">라이브러리 검색</string>
     <string name="find_libraries_task_by_uri">주소로 라이브러리 시작하기</string>
-    <string name="find_libraries_task_by_user"/>
-    <string name="libraries_list_result_header"/>
+    <string name="find_libraries_task_by_user">사용자의 라이브러리에서 리스트 가져오기</string>
+    <string name="libraries_list_result_header">라이브러리 만들기</string>
     <string name="libraries_by_user_not_found"/>
     <string name="library_not_found">어떤 라이브러리도 이 주소에 없습니다</string>
     <string name="wrong_library_address_format">유효하지 않은 라이브러리 주소 포맷</string>
     <string name="last_update">마지막 업데이트: %s</string>
     <string name="subscribe_button">구독</string>
-    <string name="subscribe_task_get_library"/>
+    <string name="subscribe_task_get_library">라이브러리 엔트리 가져오기</string>
     <string name="subscribe_task_create_library">라이브러리 만들기</string>
     <string formatted="false" name="subscribe_task_save_library_task">엔트리 저장</string>
     <string name="subscribe_task_create_index">인덱스 만들기</string>
@@ -318,9 +318,9 @@
     <string name="clear_preference_quest">라이브러리에 있는 모든 엔트리를 삭제할까요?</string>
     <string name="last_sync">마지막 동기화: %s</string>
     <string name="last_public">퍼블리시: %s</string>
-    <string name="unpublic_library_title"/>
-    <string name="unpublic_library"/>
-    <string name="unpublish_success"/>
+    <string name="unpublic_library_title">라이브러리 발행하지 않기</string>
+    <string name="unpublic_library">발행하지않음</string>
+    <string name="unpublish_success">이 라이브러리는 발행되지 않았습니다</string>
     <string name="unpublic_message_text"/>
     <string name="unbind_from_gdocs_hint">구글 시트로 부터 연결해제</string>
     <string name="preference_category_google_docs">구글 시트</string>
@@ -334,4 +334,6 @@
     <string name="flex_image_load">이미지 로딩중 …</string>
     <string name="subscribed">구독중</string>
     <string name="info_public_library">라이브러리 주소</string>
+    <string name="public_library_task_send_template">라이브러리 템플릿을 전송</string>
+    <string formatted="false" name="public_library_task_send_items">라이브러리 엔트리 전송.\n%s 에서 %s</string>
     </resources>
