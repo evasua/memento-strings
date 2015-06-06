@@ -487,7 +487,7 @@
     <!-- 1.7.7 -->
     <string name="pref_cat_library_view">Vista</string>
     <string name="field_email_preferences">Formato e-mail</string>
-    <string name="field_email_preferences_summary">Dando formato a entradas que enviaras por e-mail</string>
+    <string name="field_email_preferences_summary">Dar formato a entradas cuando las envias por e-mail</string>
     <string name="formatted_field_prompt">Seleccione campos</string>
     <string name="formatted_field_name">El formato para el campo</string>
     <string name="field_email_enter">Comenzar linea nueva</string>
@@ -500,7 +500,7 @@
     <string name="reminders_label">Recordatorio</string>
     <string name="flex_role_icon">Miniatura</string>
     <string name="short_flex_role_icon">miniatura</string>
-    <string name="email_templates_spinner_hint">Dando formato a plantilla</string>
+    <string name="email_templates_spinner_hint">Dar formato a plantilla</string>
     <string name="default_email_template_title">Por defecto</string>
     <string name="field_send_by_email">Enviar campo</string>
     <string name="field_send_by_email_summary">Enviar nombre y valor del campo por e-mail/sms</string>
