@@ -331,7 +331,7 @@
     <string name="unpublish_success">La base a été dépubliée</string>
     <string name="unpublic_message_text">Voulez-vous vraiment dépublier la base \"%s\" ?</string>
     <string name="unbind_from_gdocs_hint">Délier de Google Sheets</string>
-    <string name="preference_category_google_docs">Google Sheets</string>
+    <string name="preference_category_google_docs">Feuil Google</string>
     <string name="unbind_from_google_docs_success">La base n\'est plus liée à Google Sheets</string>
     <string name="preference_category_memento_server">Serveur Memento</string>
     <string name="unpublic_library_hint">Dépublication de la base</string>
@@ -558,7 +558,7 @@
     <string name="autoincrement">Incrémentation automatique</string>
     <string name="cant_protect">La version gratuite vous autorise à protéger 2 bases seulement.↵\nPasser à la version PRO pour ôter cette limitation.</string>
     <string name="loading_google_document_list">Chargement...</string>
-    <string name="google_doc_list_title">Google documents</string>
+    <string name="google_doc_list_title">Documents Google</string>
     <string name="updated_document_time">Mis à jour : %s</string>
     <string name="field_not_found">Non trouvé</string>
     <string name="field_not_sync">Non synchronisé</string>
@@ -1058,5 +1058,34 @@
     <string name="csv_import_total_lines">Lignes traitées :</string>
     <string formatted="false" name="csv_import_error_item">Ligne %d - %s</string>
     <string name="google_sync_without_memento_id_text">La base est synchronisée en utilisant l\'ancienne méthode qui comporte potentiellement des erreurs .↵\nEffectuer la reconsolidation de la base vers la nouvelle table pour utiliser la nouvelle méthode.↵\nDémarrer la reconsolidation maintenant ?</string>
-    <string name="auto_fill_barcode_empty2">Comparer les attributs de la source d\'autocomplétion et les champs des enregistrements</string>
-    </resources>
+    <string name="auto_fill_barcode_empty2">Comparer les attributs de la source d’auto-complétion et les champs des enregistrements</string>
+    <string name="most_viewed_templates">Les plus visités</string>    
+	<string name="template_views_count">Vues: %s</string>
+	<string name="sort_by_views">Trier par vue</string>
+	<string name="select_category_template">Sélectionnez une catégorie</string>	
+	<string name="select_template_lang">Sélectionnez la langue du modèle</string>
+	<string name="template_language">Langue :</string>	
+	<string name="display_lang_option">Filtrer par langue</string>
+	<string name="display_lang_option_all">Tous les modèles</string>
+	<string name="entries_name_dialog_title">Les noms des entrées sont déterminés par les valeurs des champs choisis</string>
+	<string name="entries_name_is_unique">Le nom de l\'entrée est unique</string> 
+	<string name="no_fields_for_role">Dans cette librairie il n\'y a pas des champs aptes pour ce rôle</string>
+	<string name="update_item_name_index">Index en construction…</string>	
+	<string name="entry_name_must_be_unique">Le nom de l\'entrée n\'est pas unique</string>
+	<string name="entry_name_must_be_notnull">Le nom de l\'entrée ne peut pas rester vide</string>
+	<string name="library_have_duplicates">Des noms similaires existent dans cette librairie</string>
+	<string name="library_have_duplicates2">Changez ou supprimez les doublons pour un bon fonctionnement.</string>
+	<string name="dont_show_anymore">Ne montre plus</string>
+	<string name="run_sync_slave_libraries_pref">Librairies attachées</string>
+	<string name="run_sync_slave_libraries_summary">Synchroniser d\'abord les librairies associées</string>
+	<string name="choice_type_add_button_in_edit_title">La création d\'éléments pendant l\'édition est en cours</string>
+	
+	<string name="show_deleted_entries_menu_item">Montrer les entrées supprimées</string>
+	<string name="upload_to_cloud_menu_item">Sur le net</string>
+	<string name="welcome_text_title">Bienvenue sur la Base de Données Memento</string>
+	<string name="welcome_text_description">Vos entrées seront stockées dans la librairie.\nVous pouvez familiariser avec ce logiciel en créant une librairie basée sur un modèle.</string>	
+	
+<string name="featured_templates">En premier plan</string>
+	<string name="need_make_slave_library_unique">Pour synchroniser le \"lien avec l\'entrée\" il faut d\'abord activer le contrôle de l\'unicité des noms des entrées dans la librairie à laquelle le lien se réfère. Voulez-vous le faire maintenant ?</string>
+	<string name="need_make_slave_library_unique_import">Pour importer le \"lien avec l\'entrée\" il faut d\'abord activer le contrôle de l\'unicité des noms des entrées dans la librairie à laquelle le lien se réfère. Voulez-vous le faire maintenant ?</string>
+	</resources>
