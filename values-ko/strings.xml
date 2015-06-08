@@ -68,13 +68,13 @@
     <string name="group_null_value">비어있음</string>
     <string name="date_not_set">비어있음</string>
     <string name="set_default_value">초기값을 설정</string>
-    <string name="date_default_null"/>
+    <string name="date_default_null">공백을 기본값으로</string>
     <string name="date_default_now">현재 날짜를 초기값으로</string>
     <string name="search">검색</string>
     <string name="search_hint">엔트리 검색</string>
     <string name="search_parse_exception_messagee">유효하지않은 검색</string>
     <plurals name="NItemsFind">
-	<item quantity="other"/>
+	<item quantity="other">1개 항목 발견</item>
 </plurals>
     <string name="memento_search">메멘토 검색</string>
     <string name="memento_search_in_lib">%s 로 메멘토 검색</string>
@@ -121,7 +121,7 @@
     <string name="restore_preference">복구</string>
     <string name="restore_summary_preference">백업으로부터 라이브러리 복구</string>
     <string name="backup_file_not_found">백업 파일이 없습니다.</string>
-    <string name="restore_dialog_message"/>
+    <string name="restore_dialog_message">복원시 백업자료가 기존자료로 대체됩니다.\n기존자료는 사라집니다.\n복원을 시작할까요?</string>
     <string name="backup_dialog_message">새로운 것으로 백업 카피를 교체할까요?</string>
     <string name="restore_success">백업 사본으로부터 라이브러리가 성공적으로 복구됨</string>
     <string name="restore_step1">복구중</string>
@@ -173,7 +173,7 @@
     <string name="export_error">엔트리 내보내기 실패:\n%s</string>
     <string name="library_saved">라이브러리 저장되었습니다</string>
     <string name="library_created">라이브러리가 생성되었습니다</string>
-    <string name="msg_default_status"/>
+    <string name="msg_default_status">인식할 바코드를 화면 가운데로.</string>
     <string name="scan_library_item">바코드 스캔</string>
     <string name="search_product_title">바코드로 제품 검색중 …</string>
     <string name="empty_result_text">죄송합니다,\n제품이 발견되지 않았습니다.</string>
@@ -221,10 +221,10 @@
     <string name="sync_with_gdocs_message_2">\"%s\"을 Google Spreadsheets와 싱크.</string>
     <string name="sync_with_gdocs">구글 시트와 동기화</string>
     <string name="google_docs_task_step_auth">"스프레드시트  서비스 인증"</string>
-    <string name="google_docs_task_step_get_rows"/>
-    <string formatted="false" name="google_docs_task_step_process_row"/>
-    <string formatted="false" name="google_docs_task_step_send_row"/>
-    <string formatted="false" name="google_docs_task_step_update_row"/>
+    <string name="google_docs_task_step_get_rows">기본목록 가져오기</string>
+    <string formatted="false" name="google_docs_task_step_process_row">"목록행처리중  %s 의 %s"</string>
+    <string formatted="false" name="google_docs_task_step_send_row">행추가중. %s 의 %s</string>
+    <string formatted="false" name="google_docs_task_step_update_row">업데이터중. %s 의 %s</string>
     <string name="google_docs_task_create_document">스프레드시트 만들기</string>
     <string name="google_docs_task_create_worksheet">워크시트 추가</string>
     <string name="google_docs_task_shange_columns">워크시트 업데이트</string>
