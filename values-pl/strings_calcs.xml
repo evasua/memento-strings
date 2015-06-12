@@ -15,4 +15,8 @@
  	
  	
 
-	 </resources>
+	 <string name="math_func_desc_7">Wykładniczą liczbę e (tj. 2.718...) podniesiona do potęgi równej podwójnej wartości</string>
+    <string name="math_func_desc_9">Logarytm naturalny (o podstawie e) o podwójnej wartość</string>
+    <string name="math_func_desc_16">Pierwiastek kwadratowy z podwójnej wartości</string>
+    <string name="math_func_desc_17">Trygonometryczny kąt Tangens</string>
+    </resources>
