@@ -331,7 +331,7 @@
     <string name="unpublish_success">La base a été dépubliée</string>
     <string name="unpublic_message_text">Voulez-vous vraiment dépublier la base \"%s\" ?</string>
     <string name="unbind_from_gdocs_hint">Délier de Google Sheets</string>
-    <string name="preference_category_google_docs">Feuil Google</string>
+    <string name="preference_category_google_docs">Feuilles Google</string>
     <string name="unbind_from_google_docs_success">La base n\'est plus liée à Google Sheets</string>
     <string name="preference_category_memento_server">Serveur Memento</string>
     <string name="unpublic_library_hint">Dépublication de la base</string>
