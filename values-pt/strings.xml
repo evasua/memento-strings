@@ -674,4 +674,8 @@
     <string name="delete_depend_dialog_title">Apague a dependencia</string>
     <string name="welcome_text_title">Benvindo a Memento DataBase</string>
 	<string name="run_sync_slave_libraries_pref">Bibliotecas relacionadas</string>
+	<string name="user_manual_menu">Conteúdo de ajuda</string>
+    <string name="run_sync_slave_libraries_summary">Primeiro sincronize as bibliotecas associadas</string>
+	<string name="show_deleted_entries_menu_item">Mostrar entradas excluídas</string>
+	<string name="upload_to_cloud_menu_item">Para a nuvem</string>
 	</resources>
