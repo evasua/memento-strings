@@ -49,4 +49,7 @@
     <string name="slice_text_percent">Percentagem</string>
     <string name="slice_text_value">Valor</string>
     <string name="slice_text_label">Etiqueta</string>
+    <string name="db_location_pref_internal">Dispositivo interno de armazenamento</string>
+    <string name="number_filter_types_greater">Maior que</string>
+    <string name="number_filter_types_less">Menor que</string>
     </resources>
