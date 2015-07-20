@@ -20,7 +20,7 @@
     <string name="flex_type_title_date_time">Date/Heure</string>
     <string name="flex_type_contact">Contact</string>
     <string name="flex_type_image">Image</string>
-    <string name="flex_type_string_list">Chaines de caractères</string>
+    <string name="flex_type_string_list">Liste à choix unique</string>
     <string name="flex_type_audio">Audio</string>
     <string name="flex_type_money">Monnaie</string>
     <string name="flex_type_rating">Evaluation</string>
@@ -99,12 +99,12 @@
     <string name="flex_type_money_currency_option_title">Monnaie</string>
     <string name="flex_type_money_default_currency">EUR</string>
     <string name="flex_role_not_usage">Champ standard</string>
-    <string name="flex_role_name">Nom de l\'enregistrement</string>
+    <string name="flex_role_name">Identifiant des enregistrements</string>
     <string name="flex_role_hint">Description de l\'enregistrement</string>
     <string name="flex_role_status">Statut de l\'enregistrement</string>
     <string name="short_flex_role_name">nom</string>
     <string name="short_flex_role_hint">description</string>
-    <string name="short_flex_role_status">Statut</string>
+    <string name="short_flex_role_status">statut</string>
     <string name="item_add_to_favorite">L\'enregistrement a été ajouté aux favoris</string>
     <string name="item_remove_from_favorite">L\'enregistrement a été supprimé des favoris</string>
     <string name="history_dialog_title">Historique</string>
@@ -242,7 +242,7 @@
     <string name="copy_memento_to_gdocs">Enregistrement de Memento</string>
     <string name="copy_gdocs_to_memento">Enregistrements de Google Sheets</string>
     <string name="edit_flex_title_disabled">Ce champ ne peut être renommé car la base est liée à Google Sheets</string>
-    <string name="cant_bind">La version gratuite vous permet de lier seulement trois bases à Google Sheets.\nMerci de bien vouloir acheter la version PRO pour dépasser cette limitation.</string>
+    <string name="cant_bind">La version gratuite vous permet de lier seulement deux bases à Google Sheets.\nMerci de bien vouloir acheter la version PRO pour dépasser cette limitation.</string>
     <string name="button_pro_version">Version PRO</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">Remplissage Auto</string>
@@ -299,7 +299,7 @@
     <string name="publish_library_address">La base %s est maintenant publiée à l\'adresse suivante</string>
     <string name="publish_library_address_hint">Vos amis peuvent utiliser Memento pour voir cette base. Pour ce faire, ils doivent utiliser l\'adresse ci-dessus pour s\'abonner.</string>
     <string name="deafult_group_title">Mes bases</string>
-    <string name="subscribe_activity_title">Abonnement à une base</string>
+    <string name="subscribe_activity_title">Abonnement aux bases</string>
     <string name="library_uri_hint">Adresse de la base</string>
     <string name="find_libraries_task_title">Recherche de base</string>
     <string name="find_libraries_task_by_uri">Recherche d\'une base\npar son adresse</string>
@@ -331,7 +331,7 @@
     <string name="unpublish_success">La base a été dépubliée</string>
     <string name="unpublic_message_text">Voulez-vous vraiment dépublier la base \"%s\" ?</string>
     <string name="unbind_from_gdocs_hint">Délier de Google Sheets</string>
-    <string name="preference_category_google_docs">Feuilles Google</string>
+    <string name="preference_category_google_docs">Google Sheets</string>
     <string name="unbind_from_google_docs_success">La base n\'est plus liée à Google Sheets</string>
     <string name="preference_category_memento_server">Serveur Memento</string>
     <string name="unpublic_library_hint">Dépublication de la base</string>
@@ -342,7 +342,7 @@
     <string name="flex_image_load">Chargement de l\'image...</string>
     <string name="subscribed">Abonné</string>
     <string name="info_public_library">Adresse de la base</string>
-    <string name="cant_public">La version gratuite vous permet de publier seulement trois bases.\nMerci de bien vouloir acheter la version PRO pour désactiver cette limitation.</string>
+    <string name="cant_public">La version gratuite vous permet de publier seulement deux bases.\nMerci de bien vouloir acheter la version PRO pour désactiver cette limitation.</string>
     <string name="add_permission_user_hint">Entrez le nom ou adresse e-mail</string>
     <string name="edit_pub_permissions">Droits d\'accès à la base</string>
     <string name="edit_pub_permissions_hint">Editer la liste des utilisateurs qui ont accès à la base</string>
@@ -528,7 +528,7 @@
     <string name="email_chooser_title">Choisir une application de messagerie</string>
     <string name="font_size_category_entries_list">Polices de la liste des enregistrements</string>
     <string name="font_size_category_entries_card">Polices des enregistrements</string>
-    <string name="entry_name_font_size_preference">Nom d\'enregistrement</string>
+    <string name="entry_name_font_size_preference">Identifiant des enregistrements</string>
     <string name="entry_desc_font_size_preference">Description de l\'enregistrement</string>
     <string name="entry_status_font_size_preference">Statut de l\'enregistrement</string>
     <string name="entry_field_value_font_size_preference">Valeur du champ</string>
@@ -556,9 +556,9 @@
     <string name="select_app">Sélectionner une application</string>
     <string name="forum">Forum</string>
     <string name="autoincrement">Incrémentation automatique</string>
-    <string name="cant_protect">La version gratuite vous autorise à protéger 2 bases seulement.↵\nPasser à la version PRO pour ôter cette limitation.</string>
+    <string name="cant_protect">La version gratuite vous autorise à protéger deux bases seulement.↵\nPasser à la version PRO pour ôter cette limitation.</string>
     <string name="loading_google_document_list">Chargement...</string>
-    <string name="google_doc_list_title">Documents Google</string>
+    <string name="google_doc_list_title">Google Documents</string>
     <string name="updated_document_time">Mis à jour : %s</string>
     <string name="field_not_found">Non trouvé</string>
     <string name="field_not_sync">Non synchronisé</string>
@@ -655,7 +655,7 @@
     <string name="select_type_depends">Sélectionner le type de dépendance</string>
     <string name="select_type_depends_spinner_title">Type de dépendance</string>
     <string name="boolean_field_check_value">Coché</string>
-    <string name="visible_field_depend_pretitle">Statut du champ %s</string>
+    <string name="visible_field_depend_pretitle">Etat du champ %s</string>
     <string name="delete_depend_dialog_title">Supprimer la dépendance</string>
     <string name="delete_depend_dialog_message">Voulez-vous vraiment supprimer la dépendance du champ \"%s\" ?</string>
     <string name="sl_content_depend_type">Contenu du champ</string>
@@ -695,7 +695,7 @@
     <string name="cant_restore_form_google_drive">Votre appareil ne prend pas en charge la création de bases depuis Google Drive</string>
     <string name="record_error_dialog_message">Désolé, pas d\'application d\'enregistrement trouvée.</string>
     <string name="sync_error_dialog_title">Erreur de synchronisation</string>
-    <string name="field_display_title_in_card">Le nom du champ</string>
+    <string name="field_display_title_in_card">Nom du champ</string>
     <string name="edit_library_tab_structure">STRUCTURE</string>
     <string name="entry_page_title">Nom de la page</string>
     <string name="cant_delete_main_page">Vous ne pouvez pas supprimer la page par défaut.</string>
@@ -910,7 +910,7 @@
     <string name="empty_field_depend_list">Ce champ n\'a aucune dépendance avec d\'autres champs.</string>
     <string name="empty_search_result2">Votre recherche - %s - ne correspond à aucun enregistrement</string>
     <string name="library_moved_message">Base déplacée dans le groupe \"%s\"</string>
-    <string name="master_library_entries">Enregistrement de la base attachée</string>
+    <string name="master_library_entries">Enregistrements de la base attachée</string>
     <string name="invisible">invisible</string>
     <string name="display_master_libraries_items">Afficher sur la fiche enregistrement</string>
     <string name="flex_edit_option_in_table">enregistrements de table</string>
@@ -1032,9 +1032,9 @@
     <string name="set_default_page">Définir par défaut</string>
     <string name="flex_edit_option_in_view">fiche enregistrement</string>
     <string name="field_display_title_in_card_hint">Afficher le nom du champ sur la fiche enregistrement</string>
-    <string name="flex_edit_option_title">Où il est possible de modifier</string>
+    <string name="flex_edit_option_title">Emplacement d\'édition</string>
     <string name="flex_edit_option_default">Formulaire de modification d\'enregistrement</string>
-    <string name="stat_item_line_prompt">Emplacement de ligne des résultats.</string>
+    <string name="stat_item_line_prompt">Emplacement de la ligne des résultats.</string>
     <string name="create_stat_item_title">Créer une fonction</string>
     <string name="library_last_edit">Mise à jour de %s</string>
     <string name="boolen_filter_checkbox">La valeur du champ</string>
@@ -1054,38 +1054,38 @@
     <string name="single_line_options_title">Ligne simple↵\nchamp texte</string>
     <string name="reminders_count_limit">Vous pouvez ajouter un maximum de 10 rappels par champ</string>
     <string name="aggregation_result_position">Emplacement</string>
-    <string name="aggregation_result_prev_line">Ne pas commencer par une nouvelle ligne</string>
+    <string name="aggregation_result_prev_line">Pas de retour à la ligne</string>
     <string name="csv_import_total_lines">Lignes traitées :</string>
     <string formatted="false" name="csv_import_error_item">Ligne %d - %s</string>
     <string name="google_sync_without_memento_id_text">La base est synchronisée en utilisant l\'ancienne méthode qui comporte potentiellement des erreurs .↵\nEffectuer la reconsolidation de la base vers la nouvelle table pour utiliser la nouvelle méthode.↵\nDémarrer la reconsolidation maintenant ?</string>
     <string name="auto_fill_barcode_empty2">Comparer les attributs de la source d’auto-complétion et les champs des enregistrements</string>
     <string name="most_viewed_templates">Les plus visités</string>    
-	<string name="template_views_count">Vues: %s</string>
-	<string name="sort_by_views">Trier par vue</string>
+	<string name="template_views_count">Vues : %s</string>
+	<string name="sort_by_views">Trier par vues</string>
 	<string name="select_category_template">Sélectionnez une catégorie</string>	
 	<string name="select_template_lang">Sélectionnez la langue du modèle</string>
 	<string name="template_language">Langue :</string>	
 	<string name="display_lang_option">Filtrer par langue</string>
 	<string name="display_lang_option_all">Tous les modèles</string>
-	<string name="entries_name_dialog_title">Les noms des entrées sont déterminés par les valeurs des champs choisis</string>
-	<string name="entries_name_is_unique">Le nom de l\'entrée est unique</string> 
-	<string name="no_fields_for_role">Dans cette librairie il n\'y a pas des champs aptes pour ce rôle</string>
+	<string name="entries_name_dialog_title">L\'identifiant des enregistrements est constitué parmi les champs suivants</string>
+	<string name="entries_name_is_unique">L\'identifiant des enregistrements est unique</string> 
+	<string name="no_fields_for_role">Dans cette base, il n\'y a pas de champs candidats à ce rôle</string>
 	<string name="update_item_name_index">Index en construction…</string>	
-	<string name="entry_name_must_be_unique">Le nom de l\'entrée n\'est pas unique</string>
-	<string name="entry_name_must_be_notnull">Le nom de l\'entrée ne peut pas rester vide</string>
-	<string name="library_have_duplicates">Des noms similaires existent dans cette librairie</string>
+	<string name="entry_name_must_be_unique">L\'identifiant des enregistrements n\'est pas unique</string>
+	<string name="entry_name_must_be_notnull">L\'identifiant des enregistrements ne peut pas être vide</string>
+	<string name="library_have_duplicates">Des noms d\'enregistrement similaires existent dans cette base</string>
 	<string name="library_have_duplicates2">Changez ou supprimez les doublons pour un bon fonctionnement.</string>
-	<string name="dont_show_anymore">Ne montre plus</string>
-	<string name="run_sync_slave_libraries_pref">Librairies attachées</string>
-	<string name="run_sync_slave_libraries_summary">Synchroniser d\'abord les librairies associées</string>
-	<string name="choice_type_add_button_in_edit_title">La création d\'éléments pendant l\'édition est en cours</string>
+	<string name="dont_show_anymore">Ne plus montrer</string>
+	<string name="run_sync_slave_libraries_pref">Bases attachées</string>
+	<string name="run_sync_slave_libraries_summary">Synchroniser d\'abord les bases associées</string>
+	<string name="choice_type_add_button_in_edit_title">Ajout d\'items en mode édition d\'enregistrements</string>
 	
-	<string name="show_deleted_entries_menu_item">Montrer les entrées supprimées</string>
-	<string name="upload_to_cloud_menu_item">Sur le net</string>
+	<string name="show_deleted_entries_menu_item">Montrer les enregistrements supprimés</string>
+	<string name="upload_to_cloud_menu_item">Vers le net</string>
 	<string name="welcome_text_title">Bienvenue sur la Base de Données Memento</string>
-	<string name="welcome_text_description">Vos entrées seront stockées dans la librairie.\nVous pouvez familiariser avec ce logiciel en créant une librairie basée sur un modèle.</string>	
+	<string name="welcome_text_description">La base est le lieu de stockage de vos enregistrements.\nVous pouvez vous familiariser avec ce logiciel en créant une base inspirée de l\'un des modèles fournis.</string>	
 	
-<string name="featured_templates">En premier plan</string>
-	<string name="need_make_slave_library_unique">Pour synchroniser le \"lien avec l\'entrée\" il faut d\'abord activer le contrôle de l\'unicité des noms des entrées dans la librairie à laquelle le lien se réfère. Voulez-vous le faire maintenant ?</string>
-	<string name="need_make_slave_library_unique_import">Pour importer le \"lien avec l\'entrée\" il faut d\'abord activer le contrôle de l\'unicité des noms des entrées dans la librairie à laquelle le lien se réfère. Voulez-vous le faire maintenant ?</string>
+<string name="featured_templates">Au premier plan</string>
+	<string name="need_make_slave_library_unique">Pour synchroniser le \"lien avec l\'enregistrement\" il faut d\'abord activer le contrôle de l\'unicité de l\'identifiant des enregistrements dans la base à laquelle le lien se réfère. Voulez-vous le faire maintenant ?</string>
+	<string name="need_make_slave_library_unique_import">Pour importer le \"lien avec l\'enregistrement\" il faut d\'abord activer le contrôle de l\'unicité de l\'identifiant des enregistrements dans la base à laquelle le lien se réfère. Voulez-vous le faire maintenant ?</string>
 	</resources>
