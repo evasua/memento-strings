@@ -18,7 +18,7 @@
     <string name="calc_result_types_string">Résultat Chaîne de caractères</string>
     <string name="template_category_arts">Arts</string>
     <string name="template_category_business">Affaires</string>
-    <string name="template_category_contacts">Contacts et Personnes</string>
+    <string name="template_category_contacts">Contacts et personnes</string>
     <string name="template_category_cook">Cuisine, alimentation et vin</string>
     <string name="template_category_edu">Formation</string>
     <string name="template_category_events">Calendrier événementiel</string>
@@ -65,5 +65,5 @@
     <string name="chart_continuous_axis">Axe continu</string>
     <string name="show_soft_keyboard_create">En création d\'enregistrement</string>
     <string name="flex_edit_option_values_card">Fiche enregistrement</string>
-    <string name="flex_edit_option_values_table">Enregistrements</string>
+    <string name="flex_edit_option_values_table">Tableau d\'enregistrements</string>
     </resources>
