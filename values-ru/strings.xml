@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Добавить</string>
@@ -140,10 +140,10 @@
     <string name="activate_main_text">Перейти на PRO версию</string>
     <string name="activation_dialog_text_hint">Введите код активации</string>
     <string name="activation_dialog_title">Активация PRO версии</string>
-    <string name="activation_ok">Спасибо за активацию Memento Database</string>
-    <string name="activation_error">Код активации неверен. Попробуйте ещё раз.</string>
+    <string name="activation_ok">Thank you for activation Memento</string>
+    <string name="activation_error">Activation code is invalid. Please, try again.</string>
     <string name="about">О программе</string>
-    <string name="copyright">Copyright © 2013 LuckyDroid\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2015 LuckyDroid\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Посмотреть версию программы</string>
     <string name="about_license_type">Лицензия:</string>
@@ -325,7 +325,7 @@
     <string name="unpublish_success">Библиотека снята с публикации</string>
     <string name="unpublic_message_text">Вы действительно желаете снять библиотеку \"%s\" с публикации?</string>
     <string name="unbind_from_gdocs_hint">Отвязка библиотеки от Google Sheets</string>
-    <string name="preference_category_google_docs">Google Таблицы</string>
+    <string name="preference_category_google_docs">Google Sheets</string>
     <string name="unbind_from_google_docs_success">Отвязка библиотеки от Google Sheets выполнена</string>
     <string name="preference_category_memento_server">Memento Server</string>
     <string name="unpublic_library_hint">Снятие библиотеки с публикации в интернете</string>
@@ -351,7 +351,7 @@
     <string name="flex_type_library_entry">Запись библиотеки</string>
     <string name="flex_type_entry_option_title">Библиотека</string>
     <string name="flex_type_entry_option_dlg_title">Выберите библиотеку</string>
-    <string name="flex_type_entry_select_library">Выберите библиотеку записи которой будут использоваться в данном поле.</string>
+    <string name="flex_type_entry_select_library">Выберите библиотеку записи которой будут использоваться в данном поле</string>
     <string name="error_template_wrong_title">В имени поля должны быть только буквы и цифры</string>
     <!-- 1.4.8 -->
     <string name="filter_not_set">Нет фильтра</string>
@@ -409,7 +409,7 @@
     <string name="library_protection_pass">Пароль</string>
     <string name="library_protection_pass_checkbox">Доступ по паролю</string>
     <string name="buy_from_market_title">Купить через Google Play</string>
-    <string name="buy_from_market_hint">Google Кошелек</string>
+    <string name="buy_from_market_hint">Google Wallet</string>
     <!-- 1.6.2 -->
     <string name="flex_type_password">Пароль</string>
     <string name="flex_type_phone">Телефон</string>
@@ -445,7 +445,7 @@
     <!-- 1.7.5 -->
     <string name="template_save_button">Экспорт</string>
     <string name="template_load_button">Импорт</string>
-    <string name="template_share_button">Поделиться</string>
+    <string name="template_share_button">Share</string>
     <string name="library_template_name">Имя шаблона</string>
     <string name="template_category">Категория</string>
     <string name="template_description">Описание шаблоны</string>
@@ -505,7 +505,7 @@
     <string name="auto_show_soft_keyboard">Показывать софт-клавиатуру</string>
     <string name="auto_show_soft_keyboard_summary">При открытии формы - открывать софт-клавиатуру</string>
     <string name="flex_type_file">Ссылка на файл</string>
-    <string name="file_size">Размер файла: %sb</string>
+    <string name="file_size">Размер файла: %s</string>
     <string name="file_not_found">Файл не найден</string>
     <string name="select_app">Выберите приложение</string>
     <string name="forum">Форум</string>
@@ -530,7 +530,7 @@
     <string name="field_not_found">Не найден</string>
     <string name="field_not_sync">Не синхр.</string>
     <string name="link_button">Связать</string>
-    <string name="prepare_linking_library">Подготовка к связыванию...</string>
+    <string name="prepare_linking_library">Подготовка к связыванию ... </string>
     <string name="error_prepare_linking">Ошибка при подготовки связывания: %s</string>
     <string name="have_library_items_ask_title">Привязка к Google Spreadsheet</string>
     <string name="have_library_items_ask_message">Библиотека содержит записи которые будут удалены во время привязки к Google Spreadsheet. Выполнить привязку библиотеки ?</string>
@@ -551,7 +551,7 @@
     <string name="button_add_stat_item">Добавить функцию</string>
     <string name="stats_edit_title_hint">Префикс результата</string>
     <string name="stat_item_align_prompt">Выравнивание результата</string>
-    <string name="stat_item_line_prompt">Линия результата.</string>
+    <string name="stat_item_line_prompt">Линия результата</string>
     <string name="create_stat_item_title">Создание функции</string>
     <string name="select_stat_function_title">Выберите функцию</string>
     <string name="select_field_title">Выберите поле</string>
@@ -697,9 +697,9 @@
     <!-- 2.3.0 -->
     <string name="start_reindex_title">Переиндексация</string>
     <string name="start_reindex_summary">Пересоздание поискового индекса</string>
-    <string name="search_pref_category">Поиск</string>
+    <string name="search_pref_category">Search</string>
     <string name="reindex_complete_message">Переиндексация выполнена</string>
-    <string name="files_backup_not_found_files">Не найденные файлы:</string>
+    <string name="files_backup_not_found_files">Не найденные файлы</string>
     <string name="files_storage_settings_screen">Хранилище файлов</string>
     <string name="files_storage_settings_screen_summary">Местоположение фотографий и других файлов</string>
     <string name="files_storage_settings_path_title">Каталог хранилища файлов</string>
@@ -712,15 +712,15 @@
     <string name="normal">Схема</string>
     <string name="hybrid">Гибрид</string>
     <string name="satellite">Спутник</string>
-    <string name="terrain">Местность</string>
+    <string name="terrain">Terrain</string>
     <string name="open_map_menu_item">Карта</string>
-    <string name="google_drive">Google Диск</string>
+    <string name="google_drive">Google Drive"</string>
     <string name="none_files_cloud_storage">Нет</string>
     <string name="select_files_cloud_storage">Выберите облачное хранилище для синхронизации</string>
     <string name="files_cloud_storage_pref">Синхронизация файлов</string>
     <string name="link_to_new_document">Связать с новым документом</string>
     <string name="link_to_existing_document">Связать с существующим документом</string>
-    <string name="google_sync_files_checkbox">Загружать файлы (фотографии) прикрепленные к записям в облачное хранилище.</string>
+    <string name="google_sync_files_checkbox">Загружать файлы (фотографии) прикрепленные к записям в облачное хранилище</string>
     <string name="list_library_in_google">Список библиотек в Google Drive</string>
     <string name="add_lib_from_google_drive">Из Google Drive</string>
     <string name="selected">%s выбрано</string>
@@ -757,14 +757,14 @@
     <string name="sort_desc">DESC</string>
     <string name="sliding_hint_text">Сортировка, группировка, фильтры и многое другое</string>
     <string name="multy_sorting">Сортировка по нескольким полям</string>
-    <string name="new_button">новый</string>
+    <string name="new_button">new</string>
     <string name="free_version_entry_page_limit">В бесплатной версии вы можете создать только две страницы. Обновитесь до PRO версии для снятия этого ограничения.</string>
     <string name="button_change_activation_code">Активация</string>
     <!-- 2.5.0 -->
     <string name="select_button">ВЫБРАТЬ</string>
     <string name="clear_button">ОЧИСТИТЬ</string>
     <string name="image_info_button">ИНФО</string>
-    <string name="error_library_not_unique_field_names">Имена полей в библиотеке должны быть уникальны. Проверьте поля: %s.</string>
+    <string name="error_library_not_unique_field_names">Имена полей в библиотеке должны быть уникальны. Проверьте поля: %s</string>
     <string name="info_path">Путь:</string>
     <string name="info_resolution">Разрешение:</string>
     <string name="info_size">Размер:</string>
@@ -895,7 +895,7 @@
     <string name="move_to_page">Переместить на страницу</string>
     <string name="empty_entry_page_text">Эта страница пока пустая.\nВы можете добавить сюда поля или списки связанных записей.</string>
     <string name="empty_fields_list_text">В этой библиотеке пока нет полей.</string>
-    <string name="empty_aggregation_list_text">В этой библиотеке пока нет функций агрегирования.</string>
+    <string name="empty_aggregation_list_text">В этой библиотеке пока нет функций агрегирования</string>
     <string name="empty_chart_list_text">В этой библиотеке пока нет графиков.</string>
     <string name="empty_entry_list_text">В этой библиотеке пока нет записей.</string>
     <string name="empty_recycle_bin_text">В этой библиотеке нет доступных для восстановления записей.</string>
@@ -947,7 +947,7 @@
     <string name="aggregation_delete_message">Вы действительно хоитите удалмит агрегацию \"%s\" ?</string>
     <string name="aggregation_need_select_field_message">Вы должны выбрать поле для функции агрегирования</string>
     <string name="open_object_by_uri_error">Не могу открыть объект: %s</string>
-    <string name="import_and_export_menu_item">Импорт и экспорт…</string>
+    <string name="import_and_export_menu_item">Импорт и экспорт</string>
     <string name="entries_export_snackbar_ok">Записи успешно экспортированы</string>
     <string name="entries_import_result_dialog_title">Результаты импорта</string>
     <string name="csv_import_total_lines">Обработано строк:</string>
@@ -970,7 +970,7 @@
     	<item quantity="many">%1$d записей отправлено в корзину</item>       
         <item quantity="other">%1$d записей отправлено в корзину</item>
      </plurals>
-    <string name="auto_fill_barcode_empty2">Сопоставьте атрибуты из источника автозаполнения и поля записей</string>
+    <string name="auto_fill_barcode_empty2">Сопоставьте атрибуты из источника автозаполнения и поля записей.</string>
     <string name="barcode_rule_delete_title">Удалить правило</string>
     <string name="barcode_rule_delete_text">Вы действительно хотите удалить правило автозаполнения для поля \"%s\" ?</string>
     <string name="multi_library_item_trush_message_text">Вы действительно хотите отправить выбранные записи в Корзину ?</string>
@@ -981,8 +981,8 @@
     <string name="library_recover_snackbar_text">Библиотека восстановлена в группе \"%s\"</string>
     <string name="sort_by_name">Сортировка по Имени</string>
     <string name="sort_by_time">Сортировка по Времени</string>
-    <string name="favorites_empty_list_layout">Нет избранных записей.</string>
-    <string name="history_empty_list_layout">Нет ранее просмотренных записей.</string>
+    <string name="favorites_empty_list_layout">Нет избранных записей</string>
+    <string name="history_empty_list_layout">Нет ранее просмотренных записей</string>
     <string name="clear_history">Очистить историю</string>
     <string name="entry_not_found">Запись не найдена</string>
     <string name="field">Поле</string>
@@ -997,7 +997,7 @@
     <string name="sort_by_downloads">Сортировка по загрузкам</string>
     <string name="need_auth_on_memento_server">Требуется создать аккаунт на Memento Server</string>
     <string name="empty_my_templates_list">У вас пока нет опубликованных шаблонов библиотек.</string>
-    <string name="empty_field_depend_list">Это поле не имеет зависимостей от других полей.</string>
+    <string name="empty_field_depend_list">Это поле не имеет зависимостей от других полей</string>
     <string name="share_template_dialog_title">Поделиться шаблоном через он-лайн каталог</string>
     <string name="catalog_templates">Каталог шаблонов</string>
     <string name="empty_search_result2">По запросу %s ничего не найдено</string>
@@ -1015,7 +1015,7 @@
     <string name="flex_edit_option_in_table">таблица</string>
     <string name="table_cell_image_text">ПОКАЗАТЬ</string>
     <string name="table_column_width">Ширина столбца</string>
-    <string name="empty_list_after_filter">Нет записей удовлетворяющих условиям фильтра.</string>
+    <string name="empty_list_after_filter">Нет записей удовлетворяющих условиям фильтра</string>
     <string name="size_of_line">Размер линии</string>
     <string name="map_coord_source_network">Сеть</string>
     <string name="search_address_hint">Поиск адреса</string>
@@ -1058,6 +1058,188 @@
     </plurals>
     <string name="all">Все</string>
     <string name="page">Страница</string>
-    <string name="translate">Перевести</string>    
-<string name="msg_default_status">Для сканирования, поместите штрих-код в активную область видоискателя.</string>
-    </resources>
+    <string name="translate">Перевести</string>
+    <!-- 3.0beta3 -->
+    <string name="entries_view_type_calendar">Календарь</string>
+    <string name="calendar_field_role">Использовать в календаре как</string>
+    <string name="calendar_field_role_start">Начало события</string>
+    <string name="calendar_field_role_end">Окончание события</string>
+    <string name="calendar_field_role_duration_min">Длительность, минуты</string>
+    <string name="calendar_field_role_duration_hour">Длительность, часы</string>
+    <string name="calendar_field_role_duration_hour_time">Длительность</string>
+    <string name="calendar_field_role_start_short">начало</string>
+    <string name="calendar_field_role_end_short">окончание</string>
+    <string name="calendar_field_role_duration_short">длительность</string>
+    <string name="calendar_day_view">День</string>
+    <string name="calendar_3day_view">3 дня</string>
+    <string name="calendar_week_view">Неделя</string>
+    <string name="go_to_date">Перейти к дате</string>    
+    <!-- 3.0.2 -->
+    <string name="lost_linked_library">Связанная библиотека не найдена, возможно она была удалена</string>
+    <string name="multichoice_field_empty">Нет доступных для выбора значений</string>
+    <string name="show_add_button_on_tile">Кнопка \"Добавить запись\"</string>
+    <string name="cant_find_audio_selection_app">Извините, приложение для выбора аудио-файла не найдено</string>        
+    <string name="library_group_view_type">Вид</string>
+    <string name="library_group_view_type_big_tile">Большая плитка</string>
+    <string name="library_group_view_type_small_tile">Маленькая плитка</string>
+    <string name="library_group_view_type_icons">Иконки</string>
+    <!-- 3.2.0 -->
+    <string name="icon_pack_title_files_types">Файлы</string>
+    <string name="use_depend_only_in_edit_title">Место действия</string>
+    <string name="use_depend_only_in_edit_hint_true">Только при редактировании записи</string>
+    <string name="use_depend_only_in_edit_hint_false">При редактировании и просмотре записи</string>    
+	<!-- 3.2.0 -->
+	<string name="most_viewed_templates">Просматриваемые</string>    
+	<string name="featured_templates">Рекомендуемые</string>
+	<string name="template_views_count">Просмотров: %s</string>
+	<string name="sort_by_views">Сортировка по просмотрам</string>
+	<string name="select_category_template">Выберите категорию</string>	
+	<string name="select_template_lang">Выберите язык шаблона</string>
+	<string name="template_language">Язык:</string>	
+	<string name="display_lang_option">Фильтр по языку</string>
+	<string name="display_lang_option_all">Все шаблоны</string>
+	<string name="entries_name_dialog_title">Имя записи определяется значениями выбранных полей</string>
+	<string name="entries_name_is_unique">Имя записи является уникальным</string> 
+	<string name="no_fields_for_role">В этой библиотеке нет подходящих полей для этой роли</string>
+	<string name="update_item_name_index">Обновление индекса имен записей...</string>	
+	<string name="entry_name_must_be_unique">Имя записи не уникально</string>
+	<string name="entry_name_must_be_notnull">Имя записи не должно быть пустым</string>
+	<string name="library_have_duplicates">В библиотеке записи с одинаковыми именами</string>
+	<string name="library_have_duplicates2">Измените или удалите дубликаты для корректной работы.</string>
+	<string name="dont_show_anymore">Don\'t show anymore</string>
+	<string name="need_make_slave_library_unique">Для синхронизации полей типа “Ссылка на запись” требуется включить контроль уникальности имен записей у библиотек на которые делаются ссылки.\nСделать это сейчас?</string>
+	<string name="need_make_slave_library_unique_import">Для импорта полей типа “Ссылка на запись” требуется включить контроль уникальности имен записей у библиотек на которые делаются ссылки.\nСделать это сейчас?</string>
+	<string name="run_sync_slave_libraries_pref">Связанные библиотеки</string>
+	<string name="run_sync_slave_libraries_summary">Сначала синхронизировать связанные библиотеки</string>
+	<string name="choice_type_add_button_in_edit_title">Создание элементов при редактировании записи</string>
+	<!-- 3.2.3 -->
+	<string name="show_deleted_entries_menu_item">Показывать удаленные</string>
+	<string name="upload_to_cloud_menu_item">To Cloud</string>
+	<string name="welcome_text_title">Добро пожаловать в MementoDB</string>
+	<string name="welcome_text_description">Библиотека это то место где будут храниться ваши записи.\nВы можете начать знакомство с программой, создав библиотеку по одному из готовых шаблонов.</string>
+	
+	<!-- 3.5.0 -->
+	<string name="memento_cloud">Облако</string>
+	<string name="start_remove_librarary_from_cloud">Удаляю библиотеку из облака...</string>
+	<string name="success_remove_librarary_from_cloud">Библиотека удалена из облака</string>
+	<string name="start_upload_library_to_cloud">Загружаю библиотеку в облако...</string>	
+	<string name="success_upload_library_to_cloud">Библиотека успешно загружена в облако.\nСинхронизация библиотеки будет выполняться автоматически.</string>
+	<string name="success_upload_library_to_cloud2">Вы можете открыть доступ к вашей библиотеки другим пользователям Memento через настройки доступа.</string>	
+	<string name="push_entries_to_cloud_message" formatted="false">Загружаю записи в облако\nОбработано %s из %s записей</string>
+	<string name="permissions">Permissions</string>
+	<string name="button_hide">hide</string>	
+	<string name="empty_cloud_libraries_list_text">У вас нет библиотек загруженных в облако</string>
+	<string name="my_cloud_libraries_menu_item">Облако</string>
+	<string name="start_download_library_model">Загружаю структуру библиотеки...</string>
+	<string name="open_library">Открыть библиотеку</string>
+	<string name="open_library_hint">Открыть локальную копию</string>
+	<string name="download_library">Скачать библиотеку</string>
+	<string name="download_library_hint">Создать локальную копию</string>			
+	<string name="pull_entries_from_cloud_message">Загружаю записи из облака...</string>
+	<string name="pull_entries_from_cloud_message2" formatted="false">Обработано %s из %s</string>
+	<string name="success_pull_library_from_cloud">Записи успешно загружены из облака.\nСинхронизация библиотеки будет выполняться автоматически.</string>
+	<string name="cloud_conflict_fields_title">Конфликты</string>
+	<string name="cloud_conflict_fix_button_title">Исправить</string>
+    <plurals name="conflict_count">        
+        <item quantity="one">При синхронизации c облаком возник 1 конфликт</item> 		
+    	<item quantity="few">При синхронизации c облаком возникло %d конфликта</item>
+    	<item quantity="many">При синхронизации c облаком возникло %d конфликтов</item>       
+        <item quantity="other">При синхронизации c облаком возникло %d конфликтов</item>                
+    </plurals>
+    <string name="button_select">Выбрать</string>
+    <string name="cloud">Облако</string>
+    <string name="library_not_in_cloud">Не в облаке</string>
+    <string name="synced">Синхр %s</string>
+    <string name="cloud_synced_progress">Синхронизация...</string>
+    <string name="cloud_offline">Офлайн</string>
+    <string name="cloud_last_sync">Синхр</string>
+    <string name="entries">Записей</string>
+    <string name="cloud_created">Создано</string>
+    <string name="cloud_modified">Изменено</string>
+    <string name="cloud_size">Размер</string>
+    <string name="cloud_files_count">Файлов</string>
+    <string name="cloud_who_has_access">Кто имеет доступ</string>
+    <string name="cloud_server_unavaliable">Memento Cloud Server недоступен, проверьте Internet на вашем устройстве</string>
+    <string name="delete_from_cloud">Удалить из облака</string>
+    <string name="delete_from_cloud_message_question">Вы действительно хотите удалить библиотеку из облака?</string>
+        
+    <string name="byteShort">B</string>    
+    <string name="kilobyteShort">KB</string>
+    <string name="megabyteShort">MB</string>
+    <string name="gigabyteShort">GB</string>
+    <string name="button_refresh">Обновить</string>
+    <string name="cloud_storage_space_text"  formatted="false">Использую %s (%s) из %s</string>   
+    <string name="start_download_file_from_cloud">Файл %s будет загружен из облака</string>
+    <string name="upload_file_to_cloud">Загружаю файл в облако...</string>    
+    <string name="upload_files_to_cloud">Загрузка файлов</string>    
+    <string name="cloud_upload_error_title">Синхронизация не выполнена</string>
+    <string name="upload_big_file_error" formatted="false">Запись %s содержит слишком большой файл %s (%s).\nМаксимальный размер файла %s.</string>
+    <string name="prepare_library_for_cloud">Подготовка библиотеки...</string>
+    <string name="download_files_from_cloud">Загружаю файлы из облака...</string>
+    <string name="cant_download_item_files_for_copy">Не удалось загрузить файлы из облака для создания копий.</string> 
+    <string name="library_cloud_model_changed_message">В облаке была изменена структура библиотеки. Обновите структуру для дальнейшей синхронизации.</string>
+    <string name="button_update">Обновить</string>
+    <string name="add_people">Добавить пользователя</string>
+    <string name="read_permission">Чтение</string>      
+    <string name="write_permission">Изменение</string>
+    <string name="create_permission">Создание</string>
+    <string name="delete_permission">Удаление</string>
+    
+    <string name="allow_permission">Разрешено</string>
+	<string name="deny_permission">Запрещено</string>
+	<string name="only_owner_permission">Только свои</string>
+	<string name="user_not_found">Такой пользователь не найден</string>
+	<string name="edit_permission">Настройки доступа</string>	
+	<string name="push_entry_error_text" formatted="false">Запись не сохранена в облаке.\nИмя: %s\nОшибка: %s</string>
+	<string name="push_error_forbidden">Доступ закрыт</string>
+	<string name="button_ignore">Игнорировать</string>
+	<string name="button_try_again">Повторить</string>	
+	<string name="cloud_library_forbidden">У вас нет доступа к этой библиотеке</string>
+	<string name="shared_with_me">Доступно для меня</string>
+	<string name="entry_author">Автор</string>
+	<string name="info_menu_item">Информация</string>   
+	<string name="need_upload_to_cloud_slave_libraries">Сначала загрузите в облако подчиненные библиотеки.</string>
+	<string name="start_download_slave_library_model">Загружаю подчиненную библиотеку %s</string>
+	<string name="open_access_for_slave_libraries">Открыть доступ на чтение к подчиненным библиотекам</string>
+	<string name="cloud_storage_full_text">В облачном хранилище больше нет свободного места.\nВы можете перейти на тарифный план с большим объемом хранилища.</string>
+	<string name="cloud_storage_full_text2" formatted="false">В облачном хранилище недостаточно свободного места.\nТребуется %s, доступно %s.\nВы можете перейти на тарифный план с большим объемом хранилища.</string>
+	<string name="alien_cloud_storage_full_text">У владельца библиотеки закончилось место в облачном хранилище.</string>	
+	<string name="button_tarifs">Тарифы</string>
+	<string name="cloud_storage_plans">Тарифы</string>
+	<string name="price_free">Бесплатно</string>
+	<string name="price_per_month">%s/мес</string>
+	<string name="unlimited_libraries">Неограниченное кол-во библиотек</string>	
+	<string name="adv_free">Без рекламы</string>
+	<string name="subscription_activation">Активация подписки...</string>
+	<string name="subscription_activation_error">Ошибка активации подписки: %s</string>
+	<string name="subscription_reactivation_error">Ошибка получения активных подписок: %s</string>
+	<string name="google_play_unavaliable">Google Play недоступен:(</string>
+	<string name="return_to_free_plan_message">Вы можете вернуться на бесплатный план отменив подписку в Google Play</string>
+	<string name="subscription_already_activation_for_user">Подписка не может быть активирована так как она приобретена для пользователя %s.</string>
+	<string name="library_cloud_count_limit">Ваш тарифный план не позволяет загрузить в облако более чем %s библиотек.</string>
+	<string name="restore_cloud_library_from_recycle">Локальная копия этой библиотеки удалена. Восстановить?</string>
+	<string name="cloud_file_while_not_upload">Файл еще не в облаке</string>
+	<string name="upload_ecrypted_libraries_dont_supported">Загрузка в облако зашифрованных библиотек временно не поддерживается</string>
+	<string name="button_signin">Sign in</string>
+	<string name="cloud_library_not_found">Библиотека не найдена в облаке, возможно она была удалена.\nПреобразовать библиотеку в локальную?</string>
+	<string name="cloud_library_already_uploaded">Эта библиотека уже загружена в облако.</string>
+	<string name="library_alias_menu_item">Псевдоним</string>
+	<string name="library_public_access">Общий доступ</string>
+	<string name="library_public_access_disabled">Закрыт</string>
+	<string name="library_access_read_only">Только для чтения</string>
+	<string name="library_access_can_edit">Возможно редактирование</string>
+	<string name="owner">Владелец</string>
+	<string name="find_library_by_url_title">Открыть по адресу</string>
+	<string name="find_library_by_url_hint">https://libs.mobi/address</string>
+	<string name="library_not_found_by_uri">Библиотека не найдена</string>
+	<string name="upload_to_cloud_offer_title">{cloud ready...}</string>
+	<string name="upload_to_cloud_offer_text">&#8226; Совместная работа\n&#8226; Синхронизация между устройствами\n&#8226; Резервная копия всегда в облаке</string>
+	<string name="button_no_thanks">Нет</string>
+	<string name="button_upload">В облако</string>	
+	
+	<!-- 3.5.0 beta2 -->
+    <string name="cant_upload_file_to_cloud">Не удалось загрузить файл в облако.</string>
+    <string name="button_show">Показать</string>		
+	<string name="invalid_library_template_file_format">Неверный формат файла шаблона библиотеки</string>    
+	<string name="cant_add_yourself">Вы не можете добавить себя</string>    					   
+</resources>
