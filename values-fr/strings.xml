@@ -224,7 +224,7 @@
     <string name="sync_with_gdocs_message">Synchronisation de la base avec Google Sheets.</string>
     <string name="sync_with_gdocs_message_2">Synchronisation de la base \"%s\" avec Google Sheets.</string>
     <string name="sync_with_gdocs">Synchroniser avec Google Sheets</string>
-    <string name="google_docs_task_step_auth">Connexion à Google Sheets</string>
+    <string name="google_docs_task_step_auth">Authentification auprès de Google Sheets</string>
     <string name="google_docs_task_step_get_rows">Récupération de la liste des champs</string>
     <string formatted="false" name="google_docs_task_step_process_row">Traitement de la liste des lignes. %s sur %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Ajout d\'une liste de lignes : %s sur %s</string>
@@ -551,7 +551,7 @@
     <string name="add_email_template_dialog_title">Créer un modèle</string>
     <string name="edit_entry_screen_preference">Editer des enregistrements</string>
     <string name="flex_type_file">Lier à un fichier</string>
-    <string name="file_size">Taille du fichier : %sb</string>
+    <string name="file_size">Taille du fichier : %s</string>
     <string name="file_not_found">Fichier non trouvé</string>
     <string name="select_app">Sélectionner une application</string>
     <string name="forum">Forum</string>
@@ -625,13 +625,13 @@
     <string name="tile_options_text">titre</string>
     <string name="flex_type_calc_option_header">Expression</string>
     <string name="default_email_template_title">Défaut</string>
-    <string name="move_from_google_docs">Transférer les données de Google Sheet vers Mémento</string>
+    <string name="move_from_google_docs">Transférer les données de Google Sheets vers Mémento</string>
     <string name="move_from_google_docs_attention">Tous les enregistrements de la base seront supprimés</string>
     <string name="move_from_memento">Transférer les données de Memento vers Google Sheets</string>
     <string name="move_from_memento_attention">Toutes les données de Google Sheets seront supprimées</string>
     <string name="find_in_spreadsheet_column_title">Liste des champs de Memento et de Google Sheets</string>
     <string name="google_doc_exists_link_option">Paramètres d\'attachement</string>
-    <string name="get_google_docs_columns_message">Chargement de la liste des colonnes du Google Sheets sélectionné...</string>
+    <string name="get_google_docs_columns_message">Chargement de la liste des colonnes du document Google Sheets sélectionné...</string>
     <string name="prepare_linking_library">Préparation de l\'attachement...</string>
     <string name="error_prepare_linking">Une erreur s\'est produite lors de la préparation de l\'attachement : %s</string>
     <string name="preference_category_export_data_cfg">Paramètres Import/Export/Sync</string>
@@ -893,7 +893,7 @@
     <string name="string_list_add_item_dialog_title">Ajouter un item</string>
     <string name="email_templates_spinner_hint">Modèle de format</string>
     <string name="search_in_protected_libraries">Recherche dans les bases protégées par mot de passe↵\n(à l\'exception des bases chiffrées)</string>
-    <string name="have_library_items_ask_title">Attachement Google Sheets</string>
+    <string name="have_library_items_ask_title">Attachement à Google Sheets</string>
     <string name="have_library_items_ask_message">La base contient des enregistrements qui seront supprimés lors de l\'attachement. Voulez-vous attacher la base à Google Sheets ?</string>
     <string name="deleted">Supprimée</string>
     <string name="barcode_rule_delete_title">Supprimer la règle</string>
@@ -1088,4 +1088,126 @@
 <string name="featured_templates">Au premier plan</string>
 	<string name="need_make_slave_library_unique">Pour synchroniser le \"lien avec l\'enregistrement\" il faut d\'abord activer le contrôle de l\'unicité de l\'identifiant des enregistrements dans la base à laquelle le lien se réfère. Voulez-vous le faire maintenant ?</string>
 	<string name="need_make_slave_library_unique_import">Pour importer le \"lien avec l\'enregistrement\" il faut d\'abord activer le contrôle de l\'unicité de l\'identifiant des enregistrements dans la base à laquelle le lien se réfère. Voulez-vous le faire maintenant ?</string>
-	</resources>
+	<string name="memento_cloud">Nuage</string>
+	<string name="start_remove_librarary_from_cloud">Suppression de la base...</string>
+	<string name="success_remove_librarary_from_cloud">Base supprimée du nuage</string>
+	<string name="start_upload_library_to_cloud">Téléversement de la base...</string>	
+	<string name="success_upload_library_to_cloud">La base a été téléversée.↵\nLa base sera synchronisée automatiquement.</string>
+	<string name="success_upload_library_to_cloud2">Vous pouvez rendre accessible votre base à d\'autres utilisateurs Memento en modifiant les paramètres d\'accès.</string>	
+	<string name="push_entries_to_cloud_message" formatted="false">Téléversement des enregistrements↵\n%s enregistrements de %s traités</string>
+	<string name="permissions">Droits d\'accès</string>
+	<string name="button_hide">cacher</string>	
+	<string name="empty_cloud_libraries_list_text">Vous n\'avez pas de bases téléversées</string>
+	<string name="my_cloud_libraries_menu_item">Stockage en nuage</string>
+	<string name="start_download_library_model">Téléversement de la structure de la base...</string>
+	<string name="open_library">Ouvrir la base</string>
+	<string name="open_library_hint">Ouvrir la copie locale</string>
+	<string name="download_library">Télécharger la base</string>
+	<string name="download_library_hint">Créer une copie locale</string>			
+	<string name="pull_entries_from_cloud_message">Téléchargement des enregistrements...</string>
+	<string name="pull_entries_from_cloud_message2" formatted="false">%s enregistrements de %s traités</string>
+	<string name="success_pull_library_from_cloud">Enregistrements téléchargés.↵\nLa base sera synchronisée automatiquement.</string>
+	<string name="cloud_conflict_fields_title">Conflits</string>
+	<string name="cloud_conflict_fix_button_title">Réparer</string>
+    <plurals name="conflict_count">
+	<item quantity="one">Un conflit s\'est produit durant la synchronisation</item>
+	<item quantity="other">%d conflits se sont produits durant la synchronisation</item>
+</plurals>
+    <string name="button_select">Sélectionner</string>
+    <string name="cloud">Nuage</string>
+    <string name="library_not_in_cloud">Pas dans le nuage</string>
+    <string name="synced">Synchronisé %s</string>
+    <string name="cloud_synced_progress">Synchronisation...</string>
+    <string name="cloud_offline">Hors ligne</string>
+    <string name="cloud_last_sync">Dernière synchronisation</string>
+    <string name="entries">Enregistrements</string>
+    <string name="cloud_created">Créée</string>
+    <string name="cloud_modified">Modifiée</string>
+    <string name="cloud_size">Taille</string>
+    <string name="cloud_files_count">Nombre de fichiers</string>
+    <string name="cloud_who_has_access">Qui a accès</string>
+    <string name="cloud_server_unavaliable">Memento Cloud Server n\'est pas disponible, vérifier l\'accès Internet de votre appareil</string>
+    <string name="delete_from_cloud">Supprimer du nuage</string>
+    <string name="delete_from_cloud_message_question">Voulez-vous réellement supprimer la base du nuage ?</string>
+        
+    <string name="byteShort">B</string>    
+    <string name="kilobyteShort">KB</string>
+    <string name="megabyteShort">MB</string>
+    <string name="gigabyteShort">GB</string>
+    <string name="button_refresh">Actualiser</string>
+    <string name="cloud_storage_space_text" formatted="false">%s (%s) de %s utilisé</string>   
+    <string name="start_download_file_from_cloud">Le fichier %s sera téléchargé</string>
+    <string name="upload_file_to_cloud">Téléversement du fichier...</string>    
+    <string name="upload_files_to_cloud">Téléversement des fichiers</string>
+    <string name="cloud_upload_error_title">Nous ne pouvons pas synchroniser cette base</string>
+    <string name="upload_big_file_error" formatted="false">L\'enregistrement %s contient un fichier volumineux %s (%s).↵\nLa taille maximale des fichiers est %s.</string>
+    <string name="prepare_library_for_cloud">La base est en cours de traitement...</string>
+    <string name="download_files_from_cloud">Téléchargement des fichiers depuis le nuage...</string>
+    <string name="cant_download_item_files_for_copy">Echec du téléchargement des fichiers pour créer des copies.</string> 
+    <string name="library_cloud_model_changed_message">La structure de la base a été mise à jour dans le nuage. Mettre à jour la structure pour des synchronisations ultérieures.</string>
+    <string name="button_update">Mettre à jour</string>
+    <string name="add_people">Ajouter des personnes</string>
+    <string name="read_permission">Lire</string>      
+    <string name="write_permission">Ecrire</string>
+    <string name="create_permission">Créer</string>
+    <string name="delete_permission">Supprimer</string>
+    
+    <string name="allow_permission">Autoriser</string>
+	<string name="deny_permission">Interdire</string>
+	<string name="only_owner_permission">Uniquement le propriétaire</string>
+	<string name="user_not_found">Utilisateur non trouvé</string>
+	<string name="edit_permission">Paramètres de partage utilisateurs</string>	
+	<string name="push_entry_error_text" formatted="false">L\'enregistrement n\'est pas stocké dans le nuage.↵\nNom : %s↵\nErruer : %s</string>
+	<string name="push_error_forbidden">Accès réfusé</string>
+	<string name="button_ignore">Ignorer</string>
+	<string name="button_try_again">Réessayer</string>	
+	<string name="cloud_library_forbidden">Vous n\'avez pas l\'autorisation d\'accès à cette base</string>
+	<string name="shared_with_me">Partagée avec moi</string>
+	<string name="entry_author">Auteur</string>
+	<string name="info_menu_item">Info</string>   
+	<string name="need_upload_to_cloud_slave_libraries">Merci de téléverser les bases dépendantes dans le nuage.</string>
+	<string name="start_download_slave_library_model">Téléversement de la base dépendante %s</string>
+	<string name="open_access_for_slave_libraries">Fournir l\'accès en lecture pour les bases dépendantes</string>
+	<string name="cloud_storage_full_text">Pas assez d\'espace dans le nuage.↵\nVous pouvez passer à une des offres tarifaires pour plus d\'espace de stockage.</string>
+	<string name="cloud_storage_full_text2" formatted="false">Pas assez d\'espace dans le nuage.↵\n%s sont nécessaires, %s sont disponibles.\nVous pouvez passer à une des offres tarifaires pour plus d\'espace de stockage.</string>
+	<string name="alien_cloud_storage_full_text">Le propriétaire de la base ne dispose pas d\'assez d\'espace de stockage.</string>	
+	<string name="button_tarifs">Tarifs</string>
+	<string name="cloud_storage_plans">Offres</string>
+	<string name="price_free">GRATUIT</string>
+	<string name="price_per_month">%s/mois</string>
+	<string name="unlimited_libraries">Bases illimitées</string>	
+	<string name="adv_free">Pas de publicité</string>
+	<string name="subscription_activation">Activer la souscription...</string>
+	<string name="subscription_activation_error">Erreur activation : %s</string>
+	<string name="subscription_reactivation_error">Impossible d\'obtenir les offres : %s</string>
+	<string name="google_play_unavaliable">Google Play n\'est pas accessible:(</string>
+	<string name="return_to_free_plan_message">Vous pouvez passer à un compte gratuit en résiliant la souscription dans Google Play</string>
+	<string name="subscription_already_activation_for_user">Cette souscription ne peut pas être activée car elle a été achetée pour l’utilisateur %s.</string>
+	<string name="library_cloud_count_limit">Votre offre tarifaire vous permet de téléverser jusqu\'à %s bases dans le nuage.</string>
+	<string name="restore_cloud_library_from_recycle">Cette base locale a été supprimées. Voulez-vous la restaurer ?</string>
+	<string name="cloud_file_while_not_upload">Ce fichier n\'est pas encore dans le nuage</string>
+	<string name="upload_ecrypted_libraries_dont_supported">Le téléversement de bases chiffrées dans le nuage est temporairement indisponible.</string>
+	<string name="button_signin">Se connecter</string>
+	<string name="cloud_library_not_found">La base n\'a pas été trouvée dans le nuage. Elle a peut-être été supprimée.↵\nConvertir la base en base locale ?</string>
+	<string name="cloud_library_already_uploaded">La base a déjà été téléversée dans le nuage.</string>
+	<string name="library_alias_menu_item">Alias</string>
+	<string name="library_public_access">Accès public</string>
+	<string name="library_public_access_disabled">Désactivée</string>
+	<string name="library_access_read_only">Lecture seule</string>
+	<string name="library_access_can_edit">Edition autorisée</string>
+	<string name="owner">Propriétaire</string>
+	<string name="find_library_by_url_title">Ouvrir par URL</string>
+	<string name="find_library_by_url_hint">https://libs.mobi/address</string>
+	<string name="library_not_found_by_uri">Base non trouvée</string>
+	<string name="upload_to_cloud_offer_title">{nuage prêt...}</string>
+	<string name="upload_to_cloud_offer_text">• Travail en équipe↵\n• Synchronisation entre matériels↵\n• Sauvegarde toujours présente dans le nuage</string>
+	<string name="button_no_thanks">Non merci</string>
+	<string name="button_upload">Téléverser</string>
+	
+	<string name="cant_upload_file_to_cloud">Le téléversement de(s) fichier(s) a échoué.</string>
+    <string name="button_show">Afficher</string>
+	<string name="invalid_library_template_file_format">Format de fichier modèle invalide</string>    
+	<string name="cant_add_yourself">Vous ne pouvez pas vous ajouter</string>    
+
+		        	
+</resources>
