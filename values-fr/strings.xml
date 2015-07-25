@@ -894,7 +894,7 @@
     <string name="email_templates_spinner_hint">Modèle de format</string>
     <string name="search_in_protected_libraries">Recherche dans les bases protégées par mot de passe↵\n(à l\'exception des bases chiffrées)</string>
     <string name="have_library_items_ask_title">Attachement à Google Sheets</string>
-    <string name="have_library_items_ask_message">La base contient des enregistrements qui seront supprimés lors de l\'attachement. Voulez-vous attacher la base à Google Sheets ?</string>
+    <string name="have_library_items_ask_message">La base contient des enregistrements qui seront supprimés lors de l\'attachement. Voulez-vous néanmoins attacher la base à Google Sheets ?</string>
     <string name="deleted">Supprimée</string>
     <string name="barcode_rule_delete_title">Supprimer la règle</string>
     <string name="barcode_rule_delete_text">Etes-vous sûr de vouloir supprimer la règle d\'autocomplétion pour le champ \"%s\" ?</string>
@@ -1179,7 +1179,7 @@
 	<string name="adv_free">Pas de publicité</string>
 	<string name="subscription_activation">Activer la souscription...</string>
 	<string name="subscription_activation_error">Erreur activation : %s</string>
-	<string name="subscription_reactivation_error">Impossible d\'obtenir les offres : %s</string>
+	<string name="subscription_reactivation_error">Impossible d\'obtenir les offres actives : %s</string>
 	<string name="google_play_unavaliable">Google Play n\'est pas accessible:(</string>
 	<string name="return_to_free_plan_message">Vous pouvez passer à un compte gratuit en résiliant la souscription dans Google Play</string>
 	<string name="subscription_already_activation_for_user">Cette souscription ne peut pas être activée car elle a été achetée pour l’utilisateur %s.</string>
