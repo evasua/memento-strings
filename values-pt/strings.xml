@@ -216,12 +216,12 @@
     <string name="bind_to_gdocs_title">Vincular ao Google Sheets</string>
     <string name="unbind_message_title">Desvincular do Google Sheets</string>
     <string name="unbind_message_text">Você quer realmente dexvincular a biblioteca \"%s\" do Google Sheets ?</string>
-    <string name="bind_to_gdocs_message">Vinculando a biblioteca à Planilha do Google Sheets.</string>
-    <string name="bind_to_gdocs_success">A biblioteca foi vinculada à Planilha do Google Sheets. Iniciando a sincronização de entradas.</string>
+    <string name="bind_to_gdocs_message">Vinculando a biblioteca com Google Sheets.</string>
+    <string name="bind_to_gdocs_success">A biblioteca foi vinculada com Planilha do Google Sheets.</string>
     <string name="sync_with_gdocs_success">A biblioteca foi sincronizada com a Planilha do Google Sheets</string>
     <string name="sync_with_gdocs_success_2">A biblioteca \"%s\" foi sincronizada com a Planilha do Google Sheets</string>
     <string name="sync_with_gdocs_title">Sincronização com Google Sheets</string>
-    <string name="sync_with_gdocs_message">Sincronizando a biblioteca com a Planilha do Google Sheets.</string>
+    <string name="sync_with_gdocs_message">Sincronizando a biblioteca com Planilha do Google Sheets.</string>
     <string name="sync_with_gdocs_message_2">Sincronizando a biblioteca \"%s\" com a Planilha do Google Sheets.</string>
     <string name="sync_with_gdocs">Sincronizar com Google Sheets</string>
     <string name="google_docs_task_step_auth">Autenticando ao serviço de Planilhas do Google Sheets</string>
@@ -655,10 +655,10 @@
     <string name="search_result_subtitle">Resultados da busca</string>
     <string name="request_pass_dialog_text">Por favor introduza um endereço de e-mail para nos ajudar a localizar a sua conta Memento</string>
     <string name="stat_result_type">Formato do resultado</string>
-    <string name="backup_file_name_title">Nome do ficheiro da cópia de segurança</string>
+    <string name="backup_file_name_title">Nome do arquivo da cópia de segurança</string>
     <string name="backup_file_path_title">Directório da cópia de segurança</string>
     <string name="change_dir_button">Altere</string>
-    <string name="file_already_exists">* Ficheiro de destino já existente</string>
+    <string name="file_already_exists">* O arquivo de destino já existe</string>
     <string name="backup_success2">Cópia de segurança terminada</string>
     <string name="restore_file_path_title">Directório com cópias de segurança</string>
     <string name="auto_bakup_dir_pref_title">Directório para cópias de segurança em automático</string>
@@ -678,4 +678,26 @@
     <string name="run_sync_slave_libraries_summary">Primeiro sincronize as bibliotecas associadas</string>
 	<string name="show_deleted_entries_menu_item">Mostrar entradas excluídas</string>
 	<string name="upload_to_cloud_menu_item">Para a nuvem</string>
+	<string name="change_password_success">Por favor, verifique o seu email↵
+\nEnviamos um e-mail que lhe permitirá redefinir sua senha de forma rápida e facilmente.</string>
+    <string name="search_in_protected_libraries">Procurar em livrarias protegida por senha\n(excepto as encriptadas )</string>
+    <string name="google_play_not_found_message">O seu dispositivo não tem Google Play. Você pode baixar OI File Manager da pagina do desenvolvedor.</string>
+    <string name="button_no_thanks">Obrigado não</string>
+	<string name="button_upload">Upload</string>
+	
+	<string name="cant_upload_file_to_cloud">O upload do(s) arquivo(s) falhou</string>
+    <string name="button_show">Mostrar</string>
+	<string name="cant_add_yourself">Você não pode adicionar a si mesmo</string>    
+
+		        	
+<string name="invalid_library_template_file_format">Formato de modelo de arquivo inválido</string>    
+	<string name="owner">Dono</string>
+	<string name="find_library_by_url_title">Abrir pela URL</string>
+	<string name="library_access_read_only">Só em letura</string>
+	<string name="library_access_can_edit">Pode editar</string>
+	<string name="library_public_access_disabled">Desativado</string>
+	<string name="library_public_access">Acesso público</string>
+	<string name="button_signin">Entrar</string>
+	<string name="library_alias_menu_item">Aliás</string>
+	<string name="cloud_file_while_not_upload">O arquivo ainda não está na nuvem</string>
 	</resources>
