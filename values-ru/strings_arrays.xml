@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="call">Сделать звонок</string>
     <string name="send_sms">Отправит СМС</string>
@@ -51,4 +51,19 @@
     <string name="auto_backup_time_always">Всегда</string>
     <string name="auto_backup_time_hour">Не чаще одного раза в час</string>
     <string name="auto_backup_time_day">Не чаще одного раза в день</string>    
-</resources>
+<string name="template_category_arts">Искусства</string>
+    <string name="template_category_business">Бизнес</string>
+    <string name="template_category_contacts">Контакты и люди</string>
+    <string name="template_category_cook">Рецепты, еда и вино</string>
+    <string name="template_category_edu">Обучение</string>
+    <string name="template_category_events">Планирование событий</string>
+    <string name="template_category_fin">Финансы</string>
+    <string name="template_category_health">Здоровье</string>
+    <string name="template_category_home">Дом и хобби</string>
+    <string name="template_category_internet">Интернет и пароли</string>
+    <string name="template_category_music">Музыка и Кино</string>
+    <string name="template_category_research">Разработка и заметки</string>
+    <string name="template_category_sports">Спорт</string>
+    <string name="template_category_travel">Путешествия</string>
+    <string name="template_category_other">Другое</string>
+    </resources>
