@@ -212,15 +212,15 @@
     <string name="bind_to_gdocs_title">Связать с Google Sheets</string>
     <string name="unbind_message_title">Отвязать от Google Sheets</string>
     <string name="unbind_message_text">Вы действительно желаете отвязать библиотеку \"%s\" от Google Sheets ?</string>
-    <string name="bind_to_gdocs_message">Выполняется привязка библиотеки к Google Spreadsheets.</string>
-    <string name="bind_to_gdocs_success">Привязка библиотеки к Google Spreadsheets выполнена. Начинаем синхронизацию записей.</string>
-    <string name="sync_with_gdocs_success">Синхронизация с Google Spreadsheets выполнена</string>
+    <string name="bind_to_gdocs_message">Выполняется привязка библиотеки к Google Sheets.</string>
+    <string name="bind_to_gdocs_success">Привязка библиотеки к Google Sheets выполнена.</string>
+    <string name="sync_with_gdocs_success">Синхронизация с Google Sheets выполнена</string>
     <string name="sync_with_gdocs_success_2">Синхронизация библиотеки \"%s\" с Google выполнена</string>
     <string name="sync_with_gdocs_title">Синхронизация с Google Sheets</string>
-    <string name="sync_with_gdocs_message">Выполняется синхронизация библиотеки с Google Spreadsheets.</string>
-    <string name="sync_with_gdocs_message_2">Выполняется синхронизация \"%s\" с Google Spreadsheets.</string>
+    <string name="sync_with_gdocs_message">Выполняется синхронизация библиотеки с Google Sheets.</string>
+    <string name="sync_with_gdocs_message_2">Выполняется синхронизация \"%s\" с Google Sheets.</string>
     <string name="sync_with_gdocs">Синхр с Google Sheets</string>
-    <string name="google_docs_task_step_auth">Авторизация</string>
+    <string name="google_docs_task_step_auth">Авторизация в Google Sheets</string>
     <string name="google_docs_task_step_get_rows">Получение строк</string>
     <string formatted="false" name="google_docs_task_step_process_row">Обработка строк. %s из %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Добавление строк. %s из %s</string>
@@ -520,20 +520,20 @@
     <string name="loading_google_document_list">Загрузка...</string>
     <string name="google_doc_list_title">Документы Google</string>
     <string name="updated_document_time">Обновлено: %s</string>
-    <string name="move_from_google_docs">Перенести данные из Google Spreadsheet в Memento</string>
+    <string name="move_from_google_docs">Перенести данные из Google Sheets в Memento</string>
     <string name="move_from_google_docs_attention">Все имеющиеся записи в библиотеке Memento будут удалены</string>
-    <string name="move_from_memento">Перенести данные из Memento в Google Spreadsheet</string>
-    <string name="move_from_memento_attention">Все имеющиеся данные в Google Spreadsheet будут удалены</string>
-    <string name="find_in_spreadsheet_column_title">Список полей в Memento и Google Spreadsheet</string>
+    <string name="move_from_memento">Перенести данные из Memento в Google Sheets</string>
+    <string name="move_from_memento_attention">Все имеющиеся данные в Google Sheets будут удалены</string>
+    <string name="find_in_spreadsheet_column_title">Список полей в Memento и Google Sheets</string>
     <string name="google_doc_exists_link_option">Параметры связывания библиотеки</string>
-    <string name="get_google_docs_columns_message">Загрузка списка колонок выбранного документа Google Spreadsheet ...</string>
+    <string name="get_google_docs_columns_message">Загрузка списка колонок выбранного документа Google Sheets...</string>
     <string name="field_not_found">Не найден</string>
     <string name="field_not_sync">Не синхр.</string>
     <string name="link_button">Связать</string>
     <string name="prepare_linking_library">Подготовка к связыванию ... </string>
     <string name="error_prepare_linking">Ошибка при подготовки связывания: %s</string>
-    <string name="have_library_items_ask_title">Привязка к Google Spreadsheet</string>
-    <string name="have_library_items_ask_message">Библиотека содержит записи которые будут удалены во время привязки к Google Spreadsheet. Выполнить привязку библиотеки ?</string>
+    <string name="have_library_items_ask_title">Привязка к Google Sheets</string>
+    <string name="have_library_items_ask_message">Библиотека содержит записи, которые будут удалены во время привязки к Google Sheets. Выполнить привязку библиотеки?</string>
     <string name="autofill_source_option_title">Источник данных</string>
     <string name="amazon_source_option_title">Amazon</string>
     <!-- 1.9.1 -->
@@ -964,12 +964,11 @@
         <item quantity="other">%1$d звезд</item>
      </plurals>
     <plurals name="delete_entries_snackbar_text">
-        <item quantity="zero"/>
-        <item quantity="one">%1$d запись отправлена в корзину</item>
-    	<item quantity="few">%1$d записи отправлены в корзину</item>
-    	<item quantity="many">%1$d записей отправлено в корзину</item>       
-        <item quantity="other">%1$d записей отправлено в корзину</item>
-     </plurals>
+	<item quantity="one">%1$d запись отправлена в корзину</item>
+	<item quantity="few">%1$d записи отправлены в корзину</item>
+	<item quantity="many">%1$d записей отправлены в корзину</item>
+	<item quantity="other"/>
+</plurals>
     <string name="auto_fill_barcode_empty2">Сопоставьте атрибуты из источника автозаполнения и поля записей.</string>
     <string name="barcode_rule_delete_title">Удалить правило</string>
     <string name="barcode_rule_delete_text">Вы действительно хотите удалить правило автозаполнения для поля \"%s\" ?</string>
@@ -1243,4 +1242,24 @@
 	<string name="invalid_library_template_file_format">Неверный формат файла шаблона библиотеки</string>    
 	<string name="cant_add_yourself">Вы не можете добавить себя</string>    					   
 <string name="msg_camera_framework_bug">Извините, камера Андроид обнаружила проблему. Возможно, требуется перезапустить устройство.</string>
+    <string name="msg_default_status">Чтобы отсканировать штрих-код, поместите его внутрь прямоугольника.</string>
+    <string name="library_import_and_export">Настройки %s</string>
+    <string name="button_pro_version">PRO версия</string>
+    <string name="help_intro">Что такое Memento</string>
+    <string name="help_create_library">Создание библиотек</string>
+    <string name="help_edit_field">Задание структуры библиотеки</string>
+    <string name="help_library_items">Работа с записями библиотеки</string>
+    <string name="help_import_export">Импорт и экспорт CSV файлов</string>
+    <string name="help_barcode">Сканер штрих-кодов</string>
+    <string name="help_gdocs_sync">Синхронизировать с Google Sheets</string>
+    <string name="help_publish">Публикация библиотек</string>
+    <string name="help_subscribe">Подписка на библиотеки</string>
+    <string name="lib_protection">Защита библиотеки</string>
+    <string name="license_check">Проверка лицензии</string>
+    <string name="license_wrong">Лицензионный ключ PRO версии не соответствует вашему аккаунту Google</string>
+    <string name="record_error_dialog_message">Извините, не найдено приложение для записи.</string>
+    <string name="sync_error_dialog_title">Ошибка синхронизации</string>
+    <string name="need_internet_for_charts">Google Charts требует активное подключение к Интернет</string>
+    <string name="sync_with_google_drive_dont_support">Ваш Android не поддерживает синхронизацию с Google Drive</string>
+    <string formatted="false" name="library_item_position_text">%d/%d</string>
     </resources>
