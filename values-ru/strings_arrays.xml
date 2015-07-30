@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="call">Сделать звонок</string>
-    <string name="send_sms">Отправит СМС</string>
+    <string name="send_sms">Отправить СМС</string>
     <string name="light_theme">Светлая тема</string>
     <string name="dark_theme">Темная тема</string>
     <string name="datetime_filter_items_today">Сегодня</string>
@@ -30,7 +30,7 @@
     <string name="number_filter_types_notequal">Не равно</string>
     <string name="string_filter_types_contains">Содержит</string>
     <string name="string_filter_types_notcontains">Не содержит</string>
-    <string name="time_field_group_entries_no">Без детализации</string>
+    <string name="time_field_group_entries_no">Без группировки</string>
     <string name="time_field_group_entries_hour">Группировать по часу</string>
     <string name="time_field_group_entries_day">Группировать по дню</string>
     <string name="time_field_group_entries_month">Группировать по месяцу</string>
