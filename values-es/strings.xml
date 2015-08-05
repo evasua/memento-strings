@@ -255,7 +255,7 @@
     <string name="public_to_picasa_create_album">Creando un album en Picasa de la librería publicada</string>
     <string name="public_to_picasa_success">Imágenes subidas en Picasa</string>
     <string name="picasa_task_step_auth">Autentificando servicio en Picasa</string>
-    <string formatted="false" name="picasa_send_image_step">Cargando imágnes de librería en Picasa. %s из %s</string>
+    <string formatted="false" name="picasa_send_image_step">Cargando imágnes de librería en Picasa. %s de %s</string>
     <string name="public_library">Publicar la librería</string>
     <string name="update_public_library">Actualizando publicación</string>
     <string name="memento_register_account_title">Creando una cuenta\nen el servidor de Memento</string>
