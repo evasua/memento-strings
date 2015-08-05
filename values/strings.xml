@@ -255,7 +255,7 @@
     <string name="public_to_picasa_create_album">Creating a Picasa album for the published library</string>
     <string name="public_to_picasa_success">Images has been uploaded to Picasa</string>
     <string name="picasa_task_step_auth">Authenticating to the Picasa service</string>
-    <string formatted="false" name="picasa_send_image_step">Uploading library images to Picasa. %s из %s</string>
+    <string formatted="false" name="picasa_send_image_step">Uploading library images to Picasa. %s of %s</string>
     <string name="public_library">Publish the library</string>
     <string name="update_public_library">Update the publication</string>
     <string name="memento_register_account_title">Creating an account\non the Memento server</string>
@@ -735,7 +735,7 @@
     <string name="satellite">Satellite</string>
     <string name="terrain">Terrain</string>
     <string name="open_map_menu_item">Map</string>
-    <string name="google_drive">Google Drive"</string>
+    <string name="google_drive">Google Drive</string>
     <string name="none_files_cloud_storage">None</string>
     <string name="select_files_cloud_storage">Choose a cloud server for synchronization</string>
     <string name="files_cloud_storage_pref">Synchronizing files</string>
@@ -778,7 +778,7 @@
     <string name="group_by_subtitle">by %s</string>
     <string name="sort_asc">ASC</string>
     <string name="sort_desc">DESC</string>
-    <string name="sliding_hint_text">SORT, GROUP, FILTERS and more</string>
+    <string name="sliding_hint_text">Swipe from right to left\nto open the advanced menu -\nsort, group, filters, charts and more ...</string>
     <string name="multy_sorting">Sort by multiple fields</string>
     <string name="new_button">new</string>
     <string name="free_version_entry_page_limit">In the free version you can only create two pages. Upgrade to the PRO version to disable this limitation.</string>
@@ -1236,7 +1236,7 @@
 	<string name="library_access_can_edit">Can edit</string>
 	<string name="owner">Owner</string>
 	<string name="find_library_by_url_title">Open by URL</string>
-	<string name="find_library_by_url_hint">https://libs.mobi/address</string>
+	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Library not found</string>
 	<string name="upload_to_cloud_offer_title">{cloud ready...}</string>
 	<string name="upload_to_cloud_offer_text">&#8226; Teamwork\n&#8226; Sync across devices\n&#8226; Backup are always in the cloud</string>
@@ -1247,7 +1247,24 @@
     <string name="cant_upload_file_to_cloud">File(s) upload failed.</string>
     <string name="button_show">Show</string>
 	<string name="invalid_library_template_file_format">Invalid template file format</string>    
-	<string name="cant_add_yourself">You can\'t add yourself</string>    
-
+	<string name="cant_add_yourself">You can\'t add yourself</string>
+	<string name="remove_from_old_public">Prior to uploading the library to the cloud it will be unpublished if it was published by outdated methods.</string>
+	<string name="select_template_title">Select template</string>
+	<string name="empty_library_title">Empty library</string>
+	<string name="catalog_templates_title">Online catalog</string>
+	<string name="catalog_templates_hint">Over 3000 templates</string>
+	<string name="add_lib_from_google_drive_hint">Restore from Google Drive</string>
+	<string name="templates">Templates</string>
+	<string name="import_template_from_file_hint">Import template from file</string>
+	<string name="help_cloud">Cloud storage and Teamwork</string>
+	<string name="subscription_pro_bonus_text">Most tariff plans for cloud storage also include PRO-version as a bonus</string>
+	<string name="send_formatting_menu_item">Formatting...</string>
+	<string name="pro_for_cloud_storage_title">Subscription</string>
+	<string name="default_file_manager_pref_title">File manager</string>
+	<string name="default_file_manager_built_in">built-in</string>	
+	<string name="clear_search_history">Clear Search History</string>
+	<string name="clear_search_history_hint">Remove all the searches you have performed</string>
+	<string name="success_clear_search_history">Your search history was cleared</string>	
+	<string name="clear_search_history_quest">Are you sure you want to clear search history?</string>
 		        	
 </resources>
