@@ -755,7 +755,8 @@
     <string name="group_by_subtitle">по %s</string>
     <string name="sort_asc">ASC</string>
     <string name="sort_desc">DESC</string>
-    <string name="sliding_hint_text">Сортировка, группировка, фильтры и многое другое</string>
+    <string name="sliding_hint_text">Проведите справа налево, чтобы
+\nоткрыть расширенное меню:\nсортировка, группировка, фильтры и другое…</string>
     <string name="multy_sorting">Сортировка по нескольким полям</string>
     <string name="new_button">создать</string>
     <string name="free_version_entry_page_limit">В бесплатной версии вы можете создать только две страницы. Обновитесь до PRO версии для снятия этого ограничения.</string>
@@ -1262,4 +1263,23 @@
     <string name="need_internet_for_charts">Google Charts требует активное подключение к Интернет</string>
     <string name="sync_with_google_drive_dont_support">Ваш Android не поддерживает синхронизацию с Google Drive</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
-    </resources>
+    <string name="remove_from_old_public">До загрузки библиотеки в облако она будет удалена из опубликованных (если публикация выполнялась старым методом).</string>
+	<string name="select_template_title">Выберите шаблон</string>
+	<string name="empty_library_title">Пустая библиотека</string>
+	<string name="catalog_templates_title">Онлайн каталог</string>
+	<string name="catalog_templates_hint">Более 3000 шаблонов</string>
+	<string name="add_lib_from_google_drive_hint">Восстановить из Google Drive</string>
+	<string name="templates">Шаблоны</string>
+	<string name="import_template_from_file_hint">Импорт шаблона из файла</string>
+	<string name="help_cloud">Облачное хранилище и командная работа</string>
+	<string name="subscription_pro_bonus_text">Большинство тарифных планов на облачное хранилище включают PRO-версию как бонус</string>
+	<string name="send_formatting_menu_item">Форматирование...</string>
+	<string name="pro_for_cloud_storage_title">Подписка</string>
+	<string name="default_file_manager_pref_title">Файл менеджер</string>
+	<string name="default_file_manager_built_in">встроенный</string>	
+	<string name="clear_search_history">Очистить историю поиска</string>
+	<string name="clear_search_history_hint">Убрать все выполненные поисковые запросы</string>
+	<string name="success_clear_search_history">История поиска очищена</string>	
+	<string name="clear_search_history_quest">Вы уверены, что хотите очистить историю поиска?</string>
+		        	
+</resources>
