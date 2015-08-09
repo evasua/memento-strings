@@ -57,7 +57,7 @@
     <string name="library_item_trush_message_text">Voulez-vous vraiment envoyer l\'enregistrement \"%s\" à la Corbeille ?</string>
     <string name="library_items_count">Enregistrements : %s</string>
     <string name="library_menu_select_sort">Tri</string>
-    <string name="library_menu_select_group">Grouper</string>
+    <string name="library_menu_select_group">Regroupement</string>
     <string name="select_sort_template">Sélectionner le champ de tri</string>
     <string name="select_group_template">Sélectionner le champ de regroupement</string>
     <string name="sort_by_date">Date de création</string>
@@ -707,7 +707,7 @@
     <string name="accept_button">J\'accepte</string>
     <string name="sort_asc">ASC</string>
     <string name="sort_desc">DESC</string>
-    <string name="sliding_hint_text">Glisser de droite à gauche↵\npour accéder aux menus avancés -↵\nTri, Groupement, Filtres et plus...</string>
+    <string name="sliding_hint_text">Glisser de droite à gauche↵\npour accéder aux menus avancés -↵\ntri, regroupement, filtres et plus...</string>
     <string name="multy_sorting">Trier sur champs multiples</string>
     <string name="new_button">nouveau</string>
     <string name="free_version_entry_page_limit">Dans la version gratuite vous ne pouvez créer que deux pages. Passer à la version PRO pour supprimer cette limitation.</string>
