@@ -707,7 +707,7 @@
     <string name="accept_button">J\'accepte</string>
     <string name="sort_asc">ASC</string>
     <string name="sort_desc">DESC</string>
-    <string name="sliding_hint_text">TRI, GROUPE, FILTRES et autres</string>
+    <string name="sliding_hint_text">Glisser de droite à gauche↵\npour accéder aux menus avancés -↵\nTri, Groupement, Filtres et plus...</string>
     <string name="multy_sorting">Trier sur champs multiples</string>
     <string name="new_button">nouveau</string>
     <string name="free_version_entry_page_limit">Dans la version gratuite vous ne pouvez créer que deux pages. Passer à la version PRO pour supprimer cette limitation.</string>
@@ -1197,7 +1197,7 @@
 	<string name="library_access_can_edit">Edition autorisée</string>
 	<string name="owner">Propriétaire</string>
 	<string name="find_library_by_url_title">Ouvrir par URL</string>
-	<string name="find_library_by_url_hint">https://libs.mobi/address</string>
+	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Base non trouvée</string>
 	<string name="upload_to_cloud_offer_title">{nuage prêt...}</string>
 	<string name="upload_to_cloud_offer_text">• Travail en équipe↵\n• Synchronisation entre matériels↵\n• Sauvegarde toujours présente dans le nuage</string>
@@ -1209,5 +1209,20 @@
 	<string name="invalid_library_template_file_format">Format de fichier modèle invalide</string>    
 	<string name="cant_add_yourself">Vous ne pouvez pas vous ajouter</string>    
 
+		        	
+<string name="select_template_title">Choisir un modèle</string>
+	<string name="empty_library_title">Effacer le contenu de la base</string>
+	<string name="templates">Modèles</string>
+	<string name="import_template_from_file_hint">Importer un modèle depuis un fichier</string>
+	<string name="help_cloud">Stockage en nuage et Collaboration</string>
+	<string name="subscription_pro_bonus_text">La plupart des tarifs pour le nuage sont inclus dan la version PRO en bonus</string>
+	<string name="send_formatting_menu_item">Formatage...</string>
+	<string name="pro_for_cloud_storage_title">Souscription</string>
+	<string name="default_file_manager_pref_title">Gestionnaire de fichiers</string>
+	<string name="default_file_manager_built_in">built-in</string>	
+	<string name="clear_search_history">Effacer l\'historique de recherche</string>
+	<string name="clear_search_history_hint">Supprimer toutes les recherches réalisées</string>
+	<string name="success_clear_search_history">Votre historique de recherche a été effacé</string>	
+	<string name="clear_search_history_quest">Etes-vous sûr de vouloir effacer votre historique de recherche ?</string>
 		        	
 </resources>
