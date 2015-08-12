@@ -217,15 +217,15 @@
     <string name="bind_to_gdocs_title">Линк към Google Sheets</string>
     <string name="unbind_message_title">Прекратяване на връзката с Google Sheets</string>
     <string name="unbind_message_text">Наистина ли искате да прекратите връзката между библиотеката \"%s\" с Google Sheets?</string>
-    <string name="bind_to_gdocs_message">Линк на библиотеката към Google Spreadsheets.</string>
-    <string name="bind_to_gdocs_success">Библиотеката вече е свързана към Google Spreadsheets.</string>
-    <string name="sync_with_gdocs_success">Библиотеката е синхронизирана с Google Spreadsheets</string>
+    <string name="bind_to_gdocs_message">Линк на библиотеката към Google Sheets.</string>
+    <string name="bind_to_gdocs_success">Библиотеката вече е свързана към Google Sheets.</string>
+    <string name="sync_with_gdocs_success">Библиотеката е синхронизирана с Google Sheets</string>
     <string name="sync_with_gdocs_success_2">"Библиотеката  \"%s\" е синхронизирана с Google"</string>
     <string name="sync_with_gdocs_title">Синхронизация с Google Sheets</string>
-    <string name="sync_with_gdocs_message">Синхронизиране на библиотеката с Google Spreadsheets.</string>
-    <string name="sync_with_gdocs_message_2">Синхронизиране на \"%s\" с Google Spreadsheets.</string>
+    <string name="sync_with_gdocs_message">Синхронизиране на библиотеката с Google Sheets.</string>
+    <string name="sync_with_gdocs_message_2">Синхронизиране на \"%s\" с Google Sheets.</string>
     <string name="sync_with_gdocs">Синхронизиране с Google Sheets</string>
-    <string name="google_docs_task_step_auth">Удостоверява се с услугата Spreadsheets</string>
+    <string name="google_docs_task_step_auth">Удостоверява се с услугата Sheets</string>
     <string name="google_docs_task_step_get_rows">Изтегляне на редове</string>
     <string formatted="false" name="google_docs_task_step_process_row">Обработване на редове. %s от %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Добавяне на редове. %s от %s</string>
@@ -510,7 +510,7 @@
     <string name="auto_show_soft_keyboard">Показване на софт клавиатура</string>
     <string name="auto_show_soft_keyboard_summary">При отваряне на формата - отваря се софт клавиатура</string>
     <string name="flex_type_file">Линк към файла</string>
-    <string name="file_size">Размер на файла: %sb</string>
+    <string name="file_size">Размер на файла: %s</string>
     <string name="file_not_found">Файлът не е намерен</string>
     <string name="select_app">Изберете приложение</string>
     <string name="forum">Форум</string>
@@ -523,11 +523,11 @@
     <string name="loading_google_document_list">Зареждане ...</string>
     <string name="google_doc_list_title">Google документи</string>
     <string name="updated_document_time">Обновено: %s</string>
-    <string name="move_from_google_docs">Прехвърляне на данни от Google таблици в Memento</string>
+    <string name="move_from_google_docs">Прехвърляне на данни от Google Sheets в Memento</string>
     <string name="move_from_google_docs_attention">Всички налични записи от библиотеката ще бъдат изтрити</string>
-    <string name="move_from_memento">Прехвърляне на данни от Memento в Google таблици</string>
-    <string name="move_from_memento_attention">Всички налични данни в Google таблици ще бъдат премахнати</string>
-    <string name="find_in_spreadsheet_column_title">Списък на полета в Memento и Google таблици</string>
+    <string name="move_from_memento">Прехвърляне на данни от Memento в Google Sheets</string>
+    <string name="move_from_memento_attention">Всички налични данни в Google Sheets ще бъдат премахнати</string>
+    <string name="find_in_spreadsheet_column_title">Списък на полета в Memento и Google Sheets</string>
     <string name="google_doc_exists_link_option">Параметри на свързване</string>
     <string name="get_google_docs_columns_message">Зареждане на списък на колони за избраната електронна таблица в Google ...</string>
     <string name="field_not_found">Не е намерен</string>
@@ -535,8 +535,8 @@
     <string name="link_button">Линк</string>
     <string name="prepare_linking_library">Подготовка за свързване ...</string>
     <string name="error_prepare_linking">Възникна грешка при подготовката за свързване: %s</string>
-    <string name="have_library_items_ask_title">Свързване с Google таблици</string>
-    <string name="have_library_items_ask_message">Библиотеката съдържа записи, които ще бъдат премахнати по време на свързване към Google таблици. Да се извърши ли свързване на библиотеката?</string>
+    <string name="have_library_items_ask_title">Свързване с Google Sheets</string>
+    <string name="have_library_items_ask_message">Библиотеката съдържа записи, които ще бъдат премахнати по време на свързване към Google Sheets. Да се извърши ли свързване на библиотеката?</string>
     <string name="autofill_source_option_title">Източник на данни</string>
     <string name="amazon_source_option_title">Amazon</string>
     <string name="auto_backup_option_title">Автоархивиране</string>
@@ -740,7 +740,7 @@
     <string name="group_by_subtitle">от %s</string>
     <string name="sort_asc">ASC</string>
     <string name="sort_desc">DESC</string>
-    <string name="sliding_hint_text">СОРТИРАНЕ, ГРУПИРАНЕ, ФИЛТРИ и други</string>
+    <string name="sliding_hint_text">Плъзнете от дясно на ляво↵\nза да отворите разширеното меню -↵\nсортиране, групиране, филтри, диаграми и още ...</string>
     <string name="multy_sorting">Сортиране по няколко полета</string>
     <string name="new_button">нов</string>
     <string name="free_version_entry_page_limit">В безплатната версия можете да създадете само две страници. Направете ъпгрейд до PRO версия, за да премахнете това ограничение.</string>
@@ -1077,4 +1077,129 @@
 	<string name="welcome_text_title">Добре дошли в Memento Database</string>
 	<string name="welcome_text_description">Библиотеката е мястото, където записите ви ще се съхраняват.↵\nМожете да започнете да се запознавате с програмата чрез създаване на библиотека въз основа на един от предвидените шаблони.</string>	
 	
-</resources>
+<string name="memento_cloud">Облак</string>
+	<string name="start_remove_librarary_from_cloud">Изтриване на библиотека ...</string>
+	<string name="success_remove_librarary_from_cloud">Библиотеката е изтрита успешно от облака</string>
+	<string name="download_library">Изтегляне на библиотека</string>
+	<string name="download_library_hint">Създаване на локално копие</string>			
+	<string name="pull_entries_from_cloud_message">Изтегляне на записи ...</string>
+	<string name="pull_entries_from_cloud_message2" formatted="false">%s от %s обработени записи</string>
+	<string name="success_pull_library_from_cloud">Записи са успешно свалени.↵\nБиблиотеката ще се синхронизира автоматично.</string>
+	<string name="cloud_conflict_fields_title">Конфликти</string>
+	<string name="cloud_conflict_fix_button_title">Фиксиране</string>
+    <string name="button_select">Избор</string>
+    <string name="cloud">Облак</string>
+    <string name="library_not_in_cloud">Не е в облака</string>
+    <string name="synced">Синхронизирано %s</string>
+    <string name="cloud_synced_progress">Синхронизация ...</string>
+    <string name="cloud_offline">Офлайн</string>
+    <string name="cloud_last_sync">Последно синхронизиране</string>
+    <string name="entries">Записи</string>
+    <plurals name="conflict_count">
+	<item quantity="one">%d конфликт възникна по време на синхронизацията</item>
+	<item quantity="other">%d конфликта възникнаха по време на синхронизацията</item>
+</plurals>
+    <string name="cloud_created">Създаден</string>
+    <string name="cloud_modified">Променен</string>
+    <string name="cloud_size">Размер</string>
+    <string name="cloud_files_count">Файлове</string>
+    <string name="cloud_who_has_access">Кой има достъп</string>
+    <string name="cloud_server_unavaliable">Memento Cloud Server е недостъпен, проверете интернет връзката на вашето устройство</string>
+    <string name="delete_from_cloud">Изтриване от облак</string>
+    <string name="delete_from_cloud_message_question">Наистина ли искате да изтриете библиотеката от облака?</string>
+        
+    <string name="byteShort">B</string>    
+    <string name="kilobyteShort">KB</string>
+    <string name="megabyteShort">MB</string>
+    <string name="gigabyteShort">GB</string>
+    <string name="button_refresh">Обновяване</string>
+    <string name="cloud_storage_space_text" formatted="false">%s (%s) от %s се използват</string>   
+    <string name="start_download_file_from_cloud">Файлът %s ще бъде изтеглен</string>
+    <string name="upload_file_to_cloud">Качване на файл ...</string>    
+    <string name="upload_files_to_cloud">Качване на файлове</string>
+    <string name="cloud_upload_error_title">Синхронизацията не е изпълнена</string>
+    <string name="upload_big_file_error" formatted="false">Записът %s съдържа твърде голям файл %s (%s).↵\nМаксималния размер на файла е %s.</string>
+    <string name="prepare_library_for_cloud">Библиотеката е в процес на обработка...</string>
+    <string name="download_files_from_cloud">Изтегляне на файлове от облака...</string>
+    <string name="cant_download_item_files_for_copy">Свалянето на файлове за създаване на копия се провалили.</string> 
+    <string name="library_cloud_model_changed_message">Структурата на библиотеката е била изменена в облака. Актуализиране на структурата за по-нататъшна синхронизация.</string>
+    <string name="button_update">Обновяване</string>
+    <string name="add_people">Добавяне на ползватели</string>
+    <string name="read_permission">Четене</string>      
+    <string name="write_permission">Изменение</string>
+    <string name="create_permission">Създаване</string>
+    <string name="delete_permission">Изтриване</string>
+    
+    <string name="allow_permission">Разрешаване</string>
+	<string name="deny_permission">Отхвърляне</string>
+	<string name="only_owner_permission">Само своите</string>
+	<string name="user_not_found">Такъв потребител не е намерен</string>
+	<string name="edit_permission">Настройки за достъп</string>	
+	<string name="push_entry_error_text" formatted="false">Записът не е съхранен в облака.↵\nИме: %s↵\nГрешка: %s</string>
+	<string name="push_error_forbidden">Достъпът отказан</string>
+	<string name="button_ignore">Игнориране</string>
+	<string name="button_try_again">Опитай отново</string>	
+	<string name="cloud_library_forbidden">Вие нямате разрешение за достъп до тази библиотека</string>
+	<string name="shared_with_me">Достъпно за мен</string>
+	<string name="entry_author">Автор</string>
+	<string name="info_menu_item">Информация</string>   
+	<string name="need_upload_to_cloud_slave_libraries">Моля, качете подчинените библиотеки в облака.</string>
+	<string name="start_download_slave_library_model">Качване на подчинена библиотека %s</string>
+	<string name="open_access_for_slave_libraries">Осигуряване на достъп за четене на подчинените библиотеки</string>
+	<string name="cloud_storage_full_text">Няма достатъчно място в облака.↵\nМожете да преминете към тарифен план, осигурявайки повече пространство за съхранение.</string>
+	<string name="cloud_storage_full_text2" formatted="false">Няма достатъчно място в облака.↵\n%s са необходими, %s са достъпни.↵\nМожете да преминете към тарифен план, осигурявайки повече пространство за съхранение.</string>
+	<string name="alien_cloud_storage_full_text">Собственикът на библиотека не разполага с достатъчно пространство за съхранение.</string>	
+	<string name="button_tarifs">Тарифи</string>
+	<string name="cloud_storage_plans">Планове</string>
+	<string name="price_free">БЕЗПЛАТНО</string>
+	<string name="price_per_month">%s/месец</string>
+	<string name="unlimited_libraries">Неограничено количество библиотеки</string>	
+	<string name="adv_free">Без реклами</string>
+	<string name="subscription_activation">Активация абонамент ...</string>
+	<string name="subscription_activation_error">Грешка при активиране: %s</string>
+	<string name="subscription_reactivation_error">Неуспешно извличане на активните абонаменти: %s</string>
+	<string name="google_play_unavaliable">Google Play не е достъпен:(</string>
+	<string name="return_to_free_plan_message">Можете да се върнете към безплатния план като се отпишете от Google Play</string>
+	<string name="subscription_already_activation_for_user">Абонамента не може да бъде активиран, тъй като беше закупен за потребителя %s.</string>
+	<string name="library_cloud_count_limit">Вашият тарифен план позволява качване до %s библиотеки в облака.</string>
+	<string name="restore_cloud_library_from_recycle">Локалното копие на библиотеката е изтрито. Възстановяване?</string>
+	<string name="cloud_file_while_not_upload">Файлът все още не е в облака</string>
+	<string name="upload_ecrypted_libraries_dont_supported">Качването в облака на зашифровани библиотеки временно не се поддържа.</string>
+	<string name="button_signin">Влизане</string>
+	<string name="cloud_library_not_found">Библиотеката не е намерена в облака. Може би е изтрита.↵\nКонвертиране на библиотеката в локална?</string>
+	<string name="cloud_library_already_uploaded">Тази библиотека вече е качена в облака.</string>
+	<string name="library_alias_menu_item">Псевдоним</string>
+	<string name="library_public_access">Публичен достъп</string>
+	<string name="library_public_access_disabled">Затваряне</string>
+	<string name="library_access_read_only">Само за четене</string>
+	<string name="library_access_can_edit">Може да се редактира</string>
+	<string name="owner">Собственик</string>
+	<string name="find_library_by_url_title">Отваряне от URL</string>
+	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
+	<string name="library_not_found_by_uri">Библиотеката не е намерена</string>
+	<string name="upload_to_cloud_offer_title">{облакът е готов...}</string>
+	<string name="upload_to_cloud_offer_text">• Работа в екип↵\n• Синхронизация между устройства↵\n• Резервно копие винаги в облака</string>
+	<string name="button_no_thanks">Не, благодаря</string>
+	<string name="button_upload">Качване</string>
+	
+	<string name="cant_upload_file_to_cloud">Качването на файлове в облака е неуспешно.</string>
+    <string name="button_show">Показване</string>
+	<string name="invalid_library_template_file_format">Невалиден формат на файла за шаблон</string>    
+	<string name="cant_add_yourself">Не можете да добавите себе си</string>
+	<string name="remove_from_old_public">Преди качването на библиотеката в облака, тя ще бъде изтрита от публикуваните (ако публикуването се извършва по старите методи).</string>
+	<string name="select_template_title">Избор на шаблон</string>
+	<string name="empty_library_title">Празна библиотека</string>
+	<string name="catalog_templates_title">Онлайн каталог</string>
+	<string name="catalog_templates_hint">Повече от 3000 шаблона</string>
+	<string name="add_lib_from_google_drive_hint">Възстановяване от Google Drive</string>
+	<string name="templates">Шаблони</string>
+	<string name="import_template_from_file_hint">Внасяне на шаблон от файл</string>
+	<string name="help_cloud">Съхранение в облак и работа в екип</string>
+	<string name="subscription_pro_bonus_text">Повечето тарифни планове за съхранение в облак, включват също PRO-версия като бонус</string>
+	<string name="send_formatting_menu_item">Форматиране...</string>
+	<string name="pro_for_cloud_storage_title">Абонамент</string>
+	<string name="default_file_manager_pref_title">Файлов мениджър</string>
+	<string name="default_file_manager_built_in">вграден</string>	
+	<string name="clear_search_history">Изчистване историята на търсенето</string>
+	<string name="clear_search_history_hint">Премахване на всички търсения, които сте изпълнявали</string>
+	</resources>
