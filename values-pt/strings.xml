@@ -747,4 +747,5 @@
     <string name="terrain">Terreno</string>
     <string name="open_map_menu_item">Mapa</string>
     <string name="google_drive">Google Drive</string>
+    <string name="none_files_cloud_storage">Nenhum</string>
     </resources>
