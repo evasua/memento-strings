@@ -26,7 +26,7 @@
     <string name="template_category_music">Músicas e Filmes</string>
     <string name="template_category_research">Investigação e Notas</string>
     <string name="template_category_sports">Desportos</string>
-    <string name="template_category_travel">Viajens</string>
+    <string name="template_category_travel">Viagens</string>
     <string name="template_category_other">Outros</string>    
 <string name="calc_result_types_date">Resultado Data</string>
     <string name="calc_result_types_datetime">Resultado (Data/Hora)</string>
@@ -52,4 +52,18 @@
     <string name="db_location_pref_internal">Dispositivo interno de armazenamento</string>
     <string name="number_filter_types_greater">Maior que</string>
     <string name="number_filter_types_less">Menor que</string>
-    </resources>
+    <string name="flex_edit_option_values_list">Lista de entradas</string>
+    <string name="flex_edit_option_values_card">Cartão de entrada</string>
+    <string name="flex_edit_option_values_table">Entradas da tabela</string>
+    <string name="date_format_list_current_locale">Local atual</string>
+    <string name="date_format_list_date_pref">Data de preferência do utilizador</string>
+    <string name="show_soft_keyboard_create">Quando a entrada foi criada</string>
+    <string name="chart_continuous_axis">Eixo contínuo</string>
+    <string name="slice_text_none">Nenhum</string>
+    <string name="chart_discrete_axis">Eixo diferente</string>
+    <string name="edit_library_tabs_facade">VISTA</string>
+    <string name="show_soft_keyboard_no">Não mostrar</string>
+    <string name="auto_backup_time_always">Todas as vezes</string>
+    <string name="auto_backup_time_hour">Não mais do que uma vez por hora</string>
+    <string name="auto_backup_time_day">Não mais do que uma vez por dia</string>
+</resources>
