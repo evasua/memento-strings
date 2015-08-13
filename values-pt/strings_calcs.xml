@@ -37,4 +37,11 @@
 	 <string name="function_args_indexof"> <b>Parâmetros:</b> O primeiro argumento é a cadeia de origem, i segundo argumento é a subcadeia e o terceiro argumento é o index..<br/> <b>Retorna:</b> Retorna O index de onde a subcadeia é encontrada. Se a subcadeida não é encontrada, retorna -1. </string>	 	
 	 
 	 
-	 </resources>
+	 <string name="function_args_replace"> <b> Parâmetros: </b> O primeiro argumento é a string de origem para substituir os atributos. O segundo argumento é o antigo atributo para substituir a string de origem. O terceiro argumento é o novo atributo para substituir o antigo atributo com a string de origem <br/> <b> Retornos: </b> Retorna uma string com todas as ocorrências do antigo atributo substituído com o novo atributo. </string>	
+	 
+	 <string name="function_args_startswith"> <b> Parâmetros: </b> O primeiro argumento é a string para testar, o segundo argumento é o prefixo e o terceiro argumento é o índice para iniciar. <br/> <b> Retorno: </b> Retorna 1.0 (verdadeiro) se a string iniciar com o prefixo, caso contrário ele retorna 0.0 (falso). </string>	 
+	 
+	 <string name="function_args_substring"> <b>Parâmetros:</b> O primeiro argumento é a string de origem, o segundo argumento é o índice de início e o terceiro argumento é o índice final.<br/> <b>Returnos:</b> Retorna o uma substring especifica. </string>	 	 	 
+	 	 	
+	 	 
+</resources>
