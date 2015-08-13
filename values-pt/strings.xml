@@ -218,13 +218,13 @@
     <string name="unbind_message_text">Você quer realmente dexvincular a biblioteca \"%s\" do Google Sheets ?</string>
     <string name="bind_to_gdocs_message">Vinculando a biblioteca com Google Sheets.</string>
     <string name="bind_to_gdocs_success">A biblioteca foi vinculada com Planilha do Google Sheets.</string>
-    <string name="sync_with_gdocs_success">A biblioteca foi sincronizada com a Planilha do Google Sheets</string>
+    <string name="sync_with_gdocs_success">A biblioteca foi sincronizada com a folha de cálculo do Google Sheets</string>
     <string name="sync_with_gdocs_success_2">A biblioteca \"%s\" foi sincronizada com a Planilha do Google Sheets</string>
     <string name="sync_with_gdocs_title">Sincronização com Google Sheets</string>
     <string name="sync_with_gdocs_message">Sincronizando a biblioteca com Planilha do Google Sheets.</string>
-    <string name="sync_with_gdocs_message_2">Sincronizando a biblioteca \"%s\" com a Planilha do Google Sheets.</string>
+    <string name="sync_with_gdocs_message_2">Sincronizando a biblioteca \"%s\" com a folha de cálculo do Google Sheets.</string>
     <string name="sync_with_gdocs">Sincronizar com Google Sheets</string>
-    <string name="google_docs_task_step_auth">Autenticando ao serviço de Planilhas do Google Sheets</string>
+    <string name="google_docs_task_step_auth">Autenticando ao serviço do Google Sheets</string>
     <string name="google_docs_task_step_get_rows">Recuperando lista</string>
     <string formatted="false" name="google_docs_task_step_process_row">Processando linhas. %s de %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Adicionando linhas. %s de %s</string>
@@ -255,7 +255,7 @@
     <string name="public_to_picasa_create_album">Criando um álbum do Picasa para as bibliotecas publicadas</string>
     <string name="public_to_picasa_success">As images foram transferidas para o Picasa</string>
     <string name="picasa_task_step_auth">Autenticação ao serviço Picasa</string>
-    <string formatted="false" name="picasa_send_image_step">Transferindo biblioteca de imagens para o Picasa. %s из %s</string>
+    <string formatted="false" name="picasa_send_image_step">Transferindo biblioteca de imagens para o Picasa. %s of %s</string>
     <string name="public_library">Publicar a biblioteca</string>
     <string name="update_public_library">Atualizar a publicação</string>
     <string name="memento_register_account_title">Criando uma conta\non no servidor Memento</string>
@@ -526,7 +526,7 @@
     <string name="auto_show_soft_keyboard">Mostrar o teclado virtual</string>
     <string name="auto_show_soft_keyboard_summary">Quando o formulário está aberto - abrir o teclado virtual</string>
     <string name="flex_type_file">Ligação para arquivo</string>
-    <string name="file_size">Tamanho do ficheiro: %sb</string>
+    <string name="file_size">Tamanho do ficheiro: %s</string>
     <string name="file_not_found">Ficheiro não encontrado</string>
     <string name="select_app">Selecione uma aplicação</string>
     <string name="forum">Fórum</string>
@@ -541,9 +541,9 @@
     <string name="updated_document_time">Atualizado: %s</string>
     <string name="move_from_google_docs">Transferência de dados de folha de cálculo do Google para o Memento</string>
     <string name="move_from_google_docs_attention">Todas os registos de bibliotecas disponíveis serão eliminados</string>
-    <string name="move_from_memento">Transferir dados do Google Spreadsheet para o Memento</string>
-    <string name="move_from_memento_attention">Todos os dados disponíveis no Google Spreadsheet serão removidos</string>
-    <string name="find_in_spreadsheet_column_title">Lista de campos no Memento e folha de cálculo da Google</string>
+    <string name="move_from_memento">Transferir dados do Google Sheet para o Memento</string>
+    <string name="move_from_memento_attention">Todos os dados disponíveis no Google Sheet serão removidos</string>
+    <string name="find_in_spreadsheet_column_title">Lista de campos no Memento e folha de cálculo do Google</string>
     <string name="google_doc_exists_link_option">Parâmetros da ligação</string>
     <string name="get_google_docs_columns_message">Carregando a lista de colunas para a folha de cálculo Google selecionada ...</string>
     <string name="field_not_found">Não encontrado</string>
@@ -700,4 +700,51 @@
 	<string name="button_signin">Entrar</string>
 	<string name="library_alias_menu_item">Aliás</string>
 	<string name="cloud_file_while_not_upload">O arquivo ainda não está na nuvem</string>
-	</resources>
+	<string name="library_dont_have_fields_for_depends">Biblioteca que não contêm os campos apropriados para a construção de dependência deste campo</string>
+    <string name="library_fields">Campos de entrada de Biblioteca</string>
+    <string name="boolean_field_check_value">Verificado</string>
+    <string name="boolean_field_uncheck_value">Não verificado</string>
+    <string name="visible_field_depend_description">O campo vai estar neste estado se o %s campo aceita os valores</string>
+    <string name="depend_from">Dependência de %s</string>
+    <string name="delete_depend_dialog_message">Você quer mesmo apagar a dependência de campo \"%s\" ?</string>
+    <string name="sl_content_depend_type">O conteúdo deste campo</string>
+    <string name="sl_content_depend_pretitle">O valor do campo %s</string>
+    <string name="sl_content_depend_description">O valor do campo estará disponível para a selecção se o valor do campo for %s</string>
+    <string name="backup_images_checkbox">Criação de cópias de segurança de imagens associadas, registos de áudio e outros ficheiros</string>
+    <string name="backup_files_progress_title">Ficheiro de cópias de segurança</string>
+    <string name="backup_files_error">Erros durante a cópia de segurança de ficheiros: %s</string>
+    <string name="restore_files_message">A cópia de segurança contém um arquivo com ficheiros associados ao banco de dados; você quer restaurá-los?</string>
+    <string name="restore_files_progress_title">Restaurando ficheiros</string>
+    <string name="restore_files_success2">Todos os arquivos associados ao banco de dados foram descompactados</string>
+    <string formatted="false" name="restore_files_error_message">Falha ao restaurar os ficheiros do arquivo: %s</string>
+    <string name="restore_files_error">Falha ao restaurar ficheiros</string>
+    <string name="select_google_account">Selecione uma conta Google</string>
+    <string name="send_files_to_cloud_error">Erro ao carregar ficheiros para a nuvem:</string>
+    <string formatted="false" name="upload_file_to_cloud_message">Carregando %s (%d/%d)</string>
+    <string name="prepare_google_sync">Ligando à sua conta ...</string>
+    <string name="no_google_accounts">Não existe uma conta Google disponível. Por favor, primeiro adicione uma conta ao seu dispositivo.</string>
+    <string name="google_account_not_selected">Conta não selecionada</string>
+    <string name="bakup_files_need_pro_title">Requer versão PRO</string>
+    <string name="bakup_files_need_pro_message">Criação de ficheiros de cópia de segurança só está disponível na versão PRO do programa</string>
+    <string name="boolen_filter_checkbox">Valor do campo</string>
+    <string name="start_reindex_title">Construir o índice</string>
+    <string name="start_reindex_summary">Reconstruindo o índice de pesquisa</string>
+    <string name="search_pref_category">Pesquisar</string>
+    <string name="reindex_complete_message">A re-indexação está completa</string>
+    <string name="files_backup_not_found_files">Não se encontraram ficheiros:</string>
+    <string name="files_storage_settings_screen">Armazenamento de ficheiros</string>
+    <string name="files_storage_settings_screen_summary">Colocando fotos e outros ficheiros</string>
+    <string name="files_storage_settings_path_title">Pasta de armazenamento de ficheiros</string>
+    <string name="files_storage_settings_dublicate_title">Copiar para o armazenamento</string>
+    <string name="files_storage_settings_dublicate_summary">Os ficheiros anexados aos registos serão copiados para a pasta de armazenamento</string>
+    <string name="files_storage_settings_remove_original_title">Eliminar originais</string>
+    <string name="files_storage_settings_remove_original_summary">Depois de copiar os arquivos para armazenamento, eliminar os originais</string>
+    <string name="dublicate_file_error">"Não é possível mover um arquivo no armazenamento: "</string>
+    <string name="select_map_type">Tipo de mapa</string>
+    <string name="normal">Normal</string>
+    <string name="hybrid">Híbrido</string>
+    <string name="satellite">Satélite</string>
+    <string name="terrain">Terreno</string>
+    <string name="open_map_menu_item">Mapa</string>
+    <string name="google_drive">Google Drive</string>
+    </resources>
