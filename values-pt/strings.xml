@@ -103,7 +103,7 @@
     <string name="flex_role_hint">Descrição de entrada</string>
     <string name="flex_role_status">Status de entrada</string>
     <string name="short_flex_role_name">nome</string>
-    <string name="short_flex_role_hint">desc</string>
+    <string name="short_flex_role_hint">descendente</string>
     <string name="short_flex_role_status">status</string>
     <string name="item_add_to_favorite">A entrada foi adicionada aos favoritos</string>
     <string name="item_remove_from_favorite">A entrda foi removida dos favoritos</string>
@@ -384,7 +384,7 @@
     <string name="help_edit_field">Editando campos de bibliotecas</string>
     <string name="help_library_items">Trabalhando com entrdas de bibliotecas</string>
     <string name="help_import_export">Imprtando e exportando arquivos CSV</string>
-    <string name="help_barcode">Digitalizar código de barras</string>
+    <string name="help_barcode">Leitor de códigos de barras</string>
     <string name="help_gdocs_sync">Sincronizar com Google Sheets</string>
     <string name="help_publish">Publicando bibliotecas</string>
     <string name="help_subscribe">Inscrições em bibliotecas</string>
@@ -397,7 +397,7 @@
     <string name="set_master_pass_dialog">Configurando uma senha principal</string>
     <string name="check_master_pass_text">Por favor entre com a senha principal\npara acesso às bilbiotecas</string>
     <string name="master_password_hint">Senha principal</string>
-    <string name="button_continue">Continue</string>
+    <string name="button_continue">Continuar</string>
     <string name="wrong_master_password">Senha inválida</string>
     <string name="button_home">Início</string>
     <string name="library_is_locked">O acesso às bibliotecas criptografadas está fechado</string>
@@ -892,8 +892,8 @@
     <string name="edit_library_main_color">Cor da biblioteca</string>
     <string name="color_swatch_description">Cor %d</string>
     <string name="color_swatch_description_selected">Cor %d selecionada</string>
-    <string name="button_palette">Paleta</string>
-    <string name="button_own_pictures">Galeria</string>
+    <string name="button_palette">Paleta...</string>
+    <string name="button_own_pictures">Galeria...</string>
     <string name="icon_pack_title_flat">Plano</string>
     <string name="icon_pack_title_circle">Círclulos</string>
     <string name="icon_pack_title_old">Antigo</string>
@@ -921,7 +921,7 @@
     <string name="add_page">Adicionar página</string>
     <string name="move_to_page">Mover página</string>
     <string name="empty_entry_page_text">Esta página está vazia.↵\nPode adicionar campos ou listas de registos aqui.</string>
-    <string name="empty_fields_list_text">Não existem campos nesta biblioteca</string>
+    <string name="empty_fields_list_text">Não existem campos nesta biblioteca.</string>
     <string name="empty_aggregation_list_text">Esta biblioteca não contém funções de agregação.</string>
     <string name="empty_chart_list_text">Esta biblioteca não contém gráficos.</string>
     <string name="empty_entry_list_text">A biblioteca ainda não tem entradas.</string>
@@ -1204,7 +1204,7 @@
 	<string name="price_per_month">%s/mês</string>
 	<string name="unlimited_libraries">Bibliotecas ilimitadas</string>	
 	<string name="adv_free">Sem publicidade</string>
-	<string name="subscription_activation">Ativar subscrição</string>
+	<string name="subscription_activation">Ativar subscrição ...</string>
 	<string name="subscription_activation_error">Erro na ativação: %s</string>
 	<string name="subscription_reactivation_error">Falha ao obter assinaturas ativas: %s</string>
 	<string name="google_play_unavaliable">Google Play não está disponível :(</string>
