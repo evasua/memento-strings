@@ -848,7 +848,7 @@
     <string name="size_of_line">Taille de la ligne</string>
     <string name="map_coord_source_network">Réseau</string>
     <string name="map_field_fast_option_hint">Emplacement déterminé avec faible précision</string>
-    <string name="auto_backup_when_close_app">A la fermeture de l\'appication</string>
+    <string name="auto_backup_when_close_app">A la fermeture de l\'application</string>
     <string name="auto_backup_when_edit_libs">Avant modification des bases</string>
     <string name="free_version_multi_field_limit">Dans la version gratuite, vous ne pouvez ajouter que deux éléments. Passez à la version PRO pour lever cette limitation.</string>
     <string name="scale">Décimales %d</string>
@@ -1157,7 +1157,7 @@
 	<string name="only_owner_permission">Uniquement le propriétaire</string>
 	<string name="user_not_found">Utilisateur non trouvé</string>
 	<string name="edit_permission">Paramètres de partage utilisateurs</string>	
-	<string name="push_entry_error_text" formatted="false">L\'enregistrement n\'est pas stocké dans le nuage.↵\nNom : %s↵\nErruer : %s</string>
+	<string name="push_entry_error_text" formatted="false">L\'enregistrement n\'est pas stocké dans le nuage.↵\nNom : %s↵\nErreur : %s</string>
 	<string name="push_error_forbidden">Accès réfusé</string>
 	<string name="button_ignore">Ignorer</string>
 	<string name="button_try_again">Réessayer</string>	
@@ -1199,7 +1199,7 @@
 	<string name="find_library_by_url_title">Ouvrir par URL</string>
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Base non trouvée</string>
-	<string name="upload_to_cloud_offer_title">{nuage prêt...}</string>
+	<string name="upload_to_cloud_offer_title">{Cloud ready...}</string>
 	<string name="upload_to_cloud_offer_text">• Travail en équipe↵\n• Synchronisation entre matériels↵\n• Sauvegarde toujours présente dans le nuage</string>
 	<string name="button_no_thanks">Non merci</string>
 	<string name="button_upload">Téléverser</string>
@@ -1215,7 +1215,7 @@
 	<string name="templates">Modèles</string>
 	<string name="import_template_from_file_hint">Importer un modèle depuis un fichier</string>
 	<string name="help_cloud">Stockage en nuage et Collaboration</string>
-	<string name="subscription_pro_bonus_text">La plupart des tarifs pour le nuage sont inclus dan la version PRO en bonus</string>
+	<string name="subscription_pro_bonus_text">La plupart des tarifs pour le nuage sont inclus dans la version PRO en bonus</string>
 	<string name="send_formatting_menu_item">Formatage...</string>
 	<string name="pro_for_cloud_storage_title">Souscription</string>
 	<string name="default_file_manager_pref_title">Gestionnaire de fichiers</string>
