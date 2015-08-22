@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Legg til en post</string>
@@ -221,7 +221,7 @@
     <string name="sync_with_gdocs_success">Biblioteket har blitt synkronisert med Google regneark</string>
     <string name="sync_with_gdocs_success_2">Biblioteket \"%s\" er synkronisert med Google regneark</string>
     <string name="sync_with_gdocs_title">Synkronisering med Google Sheets</string>
-    <string name="sync_with_gdocs_message">Synkroniser bibliotek med Google regneark.</string>
+    <string name="sync_with_gdocs_message">Synkroniserer biblioteket med Google regneark.</string>
     <string name="sync_with_gdocs_message_2">Synkroniser bibliotek \"%s\" med Google regneark.</string>
     <string name="sync_with_gdocs">Synk med Google Sheets</string>
     <string name="google_docs_task_step_auth">Autentiserer mot regnearktjenesten</string>
@@ -528,13 +528,13 @@
     <string name="file_not_found">Fil ikke funnet</string>
     <string name="select_app">Velg en APP</string>
     <string name="forum">Forum</string>
-    <string name="autoincrement">Autoincrement</string>
-    <string name="cant_protect">Den frie versjon tillater kun  å beskytte to bibliotek.\nOppgrader til PRO versjon uten denne begrensning.</string>
+    <string name="autoincrement">Autonummer</string>
+    <string name="cant_protect">Gratisversjonen tillater kun å beskytte to bibliotek.\nOppgrader til Proversjon uten denne begrensningen.</string>
     <!-- 1.8.4 -->
     <string name="flex_edit_option_title">Hvor du kan endre</string>
-    <string name="flex_edit_option_default">Form for endre post</string>
-    <string name="flex_edit_option_in_list">Listepost</string>
-    <string name="flex_edit_option_in_view">Kortpost</string>
+    <string name="flex_edit_option_default">Skjema for endring av post</string>
+    <string name="flex_edit_option_in_list">Liste</string>
+    <string name="flex_edit_option_in_view">Skjema</string>
     <!-- 1.9.0 -->
     <string name="loading_google_document_list">Laster...</string>
     <string name="google_doc_list_title">Google documents</string>
@@ -542,14 +542,14 @@
     <string name="move_from_google_docs">Overfør data fra Google regneark til Memento</string>
     <string name="move_from_google_docs_attention">Alle tilgjengelige bibliotekposter vil bli slettet</string>
     <string name="move_from_memento">Overfør data fra Memento til Google regneark</string>
-    <string name="move_from_memento_attention">Alle tilgjengelige data i Google regnearket vil bli slettet</string>
+    <string name="move_from_memento_attention">Alle tilgjengelige data i Google regneark vil bli slettet</string>
     <string name="find_in_spreadsheet_column_title">Liste av felter i Memento og Google regneark</string>
     <string name="google_doc_exists_link_option">Lenkeparametere</string>
-    <string name="get_google_docs_columns_message">Laster kollonnelisten for det valgte Google regneark ...</string>
+    <string name="get_google_docs_columns_message">Laster kolonnelisten for det valgt Google regneark ...</string>
     <string name="field_not_found">Ikke funnet</string>
     <string name="field_not_sync">Ikke sync</string>
     <string name="link_button">Link</string>
-    <string name="prepare_linking_library">Klargjør lenking ... </string>
+    <string name="prepare_linking_library">Klargjør lenking ...</string>
     <string name="error_prepare_linking">En feil oppsto under forberedelsen til lenking med: %s</string>
     <string name="have_library_items_ask_title">Lenking til et Google regneark</string>
     <string name="have_library_items_ask_message">Biblioteket inneholder postene som blir fjernet under lenkeoperasjonen. Vil du utføre operasjonen for å lenke biblioteket med Google regneark?</string>
@@ -557,7 +557,7 @@
     <string name="amazon_source_option_title">Amazon</string>
     <!-- 1.9.1 -->
     <string name="auto_backup_option_title">Auto backup</string>
-    <string name="last_auto_backup_time">Last auto-backup: %s</string>
+    <string name="last_auto_backup_time">Siste auto-backup: %s</string>
     <string name="select_file_for_restore_db">Velg backupfil</string>
     <string name="date_format_sample">Datoformat: %s</string>
     <string formatted="false" name="stats_title_in_list">%s ved %s</string>
@@ -569,7 +569,7 @@
     <string name="align_right">høyre</string>
     <string name="button_add_stat_item">Legg til en funsjon</string>
     <string name="stats_edit_title_hint">Prefikset resultat</string>
-    <string name="stat_item_align_prompt">Justering resultat</string>
+    <string name="stat_item_align_prompt">Sidejustering resultat</string>
     <string name="stat_item_line_prompt">Linjeplasseringav resultat.</string>
     <string name="create_stat_item_title">Lage en funsjon</string>
     <string name="select_stat_function_title">Velg en funsjon</string>
@@ -622,7 +622,7 @@
     <string name="add_product_manually">Manuelt</string>
     <string name="flextemplate_move_to_begin">Til toppen</string>
     <string name="flextemplate_move_to_end">Til slutten</string>
-    <string name="db_location_pref_title">Database plassering</string>
+    <string name="db_location_pref_title">Databaseplassering</string>
     <string name="moving_database_dialog_message">Flytter database ...</string>
     <string name="moving_database_error">Database kan ikke flyttes</string>
     <string name="my_templates">Mine maler</string>
@@ -646,4 +646,5 @@
     <string name="sd_storage_title">SD kort</string>
     <string name="all">Alle</string>        
     <string name="scale">Skala %d</string>    
-</resources>
+<string name="files_cloud_storage_pref">Synkroniser filer</string>
+    </resources>
