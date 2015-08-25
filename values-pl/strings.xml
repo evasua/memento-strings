@@ -2,7 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Dodaj wpis</string>
-    <string name="main_menu_add_lib">Dodaj bazę</string>
+    <string name="main_menu_add_lib">Dodaj Bazę</string>
     <string name="ghostData_lib_title">Nazwa bazy</string>
     <string name="custom_template_title">Użytkownika</string>
     <string name="button_create">Dodaj</string>
@@ -252,16 +252,14 @@ baz</string>
 \"%s\" od Google Sheets ?</string>
     <string name="bind_to_gdocs_message">Łączenie bazy z Arkuszem
 Google.</string>
-    <string name="bind_to_gdocs_success">Baza została połączona z Arkuszem
-Google. Zaczynam synchronizację rekordów.</string>
+    <string name="bind_to_gdocs_success">Baza została połączona z Arkuszem Google.</string>
     <string name="sync_with_gdocs_success">Zsynchronizowano bazę z Arkuszem Google</string>
     <string name="sync_with_gdocs_success_2">Zsynchronizowano bazę \"%s\" z Arkuszem Google</string>
     <string name="sync_with_gdocs_title">Synchronizacja z Google Sheets</string>
     <string name="sync_with_gdocs_message">Synchronizacja bazy z Arkuszem Google.</string>
     <string name="sync_with_gdocs_message_2">Synchronizacja bazy \"%s\" z Arkuszem Google.</string>
     <string name="sync_with_gdocs">Synch. z Google Sheets</string>
-    <string name="google_docs_task_step_auth">Uwierzytelnianie w serwisie
-Google</string>
+    <string name="google_docs_task_step_auth">Uwierzytelnianie w serwisie Arkuszy</string>
     <string name="google_docs_task_step_get_rows">Pobieranie zawartości
 bazy</string>
     <string formatted="false" name="google_docs_task_step_process_row">Przetwarzanie wierszy. %s
@@ -607,7 +605,7 @@ wysłania...</string>
     <string name="auto_show_soft_keyboard">Pokaż klawiaturę</string>
     <string name="auto_show_soft_keyboard_summary">Po otwarciu formularza - pokaż klawiaturę</string>
     <string name="flex_type_file">Łącze do pliku</string>
-    <string name="file_size">Rozmiar pliku: %sb</string>
+    <string name="file_size">Rozmiar pliku: %s</string>
     <string name="file_not_found">Nie znaleziono pliku</string>
     <string name="select_app">Wybierz aplikację</string>
     <string name="forum">Forum</string>
@@ -632,7 +630,7 @@ wysłania...</string>
     <string name="link_button">Łącze</string>
     <string name="prepare_linking_library">Przygotowanie łącza...</string>
     <string name="error_prepare_linking">Wystąpił błąd podczas przygotowania łącza: %s</string>
-    <string name="have_library_items_ask_title">Łączenie do Arkusza Google</string>
+    <string name="have_library_items_ask_title">Łączenie z Arkuszem Google</string>
     <string name="have_library_items_ask_message">Baza zawiera wpisy, które są usuwane podczas operacji łączenia.
 \nWykonać łączenie Bazy z Arkuszem Google?</string>
     <string name="autofill_source_option_title">Źródło danych</string>
@@ -839,7 +837,9 @@ wysłania...</string>
     <string name="group_by_subtitle">przez %s</string>
     <string name="sort_asc">ROSNĄCO</string>
     <string name="sort_desc">MALEJĄCO</string>
-    <string name="sliding_hint_text">SORTUJ, GRUPUJ, FILTRUJ i inne</string>
+    <string name="sliding_hint_text">Przesuń od prawej do lewej strony
+\naby otworzyć zaawansowane menu -
+\nsortowania, grupowania, filtrowania i inne...</string>
     <string name="multy_sorting">Sortuj - wielokrotne kryteria</string>
     <string name="new_button">nowy</string>
     <string name="free_version_entry_page_limit">W darmowej wersji możesz utworzyć tylko dwie strony. Zakup wersję PRO, aby wyłączyć to ograniczenie.</string>
@@ -1211,4 +1211,151 @@ wysłania...</string>
 	<string name="welcome_text_description">"Biblioteka jest miejscem, gdzie przechowywane są twoje wpisy.
 \nMożesz rozpocząć poznawanie programu,  poprzez utworzenie biblioteki opartej na jednym z dołączonych szablonów."</string>	
 	
+<string name="memento_cloud">W Chmurze</string>
+	<string name="start_remove_librarary_from_cloud">Usuwanie biblioteki...</string>
+	<string name="success_remove_librarary_from_cloud">Biblioteka pomyślnie usunięta z chmury</string>
+	<string name="start_upload_library_to_cloud">Wysyłanie biblioteki...</string>	
+	<string name="success_upload_library_to_cloud">Biblioteka pomyślnie załadowana.
+\nBiblioteka będzie aktualizowana automatycznie.</string>
+	<string name="success_upload_library_to_cloud2">Możesz ustanowić dostęp do biblioteki dla innych użytkowników Memento w ustawieniach dostępu.</string>	
+	<string name="push_entries_to_cloud_message" formatted="false">Wysyłanie wpisów\n%s z %s wpisów przesłane</string>
+	<string name="permissions">Pozwolenia</string>
+	<string name="button_hide">ukryj</string>	
+	<string name="empty_cloud_libraries_list_text">Brak załadowanych bibliotek</string>
+	<string name="my_cloud_libraries_menu_item">Dane w Chmurze</string>
+	<string name="start_download_library_model">Wysyłanie struktury biblioteki...</string>
+	<string name="open_library">Otwórz bibliotekę</string>
+	<string name="open_library_hint">Otwórz lokalną kopię</string>
+	<string name="download_library">Pobieranie biblioteki</string>
+	<string name="download_library_hint">Tworzenie lokalnej kopii</string>			
+	<string name="pull_entries_from_cloud_message">Pobieranie wpisów...</string>
+	<string name="pull_entries_from_cloud_message2" formatted="false">%s z %s wpisów przetworzone</string>
+	<string name="success_pull_library_from_cloud">Wpisy pomyślnie pobrane.
+\nBiblioteka będzie aktualizowana automatycznie.</string>
+	<string name="cloud_conflict_fields_title">Konflikty</string>
+	<string name="cloud_conflict_fix_button_title">Zastosuj</string>
+    <plurals name="conflict_count">
+	<item quantity="one">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
+	<item quantity="other">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
+</plurals>
+    <string name="button_select">Wybierz</string>
+    <string name="cloud">Chmura</string>
+    <string name="library_not_in_cloud">Brak w chmurze</string>
+    <string name="cloud_synced_progress">Synchronizacja ...</string>
+    <string name="cloud_offline">Off-line</string>
+    <string name="cloud_last_sync">Ostatnia synchronizacja</string>
+    <string name="entries">Wpisy</string>
+    <string name="cloud_created">Utworzono</string>
+    <string name="cloud_modified">Modyfikowano</string>
+    <string name="cloud_size">Rozmiar</string>
+    <string name="cloud_files_count">Pliki</string>
+    <string name="cloud_who_has_access">Kto ma dostęp</string>
+    <string name="cloud_server_unavaliable">"Memento Cloud Server niedostępny,  sprawdź łącze z internetem na urządzeniu"</string>
+    <string name="delete_from_cloud">Usuń z chmury</string>
+    <string name="delete_from_cloud_message_question">Czy na pewno chcesz usunąć bibliotekę z chmury?</string>
+        
+    <string name="byteShort">B</string>    
+    <string name="kilobyteShort">KB</string>
+    <string name="megabyteShort">MB</string>
+    <string name="gigabyteShort">GB</string>
+    <string name="button_refresh">Odśwież</string>
+    <string name="cloud_storage_space_text" formatted="false">%s (%s) z %s użyte</string>   
+    <string name="start_download_file_from_cloud">Plik %s zostanie pobrany</string>
+    <string name="upload_file_to_cloud">Wysyłanie pliku...</string>    
+    <string name="upload_files_to_cloud">Wysyłanie plików</string>
+    <string name="cloud_upload_error_title">Nie można synchronizować tej biblioteki</string>
+    <string name="upload_big_file_error" formatted="false">Wpis %s zawiera zbyt duże pliki %s (%s).\nMaksymalny rozmiar pliku jest %s.</string>
+    <string name="prepare_library_for_cloud">Biblioteka jest przetwarzana...</string>
+    <string name="download_files_from_cloud">Pobieranie plików z chmury...</string>
+    <string name="cant_download_item_files_for_copy">Nieudane pobieranie plików w celu utworzenia kopii.</string> 
+    <string name="library_cloud_model_changed_message">Struktura biblioteki zastała wysłana do chmury. Aktualizuj strukturę dla późniejszych synchronizacji.</string>
+    <string name="button_update">Aktualizacja</string>
+    <string name="add_people">Dodaj osoby</string>
+    <string name="read_permission">Odczyt</string>      
+    <string name="write_permission">Zapis</string>
+    <string name="create_permission">Tworzenie</string>
+    <string name="delete_permission">Usuwanie</string>
+    
+    <string name="allow_permission">Pozwól</string>
+	<string name="deny_permission">Odmów</string>
+	<string name="only_owner_permission">Tylko własne</string>
+	<string name="user_not_found">Użytkownik nie znaleziony</string>
+	<string name="edit_permission">Ustawienia udostępniania</string>	
+	<string name="push_entry_error_text" formatted="false">Brak wpisów w chmurze.
+\nNazwa: %s\nError: %s</string>
+	<string name="push_error_forbidden">Dostęp niedozwolony</string>
+	<string name="button_ignore">Pomiń</string>
+	<string name="button_try_again">Spróbuj ponownie</string>	
+	<string name="cloud_library_forbidden">Nie masz uprawnień dostępu do tej biblioteki</string>
+	<string name="shared_with_me">Udostępnione mi</string>
+	<string name="entry_author">Autor</string>
+	<string name="info_menu_item">Informacja</string>   
+	<string name="need_upload_to_cloud_slave_libraries">Proszę załadować do chmury powiązane biblioteki.</string>
+	<string name="start_download_slave_library_model">Wysyłanie powiązanej biblioteki %s</string>
+	<string name="open_access_for_slave_libraries">Udostępnij odczyt do powiązanych bibliotek</string>
+	<string name="cloud_storage_full_text">Brak wolnego miejsca na dysku w chmurze .\nMożesz zmienić plan taryfowy na wyższy, dający więcej miejsca.</string>
+	<string name="cloud_storage_full_text2" formatted="false">Brak wolnego miejsca na dysku w chmurze.
+\n%s potrzeba, %s jest dostępne.
+\nMożesz zmienić plan taryfowy na wyższy, dający więcej miejsca na dysku.</string>
+	<string name="alien_cloud_storage_full_text">Właściciel biblioteki nie posiada wystarczającej przestrzeni na dysku.</string>	
+	<string name="button_tarifs">Taryfy</string>
+	<string name="cloud_storage_plans">Plany</string>
+	<string name="price_free">BEZPŁATNY</string>
+	<string name="price_per_month">%s/miesiąc</string>
+	<string name="unlimited_libraries">Nielimitowane biblioteki</string>	
+	<string name="adv_free">Brak reklam</string>
+	<string name="subscription_activation">Aktywuj subskrybcję...</string>
+	<string name="subscription_activation_error">Błąd aktywacji: %s</string>
+	<string name="subscription_reactivation_error">Błąd dostępu do aktywnych subskrybcji: %s</string>
+	<string name="google_play_unavaliable">Google Play niedostępne :(</string>
+	<string name="return_to_free_plan_message">Możesz przejść do bezpłatnego konta, anulując subskrybcję w Google Play</string>
+	<string name="subscription_already_activation_for_user">Subskrybcja nie może zostać aktywowana, ponieważ została zakupiona dla użytkownika %s.</string>
+	<string name="synced">Synchronizowanych %s</string>
+    <string name="library_cloud_count_limit">Twój plan taryfowy pozwala załadować do %s bibliotek w chmurę.</string>
+	<string name="restore_cloud_library_from_recycle">Biblioteka lokalna usunięta. Odtworzyć?</string>
+	<string name="cloud_file_while_not_upload">Plik jeszcze nie znajduje się w chmurze</string>
+	<string name="upload_ecrypted_libraries_dont_supported">Ładowanie zabezpieczonych bibliotek w chmurę jest czasowo wyłączone.</string>
+	<string name="button_signin">Zarejestruj</string>
+	<string name="cloud_library_not_found">Biblioteka nie została odnaleziona w chmurze. Być może została usunięta.
+\nZmienić bibliotekę w lokalną?</string>
+	<string name="cloud_library_already_uploaded">Ta biblioteka jest już w chmurze.</string>
+	<string name="library_alias_menu_item">Alias</string>
+	<string name="library_public_access">Dostęp publiczny</string>
+	<string name="library_public_access_disabled">Wyłączono</string>
+	<string name="library_access_read_only">Tylko odczyt</string>
+	<string name="library_access_can_edit">Edycja</string>
+	<string name="owner">Właściciel</string>
+	<string name="find_library_by_url_title">Otwórz przez URL</string>
+	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
+	<string name="library_not_found_by_uri">Biblioteka nie znaleziona</string>
+	<string name="upload_to_cloud_offer_title">{cloud ready...}</string>
+	<string name="upload_to_cloud_offer_text">• Praca zespołowa
+\n• Synchronizacja z różnymi urządzeniami
+\n• Backup\'y są zawsze w chmurze</string>
+	<string name="button_no_thanks">Nie, dzięki</string>
+	<string name="button_upload">Wysyłanie</string>
+	
+	<string name="cant_upload_file_to_cloud">Wysyłanie pliku nieudane.</string>
+    <string name="button_show">Pokaż</string>
+	<string name="invalid_library_template_file_format">Błędny format pliku szablonu</string>    
+	<string name="cant_add_yourself">Nie możesz dodać siebie</string>
+	<string name="remove_from_old_public">"Mimo wysłania biblioteki w chmurę, nie zostanie ona opublikowana,  jeśli wcześniej została opublikowana przestarzałą metodą."</string>
+	<string name="select_template_title">Wybierz szablon</string>
+	<string name="empty_library_title">Pusta biblioteka</string>
+	<string name="catalog_templates_title">Katalog on-line</string>
+	<string name="catalog_templates_hint">Ponad 3000 szablonów</string>
+	<string name="add_lib_from_google_drive_hint">Odtwarzanie z Google Drive</string>
+	<string name="templates">Szablony</string>
+	<string name="import_template_from_file_hint">Import szablonu z pliku</string>
+	<string name="help_cloud">Przechowywanie w chmurze i Praca zespołowa</string>
+	<string name="subscription_pro_bonus_text">Większość planów taryfowych zawierarównież bonus w postaci wersji PRO</string>
+	<string name="send_formatting_menu_item">Formatowanie...</string>
+	<string name="pro_for_cloud_storage_title">Subskrybcja</string>
+	<string name="default_file_manager_pref_title">Menedżer plików</string>
+	<string name="default_file_manager_built_in">wbudowany</string>	
+	<string name="clear_search_history">Czyszczenie Historii Wyszukiwania</string>
+	<string name="clear_search_history_hint">Usuwa wszystkie przeprowadzone wyszukiwania</string>
+	<string name="success_clear_search_history">Historia wyszukiwania została wyczyszczona</string>	
+	<string name="clear_search_history_quest">"Jesteś pewien,  że chcesz wyczyścić historię wyszukiwania?"</string>
+		        	
 </resources>
