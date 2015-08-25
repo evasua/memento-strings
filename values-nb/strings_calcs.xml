@@ -1,10 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="math_func_desc_0">Absolutt verdi av en dobbelverdi.</string>
+    <string name="math_func_desc_0">Absoluttverdien av en desimalverdi</string>
     <string name="math_func_desc_1">Arc cosinus av en vinkel.</string>
     <string name="math_func_desc_2">Arc sinus av en vinkel.</string>
     <string name="math_func_desc_3">Arcustangens av en vinkel.</string>
     <string name="math_func_desc_4">Funsjonen omgjør rektangulære koordinater till polæra</string>
-    <string name="math_func_desc_5">Takverdiet av et dobbelverdi</string>
+    <string name="math_func_desc_5">Maksverdie av en desmalverdi</string>
     <string name="math_func_desc_6">Trigonometrisk cosinus av en vinkel</string>
     <string name="math_func_desc_7">Exponential verdi (f.eks. 2,718 ...) opphøyd til dobbeltverdi</string>
     <string name="math_func_desc_8">Bunnverdi av en dobbeltverdi.</string>
