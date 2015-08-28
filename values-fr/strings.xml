@@ -930,7 +930,7 @@
     <string name="flex_edit_option_in_list">liste d\'enregistrements</string>
     <string name="cant_share_template_withous_fields">Vous ne pouvez pas partager un modèle sans champs</string>
     <string name="request_pass_dialog_title">Changement de mot de passe</string>
-    <string name="flex_type_int_main_options_title">L\'ordre des numéros</string>
+    <string name="flex_type_int_main_options_title">Plage de valeurs</string>
     <string name="select_master_field_for_depend">Sélectionner le champ de dépendance</string>
     <string name="library_fields">Champs d\'enregistrement de la base</string>
     <string name="visible_field_depend_description">Le champ sera dans cet état si le champ %s accepte les valeurs</string>
