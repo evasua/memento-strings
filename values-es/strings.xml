@@ -1123,4 +1123,7 @@
 	<string name="alien_cloud_storage_full_text">El dueño de la librería no tiene suficiente espacio de almacenamiento.</string>	
 	<string name="button_tarifs">Tarifas</string>
 	<string name="cloud_storage_plans">Planes</string>
+	<string name="permissions">Permisos</string>
+	<string name="open_library">Abrir librería</string>
+	<string name="pull_entries_from_cloud_message2" formatted="false">%s de %s entradas procesadas</string>
 	</resources>
