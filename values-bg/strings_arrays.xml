@@ -14,7 +14,7 @@
     <string name="calc_result_types_int">Целочислен резултат</string>
     <string name="calc_result_types_date">Резултат - Дата</string>
     <string name="calc_result_types_datetime">Резултат - Дата/Време</string>
-    <string name="calc_result_types_string">Резултат - Поредица</string>
+    <string name="calc_result_types_string">Резултат - Низ</string>
     <string name="template_category_arts">Изкуство</string>
     <string name="template_category_business">Бизнес</string>
     <string name="template_category_contacts">Контакти и хора</string>
@@ -57,7 +57,7 @@
     <string name="chart_continuous_axis">Непрекъснати стойности</string>
     <string name="edit_library_tabs_facade">ФАСАДА</string>
     <string name="edit_library_tabs_fields">ПОЛЕТА</string>
-    <string name="edit_library_tabs_aggr">ОБОБЩАВАНЕ</string>
+    <string name="edit_library_tabs_aggr">ОБОБЩЕНИЕ</string>
     <string name="show_soft_keyboard_no">Не показвай</string>
     <string name="show_soft_keyboard_create">Когато създавате запис</string>
     <string name="show_soft_keyboard_always">Винаги</string>
