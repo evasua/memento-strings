@@ -1,2 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_0">Valor absoluto de um valor duplo.</string>
+    <string name="math_func_desc_1">Arco-coseno de um ângulo.</string>
+    <string name="math_func_desc_2">Arco-seno de um ângulo.</string>
+    <string name="math_func_desc_3">Arco-tangente de um ângulo.</string>
+    <string name="math_func_desc_4">A função converte coordenadas retangulares em polares</string>
+    <string name="math_func_desc_5">Arredonda um valor duplo para cima</string>
+    <string name="math_func_desc_6">Coseno trigonométrico de um ângulo</string>
+    <string name="math_func_desc_7">Número exponencial e (i.e., 2.718...) elevado à potência de um valor</string>
+    <string name="math_func_desc_8">Arredonda um valor para baixo.</string>
+    <string name="math_func_desc_9">Logarítmo (base e) de um valor</string>
+    <string name="math_func_desc_10">Maior de dois valores</string>
+    <string name="math_func_desc_11">Menor de dois valores</string>
+    <string name="math_func_desc_12">Valor do primeiro argumento elevado à segunda potência do segundo argumento</string>
+    <string name="math_func_desc_13">O valor mais próximo para o argumento que é igual a um inteiro matemático</string>
+    <string name="math_func_desc_14">Arredondamento mais próximo para um valor</string>
+    <string name="math_func_desc_15">Seno de um ângulo</string>
+    <string name="math_func_desc_16">Raiz quadrada de um valor</string>
+    <string name="math_func_desc_17">Tangente trigonométrica de um ângulo</string>
+    <string name="math_func_desc_18">A função converte a medida de um ângulo em radianos para seu ângulo equivalente medido em graus</string>
+	<string name="math_func_desc_19">A função converte a medida de um ângulo em graus para seu ângulo equivalente medido em radianos.</string>  	
+ 	
+ 	
+
+	 <string name="function_args_compareto"> <b>Parâmetros:</b>O primeiro argumento é a primeira cadeia a comparar e o segundo parâmetro é a segunda cadeia a comparar.<br/>\\n<b>Retorna:</b>Retorna um inteiro de valor zero se as cadeias forem iguais, um inteiro de valor inferior a zero se a primeira cadeia preceder a segunda ou um inteiro de valor superior a zero se a primeira cadeia suceder a segunda cadeia. </string>
+	 
+	 <string name="function_args_comparetoignorecase"> <b>Parâmetros:</b>O primeiro argumento é a primeira cadeia a comparar e o segundo parâmetro é a segunda cadeia a comparar.<br/>\\n<b>Retorna:</b>Retorna um inteiro de valor zero se as cadeias forem iguais, um inteiro de valor inferior a zero se a primeira cadeia preceder a segunda ou um inteiro de valor superior a zero se a primeira cadeia suceder a segunda cadeia. </string>
+	 
+	 <string name="function_args_concat"> <b>Parâmetros:</b>O primeiro argumento é a cadeia em qual o segundo argumento será concatenado. <br/> <b>Retorna:</b> Retorna uma cadeia que é composta pela primeira cadeia seguida da segunda cadeia. </string>
+	 
+	 <string name="function_args_endswith"> <b>Parâmentros:</b> O primeiro argumento é a cadeia a testar e o segundo argumento é o sufixo. <br/> <b>Retorna:</b> Retorna 1.0 (verdadeiro) se a cedeia termina com o sufixo, senão retorna 0.0 (falso) </string>	 
+	 
+	 <string name="function_args_equals"> <b>Parâmetros:</b> O primeiro argumento é a cadeia que irá ser comparada com a cadeia do segundo argumento.<br/> <b>Retorna:</b> Retorna 1.0 (verdadeiro) se as cadeias forem iguais. senão retorna 0.0 (falso). </string>	 	 
+	 
+	 <string name="function_args_equalsignorecase"> <b>Parâmetros:</b> O primeiro argumento é a cadeia que irá ser comparada com a cadeia do segundo argumento.<br/> <b>Retorna:</b> Retorna 1.0 (verdadeiro) se as cadeias forem iguais. senão retorna 0.0 (falso). </string>	 	
+	 
+	 <string name="function_args_indexof"> <b>Parâmetros:</b> O primeiro argumento é a cadeia de origem, i segundo argumento é a subcadeia e o terceiro argumento é o index..<br/> <b>Retorna:</b> Retorna O index de onde a subcadeia é encontrada. Se a subcadeida não é encontrada, retorna -1. </string>	 	
+	 
+	 
+	 <string name="function_args_replace"> <b>Parâmetros:</b> O primeiro argumento é a string de origem para substituir os atributos. O segundo argumento é o antigo atributo para substituir a string de origem. O terceiro argumento é o novo atributo para substituir o antigo atributo com a string de origem.<br/> <b>Retornos:</b> Retorna uma string com todas as ocorrências do antigo atributo substituído com o novo atributo. </string>	
+	 
+	 <string name="function_args_startswith"> <b>Parâmetros:</b> O primeiro argumento é a string para testar, o segundo argumento é o prefixo e o terceiro argumento é o índice para iniciar. <br/> <b>Retorno:</b> Retorna 1.0 (verdadeiro) se a string iniciar com o prefixo, caso contrário ele retorna 0.0 (falso). </string>	 
+	 
+	 <string name="function_args_substring"> <b>Parâmetros:</b> O primeiro argumento é a string de origem, o segundo argumento é o índice de início e o terceiro argumento é o índice final.<br/> <b>Returnos:</b> Retorna o uma substring especifica. </string>	 	 	 
+	 	 	
+	 	 
+</resources>
