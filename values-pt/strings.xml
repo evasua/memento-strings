@@ -49,12 +49,12 @@
     <string name="library_edit">Editar</string>
     <string name="library_delete">Apagar</string>
     <string name="library_delete_message_title">Apagar a biblioteca</string>
-    <string name="library_delete_message_text">Você quer realmente apagar a bilblioteca\"%s\" ?</string>
+    <string name="library_delete_message_text">Quer realmente apagar a bilblioteca\"%s\" ?</string>
     <string name="error_library_empty_title">Digite o nome da biblioteca</string>
     <string name="library_item_edit">Editar</string>
     <string name="library_item_delete">Apagar</string>
-    <string name="library_item_delete_message_text">Você quer realmente apagar a entrada \"%s\" ?</string>
-    <string name="library_item_trush_message_text">Você quer realmente enviar a entrada \"%s\" para a Lixeira ?</string>
+    <string name="library_item_delete_message_text">Quer realmente apagar a entrada \"%s\" ?</string>
+    <string name="library_item_trush_message_text">Quer realmente enviar a entrada \"%s\" para a Lixeira ?</string>
     <string name="library_items_count">Entradas: %s</string>
     <string name="library_menu_select_sort">Classificar</string>
     <string name="library_menu_select_group">Agrupar</string>
@@ -62,7 +62,7 @@
     <string name="select_group_template">Selecione o campo a agrupar</string>
     <string name="sort_by_date">Tempo da criação</string>
     <string name="flex_delete_message_title">Apagar o campo</string>
-    <string name="flex_delete_message_text">Você quer realmente apagar o campo \"%s\" ?</string>
+    <string name="flex_delete_message_text">Quer realmente apagar o campo \"%s\" ?</string>
     <string name="not_group">Sem agrupamento</string>
     <string name="bool_yes">Sim</string>
     <string name="bool_not">Não</string>
@@ -87,14 +87,14 @@
     <string name="clear_trash">Lixeira vazia</string>
     <string name="clear_trash_progress_dialog_title">Lixeira Vazia</string>
     <string name="clear_trash_dialog_title">Lixeira vazia</string>
-    <string name="clear_trash_dialog_text">Você quer realmente apagar todas as entradas da Lixeira ?</string>
-    <string name="mobile">celular</string>
+    <string name="clear_trash_dialog_text">Quer realmente apagar todas as entradas da Lixeira ?</string>
+    <string name="mobile">telemóvel</string>
     <string name="home">casa</string>
     <string name="work">trabalho</string>
     <string name="other">outro</string>
     <string name="pager">pager</string>
     <string name="image_not_found">Imagem não encontrada</string>
-    <string name="audio_not_found">Nenhuma trilha de áudio encontrada</string>
+    <string name="audio_not_found">Nenhuma faixa de áudio encontrada</string>
     <string name="flex_type_money_currency_dlg_title">Selecione a moeda</string>
     <string name="flex_type_money_currency_option_title">Moeda</string>
     <string name="flex_type_money_default_currency">USD</string>
@@ -131,7 +131,7 @@
     <string name="restore_step2">Limpando cache</string>
     <string name="clear_index">Removendo índices</string>
     <string name="reindex">Reindexando:</string>
-    <string name="load_templates_title">Carregando modelos</string>
+    <string name="load_templates_title">A carregar modelos</string>
     <string name="load_templates_message">Por favor aguarde enquanto os modelos de bibliotecas são carregados.</string>
     <string name="help_title">Ajuda do Memento</string>
     <string name="activate_button_title">Ativar a versão PRO</string>
@@ -178,7 +178,7 @@
     <string name="library_created">Biblioteca criada</string>
     <string name="msg_default_status">Coloque um código de barras dentro do retângulo para digitalização.</string>
     <string name="scan_library_item">Digitalizando código de barras</string>
-    <string name="search_product_title">Pesquisando o produto no Google Base ...</string>
+    <string name="search_product_title">A pesquisar o produto no Google Base ...</string>
     <string name="empty_result_text">Desculpe\nProduto não encontrado</string>
     <string name="add_entry_manual">Adicionar manualmente ...</string>
     <string name="fill_entry_manual">Preencher manualmente ...</string>
@@ -215,13 +215,13 @@
     <string name="bind_to_gdocs">Vincular ao Google Sheets</string>
     <string name="bind_to_gdocs_title">Vincular ao Google Sheets</string>
     <string name="unbind_message_title">Desvincular do Google Sheets</string>
-    <string name="unbind_message_text">Você quer realmente dexvincular a biblioteca \"%s\" do Google Sheets ?</string>
+    <string name="unbind_message_text">Quer realmente dexvincular a biblioteca \"%s\" do Google Sheets ?</string>
     <string name="bind_to_gdocs_message">Vinculando a biblioteca com Google Sheets.</string>
-    <string name="bind_to_gdocs_success">A biblioteca foi vinculada com Planilha do Google Sheets.</string>
+    <string name="bind_to_gdocs_success">A biblioteca foi vinculada com Folha de Cálculo do Google Sheets.</string>
     <string name="sync_with_gdocs_success">A biblioteca foi sincronizada com a folha de cálculo do Google Sheets</string>
-    <string name="sync_with_gdocs_success_2">A biblioteca \"%s\" foi sincronizada com a Planilha do Google Sheets</string>
+    <string name="sync_with_gdocs_success_2">A biblioteca \"%s\" foi sincronizada com a Folha de Cálculo do Google Sheets</string>
     <string name="sync_with_gdocs_title">Sincronização com Google Sheets</string>
-    <string name="sync_with_gdocs_message">Sincronizando a biblioteca com Planilha do Google Sheets.</string>
+    <string name="sync_with_gdocs_message">Sincronizando a biblioteca com Folha de Cálculo do Google Sheets.</string>
     <string name="sync_with_gdocs_message_2">Sincronizando a biblioteca \"%s\" com a folha de cálculo do Google Sheets.</string>
     <string name="sync_with_gdocs">Sincronizar com Google Sheets</string>
     <string name="google_docs_task_step_auth">Autenticando ao serviço do Google Sheets</string>
@@ -229,9 +229,9 @@
     <string formatted="false" name="google_docs_task_step_process_row">Processando linhas. %s de %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Adicionando linhas. %s de %s</string>
     <string formatted="false" name="google_docs_task_step_update_row">Atualizando linhas. %s de %s</string>
-    <string name="google_docs_task_create_document">Criando uma planilha</string>
-    <string name="google_docs_task_create_worksheet">Adicionando uma planilha de trabalho</string>
-    <string name="google_docs_task_shange_columns">Atualizando uma planilha de trabalho</string>
+    <string name="google_docs_task_create_document">Criando uma folha de cálculo</string>
+    <string name="google_docs_task_create_worksheet">Adicionando uma folha de cálculo de trabalho</string>
+    <string name="google_docs_task_shange_columns">Atualizando uma folha de cálculo de trabalho</string>
     <string name="username_hint">Endereço de email</string>
     <string name="pass_hint">Senha</string>
     <string name="gdocs_error">Erro de sincronização com o Google Sheets - %s</string>
@@ -260,28 +260,28 @@
     <string name="update_public_library">Atualizar a publicação</string>
     <string name="memento_register_account_title">Criando uma conta\non no servidor Memento</string>
     <string name="memento_register_account_text">Para ser capaz de publicar bibliotecas e assiná-las, uma conta no servidor Memento é requerida</string>
-    <string name="memento_login_hint">Usuário</string>
+    <string name="memento_login_hint">Utilizador</string>
     <string name="memento_pass_hint">Senha</string>
     <string name="memento_pass_hint2">Repita a senha</string>
     <string name="memento_email_hint">Email</string>
     <string name="memento_register_button">Criar</string>
     <string name="memento_have_button">Eu já tenho uma conta</string>
-    <string name="login_empty">Entre com o nome do usuário</string>
+    <string name="login_empty">Entre com o nome do utilizador</string>
     <string name="login_format_error">O login deve conter apenas letras e números</string>
     <string name="pass_not_equal">Por favor verifique sua senha novamente</string>
     <string name="incorrect_email">Email inválido</string>
-    <string name="create_memento_account_dlg_title">Registro</string>
-    <string name="create_memento_account_dlg_text">Registrando o usuário no servidor Memento ...</string>
-    <string name="memento_register_user_exists">Esse nome de usuário já existe</string>
-    <string name="memento_register_email_exists">Um usuário com esse endereço de email já existe</string>
+    <string name="create_memento_account_dlg_title">Registo</string>
+    <string name="create_memento_account_dlg_text">A registar o utilizador no servidor Memento ...</string>
+    <string name="memento_register_user_exists">Esse nome de utilizador já existe</string>
+    <string name="memento_register_email_exists">Um utilizador com esse endereço de email já existe</string>
     <string name="memento_server_error">Erro do servidor, tente novamente mais tarde</string>
     <string name="memento_account_title">Conta Memento</string>
     <string name="memento_create_account_button">Nova conta</string>
-    <string name="memento_auth_error">Nome do usuário ou senha incorreto</string>
+    <string name="memento_auth_error">Nome do utilizador ou senha incorreto</string>
     <string name="memento_library_lock">A biblioteca está bloqueada, tente novamente</string>
     <string name="preference_memento_account_title">Conta Memento</string>
-    <string name="preference_memento_account_hint">Nome de usuário e senha de sua conta Memento</string>
-    <string name="public_library_task_auth">Autenticando o senvico Memento</string>
+    <string name="preference_memento_account_hint">Nome de utilizador e senha da sua conta Memento</string>
+    <string name="public_library_task_auth">Autenticando o serviço Memento</string>
     <string name="public_library_task_send_template">Transferindo a biblioteca modelo</string>
     <string formatted="false" name="public_library_task_send_items">Transferindo entidades de biblioteca.\n%s de %s</string>
     <string name="memento_not_support_template">Sua versão do Memento está obsoleta, atualíze-a</string>
@@ -290,7 +290,7 @@
     <string name="button_publish">Publicar</string>
     <string name="publish_update_success">A publicação da biblioteca foi atualizada</string>
     <string name="private_library_checkbox">Acesso privado</string>
-    <string name="private_library_checkbox_hint">Apenas os usuários especificados terão acesso à biblioteca</string>
+    <string name="private_library_checkbox_hint">Apenas os utilizadors especificados terão acesso à biblioteca</string>
     <string name="enter_alias">Entre com o nome alternativo da biblioteca</string>
     <string name="incorrect_alias">O nome alternativo da biblioteca deve conter apenas letras e números</string>
     <string name="public_library_address_text">Endereço da biblioteca</string>
@@ -303,9 +303,9 @@
     <string name="library_uri_hint">Endereço da biblioteca</string>
     <string name="find_libraries_task_title">Procura por bibliotecas</string>
     <string name="find_libraries_task_by_uri">Obtendo o endereço da biblioteca\nby</string>
-    <string name="find_libraries_task_by_user">Obtendo a lista das bibliotecas\nof dos usuários\'s</string>
+    <string name="find_libraries_task_by_user">Obtendo a lista das bibliotecas\nof dos utilizadors\'s</string>
     <string name="libraries_list_result_header">Bibliotecas encontradas</string>
-    <string name="libraries_by_user_not_found">O usuário especificado não foi encontrado ou não existem bibliotecas publicadas por ele</string>
+    <string name="libraries_by_user_not_found">O utilizador especificado não foi encontrado ou não existem bibliotecas publicadas por ele</string>
     <string name="library_not_found">Nenhuma biblioteca encontarda para esse endereço</string>
     <string name="wrong_library_address_format">Formato de endereço de biblioteca inválido</string>
     <string name="last_update">Última atualização: %s</string>
@@ -329,7 +329,7 @@
     <string name="unpublic_library_title">Cancelar publicação da biblioteca</string>
     <string name="unpublic_library">Cancelando publicação</string>
     <string name="unpublish_success">A publicação da biblioteca foi cancelada</string>
-    <string name="unpublic_message_text">Você quer realmente cancelar a publicação da biblioteca \"%s\" ?</string>
+    <string name="unpublic_message_text">Quer realmente cancelar a publicação da biblioteca \"%s\" ?</string>
     <string name="unbind_from_gdocs_hint">Desvincular do Google Sheets</string>
     <string name="preference_category_google_docs">Google Sheets</string>
     <string name="unbind_from_google_docs_success">A biblioteca não está mais vinculada ao Google Sheets</string>
@@ -339,13 +339,13 @@
     <string name="rename_library">Renomear</string>
     <string name="rename_dialog_title">Renomear</string>
     <string name="rename_dialog_text">Nome da biblioteca</string>
-    <string name="flex_image_load">Carregando a imagem ...</string>
+    <string name="flex_image_load">A carregar a imagem ...</string>
     <string name="subscribed">Inscritas</string>
     <string name="info_public_library">Endereço da biblioteca</string>
     <string name="cant_public">A versão gratuita permite você publicara apenas três bibliotecas.\nAtualize para a versão PRO para desabilitar essa limitação.</string>
-    <string name="add_permission_user_hint">Entre com o nome do usuário ou email</string>
+    <string name="add_permission_user_hint">Entre com o nome do utilizador ou email</string>
     <string name="edit_pub_permissions">Direitos de acesso à biblioteca</string>
-    <string name="edit_pub_permissions_hint">Editando a lista de usuários que tem acesso à biblioteca</string>
+    <string name="edit_pub_permissions_hint">Editando a lista de utilizadors que tem acesso à biblioteca</string>
     <string name="edit_pub_permissions_task_dialog_message">Alterando direitos de acesso à biblioteca</string>
     <!-- 1.4.5 -->
     <string name="import_template">Imprtar modelo</string>
@@ -374,7 +374,7 @@
     <string name="flex_type_multy_sl">Multi-seleção de valores</string>
     <string name="library_item_copy">Copiar</string>
     <string name="send_all_dialog_title">Enviar Todos</string>
-    <string name="send_all_dialog_message">Preparando entradas para envio ...</string>
+    <string name="send_all_dialog_message">A preparar entradas para envio ...</string>
     <string name="send_all_csv">Enviar como CSV</string>
     <string name="send_all_text">Enviar como texto</string>
     <string name="flex_type_time">Tempo</string>
@@ -507,7 +507,7 @@
     <string name="add_email_template_dialog_title">Criar um modelo</string>
     <string name="add_email_template_dialog_text">Nome do modelo</string>
     <string name="delete_email_template">Apagar modelo</string>
-    <string name="delete_email_template_dialog_text">Você quer realmente apagar o modelo atual?</string>
+    <string name="delete_email_template_dialog_text">Quer realmente apagar o modelo atual?</string>
     <string name="select_email_template">Escolha um modelo</string>
     <string name="required_field">Obrigatório</string>
     <string name="required_field_text">O campo deve ser preenchido</string>
@@ -534,7 +534,7 @@
     <string name="cant_protect">A versão gratuita permite que você proteja apenas dous livrarias.↵\nAtualize para a versão PRO para desabilitar esta limitação.</string>
     <string name="flex_edit_option_title">Onde você pode editar</string>
     <string name="flex_edit_option_default">Formulário para editar a entrada</string>
-    <string name="loading_google_document_list">Carregando...</string>
+    <string name="loading_google_document_list">A carregar...</string>
     <string name="flex_edit_option_in_list">Listagem de registos</string>
     <string name="flex_edit_option_in_view">Cartão do registo</string>
     <string name="google_doc_list_title">Google documentos</string>
@@ -545,13 +545,13 @@
     <string name="move_from_memento_attention">Todos os dados disponíveis no Google Sheet serão removidos</string>
     <string name="find_in_spreadsheet_column_title">Lista de campos no Memento e folha de cálculo do Google</string>
     <string name="google_doc_exists_link_option">Parâmetros da ligação</string>
-    <string name="get_google_docs_columns_message">Carregando a lista de colunas para a folha de cálculo Google selecionada ...</string>
+    <string name="get_google_docs_columns_message">A carregar a lista de colunas para a folha de cálculo Google selecionada ...</string>
     <string name="field_not_found">Não encontrado</string>
     <string name="field_not_sync">Não sincronizado</string>
     <string name="link_button">Ligação</string>
-    <string name="prepare_linking_library">Preparando para a ligação ...</string>
+    <string name="prepare_linking_library">A preparar para a ligação ...</string>
     <string name="error_prepare_linking">Ocorreu um erro ao preparar a ligação: %s</string>
-    <string name="have_library_items_ask_title">Ligando a uma folha de cálculo Google</string>
+    <string name="have_library_items_ask_title">A ligar a uma folha de cálculo Google</string>
     <string name="have_library_items_ask_message">A biblioteca contém registos que serão removidos durante a operação de ligação. Realizar a operação de ligar a Biblioteca com a folha de cálculo Google?</string>
     <string name="autofill_source_option_title">Origem dos dados</string>
     <string name="amazon_source_option_title">Amazon</string>
@@ -578,7 +578,7 @@
     <string name="ghostData_template_hint">Digite a dica de campo</string>
     <string name="template_hint">Dica do campo</string>
     <string name="time_default_now">Hora atual por defeito</string>
-    <string name="determination_location">Determinação do localização ...</string>
+    <string name="determination_location">Determinação da localização ...</string>
     <string name="preference_category_export_data_cfg">Configurações de Importação/Exportação/Sincronização</string>
     <string name="import_export_date_format">Selecione o formato da data</string>
     <string name="import_export_date_format_dialog">Selecione um formato da data para importar/exportar/sincronizar</string>
@@ -706,7 +706,7 @@
     <string name="boolean_field_uncheck_value">Não verificado</string>
     <string name="visible_field_depend_description">O campo vai estar neste estado se o %s campo aceita os valores</string>
     <string name="depend_from">Dependência de %s</string>
-    <string name="delete_depend_dialog_message">Você quer mesmo apagar a dependência de campo \"%s\" ?</string>
+    <string name="delete_depend_dialog_message">Quer mesmo apagar a dependência de campo \"%s\" ?</string>
     <string name="sl_content_depend_type">O conteúdo deste campo</string>
     <string name="sl_content_depend_pretitle">O valor do campo %s</string>
     <string name="sl_content_depend_description">O valor do campo estará disponível para a selecção se o valor do campo for %s</string>
@@ -720,8 +720,8 @@
     <string name="restore_files_error">Falha ao restaurar ficheiros</string>
     <string name="select_google_account">Selecione uma conta Google</string>
     <string name="send_files_to_cloud_error">Erro ao carregar ficheiros para a nuvem:</string>
-    <string formatted="false" name="upload_file_to_cloud_message">Carregando %s (%d/%d)</string>
-    <string name="prepare_google_sync">Ligando à sua conta ...</string>
+    <string formatted="false" name="upload_file_to_cloud_message">A carregar %s (%d/%d)</string>
+    <string name="prepare_google_sync">A ligar à sua conta ...</string>
     <string name="no_google_accounts">Não existe uma conta Google disponível. Por favor, primeiro adicione uma conta ao seu dispositivo.</string>
     <string name="google_account_not_selected">Conta não selecionada</string>
     <string name="bakup_files_need_pro_title">Requer versão PRO</string>
@@ -756,7 +756,7 @@
     <string name="list_library_in_google">Listagem de bibliotecas no Google Drive</string>
     <string name="add_lib_from_google_drive">Do Google Drive</string>
     <string name="selected">%s selecionado</string>
-    <string name="delete_template_from_google_drive_question">Você quer mesmo apagar as bibliotecas selecionadas do Google Drive?</string>
+    <string name="delete_template_from_google_drive_question">Quer mesmo apagar as bibliotecas selecionadas do Google Drive?</string>
     <string name="delete_data_table_from_google_drive">Remover dados das folhas de cálculo associados com os modelos</string>
     <string name="lock_library_edit_message">As alterações à estrutura da biblioteca são bloqueadas.↵\nVocê pode ligar a função de edição nas configurações para esta biblioteca.</string>
     <string name="lock_edit_library_pref_title">Bloquear estrutura</string>
@@ -866,7 +866,7 @@
     <string name="save_to_file_directory">Diretório</string>
     <string name="need_pro_for_charts">Na versão gratuita, uma biblioteca pode conter apenas um gráfico. Para remover essa restrição, faça a atualização para a versão PRO.</string>
     <string name="need_internet_for_charts">Google Charts requer uma ligação de Internet ativa</string>
-    <string name="download_image_from_google_photo_message">Descarregando a imagem do Google Photo ...</string>
+    <string name="download_image_from_google_photo_message">A descarregar a imagem do Google Photo ...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Dados da Web serão inseridos nos campos das entradas</string>
     <string name="google_base_field_new">Produto do valor do atributo da fonte</string>
     <string name="wrong_search_query_string_1">O campo de pesquisa não pode começar com \"-\"</string>
@@ -895,7 +895,7 @@
     <string name="button_palette">Paleta...</string>
     <string name="button_own_pictures">Galeria...</string>
     <string name="icon_pack_title_flat">Plano</string>
-    <string name="icon_pack_title_circle">Círclulos</string>
+    <string name="icon_pack_title_circle">Círculos</string>
     <string name="icon_pack_title_old">Antigo</string>
     <string name="icon_pack_title_field_material">Material</string>
     <string name="icon_pack_title_field_general_flat">Geral</string>
@@ -1103,7 +1103,7 @@
 	<string name="entries_name_dialog_title">Nomes de entrada são determinados pelos valores de campos escolhidos</string>
 	<string name="entries_name_is_unique">O nome da entrada é único</string> 
 	<string name="no_fields_for_role">Nesta biblioteca não existem campos adequados para esta função</string>
-	<string name="update_item_name_index">Construindo o índice...</string>	
+	<string name="update_item_name_index">A construir o índice...</string>	
 	<string name="entry_name_must_be_unique">O nome da entrada não é único</string>
 	<string name="entry_name_must_be_notnull">O nome da entrada não deve estar vazio</string>
 	<string name="library_have_duplicates">Na biblioteca, entradas com nomes semelhantes</string>
@@ -1116,22 +1116,22 @@
 	<string name="memento_cloud">Nuvem (cloud)</string>
 	<string name="welcome_text_description">A biblioteca é o lugar onde as entradas serão armazenados.↵\nVocê pode começar por se familiarizar com o programa criando uma biblioteca com base em um dos modelos fornecidos.</string>
 	
-	<string name="start_remove_librarary_from_cloud">Eliminando biblioteca...</string>
+	<string name="start_remove_librarary_from_cloud">A eliminar biblioteca...</string>
 	<string name="success_remove_librarary_from_cloud">Biblioteca eliminada com sucesso a partir da nuvem</string>
-	<string name="start_upload_library_to_cloud">Carregando biblioteca...</string>	
+	<string name="start_upload_library_to_cloud">A carregar biblioteca...</string>	
 	<string name="download_library_hint">Criar uma cópia local</string>			
-	<string name="pull_entries_from_cloud_message">Descarregando entradas...</string>
+	<string name="pull_entries_from_cloud_message">A descarregar entradas...</string>
 	<string name="download_library">descarregar biblioteca</string>
 	<string name="open_library_hint">Abrir uma cópia local</string>
 	<string name="open_library">Abrir biblioteca</string>
-	<string name="start_download_library_model">Enviando a estrutura da biblioteca...</string>
+	<string name="start_download_library_model">A enviar a estrutura da biblioteca...</string>
 	<string name="my_cloud_libraries_menu_item">Armazenamento na nuvem</string>
 	<string name="button_hide">esconder</string>	
 	<string name="empty_cloud_libraries_list_text">Não enviou bibliotecas</string>
 	<string name="permissions">Permissões</string>
 	<string name="success_upload_library_to_cloud">A biblioteca foi carregada com sucesso.↵\nA biblioteca será sincronizada automaticamente.</string>
-	<string name="success_upload_library_to_cloud2">Você pode fazer sua biblioteca acessível por outros usuários Memento em configurações de acesso.</string>	
-	<string name="push_entries_to_cloud_message" formatted="false">Enviando entradas↵\n%s of %s entradas processadas</string>
+	<string name="success_upload_library_to_cloud2">Você pode fazer sua biblioteca acessível por outros utilizadors Memento em configurações de acesso.</string>	
+	<string name="push_entries_to_cloud_message" formatted="false">A enviar entradas↵\n%s of %s entradas processadas</string>
 	<string name="pull_entries_from_cloud_message2" formatted="false">%s de %s entradas processadas</string>
 	<string name="success_pull_library_from_cloud">As entradas descarregadas com sucesso.↵\nA biblioteca será sincronizada automaticamente.</string>
 	<string name="cloud_conflict_fields_title">Conflitos</string>
@@ -1164,13 +1164,13 @@
     <string name="button_refresh">Atualizar</string>
     <string name="cloud_storage_space_text" formatted="false">%s (%s) de %s usado</string>   
     <string name="start_download_file_from_cloud">O ficheiro %s será descarregado</string>
-    <string name="upload_file_to_cloud">Enviando o ficheiro...</string>    
-    <string name="upload_files_to_cloud">Descarregando os ficheiros</string>
+    <string name="upload_file_to_cloud">A enviar o ficheiro...</string>    
+    <string name="upload_files_to_cloud">A descarregar os ficheiros</string>
     <string name="cloud_upload_error_title">Não conseguimos sincronizar esta biblioteca</string>
     <string name="upload_big_file_error" formatted="false">A entrada %s contém ficheiro grande %s (% s).↵\nTamanho máximo do arquivo é %s.</string>
     <string name="prepare_library_for_cloud">A biblioteca está a ser processada...</string>
-    <string name="download_files_from_cloud">Descarregando ficheiros a partir da nuvem...</string>
-    <string name="cant_download_item_files_for_copy">Descarregando ficheiros para criar cópias que falharam.</string> 
+    <string name="download_files_from_cloud">A descarregar ficheiros a partir da nuvem...</string>
+    <string name="cant_download_item_files_for_copy">A descarregar ficheiros para criar cópias que falharam.</string> 
     <string name="library_cloud_model_changed_message">A estrutura da biblioteca foi atualizado na nuvem. Actualizar a estrutura para posterior sincronização.</string>
     <string name="button_update">Atualizar</string>
     <string name="add_people">Adicionar pessoas</string>
@@ -1193,7 +1193,7 @@
 	<string name="entry_author">Autor</string>
 	<string name="info_menu_item">Informação</string>   
 	<string name="need_upload_to_cloud_slave_libraries">Por favor, envie as bibliotecas secundárias para a nuvem.</string>
-	<string name="start_download_slave_library_model">Enviando as bibliotecas secundárias %s</string>
+	<string name="start_download_slave_library_model">A enviar as bibliotecas secundárias %s</string>
 	<string name="open_access_for_slave_libraries">Fornecer acesso de leitura às bibliotecas secundárias</string>
 	<string name="cloud_storage_full_text">Não há espaço suficiente no armazenamento.↵ nuvem\nVocê pode atualizar para um plano tarifário que proporcione mais espaço de armazenamento.</string>
 	<string name="cloud_storage_full_text2" formatted="false">Não há espaço suficiente no armazenamento da nuvem.↵\n%s são necessários %s estão disponíveis.↵\nVocê pode atualizar para um plano tarifário que proporcione mais espaço de armazenamento.</string>
@@ -1219,9 +1219,9 @@
 <string name="clear_search_history_hint">Remover todas as pesquisas realizadas</string>
 	<string name="clear_search_history">Limpar o histórico e pesquisas</string>
 	<string name="default_file_manager_built_in">embutido</string>	
-	<string name="default_file_manager_pref_title">Gerenciador de arquivos</string>
+	<string name="default_file_manager_pref_title">Gestor de arquivos</string>
 	<string name="pro_for_cloud_storage_title">Subscrição</string>
-	<string name="send_formatting_menu_item">Formatando...</string>
+	<string name="send_formatting_menu_item">A formatar...</string>
 	<string name="subscription_pro_bonus_text">A maioria dos planos tarifários para armazenamento em nuvem também incluem PRO-versão como um bónus</string>
 	<string name="help_cloud">Armazenamento e trabalho em equipe na nuvem</string>
 	<string name="import_template_from_file_hint">Importar modelo a partir do ficheiro</string>
