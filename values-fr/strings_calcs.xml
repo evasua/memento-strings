@@ -1,2 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_1">Arc cosinus d\'un angle</string>
+    <string name="math_func_desc_2">Arc sinus d\'un angle</string>
+    </resources>
