@@ -1,2 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_2">قوس جيب الزاوية.</string>
+    <string name="math_func_desc_1">قوس جيب تمام الزاوية.</string>
+    <string name="math_func_desc_0">القيمة المطلقة للقيمة المضاعفة.</string>
+    <string name="math_func_desc_3">قوس ظل الزاوية.</string>
+    <string name="math_func_desc_4">هذه المعادلة تقوم بتحويل الإحداثيات المتعامدة إلى قطبية</string>
+    <string name="math_func_desc_5">قيمة السقف للقيمة المضاعفة</string>
+    <string name="math_func_desc_6">جيب تمام الزاوية المثلثي</string>
+    <string name="math_func_desc_8">أقل قيمة للقيمة المضاعفة.</string>
+    <string name="math_func_desc_10">الأكبر من قيمتين مضاعفتين</string>
+    <string name="math_func_desc_11">الأصغر من قيمتين مضاعفتين</string>
+    <string name="math_func_desc_7">الرقم الأسي e (مثال، 2.718...) مرفوع إلى أس القيمة المضاعفة</string>
+    <string name="math_func_desc_9">اللوغاريتم الطبيعي (الأساس e) للقيمة المضاعفة</string>
+    <string name="math_func_desc_12">قيمة المعامل الأول مرفوع للأس الثاني من المعامل الثاني</string>
+    <string name="math_func_desc_13">القيمة المضاعفة الأقرب لقيمة المعامل ومساوية للعد الصحيح الحسابي</string>
+    <string name="math_func_desc_14">المدى القريب للقيمة المضاعفة</string>
+    <string name="math_func_desc_15">جيب الزاوية</string>
+    <string name="math_func_desc_16">مريع القيمة المضاعفة</string>
+    <string name="math_func_desc_17">ظل الزاوية المثلثي</string>
+    <string name="math_func_desc_18">المعادلة تقوم بالتحويل من قياس الزاوية بالراديان إلى قيمة مساوية بالدرجات</string>
+	<string name="math_func_desc_19">المعادلة تقوم بالتحويل من قياس الزاوية بالدرجات إلى قيمة مساوية بالراديان.</string>  	
+ 	
+ 	
+
+	 <string name="function_args_compareto"> <b>المتغيرات:</b> المعامل الأول هو السلسلة الأولى للمقارنة والمعامل الثاني هو السلسلة الثانية للمقارنة.<br/> <b>النتائج:</b> إذا كانت السلاسل متساوية يكون الناتج صفر, إذا كانت السلسلة الأولى تسبق السلسلة الثانية يكون الناتج أقل من الصفر أو إذا كانت السلسلة الأولى تتبع السلسلة الثانية يكون الناتج أكبر من الصفر. </string>
+	 
+	 <string name="function_args_comparetoignorecase"> <b>المتغيرات:</b> المعامل الأول هو السلسلة الأولى للمقارنة والمعامل الثاني هو السلسلة الثانية للمقارنة.<br/> <b>النتائج:</b> إذا كانت السلاسل متساوية يكون الناتج صفر, إذا كانت السلسلة الأولى تسبق السلسلة الثانية يكون الناتج أقل من الصفر أو إذا كانت السلسلة الأولى تتبع السلسلة الثانية يكون الناتج أكبر من الصفر. </string>
+	 
+	 </resources>
