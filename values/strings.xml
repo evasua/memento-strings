@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Add an entry</string>
@@ -187,7 +187,7 @@
     <string name="button_add_fill_field">Add a completion rule</string>
     <string name="barcode_auto_fill_checkbox">Field autocompletion</string>
     <string name="add_fill_field_dialog_title">Creating an autocompletion rule</string>
-    <string name="memento_field">It will be saved to the entry field</string>
+    <string name="memento_field">It will be saved to the field</string>
     <string name="memento_field_promt">Library entry fields</string>
     <string name="uniquery_check_fail">A library can contain only one field of the "%s" type</string>
     <string name="to">to</string>
@@ -390,7 +390,7 @@
     <string name="help_subscribe">Subscribing to libraries</string>
     <string name="lib_protection">Library protection</string>
     <!-- 1.6.0 -->
-    <string name="set_library_protection">Set up protection</string>
+    <string name="set_library_protection">Protection</string>
     <string name="set_master_pass_text">Set up a master password for accessing libraries.\nYou will have to enter this password to access encrypted libraries.</string>
     <string name="master_pass_hint">Password</string>
     <string name="master_pass_hint2">Repeat password</string>
@@ -860,7 +860,7 @@
     <!-- 2.5.2 -->
     <string name="download_image_from_google_photo_message">Downloading the image from Google Photo ...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Data from the Web will be entered to entry fields</string>
-    <string name="google_base_field_new">Product attribute value from source</string>
+    <string name="google_base_field_new">Attribute value from source</string>
     <string name="wrong_search_query_string_1">Search query cannot start with \"-\"</string>
     <string name="link_master_library_not_found">Sorry, the library what linked to this field is not found</string>
     <!-- 2.6.2 -->
@@ -1266,5 +1266,41 @@
 	<string name="clear_search_history_hint">Remove all the searches you have performed</string>
 	<string name="success_clear_search_history">Your search history was cleared</string>	
 	<string name="clear_search_history_quest">Are you sure you want to clear search history?</string>
-		        	
+	<string name="uservoice_menu_title">UserVoice</string>
+	<string name="view_csv_error_dialog_message">Sorry, but application for viewing csv-file does not found</string>
+	
+	<!-- 3.6.0 -->
+	<string name="edit_library_tabs_autofill">Autofill</string>
+	<string name="autofill_from">from %s</string>
+	<string name="autofill_by_barcode">By barcode</string>
+	<string name="autofill_by_title">By title</string>
+	<string name="autofill_need_barcode_field">In order to autofill your library by barcode it must contain the \"Barcode\" field. How do you create this?</string>
+	<string name="autofill_need_text_field">In order to autofill your library by title it must contain the \"Text\" field. How do you create this?</string>
+	<string name="autofill_select_master_field">Input field for search</string>
+	<string name="autofill_rules_title">Autofill rules</string>
+	<string name="music_brainz_source_artist">Music artists</string>
+    <string name="music_brainz_source_album">Albums</string>
+	<string name="music_brainz_source">musicbrainz.org</string>
+	<string name="unknown_data_source">Unknown source</string>
+    <string name="google_books_source">Google Books</string>
+    <string name="google_books_source_books">Books</string>
+    <string name="themoviedb_source">themoviedb.org</string>
+    <string name="themoviedb_source_movies">Movies</string>
+    <string name="themoviedb_source_tv">TV</string>
+
+    <string name="autofill_rules_delete_title">Delete the autofill rules</string>
+    <string name="autofill_rules_delete_text">Are you sure you want to delete the autofill rules from source \"%s\" ?</string>
+    <string name="empty_autofill_list_text">Create autofill rules for data records from the Internet</string>
+    <string name="empty_autofill_rules_list_text">Match source attributes and library fields</string>
+    <string formatted="false" name="movie_cast_person_item">%s as %s</string>
+
+    <string name="copy_library_structure_menu_item">Structure only</string>
+    <string name="copy_all_library_menu_item">Structure and entries</string>
+    <string name="copying_entries">Copying entries ...</string>
+
+    <string name="encryption_for_cloud_uploaded_library">Library encryption can only be activated before its uploaded to cloud.</string>
+    <string name="decryption_for_cloud_uploaded_library">Encryption deactivation for uploading to the library\'s cloud is not supported. First remove the library from the cloud.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Library copies on the cloud were encrypted.\nDelete the library\'s local copy, and then download the library again from cloud.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Library copies on the cloud were decrypted.\nDelete the library\'s local copy, and then download the library again from cloud.</string>
+			        	
 </resources>
