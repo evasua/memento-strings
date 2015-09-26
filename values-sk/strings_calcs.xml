@@ -1,2 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_0">Absolútna hodnota hodnoty double.</string>
+    <string name="math_func_desc_1">Arkus kosínus uhla.</string>
+    <string name="math_func_desc_2">Arkus sínus uhla.</string>
+    <string name="math_func_desc_3">arkus tangens uhla.</string>
+    <string name="math_func_desc_4">Funkcia prevádza pravouhlé súradnice na polárne</string>
+    <string name="math_func_desc_5">Na vrch zaokrúhlená hodnota hodnoty double</string>
+    <string name="math_func_desc_6">Trigonometrický kosínus uhla</string>
+    <string name="math_func_desc_7">Exponenciálne číslo e (teda, 2.718...) umocnené double hodnotou</string>
+    <string name="math_func_desc_8">Na spodok zaokrúhlená hodnota hodnoty double.</string>
+    <string name="math_func_desc_9">Prirodzený logaritmus (základu e) hodnoty double</string>
+    <string name="math_func_desc_10">Väčšia z dvoch double hodnôt</string>
+    <string name="math_func_desc_11">Menšia z dvoch double hodnôt</string>
+    <string name="math_func_desc_12">Hodnota prvého argumentu umocnená hodnotou druhého argumentu</string>
+    <string name="math_func_desc_13">Hodnota double, ktorá je najbližšie k argumentu a je rovná matematickému celému číslu</string>
+    <string name="math_func_desc_14">Najbližšia long k double hodnote</string>
+    <string name="math_func_desc_15">Sínus uhla</string>
+    <string name="math_func_desc_16">Druhá odmocnina hodnoty double</string>
+    <string name="math_func_desc_17">Trigonometrický tangens uhla</string>
+    <string name="math_func_desc_18">Funkcia prevedie uhol meraný v radiánoch na odpovedajúci uhol meraný v stupňoch</string>
+	<string name="math_func_desc_19">Funkcia prevedie uhol meraný v stupňoch na odpovedajúci uhol meraný v radiánoch.</string>  	
+ 	
+ 	
+
+	 <string name="function_args_compareto"> <b>Parametre:</b> Prvý argument je prvý reťazec na porovnanie a druhý argument je druhý reťazec na porovnanie.<br/> <b>Vracia::</b> Vracia integer hodnotu nuly ak reťazce sú rovnaké, integer hodnotu menšiu ako nula ak prvý reťazec predchádza druhý reťazec, alebo integer hodnotu väčšiu ako nula ak prvý reťazec nasleduje druhý reťazec. </string>
+	 
+	 <string name="function_args_comparetoignorecase"> <b>Parametre:</b> Prvý argument je prvý reťazec na porovnanie a druhý argument je druhý reťazec na porovnanie.<br/> <b>Vracia::</b> Vracia integer hodnotu nuly ak reťazce sú rovnaké, integer hodnotu menšiu ako nula ak prvý reťazec predchádza druhý reťazec, alebo integer hodnotu väčšiu ako nula ak prvý reťazec nasleduje druhý reťazec. </string>
+	 
+	 <string name="function_args_concat"> <b>Parametre:</b> Prvý argument je reťazec ku ktorému bude druhý reťazec pripojený.<br/> <b>Vracia::</b> Vracia reťazec, ktorý je vytvorený spojením prvého reťazca nasledovaným druhým reťazcom. </string>
+	 
+	 <string name="function_args_endswith"> <b>Parametre:</b> Prvý argument je reťazec na preverenie a druhý argument je prípona.<br/> <b>Vracia::</b> Vracia 1.0 (true) ak reťazec končí s príponou, inak vracia 0.0 (false). </string>	 
+	 
+	 <string name="function_args_equals"> <b>Parametre:</b> Prvý argument je reťazec, ktorý bude porovnaný s reťazcom druhého argumentu.<br/> <b>Vracia::</b> Vracia 1.0 (true) ak reťazce sú rovnaké, ináč vracia 0.0 (false). </string>	 	 
+	 
+	 <string name="function_args_equalsignorecase"> <b>Parametre:</b> Prvý argument je reťazec, ktorý bude porovnaný s reťazcom druhého argumentu.<br/> <b>Vracia::</b> Vracia 1.0 (true) ak reťazce sú rovnaké, ináč vracia 0.0 (false). </string>	 	
+	 
+	 <string name="function_args_indexof"> <b>Parametre:</b> Prvý argument je zdrojový reťazec, druhý argument je podreťazec a tretí argument je index.<br/> <b>Vracia::</b> Vracia index, kde bol podreťazec nájdený. Ak podreťazec nebol nájdený, potom je vrátená hodnota -1. </string>	 	
+	 
+	 
+	 <string name="function_args_replace"> <b>Parametre:</b> Prvý argument je zdrojový reťazec,v ktorom budú menené písmená. Druhý argument je pôvodné písmeno, ktoré má byť zmenené v zdrojovom reťazci. Tretí argument  je nové písmeno, ktoré nahradí pôvodné písmeno v zdrojovom reťazci. <br/> <b>Vracia::</b> Vracia reťazec so všetkými výskytmi pôvodného písmena zamenenými za nové písmená. </string>	
+	 
+	 <string name="function_args_startswith"> <b>Parametre:</b> Prvý argument je reťazec, ktorý bude testovaný, druhý argument je predpona a tretí argument je index na ktorom sa začína.<br/> <b>Vracia::</b> Vracia 1.0 (true) ak reťazec začína s predponou, ináč vracia 0.0 (false). </string>	 
+	 
+	 <string name="function_args_substring"> <b>Parametre:</b> Prvý argument je zdrojový reťazec, druhý argument je počiatočný index a tretí argument je konečný index.<br/> <b>Vracia::</b> Vracia špecifikovaný podreťazec. </string>	 	 	 
+	 	 	
+	 	 
+</resources>
