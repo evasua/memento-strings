@@ -215,8 +215,7 @@ pola</string>
 autouzupełniania</string>
     <string name="barcode_auto_fill_checkbox">Pole autouzupełniania</string>
     <string name="add_fill_field_dialog_title">Tworzenie zasady autouzupełniania</string>
-    <string name="memento_field">Zostanie to zachowane w polach
-rekordu</string>
+    <string name="memento_field">Zostanie to zapisane w polu</string>
     <string name="memento_field_promt">Pola rekordu bazy</string>
     <string name="uniquery_check_fail">Baza może zawierać tylko jedno pole typu %s</string>
     <string name="to">do</string>
@@ -467,7 +466,7 @@ wysłania...</string>
     <string name="send_all_text">Wyślij jako tekst</string>
     <string name="flex_type_time">Godzina</string>
     <!-- 1.6.0 -->
-    <string name="set_library_protection">Ustawienia zabezpieczeń</string>
+    <string name="set_library_protection">Zabezpieczenia</string>
     <string name="set_master_pass_text">Ustaw hasło główne dostępu do baz.\nW celu dostępu do chronionych baz będziesz musiał wprowadzać to hasło.</string>
     <string name="master_pass_hint">Hasło</string>
     <string name="master_pass_hint2">Powtórz hasło</string>
@@ -919,7 +918,7 @@ wysłania...</string>
     <string name="need_internet_for_charts">Wykresy Google wymagają aktywnego połączenia z internetem</string>
     <string name="download_image_from_google_photo_message">Pobieranie obrazu z Google Foto...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Dane ze strony www będą dodane w pola wpisu</string>
-    <string name="google_base_field_new">Wartość atrybutu produktu ze źródła</string>
+    <string name="google_base_field_new">Wartość atrybutu ze źródła</string>
     <string name="wrong_search_query_string_1">Łańcuch wyszukiwania nie może rozpoczynać się od \"-\"</string>
     <string name="link_master_library_not_found">Przepraszamy, baza połączona z tym polem nie została odnaleziona</string>
     <string name="sync_with_google_drive_dont_support">Twoja wersja Androida nie obsługuje synchronizacji z Google Drive</string>
@@ -1358,4 +1357,42 @@ wysłania...</string>
 	<string name="success_clear_search_history">Historia wyszukiwania została wyczyszczona</string>	
 	<string name="clear_search_history_quest">"Jesteś pewien,  że chcesz wyczyścić historię wyszukiwania?"</string>
 		        	
+<string name="uservoice_menu_title">Głos Użytkowników</string>
+	<string name="view_csv_error_dialog_message">Przepraszamy, aplikacja do poglądu plików csv nie znaleziona</string>
+	
+	<string name="edit_library_tabs_autofill">Autouzupełnianie</string>
+	<string name="autofill_from">z %s</string>
+	<string name="autofill_by_barcode">Przez kod kreskowy</string>
+	<string name="autofill_by_title">Przez tytuł</string>
+	<string name="autofill_need_barcode_field">Aby autowypełnić bibliotekę po kodzie kreskowym, musi ona posiadać pole \"Kod kreskowy\". Utworzyć teraz?</string>
+	<string name="autofill_need_text_field">Aby autowypełnić bibliotekę po tytule, musi ona zawierać pole \"Tekst\". Utworzyć teraz?</string>
+	<string name="autofill_select_master_field">Wpisz pole do wyszukiwania</string>
+	<string name="autofill_rules_title">Reguły Autouzupełniania</string>
+	<string name="music_brainz_source_artist">Artysta muzyczny</string>
+    <string name="music_brainz_source_album">Albumy</string>
+	<string name="music_brainz_source">musicbrainz.org</string>
+	<string name="unknown_data_source">Źródło nieznane</string>
+    <string name="google_books_source">Książki Google</string>
+    <string name="google_books_source_books">Książki</string>
+    <string name="themoviedb_source">themoviedb.org</string>
+    <string name="themoviedb_source_movies">Filmy</string>
+    <string name="themoviedb_source_tv">TV</string>
+
+    <string name="autofill_rules_delete_title">Usuń reguły autouzupełniania</string>
+    <string name="autofill_rules_delete_text">Jesteś pewien, że chcesz usunąć reguły autouzupełniania ze źródła \"%s\" ?</string>
+    <string name="empty_autofill_list_text">Utwórz reguły autouzupełniania danych z internetu</string>
+    <string name="empty_autofill_rules_list_text">Sparuj atrybuty źródła z polami biblioteki</string>
+    <string formatted="false" name="movie_cast_person_item">%s jak %s</string>
+
+    <string name="copy_library_structure_menu_item">Tylko struktura</string>
+    <string name="copy_all_library_menu_item">Struktura i wpisy</string>
+    <string name="copying_entries">Kopiowanie wpisów...</string>
+
+    <string name="encryption_for_cloud_uploaded_library">Szyfrowanie biblioteki może zostać aktywowane tylko przed wysłaniem w Chmurę.</string>
+    <string name="decryption_for_cloud_uploaded_library">Dezaktywacja szyfrowania dla wysyłania biblioteki w Chmurę niemożliwa. Najpierw usuń bibliotekę z Chmury .</string>
+    <string name="need_reload_library_from_cloud_encrypted">Biblioteki skopiowane do Chmury zostały zaszyfrowane.
+\nUsuń lokalne kopie bibliotek, a następnie pobierz ponownie biblioteki z Chmury.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Kopie bibliotek w Chmurze zostały odszyfrowane.
+\nUsuń lokalne kopie bibliotek, a następnie pobierz ponownie biblioteki z Chmury.</string>
+			        	
 </resources>
