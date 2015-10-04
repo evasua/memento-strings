@@ -1235,7 +1235,9 @@ wysłania...</string>
 	<string name="cloud_conflict_fix_button_title">Zastosuj</string>
     <plurals name="conflict_count">
 	<item quantity="one">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
-	<item quantity="other">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
+	<item quantity="few">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
+	<item quantity="many"></item>
+	<item quantity="other"></item>
 </plurals>
     <string name="button_select">Wybierz</string>
     <string name="cloud">Chmura</string>
