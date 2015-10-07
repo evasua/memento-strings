@@ -192,7 +192,7 @@
     <string name="button_add_fill_field">Добавяне на правило за запълване</string>
     <string name="barcode_auto_fill_checkbox">Поле за автодовършване</string>
     <string name="add_fill_field_dialog_title">Създаване на правила за автодовършване</string>
-    <string name="memento_field">Ще бъде записано в полето за записи</string>
+    <string name="memento_field">Ще бъде записано в полето</string>
     <string name="memento_field_promt">Полета за въвеждане в библиотеката</string>
     <string name="uniquery_check_fail">Библиотеката може да съдържа само едно поле от тип %s</string>
     <string name="to">до</string>
@@ -385,7 +385,7 @@
     <string name="help_publish">Публикуване на библиотека</string>
     <string name="help_subscribe">Абониране за библиотеки</string>
     <string name="lib_protection">Защита на библиотека</string>
-    <string name="set_library_protection">Настройка на защита</string>
+    <string name="set_library_protection">Защита</string>
     <string name="set_master_pass_text">Създаване на главна парола за достъп до библиотеки.↵\nВие ще трябва да въведете паролата за достъп до криптирани библиотеки.</string>
     <string name="master_pass_hint">Парола</string>
     <string name="master_pass_hint2">Повторете паролата</string>
@@ -820,7 +820,7 @@
     <string name="need_internet_for_charts">Google Charts изисква интернет връзка</string>
     <string name="download_image_from_google_photo_message">Изтегляне на изображение от Google Photo ...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Данните от мрежата ще бъдат въведени в полетата със записи</string>
-    <string name="google_base_field_new">Атрибути на източника</string>
+    <string name="google_base_field_new">Стойности на атрибути на източника</string>
     <string name="wrong_search_query_string_1">Заявката за търсене не може да започва с \"-\"</string>
     <string name="link_master_library_not_found">Свързаната с полето библиотека не е намерена</string>
     <string name="sync_with_google_drive_dont_support">Вашият Android не поддържа синхронизация с Google диск</string>
@@ -1202,4 +1202,33 @@
 	<string name="default_file_manager_built_in">вграден</string>	
 	<string name="clear_search_history">Изчистване историята на търсенето</string>
 	<string name="clear_search_history_hint">Премахване на всички търсения, които сте изпълнявали</string>
-	</resources>
+	<string name="start_upload_library_to_cloud">Качване на библиотека...</string>	
+	<string name="success_upload_library_to_cloud">Библиотеката е качена успешно.\nБиблиотеката ще се синхронизира автоматично.</string>
+	<string name="autofill_select_master_field">Входно поле за търсене</string>
+	<string name="autofill_rules_title">Правила за автоматично попълване</string>
+	<string name="music_brainz_source_artist">Изпълнители</string>
+    <string name="music_brainz_source_album">Албуми</string>
+	<string name="music_brainz_source">musicbrainz.org</string>
+	<string name="unknown_data_source">Неизвестен източник</string>
+    <string name="google_books_source">Google Книги</string>
+    <string name="google_books_source_books">Книги</string>
+    <string name="themoviedb_source">themoviedb.org</string>
+    <string name="themoviedb_source_movies">Филми</string>
+    <string name="autofill_rules_delete_title">Изтриване на правилата за автоматично попълване</string>
+    <string name="autofill_rules_delete_text">Сигурни ли сте, че искате да изтриете правилата за автоматично попълване от източник \"%s\" ?</string>
+    <string name="themoviedb_source_tv">TV</string>
+
+    <string name="empty_autofill_list_text">Създаване на правила за автоматично попълване на записи от интернет</string>
+    <string name="empty_autofill_rules_list_text">Сдвояване на атрибутите на източника и библиотечните полета</string>
+    <string formatted="false" name="movie_cast_person_item">%s като %s</string>
+
+    <string name="copy_library_structure_menu_item">Само структура</string>
+    <string name="copy_all_library_menu_item">Структура и записи</string>
+    <string name="copying_entries">Копиране на записи ...</string>
+
+    <string name="encryption_for_cloud_uploaded_library">Криптирането но библиотеката може да се активира само преди да е качена в облак.</string>
+    <string name="decryption_for_cloud_uploaded_library">Деактивиране на криптирането за качване на облак на библиотеката не се поддържа. Първо премахнете библиотеката от облака.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Копията на библиотеката в облака са криптирани.\nИзтрийте локалното копие на библиотеката и след това изтеглете библиотеката отново от облака.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Копията на библиотеката в облака са декриптирани.\nИзтрийте локалното копие на библиотеката и след това изтеглете библиотеката отново от облака.</string>
+			        	
+</resources>
