@@ -187,7 +187,7 @@
     <string name="button_add_fill_field">Aggiungi una regola per l\'autocompletamento</string>
     <string name="barcode_auto_fill_checkbox">Autocompletamento</string>
     <string name="add_fill_field_dialog_title">Crea una regola per l\'autocompletamento</string>
-    <string name="memento_field">Verrà salvato nel campo dell\'elemento</string>
+    <string name="memento_field">Verrà salvato nel campo</string>
     <string name="memento_field_promt">Campi associati agli elementi della libreria</string>
     <string name="uniquery_check_fail">Una libreria non può contenere più di un campo di tipo "%s"</string>
     <string name="to">a</string>
