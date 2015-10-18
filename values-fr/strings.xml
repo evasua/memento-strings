@@ -187,7 +187,7 @@
     <string name="button_add_fill_field">Ajouter une règle de complétion</string>
     <string name="barcode_auto_fill_checkbox">Champ autocomplété</string>
     <string name="add_fill_field_dialog_title">Créer une règle d\'autocomplétion</string>
-    <string name="memento_field">Il sera sauvegardés vers le champ de l\'enregistrement</string>
+    <string name="memento_field">Il sera sauvegardé dans le champ</string>
     <string name="memento_field_promt">Champs des enregistrements de la base</string>
     <string name="uniquery_check_fail">Une base ne peut contenir seulement un champ de type "%s"</string>
     <string name="to">vers</string>
@@ -379,7 +379,7 @@
     <string name="send_all_text">Envoyer en format texte</string>
     <string name="flex_type_time">Heure</string>
     <!-- 1.6.0 -->
-    <string name="set_library_protection">Protéger</string>
+    <string name="set_library_protection">Protection</string>
     <string name="set_master_pass_text">Configurer un mot de passe principal pour accéder aux bases.\nVous devrez entrer ce mot de passe pour accéder aux bases chiffrées.</string>
     <string name="master_pass_hint">Mot de passe</string>
     <string name="master_pass_hint2">Repétez votre mot de passe</string>
@@ -1049,7 +1049,7 @@
     <string name="no_data_for_chart">Pas de données</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Les données du Web peupleront les champs des enregistrements</string>
     <string name="icon_pack_title_field_material">Matériel</string>
-    <string name="google_base_field_new">Valeur de l\'attribut du produit d\'après la source</string>
+    <string name="google_base_field_new">Valeur de l\'attribut d\'après la source</string>
     <string name="icon_pack_title_field_general_flat">Général</string>
     <string name="single_line_options_title">Ligne simple↵\nchamp texte</string>
     <string name="reminders_count_limit">Vous pouvez ajouter un maximum de 10 rappels par champ</string>
@@ -1225,4 +1225,11 @@
 	<string name="success_clear_search_history">Votre historique de recherche a été effacé</string>	
 	<string name="clear_search_history_quest">Etes-vous sûr de vouloir effacer votre historique de recherche ?</string>
 		        	
-</resources>
+<string name="remove_from_old_public">Avant le téléversement de la base vers le nuage, elle sera dépubliée si elle a été publiée par des méthodes obsolètes.</string>
+	<string name="catalog_templates_title">Catalogue en ligne</string>
+	<string name="catalog_templates_hint">Plus de 3000 modèles</string>
+	<string name="add_lib_from_google_drive_hint">Restaurer depuis Google Drive</string>
+	<string name="uservoice_menu_title">Voix utilisateur</string>
+	<string name="view_csv_error_dialog_message">Désolé, l\'application pour visualiser les fichiers csv est introuvable</string>
+	
+	</resources>
