@@ -161,7 +161,7 @@
     <string name="csvimport_summary">Importer les enregistrements depuis un fichier .csv</string>
     <string name="select_csv_file_title">Fichiers .csv dans le répertoire memento</string>
     <string name="button_import">Importer</string>
-    <string name="button_export">Export</string>
+    <string name="button_export">Exporter</string>
     <string name="find_csv_column_title">Enregistrements trouvés dans le fichier sélectionné :</string>
     <string name="not_find_csv_column_title">Aucun champ n\'a été trouvé dans le fichier sélectionné.</string>
     <string name="csv_delimiter_text">Les valeurs doivent être séparées par une virgule (,)</string>
@@ -1211,7 +1211,7 @@
 
 		        	
 <string name="select_template_title">Choisir un modèle</string>
-	<string name="empty_library_title">Effacer le contenu de la base</string>
+	<string name="empty_library_title">Base vide</string>
 	<string name="templates">Modèles</string>
 	<string name="import_template_from_file_hint">Importer un modèle depuis un fichier</string>
 	<string name="help_cloud">Stockage en nuage et Collaboration</string>
