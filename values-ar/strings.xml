@@ -1,2 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">ميمينتو</string>
+    <string name="library_menu_add_item">إضافة مدخل</string>
+    <string name="main_menu_add_lib">إضافة مكتبة</string>
+    <string name="ghostData_lib_title">اسم المكتبة</string>
+    <string name="custom_template_title">مخصص</string>
+    <string name="button_create">إنشاء</string>
+    <string name="button_yes">نعم</string>
+    <string name="button_ok">موافق</string>
+    <string name="button_no">لا</string>
+    <string name="button_save">حفظ</string>
+    <string name="button_cancel">إلغاء</string>
+    <string name="button_add_field">إضافة حقل</string>
+    <string name="add_new_library_item">إضافة مدخل …</string>
+    <string name="flex_type_title_string">نص</string>
+    <string name="flex_type_title_int">عدد صحيح</string>
+    <string name="flex_type_title_bool">مربع اختيار</string>
+    <string name="flex_type_title_date">تاريخ</string>
+    <string name="flex_type_title_date_time">تاريخ/توقيت</string>
+    <string name="flex_type_contact">معلومات اتصال</string>
+    <string name="flex_type_image">صورة</string>
+    <string name="flex_type_string_list">قائمة اختيار</string>
+    <string name="flex_type_audio">صوت</string>
+    <string name="flex_type_money">عملة</string>
+    <string name="flex_type_rating">تقييم</string>
+    <string name="flex_type_web">رابط</string>
+    <string name="flex_type_map">موقع</string>
+    <string name="flex_type_real">عدد حقيقي</string>
+    <string name="field_list_caption">حقول مدخلات المكتبة</string>
+    <string name="flextemplate_up_item">أعلى</string>
+    <string name="flextemplate_down_item">أسفل</string>
+    <string name="flextemplate_edit_item">تعديل</string>
+    <string name="flextemplate_delete_item">حذف</string>
+    <string name="ghostData_template_title">أدخل اسم الحقل</string>
+    <string name="template_title">اسم الحقل</string>
+    <string name="select_flex_template_title">نوع الحقل</string>
+    <string name="select_flex_template_role">وظيفة الحقل</string>
+    <string name="select_create_lib_template">اختر قالب المكتبة</string>
+    <string name="button_next">التالي</string>
+    <string name="select_flex_template_type">نوع الحقل</string>
+    <string name="default_value">القيمة الافتراضية</string>
+    <string name="flex_template_options_title">المتغيرات المتقدمة</string>
+    <string name="error_template_empty_title">اكتب اسم الحقل</string>
+    <string name="error_library_withous_name_flex">المكتبة يجب أن تحتوي على حقل واحد على الأقل بوظيفة - \"اسم\".</string>
+    <string name="select_library_icon_activity">اختر ايقونة للمكتبة</string>
+    <string name="select_flex_template_role_title">وظيفة الحقل</string>
+    <string name="library_edit2">تحرير المكتبة</string>
+    <string name="library_edit">تحرير</string>
+    <string name="library_delete">حذف</string>
+    <string name="library_delete_message_title">حذف المكتبة</string>
+    </resources>
