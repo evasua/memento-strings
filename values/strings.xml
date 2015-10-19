@@ -435,21 +435,17 @@
     <string name="flex_type_email">Email</string>
     <string name="email_chooser_title">Select email application</string>
     <string name="choose_own_icon_text">Choose your own icon</string>
-    <string name="font_size_screen_preference">Font size</string>
-    <string name="font_size_screen_preference_summary">The size of fonts in the entry and in the entries list</string>
+    <string name="font_size_screen_preference">Fonts</string>
+    <string name="font_size_screen_preference_summary">The fonts in the entry and in the entries list</string>
     <string name="font_size_category_entries_list">Fonts in the list of entries</string>
     <string name="font_size_category_entries_card">Fonts in the entry</string>
     <string name="font_size_dialog">Font Size</string>
     <string name="entry_name_font_size_preference">Entry name</string>
-    <string name="entry_name_font_size_preference_summary">Set font size for name</string>
     <string name="entry_desc_font_size_preference">Entry description</string>
-    <string name="entry_desc_font_size_preference_summary">Set font size for description</string>
     <string name="entry_status_font_size_preference">Entry status</string>
-    <string name="entry_status_font_size_preference_summary">Set font size for status</string>
     <string name="entry_field_title_font_size_preference">Field name</string>
-    <string name="entry_field_title_font_size_preference_summary">Set font size for field name</string>
     <string name="entry_field_value_font_size_preference">Field value</string>
-    <string name="entry_field_value_font_size_preference_summary">Set font size for field value</string>
+
     <!-- 1.7.0 -->
     <string name="flex_type_calc">Calculation</string>
     <string name="flex_type_calc_option_header">Expression</string>
@@ -1240,7 +1236,7 @@
 	<string name="library_not_found_by_uri">Library not found</string>
 	<string name="upload_to_cloud_offer_title">{cloud ready...}</string>
 	<string name="upload_to_cloud_offer_text">&#8226; Teamwork\n&#8226; Sync across devices\n&#8226; Backup are always in the cloud</string>
-	<string name="button_no_thanks">No thanks</string>
+	<string name="button_no_thanks">No, thanks</string>
 	<string name="button_upload">Upload</string>
 	
 	<!-- 3.5.0 beta2 -->
@@ -1302,5 +1298,50 @@
     <string name="decryption_for_cloud_uploaded_library">Encryption deactivation for uploading to the library\'s cloud is not supported. First remove the library from the cloud.</string>
     <string name="need_reload_library_from_cloud_encrypted">Library copies on the cloud were encrypted.\nDelete the library\'s local copy, and then download the library again from cloud.</string>
     <string name="need_reload_library_from_cloud_decrypted">Library copies on the cloud were decrypted.\nDelete the library\'s local copy, and then download the library again from cloud.</string>
-			        	
+
+    <!--3.7.0 -->
+    <string name="render_pdf_menu_item">Save as PDF</string>
+    <string name="entry_saved_as_pdf_success">PDF created successfully</string>
+    <string name="one_row_with_previous">One row with prev</string>
+    <string name="protected_libraries_not_show_in_widget">Protected library can not be displayed in the widget</string>
+    <string name="widget_free_limit_item_text">All entries can be displayed only to PRO-version owners</string>
+    <string name="rate_me_dialog_title">Love using Memento?</string>
+    <string name="rate_me_dialog_text">Please rate us in the Google Play</string>
+    <string name="button_rate_now">Rate now</string>
+    <string name="button_ask_later">Ask me later</string>
+    <string name="flex_type_radiobuttons">Radio Buttons</string>
+    <string name="flex_type_checkboxes">Checkboxes</string>
+    <string name="field_orientation_option_title">Orientation</string>
+    <string name="field_orientation_option_horizontal">Horizontal</string>
+    <string name="field_orientation_option_vertical">Vertical</string>
+    <string name="preparing_files_for_sending">Preparing files for sending ...</string>
+    <string name="whats_new_dialog_title">What\'s New?</string>
+    <string name="font_size">Size</string>
+    <string name="font_family">Family</string>
+    <string name="font_style">Style</string>
+    <string name="font_color">Color</string>
+    <string name="font_picker_dialog_title">Font</string>
+    <string name="font_style_normal">Normal</string>
+    <string name="font_style_bold">Bold</string>
+    <string name="font_style_italic">Italic</string>
+    <string name="font_style_bold_italic">Bold Italic</string>
+    <string name="font_sample">Sample</string>
+    <string name="font_sample_text">The quick brown fox jumped over the lazy dog.</string>
+    <string name="font_default_title">Default font</string>
+    <string name="choice_item_use_color_for_text">Use color for text</string>
+    <string name="rating_tooltips">Tooltips</string>
+    <string name="rating_tooltips_hint">Tooltip</string>
+    <string name="rating_tooltips_empty">Field doesn\'t have tooltips</string>
+    <plurals name="rating_tooltips_count">
+        <item quantity="zero">%d tooltip</item>
+        <item quantity="one">%d tooltip</item>
+        <item quantity="other">%d tooltips</item>
+    </plurals>
+    <string name="calculator">Calculator</string>
+    <string name="calculator_options_hint">Add a button to display the calculator</string>
+    <string name="filter_by_number">Filter by number</string>
+    <string name="filter_by_string">Filter by string</string>
+    <string name="multiediting_only_in_pro">Editing of multiple entries is available only for PRO-version owners.</string>
+    <string name="multiediting_title">Multi-editing</string>
+    
 </resources>
