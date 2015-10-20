@@ -1343,5 +1343,6 @@
     <string name="filter_by_string">Filter by string</string>
     <string name="multiediting_only_in_pro">Editing of multiple entries is available only for PRO-version owners.</string>
     <string name="multiediting_title">Multi-editing</string>
+    <string name="select_all">Select All</string>
     
 </resources>
