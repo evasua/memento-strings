@@ -255,7 +255,7 @@
     <string name="public_to_picasa_create_album">Création d\'un album Picasa pour la base publiée</string>
     <string name="public_to_picasa_success">Les images ont été téléchargées vers Picasa</string>
     <string name="picasa_task_step_auth">Connexion à Picasa</string>
-    <string formatted="false" name="picasa_send_image_step">Téléchargement des images de la base vers Picasa. %s sur %s</string>
+    <string formatted="false" name="picasa_send_image_step">Téléchargement des images de la base vers Picasa. %s de %s</string>
     <string name="public_library">Publier la base</string>
     <string name="update_public_library">Mettre à jour la publication</string>
     <string name="memento_register_account_title">Création d\'un compte\nsur le serveur Memento</string>
@@ -425,7 +425,7 @@
     <string name="license_wrong">La licence PRO ne correspond pas à votre compte Google</string>
     <string name="flex_type_email">Email</string>
     <string name="choose_own_icon_text">Choissez votre propre icône</string>
-    <string name="font_size_screen_preference">Taille de la police</string>
+    <string name="font_size_screen_preference">Polices</string>
     <string name="font_size_dialog">Taille de la police</string>
     <string name="entry_name_font_size_preference_summary">Choisir la taille de la police pour le nom</string>
     <string name="entry_desc_font_size_preference_summary">Choisir la taille de la police pour la description</string>
@@ -821,7 +821,7 @@
     <string name="move">Déplacer</string>
     <string name="library_group_view_type_small_tile">Petites vignettes</string>
     <string name="library_group_view_type_big_tile">Grandes vignettes</string>
-    <string name="font_size_screen_preference_summary">Taille de la police dans les enregistrements et les listes d\'enregistrements</string>
+    <string name="font_size_screen_preference_summary">Polices des enregistrements et des listes d\'enregistrements</string>
     <string name="flex_type_calc">Champ calculé</string>
     <string name="clear">Effacer</string>
     <string name="scale_dialog">Décimales du résultat</string>
@@ -1201,7 +1201,7 @@
 	<string name="library_not_found_by_uri">Base non trouvée</string>
 	<string name="upload_to_cloud_offer_title">{Cloud ready...}</string>
 	<string name="upload_to_cloud_offer_text">• Travail en équipe↵\n• Synchronisation entre matériels↵\n• Sauvegarde toujours présente dans le nuage</string>
-	<string name="button_no_thanks">Non merci</string>
+	<string name="button_no_thanks">Non, merci</string>
 	<string name="button_upload">Téléverser</string>
 	
 	<string name="cant_upload_file_to_cloud">Le téléversement de(s) fichier(s) a échoué.</string>
@@ -1229,7 +1229,83 @@
 	<string name="catalog_templates_title">Catalogue en ligne</string>
 	<string name="catalog_templates_hint">Plus de 3000 modèles</string>
 	<string name="add_lib_from_google_drive_hint">Restaurer depuis Google Drive</string>
-	<string name="uservoice_menu_title">Voix utilisateur</string>
+	<string name="uservoice_menu_title">Suggérer</string>
 	<string name="view_csv_error_dialog_message">Désolé, l\'application pour visualiser les fichiers csv est introuvable</string>
 	
-	</resources>
+	<string name="edit_library_tabs_autofill">Autoremplissage</string>
+	<string name="autofill_from">de %s</string>
+	<string name="autofill_by_barcode">Par code-barres</string>
+	<string name="autofill_by_title">Par titre</string>
+	<string name="autofill_need_barcode_field">Pour l\'autoremplissage par code-barres, la base doit contenir un champ Code-barres. Le créer ?</string>
+	<string name="autofill_need_text_field">Pour l\'autoremplissage par titre, la base doit contenir un champ Titre. Le créer ?</string>
+	<string name="autofill_select_master_field">Champ d\'entrée pour la recherche</string>
+	<string name="autofill_rules_title">Règles d\'autoremplissage</string>
+	<string name="music_brainz_source_artist">Artistes musicaux</string>
+    <string name="music_brainz_source_album">Albums</string>
+	<string name="music_brainz_source">musicbrainz.org</string>
+	<string name="unknown_data_source">Source inconnue</string>
+    <string name="google_books_source">Google Livres</string>
+    <string name="google_books_source_books">Livres</string>
+    <string name="themoviedb_source">themoviedb.org</string>
+    <string name="themoviedb_source_movies">Films</string>
+    <string name="themoviedb_source_tv">TV</string>
+
+    <string name="autofill_rules_delete_title">Supprimer les règles d\'autoremplissage</string>
+    <string name="autofill_rules_delete_text">Etes-vous sûr de supprimer les règles d\'autoremplissage de la source \"%s\" ?</string>
+    <string name="empty_autofill_list_text">Créer des règles d\'autoremplissage pour des données Internet</string>
+    <string name="empty_autofill_rules_list_text">Mettre en relation données source et champs de la base</string>
+    <string formatted="false" name="movie_cast_person_item">%s comme %s</string>
+
+    <string name="copy_library_structure_menu_item">Uniquement la structure</string>
+    <string name="copy_all_library_menu_item">Structure et enregistrements</string>
+    <string name="copying_entries">Copie des enregistrements...</string>
+
+    <string name="render_pdf_menu_item">Sauvegarder en PDF</string>
+    <string name="entry_saved_as_pdf_success">PDF créé</string>
+    <string name="one_row_with_previous">Même ligne que préc</string>
+    <string name="font_style_italic">Italique</string>
+    <string name="font_style_bold">Gras</string>
+    <string name="font_picker_dialog_title">Police</string>
+    <string name="font_style_normal">Normal</string>
+    <string name="font_style_bold_italic">Gras italique</string>
+    <string name="font_sample">Exemple</string>
+    <string name="font_sample_text">Sans exemple, comment enseigner correctement ?</string>
+    <string name="font_default_title">Police par défaut</string>
+    <string name="choice_item_use_color_for_text">Utiliser la couleur pour le texte</string>
+    <string name="encryption_for_cloud_uploaded_library">Le chiffrage de la base ne peut être activé qu\'avant son téléversement dans le nuage.</string>
+    <string name="decryption_for_cloud_uploaded_library">La désactivation du chiffrage de la base en nuage n\'est pas supportée. Retirer d\'abord la base du nuage.</string>
+    <string name="protected_libraries_not_show_in_widget">Les bases protégées ne peuvent pas apparaître dans un widget</string>
+    <string name="widget_free_limit_item_text">Les enregistrements ne peuvent être affichées intégralement que dans la version PRO</string>
+    <string name="rate_me_dialog_title">Vous aimez Memento ?</string>
+    <string name="rate_me_dialog_text">SVP, évaluez-nous sur Google Play</string>
+    <string name="button_rate_now">Evaluer maintenant</string>
+    <string name="button_ask_later">Me redemander plus tard</string>
+    <string name="flex_type_radiobuttons">Boutons radio</string>
+    <string name="flex_type_checkboxes">Cases à cocher</string>
+    <string name="field_orientation_option_title">Orientation</string>
+    <string name="field_orientation_option_horizontal">Horizontale</string>
+    <string name="field_orientation_option_vertical">Verticale</string>
+    <string name="preparing_files_for_sending">Préparation des fichiers pour envoi...</string>
+    <string name="whats_new_dialog_title">Quoi de neuf ?</string>
+    <string name="font_size">Taille</string>
+    <string name="font_family">Famille</string>
+    <string name="font_style">Style</string>
+    <string name="font_color">Couleur</string>
+    <string name="rating_tooltips">Aides</string>
+    <string name="rating_tooltips_hint">Aide</string>
+    <string name="rating_tooltips_empty">Le champ n\'a pas d\'aides</string>
+    <plurals name="rating_tooltips_count">
+	<item quantity="one">%d aide</item>
+	<item quantity="other">%d aides</item>
+</plurals>
+    <string name="calculator">Calculatrice</string>
+    <string name="calculator_options_hint">Ajouter un bouton pour afficher la calculatrice</string>
+    <string name="filter_by_number">Filtrer par nombre</string>
+    <string name="filter_by_string">Filtrer par chaine</string>
+    <string name="multiediting_only_in_pro">L\'édition de plusieurs enregistrements n\'est disponible que dans la version PRO.</string>
+    <string name="multiediting_title">Edition multiple</string>
+    
+<string name="need_reload_library_from_cloud_encrypted">Les copies de la base dans le nuage sont chiffrées.\nSupprimer la copie locale de la base, puis télécharger la base à nouveau depuis le nuage.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Les copies de la base dans le nuage sont déchiffrées.\nSupprimer la copie locale de la base, puis télécharger la base à nouveau depuis le nuage.</string>
+
+    </resources>
