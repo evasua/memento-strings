@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">添加一个条目</string>
     <string name="main_menu_add_lib">添加库</string>
-    <string name="ghostData_lib_title">库的名子</string>
+    <string name="ghostData_lib_title">库的名字</string>
     <string name="custom_template_title">自定义</string>
     <string name="button_create">创建</string>
     <string name="button_yes">是</string>
@@ -16,11 +16,11 @@
     <string name="flex_type_title_string">文本文档</string>
     <string name="flex_type_title_int">整数</string>
     <string name="flex_type_title_bool">布尔</string>
-    <string name="flex_type_title_date">修改时间</string>
+    <string name="flex_type_title_date">日期</string>
     <string name="flex_type_title_date_time">日期/时间</string>
     <string name="flex_type_contact">联系</string>
     <string name="flex_type_image">图像</string>
-    <string name="flex_type_string_list">字符串值</string>
+    <string name="flex_type_string_list">单选列表</string>
     <string name="flex_type_audio">音频</string>
     <string name="flex_type_money">货币</string>
     <string name="flex_type_rating">评级</string>
@@ -33,7 +33,7 @@
     <string name="flextemplate_edit_item">修改</string>
     <string name="flextemplate_delete_item">删除</string>
     <string name="ghostData_template_title">输入字段名字</string>
-    <string name="template_title">字段名子</string>
+    <string name="template_title">字段名字</string>
     <string name="select_flex_template_title">字段类型</string>
     <string name="select_flex_template_role">字段功能</string>
     <string name="select_create_lib_template">选择库模板</string>
@@ -41,8 +41,8 @@
     <string name="select_flex_template_type">字段类型</string>
     <string name="default_value">默认值</string>
     <string name="flex_template_options_title">高级参数</string>
-    <string name="error_template_empty_title">键入字段名子</string>
-    <string name="error_library_withous_name_flex">一个库至少需要含有一个字段有功能 – \"名字\"。</string>
+    <string name="error_template_empty_title">键入字段名字</string>
+    <string name="error_library_withous_name_flex">"一个库至少需要含有一个  \"名字\"字段。"</string>
     <string name="select_library_icon_activity">选择该库的图标</string>
     <string name="select_flex_template_role_title">字段功能</string>
     <string name="library_edit2">编辑此库</string>
