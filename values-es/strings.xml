@@ -390,7 +390,7 @@
     <string name="help_subscribe">Suscribiendose a las librerías</string>
     <string name="lib_protection">Protección de librería</string>
     <!-- 1.6.0 -->
-    <string name="set_library_protection">Definir protección</string>
+    <string name="set_library_protection">Configurar protección</string>
     <string name="set_master_pass_text">Definir contraseña maestra para acceso a librerías.\nDebe introducir esta contraseña para acceder a librerías protegidas.</string>
     <string name="master_pass_hint">Contraseña</string>
     <string name="master_pass_hint2">Repetir contraseña</string>
@@ -436,8 +436,8 @@
     <string name="flex_type_email">Email</string>
     <string name="email_chooser_title">Seleccione una aplicación de email</string>
     <string name="choose_own_icon_text">Elija su propio icono</string>
-    <string name="font_size_screen_preference">Tamaño de fuente</string>
-    <string name="font_size_screen_preference_summary">El tamaño de fuente en la entrada y en la lista de entradas</string>
+    <string name="font_size_screen_preference">Tamaño de la fuente</string>
+    <string name="font_size_screen_preference_summary">El tamaño de la fuente en la entrada y en la lista de entradas</string>
     <string name="font_size_category_entries_list">Fuente en la lista de entradas</string>
     <string name="font_size_category_entries_card">Fuente en la entrada</string>
     <string name="font_size_dialog">Tamaño de fuente</string>
@@ -524,7 +524,7 @@
     <string name="auto_show_soft_keyboard">Mostrar teclado</string>
     <string name="auto_show_soft_keyboard_summary">Cuando se abre formulario - mostrar teclado</string>
     <string name="flex_type_file">Enlazar a archivo</string>
-    <string name="file_size">Tamaño archivo: %sb</string>
+    <string name="file_size">Tamaño archivo: %s</string>
     <string name="file_not_found">No se encuentra archivo</string>
     <string name="select_app">Seleccione una aplicación</string>
     <string name="forum">Foro</string>
@@ -752,7 +752,7 @@
     <string name="accept_button">Acepto</string>
     <string name="sort_by_subtitle">por %s</string>
     <string name="group_by_subtitle">por %s</string>
-    <string name="sliding_hint_text">"ORDENAR, AGRUPAR, FILTRAR  y más"</string>
+    <string name="sliding_hint_text">Deslice de derecha a izquierda\npara el menú avanzado -\norganizar, grupos, filtros, gráficas y mas ...</string>
     <string name="multy_sorting">Ordenar por múltiples campos</string>
     <string name="new_button">Nuevo</string>
     <string name="free_version_entry_page_limit">En la versión gratuita solo puedes crear dos paginas. Actualiza a la versión PRO para eliminar esta limitación.</string>
@@ -1066,7 +1066,7 @@
     <string name="empty_search_result2">Su búsqueda -%s - no encontro ninguna entrada</string>
     <string name="sort_by_time">Ordenar por hora añadido</string>
     <string name="empty_aggregation_list_text">Esta librería no contiene funciones de agregación.</string>
-    <string name="google_base_field_new">Valor del atributo del producto desde origen</string>
+    <string name="google_base_field_new">Valor del atributo desde origen</string>
     <string name="master_library_entries">Entradas desde una biblioteca relacionada</string>
     <string name="empty_list_after_filter">No hay registros que cumplan los criterios del filtro.</string>
     <string name="auto_backup_not_yeat_launched">No ha sido lanzado aun</string>
@@ -1126,4 +1126,170 @@
 	<string name="permissions">Permisos</string>
 	<string name="open_library">Abrir librería</string>
 	<string name="pull_entries_from_cloud_message2" formatted="false">%s de %s entradas procesadas</string>
-	</resources>
+	<string name="success_upload_library_to_cloud2">Puedes hacer accesible tú librería para otros usuarios de Memento en configuración de acceso.</string>	
+	<string name="push_entries_to_cloud_message" formatted="false">Subiendo entradas\n%s de %s entradas procesadas</string>
+	<string name="cloud_conflict_fields_title">Conflictos</string>
+	<string name="cloud_conflict_fix_button_title">Corregir</string>
+    <string name="button_select">Seleccionar</string>
+    <string name="cloud">Nube</string>
+    <string name="library_not_in_cloud">No en la nube</string>
+    <string name="synced">Sincronizado %s</string>
+    <string name="cloud_offline">Sin conexión</string>
+    <string name="cloud_last_sync">Última sincronización</string>
+    <string name="entries">Entradas</string>
+    <string name="cloud_created">Creado</string>
+    <string name="cloud_modified">Modificado</string>
+    <string name="cloud_size">Tamaño</string>
+    <string name="cloud_files_count">Recuento de archivos</string>
+    <string name="cloud_who_has_access">Quien tiene acceso</string>
+    <string name="cloud_server_unavaliable">Memento Cloud Server no esta disponible, compruebe internet en su dispositibo</string>
+    <string name="delete_from_cloud">Eliminar de la nube</string>
+    <string name="delete_from_cloud_message_question">¿De verdad quiere eliminar la biblioteca de la nube?</string>
+        
+    <string name="byteShort">B</string>    
+    <string name="kilobyteShort">KB</string>
+    <string name="megabyteShort">MB</string>
+    <string name="gigabyteShort">GB</string>
+    <string name="button_refresh">Actualizar</string>
+    <string name="cloud_storage_space_text" formatted="false">%s (%s) de %s usados</string>   
+    <string name="start_download_file_from_cloud">Archivo %s sera descargado</string>
+    <string name="upload_file_to_cloud">Cargando archivo...</string>    
+    <string name="upload_files_to_cloud">Cargando archivos</string>
+    <string name="read_permission">Leer</string>      
+    <string name="write_permission">Escribir</string>
+    <string name="create_permission">Crear</string>
+    <string name="delete_permission">Borrar</string>
+    
+    <string name="allow_permission">Permitir</string>
+	<string name="deny_permission">Denegar</string>
+	<string name="only_owner_permission">Solo propietario</string>
+	<string name="user_not_found">Usuario no encontrado</string>
+	<string name="push_error_forbidden">Acceso denegado</string>
+	<string name="button_ignore">Ignorar</string>
+	<string name="button_try_again">Probar otra vez</string>	
+	<string name="cloud_library_forbidden">No tienes permiso para accedes a esta librería</string>
+	<string name="shared_with_me">Compartido conmigo</string>
+	<string name="entry_author">Autor</string>
+	<string name="info_menu_item">Información</string>   
+	<string name="unlimited_libraries">Librerías ilimitados</string>	
+	<string name="adv_free">Sin publicidad</string>
+	<string name="subscription_activation">Activar suscripción ...</string>
+	<string name="subscription_activation_error">Error de activación: %s</string>
+	<string name="google_play_unavaliable">Google Play no esta disponible:(</string>
+	<string name="button_signin">Iniciar sesión</string>
+	<string name="library_alias_menu_item">Alias</string>
+	<string name="library_public_access">Acceso publico</string>
+	<string name="library_public_access_disabled">Deshabilitado</string>
+	<string name="library_access_read_only">Solo lectura</string>
+	<string name="library_access_can_edit">Puede editar</string>
+	<string name="owner">Propietario</string>
+	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
+	<string name="library_not_found_by_uri">Librería no encontrada</string>
+	<string name="button_no_thanks">No, gracias</string>
+	<string name="button_upload">Subir</string>
+	
+	<string name="catalog_templates_title">Catalogo online</string>
+	<string name="catalog_templates_hint">Mas de 3000 plantillas</string>
+	<string name="add_lib_from_google_drive_hint">Restaurar desde Google Drive</string>
+	<string name="templates">Plantillas</string>
+	<string name="import_template_from_file_hint">Importar plantilla desde un archivo</string>
+	<string name="send_formatting_menu_item">Formateando...</string>
+	<string name="pro_for_cloud_storage_title">Suscripción</string>
+	<string name="default_file_manager_pref_title">Administrador de archivos</string>
+	<string name="default_file_manager_built_in">Integrado</string>	
+	<string name="clear_search_history">Borrar historial de busqueda</string>
+	<string name="edit_library_tabs_autofill">Autorellenar</string>
+	<string name="autofill_from">de %s</string>
+	<string name="autofill_by_barcode">Por código de barras</string>
+	<string name="autofill_by_title">Por titulo</string>
+	<string name="autofill_rules_title">Reglas de autorellenado</string>
+	<string name="music_brainz_source_album">Discos</string>
+	<string name="music_brainz_source">musicbrainz.org</string>
+	<string name="unknown_data_source">Origen desconocido</string>
+    <string name="google_books_source">Google Books</string>
+    <string name="google_books_source_books">Libros</string>
+    <string name="themoviedb_source">themoviedb.org</string>
+    <string name="themoviedb_source_movies">Peliculas</string>
+    <string name="themoviedb_source_tv">TV</string>
+
+    <string name="autofill_rules_delete_title">Borrar reglas de autorrellenado</string>
+    <string name="copy_library_structure_menu_item">Solo estructura</string>
+    <string name="copy_all_library_menu_item">Estructura y entradas</string>
+    <string name="copying_entries">Copiando entradas...</string>
+
+    <string name="render_pdf_menu_item">Guardar como PDF</string>
+    <string name="entry_saved_as_pdf_success">PDF creado satisfactoriamente</string>
+    <string name="rate_me_dialog_text">Por favor califícanos en Google Play</string>
+    <string name="button_ask_later">Pregúntame despues</string>
+    <string name="field_orientation_option_title">Orientación</string>
+    <string name="field_orientation_option_horizontal">Horizontal</string>
+    <string name="field_orientation_option_vertical">Vertical</string>
+    <string name="font_size">Tamaño</string>
+    <string name="font_family">Familia</string>
+    <string name="font_style">Estilo</string>
+    <string name="font_color">Color</string>
+    <string name="font_picker_dialog_title">Fuente</string>
+    <string name="font_style_normal">Normal</string>
+    <string name="font_style_bold">Negrita</string>
+    <string name="font_style_italic">Cursiva</string>
+    <string name="font_style_bold_italic">Negrita cursiva</string>
+    <string name="font_sample">Ejemplo</string>
+    <string name="font_default_title">Fuente predeterminada</string>
+    <string name="rating_tooltips">Descripciónes emergentes</string>
+    <string name="rating_tooltips_hint">Descripción emergente</string>
+    <string name="calculator">Calculadora</string>
+    <string name="calculator_options_hint">Añadir un botón para mostrar la calculadora</string>
+    <string name="filter_by_number">Filtrar por número</string>
+    <string name="multiediting_title">Multi-edición</string>
+    <string name="select_all">Seleccionar todo</string>
+    
+<string name="success_pull_library_from_cloud">Las entradas se han descargado satisfactoriamente.\nLa librería se sincronizara automáticamente.</string>
+	<plurals name="conflict_count">
+	<item quantity="one">%d conflicto ocurrido durante la sincronizacion</item>
+	<item quantity="other">%d conflictos ocurridos durante la sincronizacion</item>
+</plurals>
+    <string name="cloud_synced_progress">Sincronización...</string>
+    <string name="cloud_upload_error_title">No pudimos sincronizar esta librería</string>
+    <string name="download_files_from_cloud">Descargando archivos de la nube...</string>
+    <string name="cant_download_item_files_for_copy">La descarga de archivos para crear copias ha fallado.</string> 
+    <string name="library_cloud_model_changed_message">La estructura de librería fue actualizada en la nube. Actualize la estructura para una mejor sincronización.</string>
+    <string name="button_update">Actualizar</string>
+    <string name="add_people">Agregar personas</string>
+    <string name="edit_permission">Configuración de uso compartido</string>	
+	<string name="push_entry_error_text" formatted="false">La entrada no se almacenado en la nube.\nNombre: %s\nError: %s</string>
+	<string name="need_upload_to_cloud_slave_libraries">Por favor, sube librerías dependientes a la nube.</string>
+	<string name="start_download_slave_library_model">Subiendo librería dependiente %s</string>
+	<string name="cloud_storage_full_text">No hay suficiente espacio en el almacenamiento en la nube.\nPuede actualizar a un plan de tarifas que proporcione más espacio de almacenamiento.</string>
+	<string name="cloud_storage_full_text2" formatted="false">No hay suficiente espacio en el almacenamiento en la nube.\n%s son necesarios, %s estan disponibles.\nPuede actualizar a un plan de tarifas que proporcione más espacio de almacenamiento.</string>
+	<string name="restore_cloud_library_from_recycle">La librería local esta borrada. ¿Recuperar?</string>
+	<string name="cloud_file_while_not_upload">El archivo no esta aun en la nube</string>
+	<string name="upload_ecrypted_libraries_dont_supported">La subida de librerías encriptadas a la nube no esta disponible temporalmente.</string>
+	<string name="cloud_library_already_uploaded">Esta librería ya esta subida en la nube.</string>
+	<string name="find_library_by_url_title">Abrir por URL</string>
+	<string name="upload_to_cloud_offer_title">{nube preparada...}</string>
+	<string name="upload_to_cloud_offer_text">• Trabajo en equipo\n• Sincronización a través de dispositivos\n• Las copias de seguridad esta siempre en la nube</string>
+	<string name="cant_upload_file_to_cloud">La subida de archivo(s) falló.</string>
+    <string name="button_show">Mostrar</string>
+	<string name="cant_add_yourself">No te puedes añadir a ti mismo</string>
+	<string name="select_template_title">Selecciona plantilla</string>
+	<string name="empty_library_title">Librería vacia</string>
+	<string name="help_cloud">Almacenaje en la nube y trabajo en equipo</string>
+	<string name="clear_search_history_hint">Elimina todas las búsquedas que has hecho</string>
+	<string name="success_clear_search_history">Tú historial de búsqueda ha sido limpiado</string>	
+	<string name="clear_search_history_quest">¿Estas seguro de querer limpiar el historial de búsqueda?</string>
+	<string name="uservoice_menu_title">UserVoice</string>
+	<string name="view_csv_error_dialog_message">Lo siento, pero la aplicación para ver archivos csv no se encuentra</string>
+	
+	<string name="music_brainz_source_artist">Artistas musicales</string>
+    <string formatted="false" name="movie_cast_person_item">%s de %s</string>
+
+    <string name="protected_libraries_not_show_in_widget">La librería protegida no se puede mostrar en el widget</string>
+    <string name="flex_type_radiobuttons">Botones de opción</string>
+    <string name="flex_type_checkboxes">Casillas de verificación</string>
+    <string name="preparing_files_for_sending">Preparando archivos para enviar...</string>
+    <string name="rating_tooltips_empty">"Campo no tiene  descripciónes emergentes"</string>
+    <plurals name="rating_tooltips_count">
+	<item quantity="one">"%d  descripción emergente"</item>
+	<item quantity="other">"%d  descripción emergente"</item>
+</plurals>
+    </resources>
