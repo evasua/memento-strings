@@ -1262,7 +1262,7 @@
 
     <string name="render_pdf_menu_item">Sauvegarder en PDF</string>
     <string name="entry_saved_as_pdf_success">PDF créé</string>
-    <string name="one_row_with_previous">Même ligne que préc</string>
+    <string name="one_row_with_previous">Même ligne que précédent</string>
     <string name="font_style_italic">Italique</string>
     <string name="font_style_bold">Gras</string>
     <string name="font_picker_dialog_title">Police</string>
