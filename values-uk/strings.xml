@@ -160,11 +160,11 @@
     <string name="need_title_column_text">"У файлі обов\'язково повинна бути колонка для поля що являється ім\'ям запису "</string>
     <string name="csv_result_import_text">Імпортування записів виконано</string>
     <string name="csv_result_import_succes_items">Додано записів:</string>
-    <string formatted="false" name="csv_result_import_fail_items">Рядків з помилками : % s\nНомери: % s</string>
+    <string formatted="false" name="csv_result_import_fail_items">Рядків з помилками : %s\nНомери: %s</string>
     <string name="enter_csv_name_dialog_title">Експорт в CSV</string>
     <string name="enter_csv_name_dialog_value_title">Введіть ім\'я CSV файлу</string>
     <string name="enter_csv_name_dialog_value_hint">Ім\'я CSV файлу</string>
-    <string name="export_success">Експорт записів виконаний в / sdcard / memento / % s</string>
+    <string name="export_success">Експорт записів виконаний в / sdcard / memento / %s</string>
     <string name="export_error">Помилка при експорті записів: % s</string>
     <string name="library_saved">бібліотека збережена</string>
     <string name="library_created">Бібліотека створена</string>
@@ -181,15 +181,15 @@
     <string name="add_fill_field_dialog_title">Створення правила заповнення</string>
     <string name="memento_field">Буде записано в полі запису</string>
     <string name="memento_field_promt">Поля бібліотеки</string>
-    <string name="uniquery_check_fail">Бібліотека може містити тільки одне поле з типом % S</string>
+    <string name="uniquery_check_fail">Бібліотека може містити тільки одне поле з типом %s</string>
     <string name="to">в</string>
     <string name="barcode_search">Пошук по штрихкоду</string>
     <string name="msg_camera_framework_bug">На жаль , Android камера зіткнулася з проблемою . Вам, можливо , буде потрібно перезавантажити пристрій.</string>
-    <string name="deleted_library_hint">Записів: % S</string>
+    <string name="deleted_library_hint">Записів: %s</string>
     <string name="preference_restore_libs_title">Відновлення бібліотек</string>
     <string name="preference_restore_libs_hint">Відновлення видалених бібліотек</string>
     <string name="preference_category_general">Основне</string>
-    <string name="library_import_and_export">Налаштування % S</string>
+    <string name="library_import_and_export">Налаштування %s</string>
     <string name="recovering">Відновлення</string>
     <string name="recovering_message">Відновлення бібліотеки</string>
     <string name="library_recover">Відновити</string>
@@ -203,26 +203,26 @@
     <string name="bind_to_gdocs">Зв\'язати з Google Sheets</string>
     <string name="bind_to_gdocs_title">Зв\'язати з Google Sheets</string>
     <string name="unbind_message_title">Відв\'язати від Google Sheets</string>
-    <string name="unbind_message_text">Ви дійсно бажаєте відв\'язати бібліотеку \" % s \" від Google Sheets ?</string>
+    <string name="unbind_message_text">Ви дійсно бажаєте відв\'язати бібліотеку \" %s \" від Google Sheets ?</string>
     <string name="bind_to_gdocs_message">Виконується прив\'язка бібліотеки до Google Spreadsheets.</string>
     <string name="bind_to_gdocs_success">Прив\'язка бібліотеки до Google Spreadsheets виконана . Починаємо синхронізацію записів .</string>
     <string name="sync_with_gdocs_success">Синхронізация с Google Spreadsheets виконана</string>
-    <string name="sync_with_gdocs_success_2">Синхронізація бібліотеки \" % s \" з Google виконана</string>
+    <string name="sync_with_gdocs_success_2">Синхронізація бібліотеки \" %s \" з Google виконана</string>
     <string name="sync_with_gdocs_title">Синхронізация с Google Sheets</string>
     <string name="sync_with_gdocs_message">Виконується синхронізація бібліотеки з Google Spreadsheets .</string>
-    <string name="sync_with_gdocs_message_2">Виконується синхронізація \" % s \" з Google Spreadsheets .</string>
+    <string name="sync_with_gdocs_message_2">Виконується синхронізація \" %s \" з Google Spreadsheets .</string>
     <string name="sync_with_gdocs">Синхр с Google Sheets</string>
     <string name="google_docs_task_step_auth">Авторизація</string>
     <string name="google_docs_task_step_get_rows">Отримання рядків</string>
-    <string formatted="false" name="google_docs_task_step_process_row">Обробка рядків. % s з% s</string>
-    <string formatted="false" name="google_docs_task_step_send_row">Додавання рядків. % s з% s</string>
-    <string formatted="false" name="google_docs_task_step_update_row">Оновлення рядків. % s з% s</string>
+    <string formatted="false" name="google_docs_task_step_process_row">Обробка рядків. %s з %s</string>
+    <string formatted="false" name="google_docs_task_step_send_row">Додавання рядків. %s з %s</string>
+    <string formatted="false" name="google_docs_task_step_update_row">Оновлення рядків. %s з %s</string>
     <string name="google_docs_task_create_document">Створення документа</string>
     <string name="google_docs_task_create_worksheet">Створення листа</string>
     <string name="google_docs_task_shange_columns">Зміна листа</string>
     <string name="username_hint">Email</string>
     <string name="pass_hint">Пароль</string>
-    <string name="gdocs_error">Помилка під час синхронізації з Google Sheets - % s</string>
+    <string name="gdocs_error">Помилка під час синхронізації з Google Sheets - %s</string>
     <string name="preference_category_accounts">Акаунти</string>
     <string name="preference_google_account_title">Google акаунт</string>
     <string name="preference_google_account_hint">Email і пароль вашого Google аккаунта</string>
@@ -241,7 +241,7 @@
     <string name="public_to_picasa_create_album">Створення альбому Picasa для публікується бібліотеки</string>
     <string name="public_to_picasa_success">Завантаження зображень бібліотеки в Picasa виконана</string>
     <string name="picasa_task_step_auth">Авторизація на сервіс Picasa</string>
-    <string formatted="false" name="picasa_send_image_step">Завантажуємо зображення в Picasa. % s з% s</string>
+    <string formatted="false" name="picasa_send_image_step">Завантажуємо зображення в Picasa. %s з %s</string>
     <string name="public_library">Опубліковати бібліотеку</string>
     <string name="update_public_library">Оновити публікацію</string>
     <string name="memento_register_account_title">Створення аккаунта\nна сервері Memento</string>
@@ -268,7 +268,7 @@
     <string name="preference_memento_account_title">Memento аккаунт</string>
     <string name="preference_memento_account_hint">Логін і пароль Вашого Memento аккаунта</string>
     <string name="public_library_task_auth">Авторизація на сервері Memento</string>
-    <string name="public_library_task_send_template">Передача записів бібліотеки.\n% s з% s</string>
+    <string name="public_library_task_send_template">Передача записів бібліотеки.\n%s з %s</string>
     <string formatted="false" name="public_library_task_send_items">Ваша версія Memento застаріла, оновіться</string>
     <string name="memento_not_support_template">Ваша версія Memento застаріла, оновіться</string>
     <string name="memento_not_found">Ресурс не знайдений</string>
@@ -282,7 +282,7 @@
     <string name="public_library_address_text">Адреса бібліотеки</string>
     <string name="alias_exists">У вас вже є опублікована бібліотека з вказаним аліасом</string>
     <string name="memento_forbidden_error">Доступ до бібліотеки заборонений</string>
-    <string name="publish_library_address">Бібліотека % s доступна тепер за адресою</string>
+    <string name="publish_library_address">Бібліотека %s доступна тепер за адресою</string>
     <string name="publish_library_address_hint">Ваші друзі можуть проглядати дану бібліотеку використовуючи Memento . Для цього вони повинні підписатися на бібліотеку за допомогою вказаного вище адреси.</string>
     <string name="deafult_group_title">Мої бібліотеки</string>
     <string name="subscribe_activity_title">Підписка на бібліотеку</string>
@@ -294,28 +294,28 @@
     <string name="libraries_by_user_not_found">Зазначений користувач не знайдений або не має опублікованих бібліотек</string>
     <string name="library_not_found">Бібліотека за вказаною адресою не знайдена</string>
     <string name="wrong_library_address_format">Невірний формат адреси бібліотеки</string>
-    <string name="last_update">Оновлена : % s</string>
+    <string name="last_update">Оновлена: %s</string>
     <string name="subscribe_button">Підписатися</string>
     <string name="subscribe_task_get_library">Отримання записів бібліотеки</string>
     <string name="subscribe_task_create_library">Створення бібліотеки</string>
-    <string formatted="false" name="subscribe_task_save_library_task">Збереження отриманих записів .\n% S з% S</string>
+    <string formatted="false" name="subscribe_task_save_library_task">Збереження отриманих записів .\n%s з %s</string>
     <string name="subscribe_task_create_index">Cтворення індексів</string>
     <string name="subscribes_group_title">Мої підписки</string>
     <string name="library_settings">Налаштування</string>
     <string name="subscribe_get_updated_pack">Перевіряємо наявність оновлень</string>
     <string name="subscribe_have_updated_pack">Отримано оновлення бібліотеки</string>
-    <string name="subscribe_last_update">Останнє оновлення % S</string>
+    <string name="subscribe_last_update">Останнє оновлення %s</string>
     <string name="subscribe_last_update_dialog_title">Оновлення бібліотеки</string>
     <string name="subscribe_last_update_dialog_message">Виконується оновлення бібліотеки</string>
     <string name="clear_preference">Очищення бібліотеки</string>
     <string name="clear_preference_hint">Видалення всіх записів у бібліотеці</string>
     <string name="clear_preference_quest">Видалити всі записи в бібліотеці?</string>
-    <string name="last_sync">Синхрон : % S</string>
+    <string name="last_sync">Синхрон : %s</string>
     <string name="last_public">Публікація: %s</string>
     <string name="unpublic_library_title">Зняття з публікації</string>
     <string name="unpublic_library">Зняти з публікації</string>
     <string name="unpublish_success">Бібліотека знята з публікації</string>
-    <string name="unpublic_message_text">Ви дійсно бажаєте зняти бібліотеку \" % S \" з публікації ?</string>
+    <string name="unpublic_message_text">Ви дійсно бажаєте зняти бібліотеку \" %s \" з публікації ?</string>
     <string name="unbind_from_gdocs_hint">Відв\'язування бібліотеки від Листи Google</string>
     <string name="preference_category_google_docs">Google Таблиці</string>
     <string name="unbind_from_google_docs_success">Відв\'язування
@@ -336,7 +336,7 @@
     <string name="edit_pub_permissions_task_dialog_message">Зміна прав доступу до бібліотеки</string>
     <string name="import_template">Імпорт шаблону</string>
     <string name="export_template">Експорт шаблону</string>
-    <string name="export_template_error">Помилка експорту шаблону : % s</string>
+    <string name="export_template_error">Помилка експорту шаблону : %s</string>
     <string name="import_template_success">Імпорт шаблону бібліотеки виконаний</string>
     <string name="wrong_template_version">Ваша версія Memento не підтримує обраний файл шаблону. Оновіть Memento .</string>
     <string name="flex_type_library_entry">Запис бібліотеки</string>
@@ -451,8 +451,8 @@
     <string name="template_from_catalog_title">З он- лайн каталогу</string>
     <string name="template_category_text">Категорія шаблону</string>
     <string name="template_description_title">Опис шаблону</string>
-    <string name="template_author_text">автор % S</string>
-    <string name="template_date_text">завантажено % s</string>
+    <string name="template_author_text">автор %s</string>
+    <string name="template_date_text">завантажено %s</string>
     <string name="button_download">Завантажити</string>
     <string name="get_template_body_message">Завантаження шаблону бібліотеки ...</string>
     <string name="error_empty_template_title">Введіть ім\'я шаблону</string>
@@ -522,7 +522,7 @@
     <string name="field_not_sync">Не синхронізувати</string>
     <string name="link_button">Зв\'язати</string>
     <string name="prepare_linking_library">Підготовка до зв\'язування ...</string>
-    <string name="error_prepare_linking">Помилка при підготовці зв\'язування : % S</string>
+    <string name="error_prepare_linking">Помилка при підготовці зв\'язування : %s</string>
     <string name="have_library_items_ask_title">Прив\'язка до Google Spreadsheet</string>
     <string name="have_library_items_ask_message">Бібліотека містить записи які будуть видалені під час прив\'язки до Google Spreadsheet . Виконати прив\'язку бібліотеки ?</string>
     <string name="autofill_source_option_title">Джерело даних</string>
@@ -569,13 +569,13 @@
     <string name="add_group_dialog_hint">Введіть назву групи</string>
     <string name="button_delete_goup">Видалити групу</string>
     <string name="group_delete_message_title">Видалити групу</string>
-    <string name="group_delete_message_text">Ви дійсно хочете видалити групу \" % S \" ?</string>
+    <string name="group_delete_message_text">Ви дійсно хочете видалити групу \" %s \" ?</string>
     <string name="main_lock_button_text">Закрити доступ до бібліотек</string>
     <string name="lock_libraries_completed">Доступ до зашифрованих бібліотек закритий</string>
     <string name="sync_google_all">Синхронізувати з Google</string>
     <string name="library_ex_options">Додаткові параметри</string>
-    <string name="library_last_edit">Змінено % S</string>
-    <string name="library_last_sync">Синхронізація % S</string>
+    <string name="library_last_edit">Змінено %s</string>
+    <string name="library_last_sync">Синхронізація %s</string>
     <string name="user_manual_menu">Довідка</string>
     <string name="save_library_changes">Зберегти зміни ?</string>
     <string name="build_navigate_list_dialog">Сортування записів</string>
@@ -604,7 +604,7 @@
     <string name="most_popular">Популярні</string>
     <string name="templates_sort_dialog_title">Сортувати шаблони по</string>
     <string name="delete_catalog_template_title">Видалення шаблону</string>
-    <string name="delete_catalog_template_message">Ви дійсно хочете видалити шаблон % S з онлайн каталогу ?</string>
+    <string name="delete_catalog_template_message">Ви дійсно хочете видалити шаблон %s з онлайн каталогу ?</string>
     <string name="cant_share_template_withous_fields">Ви не можете розшарити шаблон без полів</string>
     <string name="reset_pass_button">Забули пароль?</string>
     <string name="request_pass_dialog_title">Зміна пароля</string>
@@ -654,25 +654,25 @@
     <string name="library_fields">Поля бібліотеки</string>
     <string name="boolean_field_check_value">Обрано</string>
     <string name="boolean_field_uncheck_value">Не обрано</string>
-    <string name="visible_field_depend_pretitle">Стан поля % s</string>
-    <string name="visible_field_depend_description">Поле буде перебувати в даному стані, якщо поле % s приймає вказані значення</string>
+    <string name="visible_field_depend_pretitle">Стан поля %s</string>
+    <string name="visible_field_depend_description">Поле буде перебувати в даному стані, якщо поле %s приймає вказані значення</string>
     <string name="depend_from">"Залежність від  %s"</string>
     <string name="delete_depend_dialog_title">Видалення залежності</string>
-    <string name="delete_depend_dialog_message">Ви дійсно хочете видалити залежність від поля % s ?</string>
+    <string name="delete_depend_dialog_message">Ви дійсно хочете видалити залежність від поля %s ?</string>
     <string name="sl_content_depend_type">Вміст списку значень</string>
     <string name="sl_content_depend_pretitle">Значення поля %s</string>
-    <string name="sl_content_depend_description">Значення поля буде доступно для вибору, якщо поле % s приймає відмічені значення</string>
+    <string name="sl_content_depend_description">Значення поля буде доступно для вибору, якщо поле %s приймає відмічені значення</string>
     <string name="backup_images_checkbox">Резервне копіювання пов\'язаних зображень, аудіо - записів та інших файлів</string>
     <string name="backup_files_progress_title">Резервне копіювання файлів</string>
-    <string name="backup_files_error">Помилка під час резервного копіювання файлів: % s</string>
+    <string name="backup_files_error">Помилка під час резервного копіювання файлів: %s</string>
     <string name="restore_files_message">Резервна копія містить архів з файлами пов\'язаними з базою даних (фотографії, аудіо - записи тощо), відновити файли ?</string>
     <string name="restore_files_progress_title">Відновлення файлів</string>
     <string name="restore_files_success2">Всі пов\'язані з базою даних файли розпаковані</string>
-    <string formatted="false" name="restore_files_error_message">Помилка під час відновлення файлів з архіву % s : % s</string>
+    <string formatted="false" name="restore_files_error_message">Помилка під час відновлення файлів з архіву %s : %s</string>
     <string name="restore_files_error">"Помилка  відновлення файлів"</string>
     <string name="select_google_account">Виберіть Google-аккаунт</string>
     <string name="send_files_to_cloud_error">"Помилка завантаження файлу в  хмарі :"</string>
-    <string formatted="false" name="upload_file_to_cloud_message">Вивантажуємо % S ( % d / % d )</string>
+    <string formatted="false" name="upload_file_to_cloud_message">Вивантажуємо %s ( %d / %d )</string>
     <string name="prepare_google_sync">З\'єднання з аккаунтом...</string>
     <string name="no_google_accounts">Немає доступних Google - аккаунтів. Ви можете додати Google -аккаунт в налаштуваннях вашого пристрою.</string>
     <string name="google_account_not_selected">Аккаунт не визначений</string>
@@ -728,12 +728,12 @@
     <string name="default_entry_page_title">Головна</string>
     <string name="entry_page_title">Назва сторінки</string>
     <string name="cant_delete_main_page">Ви не можете видаляти сторінки за замовчуванням.</string>
-    <string name="field_count_on_page">Поля : % S</string>
+    <string name="field_count_on_page">Поля : %s</string>
     <string name="master_libraries_list_caption">Список записів із бібліотеки</string>
     <string name="view_on_this_page_title">Показать на цій сторінці</string>
     <string name="set_default_page">Зробити за замовчуванням</string>
     <string name="entry_page_default">За умовчанням</string>
-    <string name="entry_page_delete_message_text">Ви дійсно хочете видалити сторінку \" % S \" ?</string>
+    <string name="entry_page_delete_message_text">Ви дійсно хочете видалити сторінку \" %s \" ?</string>
     <string name="faq">FAQ</string>
     <string name="accept_button">Приймаю</string>
     <string name="sort_by_subtitle">по %s</string>
@@ -767,7 +767,7 @@
     <string name="flex_type_signature_paint_color_title">Колір кисті</string>
     <string name="flex_type_signature_background_title">Колір фону</string>
     <string name="flex_type_signature_paint_size_title">Ширина кисті</string>
-    <string name="signature_save_error">Помилка при збереженні підписи: % S</string>
+    <string name="signature_save_error">Помилка при збереженні підписи: %s</string>
     <string name="change_color_only_in_pro">Зміна кольору доступно тільки в PRO -версії.</string>
     <string name="chart_list_activity_title">Графіки</string>
     <string name="chart_type_pie">Кругова діаграма</string>
@@ -812,7 +812,7 @@
     <string name="chart_copy_title_postfix">Копія</string>
     <string name="chart_validate_error_empty_fields">Ви повинні вибрати поля з даними</string>
     <string name="no_data_for_chart">Немає даних</string>
-    <string name="cant_delete_charts_filter_message">Ви не можете видалити цей фільтр , тому він використовується в графіках : % S</string>
+    <string name="cant_delete_charts_filter_message">Ви не можете видалити цей фільтр , тому він використовується в графіках : %s</string>
     <string name="cant_delete_charts_field_message">Вы не можете удалить это поле, т.к. оно используется в графиках: %s</string>
     <string name="save_to_file_name">Ім\'я файлу</string>
     <string name="save_to_file_directory">Каталог</string>
@@ -842,8 +842,8 @@
     <string name="create_chart">Створити графік</string>
     <string name="edit_chart">Змінити графік</string>
     <string name="edit_library_main_color">Колір бібліотеки</string>
-    <string name="color_swatch_description">Колір % d</string>
-    <string name="color_swatch_description_selected">Колір % d вибрано</string>
+    <string name="color_swatch_description">Колір %d</string>
+    <string name="color_swatch_description_selected">Колір %d вибрано</string>
     <string name="button_palette">Палітра...</string>
     <string name="button_own_pictures">Галерея...</string>
     <string name="icon_pack_title_flat">Квартира</string>
@@ -890,7 +890,7 @@
     <string name="string_list_edit_item_title_hint">Назва елемента</string>
     <string name="string_list_add_item_dialog_title">Додати елемент</string>
     <string name="string_list_edit_item_dialog_title">Змінити елемент</string>
-    <string name="delete_string_list_item_message">Ви дійсно хочете видалити елемент \" % S \" ?</string>
+    <string name="delete_string_list_item_message">Ви дійсно хочете видалити елемент \" %s \" ?</string>
     <string name="icon">Іконка</string>
     <string name="color">Колір</string>
     <string name="edit_library_entries_options_group">Список записів</string>
@@ -902,15 +902,15 @@
     <string name="string_list_import_menu_title">Імпортувати елементи</string>
     <string name="open_button">Відкрити</string>
     <string name="string_list_export_snackbar_ok">Елементи успішно експортовані</string>
-    <string name="string_list_export_error">Виникла помилка при експорті: % S</string>
-    <string name="string_list_import_error">Виникла помилка при імпорті : % S</string>
+    <string name="string_list_export_error">Виникла помилка при експорті: %s</string>
+    <string name="string_list_import_error">Виникла помилка при імпорті : %s</string>
     <string name="something_wrong_dialog_title">Щось не так</string>
     <plurals name="string_list_import_snackbar_ok">
 	<item quantity="one">Імпортовано 0 элементів</item>
 	<item quantity="other">Імпортовано %1$d елемент</item>
 </plurals>
     <string name="export_template_snackbar_ok">Шаблон бібліотеки успішно експортований</string>
-    <string name="import_template_error">Помилка імпорту шаблону : % S</string>
+    <string name="import_template_error">Помилка імпорту шаблону : %s</string>
     <string name="mass_delete_string_list_item_message">Ви дійсно хочете видалити вибрані елементи?</string>
     <string name="reminders_count_limit">Ви можете додати для поля максимум 10 нагадувань</string>
     <string name="aggregation_add_item_dialog_title">Додати функцію агрегування</string>
@@ -920,37 +920,37 @@
     <string name="aggregation_result_left">Ліворуч</string>
     <string name="aggregation_result_right">Праворуч</string>
     <string name="aggregation_delete_title">Видалити агрегацію</string>
-    <string name="aggregation_delete_message">Ви дійсно хочете видалити агрегацію \" % s \" ?</string>
+    <string name="aggregation_delete_message">Ви дійсно хочете видалити агрегацію \" %s \" ?</string>
     <string name="aggregation_need_select_field_message">Ви повинні вибрати поле для функції агрегування</string>
-    <string name="open_object_by_uri_error">Не можу відкрити об\'єкт : % s</string>
+    <string name="open_object_by_uri_error">Не можу відкрити об\'єкт : %s</string>
     <string name="import_and_export_menu_item">Імпорт і експорт…</string>
     <string name="entries_export_snackbar_ok">Записи успішно експортовані</string>
     <string name="entries_import_result_dialog_title">Результати імпорту</string>
     <string name="csv_import_total_lines">Опрацьовано рядків :</string>
     <string name="csv_import_errors_count">Помилок:</string>
-    <string formatted="false" name="csv_import_error_item">Рядок % d - % s</string>
+    <string formatted="false" name="csv_import_error_item">Рядок %d - %s</string>
     <string name="undo_button">Скасування</string>
     <string name="google_sync_without_memento_id_text">Дана бібліотека синхронізується з використанням старого методу , що має потенційні помилки.\nВиконайте перепривязку бібліотеки до нової таблиці для використання нового методу .Виконати перепрівязку сейчаc ?</string>
     <string name="rating_field_max_value">Максимальний рейтинг</string>
     <plurals name="rating_stars_count">
-	<item quantity="one">% 1 $ d зірок</item>
+	<item quantity="one">%1$d зірок</item>
 	<item quantity="other">%1$d зірка</item>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
-	<item quantity="one">% D запис була переміщена у кошик</item>
-	<item quantity="few">% D запису був переміщений у кошик</item>
-	<item quantity="many">% D запису був переміщений у кошик</item>
+	<item quantity="one">%d запис була переміщена у кошик</item>
+	<item quantity="few">%d запису був переміщений у кошик</item>
+	<item quantity="many">%d запису був переміщений у кошик</item>
 	<item quantity="other"/>
 </plurals>
     <string name="auto_fill_barcode_empty2">Зіставте атрибути з джерела автозаповнення і поля записів</string>
     <string name="barcode_rule_delete_title">Видалити правило</string>
-    <string name="barcode_rule_delete_text">Ви дійсно хочете видалити правило автозаповнення для поля \" % S \" ?</string>
+    <string name="barcode_rule_delete_text">Ви дійсно хочете видалити правило автозаповнення для поля \" %s \" ?</string>
     <string name="multi_library_item_trush_message_text">Ви дійсно хочете відправити вибрані записи до Кошику ?</string>
     <string name="multi_library_item_delete_message_text">Ви дійсно хочете видалити вибрані записи ?</string>
-    <string name="delete_library_snackbar_text">Бібліотека \" % S \" відправлена до кошика</string>
+    <string name="delete_library_snackbar_text">Бібліотека \" %s \" відправлена до кошика</string>
     <string name="deleted">Видалено</string>
-    <string name="library_recover_dialog_text">Відновити бібліотеку \" % S \" ?</string>
-    <string name="library_recover_snackbar_text">Бібліотека відновлена в групі \" % S \"</string>
+    <string name="library_recover_dialog_text">Відновити бібліотеку \" %s \" ?</string>
+    <string name="library_recover_snackbar_text">Бібліотека відновлена в групі \" %s \"</string>
     <string name="sort_by_name">Сортування по Імені</string>
     <string name="sort_by_time">Сортування по Часу</string>
     <string name="favorites_empty_list_layout">Немає обраних записів .</string>
@@ -972,11 +972,11 @@
     <string name="empty_field_depend_list">Це поле не має залежностей від інших полів .</string>
     <string name="share_template_dialog_title">Поділитися шаблоном через он- лайн каталог</string>
     <string name="catalog_templates">Каталог шаблонів</string>
-    <string name="empty_search_result2">За запитом % s нічого не знайдено</string>
+    <string name="empty_search_result2">За запитом %s нічого не знайдено</string>
     <string name="rename_group">Перейменувати групу</string>
     <string name="move">Перенести</string>
     <string name="select_group">Виберіть групу</string>
-    <string name="library_moved_message">Бібліотека переміщена в групу \" % s \"</string>
+    <string name="library_moved_message">Бібліотека переміщена в групу \" %s \"</string>
     <string name="master_library_entries">Записи з пов\'язаної бібліотеки</string>
     <string name="invisible">Невидимий</string>
     <string name="display_master_libraries_items">Відображати на картці</string>
@@ -1001,7 +1001,7 @@
     <string name="auto_backup_when_sync">Перед синхрон. з Google</string>
     <string name="auto_backup_when_edit_libs">Перед зміною бібліотек</string>
     <string name="free_version_multi_field_limit">У безкоштовної версії ви можете додати тільки два елементи . Оновіться до PRO версії для зняття цього обмеження.</string>
-    <string name="scale">Точність % d</string>
+    <string name="scale">Точність %d</string>
     <plurals name="duration_seconds">
 	<item quantity="one">1 секунда</item>
 	<item quantity="other">%d секунди</item>
