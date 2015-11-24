@@ -1181,4 +1181,15 @@
 	<string name="button_signin">Meld u aan</string>
 	<string name="cloud_library_not_found">De verzameling kan niet worden gevonden in de cloud. Misschien is het verwijderd.\nWilt u de verzameling wijzigen in een lokale versie?</string>
 	<string name="cloud_library_already_uploaded">Deze verzameling is al naar de cloud ge-upload.</string>
+	<string name="library_alias_menu_item">Alias</string>
+	<string name="library_public_access">Algemeen toegankelijk</string>
+	<string name="library_public_access_disabled">Uitgeschakeld</string>
+	<string name="library_access_read_only">Alleen lezen</string>
+	<string name="library_access_can_edit">Mag wijzigen</string>
+	<string name="owner">Eigenaar</string>
+	<string name="find_library_by_url_title">Open via URL</string>
+	<string name="library_not_found_by_uri">Verzameling niet gevonden</string>
+	<string name="upload_to_cloud_offer_title">{gereed voor de cloud...}</string>
+	<string name="upload_to_cloud_offer_text">• Samenwerken in een team\n• Synchroniseer over meerdere apparaten\n• Backup altijd in de cloud beschikbaar</string>
+	<string name="button_no_thanks">Nee, bedankt</string>
 	</resources>
