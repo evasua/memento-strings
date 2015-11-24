@@ -1113,4 +1113,72 @@
     <string name="library_not_in_cloud">Niet in de cloud</string>
     <string name="synced">Gesynchroniseerd %s</string>
     <string name="cloud_synced_progress">Synchronisatie...</string>
-    </resources>
+    <string name="cloud_offline">Offline</string>
+    <string name="cloud_last_sync">Laatste synchronisatie</string>
+    <string name="entries">Objecten</string>
+    <string name="cloud_created">Aangemaakt</string>
+    <string name="cloud_modified">Gewijzigd</string>
+    <string name="cloud_size">Grootte</string>
+    <string name="cloud_files_count">Aantal bestanden</string>
+    <string name="cloud_who_has_access">Wie heeft toegang</string>
+    <string name="cloud_server_unavaliable">De Memento Cloud server is niet beschikbaar. Controleer de internetverbinding op uw apparaat.</string>
+    <string name="delete_from_cloud">Verwijder uit de cloud</string>
+    <string name="delete_from_cloud_message_question">Wilt u de verzameling echt uit de cloud verwijderen?</string>
+        
+    <string name="byteShort">B</string>    
+    <string name="kilobyteShort">Kb</string>
+    <string name="megabyteShort">Mb</string>
+    <string name="gigabyteShort">Gb</string>
+    <string name="button_refresh">Verversen</string>
+    <string name="cloud_storage_space_text" formatted="false">%s (%s) van %s in gebruik</string>   
+    <string name="start_download_file_from_cloud">Bestand %s zal worden gedownload</string>
+    <string name="upload_file_to_cloud">Bestand wordt ge-upload...</string>    
+    <string name="upload_files_to_cloud">Bestanden uploaden</string>
+    <string name="cloud_upload_error_title">We konden deze verzameling niet synchroniseren</string>
+    <string name="upload_big_file_error" formatted="false">Object %s bevat een groot bestand %s (%s).\nMaximale bestandsgrootte is %s.</string>
+    <string name="prepare_library_for_cloud">Verzameling wordt verwerkt...</string>
+    <string name="download_files_from_cloud">Bestanden worden gedownload vanuit de cloud...</string>
+    <string name="cant_download_item_files_for_copy">Het downloaden van bestanden om kopieën te maken is mislukt.</string> 
+    <string name="library_cloud_model_changed_message">De structuur van de verzameling is in de cloud ge-update. Update de structuur voor verdere synchronisatie.</string>
+    <string name="button_update">Vernieuwen</string>
+    <string name="add_people">Voeg personen toe</string>
+    <string name="read_permission">Lees</string>      
+    <string name="write_permission">Schrijf</string>
+    <string name="create_permission">Aanmaken</string>
+    <string name="delete_permission">Verwijderen</string>
+    
+    <string name="allow_permission">Toestaan</string>
+	<string name="deny_permission">Weigeren</string>
+	<string name="only_owner_permission">Alleen de eigenaar</string>
+	<string name="user_not_found">Gebruiker niet gevonden</string>
+	<string name="edit_permission">Instellingen voor delen</string>	
+	<string name="push_entry_error_text" formatted="false">Het object is niet in de cloud opgeslagen.\nNaam: %s\nFout: %s</string>
+	<string name="push_error_forbidden">Toegang geweigerd</string>
+	<string name="button_ignore">Negeren</string>
+	<string name="button_try_again">Probeer opnieuw</string>	
+	<string name="cloud_library_forbidden">U heeft geen toestemming om deze verzameling te gebruiken</string>
+	<string name="shared_with_me">Met mij gedeeld</string>
+	<string name="entry_author">Auteur</string>
+	<string name="info_menu_item">Informatie</string>   
+	<string name="need_upload_to_cloud_slave_libraries">Upload onderliggende verzamelingen naar de cloud a.u.b.</string>
+	<string name="start_download_slave_library_model">Onderliggende verzameling wordt ge-upload</string>
+	<string name="open_access_for_slave_libraries">Verleen leesrechten voor onderliggende verzamelingen</string>
+	<string name="alien_cloud_storage_full_text">De eigenaar van de verzameling heeft onvoldoende opslagruimte.</string>	
+	<string name="button_tarifs">Tarieven</string>
+	<string name="price_free">Gratis</string>
+	<string name="price_per_month">%s per maand</string>
+	<string name="unlimited_libraries">Onbeperkt aantal verzamelingen</string>	
+	<string name="adv_free">Geen advertenties</string>
+	<string name="subscription_activation">Activeer abonnement...</string>
+	<string name="subscription_activation_error">Fout bij activeren: %s</string>
+	<string name="subscription_reactivation_error">Activeren van abonnement mislukt: %s</string>
+	<string name="google_play_unavaliable">Google Play is niet beschikbaar:(</string>
+	<string name="return_to_free_plan_message">U kunt uw account wijzigen in een gratis account door uw abonnement te beëindigen in Google Play</string>
+	<string name="subscription_already_activation_for_user">Het abonnement kan niet worden geactiveerd omdat het door gebruiker %s is gekocht.</string>
+	<string name="restore_cloud_library_from_recycle">Het lokale bestand is verwijderd. Herstellen?</string>
+	<string name="cloud_file_while_not_upload">Het bestand staat nog niet in de cloud</string>
+	<string name="upload_ecrypted_libraries_dont_supported">Het uploaden van versleutelde verzamelingen naar de cloud is tijdelijk niet beschikbaar.</string>
+	<string name="button_signin">Meld u aan</string>
+	<string name="cloud_library_not_found">De verzameling kan niet worden gevonden in de cloud. Misschien is het verwijderd.\nWilt u de verzameling wijzigen in een lokale versie?</string>
+	<string name="cloud_library_already_uploaded">Deze verzameling is al naar de cloud ge-upload.</string>
+	</resources>
