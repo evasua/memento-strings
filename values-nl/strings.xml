@@ -1084,4 +1084,29 @@
 	<string name="run_sync_slave_libraries_summary">Synchroniseer eerst geassocieerde verzamelingen</string>
 	<string name="choice_type_add_button_in_edit_title">Het creëren van elementen tijdens het wijzigen van een item</string>	
 	
-</resources>
+<string name="welcome_text_description">De Verzameling is de plaats waar je oblecten worden opgeslagen.\nJe kunt beginnen met jezelf vertrouwd maken met het programma door een verzameling te maken op basis van een van de beschikbare sjablonen.</string>
+	
+	<string name="memento_cloud">Cloud</string>
+	<string name="start_remove_librarary_from_cloud">De verzameling wordt verwijderd...</string>
+	<string name="success_remove_librarary_from_cloud">De verzameling is succesvol verwijderd uit de cloud</string>
+	<string name="start_upload_library_to_cloud">De verzameling wordt ge-upload...</string>	
+	<string name="success_upload_library_to_cloud">De verzameling is succesvol ge-upload.\nDe verzameling wordt automatisch gesynchroniseerd.</string>
+	<string name="success_upload_library_to_cloud2">Je kunt je verzameling toegankelijk maken voor andere Memento gebruikers in de toegangsinstellingen.</string>	
+	<string name="push_entries_to_cloud_message" formatted="false">Objecten uploaden...\n%s van %s objecten verwerkt</string>
+	<string name="my_cloud_libraries_menu_item">Opslag in de cloud</string>
+	<string name="start_download_library_model">De structuur van de verzameling wordt ge-upload...</string>
+	<string name="open_library">Open verzameling</string>
+	<string name="open_library_hint">Open lokale kopie</string>
+	<string name="download_library">Download verzameling</string>
+	<string name="download_library_hint">Maak een lokale kopie</string>			
+	<string name="pull_entries_from_cloud_message">Objecten worden gedownload...</string>
+	<string name="pull_entries_from_cloud_message2" formatted="false">%s van %s objecten verwerkt</string>
+	<string name="success_pull_library_from_cloud">Objecten zijn succesvol gedownload...\nDe verzameling wordt automatisch gesynchroniseerd.</string>
+	<string name="cloud_conflict_fields_title">Conflicten</string>
+	<string name="cloud_conflict_fix_button_title">Herstel</string>
+    <plurals name="conflict_count">
+	<item quantity="one">%d conflict opgetreden tijdens synchronisatie</item>
+	<item quantity="other">%d conflicten opgetreden tijdens synchronisatie</item>
+</plurals>
+    <string name="button_select">Selecteer</string>
+    </resources>
