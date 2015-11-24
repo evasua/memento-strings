@@ -1109,4 +1109,8 @@
 	<item quantity="other">%d conflicten opgetreden tijdens synchronisatie</item>
 </plurals>
     <string name="button_select">Selecteer</string>
+    <string name="cloud">Cloud</string>
+    <string name="library_not_in_cloud">Niet in de cloud</string>
+    <string name="synced">Gesynchroniseerd %s</string>
+    <string name="cloud_synced_progress">Synchronisatie...</string>
     </resources>
