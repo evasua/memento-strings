@@ -53,7 +53,7 @@
     <string name="library_item_edit">수정</string>
     <string name="library_item_delete">삭제</string>
     <string name="library_item_delete_message_text">엔트리 \"%s\" 를 정말 삭제할까요?</string>
-    <string name="library_item_trush_message_text">항목 \"% s\"를 휴지통에 정말 이동 하시겠습니까?</string>
+    <string name="library_item_trush_message_text">항목 \"%s\"를 휴지통에 정말 이동 하시겠습니까?</string>
     <string name="library_items_count">항목: %s</string>
     <string name="library_menu_select_sort">정렬</string>
     <string name="library_menu_select_group">그룹</string>
@@ -323,7 +323,7 @@
     <string name="unpublic_library_title">라이브러리 발행하지 않기</string>
     <string name="unpublic_library">발행하지않음</string>
     <string name="unpublish_success">이 라이브러리는 발행되지 않았습니다</string>
-    <string name="unpublic_message_text">라이브러리 \"% s\"를 정말 발행하지 않으시겠습니까?</string>
+    <string name="unpublic_message_text">라이브러리 \"%s\"를 정말 발행하지 않으시겠습니까?</string>
     <string name="unbind_from_gdocs_hint">구글 시트로 부터 연결해제</string>
     <string name="preference_category_google_docs">구글 시트</string>
     <string name="unbind_from_google_docs_success">라이브러리는 더이상 구글 시트와 연결하지 않습니다.</string>
@@ -345,7 +345,7 @@
     <string name="edit_pub_permissions_task_dialog_message">라이브러리 권한을 변경 중</string>
     <string name="import_template">템플릿 가져오기</string>
     <string name="export_template">템플릿 내보내기</string>
-    <string name="export_template_error">템플릿 내보내기 오류 : % s</string>
+    <string name="export_template_error">템플릿 내보내기 오류 : %s</string>
     <string name="import_template_success">템플릿을 가져왔습니다</string>
     <string name="wrong_template_version">사용되는 Memento 버전은 선택한 템플릿 파일을 지원하지 않습니다. Memento를 업데이트하십시오.</string>
     <string name="flex_type_library_entry">항목에 연결</string>
@@ -531,7 +531,7 @@
     <string name="field_not_sync">싱크 없음</string>
     <string name="link_button">링크</string>
     <string name="prepare_linking_library">연결을 준비중...</string>
-    <string name="error_prepare_linking">연결을 준비하는 동안 오류가 발생했습니다 : % s</string>
+    <string name="error_prepare_linking">연결을 준비하는 동안 오류가 발생했습니다 : %s</string>
     <string name="have_library_items_ask_title">구글 시트에 연결</string>
     <string name="have_library_items_ask_message">라이브러리는 연결 작업 중에 삭제 된 레코드가 포함되어 있습니다. 라이브러리를 Google 스프레드 시트와 연결 하시겠습니까?</string>
     <string name="autofill_source_option_title">데이터 소스</string>
@@ -606,7 +606,7 @@
     <string name="most_popular">인기 있는</string>
     <string name="templates_sort_dialog_title">템플릿 정렬</string>
     <string name="delete_catalog_template_title">템플릿 삭제</string>
-    <string name="delete_catalog_template_message">온라인 카탈로그에서 템플릿 \"% s\"를 정말 삭제 하시겠습니까?</string>
+    <string name="delete_catalog_template_message">온라인 카탈로그에서 템플릿 \"%s\"를 정말 삭제 하시겠습니까?</string>
     <string name="cant_share_template_withous_fields">필드 없이 템플릿을 공유할 수 없습니다</string>
     <string name="reset_pass_button">비밀번호를 잊으셨나요?</string>
     <string name="request_pass_dialog_title">비밀번호 변경</string>
@@ -651,20 +651,20 @@
     <string name="boolean_field_check_value">체크</string>
     <string name="boolean_field_uncheck_value">체크 안함</string>
     <string name="visible_field_depend_pretitle">%s의 상태</string>
-    <string name="visible_field_depend_description">만약 % s 항목 값을 유지 가능한 항목은 이 상태로 유지됩니다</string>
+    <string name="visible_field_depend_description">만약 %s 항목 값을 유지 가능한 항목은 이 상태로 유지됩니다</string>
     <string name="depend_from">%s 으로부터 종속관계</string>
     <string name="delete_depend_dialog_title">종속성 제거</string>
-    <string name="delete_depend_dialog_message">항목 \"% s\"형식의 종속성을 정말 삭제 하시겠습니까?</string>
+    <string name="delete_depend_dialog_message">항목 \"%s\"형식의 종속성을 정말 삭제 하시겠습니까?</string>
     <string name="sl_content_depend_type">이 필드의 컨텐츠</string>
     <string name="sl_content_depend_pretitle">필드 값 %s</string>
-    <string name="sl_content_depend_description">필드 % s의 값이 존재하는 경우, 필드 값을 선택할 수있게됩니다</string>
+    <string name="sl_content_depend_description">필드 %s의 값이 존재하는 경우, 필드 값을 선택할 수있게됩니다</string>
     <string name="backup_images_checkbox">관련 이미지, 오디오 및 기타 파일의 백업 복사본 만들기</string>
     <string name="backup_files_progress_title">파일 백업</string>
-    <string name="backup_files_error">파일 백업 중 오류 : % s</string>
+    <string name="backup_files_error">파일 백업 중 오류 : %s</string>
     <string name="restore_files_message">백업 복사본은 데이터베이스 관련 파일의 아카이브가 포함됩니다; 그들을 복원 하시겠습니까?</string>
     <string name="restore_files_progress_title">파일 복원</string>
     <string name="restore_files_success2">데이터베이스와 관련된 모든 파일이 압축되었습니다</string>
-    <string formatted="false" name="restore_files_error_message">아카이브에서 파일 복원 실패 : % s</string>
+    <string formatted="false" name="restore_files_error_message">아카이브에서 파일 복원 실패 : %s</string>
     <string name="restore_files_error">파일 복원 실패</string>
     <string name="select_google_account">구글 계정 선택</string>
     <string name="send_files_to_cloud_error">클라우드에 파일 업로드 에러:</string>
@@ -743,7 +743,7 @@
     <string name="select_button">선택</string>
     <string name="clear_button">클리어</string>
     <string name="image_info_button">정보</string>
-    <string name="error_library_not_unique_field_names">라이브러리의 항목 이름은 고유해야합니다. 항목을 체크 : % s.</string>
+    <string name="error_library_not_unique_field_names">라이브러리의 항목 이름은 고유해야합니다. 항목을 체크 : %s.</string>
     <string name="info_path">경로:</string>
     <string name="info_resolution">해상도:</string>
     <string name="info_size">사이즈:</string>
@@ -807,8 +807,8 @@
     <string name="chart_copy_title_postfix">복사</string>
     <string name="chart_validate_error_empty_fields">데이터 필드를 선택해야 합니다</string>
     <string name="no_data_for_chart">데이터 없음</string>
-    <string name="cant_delete_charts_filter_message">이 필터는 그래프에서 사용되고 있기 때문에 지울 수 없습니다 : % s</string>
-    <string name="cant_delete_charts_field_message">이 항목은 그래프에서 사용되고 있기 때문에 지울 수 없습니다 : % s</string>
+    <string name="cant_delete_charts_filter_message">이 필터는 그래프에서 사용되고 있기 때문에 지울 수 없습니다 : %s</string>
+    <string name="cant_delete_charts_field_message">이 항목은 그래프에서 사용되고 있기 때문에 지울 수 없습니다 : %s</string>
     <string name="save_to_file_name">파일 이름</string>
     <string name="save_to_file_directory">디렉터리</string>
     <string name="need_pro_for_charts">무료 버전에서는 라이브러리에 포함 할 수있는 그래프는 하나뿐입니다. 제한을 해제하려면 PRO 버전으로 업그레이드하십시오.</string>
@@ -889,8 +889,8 @@
     <string name="string_list_import_menu_title">아이템 가져오기</string>
     <string name="open_button">열기</string>
     <string name="string_list_export_snackbar_ok">아이템을 내보내기 했습니다</string>
-    <string name="string_list_export_error">내보내는 동안 오류가 발생했습니다 : % s</string>
-    <string name="string_list_import_error">가져오는 동안 오류가 발생했습니다 : % s</string>
+    <string name="string_list_export_error">내보내는 동안 오류가 발생했습니다 : %s</string>
+    <string name="string_list_import_error">가져오는 동안 오류가 발생했습니다 : %s</string>
     <string name="something_wrong_dialog_title">무엇인가 잘못되었음</string>
     <string name="export_template_snackbar_ok">템플릿을 내보내기 했습니다</string>
     <string name="import_template_error">템플릿 가져오기 에러: %s</string>
@@ -903,7 +903,7 @@
     <string name="aggregation_result_left">왼쪽</string>
     <string name="aggregation_result_right">오른쪽</string>
     <string name="aggregation_delete_title">집계 제거</string>
-    <string name="aggregation_delete_message">집계 \"% s\"를 정말 삭제 하시겠습니까?</string>
+    <string name="aggregation_delete_message">집계 \"%s\"를 정말 삭제 하시겠습니까?</string>
     <string name="aggregation_need_select_field_message">집계 함수에서 사용하는 항목을 선택해야합니다</string>
     <string name="open_object_by_uri_error">오브젝트 %s 을 열 수 없음</string>
     <string name="import_and_export_menu_item">가져오기와 내보내기...</string>
@@ -917,13 +917,13 @@
     <string name="rating_field_max_value">최대 레이팅</string>
     <string name="auto_fill_barcode_empty2">자동 완성 소스와 항목 항목의 특성을 비교</string>
     <string name="barcode_rule_delete_title">규칙 삭제</string>
-    <string name="barcode_rule_delete_text">항목 \"% s\"자동 완성 규칙을 정말 삭제 하시겠습니까?</string>
+    <string name="barcode_rule_delete_text">항목 \"%s\"자동 완성 규칙을 정말 삭제 하시겠습니까?</string>
     <string name="multi_library_item_trush_message_text">선택한 항목을 정말로 휴지통으로 이동 하시겠습니까?</string>
     <string name="multi_library_item_delete_message_text">선택한 항목을 정말로 휴지통으로 이동 하시겠습니까?</string>
-    <string name="delete_library_snackbar_text">라이브러리 \"% s\"는 휴지통으로 이동되었습니다</string>
+    <string name="delete_library_snackbar_text">라이브러리 \"%s\"는 휴지통으로 이동되었습니다</string>
     <string name="deleted">삭제됨</string>
-    <string name="library_recover_dialog_text">라이브러리 \"% s\"를 복원 하시겠습니까?</string>
-    <string name="library_recover_snackbar_text">그룹 \"% s\"에 복원 된 라이브러리</string>
+    <string name="library_recover_dialog_text">라이브러리 \"%s\"를 복원 하시겠습니까?</string>
+    <string name="library_recover_snackbar_text">그룹 \"%s\"에 복원 된 라이브러리</string>
     <string name="sort_by_name">이름으로 정렬</string>
     <string name="sort_by_time">추가된 시간으로 정렬</string>
     <string name="favorites_empty_list_layout">즐겨찾는 항목이 없음.</string>
@@ -945,11 +945,11 @@
     <string name="empty_field_depend_list">이 항목은 다른 필드에 대한 종속성이 없습니다.</string>
     <string name="share_template_dialog_title">온라인 카탈로그로 템플릿 공유</string>
     <string name="catalog_templates">카탈로그 템플릿</string>
-    <string name="empty_search_result2">검색 - % s - 일치하는 항목이 없습니다</string>
+    <string name="empty_search_result2">검색 - %s - 일치하는 항목이 없습니다</string>
     <string name="rename_group">그룹 이름 변경</string>
     <string name="move">이동</string>
     <string name="select_group">그룹 선택</string>
-    <string name="library_moved_message">그룹 \"% s\"로 이동한 라이브러리</string>
+    <string name="library_moved_message">그룹 \"%s\"로 이동한 라이브러리</string>
     <string name="master_library_entries">관계된 라이브러리의 항목</string>
     <string name="invisible">볼수없음</string>
     <string name="display_master_libraries_items">카드에 표시</string>

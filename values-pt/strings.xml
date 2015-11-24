@@ -1018,7 +1018,7 @@
     <string name="empty_field_depend_list">Este campo não tem dependências em outros campos.</string>
     <string name="share_template_dialog_title">Partilhar modelo através do catálogo on-line</string>
     <string name="catalog_templates">Catálogo de modelos</string>
-    <string name="empty_search_result2">A sua pesquisa - % s - não encontrou nenhuma entrada</string>
+    <string name="empty_search_result2">A sua pesquisa - %s - não encontrou nenhuma entrada</string>
     <string name="rename_group">Renomear grupo</string>
     <string name="move">Mover</string>
     <string name="select_group">Selecionar grupo</string>
@@ -1167,7 +1167,7 @@
     <string name="upload_file_to_cloud">A enviar o ficheiro...</string>    
     <string name="upload_files_to_cloud">A descarregar os ficheiros</string>
     <string name="cloud_upload_error_title">Não conseguimos sincronizar esta biblioteca</string>
-    <string name="upload_big_file_error" formatted="false">A entrada %s contém ficheiro grande %s (% s).↵\nTamanho máximo do arquivo é %s.</string>
+    <string name="upload_big_file_error" formatted="false">A entrada %s contém ficheiro grande %s (%s).\nTamanho máximo do arquivo é %s.</string>
     <string name="prepare_library_for_cloud">A biblioteca está a ser processada...</string>
     <string name="download_files_from_cloud">A descarregar ficheiros a partir da nuvem...</string>
     <string name="cant_download_item_files_for_copy">A descarregar ficheiros para criar cópias que falharam.</string> 

@@ -300,28 +300,28 @@
     <string name="libraries_by_user_not_found">Uvedený užívateľ nebol nájdený, alebo nemá publikované žiadne knižnice</string>
     <string name="library_not_found">Knižnica s touto adresou nebola nájdená</string>
     <string name="wrong_library_address_format">Chybný formát adresy knižnice</string>
-    <string name="last_update">Posledný update:% s</string>
+    <string name="last_update">Posledný update: %s</string>
     <string name="subscribe_button">podpísať sa</string>
     <string name="subscribe_task_get_library">Získanie záznamov knižnice</string>
     <string name="subscribe_task_create_library">vytváranie knižnice</string>
-    <string formatted="false" name="subscribe_task_save_library_task">Uloženie záznamov.↵\n % s z% s</string>
+    <string formatted="false" name="subscribe_task_save_library_task">Uloženie záznamov.\n %s z %s</string>
     <string name="subscribe_task_create_index">vytváranie indexov</string>
     <string name="subscribes_group_title">Moje podpisy</string>
     <string name="library_settings">Nastavenie</string>
     <string name="subscribe_get_updated_pack">Kontrola aktualizácií</string>
     <string name="subscribe_have_updated_pack">Prijatá aktualizácia knižnice</string>
-    <string name="subscribe_last_update">Posledná aktualizácia% s</string>
+    <string name="subscribe_last_update">Posledná aktualizácia %s</string>
     <string name="subscribe_last_update_dialog_title">aktualizácia knižnice</string>
     <string name="subscribe_last_update_dialog_message">Aktualizácia knižnice</string>
     <string name="clear_preference">Zmazanie knižnice</string>
     <string name="clear_preference_hint">Zmazanie všetkých záznamov knižnice</string>
     <string name="clear_preference_quest">Zmazať všetky záznamy v knižnici?</string>
-    <string name="last_sync">Synchronizácia:% s</string>
-    <string name="last_public">Publikovanie:% s</string>
+    <string name="last_sync">Synchronizácia: %s</string>
+    <string name="last_public">Publikovanie: %s</string>
     <string name="unpublic_library_title">Zrušiť publikovanie knižnice</string>
     <string name="unpublic_library">Zrušiť publikovanie</string>
     <string name="unpublish_success">Knižnici bolo zrušené publikovanie</string>
-    <string name="unpublic_message_text">Skutočne chcete zrušiť publikovanie knižnice \"% s\"?</string>
+    <string name="unpublic_message_text">Skutočne chcete zrušiť publikovanie knižnice \"%s\"?</string>
     <string name="unbind_from_gdocs_hint">Odpojenie z Google Sheets</string>
     <string name="preference_category_google_docs">Google Sheets</string>
     <string name="unbind_from_google_docs_success">Knižnica už ďalej nie je spojená s Google Sheets</string>
@@ -341,7 +341,7 @@
     <string name="edit_pub_permissions_task_dialog_message">Zmena práv prístupov ku knižnici</string>
     <string name="import_template">Import šablóny</string>
     <string name="export_template">Export šablóny</string>
-    <string name="export_template_error">Chyba exportu šablóny:% s</string>
+    <string name="export_template_error">Chyba exportu šablóny:%s</string>
     <string name="import_template_success">Vykonaný import šablóny knižnice</string>
     <string name="wrong_template_version">Vaša verzia Memento nepodporuje vybraný súbor šablóny. Aktualizujte Memento.</string>
     <string name="flex_type_library_entry">Zápis knižnice</string>
