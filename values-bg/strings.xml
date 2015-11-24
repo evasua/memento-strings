@@ -53,7 +53,7 @@
     <string name="library_item_edit">Редактиране</string>
     <string name="library_item_delete">Изтриване</string>
     <string name="library_item_delete_message_text">Наистина ли искате да изтриете записа \"%s\" ?</string>
-    <string name="library_item_trush_message_text">Наистина ли искате да изпратите записа \"% S\" в кошчето?</string>
+    <string name="library_item_trush_message_text">Наистина ли искате да изпратите записа \"%s\" в кошчето?</string>
     <string name="library_items_count">Записи: %s</string>
     <string name="library_menu_select_sort">Сортиране</string>
     <string name="library_menu_select_group">Групиране</string>
