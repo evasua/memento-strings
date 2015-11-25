@@ -187,7 +187,7 @@
     <string name="button_add_fill_field">auto-aanvullen voorwaarde toevoegen</string>
     <string name="barcode_auto_fill_checkbox">Veld auto-aanvullen</string>
     <string name="add_fill_field_dialog_title">Aanmaken van een auto-aanvullen voorwaarde</string>
-    <string name="memento_field">Deze worden opgeslagen in de object velden</string>
+    <string name="memento_field">Dit wordt opgeslagen in het veld</string>
     <string name="memento_field_promt">Verzamelingsobject velden</string>
     <string name="uniquery_check_fail">Een verzameling kan maar een veld van het type %s bevatten</string>
     <string name="to">to</string>
@@ -216,13 +216,13 @@
     <string name="bind_to_gdocs_title">Link naar Google Sheets</string>
     <string name="unbind_message_title">Link naar Google Sheets verbreken</string>
     <string name="unbind_message_text">Wilt u de link van de verzameling \"%s\" naar Google Sheets daadwerkelijk verbreken?</string>
-    <string name="bind_to_gdocs_message">Maken van link naar Google Spreadsheets.</string>
-    <string name="bind_to_gdocs_success">De verzameling is gelinkt naar Google Spreadsheets. Beginnen met synchroniseren van objecten.</string>
-    <string name="sync_with_gdocs_success">De verzameling is gesynchroniseerd met Google Spreadsheets</string>
+    <string name="bind_to_gdocs_message">Maken van een link naar Google Sheets.</string>
+    <string name="bind_to_gdocs_success">De verzameling is gelinkt naar Google Sheets.</string>
+    <string name="sync_with_gdocs_success">De verzameling is gesynchroniseerd met Google Sheets</string>
     <string name="sync_with_gdocs_title">Synchronisatie met Google Sheets</string>
-    <string name="sync_with_gdocs_message">Synchroniseren van de verzameling met Google Spreadsheets.</string>
+    <string name="sync_with_gdocs_message">De verzameling wordt gesynchroniseerd met Google Sheets.</string>
     <string name="sync_with_gdocs">Sync met Google Sheets</string>
-    <string name="google_docs_task_step_auth">Aanmelden bij de Spreadsheets service</string>
+    <string name="google_docs_task_step_auth">Toegang tot de Sheets service controleren</string>
     <string name="google_docs_task_step_get_rows">Ophalen van lijst informatie</string>
     <string formatted="false" name="google_docs_task_step_process_row">Verwerken van lijst. Regel %s van %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Toevoegen aan lijst. Regel %s van %s</string>
@@ -253,7 +253,7 @@
     <string name="public_to_picasa_create_album">Aanmaken van een Picasa album voor de gepubliceerde verzameling</string>
     <string name="public_to_picasa_success">Afbeeldingen zijn naar Picasa verstuurd</string>
     <string name="picasa_task_step_auth">Aanmelden bij de Picasa service</string>
-    <string formatted="false" name="picasa_send_image_step">Versturen van afbeeldingen uit de verzameling naar Picasa. %s van %s</string>
+    <string formatted="false" name="picasa_send_image_step">Afbeeldingen uit de verzameling naar Picasa verzenden. %s van %s</string>
     <string name="public_library">Publiceren van de verzameling</string>
     <string name="update_public_library">Bijwerken van de publicatie</string>
     <string name="memento_register_account_title">Aanmaken van een account\nop de Memento server</string>
@@ -377,7 +377,7 @@
     <string name="send_all_text">Versturen als tekst</string>
     <string name="flex_type_time">Tijd</string>
     <!-- 1.6.0 -->
-    <string name="set_library_protection">Beveiliging instellen</string>
+    <string name="set_library_protection">Beveiliging</string>
     <string name="set_master_pass_text">Een hoofdwachtwoord opgeven voor toegang tot verzamelingen.\nU dient dit wachtwoord in te voeren om toegang tot gecodeerde verzamelingen te krijgen.</string>
     <string name="master_pass_hint">Wachtwoord</string>
     <string name="master_pass_hint2">Herhaal wachtwoord</string>
@@ -420,8 +420,8 @@
     <string name="flex_type_email">Email</string>
     <string name="email_chooser_title">Selecteer email applicatie</string>
     <string name="choose_own_icon_text">Kies jouw eigen pictogram</string>
-    <string name="font_size_screen_preference">Lettergrootte</string>
-    <string name="font_size_screen_preference_summary">Lettergrootte voor de objecten en objectenlijst</string>
+    <string name="font_size_screen_preference">Lettertypes</string>
+    <string name="font_size_screen_preference_summary">De lettertypes in het object en de objectenlijst</string>
     <string name="font_size_category_entries_list">Lettergrootte voor de objectenlijst</string>
     <string name="font_size_category_entries_card">Lettergrootte voor de objecten</string>
     <string name="font_size_dialog">Lettergrootte</string>
@@ -436,7 +436,7 @@
     <string name="entry_field_value_font_size_preference">Veldwaarde</string>
     <string name="entry_field_value_font_size_preference_summary">Kies de lettergrootte voor de veldwaarde</string>
 <string name="sync_with_gdocs_success_2">De verzameling is gesynchroniseerd met Google</string>
-    <string name="sync_with_gdocs_message_2">Synchroniseren van de verzameling met Google Spreadsheets.</string>
+    <string name="sync_with_gdocs_message_2">Synchroniseer %s met Google Sheets.</string>
     <string name="help_intro">Wat is Memento</string>
     <string name="help_create_library">Verzamelingen aanmaken</string>
     <string name="help_edit_field">de structuur van de verzameling definiëren</string>
@@ -517,7 +517,7 @@
     <string name="auto_show_soft_keyboard">Laat het on screen toetsenbord zien</string>
     <string name="auto_show_soft_keyboard_summary">Wanneer het formulier wordt geopend - open het on screen toetsenbord</string>
     <string name="flex_type_file">Een koppeling naar bestand</string>
-    <string name="file_size">Bestandsgrootte:%sb</string>
+    <string name="file_size">Bestandsgrootte:%s</string>
     <string name="file_not_found">Bestand niet gevonden</string>
     <string name="select_app">Selecteer een toepassing</string>
     <string name="forum">Forum</string>
@@ -530,20 +530,20 @@
     <string name="loading_google_document_list">Laden...</string>
     <string name="google_doc_list_title">Google documenten</string>
     <string name="updated_document_time">Geupdate: %s</string>
-    <string name="move_from_google_docs">Overdracht van gegevens uit de Google Spreadsheet naar Memento</string>
+    <string name="move_from_google_docs">Overdracht van gegevens uit Google Sheets naar Memento</string>
     <string name="move_from_google_docs_attention">Alle objecten in verzameling worden verwijderd</string>
-    <string name="move_from_memento">Overdracht van gegevens uit Memento naar Google Spreadsheet</string>
-    <string name="move_from_memento_attention">Alle beschikbare objecten in Google spreadsheet worden verwijderd</string>
-    <string name="find_in_spreadsheet_column_title">Lijst van velden in Memento en Google Spreadsheet</string>
+    <string name="move_from_memento">Overdracht van gegevens uit Memento naar Google Sheets</string>
+    <string name="move_from_memento_attention">Alle beschikbare gegevens in Google Sheets worden verwijderd</string>
+    <string name="find_in_spreadsheet_column_title">Lijst van velden in Memento en Google Sheets</string>
     <string name="google_doc_exists_link_option">Parameters koppelen</string>
-    <string name="get_google_docs_columns_message">Het laden van de lijst van kolommen voor de geselecteerde Google Spreadsheet ...</string>
+    <string name="get_google_docs_columns_message">De lijst met kolommen voor de geselecteerde Google Sheets wordt geladen ...</string>
     <string name="field_not_found">Niet gevonden</string>
     <string name="field_not_sync">Niet gesynchroniseerd</string>
     <string name="link_button">Koppeling</string>
     <string name="prepare_linking_library">Koppelen voorbereiden.</string>
     <string name="error_prepare_linking">Er is een fout opgetreden tijdens het voorbereiden van de koppeling: %s</string>
-    <string name="have_library_items_ask_title">Koppelen aan een Google Spreadsheet</string>
-    <string name="have_library_items_ask_message">De verzameling bevat de records die verwijderd zijn tijdens het koppelen. Wilt u de verzameling koppelen met Google Spreadsheet?</string>
+    <string name="have_library_items_ask_title">Koppelen aan een Google Sheet</string>
+    <string name="have_library_items_ask_message">De verzameling bevat de records die verwijderd zijn tijdens het koppelen. Wilt u de verzameling koppelen aan Google Spreadsheet?</string>
     <string name="autofill_source_option_title">Gegevensbron</string>
     <string name="amazon_source_option_title">Amazon</string>
     <string name="auto_backup_option_title">Automatische back-up</string>
@@ -753,7 +753,7 @@
     <string name="group_by_subtitle">op %s</string>
     <string name="sort_asc">OPL.</string>
     <string name="sort_desc">AFL.</string>
-    <string name="sliding_hint_text">SORTEREN, GROEPEREN, FILTEREN en meer</string>
+    <string name="sliding_hint_text">Veeg van rechts naar links...\nom het geavanceerde menu te openen...\nsorteren, groeperen, filters, grafieken en meer...</string>
     <string name="multy_sorting">Sorteer op meerdere velden</string>
     <string name="new_button">nieuw</string>
     <string name="free_version_entry_page_limit">In de gratis versie kun je slechts twee pagina\'s aanmaken. Upgrade naar de PRO versie om deze beperking op te heffen.</string>
@@ -1192,4 +1192,44 @@
 	<string name="upload_to_cloud_offer_title">{gereed voor de cloud...}</string>
 	<string name="upload_to_cloud_offer_text">• Samenwerken in een team\n• Synchroniseer over meerdere apparaten\n• Backup altijd in de cloud beschikbaar</string>
 	<string name="button_no_thanks">Nee, bedankt</string>
+	<string name="button_upload">Upload</string>
+	
+	<string name="cant_upload_file_to_cloud">Uploaden van bestand(en) mislukt.</string>
+    <string name="button_show">Toon</string>
+	<string name="invalid_library_template_file_format">Verkeerd sjabloonbestand</string>    
+	<string name="cant_add_yourself">U kunt uzelf niet toevoegen</string>
+	<string name="remove_from_old_public">Als de verzameling met een oudere versie is gepubliceerd, wordt de publicatie voorafgaand aan het uploaden ongedaan gemaakt.</string>
+	<string name="select_template_title">Selecteer sjabloon</string>
+	<string name="empty_library_title">Lege verzameling</string>
+	<string name="catalog_templates_title">Online catalogus</string>
+	<string name="catalog_templates_hint">Meer dan 3000 sjablonen</string>
+	<string name="add_lib_from_google_drive_hint">Herstel vanaf Google Drive</string>
+	<string name="templates">Sjablonen</string>
+	<string name="import_template_from_file_hint">Haal sjabloon op van bestand</string>
+	<string name="help_cloud">Opslag in de cloud en samenwerken in een team</string>
+	<string name="subscription_pro_bonus_text">Bij de meeste abonnementsvormen voor opslag in de cloud krijgt u de PRO-versie als bonus</string>
+	<string name="send_formatting_menu_item">Wordt geformatteerd...</string>
+	<string name="pro_for_cloud_storage_title">Abonnement</string>
+	<string name="default_file_manager_pref_title">Bestandsbeheer</string>
+	<string name="default_file_manager_built_in">ingebouwd</string>	
+	<string name="clear_search_history">Verwijder zoekgeschiedenis</string>
+	<string name="clear_search_history_hint">Verwijder alle zoekopdrachten die u heeft uitgevoerd</string>
+	<string name="success_clear_search_history">Uw zoekgeschiedenis is verwijderd</string>	
+	<string name="clear_search_history_quest">Weet u zeker dat u uw zoekgeschiedenis wilt verwijderen?</string>
+	<string name="view_csv_error_dialog_message">Helaas, de applicatie voor het bekijken van een csv-bestand kan niet worden gevonden</string>
+	
+	<string name="edit_library_tabs_autofill">Automatisch aanvullen</string>
+	<string name="autofill_from">van %s</string>
+	<string name="autofill_by_barcode">met streepjescode</string>
+	<string name="autofill_by_title">met titel</string>
+	<string name="autofill_need_barcode_field">Om automatisch aanvullen met streepjescode te gebruiken moet uw verzameling het veld \"Streepjescode\" bevatten. Hoe moet u dit veld aanmaken?</string>
+	<string name="autofill_need_text_field">Om automatisch aanvullen met titel te gebruiken moet uw verzameling een veld van het type \"Tekst\" bevatten. Hoe moet u dit veld aanmaken?</string>
+	<string name="autofill_select_master_field">Zoekveld</string>
+	<string name="autofill_rules_title">Regels voor automatisch aanvullen</string>
+	<string name="music_brainz_source_artist">Muziekartiesten</string>
+    <string name="music_brainz_source_album">Albums</string>
+	<string name="unknown_data_source">Onbekende bron</string>
+    <string name="google_books_source_books">Boeken</string>
+    <string name="themoviedb_source_movies">Films</string>
+    <string name="show_deleted_entries_menu_item">Toon verwijderde objecten</string>
 	</resources>
