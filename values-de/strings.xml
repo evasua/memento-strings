@@ -190,7 +190,7 @@
     <string name="button_add_fill_field">Regel zum Ausfülen erstellen</string>
     <string name="barcode_auto_fill_checkbox">Automatisches Ausfüllen</string>
     <string name="add_fill_field_dialog_title">Regel zum Ausfülen erstellen</string>
-    <string name="memento_field">Wird im Eintragsfeld gespeichert werden</string>
+    <string name="memento_field">Wird im Feld gespeichert werden</string>
     <string name="memento_field_promt">Verzeichnis-Eintragsfeld</string>
     <string name="uniquery_check_fail">Ein Verzeichnis kann nur ein Feld vom Typ "%s" enthalten</string>
     <string name="to">nach</string>
@@ -219,15 +219,15 @@
     <string name="bind_to_gdocs_title">Mit Google Sheets verknüpfen</string>
     <string name="unbind_message_title">Verknüpfung nach Google Sheets aufheben</string>
     <string name="unbind_message_text">Soll die Verknüpfung des Verzeichnisses \"%s\" nach Google Sheets wirklich aufgehoben werden?</string>
-    <string name="bind_to_gdocs_message">Verknüpfe das Verzeichnis mit Google Text Tabellen.</string>
+    <string name="bind_to_gdocs_message">Verknüpfe das Verzeichnis mit Google Sheets.</string>
     <!-- für & wirklich amp notwendig? -->
-    <string name="bind_to_gdocs_success">Das Verzeichnis wurde mit Google Text Tabellen verknüpft. Die synchronisation der Einträge wird nun begonnen.</string>
+    <string name="bind_to_gdocs_success">Das Verzeichnis wurde mit Google Sheets verknüpft.</string>
     <string name="sync_with_gdocs_success">Das Verzeichnis wurde mit Google Text Tabellen synchronisiert</string>
     <string name="sync_with_gdocs_success_2">Das Verzeichnis \"%s\" wurde mit Google Text Tabellen synchronisiert</string>
     <string name="sync_with_gdocs_title">Synchronisation mit Google Sheets</string>
     <string name="sync_with_gdocs_message">Synchronisation des Verzeichnisses mit Google Text Tabellen.</string>
     <string name="sync_with_gdocs">Synchronisiere mit Google Sheets</string>
-    <string name="google_docs_task_step_auth">Anmeldung an den Text Tabellen-Service</string>
+    <string name="google_docs_task_step_auth">Authentifizierung an den Text Tabellen-Service</string>
     <string name="google_docs_task_step_get_rows">Empfange einen Listen-basierten Datenfluss</string>
     <string formatted="false" name="google_docs_task_step_process_row">Bearbeite Listenzeilen. %s von %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Füge eine Listenzeile hinzu. %s von %s</string>
@@ -391,9 +391,9 @@
     <string name="help_gdocs_sync">Synchronisiere mit Google Text &amp; Tabellen</string>
     <string name="help_publish">Verzeichnisse veröffentlichen</string>
     <string name="help_subscribe">Verzeichnisse abonnieren</string>
-<string name="sync_with_gdocs_message_2">Synchronisiere \"%s\" mit Google Spreadsheets.</string>
+<string name="sync_with_gdocs_message_2">Synchronisiere \"%s\" mit Google Sheets.</string>
     <string name="lib_protection">Schutz des Verzeichnisses</string>
-    <string name="set_library_protection">Schutz einstellen</string>
+    <string name="set_library_protection">Schutz</string>
     <string name="set_master_pass_text">Erstelle ein Master-Passwort für den Zugriff auf die Datenbanken.\nDieses Master-Passwort muss eingegeben werden, um Zugriff zu den verschlüsselten Datenbanken zu erhalten.</string>
     <string name="master_pass_hint">Passwort</string>
     <string name="master_pass_hint2">Passwort erneut eingeben</string>
@@ -431,7 +431,7 @@
     <string name="flex_type_email">E-Mail</string>
     <string name="email_chooser_title">E-Mail-Programm auswählen</string>
     <string name="choose_own_icon_text">Eigenes Icon wählen</string>
-    <string name="font_size_screen_preference">Schriftgröße</string>
+    <string name="font_size_screen_preference">Schriftarten</string>
     <string name="font_size_screen_preference_summary">Die Schriftgröße in der Eingabe und in der Eingabeliste</string>
     <string name="font_size_category_entries_list">Schriften in der Eingabeliste</string>
     <string name="font_size_category_entries_card">Schriften in der Eingabe</string>
@@ -519,7 +519,7 @@
     <string name="auto_show_soft_keyboard">Soft Tastatur anzeigen</string>
     <string name="auto_show_soft_keyboard_summary">"Beim Öffnen einer Form,  Soft Tastatur anzeigen"</string>
     <string name="flex_type_file">Verknüpfung zur Datei</string>
-    <string name="file_size">Dateigröße: %sb</string>
+    <string name="file_size">Dateigröße: %s</string>
     <string name="file_not_found">Datei nicht gefunden</string>
     <string name="select_app">Applikation auswählen</string>
     <string name="forum">Forum</string>
@@ -533,20 +533,20 @@
     <string name="loading_google_document_list">Lade...</string>
     <string name="google_doc_list_title">Google Documents</string>
     <string name="updated_document_time">Updated: %s</string>
-    <string name="move_from_google_docs">Daten von Google Tabellen nach Memento übertragen</string>
+    <string name="move_from_google_docs">Daten von Google Sheets nach Memento übertragen</string>
     <string name="move_from_google_docs_attention">Alle verfügbaren Einträge werden gelöscht</string>
-    <string name="move_from_memento">Daten von Memento nach Google Tabellen übertragen</string>
-    <string name="move_from_memento_attention">Alle Daten in Google Tabellen werden entfernt</string>
-    <string name="find_in_spreadsheet_column_title">Liste der Felder in Memento und Google Tabellen</string>
+    <string name="move_from_memento">Daten von Memento nach Google Sheets übertragen</string>
+    <string name="move_from_memento_attention">Alle Daten in Google Sheets werden entfernt</string>
+    <string name="find_in_spreadsheet_column_title">Liste der Felder in Memento und Google Sheets</string>
     <string name="google_doc_exists_link_option">Verknüpfungsparameter</string>
-    <string name="get_google_docs_columns_message">Lade die Liste der Spalten für die ausgewählte Google Tabelle</string>
+    <string name="get_google_docs_columns_message">Die Liste der Spalten für die ausgewählte Google Sheets wird geladen</string>
     <string name="field_not_found">nicht gefunden</string>
     <string name="field_not_sync">nicht synchronisiert</string>
     <string name="link_button">Verknüpfung</string>
     <string name="prepare_linking_library">Vorbereitung für das Verbinden...</string>
     <string name="error_prepare_linking">Während der Vorbereitung zur Verbindung ist ein Fehler aufgetreten: %s</string>
     <string name="have_library_items_ask_title">Verknüpfung mit einer Google Tabelle</string>
-    <string name="have_library_items_ask_message">Diese Bibliothek enthält die Einträge, die während der Verbindung entfernt wurden. Soll die Übertragung der Bibliothek zu Google Tabellen fortgesetzt werden?</string>
+    <string name="have_library_items_ask_message">Diese Bibliothek enthält die Einträge, die während der Verbindung entfernt wurden. Soll die Übertragung der Bibliothek zu Google Sheets fortgesetzt werden?</string>
     <string name="autofill_source_option_title">Datenquelle</string>
     <string name="amazon_source_option_title">Amazon</string>
     <string name="auto_backup_option_title">Auto Backup</string>
@@ -1062,4 +1062,21 @@
     <string name="library_group_view_type_icons">Symbole</string>
     
 <string name="icon_pack_title_files_types">Dateien</string>
-    </resources>
+    <string name="use_depend_only_in_edit_title">Wo zu verwenden</string>
+    <string name="select_category_template">Bitte Kategorie Auswählen</string>	
+	<string name="template_language">Sprache</string>	
+	<string name="entries_name_is_unique">Der Eintrag Name ist eindeutig</string> 
+	<string name="entry_name_must_be_unique">Der Eintrag Name ist nicht eindeutig</string>
+	<string name="welcome_text_title">Wilkommen bei Memento Database</string>
+	<string name="cloud_conflict_fields_title">Konflikte</string>
+	<string name="allow_permission">Zulassen</string>
+	<string name="deny_permission">Verweigern</string>
+	<string name="button_try_again">Nochmals versuchen</string>	
+	<string name="use_depend_only_in_edit_hint_true">Nur während Bearbeitung des Eintrages</string>
+    <string name="use_depend_only_in_edit_hint_false">Während Bearbatung und lesen des Eintrages</string>
+	<string name="most_viewed_templates">Am Meisten gelesen</string>    
+	<string name="select_template_lang">Wählen Sie die Sprache des Schablones</string>
+	<string name="display_lang_option">Filtern nach Sprache</string>
+	<string name="display_lang_option_all">Alle Schablone</string>
+	<string name="entries_name_dialog_title">Namen der Einträge werden bestimmt nach die Werte der ausgewählen Felder</string>
+	</resources>
