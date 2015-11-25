@@ -208,7 +208,7 @@
     <string name="unbind_message_text">Skutočne chcete odpojiť knižnicu \"%s\" od Google Sheets ?</string>
     <string name="bind_to_gdocs_message">Spojenie knižnice s Google Sheets.</string>
     <string name="bind_to_gdocs_success">Knižnica bola spojená s Google Sheets.</string>
-    <string name="sync_with_gdocs_success">Knižnica bola synchronizovaná s Google Sheets.</string>
+    <string name="sync_with_gdocs_success">Knižnica bola synchronizovaná s Google Sheets</string>
     <string name="sync_with_gdocs_success_2">Knižnica \"%s\" bola synchronizovaná s Google</string>
     <string name="sync_with_gdocs_title">Synchronizácia s Google Sheets</string>
     <string name="sync_with_gdocs_message">Synchronizovanie knižnice s Google Sheets.</string>
@@ -566,7 +566,8 @@
     <string name="no_entries">Žiadne položky</string>
     <plurals name="library_box_entries_count">
 	<item quantity="one">Jeden záznam</item>
-	<item quantity="other">%d záznamy</item>
+	<item quantity="few">%d záznamy</item>
+	<item quantity="other">%d záznamov</item>
 </plurals>
     <string name="add_group_dialog_text">Názov skupiny</string>
     <string name="add_group_dialog_hint">Napísať názov skupiny</string>
@@ -644,8 +645,9 @@
     <string name="field_depends_activity_title">Závislosti</string>
     <string name="no_dependencies">bez závislosti</string>
     <plurals name="field_depends_count">
-	<item quantity="one">Podmienka</item>
-	<item quantity="other">Podmienky</item>
+	<item quantity="one">Jedna závislosť</item>
+	<item quantity="few">%d závislosti</item>
+	<item quantity="other">%d závislostí</item>
 </plurals>
     <string name="add_depends_button_title">Pridať závislosť</string>
     <string name="library_dont_have_fields_for_depends">Knižnica neobsahuje vhodné polia pre vytvorenie závislosti tohto poľa</string>
@@ -864,11 +866,13 @@
     <string name="only_title_on_tile">Len názov knižnice</string>
     <plurals name="fields_count">
 	<item quantity="one">Jedno pole</item>
-	<item quantity="other">%d polia</item>
+	<item quantity="few">%d polia</item>
+	<item quantity="other">%d polí</item>
 </plurals>
     <plurals name="libraries_count">
 	<item quantity="one">Jedna knižnica</item>
-	<item quantity="other">%d knižnice</item>
+	<item quantity="few">%d knižnice</item>
+	<item quantity="other">%d knižníc</item>
 </plurals>
     <string name="empty">Prázdny</string>
     <string name="add_page">Pridať stránku</string>
@@ -936,11 +940,13 @@
     <string name="rating_field_max_value">Najvyššie hodnotenie</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d hviezda</item>
-	<item quantity="other">%d hviezdy</item>
+	<item quantity="few">%d hviezdy</item>
+	<item quantity="other">%d hviezd</item>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
 	<item quantity="one">%d položka bola presunutá do koša</item>
-	<item quantity="other">%d položky boli presunuté do koša</item>
+	<item quantity="few">%d položky boli presunuté do koša</item>
+	<item quantity="other">%d položiek bolo presunutých do koša</item>
 </plurals>
     <string name="auto_fill_barcode_empty2">Porovnať vlastnosti automaticky dopĺňaného zdroja a polí záznamov</string>
     <string name="barcode_rule_delete_title">Zmazať pravidlo</string>
@@ -1004,10 +1010,37 @@
     <string name="scale">Rozlíšenie %d</string>
     <plurals name="duration_seconds">
 	<item quantity="one">1 sekunda</item>
-	<item quantity="other">%d sekundy</item>
+	<item quantity="few">%d sekundy</item>
+	<item quantity="other">%d sekúnd</item>
 </plurals>
     <plurals name="duration_minutes">
 	<item quantity="one">1 minúta</item>
-	<item quantity="other">%d minúty</item>
+	<item quantity="few">%d minúty</item>
+	<item quantity="other">%d minút</item>
 </plurals>
+    <plurals name="duration_hours">
+	<item quantity="one">1 hodina</item>
+	<item quantity="other">%d hodiny</item>
+</plurals>
+    <plurals name="duration_days">
+	<item quantity="one">1 deň</item>
+	<item quantity="other">%d dni</item>
+</plurals>
+    <string name="all">Všetko</string>
+    <string name="page">Stránka</string>
+    <string name="translate">Preložiť</string>
+    <string name="entries_view_type_calendar">Kalendár</string>
+    <string name="calendar_field_role">Použi v Kalendári ako</string>
+    <string name="calendar_field_role_start">Čas začiatku</string>
+    <string name="calendar_field_role_end">Čas ukončenia</string>
+    <string name="calendar_field_role_duration_min">Trvanie, min</string>
+    <string name="calendar_field_role_duration_hour">Trvanie, hodiny</string>
+    <string name="calendar_field_role_duration_hour_time">Trvanie</string>
+    <string name="calendar_field_role_start_short">začiatok</string>
+    <string name="calendar_field_role_end_short">koniec</string>
+    <string name="calendar_field_role_duration_short">trvanie</string>
+    <string name="calendar_day_view">Zobrazenie dňa</string>
+    <string name="calendar_3day_view">3-dňové zobrazenie</string>
+    <string name="calendar_week_view">Týždňové zobrazenie</string>
+    <string name="go_to_date">Choď na dátum</string>
     </resources>
