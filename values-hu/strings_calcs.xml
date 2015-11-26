@@ -1,2 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_0">Egy valós szám (Double típusú változó) abszolút értéke.</string>
+    <string name="math_func_desc_1">Egy szög arkusz koszinusz értéke.</string>
+    <string name="math_func_desc_2">Egy szög arkusz szinusz értéke.</string>
+    <string name="math_func_desc_3">Egy szög arkusz tangens értéke.</string>
+    <string name="math_func_desc_4">Ez a funkció a derékszögű koordinátákat polárkoordinátákká alakítja</string>
+    </resources>
