@@ -4,4 +4,16 @@
     <string name="math_func_desc_2">Egy szög arkusz szinusz értéke.</string>
     <string name="math_func_desc_3">Egy szög arkusz tangens értéke.</string>
     <string name="math_func_desc_4">Ez a funkció a derékszögű koordinátákat polárkoordinátákká alakítja</string>
-    </resources>
+    <string name="math_func_desc_5">Egy valós szám »Plafon« értéke</string>
+    <string name="math_func_desc_11">Két valós érték közül a kisebb</string>
+    <string name="math_func_desc_10">Két valós érték közül a nagyobb</string>
+    <string name="math_func_desc_8">Valós szám Padló értéke.</string>
+    <string name="math_func_desc_7">»e« exponenciális szám valós számmá alakítva</string>
+    <string name="math_func_desc_15">egy szög szinusza</string>
+    <string name="math_func_desc_16">Valós szám négyzetgyöke</string>
+    <string name="math_func_desc_19">A funkció egy szög fokban mért értékét adja vissza radiánba átszámítva.</string>  	
+ 	
+ 	
+
+	 <string name="math_func_desc_18">A funkció egy szög radiánban mért értékét adja vissza fokba átszámítva</string>
+	</resources>
