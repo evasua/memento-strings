@@ -41,5 +41,5 @@
     <string name="default_value">Alap érték</string>
     <string name="flex_template_options_title">Haladó paraméterek</string>
     <string name="error_template_empty_title">Adja meg a mező nevét</string>
-    <string name="error_library_withous_name_flex">A könvtárna</string>
+    <string name="error_library_withous_name_flex">A könyvtárnak legalább egy \"név\" funkciójú mezőt kell tartalmaznia.</string>
     </resources>
