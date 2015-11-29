@@ -13,4 +13,23 @@
     <string name="math_func_desc_11">İki çift değeri daha küçük</string>
     <string name="math_func_desc_12">İkinci bağımsız değişken ikinci kuvvetine yükseltilmiş ilk bağımsız değişkenin değeri</string>
     <string name="math_func_desc_15">Bir açının sinüsü</string>
-    </resources>
+    <string name="math_func_desc_19">İşlev açısı eşdeğer açı radyan cinsinden ölçülür ölçülen dereceye dönüştürür.</string>  	
+ 	
+ 	
+
+	 <string name="math_func_desc_13">Bağımsız değişkenin değeri en yakın ve matematiksel bir tamsayıya eşit olan çift değer</string>
+    <string name="math_func_desc_14">Dolap çift bir değer için uzun</string>
+    <string name="math_func_desc_16">Çift değer bir karekök</string>
+    <string name="math_func_desc_17">Bir açının trigonometrik tanjantı</string>
+    <string name="math_func_desc_18">Fonksiyon derece olarak ölçülen eşdeğer açıya radyan bir açı dönüştürür</string>
+	<string name="function_args_compareto"> <b>Parametreler:</b> İlk bağımsız değişken karşılaştırmak için ilk dize ve ikinci bağımsız değişken Karşılaştırılacak ikinci dize. <br/> <b>Döndürür:</b> İlk dizenin ikinci dize izliyorsa dizeleri eşit ise sıfır, bir tamsayı değeri sıfırdan ilk dizenin ikinci dize getirilecekse tamsayı değerini veya bir tamsayı değeri sıfırdan büyük verir. </string>
+	 
+	 <string name="function_args_comparetoignorecase"> <b>Parametreleri:</b> İlk bağımsız değişken karşılaştırmak için ilk dize ve ikinci bağımsız değişken Karşılaştırılacak ikinci dize. <br/> <b>Döndürür:</b> İlk dizenin ikinci dize izliyorsa dizeleri eşit ise sıfır, bir tamsayı değeri sıfırdan ilk dizenin ikinci dize getirilecekse tamsayı değerini veya bir tamsayı değeri sıfırdan büyük verir. </string>
+	 
+	 <string name="function_args_concat"> <b>Parametreleri:</b> İlk bağımsız değişken dizesi, ikinci bağımsız değişken dizesi birleştirilir. <br/> <b>Döndürür:</b> ardından ikinci dizesi ilk dize kadar yapılmış bir dize döndürür. </string>
+	 
+	 <string name="function_args_endswith"> <b>Parametreleri:</b> İlk bağımsız değişken dizesi test etmek ve ikinci bağımsız değişken soneki. <br/> <b>Döndürür:</b> 1.0 (dize eki ile aksi takdirde bittiğini, yanlış) döndürür 0.0 (yanlış) döndürür. </string>	 
+	 
+	 <string name="function_args_equals"> <b>Parametreleri:</b> İlk bağımsız değişken ikinci bağımsız değişkeni dizeye karşılaştırılacak bir dizedir. <br/> <b>Döndürür:</b> Eğer dizeleri döndürür 1.0 (doğru) eşittir, aksi takdirde 0.0 (yanlış) döndürür. </string>	 	 
+	 
+	 </resources>
