@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<resources><string name="math_func_desc_0">Egy valós szám (Double típusú változó) abszolút értéke.</string>
+<resources><string name="math_func_desc_0">Egy valós szám abszolút értéke.</string>
     <string name="math_func_desc_1">Egy szög arkusz koszinusz értéke.</string>
     <string name="math_func_desc_2">Egy szög arkusz szinusz értéke.</string>
     <string name="math_func_desc_3">Egy szög arkusz tangens értéke.</string>
@@ -16,4 +16,15 @@
  	
 
 	 <string name="math_func_desc_18">A funkció egy szög radiánban mért értékét adja vissza fokba átszámítva</string>
-	</resources>
+	<string name="math_func_desc_6">Egy szög koszinusza</string>
+    <string name="math_func_desc_9">Valós szám ligaritmusa</string>
+    <string name="math_func_desc_17">Egy szög tangense</string>
+    <string name="function_args_endswith"> <b>Paraméterek:</b> Az első kifejezés a vizsgált szöveg, a második kifejezés az utótag. <br/> <b>Eredmény:</b> Eredménye 1.0 (igaz) ha a kifejezés az utótagra végződik, ha nem, az eredmény 0.0 (hamis). </string>	 
+	 
+	 <string name="function_args_equals"> <b>Paraméterek:</b> Az első kifejezés a szöveg, amit összehasonlítunk a második szöveges kifejezéssel.<br/> <b>Eredmény:</b> Eredménye 1.0 (igaz) ha a szövegek megegyeznek, különben az eredmény 0.0 (hamis). </string>	 	 
+	 
+	 <string name="function_args_equalsignorecase"> <b>Paraméterek:</b> Az első kifejezés a szöveg, amit összehasonlítunk a második szöveges kifejezéssel.<br/> <b>Eredmény:</b> Eredménye 1.0 (igaz) ha a szövegek megegyeznek, különben az eredmény 0.0 (hamis). </string>	 	
+	 
+	 <string name="math_func_desc_12">Az első érték a második értékben szereplő hatványra emelve</string>
+    <string name="math_func_desc_13">A kifejezéshez legközelebbi, egésszel megegyező valós érték</string>
+    </resources>
