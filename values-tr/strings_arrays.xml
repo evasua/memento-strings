@@ -33,8 +33,8 @@
     <string name="flex_edit_option_values_list">Liste girdileri</string>
     <string name="flex_edit_option_values_card">Kart girişi</string>
     <string name="flex_edit_option_values_table">Tablo girdileri</string>
-    <string name="date_format_list_current_locale">Geçerli konum</string>
-    <string name="date_format_list_date_pref">Kullanıcı tarih tercihi</string>
+    <string name="date_format_list_current_locale">Geçerli yerel ayar</string>
+    <string name="date_format_list_date_pref">Kullanıcının tarih tercihi</string>
     <string name="db_location_pref_internal">Dahili depolama aygıtı</string>
     <string name="db_location_pref_sd">SD kart</string>
     <string name="db_location_pref_custom">Özel</string>
@@ -57,7 +57,7 @@
     <string name="chart_continuous_axis">Sürekli eksen</string>
     <string name="edit_library_tabs_facade">CEPHE</string>
     <string name="edit_library_tabs_fields">ALANLAR</string>
-    <string name="edit_library_tabs_aggr">TOPLAMA</string>
+    <string name="edit_library_tabs_aggr">BİRLEŞTİR</string>
     <string name="show_soft_keyboard_no">Gösterme</string>
     <string name="show_soft_keyboard_create">Giriş oluşturduğunuzda</string>
     <string name="show_soft_keyboard_always">Her zaman</string>
