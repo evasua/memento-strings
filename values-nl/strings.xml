@@ -1290,4 +1290,14 @@
     <string name="multiediting_title">Meervoudig wijzigen</string>
     <string name="select_all">Alles selecteren</string>
     
-</resources>
+<string name="find_library_by_url_hint">http://libs.mobi/address</string>
+	<string name="music_brainz_source">musicbrainz.org</string>
+	<string name="themoviedb_source">themoviedb.org</string>
+    <string name="themoviedb_source_tv">TV</string>
+
+    <string name="empty_autofill_rules_list_text">Attributen van bron en velden van de verzameling gelijktrekken</string>
+    <string formatted="false" name="movie_cast_person_item">%s as %s</string>
+
+    <string name="need_reload_library_from_cloud_decrypted">Kopieën van de verzameling in de cloud waren ontsleuteld.\nVerwijder de lokale kopie van de verzameling en download dan de verzameling opnieuw vanaf de cloud</string>
+
+    </resources>
