@@ -43,4 +43,5 @@
 	 
 	 <string name="math_func_desc_14">Округление вещественного аргумента</string>
     <string name="math_func_desc_12">Первый аргумент, возведённый в степень второго аргумента</string>
+    <string name="math_func_desc_13">Вещественное число, наиболее близкое к аргументу и равное математическому целому</string>
     </resources>
