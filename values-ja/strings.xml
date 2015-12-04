@@ -184,7 +184,7 @@
     <string name="button_add_fill_field">コンプリーションルールを追加</string>
     <string name="barcode_auto_fill_checkbox">項目オートコンプリーション</string>
     <string name="add_fill_field_dialog_title">オートコンプリーションルールを作成中</string>
-    <string name="memento_field">エントリー項目として保存されます</string>
+    <string name="memento_field">項目へ保存されます</string>
     <string name="memento_field_promt">ライブラリエントリー項目</string>
     <string name="uniquery_check_fail">ライブラリは %s タイプの項目を1つしか設定できません</string>
     <string name="to">to</string>
@@ -209,15 +209,15 @@
     <string name="bind_to_gdocs_title">Google スプレッドシートとリンク</string>
     <string name="unbind_message_title">Google スプレッドシートとリンクを解除</string>
     <string name="unbind_message_text">ライブラリ %s と Google スプレッドシートとリンクを本当に解除しても良いですか？</string>
-    <string name="bind_to_gdocs_message">Google スプレッドシートとリンク中。</string>
-    <string name="bind_to_gdocs_success">ライブラリが Google スプレッドシートとリンクされました。</string>
-    <string name="sync_with_gdocs_success">ライブラリが Google スプレッドシートと同期されました</string>
+    <string name="bind_to_gdocs_message">Google シートとリンク中。</string>
+    <string name="bind_to_gdocs_success">ライブラリが Google シートとリンクされました。</string>
+    <string name="sync_with_gdocs_success">ライブラリが Google シートと同期されました</string>
     <string name="sync_with_gdocs_success_2">ライブラリ %s が Google と同期されました</string>
     <string name="sync_with_gdocs_title">Google スプレッドシートと同期</string>
-    <string name="sync_with_gdocs_message">ライブラリを Google スプレッドシートと同期中。</string>
-    <string name="sync_with_gdocs_message_2">\"%s\" を Google スプレッドシートと同期。</string>
+    <string name="sync_with_gdocs_message">ライブラリを Google シートと同期中。</string>
+    <string name="sync_with_gdocs_message_2">\"%s\" を Google シートと同期。</string>
     <string name="sync_with_gdocs">Google スプレッドシートと同期</string>
-    <string name="google_docs_task_step_auth">スプレッドシートサービスと認証中</string>
+    <string name="google_docs_task_step_auth">シートサービスと認証中</string>
     <string name="google_docs_task_step_get_rows">list-based feed を取得中</string>
     <string formatted="false" name="google_docs_task_step_process_row">リスト行を加工中。 %s の %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">リスト行を追加中。 %s の %s</string>
@@ -246,7 +246,7 @@
     <string name="public_to_picasa_create_album">発行済みライブラリの Picasa アルバムを作成中</string>
     <string name="public_to_picasa_success">イメージは Picasa へアップロードされました</string>
     <string name="picasa_task_step_auth">Picasa サービスと認証中</string>
-    <string formatted="false" name="picasa_send_image_step">Picasa へライブラリイメージをアップロード中。　%s из %s</string>
+    <string formatted="false" name="picasa_send_image_step">Picasa へライブラリイメージをアップロード中。　%s of %s</string>
     <string name="public_library">ライブラリを発行</string>
     <string name="update_public_library">発行を更新</string>
     <string name="memento_register_account_title">アカウント作成中\nMemento サーバに</string>
@@ -377,7 +377,7 @@
     <string name="help_publish">ライブラリ発行中</string>
     <string name="help_subscribe">ライブラリ購読中</string>
     <string name="lib_protection">ライブラリ保護</string>
-    <string name="set_library_protection">保護設定</string>
+    <string name="set_library_protection">保護</string>
     <string name="set_master_pass_text">ライブラリにアクセスするマスタパスワードを設定。\n暗号化されたライブラリにアクセスするには、このパスワードを入力してください。</string>
     <string name="master_pass_hint">パスワード</string>
     <string name="master_pass_hint2">パスワード再入力</string>
@@ -419,8 +419,8 @@
     <string name="flex_type_email">メール</string>
     <string name="email_chooser_title">メールアプリ選択</string>
     <string name="choose_own_icon_text">自身のアイコン選択</string>
-    <string name="font_size_screen_preference">フォントサイズ</string>
-    <string name="font_size_screen_preference_summary">エントリーとエントリーリストのフォントサイズ</string>
+    <string name="font_size_screen_preference">フォント</string>
+    <string name="font_size_screen_preference_summary">エントリーとエントリーリストのフォント</string>
     <string name="font_size_category_entries_list">エントリーリストのフォント</string>
     <string name="font_size_category_entries_card">エントリーのフォント</string>
     <string name="font_size_dialog">フォントサイズ</string>
@@ -502,7 +502,7 @@
     <string name="auto_show_soft_keyboard">ソフトキーボードを表示</string>
     <string name="auto_show_soft_keyboard_summary">フォームがオープンされた時にソフトキーボードをオープンする</string>
     <string name="flex_type_file">ファイルへのリンク</string>
-    <string name="file_size">ファイル容量： %sb</string>
+    <string name="file_size">ファイル容量： %s</string>
     <string name="file_not_found">ファイルが見つかりません</string>
     <string name="select_app">アプリケーションを選択</string>
     <string name="forum">フォーラム</string>
@@ -515,20 +515,20 @@
     <string name="loading_google_document_list">読込中 ...</string>
     <string name="google_doc_list_title">Google ドキュメント</string>
     <string name="updated_document_time">更新： %s</string>
-    <string name="move_from_google_docs">Google スプレッドシートから Memento へデータを転送</string>
+    <string name="move_from_google_docs">Google シートから Memento へデータを転送</string>
     <string name="move_from_google_docs_attention">すべての利用可能なライブラリエントリーが削除されます</string>
-    <string name="move_from_memento">Memento から Google スプレッドシートへデータを転送</string>
-    <string name="move_from_memento_attention">Google スプレッドシートの利用可能なデータが消去されます</string>
-    <string name="find_in_spreadsheet_column_title">Memento と Google スプレッドシートの項目リスト</string>
+    <string name="move_from_memento">Memento から Google シートへデータを転送</string>
+    <string name="move_from_memento_attention">Google シートの利用可能なデータが消去されます</string>
+    <string name="find_in_spreadsheet_column_title">Memento と Google シートの項目リスト</string>
     <string name="google_doc_exists_link_option">リンクパラメータ</string>
-    <string name="get_google_docs_columns_message">選択した Google スプレッドシートのコラムリストを読込中 ...</string>
+    <string name="get_google_docs_columns_message">選択した Google シートのコラムリストを読込中 ...</string>
     <string name="field_not_found">見つかりません</string>
     <string name="field_not_sync">同期なし</string>
     <string name="link_button">リンク</string>
     <string name="prepare_linking_library">リンク準備中 ...</string>
     <string name="error_prepare_linking">リンク準備中にエラーが発生： %s</string>
-    <string name="have_library_items_ask_title">Google スプレッドシートへリンク中</string>
-    <string name="have_library_items_ask_message">ライブラリにはリンク操作中に消去されたレコードが含まれています。ライブラリを Google スプレッドシートとリンクしますか？</string>
+    <string name="have_library_items_ask_title">Google シートへリンク中</string>
+    <string name="have_library_items_ask_message">ライブラリにはリンク操作中に消去されたレコードが含まれています。ライブラリを Google シートとリンクしますか？</string>
     <string name="autofill_source_option_title">データソース</string>
     <string name="amazon_source_option_title">Amazon</string>
     <string name="auto_backup_option_title">自動バックアップ</string>
@@ -738,7 +738,7 @@
     <string name="group_by_subtitle">%s による</string>
     <string name="sort_asc">昇順</string>
     <string name="sort_desc">降順</string>
-    <string name="sliding_hint_text">並び替え、グループ化、フィルタ、その他</string>
+    <string name="sliding_hint_text">右から左へスワイプ\n拡張メニューを開く -\n並び替え、グループ化、フィルタ、その他...</string>
     <string name="multy_sorting">複数項目による並び替え</string>
     <string name="new_button">新</string>
     <string name="free_version_entry_page_limit">フリーバージョンでは2ページ作成することができます。PRO バージョンでは制限がありません。</string>
@@ -818,7 +818,7 @@
     <string name="need_internet_for_charts">Google グラフを使用するにはインタネットとの接続が必要です</string>
     <string name="download_image_from_google_photo_message">Google フォトからイメージをダウンロード中 ...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">ウェブからのデータはデータ項目に入力されます</string>
-    <string name="google_base_field_new">ソースからのプロダクト属性値</string>
+    <string name="google_base_field_new">ソースからの属性値</string>
     <string name="wrong_search_query_string_1">検索クエリは \"-\" から始めることができません</string>
     <string name="link_master_library_not_found">この項目にリンクされたライブラリはありません</string>
     <string name="sync_with_google_drive_dont_support">あなたのAndroid デバイスは Google ドライブとの同期をサポートしていません</string>
@@ -1069,4 +1069,222 @@
 	<string name="welcome_text_title">Memento データベースにようこそ</string>
 	<string name="welcome_text_description">ライブラリは、エントリーが保存される場所です。\n提供されているテンプレートを使用してライブラリを作成することで、プログラムの使用方法を習得しましょう。</string>	
 	
+<string name="memento_cloud">クラウド</string>
+	<string name="start_remove_librarary_from_cloud">ライブラリを削除中...</string>
+	<string name="success_remove_librarary_from_cloud">クラウドからライブラリが削除されました</string>
+	<string name="start_upload_library_to_cloud">ライブラリアップロード中...</string>	
+	<string name="success_upload_library_to_cloud">ライブラリがアップロードされました。\nライブラリは自動的に同期されます。</string>
+	<string name="success_upload_library_to_cloud2">アクセス設定で他の Memento ユーザがライブラリにアクセスできるようにすることができます。</string>	
+	<string name="push_entries_to_cloud_message" formatted="false">エントリーアップロード中\nアップロード済みエントリー %s of %s</string>
+	<string name="permissions">パーミッション</string>
+	<string name="button_hide">隠す</string>	
+	<string name="empty_cloud_libraries_list_text">アップロードされたライブラリがありません</string>
+	<string name="my_cloud_libraries_menu_item">クラウドストレージ</string>
+	<string name="start_download_library_model">ライブラリ構造をアップロード中...</string>
+	<string name="open_library">ライブラリを開く</string>
+	<string name="open_library_hint">ローカルコピーを開く</string>
+	<string name="download_library">ライブラリをダウンロード</string>
+	<string name="download_library_hint">ローカルコピーを作成</string>			
+	<string name="pull_entries_from_cloud_message">エントリーをダウンロード中...</string>
+	<string name="pull_entries_from_cloud_message2" formatted="false">処理済みエントリー %s of %s</string>
+	<string name="success_pull_library_from_cloud">エントリーがダウンロードされました。\nライブラリは自動的に同期されます。</string>
+	<string name="cloud_conflict_fields_title">競合</string>
+	<string name="cloud_conflict_fix_button_title">修正</string>
+    <plurals name="conflict_count">
+	<item quantity="one">同期中に %d 件の競合が発生しました</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="button_select">選択</string>
+    <string name="cloud">クラウド</string>
+    <string name="library_not_in_cloud">クラウドにありません</string>
+    <string name="synced">同期済み %s</string>
+    <string name="cloud_synced_progress">同期中…</string>
+    <string name="cloud_offline">オフライン</string>
+    <string name="cloud_last_sync">最終同期</string>
+    <string name="entries">エントリー</string>
+    <string name="cloud_created">作成されました</string>
+    <string name="cloud_modified">修正されました</string>
+    <string name="cloud_size">サイズ</string>
+    <string name="cloud_files_count">ファイル数</string>
+    <string name="cloud_who_has_access">アクセス実行者</string>
+    <string name="cloud_server_unavaliable">Memento クラウドサーバは使用できません、インタネット接続を確認してください</string>
+    <string name="delete_from_cloud">クラウドより削除</string>
+    <string name="delete_from_cloud_message_question">クラウドから本当に削除しますか?</string>
+        
+    <string name="byteShort">B</string>    
+    <string name="kilobyteShort">KB</string>
+    <string name="megabyteShort">MB</string>
+    <string name="gigabyteShort">GB</string>
+    <string name="button_refresh">リフレッシュ</string>
+    <string name="cloud_storage_space_text" formatted="false">%s (%s) of %s 使用</string>   
+    <string name="start_download_file_from_cloud">ファイル %s がダウンロードされます</string>
+    <string name="upload_file_to_cloud">ファイルをアップロード中...</string>    
+    <string name="upload_files_to_cloud">ファイルをアップロード中</string>
+    <string name="cloud_upload_error_title">このライブラリを同期できませんでした</string>
+    <string name="upload_big_file_error" formatted="false">エントリー %s に %s (%s) のファイルが含まれています。\n最大ファイル容量は %s です。</string>
+    <string name="prepare_library_for_cloud">ライブラリが処理中...</string>
+    <string name="download_files_from_cloud">クラウドからファイルをダウンロード中...</string>
+    <string name="cant_download_item_files_for_copy">ダウンロードされたファイルのコピーの作成が失敗しました。</string> 
+    <string name="library_cloud_model_changed_message">クラウドのライブライ構造が更新されました。将来の同期のため構造を更新してください。</string>
+    <string name="button_update">更新</string>
+    <string name="add_people">人を追加</string>
+    <string name="read_permission">読込</string>      
+    <string name="write_permission">書込</string>
+    <string name="create_permission">作成</string>
+    <string name="delete_permission">削除</string>
+    
+    <string name="allow_permission">許可</string>
+	<string name="deny_permission">否定</string>
+	<string name="only_owner_permission">所有者のみ</string>
+	<string name="user_not_found">ユーザが見つかりません</string>
+	<string name="edit_permission">ユーザ共有設定</string>	
+	<string name="push_entry_error_text" formatted="false">エントリーはクラウドに保存されていません。\n項目名： %s\nエラー： %s</string>
+	<string name="push_error_forbidden">アクセスが拒否されました</string>
+	<string name="button_ignore">無視</string>
+	<string name="button_try_again">再実行</string>	
+	<string name="cloud_library_forbidden">ライブラリへアクセスする許可がありません</string>
+	<string name="shared_with_me">私と共有</string>
+	<string name="entry_author">著者</string>
+	<string name="info_menu_item">情報</string>   
+	<string name="need_upload_to_cloud_slave_libraries">下位ライブラリをクラウドへアップロードしてください。</string>
+	<string name="start_download_slave_library_model">下位ライブラリ %s をアップロード中</string>
+	<string name="open_access_for_slave_libraries">下位ライブラリに読込アクセスを設定してください</string>
+	<string name="cloud_storage_full_text">クラウドに十分な容量がありません。\nクラウド容量をアップグレードしてください。</string>
+	<string name="cloud_storage_full_text2" formatted="false">クラウドに十分な容量がありません。\n必要容量 %s, 空き容量 %s。\nクラウド容量をアップグレードしてください。</string>
+	<string name="alien_cloud_storage_full_text">ライブラリ所有者は十分な容量を持っていません。</string>	
+	<string name="button_tarifs">トラフィック</string>
+	<string name="cloud_storage_plans">プラン</string>
+	<string name="price_free">無料</string>
+	<string name="price_per_month">%s / 月</string>
+	<string name="unlimited_libraries">無制限ライブラリ</string>	
+	<string name="adv_free">広告なし</string>
+	<string name="subscription_activation">購読を有効化 ...</string>
+	<string name="subscription_activation_error">有効化エラー： %s</string>
+	<string name="subscription_reactivation_error">有効購読の取得失敗： %s</string>
+	<string name="google_play_unavaliable">Google Play は利用できません：(</string>
+	<string name="return_to_free_plan_message">Google Playで購読を止めることで無料アカウントに移行できます</string>
+	<string name="subscription_already_activation_for_user">ユーザ %s が購入済みのため購読を有効化できません。</string>
+	<string name="library_cloud_count_limit">トラフィックプランでは %s のライブラリをクラウドにアップロードすることができます。</string>
+	<string name="restore_cloud_library_from_recycle">ライブラリロケールが削除されています。復活しますか?</string>
+	<string name="cloud_file_while_not_upload">ファイルはまだクラウドにありません</string>
+	<string name="upload_ecrypted_libraries_dont_supported">クラウドにアップロードされた暗号化ライブラリは現在使用できません。</string>
+	<string name="button_signin">サインイン</string>
+	<string name="cloud_library_not_found">クラウドにライブラリが見つかりません。削除されたかもしれません。\nライブラリをロケールに変換しますか?</string>
+	<string name="cloud_library_already_uploaded">ライブラリは既にクラウドにアップロードされています。</string>
+	<string name="library_alias_menu_item">エイリアス</string>
+	<string name="library_public_access">パブリックアクセス</string>
+	<string name="library_public_access_disabled">無効</string>
+	<string name="library_access_read_only">読込のみ</string>
+	<string name="library_access_can_edit">編集可</string>
+	<string name="owner">所有者</string>
+	<string name="find_library_by_url_title">URL で開く</string>
+	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
+	<string name="library_not_found_by_uri">ライブラリが見つかりません</string>
+	<string name="upload_to_cloud_offer_title">{クラウド準備完了...}</string>
+	<string name="upload_to_cloud_offer_text">• チームワーク\n• デバイス間の同期\n• 常にクラウド上でバックアップ</string>
+	<string name="button_no_thanks">いいえ</string>
+	<string name="button_upload">アップロード</string>
+	
+	<string name="cant_upload_file_to_cloud">ファイルアップロード失敗。</string>
+    <string name="button_show">表示</string>
+	<string name="invalid_library_template_file_format">無効なテンプレートファイル形式</string>    
+	<string name="cant_add_yourself">自分自身を追加することはできません</string>
+	<string name="remove_from_old_public">ライブラリが旧方式で公開済みであれば、クラウドにアップロードする前に公開を中止する必要があります。</string>
+	<string name="select_template_title">テンプレートを選択</string>
+	<string name="empty_library_title">ライブラリを空にする</string>
+	<string name="catalog_templates_title">オンラインカタログ</string>
+	<string name="catalog_templates_hint">3000 以上のテンプレート</string>
+	<string name="add_lib_from_google_drive_hint">Google ドライブから復元</string>
+	<string name="templates">テンプレート</string>
+	<string name="import_template_from_file_hint">ファイルからテンプレートをインポート</string>
+	<string name="help_cloud">クラウドストレージとチームワーク</string>
+	<string name="subscription_pro_bonus_text">多くのトラフィックプランには PRO バージョンがボーナスとしてついています</string>
+	<string name="send_formatting_menu_item">フォーマット中...</string>
+	<string name="pro_for_cloud_storage_title">購読</string>
+	<string name="default_file_manager_pref_title">ファイルマネジャー</string>
+	<string name="default_file_manager_built_in">ビルトイン</string>	
+	<string name="clear_search_history">検索履歴を消去</string>
+	<string name="clear_search_history_hint">すべての検索結果を消去</string>
+	<string name="success_clear_search_history">検索履歴は消去されました</string>	
+	<string name="clear_search_history_quest">本当に検索履歴を消去しますか?</string>
+	<string name="uservoice_menu_title">ユーザの声</string>
+	<string name="view_csv_error_dialog_message">CSV ファイルを閲覧できるアプリケーションがありません</string>
+	
+	<string name="edit_library_tabs_autofill">オートフィル</string>
+	<string name="autofill_from">%s から</string>
+	<string name="autofill_by_barcode">バーコードで</string>
+	<string name="autofill_by_title">タイトルで</string>
+	<string name="autofill_need_barcode_field">バーコードでライブラリにオートフィルするにはライブラリにバーコード項目がなければなりません。どのように作成しましたか?</string>
+	<string name="autofill_need_text_field">タイトルでライブラリにオートフィルするにはライブラリにテキスト項目がなければなりません。どのように作成しましたか?</string>
+	<string name="autofill_select_master_field">検索する入力項目</string>
+	<string name="autofill_rules_title">オートフィルルール</string>
+	<string name="music_brainz_source_artist">ミュージックアーテイスト</string>
+    <string name="music_brainz_source_album">アルバム</string>
+	<string name="music_brainz_source">musicbrainz.org</string>
+	<string name="unknown_data_source">不明なソース</string>
+    <string name="google_books_source">Google ブック</string>
+    <string name="google_books_source_books">ブックス</string>
+    <string name="themoviedb_source">themoviedb.org</string>
+    <string name="themoviedb_source_movies">映画</string>
+    <string name="themoviedb_source_tv">テレビ</string>
+
+    <string name="autofill_rules_delete_title">オートフィルルールを削除</string>
+    <string name="autofill_rules_delete_text">本当に \"%s\" からオートフィルルールを削除しますか?</string>
+    <string name="empty_autofill_list_text">インタネットからデータレコード用オートフィルルールを作成</string>
+    <string name="empty_autofill_rules_list_text">ソース属性とライブラリ項目が一致</string>
+    <string formatted="false" name="movie_cast_person_item">%s としての %s</string>
+
+    <string name="copy_library_structure_menu_item">構造のみ</string>
+    <string name="copy_all_library_menu_item">構造とエントリー</string>
+    <string name="copying_entries">エントリーコピー中...</string>
+
+    <string name="encryption_for_cloud_uploaded_library">ライブラリの暗号化はクラウドへアップロードする前にのみ有効化することができます。</string>
+    <string name="decryption_for_cloud_uploaded_library">クラウドへアップロードされたライブラリの暗号化を無効にすることはできません。まずクラウドに保存されているライブラリを削除してください。</string>
+    <string name="need_reload_library_from_cloud_encrypted">クラウド上のライブラリコピーが暗号化されました。\nライブラリのローカルコピーを削除して、再度クラウドからライブラリをダウンロードしてください。</string>
+    <string name="need_reload_library_from_cloud_decrypted">クラウド上のライブラリコピーが暗号化が解除されました。\nライブラリのローカルコピーを削除して、再度クラウドからライブラリをダウンロードしてください。</string>
+
+    <string name="render_pdf_menu_item">PDF として保存</string>
+    <string name="entry_saved_as_pdf_success">PDF が作成されました</string>
+    <string name="one_row_with_previous">前とともに1行</string>
+    <string name="protected_libraries_not_show_in_widget">保護されたライブラリはウィジットでは表示されません</string>
+    <string name="widget_free_limit_item_text">PRO バージョン所有者のみすべてのエントリーを表示することができます</string>
+    <string name="rate_me_dialog_title">Memento を使用するのが好き?</string>
+    <string name="rate_me_dialog_text">Google Play で評価してください</string>
+    <string name="button_rate_now">すぐに評価</string>
+    <string name="button_ask_later">後で</string>
+    <string name="flex_type_radiobuttons">ラジオボタン</string>
+    <string name="flex_type_checkboxes">チェックボックス</string>
+    <string name="field_orientation_option_title">方向</string>
+    <string name="field_orientation_option_horizontal">水平</string>
+    <string name="field_orientation_option_vertical">垂直</string>
+    <string name="preparing_files_for_sending">送信するファイルを準備中...</string>
+    <string name="whats_new_dialog_title">新規更新?</string>
+    <string name="font_size">サイズ</string>
+    <string name="font_family">ファミリー</string>
+    <string name="font_style">スタイル</string>
+    <string name="font_color">色</string>
+    <string name="font_picker_dialog_title">フォント</string>
+    <string name="font_style_normal">ノーマル</string>
+    <string name="font_style_bold">太字</string>
+    <string name="font_style_italic">斜体</string>
+    <string name="font_style_bold_italic">太字斜体</string>
+    <string name="font_sample">サンプル</string>
+    <string name="font_sample_text">The quick brown fox jumped over the lazy dog.</string>
+    <string name="font_default_title">規定値フォント</string>
+    <string name="choice_item_use_color_for_text">テキストに色を設定</string>
+    <string name="rating_tooltips">ツールチップ</string>
+    <string name="rating_tooltips_hint">ツールチップ</string>
+    <string name="rating_tooltips_empty">項目にはツールチップがありません</string>
+    <plurals name="rating_tooltips_count">
+	<item quantity="one">%d ツールチップ</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="calculator">電卓</string>
+    <string name="calculator_options_hint">電卓を表示させるボタンを追加</string>
+    <string name="filter_by_number">数値によるフィルタ</string>
+    <string name="filter_by_string">文字によるフィルタ</string>
+    <string name="multiediting_only_in_pro">複数のエントリーを編集するには PRO バージョンが必要です。</string>
+    <string name="multiediting_title">複数編集</string>
+    <string name="select_all">すべて選択</string>
+    
 </resources>
