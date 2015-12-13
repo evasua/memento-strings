@@ -187,7 +187,7 @@
     <string name="button_add_fill_field">Añadida regla de completado</string>
     <string name="barcode_auto_fill_checkbox">Campo autocompletado</string>
     <string name="add_fill_field_dialog_title">Creando regla de autocompletado</string>
-    <string name="memento_field">Será guardado con sus campos</string>
+    <string name="memento_field">Será guardado en los campos de entrada</string>
     <string name="memento_field_promt">Campos de entrada de la biblioteca</string>
     <string name="uniquery_check_fail">Una librería puede contener solo un campo de tipo "%s"</string>
     <string name="to">a</string>
@@ -1292,4 +1292,31 @@
 	<item quantity="one">"%d  descripción emergente"</item>
 	<item quantity="other">"%d  descripción emergente"</item>
 </plurals>
+    <string name="upload_big_file_error" formatted="false">La entrada %s contiene un archivo grande %s (%).\nEl tamaño máximo permitido es %s.</string>
+    <string name="prepare_library_for_cloud">Procesando librería...</string>
+    <string name="open_access_for_slave_libraries">Garantiza acceso de lectura a librerias subordinadas</string>
+	<string name="subscription_reactivation_error">Falló al obtener suscripciones activas: %s</string>
+	<string name="return_to_free_plan_message">Puedes cambiarte a una cuenta gratuita al darte de baja de Google Play</string>
+	<string name="subscription_already_activation_for_user">La suscripción no puede ser activada porque fue comprada por el usuario %s.</string>
+	<string name="library_cloud_count_limit">Tu tarifa de datos permite subir hasta %s librerías en la nube.</string>
+	<string name="cloud_library_not_found">La librería no fue encontrada en la nube. Posiblemente fue eliminada.\nDeseas convertir la libreria en local?</string>
+	<string name="invalid_library_template_file_format">Formato de archivo de plantilla inválido</string>    
+	<string name="subscription_pro_bonus_text">La mayor parte de las tarifas para almacenamiento en la nube incluyen la versión PRO de regalo</string>
+	<string name="autofill_need_barcode_field">Para poder autorellenar tu librería mediante el uso de código de barras, ésta debe incluir el campo \"Código de Barras\". Deseas crearlo?</string>
+	<string name="autofill_need_text_field">Para poder autorellenar tu librería por el título, ésta debe incluir el campo \"Texto\". Deseas crearlo?</string>
+	<string name="autofill_select_master_field">Campo de entrada para la búsqueda</string>
+	<string name="autofill_rules_delete_text">¿Estás seguro de querer borrar las reglas de autollenado del recurso \"%s\" ?</string>
+    <string name="empty_autofill_list_text">Crear reglas de autorrelleno para datos por Internet</string>
+    <string name="encryption_for_cloud_uploaded_library">La librería sólo puede ser encriptada después de subida a la nube.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Las copias en la nube de la librería fueron encriptadas.\nElimina la copia local y después descarga nuevamente la librería desde la nube.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Las copias en la nube de la librería fueron desencriptadas.\nElimina la copia local y después descarga nuevamente la librería desde la nube.</string>
+
+    <string name="widget_free_limit_item_text">Todas las entradas sólo pueden ser desplegadas por los usuarios de la versión PRO</string>
+    <string name="rate_me_dialog_title">¿Te gusta Memento?</string>
+    <string name="button_rate_now">Califica ahora</string>
+    <string name="whats_new_dialog_title">¿Qué hay de nuevo?</string>
+    <string name="font_sample_text">El pingüino Wenceslao hizo kilómetros bajo exhaustiva lluvia y frío, añoraba a su querido cachorro.</string>
+    <string name="choice_item_use_color_for_text">Utiliza color para el texto</string>
+    <string name="filter_by_string">Filtro por palabra</string>
+    <string name="multiediting_only_in_pro">La edición de entradas múltiples está sólo disponible para los usuarios de la versión PRO.</string>
     </resources>
