@@ -136,9 +136,9 @@
     <string name="help_title">Memento Help</string>
     <string name="activate_button_title">Activate the PRO version</string>
     <string name="activate_button_hint">You will need the activation key</string>
-    <string name="activate_main_text">Upgrate to the PRO version</string>
+    <string name="activate_main_text">Upgrade to the PRO version</string>
     <string name="activation_dialog_text_hint">Activation Code</string>
-    <string name="activation_dialog_title">Upgrate to the PRO version</string>
+    <string name="activation_dialog_title">Upgrade to the PRO version</string>
     <string name="activation_ok">Thank you for activation Memento</string>
     <string name="activation_error">Activation code is invalid. Please, try again.</string>
     <string name="about">About</string>
@@ -1304,7 +1304,7 @@
     <string name="entry_saved_as_pdf_success">PDF created successfully</string>
     <string name="one_row_with_previous">One row with prev</string>
     <string name="protected_libraries_not_show_in_widget">Protected library can not be displayed in the widget</string>
-    <string name="widget_free_limit_item_text">All entries can be displayed only to PRO-version owners</string>
+    <string name="widget_free_limit_item_text">All entries can be displayed only to PRO-version users</string>
     <string name="rate_me_dialog_title">Love using Memento?</string>
     <string name="rate_me_dialog_text">Please rate us in the Google Play</string>
     <string name="button_rate_now">Rate now</string>
@@ -1344,5 +1344,80 @@
     <string name="multiediting_only_in_pro">Editing of multiple entries is available only for PRO-version owners.</string>
     <string name="multiediting_title">Multi-editing</string>
     <string name="select_all">Select All</string>
+    <string name="group_separator_option_title">Thousands separators</string>
+    <string name="group_separator_option_hints">Use a space as a thousands separator</string>
+
+
+    <!--3.8.0-->
+    <string name="cloud_library_notification_title">Notifications</string>
+    <string name="cloud_library_notification_hint">Receive Push-notifications when other users modify the library</string>
+    <string name="cloud_library_download_notification_text">%s: downloaded library</string>
+    <string name="cloud_notification_for_subscribers">Sorry, only subscribers can receive notifications.</string>
+    <string name="comments">Comments</string>
+    <string name="comment_input_hint">Write a comment</string>
+    <string name="comment_send_error">Error sending comments: %s</string>
+    <string name="edit_comment_dialog_title">Edit comment</string>
+
+    <plurals name="notification_edit_library_common_text">
+        <item quantity="one">%d unread change</item>
+        <item quantity="few">%d unread changes</item>
+        <item quantity="many">%d unread changes</item>
+        <item quantity="other">%d unread changes</item>
+    </plurals>
+
+    <string name="notification_edit_library_create_text">added entry</string>
+    <string name="notification_edit_library_edit_text">edited entry</string>
+    <string name="notification_edit_library_delete_text">deleted entry</string>
+    <plurals name="notification_comments_common_text">
+        <item quantity="one">%d new comment</item>
+        <item quantity="few">%d new comments</item>
+        <item quantity="many">%d new comments</item>
+        <item quantity="other">%d new comments</item>
+    </plurals>
+
+    <string name="flex_type_rich_text">Rich Text</string>
+    <string name="text_background_color">Background Color</string>
+    <string name="field_type_rich_only_for_android_kit_kat">This type of field is available only for Android 4.4 KitKat and later.</string>
+    <string name="field_type_rich_list_free_limit">Sorry, lists are available only for PRO-version users.</string>
+    <string name="field_type_rich_align_free_limit">Sorry, alignment is available only for PRO-version users.</string>
+    <string name="attached_files">Attached files</string>
+    <string name="cloud_file_not_downloaded">Not downloaded</string>
+    <string name="cloud_file_download_pending">Pending</string>
+    <string name="cloud_file_queued">Queued</string>
+    <string name="cloud_file_error_upload">Error sending</string>
+    <string name="cloud_file_uploading">Uploading</string>
+    <string name="cloud_file_downloading">Downloading</string>
+    <string name="file_show_in_folder">Show in folder</string>
+    <string name="file_show_in_entry">Show in entry</string>
+    <string name="sort_by_size">Sort by Size</string>
+    <string name="download_all">Download all</string>
+    <string name="find_missing_files">Find missing files</string>
+    <string name="button_apply">Apply</string>
+    <string name="find_missing_files_empty">Missing files are not found</string>
+    <string name="file_manager_not_found">No supported file managers were found on Your device.</string>
+    <string name="file_list_empty">This library does not contain files</string>
+    <string name="feature_available_only_in_pro">This feature only available in the PRO-version.</string>
+    <string name="preview_button">Preview</string>
+    <string name="select_calc_preview_entry">Entry for preview</string>
+    <string name="calc_preview_title">Preview</string>
+    <string name="add_relationship">Relationship</string>
+    <string name="add_relationship_with_title">Select a secondary library</string>
+    <string name="add_relationship_success">The relationship between the libraries will be provided using field \"%s\".</string>
+    <string name="display_aggregation">Display aggregation</string>
+    <string name="display_aggregation_hint">Aggregation by entries of the linked library</string>
+    <string name="create_shortcut_text">Type a name for this shortcut</string>
+    <!--3.8.5-->
+    <string name="permission_storage_title">Storage</string>
+    <string name="permission_storage_text">To continue, give Memento access to your Storage.</string>
+    <string name="permission_storage_explanation_text">Access to the storage is required for caching, backup, and availability to attach images and files to your entries.</string>
+    <string name="permission_accounts_title">Accounts</string>
+    <string name="permission_accounts_text">It is required to grant Memento access to accounts to sync with Google Sheets and for the Contact field type.</string>
+    <string name="permission_location_title">Location</string>
+    <string name="permission_location_text">It is required to grant Memento access to location for the Location field type.</string>
+    <string name="permission_not_necessarily">This permission is not obligatory.</string>
+    <string name="app_permissions">App permissions</string>
+    <string name="app_permissions_only_for_android6">Only for Android 6 and higher</string>
+    <string name="need_permission_dialog_title">Permission required</string>
+    <string name="need_permission_dialog_text">This operation requires system permission - %s</string>
     
 </resources>
