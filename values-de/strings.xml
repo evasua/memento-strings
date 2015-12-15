@@ -759,7 +759,7 @@
     <string name="group_by_subtitle">durch %s</string>
     <string name="sort_asc">AUF</string>
     <string name="sort_desc">AB</string>
-    <string name="sliding_hint_text">"Sortieren,  Gruppieren, Filter und mehr"</string>
+    <string name="sliding_hint_text">Streich von rechts nach links\nzum öffnen des erweiterten Menüs\nSortieren, Gruppieren, Filtern, Diagrammen und mehr</string>
     <string name="multy_sorting">Sortieren mit mehreren Feldern</string>
     <string name="new_button">neu</string>
     <string name="free_version_entry_page_limit">"In der freien Version können Sie nur zwei Seiten erstellen,  die PRO Version hebt diese Einschränkung auf"</string>
@@ -1079,4 +1079,72 @@
 	<string name="display_lang_option">Filtern nach Sprache</string>
 	<string name="display_lang_option_all">Alle Schablone</string>
 	<string name="entries_name_dialog_title">Namen der Einträge werden bestimmt nach die Werte der ausgewählen Felder</string>
-	</resources>
+	<string name="template_views_count">Views: %s</string>
+	<string name="sort_by_views">Nach Anzahl Views sortiert</string>
+	<string name="no_fields_for_role">In diesem Verzeichnis befinden sich keine passenden Felder für diese Rolle</string>
+	<string name="update_item_name_index">Baue Index auf ...</string>	
+	<string name="entry_name_must_be_notnull">Der Eintragsname sollte nicht leer sein</string>
+	<string name="library_have_duplicates">Einträge mit ähnlichen Namen im Verzeichnis</string>
+	<string name="library_have_duplicates2">Für gutes Funktionieren ändern oder löschen Sie doppelte Einträge.</string>
+	<string name="dont_show_anymore">Nicht mehr zeigen</string>
+	<string name="need_make_slave_library_unique">Um “Verknüpfung zum Eintrag“-Felder zu synchronisieren, müssen Sie im Verzeichnis, auf das sich die Verknüpfung bezieht, die Eindeutigkeit des Eintragsnamens aktivieren.\nWissen Sie das?</string>
+	<string name="need_make_slave_library_unique_import">Um “Verknüpfung zum Eintrag“-Felder zu importieren, müssen Sie im Verzeichnis, auf das sich die Verknüpfung bezieht, die Eindeutigkeit des Eintragsnamens aktivieren.\nWissen Sie das?</string>
+	<string name="run_sync_slave_libraries_pref">Verknüpfte Verzeignisse</string>
+	<string name="run_sync_slave_libraries_summary">Synchronisieren Sie zuerst verknüpfte Verzeignisse</string>
+	<string name="choice_type_add_button_in_edit_title">Erstellung von Elementen, während ein Eintrag bearbeitet wird</string>
+	
+	<string name="show_deleted_entries_menu_item">"Zeige gelöschte Einträge "</string>
+	<string name="upload_to_cloud_menu_item">In die Cloud</string>
+	<string name="memento_cloud">Cloud</string>
+	<string name="start_remove_librarary_from_cloud">Verzeignis wird gelöscht...</string>
+	<string name="success_remove_librarary_from_cloud">Verzeignis mit erfolg gelöscht aus der Cloud</string>
+	<string name="start_upload_library_to_cloud">Verzeignis wird hochgeladen</string>	
+	<string name="success_upload_library_to_cloud">Das Verzeignis ist mit Erfolg hochgeladen...\nDas Verzeignis wird automatisch synchronisiert</string>
+	<string name="push_entries_to_cloud_message" formatted="false">"Einträge werden hochgeladen
+\n%s von %s Einträgen verarbeitet "</string>
+	<string name="permissions">Erlaubnisse</string>
+	<string name="button_hide">Verstecken</string>	
+	<string name="empty_cloud_libraries_list_text">Sie haben keine hochgeladen Verzeignisse</string>
+	<string name="my_cloud_libraries_menu_item">Cloud Speicher</string>
+	<string name="start_download_library_model">Struktur des Verzeignis wird hochgeladen</string>
+	<string name="open_library">Verzeignis öffnen</string>
+	<string name="open_library_hint">"Öffne lokale Kopie "</string>
+	<string name="download_library">Verzeignis wird eingelesen</string>
+	<string name="download_library_hint">"Erstelle lokale Kopie "</string>			
+	<string name="pull_entries_from_cloud_message">Einträge werden eingelesen</string>
+	<string name="pull_entries_from_cloud_message2" formatted="false">"%s von %s Einträgen bearbeitet "</string>
+	<string name="cloud_conflict_fix_button_title">Reparieren</string>
+    <string name="button_select">Selectieren</string>
+    <string name="cloud">"Cloud "</string>
+    <string name="library_not_in_cloud">"Nicht in der Cloud "</string>
+    <string name="synced">Synchronisiert %s</string>
+    <string name="cloud_synced_progress">"Synchronisation... "</string>
+    <string name="cloud_offline">Offline</string>
+    <string name="cloud_last_sync">"Letzte Synchronisierung "</string>
+    <string name="entries">"Einträge "</string>
+    <string name="cloud_created">"Erstellt "</string>
+    <string name="cloud_modified">"Geändert "</string>
+    <string name="cloud_size">"Größe "</string>
+    <string name="cloud_server_unavaliable">"Memento Cloud Server ist nicht erreichbar, checken Sie die Verbindung zum Internet, ob diese auf Ihrem Gerät eingeschaltet ist. "</string>
+    <string name="delete_from_cloud">Löschen aus der Cloud</string>
+    <string name="delete_from_cloud_message_question">Wollen Sie wirklich das Verzeignis aus der Cloud löschen?</string>
+        
+    <string name="byteShort">B</string>    
+    <string name="kilobyteShort">KB</string>
+    <string name="megabyteShort">MB</string>
+    <string name="gigabyteShort">"GB "</string>
+    <string name="button_refresh">Aktualisieren</string>
+    <string name="cloud_storage_space_text" formatted="false">%s von %s belegt</string>   
+    <string name="start_download_file_from_cloud">"Datei %s wird heruntergeladen "</string>
+    <string name="upload_file_to_cloud">Datei wird hochgeladen</string>    
+    <string name="upload_files_to_cloud">Dateien werden hochgeladen</string>
+    <string name="cloud_upload_error_title">Wir konnten dieses Verzeignis nicht synchronisieren</string>
+    <string name="featured_templates">Bevorzugt</string>
+	<string name="welcome_text_description">Das Verzeichnis ist der Platz, wo Ihre Einträge gespeichert werden.\nSie können mit der Einarbeitung in das Programm beginnen, indem Sie ein Verzeichnis erstellen, das auf einer der mitgelieferten Vorlagen basiert.</string>
+	
+	<string name="success_pull_library_from_cloud">Einträge sind mit Erfolg eingelesen\nDas Verzeignis wird automatisch synchronisiert</string>
+	<string name="cloud_files_count">Dateien Anzahl</string>
+    <string name="cloud_who_has_access">"Wer hat Zugriff "</string>
+    <string name="prepare_library_for_cloud">Verzeignis wird bearbeitet...</string>
+    <string name="download_files_from_cloud">Dateien herunterladen aus der Cloud</string>
+    </resources>
