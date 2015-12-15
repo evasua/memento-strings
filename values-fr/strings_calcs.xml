@@ -1,4 +1,24 @@
 <?xml version='1.0' encoding='utf-8'?>
-<resources><string name="math_func_desc_1">Arc cosinus d\'un angle</string>
-    <string name="math_func_desc_2">Arc sinus d\'un angle</string>
-    </resources>
+<resources><string name="math_func_desc_1">Arc cosinus d\'un angle.</string>
+    <string name="math_func_desc_2">Arc sinus d\'un angle.</string>
+    <string name="math_func_desc_0">Valeur absolue d\'une valeur double.</string>
+    <string name="math_func_desc_3">Arc tangente d\'un angle.</string>
+    <string name="math_func_desc_4">Cette fonction convertie des coordonnées rectangulaires en polaires</string>
+    <string name="math_func_desc_5">Valeur plafond d\'une valeur double</string>
+    <string name="math_func_desc_6">Cosinus trigonométrique d\'un angle</string>
+    <string name="math_func_desc_7">Nombre exponentiel e (ex.:2.718...) mis à la puissance d\'une double valeur</string>
+    <string name="math_func_desc_8">Valeur plancher d\'une double valeur.</string>
+    <string name="math_func_desc_9">Logarithme naturel (base e) d\'une double valeur</string>
+    <string name="math_func_desc_10">Valeur la plus grande entre deux doubles valeurs</string>
+    <string name="math_func_desc_11">Valeur la plus petite entre deux doubles valeurs</string>
+    <string name="math_func_desc_12">Valeur du premier argument mis à la deuxième puissance du second argument</string>
+    <string name="math_func_desc_13">La double valeur est la plus proche en valeur de l\'argument et est égale à un entier mathématique</string>
+    <string name="math_func_desc_15">Sinus d\'un angle</string>
+    <string name="math_func_desc_16">Racine carrée d\'une double valeur</string>
+    <string name="math_func_desc_17">Tangente trigonométrique d\'un angle</string>
+    <string name="math_func_desc_18">La fonction convertit un angle mesuré en radians à l\'angle équivalent mesuré en degrés</string>
+	<string name="math_func_desc_19">La fonction convertit un angle mesuré en degrés à l\'angle équivalent mesuré en radians.</string>  	
+ 	
+ 	
+
+	 </resources>
