@@ -139,7 +139,7 @@
     <string name="help_title">Memento Hilfe</string>
     <string name="activate_button_title">Aktiviere die PRO Version</string>
     <string name="activate_button_hint">Dazu brauchen Sie den Aktivierungsschlüssel</string>
-    <string name="activate_main_text">Die PRO Version aktivieren</string>
+    <string name="activate_main_text">Upgrade nach PRO Version</string>
     <string name="activation_dialog_text_hint">Aktivierungscode</string>
     <string name="activation_dialog_title">Upgrade zur PRO Version</string>
     <string name="activation_ok">Danke dass Sie Memento aktiviert haben</string>
@@ -1096,38 +1096,38 @@
 	<string name="show_deleted_entries_menu_item">"Zeige gelöschte Einträge "</string>
 	<string name="upload_to_cloud_menu_item">In die Cloud</string>
 	<string name="memento_cloud">Cloud</string>
-	<string name="start_remove_librarary_from_cloud">Verzeignis wird gelöscht...</string>
-	<string name="success_remove_librarary_from_cloud">Verzeignis mit erfolg gelöscht aus der Cloud</string>
-	<string name="start_upload_library_to_cloud">Verzeignis wird hochgeladen</string>	
-	<string name="success_upload_library_to_cloud">Das Verzeignis ist mit Erfolg hochgeladen...\nDas Verzeignis wird automatisch synchronisiert</string>
+	<string name="start_remove_librarary_from_cloud">Verzeichnis wird gelöscht...</string>
+	<string name="success_remove_librarary_from_cloud">Verzeichnis mit erfolg gelöscht aus der Cloud</string>
+	<string name="start_upload_library_to_cloud">Verzeichnis wird hochgeladen</string>	
+	<string name="success_upload_library_to_cloud">Das Verzeichnis ist mit Erfolg hochgeladen...\nDas Verzeichnis wird automatisch synchronisiert</string>
 	<string name="push_entries_to_cloud_message" formatted="false">"Einträge werden hochgeladen
 \n%s von %s Einträgen verarbeitet "</string>
 	<string name="permissions">Erlaubnisse</string>
 	<string name="button_hide">Verstecken</string>	
-	<string name="empty_cloud_libraries_list_text">Sie haben keine hochgeladen Verzeignisse</string>
+	<string name="empty_cloud_libraries_list_text">Sie haben keine hochgeladen Verzeichnisse</string>
 	<string name="my_cloud_libraries_menu_item">Cloud Speicher</string>
-	<string name="start_download_library_model">Struktur des Verzeignis wird hochgeladen</string>
-	<string name="open_library">Verzeignis öffnen</string>
-	<string name="open_library_hint">"Öffne lokale Kopie "</string>
-	<string name="download_library">Verzeignis wird eingelesen</string>
-	<string name="download_library_hint">"Erstelle lokale Kopie "</string>			
+	<string name="start_download_library_model">Struktur des Verzeichnis wird hochgeladen</string>
+	<string name="open_library">Verzeichnis öffnen</string>
+	<string name="open_library_hint">Öffne lokale Kopie</string>
+	<string name="download_library">Verzeichnis wird eingelesen</string>
+	<string name="download_library_hint">Erstelle lokale Kopie</string>			
 	<string name="pull_entries_from_cloud_message">Einträge werden eingelesen</string>
-	<string name="pull_entries_from_cloud_message2" formatted="false">"%s von %s Einträgen bearbeitet "</string>
+	<string name="pull_entries_from_cloud_message2" formatted="false">%s von %s Einträgen bearbeitet</string>
 	<string name="cloud_conflict_fix_button_title">Reparieren</string>
-    <string name="button_select">Selectieren</string>
-    <string name="cloud">"Cloud "</string>
-    <string name="library_not_in_cloud">"Nicht in der Cloud "</string>
+    <string name="button_select">Auswählen</string>
+    <string name="cloud">Cloud</string>
+    <string name="library_not_in_cloud">Nicht in der Cloud</string>
     <string name="synced">Synchronisiert %s</string>
-    <string name="cloud_synced_progress">"Synchronisation... "</string>
+    <string name="cloud_synced_progress">Synchronisation...</string>
     <string name="cloud_offline">Offline</string>
-    <string name="cloud_last_sync">"Letzte Synchronisierung "</string>
-    <string name="entries">"Einträge "</string>
-    <string name="cloud_created">"Erstellt "</string>
-    <string name="cloud_modified">"Geändert "</string>
-    <string name="cloud_size">"Größe "</string>
+    <string name="cloud_last_sync">Letzte Synchronisierung</string>
+    <string name="entries">Einträge</string>
+    <string name="cloud_created">Erstellt</string>
+    <string name="cloud_modified">Geändert</string>
+    <string name="cloud_size">Größe</string>
     <string name="cloud_server_unavaliable">"Memento Cloud Server ist nicht erreichbar, checken Sie die Verbindung zum Internet, ob diese auf Ihrem Gerät eingeschaltet ist. "</string>
     <string name="delete_from_cloud">Löschen aus der Cloud</string>
-    <string name="delete_from_cloud_message_question">Wollen Sie wirklich das Verzeignis aus der Cloud löschen?</string>
+    <string name="delete_from_cloud_message_question">Wollen Sie wirklich das Verzeichnis aus der Cloud löschen?</string>
         
     <string name="byteShort">B</string>    
     <string name="kilobyteShort">KB</string>
@@ -1138,13 +1138,63 @@
     <string name="start_download_file_from_cloud">"Datei %s wird heruntergeladen "</string>
     <string name="upload_file_to_cloud">Datei wird hochgeladen</string>    
     <string name="upload_files_to_cloud">Dateien werden hochgeladen</string>
-    <string name="cloud_upload_error_title">Wir konnten dieses Verzeignis nicht synchronisieren</string>
+    <string name="cloud_upload_error_title">Wir konnten dieses Verzeichnis nicht synchronisieren</string>
     <string name="featured_templates">Bevorzugt</string>
 	<string name="welcome_text_description">Das Verzeichnis ist der Platz, wo Ihre Einträge gespeichert werden.\nSie können mit der Einarbeitung in das Programm beginnen, indem Sie ein Verzeichnis erstellen, das auf einer der mitgelieferten Vorlagen basiert.</string>
 	
-	<string name="success_pull_library_from_cloud">Einträge sind mit Erfolg eingelesen\nDas Verzeignis wird automatisch synchronisiert</string>
+	<string name="success_pull_library_from_cloud">Einträge sind mit Erfolg eingelesen\nDas Verzeichnis wird automatisch synchronisiert</string>
 	<string name="cloud_files_count">Dateien Anzahl</string>
     <string name="cloud_who_has_access">"Wer hat Zugriff "</string>
-    <string name="prepare_library_for_cloud">Verzeignis wird bearbeitet...</string>
+    <string name="prepare_library_for_cloud">Verzeichnis wird bearbeitet...</string>
     <string name="download_files_from_cloud">Dateien herunterladen aus der Cloud</string>
-    </resources>
+    <string name="cant_download_item_files_for_copy">Herunterladen der Dateien um Kopien her zu stellen is missglückt</string> 
+    <string name="button_update">Aktualisierung</string>
+    <string name="add_people">Personen hinzufügen</string>
+    <string name="read_permission">Lesen</string>      
+    <string name="write_permission">Schreiben</string>
+    <string name="create_permission">Erstellen</string>
+    <string name="delete_permission">Löschen</string>
+    
+    <string name="only_owner_permission">Nur eigene</string>
+	<string name="user_not_found">Anwender nicht gefunden</string>
+	<string name="push_error_forbidden">Zugriff verweigert</string>
+	<string name="button_ignore">Ignorieren</string>
+	<string name="cloud_library_forbidden">Sie haben kein Zugriffsberechtigung für dieses Verzeichnis</string>
+	<string name="shared_with_me">Mit mir geteilt</string>
+	<string name="entry_author">Verfasser</string>
+	<string name="info_menu_item">Info</string>   
+	<plurals name="conflict_count">
+	<item quantity="one">%d Konflikt aufgetreten während Synchronisation</item>
+	<item quantity="other">%d Konflikte aufgetreten während Synchronisation</item>
+</plurals>
+    <string name="library_cloud_model_changed_message">Die Verzeichnis Struktur ist aktualisiert im Cloud. Aktualisieren Sie die Struktur für weitere Synchronisation</string>
+    <string name="price_per_month">%s pro Monat</string>
+	<string name="unlimited_libraries">Unbegrenzte Verzeichnisse</string>	
+	<string name="adv_free">Keine Werbung</string>
+	<string name="subscription_activation">Abonnement aktivieren...</string>
+	<string name="subscription_activation_error">Aktivierungsfehler: %s</string>
+	<string name="google_play_unavaliable">Google Play ist niet erreichbar:(</string>
+	<string name="subscription_already_activation_for_user">Abonnement kann nicht aktiviert werden weil as ist gekauft für Anwender %s.</string>
+	<string name="library_cloud_count_limit">Ihr abonnement lässt das Hochladen zu von %s Verzeichnisse in die Cloud</string>
+	<string name="restore_cloud_library_from_recycle">Dieses lokale Verzeichnis is gelöscht. Wiederherstellen?</string>
+	<string name="button_signin">Eintragen</string>
+	<string name="library_alias_menu_item">Alias</string>
+	<string name="library_public_access">Allgemeine Zutritt</string>
+	<string name="library_public_access_disabled">Ausgeschaltet</string>
+	<string name="library_access_read_only">Nur lesen</string>
+	<string name="library_access_can_edit">Kann Bearbeiten</string>
+	<string name="owner">Inhaber</string>
+	<string name="find_library_by_url_title">Öffnen durch URL</string>
+	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
+	<string name="library_not_found_by_uri">Verzeichnis nicht gefunden</string>
+	<string name="button_no_thanks">Nein, danke</string>
+	<string name="button_upload">Hochladen</string>
+	
+	<string name="cant_upload_file_to_cloud">Datei(en) hochladen missglückt</string>
+    <string name="button_show">Zeigen</string>
+	<string name="cant_add_yourself">Sie können Sich selbst nicht hinzufügen</string>
+	<string name="select_template_title">Schablone auswählen</string>
+	<string name="empty_library_title">Verzeichnis ausleeren</string>
+	<string name="catalog_templates_hint">Mehr als 3000 Schablone</string>
+	<string name="templates">Schablone</string>
+	</resources>
