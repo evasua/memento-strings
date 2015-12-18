@@ -1236,8 +1236,8 @@ wysłania...</string>
     <plurals name="conflict_count">
 	<item quantity="one">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
 	<item quantity="few">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
-	<item quantity="many"/>
-	<item quantity="other"/>
+	<item quantity="many">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
+	<item quantity="other"></item>
 </plurals>
     <string name="button_select">Wybierz</string>
     <string name="cloud">Chmura</string>
@@ -1431,7 +1431,9 @@ wysłania...</string>
     <string name="rating_tooltips_empty">Pole nie zawiera podpowiedzi</string>
     <plurals name="rating_tooltips_count">
 	<item quantity="one">Podpowiedzi %d</item>
-	<item quantity="other">Podpowiedzi %d</item>
+	<item quantity="few">Podpowiedzi %d</item>
+	<item quantity="many">Podpowiedzi %d</item>
+	<item quantity="other"/>
 </plurals>
     <string name="calculator">Kalkulator</string>
     <string name="calculator_options_hint">Dodaj przycisk wyświetlania kalkulatora</string>
