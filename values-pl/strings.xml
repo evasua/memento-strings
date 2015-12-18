@@ -1401,7 +1401,7 @@ wysłania...</string>
     <string name="entry_saved_as_pdf_success">PDF pomyślnie utworzony</string>
     <string name="one_row_with_previous">W wierszu poprzednim</string>
     <string name="protected_libraries_not_show_in_widget">Chroniona biblioteka nie może być wyświetlana w widżecie</string>
-    <string name="widget_free_limit_item_text">Wszystkie wpisy mogą być wyświetlane tylko właścicielom wersji PRO</string>
+    <string name="widget_free_limit_item_text">Wszystkie wpisy mogą być wyświetlane tylko użytkownikom wersji PRO</string>
     <string name="rate_me_dialog_title">Lubisz używać Memento ?</string>
     <string name="rate_me_dialog_text">Oceń nas w Google Play</string>
     <string name="button_rate_now">Oceń teraz</string>
@@ -1440,5 +1440,75 @@ wysłania...</string>
     <string name="multiediting_only_in_pro">Edytowanie wielu wpisów jednocześnie jest możliwe tylko dla właścicieli wersji PRO.</string>
     <string name="multiediting_title">Edycja zbiorowa</string>
     <string name="select_all">Zaznacz wszystko</string>
+    
+<string name="group_separator_option_title">Separator tysięcy</string>
+    <string name="group_separator_option_hints">Użyj spacji jako separatora tysięcy</string>
+
+
+    <string name="cloud_library_notification_title">Powiadomienia</string>
+    <string name="cloud_library_notification_hint">Otrzymuj powiadomienia kiedy inni użytkownicy zmodyfikują bibliotekę</string>
+    <string name="cloud_library_download_notification_text">%s: pobranej biblioteki</string>
+    <string name="cloud_notification_for_subscribers">Przepraszamy, tylko subskrybenci mogą otrzymywać powiadomienia.</string>
+    <string name="comments">Komentarze</string>
+    <string name="comment_input_hint">Napisz komentarz</string>
+    <string name="comment_send_error">Błąd wysyłania komentarzy: %s</string>
+    <string name="edit_comment_dialog_title">Edytuj komentarz</string>
+
+    <plurals name="notification_edit_library_common_text">
+	<item quantity="one">Zmian nieodczytanych: %d</item>
+	<item quantity="other">Zmian nieodczytanych: %d</item>
+</plurals>
+
+    <string name="notification_edit_library_create_text">dodany wpis</string>
+    <string name="notification_edit_library_edit_text">edytowany wpis</string>
+    <string name="notification_edit_library_delete_text">usunięty wpis</string>
+    <plurals name="notification_comments_common_text">
+	<item quantity="one">nowych komentarzy %d</item>
+	<item quantity="other">nowych komentarzy %d</item>
+</plurals>
+
+    <string name="flex_type_rich_text">Tekst RTF</string>
+    <string name="text_background_color">Kolor tła</string>
+    <string name="field_type_rich_only_for_android_kit_kat">Pole tego typu jest dostępne tylko w Androidzie 4.4 KitKat lub wyższym.</string>
+    <string name="field_type_rich_list_free_limit">"Przepraszamy,  listy są dostępne tylko dla użytkowników wersji PRO."</string>
+    <string name="field_type_rich_align_free_limit">Przepraszamy, formatowanie tekstu dostępne jest tylko dla użytkowników wersji PRO.</string>
+    <string name="attached_files">Załączone pliki</string>
+    <string name="cloud_file_not_downloaded">Nie pobrane</string>
+    <string name="cloud_file_download_pending">Oczekujące</string>
+    <string name="cloud_file_queued">W kolejce</string>
+    <string name="cloud_file_error_upload">Błąd wysyłki</string>
+    <string name="cloud_file_uploading">Wysyłanie</string>
+    <string name="cloud_file_downloading">Pobieranie</string>
+    <string name="file_show_in_folder">Pokaż w folderze</string>
+    <string name="file_show_in_entry">Pokaż we wpisie</string>
+    <string name="sort_by_size">Sortuj wg rozmiaru</string>
+    <string name="download_all">Pobierz wszystko</string>
+    <string name="find_missing_files">Znajdź brakujące pliki</string>
+    <string name="button_apply">Zastosuj</string>
+    <string name="find_missing_files_empty">Brakujące pliki nieznalezione</string>
+    <string name="file_manager_not_found">Niekompatybilny menedżer plików znaleziono na Twoim urządzeniu.</string>
+    <string name="file_list_empty">Biblioteka nie zawiera plików</string>
+    <string name="feature_available_only_in_pro">Ta funkcjonalność dostępna tylko dla użytkowników wersji PRO.</string>
+    <string name="preview_button">Podgląd</string>
+    <string name="select_calc_preview_entry">Wpis do podglądu</string>
+    <string name="calc_preview_title">Podgląd</string>
+    <string name="add_relationship">Relacja</string>
+    <string name="add_relationship_with_title">Wybierz drugą bibliotekę</string>
+    <string name="add_relationship_success">Relacje między bibliotekami będą prowadzone poprzez pole \"%s\".</string>
+    <string name="display_aggregation">Wyświetl agregację</string>
+    <string name="display_aggregation_hint">Agregacja po wpisach powiązanej biblioteki</string>
+    <string name="create_shortcut_text">Wpisz nazwę tego skrótu</string>
+    <string name="permission_storage_title">Składowanie</string>
+    <string name="permission_storage_text">Aby kontynuować, zezwól Memento na dostęp do twojego Składowania.</string>
+    <string name="permission_storage_explanation_text">"Dostęp do składowania jest wymagany,  aby rozpoznawać, kopiować i przyłączać  obrazy i pliki do twoich wpisów."</string>
+    <string name="permission_accounts_title">Konta</string>
+    <string name="permission_accounts_text">Wymagany jest dostęp dla Memento do kont aby synchronizować z Arkuszami Google oraz dla pól typu Kontakt.</string>
+    <string name="permission_location_title">Lokalizacja</string>
+    <string name="permission_location_text">Wymagane jest pozwolenie dostępu dla Memento do lokalizacji dla pól typu Lokalizacja.</string>
+    <string name="permission_not_necessarily">To pozwolenie nie jest obowiązkowe.</string>
+    <string name="app_permissions">Pozwolenia aplikacji</string>
+    <string name="app_permissions_only_for_android6">Tylko dla Android 6 lub wyżej</string>
+    <string name="need_permission_dialog_title">Wymagane pozwolenie</string>
+    <string name="need_permission_dialog_text">Ta operacja wymaga pozwolenia systemowego - %s</string>
     
 </resources>
