@@ -1308,4 +1308,75 @@
 <string name="need_reload_library_from_cloud_encrypted">Les copies de la base dans le nuage sont chiffrées.\nSupprimer la copie locale de la base, puis télécharger la base à nouveau depuis le nuage.</string>
     <string name="need_reload_library_from_cloud_decrypted">Les copies de la base dans le nuage sont déchiffrées.\nSupprimer la copie locale de la base, puis télécharger la base à nouveau depuis le nuage.</string>
 
-    </resources>
+    <string name="select_all">Tout sélectionner</string>
+    <string name="group_separator_option_title">Séparateur de milliers</string>
+    <string name="group_separator_option_hints">Utiliser l\'espace comme séparateur de milliers</string>
+
+
+    <string name="cloud_library_notification_title">Notifications</string>
+    <string name="cloud_library_notification_hint">Recevoir des notifications lorsque d\'autres utilisateurs modifient la base</string>
+    <string name="cloud_library_download_notification_text">%s: base téléchargée</string>
+    <string name="cloud_notification_for_subscribers">Désolé, seuls les souscripteurs peuvent recevoir des notifications.</string>
+    <string name="comments">Commentaires</string>
+    <string name="comment_input_hint">Rédiger un commentaire</string>
+    <string name="comment_send_error">Erreur à l\'envoi des commentaires : %s</string>
+    <string name="edit_comment_dialog_title">Modifier un commentaire</string>
+
+    <plurals name="notification_edit_library_common_text">
+	<item quantity="one">%d modification non lue</item>
+	<item quantity="other">%d modifications non lues</item>
+</plurals>
+
+    <string name="notification_edit_library_create_text">enregistrement ajouté</string>
+    <string name="notification_edit_library_edit_text">enregistrement modifié</string>
+    <string name="notification_edit_library_delete_text">enregistrement supprimé</string>
+    <plurals name="notification_comments_common_text">
+	<item quantity="one">%d nouveau commentaire</item>
+	<item quantity="other">%d nouveaux commentaires</item>
+</plurals>
+
+    <string name="flex_type_rich_text">Texte riche</string>
+    <string name="text_background_color">Couleur d\'arrière plan</string>
+    <string name="field_type_rich_only_for_android_kit_kat">"Ce  type de champs n\'est disponible que pour les versions Android 4.4 KitKat et ultérieures."</string>
+    <string name="field_type_rich_list_free_limit">Désolé, les listes ne sont disponibles que pour les utilisateurs de la version PRO.</string>
+    <string name="field_type_rich_align_free_limit">Désolé, les alignements ne sont disponibles que pour les utilisateurs de la version PRO.</string>
+    <string name="attached_files">Fichiers joints</string>
+    <string name="cloud_file_not_downloaded">Non téléchargé</string>
+    <string name="cloud_file_download_pending">En attente</string>
+    <string name="cloud_file_queued">En file</string>
+    <string name="cloud_file_error_upload">Erreur à l\'envoi</string>
+    <string name="cloud_file_uploading">Téléversement</string>
+    <string name="cloud_file_downloading">Téléchargement</string>
+    <string name="file_show_in_folder">Montrer dans le répertoire</string>
+    <string name="file_show_in_entry">Montrer dans l\'enregistrement</string>
+    <string name="sort_by_size">Trier par taille</string>
+    <string name="download_all">Tout télécharger</string>
+    <string name="find_missing_files">Fichiers absents détectés</string>
+    <string name="button_apply">Appliquer</string>
+    <string name="find_missing_files_empty">Fichiers manquants non trouvés</string>
+    <string name="file_manager_not_found">Aucun gestionnaire de fichier compatible trouvé sur votre appareil.</string>
+    <string name="file_list_empty">Cette base ne contient pas de fichiers</string>
+    <string name="feature_available_only_in_pro">Cette fonction n\'est disponible que dans la version PRO.</string>
+    <string name="preview_button">Prévisualiser</string>
+    <string name="select_calc_preview_entry">Enregistrement à prévisualiser</string>
+    <string name="calc_preview_title">Prévisualiser</string>
+    <string name="add_relationship">Relation</string>
+    <string name="add_relationship_with_title">Sélectionner une base secondaire</string>
+    <string name="add_relationship_success">La relation entre les bases est fournies par le champs \"%s\".</string>
+    <string name="display_aggregation">Montrer l\'agrégat</string>
+    <string name="display_aggregation_hint">Agrégation par enregistrements de la base liée</string>
+    <string name="create_shortcut_text">Entrer un nom pour ce raccourci</string>
+    <string name="permission_storage_title">Stockage</string>
+    <string name="permission_storage_text">Pour poursuivre, donner accès à votre stockage pour Memento.</string>
+    <string name="permission_storage_explanation_text">L\'accès au stockage est obligatoire pour le cache, la sauvegarde et la disponibilité des images et fichiers joints dans vos enregistrements.</string>
+    <string name="permission_accounts_title">Comptes</string>
+    <string name="permission_accounts_text">Il est indispensable de donner un accès à Memento aux comptes à synchroniser avec Google Sheets et pour les champs de type Contact.</string>
+    <string name="permission_location_title">Emplacement</string>
+    <string name="permission_location_text">Il est indispensable de donner accès à Memento à l\'emplacement pour les champs de type Emplacement.</string>
+    <string name="permission_not_necessarily">Cette autorisation n\'est pas obligatoire.</string>
+    <string name="app_permissions">App autorisations</string>
+    <string name="app_permissions_only_for_android6">Uniquement pour Android 6 et ultérieur</string>
+    <string name="need_permission_dialog_title">Autorisation obligatoire</string>
+    <string name="need_permission_dialog_text">Cette opération nécessite l\'autorisation système - %s</string>
+    
+</resources>
