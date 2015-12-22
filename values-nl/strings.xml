@@ -1255,7 +1255,7 @@
     <string name="entry_saved_as_pdf_success">PDF succesvol aangemaakt</string>
     <string name="one_row_with_previous">Op dezelfde rij als vorige</string>
     <string name="protected_libraries_not_show_in_widget">Beveiligde verzameling kan niet in de widget worden getoond</string>
-    <string name="widget_free_limit_item_text">Alle objecten zijn alleen zichtbaar voor eigenaren met een PRO-versie</string>
+    <string name="widget_free_limit_item_text">Alle objecten zijn alleen zichtbaar voor gebruikers met een PRO-versie</string>
     <string name="rate_me_dialog_title">Gebruikt u Memento graag?</string>
     <string name="rate_me_dialog_text">Beoordeel ons in Google Play a.u.b.</string>
     <string name="button_rate_now">Beoordeel nu</string>
@@ -1300,4 +1300,77 @@
 
     <string name="need_reload_library_from_cloud_decrypted">Kopieën van de verzameling in de cloud waren ontsleuteld.\nVerwijder de lokale kopie van de verzameling en download dan de verzameling opnieuw vanaf de cloud</string>
 
-    </resources>
+    <string name="cloud_storage_plans">Plannen</string>
+	<string name="uservoice_menu_title">UserVoice</string>
+	<string name="font_sample_text">De snelle bruine vos sprong over de luie hond.</string>
+    <plurals name="rating_tooltips_count">
+	<item quantity="one">%d hint</item>
+	<item quantity="other">%d hint</item>
+</plurals>
+    <string name="group_separator_option_title">Scheidingstekens voor duizendtallen</string>
+    <string name="group_separator_option_hints">Gebruik een spatie als scheidingsteken voor duizendtallen</string>
+
+
+    <string name="cloud_library_notification_title">Notificaties</string>
+    <string name="cloud_library_notification_hint">Ontvang push-berichten als andere gebruikers de verzameling wijzigen</string>
+    <string name="cloud_library_download_notification_text">%s: verzameling gedownload</string>
+    <string name="cloud_notification_for_subscribers">Sorry, alleen abonnees kunnen notificaties ontvangen.</string>
+    <string name="comments">Opmerkingen</string>
+    <string name="comment_input_hint">Schrijf een commentaar</string>
+    <string name="comment_send_error">Fout bij verzenden van commentaar: %s</string>
+    <string name="edit_comment_dialog_title">Wijzig commentaar</string>
+
+    <plurals name="notification_edit_library_common_text">
+	<item quantity="one">%d ongelezen wijziging</item>
+	<item quantity="other">%d ongelezen wijzigingen</item>
+</plurals>
+
+    <string name="notification_edit_library_create_text">Object toegevoegd</string>
+    <string name="notification_edit_library_edit_text">Object gewijzigd</string>
+    <string name="notification_edit_library_delete_text">Object verwijderd</string>
+    <plurals name="notification_comments_common_text">
+	<item quantity="one">%d nieuw commentaar</item>
+	<item quantity="other">%d nieuwe commentaren</item>
+</plurals>
+
+    <string name="flex_type_rich_text">Rich text</string>
+    <string name="text_background_color">Achtergrondkleur</string>
+    <string name="field_type_rich_only_for_android_kit_kat">Dit veldtype is alleen beschikbaar voor Android 4.4 KitKat en hoger.</string>
+    <string name="field_type_rich_list_free_limit">Sorry, lijsten zijn alleen beschikbaar voor gebruikers met een PRO-versie.</string>
+    <string name="field_type_rich_align_free_limit">Sorry, uitlijning is alleen beschikbaar voor gebruikers met een PRO-versie.</string>
+    <string name="attached_files">Aangehechte bestanden</string>
+    <string name="cloud_file_not_downloaded">Niet gedownload</string>
+    <string name="cloud_file_download_pending">Wachtend</string>
+    <string name="cloud_file_queued">In wachtrij</string>
+    <string name="cloud_file_error_upload">Fout bij verzending</string>
+    <string name="cloud_file_uploading">Wordt geupload</string>
+    <string name="cloud_file_downloading">Wordt gedownload</string>
+    <string name="file_show_in_folder">Weergeven in map</string>
+    <string name="file_show_in_entry">Weergeven in object</string>
+    <string name="sort_by_size">Sorteren op grootte</string>
+    <string name="download_all">Download alles</string>
+    <string name="find_missing_files">Zoek ontbrekende bestanden</string>
+    <string name="button_apply">Toepassen</string>
+    <string name="find_missing_files_empty">Ontbrekende bestanden niet gevonden</string>
+    <string name="file_manager_not_found">Geen ondersteunde bestandsbeheerprogramma\'s gevonden op uw apparaat.</string>
+    <string name="file_list_empty">Deze verzameling bevat geen bestanden</string>
+    <string name="feature_available_only_in_pro">Deze functie is alleen beschikbaar in de PRO-versie.</string>
+    <string name="preview_button">Voorbeeld</string>
+    <string name="select_calc_preview_entry">Voorbeeld van object</string>
+    <string name="calc_preview_title">Voorbeeld</string>
+    <string name="add_relationship">Relatie</string>
+    <string name="add_relationship_with_title">Selecteer een onderliggende verzameling</string>
+    <string name="add_relationship_success">De relatie tussen de verzamelingen wordt mogelijk met gebruik van veld \"%s\".</string>
+    <string name="display_aggregation">Toon aggregatie</string>
+    <string name="permission_storage_title">Opslagruimte</string>
+    <string name="permission_storage_text">Om door te gaan moet u Memento toegang verlenen tot uw opslagruimte.</string>
+    <string name="permission_accounts_title">Accounts</string>
+    <string name="permission_location_title">Locatie</string>
+    <string name="permission_location_text">Het is noodzakelijk dat u Memento toegang geeft tot uw loactie voor het Locatie veldtype.</string>
+    <string name="permission_not_necessarily">Deze toestemming is niet verplicht.</string>
+    <string name="app_permissions">App toestemming</string>
+    <string name="app_permissions_only_for_android6">Alleen voor Android 6 en hoger</string>
+    <string name="need_permission_dialog_title">Toestemming vereist</string>
+    <string name="need_permission_dialog_text">Deze handeling vereist yoestemming van het systeem - %s</string>
+    
+</resources>
