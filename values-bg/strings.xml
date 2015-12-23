@@ -141,9 +141,9 @@
     <string name="help_title">Memento помощ</string>
     <string name="activate_button_title">Активиране на PRO версия</string>
     <string name="activate_button_hint">Изисква се ключ за активация</string>
-    <string name="activate_main_text">Ъпгрейд до PRO версия</string>
+    <string name="activate_main_text">Надстройка до PRO версия</string>
     <string name="activation_dialog_text_hint">Ключ за активация</string>
-    <string name="activation_dialog_title">Ъпгрейд до PRO версия</string>
+    <string name="activation_dialog_title">Надстройка до PRO версия</string>
     <string name="activation_ok">Благодарим Ви за активирането на Memento</string>
     <string name="activation_error">Активиращият код е невалиден. Моля, опитайте отново.</string>
     <string name="about">За програмата</string>
@@ -1295,4 +1295,74 @@
     <string name="multiediting_title">Мулти-редактиране</string>
     <string name="select_all">Избери всички</string>
     
-</resources>
+<string name="group_separator_option_title">Разделител на хилядите</string>
+    <string name="group_separator_option_hints">Използване на интервал за разделител</string>
+
+
+    <string name="cloud_library_notification_title">Известия</string>
+    <string name="cloud_library_notification_hint">Получаване на известия когато други потребители модифицират библиотеката</string>
+    <string name="cloud_library_download_notification_text">%s: изтеглени от библиотеката</string>
+    <string name="cloud_notification_for_subscribers">Съжаляваме, но само абонати могат да получават известия.</string>
+    <string name="comments">Коментари</string>
+    <string name="comment_input_hint">Напишете коментар</string>
+    <string name="comment_send_error">Грешка при изпращане на коментарите: %s</string>
+    <string name="edit_comment_dialog_title">Редактиране на коментар</string>
+
+    <plurals name="notification_edit_library_common_text">
+	<item quantity="one">%d непрочетена промяна</item>
+	<item quantity="other">%d непрочетени промени</item>
+</plurals>
+
+    <string name="notification_edit_library_create_text">добавен запис</string>
+    <string name="notification_edit_library_edit_text">редактиран запис</string>
+    <string name="notification_edit_library_delete_text">изтрит запис</string>
+    <plurals name="notification_comments_common_text">
+	<item quantity="one">%d нов коментар</item>
+	<item quantity="other">%d нови коментара</item>
+</plurals>
+
+    <string name="flex_type_rich_text">Разширен текст</string>
+    <string name="text_background_color">Цвят на фона</string>
+    <string name="field_type_rich_only_for_android_kit_kat">Този тип поле е достъпен само за Android 4.4 KitKat или по-нов.</string>
+    <string name="field_type_rich_list_free_limit">Съжаляваме, но списъци са достъпни само за PRO-потребители.</string>
+    <string name="field_type_rich_align_free_limit">Съжаляваме, но подравняването е достъпно само за PRO-потребители.</string>
+    <string name="attached_files">Прикачени файлове</string>
+    <string name="cloud_file_not_downloaded">Не е свален</string>
+    <string name="cloud_file_download_pending">Изчакване</string>
+    <string name="cloud_file_queued">На опашка</string>
+    <string name="cloud_file_error_upload">Грешка при изпращане</string>
+    <string name="cloud_file_uploading">Качване</string>
+    <string name="cloud_file_downloading">Сваляне</string>
+    <string name="file_show_in_folder">Покажи в папка</string>
+    <string name="file_show_in_entry">Покажи в запис</string>
+    <string name="sort_by_size">Сортиране по размер</string>
+    <string name="download_all">Свали всички</string>
+    <string name="find_missing_files">Намери липсващи файлове</string>
+    <string name="button_apply">Приложи</string>
+    <string name="find_missing_files_empty">Липсващи файлове не са намерени</string>
+    <string name="file_manager_not_found">Не са намерени поддържани файлови мениджъри на Вашето устройство.</string>
+    <string name="file_list_empty">Тази библиотека не съдържа файлове</string>
+    <string name="feature_available_only_in_pro">Тази функция е достъпна само в PRO-версията.</string>
+    <string name="preview_button">Преглед</string>
+    <string name="select_calc_preview_entry">Запис за преглед</string>
+    <string name="calc_preview_title">Преглед</string>
+    <string name="add_relationship">Взаимоотношение</string>
+    <string name="add_relationship_with_title">Избор на помощна библиотека</string>
+    <string name="add_relationship_success">Връзката между библиотеките ще бъде осигурена от полето \"%s\".</string>
+    <string name="create_shortcut_text">Напишете име за този пряк път</string>
+    <string name="permission_storage_title">Място</string>
+    <string name="permission_storage_text">За да продължите, дайте достъп на Memento до вашето Място.</string>
+    <string name="permission_storage_explanation_text">Достъп до мястото за съхранение се изисква за кеширане, архивиране и достъпност до прикачени изображения и файлове към вашите записи.</string>
+    <string name="permission_accounts_title">Профили</string>
+    <string name="permission_accounts_text">Необходимо е да дадете достъп на Memento до профилите за синхронизиране с Google Таблици и за тип на поле Контакт.</string>
+    <string name="permission_location_title">Местоположение</string>
+    <string name="permission_location_text">Необходимо е да дадете достъп на Memento до местоположението си за тип на поле Местоположение.</string>
+    <string name="permission_not_necessarily">Това разрешение не е задължително.</string>
+    <string name="app_permissions">Разрешения на приложението</string>
+    <string name="app_permissions_only_for_android6">Само за Android 6 или по-нов</string>
+    <string name="need_permission_dialog_title">Необходими разрешения</string>
+    <string name="need_permission_dialog_text">Тази операция изисква системно разрешение - %s</string>
+    
+<string name="display_aggregation_hint">Обобщаване чрез записи на свързани библиотеката</string>
+    <string name="display_aggregation">Показване на обобщение</string>
+    </resources>
