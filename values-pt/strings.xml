@@ -187,7 +187,7 @@
     <string name="button_add_fill_field">Adicionar uma regra de preenchimento</string>
     <string name="barcode_auto_fill_checkbox">Campo de autopreenchimento</string>
     <string name="add_fill_field_dialog_title">Criando uma regra de autopreenchimento</string>
-    <string name="memento_field">Ele será salvo no campo entrada</string>
+    <string name="memento_field">Ele será salvo para o campo</string>
     <string name="memento_field_promt">Campos de entrada para biblioteca</string>
     <string name="uniquery_check_fail">Uma biblioteca só pode conter um campo do "%s" tipo</string>
     <string name="to">para</string>
@@ -390,7 +390,7 @@
     <string name="help_subscribe">Inscrições em bibliotecas</string>
     <string name="lib_protection">Proteção de bibliotecas</string>
     <!-- 1.6.0 -->
-    <string name="set_library_protection">Configurando proteção</string>
+    <string name="set_library_protection">Proteção</string>
     <string name="set_master_pass_text">Configurar uma senha principal para acesso às bibliotecas.\nVocê terá que entrar com essa senha para acessar as bibliotecas criptografadas.</string>
     <string name="master_pass_hint">Senha</string>
     <string name="master_pass_hint2">Repita a senha</string>
@@ -436,8 +436,8 @@
     <string name="flex_type_email">Email</string>
     <string name="email_chooser_title">Selecione a aplicação de email</string>
     <string name="choose_own_icon_text">Selecione seu próprio ícone</string>
-    <string name="font_size_screen_preference">Tamanho da fonte</string>
-    <string name="font_size_screen_preference_summary">O tamanho da fonte na entrada e na lista de entradas</string>
+    <string name="font_size_screen_preference">Fontes</string>
+    <string name="font_size_screen_preference_summary">A fonte no registo e na lista de registos</string>
     <string name="font_size_category_entries_list">Fonte na lista de entradas</string>
     <string name="font_size_category_entries_card">Fonte na entrada</string>
     <string name="font_size_dialog">Tamanho da fonte</string>
@@ -868,7 +868,7 @@
     <string name="need_internet_for_charts">Google Charts requer uma ligação de Internet ativa</string>
     <string name="download_image_from_google_photo_message">A descarregar a imagem do Google Photo ...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Dados da Web serão inseridos nos campos das entradas</string>
-    <string name="google_base_field_new">Produto do valor do atributo da fonte</string>
+    <string name="google_base_field_new">Valor do atributo da fonte</string>
     <string name="wrong_search_query_string_1">O campo de pesquisa não pode começar com \"-\"</string>
     <string name="link_master_library_not_found">Desculpa, a biblioteca que está ligada a este campo não foi encontrada</string>
     <string name="sync_with_google_drive_dont_support">O seu aparelho Android não suporta sincronização com o Google Drive</string>
@@ -1238,4 +1238,153 @@
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="cloud_library_already_uploaded">Esta biblioteca já está carregado na nuvem.</string>
 	<string name="cloud_library_not_found">A biblioteca não foi encontrado na nuvem. Talvez, tenha sido eliminada.↵\nConverter a biblioteca em uma local?</string>
-	</resources>
+	<string name="uservoice_menu_title">Voz do Utilizador</string>
+	<string name="view_csv_error_dialog_message">Desculpe, mas a aplicação para visualizar o arquivo CSV não foi encontrada</string>
+	
+	<string name="edit_library_tabs_autofill">Auto preenchimento</string>
+	<string name="autofill_from">de %s</string>
+	<string name="autofill_by_barcode">Por código de barras</string>
+	<string name="autofill_by_title">Por título</string>
+	<string name="autofill_need_barcode_field">Para preencher automaticamente a sua biblioteca por código de barras a mesma deve conter o campo \"Código de Barras\". Como criar isto?</string>
+	<string name="autofill_need_text_field">Para preencher automaticamente a sua biblioteca por Título deve conter o campo \"Texto\" . Como criar isto?</string>
+	<string name="autofill_select_master_field">Campo de entrada para pesquisa</string>
+	<string name="autofill_rules_title">Regras de autopreenchimento</string>
+	<string name="music_brainz_source_artist">Artistas da música</string>
+    <string name="music_brainz_source_album">Albúns</string>
+	<string name="music_brainz_source">musicbrainz.org</string>
+	<string name="unknown_data_source">Origem desconhecida</string>
+    <string name="google_books_source">Google Livros</string>
+    <string name="google_books_source_books">Livros</string>
+    <string name="themoviedb_source">themoviedb.org</string>
+    <string name="themoviedb_source_movies">Filmes</string>
+    <string name="themoviedb_source_tv">TV</string>
+
+    <string name="autofill_rules_delete_title">Eliminar as regras de auto preenchimento</string>
+    <string name="autofill_rules_delete_text">Quer eliminar as regras de auto preenchimento de \"%s\" ?</string>
+    <string name="empty_autofill_list_text">Criar regras de preenchimento automático para registros de dados a partir da Internet</string>
+    <string name="empty_autofill_rules_list_text">Correspondência entre os atributos da origem e os campos da biblioteca</string>
+    <string formatted="false" name="movie_cast_person_item">%s como %s</string>
+
+    <string name="copy_library_structure_menu_item">Só a estrutura</string>
+    <string name="copy_all_library_menu_item">Estrutura e entradas</string>
+    <string name="copying_entries">Copiando as entradas ...</string>
+
+    <string name="encryption_for_cloud_uploaded_library">Biblioteca encriptada só pode ser ativada antes de ser carregado para a nuvem.</string>
+    <string name="decryption_for_cloud_uploaded_library">Desativação de criptografia para o carregamento para a nuvem da biblioteca não é suportada. Primeiro remova a biblioteca a partir da nuvem.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Cópias da biblioteca na nuvem foram encriptadas.\nExcluir cópia local da biblioteca e, em seguida, descarregar a biblioteca novamente a partir da nuvem.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Cópias da biblioteca na nuvem foram desencriptadas.\nExcluir cópia local da biblioteca e, em seguida, baixar a biblioteca novamente a partir da nuvem.</string>
+
+    <string name="render_pdf_menu_item">Salvar para PDF</string>
+    <string name="entry_saved_as_pdf_success">PDF criado com sucesso</string>
+    <string name="one_row_with_previous">Uma linha com anterior</string>
+    <string name="protected_libraries_not_show_in_widget">Biblioteca protegida não pode ser exibida no widget</string>
+    <string name="widget_free_limit_item_text">Todas as entradas podem ser exibidos somente para utilizadores da versão PRO</string>
+    <string name="rate_me_dialog_title">Adora usar Memento?</string>
+    <string name="rate_me_dialog_text">Por favor, classifique-nos no Google Play</string>
+    <string name="button_rate_now">Classifique-nos agora</string>
+    <string name="button_ask_later">Pergunte-me mais tarde</string>
+    <string name="flex_type_radiobuttons">Botões rádio</string>
+    <string name="flex_type_checkboxes">Caixas de seleção</string>
+    <string name="field_orientation_option_title">Orientação</string>
+    <string name="field_orientation_option_horizontal">Horizontal</string>
+    <string name="field_orientation_option_vertical">Vertical</string>
+    <string name="preparing_files_for_sending">Preparando ficheiros para enviar...</string>
+    <string name="whats_new_dialog_title">O que há de novo?</string>
+    <string name="font_size">Tamanho</string>
+    <string name="font_family">Família</string>
+    <string name="font_style">Estilo</string>
+    <string name="font_color">Cor</string>
+    <string name="font_picker_dialog_title">Fonte</string>
+    <string name="font_style_normal">Normal</string>
+    <string name="font_style_bold">Negrito</string>
+    <string name="font_style_italic">Itálico</string>
+    <string name="font_style_bold_italic">Negrito e Itálico</string>
+    <string name="font_sample">Exemplo</string>
+    <string name="font_sample_text">A rápida raposa castanha saltou sobre o cão preguiçoso.</string>
+    <string name="font_default_title">Fonte padrão</string>
+    <string name="choice_item_use_color_for_text">Usar cores para o texto</string>
+    <string name="rating_tooltips">Dicas</string>
+    <string name="rating_tooltips_hint">Dica</string>
+    <string name="rating_tooltips_empty">Campo não tem dicas</string>
+    <plurals name="rating_tooltips_count">
+	<item quantity="one">%d dica</item>
+	<item quantity="other">%d dicas</item>
+</plurals>
+    <string name="calculator">Calculadora</string>
+    <string name="calculator_options_hint">Adicionar botão para mostrar calculadora</string>
+    <string name="filter_by_number">Filtrar por número</string>
+    <string name="filter_by_string">Filtrar por string</string>
+    <string name="multiediting_only_in_pro">Edição de entradas múltiplas só está disponível para os proprietários de versão PRO.</string>
+    <string name="multiediting_title">Edição múltipla</string>
+    <string name="select_all">Selecionar Todos</string>
+    <string name="group_separator_option_title">Separadores de milhares</string>
+    <string name="group_separator_option_hints">Usar um espaço como um separadores de milhares</string>
+
+
+    <string name="cloud_library_notification_title">Notificações</string>
+    <string name="cloud_library_notification_hint">Receba Notificações-Push quando outros utilizadores modificarem a biblioteca</string>
+    <string name="cloud_library_download_notification_text">%s: descarregar biblioteca</string>
+    <string name="cloud_notification_for_subscribers">Desculpe, só subscritores podem receber notificações</string>
+    <string name="comments">Comentários</string>
+    <string name="comment_input_hint">Escrever um comentário</string>
+    <string name="comment_send_error">Erro enviando comentários: %s</string>
+    <string name="edit_comment_dialog_title">Edite comentário</string>
+
+    <plurals name="notification_edit_library_common_text">
+	<item quantity="one">%d alteração não lida</item>
+	<item quantity="other">%d alterações não lidas</item>
+</plurals>
+
+    <string name="notification_edit_library_create_text">Registo adicionado</string>
+    <string name="notification_edit_library_edit_text">Editar registo</string>
+    <string name="notification_edit_library_delete_text">Registo eliminado</string>
+    <plurals name="notification_comments_common_text">
+	<item quantity="one">%d novo comentário</item>
+	<item quantity="other">%d novos comentários</item>
+</plurals>
+
+    <string name="flex_type_rich_text">Texto enriquecido</string>
+    <string name="text_background_color">Cor de fundo</string>
+    <string name="field_type_rich_only_for_android_kit_kat">Este tipo de campos só está disponível para Android 4.4 KitKat e posterior.</string>
+    <string name="field_type_rich_list_free_limit">Desculpe, listas só estão disponíveis para utilizadores da versão PRO.</string>
+    <string name="field_type_rich_align_free_limit">Desculpe, alinhamento disponíveis apenas para utilizadores da versão PRO.</string>
+    <string name="attached_files">Anexar ficheiro</string>
+    <string name="cloud_file_not_downloaded">Não descarregado</string>
+    <string name="cloud_file_download_pending">Pendente</string>
+    <string name="cloud_file_queued">Em fila</string>
+    <string name="cloud_file_error_upload">Erro a enviar</string>
+    <string name="cloud_file_uploading">Enviando</string>
+    <string name="cloud_file_downloading">Descarregando</string>
+    <string name="file_show_in_folder">Mostrar na pasta</string>
+    <string name="file_show_in_entry">Mostrar no registo</string>
+    <string name="sort_by_size">Ordenar por tamanho</string>
+    <string name="download_all">Descarregar todos</string>
+    <string name="find_missing_files">Procurar ficheiros perdidos</string>
+    <string name="button_apply">Aplicar</string>
+    <string name="find_missing_files_empty">Ficheiros perdidos não foram encontrados</string>
+    <string name="file_manager_not_found">Não foram encontrados no seu dispositivo gestores que suportem o ficheiro.</string>
+    <string name="file_list_empty">Esta biblioteca não contém ficheiros</string>
+    <string name="feature_available_only_in_pro">Este recurso só está disponível na versão PRO.</string>
+    <string name="preview_button">Pré-visualização</string>
+    <string name="select_calc_preview_entry">Entrada para pré-visualização</string>
+    <string name="calc_preview_title">Pré-visualização</string>
+    <string name="add_relationship">Relação</string>
+    <string name="add_relationship_with_title">Selecione uma biblioteca secundária</string>
+    <string name="add_relationship_success">A relação entre as bibliotecas será fornecida usando campo \"%s\".</string>
+    <string name="display_aggregation">Mostrar agregação</string>
+    <string name="display_aggregation_hint">Agregação por registos da biblioteca ligada</string>
+    <string name="create_shortcut_text">Escreva uma nome para este atalho</string>
+    <string name="permission_storage_title">Armazenamento</string>
+    <string name="permission_storage_text">Para continuar, dar ao Memento acesso ao seu armazenamento.</string>
+    <string name="permission_storage_explanation_text">É necessário o acesso ao armazenamento para colocar em cache backup e disponibilidade para anexar imagens e arquivos para as suas entradas.</string>
+    <string name="permission_accounts_title">Contas</string>
+    <string name="permission_accounts_text">É necessário conceder ao Memento acesso às contas para sincronizar com o Google Sheets e para o campo de tipo de Contacto.</string>
+    <string name="permission_location_title">Localização</string>
+    <string name="permission_location_text">É necessário conceder acesso ao Memento para garantir a localização para o campo do tipo Local.</string>
+    <string name="permission_not_necessarily">Essa permissão não é obrigatória.</string>
+    <string name="app_permissions">Permissões da App</string>
+    <string name="app_permissions_only_for_android6">Apenas para Android 6 e superior</string>
+    <string name="need_permission_dialog_title">Permissão requerida</string>
+    <string name="need_permission_dialog_text">Esta operação requer permissão de sistema - %s</string>
+    
+</resources>
