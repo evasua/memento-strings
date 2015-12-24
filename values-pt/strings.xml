@@ -1324,7 +1324,7 @@
     <string name="cloud_library_notification_title">Notificações</string>
     <string name="cloud_library_notification_hint">Receba Notificações-Push quando outros utilizadores modificarem a biblioteca</string>
     <string name="cloud_library_download_notification_text">%s: descarregar biblioteca</string>
-    <string name="cloud_notification_for_subscribers">Desculpe, só subscritores podem receber notificações</string>
+    <string name="cloud_notification_for_subscribers">Desculpe, só subscritores podem receber notificações.</string>
     <string name="comments">Comentários</string>
     <string name="comment_input_hint">Escrever um comentário</string>
     <string name="comment_send_error">Erro enviando comentários: %s</string>
