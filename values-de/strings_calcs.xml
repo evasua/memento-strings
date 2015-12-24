@@ -6,7 +6,7 @@
     <string name="math_func_desc_0">Absoluter Wert eines doppelten Wertes</string>
     <string name="math_func_desc_5">Zellwert eines doppelten Wertes</string>
     <string name="math_func_desc_6">Trigonometrischer Cosinus eines Winkels</string>
-    <string name="math_func_desc_7">Exponential Nummer e (z.B., 2.718...) des Wertes eines doppelten Wertes</string>
+    <string name="math_func_desc_7">Exponential Nummer e (z.B., 2.718...) potenziert zu einem doppelten Wertes</string>
     <string name="math_func_desc_8">Grundwert eines doppelten Wertes.</string>
     <string name="math_func_desc_9">Natürlicher Logarithmus (Basis e) eines doppelten Wertes</string>
     <string name="math_func_desc_10">Größter aus zwei doppelte Werte</string>
