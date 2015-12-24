@@ -839,7 +839,7 @@
     <string name="need_internet_for_charts">Google Charts benötigt eine Verbindung zum Internet.</string>
     <string name="download_image_from_google_photo_message">Bild von Google Photo herunterladen...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Für diese Felder werden Daten aus dem Web verwendet</string>
-    <string name="google_base_field_new">Produkt Attribut Wert von der Quelle</string>
+    <string name="google_base_field_new">Attribut Wert von der Quelle</string>
     <string name="wrong_search_query_string_1">Suchanfrage darf nicht mit \"-\" beginnen</string>
     <string name="link_master_library_not_found">Sorry, in dieser Bibliothek wurde eine Verknüpfung nicht gefunden</string>
     <string name="sync_with_google_drive_dont_support">Ihre Android-Version unterstützt keine Synchronisation mit Google Drive</string>
@@ -1197,4 +1197,52 @@
 	<string name="empty_library_title">Verzeichnis ausleeren</string>
 	<string name="catalog_templates_hint">Mehr als 3000 Schablone</string>
 	<string name="templates">Schablone</string>
+	<string name="success_upload_library_to_cloud2">Sie können Ihren Verzeichnis zugänglich machen für andere Memento Anwender in den Zugriff Einstellungen.</string>	
+	<string name="upload_big_file_error" formatted="false">Eintrag enthält grosser Datei %s (%s).\nMaximale Dateigröße ist %s.</string>
+    <string name="edit_permission">Einstellungen für teilen mit Anwender</string>	
+	<string name="start_download_slave_library_model">Hochladen abhängiges Verzeichnis %s</string>
+	<string name="price_free">Kostenlos</string>
+	<string name="catalog_templates_title">Online Katalog</string>
+	<string name="add_lib_from_google_drive_hint">Wiederherstellen van Google Drive</string>
+	<string name="import_template_from_file_hint">Schablone von Datei importieren</string>
+	<string name="help_cloud">Cloud Speicher und Teamwork</string>
+	<string name="send_formatting_menu_item">Formatieren...</string>
+	<string name="pro_for_cloud_storage_title">Abonnement</string>
+	<string name="default_file_manager_pref_title">Dateimanager</string>
+	<string name="default_file_manager_built_in">Eingebaut</string>	
+	<string name="clear_search_history">Suchgeschichte löschen</string>
+	<string name="success_clear_search_history">Ihr Suchgeschichte ist gelöscht</string>	
+	<string name="uservoice_menu_title">UserVoice</string>
+	<string name="edit_library_tabs_autofill">Automatisches Ausfüllen</string>
+	<string name="autofill_rules_title">Regeln für Automatisches Ausfüllen</string>
+	<string name="music_brainz_source_artist">Musikartisten</string>
+    <string name="music_brainz_source_album">Alben</string>
+	<string name="music_brainz_source">musicbrainz.org</string>
+	<string name="google_books_source">Google Books</string>
+    <string name="google_books_source_books">Bücher</string>
+    <string name="themoviedb_source">themoviedb.org</string>
+    <string name="themoviedb_source_movies">Filme</string>
+    <string name="themoviedb_source_tv">TV</string>
+
+    <string formatted="false" name="movie_cast_person_item">%s als %s</string>
+
+    <string name="button_rate_now">Jetzt beurteilen</string>
+    <string name="button_ask_later">Fragen Sie später</string>
+    <string name="flex_type_radiobuttons">Optionsfelder</string>
+    <string name="flex_type_checkboxes">Markierfeld</string>
+    <string name="field_orientation_option_title">Orientierung</string>
+    <string name="field_orientation_option_horizontal">Horizontal</string>
+    <string name="field_orientation_option_vertical">Vertikal</string>
+    <string name="font_size">Größe</string>
+    <string name="whats_new_dialog_title">Was ist neu?</string>
+    <string name="font_color">Farbe</string>
+    <string name="font_picker_dialog_title">Schriftart</string>
+    <string name="font_style_normal">Normal</string>
+    <string name="font_style_bold">Fett</string>
+    <string name="font_style_italic">Kursiv</string>
+    <string name="font_style_bold_italic">Fett kursiv</string>
+    <string name="push_entry_error_text" formatted="false">Der Eintrag is nicht in die Cloud eingespeichert\nName: %s\nFehler: %s</string>
+	<string name="need_upload_to_cloud_slave_libraries">Bitte laden Sie abhängige Verzeichnisse in die Cloud.</string>
+	<string name="open_access_for_slave_libraries">Bearbeiten Sie Lesezugriff zu abhängige Verzeichnisse</string>
+	<string name="cloud_file_while_not_upload">Die Datei ist noch nicht in die Cloud</string>
 	</resources>
