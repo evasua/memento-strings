@@ -1245,4 +1245,8 @@
 	<string name="need_upload_to_cloud_slave_libraries">Bitte laden Sie abhängige Verzeichnisse in die Cloud.</string>
 	<string name="open_access_for_slave_libraries">Bearbeiten Sie Lesezugriff zu abhängige Verzeichnisse</string>
 	<string name="cloud_file_while_not_upload">Die Datei ist noch nicht in die Cloud</string>
+	<string name="button_tarifs">Tarife</string>
+	<string name="cloud_storage_plans">Pläne</string>
+	<string name="cloud_library_already_uploaded">Dieses Verzeichnis is schon hochgeladen in die Cloud.</string>
+	<string name="upload_to_cloud_offer_title">{fertig für die Cloud...}</string>
 	</resources>
