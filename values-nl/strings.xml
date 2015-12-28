@@ -1373,4 +1373,8 @@
     <string name="need_permission_dialog_title">Toestemming vereist</string>
     <string name="need_permission_dialog_text">Deze handeling vereist yoestemming van het systeem - %s</string>
     
-</resources>
+<string name="display_aggregation_hint">Aggregatie op basis van objecten in de gekoppelde verzameling</string>
+    <string name="create_shortcut_text">Typ een naam voor deze snelkoppeling</string>
+    <string name="permission_storage_explanation_text">Toegang tot de opslagruimte is nodig voor caching, backup en mogelijkheid om afbeeldingen en bestanden aan uw objecten toe te voegen.</string>
+    <string name="permission_accounts_text">Het is noodzakelijk dat u Memento toegang verleent tot uw accounts om te synchroniseren met Google Sheets en voor het Contact veldtype.</string>
+    </resources>
