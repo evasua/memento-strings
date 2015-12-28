@@ -182,7 +182,7 @@
     <string name="empty_result_text">Sorry\nProdukt werd niet gevonden</string>
     <string name="add_entry_manual">Handmatig toevoegen ...</string>
     <string name="fill_entry_manual">Handmatig vullen ...</string>
-    <string name="flex_type_barcode">Barcode</string>
+    <string name="flex_type_barcode">Streepjescode</string>
     <string name="flex_type_barcode_option">Configuratie veld auto-aanvullen</string>
     <string name="button_add_fill_field">auto-aanvullen voorwaarde toevoegen</string>
     <string name="barcode_auto_fill_checkbox">Veld auto-aanvullen</string>
@@ -217,7 +217,7 @@
     <string name="unbind_message_title">Link naar Google Sheets verbreken</string>
     <string name="unbind_message_text">Wilt u de link van de verzameling \"%s\" naar Google Sheets daadwerkelijk verbreken?</string>
     <string name="bind_to_gdocs_message">Maken van een link naar Google Sheets.</string>
-    <string name="bind_to_gdocs_success">De verzameling is gelinkt naar Google Sheets.</string>
+    <string name="bind_to_gdocs_success">De verzameling is gekoppeld naar Google Sheets.</string>
     <string name="sync_with_gdocs_success">De verzameling is gesynchroniseerd met Google Sheets</string>
     <string name="sync_with_gdocs_title">Synchronisatie met Google Sheets</string>
     <string name="sync_with_gdocs_message">De verzameling wordt gesynchroniseerd met Google Sheets.</string>
@@ -517,7 +517,7 @@
     <string name="auto_show_soft_keyboard">Laat het on screen toetsenbord zien</string>
     <string name="auto_show_soft_keyboard_summary">Wanneer het formulier wordt geopend - open het on screen toetsenbord</string>
     <string name="flex_type_file">Een koppeling naar bestand</string>
-    <string name="file_size">Bestandsgrootte:%s</string>
+    <string name="file_size">Bestandsgrootte: %s</string>
     <string name="file_not_found">Bestand niet gevonden</string>
     <string name="select_app">Selecteer een toepassing</string>
     <string name="forum">Forum</string>
@@ -974,7 +974,7 @@
     <string name="function">Functie</string>
     <string name="math_functions">Berekeningen</string>
     <string name="datetime_functions">Datum/Tijd</string>
-    <string name="string_functions">String functies</string>
+    <string name="string_functions">Tekenreeksen</string>
     <string name="logic_functions">Logisch</string>
     <string name="calc_value_type_date">Numerieke waarde type, seconden</string>
     <string name="calc_value_type_number">Numerieke waarde type</string>
@@ -1250,7 +1250,7 @@
 
     <string name="encryption_for_cloud_uploaded_library">Versleutelen van de verzameling kan alleen worden geactiveerd voordat naar de cloud wordt ge-upload.</string>
     <string name="decryption_for_cloud_uploaded_library">Deactiveren van versleuteling voor uploaden naar de verzameling in de cloud wordt niet ondersteund. Verwijder eerst de verzameling uit de cloud.</string>
-    <string name="need_reload_library_from_cloud_encrypted">Kopieën van de verzameling in de cloud waren versleuteld.\nVerwijder de lokale kopie van de verzameling en download dan de verzameling opnieuw vanaf de cloud</string>
+    <string name="need_reload_library_from_cloud_encrypted">Kopieën van de verzameling in de cloud waren versleuteld.\nVerwijder de lokale kopie van de verzameling en download dan de verzameling opnieuw vanaf de cloud.</string>
     <string name="render_pdf_menu_item">Opslaan als PDF</string>
     <string name="entry_saved_as_pdf_success">PDF succesvol aangemaakt</string>
     <string name="one_row_with_previous">Op dezelfde rij als vorige</string>
@@ -1286,7 +1286,7 @@
     <string name="calculator_options_hint">Voeg een knop toe om de rekenmachine te tonen</string>
     <string name="filter_by_number">Filter op getal</string>
     <string name="filter_by_string">Filter op tekenreeks</string>
-    <string name="multiediting_only_in_pro">Het wijzigen van meerdere objecten is alleen beschikbaar in de PRO-versie</string>
+    <string name="multiediting_only_in_pro">Het wijzigen van meerdere objecten is alleen beschikbaar in de PRO-versie.</string>
     <string name="multiediting_title">Meervoudig wijzigen</string>
     <string name="select_all">Alles selecteren</string>
     
@@ -1298,7 +1298,7 @@
     <string name="empty_autofill_rules_list_text">Attributen van bron en velden van de verzameling gelijktrekken</string>
     <string formatted="false" name="movie_cast_person_item">%s as %s</string>
 
-    <string name="need_reload_library_from_cloud_decrypted">Kopieën van de verzameling in de cloud waren ontsleuteld.\nVerwijder de lokale kopie van de verzameling en download dan de verzameling opnieuw vanaf de cloud</string>
+    <string name="need_reload_library_from_cloud_decrypted">Kopieën van de verzameling in de cloud waren ontsleuteld.\nVerwijder de lokale kopie van de verzameling en download dan de verzameling opnieuw vanaf de cloud.</string>
 
     <string name="cloud_storage_plans">Plannen</string>
 	<string name="uservoice_menu_title">UserVoice</string>
