@@ -13,7 +13,7 @@
     <string name="math_func_desc_11">De kleinste van twee reële getallen</string>
     <string name="math_func_desc_12">Het eerste getal verheven tot de macht met als exponent het tweede getal</string>
     <string name="math_func_desc_13">Het dichtstbijgelegen reële getal dat een gehele waarde heeft</string>
-    <string name="math_func_desc_14">Conversie van double naar long</string>
+    <string name="math_func_desc_14">Dichtstbijzijnde van een reëel getal</string>
     <string name="math_func_desc_15">Sinus van een hoek</string>
     <string name="math_func_desc_16">Vierkantswortel van een reëel getal</string>
     <string name="math_func_desc_17">Tangens van een hoek</string>
