@@ -138,7 +138,7 @@
     <string name="activate_button_hint">Necesitaras el código de activación</string>
     <string name="activate_main_text">Actualice a la versión PRO</string>
     <string name="activation_dialog_text_hint">Código de Activación</string>
-    <string name="activation_dialog_title">Actualizar a la versión PRO</string>
+    <string name="activation_dialog_title">Actualice a la versión PRO</string>
     <string name="activation_ok">Gracias por activar Memento</string>
     <string name="activation_error">El código no es válido. Por favor, inténtelo de nuevo.</string>
     <string name="about">Acerca de</string>
@@ -1319,4 +1319,78 @@
     <string name="choice_item_use_color_for_text">Utiliza color para el texto</string>
     <string name="filter_by_string">Filtro por palabra</string>
     <string name="multiediting_only_in_pro">La edición de entradas múltiples está sólo disponible para los usuarios de la versión PRO.</string>
-    </resources>
+    <string name="remove_from_old_public">Antes de subir la biblioteca a la nube, será des-publicada si fue publicada con métodos desactualizados.</string>
+	<string name="empty_autofill_rules_list_text">Sincronizar información original i entradas de la biblioteca</string>
+    <string name="decryption_for_cloud_uploaded_library">No se puede desactivar el encriptamiento para subir a la nube de la biblioteca.\nPrimero elimine la encriptación dea biblioteca en la nube.</string>
+    <string name="one_row_with_previous">Una fila con previa</string>
+    <string name="group_separator_option_title">Separadores de millares</string>
+    <string name="group_separator_option_hints">Usar un espacio como separador de millares</string>
+
+
+    <string name="cloud_library_notification_title">Notificaciones</string>
+    <string name="cloud_library_notification_hint">Recibir notificaciones cuando otros usuarios modifiquen la biblioteca</string>
+    <string name="cloud_library_download_notification_text">%s: biblioteca descargada</string>
+    <string name="cloud_notification_for_subscribers">Lo sentimos, solo los subscriptores pueden recibir notificaciones.</string>
+    <string name="comments">Comentarios</string>
+    <string name="comment_input_hint">Escribe un comentario</string>
+    <string name="comment_send_error">Error enviando comentarios: %s</string>
+    <string name="edit_comment_dialog_title">Editar comentario</string>
+
+    <plurals name="notification_edit_library_common_text">
+	<item quantity="one">%s cambio sin leer</item>
+	<item quantity="other">%s cambios sin leer</item>
+</plurals>
+
+    <string name="notification_edit_library_create_text">Entrada añadida</string>
+    <string name="notification_edit_library_edit_text">Entrada editada</string>
+    <string name="notification_edit_library_delete_text">Entrada eliminada</string>
+    <plurals name="notification_comments_common_text">
+	<item quantity="one">%d nuevo comentario</item>
+	<item quantity="other">%d nuevos comentarios</item>
+</plurals>
+
+    <string name="flex_type_rich_text">Texto rico</string>
+    <string name="text_background_color">Color de fondo</string>
+    <string name="field_type_rich_only_for_android_kit_kat">Este tipo de campo solo esta dispone para Android 4.4 o posterior.</string>
+    <string name="field_type_rich_list_free_limit">Lo sentimos, las listas solo están disponibles para usuarios de la versión PRO.</string>
+    <string name="field_type_rich_align_free_limit">Lo sentimos, el alineamiento so esta disponible para usuarios de la versión PRO.</string>
+    <string name="attached_files">Archivos adjuntos</string>
+    <string name="cloud_file_not_downloaded">No descargado</string>
+    <string name="cloud_file_download_pending">Pendiente</string>
+    <string name="cloud_file_queued">En cola</string>
+    <string name="cloud_file_error_upload">Error enviando</string>
+    <string name="cloud_file_uploading">Subiendo</string>
+    <string name="cloud_file_downloading">Descargando</string>
+    <string name="file_show_in_folder">Mostrar en carpeta</string>
+    <string name="file_show_in_entry">Mostrar en entrada</string>
+    <string name="sort_by_size">Ordenar por tamaño</string>
+    <string name="download_all">Descargar todo</string>
+    <string name="find_missing_files">Buscar archivos ausentes</string>
+    <string name="button_apply">Aplicar</string>
+    <string name="find_missing_files_empty">Archivos ausentes no encontrados</string>
+    <string name="file_manager_not_found">No se han encontrado exploradores de archivos compatibles en su dispositivo.</string>
+    <string name="file_list_empty">Esta biblioteca no contiene archivos</string>
+    <string name="feature_available_only_in_pro">Esta opción solo ésta disponible para usuarios de la versión PRO.</string>
+    <string name="preview_button">Vista previa</string>
+    <string name="select_calc_preview_entry">Entrada para vista previa</string>
+    <string name="calc_preview_title">Vista previa</string>
+    <string name="add_relationship">Relación</string>
+    <string name="add_relationship_with_title">Seleccionar una biblioteca secundaria</string>
+    <string name="add_relationship_success">La relación entre bibliotecas será proporcionada utilizando el campo \"%s\".</string>
+    <string name="display_aggregation">Pantalla de agregación</string>
+    <string name="display_aggregation_hint">Agregación por entradas del biblioteca enlazada</string>
+    <string name="create_shortcut_text">Escribe un nombre para este enlace</string>
+    <string name="permission_storage_title">Almacenamiento</string>
+    <string name="permission_storage_text">Para continuar, dale permiso de acceso a tu almacenamiento a Memento.</string>
+    <string name="permission_storage_explanation_text">El acceso al almacenamiento es requerido para almacenar caché, copias de seguridad, i disponibilidad para adjuntar imágenes i archivo a tus entradas.</string>
+    <string name="permission_accounts_title">Cuentas</string>
+    <string name="permission_accounts_text">Es necesario dar a Memento acceso a las cuentas para sincronizar con Google Sheets i para el campo de Contacto.</string>
+    <string name="permission_location_title">Localización</string>
+    <string name="permission_location_text">Es necesario dar a Memento permiso para acceder a la localización para el campo de Localización.</string>
+    <string name="permission_not_necessarily">Este permiso no es obligatorio.</string>
+    <string name="app_permissions">Permiso de aplicación</string>
+    <string name="app_permissions_only_for_android6">Solo para Android 6 ó posterior</string>
+    <string name="need_permission_dialog_title">Permiso requerido</string>
+    <string name="need_permission_dialog_text">Esta operación requiere permiso del sistema - %s</string>
+    
+</resources>
