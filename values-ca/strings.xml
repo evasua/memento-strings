@@ -503,7 +503,7 @@
     <string name="auto_show_soft_keyboard">Mostrar teclat en pantalla</string>
     <string name="auto_show_soft_keyboard_summary">En obrir el formulari - mostrar teclat en pantalla</string>
     <string name="flex_type_file">Enllaç a arxiu</string>
-    <string name="file_size">Mida de l\'arxiu: %sb</string>
+    <string name="file_size">Mida de l\'arxiu: %s</string>
     <string name="file_not_found">L\'arxiu no es troba</string>
     <string name="select_app">Seleccionar una aplicació</string>
     <string name="forum">Fòrum</string>
@@ -516,7 +516,7 @@
     <string name="loading_google_document_list">Carregant ...</string>
     <string name="google_doc_list_title">Google Documents</string>
     <string name="updated_document_time">Actualitzat: %s</string>
-    <string name="move_from_google_docs">Transferència de dades de Google Spreadsheet a Memento</string>
+    <string name="move_from_google_docs">Transferència de dades de Google Sheets a Memento</string>
     <string name="move_from_google_docs_attention">S\'esborraran totes les entrades disponibles de la biblioteca</string>
     <string name="move_from_memento">Transferir dades de Memento a Google Spreadsheet</string>
     <string name="move_from_memento_attention">Totes les dades disponibles a Google Sheet s\'eliminaran</string>
@@ -823,7 +823,7 @@
     <string name="need_internet_for_charts">Google Charts necessita una connexió activa a Internet</string>
     <string name="download_image_from_google_photo_message">Baixant la imatge des de Google Photo ...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Dades del Web s\'introduiran en els camps d\'entrada</string>
-    <string name="google_base_field_new">Atribuir un valor de la font</string>
+    <string name="google_base_field_new">Valor del atribut desde la font</string>
     <string name="wrong_search_query_string_1">La cerca no pot començar amb \"-\"</string>
     <string name="link_master_library_not_found">La biblioteca que enllaçava a aquest camp no es troba</string>
     <string name="sync_with_google_drive_dont_support">El vostre Android no permet sincronitzar amb Google Drive</string>
@@ -1104,8 +1104,8 @@
 	<string name="cloud_conflict_fields_title">Conflictes</string>
 	<string name="cloud_conflict_fix_button_title">Corregir</string>
     <plurals name="conflict_count">
-	<item quantity="one">%d conflicte ha succeït durant la sincronització</item>
-	<item quantity="other">%d conflictes han succeït durant la sincronització</item>
+	<item quantity="one">%d conflicte succeïts durant la sincronització</item>
+	<item quantity="other">%d conflictes succeït durant la sincronització</item>
 </plurals>
     <string name="button_select">Seleccionar</string>
     <string name="cloud">Núvol</string>
@@ -1214,7 +1214,7 @@
 	<string name="success_clear_search_history">El seu historial de cerques ha sigut netejat</string>	
 	<string name="clear_search_history_quest">Esta segur que vol netejar el seu historial de cerques?</string>
 	<string name="uservoice_menu_title">Veu d\'usuari</string>
-	<string name="view_csv_error_dialog_message">Ho sentim, però l\'aplicació per veure arxius csv no és troba</string>
+	<string name="view_csv_error_dialog_message">Ho sentim, però l\'aplicació per veure arxius csv no es troba</string>
 	
 	<string name="edit_library_tabs_autofill">Autocompletar</string>
 	<string name="autofill_from">de %s</string>
