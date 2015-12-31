@@ -2,12 +2,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Añadir una entrada</string>
-    <string name="main_menu_add_lib">Añadir Librería</string>
-    <string name="ghostData_lib_title">Nombre de la Librería</string>
-    <string name="custom_template_title">Personalizar</string>
+    <string name="main_menu_add_lib">Añadir Biblioteca</string>
+    <string name="ghostData_lib_title">Nombre de la Biblioteca</string>
+    <string name="custom_template_title">Personalizado</string>
     <string name="button_create">Crear</string>
     <string name="button_yes">Sí</string>
-    <string name="button_ok">OK</string>
+    <string name="button_ok">Ok</string>
     <string name="button_no">No</string>
     <string name="button_save">Guardar</string>
     <string name="button_cancel">Cancelar</string>
