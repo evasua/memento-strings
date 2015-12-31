@@ -185,7 +185,7 @@
     <string name="button_add_fill_field">Afegir una regla per l\'autocompletat</string>
     <string name="barcode_auto_fill_checkbox">Autocompletat del camp</string>
     <string name="add_fill_field_dialog_title">Creant una regla d\'autocompletat</string>
-    <string name="memento_field">Es guardarà en el camp d\'entrada</string>
+    <string name="memento_field">Serà guardarà en el camp d\'entrada</string>
     <string name="memento_field_promt">Camps d\'entrada de la biblioteca</string>
     <string name="uniquery_check_fail">Una biblioteca només pot contenir un camp del tipus %s</string>
     <string name="to">a</string>
@@ -212,14 +212,14 @@
     <string name="unbind_message_title">Desenllaçat de Google Sheets</string>
     <string name="unbind_message_text">Voleu desenllaçar la biblioteca \"%s\" de Google Sheets ?</string>
     <string name="bind_to_gdocs_message">Enllaçant la biblioteca a Google Spreadsheets.</string>
-    <string name="bind_to_gdocs_success">La biblioteca s\'ha enllaçat a Google Spreadsheets.</string>
-    <string name="sync_with_gdocs_success">La biblioteca s\'ha sincronitzat amb Google Spreadsheets</string>
+    <string name="bind_to_gdocs_success">La biblioteca ha sigut enllaçada a Google Spreadsheets.</string>
+    <string name="sync_with_gdocs_success">La biblioteca ha sigut sincronitzada amb Google Spreadsheets</string>
     <string name="sync_with_gdocs_success_2">La biblioteca \"%s\" s\'ha sincronitzat amb Google</string>
     <string name="sync_with_gdocs_title">Sincronització amb Google Sheets</string>
-    <string name="sync_with_gdocs_message">Sincronitzant la biblioteca amb Google Spreadsheets.</string>
-    <string name="sync_with_gdocs_message_2">Sincronitzant \"%s\" amb Google Spreadsheets.</string>
+    <string name="sync_with_gdocs_message">La biblioteca està sent sincronitzada amb Google Spreadsheets.</string>
+    <string name="sync_with_gdocs_message_2">Sincronitzant \"%s\" amb Google Sheets.</string>
     <string name="sync_with_gdocs">Sincronitzant amb Google Sheets</string>
-    <string name="google_docs_task_step_auth">Autentificació en el servei de Spreadsheets</string>
+    <string name="google_docs_task_step_auth">Autentificació en el servei de Sheets</string>
     <string name="google_docs_task_step_get_rows">Recuperant un canal amb una llista</string>
     <string formatted="false" name="google_docs_task_step_process_row">Processant files d\'una llista. %s de %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Afegint una fila. %s de %s</string>
@@ -248,7 +248,7 @@
     <string name="public_to_picasa_create_album">Creant un àlbum de Picasa per a la biblioteca publicada</string>
     <string name="public_to_picasa_success">Imatges penjades a Picasa</string>
     <string name="picasa_task_step_auth">Autentificació en el servei de Picasa</string>
-    <string formatted="false" name="picasa_send_image_step">Penjant imatges de la biblioteca a Picasa. %s de %s</string>
+    <string formatted="false" name="picasa_send_image_step">Penjant les imatges de la biblioteca a Picasa. %s de %s</string>
     <string name="public_library">Publicar la biblioteca</string>
     <string name="update_public_library">Actualitzar la publicació</string>
     <string name="memento_register_account_title">Creant un compte\nen el servidor de Memento</string>
@@ -378,7 +378,7 @@
     <string name="help_publish">Publicant biblioteques</string>
     <string name="help_subscribe">Subscrivint-se a biblioteques</string>
     <string name="lib_protection">Protecció de biblioteca</string>
-    <string name="set_library_protection">Definir protecció</string>
+    <string name="set_library_protection">Configurar protecció</string>
     <string name="set_master_pass_text">Definir una contrasenya mestra per accedir a les biblioteques.\nCal introduir aquesta contrasenya per accedir a biblioteques encriptades.</string>
     <string name="master_pass_hint">Contrasenya</string>
     <string name="master_pass_hint2">Repetir la contrasenya</string>
@@ -421,7 +421,7 @@
     <string name="email_chooser_title">Seleccioneu l\'aplicació d\'Email</string>
     <string name="choose_own_icon_text">Escolliu la vostra icona</string>
     <string name="font_size_screen_preference">Mida del tipus de lletra</string>
-    <string name="font_size_screen_preference_summary">Mida dels tipus de lletres de les entrades i de la llista</string>
+    <string name="font_size_screen_preference_summary">Els tipus de lletres de les entrades i de la llista</string>
     <string name="font_size_category_entries_list">Tipus de lletra de la llista d\'entrades</string>
     <string name="font_size_category_entries_card">Tipus de lletra de les entrades</string>
     <string name="font_size_dialog">Mida del tipus de lletra</string>
@@ -518,8 +518,8 @@
     <string name="updated_document_time">Actualitzat: %s</string>
     <string name="move_from_google_docs">Transferència de dades de Google Spreadsheet a Memento</string>
     <string name="move_from_google_docs_attention">S\'esborraran totes les entrades disponibles de la biblioteca</string>
-    <string name="move_from_memento">Transferència de dades de Memento a Google Spreadsheet</string>
-    <string name="move_from_memento_attention">Totes les dades disponibles a Google Spreadsheet s\'eliminaran</string>
+    <string name="move_from_memento">Transferir dades de Memento a Google Spreadsheet</string>
+    <string name="move_from_memento_attention">Totes les dades disponibles a Google Sheet s\'eliminaran</string>
     <string name="find_in_spreadsheet_column_title">Llistat de camps a Memento i a Google Spreadsheet</string>
     <string name="google_doc_exists_link_option">Paràmetres d\'enllaç</string>
     <string name="get_google_docs_columns_message">Carregant el llistat de columnes de la fulla Google seleccionada ...</string>
@@ -528,7 +528,7 @@
     <string name="link_button">Enllaç</string>
     <string name="prepare_linking_library">Preparant per a enllaçar ...</string>
     <string name="error_prepare_linking">Ha succeït un error en preparar l\'enllaç: %s</string>
-    <string name="have_library_items_ask_title">Enllaçant amb Google Spreadsheet</string>
+    <string name="have_library_items_ask_title">Enllaçant amb Google Sheet</string>
     <string name="have_library_items_ask_message">La biblioteca conté entrades que s\'eliminaran en enllaçar. Portem a terme l\'enllaç de la biblioteca amb Google Spreadsheet?</string>
     <string name="autofill_source_option_title">Origen de les dades</string>
     <string name="amazon_source_option_title">Amazon</string>
@@ -741,7 +741,7 @@
     <string name="group_by_subtitle">per %s</string>
     <string name="sort_asc">ASC</string>
     <string name="sort_desc">DESC</string>
-    <string name="sliding_hint_text">ORDENAR, AGRUPAR, FILTRES i més</string>
+    <string name="sliding_hint_text">Desplaçar de dreta a esquerra\nper obrir el menú avançat\nendreçar, agrupar, filtrar, gràfics i més ...</string>
     <string name="multy_sorting">Ordenar per més d\'un camp</string>
     <string name="new_button">nou</string>
     <string name="free_version_entry_page_limit">A la versió lliure es poden crear dos pàgines. Actualitzeu a la versió PRO per a eliminar aquest límit.</string>
@@ -823,7 +823,7 @@
     <string name="need_internet_for_charts">Google Charts necessita una connexió activa a Internet</string>
     <string name="download_image_from_google_photo_message">Baixant la imatge des de Google Photo ...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Dades del Web s\'introduiran en els camps d\'entrada</string>
-    <string name="google_base_field_new">Valor d\'atribut del producte des de l\'origen</string>
+    <string name="google_base_field_new">Atribuir un valor de la font</string>
     <string name="wrong_search_query_string_1">La cerca no pot començar amb \"-\"</string>
     <string name="link_master_library_not_found">La biblioteca que enllaçava a aquest camp no es troba</string>
     <string name="sync_with_google_drive_dont_support">El vostre Android no permet sincronitzar amb Google Drive</string>
@@ -1070,4 +1070,296 @@
 	<string name="run_sync_slave_libraries_summary">Primer sincronitzar biblioteques associades</string>
 	<string name="choice_type_add_button_in_edit_title">La creació d\'elements mentre s\'edita una entrada</string>	
 	
+<string name="show_deleted_entries_menu_item">Mostrar entrades eliminades</string>
+	<string name="upload_to_cloud_menu_item">Al núvol</string>
+	<string name="welcome_text_title">Benvingut a Memento Database</string>
+	<string name="welcome_text_description">"La biblioteca és on les teves entrades seran guardades\nPots començar familiaritzar-te amb  programa creant una biblioteca basada en alguna de les plantilles proporcionades."</string>
+	
+	<string name="memento_cloud">Núvol</string>
+	<string name="start_remove_librarary_from_cloud">Eliminant biblioteca...</string>
+	<string name="success_remove_librarary_from_cloud">Biblioteca eliminada satisfactòriament del núvol</string>
+	<string name="start_upload_library_to_cloud">Penjant la biblioteca...</string>	
+	<string name="success_upload_library_to_cloud">La biblioteca s\'ha penjar correctament.\nLa biblioteca serà sincronitzada automàticament.</string>
+	<string name="success_upload_library_to_cloud2">Pots fer la teva biblioteca accessible per a altres usuaris de Memento a través de la configuració d\'accés.</string>	
+	<string name="push_entries_to_cloud_message" formatted="false">Penjant es entrades\n%a de %s entrades processades</string>
+	<string name="permissions">Permisos</string>
+	<string name="button_hide">amagar</string>	
+	<string name="empty_cloud_libraries_list_text">No té cap biblioteca penjada</string>
+	<string name="my_cloud_libraries_menu_item">Emmagatzematge en el núvol</string>
+	<string name="start_download_library_model">Penjat estructura de la biblioteca...</string>
+	<string name="open_library">Obrir biblioteca</string>
+	<string name="open_library_hint">Obrir còpia local</string>
+	<string name="download_library">Descarregar la biblioteca</string>
+	<string name="download_library_hint">Crear còpia local</string>			
+	<string name="pull_entries_from_cloud_message">Descarregant entrades...</string>
+	<string name="pull_entries_from_cloud_message2" formatted="false">%s de %s entrades processades</string>
+	<string name="cloud_size">Mida</string>
+    <string name="cloud_files_count">Recompte d\'arxius</string>
+    <string name="cloud_modified">Modificat</string>
+    <string name="cloud_created">Creat</string>
+    <string name="entries">Entrades</string>
+    <string name="cloud_last_sync">Última sincronització</string>
+    <string name="cloud_offline">Sense connexió</string>
+    <string name="success_pull_library_from_cloud">Les entrades han sigut descarregades satisfactòriament.\nLes biblioteques seran sincronitzades automàticament.</string>
+	<string name="cloud_conflict_fields_title">Conflictes</string>
+	<string name="cloud_conflict_fix_button_title">Corregir</string>
+    <plurals name="conflict_count">
+	<item quantity="one">%d conflicte ha succeït durant la sincronització</item>
+	<item quantity="other">%d conflictes han succeït durant la sincronització</item>
+</plurals>
+    <string name="button_select">Seleccionar</string>
+    <string name="cloud">Núvol</string>
+    <string name="library_not_in_cloud">No trobada en el núvol</string>
+    <string name="synced">%s sincronitzat</string>
+    <string name="cloud_synced_progress">Sincronització ...</string>
+    <string name="cloud_who_has_access">Qui té accés</string>
+    <string name="cloud_server_unavaliable">Memento Cloud Server no està disponible, comproveu l\'Internet al vostre dispositiu</string>
+    <string name="delete_from_cloud">Eliminar del núvol</string>
+    <string name="delete_from_cloud_message_question">Segur que vol eliminar la biblioteca del núvol?</string>
+        
+    <string name="byteShort">B</string>    
+    <string name="kilobyteShort">KB</string>
+    <string name="megabyteShort">MB</string>
+    <string name="gigabyteShort">GB</string>
+    <string name="button_refresh">Actualitzar</string>
+    <string name="cloud_storage_space_text" formatted="false">%s (%s) de %s utilitzats</string>   
+    <string name="start_download_file_from_cloud">L\'arxiu %a serà descarregat</string>
+    <string name="upload_file_to_cloud">Penjant l\'arxiu...</string>    
+    <string name="upload_files_to_cloud">Penjant arxius</string>
+    <string name="cloud_upload_error_title">No hem pogut sincronitzar aquesta biblioteca</string>
+    <string name="upload_big_file_error" formatted="false">L\'entrada %s conté l\'arxiu pesat %s (%s).\nLa mida màxima és de %s.</string>
+    <string name="prepare_library_for_cloud">Processant biblioteca...</string>
+    <string name="download_files_from_cloud">Descarregant arxius del núvol...</string>
+    <string name="cant_download_item_files_for_copy">Descarrega d\'arxius per crear còpies ha fallat.</string> 
+    <string name="library_cloud_model_changed_message">L\'estructura de la biblioteca ha sigut actualitzada al núvol. Actualitzi l\'estructura per a noves sincronitzacions.</string>
+    <string name="button_update">Actualitzar</string>
+    <string name="add_people">Agregar persones</string>
+    <string name="read_permission">Llegir</string>      
+    <string name="write_permission">Escriure</string>
+    <string name="create_permission">Crear</string>
+    <string name="delete_permission">Borrar</string>
+    
+    <string name="allow_permission">Permetre</string>
+	<string name="deny_permission">Denegar</string>
+	<string name="only_owner_permission">Només propietari</string>
+	<string name="user_not_found">Usuari no trobat</string>
+	<string name="edit_permission">Configuració d\'ús compartit</string>	
+	<string name="push_entry_error_text" formatted="false">L\'entrada no ha sigut emmagatzemada al núvol.\nNom: %s\nError: %s</string>
+	<string name="push_error_forbidden">Accés denegat</string>
+	<string name="button_ignore">Ignorar</string>
+	<string name="button_try_again">Probar de nou</string>	
+	<string name="cloud_library_forbidden">No té permís per accedir a aquesta biblioteca</string>
+	<string name="shared_with_me">Compartit amb mi</string>
+	<string name="entry_author">Autor</string>
+	<string name="info_menu_item">Informació</string>   
+	<string name="need_upload_to_cloud_slave_libraries">Si us plau, pengeu les biblioteques subordinades al núvol.</string>
+	<string name="start_download_slave_library_model">Penjat la biblioteca dependent %s</string>
+	<string name="open_access_for_slave_libraries">Proporcionar accés de lectura a biblioteques subordinades</string>
+	<string name="cloud_storage_full_text">Espai d\'emmagatzematge insuficient al núvol.\nPot actualitzar a un pla de tarifes que proporcioni més espai d\'emmagatzematge.</string>
+	<string name="cloud_storage_full_text2" formatted="false">Espai d\'emmagatzematge insuficient al núvol.\nEs requereixen %s, només %s es troben disponibles.\nPot actualitzar a un pla de tarifes que proporcioni més espai d\'emmagatzematge.</string>
+	<string name="alien_cloud_storage_full_text">El propietari de la biblioteca no te prou espai d\'emmagatzematge.</string>	
+	<string name="button_tarifs">Tarifes</string>
+	<string name="cloud_storage_plans">Plans d\'emmagatzematge al núvol</string>
+	<string name="price_free">GRATUÏT</string>
+	<string name="price_per_month">%s/mes</string>
+	<string name="unlimited_libraries">Biblioteques il·limitades</string>	
+	<string name="adv_free">Sense publicitat</string>
+	<string name="subscription_activation">Activar subscripció...</string>
+	<string name="subscription_activation_error">Error d\'activació: %s</string>
+	<string name="subscription_reactivation_error">Error al obtindre les subscripcions actives: %s</string>
+	<string name="google_play_unavaliable">Google Play no està disponible :(</string>
+	<string name="return_to_free_plan_message">Pot transferir-se a un compte gratuït cancel·lant la seva subscripció a Google Play</string>
+	<string name="subscription_already_activation_for_user">La subscripció no pot ser activada ja que va ser comprada per l\'usuari %s.</string>
+	<string name="library_cloud_count_limit">El seu pla de tarifes el permet penjar fins a %s biblioteques al núvol.</string>
+	<string name="restore_cloud_library_from_recycle">La biblioteca local ha sigut borrada. Recuperar?</string>
+	<string name="cloud_file_while_not_upload">L\'arxiu encara no és troba al núvol</string>
+	<string name="upload_ecrypted_libraries_dont_supported">El servei per penjar biblioteques encriptades al núvol no és troba disponible temporalment.</string>
+	<string name="button_signin">Iniciar sessió</string>
+	<string name="cloud_library_not_found">La biblioteca no s\'ha pogut trobar al núvol.\nPotser va ser eliminada.\nConvertir la biblioteca en una local?</string>
+	<string name="cloud_library_already_uploaded">Aquesta biblioteca ja està penjada al núvol.</string>
+	<string name="library_alias_menu_item">Sobrenom</string>
+	<string name="library_public_access">Accés públic</string>
+	<string name="library_public_access_disabled">Deshabilitat</string>
+	<string name="library_access_read_only">Només lectura</string>
+	<string name="library_access_can_edit">Pot editar</string>
+	<string name="owner">Propietari</string>
+	<string name="find_library_by_url_title">Obrir mitjançant URL</string>
+	<string name="find_library_by_url_hint">http://www.libs.mobi/address</string>
+	<string name="library_not_found_by_uri">Biblioteca no trobada</string>
+	<string name="upload_to_cloud_offer_title">{núvol preparat...}</string>
+	<string name="upload_to_cloud_offer_text">• Feina en equip\n• Sincronització a través de dispositius\n• Les còpies de seguretat sempre estan al núvol</string>
+	<string name="button_no_thanks">No, gràcies</string>
+	<string name="button_upload">Penjar</string>
+	
+	<string name="cant_upload_file_to_cloud">La pujada d\'arxiu(s) ha fallat.</string>
+    <string name="button_show">Mostrar</string>
+	<string name="invalid_library_template_file_format">Format d\'arxiu de plantilla invàlid</string>    
+	<string name="cant_add_yourself">No es pot afegir a si mateix</string>
+	<string name="remove_from_old_public">Abans de penjar la biblioteca al núvol, serà des-publicada, tal com si hagués sigut publicada amb mètodes antics.</string>
+	<string name="select_template_title">Seleccionar plantilla</string>
+	<string name="empty_library_title">Biblioteca buida</string>
+	<string name="catalog_templates_title">Catàleg online</string>
+	<string name="catalog_templates_hint">Més de 3000 plantilles</string>
+	<string name="add_lib_from_google_drive_hint">Restaurar desde Google Drive</string>
+	<string name="templates">Plantilles</string>
+	<string name="import_template_from_file_hint">Importar plantilla des d\'un arxiu</string>
+	<string name="help_cloud">Emmagatzematge al núvol i treball en equip</string>
+	<string name="subscription_pro_bonus_text">La majoria dels plans d\'emmagatzematge al núvol també inclouen la versió PRO com a regal</string>
+	<string name="send_formatting_menu_item">Formatejant...</string>
+	<string name="pro_for_cloud_storage_title">Subscripció</string>
+	<string name="default_file_manager_pref_title">Administrador d\'arxius</string>
+	<string name="default_file_manager_built_in">Integrat</string>	
+	<string name="clear_search_history">Netejar historial de cerques</string>
+	<string name="clear_search_history_hint">Borrar totes les cerques que hagi realitzat</string>
+	<string name="success_clear_search_history">El seu historial de cerques ha sigut netejat</string>	
+	<string name="clear_search_history_quest">Esta segur que vol netejar el seu historial de cerques?</string>
+	<string name="uservoice_menu_title">Veu d\'usuari</string>
+	<string name="view_csv_error_dialog_message">Ho sentim, però l\'aplicació per veure arxius csv no és troba</string>
+	
+	<string name="edit_library_tabs_autofill">Autocompletar</string>
+	<string name="autofill_from">de %s</string>
+	<string name="autofill_by_barcode">Per codi de barres</string>
+	<string name="autofill_by_title">Per títol</string>
+	<string name="autofill_need_barcode_field">Per autocompletar la seva biblioteca desde codis de barres ha de contenir el camp \"Codi de barres\". Desitja crear-lo?</string>
+	<string name="autofill_need_text_field">Per autocompletar la seva biblioteca per títol ha de contenir un camp de \"Text\". Desitja crear-lo?</string>
+	<string name="autofill_select_master_field">Camp d\'entrada per la cerca</string>
+	<string name="autofill_rules_title">Regles d\'autoemplenatge</string>
+	<string name="music_brainz_source_artist">Artistes musicals</string>
+    <string name="music_brainz_source_album">Discs</string>
+	<string name="music_brainz_source">www.musicbrainz.org</string>
+	<string name="unknown_data_source">Origen desconegut</string>
+    <string name="google_books_source">Llibres de Google</string>
+    <string name="google_books_source_books">Llibres</string>
+    <string name="themoviedb_source">www.themoviedb.org</string>
+    <string name="themoviedb_source_movies">Pel·lícules</string>
+    <string name="themoviedb_source_tv">TV</string>
+
+    <string name="autofill_rules_delete_title">Borrar regles d\'autoemplenatge</string>
+    <string name="autofill_rules_delete_text">Esta segur que vol borrar les normes d\'autoemplenatge del recurs \"%s\"?</string>
+    <string name="empty_autofill_list_text">Crear regles d\'autoemplenatge a partir d\'informació d\'Internet</string>
+    <string name="empty_autofill_rules_list_text">Sincronitzar informació original i entrades de la biblioteca</string>
+    <string formatted="false" name="movie_cast_person_item">%s com a %s</string>
+
+    <string name="copy_library_structure_menu_item">Només estructura</string>
+    <string name="copy_all_library_menu_item">Estructura i entrades</string>
+    <string name="copying_entries">Copiant entrades...</string>
+
+    <string name="encryption_for_cloud_uploaded_library">L\'encriptació de la biblioteca només pot ser activada un cop ha estat penjada al núvol.</string>
+    <string name="decryption_for_cloud_uploaded_library">No és pot desactivar l\'encriptació per penjar al núvol de la biblioteca.\nPrimer elimini l\'encriptació de la biblioteca del núvol.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Les còpies de les biblioteques penjades al núvol han sigut encriptades.\nElimini la còpia local d\'aquesta biblioteca i torni a descarregar-la del núvol.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Les còpies de la biblioteca al núvol han sigut desencriptades.\nElimini la còpia local d\'aquesta biblioteca i torni a descarregar-la del núvol.</string>
+
+    <string name="render_pdf_menu_item">Guardar com a PDF</string>
+    <string name="entry_saved_as_pdf_success">PDF creat satisfactòriament</string>
+    <string name="one_row_with_previous">Una fila amb prèvia</string>
+    <string name="protected_libraries_not_show_in_widget">La biblioteca protegida no pot ser presentada al widget</string>
+    <string name="widget_free_limit_item_text">Totes les entrades només poden ser presentades a usuaris de la versió PRO</string>
+    <string name="rate_me_dialog_title">T\'agrada memento?</string>
+    <string name="rate_me_dialog_text">Si us plau qualifíquins a Google Play</string>
+    <string name="button_rate_now">Qualifiqui ara</string>
+    <string name="button_ask_later">Pregunta\'m més tard</string>
+    <string name="flex_type_radiobuttons">Botons d\'opció</string>
+    <string name="flex_type_checkboxes">Caselles de verificació</string>
+    <string name="field_orientation_option_title">Orientació</string>
+    <string name="field_orientation_option_horizontal">Horitzontal</string>
+    <string name="field_orientation_option_vertical">Vertical</string>
+    <string name="preparing_files_for_sending">Preparant els arxius per ser enviats...</string>
+    <string name="whats_new_dialog_title">Què hi ha de nou?</string>
+    <string name="font_size">Mida</string>
+    <string name="font_family">Família</string>
+    <string name="font_style">Estil</string>
+    <string name="font_color">Color</string>
+    <string name="font_picker_dialog_title">Font</string>
+    <string name="font_style_normal">Normal</string>
+    <string name="font_style_bold">Negreta</string>
+    <string name="font_style_italic">Cursiva</string>
+    <string name="font_style_bold_italic">Negreta cursiva</string>
+    <string name="font_sample">Exemple</string>
+    <string name="font_sample_text">Faç aïrada, confús pel White Mackay, el jove prosèlit taurí, zelós apel·là i queixa asserí, grunyint d\'aürt: \"És burla a la història el vet!\".</string>
+    <string name="font_default_title">Font predeterminada</string>
+    <string name="choice_item_use_color_for_text">Utilitzar color pel text</string>
+    <string name="rating_tooltips">Descripcions emergents</string>
+    <string name="rating_tooltips_hint">Descripcions emergents</string>
+    <string name="rating_tooltips_empty">El camp no té descripcions emergents</string>
+    <plurals name="rating_tooltips_count">
+	<item quantity="one">%d descripció emergent</item>
+	<item quantity="other">%d descripcions emergents</item>
+</plurals>
+    <string name="calculator">Calculadora</string>
+    <string name="calculator_options_hint">Afegir un botó per mostrar la calculadora</string>
+    <string name="filter_by_number">Filtrar per número</string>
+    <string name="filter_by_string">Filtrar per paraula</string>
+    <string name="multiediting_only_in_pro">L\'edició de múltiples entrades està reservada per a usuaris amb la versió PRO.</string>
+    <string name="multiediting_title">Multi-edició</string>
+    <string name="select_all">Seleccionar tot</string>
+    <string name="group_separator_option_title">Separadors de milers</string>
+    <string name="group_separator_option_hints">Utilitzar un espai com a separador de milers</string>
+
+
+    <string name="cloud_library_notification_title">Notificacions</string>
+    <string name="cloud_library_notification_hint">Rebre notificacions quan altes usuaris modifiquin la biblioteca</string>
+    <string name="cloud_library_download_notification_text">%s: biblioteca descarregada</string>
+    <string name="cloud_notification_for_subscribers">Ho sentim, només els subscriptors poden rebre notificacions.</string>
+    <string name="comments">Comentaris</string>
+    <string name="comment_input_hint">Escriu un comentari</string>
+    <string name="comment_send_error">Enviar missatges d\'error: %s</string>
+    <string name="edit_comment_dialog_title">Editar comentari</string>
+
+    <plurals name="notification_edit_library_common_text">
+	<item quantity="one">%d canvi sense llegir</item>
+	<item quantity="other">%s canvis sense llegir</item>
+</plurals>
+
+    <string name="notification_edit_library_create_text">Entrada afegida</string>
+    <string name="notification_edit_library_edit_text">Entrada editada</string>
+    <string name="notification_edit_library_delete_text">Entrada eliminada</string>
+    <plurals name="notification_comments_common_text">
+	<item quantity="one">%d nou comentari</item>
+	<item quantity="other">%d nous comentaris</item>
+</plurals>
+
+    <string name="flex_type_rich_text">Text ric</string>
+    <string name="text_background_color">Color de fons</string>
+    <string name="field_type_rich_only_for_android_kit_kat">Aquest tipus de camp només està disponible per Android 4.4 KitKat o posterior.</string>
+    <string name="field_type_rich_list_free_limit">Ho sentim, les llistes només estan disponibles per a usuaris de la versió PRO.</string>
+    <string name="field_type_rich_align_free_limit">Ho sentim, l\'anileament només està disponible per a usuaris de la versió PRO.</string>
+    <string name="attached_files">Arxius afegits</string>
+    <string name="cloud_file_not_downloaded">No descarregat</string>
+    <string name="cloud_file_download_pending">Pendent</string>
+    <string name="cloud_file_queued">En cua</string>
+    <string name="cloud_file_error_upload">Error enviant</string>
+    <string name="cloud_file_uploading">Penjant</string>
+    <string name="cloud_file_downloading">Descarregant</string>
+    <string name="file_show_in_folder">Mostrar en la carpeta</string>
+    <string name="file_show_in_entry">Mostrar en l\'entrada</string>
+    <string name="sort_by_size">Ordenar per mida</string>
+    <string name="download_all">Descarregar tot</string>
+    <string name="find_missing_files">Trobar arxius absents</string>
+    <string name="button_apply">Aplicar</string>
+    <string name="find_missing_files_empty">Arxius absents no trobats</string>
+    <string name="file_manager_not_found">No s\'han trobat exploradors d\'arxius compatibles en el seu dispositiu.</string>
+    <string name="file_list_empty">Aquesta biblioteca no conté arxius</string>
+    <string name="feature_available_only_in_pro">Aquesta opció només està disponible per a usuaris de la versió PRO.</string>
+    <string name="preview_button">Vista prèvia</string>
+    <string name="select_calc_preview_entry">Entrada per vista prèvia</string>
+    <string name="calc_preview_title">Vista prèvia</string>
+    <string name="add_relationship">Relació</string>
+    <string name="add_relationship_with_title">Seleccionar una biblioteca secundària</string>
+    <string name="add_relationship_success">La relació entre biblioteques serà proporciona utilitzant el camp \"%s\".</string>
+    <string name="display_aggregation">Pantalla d\'agregació</string>
+    <string name="display_aggregation_hint">Agregació per entrades de la biblioteca lligada</string>
+    <string name="create_shortcut_text">Escrigui un nom per aquesta deçera</string>
+    <string name="permission_storage_title">Emmagatzematge</string>
+    <string name="permission_storage_text">Per tal de continuar, doni permís d\'accés al seu emmagatzematge a Memento.</string>
+    <string name="permission_storage_explanation_text">L\'accés a l\'emmagatzematge és requerit per emmagatzemar caché, còpies de seguretat i disponibilitat per adjuntar imatges i arxius a les seves entrades.</string>
+    <string name="permission_accounts_title">Comptes</string>
+    <string name="permission_accounts_text">Cal donar accés a les comptes a Memento per tal de sincronitzar amb Google Sheets i per al camp de Contacte.</string>
+    <string name="permission_location_title">Localització</string>
+    <string name="permission_location_text">És necessari donar a Memento permís per accedir a la localització per el camp de Localització.</string>
+    <string name="permission_not_necessarily">Aquest permís no és obligatori.</string>
+    <string name="app_permissions">Permisos d\'aplicació</string>
+    <string name="app_permissions_only_for_android6">Només per a Android 6 ó posterior</string>
+    <string name="need_permission_dialog_title">Permís requerit</string>
+    <string name="need_permission_dialog_text">L\'operació requereix el permís del sistema - %s</string>
+    
 </resources>
