@@ -4,7 +4,7 @@
     <string name="math_func_desc_1">Arcoseno di un angolo</string>
     <string name="math_func_desc_2">Angolo (radianti) di cui il valore è il seno.</string>
     <string name="math_func_desc_3">Angolo (radianti) di cui il valore è la tangente.</string>
-    <string name="math_func_desc_4">La funzione converte da coordinate cartesiane a coordinate polari.</string>
+    <string name="math_func_desc_4">La funzione converte le coordinate cartesiane in coordinate polari.</string>
     <string name="math_func_desc_5">Valor techo de un valor tipo doble</string>
     <string name="math_func_desc_6">Coseno di un angolo (radianti).</string>
     <string name="math_func_desc_7">Esponenziale (e^x) di un numero reale.</string>
