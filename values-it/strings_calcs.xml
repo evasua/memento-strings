@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="math_func_desc_0">Valore assoluto di un doppio valore.</string>
-    <string name="math_func_desc_1">Arcoseno di un angolo</string>
+    <string name="math_func_desc_0">Valore assoluto di un numero reale.</string>
+    <string name="math_func_desc_1">Arcoseno di un angolo.</string>
     <string name="math_func_desc_2">Angolo (radianti) di cui il valore è il seno.</string>
     <string name="math_func_desc_3">Angolo (radianti) di cui il valore è la tangente.</string>
-    <string name="math_func_desc_4">La funzione converte le coordinate cartesiane in coordinate polari.</string>
-    <string name="math_func_desc_5">Valor techo de un valor tipo doble</string>
-    <string name="math_func_desc_6">Coseno di un angolo (radianti).</string>
-    <string name="math_func_desc_7">Esponenziale (e^x) di un numero reale.</string>
+    <string name="math_func_desc_4">La funzione converte le coordinate cartesiane in coordinate polari</string>
+    <string name="math_func_desc_5">Limite massimo di un doppio valore</string>
+    <string name="math_func_desc_6">Coseno di un angolo (radianti)</string>
+    <string name="math_func_desc_7">Esponenziale (e^x) di un numero reale</string>
     <string name="math_func_desc_8">Intero inferiore di un numero reale.</string>
     <string name="math_func_desc_9">Logaritmo naturale (base e) di un un numero reale.</string>
     <string name="math_func_desc_10">Maggiore di due numeri reali.</string>
