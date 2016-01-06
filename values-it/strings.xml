@@ -4,7 +4,7 @@
     <string name="library_menu_add_item">Aggiungi un elemento</string>
     <string name="main_menu_add_lib">Aggiungi una libreria</string>
     <string name="ghostData_lib_title">Nome della libreria</string>
-    <string name="custom_template_title">Custom</string>
+    <string name="custom_template_title">Personalizzato</string>
     <string name="button_create">Crea</string>
     <string name="button_yes">Sì</string>
     <string name="button_ok">Ok</string>
@@ -678,4 +678,121 @@
     <string name="select_type_depends">Seleziona il tipo di dipendenza</string>
     <string name="select_type_depends_spinner_title">Tipo di dipendenza</string>
     <string name="select_master_field_for_depend">Seleziona il campo da cui deriva la dipendenza</string>
+    <string name="need_permission_dialog_text">Questa operazione richiede i permessi di amministratore - %s</string>
+    
+<string name="need_permission_dialog_title">Permessi di amministratore richiesti</string>
+    <string name="app_permissions_only_for_android6">Solo su Android 6 e versioni successive</string>
+    <string name="app_permissions">Permessi dell\'app</string>
+    <string name="permission_not_necessarily">Questo permesso non è obbligatorio.</string>
+    <string name="permission_location_text">E\' richiesto per garantire a Memento l\'accesso alla posizione per il campo \"Posizione\".</string>
+    <string name="permission_location_title">Posizione</string>
+    <string name="permission_accounts_text">E\' richiesto per garantire a Memento l\'accesso agli account per sincronizzarsi con Google Sheets e per il campo \"Contatto\".</string>
+    <string name="permission_accounts_title">Account</string>
+    <string name="permission_storage_explanation_text">L\'accesso alla memoria è richiesto per la cache, i backup, e la possibilità di allegare immagini e files ai tuoi elementi.</string>
+    <string name="permission_storage_text">Per continuare, concedi a Memento l\'accesso alla memoria.</string>
+    <string name="permission_storage_title">Memoria</string>
+    <string name="create_shortcut_text">Scrivi un nome per questo collegamento</string>
+    <string name="display_aggregation_hint">Aggregazione dagli elementi della libreria collegata</string>
+    <string name="display_aggregation">Mostra aggregazione</string>
+    <string name="add_relationship_success">La relazione tra le librerie verrà creata usando il campo \"%s\".</string>
+    <string name="add_relationship_with_title">Seleziona una libreria secondaria</string>
+    <string name="add_relationship">Relazione</string>
+    <string name="calc_preview_title">Anteprima</string>
+    <string name="select_calc_preview_entry">Elemento per l\'anteprima</string>
+    <string name="preview_button">Anteprima</string>
+    <string name="feature_available_only_in_pro">Questa funzione è disponibile solo nella versione PRO.</string>
+    <string name="file_list_empty">La libreria non contiene alcun file</string>
+    <string name="file_manager_not_found">Non è stato trovato nessun file manager supportato nel tuo dispositivo.</string>
+    <string name="find_missing_files_empty">Nessun file mancante trovato</string>
+    <string name="button_apply">Applica</string>
+    <string name="find_missing_files">Trova file mancanti</string>
+    <string name="download_all">Scarica tutto</string>
+    <string name="sort_by_size">Ordina per Dimensioni</string>
+    <string name="file_show_in_entry">Mostra nell\'elemento</string>
+    <string name="file_show_in_folder">Mostra nella cartella</string>
+    <string name="cloud_file_downloading">Scaricamento</string>
+    <string name="cloud_file_uploading">Caricamento</string>
+    <string name="cloud_file_error_upload">Errore nell\'invio</string>
+    <string name="cloud_file_queued">In coda</string>
+    <string name="cloud_file_download_pending">In attesa</string>
+    <string name="cloud_file_not_downloaded">Non scaricato</string>
+    <string name="attached_files">File allegati</string>
+    <string name="field_type_rich_align_free_limit">Mi dispiace, l\'allineamento è disponibile solo per gli utenti PRO.</string>
+    <string name="field_type_rich_list_free_limit">Mi dispiace, le liste sono disponibili solo per gli utenti PRO.</string>
+    <string name="field_type_rich_only_for_android_kit_kat">Questa tipologia di campo è disponibile solo per Android 4.4 KitKAt e versioni successive.</string>
+    <string name="text_background_color">Colore di sfondo</string>
+    <string name="flex_type_rich_text">Rich Text</string>
+    <plurals name="notification_comments_common_text">
+	<item quantity="one">%d nuovo commento</item>
+	<item quantity="other">%d nuovi commenti</item>
+</plurals>
+
+    <string name="notification_edit_library_delete_text">Elemento eliminato</string>
+    <string name="notification_edit_library_edit_text">Elemento modificato</string>
+    <string name="notification_edit_library_create_text">Elemento aggiunto</string>
+    <plurals name="notification_edit_library_common_text">
+	<item quantity="one">%d cambiamento non letto</item>
+	<item quantity="other">%d cambiamenti non letti</item>
+</plurals>
+
+    <string name="edit_comment_dialog_title">Modifica commento</string>
+
+    <string name="comment_send_error">Errore nell\'invio dei commenti: %s</string>
+    <string name="comment_input_hint">Scrivi un commento</string>
+    <string name="comments">Commenti</string>
+    <string name="cloud_notification_for_subscribers">Mi dispiace, solo gli iscritti possono ricevere le notifiche.</string>
+    <string name="cloud_library_download_notification_text">%s: libreria scaricata</string>
+    <string name="cloud_library_notification_hint">Ricevi notifiche Push quando altri utenti modificano la libreria</string>
+    <string name="cloud_library_notification_title">Notifiche</string>
+    <string name="group_separator_option_hints">Usa uno spazio come separatore migliaia</string>
+
+
+    <string name="group_separator_option_title">Separatori migliaia</string>
+    <string name="select_all">Seleziona Tutto</string>
+    <string name="multiediting_title">Modifica</string>
+    <string name="multiediting_only_in_pro">La modifica di più elementi contemporaneamente è disponibile solo per i possessori della versione PRO.</string>
+    <string name="filter_by_string">Filtra per stringa</string>
+    <string name="filter_by_number">Filtra per numero</string>
+    <string name="calculator_options_hint">Aggiungi un pulsante per mostrare la calcolatrice</string>
+    <string name="calculator">Calcolatrice</string>
+    <plurals name="rating_tooltips_count">
+	<item quantity="one">%d Info</item>
+	<item quantity="other">%d Info</item>
+</plurals>
+    <string name="rating_tooltips_empty">Il campo non ha informazioni</string>
+    <string name="rating_tooltips_hint">Informazione</string>
+    <string name="rating_tooltips">Informazioni</string>
+    <string name="choice_item_use_color_for_text">Usa il colore per il testo</string>
+    <string name="font_default_title">Font predefinito</string>
+    <string name="font_sample_text">La rapida volpe bruna salta oltre il pigro cane.</string>
+    <string name="font_sample">Esempio</string>
+    <string name="font_style_bold_italic">Grassetto Corsivo</string>
+    <string name="font_style_italic">Corsivo</string>
+    <string name="font_style_bold">Grassetto</string>
+    <string name="font_style_normal">Normale</string>
+    <string name="font_picker_dialog_title">Font</string>
+    <string name="font_color">Colore</string>
+    <string name="font_style">Stile</string>
+    <string name="font_family">Famiglia</string>
+    <string name="font_size">Dimensioni</string>
+    <string name="whats_new_dialog_title">Cosa c\'è di nuovo?</string>
+    <string name="preparing_files_for_sending">Preparazione per l\'invio dei file …</string>
+    <string name="field_orientation_option_vertical">Verticale</string>
+    <string name="field_orientation_option_horizontal">Orizzontale</string>
+    <string name="field_orientation_option_title">Orientamento</string>
+    <string name="flex_type_checkboxes">Caselle a scelta multipla</string>
+    <string name="flex_type_radiobuttons">Pulsanti a scelta singola</string>
+    <string name="button_ask_later">Chiedimelo più tardi</string>
+    <string name="button_rate_now">Vota ora</string>
+    <string name="rate_me_dialog_text">Per favore votaci su Google Play</string>
+    <string name="rate_me_dialog_title">Ti piace usare Memento?</string>
+    <string name="widget_free_limit_item_text">Tutti gli elementi possono essere mostrati solo agli utenti PRO</string>
+    <string name="protected_libraries_not_show_in_widget">La libreria protetta non può essere mostrata nel widget</string>
+    <string name="one_row_with_previous">Posiziona sulla stessa riga del precedente</string>
+    <string name="entry_saved_as_pdf_success">PDF creato con successo</string>
+    <string name="render_pdf_menu_item">Salva come PDF</string>
+    <string name="need_reload_library_from_cloud_decrypted">Le copie della libreria sul cloud sono decriptate.\nElimina la copia locale della libreria, e scaricala di nuovo dal cloud.</string>
+
+    <string name="need_reload_library_from_cloud_encrypted">Le copie della libreria sul cloud sono criptate.\nElimina la copia locale della libreria, e scaricala di nuovo dal cloud.</string>
+    <string name="decryption_for_cloud_uploaded_library">La disattivazione della crittografia per il caricamento sul cloud della libreria non è supportata. Rimuovi prima la libreria dal cloud.</string>
     </resources>
