@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
      <string name="call">Chiama</string>
     <string name="send_sms">Invia SMS</string>
@@ -28,4 +28,42 @@
     <string name="template_category_sports">Sport</string>
     <string name="template_category_travel">Viaggi</string>
     <string name="template_category_other">Altro</string>
- </resources>
+ <string name="calc_result_types_date">Risultato per Data</string>
+    <string name="calc_result_types_datetime">Risultato per Data/Ora</string>
+    <string name="calc_result_types_string">Risultato per stringa</string>
+    <string name="flex_edit_option_values_list">Lista gli elementi</string>
+    <string name="flex_edit_option_values_card">Tessera</string>
+    <string name="flex_edit_option_values_table">Tabelle</string>
+    <string name="date_format_list_current_locale">Data corrente</string>
+    <string name="date_format_list_date_pref">Preferenze di data dell\'utente</string>
+    <string name="db_location_pref_internal">Memoria interna</string>
+    <string name="db_location_pref_sd">SD esterna</string>
+    <string name="db_location_pref_custom">Scegli</string>
+    <string name="number_filter_types_less">Meno di</string>
+    <string name="number_filter_types_greater">Più di</string>
+    <string name="number_filter_types_equal">Uguale a</string>
+    <string name="number_filter_types_notequal">Non uguale a</string>
+    <string name="string_filter_types_contains">Contiene</string>
+    <string name="string_filter_types_notcontains">Non contiene</string>
+    <string name="time_field_group_entries_no">Nessun raggruppamento</string>
+    <string name="time_field_group_entries_hour">Raggruppa per Ora</string>
+    <string name="time_field_group_entries_day">Raggruppa per Giorno</string>
+    <string name="time_field_group_entries_month">Raggruppa per Mese</string>
+    <string name="time_field_group_entries_year">Raggruppa per Anno</string>
+    <string name="slice_text_percent">Percentuale</string>
+    <string name="slice_text_value">Valore</string>
+    <string name="slice_text_label">Etichetta</string>
+    <string name="slice_text_none">Nessuno</string>
+    <string name="chart_discrete_axis">Asse delle Discrete</string>
+    <string name="chart_continuous_axis">Asse delle Continue</string>
+    <string name="edit_library_tabs_facade">FACCIATA</string>
+    <string name="edit_library_tabs_fields">CAMPO</string>
+    <string name="edit_library_tabs_aggr">AGGREGAZIONE</string>
+    <string name="show_soft_keyboard_no">Non mostrare</string>
+    <string name="show_soft_keyboard_create">Quando crei un elemento</string>
+    <string name="show_soft_keyboard_always">Sempre</string>
+    <string name="auto_backup_time_never">Mai</string>
+    <string name="auto_backup_time_always">Tutte le volte</string>
+    <string name="auto_backup_time_hour">Non più di una volta all\'ora</string>
+    <string name="auto_backup_time_day">Non più di una volta al giorno</string>
+</resources>
