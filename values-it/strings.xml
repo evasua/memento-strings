@@ -136,9 +136,9 @@
     <string name="help_title">Aiuto di Memento</string>
     <string name="activate_button_title">Attiva la versione PRO</string>
     <string name="activate_button_hint">Ti serve la chiave di attivazione</string>
-    <string name="activate_main_text">Attiva la versione PRO</string>
+    <string name="activate_main_text">Aggiorna alla versione PRO</string>
     <string name="activation_dialog_text_hint">Chiave di attivazione</string>
-    <string name="activation_dialog_title">Attiva la versione PRO</string>
+    <string name="activation_dialog_title">Aggiorna alla versione PRO</string>
     <string name="activation_ok">Grazie per aver acquistato la versione PRO di Memento</string>
     <string name="activation_error">La chiave di attivazione non è valida. Riprova.</string>
     <string name="about">Informazioni</string>
@@ -216,13 +216,13 @@
     <string name="bind_to_gdocs_title">Collegamento a Google Docs</string>
     <string name="unbind_message_title">Scollega da Google Docs</string>
     <string name="unbind_message_text">Sei sicuro di voler scollegare la libreria \"%s\" da Google Docs?</string>
-    <string name="bind_to_gdocs_message">Collegare la libreria a Google Spreadsheets.</string>
-    <string name="bind_to_gdocs_success">La libreria è stata collegata a Google Spreadsheets. Inizia la sincronizzazione degli elementi.</string>
-    <string name="sync_with_gdocs_success">La libreria è stata sincronizzata a Google Spreadsheets</string>
+    <string name="bind_to_gdocs_message">Collegando la libreria a Google Sheets.</string>
+    <string name="bind_to_gdocs_success">La libreria è stata collegata a Google Sheets.</string>
+    <string name="sync_with_gdocs_success">La libreria è stata sincronizzata con Google Sheets</string>
     <string name="sync_with_gdocs_title">Sincronizzazione con Google Docs</string>
-    <string name="sync_with_gdocs_message">Memento sta sincronizzando la libreria con Google Spreadsheets.</string>
+    <string name="sync_with_gdocs_message">Sincronizzando la libreria con Google Sheets.</string>
     <string name="sync_with_gdocs">Sincronizzazione con Google Docs</string>
-    <string name="google_docs_task_step_auth">Autenticazione con il servizio di Google Spreadsheets</string>
+    <string name="google_docs_task_step_auth">Autenticazione con il servizio di Google Sheets</string>
     <string name="google_docs_task_step_get_rows">Recupero le righe del documento</string>
     <string formatted="false" name="google_docs_task_step_process_row">Sto processando la riga %s di %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Aggiungo la %s di %s</string>
@@ -658,7 +658,7 @@
     <string name="add_field_above">Aggiungi campo in alto</string>
     <string name="add_field_below">Aggiungi campo in basso</string>
 <string name="sync_with_gdocs_success_2">La libreria \"%s\" è stata sincronizzata con Google</string>
-    <string name="sync_with_gdocs_message_2">Sincronizza \"%s\" con Fogli di lavoro Google.</string>
+    <string name="sync_with_gdocs_message_2">Sincronizza \"%s\" con Google Sheets.</string>
     <string name="year_default_now">Anno corrente di default</string>
     <string name="flex_type_int_list">Valori interi</string>
     <string name="flex_type_int_default_value">Specifica valore di default</string>
