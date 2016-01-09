@@ -1,2 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_0">double值绝对值。</string>
+    <string name="math_func_desc_1">反余弦的角度。</string>
+    <string name="math_func_desc_2">反正弦的角度。</string>
+    <string name="math_func_desc_3">角的圆弧切线。</string>
+    <string name="math_func_desc_4">该功能转换直角坐标到极坐标</string>
+    <string name="math_func_desc_5">double值值上限</string>
+    <string name="math_func_desc_6">角的三角余弦</string>
+    <string name="math_func_desc_7">指数数值E（IS，2.718...）提高到一个双重价值的力量</string>
+    <string name="math_func_desc_8">double值取整数值。</string>
+    <string name="math_func_desc_9">自然对数的双精度值（以e为底）</string>
+    <string name="math_func_desc_10">大的两个双值</string>
+    <string name="math_func_desc_11">小两个double值</string>
+    <string name="math_func_desc_12">第一个参数的值提升到第二个参数的二次</string>
+    <string name="math_func_desc_13">双值最接近的数值参数，并等于某个整数</string>
+    <string name="math_func_desc_14">壁橱长为double值</string>
+    <string name="math_func_desc_15">角度的正弦</string>
+    <string name="math_func_desc_16">一个double值的平方根</string>
+    <string name="math_func_desc_17">角的三角正切</string>
+    <string name="math_func_desc_18">该函数转换弧度测量的单位为度，相当于角的角度</string>
+	<string name="math_func_desc_19">该函数转换为度，以弧度相当于角的角度。</string>  	
+ 	
+ 	
+
+	 <string name="function_args_compareto"> <b>参数:</b> 第一个参数是要比较，第二个参数是要比较的第二个字符串的第一个字符串<br/> <b>返回:</b> 返回零，如果一个整数值字符串相等，整数值小于零，如果第一串前面所述第二字符串或整数大于零的值，如果所述第一串跟随第二串。 </string>
+	 
+	 <string name="function_args_comparetoignorecase"> <b>参数:</b> 第一个参数是要比较，第二个参数是要比较的第二个字符串的第一个字符串<br/> <b>返回:</b> 返回零，如果一个整数值字符串相等，整数值小于零，如果第一串前面所述第二字符串或整数大于零的值，如果所述第一串跟随第二串。 </string>
+	 
+	 <string name="function_args_concat"> <b>参数:</b> 第一个参数是在第二个参数字符串将被连接字符串。  <br/> <b>返回:</b> 的返回是由第一个字符串的字符串，接着是第二字符串。 </string>
+	 
+	 <string name="function_args_endswith"> <b>参数:</b> 第一个参数是要测试的字符串和第二个参数是后缀。<br/> <b>返回：</b>返回1.0（真），如果该字符串的后缀结尾，否则返回0.0（假）。 </string>	 
+	 
+	 <string name="function_args_equals"> <b>参数:</b> 第一个参数是将被比较的第二个字符串参数字符串<br/> <b>返回：</b> 返回1.0（真）如果字符串是平等的，否则它返回0.0（假）。 </string>	 	 
+	 
+	 <string name="function_args_equalsignorecase"> <b>参数：</b>第一个参数是将被比较的第二个字符串参数字符串<br/> <b>返回：</b> 返回1.0（真）如果字符串是平等的，否则它返回0.0（假）。 </string>	 	
+	 
+	 <string name="function_args_indexof"> <b>参数：</b> 第一个参数是源字符串，第二个参数是子字符串，第三个参数是该指数<br/> <b>返回：</b> 返回该指数在哪里子被发现。如果没有找到子字符串，则返回-1。 </string>	 	
+	 
+	 
+	 <string name="function_args_replace"> <b>参数：</b>第一个参数是源字符串替换字符中的第二个参数是旧的字符替换源字符串中。第三个参数是新的字符与源字符串中换旧符<br/>  <b>返回：</b>返回一个字符串，与老角色与新角色更换的每个实例。 </string>	
+	 
+	 <string name="function_args_startswith"> <b>参数：</b> 第一个参数是要测试的字符串，第二个参数是前缀，第三个参数是该指数将开始。 <br/> <b>返回：</b> 返回1.0（true），如果该字符串的前缀开头，否则返回0.0 (false)。 </string>	 
+	 
+	 <string name="function_args_substring"> <b>参数：</b>第一个参数是源字符串，第二个参数是开始的索引，第三个参数是结束索引<br/> <b>返回：</b>返回指定子。 </string>	 	 	 
+	 	 	
+	 	 
+</resources>
