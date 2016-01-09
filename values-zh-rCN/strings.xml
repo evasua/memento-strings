@@ -164,7 +164,7 @@
     <string name="find_csv_column_title">在选中文件中找到条目字段：</string>
     <string name="not_find_csv_column_title">在选中的文件中未找到字段。</string>
     <string name="csv_delimiter_text">列值必须用逗号分隔(,)</string>
-    <string name="need_title_column_text">列的名称必须对应一个输入字段的名称。</string>
+    <string name="need_title_column_text">"列的名称必须对应一个输入字段的名称 "</string>
     <string name="csv_result_import_text">已导入此条目</string>
     <string name="csv_result_import_succes_items">新增条目：</string>
     <string formatted="false" name="csv_result_import_fail_items">有列包含错误：%s \n列数：%s</string>
@@ -175,8 +175,7 @@
     <string name="export_error">导出一下条目失败：%s</string>
     <string name="library_saved">已保存库</string>
     <string name="library_created">已创建库</string>
-    <string name="msg_default_status">在取景器范围内放置条码以扫描它。
-  	</string>
+    <string name="msg_default_status">在取景器范围内放置条码以扫描它。</string>
     <string name="scan_library_item">扫描条码</string>
     <string name="search_product_title">正在为此产品于Google Base中搜索...</string>
     <string name="empty_result_text">抱歉\n未找到产品</string>
@@ -217,7 +216,7 @@
     <string name="unbind_message_title">中断与Google Sheets的连接</string>
     <string name="unbind_message_text">您是否确定要断开库\"%s\"到Google Sheets的连接？</string>
     <string name="bind_to_gdocs_message">正在连接到Google Spreadsheets。</string>
-    <string name="bind_to_gdocs_success">此库已连接到Google Spreadsheets。</string>
+    <string name="bind_to_gdocs_success">此库已连接到Google Spreadshets.</string>
     <string name="sync_with_gdocs_success">此库已完成与Google Spreadsheets同步</string>
     <string name="sync_with_gdocs_title">与Google Sheets同步</string>
     <string name="sync_with_gdocs_message">正在与Google Spreadsheets同步。</string>
@@ -329,7 +328,7 @@
     <string name="unpublish_success">这个库已被取消发布</string>
     <string name="unpublic_message_text">你确定要取消库\"%s\"的发布？</string>
     <string name="unbind_from_gdocs_hint">中断与Google Sheets的连接</string>
-    <string name="preference_category_google_docs">Google Sheets</string>
+    <string name="preference_category_google_docs">谷歌表格</string>
     <string name="unbind_from_google_docs_success">这个库已不再连接到Google Sheets</string>
     <string name="preference_category_memento_server">Memento服务器</string>
     <string name="unpublic_library_hint">取消发布的库</string>
@@ -354,7 +353,7 @@
     <string name="flex_type_library_entry">连接条目</string>
     <string name="flex_type_entry_option_title">手势库</string>
     <string name="flex_type_entry_option_dlg_title">选择库</string>
-    <string name="flex_type_entry_select_library">选择一个库，以及一个将会用于这一栏的条目</string>
+    <string name="flex_type_entry_select_library">选择一个库，以及一个将会用于这一栏的条目。</string>
     <string name="error_template_wrong_title">这个字段只能含有字母或是数字</string>
     <!-- 1.4.8 -->
     <string name="filter_not_set">无过滤器</string>
@@ -382,7 +381,7 @@
     <string name="help_create_library">创建库</string>
     <string name="help_edit_field">定义库的结构</string>
     <string name="help_import_export">导入或导出CSV文件</string>
-    <string name="help_library_items">使用库条目</string>
+    <string name="help_library_items">使库条目工作？？？</string>
     <string name="help_barcode">条码扫描仪</string>
     <string name="help_gdocs_sync">与Google Sheets同步</string>
     <string name="help_publish">发布库</string>
@@ -425,7 +424,7 @@
     <string name="buy_from_market_hint">Google 钱包</string>
     <string name="flex_type_password">密码</string>
     <string name="flex_type_phone">电话</string>
-    <string name="license_check">检查授权...</string>
+    <string name="license_check">检查授权</string>
     <string name="license_wrong">Pro的许可与谷歌帐户不符</string>
     <string name="flex_type_email">邮件</string>
     <string name="email_chooser_title">选择邮件应用程序</string>
@@ -610,8 +609,8 @@
     <string name="most_popular">最受欢迎</string>
     <string name="templates_sort_dialog_title">排序模板</string>
     <string name="delete_catalog_template_title">删除模板</string>
-    <string name="delete_catalog_template_message">你真的想从网上删除 %s的模板目录吗</string>
-    <string name="cant_share_template_withous_fields">您不能共享模板</string>
+    <string name="delete_catalog_template_message">你真的想从网上删除 %s 的模板目录吗？</string>
+    <string name="cant_share_template_withous_fields">没有字段，您不能共享模板</string>
     <string name="reset_pass_button">忘记密码了吗？</string>
     <string name="request_pass_dialog_title">密码更改</string>
     <string name="request_pass_dialog_text">请输入一个电子邮件地址来帮助我们找到你的 Memento 账户</string>
@@ -647,7 +646,7 @@
     <string name="no_dependencies">没有相关关系</string>
     <string name="stats_edit_title_hint">结果前缀</string>
     <string name="stat_item_align_prompt">结果对齐</string>
-    <string name="stat_item_line_prompt">位置的结果</string>
+    <string name="stat_item_line_prompt">位置的结果。</string>
     <string name="add_depends_button_title">增加一个依赖</string>
     <string name="library_dont_have_fields_for_depends">库不包含对该字段的依赖性的构造的适当字段</string>
     <string name="select_type_depends">选择依赖类型</string>
