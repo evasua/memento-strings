@@ -1039,12 +1039,12 @@
     <string name="cant_find_audio_selection_app">很抱歉，但应用程序选择音频轨道也没有发现。</string>
     <string name="library_group_view_type">视图</string>
     <string name="library_group_view_type_big_tile">大卡片</string>
-    <string name="library_group_view_type_small_tile">小卡片</string>
+    <string name="library_group_view_type_small_tile">小标题</string>
     <string name="library_group_view_type_icons">图标</string>
     <string name="icon_pack_title_files_types">文件</string>
     <string name="use_depend_only_in_edit_title">在哪里使用</string>
     <string name="use_depend_only_in_edit_hint_true">只在编辑状态下</string>
-    <string name="use_depend_only_in_edit_hint_false">当编辑和查看条目</string>
+    <string name="use_depend_only_in_edit_hint_false">在编辑和查看状态下</string>
 	<string name="year_default_now">本年度默认</string>
     <plurals name="field_depends_count">
 	<item quantity="one">一个依赖</item>
