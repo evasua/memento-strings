@@ -381,7 +381,7 @@
     <string name="help_create_library">创建库</string>
     <string name="help_edit_field">定义库的结构</string>
     <string name="help_import_export">导入或导出CSV文件</string>
-    <string name="help_library_items">使库条目工作？？？</string>
+    <string name="help_library_items">使用库条目</string>
     <string name="help_barcode">条码扫描仪</string>
     <string name="help_gdocs_sync">与Google Sheets同步</string>
     <string name="help_publish">发布库</string>
