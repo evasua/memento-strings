@@ -1337,8 +1337,8 @@
     <string name="edit_comment_dialog_title">Editar comentario</string>
 
     <plurals name="notification_edit_library_common_text">
-	<item quantity="one">%s cambio sin leer</item>
-	<item quantity="other">%s cambios sin leer</item>
+	<item quantity="one">%d cambio sin leer</item>
+	<item quantity="other">%d cambios sin leer</item>
 </plurals>
 
     <string name="notification_edit_library_create_text">Entrada añadida</string>

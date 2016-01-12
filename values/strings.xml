@@ -1419,5 +1419,12 @@
     <string name="app_permissions_only_for_android6">Only for Android 6 and higher</string>
     <string name="need_permission_dialog_title">Permission required</string>
     <string name="need_permission_dialog_text">This operation requires system permission - %s</string>
+    <string name="unlock_linked_library_text">Linked library is encrypted, you must enter the master password</string>
+    <string name="preview_calc_exec_time">Exec time: %d ms</string>
+    <!--3.8.7-->
+    <string name="group_by_and">All of (AND)</string>
+    <string name="group_by_or">Any of (OR)</string>
+    <string name="field_delimiters">Field delimiter</string>
+    <string name="field_enclosed">Text qualifier</string>
     
 </resources>

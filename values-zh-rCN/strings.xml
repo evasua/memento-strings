@@ -141,7 +141,7 @@
     <string name="activation_ok">谢谢您激活 Memento</string>
     <string name="activation_error">无效的激活码。请重试。</string>
     <string name="about">关于</string>
-    <string name="copyright">版权所有 © 2012 LuckyDroid\n保留所有权利</string>
+    <string name="copyright">版权所有 © 2015 LuckyDroid\n保留所有权利</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">查看软件版本</string>
     <string name="about_license_type">许可协议：</string>
@@ -172,7 +172,7 @@
     <string name="enter_csv_name_dialog_value_title">输入CSV文件的名子</string>
     <string name="enter_csv_name_dialog_value_hint">文件名</string>
     <string name="export_success">条目已导出到 /sdcard/memento/%s</string>
-    <string name="export_error">导出一下条目失败：%s</string>
+    <string name="export_error">导出一下条目失败：\n%s</string>
     <string name="library_saved">已保存库</string>
     <string name="library_created">已创建库</string>
     <string name="msg_default_status">在取景器范围内放置条码以扫描它。</string>
@@ -198,12 +198,12 @@
     <string name="preference_restore_libs_title">恢复库</string>
     <string name="preference_restore_libs_hint">恢复被删除的库</string>
     <string name="preference_category_general">一般</string>
-    <string name="library_import_and_export">导入和导出</string>
+    <string name="library_import_and_export">导入和导出 %s</string>
     <string name="recovering">正在恢复</string>
     <string name="recovering_message">正在恢复库\n%s</string>
     <string name="library_recover">恢复</string>
     <string name="deleting_library_title">正在删除</string>
-    <string name="deleting_library_message">正在删除库\n%s</string>
+    <string name="deleting_library_message">正在删除库</string>
     <!-- 1.2.5 -->
     <string name="view_category">视图</string>
     <string name="title_lib_theme_preference">主题</string>
@@ -376,7 +376,7 @@
     <string name="send_all_text">以文本发送</string>
     <string name="flex_type_time">时间</string>
 <string name="sync_with_gdocs_success_2">库\"%s\"已完成与Google Spreadsheets同步</string>
-    <string name="sync_with_gdocs_message_2">"\"%s\"  与Google Sheets 同步。"</string>
+    <string name="sync_with_gdocs_message_2">\"%s\"  与Google Sheets 同步。</string>
     <string name="help_intro">什么是Memento</string>
     <string name="help_create_library">创建库</string>
     <string name="help_edit_field">定义库的结构</string>
@@ -568,7 +568,7 @@
     <string name="no_entries">没有条目</string>
     <plurals name="library_box_entries_count">
 	<item quantity="one">一个条目</item>
-	<item quantity="other"/>
+	<item quantity="other">%d个条目</item>
 </plurals>
     <string name="add_group_dialog_text">该组的名称</string>
     <string name="add_group_dialog_hint">输入组名</string>
@@ -655,21 +655,21 @@
     <string name="library_fields">库输入字段</string>
     <string name="boolean_field_check_value">检查</string>
     <string name="boolean_field_uncheck_value">选中</string>
-    <string name="visible_field_depend_pretitle">领域%的状态</string>
-    <string name="visible_field_depend_description">如果这个领域接受的值，该领域将处于这个状态</string>
-    <string name="depend_from">%的依赖</string>
+    <string name="visible_field_depend_pretitle">领域%s的状态</string>
+    <string name="visible_field_depend_description">如果这个领域接受的值，%s 该领域将处于这个状态 </string>
+    <string name="depend_from">%s的依赖</string>
     <string name="delete_depend_dialog_title">删除依赖</string>
-    <string name="delete_depend_dialog_message">你是否真的要删除字段“%”的依赖？</string>
+    <string name="delete_depend_dialog_message">你是否真的要删除字段“%s”的依赖？</string>
     <string name="sl_content_depend_type">内容对字段</string>
-    <string name="sl_content_depend_pretitle">字段值%</string>
-    <string name="sl_content_depend_description">如果该字段的值为%，该字段的值将可供选择</string>
+    <string name="sl_content_depend_pretitle">字段值%s</string>
+    <string name="sl_content_depend_description">如果该字段的值为%s，该字段的值将可供选择</string>
     <string name="backup_images_checkbox">创建备份相关图像、音频记录和其他文件的备份副本</string>
     <string name="backup_files_progress_title">文件备份</string>
-    <string name="backup_files_error">备份文件中的错误：%</string>
+    <string name="backup_files_error">备份文件中的错误：%s</string>
     <string name="restore_files_message">备份副本包含与数据库相关联的文件的归档；您是否要恢复它们？</string>
     <string name="restore_files_progress_title">恢复文件</string>
     <string name="restore_files_success2">与数据库相关的所有文件已打开</string>
-    <string formatted="false" name="restore_files_error_message">未能从归档文件中恢复文件</string>
+    <string formatted="false" name="restore_files_error_message">未能从归档文件中恢复文件 %s</string>
     <string name="restore_files_error">恢复文件失败</string>
     <string name="select_google_account">选择一个谷歌帐户</string>
     <string name="send_files_to_cloud_error">上传文件到云的错误：</string>
@@ -692,7 +692,7 @@
     <string name="files_storage_settings_dublicate_summary">记录将被复制到存储文件夹中的文件</string>
     <string name="files_storage_settings_remove_original_title">删除原件</string>
     <string name="files_storage_settings_remove_original_summary">复制文件到存储，删除原件</string>
-    <string name="dublicate_file_error">"不能在存储中移动文件： "</string>
+    <string name="dublicate_file_error">不能在存储中移动文件：</string>
     <string name="select_map_type">地图类型</string>
     <string name="normal">正常</string>
     <string name="hybrid">混合</string>
@@ -708,7 +708,7 @@
     <string name="google_sync_files_checkbox">上传文件（图片）连接到云存储记录。</string>
     <string name="list_library_in_google">谷歌硬盘库列表</string>
     <string name="add_lib_from_google_drive">从谷歌硬盘</string>
-    <string name="selected">%的选择</string>
+    <string name="selected">%s 的选择</string>
     <string name="delete_template_from_google_drive_question">你真的想删除从谷歌硬盘的选择库吗？</string>
     <string name="delete_data_table_from_google_drive">删除与模板相关联的数据表</string>
     <string name="lock_library_edit_message">对库结构的更改被锁定。\n你可以打开这个库的设置编辑功能。</string>
@@ -729,16 +729,16 @@
     <string name="default_entry_page_title">主要</string>
     <string name="entry_page_title">页面名称</string>
     <string name="cant_delete_main_page">不能删除默认页。</string>
-    <string name="field_count_on_page">字段：%</string>
+    <string name="field_count_on_page">字段：%s</string>
     <string name="master_libraries_list_caption">从图书馆的条目列表</string>
     <string name="view_on_this_page_title">在本页显示</string>
     <string name="set_default_page">设置默认值</string>
     <string name="entry_page_default">默认</string>
-    <string name="entry_page_delete_message_text">你真的想删除这个标签页“%”？</string>
+    <string name="entry_page_delete_message_text">你真的想删除这个标签页“%s”？</string>
     <string name="faq">常见问题解答</string>
     <string name="accept_button">我接受</string>
-    <string name="sort_by_subtitle">按%</string>
-    <string name="group_by_subtitle">按%</string>
+    <string name="sort_by_subtitle">按%s</string>
+    <string name="group_by_subtitle">按%s</string>
     <string name="sort_asc">升序</string>
     <string name="sort_desc">降序</string>
     <string name="sliding_hint_text">从右到左\n打开高级菜单—\n排序，组，过滤器，图表和更多…</string>
@@ -749,7 +749,7 @@
     <string name="select_button">选择</string>
     <string name="clear_button">明确</string>
     <string name="image_info_button">信息</string>
-    <string name="error_library_not_unique_field_names">在库中的字段名必须是唯一的。检查字段：%。</string>
+    <string name="error_library_not_unique_field_names">在库中的字段名必须是唯一的。检查字段：%s。</string>
     <string name="info_path">路径：</string>
     <string name="info_resolution">解析：</string>
     <string name="info_size">尺寸：</string>
@@ -768,7 +768,7 @@
     <string name="flex_type_signature_paint_color_title">刷色</string>
     <string name="flex_type_signature_background_title">背景色</string>
     <string name="flex_type_signature_paint_size_title">电刷尺寸</string>
-    <string name="signature_save_error">保存签名时出错：%</string>
+    <string name="signature_save_error">保存签名时出错：%s</string>
     <string name="change_color_only_in_pro">改变颜色仅可在专业版。</string>
     <string name="chart_list_activity_title">图表</string>
     <string name="chart_type_pie">饼状图</string>
@@ -785,7 +785,7 @@
     <string name="chart_option_display_legends">显示传奇</string>
     <string name="chart_values_function">功能</string>
     <string name="chart_edit_error_need_title">输入图表名称</string>
-    <string name="chart_delete_message">你真的想删除图表“%”吗？</string>
+    <string name="chart_delete_message">你真的想删除图表“%s”吗？</string>
     <string name="chart_other_value">其它</string>
     <string name="pie_chart_category_title">类别</string>
     <string name="pie_chart_values_title">数值</string>
@@ -813,8 +813,8 @@
     <string name="chart_copy_title_postfix">复制</string>
     <string name="chart_validate_error_empty_fields">您必须选择一个数据字段</string>
     <string name="no_data_for_chart">没有数据</string>
-    <string name="cant_delete_charts_filter_message">您无法删除此文件夹，因为它是用在图</string>
-    <string name="cant_delete_charts_field_message">您不能删除这个领域，因为它采用的是图表：％S</string>
+    <string name="cant_delete_charts_filter_message">您无法删除此文件夹，因为它是用在图 %s</string>
+    <string name="cant_delete_charts_field_message">您不能删除这个领域，因为它采用的是图表：%s</string>
     <string name="save_to_file_name">文件名</string>
     <string name="save_to_file_directory">目录</string>
     <string name="need_pro_for_charts">在免费版本中，一个库只能包含一个图表。要取消这种限制，请升级到专业版。</string>
@@ -830,7 +830,7 @@
     <string name="rename_group">重命名组</string>
     <string name="move">移动</string>
     <string name="select_group">选择组</string>
-    <string name="library_moved_message">图书馆搬进组“％S”</string>
+    <string name="library_moved_message">图书馆搬进组“%s”</string>
     <string name="master_library_entries">从相关库条目</string>
     <string name="catalog_templates">目录模板</string>
     <string name="external_storage_title">外置储存</string>
@@ -849,8 +849,8 @@
     <string name="create_chart">创建图表</string>
     <string name="edit_chart">编辑图表</string>
     <string name="edit_library_main_color">图书馆的颜色</string>
-    <string name="color_swatch_description">颜色％D</string>
-    <string name="color_swatch_description_selected">颜色选择</string>
+    <string name="color_swatch_description">颜色%d</string>
+    <string name="color_swatch_description_selected">颜色%d选择 </string>
     <string name="button_palette">调色板...</string>
     <string name="button_own_pictures">画廊...</string>
     <string name="icon_pack_title_flat">平面</string>
@@ -870,11 +870,12 @@
     <string name="only_title_on_tile">库的唯一的名称</string>
     <plurals name="fields_count">
 	<item quantity="one">一个场</item>
-	<item quantity="other"/>
+	<item quantity="other">%d个场</item>
 </plurals>
     <plurals name="libraries_count">
-	<item quantity="other">一库</item>
-</plurals>
+        <item quantity="one">一库</item>
+	    <item quantity="other">%d库</item>
+    </plurals>
     <string name="empty">空洞</string>
     <string name="add_page">添加页面</string>
     <string name="move_to_page">移动到页面</string>
@@ -896,7 +897,7 @@
     <string name="string_list_edit_item_title_hint">项目标题</string>
     <string name="string_list_add_item_dialog_title">添加项目</string>
     <string name="string_list_edit_item_dialog_title">编辑项目</string>
-    <string name="delete_string_list_item_message">你真的要删除的项目“％s”吗？</string>
+    <string name="delete_string_list_item_message">你真的要删除的项目“%s”吗？</string>
     <string name="icon">图标</string>
     <string name="color">颜色</string>
     <string name="edit_library_entries_options_group">条目列表</string>
@@ -908,15 +909,15 @@
     <string name="string_list_import_menu_title">导入项目</string>
     <string name="open_button">打开</string>
     <string name="string_list_export_snackbar_ok">项目已导出</string>
-    <string name="string_list_export_error">导出发生错误</string>
+    <string name="string_list_export_error">导出发生错误 %s</string>
     <string name="string_list_import_error">在导入时发生错误: %s</string>
     <string name="something_wrong_dialog_title">有事吗</string>
     <plurals name="string_list_import_snackbar_ok">
 	<item quantity="one">导入0个项目</item>
-	<item quantity="other"/>
+	<item quantity="other">%d导入0个项目</item>
 </plurals>
     <string name="export_template_snackbar_ok">该模板已导出</string>
-    <string name="import_template_error">错误导入模板</string>
+    <string name="import_template_error">错误导入模板 %s</string>
     <string name="mass_delete_string_list_item_message">你确定要删除所选的项目（S）？</string>
     <string name="reminders_count_limit">您可以为一个字段中添加最多10个提醒</string>
     <string name="aggregation_add_item_dialog_title">添加聚集功能</string>
@@ -926,9 +927,9 @@
     <string name="aggregation_result_left">左</string>
     <string name="aggregation_result_right">右</string>
     <string name="aggregation_delete_title">删除聚合</string>
-    <string name="aggregation_delete_message">难道你真的要删除聚合“％s”吗？</string>
+    <string name="aggregation_delete_message">难道你真的要删除聚合“%s”吗？</string>
     <string name="aggregation_need_select_field_message">您必须选择一个字段，这个聚合函数</string>
-    <string name="open_object_by_uri_error">无法打开对象：％S</string>
+    <string name="open_object_by_uri_error">无法打开对象：%s</string>
     <string name="import_and_export_menu_item">导入和导出...</string>
     <string name="entries_export_snackbar_ok">导出成功</string>
     <string name="entries_import_result_dialog_title">导入项</string>
@@ -940,20 +941,20 @@
     <string name="rating_field_max_value">最高评级</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d 星</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 星</item>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
 	<item quantity="one">%d项已被移动到垃圾桶</item>
-	<item quantity="other"/>
+	<item quantity="other">%d项已被移动到垃圾桶</item>
 </plurals>
     <string name="auto_fill_barcode_empty2">对比自动完成源和输入字段的属性</string>
     <string name="barcode_rule_delete_title">删除规则</string>
-    <string name="barcode_rule_delete_text">要删除自动完成规则字段的“％s”是吗？</string>
+    <string name="barcode_rule_delete_text">要删除自动完成规则字段的“%s”是吗？</string>
     <string name="multi_library_item_trush_message_text">您确定要选择的条目发送到垃圾桶？</string>
     <string name="multi_library_item_delete_message_text">你确定要删除所选条目？</string>
-    <string name="delete_library_snackbar_text">库“％s”已被移动到垃圾桶</string>
+    <string name="delete_library_snackbar_text">库“%s”已被移动到垃圾桶</string>
     <string name="deleted">删除</string>
-    <string name="library_recover_dialog_text">你想还原库“％s”？</string>
+    <string name="library_recover_dialog_text">你想还原库“%s”？</string>
     <string name="library_recover_snackbar_text">库中的组的恢复\"%s\"</string>
     <string name="sort_by_name">按名称排序</string>
     <string name="sort_by_time">按时间排序添加</string>
@@ -975,7 +976,7 @@
     <string name="empty_my_templates_list">您没有发表库模板。</string>
     <string name="empty_field_depend_list">该字段对其他字段没有依赖关系。</string>
     <string name="share_template_dialog_title">通过在线目录分享模板</string>
-    <string name="empty_search_result2">您的搜索 - ％S - 没有匹配的条目</string>
+    <string name="empty_search_result2">您的搜索 - %s - 没有匹配的条目</string>
     <string name="invisible">无形</string>
     <string name="display_master_libraries_items">显示卡</string>
     <string name="sync_with_google_left_menu_item">同步与谷歌</string>
@@ -1006,15 +1007,15 @@
 </plurals>
     <plurals name="duration_minutes">
 	<item quantity="one">1分钟</item>
-	<item quantity="other"/>
+	<item quantity="other">%d分钟</item>
 </plurals>
     <plurals name="duration_hours">
 	<item quantity="one">1小时</item>
-	<item quantity="other"/>
+	<item quantity="other">%d小时</item>
 </plurals>
     <plurals name="duration_days">
 	<item quantity="one">1天</item>
-	<item quantity="other"/>
+	<item quantity="other">%d天</item>
 </plurals>
     <string name="all">所有</string>
     <string name="page">页</string>
@@ -1048,11 +1049,11 @@
 	<string name="year_default_now">本年度默认</string>
     <plurals name="field_depends_count">
 	<item quantity="one">一个依赖</item>
-	<item quantity="other"/>
+	<item quantity="other">%d个依赖</item>
 </plurals>
     <string name="most_viewed_templates">最受关注</string>    
 	<string name="featured_templates">精选</string>
-	<string name="template_views_count">浏览次数：％S</string>
+	<string name="template_views_count">浏览次数：%s</string>
 	<string name="sort_by_views">排序方式查看</string>
 	<string name="select_category_template">请选择类别</string>	
 	<string name="select_template_lang">模板选择语言</string>
@@ -1085,7 +1086,7 @@
 	<string name="start_upload_library_to_cloud">上传库...</string>	
 	<string name="success_upload_library_to_cloud">图书馆成功上载。\n该库将自动同步。</string>
 	<string name="success_upload_library_to_cloud2">你可以让你的库访问其他纪念品用户访问设置。</string>	
-	<string name="push_entries_to_cloud_message" formatted="false">上传作品\n％S项％s的处理</string>
+	<string name="push_entries_to_cloud_message" formatted="false">上传作品\n%s项%s的处理</string>
 	<string name="permissions">权限</string>
 	<string name="button_hide">隐藏</string>	
 	<string name="empty_cloud_libraries_list_text">您还没有上传库</string>
@@ -1096,18 +1097,18 @@
 	<string name="download_library">下载库</string>
 	<string name="download_library_hint">创建本地副本</string>			
 	<string name="pull_entries_from_cloud_message">下载项...</string>
-	<string name="pull_entries_from_cloud_message2" formatted="false">％S项％s的处理</string>
+	<string name="pull_entries_from_cloud_message2" formatted="false">%s项%s的处理</string>
 	<string name="success_pull_library_from_cloud">成功下载。\n该库将自动同步。</string>
 	<string name="cloud_conflict_fields_title">冲突</string>
 	<string name="cloud_conflict_fix_button_title">固定</string>
     <plurals name="conflict_count">
-	<item quantity="one">同步过程中发生的%d冲突</item>
-	<item quantity="other"/>
-</plurals>
+	    <item quantity="one">同步过程中发生的%d冲突</item>
+	    <item quantity="other">同步过程中发生的%d冲突</item>
+    </plurals>
     <string name="button_select">选择</string>
     <string name="cloud">云</string>
     <string name="library_not_in_cloud">没有云</string>
-    <string name="synced">已同步％S</string>
+    <string name="synced">已同步%s</string>
     <string name="cloud_synced_progress">同步...</string>
     <string name="cloud_offline">当前离线</string>
     <string name="cloud_last_sync">上次同步</string>
@@ -1126,12 +1127,12 @@
     <string name="megabyteShort">MB</string>
     <string name="gigabyteShort">GB</string>
     <string name="button_refresh">刷新</string>
-    <string name="cloud_storage_space_text" formatted="false">％S（％S）％s的使用</string>   
+    <string name="cloud_storage_space_text" formatted="false">%s（%s）%s的使用</string>
     <string name="start_download_file_from_cloud">%s文件将被下载</string>
     <string name="upload_file_to_cloud">上传文件...</string>    
     <string name="upload_files_to_cloud">上传文件</string>
     <string name="cloud_upload_error_title">我们无法同步此库</string>
-    <string name="upload_big_file_error" formatted="false">条目％s包含大文件％S（％S）。\n最大文件大小为％s。</string>
+    <string name="upload_big_file_error" formatted="false">条目%s包含大文件%s（%s）。\n最大文件大小为%s。</string>
     <string name="prepare_library_for_cloud">库正在处理...</string>
     <string name="download_files_from_cloud">从云端下载文件...</string>
     <string name="cant_download_item_files_for_copy">下载文件的创建失败的副本。</string> 
@@ -1148,7 +1149,7 @@
 	<string name="only_owner_permission">只有自己</string>
 	<string name="user_not_found">找不到用户</string>
 	<string name="edit_permission">用户共享设置</string>	
-	<string name="push_entry_error_text" formatted="false">的条目不存储在云中。\n名称：％s\n错误：％s</string>
+	<string name="push_entry_error_text" formatted="false">的条目不存储在云中。\n名称：%s\n错误：%s</string>
 	<string name="push_error_forbidden">拒绝访问</string>
 	<string name="button_ignore">忽略</string>
 	<string name="button_try_again">再试一次</string>	
@@ -1160,12 +1161,12 @@
 	<string name="start_download_slave_library_model">上传下属库%s</string>
 	<string name="open_access_for_slave_libraries">提供给下属的库阅读权限</string>
 	<string name="cloud_storage_full_text">没有足够的空间在云存储。\n你可以升级到关税计划提供更多的存储空间。</string>
-	<string name="cloud_storage_full_text2" formatted="false">没有足够的空间在云存储。\n％s的需要，％S是可用的。\n你可以升级到关税计划提供更多的存储空间。</string>
+	<string name="cloud_storage_full_text2" formatted="false">没有足够的空间在云存储。\n%s的需要，%s是可用的。\n你可以升级到关税计划提供更多的存储空间。</string>
 	<string name="alien_cloud_storage_full_text">库的所有者没有足够的存储空间。</string>	
 	<string name="button_tarifs">关税</string>
 	<string name="cloud_storage_plans">计划</string>
 	<string name="price_free">自由</string>
-	<string name="price_per_month">％S/月</string>
+	<string name="price_per_month">%s/月</string>
 	<string name="unlimited_libraries">无限库</string>	
 	<string name="adv_free">无广告</string>
 	<string name="subscription_activation">激活订阅...</string>
@@ -1173,8 +1174,8 @@
 	<string name="subscription_reactivation_error">无法获得活动订阅%s</string>
 	<string name="google_play_unavaliable">谷歌Play是不可用:(</string>
 	<string name="return_to_free_plan_message">您可以通过取消订阅在谷歌播放转移到一个免费账户</string>
-	<string name="subscription_already_activation_for_user">订阅不能被激活，因为它是为用户％s的购买。</string>
-	<string name="library_cloud_count_limit">您的关税计划允许上载至％S库到云中。</string>
+	<string name="subscription_already_activation_for_user">订阅不能被激活，因为它是为用户%s的购买。</string>
+	<string name="library_cloud_count_limit">您的关税计划允许上载至%s库到云中。</string>
 	<string name="restore_cloud_library_from_recycle">这个库的语言环境被删除. 恢复？</string>
 	<string name="cloud_file_while_not_upload">该文件还没有在云</string>
 	<string name="upload_ecrypted_libraries_dont_supported">加密库上传到云中暂时不可用。</string>
@@ -1195,7 +1196,7 @@
 	<string name="button_no_thanks">不用了，谢谢</string>
 	<string name="button_upload">上传</string>
 	
-	<string name="cant_upload_file_to_cloud">文件（S）上传失败。</string>
+	<string name="cant_upload_file_to_cloud">文件 上传失败。</string>
     <string name="button_show">显示</string>
 	<string name="invalid_library_template_file_format">无效的模板文件格式</string>    
 	<string name="cant_add_yourself">您不能添加自己</string>
@@ -1286,7 +1287,7 @@
     <string name="rating_tooltips_empty">现场没有提示</string>
     <plurals name="rating_tooltips_count">
 	<item quantity="one">%d提示</item>
-	<item quantity="other"/>
+	<item quantity="other">%d提示</item>
 </plurals>
     <string name="calculator">计算器</string>
     <string name="calculator_options_hint">添加一个按钮来显示计算器</string>
@@ -1310,7 +1311,7 @@
 
     <plurals name="notification_edit_library_common_text">
 	<item quantity="one">%d 未读变化</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 未读变化</item>
 </plurals>
 
     <string name="notification_edit_library_create_text">添加条目</string>
@@ -1318,7 +1319,7 @@
     <string name="notification_edit_library_delete_text">删除条目</string>
     <plurals name="notification_comments_common_text">
 	<item quantity="one">%d 添加新评论</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 添加新评论</item>
 </plurals>
 
     <string name="flex_type_rich_text">Rich Text 文本编辑器</string>
