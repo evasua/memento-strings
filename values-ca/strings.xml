@@ -1123,7 +1123,7 @@
     <string name="gigabyteShort">GB</string>
     <string name="button_refresh">Actualitzar</string>
     <string name="cloud_storage_space_text" formatted="false">%s (%s) de %s utilitzats</string>   
-    <string name="start_download_file_from_cloud">L\'arxiu %a serà descarregat</string>
+    <string name="start_download_file_from_cloud">L\'arxiu %s serà descarregat</string>
     <string name="upload_file_to_cloud">Penjant l\'arxiu...</string>    
     <string name="upload_files_to_cloud">Penjant arxius</string>
     <string name="cloud_upload_error_title">No hem pogut sincronitzar aquesta biblioteca</string>
@@ -1307,7 +1307,7 @@
 
     <plurals name="notification_edit_library_common_text">
 	<item quantity="one">%d canvi sense llegir</item>
-	<item quantity="other">%s canvis sense llegir</item>
+	<item quantity="other">%d canvis sense llegir</item>
 </plurals>
 
     <string name="notification_edit_library_create_text">Entrada afegida</string>
