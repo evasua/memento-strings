@@ -1249,4 +1249,10 @@
 	<string name="cloud_storage_plans">Pläne</string>
 	<string name="cloud_library_already_uploaded">Dieses Verzeichnis is schon hochgeladen in die Cloud.</string>
 	<string name="upload_to_cloud_offer_title">{fertig für die Cloud...}</string>
-	</resources>
+	<string name="autofill_from">von %s</string>
+	<string name="copying_entries">Einträge kopieren ...</string>
+
+    <string name="render_pdf_menu_item">Abspeichern als PDF</string>
+    <string name="entry_saved_as_pdf_success">PDF erfolgreich angelegt</string>
+    <string name="font_family">Familie</string>
+    </resources>
