@@ -1367,4 +1367,11 @@
     <string name="need_permission_dialog_text">此操作需要的系统权限 - %s</string>
     
 <string name="empty_autofill_list_text">创建从互联网上的数据记录自动填充规则</string>
-    </resources>
+    <string name="unlock_linked_library_text">链接库是加密的，则必须输入主密码</string>
+    <string name="preview_calc_exec_time">Exec的定时: %d 毫秒</string>
+    <string name="group_by_and">所有的（与）</string>
+    <string name="group_by_or">任何的（OR）</string>
+    <string name="field_delimiters">字段分隔符</string>
+    <string name="field_enclosed">文字预选</string>
+    
+</resources>
