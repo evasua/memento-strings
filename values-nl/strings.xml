@@ -1377,4 +1377,11 @@
     <string name="create_shortcut_text">Typ een naam voor deze snelkoppeling</string>
     <string name="permission_storage_explanation_text">Toegang tot de opslagruimte is nodig voor caching, backup en mogelijkheid om afbeeldingen en bestanden aan uw objecten toe te voegen.</string>
     <string name="permission_accounts_text">Het is noodzakelijk dat u Memento toegang verleent tot uw accounts om te synchroniseren met Google Sheets en voor het Contact veldtype.</string>
-    </resources>
+    <string name="unlock_linked_library_text">De gekoppelde verzameling is versleuteld. U moet het hoofdwachtwoord invoeren</string>
+    <string name="preview_calc_exec_time">Verwerkingstijd: %d ms</string>
+    <string name="group_by_and">Alles van (EN)</string>
+    <string name="group_by_or">Elk van (OF)</string>
+    <string name="field_delimiters">Veld scheidingsteken</string>
+    <string name="field_enclosed">Tekstaanduiding</string>
+    
+</resources>
