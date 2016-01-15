@@ -58,8 +58,8 @@
     <string name="library_items_count">条目： %s</string>
     <string name="library_menu_select_sort">排序</string>
     <string name="library_menu_select_group">组</string>
-    <string name="select_sort_template">排序选择的字段，根据</string>
-    <string name="select_group_template">分组选择的字段，根据</string>
+    <string name="select_sort_template">选择排序字段</string>
+    <string name="select_group_template">通过选择字段进行分组</string>
     <string name="sort_by_date">创建时间</string>
     <string name="flex_delete_message_title">删除字段</string>
     <string name="flex_delete_message_text">您是否真的要删除字段\"%s\" ?</string>
@@ -75,9 +75,8 @@
     <string name="search_hint">搜索条目</string>
     <string name="search_parse_exception_messagee">无效的搜寻字串</string>
     <plurals name="NItemsFind">
-        <item quantity="other">Entries found: <xliff:g id="COUNT">%d</xliff:g>
-        </item>
-    </plurals>
+	<item quantity="other">1条目中找到</item>
+</plurals>
     <string name="memento_search">Memento 搜索</string>
     <string name="memento_search_in_lib">Memento 搜索于"%s"</string>
     <string name="removed">已删除 %s</string>
@@ -386,8 +385,8 @@
     <string name="help_gdocs_sync">与Google Sheets同步</string>
     <string name="help_publish">发布库</string>
     <string name="help_subscribe">订阅库</string>
-    <string name="lib_protection">保护库</string>
-    <string name="set_library_protection">保护</string>
+    <string name="lib_protection">加密库</string>
+    <string name="set_library_protection">加密码</string>
     <string name="set_master_pass_text">设置库的主密码。\n您必须输入此密码才能访问加密库。</string>
     <string name="master_pass_hint">密码</string>
     <string name="master_pass_hint2">重输密码</string>
@@ -403,11 +402,11 @@
     <string name="library_encription_description">该字符串字段使用AES加密。不支持搜索。</string>
     <string name="set_library_protection_title">正在加密条目</string>
     <string name="set_library_protection_message">正在加密库和条目...</string>
-    <string name="remove_library_protection">解除保护</string>
+    <string name="remove_library_protection">解除加密</string>
     <string name="remove_library_protection_desc">访问该库无需密码</string>
-    <string name="remove_library_protection_question">你确定要解除保护此库？</string>
+    <string name="remove_library_protection_question">你确定要解除加密此库？</string>
     <string name="preference_category_security">安全</string>
-    <string name="remove_library_protection_title">解除保护</string>
+    <string name="remove_library_protection_title">解除加密</string>
     <string name="remove_library_protection_message">正在加密库条目...</string>
     <string name="change_master_password">修改主密码</string>
     <string name="change_master_password_hint">你的数据将使用新密码重新加密。</string>
@@ -416,7 +415,7 @@
     <string name="new_master_pass_hint2">验证密码</string>
     <string name="re_encripted_entries">正在重新加密条目...</string>
     <string name="pass_changed">密码修改成功</string>
-    <string name="library_protection_options">库保护</string>
+    <string name="library_protection_options">库加密码</string>
     <string name="library_protection_not">确定</string>
     <string name="library_protection_pass">密码</string>
     <string name="library_protection_pass_checkbox">密码访问</string>
@@ -513,11 +512,11 @@
     <string name="select_app">选择一个应用程序</string>
     <string name="forum">论坛</string>
     <string name="autoincrement">自动增量</string>
-    <string name="cant_protect">免费版本只允许保护两个库。\n升级到专业版可以解除此限制。</string>
+    <string name="cant_protect">免费版本只允许加密两个库。\n升级到专业版可以解除此限制。</string>
     <string name="flex_edit_option_title">你可以在这里编辑</string>
     <string name="flex_edit_option_default">编辑条目的方式</string>
-    <string name="flex_edit_option_in_list">输入序列号</string>
-    <string name="flex_edit_option_in_view">插入卡</string>
+    <string name="flex_edit_option_in_list">列表条目</string>
+    <string name="flex_edit_option_in_view">卡片</string>
     <string name="loading_google_document_list">加载中...</string>
     <string name="google_doc_list_title">谷歌文档</string>
     <string name="updated_document_time">更新时间: %s</string>
@@ -581,12 +580,12 @@
     <string name="library_ex_options">高级参数</string>
     <string name="library_last_edit">更新 %s</string>
     <string name="library_last_sync">备份 %s</string>
-    <string name="user_manual_menu">帮助内容</string>
+    <string name="user_manual_menu">帮助文档</string>
     <string name="save_library_changes">保存更改？</string>
     <string name="build_navigate_list_dialog">分类条目…</string>
     <string name="navigate_first_entry">此条目是第一个</string>
     <string name="navigate_last_entry">此条目是最后一个</string>
-    <string name="library_custom_filter_name">用户过滤器</string>
+    <string name="library_custom_filter_name">新过滤器</string>
     <string name="select_library_filter">选择过滤器</string>
     <string name="no_filter_item">删除过滤器</string>
     <string name="add_new_filter">创建过滤器</string>
@@ -618,7 +617,7 @@
     <string name="change_password_success">请查收邮件\n我们寄给你的电子邮件,将允许您快速轻松地重置你的密码。</string>
     <string name="tile_options_text">标题</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
-    <string name="search_in_protected_libraries">在受密码保护的库搜索\n（除了加密）</string>
+    <string name="search_in_protected_libraries">在受密码加密的库搜索\n（除了加密）</string>
     <string name="stat_result_type">结果格式</string>
     <string name="backup_file_name_title">备份文件名</string>
     <string name="backup_file_path_title">备份目录</string>
@@ -630,8 +629,8 @@
     <string name="google_play_not_found_message">你的设备上没有谷歌商店。你可以下载OI开发网站的文件管理器。</string>
     <string name="library_not_found_dialog_title">库</string>
     <string name="library_not_found_dialog_message">未找到库。也许该库已被删除。</string>
-    <string name="add_field_above">添加一个字段以上</string>
-    <string name="add_field_below">下面添加一个字段</string>
+    <string name="add_field_above">在上面添加</string>
+    <string name="add_field_below">在下面添加</string>
     <string name="flex_type_int_list">整数值</string>
     <string name="flex_type_int_default_value">指定默认值</string>
     <string name="flex_type_int_min">开始</string>
@@ -641,9 +640,9 @@
     <string name="flex_type_int_allow_direct_input2">直接输入</string>
     <string name="visible_field_depend_type">这个字段的可见性</string>
     <string name="visible_field_depend_state_visible">可见</string>
-    <string name="field_depends">这个域的依赖关系</string>
+    <string name="field_depends">这个字段的关联设置</string>
     <string name="field_depends_activity_title">相关</string>
-    <string name="no_dependencies">没有相关关系</string>
+    <string name="no_dependencies">没有相关关联</string>
     <string name="stats_edit_title_hint">结果前缀</string>
     <string name="stat_item_align_prompt">结果对齐</string>
     <string name="stat_item_line_prompt">位置的结果。</string>
@@ -655,8 +654,8 @@
     <string name="library_fields">库输入字段</string>
     <string name="boolean_field_check_value">检查</string>
     <string name="boolean_field_uncheck_value">选中</string>
-    <string name="visible_field_depend_pretitle">领域%s的状态</string>
-    <string name="visible_field_depend_description">如果这个领域接受的值，%s 该领域将处于这个状态 </string>
+    <string name="visible_field_depend_pretitle">字段%s的状态</string>
+    <string name="visible_field_depend_description">如果这个字段接受的值，%s 该字段将处于这个状态</string>
     <string name="depend_from">%s的依赖</string>
     <string name="delete_depend_dialog_title">删除依赖</string>
     <string name="delete_depend_dialog_message">你是否真的要删除字段“%s”的依赖？</string>
@@ -673,7 +672,7 @@
     <string name="restore_files_error">恢复文件失败</string>
     <string name="select_google_account">选择一个谷歌帐户</string>
     <string name="send_files_to_cloud_error">上传文件到云的错误：</string>
-    <string formatted="false" name="upload_file_to_cloud_message">（上传%s %d和%d）</string>
+    <string formatted="false" name="upload_file_to_cloud_message">上传 %s (%d/%d)</string>
     <string name="prepare_google_sync">连接到您的帐户…</string>
     <string name="no_google_accounts">没有谷歌帐户可用。请在设备上加一个帐户。</string>
     <string name="google_account_not_selected">未选定帐户</string>
@@ -692,7 +691,7 @@
     <string name="files_storage_settings_dublicate_summary">记录将被复制到存储文件夹中的文件</string>
     <string name="files_storage_settings_remove_original_title">删除原件</string>
     <string name="files_storage_settings_remove_original_summary">复制文件到存储，删除原件</string>
-    <string name="dublicate_file_error">不能在存储中移动文件：</string>
+    <string name="dublicate_file_error">"不能移动存储的文件: "</string>
     <string name="select_map_type">地图类型</string>
     <string name="normal">正常</string>
     <string name="hybrid">混合</string>
@@ -721,7 +720,7 @@
     <string name="field_display_options_group">显示选项</string>
     <string name="display_in_list_how">在列表中显示</string>
     <string name="field_display_title_in_card">字段名</string>
-    <string name="field_display_title_in_card_hint">显示卡输入字段的名称</string>
+    <string name="field_display_title_in_card_hint">显示卡片输入字段的名称</string>
     <string name="edit_library_tab_structure">结构</string>
     <string name="edit_library_tab_view">视图</string>
     <string name="add_library_tabs_header">条目页</string>
@@ -730,7 +729,7 @@
     <string name="entry_page_title">页面名称</string>
     <string name="cant_delete_main_page">不能删除默认页。</string>
     <string name="field_count_on_page">字段：%s</string>
-    <string name="master_libraries_list_caption">从图书馆的条目列表</string>
+    <string name="master_libraries_list_caption">从库的条目列表</string>
     <string name="view_on_this_page_title">在本页显示</string>
     <string name="set_default_page">设置默认值</string>
     <string name="entry_page_default">默认</string>
@@ -773,11 +772,11 @@
     <string name="chart_list_activity_title">图表</string>
     <string name="chart_type_pie">饼状图</string>
     <string name="chart_type_line">线形图</string>
-    <string name="chart_type_bar">柱形图</string>
-    <string name="chart_type_column">柱</string>
-    <string name="chart_type_area">地区</string>
+    <string name="chart_type_bar">条形图</string>
+    <string name="chart_type_column">柱形图</string>
+    <string name="chart_type_area">区域图</string>
     <string name="chart_type_scatter">散射图</string>
-    <string name="chart_type_stepped_area">阶梯区</string>
+    <string name="chart_type_stepped_area">阶梯图</string>
     <string name="chart_name_hint">图表名字</string>
     <string name="chart_data_source_category_title">数据源</string>
     <string name="chart_display_option_category_title">图表选项</string>
@@ -814,7 +813,7 @@
     <string name="chart_validate_error_empty_fields">您必须选择一个数据字段</string>
     <string name="no_data_for_chart">没有数据</string>
     <string name="cant_delete_charts_filter_message">您无法删除此文件夹，因为它是用在图 %s</string>
-    <string name="cant_delete_charts_field_message">您不能删除这个领域，因为它采用的是图表：%s</string>
+    <string name="cant_delete_charts_field_message">您不能删除这个字段，因为它采用的是图表：%s</string>
     <string name="save_to_file_name">文件名</string>
     <string name="save_to_file_directory">目录</string>
     <string name="need_pro_for_charts">在免费版本中，一个库只能包含一个图表。要取消这种限制，请升级到专业版。</string>
@@ -823,24 +822,24 @@
     <string name="barcode_auto_fill_checkbox_hint_new">从Web数据将被输入到输入字段</string>
     <string name="google_base_field_new">从源属性值</string>
     <string name="wrong_search_query_string_1">搜索查询不能以“ - ”</string>
-    <string name="link_master_library_not_found">对不起，有什么联系到该领域的库未找到</string>
+    <string name="link_master_library_not_found">对不起，有什么联系到该字段的库未找到</string>
     <string name="sync_with_google_drive_dont_support">您的安卓设备不支持同步到谷歌硬盘</string>
-    <string name="internal_storage_title">设备内部存储</string>
+    <string name="internal_storage_title">设备内部存储（手机内存）</string>
     <string name="sd_storage_title">SD卡</string>
     <string name="rename_group">重命名组</string>
     <string name="move">移动</string>
     <string name="select_group">选择组</string>
-    <string name="library_moved_message">图书馆搬进组“%s”</string>
+    <string name="library_moved_message">库搬进组“%s”</string>
     <string name="master_library_entries">从相关库条目</string>
     <string name="catalog_templates">目录模板</string>
-    <string name="external_storage_title">外置储存</string>
-    <string name="custom_storage_title">习俗</string>
+    <string name="external_storage_title">储存卡</string>
+    <string name="custom_storage_title">自定义</string>
     <string name="choose_dir">选择一个文件夹</string>
     <string name="choose_file">选择一个文件</string>
     <string name="file_is_not_database">所选择的文件是不是数据库</string>
     <string name="create_collection">创建库</string>
     <string name="edit_collection">编辑库</string>
-    <string name="create_field">创建场</string>
+    <string name="create_field">创建字段</string>
     <string name="edit_field">编辑字段</string>
     <string name="create_dependency">创建依赖</string>
     <string name="edit_dependency">编辑的依赖</string>
@@ -848,7 +847,7 @@
     <string name="edit_entry">编辑条目</string>
     <string name="create_chart">创建图表</string>
     <string name="edit_chart">编辑图表</string>
-    <string name="edit_library_main_color">图书馆的颜色</string>
+    <string name="edit_library_main_color">库的颜色</string>
     <string name="color_swatch_description">颜色%d</string>
     <string name="color_swatch_description_selected">颜色%d选择 </string>
     <string name="button_palette">调色板...</string>
@@ -863,7 +862,7 @@
     <string name="icon_pack_title_field_edu_flat">埃杜</string>
     <string name="icon_pack_title_field_mult_flat">多媒体</string>
     <string name="icon_pack_title_field_net_flat">网络</string>
-    <string name="library_tile_options">放在瓷砖</string>
+    <string name="library_tile_options">卡片显示</string>
     <string name="show_icon_on_tile">库图标</string>
     <string name="show_num_entries_on_tile">条目数</string>
     <string name="show_update_time_on_tile">编辑时间</string>
@@ -901,9 +900,9 @@
     <string name="icon">图标</string>
     <string name="color">颜色</string>
     <string name="edit_library_entries_options_group">条目列表</string>
-    <string name="entries_color">输入颜色</string>
+    <string name="entries_color">列表颜色</string>
     <string name="entries_color_dialog_title">颜色由字段的值确定</string>
-    <string name="entries_icon">进入缩略图</string>
+    <string name="entries_icon">列表缩略图</string>
     <string name="entries_icon_dialog_title">缩略图是由字段的值确定</string>
     <string name="string_list_export_menu_title">导出项目</string>
     <string name="string_list_import_menu_title">导入项目</string>
@@ -974,7 +973,7 @@
     <string name="sort_by_downloads">排序方式下载</string>
     <string name="need_auth_on_memento_server">您需要的纪念品服务器上创建的帐户</string>
     <string name="empty_my_templates_list">您没有发表库模板。</string>
-    <string name="empty_field_depend_list">该字段对其他字段没有依赖关系。</string>
+    <string name="empty_field_depend_list">该字段对其他字段没有关联关系。</string>
     <string name="share_template_dialog_title">通过在线目录分享模板</string>
     <string name="empty_search_result2">您的搜索 - %s - 没有匹配的条目</string>
     <string name="invisible">无形</string>
@@ -983,7 +982,7 @@
     <string name="entries_view_menu_title">视图</string>
     <string name="entries_view_list">列表</string>
     <string name="entries_view_table">表格</string>
-    <string name="flex_edit_option_in_table">表格选项</string>
+    <string name="flex_edit_option_in_table">表条目</string>
     <string name="table_cell_image_text">显示</string>
     <string name="table_column_width">列宽</string>
     <string name="empty_list_after_filter">没有记录符合筛选条件。</string>
@@ -1019,9 +1018,9 @@
 </plurals>
     <string name="all">所有</string>
     <string name="page">页</string>
-    <string name="translate">翻译</string>
+    <string name="translate">语言翻译</string>
     <string name="entries_view_type_calendar">日历</string>
-    <string name="calendar_field_role">使用在Сalendar作为</string>
+    <string name="calendar_field_role">使用电子日历</string>
     <string name="calendar_field_role_start">开始时间</string>
     <string name="calendar_field_role_end">结束时间</string>
     <string name="calendar_field_role_duration_min">持续时间,分</string>
@@ -1066,14 +1065,14 @@
 	<string name="update_item_name_index">重建索引...</string>	
 	<string name="entry_name_must_be_unique">条目名称不唯一</string>
 	<string name="entry_name_must_be_notnull">条目名称不能为空</string>
-	<string name="library_have_duplicates">在图书馆里，条目名称相似</string>
+	<string name="library_have_duplicates">在库里，条目名称相似</string>
 	<string name="library_have_duplicates2">更改或删除重复的正常工作。</string>
 	<string name="dont_show_anymore">不要再显示</string>
-	<string name="need_make_slave_library_unique">要同步“链接到条目”字段，您必须启用条目名称的唯一性控制在图书馆该链接指向。\n现在做到这一点？</string>
-	<string name="need_make_slave_library_unique_import">要导入“链接到条目”字段，您必须启用条目名称的唯一性控制在图书馆该链接指向。\n现在做到这一点？</string>
+	<string name="need_make_slave_library_unique">要同步“链接到条目”字段，您必须启用条目名称的唯一性控制在库该链接指向。\n现在做到这一点？</string>
+	<string name="need_make_slave_library_unique_import">要导入“链接到条目”字段，您必须启用条目名称的唯一性控制在库该链接指向。\n现在做到这一点？</string>
 	<string name="run_sync_slave_libraries_pref">相关库</string>
 	<string name="run_sync_slave_libraries_summary">首先同步相关库</string>
-	<string name="choice_type_add_button_in_edit_title">元素而进入正在编辑的创造</string>
+	<string name="choice_type_add_button_in_edit_title">显示编辑时的增加按钮</string>
 	
 	<string name="show_deleted_entries_menu_item">显示已删除的项</string>
 	<string name="upload_to_cloud_menu_item">云</string>
@@ -1084,7 +1083,7 @@
 	<string name="start_remove_librarary_from_cloud">删除库...</string>
 	<string name="success_remove_librarary_from_cloud">库从云中成功删除</string>
 	<string name="start_upload_library_to_cloud">上传库...</string>	
-	<string name="success_upload_library_to_cloud">图书馆成功上载。\n该库将自动同步。</string>
+	<string name="success_upload_library_to_cloud">库成功上载。\n该库将自动同步。</string>
 	<string name="success_upload_library_to_cloud2">你可以让你的库访问其他纪念品用户访问设置。</string>	
 	<string name="push_entries_to_cloud_message" formatted="false">上传作品\n%s项%s的处理</string>
 	<string name="permissions">权限</string>
@@ -1241,7 +1240,7 @@
 
     <string name="autofill_rules_delete_title">删除自动填充规则</string>
     <string name="autofill_rules_delete_text">要删除源文件“%s”自动填充规则吗？</string>
-    <string name="empty_autofill_rules_list_text">匹配源属性和图书馆领域</string>
+    <string name="empty_autofill_rules_list_text">匹配源属性和库字段</string>
     <string formatted="false" name="movie_cast_person_item">%s as %s</string>
 
     <string name="copy_library_structure_menu_item">只有结构</string>
@@ -1250,13 +1249,13 @@
 
     <string name="encryption_for_cloud_uploaded_library">库加密只能在其上传到云之前被激活。</string>
     <string name="decryption_for_cloud_uploaded_library">不支持加密停用上传到库中的云。首先从云中删除库。</string>
-    <string name="need_reload_library_from_cloud_encrypted">在云中图书馆副本已加密。\n删除库的本地副本，然后从云再次下载库。</string>
+    <string name="need_reload_library_from_cloud_encrypted">在云中库副本已加密。\n删除库的本地副本，然后从云再次下载库。</string>
     <string name="need_reload_library_from_cloud_decrypted">在云中库拷贝被解密。\n删除库的本地副本，然后从云再次下载库。</string>
 
     <string name="render_pdf_menu_item">另存为PDF</string>
     <string name="entry_saved_as_pdf_success">PDF创建成功</string>
-    <string name="one_row_with_previous">一行与上一个</string>
-    <string name="protected_libraries_not_show_in_widget">保护库不能被显示在窗口小部件</string>
+    <string name="one_row_with_previous">排列到一行</string>
+    <string name="protected_libraries_not_show_in_widget">加密库不能被显示在窗口小部件</string>
     <string name="widget_free_limit_item_text">所有参赛作品只能到专业版的用户显示</string>
     <string name="rate_me_dialog_title">喜欢使用Memento？</string>
     <string name="rate_me_dialog_text">请为我们的谷歌商店</string>
@@ -1268,18 +1267,18 @@
     <string name="field_orientation_option_horizontal">卧式</string>
     <string name="field_orientation_option_vertical">垂直</string>
     <string name="preparing_files_for_sending">准备文件发送...</string>
-    <string name="whats_new_dialog_title">什么是新的？</string>
+    <string name="whats_new_dialog_title">更新了什么</string>
     <string name="font_size">尺寸</string>
     <string name="font_family">家庭</string>
     <string name="font_style">样式</string>
     <string name="font_color">颜色</string>
-    <string name="font_picker_dialog_title">字形</string>
+    <string name="font_picker_dialog_title">字体</string>
     <string name="font_style_normal">正常</string>
     <string name="font_style_bold">粗体</string>
     <string name="font_style_italic">斜体</string>
     <string name="font_style_bold_italic">粗斜体</string>
-    <string name="font_sample">样品</string>
-    <string name="font_sample_text">敏捷的棕色狐狸跳过了懒狗。</string>
+    <string name="font_sample">预览</string>
+    <string name="font_sample_text">The quick brown fox jumped over the lazy dog.\n原文意思：敏捷的棕色狐狸跳过了懒狗。</string>
     <string name="font_default_title">默认字体</string>
     <string name="choice_item_use_color_for_text">使用的文本颜色</string>
     <string name="rating_tooltips">工具提示</string>
@@ -1349,7 +1348,7 @@
     <string name="calc_preview_title">预览</string>
     <string name="add_relationship">关系</string>
     <string name="add_relationship_with_title">选择二级库</string>
-    <string name="add_relationship_success">将采用现场“%s”中提供的库之间的关系。</string>
+    <string name="add_relationship_success">将采用现场“%s”中提供的库之间的关联。</string>
     <string name="display_aggregation">显示汇总</string>
     <string name="display_aggregation_hint">聚集由链接库的条目</string>
     <string name="create_shortcut_text">该快捷方式键入一个名称</string>
@@ -1369,8 +1368,8 @@
 <string name="empty_autofill_list_text">创建从互联网上的数据记录自动填充规则</string>
     <string name="unlock_linked_library_text">链接库是加密的，则必须输入主密码</string>
     <string name="preview_calc_exec_time">Exec的定时: %d 毫秒</string>
-    <string name="group_by_and">所有的（与）</string>
-    <string name="group_by_or">任何的（OR）</string>
+    <string name="group_by_and">所有的（和）</string>
+    <string name="group_by_or">任何的（或）</string>
     <string name="field_delimiters">字段分隔符</string>
     <string name="field_enclosed">文字预选</string>
     
