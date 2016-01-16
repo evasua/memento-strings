@@ -1140,4 +1140,66 @@
     <string name="map_field_fast_option_hint">La posizione verrà determinata con scarsa accuratezza</string>
     <string name="map_field_address_option_title">Campo separato per l\'indirizzo</string>
     <string name="off">Off</string>
-    </resources>
+    <string name="auto_backup_not_yeat_launched">Non ancora lanciato</string>
+    <string name="auto_backup_run_group">Quando fare il backup automatico</string>
+    <string name="auto_backup_when_close_app">Dopo che l\'applicazione è stata chiusa</string>
+    <string name="auto_backup_when_sync">Prima di sincronizzare con Google</string>
+    <string name="auto_backup_when_edit_libs">Prima di modificare le librerie</string>
+    <string name="free_version_multi_field_limit">Nella versione gratuita, si possono aggiungere solo due elementi. Aggiorna alla versione PRO per rimuovere questa limitazione.</string>
+    <string name="scale">Scala %d</string>
+    <plurals name="duration_seconds">
+	<item quantity="one">1 secondo</item>
+	<item quantity="other">%d secondi</item>
+</plurals>
+    <plurals name="duration_minutes">
+	<item quantity="one">1 minuto</item>
+	<item quantity="other">%d minuti</item>
+</plurals>
+    <plurals name="duration_hours">
+	<item quantity="one">1 ora</item>
+	<item quantity="other">%d ore</item>
+</plurals>
+    <plurals name="duration_days">
+	<item quantity="one">1 giorno</item>
+	<item quantity="other">%d giorni</item>
+</plurals>
+    <string name="all">Tutto</string>
+    <string name="page">Pagina</string>
+    <string name="translate">Traduci</string>
+    <string name="entries_view_type_calendar">Calendario</string>
+    <string name="calendar_field_role">Usa nel Calendario come</string>
+    <string name="calendar_field_role_start">Inizio</string>
+    <string name="calendar_field_role_end">Fine</string>
+    <string name="calendar_field_role_duration_min">Durata, min</string>
+    <string name="calendar_field_role_duration_hour">Durata, ore</string>
+    <string name="calendar_field_role_duration_hour_time">Durata</string>
+    <string name="calendar_field_role_start_short">Inizio</string>
+    <string name="calendar_field_role_end_short">Fine</string>
+    <string name="calendar_field_role_duration_short">Durata</string>
+    <string name="calendar_day_view">Giornaliero</string>
+    <string name="calendar_3day_view">3 giorni</string>
+    <string name="calendar_week_view">Settimanale</string>
+    <string name="go_to_date">Vai alla data</string>
+    <string name="lost_linked_library">Libreria collegata assente, forse è stata rimossa.</string>
+    <string name="multichoice_field_empty">Nessun valore disponibile per la selezione</string>
+    <string name="show_add_button_on_tile">Pulsante \"Aggiungi elemento\"</string>
+    <string name="cant_find_audio_selection_app">Nessuna applicazione ler la scelta degli audio trovata.</string>
+    <string name="library_group_view_type">Visualizza</string>
+    <string name="library_group_view_type_big_tile">Schede grandi</string>
+    <string name="library_group_view_type_small_tile">Schede piccole</string>
+    <string name="library_group_view_type_icons">Icone</string>
+    <string name="icon_pack_title_files_types">File</string>
+    <string name="use_depend_only_in_edit_title">Dove usare</string>
+    <string name="use_depend_only_in_edit_hint_true">Solo quando si modifica un elemento</string>
+    <string name="use_depend_only_in_edit_hint_false">Quando si modifica e si visualizza un elemento</string>
+	<string name="most_viewed_templates">I più visti</string>    
+	<string name="featured_templates">Novità</string>
+	<string name="template_views_count">Visualizzazioni: %s</string>
+	<string name="sort_by_views">Ordina per Visualizzazioni</string>
+	<string name="select_category_template">Selezionare una categoria</string>	
+	<string name="select_template_lang">Selezionare una lingua per il modello</string>
+	<string name="template_language">Lingua:</string>	
+	<string name="display_lang_option">Filtra per Lingua</string>
+	<string name="display_lang_option_all">Tutti i modelli</string>
+	<string name="entries_name_dialog_title">I nomi degli elementi sono determinati dai valori dei campi scelti</string>
+	</resources>
