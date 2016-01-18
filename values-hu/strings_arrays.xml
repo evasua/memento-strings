@@ -62,4 +62,7 @@
     <string name="auto_backup_time_hour">Legfeljebb egyszer óránként</string>
     <string name="auto_backup_time_day">Legfeljebb naponta egyszer</string>
 <string name="edit_library_tabs_aggr">összegzés</string>
+    <string name="chart_discrete_axis">Diszkrét elemek</string>
+    <string name="chart_continuous_axis">Folytonos elemek</string>
+    <string name="edit_library_tabs_facade">Fő (kezdő)</string>
     </resources>
