@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<resources><string name="math_func_desc_0">Egy valós szám abszolút értéke.</string>
+<resources><string name="math_func_desc_0">Valós szám abszolút értéke.</string>
     <string name="math_func_desc_1">Egy szög arkusz koszinusz értéke.</string>
     <string name="math_func_desc_2">Egy szög arkusz szinusz értéke.</string>
     <string name="math_func_desc_3">Egy szög arkusz tangens értéke.</string>
@@ -27,4 +27,21 @@
 	 
 	 <string name="math_func_desc_12">Az első érték a második értékben szereplő hatványra emelve</string>
     <string name="math_func_desc_13">A kifejezéshez legközelebbi, egésszel megegyező valós érték</string>
+    <string name="function_args_substring"> <b>Paraméterek:</b> Az első kifejezés a vizsgált szöveg, a második az index kezdete, a harmadik az index vége.<br/> <b>Eredmény:</b> Eredménye egy meghatározott szövegrészlet (első és második index által határolt szövegrészlet). </string>	 	 	 
+	 	 	
+	 	 
+<string name="function_args_compareto"> <b>Paraméterek:</b> Az első és második elem egy-egy szöveges kifejezés, amiket összehasonlítunk.<br/> <b>Eredménye:</b> Eredménye 0 egész szám, ha a vizsgált kifejezések megegyeznek, negatív egész , aha az első megelőzi, és pozitív egész, ha követi a második kifejezést. </string>
+	 
+	 <string name="function_args_comparetoignorecase"> <b>Paraméterek:</b> Az első és második elem egy-egy szöveges kifejezés, amiket összehasonlítunk.<br/> <b>Eredménye:</b> Eredménye 0 egész szám, ha a vizsgált kifejezések megegyeznek, negatív egész, aha az első megelőzi, és pozitív egész, ha követi a második kifejezést. </string>
+	 
+	 <string name="function_args_concat"> <b>Paraméterek:</b> Két szöveges kifejezés, melyeket szeretnénk összefűzni. <br/> <b>Eredmény:</b> Eredménye az elsőként megadott kifejezés, a másodikkal összefűzve. </string>
+	 
+	 <string name="function_args_indexof"> <b>Paraméterek:</b> Első eleme egy szöveges kifejezés (forrás), második eleme egy szövegrészlet, a harmadik pedig az index.<br/> <b>Eredmény:</b> Eredménye az index, ahol a szövegrészlet a vizsgált kifejezésben szerepel. Ha a szövegrészlet nem található, az index értéke -1. </string>	 	
+	 
+	 
+	 <string name="function_args_replace"> <b>Paraméterek:</b> A kifejezés első eleme a kiinduló szöveg, amiben karaktereket szeretnénk cserélni. A második elem a cserélendő (eredeti) karakter. A harmadik elem pedig amire szeretnénk cserélni (új karakter).<br/> <b>Eredmény:</b> Eredménye az eredeti szöveg melyben, az összes cserélendő (eredeti) karakter az új-ra cserélődött. </string>	
+	 
+	 <string name="function_args_startswith"> <b>Paraméterek:</b> Első eleme a vizsgálandó szöveg, Második eleme az előtag, harmadik pedig az index, ahol az előtagnak kezdődnie kell. <br/> <b>Eredmény:</b> Eredménye 1.0 (igaz) Ha a szöveg az előtaggal kezdődik, máskülönben 0.0 (hamis). </string>	 
+	 
+	 <string name="math_func_desc_14">Valós számhoz legközelebbi egész</string>
     </resources>
