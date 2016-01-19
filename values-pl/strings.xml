@@ -1237,7 +1237,7 @@ wysłania...</string>
 	<item quantity="one">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
 	<item quantity="few">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
 	<item quantity="many">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
-	<item quantity="other"></item>
+	<item quantity="other"/>
 </plurals>
     <string name="button_select">Wybierz</string>
     <string name="cloud">Chmura</string>
@@ -1512,5 +1512,12 @@ wysłania...</string>
     <string name="app_permissions_only_for_android6">Tylko dla Android 6 lub wyżej</string>
     <string name="need_permission_dialog_title">Wymagane pozwolenie</string>
     <string name="need_permission_dialog_text">Ta operacja wymaga pozwolenia systemowego - %s</string>
+    
+<string name="unlock_linked_library_text">Powiązana biblioteka jest zakodowana, wpisz hasło główne</string>
+    <string name="preview_calc_exec_time">Czas reakcji: %d ms</string>
+    <string name="group_by_and">Wszystkie (I - AND)</string>
+    <string name="group_by_or">Dowolny z (LUB - OR)</string>
+    <string name="field_delimiters">Separator pola</string>
+    <string name="field_enclosed">Znacznik tekstu</string>
     
 </resources>
