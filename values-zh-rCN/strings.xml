@@ -58,8 +58,8 @@
     <string name="library_items_count">条目： %s</string>
     <string name="library_menu_select_sort">排序</string>
     <string name="library_menu_select_group">组</string>
-    <string name="select_sort_template">选择排序字段</string>
-    <string name="select_group_template">通过选择字段进行分组</string>
+    <string name="select_sort_template">选择作为排序的字段</string>
+    <string name="select_group_template">选择作为分组的字段</string>
     <string name="sort_by_date">创建时间</string>
     <string name="flex_delete_message_title">删除字段</string>
     <string name="flex_delete_message_text">您是否真的要删除字段\"%s\" ?</string>
@@ -513,7 +513,7 @@
     <string name="forum">论坛</string>
     <string name="autoincrement">自动增量</string>
     <string name="cant_protect">免费版本只允许加密两个库。\n升级到专业版可以解除此限制。</string>
-    <string name="flex_edit_option_title">你可以在这里编辑</string>
+    <string name="flex_edit_option_title">启用便捷编辑</string>
     <string name="flex_edit_option_default">编辑条目的方式</string>
     <string name="flex_edit_option_in_list">列表条目</string>
     <string name="flex_edit_option_in_view">卡片</string>
@@ -640,14 +640,14 @@
     <string name="flex_type_int_allow_direct_input2">直接输入</string>
     <string name="visible_field_depend_type">这个字段的可见性</string>
     <string name="visible_field_depend_state_visible">可见</string>
-    <string name="field_depends">这个字段的关联设置</string>
+    <string name="field_depends">字段的依赖关系</string>
     <string name="field_depends_activity_title">相关</string>
-    <string name="no_dependencies">没有相关关联</string>
+    <string name="no_dependencies">没有依赖关系</string>
     <string name="stats_edit_title_hint">结果前缀</string>
     <string name="stat_item_align_prompt">结果对齐</string>
     <string name="stat_item_line_prompt">位置的结果。</string>
     <string name="add_depends_button_title">增加一个依赖关系</string>
-    <string name="library_dont_have_fields_for_depends">库不包含对该字段依赖性结构适合的字段</string>
+    <string name="library_dont_have_fields_for_depends">该库对依赖结构并不是适合的字段</string>
     <string name="select_type_depends">选择依赖类型</string>
     <string name="select_type_depends_spinner_title">依赖类型</string>
     <string name="select_master_field_for_depend">选择要依赖的字段</string>
@@ -665,7 +665,7 @@
     <string name="backup_images_checkbox">创建备份相关图像、音频记录和其他文件的备份副本</string>
     <string name="backup_files_progress_title">文件备份</string>
     <string name="backup_files_error">备份文件中的错误：%s</string>
-    <string name="restore_files_message">备份副本包含与数据库相关联的文件的归档；您是否要恢复它们？</string>
+    <string name="restore_files_message">备份副本包含与数据库相关的文件存档;你想恢复呢？</string>
     <string name="restore_files_progress_title">恢复文件</string>
     <string name="restore_files_success2">与数据库相关的所有文件已打开</string>
     <string formatted="false" name="restore_files_error_message">未能从归档文件中恢复文件 %s</string>
@@ -711,7 +711,7 @@
     <string name="delete_template_from_google_drive_question">你真的想删除从谷歌硬盘的选择库吗？</string>
     <string name="delete_data_table_from_google_drive">删除与模板相关联的数据表</string>
     <string name="lock_library_edit_message">对库结构的更改被锁定。\n你可以打开这个库的设置编辑功能。</string>
-    <string name="lock_edit_library_pref_title">锁结构</string>
+    <string name="lock_edit_library_pref_title">锁定库的结构</string>
     <string name="lock_edit_library_pref_summary_on">不允许改变库结构</string>
     <string name="lock_edit_library_pref_summary_off">允许改变库结构</string>
     <string name="cant_restore_form_google_drive">您的设备不支持创建一个库从谷歌硬盘</string>
@@ -831,7 +831,7 @@
     <string name="select_group">选择组</string>
     <string name="library_moved_message">库搬进组“%s”</string>
     <string name="master_library_entries">从相关库条目</string>
-    <string name="catalog_templates">目录模板</string>
+    <string name="catalog_templates">在线模板</string>
     <string name="external_storage_title">储存卡</string>
     <string name="custom_storage_title">自定义</string>
     <string name="choose_dir">选择一个文件夹</string>
@@ -973,7 +973,7 @@
     <string name="sort_by_downloads">排序方式下载</string>
     <string name="need_auth_on_memento_server">您需要在memento服务器上创建帐户</string>
     <string name="empty_my_templates_list">您没有发表库模板。</string>
-    <string name="empty_field_depend_list">该字段对其他字段没有关联关系。</string>
+    <string name="empty_field_depend_list">该字段对其他字段没有依赖关系。</string>
     <string name="share_template_dialog_title">通过在线目录分享模板</string>
     <string name="empty_search_result2">您的搜索 - %s - 没有匹配的条目</string>
     <string name="invisible">无形</string>
@@ -1047,8 +1047,7 @@
     <string name="use_depend_only_in_edit_hint_false">在编辑和查看状态下</string>
 	<string name="year_default_now">本年度默认</string>
     <plurals name="field_depends_count">
-	<item quantity="one">一个依赖</item>
-	<item quantity="other">%d个依赖</item>
+	<item quantity="other">一个依赖关系</item>
 </plurals>
     <string name="most_viewed_templates">最受关注</string>    
 	<string name="featured_templates">精选</string>
@@ -1191,7 +1190,7 @@
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">库未找到</string>
 	<string name="upload_to_cloud_offer_title">{云就绪...}</string>
-	<string name="upload_to_cloud_offer_text">•团队合作\n•跨设备同步\n•备份总是在云中</string>
+	<string name="upload_to_cloud_offer_text">•团队合作\n•跨设备同步\n•备份到云中</string>
 	<string name="button_no_thanks">不用了，谢谢</string>
 	<string name="button_upload">上传</string>
 	
@@ -1244,7 +1243,7 @@
     <string formatted="false" name="movie_cast_person_item">%s as %s</string>
 
     <string name="copy_library_structure_menu_item">只有结构</string>
-    <string name="copy_all_library_menu_item">结构和条目</string>
+    <string name="copy_all_library_menu_item">结构和数据</string>
     <string name="copying_entries">复制项...</string>
 
     <string name="encryption_for_cloud_uploaded_library">库加密只能在其上传到云之前被激活。</string>
@@ -1333,7 +1332,7 @@
     <string name="cloud_file_error_upload">发送错误</string>
     <string name="cloud_file_uploading">上传</string>
     <string name="cloud_file_downloading">下载</string>
-    <string name="file_show_in_folder">展现在文件夹中</string>
+    <string name="file_show_in_folder">在文件夹中显示</string>
     <string name="file_show_in_entry">显示</string>
     <string name="sort_by_size">按大小</string>
     <string name="download_all">下载所有</string>
@@ -1346,11 +1345,11 @@
     <string name="preview_button">预览</string>
     <string name="select_calc_preview_entry">进入预览</string>
     <string name="calc_preview_title">预览</string>
-    <string name="add_relationship">关系</string>
+    <string name="add_relationship">关联库</string>
     <string name="add_relationship_with_title">选择二级库</string>
     <string name="add_relationship_success">将采用现场“%s”中提供的库之间的关联。</string>
     <string name="display_aggregation">显示聚合</string>
-    <string name="display_aggregation_hint">关联由链接库的条目</string>
+    <string name="display_aggregation_hint">聚合由链接库的条目</string>
     <string name="create_shortcut_text">该快捷方式键入一个名称</string>
     <string name="permission_storage_title">存储</string>
     <string name="permission_storage_text">要继续，给予Memento访问您的存储。</string>
