@@ -1458,7 +1458,9 @@ wysłania...</string>
 
     <plurals name="notification_edit_library_common_text">
 	<item quantity="one">Zmian nieodczytanych: %d</item>
-	<item quantity="other">Zmian nieodczytanych: %d</item>
+	<item quantity="few">Zmian nieodczytanych: %d</item>
+	<item quantity="many">Zmian nieodczytanych: %d</item>
+	<item quantity="other"/>
 </plurals>
 
     <string name="notification_edit_library_create_text">dodany wpis</string>
@@ -1466,7 +1468,9 @@ wysłania...</string>
     <string name="notification_edit_library_delete_text">usunięty wpis</string>
     <plurals name="notification_comments_common_text">
 	<item quantity="one">nowych komentarzy %d</item>
-	<item quantity="other">nowych komentarzy %d</item>
+	<item quantity="few">nowych komentarzy %d</item>
+	<item quantity="many">nowych komentarzy %d</item>
+	<item quantity="other"/>
 </plurals>
 
     <string name="flex_type_rich_text">Tekst RTF</string>
@@ -1518,6 +1522,6 @@ wysłania...</string>
     <string name="group_by_and">Wszystkie (I - AND)</string>
     <string name="group_by_or">Dowolny z (LUB - OR)</string>
     <string name="field_delimiters">Separator pola</string>
-    <string name="field_enclosed">Znacznik tekstu</string>
+    <string name="field_enclosed">Kwantyfikator tekstu</string>
     
 </resources>
