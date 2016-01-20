@@ -30,9 +30,9 @@
     <string name="template_category_sports">体育</string>
     <string name="template_category_travel">旅行</string>
     <string name="template_category_other">其它</string>
-    <string name="flex_edit_option_values_list">列表卡片式编辑</string>
-    <string name="flex_edit_option_values_card">库内容卡片式编辑</string>
-    <string name="flex_edit_option_values_table">表格卡片式编辑</string>
+    <string name="flex_edit_option_values_list">列表条目</string>
+    <string name="flex_edit_option_values_card">卡片条目</string>
+    <string name="flex_edit_option_values_table">表格选项</string>
     <string name="date_format_list_current_locale">当前语言环境</string>
     <string name="date_format_list_date_pref">用户的日期偏好</string>
     <string name="db_location_pref_internal">设备内存(手机内存)</string>
