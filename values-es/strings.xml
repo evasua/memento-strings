@@ -1292,14 +1292,14 @@
 	<item quantity="one">"%d  descripción emergente"</item>
 	<item quantity="other">"%d  descripción emergente"</item>
 </plurals>
-    <string name="upload_big_file_error" formatted="false">La entrada %s contiene un archivo grande %s (%).\nEl tamaño máximo permitido es %s.</string>
+    <string name="upload_big_file_error" formatted="false">La entrada %s contiene el archivo grande %s (%).\nEl tamaño máximo permitido es %s.</string>
     <string name="prepare_library_for_cloud">Procesando librería...</string>
     <string name="open_access_for_slave_libraries">Garantiza acceso de lectura a librerias subordinadas</string>
 	<string name="subscription_reactivation_error">Falló al obtener suscripciones activas: %s</string>
 	<string name="return_to_free_plan_message">Puedes cambiarte a una cuenta gratuita al darte de baja de Google Play</string>
 	<string name="subscription_already_activation_for_user">La suscripción no puede ser activada porque fue comprada por el usuario %s.</string>
 	<string name="library_cloud_count_limit">Tu tarifa de datos permite subir hasta %s librerías en la nube.</string>
-	<string name="cloud_library_not_found">La librería no fue encontrada en la nube. Posiblemente fue eliminada.\nDeseas convertir la libreria en local?</string>
+	<string name="cloud_library_not_found">La librería no fue encontrada en la nube. Posiblemente fue eliminada.\nDeseas convertir la libreria a local?</string>
 	<string name="invalid_library_template_file_format">Formato de archivo de plantilla inválido</string>    
 	<string name="subscription_pro_bonus_text">La mayor parte de las tarifas para almacenamiento en la nube incluyen la versión PRO de regalo</string>
 	<string name="autofill_need_barcode_field">Para poder autorellenar tu librería mediante el uso de código de barras, ésta debe incluir el campo \"Código de Barras\". Deseas crearlo?</string>
