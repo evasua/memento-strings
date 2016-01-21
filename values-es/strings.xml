@@ -1393,4 +1393,11 @@
     <string name="need_permission_dialog_title">Permiso requerido</string>
     <string name="need_permission_dialog_text">Esta operación requiere permiso del sistema - %s</string>
     
+<string name="unlock_linked_library_text">La biblioteca está encriptada, debe introducir la contraseña maestra</string>
+    <string name="preview_calc_exec_time">Tiempo de exec: %d ms</string>
+    <string name="group_by_and">Todos los (AND)</string>
+    <string name="group_by_or">Cualquiera de (OR)</string>
+    <string name="field_delimiters">Delimitador de campo</string>
+    <string name="field_enclosed">Cualificador de texto</string>
+    
 </resources>
