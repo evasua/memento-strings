@@ -274,6 +274,22 @@
     <string name="public_library_task_auth">Bejelentkezés a Memento szolgltatásba</string>
     <string name="public_library_task_send_template">Könyvtár minta küldése</string>
     <string formatted="false" name="public_library_task_send_items">Könyvtár elemeinek átvitele.\n%s a %s -ből</string>
-    <string name="memento_not_support_template">Elavult Mementoverzióthasználsz,frissítsd</string>
+    <string name="memento_not_support_template">Elavult Memento verziót használsz, frissítsd</string>
     <string name="memento_not_found">Forrás nem található</string>
+    <string name="alias_hint">Add meg a könyvtár nevét</string>
+    <string name="button_publish">Közzé tesz</string>
+    <string name="publish_update_success">A publikált adatok frissítve</string>
+    <string name="private_library_checkbox">Privát hozzáférés</string>
+    <string name="private_library_checkbox_hint">Csak meghatározott felhasználók férhetnek hozzá a könyvtár adataihoz</string>
+    <string name="enter_alias">Írd be a könyvtár nevét</string>
+    <string name="incorrect_alias">A könyvtár neve csak betűket és számokat tartalmazhat</string>
+    <string name="public_library_address_text">Könyvtár címe</string>
+    <string name="alias_exists">Már közzétetted a könyvtárat ezzel a névvel</string>
+    <string name="memento_forbidden_error">A hozzáférés letiltva</string>
+    <string name="publish_library_address">A(z) %s könyvtár elérhető itt</string>
+    <string name="publish_library_address_hint">Barátaid megtekinthetik ezt a könyvtárat. Hogy megtehessék, a fenti címet használva feliratkozhatnak.</string>
+    <string name="deafult_group_title">Könyvtáraim</string>
+    <string name="subscribe_activity_title">Feliratkozás a könyvtárakra</string>
+    <string name="library_uri_hint">Könyvtár íme / felhasználónév</string>
+    <string name="find_libraries_task_title">Könyvtár keresés</string>
     </resources>
