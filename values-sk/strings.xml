@@ -132,7 +132,7 @@
     <string name="activate_button_hint">Potrebujete aktivačný kľúč</string>
     <string name="activate_main_text">Upgrade na PRO verziu</string>
     <string name="activation_dialog_text_hint">Zadajte aktivačný kód</string>
-    <string name="activation_dialog_title">Aktivácia PRO verzie</string>
+    <string name="activation_dialog_title">Upgrade na PRO verziu</string>
     <string name="activation_ok">Ďakujeme za aktiváciu Mementa</string>
     <string name="activation_error">Aktivačný kód je chybný. Prosím, zadajte ho znovu.</string>
     <string name="about">O programe</string>
@@ -1043,4 +1043,60 @@
     <string name="calendar_3day_view">3-dňové zobrazenie</string>
     <string name="calendar_week_view">Týždňové zobrazenie</string>
     <string name="go_to_date">Choď na dátum</string>
-    </resources>
+    <string name="lost_linked_library">Prepojená knižnica nebola nájdená, možno bola odstránená.</string>
+    <string name="multichoice_field_empty">Žiadne hodnoty nie sú dostupné pre výber</string>
+    <string name="show_add_button_on_tile">Tlačidlo \"Pridať záznam\"</string>
+    <string name="cant_find_audio_selection_app">Bohužiaľ, ale aplikácia pre voľbu audiozáznamu nebola nájdená.</string>
+    <string name="library_group_view_type">Zobrazenie</string>
+    <string name="library_group_view_type_big_tile">Veľké dlaždice</string>
+    <string name="library_group_view_type_small_tile">Malé dlaždice</string>
+    <string name="library_group_view_type_icons">ikony</string>
+    <string name="icon_pack_title_files_types">Súbory</string>
+    <string name="use_depend_only_in_edit_title">Kde použiť</string>
+    <string name="use_depend_only_in_edit_hint_true">Len pri editácii záznamu</string>
+    <string name="use_depend_only_in_edit_hint_false">Pri editácii a prezeraní záznamu</string>
+	<string name="most_viewed_templates">Často prezerané</string>    
+	<string name="featured_templates">Odporúčané</string>
+	<string name="template_views_count">Zobrazenia: %s</string>
+	<string name="sort_by_views">Triediť podľa zobrazení</string>
+	<string name="select_category_template">Prosím, vyberte kategóriu</string>	
+	<string name="select_template_lang">Vyberte jazyk šablóny</string>
+	<string name="template_language">Jazyk:</string>	
+	<string name="display_lang_option">Filtrovať podľa jazyka</string>
+	<string name="display_lang_option_all">Všetky šablóby</string>
+	<string name="entries_name_dialog_title">Názvy záznamov sú stanovené podľa hodnôt zvolených polí</string>
+	<string name="entries_name_is_unique">Názov záznamu je jedinečný</string> 
+	<string name="no_fields_for_role">V tejto knižnici nie sú žiadne vyhovujúce polia pre túto úlohu</string>
+	<string name="update_item_name_index">Zostavenie indexu ...</string>	
+	<string name="entry_name_must_be_unique">Názov záznamu nie je jedinečný</string>
+	<string name="entry_name_must_be_notnull">Názov záznamu by nemal byť prázdny</string>
+	<string name="library_have_duplicates">V tejto knižnici, záznamy s podobnými názvami</string>
+	<string name="library_have_duplicates2">Pre správne fungovanie zmeňte alebo zmažte duplicity.</string>
+	<string name="dont_show_anymore">Už viac nezobrazovať</string>
+	<string name="need_make_slave_library_unique">Ak chcete synchronizovať pole \"Odkaz na záznam\", musíte povoliť kontrolu jedinečnosti názvu položky v knižnici, na ktorú sa viaže odkaz.↵\nUrobiť to teraz?</string>
+	<string name="need_make_slave_library_unique_import">Ak chcete importovať polia \"Odkaz na záznam\", musíte povoliť kontrolu jedinečnosti názvu položky v knižnici, na ktorú sa viaže odkaz.↵\nUrobiť to teraz?</string>
+	<string name="run_sync_slave_libraries_pref">Spojené knižnice</string>
+	<string name="run_sync_slave_libraries_summary">Prvá synchronizácia prepojených knižníc</string>
+	<string name="choice_type_add_button_in_edit_title">Vytvorenie prvkov, počas úpravy záznamu</string>
+	
+	<string name="show_deleted_entries_menu_item">Ukázať zmazané záznamy</string>
+	<string name="upload_to_cloud_menu_item">Do Cloud-u</string>
+	<string name="welcome_text_title">Vitajte v Memento Databáze</string>
+	<string name="welcome_text_description">Knižnica je miesto, kde sa budú ukladať vaše záznamy.↵\nMôžete sa oboznámiť s programom vytvorením knižnice založenej na jednej z uvedených šablón.</string>
+	
+	<string name="memento_cloud">Cloud</string>
+	<string name="start_remove_librarary_from_cloud">Mazanie knižnice ...</string>
+	<string name="success_remove_librarary_from_cloud">Knižnica bola úspešne odstránená z cloud-u</string>
+	<string name="start_upload_library_to_cloud">Nahrávanie knižnice ...</string>	
+	<string name="success_upload_library_to_cloud">Knižnica je úspešne nahratá.↵\nKnižnica bude synchronizovaná automaticky.</string>
+	<string name="success_upload_library_to_cloud2">Môžete sprístupniť svoju knižnicu pre ostatných užívateľov Mementa v nastavení prístupu.</string>	
+	<string name="push_entries_to_cloud_message" formatted="false">Nahrávanie záznamov↵\n%s of %s záznamov spracovaných</string>
+	<string name="permissions">Oprávnenia</string>
+	<string name="button_hide">skryť</string>	
+	<string name="empty_cloud_libraries_list_text">Nemáte žiadne odoslané knižnice</string>
+	<string name="my_cloud_libraries_menu_item">Cloud úložisko</string>
+	<string name="start_download_library_model">"Nahrávanie štruktúry knižnice  ..."</string>
+	<string name="open_library">Otvor knižnicu</string>
+	<string name="open_library_hint">Otvor miestnu kópiu</string>
+	<string name="download_library">Stiahnutie knižnice</string>
+	</resources>
