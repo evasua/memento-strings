@@ -57,7 +57,7 @@
     <string name="calc_result_types_date">Ergebnis Datum</string>
     <string name="calc_result_types_datetime">Ergebnis Datum/Zeit</string>
     <string name="calc_result_types_string">Ergebnis Text</string>
-    <string name="date_format_list_current_locale">aktuell lokal</string>
+    <string name="date_format_list_current_locale">Systemstandard</string>
     <string name="date_format_list_date_pref">Anwender Datumseinstellung</string>
     <string name="db_location_pref_internal">interner Gerätespeicher</string>
     <string name="db_location_pref_custom">Benutzer</string>
