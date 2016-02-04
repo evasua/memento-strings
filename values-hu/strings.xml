@@ -292,4 +292,37 @@
     <string name="subscribe_activity_title">Feliratkozás a könyvtárakra</string>
     <string name="library_uri_hint">Könyvtár íme / felhasználónév</string>
     <string name="find_libraries_task_title">Könyvtár keresés</string>
+    <string name="wrong_library_address_format">Érvénytelen cím formátum</string>
+    <string name="last_update">Utulsó frissítés : %s</string>
+    <string name="subscribe_button">Feliratkozás</string>
+    <string name="subscribe_task_get_library">Elemek betöltése</string>
+    <string name="subscribe_task_create_library">Könyvtár létrehozása</string>
+    <string formatted="false" name="subscribe_task_save_library_task">Elemek mentése.\n%s a %s -ből</string>
+    <string name="subscribe_task_create_index">Index létrehozása</string>
+    <string name="subscribes_group_title">Feliratkozások</string>
+    <string name="library_settings">Beállítás</string>
+    <string name="subscribe_get_updated_pack">Frissítések keresése</string>
+    <string name="subscribe_have_updated_pack">Frissítés betöltve</string>
+    <string name="subscribe_last_update">Utolsó frissítés %s</string>
+    <string name="subscribe_last_update_dialog_title">Könyvtár frissítése</string>
+    <string name="subscribe_last_update_dialog_message">Könyvtár frissítése</string>
+    <string name="clear_preference">Könyvtér létrehozása</string>
+    <string name="clear_preference_hint">A könyvtár összes elemének törlése</string>
+    <string name="clear_preference_quest">Törli az összes elemet a könyvtárból?</string>
+    <string name="last_sync">Utolsó szinkronizálás: %s</string>
+    <string name="last_public">Közzétéve: %s</string>
+    <string name="unpublic_library_title">Nyilvánosság visszavonása</string>
+    <string name="unpublic_library">Nyilvánosság megszüntetése</string>
+    <string name="unpublish_success">A könyvtár nem nyilvános</string>
+    <string name="unpublic_message_text">Biztosan nem nyilvánossá teszed a \"%s\" könyvtárat?</string>
+    <string name="unbind_from_gdocs_hint">Google Táblázat kapcsolat visszavonása</string>
+    <string name="preference_category_google_docs">Google Táblázatok</string>
+    <string name="unbind_from_google_docs_success">A könyvtár már nincs összekapcsolva a Google Táblázattal</string>
+    <string name="preference_category_memento_server">Memento Szerver</string>
+    <string name="unpublic_library_hint">Közzététel visszavonása</string>
+    <string name="need_unpublic_library">Mielőtt törlöd a könyvtárat, vissza kell vonnod a közzétételét</string>
+    <string name="rename_library">Átnevezés</string>
+    <string name="rename_dialog_title">Átnevezés</string>
+    <string name="rename_dialog_text">Könyvtár neve</string>
+    <string name="flex_image_load">Kép betöltése ...</string>
     </resources>
