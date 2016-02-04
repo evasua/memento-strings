@@ -1,2 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="call">שיחה</string>
+    <string name="send_sms">שלח מסרון</string>
+    <string name="light_theme">תצוגה בהירה</string>
+    <string name="dark_theme">תצוגה כהה</string>
+    <string name="datetime_filter_items_today">היום</string>
+    <string name="datetime_filter_items_yesterday">אתמול</string>
+    <string name="datetime_filter_items_week">השבוע</string>
+    <string name="datetime_filter_items_month">החודש</string>
+    <string name="datetime_filter_items_last_week">השבוע שעבר</string>
+    <string name="datetime_filter_items_last_month">החודש שעבר</string>
+    </resources>
