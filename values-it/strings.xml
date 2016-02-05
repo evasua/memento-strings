@@ -1202,4 +1202,200 @@
 	<string name="display_lang_option">Filtra per Lingua</string>
 	<string name="display_lang_option_all">Tutti i modelli</string>
 	<string name="entries_name_dialog_title">I nomi degli elementi sono determinati dai valori dei campi scelti</string>
-	</resources>
+	<string name="entries_name_is_unique">Il nome dell\'elemento è unico</string> 
+	<string name="no_fields_for_role">In questa libreria non ci sono campi indicati per questo ruolo</string>
+	<string name="update_item_name_index">Indicizzazione in corso...</string>	
+	<string name="entry_name_must_be_unique">Il nome dell\'elemento non è unico</string>
+	<string name="entry_name_must_be_notnull">Il nome dell\'elemento non può rimanere vuoto</string>
+	<string name="library_have_duplicates">Sono presenti elementi con lo stesso nome nella libreria</string>
+	<string name="library_have_duplicates2">Cambiare o eliminare i duplicati per il corretto funzionamento.</string>
+	<string name="dont_show_anymore">Non mostrare di nuovo</string>
+	<string name="need_make_slave_library_unique">Per sincronizzare i campi \" Collega all\'elemento\", devi abilitare l\'unicità del nome degli elementi nella libreria alla quale si riferiscono i collegamenti.\nVuoi farlo ora?</string>
+	<string name="need_make_slave_library_unique_import">Per importare i campi \"Collega all\'elemento\", devi abilitare l\'unicità del nome degli elementi nella libreria alla quale si riferiscono i collegamenti.\nVuoi farlo ora?</string>
+	<string name="run_sync_slave_libraries_pref">Librerie collegate</string>
+	<string name="run_sync_slave_libraries_summary">Sincronizzare prima le librerie associate</string>
+	<string name="choice_type_add_button_in_edit_title">La creazione di elementi mentre un elemento viene modificato</string>
+	
+	<string name="show_deleted_entries_menu_item">Mostra elementi eliminati</string>
+	<string name="upload_to_cloud_menu_item">Salva nel Cloud</string>
+	<string name="welcome_text_title">Benvenuto nel Database di Memento</string>
+	<string name="welcome_text_description">La libreria è il luogo dove vengono raccolti i tuoi elementi.\nPuoi iniziare a familiarizzare con il programma creando una libreria basata su uno dei modelli predefiniti.</string>
+	
+	<string name="memento_cloud">Cloud</string>
+	<string name="start_remove_librarary_from_cloud">Eliminazione libreria...</string>
+	<string name="success_remove_librarary_from_cloud">Libreria eliminata dal cloud con successo</string>
+	<string name="start_upload_library_to_cloud">Caricamento libreria...</string>	
+	<string name="success_upload_library_to_cloud">Libreria caricata con successo.\nVerrà sincronizzata automaticamente.</string>
+	<string name="success_upload_library_to_cloud2">Puoi rendere la tua libreria accessibile ad altri utenti di Memento nelle impostazioni di accesso.</string>	
+	<string name="push_entries_to_cloud_message" formatted="false">Caricamento elementi\n%s di %s elementi processati</string>
+	<string name="permissions">Permessi</string>
+	<string name="button_hide">Nascondi</string>	
+	<string name="empty_cloud_libraries_list_text">Nessuna libreria caricata nel cloud</string>
+	<string name="my_cloud_libraries_menu_item">Spazio Cloud</string>
+	<string name="start_download_library_model">Caricamento della struttura della libreria...</string>
+	<string name="open_library">Apri libreria</string>
+	<string name="open_library_hint">Apri una copia locale</string>
+	<string name="download_library">Scarica libreria</string>
+	<string name="download_library_hint">Crea una copia locale</string>			
+	<string name="pull_entries_from_cloud_message">Scaricamento elementi...</string>
+	<string name="pull_entries_from_cloud_message2" formatted="false">%s di %s elementi processati</string>
+	<string name="success_pull_library_from_cloud">Elementi scaricati con successo.\nLa libreria verrà sincronizzata automaticamente.</string>
+	<string name="cloud_conflict_fields_title">Conflitti</string>
+	<string name="cloud_conflict_fix_button_title">Correggi</string>
+    <plurals name="conflict_count">
+	<item quantity="one">%d conflitto riscontrato durante la sincronizzazione</item>
+	<item quantity="other">%d conflitti riscontrati durante la sincronizzazione</item>
+</plurals>
+    <string name="button_select">Seleziona</string>
+    <string name="cloud">Cloud</string>
+    <string name="library_not_in_cloud">Non presente nel cloud</string>
+    <string name="synced">Sincronizzato %s</string>
+    <string name="cloud_synced_progress">Sincronizzazione …</string>
+    <string name="cloud_offline">Offline</string>
+    <string name="cloud_last_sync">Ultima sincronizzazione</string>
+    <string name="entries">Elementi</string>
+    <string name="cloud_created">Creata</string>
+    <string name="cloud_modified">Modificata</string>
+    <string name="cloud_size">Dimensioni</string>
+    <string name="cloud_files_count">Numero di files</string>
+    <string name="cloud_who_has_access">Chi può accedere</string>
+    <string name="cloud_server_unavaliable">Il Server Cloud di Memento non è disponibile, controllare la connessione ad internet sul dispositivo</string>
+    <string name="delete_from_cloud">Elimina dal cloud</string>
+    <string name="delete_from_cloud_message_question">Vuoi veramente eliminare la libreria dal cloud?</string>
+        
+    <string name="byteShort">B</string>    
+    <string name="kilobyteShort">Kb</string>
+    <string name="megabyteShort">Mb</string>
+    <string name="gigabyteShort">Gb</string>
+    <string name="button_refresh">Aggiorna</string>
+    <string name="cloud_storage_space_text" formatted="false">%s (%s) di %s utilizzati</string>   
+    <string name="start_download_file_from_cloud">Il file %s verrà scaricato</string>
+    <string name="upload_file_to_cloud">Caricamento file...</string>    
+    <string name="upload_files_to_cloud">Caricamento files</string>
+    <string name="cloud_upload_error_title">Impossibile sincronizzare la libreria</string>
+    <string name="upload_big_file_error" formatted="false">L\'elemento %s contiene un file grande %s (%s).\nLe dimensioni massime del file sono %s.</string>
+    <string name="prepare_library_for_cloud">Elaborazione della libreria in corso...</string>
+    <string name="download_files_from_cloud">Scaricamento dei files dal cloud...</string>
+    <string name="cant_download_item_files_for_copy">Lo scaricamento dei files per la creazione delle copie è fallito.</string> 
+    <string name="library_cloud_model_changed_message">La struttura della libreria è stata aggiornata nel cloud. Aggiorna la struttura per ulteriori aggiornamenti.</string>
+    <string name="button_update">Aggiorna</string>
+    <string name="add_people">Aggiungi persone</string>
+    <string name="read_permission">Lettura</string>      
+    <string name="write_permission">Scrittura</string>
+    <string name="create_permission">Creazione</string>
+    <string name="delete_permission">Eliminazione</string>
+    
+    <string name="allow_permission">Accetta</string>
+	<string name="deny_permission">Rifiuta</string>
+	<string name="only_owner_permission">Solo il proprietario</string>
+	<string name="user_not_found">Utente nom trovato</string>
+	<string name="edit_permission">Impostazione di condivisione degli utenti</string>	
+	<string name="push_entry_error_text" formatted="false">L\'elemento non è salvato nel cloud.\nNome: %s\nErrore: %s</string>
+	<string name="push_error_forbidden">Accesso negato</string>
+	<string name="button_ignore">Ignora</string>
+	<string name="button_try_again">Riprova</string>	
+	<string name="cloud_library_forbidden">Non hai i permessi per accedere alla libreria</string>
+	<string name="shared_with_me">Condivise con me</string>
+	<string name="entry_author">Autore</string>
+	<string name="info_menu_item">Informazioni</string>   
+	<string name="need_upload_to_cloud_slave_libraries">Per favore, carica le librerie subordinate nel cloud.</string>
+	<string name="start_download_slave_library_model">Caricamento librerie subordinate %s</string>
+	<string name="open_access_for_slave_libraries">Consentire l\'accesso in lettura alle librerie subordinate</string>
+	<string name="cloud_storage_full_text">Spazio insufficiente nel cloud.\nAggiornare ad un piano in abbonamento per godere di più spazio.</string>
+	<string name="cloud_storage_full_text2" formatted="false">Spazio insufficiente nel cloud.\n%s richiesto, %s disponibile.\nAggiornare ad un piano in abbonamento per godere di più spazio.</string>
+	<string name="alien_cloud_storage_full_text">Il proprietario della libreria non ha abbastanza spazio in memoria.</string>	
+	<string name="button_tarifs">Costi</string>
+	<string name="cloud_storage_plans">Abbonamenti</string>
+	<string name="price_free">GRATIS</string>
+	<string name="price_per_month">%/mese</string>
+	<string name="unlimited_libraries">Librerie illimitate</string>	
+	<string name="adv_free">Nessuna pubblicità</string>
+	<string name="subscription_activation">Attiva sottoscrizione ...</string>
+	<string name="subscription_activation_error">Errore di attivazione: %s</string>
+	<string name="subscription_reactivation_error">Sottoscrizione fallita: %s</string>
+	<string name="google_play_unavaliable">Google Play non è disponibile :(</string>
+	<string name="return_to_free_plan_message">Puoi tornare ad un account grats disattivando la sottoscrizione in Google Play</string>
+	<string name="subscription_already_activation_for_user">La sottoscrizione non può essere attivata perché gia acquistata per l\'utente %s.</string>
+	<string name="library_cloud_count_limit">Il tuo abbonamento permette di caricare nel cloud fino a %s librerie.</string>
+	<string name="restore_cloud_library_from_recycle">Questa libreria locale è stata eliminata. Ripristinarla?</string>
+	<string name="cloud_file_while_not_upload">Il file non è ancora nel cloud</string>
+	<string name="upload_ecrypted_libraries_dont_supported">Il caricamento nel cloud delle librerie criptate è temporaneamente non disponibile.</string>
+	<string name="button_signin">Accedi</string>
+	<string name="cloud_library_not_found">La libreria non è stata trovata nel cloud. Probabilmente è stata eliminata.\nConvertire la libreria in una copia locale?</string>
+	<string name="cloud_library_already_uploaded">Questa libreria è già stata caricata nel cloud.</string>
+	<string name="library_alias_menu_item">Alias</string>
+	<string name="library_public_access">Accesso pubblico</string>
+	<string name="library_public_access_disabled">Disabilitato</string>
+	<string name="library_access_read_only">Sola lettura</string>
+	<string name="library_access_can_edit">Modifiche consentite</string>
+	<string name="owner">Proprietario</string>
+	<string name="find_library_by_url_title">Apri da URL</string>
+	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
+	<string name="library_not_found_by_uri">Libreria non trovata</string>
+	<string name="upload_to_cloud_offer_title">{pronta per il cloud...}</string>
+	<string name="upload_to_cloud_offer_text">• Lavoro di gruppo\n• Sincronizza tra i dispositivi\n• I backup sono sempre nel cloud</string>
+	<string name="button_no_thanks">No, grazie</string>
+	<string name="button_upload">Carica</string>
+	
+	<string name="cant_upload_file_to_cloud">Caricamento file(s) fallito.</string>
+    <string name="button_show">Mostra</string>
+	<string name="invalid_library_template_file_format">Formato file del modello nom valido</string>    
+	<string name="cant_add_yourself">Non puoi aggiungere te stesso</string>
+	<string name="remove_from_old_public">Prima di caricare la libreria nel cloud sarà resa privata se è stata pubblicata con metodi obsoleti.</string>
+	<string name="select_template_title">Seleziona il modello</string>
+	<string name="empty_library_title">Libreria vuota</string>
+	<string name="catalog_templates_title">Catalogo online</string>
+	<string name="catalog_templates_hint">Oltre 3000 modelli</string>
+	<string name="add_lib_from_google_drive_hint">Ripristina da Google Drive</string>
+	<string name="templates">Modelli</string>
+	<string name="import_template_from_file_hint">Importa modello da file</string>
+	<string name="help_cloud">Memoria cloud e lavoro di gruppo</string>
+	<string name="subscription_pro_bonus_text">La maggior parte degli abbonamenti cloud includono la versione PRO in regalo</string>
+	<string name="send_formatting_menu_item">Formattazione...</string>
+	<string name="pro_for_cloud_storage_title">Sottoscrizione</string>
+	<string name="default_file_manager_pref_title">Gestore File</string>
+	<string name="default_file_manager_built_in">Interno</string>	
+	<string name="clear_search_history">Cancella la cronologia di ricerca</string>
+	<string name="clear_search_history_hint">Rimuovi tutte le ricerche effettuate</string>
+	<string name="success_clear_search_history">La cronologia di ricerca è stata cancellata</string>	
+	<string name="clear_search_history_quest">Sei sicuro di voler cancellare la cronologia di ricerca?</string>
+	<string name="uservoice_menu_title">Suggerisci</string>
+	<string name="view_csv_error_dialog_message">Nessuna applicazione per la visualizzazione dei file CSV trovata</string>
+	
+	<string name="edit_library_tabs_autofill">Riempimento automatico</string>
+	<string name="autofill_from">Da %s</string>
+	<string name="autofill_by_barcode">Per codice a barre</string>
+	<string name="autofill_by_title">Per titolo</string>
+	<string name="autofill_need_barcode_field">Per completare in automatico la libreria per codice a barre, deve contenere il campo \"Codice a barre\". Desideri crearlo?</string>
+	<string name="autofill_need_text_field">Per completare in automatico la libreria per titolo, deve contenere il campo \"Testo\". Desideri crearlo?</string>
+	<string name="autofill_select_master_field">Campo utilizzato per la ricerca</string>
+	<string name="autofill_rules_title">Regole di autocompletamento</string>
+	<string name="music_brainz_source_artist">Artisti musicali</string>
+    <string name="music_brainz_source_album">Albums</string>
+	<string name="music_brainz_source">musicbrainz.org</string>
+	<string name="unknown_data_source">Sconosciuto</string>
+    <string name="google_books_source">Google Libri</string>
+    <string name="google_books_source_books">Libri</string>
+    <string name="themoviedb_source">themoviedb.org</string>
+    <string name="themoviedb_source_movies">Films</string>
+    <string name="themoviedb_source_tv">TV</string>
+
+    <string name="autofill_rules_delete_title">Elimina le regole di autocompletamento</string>
+    <string name="autofill_rules_delete_text">Sei sicuro di voler eliminare le regole di autocompletamento da \"%s\" ?</string>
+    <string name="empty_autofill_list_text">Crea regole di autocompletamento per i dati raccolti da Internet</string>
+    <string name="empty_autofill_rules_list_text">Combina attributi e campi della libreria</string>
+    <string formatted="false" name="movie_cast_person_item">%s è %s</string>
+
+    <string name="copy_library_structure_menu_item">Solo la struttura</string>
+    <string name="copy_all_library_menu_item">Struttura ed elementi</string>
+    <string name="copying_entries">Copia degli elementi ...</string>
+
+    <string name="encryption_for_cloud_uploaded_library">La crittografia della libreria può essere attivata solo se è stata prima caricata nel cloud.</string>
+    <string name="unlock_linked_library_text">La libreria collegata è criptata, inserire la password</string>
+    <string name="preview_calc_exec_time">Tempo di esecuzione: %d ms</string>
+    <string name="group_by_and">Tutto per (AND)</string>
+    <string name="group_by_or">Tutti per (OR)</string>
+    <string name="field_delimiters">Delimitatore del campo</string>
+    <string name="field_enclosed">Qualifica testo</string>
+    
+</resources>
