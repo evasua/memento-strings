@@ -1099,4 +1099,10 @@
 	<string name="open_library">Otvor knižnicu</string>
 	<string name="open_library_hint">Otvor miestnu kópiu</string>
 	<string name="download_library">Stiahnutie knižnice</string>
-	</resources>
+	<string name="download_library_hint">Vytvorí lokálnu kópiu</string>			
+	<string name="pull_entries_from_cloud_message">Sťahovanie záznamov ...</string>
+	<string name="pull_entries_from_cloud_message2" formatted="false">%s of %s záznamov spracovaných</string>
+	<string name="success_pull_library_from_cloud">Záznamy sú úspešne stiahnuté.↵\nKnižnica bude automaticky synchronizovaná.</string>
+	<string name="cloud_conflict_fields_title">Konflikt</string>
+	<string name="cloud_conflict_fix_button_title">Opraviť</string>
+    </resources>
