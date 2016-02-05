@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Memento</string>
+    <string name="app_name">Database di Memento</string>
     <string name="library_menu_add_item">Aggiungi un elemento</string>
     <string name="main_menu_add_lib">Aggiungi una libreria</string>
     <string name="ghostData_lib_title">Nome della libreria</string>
@@ -182,12 +182,12 @@
     <string name="empty_result_text">Prodotto non trovato</string>
     <string name="add_entry_manual">Aggiungi manualmente ...</string>
     <string name="fill_entry_manual">Riempi manualmente ...</string>
-    <string name="flex_type_barcode">Barcode</string>
+    <string name="flex_type_barcode">Codice a barre</string>
     <string name="flex_type_barcode_option">Configura il campo per l\'autocompletamento</string>
     <string name="button_add_fill_field">Aggiungi una regola per l\'autocompletamento</string>
     <string name="barcode_auto_fill_checkbox">Autocompletamento</string>
     <string name="add_fill_field_dialog_title">Crea una regola per l\'autocompletamento</string>
-    <string name="memento_field">Verrà salvato nel campo</string>
+    <string name="memento_field">Verrà salvato nel campo dell\'elemento</string>
     <string name="memento_field_promt">Campi associati agli elementi della libreria</string>
     <string name="uniquery_check_fail">Una libreria non può contenere più di un campo di tipo "%s"</string>
     <string name="to">a</string>
@@ -401,7 +401,7 @@
     <string name="library_is_locked">La libreria è criptata con password di protezione</string>
     <string name="library_pass_access_description">Devi inserire la password di protezione per poter accedere alla libreria</string>
     <string name="library_encription_checkbox">Crittografia dei contenuti</string>
-    <string name="library_encription_description">I campi di testo degli elementi verranno criptati con algoritmo AES</string>
+    <string name="library_encription_description">I campi di testo degli elementi verranno criptati con algoritmo AES.\nCerca gli elementi criptati che non sono supportati.</string>
     <string name="set_library_protection_title">Crittografia dei contenuti</string>
     <string name="set_library_protection_message">Memento sta criptando gli elementi della libreria ...</string>
     <string name="remove_library_protection">Elimina la protezione</string>
@@ -535,7 +535,7 @@
     <string name="flex_edit_option_in_view">modulo voce</string>
     <!-- 1.9.0 -->
     <string name="loading_google_document_list">Caricamento...</string>
-    <string name="google_doc_list_title">Google documents</string>
+    <string name="google_doc_list_title">Google Documenti</string>
     <string name="updated_document_time">Aggiornati: %s</string>
     <string name="move_from_google_docs">Trasferimento dati da Google Sheets a Memento</string>
     <string name="move_from_google_docs_attention">Tutte le voci della libreria saranno eliminate</string>
@@ -580,15 +580,15 @@
     <string name="time_default_now">Orario corrente di default</string>
     <string name="determination_location">Determinazione della locazione...</string>
     <!-- 1.9.3 -->
-    <string name="preference_category_export_data_cfg">Impostazioni Importa/Esporta/Sincron.</string>
+    <string name="preference_category_export_data_cfg">Impostazioni Importa/Esporta/Sincronizza</string>
     <string name="import_export_date_format">Seleziona formato data</string>
-    <string name="import_export_date_format_dialog">Seleziona formato data per importaz./esportaz./sincron.</string>
+    <string name="import_export_date_format_dialog">Seleziona formato data per importazione/esportazione/sincronizzazione</string>
     <!-- 2.0.0 -->
     <string name="main_title">Database di Memento</string>
     <string name="main_menu_add_group">Aggiungi Gruppo</string>
     <string name="main_menu_bookmarks">Preferiti e Cronologia</string>
     <string name="main_menu_add_lib_group">Aggiungi Libreria o Gruppo</string>
-    <string name="no_entries">No entries</string>
+    <string name="no_entries">Nessun elemento</string>
     <plurals name="library_box_entries_count">
         <item quantity="one">Una voce</item>   
         <item quantity="other">%d voci</item>                
@@ -721,7 +721,7 @@
     <string name="field_type_rich_list_free_limit">Mi dispiace, le liste sono disponibili solo per gli utenti PRO.</string>
     <string name="field_type_rich_only_for_android_kit_kat">Questa tipologia di campo è disponibile solo per Android 4.4 KitKAt e versioni successive.</string>
     <string name="text_background_color">Colore di sfondo</string>
-    <string name="flex_type_rich_text">Rich Text</string>
+    <string name="flex_type_rich_text">Formato RTF</string>
     <plurals name="notification_comments_common_text">
 	<item quantity="one">%d nuovo commento</item>
 	<item quantity="other">%d nuovi commenti</item>
@@ -900,7 +900,7 @@
     <string name="info_path">Percorso:</string>
     <string name="info_resolution">Risoluzione:</string>
     <string name="info_size">Dimensioni:</string>
-    <string name="info_camera">Camera:</string>
+    <string name="info_camera">Fotocamera:</string>
     <string name="info_date">Data:</string>
     <string name="info_exif">EXIF:</string>
     <string name="contact_not_found">Contatto mancante</string>
@@ -1221,7 +1221,7 @@
 	<string name="welcome_text_title">Benvenuto nel Database di Memento</string>
 	<string name="welcome_text_description">La libreria è il luogo dove vengono raccolti i tuoi elementi.\nPuoi iniziare a familiarizzare con il programma creando una libreria basata su uno dei modelli predefiniti.</string>
 	
-	<string name="memento_cloud">Cloud</string>
+	<string name="memento_cloud">Memento Cloud</string>
 	<string name="start_remove_librarary_from_cloud">Eliminazione libreria...</string>
 	<string name="success_remove_librarary_from_cloud">Libreria eliminata dal cloud con successo</string>
 	<string name="start_upload_library_to_cloud">Caricamento libreria...</string>	
