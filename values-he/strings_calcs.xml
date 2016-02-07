@@ -1,2 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="math_func_desc_0">ערך אבסולוטי של ערך כפול.</string>
+    <string name="math_func_desc_1">ארק קוסינוס של זוית.</string>
+    <string name="math_func_desc_2">ארק סינוס של זוית.</string>
+    <string name="math_func_desc_3">ארק טנגנס של זוית.</string>
+    <string name="math_func_desc_4">הפונקציה הופכת קואורדינטות ריבועיות לקוטביות</string>
+    <string name="math_func_desc_5">ערך גג של ערך כפול</string>
+    <string name="math_func_desc_6">קוסינוס טריגונומטרי של זוית</string>
+    <string name="math_func_desc_7">מספר אקספוננציאלי e (לדוגמא 2.718...) בחזקת ערך כפול</string>
+    <string name="math_func_desc_8">ערך מינימלי של ערך כפול.</string>
+    <string name="math_func_desc_9">לוגריתם טבעי (בבסיס e) של ערך כפול</string>
+    <string name="math_func_desc_10">הגדול מבין שני ערכים כפולים</string>
+    <string name="math_func_desc_11">הקטן מבין שני ערכים כפולים</string>
+    <string name="math_func_desc_12">ערך הרכיב הראשון בחזקה שניה של הרכיב השני</string>
+    <string name="math_func_desc_13">הערך הכפול הקרוב ביותר בערכו לרכיב והשווה למספר שלם</string>
+    <string name="math_func_desc_14">הקרוב ביותר לערך כפול</string>
+    <string name="math_func_desc_15">סינוס של זוית</string>
+    <string name="math_func_desc_16">שורש ריבועי של ערך כפול</string>
+    <string name="math_func_desc_17">טנגנס טריגונומטרי של זוית</string>
+    <string name="math_func_desc_18">הפונקציה ממירה זוית ברדיאנים לזוית שווה במעלות</string>
+	<string name="math_func_desc_19">הפונקציה ממירה זוית במעלות לזוית שווה ברדיאנים.</string>  	
+ 	
+ 	
+
+	 </resources>
