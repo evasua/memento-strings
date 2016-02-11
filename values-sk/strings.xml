@@ -1105,4 +1105,154 @@
 	<string name="success_pull_library_from_cloud">Záznamy sú úspešne stiahnuté.↵\nKnižnica bude automaticky synchronizovaná.</string>
 	<string name="cloud_conflict_fields_title">Konflikt</string>
 	<string name="cloud_conflict_fix_button_title">Opraviť</string>
+    <plurals name="conflict_count">
+	<item quantity="one">%d konflikt sa vyskytol počas synchronizácie</item>
+	<item quantity="other">%d konflikty sa vyskytli počas synchronizácie</item>
+</plurals>
+    <string name="button_select">Vybrať</string>
+    <string name="cloud">Cloud</string>
+    <string name="library_not_in_cloud">Nie je v cloude</string>
+    <string name="synced">"Synchronizované  %s"</string>
+    <string name="cloud_synced_progress">Synchronizácia ...</string>
+    <string name="cloud_offline">Offline</string>
+    <string name="cloud_last_sync">Posledná synchronizácia</string>
+    <string name="entries">Záznamy</string>
+    <string name="cloud_created">Vytvorené</string>
+    <string name="cloud_modified">Zmenené</string>
+    <string name="cloud_size">Veľkosť</string>
+    <string name="cloud_files_count">Počet súborov</string>
+    <string name="cloud_who_has_access">Kto má prístup</string>
+    <string name="cloud_server_unavaliable">Memento Cloud Server nie je k dispozícii, skontrolujte pripojenie k internetu na vašom zariadení</string>
+    <string name="delete_from_cloud">Odstrániť z cloudu</string>
+    <string name="delete_from_cloud_message_question">Naozaj chcete zmazať knižnicu z cloudu?</string>
+        
+    <string name="byteShort">B</string>    
+    <string name="kilobyteShort">KB</string>
+    <string name="megabyteShort">MB</string>
+    <string name="gigabyteShort">GB</string>
+    <string name="button_refresh">Obnovenie</string>
+    <string name="cloud_storage_space_text" formatted="false">%s (%s) of %s použité</string>   
+    <string name="start_download_file_from_cloud">Súbor %s bude stiahnutý</string>
+    <string name="upload_file_to_cloud">Nahrávanie súboru ...</string>    
+    <string name="upload_files_to_cloud">Nahrávanie súboru</string>
+    <string name="cloud_upload_error_title">Nemohli sme synchronizovať túto knižnicu</string>
+    <string name="upload_big_file_error" formatted="false">Položka %s obsahuje veľký súbor %s (%s).↵\nMaximálna veľkosť súboru je %s.</string>
+    <string name="prepare_library_for_cloud">Knižnica sa spracováva...</string>
+    <string name="download_files_from_cloud">Sťahovanie súborov z cloudu...</string>
+    <string name="cant_download_item_files_for_copy">Sťahovanie súborov na vytvorenie kópií zlyhalo.</string> 
+    <string name="library_cloud_model_changed_message">Štruktúra knižnice bola aktualizovaná v cloude. Aktualizujte štruktúru pre ďalšiu synchronizáciu.</string>
+    <string name="button_update">Aktualizácia</string>
+    <string name="add_people">Pridajte ľudí</string>
+    <string name="read_permission">Čítanie</string>      
+    <string name="write_permission">Zápis</string>
+    <string name="create_permission">Vytvorenie</string>
+    <string name="delete_permission">Zmazanie</string>
+    
+    <string name="allow_permission">Povolené</string>
+	<string name="deny_permission">Zamietnuté</string>
+	<string name="only_owner_permission">Iba vlastné</string>
+	<string name="user_not_found">Užívateľ nenájdený</string>
+	<string name="edit_permission">Nastavenie zdieľania užívateľa</string>	
+	<string name="push_entry_error_text" formatted="false">Položka nie je uložená v cloude.↵\nMeno: %s↵\nChyba: %s</string>
+	<string name="push_error_forbidden">Prístup zamietnutý</string>
+	<string name="button_ignore">Ignorovať</string>
+	<string name="button_try_again">Skúsiť znova</string>	
+	<string name="cloud_library_forbidden">Nemáte oprávnenie pre prístup k tejto knižnici</string>
+	<string name="shared_with_me">Zdieľané so mnou</string>
+	<string name="entry_author">Autor</string>
+	<string name="info_menu_item">Info</string>   
+	<string name="need_upload_to_cloud_slave_libraries">Prosím, nahrať podriadené knižnice do cloudu.</string>
+	<string name="start_download_slave_library_model">Nahrávanie podriadenej knižnice %s</string>
+	<string name="open_access_for_slave_libraries">Poskytni prístup na čítanie podriadených knižníc</string>
+	<string name="cloud_storage_full_text">Nedostatok miesta v cloud úložisku.↵\nMôžete prejsť na tarifu poskytujúcu viac úložného priestoru.</string>
+	<string name="cloud_storage_full_text2" formatted="false">"Nedostatok miesta v cloud úložisku.↵\n%s  je potrebné, %s sú voľné.↵\nMôžete prejsť na tarifu poskytujúcu viac úložného priestoru."</string>
+	<string name="alien_cloud_storage_full_text">Majiteľ knižnice nemá dostatok úložného priestoru.</string>	
+	<string name="button_tarifs">Tarify</string>
+	<string name="cloud_storage_plans">Plány</string>
+	<string name="price_free">ZADARMO</string>
+	<string name="price_per_month">%s/mesiac</string>
+	<string name="unlimited_libraries">Neobmedzené knižnice</string>	
+	<string name="adv_free">Žiadna reklama</string>
+	<string name="subscription_activation">Aktivovať odber ...</string>
+	<string name="subscription_activation_error">Chyba aktivácie: %s</string>
+	<string name="subscription_reactivation_error">Nepodarilo sa získať aktívne predplatné: %s</string>
+	<string name="google_play_unavaliable">Google Play nie je k dispozícii :(</string>
+	<string name="return_to_free_plan_message">Môžete prenášať do voľného účtu odhlásením sa v Google Play</string>
+	<string name="subscription_already_activation_for_user">Predplatné nemožno aktivovať, pretože bolo zakúpené pre užívateľa %s.</string>
+	<string name="library_cloud_count_limit">Váš tarif umožňuje nahrávať až %s knižníc do cloudu.</string>
+	<string name="restore_cloud_library_from_recycle">Táto knižnica je lokálne zmazaná. Obnoviť?</string>
+	<string name="cloud_file_while_not_upload">Súbor ešte nie je v cloude</string>
+	<string name="upload_ecrypted_libraries_dont_supported">Šifrované knižnice s nahrávaním do cloudu sú dočasne nedostupné.</string>
+	<string name="button_signin">Prihlásiť sa</string>
+	<string name="cloud_library_not_found">Knižnica nebola nájdená v cloude. Pravdepodobne bola zmazaná.↵\nZmeniť knižnicu na lokálnu?</string>
+	<string name="cloud_library_already_uploaded">Táto knižnica je už nahraná do cloudu.</string>
+	<string name="library_alias_menu_item">Alias</string>
+	<string name="library_public_access">Verejný prístup</string>
+	<string name="library_public_access_disabled">Nepovolený</string>
+	<string name="library_access_read_only">Len na čítanie</string>
+	<string name="library_access_can_edit">Pre editáciu</string>
+	<string name="owner">Majiteľ</string>
+	<string name="find_library_by_url_title">Otvoriť cez URL</string>
+	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
+	<string name="library_not_found_by_uri">Knižnica nenájdená</string>
+	<string name="upload_to_cloud_offer_title">{cloud pripravený...}</string>
+	<string name="upload_to_cloud_offer_text">• Spolupráca↵\n• Synchronizácia medzi zariadeniami↵\n• Zálohovanie je vždy v cloude</string>
+	<string name="button_no_thanks">Nie, ďakujem</string>
+	<string name="button_upload">Upload</string>
+	
+	<string name="cant_upload_file_to_cloud">Súbor(y) sa nepodarilo nahrať.</string>
+    <string name="button_show">Zobraziť</string>
+	<string name="invalid_library_template_file_format">Neplatný formát súboru šablóny</string>    
+	<string name="cant_add_yourself">Nemôžete pridať sami seba</string>
+	<string name="remove_from_old_public">Pred nahraním knižnice do cloudu táto nebude publikovaná ak bola publikovaná zastaranými metódami.</string>
+	<string name="select_template_title">Zvoľte šablónu</string>
+	<string name="empty_library_title">Prázdna knižnica</string>
+	<string name="catalog_templates_title">On-line katalóg</string>
+	<string name="catalog_templates_hint">Viac ako 3000 šablón</string>
+	<string name="add_lib_from_google_drive_hint">Obnoviť z Disku Google</string>
+	<string name="templates">Šablóny</string>
+	<string name="import_template_from_file_hint">Import šablóny zo súboru</string>
+	<string name="help_cloud">Skladovanie v cloude a tímová práca</string>
+	<string name="subscription_pro_bonus_text">Väčšina taríf pre ukladanie v cloude je tiež zahrnuté v PRO-verzii ako bonus</string>
+	<string name="send_formatting_menu_item">Formátovanie...</string>
+	<string name="pro_for_cloud_storage_title">Predplatné</string>
+	<string name="default_file_manager_pref_title">Správca súborov</string>
+	<string name="default_file_manager_built_in">vstavaný</string>	
+	<string name="clear_search_history">Vymazať históriu hľadaní</string>
+	<string name="clear_search_history_hint">Odstráni všetky vyhľadávacie dotazy, ktoré ste vykonali</string>
+	<string name="success_clear_search_history">Vaša história vyhľadávania bola vymazaná</string>	
+	<string name="clear_search_history_quest">Ste si istí, že chcete vymazať históriu vyhľadávania?</string>
+	<string name="uservoice_menu_title">Hlas užívateľa</string>
+	<string name="view_csv_error_dialog_message">Je nám ľúto, ale aplikácia pre prehliadanie CSV súboru nebola nájdená</string>
+	
+	<string name="edit_library_tabs_autofill">Automaticky vyplniť</string>
+	<string name="autofill_from">z %s</string>
+	<string name="autofill_by_barcode">Čiarovým kódom</string>
+	<string name="autofill_by_title">Podľa názvu</string>
+	<string name="autofill_need_barcode_field">Aby bolo možné Automatické vyplnenie knižnice pomocou čiarového kódu, táto musí obsahovať pole \"Čiarový kód\". Ako si vytvoriť toto?</string>
+	<string name="autofill_need_text_field">Aby bolo možné Automatické vyplnenie knižnice podľa názvu, táto musí obsahovať pole \"Text\". Ako si vytvoriť toto?</string>
+	<string name="autofill_select_master_field">Vstupné pole pre vyhľadávanie</string>
+	<string name="autofill_rules_title">Pravidlá automatického vypĺňania</string>
+	<string name="music_brainz_source_artist">Hudobníci</string>
+    <string name="music_brainz_source_album">Albumy</string>
+	<string name="music_brainz_source">musicbrainz.org</string>
+	<string name="unknown_data_source">Neznámy zdroj</string>
+    <string name="google_books_source">Google Knihy</string>
+    <string name="google_books_source_books">Knihy</string>
+    <string name="themoviedb_source">themoviedb.org</string>
+    <string name="themoviedb_source_movies">Filmy</string>
+    <string name="themoviedb_source_tv">TV</string>
+
+    <string name="autofill_rules_delete_title">Odstrániť pravidlá automatického vypĺňania</string>
+    <string name="autofill_rules_delete_text">Ste si istí, že chcete zmazať pravidlá automatického vypĺňania zo zdroja \"%s\" ?</string>
+    <string name="empty_autofill_list_text">Vytvorenie pravidla automatického vypĺňania pre záznam dát z internetu</string>
+    <string name="empty_autofill_rules_list_text">Porovnaj atribúty zdroja a polia knižnice</string>
+    <string formatted="false" name="movie_cast_person_item">%s ako %s</string>
+
+    <string name="copy_library_structure_menu_item">Iba štruktúra</string>
+    <string name="copy_all_library_menu_item">Štruktúra a záznamy</string>
+    <string name="copying_entries">Kopírovanie položiek ...</string>
+
+    <string name="encryption_for_cloud_uploaded_library">Aktivovať šifrovanie knižnice je možné iba pred tým, než je nahraná do cloudu.</string>
+    <string name="decryption_for_cloud_uploaded_library">Deaktivácia šifrovania knižnice pre nahranie na cloud nie je podporované. Najprv odstráňte knižnicu z cloudu.</string>
     </resources>
