@@ -12,13 +12,23 @@
     <string name="math_func_desc_9">Logaritmo naturale (base e) di un un numero reale.</string>
     <string name="math_func_desc_10">Maggiore di due numeri reali.</string>
     <string name="math_func_desc_11">Minore di due numeri reali</string>
-    <string name="math_func_desc_12">Elevamento a potenza (primo argomento elevato al secondo).</string>
+    <string name="math_func_desc_12">Elevamento a potenza (primo argomento elevato al secondo)</string>
     <string name="math_func_desc_13">Intero (reale) più vicino a un numero reale</string>
     <string name="math_func_desc_14">Intero (intero) più vicino a un numero reale</string>
-    <string name="math_func_desc_15">Seno di un angolo (radianti).</string>
-    <string name="math_func_desc_16">Radice quadrata di un numero reale.</string>
-    <string name="math_func_desc_17">Tangente di un angolo (radianti).</string>
-    <string name="math_func_desc_18">Funzione che converte la misura di un angolo da radianti in gradi.</string>
+    <string name="math_func_desc_15">Seno di un angolo (radianti)</string>
+    <string name="math_func_desc_16">Radice quadrata di un numero reale</string>
+    <string name="math_func_desc_17">Tangente di un angolo (radianti)</string>
+    <string name="math_func_desc_18">Funzione che converte la misura di un angolo da radianti in gradi</string>
     <string name="math_func_desc_19">Funzione che converte la misura di un angolo da gradi in radianti.</string>
 
-</resources>
+<string name="function_args_compareto"> <b>Parametri:</b> la prima cifra corrisponde alla prima stringa da confrontare mentre la seconda cifra corrisponde alla seconda stringa.<br/> <b>Risultato:</b> se le stringhe sono uguali il risultato è zero, se la prima precede la seconda il risultato è minore di zero, se la prima segue la seconda il risultato è maggiore di zero. </string>
+	 
+	 <string name="function_args_comparetoignorecase"> <b>Parametri:</b> la prima cifra corrisponde alla prima stringa da confrontare mentre la seconda cifra corrisponde alla seconda stringa.<br/> <b>Risultato:</b> se le stringhe sono uguali il risultato è zero, se la prima precede la seconda il risultato è minore di zero, se la prima segue la seconda il risultato è maggiore di zero. </string>
+	 
+	 <string name="function_args_concat"> <b>Parametri:</b> la prima cifra corrisponde alla stringa concatenata alla seconda.<br/> <b>Risultato:</b> risulta una stringa composta dalla prima seguita dalla seconda. </string>
+	 
+	 <string name="function_args_endswith"> <b>Parametri:</b> la prima cifra è la stringa da verificare e la seconda è il suffisso. <br/> <b>Risultato:</b> risulta 1.0 (true) se la stringa finisce con il suffisso, altrimenti risulta 0.0 (false). </string>	 
+	 
+	 <string name="function_args_equals"> <b>Parametri:</b> la prima stringa deve essere comparata con la seconda stringa.<br/> <b>Risultato:</b> risulta 1.0 (true) se le stringhe si equivalgono, altrimenti risulta 0.0 (false). </string>	 	 
+	 
+	 </resources>
