@@ -1236,7 +1236,7 @@
 	<string name="autofill_from">de %s</string>
 	<string name="autofill_by_barcode">Par code-barres</string>
 	<string name="autofill_by_title">Par titre</string>
-	<string name="autofill_need_barcode_field">Pour l\'autoremplissage par code-barres, la base doit contenir un champ Code-barres. Le créer ?</string>
+	<string name="autofill_need_barcode_field">Pour l\'autoremplissage par code-barres, la base doit contenir le champ Code-barres. Le créer ?</string>
 	<string name="autofill_need_text_field">Pour l\'autoremplissage par titre, la base doit contenir un champ Titre. Le créer ?</string>
 	<string name="autofill_select_master_field">Champ d\'entrée pour la recherche</string>
 	<string name="autofill_rules_title">Règles d\'autoremplissage</string>
@@ -1381,8 +1381,8 @@
     
 <string name="unlock_linked_library_text">La base liée est chiffrée, vous devez saisir le mot de passe maitre</string>
     <string name="preview_calc_exec_time">Temps d\'exécution : %d ms</string>
-    <string name="group_by_and">Tout en (AND)</string>
-    <string name="group_by_or">Any of (OR)</string>
+    <string name="group_by_and">Tous (AND)</string>
+    <string name="group_by_or">N\'importe lequel (OR)</string>
     <string name="field_delimiters">Délimiteur de champ</string>
     <string name="field_enclosed">Marqueur de texte</string>
     
