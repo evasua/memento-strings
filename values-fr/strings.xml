@@ -1379,4 +1379,11 @@
     <string name="need_permission_dialog_title">Autorisation obligatoire</string>
     <string name="need_permission_dialog_text">Cette opération nécessite l\'autorisation système - %s</string>
     
+<string name="unlock_linked_library_text">La base liée est chiffrée, vous devez saisir le mot de passe maitre</string>
+    <string name="preview_calc_exec_time">Temps d\'exécution : %d ms</string>
+    <string name="group_by_and">Tout en (AND)</string>
+    <string name="group_by_or">Any of (OR)</string>
+    <string name="field_delimiters">Délimiteur de champ</string>
+    <string name="field_enclosed">Marqueur de texte</string>
+    
 </resources>
