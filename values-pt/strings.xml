@@ -1387,4 +1387,11 @@
     <string name="need_permission_dialog_title">Permissão requerida</string>
     <string name="need_permission_dialog_text">Esta operação requer permissão de sistema - %s</string>
     
+<string name="unlock_linked_library_text">A ligação da biblioteca está encriptada, deve introduzir uma palavra passe mestra</string>
+    <string name="preview_calc_exec_time">Tempo de exec: %d ms</string>
+    <string name="group_by_and">Tudo de (AND)</string>
+    <string name="group_by_or">Qualquer de (OR)</string>
+    <string name="field_delimiters">Campo delimitador</string>
+    <string name="field_enclosed">Qualificador de texto</string>
+    
 </resources>
