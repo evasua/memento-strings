@@ -145,7 +145,7 @@
     <string name="activation_ok">Danke dass Sie Memento aktiviert haben</string>
     <string name="activation_error">Aktivierungscode ungültig. Bitte nochmal versuchen.</string>
     <string name="about">Über</string>
-    <string name="copyright">Copyright © 2010 LuckyDroid\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2016 LuckyDroid\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Software Version</string>
     <string name="about_license_type">Lizenz:</string>

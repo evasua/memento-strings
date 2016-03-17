@@ -141,7 +141,7 @@
     <string name="activation_ok">謝謝您啟用 Memento</string>
     <string name="activation_error">無效的啟用碼。請重試。</string>
     <string name="about">關於</string>
-    <string name="copyright">版權所有 c 2012 LuckyDroid\n保留所有權利</string>
+    <string name="copyright">版權所有 c 2016 LuckyDroid\n保留所有權利</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">檢視軟體版本</string>
     <string name="about_license_type">許可協議：</string>
@@ -204,7 +204,7 @@
     <string name="recovering_message">正在還原庫\n%s</string>
     <string name="library_recover">還原</string>
     <string name="deleting_library_title">正在刪除</string>
-    <string name="deleting_library_message">正在刪除庫\n%s</string>
+    <string name="deleting_library_message">正在刪除庫</string>
     <!-- 1.2.5 -->
     <string name="view_category">檢視</string>
     <string name="title_lib_theme_preference">主題</string>

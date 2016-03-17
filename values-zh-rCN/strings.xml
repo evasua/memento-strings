@@ -140,7 +140,7 @@
     <string name="activation_ok">谢谢您激活 Memento</string>
     <string name="activation_error">无效的激活码。请重试。</string>
     <string name="about">关于</string>
-    <string name="copyright">版权所有 © 2015 LuckyDroid\n保留所有权利</string>
+    <string name="copyright">版权所有 © 2016 LuckyDroid\n保留所有权利</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">查看软件版本</string>
     <string name="about_license_type">许可协议：</string>

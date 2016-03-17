@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="call">Trucar</string>
     <string name="send_sms">Enviar missatge SMS</string>
     <string name="light_theme">Entorn clar</string>
