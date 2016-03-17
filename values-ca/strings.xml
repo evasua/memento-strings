@@ -140,7 +140,7 @@
     <string name="activation_ok">Gràcies per l\'activació de Memento</string>
     <string name="activation_error">El codi d\'activació no és vàlid. Si\'s plau, torneu a provar-ho.</string>
     <string name="about">Sobre</string>
-    <string name="copyright">Copyright © 2015 LuckyDroid↵\nTots els drets reservats</string>
+    <string name="copyright">Copyright © 2016 LuckyDroid\nTots els drets reservats</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Veure la versió del software</string>
     <string name="about_license_type">Llicència:</string>
@@ -1363,7 +1363,7 @@
     <string name="need_permission_dialog_text">L\'operació requereix el permís del sistema - %s</string>
     
 <string name="unlock_linked_library_text">La biblioteca lligada està encriptada, cal que introdueixi la clau mestre</string>
-    <string name="preview_calc_exec_time">Temps d\'execució %s</string>
+    <string name="preview_calc_exec_time">Temps d\'execució %d</string>
     <string name="group_by_and">Tots els (AND)</string>
     <string name="group_by_or">Qualsevol de (OR)</string>
     <string name="field_delimiters">Delimitador de camp</string>

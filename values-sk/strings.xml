@@ -136,7 +136,7 @@
     <string name="activation_ok">Ďakujeme za aktiváciu Mementa</string>
     <string name="activation_error">Aktivačný kód je chybný. Prosím, zadajte ho znovu.</string>
     <string name="about">O programe</string>
-    <string name="copyright">Copyright © 2010 LuckyDroid↵\nVšetky práva vyhradené</string>
+    <string name="copyright">Copyright © 2016 LuckyDroid↵\nVšetky práva vyhradené</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Prehliadnuť softwarovú verziu</string>
     <string name="about_license_type">Licencia:</string>
@@ -228,8 +228,8 @@
     <string name="preference_category_accounts">Účty</string>
     <plurals name="NItemsFind">
 	<item quantity="one">1 nájdený záznam</item>
-	<item quantity="few">Nájdené záznamy:</item>
-	<item quantity="other">Nájdených záznamov:</item>
+	<item quantity="few">Nájdené záznamy: %d</item>
+	<item quantity="other">Nájdených záznamov: %d</item>
 </plurals>
     <string name="preference_google_account_title">Google účet</string>
     <string name="preference_google_account_hint">Email a heslo Vášho Google účtu</string>
@@ -896,7 +896,7 @@
     <string name="string_list_edit_item_title_hint">Názov položky</string>
     <string name="string_list_add_item_dialog_title">Pridať položku</string>
     <string name="string_list_edit_item_dialog_title">Upraviť položku</string>
-    <string name="delete_string_list_item_message">Chcete skutočne zmazať položku \"% s\"?</string>
+    <string name="delete_string_list_item_message">Chcete skutočne zmazať položku \"%s\"?</string>
     <string name="icon">IKONA</string>
     <string name="color">FARBA</string>
     <string name="edit_library_entries_options_group">Zoznam záznamov</string>

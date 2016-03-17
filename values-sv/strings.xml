@@ -142,7 +142,7 @@
     <string name="activation_ok">Tack för du aktiverat Memento</string>
     <string name="activation_error">Aktiveringskoden är ogiltig. Försök igen.</string>
     <string name="about">Om applikationen</string>
-    <string name="copyright">Copyright © 2012 LuckyDroid\nAlla rättigheter reserverade</string>
+    <string name="copyright">Copyright © 2016 LuckyDroid\nAlla rättigheter reserverade</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Visa programvaruversionen</string>
     <string name="about_license_type">Licens:</string>
