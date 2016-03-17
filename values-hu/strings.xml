@@ -522,7 +522,7 @@
     <string name="link_button">Kapcsolat</string>
     <string name="prepare_linking_library">Felkészülés az összekapcsolásra ...</string>
     <plurals name="NItemsFind">
-	<item quantity="other">1 elemet talált</item>
+	<item quantity="other">1 találat</item>
 </plurals>
     <string name="error_prepare_linking">Hiba merült fel a kapcsolat létrehozása közben: %s</string>
     <string name="have_library_items_ask_title">Összekapcsolás a Google Táblázattal</string>
@@ -664,7 +664,7 @@
     <string name="backup_files_progress_title">Fájl biztonsági másolatok</string>
     <string name="backup_files_error">Hiba a fájlok mentése során: %s</string>
     <string name="restore_files_message">A biztonsági másolat az adatbázissal összefüggő fájlokat tartalmaz; vissza szeretnéd állítani azokat?</string>
-    <string name="restore_files_progress_title"/>
+    <string name="restore_files_progress_title">Fájlok visszaállítása</string>
     <string name="restore_files_success2">Minden, az adatbázishoz kapcsolódó fájl visszaállítva</string>
     <string formatted="false" name="restore_files_error_message">A(z) %s archív fájlok visszaállítása sikertelen</string>
     <string name="restore_files_error">A fájlok visszaállítása sikertelen</string>
@@ -682,4 +682,38 @@
     <string name="search_pref_category">Keresés</string>
     <string name="reindex_complete_message">Újraindexelés kész</string>
     <string name="files_backup_not_found_files">Nem található fájl:</string>
+    <string name="files_storage_settings_screen">Tárhely</string>
+    <string name="files_storage_settings_screen_summary">Fotók és egyéb fájlok helye</string>
+    <string name="files_storage_settings_path_title">Fájlok tároló helye</string>
+    <string name="files_storage_settings_dublicate_title">Másolás a tároló helyre</string>
+    <string name="files_storage_settings_dublicate_summary">A rekordhoz csatolt fájlokat a tároló mappába másolja</string>
+    <string name="files_storage_settings_remove_original_title">Eredeti fájl törlése</string>
+    <string name="files_storage_settings_remove_original_summary">Tárolóba másolás után az eredeti fájlokat törli</string>
+    <string name="dublicate_file_error">"A fájl nem helyezhető át: "</string>
+    <string name="select_map_type">Térkép tpusa</string>
+    <string name="hybrid">Hibrid</string>
+    <string name="satellite">Műhold</string>
+    <string name="terrain">Domborzat</string>
+    <string name="open_map_menu_item">Térkép</string>
+    <string name="google_drive">Google Dokumentumok</string>
+    <string name="none_files_cloud_storage">Nincs</string>
+    <string name="select_files_cloud_storage">Válassz felhő szervert a szinkronizáláshoz</string>
+    <string name="files_cloud_storage_pref">Fájlok szinkronizálása</string>
+    <string name="normal">Alap</string>
+    <string name="link_to_new_document">Új dokumentum létrehozása</string>
+    <string name="link_to_existing_document">Kapcsolás létező dokumentumhoz</string>
+    <string name="google_sync_files_checkbox">Rekordokhoz kapcsolódó fájlok (képek) feltöltése a felhő tárolóba.</string>
+    <string name="list_library_in_google">Gyűjtemények listája a Google Driveban</string>
+    <string name="add_lib_from_google_drive">Google Drive-ból</string>
+    <string name="selected">%s kiválasztva</string>
+    <string name="delete_template_from_google_drive_question">Biztosan törölni szeretnéd a kiválasztott gyűjteményeket a Google Drive -ból?</string>
+    <string name="delete_data_table_from_google_drive">A sablonhoz kapcsolódó adat táblák eltávolítása</string>
+    <string name="lock_library_edit_message">A gyűjtemény szerkezet módosítása zárolva\nVáltoztasd meg a gyűjtemény szerkesztési beállításait.</string>
+    <string name="lock_edit_library_pref_title">Struktúra zárolása</string>
+    <string name="lock_edit_library_pref_summary_on">A gyűjtemény struktúra módosítása nem engedélyezett</string>
+    <string name="lock_edit_library_pref_summary_off">Gyűjtemény szerkezet módosítása engedélyezett</string>
+    <string name="cant_restore_form_google_drive">Készüléked nem támogatja gyűjtemény létrehozását a Google Dokumentumból</string>
+    <string name="record_error_dialog_message">Sajnáljuk, nem található alkalmazás a felvétel készítéséhez.</string>
+    <string name="sync_error_dialog_title">Szinkronizációs hiba</string>
+    <string name="field_display_options_group">Megjelenítési beállítások</string>
     </resources>
