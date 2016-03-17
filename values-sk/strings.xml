@@ -228,7 +228,8 @@
     <string name="preference_category_accounts">Účty</string>
     <plurals name="NItemsFind">
 	<item quantity="one">1 nájdený záznam</item>
-	<item quantity="other">Nájdené záznamy:</item>
+	<item quantity="few">Nájdené záznamy:</item>
+	<item quantity="other">Nájdených záznamov:</item>
 </plurals>
     <string name="preference_google_account_title">Google účet</string>
     <string name="preference_google_account_hint">Email a heslo Vášho Google účtu</string>
@@ -1020,11 +1021,13 @@
 </plurals>
     <plurals name="duration_hours">
 	<item quantity="one">1 hodina</item>
-	<item quantity="other">%d hodiny</item>
+	<item quantity="few">%d hodiny</item>
+	<item quantity="other">%d hodín</item>
 </plurals>
     <plurals name="duration_days">
 	<item quantity="one">1 deň</item>
-	<item quantity="other">%d dni</item>
+	<item quantity="few">%d dni</item>
+	<item quantity="other">%d dní</item>
 </plurals>
     <string name="all">Všetko</string>
     <string name="page">Stránka</string>
