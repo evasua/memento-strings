@@ -1255,4 +1255,126 @@
 
     <string name="encryption_for_cloud_uploaded_library">Aktivovať šifrovanie knižnice je možné iba pred tým, než je nahraná do cloudu.</string>
     <string name="decryption_for_cloud_uploaded_library">Deaktivácia šifrovania knižnice pre nahranie na cloud nie je podporované. Najprv odstráňte knižnicu z cloudu.</string>
-    </resources>
+    <string name="need_reload_library_from_cloud_encrypted">"Kópie knižníc na cloude boli zašifrované.↵\nOdstráňte miestnu kópiu knižnice, a potom prevezmite knižnicu znova z  cloudu."</string>
+    <string name="need_reload_library_from_cloud_decrypted">"Kópie knižníc na cloude boli odšifrované.↵\nOdstráňte miestnu kópiu knižnice, a potom prevezmite knižnicu znova z  cloudu."</string>
+
+    <string name="render_pdf_menu_item">Uložiť ako PDF</string>
+    <string name="entry_saved_as_pdf_success">PDF úspešne vytvorený</string>
+    <string name="one_row_with_previous">Jeden riadok s predch</string>
+    <string name="protected_libraries_not_show_in_widget">Chránenú knižnicu nemožno zobraziť vo widgete</string>
+    <string name="widget_free_limit_item_text">Všetky záznamy môžu byť zobrazené iba užívateľom PRO-verzie</string>
+    <string name="rate_me_dialog_title">Radi používate Memento?</string>
+    <string name="rate_me_dialog_text">Prosím ohodnoťte nás na Google Play</string>
+    <string name="button_rate_now">Hodnotiť teraz</string>
+    <string name="button_ask_later">Opýtať sa neskôr</string>
+    <string name="flex_type_radiobuttons">Prepínacie tlačítka</string>
+    <string name="flex_type_checkboxes">Zaškrtávacie políčka</string>
+    <string name="field_orientation_option_title">Orientácia</string>
+    <string name="field_orientation_option_horizontal">Horizontálne</string>
+    <string name="field_orientation_option_vertical">Vertikálne</string>
+    <string name="preparing_files_for_sending">Príprava súborov pre odosielanie ...</string>
+    <string name="whats_new_dialog_title">Čo je nové?</string>
+    <string name="font_size">Veľkosť</string>
+    <string name="font_family">Skupina písma</string>
+    <string name="font_style">Štýl</string>
+    <string name="font_color">Farba</string>
+    <string name="font_picker_dialog_title">Písmo</string>
+    <string name="font_style_normal">Normálne</string>
+    <string name="font_style_bold">Tučne</string>
+    <string name="font_style_italic">Kurzíva</string>
+    <string name="font_style_bold_italic">Tučné kurzíva</string>
+    <string name="font_sample">Príklad</string>
+    <string name="font_sample_text">Rýchla hnedá líška preskočila lenivého psa.</string>
+    <string name="font_default_title">Predvolené písmo</string>
+    <string name="choice_item_use_color_for_text">Použiť farbu textu</string>
+    <string name="rating_tooltips">Popisy nástrojov</string>
+    <string name="rating_tooltips_hint">Popisy nástrojov</string>
+    <string name="rating_tooltips_empty">Pole nemá popisky</string>
+    <plurals name="rating_tooltips_count">
+	<item quantity="one">%d popis</item>
+	<item quantity="other">%d popisy</item>
+</plurals>
+    <string name="calculator">Kalkulačka</string>
+    <string name="calculator_options_hint">Pridanie tlačidla pre zobrazenie kalkulačky</string>
+    <string name="filter_by_number">Filter podľa čísla</string>
+    <string name="filter_by_string">Filter podľa reťazca</string>
+    <string name="multiediting_only_in_pro">Editácia viacerých záznamov je k dispozícii iba pre majiteľov PRO-verzie.</string>
+    <string name="multiediting_title">Viacnásobná editácia</string>
+    <string name="select_all">Vybrať všetko</string>
+    <string name="group_separator_option_title">Oddeľovač tisícov</string>
+    <string name="group_separator_option_hints">Použiť medzeru ako oddeľovač tisícov</string>
+
+
+    <string name="cloud_library_notification_title">Oznámenia</string>
+    <string name="cloud_library_notification_hint">Prijímať Push-oznámenia, keď ostatní používatelia upravia knižnicu</string>
+    <string name="cloud_library_download_notification_text">%s: stiahnutá knižnica</string>
+    <string name="cloud_notification_for_subscribers">Je nám ľúto, len predplatitelia môžu prijímať oznámenia.</string>
+    <string name="comments">Komentáre</string>
+    <string name="comment_input_hint">Napísať komentár</string>
+    <string name="comment_send_error">Chyba pri odosielaní komentára: %s</string>
+    <string name="edit_comment_dialog_title">Upraviť komentár</string>
+
+    <plurals name="notification_edit_library_common_text">
+	<item quantity="one">%d neprečítaná zmena</item>
+	<item quantity="other">%d neprečítané zmeny</item>
+</plurals>
+
+    <string name="notification_edit_library_create_text">pridaná položka</string>
+    <string name="notification_edit_library_edit_text">upravená položka</string>
+    <string name="notification_edit_library_delete_text">zmazaná položka</string>
+    <plurals name="notification_comments_common_text">
+	<item quantity="one">%d nový komentár</item>
+	<item quantity="other">%d nové komentáre</item>
+</plurals>
+
+    <string name="flex_type_rich_text">Viacriadkový text</string>
+    <string name="text_background_color">Farba pozadia</string>
+    <string name="field_type_rich_only_for_android_kit_kat">Tento typ poľa je k dispozícii len pre Android 4.4 KitKat a novší.</string>
+    <string name="field_type_rich_list_free_limit">Je nám ľúto, zoznamy sú k dispozícii len pre používateľov PRO-verzie.</string>
+    <string name="field_type_rich_align_free_limit">Je nám ľúto, zarovnanie je k dispozícii iba pre používateľov PRO-verzie.</string>
+    <string name="attached_files">Priložené súbory</string>
+    <string name="cloud_file_not_downloaded">Nestiahnuté</string>
+    <string name="cloud_file_download_pending">Prebiehajúce</string>
+    <string name="cloud_file_queued">Zaradené</string>
+    <string name="cloud_file_error_upload">Chyba pri odosielaní</string>
+    <string name="cloud_file_uploading">Nahrávanie</string>
+    <string name="cloud_file_downloading">Sťahovanie</string>
+    <string name="file_show_in_folder">Zobraziť v priečinku</string>
+    <string name="file_show_in_entry">Zobraziť v položke</string>
+    <string name="sort_by_size">Triediť podľa veľkosti</string>
+    <string name="download_all">Stiahnuť všetko</string>
+    <string name="find_missing_files">Nájsť chýbajúce súbory</string>
+    <string name="button_apply">Aplikovať</string>
+    <string name="find_missing_files_empty">Chýbajúce súbory neboli nájdené</string>
+    <string name="file_manager_not_found">Vo vašom zariadení nebol nájdený žiadny súborový manažér.</string>
+    <string name="file_list_empty">Táto knižnica neobsahuje súbory</string>
+    <string name="feature_available_only_in_pro">Táto funkcia je k dispozícii len v PRO-verzii.</string>
+    <string name="preview_button">Náhľad</string>
+    <string name="select_calc_preview_entry">Vstup k náhľadu</string>
+    <string name="calc_preview_title">Náhľad</string>
+    <string name="add_relationship">Vzťah</string>
+    <string name="add_relationship_with_title">Vyberte sekundárnu knižnicu</string>
+    <string name="add_relationship_success">Vzťah medzi knižnicami bude vytvorený pomocou poľa \"%s\".</string>
+    <string name="display_aggregation">Zobrazenie zoskupovania</string>
+    <string name="display_aggregation_hint">Zoskupovanie podľa vstupov pripojenej knižnice</string>
+    <string name="create_shortcut_text">Zadajte názov tejto skratky</string>
+    <string name="permission_storage_title">Úložisko</string>
+    <string name="permission_storage_text">Ak chcete pokračovať, dajte Mementu prístup k svojmu úložisku.</string>
+    <string name="permission_storage_explanation_text">Prístup k úložisku je nutný pre vyrovnávaciu pamäť, zálohovanie a schopnosť pripojiť obrázky a súbory k vašim záznamom.</string>
+    <string name="permission_accounts_title">Účty</string>
+    <string name="permission_accounts_text">Je nevyhnutné udeliť Mementu prístup k účtom pre synchronizáciu s Google Sheets a pre daný typ poľa Kontakt.</string>
+    <string name="permission_location_title">Umiestnenie</string>
+    <string name="permission_location_text">Je nevyhnutné udeliť Mementu prístup k polohe pre daný typ poľa Umiestnenie.</string>
+    <string name="permission_not_necessarily">Toto oprávnenie nie je povinné.</string>
+    <string name="app_permissions">Oprávnenie pre aplikáciu</string>
+    <string name="app_permissions_only_for_android6">Len pre Android 6 a vyššie</string>
+    <string name="need_permission_dialog_title">Povolenie je vyžadované</string>
+    <string name="need_permission_dialog_text">Táto operácia vyžaduje oprávnenia systému - %s</string>
+    <string name="unlock_linked_library_text">Spojená knižnica je šifrovaná, musíte zadať hlavné heslo</string>
+    <string name="preview_calc_exec_time">Čas výpočtu: %d ms</string>
+    <string name="group_by_and">Všetko z (AND)</string>
+    <string name="group_by_or">Niečo z (OR)</string>
+    <string name="field_delimiters">Oddeľovač poľa</string>
+    <string name="field_enclosed">Kvalifikácia textu</string>
+    
+</resources>
