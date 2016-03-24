@@ -330,7 +330,7 @@
     <string name="unpublish_success">Библиотеката е премахната от публикации</string>
     <string name="unpublic_message_text">Наистина ли искате да прекратите публикуването на библиотеката \"%s\" ?</string>
     <string name="unbind_from_gdocs_hint">Прекратяване на връзката с Google Sheets</string>
-    <string name="preference_category_google_docs">Google Sheets</string>
+    <string name="preference_category_google_docs">Google Таблици</string>
     <string name="unbind_from_google_docs_success">Библиотеката вече не е свързана с Google Sheets</string>
     <string name="preference_category_memento_server">Memento сървър</string>
     <string name="unpublic_library_hint">Премахва се от публикации</string>
@@ -1150,7 +1150,7 @@
 	<string name="cloud_storage_full_text2" formatted="false">Няма достатъчно място в облака.↵\n%s са необходими, %s са достъпни.↵\nМожете да преминете към тарифен план, осигурявайки повече пространство за съхранение.</string>
 	<string name="alien_cloud_storage_full_text">Собственикът на библиотека не разполага с достатъчно пространство за съхранение.</string>	
 	<string name="button_tarifs">Тарифи</string>
-	<string name="cloud_storage_plans">Планове</string>
+	<string name="cloud_storage_plans">Абонаменти</string>
 	<string name="price_free">БЕЗПЛАТНО</string>
 	<string name="price_per_month">%s/месец</string>
 	<string name="unlimited_libraries">Неограничено количество библиотеки</string>	
@@ -1219,7 +1219,7 @@
     <string name="themoviedb_source_tv">TV</string>
 
     <string name="empty_autofill_list_text">Създаване на правила за автоматично попълване на записи от интернет</string>
-    <string name="empty_autofill_rules_list_text">Сдвояване на атрибутите на източника и библиотечните полета</string>
+    <string name="empty_autofill_rules_list_text">Съчетаване на атрибутите на източника и библиотечните полета</string>
     <string formatted="false" name="movie_cast_person_item">%s като %s</string>
 
     <string name="copy_library_structure_menu_item">Само структура</string>
@@ -1365,4 +1365,9 @@
     
 <string name="display_aggregation_hint">Обобщаване чрез записи на свързани библиотеката</string>
     <string name="display_aggregation">Показване на обобщение</string>
+    <string name="unlock_linked_library_text">Свързаната библиотека е криптирана, трябва да въведете главната парола</string>
+    <string name="preview_calc_exec_time">Време за изпълнение: %d ms</string>
+    <string name="group_by_and">Всяко от (AND)</string>
+    <string name="group_by_or">Някое от (OR)</string>
+    <string name="field_delimiters">Разделител на полетата</string>
     </resources>
