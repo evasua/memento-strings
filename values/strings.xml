@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Memento</string>
+    <string name="app_name" translatable="false">Memento</string>
     <string name="library_menu_add_item">Add an entry</string>
     <string name="main_menu_add_lib">Add Library</string>
     <string name="ghostData_lib_title">Library name</string>
@@ -142,7 +142,7 @@
     <string name="activation_ok">Thank you for activation Memento</string>
     <string name="activation_error">Activation code is invalid. Please, try again.</string>
     <string name="about">About</string>
-    <string name="copyright">Copyright © 2015 LuckyDroid\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2016 LuckyDroid\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">View software version</string>
     <string name="about_license_type">License:</string>
@@ -1426,5 +1426,34 @@
     <string name="group_by_or">Any of (OR)</string>
     <string name="field_delimiters">Field delimiter</string>
     <string name="field_enclosed">Text qualifier</string>
-    
+
+    <!--3.8.9-->
+    <string name="users_manager">Users manager</string>
+    <string name="create_new_user_dialog">Create New User</string>
+
+    <!--3.9.0-->
+    <string name="field_type_script" translatable="false">JavaScript</string>
+    <string name="script">Script</string>
+    <string name="js_libraries">JavaScript Libraries</string>
+    <string name="js_moment_library">Library for parsing, validating, manipulating, and formatting dates</string>
+    <string name="js_realtime">Execute script real time</string>
+    <string name="js_realtime_hint_off">The script runs only when editing a record</string>
+    <string name="js_realtime_hint_on">The script runs when displaying a record</string>
+    <string name="user_limit_message">You have reached your limit of users</string>
+    <string name="remaining_users" formatted="false">%d of %d licenses used</string>
+    <string name="delete_slave_user_message">Do you really want to delete the user \"%s\"?</string>
+    <string name="active_users">Active users</string>
+    <string name="deleted_users">Deleted users</string>
+    <string name="powered_by_text">Powered by Memento Database</string>
+
+    <string name="string_list_sort_menu_title">Sort by title</string>
+    <string name="previous_value">Previous value</string>
+    <string name="specify_value">Specify value</string>
+    <string name="filters_order">Order...</string>
+    <string name="full_screen_mode">Full screen mode</string>
+    <string name="standard_screen_mode">Standard screen mode</string>
+    <string name="restore_from_cloud">Restore from Cloud</string>
+    <string formatted="false" name="of_counter">%d of %d</string>
+
+
 </resources>
