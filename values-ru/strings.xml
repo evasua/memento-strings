@@ -290,11 +290,7 @@
     <string name="public_library_address_text">Адрес библиотеки</string>
     <string name="alias_exists">У вас уже есть опубликованная библиотека с указанным алиасом</string>
     <string name="memento_forbidden_error">Доступ к библиотеки запрещён</string>
-<<<<<<< HEAD
-    <string name="publish_library_address">Библиотека %s доступна теперь в</string>
-=======
     <string name="publish_library_address">Библиотека %s доступна теперь по адресу:</string>
->>>>>>> 611c7b97c41450e48b0bcef255e34a33759b1bfa
     <string name="publish_library_address_hint">Ваши друзья могут просматривать данную библиотеку используя Memento. Для этого они должны подписаться на библиотеку с помощью указанного выше адреса.</string>
     <string name="deafult_group_title">Мои библиотеки</string>
     <string name="subscribe_activity_title">Подписка на библиотеку</string>
