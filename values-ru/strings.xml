@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Добавить</string>
@@ -1163,7 +1163,7 @@
     <string name="megabyteShort">MB</string>
     <string name="gigabyteShort">GB</string>
     <string name="button_refresh">Обновить</string>
-    <string name="cloud_storage_space_text"  formatted="false">Использую %s (%s) из %s</string>   
+    <string name="cloud_storage_space_text" formatted="false">Использую %s (%s) из %s</string>   
     <string name="start_download_file_from_cloud">Файл %s будет загружен из облака</string>
     <string name="upload_file_to_cloud">Загружаю файл в облако...</string>    
     <string name="upload_files_to_cloud">Загрузка файлов</string>    
@@ -1228,7 +1228,7 @@
 	<string name="find_library_by_url_hint">https://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Библиотека не найдена</string>
 	<string name="upload_to_cloud_offer_title">{облако готово...}</string>
-	<string name="upload_to_cloud_offer_text">&#8226; Совместная работа\n&#8226; Синхронизация между устройствами\n&#8226; Резервная копия всегда в облаке</string>
+	<string name="upload_to_cloud_offer_text">• Совместная работа\n• Синхронизация между устройствами\n• Резервная копия всегда в облаке</string>
 	<string name="button_no_thanks">Нет</string>
 	<string name="button_upload">В облако</string>	
 	
@@ -1466,5 +1466,7 @@
     <string name="library_import_and_export">Параметры %s</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
 
-</resources>
+<string formatted="false" name="of_counter">%d из %d</string>
 
+
+</resources>
