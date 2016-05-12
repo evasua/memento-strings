@@ -55,7 +55,7 @@
     <string name="library_item_delete">删除</string>
     <string name="library_item_delete_message_text">您真的确定要删除条目\"%s\" ?</string>
     <string name="library_item_trush_message_text">您真的要发送条目\"%s\"到回收站？</string>
-    <string name="library_items_count">条目： %s</string>
+    <string name="library_items_count">条目: %s 中国用户交流QQ群:290681197(推荐)</string>
     <string name="library_menu_select_sort">排序</string>
     <string name="library_menu_select_group">组</string>
     <string name="select_sort_template">选择作为排序的字段</string>
@@ -193,7 +193,7 @@
     <!-- 1.2.1 -->
     <string name="msg_camera_framework_bug">抱歉，Android相机出现了一个问题。您可能需要重启设备。</string>
     <!-- 1.2.3 -->
-    <string name="deleted_library_hint">条目： %s</string>
+    <string name="deleted_library_hint">条目: %s 中国用户交流QQ群:290681197(推荐).</string>
     <string name="preference_restore_libs_title">恢复库</string>
     <string name="preference_restore_libs_hint">恢复被删除的库</string>
     <string name="preference_category_general">一般</string>
@@ -210,8 +210,8 @@
     <string name="dialog_title_lib_theme_preference">为库选择一个主题</string>
     <!-- 1.3.0 -->
     <string name="unbind_from_gdocs">中断与Google Sheets的连接</string>
-    <string name="bind_to_gdocs">连接到Google Sheets</string>
-    <string name="bind_to_gdocs_title">连接到Google Sheets</string>
+    <string name="bind_to_gdocs">同步到Google Sheets</string>
+    <string name="bind_to_gdocs_title">同步到Google Sheets</string>
     <string name="unbind_message_title">中断与Google Sheets的连接</string>
     <string name="unbind_message_text">您是否确定要断开库\"%s\"到Google Sheets的连接？</string>
     <string name="bind_to_gdocs_message">正在连接到Google Spreadsheets。</string>
@@ -734,7 +734,7 @@
     <string name="set_default_page">设置默认值</string>
     <string name="entry_page_default">默认</string>
     <string name="entry_page_delete_message_text">你真的想删除这个标签页“%s”？</string>
-    <string name="faq">常见问题解答</string>
+    <string name="faq">常见问题</string>
     <string name="accept_button">我接受</string>
     <string name="sort_by_subtitle">按%s</string>
     <string name="group_by_subtitle">按%s</string>
@@ -868,8 +868,7 @@
     <string name="show_update_time_on_tile">编辑时间</string>
     <string name="only_title_on_tile">库的唯一的名称</string>
     <plurals name="fields_count">
-	<item quantity="one">一个场</item>
-	<item quantity="other">%d个场</item>
+	<item quantity="other">一个字段</item>
 </plurals>
     <plurals name="libraries_count">
         <item quantity="one">一库</item>
@@ -878,7 +877,7 @@
     <string name="empty">空的</string>
     <string name="add_page">添加页面</string>
     <string name="move_to_page">移动到页面</string>
-    <string name="empty_entry_page_text">这个页面是空的。\n您可以在这里添加的记录中的字段或列表。</string>
+    <string name="empty_entry_page_text">这个页面是空的。\n您可以在这里添加记录中的字段或列表。</string>
     <string name="empty_fields_list_text">此资料库中没有字段。</string>
     <string name="empty_aggregation_list_text">该库不包含聚合函数。</string>
     <string name="empty_chart_list_text">该库不包含图表。</string>
@@ -901,9 +900,9 @@
     <string name="color">颜色</string>
     <string name="edit_library_entries_options_group">条目列表</string>
     <string name="entries_color">列表颜色</string>
-    <string name="entries_color_dialog_title">颜色是由字段值决定的</string>
+    <string name="entries_color_dialog_title">颜色是由字段项目决定的</string>
     <string name="entries_icon">列表缩略图</string>
-    <string name="entries_icon_dialog_title">缩略图是由字段值决定的</string>
+    <string name="entries_icon_dialog_title">缩略图是由字段项目决定的</string>
     <string name="string_list_export_menu_title">导出项目</string>
     <string name="string_list_import_menu_title">导入项目</string>
     <string name="open_button">打开</string>
@@ -1036,10 +1035,10 @@
     <string name="lost_linked_library">链接库没有找到，可能已被删除。</string>
     <string name="multichoice_field_empty">没有可供选择的值</string>
     <string name="show_add_button_on_tile">按钮“添加条目”</string>
-    <string name="cant_find_audio_selection_app">很抱歉，应用程序选择音频文件没有发现。</string>
+    <string name="cant_find_audio_selection_app">很抱歉，选择的音频文件没有发现。</string>
     <string name="library_group_view_type">视图</string>
     <string name="library_group_view_type_big_tile">大卡片</string>
-    <string name="library_group_view_type_small_tile">小标题</string>
+    <string name="library_group_view_type_small_tile">小卡片</string>
     <string name="library_group_view_type_icons">图标</string>
     <string name="icon_pack_title_files_types">文件</string>
     <string name="use_depend_only_in_edit_title">在哪里使用</string>
@@ -1051,38 +1050,38 @@
 </plurals>
     <string name="most_viewed_templates">最受关注</string>    
 	<string name="featured_templates">精选</string>
-	<string name="template_views_count">浏览次数：%s</string>
+	<string name="template_views_count">浏览次数: %s</string>
 	<string name="sort_by_views">排序方式查看</string>
 	<string name="select_category_template">请选择类别</string>	
-	<string name="select_template_lang">模板选择语言</string>
+	<string name="select_template_lang">选择模板语言</string>
 	<string name="template_language">语言:</string>	
-	<string name="display_lang_option">按语言过滤器</string>
+	<string name="display_lang_option">按语言过滤</string>
 	<string name="display_lang_option_all">所有模板</string>
 	<string name="entries_name_dialog_title">输入名称由选定字段的值确定</string>
 	<string name="entries_name_is_unique">条目名称唯一不可重复！</string> 
-	<string name="no_fields_for_role">在这个库中没有合适的字段这个角色</string>
+	<string name="no_fields_for_role">在这个库中没有合适的字段</string>
 	<string name="update_item_name_index">重建索引...</string>	
 	<string name="entry_name_must_be_unique">条目名称不唯一</string>
 	<string name="entry_name_must_be_notnull">条目名称不能为空</string>
 	<string name="library_have_duplicates">在库里，条目名称相似</string>
 	<string name="library_have_duplicates2">更改或删除重复的正常工作。</string>
 	<string name="dont_show_anymore">不要再显示</string>
-	<string name="need_make_slave_library_unique">要同步“链接到条目”字段，您必须启用条目名称的唯一性控制在库该链接指向。\n现在做到这一点？</string>
-	<string name="need_make_slave_library_unique_import">要导入“链接到条目”字段，您必须启用条目名称的唯一性控制在库该链接指向。\n现在做到这一点？</string>
+	<string name="need_make_slave_library_unique">要同步“连接条目”字段，您必须启用条目名称的唯一性控制指向该库的连接。\n现在做到这一点？</string>
+	<string name="need_make_slave_library_unique_import">要导入“连接条目”字段，您必须启用条目名称的唯一性控制指向该库的连接。\n现在做到这一点？</string>
 	<string name="run_sync_slave_libraries_pref">相关库</string>
 	<string name="run_sync_slave_libraries_summary">首先同步相关库</string>
 	<string name="choice_type_add_button_in_edit_title">显示编辑时的增加按钮</string>
 	
 	<string name="show_deleted_entries_menu_item">显示已删除的项</string>
-	<string name="upload_to_cloud_menu_item">云</string>
+	<string name="upload_to_cloud_menu_item">在线云</string>
 	<string name="welcome_text_title">欢迎使用memento database</string>
-	<string name="welcome_text_description">库是你的作品将被保存的地方。\n你可以开始通过创建基于所提供的模板之一的库熟悉自己的程序。</string>
+	<string name="welcome_text_description">库是存储您数据的地方。\n你可以通过右上角的米按钮添加库，从提供的模板来创建库，从而熟知软件的使用。\n中国的用户交流QQ群：290681197。</string>
 	
-	<string name="memento_cloud">云</string>
+	<string name="memento_cloud">云同步</string>
 	<string name="start_remove_librarary_from_cloud">删除库...</string>
 	<string name="success_remove_librarary_from_cloud">库从云中成功删除</string>
 	<string name="start_upload_library_to_cloud">上传库...</string>	
-	<string name="success_upload_library_to_cloud">库成功上载。\n该库将自动同步。</string>
+	<string name="success_upload_library_to_cloud">库成功上传。\n该库将自动同步。</string>
 	<string name="success_upload_library_to_cloud2">你可以设置你的库被其他Memento用户访问。</string>	
 	<string name="push_entries_to_cloud_message" formatted="false">上传作品\n%s项%s的处理</string>
 	<string name="permissions">权限</string>
@@ -1104,7 +1103,7 @@
 	    <item quantity="other">同步过程中发生的%d冲突</item>
     </plurals>
     <string name="button_select">选择</string>
-    <string name="cloud">云</string>
+    <string name="cloud">云同步</string>
     <string name="library_not_in_cloud">没有同步</string>
     <string name="synced">已同步%s</string>
     <string name="cloud_synced_progress">同步...</string>
@@ -1116,7 +1115,7 @@
     <string name="cloud_size">尺寸</string>
     <string name="cloud_files_count">文件计数</string>
     <string name="cloud_who_has_access">谁有权访问</string>
-    <string name="cloud_server_unavaliable">Memento云服务器不可用，请检查网络设备上</string>
+    <string name="cloud_server_unavaliable">Memento云服务器不可用，请检查一下网络连接及您的设备。</string>
     <string name="delete_from_cloud">从云中删除</string>
     <string name="delete_from_cloud_message_question">难道你真的想要删除的云库？</string>
         
@@ -1204,7 +1203,7 @@
 	<string name="catalog_templates_title">在线目录</string>
 	<string name="catalog_templates_hint">在线模板3000</string>
 	<string name="add_lib_from_google_drive_hint">从谷歌硬盘恢复</string>
-	<string name="templates">模板</string>
+	<string name="templates">模板（强烈推荐-大量的中文模板下载：imedata.org）</string>
 	<string name="import_template_from_file_hint">从文件导入模板</string>
 	<string name="help_cloud">云存储和团队精神</string>
 	<string name="subscription_pro_bonus_text">大多数资费计划，云存储还包括专业版作为奖金\n谷歌云端硬盘</string>
@@ -1216,7 +1215,7 @@
 	<string name="clear_search_history_hint">删除所有已执行的搜索</string>
 	<string name="success_clear_search_history">您的搜索记录被清除</string>	
 	<string name="clear_search_history_quest">你确定要清除搜索历史记录？</string>
-	<string name="uservoice_menu_title">建议投诉网址</string>
+	<string name="uservoice_menu_title">建议反馈</string>
 	<string name="view_csv_error_dialog_message">很抱歉，但应用程序来查看CSV文件没有找到</string>
 	
 	<string name="edit_library_tabs_autofill">自动填充</string>
@@ -1322,7 +1321,7 @@
 
     <string name="flex_type_rich_text">Rich Text 文本编辑器</string>
     <string name="text_background_color">背景颜色</string>
-    <string name="field_type_rich_only_for_android_kit_kat">这种类型的字段只为Android4.4奇巧及更高版本。</string>
+    <string name="field_type_rich_only_for_android_kit_kat">这种类型的字段只为安卓4.4系统及更高版本。</string>
     <string name="field_type_rich_list_free_limit">对不起，列表仅适用于专业版用户使用。</string>
     <string name="field_type_rich_align_free_limit">对不起，调整仅适用于专业版用户使用。</string>
     <string name="attached_files">附加的文件</string>
@@ -1347,15 +1346,15 @@
     <string name="calc_preview_title">预览</string>
     <string name="add_relationship">关联库</string>
     <string name="add_relationship_with_title">选择二级库</string>
-    <string name="add_relationship_success">将采用现场“%s”中提供的库之间的关联。</string>
+    <string name="add_relationship_success">将采用字段“%s”提供的库之间的关联。</string>
     <string name="display_aggregation">显示聚合</string>
     <string name="display_aggregation_hint">聚合由链接库的条目</string>
     <string name="create_shortcut_text">该快捷方式键入一个名称</string>
     <string name="permission_storage_title">存储</string>
-    <string name="permission_storage_text">要继续，给予Memento访问您的存储。</string>
+    <string name="permission_storage_text">要继续，给予Memento权限访问您的存储。</string>
     <string name="permission_storage_explanation_text">访问存储所需的高速缓存，备份和可用性，图像和文件附加到您的输入。</string>
     <string name="permission_accounts_title">帐户</string>
-    <string name="permission_accounts_text">这是需要给予纪念品帐户访问与谷歌表和联系人字段类型同步。</string>
+    <string name="permission_accounts_text">需要memento帐户访问与谷歌表和对联系人字段类型同步。</string>
     <string name="permission_location_title">位置</string>
     <string name="permission_location_text">这是需要给予纪念品获取位置位置字段类型。</string>
     <string name="permission_not_necessarily">此权限不是必须的。</string>
@@ -1364,8 +1363,8 @@
     <string name="need_permission_dialog_title">所需的权限</string>
     <string name="need_permission_dialog_text">此操作需要的系统权限 - %s</string>
     
-<string name="empty_autofill_list_text">创建从互联网上的数据记录自动填充规则</string>
-    <string name="unlock_linked_library_text">链接库是加密的，则必须输入主密码</string>
+<string name="empty_autofill_list_text">创建来自互联网的数据自动填充规则</string>
+    <string name="unlock_linked_library_text">链接库是加密的，则必须输入主要密码</string>
     <string name="preview_calc_exec_time">Exec的定时: %d 毫秒</string>
     <string name="group_by_and">所有的（和）</string>
     <string name="group_by_or">任何的（或）</string>
