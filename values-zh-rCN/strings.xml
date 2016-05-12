@@ -386,7 +386,7 @@
     <string name="help_publish">发布库</string>
     <string name="help_subscribe">订阅库</string>
     <string name="lib_protection">加密库</string>
-    <string name="set_library_protection">加密码</string>
+    <string name="set_library_protection">添加密码</string>
     <string name="set_master_pass_text">设置库的主密码。\n您必须输入此密码才能访问加密库。</string>
     <string name="master_pass_hint">密码</string>
     <string name="master_pass_hint2">重输密码</string>
@@ -416,7 +416,7 @@
     <string name="re_encripted_entries">正在重新加密条目...</string>
     <string name="pass_changed">密码修改成功</string>
     <string name="library_protection_options">库加密码</string>
-    <string name="library_protection_not">确定</string>
+    <string name="library_protection_not">无</string>
     <string name="library_protection_pass">密码</string>
     <string name="library_protection_pass_checkbox">密码访问</string>
     <string name="buy_from_market_title">通过Google Play 购买</string>
@@ -510,7 +510,7 @@
     <string name="file_size">文件大小: %s</string>
     <string name="file_not_found">文件未找到</string>
     <string name="select_app">选择一个应用程序</string>
-    <string name="forum">论坛</string>
+    <string name="forum">在线论坛</string>
     <string name="autoincrement">自动增量</string>
     <string name="cant_protect">免费版本只允许加密两个库。\n升级到专业版可以解除此限制。</string>
     <string name="flex_edit_option_title">启用便捷编辑</string>
@@ -687,10 +687,10 @@
     <string name="files_storage_settings_screen">文件存储</string>
     <string name="files_storage_settings_screen_summary">放置照片和其他文件</string>
     <string name="files_storage_settings_path_title">文件存储文件夹</string>
-    <string name="files_storage_settings_dublicate_title">复制到存储</string>
-    <string name="files_storage_settings_dublicate_summary">记录将被复制到存储文件夹中的文件</string>
-    <string name="files_storage_settings_remove_original_title">删除原件</string>
-    <string name="files_storage_settings_remove_original_summary">复制文件到存储文件夹，删除原件。</string>
+    <string name="files_storage_settings_dublicate_title">复制文件到存储文件夹</string>
+    <string name="files_storage_settings_dublicate_summary">增加记录时，文件复制到存储文件夹</string>
+    <string name="files_storage_settings_remove_original_title">删除原文件</string>
+    <string name="files_storage_settings_remove_original_summary">当复制文件到存储文件夹时，删除原文件。</string>
     <string name="dublicate_file_error">"不能移动存储的文件: "</string>
     <string name="select_map_type">地图类型</string>
     <string name="normal">正常</string>
@@ -851,10 +851,10 @@
     <string name="color_swatch_description">颜色%d</string>
     <string name="color_swatch_description_selected">颜色%d选择 </string>
     <string name="button_palette">调色板...</string>
-    <string name="button_own_pictures">画廊...</string>
-    <string name="icon_pack_title_flat">平面</string>
-    <string name="icon_pack_title_circle">界</string>
-    <string name="icon_pack_title_old">旧</string>
+    <string name="button_own_pictures">选择本地图片...</string>
+    <string name="icon_pack_title_flat">方形</string>
+    <string name="icon_pack_title_circle">圆形</string>
+    <string name="icon_pack_title_old">旧的</string>
     <string name="icon_pack_title_field_material">材料</string>
     <string name="icon_pack_title_field_general_flat">一般</string>
     <string name="icon_pack_title_field_account_flat">会计</string>
@@ -919,15 +919,15 @@
     <string name="import_template_error">错误导入模板 %s</string>
     <string name="mass_delete_string_list_item_message">你确定要删除所选的项目（S）？</string>
     <string name="reminders_count_limit">您可以为一个字段中添加最多10个提醒</string>
-    <string name="aggregation_add_item_dialog_title">添加聚合功能</string>
-    <string name="aggregation_edit_item_dialog_title">编辑聚合功能</string>
+    <string name="aggregation_add_item_dialog_title">添加聚合函数</string>
+    <string name="aggregation_edit_item_dialog_title">编辑聚合函数</string>
     <string name="aggregation_result_position">位置</string>
     <string name="aggregation_result_prev_line">不要换行开始</string>
     <string name="aggregation_result_left">左</string>
     <string name="aggregation_result_right">右</string>
     <string name="aggregation_delete_title">删除聚合</string>
     <string name="aggregation_delete_message">难道你真的要删除聚合“%s”吗？</string>
-    <string name="aggregation_need_select_field_message">您必须选择一个字段，这个聚合函数</string>
+    <string name="aggregation_need_select_field_message">您必须选择一个字段作为这个聚合函数。</string>
     <string name="open_object_by_uri_error">无法打开对象：%s</string>
     <string name="import_and_export_menu_item">导入和导出...</string>
     <string name="entries_export_snackbar_ok">导出成功</string>
@@ -999,7 +999,7 @@
     <string name="auto_backup_when_sync">Google同步前进行备份</string>
     <string name="auto_backup_when_edit_libs">改变库之前进行备份</string>
     <string name="free_version_multi_field_limit">在免费版本，你可以只添加两个元素。升级到专业版，以取消这种限制。</string>
-    <string name="scale">规模%d</string>
+    <string name="scale">小数位%d</string>
     <plurals name="duration_seconds">
 	<item quantity="one">1秒</item>
 	<item quantity="other"/>
@@ -1105,7 +1105,7 @@
     </plurals>
     <string name="button_select">选择</string>
     <string name="cloud">云</string>
-    <string name="library_not_in_cloud">没有云</string>
+    <string name="library_not_in_cloud">没有同步</string>
     <string name="synced">已同步%s</string>
     <string name="cloud_synced_progress">同步...</string>
     <string name="cloud_offline">当前离线</string>
@@ -1266,9 +1266,9 @@
     <string name="field_orientation_option_horizontal">水平</string>
     <string name="field_orientation_option_vertical">垂直</string>
     <string name="preparing_files_for_sending">准备文件发送...</string>
-    <string name="whats_new_dialog_title">更新了什么</string>
+    <string name="whats_new_dialog_title">更新内容</string>
     <string name="font_size">尺寸</string>
-    <string name="font_family">家庭</string>
+    <string name="font_family">字体</string>
     <string name="font_style">样式</string>
     <string name="font_color">颜色</string>
     <string name="font_picker_dialog_title">字体</string>
@@ -1372,4 +1372,30 @@
     <string name="field_delimiters">字段分隔符</string>
     <string name="field_enclosed">文字预选</string>
     
+<string name="restore_from_cloud">从云中恢复</string>
+    <string name="users_manager">用户管理</string>
+    <string name="create_new_user_dialog">创建新用户</string>
+
+    <string name="script">脚本</string>
+    <string name="js_libraries">JavaScript库</string>
+    <string name="js_moment_library">库分析，验证，操纵和格式化日期</string>
+    <string name="js_realtime">实时执行脚本</string>
+    <string name="js_realtime_hint_off">该脚本只编辑一条记录时运行</string>
+    <string name="js_realtime_hint_on">显示记录时脚本运行</string>
+    <string name="user_limit_message">您已达到用户的限制</string>
+    <string name="remaining_users" formatted="false">用于%d个许可证%d个</string>
+    <string name="delete_slave_user_message">难道你真的想删除用户“%s”吗？</string>
+    <string name="active_users">活跃用户</string>
+    <string name="deleted_users">删除的用户</string>
+    <string name="powered_by_text">支持Memento Database</string>
+
+    <string name="string_list_sort_menu_title">按标题排序</string>
+    <string name="previous_value">以前的值</string>
+    <string name="specify_value">指定的值</string>
+    <string name="filters_order">排序...</string>
+    <string name="full_screen_mode">全屏模式</string>
+    <string name="standard_screen_mode">标准屏幕模式</string>
+    <string formatted="false" name="of_counter">%d 与 %d</string>
+
+
 </resources>
