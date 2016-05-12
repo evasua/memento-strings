@@ -1386,4 +1386,30 @@
     <string name="field_delimiters">Délimiteur de champ</string>
     <string name="field_enclosed">Marqueur de texte</string>
     
+<string name="users_manager">Gestion des utilisateurs</string>
+    <string name="create_new_user_dialog">Créer un nouvel utilisateur</string>
+
+    <string name="script">Script</string>
+    <string name="js_libraries">Bibliothèques Javascript</string>
+    <string name="js_moment_library">Blibliothèque pour parsing, validating, manipulating, and formatting dates</string>
+    <string name="js_realtime">Execute script real time</string>
+    <string name="js_realtime_hint_off">Le script ne s\'exécute qu\'en édition d\'enregistrement</string>
+    <string name="js_realtime_hint_on">Le script s\'exécute en affichage d\'enregistrement</string>
+    <string name="user_limit_message">Vous avez atteint votre limite en utilisateurs</string>
+    <string name="remaining_users" formatted="false">%d de %d licences utilisées</string>
+    <string name="delete_slave_user_message">Voulez-vous vraiment supprimer l\'utilisateur \"%s\" ?</string>
+    <string name="active_users">Utilisateurs actifs</string>
+    <string name="deleted_users">Utilisateurs supprimés</string>
+    <string name="powered_by_text">Propulsé par Memento Database</string>
+
+    <string name="string_list_sort_menu_title">Tri par titre</string>
+    <string name="previous_value">Valeur précédente</string>
+    <string name="specify_value">Préciser une valeur</string>
+    <string name="filters_order">Tri...</string>
+    <string name="full_screen_mode">Mode plein écran</string>
+    <string name="standard_screen_mode">Mode écran standard</string>
+    <string name="restore_from_cloud">Restaurer depuis le nuage</string>
+    <string formatted="false" name="of_counter">%d de %d</string>
+
+
 </resources>
