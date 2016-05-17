@@ -331,7 +331,7 @@
     <string name="unpublish_success">A publicação da biblioteca foi cancelada</string>
     <string name="unpublic_message_text">Quer realmente cancelar a publicação da biblioteca \"%s\" ?</string>
     <string name="unbind_from_gdocs_hint">Desvincular do Google Sheets</string>
-    <string name="preference_category_google_docs">Google Sheets</string>
+    <string name="preference_category_google_docs">Folha de cáculo Google</string>
     <string name="unbind_from_google_docs_success">A biblioteca não está mais vinculada ao Google Sheets</string>
     <string name="preference_category_memento_server">Servidor Memento</string>
     <string name="unpublic_library_hint">Cancelando publicação da biblioteca</string>
