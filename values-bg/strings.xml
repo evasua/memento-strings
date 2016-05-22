@@ -514,7 +514,7 @@
     <string name="file_not_found">Файлът не е намерен</string>
     <string name="select_app">Изберете приложение</string>
     <string name="forum">Форум</string>
-    <string name="autoincrement">Autoincrement</string>
+    <string name="autoincrement">Автоматично увеличение</string>
     <string name="cant_protect">Безплатната версия ви позволява да защитите само две библиотеки.↵\nНаправете ъпгрейд до PRO версия, за да премахнете това ограничение.</string>
     <string name="flex_edit_option_title">Къде можете да редактирате</string>
     <string name="flex_edit_option_default">Форма за редактиране на записи</string>
@@ -846,10 +846,10 @@
     <string name="color_swatch_description_selected">Цвят %d избран</string>
     <string name="button_palette">Палитра ...</string>
     <string name="button_own_pictures">Галерия...</string>
-    <string name="icon_pack_title_flat">Flat</string>
-    <string name="icon_pack_title_circle">Circles</string>
-    <string name="icon_pack_title_old">Old</string>
-    <string name="icon_pack_title_field_material">Material</string>
+    <string name="icon_pack_title_flat">Плосък</string>
+    <string name="icon_pack_title_circle">Кръгове</string>
+    <string name="icon_pack_title_old">Стар</string>
+    <string name="icon_pack_title_field_material">Материал</string>
     <string name="icon_pack_title_field_general_flat">Общ</string>
     <string name="icon_pack_title_field_account_flat">Отчетност</string>
     <string name="icon_pack_title_field_business_flat">Бизнес</string>
@@ -923,7 +923,7 @@
     <string name="reminders_count_limit">Можете да добавите максимум 10 напомняния за поле</string>
     <plurals name="NItemsFind">
 	<item quantity="one">1 намерен запис</item>
-	<item quantity="other">Намерени записи: %d</item>
+	<item quantity="other">Намерени записи: <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="COUNT">%d</xliff:g></item>
 </plurals>
     <string name="aggregation_add_item_dialog_title">Добави функция за агрегация</string>
     <string name="aggregation_edit_item_dialog_title">Редактиране на функция за агрегация</string>
