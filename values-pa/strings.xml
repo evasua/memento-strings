@@ -286,4 +286,10 @@
     <string name="private_library_checkbox_hint">ਕੇਵਲ ਨਿਰਧਾਰਿਤ ਵਰਤੋਕਾਰਾਂ ਤੱਕ ਹੀ ਇਸ ਲਾਇਬ੍ਰੇਰੀ ਦੀ ਪਹੁੰਚ ਹੈ</string>
     <string name="enter_alias">ਲਾਇਬ੍ਰੇਰੀ ਦਾ ਕੱਚਾ ਨਾਂ ਭਰੋ</string>
     <string name="incorrect_alias">ਲਾਇਬ੍ਰੇਰੀ ਦੇ ਕੱਚੇ ਨਾਂ ਵਿੱਚ ਕੇਵਲ ਅੱਖਰ ਤੇ ਅੰਕ ਹੀ ਸ਼ਾਮਿਲ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ</string>
-    </resources>
+    <string name="alias_exists">ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਇਸ ਕੱਚੇ ਨਾਂ ਨਾਲ ਲਾਇਬ੍ਰੇਰੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰ ਚੁੱਕੇ ਹੋ</string>
+    <string name="memento_forbidden_error">ਲਾਇਬ੍ਰੇਰੀ ਤੱਕ ਪਹੁੰਚ ਨੂੰ ਰੋਕਿਆ ਗਿਆ</string>
+    <string name="publish_library_address">%s ਲਾਇਬ੍ਰੇਰੀ ਹੁਣ ਇਸ \'ਤੇ ਉਪਲਬਧ ਹੈ</string>
+    <string formatted="false" name="of_counter">"%d  %d ਦਾ ਹੈ"</string>
+
+
+</resources>
