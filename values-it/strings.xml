@@ -846,7 +846,7 @@
     <string name="satellite">Satellitare</string>
     <string name="terrain">Terreno</string>
     <string name="open_map_menu_item">Mappa</string>
-    <string name="google_drive">Google Drive</string>
+    <string name="google_drive">"Google Drive  Cloud"</string>
     <string name="none_files_cloud_storage">Nessuno</string>
     <string name="select_files_cloud_storage">Seleziona un server cloud per la sincronizzazione</string>
     <string name="files_cloud_storage_pref">Sincronizzazione file</string>
@@ -1001,7 +1001,7 @@
     <string name="icon_pack_title_field_account_flat">Contabilità</string>
     <string name="icon_pack_title_field_business_flat">Lavoro</string>
     <string name="icon_pack_title_field_edu_flat">Educazione</string>
-    <string name="icon_pack_title_field_mult_flat">Multimedia</string>
+    <string name="icon_pack_title_field_mult_flat">Multimediale</string>
     <string name="icon_pack_title_field_net_flat">Rete</string>
     <string name="library_tile_options">Visualizza sulla tile</string>
     <string name="show_icon_on_tile">Icona della libreria</string>
@@ -1139,7 +1139,7 @@
     <string name="map_field_fast_option_title">Determinazione veloce delle coordinate</string>
     <string name="map_field_fast_option_hint">La posizione verrà determinata con scarsa accuratezza</string>
     <string name="map_field_address_option_title">Campo separato per l\'indirizzo</string>
-    <string name="off">Off</string>
+    <string name="off">Spento</string>
     <string name="auto_backup_not_yeat_launched">Non ancora lanciato</string>
     <string name="auto_backup_run_group">Quando fare il backup automatico</string>
     <string name="auto_backup_when_close_app">Dopo che l\'applicazione è stata chiusa</string>
@@ -1398,7 +1398,7 @@
     <string name="field_delimiters">Delimitatore del campo</string>
     <string name="field_enclosed">Qualifica testo</string>
     
-<string name="users_manager">Gestione degli utenti</string>
+<string name="users_manager">Gestione utenti</string>
     <string name="create_new_user_dialog">Crea nuovo utente</string>
 
     <string name="script">Script</string>
