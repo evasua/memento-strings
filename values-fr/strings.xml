@@ -1219,7 +1219,7 @@
 	<string name="send_formatting_menu_item">Formatage...</string>
 	<string name="pro_for_cloud_storage_title">Souscription</string>
 	<string name="default_file_manager_pref_title">Gestionnaire de fichiers</string>
-	<string name="default_file_manager_built_in">built-in</string>	
+	<string name="default_file_manager_built_in">intégré</string>	
 	<string name="clear_search_history">Effacer l\'historique de recherche</string>
 	<string name="clear_search_history_hint">Supprimer toutes les recherches réalisées</string>
 	<string name="success_clear_search_history">Votre historique de recherche a été effacé</string>	
