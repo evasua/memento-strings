@@ -1524,4 +1524,30 @@ wysłania...</string>
     <string name="field_delimiters">Separator pola</string>
     <string name="field_enclosed">Kwantyfikator tekstu</string>
     
+<string name="users_manager">Zarządzanie użytkownikami</string>
+    <string name="create_new_user_dialog">Utwórz nowego użytkownika</string>
+
+    <string name="script">Skrypt</string>
+    <string name="js_libraries">Biblioteki JavaScript</string>
+    <string name="js_moment_library">Biblioteka do analizy, zatwierdzenia, przetwarzania i formatowania daty</string>
+    <string name="js_realtime">Wykonuje skrypt w czasie rzeczywistym</string>
+    <string name="js_realtime_hint_off">Skrypt wykonywany tylko przy edycji wpisu</string>
+    <string name="js_realtime_hint_on">Skrypt wykonywany tylko przy wyświetlaniu wpisu</string>
+    <string name="user_limit_message">Osiągnięto maksymalną liczbę użytkowników</string>
+    <string name="remaining_users" formatted="false">%d z %d licencji używanych</string>
+    <string name="delete_slave_user_message">Czy rzeczywiście chcesz usunąć użytkownika \"%s\"?</string>
+    <string name="active_users">Aktywni użytkownicy</string>
+    <string name="deleted_users">Usunięci użytkownicy</string>
+    <string name="powered_by_text">Powered by Memento Database</string>
+
+    <string name="string_list_sort_menu_title">Sortuj wg tytułu</string>
+    <string name="previous_value">Poprzednia wartość</string>
+    <string name="specify_value">Podaj wartość</string>
+    <string name="filters_order">Porządek...</string>
+    <string name="full_screen_mode">Tryb Pełnego Ekranu</string>
+    <string name="standard_screen_mode">Standardowy tryb ekranu</string>
+    <string name="restore_from_cloud">Odbuduj z Chmury</string>
+    <string formatted="false" name="of_counter">%d z %d</string>
+
+
 </resources>
