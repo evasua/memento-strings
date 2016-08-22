@@ -514,7 +514,7 @@
     <string name="file_not_found">Файлът не е намерен</string>
     <string name="select_app">Изберете приложение</string>
     <string name="forum">Форум</string>
-    <string name="autoincrement">Autoincrement</string>
+    <string name="autoincrement">Автоматично увеличение</string>
     <string name="cant_protect">Безплатната версия ви позволява да защитите само две библиотеки.↵\nНаправете ъпгрейд до PRO версия, за да премахнете това ограничение.</string>
     <string name="flex_edit_option_title">Къде можете да редактирате</string>
     <string name="flex_edit_option_default">Форма за редактиране на записи</string>
@@ -846,10 +846,10 @@
     <string name="color_swatch_description_selected">Цвят %d избран</string>
     <string name="button_palette">Палитра ...</string>
     <string name="button_own_pictures">Галерия...</string>
-    <string name="icon_pack_title_flat">Flat</string>
-    <string name="icon_pack_title_circle">Circles</string>
-    <string name="icon_pack_title_old">Old</string>
-    <string name="icon_pack_title_field_material">Material</string>
+    <string name="icon_pack_title_flat">Плосък</string>
+    <string name="icon_pack_title_circle">Кръгове</string>
+    <string name="icon_pack_title_old">Стар</string>
+    <string name="icon_pack_title_field_material">Материал</string>
     <string name="icon_pack_title_field_general_flat">Общ</string>
     <string name="icon_pack_title_field_account_flat">Отчетност</string>
     <string name="icon_pack_title_field_business_flat">Бизнес</string>
@@ -923,7 +923,7 @@
     <string name="reminders_count_limit">Можете да добавите максимум 10 напомняния за поле</string>
     <plurals name="NItemsFind">
 	<item quantity="one">1 намерен запис</item>
-	<item quantity="other">Намерени записи: %d</item>
+	<item quantity="other">Намерени записи: <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="COUNT">%d</xliff:g></item>
 </plurals>
     <string name="aggregation_add_item_dialog_title">Добави функция за агрегация</string>
     <string name="aggregation_edit_item_dialog_title">Редактиране на функция за агрегация</string>
@@ -1370,4 +1370,32 @@
     <string name="group_by_and">Всяко от (AND)</string>
     <string name="group_by_or">Някое от (OR)</string>
     <string name="field_delimiters">Разделител на полетата</string>
-    </resources>
+    <string name="field_enclosed">Идентификатор текст</string>
+
+    <string name="users_manager">Управление на потребители</string>
+    <string name="create_new_user_dialog">Създаване на нов потребител</string>
+
+    <string name="script">Скрипт</string>
+    <string name="js_libraries">JavaScript библиотеки</string>
+    <string name="js_moment_library">Библиотека за разбор, валидиране, манипулиране и форматиране на дати</string>
+    <string name="js_realtime">Изпълнение на скрипт в реално време</string>
+    <string name="js_realtime_hint_off">Скриптът се изпълнява само при редактиране на запис</string>
+    <string name="js_realtime_hint_on">Скриптът се изпълнява при показване на запис</string>
+    <string name="user_limit_message">Вие сте достигнали лимита си на потребители</string>
+    <string name="remaining_users" formatted="false">%d от %d лицензи се използват</string>
+    <string name="delete_slave_user_message">Наистина ли искате да изтриете потребителя \"%s\"?</string>
+    <string name="active_users">Активни потребители</string>
+    <string name="deleted_users">Изтрити потребители</string>
+    <string name="powered_by_text">Осъществено от Memento Database</string>
+
+    <string name="string_list_sort_menu_title">Сортиране по заглавие</string>
+    <string name="previous_value">Предишна стойност</string>
+    <string name="specify_value">Посочете стойност</string>
+    <string name="filters_order">Поръчка...</string>
+    <string name="full_screen_mode">Режим на цял екран</string>
+    <string name="standard_screen_mode">Режим стандартен екран</string>
+    <string name="restore_from_cloud">Възстановяване от облак</string>
+    <string formatted="false" name="of_counter">%d от %d</string>
+
+
+</resources>

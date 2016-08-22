@@ -846,7 +846,7 @@
     <string name="satellite">Satellitare</string>
     <string name="terrain">Terreno</string>
     <string name="open_map_menu_item">Mappa</string>
-    <string name="google_drive">Google Drive</string>
+    <string name="google_drive">"Google Drive  Cloud"</string>
     <string name="none_files_cloud_storage">Nessuno</string>
     <string name="select_files_cloud_storage">Seleziona un server cloud per la sincronizzazione</string>
     <string name="files_cloud_storage_pref">Sincronizzazione file</string>
@@ -1001,7 +1001,7 @@
     <string name="icon_pack_title_field_account_flat">Contabilità</string>
     <string name="icon_pack_title_field_business_flat">Lavoro</string>
     <string name="icon_pack_title_field_edu_flat">Educazione</string>
-    <string name="icon_pack_title_field_mult_flat">Multimedia</string>
+    <string name="icon_pack_title_field_mult_flat">Multimediale</string>
     <string name="icon_pack_title_field_net_flat">Rete</string>
     <string name="library_tile_options">Visualizza sulla tile</string>
     <string name="show_icon_on_tile">Icona della libreria</string>
@@ -1139,7 +1139,7 @@
     <string name="map_field_fast_option_title">Determinazione veloce delle coordinate</string>
     <string name="map_field_fast_option_hint">La posizione verrà determinata con scarsa accuratezza</string>
     <string name="map_field_address_option_title">Campo separato per l\'indirizzo</string>
-    <string name="off">Off</string>
+    <string name="off">Spento</string>
     <string name="auto_backup_not_yeat_launched">Non ancora lanciato</string>
     <string name="auto_backup_run_group">Quando fare il backup automatico</string>
     <string name="auto_backup_when_close_app">Dopo che l\'applicazione è stata chiusa</string>
@@ -1398,4 +1398,30 @@
     <string name="field_delimiters">Delimitatore del campo</string>
     <string name="field_enclosed">Qualifica testo</string>
     
+<string name="users_manager">Gestione utenti</string>
+    <string name="create_new_user_dialog">Crea nuovo utente</string>
+
+    <string name="script">Script</string>
+    <string name="js_libraries">Librerie JavaScript</string>
+    <string name="js_moment_library">Libreria per l\'analisi, convalida, manipolazione e formattazione delle date</string>
+    <string name="js_realtime">Eseguire lo script in tempo reale</string>
+    <string name="js_realtime_hint_off">Lo script viene eseguito solo quando si modifica un record</string>
+    <string name="js_realtime_hint_on">Lo script viene eseguito durante la visualizzazione di un record</string>
+    <string name="user_limit_message">Hai raggiunto il limite di utenti</string>
+    <string name="remaining_users" formatted="false">%d di %d licenze utilizzate</string>
+    <string name="delete_slave_user_message">Vuoi davvero eliminare l\'utente \"%s\"?</string>
+    <string name="active_users">Utenti attivi</string>
+    <string name="deleted_users">Utenti eliminati</string>
+    <string name="powered_by_text">Creato da Memento Database</string>
+
+    <string name="string_list_sort_menu_title">Ordina per titolo</string>
+    <string name="previous_value">Valore precedente</string>
+    <string name="specify_value">Specificare il valore</string>
+    <string name="filters_order">Ordine...</string>
+    <string name="full_screen_mode">Modalità a schermo intero</string>
+    <string name="standard_screen_mode">Modalità standard dello schermo</string>
+    <string name="restore_from_cloud">Ripristinare dal cloud</string>
+    <string formatted="false" name="of_counter">%d di %d</string>
+
+
 </resources>

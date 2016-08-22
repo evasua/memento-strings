@@ -275,4 +275,21 @@
     <string name="deafult_group_title">ਮੇਰੀਆਂ ਲਾਇਬ੍ਰੇਰੀਆਂ</string>
     <string name="find_libraries_task_title">ਲਾਇਬ੍ਰੇਰੀ ਖੋਜੋ</string>
     <string name="libraries_list_result_header">ਲੱਭੀਆਂ ਲਾਇਬ੍ਰੇਰੀਆਂ</string>
-    </resources>
+    <string formatted="false" name="picasa_send_image_step">ਲਾਇਬ੍ਰੇਰੀ ਤਸਵੀਰਾਂ ਨੂੰ ਪਿਕਾਸਾ \'ਤੇ ਚੜ੍ਹਾਇਆ ਜਾ ਰਿਹਾ ਹੈ। %s ਦਾ %s</string>
+    <string name="memento_register_account_text">ਲਾਇਬ੍ਰੇਰੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰਨ ਅਤੇ ਉਸ ਨਾਲ ਜੁੜੇ ਰਹਿਣ ਦੇ ਯੋਗ ਬਣਨ ਲਈ ਮੀਮੈਂਟੋ ਸਰਵਰ \'ਤੇ ਖਾਤਾ ਬਣਾਉਣਾ ਲੋੜੀਂਦਾ ਹੈ</string>
+    <string formatted="false" name="public_library_task_send_items">"ਲਾਇਬ੍ਰੇਰੀ ਇੰਦਰਾਜਾਂ ਦੀ ਬਦਲੀ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ।\n%s ਤੋਂ %s  ਵੱਲ"</string>
+    <string name="memento_not_support_template">ਤੁਹਾਡੇ ਮੀਮੈਂਟੋ ਦਾ ਸੰਸਕਰਣ ਪੁਰਾਣਾ ਹੈ, ਉੱਨਤ ਕਰੋ</string>
+    <string name="memento_not_found">ਸ੍ਰੋਤ ਨਹੀਂ ਲੱਭਿਆ</string>
+    <string name="alias_hint">ਲਾਇਬ੍ਰੇਰੀ ਦਾ ਕੱਚਾ ਨਾਂ ਭਰੋ</string>
+    <string name="publish_update_success">ਲਾਇਬ੍ਰੇਰੀ ਪ੍ਰਕਾਸ਼ਨ ਨੂੰ ਉੱਨਤ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ</string>
+    <string name="private_library_checkbox">ਨਿੱਜੀ ਪਹੁੰਚ</string>
+    <string name="private_library_checkbox_hint">ਕੇਵਲ ਨਿਰਧਾਰਿਤ ਵਰਤੋਕਾਰਾਂ ਤੱਕ ਹੀ ਇਸ ਲਾਇਬ੍ਰੇਰੀ ਦੀ ਪਹੁੰਚ ਹੈ</string>
+    <string name="enter_alias">ਲਾਇਬ੍ਰੇਰੀ ਦਾ ਕੱਚਾ ਨਾਂ ਭਰੋ</string>
+    <string name="incorrect_alias">ਲਾਇਬ੍ਰੇਰੀ ਦੇ ਕੱਚੇ ਨਾਂ ਵਿੱਚ ਕੇਵਲ ਅੱਖਰ ਤੇ ਅੰਕ ਹੀ ਸ਼ਾਮਿਲ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ</string>
+    <string name="alias_exists">ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਇਸ ਕੱਚੇ ਨਾਂ ਨਾਲ ਲਾਇਬ੍ਰੇਰੀ ਪ੍ਰਕਾਸ਼ਿਤ ਕਰ ਚੁੱਕੇ ਹੋ</string>
+    <string name="memento_forbidden_error">ਲਾਇਬ੍ਰੇਰੀ ਤੱਕ ਪਹੁੰਚ ਨੂੰ ਰੋਕਿਆ ਗਿਆ</string>
+    <string name="publish_library_address">%s ਲਾਇਬ੍ਰੇਰੀ ਹੁਣ ਇਸ \'ਤੇ ਉਪਲਬਧ ਹੈ</string>
+    <string formatted="false" name="of_counter">"%d  %d ਦਾ ਹੈ"</string>
+
+
+</resources>

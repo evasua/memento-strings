@@ -331,7 +331,7 @@
     <string name="unpublish_success">A publicação da biblioteca foi cancelada</string>
     <string name="unpublic_message_text">Quer realmente cancelar a publicação da biblioteca \"%s\" ?</string>
     <string name="unbind_from_gdocs_hint">Desvincular do Google Sheets</string>
-    <string name="preference_category_google_docs">Google Sheets</string>
+    <string name="preference_category_google_docs">Folha de cáculo Google</string>
     <string name="unbind_from_google_docs_success">A biblioteca não está mais vinculada ao Google Sheets</string>
     <string name="preference_category_memento_server">Servidor Memento</string>
     <string name="unpublic_library_hint">Cancelando publicação da biblioteca</string>
@@ -1394,4 +1394,30 @@
     <string name="field_delimiters">Campo delimitador</string>
     <string name="field_enclosed">Qualificador de texto</string>
     
+<string name="users_manager">Gestor de utilizadores</string>
+    <string name="create_new_user_dialog">Criar um novo utilizador</string>
+
+    <string name="script">Script</string>
+    <string name="js_libraries">Bibliotecas JavaScript</string>
+    <string name="js_moment_library">Biblioteca para análise, validação, manipulação e formatação de datas</string>
+    <string name="js_realtime">Executar o script em tempo real</string>
+    <string name="js_realtime_hint_off">O script é executado somente durante a edição de um registo</string>
+    <string name="js_realtime_hint_on">O script é executado ao exibir um registo</string>
+    <string name="user_limit_message">Você atingiu o seu limite de utilizadores</string>
+    <string name="remaining_users" formatted="false">%d de %d licenças usadas</string>
+    <string name="delete_slave_user_message">Você realmente quer apagar o utilizador \"%s\"?</string>
+    <string name="active_users">Utilizadores ativos</string>
+    <string name="deleted_users">Utilizadores eliminados</string>
+    <string name="powered_by_text">Desenvolvido por Memento Database</string>
+
+    <string name="string_list_sort_menu_title">Ordenar por título</string>
+    <string name="previous_value">Valor anterior</string>
+    <string name="specify_value">Especifique o valor</string>
+    <string name="filters_order">Ordem...</string>
+    <string name="full_screen_mode">Modo ecrã completo</string>
+    <string name="standard_screen_mode">Modo ecrã padrão</string>
+    <string name="restore_from_cloud">Restaurar a partir da cloud</string>
+    <string formatted="false" name="of_counter">%d de %d</string>
+
+
 </resources>
