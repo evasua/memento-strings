@@ -42,7 +42,7 @@
     <string name="default_value">Standardverdi</string>
     <string name="flex_template_options_title">Avanserte parametere</string>
     <string name="error_template_empty_title">Skriv feltnavnet</string>
-    <string name="error_library_withous_name_flex">Et bibliotek skal ha minst et felt med funsjonen - \ "navn \"</string>
+    <string name="error_library_withous_name_flex">Et bibliotek skal ha minst et felt med funsjonen - \"navn \".</string>
     <string name="select_library_icon_activity">Velg ikon for biblioteket</string>
     <string name="select_flex_template_role_title">Feltfunsjon</string>
     <string name="library_edit2">Redigere biblioteket</string>
@@ -165,7 +165,7 @@
     <string name="find_csv_column_title">Inmatningsfeltene finnes i den markerte filen:</string>
     <string name="not_find_csv_column_title">Ingen felt finnes i den markerte filen.</string>
     <string name="csv_delimiter_text">Kolonneverdiene må separeres med et kommategn (,)</string>
-    <string name="need_title_column_text">Navnet på en kolonne må motsvare navnet på et inmatingsfelt.</string>
+    <string name="need_title_column_text">"Navnet på en kolonne må motsvare navnet på et inmatingsfelt. "</string>
     <string name="csv_result_import_text">Oppgaven er importert</string>
     <string name="csv_result_import_succes_items">Feltene ble lagt til:</string>
     <string formatted="false" name="csv_result_import_fail_items">Antall rader med feil:%s \nRows: %s</string>
