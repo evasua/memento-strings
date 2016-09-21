@@ -582,7 +582,7 @@
     <string name="preference_category_export_data_cfg">Configurações de Importação/Exportação/Sincronização</string>
     <string name="import_export_date_format">Selecione o formato da data</string>
     <string name="import_export_date_format_dialog">Selecione um formato da data para importar/exportar/sincronizar</string>
-    <string name="main_title">Memento Database</string>
+    <string name="main_title">Base de Dados Memento</string>
     <string name="main_menu_add_group">Adicionar Grupo</string>
     <string name="main_menu_bookmarks">Marcadores de favoritos e histórico</string>
     <string name="main_menu_add_lib_group">Adicionar Livraria ou Grupo</string>
@@ -746,7 +746,7 @@
     <string name="satellite">Satélite</string>
     <string name="terrain">Terreno</string>
     <string name="open_map_menu_item">Mapa</string>
-    <string name="google_drive">Google Drive</string>
+    <string name="google_drive">Drive Google</string>
     <string name="none_files_cloud_storage">Nenhum</string>
     <string name="select_files_cloud_storage">Escolha um servidor cloud para sincronização</string>
     <string name="files_cloud_storage_pref">Sincronizando ficheiros</string>
