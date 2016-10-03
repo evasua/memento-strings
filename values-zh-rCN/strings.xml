@@ -437,7 +437,7 @@
     <string name="entry_desc_font_size_preference">条目描述</string>
     <string name="entry_status_font_size_preference">条目状态</string>
     <string name="entry_field_title_font_size_preference">字段名称</string>
-    <string name="entry_field_value_font_size_preference">字段值</string>
+    <string name="entry_field_value_font_size_preference">选中</string>
 
     <string name="flex_type_calc">计算</string>
     <string name="flex_type_calc_option_header">表达式</string>
@@ -652,14 +652,14 @@
     <string name="select_type_depends_spinner_title">依赖类型</string>
     <string name="select_master_field_for_depend">选择要依赖的字段</string>
     <string name="library_fields">库输入字段</string>
-    <string name="boolean_field_check_value">检查</string>
-    <string name="boolean_field_uncheck_value">选中</string>
+    <string name="boolean_field_check_value">选中</string>
+    <string name="boolean_field_uncheck_value">未选中</string>
     <string name="visible_field_depend_pretitle">字段%s的状态</string>
     <string name="visible_field_depend_description">如果这个字段接受的值，%s 该字段将处于这个状态</string>
     <string name="depend_from">%s的依赖</string>
     <string name="delete_depend_dialog_title">删除依赖</string>
     <string name="delete_depend_dialog_message">你是否真的要删除字段“%s”的依赖？</string>
-    <string name="sl_content_depend_type">内容对字段</string>
+    <string name="sl_content_depend_type">这个字段的内容</string>
     <string name="sl_content_depend_pretitle">字段值%s</string>
     <string name="sl_content_depend_description">如果该字段的值为%s，该字段的值将可供选择</string>
     <string name="backup_images_checkbox">创建备份相关图像、音频记录和其他文件的备份副本</string>
@@ -855,8 +855,8 @@
     <string name="icon_pack_title_flat">方形</string>
     <string name="icon_pack_title_circle">圆形</string>
     <string name="icon_pack_title_old">旧的</string>
-    <string name="icon_pack_title_field_material">材料</string>
-    <string name="icon_pack_title_field_general_flat">一般</string>
+    <string name="icon_pack_title_field_material">Material图标</string>
+    <string name="icon_pack_title_field_general_flat">General图标</string>
     <string name="icon_pack_title_field_account_flat">会计</string>
     <string name="icon_pack_title_field_business_flat">商业</string>
     <string name="icon_pack_title_field_edu_flat">教育</string>
@@ -900,9 +900,9 @@
     <string name="color">颜色</string>
     <string name="edit_library_entries_options_group">条目列表</string>
     <string name="entries_color">列表颜色</string>
-    <string name="entries_color_dialog_title">颜色是由字段项目决定的</string>
+    <string name="entries_color_dialog_title">请选择作为颜色显示的字段</string>
     <string name="entries_icon">列表缩略图</string>
-    <string name="entries_icon_dialog_title">缩略图是由字段项目决定的</string>
+    <string name="entries_icon_dialog_title">请选择作为的缩略图字段</string>
     <string name="string_list_export_menu_title">导出项目</string>
     <string name="string_list_import_menu_title">导入项目</string>
     <string name="open_button">分享到QQ（或打开）</string>
@@ -921,7 +921,7 @@
     <string name="aggregation_add_item_dialog_title">添加聚合函数</string>
     <string name="aggregation_edit_item_dialog_title">编辑聚合函数</string>
     <string name="aggregation_result_position">位置</string>
-    <string name="aggregation_result_prev_line">不要换行开始</string>
+    <string name="aggregation_result_prev_line">不换行</string>
     <string name="aggregation_result_left">左</string>
     <string name="aggregation_result_right">右</string>
     <string name="aggregation_delete_title">删除聚合</string>
@@ -1057,8 +1057,8 @@
 	<string name="template_language">语言:</string>	
 	<string name="display_lang_option">按语言过滤</string>
 	<string name="display_lang_option_all">所有模板</string>
-	<string name="entries_name_dialog_title">输入名称由选定字段的值确定</string>
-	<string name="entries_name_is_unique">条目名称唯一不可重复！</string> 
+	<string name="entries_name_dialog_title">请选择作为名称的字段</string>
+	<string name="entries_name_is_unique">名称唯一不重复！</string> 
 	<string name="no_fields_for_role">在这个库中没有合适的字段</string>
 	<string name="update_item_name_index">重建索引...</string>	
 	<string name="entry_name_must_be_unique">条目名称不唯一</string>
@@ -1070,7 +1070,7 @@
 	<string name="need_make_slave_library_unique_import">要导入“连接条目”字段，您必须启用条目名称的唯一性控制指向该库的连接。\n现在做到这一点？</string>
 	<string name="run_sync_slave_libraries_pref">相关库</string>
 	<string name="run_sync_slave_libraries_summary">首先同步相关库</string>
-	<string name="choice_type_add_button_in_edit_title">显示编辑时的增加按钮</string>
+	<string name="choice_type_add_button_in_edit_title">编辑时显示添加按钮</string>
 	
 	<string name="show_deleted_entries_menu_item">显示已删除的项</string>
 	<string name="upload_to_cloud_menu_item">在线云</string>

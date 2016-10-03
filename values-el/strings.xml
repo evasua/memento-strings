@@ -215,7 +215,7 @@
     <string name="sync_with_gdocs">Συγχρονισμός με τα Φύλλα Google</string>
     <string name="google_docs_task_step_auth">Έλεγχος ταυτότητας στην υπηρεσία Φύλλα</string>
     <string formatted="false" name="google_docs_task_step_process_row">Επεξεργασία σειρών λίστας. %S από %s</string>
-    <string formatted="false" name="google_docs_task_step_send_row">Πρισθήκη σειράς λίστας. %S από %s</string>
+    <string formatted="false" name="google_docs_task_step_send_row">Προσθήκη σειράς λίστας. %S από %s</string>
     <string formatted="false" name="google_docs_task_step_update_row">Ενημέρωση σειράς λίστας. %S από %s</string>
     <string name="google_docs_task_create_document">Δημιουργία Υπολογιστικού Φύλλου</string>
     <string name="google_docs_task_create_worksheet">Προσθέτοντας ένα φύλλο εργασίας</string>
