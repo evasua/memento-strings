@@ -112,7 +112,7 @@
     <string name="backup_summary_preference">Napravi rezervnu kopiju svih biblioteka na fleš kartici</string>
     <string name="backup_fail">Greška prilikom pravljenja rezervne kopije</string>
     <string name="cdcard_not_found">Izvini, tvoja SD kartica je zauzeta</string>
-    <string name="backup_process">Pravljenje rezervne kopije biblioteka</string>
+    <string name="backup_process">Pravljenje rezervne kopije biblioteka.</string>
     <string name="restore_preference">Povrati</string>
     <string name="restore_summary_preference">Povraćaj biblioteka iz rezervnih kopija</string>
     <string name="backup_file_not_found">Fajl rezervne kopije nije pronađen.</string>

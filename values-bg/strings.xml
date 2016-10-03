@@ -419,7 +419,7 @@
     <string name="library_protection_pass">Парола</string>
     <string name="library_protection_pass_checkbox">Достъп по парола</string>
     <string name="buy_from_market_title">Купете през Google Play</string>
-    <string name="buy_from_market_hint">Google Wallet</string>
+    <string name="buy_from_market_hint">Wallet Google</string>
     <string name="flex_type_password">Парола</string>
     <string name="flex_type_phone">Телефон</string>
     <string name="license_check">Проверка на лицензи</string>

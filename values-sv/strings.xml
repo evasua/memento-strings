@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Lägg till en post</string>
@@ -42,7 +42,7 @@
     <string name="default_value">Standardvärde</string>
     <string name="flex_template_options_title">Avancerade parametrar</string>
     <string name="error_template_empty_title">Skriv fältnamnet</string>
-    <string name="error_library_withous_name_flex">Ett bibliotek ska ha minst ett fält med funktionen - \ "namn \"</string>
+    <string name="error_library_withous_name_flex">"Ett bibliotek ska ha minst ett fält med funktionen -  \"namn\"."</string>
     <string name="select_library_icon_activity">Välj ikon för biblioteket</string>
     <string name="select_flex_template_role_title">Fältfunktion</string>
     <string name="library_edit2">Redigera biblioteket</string>
@@ -165,7 +165,7 @@
     <string name="find_csv_column_title">Inmatningsfälten finns i den markerade filen:</string>
     <string name="not_find_csv_column_title">Inga fält finns i den markerade filen.</string>
     <string name="csv_delimiter_text">Kolumnvärden måste separeras med ett kommatecken (,)</string>
-    <string name="need_title_column_text">Namnet på en kolumn måste motsvara namnet på ett inmatningsfält.</string>
+    <string name="need_title_column_text">"Namnet på en kolumn måste motsvara namnet på ett inmatningsfält. "</string>
     <string name="csv_result_import_text">Uppgifterna har importerats</string>
     <string name="csv_result_import_succes_items">Fälten lades till:</string>
     <string formatted="false" name="csv_result_import_fail_items">Antal rader med fel:%s \nRows: %s</string>
@@ -403,7 +403,7 @@
     <string name="library_is_locked">Tillgången till krypterade bibliotek är stängt</string>
     <string name="library_pass_access_description">Du måste ange huvudlösenord för att komma åt denna bibliotek</string>
     <string name="library_encription_checkbox">Kryptera innehållet</string>
-    <string name="library_encription_description">Stängfält av uppgifterna kommer att krypteras med AES</string>
+    <string name="library_encription_description">Stängfält av uppgifterna kommer att krypteras med AES.</string>
     <string name="set_library_protection_title">Kryptera poster</string>
     <string name="set_library_protection_message">Krypterar bibliotekets poster ...</string>
     <string name="remove_library_protection">Ta bort skydd</string>
