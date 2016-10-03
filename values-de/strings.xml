@@ -296,15 +296,15 @@
     <string name="private_library_checkbox_hint">Nur die angegebenen Benutzer werden Zugriff auf das Verzeichnis haben</string>
     <string name="enter_alias">Gib ein Alias des Verzeichnisses ein</string>
     <string name="incorrect_alias">Das Verzeichnis Alias kann nur Buchstaben und Ziffern enthalten</string>
-    <string name="public_library_address_text">Verzeichnis Addresse</string>
+    <string name="public_library_address_text">Sammlung Addresse</string>
     <string name="alias_exists">Ein Verzeichnis mit dem gleichen Alias wurde bereits veröffentlicht</string>
     <string name="memento_forbidden_error">Zugriff auf das Verzeichnis ist nicht erlaubt</string>
     <string name="publish_library_address">Das Verzeichnis %s ist nun verfügbar unter</string>
     <string name="publish_library_address_hint"> Ihre Bekannten können nun Memento benutzen um sich das Verzeichnis anzusehen. Zum Abonnieren sollte sie die oben genannte Adresse benutzen.</string>
     <string name="deafult_group_title">Meine Sammlungen</string>
     <string name="subscribe_activity_title">Sammlung abonnieren</string>
-    <string name="library_uri_hint">Verzeichnis Adresse</string>
-    <string name="find_libraries_task_title">Verzeichnis search</string>
+    <string name="library_uri_hint">Sammlung Adresse</string>
+    <string name="find_libraries_task_title">Sammlung search</string>
     <string name="find_libraries_task_by_uri">Abonniere das Verzeichnis\nnach der Adresse</string>
     <string name="find_libraries_task_by_user">Empfange Verzeichnisliste\ndes Benutzers</string>
     <string name="libraries_list_result_header">Sammlungen gefunden</string>
@@ -314,7 +314,7 @@
     <string name="last_update">Letzte Aktualisierung: %s</string>
     <string name="subscribe_button">Abonnieren</string>
     <string name="subscribe_task_get_library">Empfange Verzeichniseinträge</string>
-    <string name="subscribe_task_create_library">Erstelle Verzeichnis</string>
+    <string name="subscribe_task_create_library">Erstelle Sammlung</string>
     <string formatted="false" name="subscribe_task_save_library_task">Speichere Einträge.\n%s von %s</string>
     <string name="subscribe_task_create_index">Erstelle Index</string>
     <string name="subscribes_group_title">Abonnements</string>
@@ -347,7 +347,7 @@
     <string name="info_public_library">Verzeichnisadresse</string>
     <string name="cant_public">In der freien Version können nur 3 Verzeichnisse veröffentlicht werden.\nUpgrade zur PRO Version um dieses Limit aufzuheben.</string>
     <string name="add_permission_user_hint">Gebe Benutzerkennung oder EMail ein</string>
-    <string name="edit_pub_permissions">Verzeichnis Zugriffsrechte</string>
+    <string name="edit_pub_permissions">Sammlung Zugriffsrechte</string>
     <string name="edit_pub_permissions_hint">Bearbeite die Liste der Nutzer die Zugriffsrechte auf das Verzeichnis haben</string>
     <string name="edit_pub_permissions_task_dialog_message">Ändere die Zugriffsrechte auf das Verzeichnis</string>
     <!-- 1.4.5 -->
@@ -419,7 +419,7 @@
     <string name="new_master_pass_hint">Neues Passwort</string>
     <string name="new_master_pass_hint2">Bestätigen Sie das Passwort</string>
     <string name="pass_changed">Das Passwort wurde erfolgreich geändert</string>
-    <string name="library_protection_options">Verzeichnis-Schutz</string>
+    <string name="library_protection_options">Sammlung Schutz</string>
     <string name="library_protection_not">Nichts</string>
     <string name="library_protection_pass">Passwort</string>
     <string name="library_protection_pass_checkbox">Passwort-Zugang</string>
@@ -1145,7 +1145,7 @@
 	<string name="success_pull_library_from_cloud">Einträge wurden erfolgreich heruntergeladen.\nDie Bibliothek wird automatisch synchronisiert.</string>
 	<string name="cloud_files_count">Dateien Anzahl</string>
     <string name="cloud_who_has_access">"Wer hat Zugriff "</string>
-    <string name="prepare_library_for_cloud">Verzeichnis wird bearbeitet...</string>
+    <string name="prepare_library_for_cloud">Sammlung wird bearbeitet...</string>
     <string name="download_files_from_cloud">Dateien werden aus der Cloud heruntergeladen...</string>
     <string name="cant_download_item_files_for_copy">Herunterladen der Dateien um Kopien herzustellen ist fehlgeschlagen.</string> 
     <string name="button_update">Aktualisierung</string>
@@ -1186,7 +1186,7 @@
 	<string name="owner">Inhaber</string>
 	<string name="find_library_by_url_title">Öffnen durch URL</string>
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
-	<string name="library_not_found_by_uri">Verzeichnis nicht gefunden</string>
+	<string name="library_not_found_by_uri">Sammlung nicht gefunden</string>
 	<string name="button_no_thanks">Nein, danke</string>
 	<string name="button_upload">Hochladen</string>
 	
