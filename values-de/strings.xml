@@ -546,7 +546,7 @@
     <string name="prepare_linking_library">Vorbereitung für das Verbinden...</string>
     <string name="error_prepare_linking">Während der Vorbereitung zur Verbindung ist ein Fehler aufgetreten: %s</string>
     <string name="have_library_items_ask_title">Verknüpfung mit einer Google Tabelle</string>
-    <string name="have_library_items_ask_message">Diese Bibliothek enthält die Einträge, die während der Verbindung entfernt wurden. Soll die Übertragung der Bibliothek zu Google Sheets fortgesetzt werden?</string>
+    <string name="have_library_items_ask_message">Diese Sammlung enthält die Einträge, die während der Verbindung entfernt wurden. Soll die Übertragung der Sammlung zu Google Sheets fortgesetzt werden?</string>
     <string name="autofill_source_option_title">Datenquelle</string>
     <string name="amazon_source_option_title">Amazon</string>
     <string name="auto_backup_option_title">Auto Backup</string>
@@ -644,7 +644,7 @@
     <string name="auto_bakup_dir_pref_title">Verzeichnis für Auto-Backup</string>
     <string name="google_play_not_found_message">Ihr Gerät hat kein Google Play. Sie können den OI Dateimanager von der Herstellerseite herunter laden.</string>
     <string name="library_not_found_dialog_title">Sammlung</string>
-    <string name="library_not_found_dialog_message">Bibliothek nicht gefunden. Es ist möglich, dass Ihre Bibliothek entfernt wurde.</string>
+    <string name="library_not_found_dialog_message">Sammlung nicht gefunden. Es ist möglich, dass Ihre Sammlung entfernt wurde.</string>
     <string name="add_field_above">Feld obendrüber hinzufügen</string>
     <string name="add_field_below">Feld darunter hinzufügen</string>
     <string name="year_default_now">aktuelles Jahr als Standard</string>
@@ -665,7 +665,7 @@
 	<item quantity="other">zwei Abhängigkeiten</item>
 </plurals>
     <string name="add_depends_button_title">Abhängigkeit hinzufügen</string>
-    <string name="library_dont_have_fields_for_depends">Bibliothek enthält nicht die entsprechenden Felder um eine Abhängigkeit für dieses Feld zu erstellen</string>
+    <string name="library_dont_have_fields_for_depends">Sammlung enthält nicht die entsprechenden Felder um eine Abhängigkeit für dieses Feld zu erstellen</string>
     <string name="select_type_depends">Typ der Abhängigkeit auswählen</string>
     <string name="select_type_depends_spinner_title">Typ der Abhängigkeit</string>
     <string name="select_master_field_for_depend">Feld für Abhängigkeit auswählen</string>
@@ -728,11 +728,11 @@
     <string name="selected">%s ausgewählt</string>
     <string name="delete_template_from_google_drive_question">Möchten Sie die ausgewählten Bibliotheken auf Google Drive wirklich löschen?</string>
     <string name="delete_data_table_from_google_drive">"Löschen der Datentabellen,  die mit den Vorlagen verknüpft sind"</string>
-    <string name="lock_library_edit_message">Änderungen an der Struktur der Bibliothek sind gesperrt.\nSie können die Bearbeitung in den Einstellungen der Bibliothek erlauben.</string>
+    <string name="lock_library_edit_message">Änderungen an der Struktur der Sammlung sind gesperrt.\nSie können die Bearbeitung in den Einstellungen der Sammlung erlauben.</string>
     <string name="lock_edit_library_pref_title">Struktur sperren</string>
-    <string name="lock_edit_library_pref_summary_on">Veränderungen an der Struktur der Bibliothek sind nicht erlaubt</string>
-    <string name="lock_edit_library_pref_summary_off">Änderungen an der Struktur der Bibliothek sind erlaubt</string>
-    <string name="cant_restore_form_google_drive">Ihr Gerät unterstützt nicht die Erstellung einer Bibliothek auf Google Drive</string>
+    <string name="lock_edit_library_pref_summary_on">Veränderungen an der Struktur der Sammlung sind nicht erlaubt</string>
+    <string name="lock_edit_library_pref_summary_off">Änderungen an der Struktur der Sammlung sind erlaubt</string>
+    <string name="cant_restore_form_google_drive">Ihr Gerät unterstützt nicht die Erstellung einer Sammlung auf Google Drive</string>
     <string name="record_error_dialog_message">"Entschuldigung,  aber eine Applikation für das Aufnehmen wurde nicht gefunden."</string>
     <string name="sync_error_dialog_title">Synchronisationsfehler</string>
     <string name="field_display_options_group">Einstellungen für die Anzeige</string>
@@ -747,7 +747,7 @@
     <string name="entry_page_title">Seitenname</string>
     <string name="cant_delete_main_page">Sie können die Standardseite nicht löschen.</string>
     <string name="field_count_on_page">Feld: %s</string>
-    <string name="master_libraries_list_caption">Liste der Einträge der Bibliothek</string>
+    <string name="master_libraries_list_caption">Liste der Einträge der Sammlung</string>
     <string name="view_on_this_page_title">auf dieser Seite anzeigen</string>
     <string name="set_default_page">Als Standard einstellen</string>
     <string name="entry_page_default">Standard</string>
@@ -835,13 +835,13 @@
     <string name="cant_delete_charts_field_message">Sie können dieses Feld nicht entfernen, es wird in Chats benutzt: %s</string>
     <string name="save_to_file_name">Dateiname</string>
     <string name="save_to_file_directory">Verzeichnis</string>
-    <string name="need_pro_for_charts">In der kostenlosen Version kann eine Bibliothek nur ein Chart enthalten. Um diese Beschränkung aufzuheben, kaufen Sie die PRO Version.</string>
+    <string name="need_pro_for_charts">In der kostenlosen Version kann eine Sammlung nur ein Chart enthalten. Um diese Beschränkung aufzuheben, kaufen Sie die PRO Version.</string>
     <string name="need_internet_for_charts">Google Charts benötigt eine Verbindung zum Internet</string>
     <string name="download_image_from_google_photo_message">Bild von Google Photo herunterladen...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Für diese Felder werden Daten aus dem Web verwendet</string>
     <string name="google_base_field_new">Attribut Wert von der Quelle</string>
     <string name="wrong_search_query_string_1">Suchanfrage darf nicht mit \"-\" beginnen</string>
-    <string name="link_master_library_not_found">Sorry, in dieser Bibliothek wurde eine Verknüpfung nicht gefunden</string>
+    <string name="link_master_library_not_found">Sorry, in dieser Sammlung wurde eine Verknüpfung nicht gefunden</string>
     <string name="sync_with_google_drive_dont_support">Ihre Android-Version unterstützt keine Synchronisation mit Google Drive</string>
     <string name="internal_storage_title">Interner Speicher</string>
     <string name="sd_storage_title">SD Karte</string>
@@ -879,7 +879,7 @@
     <string name="show_icon_on_tile">Symbol für Sammlung</string>
     <string name="show_num_entries_on_tile">Anzahl der Einträge</string>
     <string name="show_update_time_on_tile">Bearbeitungszeit</string>
-    <string name="only_title_on_tile">Nur der Name der Bibliothek</string>
+    <string name="only_title_on_tile">Nur der Name der Sammlung</string>
     <plurals name="fields_count">
 	<item quantity="one">Ein Feld</item>
 	<item quantity="other">%d Felder</item>
@@ -892,10 +892,10 @@
     <string name="add_page">Seite hinzufügen</string>
     <string name="move_to_page">Verschieben zu Seite</string>
     <string name="empty_entry_page_text">Diese Seite ist leer.\nSie können hier Felder oder eine Liste von Einträgen hinzufügen.</string>
-    <string name="empty_fields_list_text">In dieser Bibliothek sind keine Felder enthalten.</string>
-    <string name="empty_aggregation_list_text">Diese Bibliothek enthält keine Funktionen.</string>
-    <string name="empty_chart_list_text">Diese Bibliothek enthält keine Charts.</string>
-    <string name="empty_entry_list_text">Diese Bibliothek enthält momentan keine Einträge.</string>
+    <string name="empty_fields_list_text">In dieser Sammlung sind keine Felder enthalten.</string>
+    <string name="empty_aggregation_list_text">Diese Sammlung enthält keine Funktionen.</string>
+    <string name="empty_chart_list_text">Diese Sammlung enthält keine Charts.</string>
+    <string name="empty_entry_list_text">Diese Sammlung enthält momentan keine Einträge.</string>
     <string name="empty_recycle_bin_text">Es sind keine Einträge zur Wiederherstellung vorhanden.</string>
     <string name="empty_main_recycle_bin_text">Keine Bibliotheken für eine Wiederherstellung verfügbar.</string>
     <string name="string_edit_cap_options_title">Großschreibung</string>
@@ -949,7 +949,7 @@
     <string name="csv_import_errors_count">Fehler:</string>
     <string formatted="false" name="csv_import_error_item">Zeile %d - %s</string>
     <string name="undo_button">Rückgängig</string>
-    <string name="google_sync_without_memento_id_text">Diese Bibliothek wurde unter Verwendung der alten Methode synchronisiert, die fehlergaft ist.\nÜbertragen Sie die Bibliothek in eine neue Tabelle und nutzen Sie die neue Methode.\nMöchten Sie den Vorgang starten?</string>
+    <string name="google_sync_without_memento_id_text">Diese Sammlung wurde unter Verwendung der alten Methode synchronisiert, die fehlergaft ist.\nÜbertragen Sie die Sammlung in eine neue Tabelle und nutzen Sie die neue Methode.\nMöchten Sie den Vorgang starten?</string>
     <string name="rating_field_max_value">Maximum Rate</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d Stern</item>
@@ -964,9 +964,9 @@
     <string name="barcode_rule_delete_text">Möchten Sie die Autovervollständigungsregel für das Feld \"%s\" löschen?</string>
     <string name="multi_library_item_trush_message_text">Möchten Sie die ausgewählten Einträge in den Papierkorb verschieben?</string>
     <string name="multi_library_item_delete_message_text">Möchten Sie die ausgewählten Einträge löschen?</string>
-    <string name="delete_library_snackbar_text">Bibliothek \"%s\" wurde in den Papierkorb verschoben</string>
+    <string name="delete_library_snackbar_text">Sammlung \"%s\" wurde in den Papierkorb verschoben</string>
     <string name="deleted">gelöscht</string>
-    <string name="library_recover_dialog_text">Möchten Sie die Bibliothek \"%s\" wiederherstellen?</string>
+    <string name="library_recover_dialog_text">Möchten Sie die Sammlung \"%s\" wiederherstellen?</string>
     <string name="library_recover_snackbar_text">Sammlung \"%s\" wurde wiederhergestellt</string>
     <string name="sort_by_name">Nach Name sortieren</string>
     <string name="sort_by_time">Nach Zeitpunkt des Hinzufügens sortieren</string>
@@ -994,7 +994,7 @@
     <string name="move">Verschieben</string>
     <string name="select_group">Gruppe auswählen</string>
     <string name="library_moved_message">Sammlung wurde in Gruppe \"%s\" verschoben</string>
-    <string name="master_library_entries">Einträge der entsprechenden Bibliothek</string>
+    <string name="master_library_entries">Einträge der entsprechenden Sammlung</string>
     <string name="invisible">unsichtbar</string>
     <string name="display_master_libraries_items">In der Kartenansicht anzeigen</string>
     <string name="sync_with_google_left_menu_item">Synchronisation mit Google</string>
@@ -1052,7 +1052,7 @@
     <string name="calendar_3day_view">3 Tagesansicht</string>
     <string name="calendar_week_view">Wochenansicht</string>
     <string name="go_to_date">zu Datum gehen</string>
-    <string name="lost_linked_library">Verknüpfte Bibliothek wurde nicht gefunden, kann sein das Sie entfernt wurde.</string>
+    <string name="lost_linked_library">Verknüpfte Sammlung wurde nicht gefunden, kann sein das Sie entfernt wurde.</string>
     <string name="multichoice_field_empty">Keine Werte für diese Auswahl</string>
     <string name="show_add_button_on_tile">Knopf \"Eintrag hinzufügen\"</string>
     <string name="cant_find_audio_selection_app">Entschuldigung, aber die Applikation für den Audio Track wurde nicht gefunden.</string>
@@ -1142,7 +1142,7 @@
     <string name="featured_templates">Bevorzugt</string>
 	<string name="welcome_text_description">Das Verzeichnis ist der Platz, wo Ihre Einträge gespeichert werden.\nSie können mit der Einarbeitung in das Programm beginnen, indem Sie ein Verzeichnis erstellen, das auf einer der mitgelieferten Vorlagen basiert.</string>
 	
-	<string name="success_pull_library_from_cloud">Einträge wurden erfolgreich heruntergeladen.\nDie Bibliothek wird automatisch synchronisiert.</string>
+	<string name="success_pull_library_from_cloud">Einträge wurden erfolgreich heruntergeladen.\nDie Sammlung wird automatisch synchronisiert.</string>
 	<string name="cloud_files_count">Dateien Anzahl</string>
     <string name="cloud_who_has_access">"Wer hat Zugriff "</string>
     <string name="prepare_library_for_cloud">Sammlung wird bearbeitet...</string>
@@ -1264,10 +1264,10 @@
 	<string name="subscription_reactivation_error">Keine aktiven Abonnements: %s</string>
 	<string name="return_to_free_plan_message">Wechseln Sie zu einem kostenlosen Account, indem Sie in Google Play Ihr kostenpflichtiges Abonnement kündigen</string>
 	<string name="upload_ecrypted_libraries_dont_supported">Verschlüsselte Bibliotheken können temporär nicht in der Cloud gespeichert werden.</string>
-	<string name="cloud_library_not_found">Die Bibliothek konnte nicht in der Cloud gefunden werden. Wurde sie gelöscht?\nSoll eine lokale Kopie erstellt werden?</string>
+	<string name="cloud_library_not_found">Die Sammlung konnte nicht in der Cloud gefunden werden. Wurde sie gelöscht?\nSoll eine lokale Kopie erstellt werden?</string>
 	<string name="upload_to_cloud_offer_text">• Teamwork\n• Synchron auf allen Geräten\n• Backup in der Cloud</string>
 	<string name="invalid_library_template_file_format">Ungültiges Dateiformat der Vorlage</string>    
-	<string name="remove_from_old_public">Vor dem Hochladen der Bibliothek in die Cloud wird die Veröffentlichung rückgängig gemacht, falls sie über veraltete Methoden erfolgt war.</string>
+	<string name="remove_from_old_public">Vor dem Hochladen der Sammlung in die Cloud wird die Veröffentlichung rückgängig gemacht, falls sie über veraltete Methoden erfolgt war.</string>
 	<string name="subscription_pro_bonus_text">Die meisten Preispläne für Cloudspeicher enthalten die PRO-Version als Bonus</string>
 	<string name="clear_search_history_hint">Entfernt alle bislang durchgeführten Suchen</string>
 	<string name="clear_search_history_quest">Sind Sie sich sicher, dass Sie ihre gesamten bislang ausgeführten Suchen löschen wollen?</string>
@@ -1275,8 +1275,8 @@
 	
 	<string name="autofill_by_barcode">Nach Barcode</string>
 	<string name="autofill_by_title">Nach Titel</string>
-	<string name="autofill_need_barcode_field">Um Ihre Bibliothek automatisch mit Barcodes zu füllen, muss diese ein \"Barcode\"-Feld enthalten. Wollen Sie erfahren, wie dieses Feld angelegt wird?</string>
-	<string name="autofill_need_text_field">Um Ihre Bibliothek automatisch mit Titeln zu füllen, muss diese ein \"Titel\"-Feld enthalten. Wollen Sie erfahren, wie dieses Feld angelegt wird?</string>
+	<string name="autofill_need_barcode_field">Um Ihre Sammlung automatisch mit Barcodes zu füllen, muss diese ein \"Barcode\"-Feld enthalten. Wollen Sie erfahren, wie dieses Feld angelegt wird?</string>
+	<string name="autofill_need_text_field">Um Ihre Sammlung automatisch mit Titeln zu füllen, muss diese ein \"Titel\"-Feld enthalten. Wollen Sie erfahren, wie dieses Feld angelegt wird?</string>
 	<string name="autofill_select_master_field">Eingabefeld für Suche</string>
 	<string name="unknown_data_source">Unbekannte Quelle</string>
     <string name="autofill_rules_delete_title">Löscht Regeln zum automatischen Füllen</string>
@@ -1285,12 +1285,12 @@
     <string name="copy_library_structure_menu_item">Struktur ohne Inhalt</string>
     <string name="copy_all_library_menu_item">Struktur und Einträge</string>
     <string name="encryption_for_cloud_uploaded_library">Verschlüsselung kann nur vor dem Hochladen in die Cloud aktiviert werden.</string>
-    <string name="need_reload_library_from_cloud_encrypted">Kopien der Bibliotheken im Cloudspeicher wurden verschlüsselt.
-\nLöschen Sie die lokale Kopie der Bibliothek und laden Sie die Bibliothek dann aus der Cloud herunter.</string>
-    <string name="need_reload_library_from_cloud_decrypted">Kopien der Bibliotheken im Cloudspeicher wurden entschlüsselt.
-\nLöschen Sie die lokale Kopie der Bibliothek und laden Sie die Bibliothek dann aus der Cloud herunter.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Kopien der Sammlung im Cloudspeicher wurden verschlüsselt.
+\nLöschen Sie die lokale Kopie der Sammlung und laden Sie die Sammlung dann aus der Cloud herunter.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Kopien der Sammlung im Cloudspeicher wurden entschlüsselt.
+\nLöschen Sie die lokale Kopie der Sammlung und laden Sie die Sammlung dann aus der Cloud herunter.</string>
 
-    <string name="protected_libraries_not_show_in_widget">Bibliothek ist geschützt und kann nicht angezeigt werden</string>
+    <string name="protected_libraries_not_show_in_widget">Sammlung ist geschützt und kann nicht angezeigt werden</string>
     <string name="widget_free_limit_item_text">Ansicht aller Datensätze nur für Nutzer der PRO-Version</string>
     <string name="rate_me_dialog_title">Gefällt Ihnen Memento?</string>
     <string name="rate_me_dialog_text">Bewerten Sie uns in Google Play</string>
@@ -1319,7 +1319,7 @@
 
     <string name="cloud_library_download_notification_text">%s: Sammlung heruntergeladen</string>
     <string name="cloud_notification_for_subscribers">Nur Abonnenten können Benachrichtigungen erhalten.</string>
-    <string name="cloud_library_notification_hint">Push-Benachrichtigungen, sobald andere Nutzer die Bibliothek ändern</string>
+    <string name="cloud_library_notification_hint">Push-Benachrichtigungen, sobald andere Nutzer die Sammlung ändern</string>
     <string name="cloud_library_notification_title">Benachrichtigungen</string>
     <string name="comments">Kommentar</string>
     <string name="comment_input_hint">Schreiben Sie einen Kommentar</string>
@@ -1349,13 +1349,13 @@
     <string name="button_apply">Anwenden</string>
     <string name="find_missing_files_empty">Fehlende Dateien nicht gefunden</string>
     <string name="file_manager_not_found">Keine Unterstützung für Dateien auf Ihrem Gerät gefunden.</string>
-    <string name="file_list_empty">Die Bibliothek enthält keine Dateien</string>
+    <string name="file_list_empty">Die Sammlung enthält keine Dateien</string>
     <string name="feature_available_only_in_pro">Dieses Feature ist nur in der PRO-Version nutzbar.</string>
     <string name="preview_button">Vorschau</string>
     <string name="select_calc_preview_entry">Eintrag für Vorschau</string>
     <string name="calc_preview_title">Vorschau</string>
     <string name="add_relationship">Beziehung</string>
-    <string name="add_relationship_with_title">Wählen Sie eine zweite Bibliothek aus</string>
+    <string name="add_relationship_with_title">Wählen Sie eine zweite Sammlung aus</string>
     <string name="add_relationship_success">Die Beziehung zwischen beiden Bibliotheken wird über das Feld \"%s\" hergestellt.</string>
     <string name="create_shortcut_text">Benennen Sie diesen Shortcut</string>
     <string name="permission_storage_title">Speicher</string>
@@ -1376,12 +1376,12 @@
 </plurals>
 
     <string name="display_aggregation">Aggregation anzeigen</string>
-    <string name="display_aggregation_hint">Aggregation über Einträge der verbundenen Bibliothek</string>
+    <string name="display_aggregation_hint">Aggregation über Einträge der verbundenen Sammlung</string>
     <string name="app_permissions">Anwendungsberechtigungen</string>
     <string name="app_permissions_only_for_android6">Nur für Android 6 und höher</string>
     <string name="need_permission_dialog_title">Berechtigung erforderlich</string>
     <string name="need_permission_dialog_text">Dieser Vorgang benötigt System-Berechtigung - %s</string>
-    <string name="unlock_linked_library_text">Verbundene Bibliothek ist verschlüsselt, Sie müssen das Master-Passwort eingeben</string>
+    <string name="unlock_linked_library_text">Verbundene Sammlung ist verschlüsselt, Sie müssen das Master-Passwort eingeben</string>
     <string name="preview_calc_exec_time">Ausführungszeit: : %d ms</string>
     <string name="group_by_and">Alle (AND)</string>
     <string name="group_by_or">Ein beliebiger (OR)</string>
@@ -1390,7 +1390,7 @@
 
     <string name="script">Script</string>
     <string name="js_libraries">JavaScript-Bibliotheken</string>
-    <string name="empty_autofill_rules_list_text">Attribute aus der Datenquelle mit Feldern der Bibliothek verbinden</string>
+    <string name="empty_autofill_rules_list_text">Attribute aus der Datenquelle mit Feldern der Sammlung verbinden</string>
     <string name="js_realtime">Script in Echtzeit ausführen</string>
     <string name="js_realtime_hint_off">Das Script läuft nur, wenn ein Eintrag editiert wird</string>
     <string name="js_realtime_hint_on">Das Script läuft, wenn ein Eintrag angezeigt wird</string>
@@ -1411,12 +1411,12 @@
     <string formatted="false" name="of_counter">%d von %d</string>
 
 
-<string name="decryption_for_cloud_uploaded_library">Deaktivieren der Verschlüsselung beim Hochladen der Bibliothek in die Cloud wird nicht unterstützt. Bitte löschen Sie zuerst die Bibliothek aus der Cloud.</string>
+<string name="decryption_for_cloud_uploaded_library">Deaktivieren der Verschlüsselung beim Hochladen der Sammlung in die Cloud wird nicht unterstützt. Bitte löschen Sie zuerst die Sammlung aus der Cloud.</string>
     <string name="permission_accounts_text">Für die Synchronisation mit Google Sheets und den Zugriff auf Felder vom Typ Kontakt ist es erforderlich, Memento Zugriff auf Konten zu geben.</string>
     <string name="permission_location_text">Für den Zugriff auf Felder vom Typ Standort ist es erforderlich, Memento Zugriff auf den Standort zu geben.</string>
     <string name="permission_not_necessarily">Diese Berechtigung ist nicht obligatorisch.</string>
     <string name="field_enclosed">Textbegrenzer</string>
 
     <string name="users_manager">Benutzerverwalter</string>
-    <string name="js_moment_library">Bibliothek zum Parsen, Validieren, Verändern und Formatieren von Datumswerten</string>
+    <string name="js_moment_library">Sammlung zum Parsen, Validieren, Verändern und Formatieren von Datumswerten</string>
     </resources>
