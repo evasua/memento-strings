@@ -44,13 +44,13 @@
     <string name="flex_template_options_title">Fortgeschrittene Parameter</string>
     <string name="error_template_empty_title">Gebe den Feldnamen ein</string>
     <string name="error_library_withous_name_flex">Ein Verzeichnis muss wenigstens ein Feld mit der Funktion – \"name\" haben.</string>
-    <string name="select_library_icon_activity">Wähle ein Icon für das Verzeichnis</string>
+    <string name="select_library_icon_activity">Wähle ein Icon für das Sammlung</string>
     <string name="select_flex_template_role_title">Feldfunktion</string>
-    <string name="library_edit2">Bearbeite das Verzeichnis</string>
+    <string name="library_edit2">Bearbeite das Sammlung</string>
     <string name="library_edit">Bearbeiten</string>
     <string name="library_delete">Löschen</string>
-    <string name="library_delete_message_title">Lösche das Verzeichnis</string>
-    <string name="library_delete_message_text">Soll das Verzeichnis \"%s\" wirklich gelöscht werden?</string>
+    <string name="library_delete_message_title">Lösche das Sammlung</string>
+    <string name="library_delete_message_text">Soll das Sammlung \"%s\" wirklich gelöscht werden?</string>
     <string name="error_library_empty_title">Gebe den Verzeichnisnamen ein</string>
     <string name="library_item_edit">Bearbeiten</string>
     <string name="library_item_delete">Löschen</string>
@@ -204,10 +204,10 @@
     <string name="preference_category_general">Allgemein</string>
     <string name="library_import_and_export">Einstellungen %s</string>
     <string name="recovering">Wiederherstellung</string>
-    <string name="recovering_message">Stelle Verzeichnis wieder her</string>
+    <string name="recovering_message">Stelle Sammlung wieder her</string>
     <string name="library_recover">Wiederherstellen</string>
     <string name="deleting_library_title">Löschen</string>
-    <string name="deleting_library_message">Lösche das Verzeichnis</string>
+    <string name="deleting_library_message">Lösche das Sammlung</string>
     <!-- 1.2.5 -->
     <string name="view_category">Aussehen</string>
     <string name="title_lib_theme_preference">Design</string>
@@ -219,7 +219,7 @@
     <string name="bind_to_gdocs_title">Mit Google Sheets verknüpfen</string>
     <string name="unbind_message_title">Verknüpfung nach Google Sheets aufheben</string>
     <string name="unbind_message_text">Soll die Verknüpfung des Verzeichnisses \"%s\" nach Google Sheets wirklich aufgehoben werden?</string>
-    <string name="bind_to_gdocs_message">Verknüpfe das Verzeichnis mit Google Sheets.</string>
+    <string name="bind_to_gdocs_message">Verknüpfe das Sammlung mit Google Sheets.</string>
     <!-- für & wirklich amp notwendig? -->
     <string name="bind_to_gdocs_success">Das Verzeichnis wurde mit Google Sheets verknüpft.</string>
     <string name="sync_with_gdocs_success">Das Verzeichnis wurde mit Google Text Tabellen synchronisiert</string>
@@ -259,7 +259,7 @@
     <string name="public_to_picasa_success">Upload der Bilder fertig</string>
     <string name="picasa_task_step_auth">Anmelden beim Picasa Service</string>
     <string formatted="false" name="picasa_send_image_step">Upload von Verzeichnisbildern nach Picasa. %s von %s</string>
-    <string name="public_library">Veröffentliche das Verzeichnis</string>
+    <string name="public_library">Veröffentliche das Sammlung</string>
     <string name="update_public_library">Aktualisiere die veröffentlichten Verzeichnisse</string>
     <string name="memento_register_account_title">Erstelle ein Passwort\nauf dem Memento Server</string>
     <string name="memento_register_account_text">Ein Passwort bei Memento ist notwendig um Verzeichnisse zu veröffentlichen und sie zu abonnieren</string>
@@ -289,9 +289,9 @@
     <string formatted="false" name="public_library_task_send_items">Übertrage die Verzeichniseinträge.\n%s von %s</string>
     <string name="memento_not_support_template">Ihre Version von Memento ist nicht mehr aktuell, bitte aktualisieren</string>
     <string name="memento_not_found">Resource nicht gefunden</string>
-    <string name="alias_hint">Den Alias für das Verzeichnis eingeben</string>
+    <string name="alias_hint">Den Alias für das Sammlung eingeben</string>
     <string name="button_publish">Veröffentlichen</string>
-    <string name="publish_update_success">Das Verzeichnis wurde aktualisiert</string>
+    <string name="publish_update_success">Das Sammlung wurde aktualisiert</string>
     <string name="private_library_checkbox">Privater Zugriff</string>
     <string name="private_library_checkbox_hint">Nur die angegebenen Benutzer werden Zugriff auf das Verzeichnis haben</string>
     <string name="enter_alias">Gib ein Alias des Verzeichnisses ein</string>
@@ -299,13 +299,13 @@
     <string name="public_library_address_text">Sammlung Addresse</string>
     <string name="alias_exists">Ein Verzeichnis mit dem gleichen Alias wurde bereits veröffentlicht</string>
     <string name="memento_forbidden_error">Zugriff auf das Verzeichnis ist nicht erlaubt</string>
-    <string name="publish_library_address">Das Verzeichnis %s ist nun verfügbar unter</string>
+    <string name="publish_library_address">Das Sammlung %s ist nun verfügbar unter</string>
     <string name="publish_library_address_hint"> Ihre Bekannten können nun Memento benutzen um sich das Verzeichnis anzusehen. Zum Abonnieren sollte sie die oben genannte Adresse benutzen.</string>
     <string name="deafult_group_title">Meine Sammlungen</string>
     <string name="subscribe_activity_title">Sammlung abonnieren</string>
     <string name="library_uri_hint">Sammlung Adresse</string>
     <string name="find_libraries_task_title">Sammlung search</string>
-    <string name="find_libraries_task_by_uri">Abonniere das Verzeichnis\nnach der Adresse</string>
+    <string name="find_libraries_task_by_uri">Abonniere das Sammlung\nnach der Adresse</string>
     <string name="find_libraries_task_by_user">Empfange Verzeichnisliste\ndes Benutzers</string>
     <string name="libraries_list_result_header">Sammlungen gefunden</string>
     <string name="libraries_by_user_not_found">Der angegebene Benutzer wurde nicht gefunden oder er hat keine Verzeichnisse veröffentlicht</string>
@@ -323,15 +323,15 @@
     <string name="subscribe_have_updated_pack">Empfange Verzeichnisaktualisierung</string>
     <string name="subscribe_last_update">Letzte Aktualisierung %s</string>
     <string name="subscribe_last_update_dialog_title">Aktualisiere Sammlung</string>
-    <string name="subscribe_last_update_dialog_message">Aktualisiere das Verzeichnis</string>
-    <string name="clear_preference">Leere das Verzeichnis</string>
-    <string name="clear_preference_hint">Lösche alle Einträge in dem Verzeichnis</string>
+    <string name="subscribe_last_update_dialog_message">Aktualisiere das Sammlung</string>
+    <string name="clear_preference">Leere das Sammlung</string>
+    <string name="clear_preference_hint">Lösche alle Einträge in dem Sammlung</string>
     <string name="clear_preference_quest">Löschen aller Einträge des Verzeichnisses?</string>
     <string name="last_sync">Letzte Aktualisierung: %s</string>
     <string name="last_public">Veröffentlicht: %s</string>
     <string name="unpublic_library_title">Ziehe Veröffentlichung des Verzeichnisses zurück</string>
     <string name="unpublic_library">Zurückziehen</string>
-    <string name="unpublish_success">Das Verzeichnis wurde zurückgezogen</string>
+    <string name="unpublish_success">Das Sammlung wurde zurückgezogen</string>
     <string name="unpublic_message_text">Möchten Sie das Verzeichnis \"%s\" wirklich zurückziehen?</string>
     <string name="unbind_from_gdocs_hint">Link zu Google Text &amp; Tabellen aufheben</string>
     <string name="preference_category_google_docs">Google Text &amp; Tabellen</string>
@@ -349,7 +349,7 @@
     <string name="add_permission_user_hint">Gebe Benutzerkennung oder EMail ein</string>
     <string name="edit_pub_permissions">Sammlung Zugriffsrechte</string>
     <string name="edit_pub_permissions_hint">Bearbeite die Liste der Nutzer die Zugriffsrechte auf das Verzeichnis haben</string>
-    <string name="edit_pub_permissions_task_dialog_message">Ändere die Zugriffsrechte auf das Verzeichnis</string>
+    <string name="edit_pub_permissions_task_dialog_message">Ändere die Zugriffsrechte auf das Sammlung</string>
     <!-- 1.4.5 -->
     <string name="import_template">Importiere Vorlage</string>
     <string name="export_template">Exportiere Vorlage</string>
@@ -358,7 +358,7 @@
     <string name="wrong_template_version">Ihre Version von Memento unterstützt die gewälte Vorlage nicht. Aktualisiere Memento.</string>
     <string name="flex_type_library_entry">Verknüpfung zum Eintrag</string>
     <string name="flex_type_entry_option_title">Sammlung</string>
-    <string name="flex_type_entry_option_dlg_title">Wähle Verzeichnis aus</string>
+    <string name="flex_type_entry_option_dlg_title">Wähle Sammlung aus</string>
     <string name="flex_type_entry_select_library">Wähle ein Verzeichnisaus dessen Einträge in diesem Feld benutzt werden.</string>
     <string name="error_template_wrong_title">Der Feldname darf nur Buchstaben und Ziffern enthalten</string>
     <!-- 1.4.8 -->
@@ -406,13 +406,13 @@
     <string name="library_pass_access_description">Sie müssen das Master-Passwort eingeben, um Zugriff auf die verschlüsselten Dateien zu erhalten</string>
     <string name="library_encription_checkbox">Inhalte verschlüsseln</string>
     <string name="set_library_protection_title">Einträge verschlüsseln</string>
-    <string name="set_library_protection_message">Verzeichnis-Einträge werden verschlüsselt...</string>
+    <string name="set_library_protection_message">Sammlung-Einträge werden verschlüsselt...</string>
     <string name="remove_library_protection">Schutz aufheben</string>
     <string name="remove_library_protection_desc">Für den Zugriff auf dieses Verzeichnis ist kein Passwort nötig</string>
     <string name="remove_library_protection_question">Wollen Sie wirklich den Verzeichnis-Schutz aufheben?</string>
     <string name="preference_category_security">Sicherheit</string>
     <string name="remove_library_protection_title">Schutz aufheben</string>
-    <string name="remove_library_protection_message">Verzeichnis-Einträge werden entschlüsselt...</string>
+    <string name="remove_library_protection_message">Sammlung-Einträge werden entschlüsselt...</string>
     <string name="change_master_password">Ändern Sie das Master-Passwort-Passwort</string>
     <string name="change_master_password_hint">Ihre Daten werden mit dem neuen Passwort erneut verschlüsselt.</string>
     <string name="old_master_pass_hint">Altes Passwort</string>
@@ -1099,7 +1099,7 @@
 	<string name="start_remove_librarary_from_cloud">Sammlung wird gelöscht...</string>
 	<string name="success_remove_librarary_from_cloud">Verzeichnis mit erfolg gelöscht aus der Cloud</string>
 	<string name="start_upload_library_to_cloud">Sammlung wird hochgeladen...</string>	
-	<string name="success_upload_library_to_cloud">Das Verzeichnis wurde erfolgreich hochgeladen...\nDas Verzeichnis wird automatisch synchronisiert.</string>
+	<string name="success_upload_library_to_cloud">Das Sammlung wurde erfolgreich hochgeladen...\nDas Sammlung wird automatisch synchronisiert.</string>
 	<string name="push_entries_to_cloud_message" formatted="false">"Einträge werden hochgeladen
 \n%s von %s Einträgen verarbeitet "</string>
 	<string name="permissions">Erlaubnisse</string>
@@ -1138,7 +1138,7 @@
     <string name="start_download_file_from_cloud">"Datei %s wird heruntergeladen "</string>
     <string name="upload_file_to_cloud">Datei wird hochgeladen...</string>    
     <string name="upload_files_to_cloud">Dateien werden hochgeladen</string>
-    <string name="cloud_upload_error_title">Wir konnten dieses Verzeichnis nicht synchronisieren</string>
+    <string name="cloud_upload_error_title">Wir konnten dieses Sammlung nicht synchronisieren</string>
     <string name="featured_templates">Bevorzugt</string>
 	<string name="welcome_text_description">Das Verzeichnis ist der Platz, wo Ihre Einträge gespeichert werden.\nSie können mit der Einarbeitung in das Programm beginnen, indem Sie ein Verzeichnis erstellen, das auf einer der mitgelieferten Vorlagen basiert.</string>
 	
@@ -1176,7 +1176,7 @@
 	<string name="google_play_unavaliable">Google Play ist niet erreichbar:(</string>
 	<string name="subscription_already_activation_for_user">Abonnement kann nicht aktiviert werden weil as ist gekauft für Anwender %s.</string>
 	<string name="library_cloud_count_limit">Ihr Abonnement erlaubt das Hochladen von %s Verzeichnissen in die Cloud.</string>
-	<string name="restore_cloud_library_from_recycle">Dieses lokale Verzeichnis is gelöscht. Wiederherstellen?</string>
+	<string name="restore_cloud_library_from_recycle">Dieses lokale Sammlung is gelöscht. Wiederherstellen?</string>
 	<string name="button_signin">Eintragen</string>
 	<string name="library_alias_menu_item">Alias</string>
 	<string name="library_public_access">Allgemeine Zutritt</string>
@@ -1200,7 +1200,7 @@
 	<string name="success_upload_library_to_cloud2">Sie können Ihren Verzeichnis zugänglich machen für andere Memento Anwender in den Zugriff Einstellungen.</string>	
 	<string name="upload_big_file_error" formatted="false">Eintrag enthält grosser Datei %s (%s).\nMaximale Dateigröße ist %s.</string>
     <string name="edit_permission">Einstellungen für teilen mit Anwender</string>	
-	<string name="start_download_slave_library_model">Hochladen abhängiges Verzeichnis %s</string>
+	<string name="start_download_slave_library_model">Hochladen abhängiges Sammlung %s</string>
 	<string name="price_free">Kostenlos</string>
 	<string name="catalog_templates_title">Online Katalog</string>
 	<string name="add_lib_from_google_drive_hint">Wiederherstellen van Google Drive</string>
@@ -1247,7 +1247,7 @@
 	<string name="cloud_file_while_not_upload">Die Datei ist noch nicht in die Cloud</string>
 	<string name="button_tarifs">Preispläne</string>
 	<string name="cloud_storage_plans">Preispläne</string>
-	<string name="cloud_library_already_uploaded">Dieses Verzeichnis is schon hochgeladen in die Cloud.</string>
+	<string name="cloud_library_already_uploaded">Dieses Sammlung is schon hochgeladen in die Cloud.</string>
 	<string name="upload_to_cloud_offer_title">{fertig für die Cloud...}</string>
 	<string name="autofill_from">von %s</string>
 	<string name="copying_entries">Einträge kopieren ...</string>
