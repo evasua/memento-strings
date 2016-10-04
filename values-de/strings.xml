@@ -4,7 +4,7 @@
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Eintrag hinzufügen</string>
     <string name="main_menu_add_lib">Sammlung hinzufügen</string>
-    <string name="ghostData_lib_title">Verzeichnisname</string>
+    <string name="ghostData_lib_title">Sammlung Name</string>
     <string name="custom_template_title">Benutzerdefiniert</string>
     <string name="button_create">Erstellen</string>
     <string name="button_yes">Ja</string>
@@ -341,7 +341,7 @@
     <string name="need_unpublic_library">Bevor das Verzeichnis gelöscht wird, sollte die Veröffentlichung zurückgezogen werden</string>
     <string name="rename_library">Umbenennen</string>
     <string name="rename_dialog_title">Umbenennen</string>
-    <string name="rename_dialog_text">Verzeichnisname</string>
+    <string name="rename_dialog_text">Sammlung Name</string>
     <string name="flex_image_load">Bild wird geladen...</string>
     <string name="subscribed">Abonniert</string>
     <string name="info_public_library">Verzeichnisadresse</string>
@@ -474,7 +474,7 @@
     <string name="template_author_text">von %s</string>
     <string name="template_date_text">%s erstellt</string>
     <string name="button_download">Download</string>
-    <string name="get_template_body_message">Vorlagen-Bibliothek laden...</string>
+    <string name="get_template_body_message">Vorlagen-Sammlung laden...</string>
     <string name="error_empty_template_title">Name für die Vorlage eingeben</string>
     <string name="error_empty_template_desc">Beschreibung für die Vorlage eingeben</string>
     <string name="template_downloads">Downloads: %s</string>
@@ -579,7 +579,7 @@
     <string name="main_title">Memento Datenbank</string>
     <string name="main_menu_add_group">Gruppe hinzufügen</string>
     <string name="main_menu_bookmarks">Lesezeichen und Verlauf</string>
-    <string name="main_menu_add_lib_group">Bibliothek oder Gruppe hinzufügen</string>
+    <string name="main_menu_add_lib_group">Sammlung oder Gruppe hinzufügen</string>
     <string name="no_entries">keine Einträge</string>
     <plurals name="library_box_entries_count">
 	<item quantity="one">ein Eintrag</item>
@@ -860,7 +860,7 @@
     <string name="edit_entry">Eintrag bearbeiten</string>
     <string name="create_chart">Chart erstellen</string>
     <string name="edit_chart">Chart bearbeiten</string>
-    <string name="edit_library_main_color">Farbe der Bibliothek</string>
+    <string name="edit_library_main_color">Farbe der Sammlung</string>
     <string name="color_swatch_description">Farbe %d</string>
     <string name="color_swatch_description_selected">Farbe %d ausgewählt</string>
     <string name="button_palette">Palette...</string>
@@ -876,7 +876,7 @@
     <string name="icon_pack_title_field_mult_flat">Multimedia</string>
     <string name="icon_pack_title_field_net_flat">Netzwerk</string>
     <string name="library_tile_options">Am Teil ansetzen</string>
-    <string name="show_icon_on_tile">Symbol für Bibliothek</string>
+    <string name="show_icon_on_tile">Symbol für Sammlung</string>
     <string name="show_num_entries_on_tile">Anzahl der Einträge</string>
     <string name="show_update_time_on_tile">Bearbeitungszeit</string>
     <string name="only_title_on_tile">Nur der Name der Bibliothek</string>
@@ -885,8 +885,8 @@
 	<item quantity="other">%d Felder</item>
 </plurals>
     <plurals name="libraries_count">
-	<item quantity="one">Eine Bibliothek</item>
-	<item quantity="other">%d Bibliotheken</item>
+	<item quantity="one">Eine Sammlung</item>
+	<item quantity="other">%d Sammlungen</item>
 </plurals>
     <string name="empty">leer</string>
     <string name="add_page">Seite hinzufügen</string>
@@ -967,7 +967,7 @@
     <string name="delete_library_snackbar_text">Bibliothek \"%s\" wurde in den Papierkorb verschoben</string>
     <string name="deleted">gelöscht</string>
     <string name="library_recover_dialog_text">Möchten Sie die Bibliothek \"%s\" wiederherstellen?</string>
-    <string name="library_recover_snackbar_text">Bibliothek \"%s\" wurde wiederhergestellt</string>
+    <string name="library_recover_snackbar_text">Sammlung \"%s\" wurde wiederhergestellt</string>
     <string name="sort_by_name">Nach Name sortieren</string>
     <string name="sort_by_time">Nach Zeitpunkt des Hinzufügens sortieren</string>
     <string name="favorites_empty_list_layout">keine Favoriten Einträge.</string>
@@ -993,7 +993,7 @@
     <string name="rename_group">Gruppe umbenennen</string>
     <string name="move">Verschieben</string>
     <string name="select_group">Gruppe auswählen</string>
-    <string name="library_moved_message">Bibliothek wurde in Gruppe \"%s\" verschoben</string>
+    <string name="library_moved_message">Sammlung wurde in Gruppe \"%s\" verschoben</string>
     <string name="master_library_entries">Einträge der entsprechenden Bibliothek</string>
     <string name="invisible">unsichtbar</string>
     <string name="display_master_libraries_items">In der Kartenansicht anzeigen</string>
