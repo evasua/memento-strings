@@ -796,7 +796,7 @@
     <string name="select_button">SELECIONAR</string>
     <string name="clear_button">LIMPAR</string>
     <string name="image_info_button">INFORMAÇÃO</string>
-    <string name="error_library_not_unique_field_names">Os nomes de campo na biblioteca deve ser exclusivo (único). Verifique os campos: %s.</string>
+    <string name="error_library_not_unique_field_names">Os nomes dos campos na biblioteca devem ser exclusivo (único). Verifique os campos: %s.</string>
     <string name="info_path">Caminho:</string>
     <string name="info_resolution">Resolução:</string>
     <string name="info_size">Tamanho:</string>
