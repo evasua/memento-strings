@@ -1400,4 +1400,30 @@
     <string name="field_delimiters">Delimitador de campo</string>
     <string name="field_enclosed">Cualificador de texto</string>
     
-</resources>
+<string name="users_manager">Gestor de usuarios</string>
+    <string name="create_new_user_dialog">Crear nuevo usuario</string>
+
+    <string name="script">Script</string>
+    <string name="js_libraries">Bibliotecas JavaScript</string>
+    <string name="js_realtime">Ejecutar el script en tiempo real</string>
+    <string name="js_realtime_hint_off">El script sólo funciona al editar un registro</string>
+    <string name="js_realtime_hint_on">El script se ejecuta al mostrar un registro</string>
+    <string name="user_limit_message">Has alcanzado el límite de usuarios</string>
+    <string name="remaining_users" formatted="false">%d de %d licencias utilizadas</string>
+    <string name="delete_slave_user_message">¿Quieres realmente borrar el usuario \"%s\"?</string>
+    <string name="active_users">Usuarios activos</string>
+    <string name="deleted_users">Usuarios borrados</string>
+    <string name="string_list_sort_menu_title">Ordenar por título</string>
+    <string name="previous_value">Valor previo</string>
+    <string name="specify_value">Especificar valor</string>
+    <string name="filters_order">Ordenar...</string>
+    <string name="full_screen_mode">Modo de pantalla completa</string>
+    <string name="standard_screen_mode">Modo de pantalla standard</string>
+    <string name="restore_from_cloud">Restaurar de la nube</string>
+    <string formatted="false" name="of_counter">%d de %d</string>
+
+
+<string name="js_moment_library">Biblioteca para analizar sintácticamente, validar, manipular y formatear fechas</string>
+    <string name="powered_by_text">Mantenido por Memento Database</string>
+
+    </resources>
