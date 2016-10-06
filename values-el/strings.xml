@@ -1395,7 +1395,7 @@
     <string name="cloud_plan_free">Δωρεάν</string>
     <string name="cloud_plan_plan3">Περιορισμένη</string>
     <string name="cloud_plan_plan6">Επαγγελματική</string>
-    <string name="cloud_plan_plan10">Επαγγελματική Συν</string>
+    <string name="cloud_plan_plan10">Pro Συν</string>
     <string name="cloud_plan_storage">%s Χώρος Αποθήκευσης</string>
 
     <string name="memento_server_settings_group">Διακομιστής Memento</string>
@@ -1502,8 +1502,8 @@
     <string name="uom_category_temperature">Θερμοκρασία</string>
     <string name="uom_celsius">Κελσίου</string>
     <string name="uom_fahrenheit">Φαρενάιτ</string>
-    <string name="uom_kelvin">Kelvin</string>
-    <string name="uom_rankine">Rankine</string>
+    <string name="uom_kelvin">Κέλβιν</string>
+    <string name="uom_rankine">Ράνκιν</string>
 
     <string name="uom_category_time">Ώρα</string>
     <string name="uom_nanosecond">Νανοδευτερόλεπτο</string>
