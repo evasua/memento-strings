@@ -403,7 +403,7 @@
     <string name="library_is_locked">El acceso a bibliotecas cifradas está cerrado</string>
     <string name="library_pass_access_description">Debes tener una contraseña maestra para acceder a esta biblioteca</string>
     <string name="library_encription_checkbox">Cifrar los contenidos</string>
-    <string name="library_encription_description">Las entradas serán cifradas usando AES.\nLa búsqueda en entradas cifradas no está permitida.</string>
+    <string name="library_encription_description">Las entradas serán encriptadas usando AES.\nLa búsqueda en entradas encriptadas no está permitida.</string>
     <string name="set_library_protection_title">Cifrando entradas</string>
     <string name="set_library_protection_message">Cifrando entradas de la librería ...</string>
     <string name="remove_library_protection">Eliminar protección</string>
