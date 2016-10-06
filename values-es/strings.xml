@@ -404,23 +404,23 @@
     <string name="library_pass_access_description">Debes tener una contraseña maestra para acceder a esta biblioteca</string>
     <string name="library_encription_checkbox">Cifrar los contenidos</string>
     <string name="library_encription_description">Las entradas serán encriptadas usando AES.\nLa búsqueda en entradas encriptadas no está permitida.</string>
-    <string name="set_library_protection_title">Cifrando entradas</string>
+    <string name="set_library_protection_title">Encriptando entradas</string>
     <string name="set_library_protection_message">Cifrando entradas de la librería ...</string>
     <string name="remove_library_protection">Eliminar protección</string>
     <string name="remove_library_protection_desc">No será necesario contraseña para acceder a esta librería</string>
-    <string name="remove_library_protection_question">¿Desea realmente desproteger esta librería?</string>
+    <string name="remove_library_protection_question">¿Deseas realmente desproteger esta biblioteca?</string>
     <string name="preference_category_security">Seguridad</string>
     <string name="remove_library_protection_title">Eliminar protección</string>
-    <string name="remove_library_protection_message">Descifrando entradas de librería ...</string>
+    <string name="remove_library_protection_message">Descifrando entradas de biblioteca ...</string>
     <!-- 1.6.1 -->
     <string name="change_master_password">Cambiar contraseña maestra</string>
-    <string name="change_master_password_hint">Sus datos se cifrarán con la nueva contraseña.</string>
+    <string name="change_master_password_hint">Tus datos se encriptarán con la nueva contraseña.</string>
     <string name="old_master_pass_hint">Contraseña antigua</string>
     <string name="new_master_pass_hint">Nueva contraseña</string>
     <string name="new_master_pass_hint2">Verificando contraseña</string>
-    <string name="re_encripted_entries">Cifrando entradas ...</string>
+    <string name="re_encripted_entries">Encriptando entradas ...</string>
     <string name="pass_changed">Cambio de contraseña correcto</string>
-    <string name="library_protection_options">Protección de librería</string>
+    <string name="library_protection_options">Protección de biblioteca</string>
     <string name="library_protection_not">Nada</string>
     <string name="library_protection_pass">Contraseña</string>
     <string name="library_protection_pass_checkbox">Contraseña de acceso</string>
@@ -431,10 +431,10 @@
     <string name="flex_type_password">Contraseña</string>
     <string name="flex_type_phone">Teléfono</string>
     <string name="license_check">Comprobando Licencia</string>
-    <string name="license_wrong">Código de licencia PRO no coincide con su cuenta Google</string>
+    <string name="license_wrong">El código de licencia PRO no coincide con tu cuenta Google</string>
     <!-- 1.6.5 -->
     <string name="flex_type_email">Email</string>
-    <string name="email_chooser_title">Seleccione una aplicación de email</string>
+    <string name="email_chooser_title">Selecciona una aplicación de email</string>
     <string name="choose_own_icon_text">Elija su propio icono</string>
     <string name="font_size_screen_preference">Tamaño de la fuente</string>
     <string name="font_size_screen_preference_summary">El tamaño de la fuente en la entrada y en la lista de entradas</string>
