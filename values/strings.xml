@@ -1692,7 +1692,7 @@
     <string name="sign_up">Sign up</string>
     <string name="memento_cloud2">Memento Cloud</string>
 
-    <string name="from_file">From File</string>
+    <string name="from_file">From file</string>
     <string name="from_google_drive">From Google Drive</string>
 
 </resources>
