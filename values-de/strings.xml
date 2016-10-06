@@ -1382,7 +1382,7 @@
     <string name="need_permission_dialog_title">Berechtigung erforderlich</string>
     <string name="need_permission_dialog_text">Dieser Vorgang benötigt System-Berechtigung - %s</string>
     <string name="unlock_linked_library_text">Verbundene Sammlung ist verschlüsselt, Sie müssen das Master-Passwort eingeben</string>
-    <string name="preview_calc_exec_time">Ausführungszeit: : %d ms</string>
+    <string name="preview_calc_exec_time">Ausführungszeit: %d ms</string>
     <string name="group_by_and">Alle (AND)</string>
     <string name="group_by_or">Ein beliebiger (OR)</string>
     <string name="field_delimiters">Feldtrennzeichen</string>
