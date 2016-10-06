@@ -103,7 +103,7 @@
     <string name="flex_role_hint">Entry description</string>
     <string name="flex_role_status">Entry status</string>
     <string name="short_flex_role_name">name</string>
-    <string name="short_flex_role_hint">desc</string>
+    <string name="short_flex_role_hint">description</string>
     <string name="short_flex_role_status">status</string>
     <string name="item_add_to_favorite">The entry is added to Favorites</string>
     <string name="item_remove_from_favorite">The entry is removed from Favorites</string>
@@ -265,7 +265,7 @@
     <string name="memento_pass_hint2">Repeat password</string>
     <string name="memento_email_hint">Email</string>
     <string name="memento_register_button">Create</string>
-    <string name="memento_have_button">I have the account</string>
+    <string name="memento_have_button">I have an account</string>
     <string name="login_empty">Enter username</string>
     <string name="login_format_error">The login may contain only letters and digits</string>
     <string name="pass_not_equal">Please verify your password again</string>
@@ -1006,7 +1006,7 @@
     <string name="calc_value_type_number">Numeric value type</string>
     <string name="calc_value_type_string">String value type</string>
     <string name="sort_by_downloads">Sort by Downloads</string>
-    <string name="need_auth_on_memento_server">You need to create the account on the Memento Server</string>
+    <string name="need_auth_on_memento_server">You need to create the account on the Memento Cloud</string>
     <string name="empty_my_templates_list">You have no published library templates.</string>
     <string name="empty_field_depend_list">This field has no dependencies on other fields.</string>
     <string name="share_template_dialog_title">Share template through the online catalog</string>
@@ -1207,7 +1207,7 @@
 	<string name="cloud_storage_full_text2" formatted="false">Not enough space in the cloud storage.\n%s are required, %s are available.\nYou can upgrade to a tariff plan providing more storage space.</string>
 	<string name="alien_cloud_storage_full_text">The library owner does not have enough storage space.</string>	
 	<string name="button_tarifs">Tariffs</string>
-	<string name="cloud_storage_plans">Plans</string>
+	<string name="cloud_storage_plans">Subscription plans</string>
 	<string name="price_free">FREE</string>
 	<string name="price_per_month">%s/month</string>
 	<string name="unlimited_libraries">Unlimited libraries</string>	
@@ -1455,5 +1455,244 @@
     <string name="restore_from_cloud">Restore from Cloud</string>
     <string formatted="false" name="of_counter">%d of %d</string>
 
+    <!--3.9.5-->
+    <string name="lost_database_text">Unable to open the database file, check that it is present in the specified path</string>
+    <string name="upload_to_cloud">Upload to Cloud</string>
+    <string name="multi_choice_delimiter">Delimiter</string>
+    <string name="cloud_plan_free">Free</string>
+    <string name="cloud_plan_plan3">Lite</string>
+    <string name="cloud_plan_plan6">Pro</string>
+    <string name="cloud_plan_plan10">Pro Plus</string>
+    <string name="cloud_plan_storage">%s Storage</string>
+
+    <!--3.9.7-->
+    <string name="memento_server_settings_group">Memento Server</string>
+    <string name="memento_server_host">The address of Memento Server</string>
+    <string name="memento_server_cloud">Use Memento Cloud</string>
+    <string name="memento_server_private">Use Memento Private Server</string>
+    <string name="memento_server_private_hint">host:port</string>
+    <string name="memento_server_private_not_found">Private Server not found by specified address</string>
+    <string name="latitude_longitude">Latitude/Longitude</string>
+    <string name="latitude_longitude_hint">latitude,longitude</string>
+    <string name="latitude_longitude_parse_error">Can\'t parse latitude/longitude</string>
+    <string name="relation_type">Type of relationship</string>
+    <string name="relation_type_one_to_one">One-to-One</string>
+    <string name="relation_type_one_to_many">One-to-Many</string>
+    <string name="relation_type_many_to_many">Many-to-Many</string>
+    <string name="relation_type_one_limit">Selected record already has a relationship</string>
+    <string name="relation_type_one_limit2">%s already has a relationship</string>
+    <string name="library_edit_mode">Edit mode</string>
+    <string name="library_edit_mode_hint">Open edit form by clicking on an entry</string>
+    <string name="desktop_version">Desktop version</string>
+
+    <!-- 4.0.0 -->
+    <string name="no_comments">No comments</string>
+    <plurals name="comments_count">
+        <item quantity="one">One comment</item>
+        <item quantity="few">%d comments</item>
+        <item quantity="many">%d comments</item>
+        <item quantity="other">%d comments</item>
+    </plurals>
+    <string name="comments_only_for_cloud">Comments can be posted only to the libraries that were uploaded to the cloud. Upload a library to the cloud?</string>
+    <string name="locale_plugin_add_edit_entry_title">Add/edit an entry</string>
+    <string name="locale_to_fields_list_empty_text">Click the + button to create new rules for filling out library fields.</string>
+    <string name="locale_to_fields_var">Text from %s</string>
+    <string name="locale_to_fields_add_rule_title">Add rule</string>
+    <string name="locale_to_fields_edit_rule_title">Edit rule</string>
+    <string name="variable_select">Variable Select</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Edit Entry</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Create a new entry, if you failed to find an entry by key field</string>
+
+    <string name="send_field_title">Send the field name</string>
+    <string name="send_field_title_summary">The field name will follow the field value</string>
+    <string name="auto_lock_libraries_time_title">Close access to libraries</string>
+    <string name="auto_lock_libraries_after">After %s</string>
+
+    <string name="empty_triggers_list_text">This library does not contain triggers.\nA Trigger is a script that defines the processing of an entry based on an Event that has taken place.</string>
+    <string name="triggers">Triggers</string>
+    <string name="trigger_name">Trigger name</string>
+    <string name="trigger_event">Event</string>
+    <string name="trigger_moment">Phase</string>
+    <string name="unknown_trigger_event_type">Unknown event</string>
+    <string name="unknown_trigger_moment_type">Unknown phase</string>
+
+    <string name="trigger_event_create_entry">Creating an entry</string>
+    <string name="trigger_event_modify_entry">Updating an entry</string>
+    <string name="trigger_event_delete_entry">Deleting an entry</string>
+    <string name="trigger_event_open_entry">Opening an Entry View card</string>
+    <string name="trigger_event_add_favorites">Adding entries to Favorites</string>
+    <string name="trigger_event_remove_favorites">Deleting an entry from Favorites</string>
+    <string name="trigger_default_name">Trigger %d</string>
+    <string name="trigger_enabled">Enabled</string>
+    <string name="trigger_switched_off">Switched off</string>
+    <string name="trigger_delete_message">Do you really want to delete the trigger \"%s\" ?</string>
+
+
+    <string name="trigger_moment_open_form">Opening an Entry Edit card</string>
+    <string name="trigger_moment_before_save">Before saving the entry</string>
+    <string name="trigger_moment_after_save">After saving the entry</string>
+    <string name="trigger_moment_before_delete">Before deleting an entry</string>
+    <string name="trigger_moment_after_delete">After deleting an entry</string>
+    <string name="trigger_moment_before_show">Before window display</string>
+    <string name="trigger_moment_after_show">After window display</string>
+
+    <string name="application">Application</string>
+    <string name="debug">Debug</string>
+    <string name="debug_summary">Logging Options</string>
+    <string name="log_files_folder">Log files directory</string>
+
+    <string name="enable_logging_cloud">Memento Cloud calls</string>
+    <string name="enable_logging_triggers">Triggers logs</string>
+    <string name="script_log">Script Log</string>
+
+    <string name="trigger_permissions">Permissions for triggers</string>
+    <string name="trigger_permission_read_file">Read files</string>
+    <string name="trigger_permission_read_file_hint">Allows scripts to read from external storage</string>
+    <string name="trigger_permission_write_file">Write files</string>
+    <string name="trigger_permission_write_file_hint">Allows scripts to write to external storage</string>
+    <string name="trigger_permission_network">Network</string>
+    <string name="trigger_permission_network_hint">Allows scripts to execute HTTP requests</string>
+
+    <string name="trigger_permission_libraries">Libraries</string>
+    <string name="trigger_permission_libraries_hint">Access to all libraries</string>
+
+    <string name="trigger_permission_libraries_select">Available libraries</string>
+    <string name="trigger_permission_libraries_select_title">Select libraries</string>
+    <string name="need_pro_for_triggers">In the free version, one library can contain only one trigger. To remove this restriction, please upgrade to the PRO version.</string>
+    <string name="filters_tab">Tabs...</string>
+    <string name="filters_tab_dialog_title">Select filters for tabs</string>
+    <string name="export_template_include_filters">Include filters</string>
+
+    <string name="unit_of_measurement_enable">Add a unit of measurement to field</string>
+    <string name="unit_of_measurement_none">None</string>
+
+    <string name="unit_of_measurement_category">Category</string>
+    <string name="unit_of_measurement">Unit of measurement</string>
+    <string name="unit_of_measurement_button">Add a convertor of units to the field</string>
+
+    <string name="uom_category_temperature">Temperature</string>
+    <string name="uom_celsius">Celsius</string>
+    <string name="uom_fahrenheit">Fahrenheit</string>
+    <string name="uom_kelvin">Kelvin</string>
+    <string name="uom_rankine">Rankine</string>
+
+    <string name="uom_category_time">Time</string>
+    <string name="uom_nanosecond">Nanosecond</string>
+    <string name="uom_microsecond">Microsecond</string>
+    <string name="uom_millisecond">Millisecond</string>
+    <string name="uom_second">Second</string>
+    <string name="uom_minute">Minute</string>
+    <string name="uom_hour">Hour</string>
+    <string name="uom_day">Day</string>
+    <string name="uom_week">Week</string>
+    <string name="uom_year">Year</string>
+
+    <string name="uom_category_pressure">Pressure</string>
+    <string name="uom_pascal">Pascal</string>
+    <string name="uom_atmosphere">Atmosphere</string>
+    <string name="uom_bar">Bar</string>
+
+    <string name="uom_category_length">Length</string>
+    <string name="uom_meter">Meter</string>
+    <string name="uom_kilometer">Kilometer</string>
+    <string name="uom_centimeter">Centimeter</string>
+    <string name="uom_millimeter">Millimeter</string>
+    <string name="uom_micrometer">Micrometer</string>
+    <string name="uom_nanometer">Nanometer</string>
+    <string name="uom_mile">Mile</string>
+    <string name="uom_nautical_mile">Nautical mile</string>
+    <string name="uom_foot">Foot</string>
+    <string name="uom_yard">Yard</string>
+    <string name="uom_inch">Inch</string>
+    <string name="uom_angstrom">Angstrem</string>
+    <string name="uom_astronomical_unit">Astronomical unit</string>
+    <string name="uom_light_year">Light year</string>
+    <string name="uom_parsec">Parsec</string>
+
+    <string name="uom_category_mass">Mass</string>
+    <string name="uom_microgram">Microgram</string>
+    <string name="uom_milligram">Milligram</string>
+    <string name="uom_gram">Gram</string>
+    <string name="uom_kilogram">Kilogram</string>
+    <string name="uom_ton">Ton</string>
+    <string name="uom_ton_uk">Imperial ton</string>
+    <string name="uom_ton_us">US ton</string>
+    <string name="uom_pound">Pound</string>
+    <string name="uom_ounce">Ounce</string>
+
+    <string name="uom_category_volume">Volume</string>
+    <string name="uom_cubic_metre">Cubic metre</string>
+    <string name="uom_liter">Liter</string>
+    <string name="uom_cubic_inch">Cubic inch</string>
+    <string name="uom_gallon_liquid_us">US gallon</string>
+    <string name="uom_ounce_liquid_us">US fluid ounce</string>
+    <string name="uom_gallon_uk">Imperial gallon</string>
+    <string name="uom_ounce_liquid_uk">Imperial fluid ounce</string>
+
+    <string name="uom_category_dataamount">Digital storage</string>
+    <string name="uom_bit">Bit</string>
+    <string name="uom_byte">Byte</string>
+    <string name="uom_kilobit">Kilobit</string>
+    <string name="uom_kilobyte">Kilobyte</string>
+    <string name="uom_megabit">Megabit</string>
+    <string name="uom_megabyte">Megabyte</string>
+    <string name="uom_gigabit">Gigabit</string>
+    <string name="uom_gigabyte">Gigabyte</string>
+    <string name="uom_terabit">Terabit</string>
+    <string name="uom_terabyte">Terabyte</string>
+    <string name="uom_petabit">Petabit</string>
+    <string name="uom_petabyte">Petabyte</string>
+
+    <string name="uom_category_area">Area</string>
+    <string name="uom_square_metre">Square metre</string>
+    <string name="uom_are">Are</string>
+    <string name="uom_hectare">Hectare</string>
+
+    <string name="uom_category_velocity">Velocity</string>
+    <string name="uom_meters_per_second">Meters per second</string>
+    <string name="uom_miles_per_hour">Miles per hour</string>
+    <string name="uom_kilometers_per_hour">Kilometers per hour</string>
+    <string name="uom_knot">Knot</string>
+    <string name="uom_mach">Mach</string>
+
+    <string name="uom_category_power">Power</string>
+    <string name="uom_watt">Watt</string>
+    <string name="uom_kilowatt">Kilowatt</string>
+    <string name="uom_megawatt">Megawatt</string>
+    <string name="uom_horsepower">Horsepower</string>
+
+    <string name="uom_category_energy">Energy</string>
+    <string name="uom_joule">Joule</string>
+    <string name="uom_kilojoule">Kilojoule</string>
+
+    <string name="uom_category_frequency">Frequency</string>
+    <string name="uom_hertz">Hertz</string>
+    <string name="uom_kilohertz">Kilohertz</string>
+    <string name="uom_megahertz">Megahertz</string>
+    <string name="uom_gigahertz">Gigahertz</string>
+
+    <string name="wrong_field_value">Field %s has an unacceptable value</string>
+
+    <string name="unit_converter">Unit converter</string>
+    <string name="increase">Increase</string>
+    <string name="decrease">Decrease</string>
+    <string name="frozen">Frozen</string>
+    <string name="frozen_text">The library is frozen because your tariff plan limit for the number of libraries uploaded to the cloud was exceeded.</string>
+    <string name="date_and_time_formats">Date and time formats</string>
+    <string name="date_formats">Date formats</string>
+    <string name="time_formats">Time formats</string>
+    <string name="date_formats_short">Short date</string>
+    <string name="date_formats_long">Long date</string>
+    <string name="time_formats_short">Short time</string>
+    <string name="time_formats_long">Long time</string>
+    <string name="language">Language</string>
+    <string name="next_button">Next</string>
+    <string name="bulk_add">Bulk Add</string>
+    <string name="login">Log in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="memento_cloud2">Memento Cloud</string>
+
+    <string name="from_file">From File</string>
+    <string name="from_google_drive">From Google Drive</string>
 
 </resources>
