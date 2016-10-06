@@ -122,7 +122,7 @@
     <string name="cdcard_not_found">Lo siento, tu SD está completa</string>
     <string name="backup_process">Copiando librerías.</string>
     <string name="restore_preference">Restaurar</string>
-    <string name="restore_summary_preference">Restaurando librerías desde tu copia de seguridad</string>
+    <string name="restore_summary_preference">Restaurando bibliotecas desde tu copia de seguridad</string>
     <string name="backup_file_not_found">No se encuentra copia de seguridad previa.</string>
     <string name="restore_dialog_message">La bibliotecas existentes serán reemplazadas con las de la copia de seguridad durante la restauración.\nTodos los cambios realizados después de la copia de seguridad se perderán.\n¿Comenzar la restauración ?</string>
     <string name="backup_dialog_message">¿Reemplazar la copia de seguridad con la nueva?</string>
@@ -155,9 +155,9 @@
     <string name="preference_category_csv_import">Datos de las operaciones</string>
     <string name="csvexport">Exportar a CSV</string>
     <string name="csvexport_summary">Exportando entradas en archivo CSV</string>
-    <string name="csvimport">Importando desde CSV</string>
+    <string name="csvimport">Importar desde CSV</string>
     <string name="csvimport_from">Importar desde %s</string>
-    <string name="csvexport_to">Exportando a %s</string>
+    <string name="csvexport_to">Exportar a %s</string>
     <string name="csvimport_summary">Importando entradas desde archivo CSV</string>
     <string name="select_csv_file_title">Archivos CSV en carpeta Memento</string>
     <string name="button_import">Importar</string>
@@ -209,7 +209,7 @@
     <string name="view_category">Vista</string>
     <string name="title_lib_theme_preference">Tema</string>
     <string name="summary_lib_theme_preference">Eligir un tema para la biblioteca</string>
-    <string name="dialog_title_lib_theme_preference">Selecciona un tema para librerias</string>
+    <string name="dialog_title_lib_theme_preference">Selecciona un tema para bibliotecas</string>
     <!-- 1.3.0 -->
     <string name="unbind_from_gdocs">Desvinculando desde Google Sheets</string>
     <string name="bind_to_gdocs">Enlazando con Google Sheets</string>
@@ -229,7 +229,7 @@
     <string formatted="false" name="google_docs_task_step_process_row">Procesando columnas. %s de %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Añadiendo columna. %s de %s</string>
     <string formatted="false" name="google_docs_task_step_update_row">Actualizando columna. %s de %s</string>
-    <string name="google_docs_task_create_document">Creando hoja de cáluclo</string>
+    <string name="google_docs_task_create_document">Creando hoja de cálculo</string>
     <string name="google_docs_task_create_worksheet">Añadiendo libro</string>
     <string name="google_docs_task_shange_columns">Actualizando hoja</string>
     <string name="username_hint">Dirección Email</string>
@@ -250,9 +250,9 @@
     <string name="capture_picture">Capturar Imagen</string>
     <string name="please_wait">Por favor espera...</string>
     <!-- 1.4.0 -->
-    <string name="public_library_title">Publicando librería</string>
-    <string name="public_to_picasa_message">Actualizando imágenes de librería en Picasa</string>
-    <string name="public_to_picasa_create_album">Creando un album en Picasa de la librería publicada</string>
+    <string name="public_library_title">Publicando biblioteca</string>
+    <string name="public_to_picasa_message">Actualizando imágenes de biblioteca en Picasa</string>
+    <string name="public_to_picasa_create_album">Creando un album en Picasa de la biblioteca publicada</string>
     <string name="public_to_picasa_success">Imágenes subidas en Picasa</string>
     <string name="picasa_task_step_auth">Autentificando servicio en Picasa</string>
     <string formatted="false" name="picasa_send_image_step">Cargando imágenes de biblioteca en Picasa. %s de %s</string>
@@ -266,7 +266,7 @@
     <string name="memento_email_hint">Email</string>
     <string name="memento_register_button">Crear</string>
     <string name="memento_have_button">Ya tengo una cuenta</string>
-    <string name="login_empty">Introduza Usuario</string>
+    <string name="login_empty">Introduce el Usuario</string>
     <string name="login_format_error">Sólo puede contener letras o números</string>
     <string name="pass_not_equal">Verifica de nuevo tu contraseña</string>
     <string name="incorrect_email">Correo electrónico inválido</string>
@@ -435,7 +435,7 @@
     <!-- 1.6.5 -->
     <string name="flex_type_email">Email</string>
     <string name="email_chooser_title">Selecciona una aplicación de email</string>
-    <string name="choose_own_icon_text">Elija su propio icono</string>
+    <string name="choose_own_icon_text">Elije tu propio icono</string>
     <string name="font_size_screen_preference">Tamaño de la fuente</string>
     <string name="font_size_screen_preference_summary">El tamaño de la fuente en la entrada y en la lista de entradas</string>
     <string name="font_size_category_entries_list">Fuente en la lista de entradas</string>
