@@ -103,7 +103,7 @@
     <string name="flex_role_hint">Descrição de entrada</string>
     <string name="flex_role_status">Status de entrada</string>
     <string name="short_flex_role_name">nome</string>
-    <string name="short_flex_role_hint">descendente</string>
+    <string name="short_flex_role_hint">descrição</string>
     <string name="short_flex_role_status">status</string>
     <string name="item_add_to_favorite">A entrada foi adicionada aos favoritos</string>
     <string name="item_remove_from_favorite">A entrda foi removida dos favoritos</string>
@@ -265,7 +265,7 @@
     <string name="memento_pass_hint2">Repita a senha</string>
     <string name="memento_email_hint">Email</string>
     <string name="memento_register_button">Criar</string>
-    <string name="memento_have_button">Eu já tenho uma conta</string>
+    <string name="memento_have_button">Eu tenho uma conta</string>
     <string name="login_empty">Entre com o nome do utilizador</string>
     <string name="login_format_error">O login deve conter apenas letras e números</string>
     <string name="pass_not_equal">Por favor verifique sua senha novamente</string>
@@ -800,7 +800,7 @@
     <string name="info_path">Caminho:</string>
     <string name="info_resolution">Resolução:</string>
     <string name="info_size">Tamanho:</string>
-    <string name="info_camera">Camera:</string>
+    <string name="info_camera">Câmera:</string>
     <string name="info_date">Data:</string>
     <string name="info_exif">EXIF (informações técnicas da imagem):</string>
     <string name="contact_not_found">Contacto em falta</string>
@@ -1013,7 +1013,7 @@
     <string name="calc_value_type_number">Tipo de valor numérico</string>
     <string name="calc_value_type_string">Tipo de valor da cadeia</string>
     <string name="sort_by_downloads">Ordenar por Downloads</string>
-    <string name="need_auth_on_memento_server">Precisa criar uma conta no Servidor Memento</string>
+    <string name="need_auth_on_memento_server">Precisa criar uma conta na Núvem do Memento</string>
     <string name="empty_my_templates_list">Não tem modelos de biblioteca publicados.</string>
     <string name="empty_field_depend_list">Este campo não tem dependências em outros campos.</string>
     <string name="share_template_dialog_title">Partilhar modelo através do catálogo on-line</string>
@@ -1199,7 +1199,7 @@
 	<string name="cloud_storage_full_text2" formatted="false">Não há espaço suficiente no armazenamento da nuvem.↵\n%s são necessários %s estão disponíveis.↵\nVocê pode atualizar para um plano tarifário que proporcione mais espaço de armazenamento.</string>
 	<string name="alien_cloud_storage_full_text">O proprietário da biblioteca não tem espaço suficiente de armazenamento.</string>	
 	<string name="button_tarifs">Tarifas</string>
-	<string name="cloud_storage_plans">Planos</string>
+	<string name="cloud_storage_plans">Planos de subscrição</string>
 	<string name="price_free">GRÁTIS</string>
 	<string name="price_per_month">%s/mês</string>
 	<string name="unlimited_libraries">Bibliotecas ilimitadas</string>	
@@ -1420,4 +1420,44 @@
     <string formatted="false" name="of_counter">%d de %d</string>
 
 
-</resources>
+<string name="login">Ligar-se</string>
+    <string name="sign_up">Registe-se</string>
+    <string name="memento_cloud2">Núvem do Memento</string>
+
+    <string name="from_file">Do ficheiro</string>
+    <string name="from_google_drive">Do Google Drive</string>
+
+<string name="lost_database_text">Não é possível abrir o arquivo de banco de dados, verifique se o ficheiro está presente no caminho especificado</string>
+    <string name="upload_to_cloud">Enviar para a núvem</string>
+    <string name="multi_choice_delimiter">Delimitador</string>
+    <string name="cloud_plan_free">Grátis</string>
+    <string name="cloud_plan_plan3">Reduzida</string>
+    <string name="cloud_plan_plan6">Profissional</string>
+    <string name="cloud_plan_plan10">Profissional avançado</string>
+    <string name="cloud_plan_storage">%s Armazenamento</string>
+
+    <string name="memento_server_settings_group">Servidor Memento</string>
+    <string name="memento_server_host">O endereço do Servidor Memento</string>
+    <string name="memento_server_cloud">Use a Nuvem do Memento</string>
+    <string name="memento_server_private">Use o Servidor Provado do Memento</string>
+    <string name="memento_server_private_hint">alojamento:porta</string>
+    <string name="memento_server_private_not_found">Servidor Privado não encontrado no endereço especificado</string>
+    <string name="latitude_longitude">Latitude/Longitude</string>
+    <string name="latitude_longitude_hint">latitude,longitude</string>
+    <string name="latitude_longitude_parse_error">Não é possível analisar a latitude/longitude</string>
+    <string name="relation_type">Tipo de relação</string>
+    <string name="relation_type_one_to_one">Um-para-Um</string>
+    <string name="relation_type_one_to_many">Um-para-Muitos</string>
+    <string name="relation_type_many_to_many">Muitos-para-Muitos</string>
+    <string name="relation_type_one_limit">O registo selecionado já tem uma relação</string>
+    <string name="relation_type_one_limit2">%s já tem uma relação</string>
+    <string name="library_edit_mode">Modo de edição</string>
+    <string name="library_edit_mode_hint">Abrir a edição do formulário clicando num registo</string>
+    <string name="desktop_version">Versão desktop</string>
+
+    <string name="no_comments">Sem comentários</string>
+    <plurals name="comments_count">
+	<item quantity="one">Um comentário</item>
+	<item quantity="other">%d comentários</item>
+</plurals>
+    </resources>
