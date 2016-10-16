@@ -1412,4 +1412,11 @@
     <string formatted="false" name="of_counter">%d de %d</string>
 
 
-</resources>
+<string name="lost_database_text"/>
+    <string name="upload_to_cloud">Téléversez sur le Cloud</string>
+    <string name="multi_choice_delimiter"/>
+    <string name="cloud_plan_free">Gratuit</string>
+    <string name="cloud_plan_plan3">Version Light</string>
+    <string name="cloud_plan_plan6">Version Pro</string>
+    <string name="cloud_plan_plan10">Version Pro Plus</string>
+    </resources>
