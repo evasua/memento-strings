@@ -103,7 +103,7 @@
     <string name="flex_role_hint">Itemomschrijving</string>
     <string name="flex_role_status">Itemstatus</string>
     <string name="short_flex_role_name">naam</string>
-    <string name="short_flex_role_hint">omsch</string>
+    <string name="short_flex_role_hint">omschrijving</string>
     <string name="short_flex_role_status">status</string>
     <string name="item_add_to_favorite">Dit item is aan Favorieten toegevoegd</string>
     <string name="item_remove_from_favorite">Dit item is uit Favorieten verwijderd</string>
@@ -228,14 +228,14 @@
     <string formatted="false" name="google_docs_task_step_send_row">Toevoegen aan lijst. Regel %s van %s</string>
     <string formatted="false" name="google_docs_task_step_update_row">Bijwerken van lijst. Regel %s van %s</string>
     <string name="google_docs_task_create_document">Aanmaken van spreadsheet</string>
-    <string name="google_docs_task_create_worksheet">Toevoegen van werkblad</string>
-    <string name="google_docs_task_shange_columns">Bijwerken van werkblad</string>
-    <string name="username_hint">Email adres</string>
+    <string name="google_docs_task_create_worksheet">Werkblad toevoegen</string>
+    <string name="google_docs_task_shange_columns">Werkblad bijwerken</string>
+    <string name="username_hint">E-mailadres</string>
     <string name="pass_hint">Wachtwoord</string>
     <string name="gdocs_error">Fout sync met Google Sheets - %s</string>
     <string name="preference_category_accounts">Accounts</string>
     <string name="preference_google_account_title">Google Account</string>
-    <string name="preference_google_account_hint">Jouw Google Account email en wachtwoord</string>
+    <string name="preference_google_account_hint">Uw Google Account email en wachtwoord</string>
     <string name="conflict_dialog_text">Deze objecten zijn zowel in Memento als Google Sheets gewijzigd. Welke versies zijn de juiste?</string>
     <string name="copy_memento_to_gdocs">Objecten in Memento</string>
     <string name="copy_gdocs_to_memento">Objecten in Google Sheets</string>
@@ -278,7 +278,7 @@
     <string name="memento_auth_error">Onjuiste gebruikersnaam of wachtwoord</string>
     <string name="memento_library_lock">De verzameling is geblokkeerd, probeer het later opnieuw</string>
     <string name="preference_memento_account_title">Memento account</string>
-    <string name="preference_memento_account_hint">Jouw Memento Account gebruikersnaam en wachtwoord</string>
+    <string name="preference_memento_account_hint">Uw Memento Account gebruikersnaam en wachtwoord</string>
     <string name="public_library_task_auth">Aanmelden bij de Memento service</string>
     <string name="public_library_task_send_template">Versturen van de verzameling-sjabloon</string>
     <string formatted="false" name="public_library_task_send_items">Versturen van de verzameling objecten.\n%s van %s</string>
@@ -980,7 +980,7 @@
     <string name="calc_value_type_number">Numerieke waarde type</string>
     <string name="calc_value_type_string">Alfanumerieke waarde type</string>
     <string name="sort_by_downloads">Sorteer op Downloads</string>
-    <string name="need_auth_on_memento_server">Je moet het account aanmaken op de Memento Server</string>
+    <string name="need_auth_on_memento_server">Je moet het account aanmaken op de Memento Cloud</string>
     <string name="empty_my_templates_list">Je hebt geen sojabonen voor verzamelingen gepubliceerd.</string>
     <string name="empty_field_depend_list">Dit veld heeft geen afhankelijkheden van andere velden.</string>
     <string name="share_template_dialog_title">Deel het sjabloon met anderen via de online catalogus</string>
@@ -1121,7 +1121,7 @@
     <string name="cloud_size">Grootte</string>
     <string name="cloud_files_count">Aantal bestanden</string>
     <string name="cloud_who_has_access">Wie heeft toegang</string>
-    <string name="cloud_server_unavaliable">De Memento Cloud server is niet beschikbaar. Controleer de internetverbinding op uw apparaat.</string>
+    <string name="cloud_server_unavaliable">De Memento Cloud server is niet beschikbaar. Controleer de internetverbinding op uw apparaat</string>
     <string name="delete_from_cloud">Verwijder uit de cloud</string>
     <string name="delete_from_cloud_message_question">Wilt u de verzameling echt uit de cloud verwijderen?</string>
         
@@ -1257,7 +1257,7 @@
     <string name="protected_libraries_not_show_in_widget">Beveiligde verzameling kan niet in de widget worden getoond</string>
     <string name="widget_free_limit_item_text">Alle objecten zijn alleen zichtbaar voor gebruikers met een PRO-versie</string>
     <string name="rate_me_dialog_title">Gebruikt u Memento graag?</string>
-    <string name="rate_me_dialog_text">Beoordeel ons in Google Play a.u.b.</string>
+    <string name="rate_me_dialog_text">Beoordeel ons in Google Play aub</string>
     <string name="button_rate_now">Beoordeel nu</string>
     <string name="button_ask_later">Vraag me later</string>
     <string name="flex_type_radiobuttons">Selectierondjes</string>
@@ -1300,7 +1300,7 @@
 
     <string name="need_reload_library_from_cloud_decrypted">Kopieën van de verzameling in de cloud waren ontsleuteld.\nVerwijder de lokale kopie van de verzameling en download dan de verzameling opnieuw vanaf de cloud.</string>
 
-    <string name="cloud_storage_plans">Plannen</string>
+    <string name="cloud_storage_plans">Abonnementen</string>
 	<string name="uservoice_menu_title">UserVoice</string>
 	<string name="font_sample_text">De snelle bruine vos sprong over de luie hond.</string>
     <plurals name="rating_tooltips_count">
@@ -1384,4 +1384,263 @@
     <string name="field_delimiters">Veld scheidingsteken</string>
     <string name="field_enclosed">Tekstaanduiding</string>
     
+<string name="users_manager">Gebruikersbeheer</string>
+    <string name="create_new_user_dialog">Een nieuwe gebruiker aanmaken</string>
+
+    <string name="script">Script</string>
+    <string name="js_libraries">JavaScript Bibliotheek</string>
+    <string name="js_moment_library">Bibliotheek om datums te verwerken, valideren, behandelen en te formateren</string>
+    <string name="js_realtime">Het script in real-time uitvoeren</string>
+    <string name="js_realtime_hint_off">Het script wordt enkel uitgevoerd wanneer een record bewerkt wordt</string>
+    <string name="js_realtime_hint_on">Het script wordt uitgevoerd wanneer een record afgebeeld wordt</string>
+    <string name="user_limit_message">U hebt uw limiet aan gebruikers bereikt</string>
+    <string name="remaining_users" formatted="false">%d van %d licenties verbruikt</string>
+    <string name="delete_slave_user_message">Bent u zeker gebruiker \"%s\" te willen verwijderen?</string>
+    <string name="active_users">Actieve gebruikers</string>
+    <string name="deleted_users">Verwijderde gebruikers</string>
+    <string name="powered_by_text">Mogelijk gemaakt door Memento Database</string>
+
+    <string name="string_list_sort_menu_title">Rangschikken per titel</string>
+    <string name="previous_value">Vorige waarde</string>
+    <string name="specify_value">Een waarde specificeren</string>
+    <string name="filters_order">Rangschikken...</string>
+    <string name="full_screen_mode">Volledig scherm modus</string>
+    <string name="standard_screen_mode">Standaard scherm modus</string>
+    <string name="restore_from_cloud">Vanuit de Cloud herstellen</string>
+    <string formatted="false" name="of_counter">%d van %d</string>
+
+    <string name="lost_database_text">Onmogelijk database file te openen, controleer of het zich op het aangewezen pad bevindt</string>
+    <string name="upload_to_cloud">Opladen in de Cloud</string>
+    <string name="multi_choice_delimiter">Startteken</string>
+    <string name="cloud_plan_free">Gratis</string>
+    <string name="cloud_plan_plan3">Light</string>
+    <string name="cloud_plan_plan6">Pro</string>
+    <string name="cloud_plan_plan10">Pro Plus</string>
+    <string name="cloud_plan_storage">%s Opslag</string>
+
+    <string name="memento_server_settings_group">Memento Server</string>
+    <string name="memento_server_host">Het Memento Server-adres</string>
+    <string name="memento_server_cloud">Gebruik Memento Cloud</string>
+    <string name="memento_server_private">Gebruik Memento Private Server</string>
+    <string name="memento_server_private_hint">host:poort</string>
+    <string name="memento_server_private_not_found">Private Server niet gevonden op het opgegeven adres</string>
+    <string name="latitude_longitude">Lengtegraad/Breedtegraad</string>
+    <string name="latitude_longitude_hint">lengtegraad/breedtegraad</string>
+    <string name="latitude_longitude_parse_error">Kan lengtegraad/breedtegraad niet verwerken</string>
+    <string name="relation_type">Aard van verwantschap</string>
+    <string name="relation_type_one_to_one">Eén-op-één</string>
+    <string name="relation_type_one_to_many">Eén-op-veel</string>
+    <string name="relation_type_many_to_many">Veel-op-veel</string>
+    <string name="relation_type_one_limit">Gekozen record heeft reeds een verwantschap</string>
+    <string name="relation_type_one_limit2">%s heeft reeds een verwantschap</string>
+    <string name="library_edit_mode">Wijzigingsmodus</string>
+    <string name="library_edit_mode_hint">Open \'Wijzig Formulier\' door op een invoer te klikken</string>
+    <string name="desktop_version">Desktop Versie</string>
+
+    <string name="no_comments">Geen commentaar</string>
+    <plurals name="comments_count">
+	<item quantity="one">Eén commentaar</item>
+	<item quantity="other">%d commentaren</item>
+</plurals>
+    <string name="comments_only_for_cloud">Opmerkingen kunnen enkel gepost worden in bibliotheken die in de Cloud zijn opgeslagen. Een bibliotheek in de Cloud opslaan?</string>
+    <string name="locale_plugin_add_edit_entry_title">Een invoer toevoegen/aanpassen</string>
+    <string name="locale_to_fields_list_empty_text">Klik op de + knop om nieuwe regels aan te maken om bibliotheekvelden in te vullen.</string>
+    <string name="locale_to_fields_var">Tekst van %s</string>
+    <string name="locale_to_fields_add_rule_title">Regel toevoegen</string>
+    <string name="locale_to_fields_edit_rule_title">Regel aanpassen</string>
+    <string name="variable_select">Selecteer een Variabele</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Een invoer aanpassen</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Maak een nieuwe invoer aan indien u geen invoer vindt aan de hand van een sleutelveld</string>
+
+    <string name="send_field_title">Verstuur de veldnaam</string>
+    <string name="send_field_title_summary">De veldnaam volgt op de veldwaarde</string>
+    <string name="auto_lock_libraries_time_title">Sluit de toegang tot de bibliotheek</string>
+    <string name="auto_lock_libraries_after">Na %s</string>
+
+    <string name="empty_triggers_list_text"/>
+    <string name="triggers"/>
+    <string name="trigger_name"/>
+    <string name="trigger_event">Gebeurtenis</string>
+    <string name="trigger_moment">Fase</string>
+    <string name="unknown_trigger_event_type">Onbekende gebeurtenis</string>
+    <string name="unknown_trigger_moment_type">Onbekende Fase</string>
+
+    <string name="trigger_event_create_entry">Een invoer aanmaken</string>
+    <string name="trigger_event_modify_entry">Een invoer updaten</string>
+    <string name="trigger_event_delete_entry">Een invoer verwijderen</string>
+    <string name="trigger_event_open_entry">"Een invoer  Beeld Kaart openen"</string>
+    <string name="trigger_event_add_favorites">Een invoer aan Favorieten toevoegen</string>
+    <string name="trigger_event_remove_favorites">"Een invoer verwijderen uit  Favorieten"</string>
+    <string name="trigger_default_name">Activering %d</string>
+    <string name="trigger_enabled">Ingeschakeld</string>
+    <string name="trigger_switched_off">Uitgeschakeld</string>
+    <string name="trigger_delete_message">Bent u zeker dat u de activering \"%s\" wilt verwijderen?</string>
+
+
+    <string name="trigger_moment_open_form">Een invoer bewerken kaart openen</string>
+    <string name="trigger_moment_before_save">Vooraleer de invoer op te slaan</string>
+    <string name="trigger_moment_after_save">Na de invoer op te slaan</string>
+    <string name="trigger_moment_before_delete">Alvorens een invoer te verwijderen</string>
+    <string name="trigger_moment_after_delete">Na een invoer te hebben verwijderd</string>
+    <string name="trigger_moment_before_show">Vooraleer het venster te vertonen</string>
+    <string name="trigger_moment_after_show">Na het venster te hebben vertoond</string>
+
+    <string name="application">Toepassing</string>
+    <string name="debug">Debuggen</string>
+    <string name="debug_summary">Registratie opties</string>
+    <string name="log_files_folder">Registratiebestandenmap</string>
+
+    <string name="enable_logging_cloud">Memento Cloud oproepen</string>
+    <string name="enable_logging_triggers">Activeringsregstraties</string>
+    <string name="script_log">Script registraties</string>
+
+    <string name="trigger_permissions">Machtigingen/toelatingen voor activeringen</string>
+    <string name="trigger_permission_read_file">Lees bestanden</string>
+    <string name="trigger_permission_read_file_hint">Sta Scripts toe te lezen uit externe opslag</string>
+    <string name="trigger_permission_write_file">Schrijf bestanden</string>
+    <string name="trigger_permission_write_file_hint">Sta scripts toe naar externe opslag te schrijven</string>
+    <string name="trigger_permission_network">Netwerk</string>
+    <string name="trigger_permission_network_hint">Sta scripts toe HTTP-verzoeken uit te voeren</string>
+
+    <string name="trigger_permission_libraries">Bibliotheken</string>
+    <string name="trigger_permission_libraries_hint">Toegang tot alle bibliotheken</string>
+
+    <string name="trigger_permission_libraries_select">Beschikbare bibliotheken</string>
+    <string name="trigger_permission_libraries_select_title">Selecteer bibliotheken</string>
+    <string name="need_pro_for_triggers">In de gratis versie kan één bibliotheek slechts één activering bevatten.</string>
+    <string name="filters_tab">Tabbladen...</string>
+    <string name="filters_tab_dialog_title">Selecteer filters voor tabbladen</string>
+    <string name="export_template_include_filters">Filters meetellen</string>
+
+    <string name="unit_of_measurement_enable">Een maateenheid toevoegen aan een veld</string>
+    <string name="unit_of_measurement_none">Geen</string>
+
+    <string name="unit_of_measurement_category">Categorie</string>
+    <string name="unit_of_measurement">Maateenheid</string>
+    <string name="unit_of_measurement_button">Voeg een maateenheidomzetter aan het veld toe</string>
+
+    <string name="uom_category_temperature">Temperatuur</string>
+    <string name="uom_celsius">Celsius</string>
+    <string name="uom_fahrenheit">Fahrenheit</string>
+    <string name="uom_kelvin">Kelvin</string>
+    <string name="uom_rankine">Rankine</string>
+
+    <string name="uom_category_time">Tijd</string>
+    <string name="uom_nanosecond">Nanoseconde</string>
+    <string name="uom_microsecond">Microseconde</string>
+    <string name="uom_millisecond">Milliseconde</string>
+    <string name="uom_second">Seconde</string>
+    <string name="uom_minute">Minuut</string>
+    <string name="uom_hour">Uur</string>
+    <string name="uom_day">Dag</string>
+    <string name="uom_week">Week</string>
+    <string name="uom_year">Jaar</string>
+
+    <string name="uom_category_pressure">Druk</string>
+    <string name="uom_pascal">Pascal</string>
+    <string name="uom_atmosphere">Atmosfeer</string>
+    <string name="uom_bar">Bar</string>
+
+    <string name="uom_category_length">Lengte</string>
+    <string name="uom_meter">Meter</string>
+    <string name="uom_kilometer">Kilometer</string>
+    <string name="uom_centimeter">Centimeter</string>
+    <string name="uom_millimeter">Millimeter</string>
+    <string name="uom_micrometer">Micrometer</string>
+    <string name="uom_nanometer">Nanometer</string>
+    <string name="uom_mile">Mijl</string>
+    <string name="uom_nautical_mile">Nautische mijl</string>
+    <string name="uom_foot">Voet</string>
+    <string name="uom_yard">Yard</string>
+    <string name="uom_inch">Duim</string>
+    <string name="uom_angstrom">Ångström</string>
+    <string name="uom_astronomical_unit">Astronomische eenheid</string>
+    <string name="uom_light_year">Lichtjaar</string>
+    <string name="uom_parsec">Parsec</string>
+
+    <string name="uom_category_mass">Massa</string>
+    <string name="uom_microgram">Microgram</string>
+    <string name="uom_milligram">Milligram</string>
+    <string name="uom_gram">Gram</string>
+    <string name="uom_kilogram">Kilogram</string>
+    <string name="uom_ton">megagram</string>
+    <string name="uom_ton_uk">Engelse ton</string>
+    <string name="uom_pound">Pond</string>
+    <string name="uom_ounce">Ons</string>
+
+    <string name="uom_category_volume">Volume</string>
+    <string name="uom_cubic_metre">Kubieke meter</string>
+    <string name="uom_liter">Liter</string>
+    <string name="uom_cubic_inch">Kubieke duim</string>
+    <string name="uom_gallon_liquid_us"/>
+    <string name="uom_ounce_liquid_us"/>
+    <string name="uom_gallon_uk"/>
+    <string name="uom_ounce_liquid_uk"/>
+
+    <string name="uom_category_dataamount">Digitale opslag</string>
+    <string name="uom_bit">Bit</string>
+    <string name="uom_byte">Byte</string>
+    <string name="uom_kilobit">Kilobit</string>
+    <string name="uom_kilobyte">Kilobyte</string>
+    <string name="uom_megabit">Megabit</string>
+    <string name="uom_megabyte">Megabyte</string>
+    <string name="uom_gigabit">Gigabit</string>
+    <string name="uom_gigabyte">Gigabyte</string>
+    <string name="uom_terabit">Terrabit</string>
+    <string name="uom_terabyte">Terrabyte</string>
+    <string name="uom_petabit">Petabit</string>
+    <string name="uom_petabyte">Petabyte</string>
+
+    <string name="uom_category_area">Oppervlakte</string>
+    <string name="uom_square_metre">Vierkante meter</string>
+    <string name="uom_are">Are</string>
+    <string name="uom_hectare">Hectare</string>
+
+    <string name="uom_category_velocity">Snelheid</string>
+    <string name="uom_meters_per_second">Meter per seconde</string>
+    <string name="uom_miles_per_hour">Mijl per uur</string>
+    <string name="uom_kilometers_per_hour">Kilometer per uur</string>
+    <string name="uom_knot">Knoop</string>
+    <string name="uom_mach">Mach</string>
+
+    <string name="uom_category_power">Stroom</string>
+    <string name="uom_watt">Watt</string>
+    <string name="uom_kilowatt">Kilowatt</string>
+    <string name="uom_megawatt">Megawatt</string>
+    <string name="uom_horsepower">Paardekracht</string>
+
+    <string name="uom_category_energy">Energie</string>
+    <string name="uom_joule">Joule</string>
+    <string name="uom_kilojoule">Kilojoule</string>
+
+    <string name="uom_category_frequency">Frequentie</string>
+    <string name="uom_hertz">Hertz</string>
+    <string name="uom_kilohertz">Kilohertz</string>
+    <string name="uom_megahertz">Megahertz</string>
+    <string name="uom_gigahertz">Gigahertz</string>
+
+    <string name="wrong_field_value">Veld %s heeft een ongeldige waarde</string>
+
+    <string name="unit_converter">Eenheidomzetter</string>
+    <string name="increase">Verhogen</string>
+    <string name="decrease">Verlagen</string>
+    <string name="frozen">Bevroren</string>
+    <string name="frozen_text">De bibliotheek is bevroren omdat het aantal bibliotheken in de Cloud, begrepen in uw tariefplan, overschreden is.</string>
+    <string name="date_and_time_formats">Datum- en tijdsformaten</string>
+    <string name="date_formats">Datumformaten</string>
+    <string name="time_formats">Tijdsformaten</string>
+    <string name="date_formats_short">Korte datumnotatie</string>
+    <string name="date_formats_long">Lange datumnotatie</string>
+    <string name="time_formats_short">Korte tijdsnotatie</string>
+    <string name="time_formats_long">Lange tijdsnotatie</string>
+    <string name="language">Taal</string>
+    <string name="next_button">Volgende</string>
+    <string name="bulk_add">Bulk toevoeging</string>
+    <string name="login">Log in</string>
+    <string name="sign_up">Registreren</string>
+    <string name="memento_cloud2">Memento Cloud</string>
+
+    <string name="from_file">Uit bestand</string>
+    <string name="from_google_drive">Uit Google Drive</string>
+
 </resources>
