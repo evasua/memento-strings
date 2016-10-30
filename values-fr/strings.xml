@@ -1412,11 +1412,80 @@
     <string formatted="false" name="of_counter">%d de %d</string>
 
 
-<string name="lost_database_text"/>
+<string name="lost_database_text">Impossible d\'ouvrir le fichier base de données, vérifier s\'il est présent dans le chemin indiqué</string>
     <string name="upload_to_cloud">Téléversez sur le Cloud</string>
-    <string name="multi_choice_delimiter"/>
+    <string name="multi_choice_delimiter">Délimiteur</string>
     <string name="cloud_plan_free">Gratuit</string>
     <string name="cloud_plan_plan3">Version Light</string>
     <string name="cloud_plan_plan6">Version Pro</string>
     <string name="cloud_plan_plan10">Version Pro Plus</string>
+    <string name="cloud_plan_storage">%s Mémoire</string>
+
+    <string name="memento_server_settings_group">Serveur Memento</string>
+    <string name="memento_server_host">L\'adresse du serveur Memento</string>
+    <string name="memento_server_cloud">Utiliser le nuage Memento</string>
+    <string name="memento_server_private">Utiliser le serveur privé Memento</string>
+    <string name="memento_server_private_hint">host:port</string>
+    <string name="memento_server_private_not_found">Le serveur privé n\'existe pas à l\'adresse indiquée</string>
+    <string name="latitude_longitude">Latitude/Longitude</string>
+    <string name="latitude_longitude_hint">latitude,longitude</string>
+    <string name="latitude_longitude_parse_error">Impossible d\'analyser latitude/longitude</string>
+    <string name="relation_type">Type de relation</string>
+    <string name="relation_type_one_to_one">1-1</string>
+    <string name="relation_type_one_to_many">1-n</string>
+    <string name="relation_type_many_to_many">n-m</string>
+    <string name="relation_type_one_limit">L\'enregistrement sélectionné possède déjà une relation</string>
+    <string name="relation_type_one_limit2">%s possède déjà une relation</string>
+    <string name="library_edit_mode">Mode édition</string>
+    <string name="library_edit_mode_hint">Ouvrir le formulaire d\'édition en cliquant sur un enregistrement</string>
+    <string name="desktop_version">Version bureau</string>
+
+    <string name="no_comments">Pas de commentaires</string>
+    <plurals name="comments_count">
+	<item quantity="one">1 commentaire</item>
+	<item quantity="other">%d commentaires</item>
+</plurals>
+    <string name="comments_only_for_cloud">Les commentaires ne peuvent ^ter publiés que sur les bases téléversées dans le nuage. Voulez-vous téléverser la base dans le nuage ?</string>
+    <string name="locale_plugin_add_edit_entry_title">Ajouter/modifier un enregistrement</string>
+    <string name="from_google_drive">Depuis Google Drive</string>
+
+<string name="locale_to_fields_add_rule_title">Ajouter une règle</string>
+    <string name="locale_to_fields_edit_rule_title">Modifier une règle</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Modifier un enregistrement</string>
+    <string name="send_field_title">Envoyer le nom du champ</string>
+    <string name="send_field_title_summary">Le nom du champ suivra la valeur du champ</string>
+    <string name="auto_lock_libraries_time_title">Fermer l\'accès aux bases</string>
+    <string name="auto_lock_libraries_after">Après %s</string>
+
+    <string name="trigger_event">Evénénement</string>
+    <string name="trigger_name">Nom du déclencheur</string>
+    <string name="unknown_trigger_event_type">Evénement inconnu</string>
+    <string name="trigger_event_create_entry">Création d\'un enregistrement</string>
+    <string name="trigger_event_modify_entry">Mise à jour d\'un enregistrement</string>
+    <string name="trigger_event_delete_entry">Suppression d\'un enregistrement</string>
+    <string name="trigger_event_add_favorites">Ajout d\'un enregistrement dans les favoris</string>
+    <string name="trigger_event_remove_favorites">Suppression d\'un enregistrement des favoris</string>
+    <string name="trigger_default_name">Déclencheur %d</string>
+    <string name="trigger_enabled">Activé</string>
+    <string name="trigger_delete_message">Voulez-vous vraiment supprimer le déclencheur \"%s\" ?</string>
+
+
+    <string name="trigger_moment_after_delete">Après la suppression d\'un enregistrement</string>
+    <string name="trigger_moment_before_delete">Avant la suppression d\'un enregistrement</string>
+    <string name="trigger_moment_after_save">Après l\'enregistrement d\'un enregistrement</string>
+    <string name="trigger_moment_before_show">Avant l\'affichage de la fenêtre</string>
+    <string name="trigger_moment_after_show">Après l\'affichage de la fenêtre</string>
+
+    <string name="application">Application</string>
+    <string name="trigger_moment_before_save">Avant de sauvegarder l\'enregistrement</string>
+    <string name="uom_category_energy">Energie</string>
+    <string name="uom_joule">Joule</string>
+    <string name="uom_kilojoule">Kilojoule</string>
+
+    <string name="uom_category_frequency">Fréquence</string>
+    <string name="uom_hertz">Hertz</string>
+    <string name="uom_kilohertz">Kilohertz</string>
+    <string name="uom_megahertz">Megahertz</string>
+    <string name="uom_gigahertz">Gigahertz</string>
+
     </resources>
