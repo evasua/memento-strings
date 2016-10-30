@@ -973,7 +973,7 @@
     <string name="calc_value_type_number">Числов тип</string>
     <string name="calc_value_type_string">линеен тип</string>
     <string name="sort_by_downloads">Сортиране по сваляния</string>
-    <string name="need_auth_on_memento_server">Трябва да създадете акаунт на Memento сървър</string>
+    <string name="need_auth_on_memento_server">Трябва да създадете акаунт на Memento облак</string>
     <string name="empty_my_templates_list">Вие не сте публикували шаблони на библиотеки.</string>
     <string name="empty_field_depend_list">Това поле все още няма зависимости от други полета.</string>
     <string name="share_template_dialog_title">Споделете шаблона чрез онлайн каталога</string>
@@ -1150,7 +1150,7 @@
 	<string name="cloud_storage_full_text2" formatted="false">Няма достатъчно място в облака.↵\n%s са необходими, %s са достъпни.↵\nМожете да преминете към тарифен план, осигурявайки повече пространство за съхранение.</string>
 	<string name="alien_cloud_storage_full_text">Собственикът на библиотека не разполага с достатъчно пространство за съхранение.</string>	
 	<string name="button_tarifs">Тарифи</string>
-	<string name="cloud_storage_plans">Абонаменти</string>
+	<string name="cloud_storage_plans">Абонаментни планове</string>
 	<string name="price_free">БЕЗПЛАТНО</string>
 	<string name="price_per_month">%s/месец</string>
 	<string name="unlimited_libraries">Неограничено количество библиотеки</string>	
@@ -1398,4 +1398,239 @@
     <string formatted="false" name="of_counter">%d от %d</string>
 
 
-</resources>
+<string name="from_google_drive">От Google Drive</string>
+
+<string name="from_file">От файл</string>
+    <string name="lost_database_text">Не може да се отвори файла с базата данни, проверете дали тя присъства в посочения път</string>
+    <string name="upload_to_cloud">Качване в облак</string>
+    <string name="multi_choice_delimiter">Разделител</string>
+    <string name="cloud_plan_free">Безплатно</string>
+    <string name="cloud_plan_plan3">Лека</string>
+    <string name="cloud_plan_plan6">Про</string>
+    <string name="cloud_plan_plan10">Про плюс</string>
+    <string name="cloud_plan_storage">%s Съхранение</string>
+
+    <string name="memento_server_settings_group">Memento сървър</string>
+    <string name="memento_server_host">Адресът на Memento сървър</string>
+    <string name="memento_server_cloud">Използвайте Memento облак</string>
+    <string name="memento_server_private">Използвайте Memento частен сървър</string>
+    <string name="memento_server_private_hint">хост:порт</string>
+    <string name="memento_server_private_not_found">Частният сървър не е намерен на посочения адрес</string>
+    <string name="latitude_longitude">Ширина/Дължина</string>
+    <string name="latitude_longitude_hint">ширина,дължина</string>
+    <string name="latitude_longitude_parse_error">Не може да се направи избор ширина/дължина</string>
+    <string name="relation_type">Вид на връзката</string>
+    <string name="relation_type_one_to_one">Едно към едно</string>
+    <string name="relation_type_one_to_many">Едно към много</string>
+    <string name="relation_type_many_to_many">Много към много</string>
+    <string name="relation_type_one_limit">Избраните записи вече са свързани</string>
+    <string name="relation_type_one_limit2">%s вече са свързани</string>
+    <string name="library_edit_mode">Режим на редактиране</string>
+    <string name="library_edit_mode_hint">Отварете форма за редактиране, като кликнете върху запис</string>
+    <string name="desktop_version">Десктоп версия</string>
+
+    <string name="no_comments">Няма коментари</string>
+    <plurals name="comments_count">
+	<item quantity="one">Един коментар</item>
+	<item quantity="other">%d коментари</item>
+</plurals>
+    <string name="comments_only_for_cloud">Коментари могат да бъдат публикувани само за библиотеките, които са качени в облака. Качване на библиотека в облака?</string>
+    <string name="locale_plugin_add_edit_entry_title">Добавяне/редактиране на запис</string>
+    <string name="locale_to_fields_list_empty_text">Щракнете върху бутона +, за да се създадат нови правила за попълване на полетата.</string>
+    <string name="locale_to_fields_var">Текст от %s</string>
+    <string name="locale_to_fields_add_rule_title">Добавяне на правило</string>
+    <string name="locale_to_fields_edit_rule_title">Редактиране на правило</string>
+    <string name="variable_select">Променлив избор</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Редактиране запис</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Създаване на нов запис, ако не успеете да намерите запис от ключово поле</string>
+
+    <string name="send_field_title">Изпращане името на полето</string>
+    <string name="send_field_title_summary">Името на полето ще следва стойността на полето</string>
+    <string name="auto_lock_libraries_time_title">Затваряне достъпа до библиотеките</string>
+    <string name="auto_lock_libraries_after">След %s</string>
+
+    <string name="empty_triggers_list_text">Тази библиотека не съдържа тригери.\nА Тригер е скрипт, който определя обработката на запис на базата на едно събитие, което се е състояло.</string>
+    <string name="triggers">Тригери</string>
+    <string name="trigger_name">Име на тригера</string>
+    <string name="trigger_event">Събитие</string>
+    <string name="trigger_moment">Фаза</string>
+    <string name="unknown_trigger_event_type">Неизвестно събитие</string>
+    <string name="unknown_trigger_moment_type">Неизвестна фаза</string>
+
+    <string name="trigger_event_create_entry">Създаване на запис</string>
+    <string name="trigger_event_modify_entry">Актуализиране на запис</string>
+    <string name="trigger_event_delete_entry">Изтриване на запис</string>
+    <string name="trigger_event_add_favorites">Добавяне на записи към любими</string>
+    <string name="trigger_event_remove_favorites">Изтриване на запис от любими</string>
+    <string name="trigger_default_name">Тригер %d</string>
+    <string name="trigger_enabled">Активирано</string>
+    <string name="trigger_switched_off">Изключен</string>
+    <string name="trigger_delete_message">Наистина ли искате да изтриете тригера \"%s\" ?</string>
+
+
+    <string name="trigger_moment_before_save">Преди да запазите записа</string>
+    <string name="trigger_moment_after_save">След запазване на записа</string>
+    <string name="trigger_moment_before_delete">Преди изтриване на запис</string>
+    <string name="trigger_moment_after_delete">След изтриване на запис</string>
+    <string name="application">Приложение</string>
+    <string name="debug">Дебъг</string>
+    <string name="debug_summary">Опции за регистрация</string>
+    <string name="enable_logging_cloud">Memento облак обаждания</string>
+    <string name="enable_logging_triggers">Тригери лог</string>
+    <string name="script_log">Скриптове лог</string>
+
+    <string name="trigger_permissions">Разрешения за тригери</string>
+    <string name="trigger_permission_read_file">Прочетете файлове</string>
+    <string name="trigger_permission_read_file_hint">Позволява скриптове за четене от външна памет</string>
+    <string name="trigger_permission_write_file">Запишете файлове</string>
+    <string name="trigger_permission_write_file_hint">Позволява скриптове за писане във външна памет</string>
+    <string name="trigger_permission_network">Мрежа</string>
+    <string name="trigger_permission_network_hint">Позволява скриптове за изпълнение на HTTP заявки</string>
+
+    <string name="trigger_permission_libraries">Библиотеки</string>
+    <string name="trigger_permission_libraries_hint">Достъп до всички библиотеки</string>
+
+    <string name="trigger_permission_libraries_select">Налични библиотеки</string>
+    <string name="trigger_permission_libraries_select_title">Избор на библиотеки</string>
+    <string name="need_pro_for_triggers">В безплатната версия, една библиотека може да съдържа само един тригер. За да премахнете това ограничение, моля преминете към PRO версия.</string>
+    <string name="export_template_include_filters">Включване на филтри</string>
+
+    <string name="unit_of_measurement_enable">Добави единица за измерване на полето</string>
+    <string name="unit_of_measurement_none">Нито един</string>
+
+    <string name="unit_of_measurement_category">Категория</string>
+    <string name="unit_of_measurement">Единица за измерване</string>
+    <string name="unit_of_measurement_button">Добави конвертор на единици за полето</string>
+
+    <string name="uom_category_temperature">Температура</string>
+    <string name="uom_celsius">Целзий</string>
+    <string name="uom_fahrenheit">Фаренхайт</string>
+    <string name="uom_kelvin">Келвин</string>
+    <string name="uom_rankine">Ранкин</string>
+
+    <string name="uom_category_time">Време</string>
+    <string name="uom_nanosecond">Наносекунда</string>
+    <string name="uom_microsecond">Микросекунда</string>
+    <string name="uom_millisecond">Милисекунда</string>
+    <string name="uom_second">Секунда</string>
+    <string name="uom_minute">Минута</string>
+    <string name="uom_hour">Час</string>
+    <string name="uom_day">Ден</string>
+    <string name="uom_week">Седмица</string>
+    <string name="uom_year">Година</string>
+
+    <string name="uom_category_pressure">Налягане</string>
+    <string name="uom_pascal">Паскал</string>
+    <string name="uom_atmosphere">Атмосфера</string>
+    <string name="uom_bar">Бар</string>
+
+    <string name="uom_category_length">Дължина</string>
+    <string name="uom_meter">Метър</string>
+    <string name="uom_kilometer">Километър</string>
+    <string name="uom_centimeter">Сантиметър</string>
+    <string name="uom_millimeter">Милиметър</string>
+    <string name="uom_micrometer">Микрометър</string>
+    <string name="uom_nanometer">Нанометър</string>
+    <string name="uom_mile">Миля</string>
+    <string name="uom_nautical_mile">Морска миля</string>
+    <string name="uom_foot">Фут</string>
+    <string name="uom_yard">Ярд</string>
+    <string name="uom_inch">Инч</string>
+    <string name="uom_angstrom">Ангстрьом</string>
+    <string name="uom_astronomical_unit">Астрономическа единица</string>
+    <string name="uom_light_year">Светлинна година</string>
+    <string name="uom_parsec">Парсек</string>
+
+    <string name="uom_category_mass">Маса</string>
+    <string name="uom_microgram">Микрограм</string>
+    <string name="uom_milligram">Милиграм</string>
+    <string name="uom_gram">Грам</string>
+    <string name="uom_kilogram">Килограм</string>
+    <string name="uom_ton">Тон</string>
+    <string name="uom_ton_uk">Империал тон</string>
+    <string name="uom_ton_us">US тон</string>
+    <string name="uom_pound">Паунд</string>
+    <string name="uom_ounce">Унция</string>
+
+    <string name="uom_category_volume">Обем</string>
+    <string name="uom_cubic_metre">Кубичен метър</string>
+    <string name="uom_liter">Литър</string>
+    <string name="uom_cubic_inch">Кубичен инч</string>
+    <string name="uom_gallon_liquid_us">US галон</string>
+    <string name="uom_ounce_liquid_us">US течност унция</string>
+    <string name="uom_gallon_uk">Империал галон</string>
+    <string name="uom_ounce_liquid_uk">Империал унция течност</string>
+
+    <string name="uom_category_dataamount">Цифрово съхранение</string>
+    <string name="uom_bit">Бит</string>
+    <string name="uom_byte">Байт</string>
+    <string name="uom_kilobit">Килобит</string>
+    <string name="uom_kilobyte">Килобайт</string>
+    <string name="uom_megabit">Мегабит</string>
+    <string name="uom_megabyte">Мегабайт</string>
+    <string name="uom_gigabit">Гигабит</string>
+    <string name="uom_gigabyte">Гигабайт</string>
+    <string name="uom_terabit">Терабит</string>
+    <string name="uom_terabyte">Терабайт</string>
+    <string name="uom_petabit">Петабит</string>
+    <string name="uom_petabyte">Петабайт</string>
+
+    <string name="uom_category_area">Площ</string>
+    <string name="uom_square_metre">Квадратен метър</string>
+    <string name="uom_are">Ар</string>
+    <string name="uom_hectare">Хектар</string>
+
+    <string name="uom_category_velocity">Скорост</string>
+    <string name="uom_meters_per_second">Метра в секунда</string>
+    <string name="uom_miles_per_hour">Мили в час</string>
+    <string name="uom_kilometers_per_hour">Километра в час</string>
+    <string name="uom_category_power">Сила</string>
+    <string name="uom_watt">Ват</string>
+    <string name="uom_kilowatt">Киловат</string>
+    <string name="uom_megawatt">Мегават</string>
+    <string name="uom_horsepower">Конски сили</string>
+
+    <string name="uom_category_energy">Енергия</string>
+    <string name="uom_joule">Джаул</string>
+    <string name="uom_kilojoule">Килоджаул</string>
+
+    <string name="uom_category_frequency">Честота</string>
+    <string name="uom_hertz">Херц</string>
+    <string name="uom_kilohertz">Килохерц</string>
+    <string name="uom_megahertz">Мегахерц</string>
+    <string name="uom_gigahertz">Гигахерц</string>
+
+    <string name="wrong_field_value">Полето %s има недопустима стойност</string>
+
+    <string name="unit_converter">Конвертор на единици</string>
+    <string name="increase">Нарастване</string>
+    <string name="decrease">Намаление</string>
+    <string name="frozen">Замразено</string>
+    <string name="frozen_text">Библиотеката е замразена заради лимита на тарифния ви план за броя на библиотеки, качени в облака, който е надхвърлен.</string>
+    <string name="date_and_time_formats">Дата и час формати</string>
+    <string name="date_formats">Дата формати</string>
+    <string name="time_formats">Час формати</string>
+    <string name="date_formats_short">Кратка дата</string>
+    <string name="date_formats_long">Дълга дата</string>
+    <string name="time_formats_short">Кратък час</string>
+    <string name="time_formats_long">Дълъг час</string>
+    <string name="language">Език</string>
+    <string name="next_button">Следващ</string>
+    <string name="login">Влизане</string>
+    <string name="sign_up">Регистрирайте се</string>
+    <string name="memento_cloud2">Memento облак</string>
+
+    <string name="trigger_event_open_entry">Отваряне на карта за внос на изображение</string>
+    <string name="trigger_moment_open_form">Откриване на запис за редактиране на карта</string>
+    <string name="trigger_moment_before_show">Преди появата на прозореца</string>
+    <string name="trigger_moment_after_show">След появата на прозореца</string>
+
+    <string name="log_files_folder">Директория с регистрационни файлове</string>
+
+    <string name="filters_tab">Раздели...</string>
+    <string name="filters_tab_dialog_title">Изберете филтри за разделите</string>
+    <string name="uom_knot">Възел</string>
+    <string name="uom_mach">Mach</string>
+
+    <string name="bulk_add">Масово добавяне</string>
+    </resources>
