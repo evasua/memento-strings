@@ -1,2 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="library_menu_add_item">新增一個項目</string>
+    <string name="main_menu_add_lib">新增庫</string>
+    <string name="ghostData_lib_title">庫的名稱</string>
+    <string name="custom_template_title">自訂</string>
+    <string name="button_create">建立</string>
+    <string name="button_yes">確定</string>
+    <string name="button_ok">確定</string>
+    <string name="button_no">取消</string>
+    <string name="button_save">儲存</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_add_field">新增欄位</string>
+    <string name="add_new_library_item">輸入資料…</string>
+    <string name="flex_type_title_string">文字</string>
+    <string name="flex_type_title_int">整數</string>
+    <string name="flex_type_title_bool">多項核選鈕</string>
+    <string name="flex_type_title_date">日期</string>
+    <string name="flex_type_title_date_time">日期/時間</string>
+    <string name="flex_type_contact">聯繫資料</string>
+    <string name="flex_type_image">圖片</string>
+    <string name="flex_type_string_list">單項核選鈕</string>
+    <string name="flex_type_audio">聲音檔</string>
+    <string name="flex_type_money">貨幣</string>
+    <string name="flex_type_rating">等級</string>
+    <string name="flex_type_web">超連結</string>
+    <string name="flex_type_map">位置</string>
+    <string name="flex_type_real">實數</string>
+    <string name="field_list_caption">庫條目欄位</string>
+    </resources>
