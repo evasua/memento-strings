@@ -3,10 +3,10 @@
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Añadir una entrada</string>
     <string name="main_menu_add_lib">Añadir una Biblioteca</string>
-    <string name="ghostData_lib_title">Nombre de la Biblioteca</string>
+    <string name="ghostData_lib_title">Nombre de la biblioteca</string>
     <string name="custom_template_title">Personalizado</string>
     <string name="button_create">Crear</string>
-    <string name="button_yes">Sí</string>
+    <string name="button_yes">Si</string>
     <string name="button_ok">OK</string>
     <string name="button_no">No</string>
     <string name="button_save">Guardar</string>
@@ -1424,7 +1424,7 @@
 
 
 <string name="js_moment_library">Biblioteca para analizar sintácticamente, validar, manipular y formatear fechas</string>
-    <string name="powered_by_text">Mantenido por Memento Database</string>
+    <string name="powered_by_text">Suministrado por Memento Database</string>
 
     <string name="lost_database_text">Imposible abrir un archivo de base de datos, verifique que esté presente en la ruta especificada</string>
     <string name="upload_to_cloud">Subir a la nube</string>
