@@ -103,7 +103,7 @@
     <string name="flex_role_hint">Descripción de la entrada</string>
     <string name="flex_role_status">Estado de la entrada</string>
     <string name="short_flex_role_name">nombre</string>
-    <string name="short_flex_role_hint">desc</string>
+    <string name="short_flex_role_hint">descripción</string>
     <string name="short_flex_role_status">estado</string>
     <string name="item_add_to_favorite">Entrada añadida a Favoritos</string>
     <string name="item_remove_from_favorite">Entrada eliminada de Favoritos</string>
@@ -936,7 +936,7 @@
     <string name="calc_value_type_number">Tipo de valor numérico</string>
     <string name="calc_value_type_string">Tipo de valor de cadena de caracteres</string>
     <string name="sort_by_downloads">Ordenar por Descargas</string>
-    <string name="need_auth_on_memento_server">Necesitas crearte una cuenta en el servidor de Memento</string>
+    <string name="need_auth_on_memento_server">Necesitas crear una cuenta en el servidor de Memento</string>
     <string name="empty_my_templates_list">No has publicado plantillas de bibliotecas.</string>
     <string name="empty_field_depend_list">Este campo no tiene dependencias con otros campos.</string>
     <string name="share_template_dialog_title">Comparte la plantilla a través del catálogo online</string>
@@ -1122,7 +1122,7 @@
 	<string name="start_download_library_model">Cargando estructura de la biblioteca...</string>
 	<string name="alien_cloud_storage_full_text">El propietario de la biblioteca no tiene suficiente espacio de almacenamiento.</string>	
 	<string name="button_tarifs">Tarifas</string>
-	<string name="cloud_storage_plans">Planes</string>
+	<string name="cloud_storage_plans">Planes de suscripción</string>
 	<string name="permissions">Permisos</string>
 	<string name="open_library">Abrir biblioteca</string>
 	<string name="pull_entries_from_cloud_message2" formatted="false">%s de %s entradas procesadas</string>
@@ -1426,4 +1426,239 @@
 <string name="js_moment_library">Biblioteca para analizar sintácticamente, validar, manipular y formatear fechas</string>
     <string name="powered_by_text">Mantenido por Memento Database</string>
 
+    <string name="lost_database_text">Imposible abrir un archivo de base de datos, verifique que esté presente en la ruta especificada</string>
+    <string name="upload_to_cloud">Subir a la nube</string>
+    <string name="multi_choice_delimiter">Delimitador</string>
+    <string name="cloud_plan_free">Libre</string>
+    <string name="cloud_plan_plan6">Profesional</string>
+    <string name="cloud_plan_plan10">Profesional plus</string>
+    <string name="cloud_plan_storage">%s de capacidad</string>
+
+    <string name="memento_server_settings_group">Servidor Memento</string>
+    <string name="memento_server_host">Dirección del servidor de Memento</string>
+    <string name="memento_server_cloud">Use la nube de Memento</string>
+    <string name="memento_server_private">Use el servidor privado de Memento</string>
+    <string name="memento_server_private_hint">Host:puerto</string>
+    <string name="memento_server_private_not_found">Servidor privado no encontrado en la dirección especificada</string>
+    <string name="latitude_longitude">Latitud/Longitud</string>
+    <string name="latitude_longitude_hint">latitud,longitud</string>
+    <string name="latitude_longitude_parse_error">No se puede analizar la latitud/longitud</string>
+    <string name="relation_type">Tipo de relación</string>
+    <string name="relation_type_one_to_one">Uno a Uno</string>
+    <string name="relation_type_one_to_many">Uno a varios</string>
+    <string name="relation_type_many_to_many">Varios a Varios</string>
+    <string name="relation_type_one_limit">El registro seleccionado ya tiene una relación</string>
+    <string name="relation_type_one_limit2">%s ya tiene una relación</string>
+    <string name="library_edit_mode">Modo edición</string>
+    <string name="desktop_version">Versión de escritorio</string>
+
+    <string name="no_comments">No comentarios</string>
+    <plurals name="comments_count">
+	<item quantity="one">Un comentario</item>
+	<item quantity="other">%d comentarios</item>
+</plurals>
+    <string name="comments_only_for_cloud">Los comentarios pueden publicarse únicamente a las bibliotecas que fueron subidas a la nube. Quiere subir la biblioteca a la nube?</string>
+    <string name="locale_plugin_add_edit_entry_title">Adicionar/editar una entrada</string>
+    <string name="locale_to_fields_list_empty_text">Clic en el + botón para crear nuevas reglas para diligenciar los campos de la biblioteca.</string>
+    <string name="locale_to_fields_var">Texto de %s</string>
+    <string name="locale_to_fields_add_rule_title">Adicionar regla</string>
+    <string name="locale_to_fields_edit_rule_title">Editar regla</string>
+    <string name="variable_select">Seleccione variable</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Editar entrada</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Crear una nueva entrada, si usted no encontró una entrada por el campo clave</string>
+
+    <string name="send_field_title">Enviar el nombre del campo</string>
+    <string name="send_field_title_summary">El nombre del campo seguirá el valor del campo</string>
+    <string name="auto_lock_libraries_time_title">Cerrar acceso a las librerias</string>
+    <string name="auto_lock_libraries_after">Después %s</string>
+
+    <string name="triggers">Disparadores</string>
+    <string name="trigger_name">Nombre del disparador</string>
+    <string name="trigger_event">Evento</string>
+    <string name="trigger_moment">Fase</string>
+    <string name="unknown_trigger_event_type">Evento desconocido</string>
+    <string name="unknown_trigger_moment_type">Fase desconocida</string>
+
+    <string name="trigger_event_create_entry">Crear una entrada</string>
+    <string name="trigger_event_modify_entry">Actualizar una entrada</string>
+    <string name="trigger_event_delete_entry">Borar una entrada</string>
+    <string name="trigger_event_add_favorites">Editar entradas de favoritos</string>
+    <string name="trigger_event_remove_favorites">Borar una entrada de Favoritos</string>
+    <string name="trigger_default_name">Disparador %s</string>
+    <string name="cloud_plan_plan3">Ligero</string>
+    <string name="library_edit_mode_hint">Editar en forma abierta, haga clic en una entrada</string>
+    <string name="empty_triggers_list_text">Esta biblioteca no contiene disparadores.\nUn disparador es un script que define el procesamiento de una entrada sobre la base de un evento que ha tenido lugar.</string>
+    <string name="trigger_event_open_entry">Abrir una entrada View card</string>
+    <string name="trigger_enabled">Habilitado</string>
+    <string name="trigger_switched_off">Apagar</string>
+    <string name="trigger_delete_message">Realmente quiere borrar el disparador \"%s\" ?</string>
+
+
+    <string name="trigger_moment_open_form">Abrir una tarjeta de edición</string>
+    <string name="trigger_moment_before_save">Antes guarde la entrada</string>
+    <string name="trigger_moment_after_save">Después guarde la entrada</string>
+    <string name="trigger_moment_before_delete">Antes de eliminar una entrada</string>
+    <string name="trigger_moment_after_delete">Después de eliminar una entrada</string>
+    <string name="trigger_moment_before_show">Antes de visualizar la ventana</string>
+    <string name="trigger_moment_after_show">Después de visualizar la ventana</string>
+
+    <string name="application">Aplicación</string>
+    <string name="debug">Depurar</string>
+    <string name="debug_summary">Opciones de Logueo</string>
+    <string name="log_files_folder">Directorio de archivo de registro</string>
+
+    <string name="enable_logging_cloud">Llamada de nube de Memento</string>
+    <string name="enable_logging_triggers">Registro de disparos</string>
+    <string name="script_log">secuencia de comandos de registro</string>
+
+    <string name="trigger_permissions">Permisos para los disparadores</string>
+    <string name="trigger_permission_read_file">Leer archivos</string>
+    <string name="trigger_permission_read_file_hint">Permite que los scripts leer desde almacenamiento externo</string>
+    <string name="trigger_permission_write_file">Escribir archivos</string>
+    <string name="trigger_permission_write_file_hint">Permite que los scripts escribir desde almacenamiento externo</string>
+    <string name="trigger_permission_network">Red</string>
+    <string name="trigger_permission_network_hint">Permite a los scripts ejecutar solicitudes HTTP</string>
+
+    <string name="trigger_permission_libraries">Librerias</string>
+    <string name="trigger_permission_libraries_hint">Acceso a todas la librerias</string>
+
+    <string name="trigger_permission_libraries_select">Bibliotecas disponibles</string>
+    <string name="trigger_permission_libraries_select_title">Seleccionar librerias</string>
+    <string name="need_pro_for_triggers">En la versión libre, una librería puede contener solo un disparador. Para remover esta restricción, por favor mejore a versión PRO.</string>
+    <string name="filters_tab">Pestañas...</string>
+    <string name="filters_tab_dialog_title">Selecciones filtros para las pestañas</string>
+    <string name="export_template_include_filters">Filtros incluidos</string>
+
+    <string name="unit_of_measurement_enable">Adiciones una unidad de medica al campo</string>
+    <string name="unit_of_measurement_none">Ninguno</string>
+
+    <string name="unit_of_measurement_category">Categoria</string>
+    <string name="unit_of_measurement">Unidad de medida</string>
+    <string name="unit_of_measurement_button">Adicione un convertidor de unidades al campo</string>
+
+    <string name="uom_category_temperature">Temperatura</string>
+    <string name="uom_celsius">Celsius</string>
+    <string name="uom_fahrenheit">Fahrenheit</string>
+    <string name="uom_kelvin">Kelvin</string>
+    <string name="uom_rankine">Rankine</string>
+
+    <string name="uom_category_time">Tiempo</string>
+    <string name="uom_nanosecond">Nanosegundos</string>
+    <string name="uom_microsecond">Microsegundos</string>
+    <string name="uom_millisecond">Milisegundos</string>
+    <string name="uom_second">Segundos</string>
+    <string name="uom_minute">Minuto</string>
+    <string name="uom_hour">Hora</string>
+    <string name="uom_day">Día</string>
+    <string name="uom_week">Semana</string>
+    <string name="uom_year">Año</string>
+
+    <string name="uom_category_pressure">Presión</string>
+    <string name="uom_pascal">Pascal</string>
+    <string name="uom_atmosphere">Atmósfera</string>
+    <string name="uom_bar">Bar</string>
+
+    <string name="uom_category_length">Longitud</string>
+    <string name="uom_meter">Metro</string>
+    <string name="uom_kilometer">Kilómetro</string>
+    <string name="uom_centimeter">Centímetro</string>
+    <string name="uom_millimeter">Milímetro</string>
+    <string name="uom_micrometer">Micrómetro</string>
+    <string name="uom_nanometer">Nanómetro</string>
+    <string name="uom_mile">Milla</string>
+    <string name="uom_nautical_mile">Milla náutica</string>
+    <string name="uom_foot">Pie</string>
+    <string name="uom_yard">Yarda</string>
+    <string name="uom_inch">Pulgada</string>
+    <string name="uom_angstrom">Anstroum</string>
+    <string name="uom_astronomical_unit">Unidad astronómica</string>
+    <string name="uom_light_year">Año luz</string>
+    <string name="uom_parsec">Parsel</string>
+
+    <string name="uom_category_mass">Masa</string>
+    <string name="uom_microgram">Microgramo</string>
+    <string name="uom_milligram">Miligramo</string>
+    <string name="uom_gram">Gramo</string>
+    <string name="uom_kilogram">Kilogramo</string>
+    <string name="uom_ton">Tonelada</string>
+    <string name="uom_ton_uk">Tonelada imperial</string>
+    <string name="uom_ton_us">Tonelada americana</string>
+    <string name="uom_pound">Libra</string>
+    <string name="uom_ounce">Onza</string>
+
+    <string name="uom_category_volume">Volumen</string>
+    <string name="uom_cubic_metre">Metro cúbico</string>
+    <string name="uom_liter">Litro</string>
+    <string name="uom_cubic_inch">Pulgada cúbica</string>
+    <string name="uom_gallon_liquid_us">Galón americano</string>
+    <string name="uom_ounce_liquid_us">Onza líquida americana</string>
+    <string name="uom_gallon_uk">Galón imperial</string>
+    <string name="uom_ounce_liquid_uk">Onza líquida imperial</string>
+
+    <string name="uom_category_dataamount">Almacenamiento digital</string>
+    <string name="uom_bit">Bit</string>
+    <string name="uom_byte">Byte</string>
+    <string name="uom_kilobit">Kilobit</string>
+    <string name="uom_kilobyte">Kilobyte</string>
+    <string name="uom_megabit">Megabit</string>
+    <string name="uom_megabyte">Megabyte</string>
+    <string name="uom_gigabit">Gigabit</string>
+    <string name="uom_gigabyte">Gigabyte</string>
+    <string name="uom_terabit">Terabit</string>
+    <string name="uom_terabyte">Terabyte</string>
+    <string name="uom_petabit">Pentabit</string>
+    <string name="uom_petabyte">Pentabyte</string>
+
+    <string name="uom_category_area">Área</string>
+    <string name="uom_square_metre">Metro cuadrado</string>
+    <string name="uom_are">Area</string>
+    <string name="uom_hectare">Hectarea</string>
+
+    <string name="uom_category_velocity">Velocidad</string>
+    <string name="uom_meters_per_second">Metros por segundo</string>
+    <string name="uom_miles_per_hour">Millas por hora</string>
+    <string name="uom_kilometers_per_hour">Kilómetros por hora</string>
+    <string name="uom_knot">Nudo</string>
+    <string name="uom_mach">Mach</string>
+
+    <string name="uom_category_power">Fuerza</string>
+    <string name="uom_watt">Watt</string>
+    <string name="uom_kilowatt">Kilowatt</string>
+    <string name="uom_megawatt">Megawatt</string>
+    <string name="uom_horsepower">Caballo de fuerza</string>
+
+    <string name="uom_category_energy">Energía</string>
+    <string name="uom_joule">Joule</string>
+    <string name="uom_kilojoule">Kilojoule</string>
+
+    <string name="uom_category_frequency">Frecuencia</string>
+    <string name="uom_hertz">Hertz</string>
+    <string name="uom_kilohertz">Kilohertz</string>
+    <string name="uom_megahertz">Megahertz</string>
+    <string name="uom_gigahertz">Gigahertz</string>
+
+    <string name="wrong_field_value">Campo %s tiene un valor inaceptable</string>
+
+    <string name="unit_converter">Convertidor de unidades</string>
+    <string name="increase">Incrementar</string>
+    <string name="decrease">Disminuir</string>
+    <string name="frozen">Congelado</string>
+    <string name="frozen_text">La biblioteca está congelada porque se ha excedido su límite del plan de tarifas para el número de bibliotecas subidos a la nube.</string>
+    <string name="date_and_time_formats">Formatos de fecha y tiempo</string>
+    <string name="date_formats">Formatos de fecha</string>
+    <string name="time_formats">Formatos de tiempo</string>
+    <string name="date_formats_short">Fecha corta</string>
+    <string name="date_formats_long">Fecha larga</string>
+    <string name="time_formats_short">Hora corta</string>
+    <string name="time_formats_long">Hora larga</string>
+    <string name="language">Lenguaje</string>
+    <string name="next_button">Siguiente</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="memento_cloud2">Nube de Memento</string>
+
+    <string name="from_file">Desde el archivo</string>
+    <string name="from_google_drive">Desde Google Drive</string>
+
+<string name="bulk_add">Agregar en grupo</string>
     </resources>
