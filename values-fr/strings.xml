@@ -1488,4 +1488,143 @@
     <string name="uom_megahertz">Megahertz</string>
     <string name="uom_gigahertz">Gigahertz</string>
 
+    <string name="locale_to_fields_list_empty_text">utiliser le bouton [+] pour créer une nouvelle règle de remplissage des champs de la librairie.</string>
+    <string name="locale_to_fields_var">texte provenant de %s</string>
+    <string name="variable_select">Sélection de variable</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Créer un nouvel enregistrement si vous n\'en avez pas trouvé à l\'aide du champ clé</string>
+
+    <string name="empty_triggers_list_text">Cette librairie ne contient pas de déclencheur.\nUn déclencheur est un script qui défini le procédure à suivre suite à un événement survenu.</string>
+    <string name="triggers">Déclencheurs</string>
+    <string name="trigger_moment">Phase</string>
+    <string name="unknown_trigger_moment_type">Phase inconnue</string>
+
+    <string name="trigger_switched_off">Déclenché</string>
+    <string name="debug">Débogage</string>
+    <string name="debug_summary">Options de traçage</string>
+    <string name="log_files_folder">"Répertoire  des fichiers de traçage"</string>
+
+    <string name="trigger_permissions">Permissions pour les déclencheurs</string>
+    <string name="trigger_permission_read_file">Lecture des fichiers</string>
+    <string name="trigger_permission_write_file">Ecrire les fichiers</string>
+    <string name="trigger_permission_network">Réseau</string>
+    <string name="trigger_permission_network_hint">Permet aux scripts d\'exécuter des requêtes HTTP</string>
+
+    <string name="trigger_permission_libraries">Librairies</string>
+    <string name="trigger_permission_libraries_hint">Accès à toutes les librairies</string>
+
+    <string name="trigger_permission_libraries_select">Librairies disponibles</string>
+    <string name="trigger_permission_libraries_select_title">Sélection des librairies</string>
+    <string name="filters_tab">Tabulateurs...</string>
+    <string name="export_template_include_filters">Inclu les filtres</string>
+
+    <string name="unit_of_measurement_enable">Ajouter une unité de mesure pour le champ</string>
+    <string name="unit_of_measurement_none">Aucun</string>
+
+    <string name="unit_of_measurement_category">Catégorie</string>
+    <string name="unit_of_measurement">Unité de mesure</string>
+    <string name="unit_of_measurement_button">Ajouter un convertisseur d\'unité pour le champ</string>
+
+    <string name="uom_category_temperature">Température</string>
+    <string name="uom_celsius">Celsius</string>
+    <string name="uom_fahrenheit">Fahrenheit</string>
+    <string name="uom_kelvin">Kelvin</string>
+    <string name="uom_category_time">Heure</string>
+    <string name="uom_nanosecond">Nanoseconde</string>
+    <string name="uom_microsecond">Microseconde</string>
+    <string name="uom_millisecond">Miliseconde</string>
+    <string name="uom_second">Seconde</string>
+    <string name="uom_minute">Minute</string>
+    <string name="uom_hour">Heure</string>
+    <string name="uom_day">Jour</string>
+    <string name="uom_week">Semaine</string>
+    <string name="uom_year">Année</string>
+
+    <string name="uom_category_pressure">Pression</string>
+    <string name="uom_pascal">Pascal</string>
+    <string name="uom_atmosphere">Atmosphère</string>
+    <string name="uom_bar">Bar</string>
+
+    <string name="uom_category_length">Longueur</string>
+    <string name="uom_meter">Mètre</string>
+    <string name="uom_kilometer">Kilomètre</string>
+    <string name="uom_centimeter">Centimètre</string>
+    <string name="uom_millimeter">Millimètre</string>
+    <string name="uom_micrometer">Micromètre</string>
+    <string name="uom_nanometer">Nanomètre</string>
+    <string name="uom_mile">Mile</string>
+    <string name="uom_nautical_mile">Mile nautique</string>
+    <string name="uom_foot">Pied</string>
+    <string name="uom_inch">Pouce</string>
+    <string name="uom_astronomical_unit">unité astronomique</string>
+    <string name="uom_light_year">Année lumière</string>
+    <string name="uom_category_mass">Masse</string>
+    <string name="uom_microgram">Microgramme</string>
+    <string name="uom_milligram">Milligramme</string>
+    <string name="uom_gram">Gramme</string>
+    <string name="uom_kilogram">Kilogramme</string>
+    <string name="uom_ton">Tonne</string>
+    <string name="uom_ton_uk">Tone impériale</string>
+    <string name="uom_ton_us">Tonne US</string>
+    <string name="uom_category_volume">Volume</string>
+    <string name="uom_cubic_metre">Mètre cube</string>
+    <string name="uom_liter">Litre</string>
+    <string name="uom_category_dataamount">Mémorisation digitale</string>
+    <string name="uom_bit">Bit</string>
+    <string name="uom_byte">Octet</string>
+    <string name="uom_kilobit">Kilobit</string>
+    <string name="uom_kilobyte">Kilooctet</string>
+    <string name="uom_megabit">Megabit</string>
+    <string name="uom_megabyte">Megaoctet</string>
+    <string name="uom_gigabit">Gigabit</string>
+    <string name="uom_gigabyte">Gigaoctet</string>
+    <string name="uom_terabit">Terabit</string>
+    <string name="uom_terabyte">Teraoctet</string>
+    <string name="uom_petabit">Petabit</string>
+    <string name="uom_petabyte">Petaoctet</string>
+
+    <string name="uom_category_area">Surface</string>
+    <string name="uom_square_metre">Mètre carré</string>
+    <string name="uom_are">Are</string>
+    <string name="uom_hectare">Hectare</string>
+
+    <string name="uom_category_velocity">Vitesse</string>
+    <string name="uom_meters_per_second">Mètre par seconde</string>
+    <string name="uom_miles_per_hour">Miles par heure</string>
+    <string name="uom_kilometers_per_hour">Kilomètre à l\'heure</string>
+    <string name="uom_knot">Noeud</string>
+    <string name="uom_mach">Mach</string>
+
+    <string name="uom_category_power">Puissance</string>
+    <string name="uom_watt">Watt</string>
+    <string name="uom_kilowatt">Kilowatt</string>
+    <string name="uom_megawatt">Megawatt</string>
+    <string name="wrong_field_value">Champ %s a une valeur inacceptable</string>
+
+    <string name="unit_converter">Convertisseur d\'unité</string>
+    <string name="increase">Incrémenter</string>
+    <string name="decrease">Décrémenter</string>
+    <string name="date_and_time_formats">Formats pour la date et l\'heure</string>
+    <string name="date_formats">Formats date</string>
+    <string name="time_formats">Formats heure</string>
+    <string name="date_formats_short">Date courte</string>
+    <string name="date_formats_long">Date longue</string>
+    <string name="time_formats_short">Heure courte</string>
+    <string name="time_formats_long">Heure longue</string>
+    <string name="language">Langage</string>
+    <string name="next_button">Suivant</string>
+    <string name="memento_cloud2">Nuage Memento</string>
+
+    <string name="from_file">Depuis le fichier</string>
+    <string name="trigger_moment_open_form">Ouvrir une fenêtre d\'édition d\'un enregistrement</string>
+    <string name="enable_logging_triggers">Traçage des déclencheurs</string>
+    <string name="script_log">Traçage des scripts</string>
+
+    <string name="sign_up">S\'inscrire</string>
+    <string name="trigger_event_open_entry">Ouvrir une vue de l\'enregistrement</string>
+    <string name="enable_logging_cloud">Appels sur le nuage Memento</string>
+    <string name="trigger_permission_read_file_hint">Permet aux scripts de lire depuis une mémoire externe</string>
+    <string name="trigger_permission_write_file_hint">Permet aus scripts d\'écrire dans une mémoire externe</string>
+    <string name="login">S\'identifier</string>
+    <string name="need_pro_for_triggers">Dans la version gratuite une librairie ne peut contenir qu\'un seul déclencheur. Pour éliminer cette restriction passer à la version pro.</string>
+    <string name="filters_tab_dialog_title">Sélectioner les filtres pour les tabulateurs</string>
     </resources>
