@@ -1423,4 +1423,45 @@
 
 
 <string name="shared_with_me">Доступно для мене</string>
-	</resources>
+	<string name="upload_to_cloud">Завантажити на хмару</string>
+    <string name="cloud_plan_free">Безкоштовна</string>
+    <string name="cloud_plan_plan6">Професійна</string>
+    <string name="cloud_plan_plan3">Проста</string>
+    <string name="cloud_plan_plan10">Професійна +</string>
+    <string name="cloud_plan_storage">% Сховище</string>
+
+    <string name="memento_server_cloud">Використовувати Memento хмару</string>
+    <string name="memento_server_settings_group">Memento Сервер</string>
+    <string name="memento_server_host">Адреса Memento Сервера</string>
+    <string name="memento_server_private">Використовувати приватний Memento Сервер</string>
+    <string name="memento_server_private_hint">хост:порт</string>
+    <string name="memento_server_private_not_found">Приватний сервер не знайдено за вказаною адресою</string>
+    <string name="relation_type">Тип зв\'язку</string>
+    <string name="relation_type_one_to_one">Один-до-Одного</string>
+    <string name="relation_type_one_to_many">Один-до-Багатьох</string>
+    <string name="library_edit_mode">Режим коригування</string>
+    <string name="no_comments">Без коментарів</string>
+    <string name="relation_type_one_limit2">%s уже має зв\'язок</string>
+    <string name="relation_type_many_to_many">Багато-до-Багатьох</string>
+    <string name="relation_type_one_limit">Вибраний запис уже має зв\'язок</string>
+    <string name="desktop_version">Настільна версія</string>
+
+    <string name="locale_to_fields_var">Текст з %s</string>
+    <string name="lost_database_text">Неможливо відкрити файл бази даних, перевірте чи він знаходиться за вказаним шляхом</string>
+    <string name="multi_choice_delimiter">Обмежувач</string>
+    <string name="latitude_longitude">Широта/Довгота</string>
+    <string name="latitude_longitude_hint">широта,довгота</string>
+    <string name="latitude_longitude_parse_error">Неможливо визначити широту/довготу</string>
+    <string name="library_edit_mode_hint">Відкрити форму редагування натиском на запис</string>
+    <string name="locale_plugin_add_edit_entry_title">Додати/змінити запис</string>
+    <string name="locale_to_fields_list_empty_text">Натисніть кнопку +, щоб створити нові правила для заповнення полів бібліотеки.</string>
+    <string name="locale_to_fields_add_rule_title">Добавити правило</string>
+    <string name="locale_to_fields_edit_rule_title">Коригувати правило</string>
+    <string name="variable_select">Змінний вибір</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Коригувати запис</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Створити новий запис, якщо не вдалося знайти запис по ключовому полю</string>
+
+    <string name="send_field_title">Надіслати ім\'я поля</string>
+    <string name="send_field_title_summary">Ім\'я поля буде повторювати значення поля</string>
+    <string name="auto_lock_libraries_time_title">Закрити доступ до бібліотек</string>
+    </resources>
