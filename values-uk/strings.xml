@@ -262,7 +262,7 @@
     <string name="memento_register_email_exists">Користувач з такою адресою електронної пошти вже існує</string>
     <string name="memento_server_error">Помилка сервера, спробуйте ще раз пізніше</string>
     <string name="memento_account_title">Обліковий запис Memento</string>
-    <string name="memento_create_account_button">Новий обліковий запис</string>
+    <string name="memento_create_account_button">Створити</string>
     <string name="memento_auth_error">Невірне ім\'я користувача або пароль</string>
     <string name="memento_library_lock">Бібліотека заблокована, спробуйте пізніше</string>
     <string name="preference_memento_account_title">Обліковий запис Memento</string>
