@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources><string name="app_name">Pripomienka</string>
-    <string name="library_menu_add_item">添加记录</string>
+    <string name="library_menu_add_item">Pridať záznam</string>
     <string name="main_menu_add_lib">Pridať knižnicu</string>
     <string name="ghostData_lib_title">Názov knižnice</string>
     <string name="custom_template_title">Užívateľský</string>
