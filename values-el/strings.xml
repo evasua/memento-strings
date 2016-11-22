@@ -8,7 +8,7 @@
     <string name="button_no">Οχι</string>
     <string name="button_save">Αποθήκευση</string>
     <string name="button_cancel">Άκυρο</string>
-    <string name="button_add_field">Προσθήκη πεδίου</string>
+    <string name="button_add_field">Προσθήκη ενός πεδίου</string>
     <string name="add_new_library_item">Προσθέστε μία εγγραφή ...</string>
     <string name="flex_type_title_string">Κείμενο</string>
     <string name="flex_type_title_int">Ακέραιος αριθμός</string>
@@ -587,7 +587,7 @@
     <string name="clear_filter">Εκκαθάριση φίλτρου</string>
     <string name="new_filter_dialog_title">Νέο φίλτρο</string>
     <string name="new_filter_dialog_text">Το όνομα του φίλτρου</string>
-    <string name="delete_filter_dialog_text">Θέλετε πραγματικά να διαγράψετε αυτό το φίλτρο;</string>
+    <string name="delete_filter_dialog_text">Θέλετε πραγματικά να διαγράψετε το φίλτρο \"%s\";</string>
     <string name="add_to_favorite">Προσθήκη στα Αγαπημένα</string>
     <string name="remove_from_favorite">Αφαίρεση από τα Αγαπημένα</string>
     <string name="search_result_subtitle">Αποτελέσματα αναζήτησης</string>
@@ -964,7 +964,7 @@
     <string name="share_template_dialog_title">Μοιραστείτε το πρότυπο μέσα από το ηλεκτρονικό κατάλογο</string>
     <string name="catalog_templates">Πρότυπα καταλόγου</string>
     <string name="empty_search_result2">Η αναζήτησή σας -%s - δεν ταιριάζει με καμμία καταχώρηση</string>
-    <string name="rename_group">Μετονομασία ομάδας</string>
+    <string name="rename_group">Επεξεργασία ομάδας</string>
     <string name="move">Μετακίνηση</string>
     <string name="select_group">Επιλογή ομάδας</string>
     <string name="library_moved_message">Η βιβλιοθήκη μετακινήθηκε στην ομάδα \"%s\"</string>
@@ -1127,7 +1127,7 @@
     <string name="cant_download_item_files_for_copy">Η λήψη αρχείων για τη δημιουργία αντιγράφων απέτυχε.</string> 
     <string name="library_cloud_model_changed_message">Η δομή της βιβλιοθήκης ενημερώθηκε στο σύννεφο. Ενημερώστε τη δομή για περαιτέρω συγχρονισμό.</string>
     <string name="button_update">Ενημέρωση</string>
-    <string name="add_people">Προσθήκη ανθρώπων</string>
+    <string name="add_people">Προσθήκη χρήστη ή ομάδας</string>
     <string name="read_permission">Ανάγνωση</string>      
     <string name="write_permission">Εγγραφή</string>
     <string name="create_permission">Δημιουργία</string>
@@ -1492,7 +1492,7 @@
     <string name="filters_tab_dialog_title">Επιλέξτε φίλτρα για τις καρτέλες</string>
     <string name="export_template_include_filters">Περιλαμβάνει φίλτρα</string>
 
-    <string name="unit_of_measurement_enable">Προσθέστε μια μονάδα μέτρησης για το πεδίο</string>
+    <string name="unit_of_measurement_enable">Προσθέστε μια μονάδα μέτρησης στο πεδίο</string>
     <string name="unit_of_measurement_none">Κανένα</string>
 
     <string name="unit_of_measurement_category">Κατηγορία</string>
@@ -1621,7 +1621,52 @@
     <string name="sign_up">Εγγραφή</string>
     <string name="memento_cloud2">Σύννεφο Memento</string>
 
-    <string name="from_file">Από αρχείο</string>
+    <string name="from_file">Από Αρχείο</string>
     <string name="from_google_drive">Από Google Drive</string>
 
-</resources>
+<string name="field_values_delimiter">Οριοθέτης πεδίου</string>
+    <string name="entries_desc_dialog_title">Η περιγραφή εισόδου καθορίζεται από τις τιμές των επιλεγμένων πεδίων</string>
+    <string name="image_caption">Λεζάντα</string>
+    <string name="flex_type_subheader">Υποεπικεφαλίδα</string>
+    <string name="create_subheader">Δημιουργία υποεπικεφαλίδας</string>
+    <string name="edit_subheader">Επεξεργασία υποεπικεφαλίδας</string>
+    <string name="subheader_collapsed_by_default">Συμπτυγμένο από προεπιλογή</string>
+    <string name="aggr_always_show">Εμφάνιση πάντα</string>
+    <string name="cant_add_management">Ο διαχειριστής έχει πλήρη πρόσβαση σε αυτήν τη βιβλιοθήκη</string>
+    <string name="auth_error_user_blocked">Ο λογαριασμός σας έχει απενεργοποιηθεί</string>
+    <string name="team_license">Ομάδα</string>
+    <string name="user_manager_only_for_team">Η διαχείριση χρηστών και αδειών είναι διαθέσιμη μόνο για τα δασμολόγια Ομάδας</string>
+    <string name="send_password_to_user">Αποστολή κωδικών στον χρήστη με email</string>
+    <string name="create_permissions">Δημιουργία δικαιωμάτων</string>
+    <string name="edit_permissions">Επεξεργασία δικαιωμάτων</string>
+    <string name="library_permissions">Δικαιώματα βιβλιοθήκης</string>
+    <string name="field_permissions">Δικαιώματα πεδίου</string>
+    <string name="library_permissions_subject">Όνομα χρήστη/email/ομάδα</string>
+    <string name="permissions_delete_message">Είστε σίγουροι ότι θέλετε να διαγράψετε τα δικαιώματα για \"%s\" ΄;</string>
+    <string name="field_right_need_library_download">Πρέπει να κατεβάσετε μια βιβλιοθήκη στη συσκευή σας για να προσθέσετε νέα δικαιώματα πρόσβασης για τα πεδία.</string>
+    <string name="field_permission_invisible">Αόρατο</string>
+    <string name="field_permission_read_only">Μόνο για ανάγνωση</string>
+    <string name="field_permissions_limit">Δικαιώματα πρόσβασης για τα πεδία μπορεύν να οριστούν μόνο για τα δασμολόγια Ομάδας.</string>
+    <string name="user_groups">Ομάδες χρηστών</string>
+    <string name="add_user_group">Προσθήκη ομάδας χρηστών</string>
+    <string name="add_user_group_hint">Όνομα ομάδας</string>
+    <string name="user_group_name_empty">Το όνομα ομάδας δεν πρέπει να είναι κενό</string>
+    <string name="users_count_none">Χωρίς χρήστες</string>
+    <plurals name="users_count">
+	<item quantity="one">Ένας χρήστης</item>
+	<item quantity="other">%d χρήστες</item>
+</plurals>
+    <string name="user_group_delete_message">Θέλετε πραγματικά να διαγράψετε την ομάδα \"%s\" ;</string>
+    <string name="group_not_found">Η ομάδα δεν βρέθηκε</string>
+    <string name="individual">Ατομικό</string>
+    <string name="team">Ομάδα</string>
+    <string name="cloud_plan_team5">Ομάδα 5</string>
+    <string name="cloud_plan_team10">Ομάδα 10</string>
+    <string name="cloud_plan_team15">Ομάδα 15</string>
+    <string name="cloud_plan_team20">Ομάδα 20</string>
+    <string name="pro_for_team">Pro χαρακτηριστικά για όλους τους χρήστες εντός της ομάδας</string>
+    <string name="team_features_trial">Όλα τα Πλάνα περιλαμβάνουν μια δωρεάν δοκιμή 14 ημερών.</string>
+
+<string name="locale_key_field_description">Το βασικό πεδίο για την επεξεργασία καταχωρίσεων</string>
+
+    </resources>
