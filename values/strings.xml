@@ -11,7 +11,7 @@
     <string name="button_no">No</string>
     <string name="button_save">Save</string>
     <string name="button_cancel">Cancel</string>
-    <string name="button_add_field">Add a field</string>
+    <string name="button_add_field">Add field</string>
     <string name="add_new_library_item">Add an entry ...</string>
     <string name="flex_type_title_string">Text</string>
     <string name="flex_type_title_int">Integer</string>
@@ -617,7 +617,7 @@
     <string name="clear_filter">Clear filter</string>
     <string name="new_filter_dialog_title">New filter</string>
     <string name="new_filter_dialog_text">The name of the filter</string>
-    <string name="delete_filter_dialog_text">Do you really want to delete this filter?</string>
+    <string name="delete_filter_dialog_text">Do you really want to delete the filter \"%s\"?</string>
     <string name="add_to_favorite">Add to Favorites</string>
     <string name="remove_from_favorite">Remove from Favorites</string>
     <string name="search_result_subtitle">Search results</string>
@@ -1012,7 +1012,7 @@
     <string name="share_template_dialog_title">Share template through the online catalog</string>
     <string name="catalog_templates">Catalog templates</string>
     <string name="empty_search_result2">Your search - %s - did not match any entries</string>
-    <string name="rename_group">Rename group</string>
+    <string name="rename_group">Edit group</string>
     <string name="move">Move</string>
     <string name="select_group">Select group</string>
     <string name="library_moved_message">Library moved into the group \"%s\"</string>
@@ -1181,7 +1181,7 @@
     <string name="cant_download_item_files_for_copy">Downloading of files to create copies failed.</string> 
     <string name="library_cloud_model_changed_message">The library structure was updated in the cloud. Update the structure for further synchronization.</string>
     <string name="button_update">Update</string>
-    <string name="add_people">Add people</string>
+    <string name="add_people">Add user or group</string>
     <string name="read_permission">Read</string>      
     <string name="write_permission">Write</string>
     <string name="create_permission">Create</string>
@@ -1563,11 +1563,11 @@
     <string name="filters_tab_dialog_title">Select filters for tabs</string>
     <string name="export_template_include_filters">Include filters</string>
 
-    <string name="unit_of_measurement_enable">Add a unit of measurement to field</string>
+    <string name="unit_of_measurement_enable">Add a unit of measure to field</string>
     <string name="unit_of_measurement_none">None</string>
 
     <string name="unit_of_measurement_category">Category</string>
-    <string name="unit_of_measurement">Unit of measurement</string>
+    <string name="unit_of_measurement">Unit of measure</string>
     <string name="unit_of_measurement_button">Add a convertor of units to the field</string>
 
     <string name="uom_category_temperature">Temperature</string>
@@ -1692,7 +1692,54 @@
     <string name="sign_up">Sign up</string>
     <string name="memento_cloud2">Memento Cloud</string>
 
-    <string name="from_file">From file</string>
+    <string name="from_file">From File</string>
     <string name="from_google_drive">From Google Drive</string>
+    <string name="locale_key_field_description">The key field for editing entries</string>
+
+    <!-- 4.1.0 -->
+    <string name="field_values_delimiter">Field delimiter</string>
+    <string name="entries_desc_dialog_title">Entry description are determined by the values of chosen fields</string>
+    <string name="image_caption">Caption</string>
+    <string name="flex_type_subheader">Subheader</string>
+    <string name="create_subheader">Create subheader</string>
+    <string name="edit_subheader">Edit subheader</string>
+    <string name="subheader_collapsed_by_default">Collapsed by default</string>
+    <string name="aggr_always_show">Always show</string>
+    <string name="cant_add_management">The admin has full access to this library</string>
+    <string name="auth_error_user_blocked">Your account has been disabled</string>
+    <string name="team_license">Team</string>
+    <string name="user_manager_only_for_team">Management of users and licenses is available only on Team tariffs</string>
+    <string name="send_password_to_user">Send password to user by email</string>
+    <string name="create_permissions">Create permissions</string>
+    <string name="edit_permissions">Edit permissions</string>
+    <string name="library_permissions">Library permissions</string>
+    <string name="field_permissions">Field permissions</string>
+    <string name="library_permissions_subject">Username/email/group</string>
+    <string name="permissions_delete_message">Do you really want to delete the permissions for \"%s\" ?</string>
+    <string name="field_right_need_library_download">You must download a library on your device to add new access rights for fields.</string>
+    <string name="field_permission_invisible">Invisible</string>
+    <string name="field_permission_read_only">Read only</string>
+    <string name="field_permissions_limit">Access rights for fields can be set only on Team tariffs.</string>
+    <string name="user_groups">User groups</string>
+    <string name="add_user_group">Add user group</string>
+    <string name="add_user_group_hint">Group name</string>
+    <string name="user_group_name_empty">The group name shouldn\'t be empty</string>
+    <string name="users_count_none">No users</string>
+    <plurals name="users_count">
+        <item quantity="one">One user</item>
+        <item quantity="few">%d users</item>
+        <item quantity="many">%d users</item>
+        <item quantity="other">%d users</item>
+    </plurals>
+    <string name="user_group_delete_message">Do you really want to delete the group \"%s\" ?</string>
+    <string name="group_not_found">Group not found</string>
+    <string name="individual">Individual</string>
+    <string name="team">Team</string>
+    <string name="cloud_plan_team5">Team 5</string>
+    <string name="cloud_plan_team10">Team 10</string>
+    <string name="cloud_plan_team15">Team 15</string>
+    <string name="cloud_plan_team20">Team 20</string>
+    <string name="pro_for_team">Pro features for all the users within the team</string>
+    <string name="team_features_trial">All Plans Include a Free 14‑Day Trial.</string>
 
 </resources>
