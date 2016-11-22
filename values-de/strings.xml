@@ -4,7 +4,7 @@
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Eintrag hinzufügen</string>
     <string name="main_menu_add_lib">Sammlung hinzufügen</string>
-    <string name="ghostData_lib_title">Verzeichnisname</string>
+    <string name="ghostData_lib_title">Sammlung Name</string>
     <string name="custom_template_title">Benutzerdefiniert</string>
     <string name="button_create">Erstellen</string>
     <string name="button_yes">Ja</string>
@@ -37,21 +37,21 @@
     <string name="template_title">Feldname</string>
     <string name="select_flex_template_title">Feldtyp</string>
     <string name="select_flex_template_role">Feldfunktion</string>
-    <string name="select_create_lib_template">Wähle eine Verzeichnisvorlage</string>
+    <string name="select_create_lib_template">Wähle eine Sammlungvorlage</string>
     <string name="button_next">Nächste</string>
     <string name="select_flex_template_type">Feldtyp</string>
     <string name="default_value">Vorgabewert</string>
     <string name="flex_template_options_title">Fortgeschrittene Parameter</string>
     <string name="error_template_empty_title">Gebe den Feldnamen ein</string>
-    <string name="error_library_withous_name_flex">Ein Verzeichnis muss wenigstens ein Feld mit der Funktion – \"name\" haben.</string>
-    <string name="select_library_icon_activity">Wähle ein Icon für das Verzeichnis</string>
+    <string name="error_library_withous_name_flex">Ein Sammlung muss wenigstens ein Feld mit der Funktion – \"name\" haben.</string>
+    <string name="select_library_icon_activity">Wähle ein Icon für das Sammlung</string>
     <string name="select_flex_template_role_title">Feldfunktion</string>
-    <string name="library_edit2">Bearbeite das Verzeichnis</string>
+    <string name="library_edit2">Bearbeite das Sammlung</string>
     <string name="library_edit">Bearbeiten</string>
     <string name="library_delete">Löschen</string>
-    <string name="library_delete_message_title">Lösche das Verzeichnis</string>
-    <string name="library_delete_message_text">Soll das Verzeichnis \"%s\" wirklich gelöscht werden?</string>
-    <string name="error_library_empty_title">Gebe den Verzeichnisnamen ein</string>
+    <string name="library_delete_message_title">Lösche das Sammlung</string>
+    <string name="library_delete_message_text">Soll das Sammlung \"%s\" wirklich gelöscht werden?</string>
+    <string name="error_library_empty_title">Gebe den Sammlungnamen ein</string>
     <string name="library_item_edit">Bearbeiten</string>
     <string name="library_item_delete">Löschen</string>
     <string name="library_item_delete_message_text">Soll der Eintrag \"%s\" wirklich gelöscht werden?</string>
@@ -120,22 +120,22 @@
     <string name="preference_category_backup">Sichern</string>
     <string name="main_preferences_title">Einstellungen</string>
     <string name="backup_preference">Sichern</string>
-    <string name="backup_summary_preference">Alle Verzeichnisse auf Flashkarte sichern</string>
+    <string name="backup_summary_preference">Alle Sammlungen auf Flashkarte sichern</string>
     <string name="backup_fail">Fehler bei Sicherung</string>
     <string name="cdcard_not_found">Entschuldigung, aber die SD-Karte ist beschäftigt</string>
-    <string name="backup_process">Sichere Verzeichnisse.</string>
+    <string name="backup_process">Sichere Sammlungen.</string>
     <string name="restore_preference">Wiederherstellung</string>
-    <string name="restore_summary_preference">Stelle Verzeichnisse aus einer Sicherung wieder her</string>
+    <string name="restore_summary_preference">Stelle Sammlungen aus einer Sicherung wieder her</string>
     <string name="backup_file_not_found">Keine Sicherung gefunden.</string>
-    <string name="restore_dialog_message">Die bestehender Verzeichnisse werden mit den Daten aus der Sichrung überschrieben.\nAlle Veränderungen an den Verzeichnissen nach der letzten Sicherung werden verloren gehen.\nWiederherstellung starten?</string>
+    <string name="restore_dialog_message">Die bestehender Sammlungen werden mit den Daten aus der Sichrung überschrieben.\nAlle Veränderungen an den Sammlungen nach der letzten Sicherung werden verloren gehen.\nWiederherstellung starten?</string>
     <string name="backup_dialog_message">Überschreibe die letzte Sicherung mit den aktuellen Daten?</string>
-    <string name="restore_success">Die Verzeichnisse wurden erfolgreich wiederhergestellt</string>
+    <string name="restore_success">Die Sammlungen wurden erfolgreich wiederhergestellt</string>
     <string name="restore_step1">Wiederherstellen</string>
     <string name="restore_step2">Cache säubern</string>
     <string name="clear_index">Entferne Indizes</string>
     <string name="reindex">Reindiziere:</string>
     <string name="load_templates_title">Vorlagen laden</string>
-    <string name="load_templates_message">Bite warten bis die Verzeichnisvorlagen geladen sind.</string>
+    <string name="load_templates_message">Bite warten bis die Sammlung vorlagen geladen sind.</string>
     <string name="help_title">Memento Hilfe</string>
     <string name="activate_button_title">Aktiviere die PRO Version</string>
     <string name="activate_button_hint">Dazu brauchen Sie den Aktivierungsschlüssel</string>
@@ -192,7 +192,7 @@
     <string name="add_fill_field_dialog_title">Regel zum Ausfülen erstellen</string>
     <string name="memento_field">Wird im Feld gespeichert werden</string>
     <string name="memento_field_promt">Felder der Sammlung</string>
-    <string name="uniquery_check_fail">Ein Verzeichnis kann nur ein Feld vom Typ "%s" enthalten</string>
+    <string name="uniquery_check_fail">Ein Sammlung kann nur ein Feld vom Typ "%s" enthalten</string>
     <string name="to">nach</string>
     <string name="barcode_search">Barcodesuche</string>
     <!-- 1.2.1 -->
@@ -200,32 +200,32 @@
     <!-- 1.2.3 -->
     <string name="deleted_library_hint">Einträge: %s</string>
     <string name="preference_restore_libs_title">Stelle Sammlungen wieder her</string>
-    <string name="preference_restore_libs_hint">Wiederherstellung gelöschter Verzeichnisse</string>
+    <string name="preference_restore_libs_hint">Wiederherstellung gelöschter Sammlungen</string>
     <string name="preference_category_general">Allgemein</string>
     <string name="library_import_and_export">Einstellungen %s</string>
     <string name="recovering">Wiederherstellung</string>
-    <string name="recovering_message">Stelle Verzeichnis wieder her</string>
+    <string name="recovering_message">Stelle Sammlung wieder her</string>
     <string name="library_recover">Wiederherstellen</string>
     <string name="deleting_library_title">Löschen</string>
-    <string name="deleting_library_message">Lösche das Verzeichnis</string>
+    <string name="deleting_library_message">Lösche das Sammlung</string>
     <!-- 1.2.5 -->
     <string name="view_category">Aussehen</string>
     <string name="title_lib_theme_preference">Design</string>
-    <string name="summary_lib_theme_preference">Wähle ein Design für die Verzeichnisse</string>
-    <string name="dialog_title_lib_theme_preference">Auswählen eines Designs für die Verzeichnisse</string>
+    <string name="summary_lib_theme_preference">Wähle ein Design für die Sammlungen</string>
+    <string name="dialog_title_lib_theme_preference">Auswählen eines Designs für die Sammlungen</string>
     <!-- 1.3.0 -->
     <string name="unbind_from_gdocs">Verknüpfung nach Google Sheets aufheben</string>
     <string name="bind_to_gdocs">Verknüpfung mit Google Sheets erstellen</string>
     <string name="bind_to_gdocs_title">Mit Google Sheets verknüpfen</string>
     <string name="unbind_message_title">Verknüpfung nach Google Sheets aufheben</string>
-    <string name="unbind_message_text">Soll die Verknüpfung des Verzeichnisses \"%s\" nach Google Sheets wirklich aufgehoben werden?</string>
-    <string name="bind_to_gdocs_message">Verknüpfe das Verzeichnis mit Google Sheets.</string>
+    <string name="unbind_message_text">Soll die Verknüpfung des Sammlung \"%s\" nach Google Sheets wirklich aufgehoben werden?</string>
+    <string name="bind_to_gdocs_message">Verknüpfe das Sammlung mit Google Sheets.</string>
     <!-- für & wirklich amp notwendig? -->
-    <string name="bind_to_gdocs_success">Das Verzeichnis wurde mit Google Sheets verknüpft.</string>
-    <string name="sync_with_gdocs_success">Das Verzeichnis wurde mit Google Text Tabellen synchronisiert</string>
-    <string name="sync_with_gdocs_success_2">Das Verzeichnis \"%s\" wurde mit Google Text Tabellen synchronisiert</string>
+    <string name="bind_to_gdocs_success">Das Sammlung wurde mit Google Sheets verknüpft.</string>
+    <string name="sync_with_gdocs_success">Das Sammlung wurde mit Google Text Tabellen synchronisiert</string>
+    <string name="sync_with_gdocs_success_2">Das Sammlung \"%s\" wurde mit Google Text Tabellen synchronisiert</string>
     <string name="sync_with_gdocs_title">Synchronisation mit Google Sheets</string>
-    <string name="sync_with_gdocs_message">Synchronisation des Verzeichnisses mit Google Text Tabellen.</string>
+    <string name="sync_with_gdocs_message">Synchronisation des Sammlung mit Google Text Tabellen.</string>
     <string name="sync_with_gdocs">Synchronisiere mit Google Sheets</string>
     <string name="google_docs_task_step_auth">Authentifizierung an den Text Tabellen-Service</string>
     <string name="google_docs_task_step_get_rows">Empfange einen Listen-basierten Datenfluss</string>
@@ -244,8 +244,8 @@
     <string name="conflict_dialog_text">Ein Eintrag wurde sowohl in Memento als auch bei Google Text &amp; Tabellen verändert. Welche Version ist die aktuelle?</string>
     <string name="copy_memento_to_gdocs">Eintrag in Memento</string>
     <string name="copy_gdocs_to_memento">Eintrag von Google Text &amp; Tabellen</string>
-    <string name="edit_flex_title_disabled">Dieses Feld kann nicht umbenannt werden weil das Verzeichnis mit Google Text &amp; Tabellen verknüpft ist</string>
-    <string name="cant_bind">In der kostenlosen Version können nur 3 Verzeichnisse mit Google Text &amp; Tabellen verknüpft werden.\nUm diese Beschränkung aufzuheben sollte auf die PRO Version umgestiegen werden.</string>
+    <string name="edit_flex_title_disabled">Dieses Feld kann nicht umbenannt werden weil das Sammlung mit Google Text &amp; Tabellen verknüpft ist</string>
+    <string name="cant_bind">In der kostenlosen Version können nur 2 Sammlung mit Google Text &amp; Tabellen verknüpft werden.\nUm diese Beschränkung aufzuheben sollte auf die PRO Version umgestiegen werden.</string>
     <string name="button_pro_version">PRO Version</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">Automatische Vervollständigung</string>
@@ -254,15 +254,15 @@
     <string name="please_wait">Bitte warten...</string>
     <!-- 1.4.0 -->
     <string name="public_library_title">Veröffentliche Sammlung</string>
-    <string name="public_to_picasa_message">Upload von Verzeichnisbildern nach Picasa</string>
-    <string name="public_to_picasa_create_album">Estelle ein Picasa Album für das veröffentlichte Verzeichnis</string>
+    <string name="public_to_picasa_message">Upload von Sammlungbildern nach Picasa</string>
+    <string name="public_to_picasa_create_album">Estelle ein Picasa Album für das veröffentlichte Sammlung</string>
     <string name="public_to_picasa_success">Upload der Bilder fertig</string>
     <string name="picasa_task_step_auth">Anmelden beim Picasa Service</string>
-    <string formatted="false" name="picasa_send_image_step">Upload von Verzeichnisbildern nach Picasa. %s von %s</string>
-    <string name="public_library">Veröffentliche das Verzeichnis</string>
-    <string name="update_public_library">Aktualisiere die veröffentlichten Verzeichnisse</string>
+    <string formatted="false" name="picasa_send_image_step">Upload von Sammlungbildern nach Picasa. %s von %s</string>
+    <string name="public_library">Veröffentliche das Sammlung</string>
+    <string name="update_public_library">Aktualisiere die veröffentlichten Sammlungen</string>
     <string name="memento_register_account_title">Erstelle ein Passwort\nauf dem Memento Server</string>
-    <string name="memento_register_account_text">Ein Passwort bei Memento ist notwendig um Verzeichnisse zu veröffentlichen und sie zu abonnieren</string>
+    <string name="memento_register_account_text">Ein Passwort bei Memento ist notwendig um Sammlungen zu veröffentlichen und sie zu abonnieren</string>
     <string name="memento_login_hint">Benutzerkennung</string>
     <string name="memento_pass_hint">Passwort</string>
     <string name="memento_pass_hint2">Wiederhole Passwort</string>
@@ -281,85 +281,85 @@
     <string name="memento_account_title">Memento Konto</string>
     <string name="memento_create_account_button">Neues Konto</string>
     <string name="memento_auth_error">Falsche Benutzerkennung oder Passwort</string>
-    <string name="memento_library_lock">Das Verzeichnis ist blockiert, später nochmal probieren</string>
+    <string name="memento_library_lock">Das Sammlung ist blockiert, später nochmal probieren</string>
     <string name="preference_memento_account_title">Memento Konto</string>
     <string name="preference_memento_account_hint">Ihr Memento Konto Benutzerkennung und Passwort</string>
     <string name="public_library_task_auth">Anmelden beim Memento Service</string>
-    <string name="public_library_task_send_template">Übertrage die Verzeichnisvorlagen</string>
-    <string formatted="false" name="public_library_task_send_items">Übertrage die Verzeichniseinträge.\n%s von %s</string>
+    <string name="public_library_task_send_template">Übertrage die Sammlungvorlagen</string>
+    <string formatted="false" name="public_library_task_send_items">Übertrage die Sammlungeinträge.\n%s von %s</string>
     <string name="memento_not_support_template">Ihre Version von Memento ist nicht mehr aktuell, bitte aktualisieren</string>
     <string name="memento_not_found">Resource nicht gefunden</string>
-    <string name="alias_hint">Den Alias für das Verzeichnis eingeben</string>
+    <string name="alias_hint">Den Alias für das Sammlung eingeben</string>
     <string name="button_publish">Veröffentlichen</string>
-    <string name="publish_update_success">Das Verzeichnis wurde aktualisiert</string>
+    <string name="publish_update_success">Das Sammlung wurde aktualisiert</string>
     <string name="private_library_checkbox">Privater Zugriff</string>
-    <string name="private_library_checkbox_hint">Nur die angegebenen Benutzer werden Zugriff auf das Verzeichnis haben</string>
-    <string name="enter_alias">Gib ein Alias des Verzeichnisses ein</string>
-    <string name="incorrect_alias">Das Verzeichnis Alias kann nur Buchstaben und Ziffern enthalten</string>
+    <string name="private_library_checkbox_hint">Nur die angegebenen Benutzer werden Zugriff auf das Sammlung haben</string>
+    <string name="enter_alias">Gib ein Alias des Sammlungen ein</string>
+    <string name="incorrect_alias">Das Sammlung Alias kann nur Buchstaben und Ziffern enthalten</string>
     <string name="public_library_address_text">Sammlung Addresse</string>
-    <string name="alias_exists">Ein Verzeichnis mit dem gleichen Alias wurde bereits veröffentlicht</string>
-    <string name="memento_forbidden_error">Zugriff auf das Verzeichnis ist nicht erlaubt</string>
-    <string name="publish_library_address">Das Verzeichnis %s ist nun verfügbar unter</string>
-    <string name="publish_library_address_hint"> Ihre Bekannten können nun Memento benutzen um sich das Verzeichnis anzusehen. Zum Abonnieren sollte sie die oben genannte Adresse benutzen.</string>
+    <string name="alias_exists">Ein Sammlung mit dem gleichen Alias wurde bereits veröffentlicht</string>
+    <string name="memento_forbidden_error">Zugriff auf das Sammlung ist nicht erlaubt</string>
+    <string name="publish_library_address">Das Sammlung %s ist nun verfügbar unter</string>
+    <string name="publish_library_address_hint"> Ihre Bekannten können nun Memento benutzen um sich das Sammlung anzusehen. Zum Abonnieren sollte sie die oben genannte Adresse benutzen.</string>
     <string name="deafult_group_title">Meine Sammlungen</string>
     <string name="subscribe_activity_title">Sammlung abonnieren</string>
     <string name="library_uri_hint">Sammlung Adresse</string>
     <string name="find_libraries_task_title">Sammlung search</string>
-    <string name="find_libraries_task_by_uri">Abonniere das Verzeichnis\nnach der Adresse</string>
-    <string name="find_libraries_task_by_user">Empfange Verzeichnisliste\ndes Benutzers</string>
+    <string name="find_libraries_task_by_uri">Abonniere das Sammlung\nnach der Adresse</string>
+    <string name="find_libraries_task_by_user">Empfange Sammlungliste\ndes Benutzers</string>
     <string name="libraries_list_result_header">Sammlungen gefunden</string>
-    <string name="libraries_by_user_not_found">Der angegebene Benutzer wurde nicht gefunden oder er hat keine Verzeichnisse veröffentlicht</string>
-    <string name="library_not_found">Unter dieser Adresse wurde kein Verzeichnis gefunden</string>
-    <string name="wrong_library_address_format">Verzeichnisadresse Format ungültig</string>
+    <string name="libraries_by_user_not_found">Der angegebene Benutzer wurde nicht gefunden oder er hat keine Sammlungen veröffentlicht</string>
+    <string name="library_not_found">Unter dieser Adresse wurde kein Sammlung gefunden</string>
+    <string name="wrong_library_address_format">Sammlungadresse Format ungültig</string>
     <string name="last_update">Letzte Aktualisierung: %s</string>
     <string name="subscribe_button">Abonnieren</string>
-    <string name="subscribe_task_get_library">Empfange Verzeichniseinträge</string>
+    <string name="subscribe_task_get_library">Empfange Sammlungeinträge</string>
     <string name="subscribe_task_create_library">Erstelle Sammlung</string>
     <string formatted="false" name="subscribe_task_save_library_task">Speichere Einträge.\n%s von %s</string>
     <string name="subscribe_task_create_index">Erstelle Index</string>
     <string name="subscribes_group_title">Abonnements</string>
     <string name="library_settings">Einstellungen</string>
     <string name="subscribe_get_updated_pack">Prüfe auf Aktualisierungen</string>
-    <string name="subscribe_have_updated_pack">Empfange Verzeichnisaktualisierung</string>
+    <string name="subscribe_have_updated_pack">Empfange Sammlungaktualisierung</string>
     <string name="subscribe_last_update">Letzte Aktualisierung %s</string>
     <string name="subscribe_last_update_dialog_title">Aktualisiere Sammlung</string>
-    <string name="subscribe_last_update_dialog_message">Aktualisiere das Verzeichnis</string>
-    <string name="clear_preference">Leere das Verzeichnis</string>
-    <string name="clear_preference_hint">Lösche alle Einträge in dem Verzeichnis</string>
-    <string name="clear_preference_quest">Löschen aller Einträge des Verzeichnisses?</string>
+    <string name="subscribe_last_update_dialog_message">Aktualisiere das Sammlung</string>
+    <string name="clear_preference">Leere das Sammlung</string>
+    <string name="clear_preference_hint">Lösche alle Einträge in dem Sammlung</string>
+    <string name="clear_preference_quest">Löschen aller Einträge des Sammlung?</string>
     <string name="last_sync">Letzte Aktualisierung: %s</string>
     <string name="last_public">Veröffentlicht: %s</string>
-    <string name="unpublic_library_title">Ziehe Veröffentlichung des Verzeichnisses zurück</string>
+    <string name="unpublic_library_title">Ziehe Veröffentlichung des Sammlung zurück</string>
     <string name="unpublic_library">Zurückziehen</string>
-    <string name="unpublish_success">Das Verzeichnis wurde zurückgezogen</string>
-    <string name="unpublic_message_text">Möchten Sie das Verzeichnis \"%s\" wirklich zurückziehen?</string>
+    <string name="unpublish_success">Das Sammlung wurde zurückgezogen</string>
+    <string name="unpublic_message_text">Möchten Sie das Sammlung \"%s\" wirklich zurückziehen?</string>
     <string name="unbind_from_gdocs_hint">Link zu Google Text &amp; Tabellen aufheben</string>
     <string name="preference_category_google_docs">Google Text &amp; Tabellen</string>
-    <string name="unbind_from_google_docs_success">Das Verzeichnis ist nicht mehr mit Google Text &amp; Tabellen verbunden</string>
+    <string name="unbind_from_google_docs_success">Das Sammlung ist nicht mehr mit Google Text &amp; Tabellen verbunden</string>
     <string name="preference_category_memento_server">Memento Server</string>
-    <string name="unpublic_library_hint">Zurückziehen des Verzeichnisses</string>
-    <string name="need_unpublic_library">Bevor das Verzeichnis gelöscht wird, sollte die Veröffentlichung zurückgezogen werden</string>
+    <string name="unpublic_library_hint">Zurückziehen des Sammlung</string>
+    <string name="need_unpublic_library">Bevor das Sammlung gelöscht wird, sollte die Veröffentlichung zurückgezogen werden</string>
     <string name="rename_library">Umbenennen</string>
     <string name="rename_dialog_title">Umbenennen</string>
-    <string name="rename_dialog_text">Verzeichnisname</string>
+    <string name="rename_dialog_text">Sammlung Name</string>
     <string name="flex_image_load">Bild wird geladen...</string>
     <string name="subscribed">Abonniert</string>
-    <string name="info_public_library">Verzeichnisadresse</string>
-    <string name="cant_public">In der freien Version können nur 3 Verzeichnisse veröffentlicht werden.\nUpgrade zur PRO Version um dieses Limit aufzuheben.</string>
+    <string name="info_public_library">Sammlung adresse</string>
+    <string name="cant_public">In der freien Version können nur 3 Sammlungen veröffentlicht werden.\nUpgrade zur PRO Version um dieses Limit aufzuheben.</string>
     <string name="add_permission_user_hint">Gebe Benutzerkennung oder EMail ein</string>
     <string name="edit_pub_permissions">Sammlung Zugriffsrechte</string>
-    <string name="edit_pub_permissions_hint">Bearbeite die Liste der Nutzer die Zugriffsrechte auf das Verzeichnis haben</string>
-    <string name="edit_pub_permissions_task_dialog_message">Ändere die Zugriffsrechte auf das Verzeichnis</string>
+    <string name="edit_pub_permissions_hint">Bearbeite die Liste der Nutzer die Zugriffsrechte auf das Sammlung haben</string>
+    <string name="edit_pub_permissions_task_dialog_message">Ändere die Zugriffsrechte auf das Sammlung</string>
     <!-- 1.4.5 -->
     <string name="import_template">Importiere Vorlage</string>
     <string name="export_template">Exportiere Vorlage</string>
-    <string name="export_template_error">Fehler beim Export der Verzeichnisvorlagen: %s</string>
+    <string name="export_template_error">Fehler beim Export der Sammlungvorlagen: %s</string>
     <string name="import_template_success">Die Vorlage wurde importiert</string>
     <string name="wrong_template_version">Ihre Version von Memento unterstützt die gewälte Vorlage nicht. Aktualisiere Memento.</string>
     <string name="flex_type_library_entry">Verknüpfung zum Eintrag</string>
     <string name="flex_type_entry_option_title">Sammlung</string>
-    <string name="flex_type_entry_option_dlg_title">Wähle Verzeichnis aus</string>
-    <string name="flex_type_entry_select_library">Wähle ein Verzeichnisaus dessen Einträge in diesem Feld benutzt werden.</string>
+    <string name="flex_type_entry_option_dlg_title">Wähle Sammlung aus</string>
+    <string name="flex_type_entry_select_library">Wähle ein Sammlungaus dessen Einträge in diesem Feld benutzt werden.</string>
     <string name="error_template_wrong_title">Der Feldname darf nur Buchstaben und Ziffern enthalten</string>
     <!-- 1.4.8 -->
     <string name="filter_not_set">Kein Filter</string>
@@ -383,36 +383,36 @@
     <string name="flex_type_time">Zeit</string>
     <!--  help content -->
     <string name="help_intro">Was ist Memento</string>
-    <string name="help_create_library">Erstelle Verzeichnisse</string>
-    <string name="help_edit_field">Bearbeite Verzeichnisfelder</string>
-    <string name="help_library_items">Mit Verzeichniseinträgen arbeiten</string>
+    <string name="help_create_library">Erstelle Sammlungen</string>
+    <string name="help_edit_field">Bearbeite Sammlungfelder</string>
+    <string name="help_library_items">Mit Sammlungeinträgen arbeiten</string>
     <string name="help_import_export">Importieren and Exportieren von CSV Dateien</string>
     <string name="help_barcode">Barcodescanner</string>
     <string name="help_gdocs_sync">Synchronisiere mit Google Text &amp; Tabellen</string>
-    <string name="help_publish">Verzeichnisse veröffentlichen</string>
-    <string name="help_subscribe">Verzeichnisse abonnieren</string>
+    <string name="help_publish">Sammlungen veröffentlichen</string>
+    <string name="help_subscribe">Sammlungen abonnieren</string>
 <string name="sync_with_gdocs_message_2">Synchronisiere \"%s\" mit Google Sheets.</string>
-    <string name="lib_protection">Schutz des Verzeichnisses</string>
+    <string name="lib_protection">Schutz des Sammlung</string>
     <string name="set_library_protection">Schutz</string>
     <string name="set_master_pass_text">Erstelle ein Master-Passwort für den Zugriff auf die Datenbanken.\nDieses Master-Passwort muss eingegeben werden, um Zugriff zu den verschlüsselten Datenbanken zu erhalten.</string>
     <string name="master_pass_hint">Passwort</string>
     <string name="master_pass_hint2">Passwort erneut eingeben</string>
     <string name="set_master_pass_dialog">Master-Passwort erstellen</string>
-    <string name="check_master_pass_text">Bitte das Master-Passwort für den Zugriff auf die Verzeichnisse eingeben</string>
+    <string name="check_master_pass_text">Bitte das Master-Passwort für den Zugriff auf die Sammlungen eingeben</string>
     <string name="master_password_hint">Master-Passwort</string>
     <string name="button_continue">Fortsetzen</string>
     <string name="wrong_master_password">Ungültiges Passwort</string>
-    <string name="library_is_locked">Der Zugriff auf die verschlüsselten Verzeichnisse ist gesperrt</string>
+    <string name="library_is_locked">Der Zugriff auf die verschlüsselten Sammlungen ist gesperrt</string>
     <string name="library_pass_access_description">Sie müssen das Master-Passwort eingeben, um Zugriff auf die verschlüsselten Dateien zu erhalten</string>
     <string name="library_encription_checkbox">Inhalte verschlüsseln</string>
     <string name="set_library_protection_title">Einträge verschlüsseln</string>
-    <string name="set_library_protection_message">Verzeichnis-Einträge werden verschlüsselt...</string>
+    <string name="set_library_protection_message">Sammlung-Einträge werden verschlüsselt...</string>
     <string name="remove_library_protection">Schutz aufheben</string>
-    <string name="remove_library_protection_desc">Für den Zugriff auf dieses Verzeichnis ist kein Passwort nötig</string>
-    <string name="remove_library_protection_question">Wollen Sie wirklich den Verzeichnis-Schutz aufheben?</string>
+    <string name="remove_library_protection_desc">Für den Zugriff auf dieses Sammlung ist kein Passwort nötig</string>
+    <string name="remove_library_protection_question">Wollen Sie wirklich den Sammlung-Schutz aufheben?</string>
     <string name="preference_category_security">Sicherheit</string>
     <string name="remove_library_protection_title">Schutz aufheben</string>
-    <string name="remove_library_protection_message">Verzeichnis-Einträge werden entschlüsselt...</string>
+    <string name="remove_library_protection_message">Sammlung-Einträge werden entschlüsselt...</string>
     <string name="change_master_password">Ändern Sie das Master-Passwort-Passwort</string>
     <string name="change_master_password_hint">Ihre Daten werden mit dem neuen Passwort erneut verschlüsselt.</string>
     <string name="old_master_pass_hint">Altes Passwort</string>
@@ -474,7 +474,7 @@
     <string name="template_author_text">von %s</string>
     <string name="template_date_text">%s erstellt</string>
     <string name="button_download">Download</string>
-    <string name="get_template_body_message">Vorlagen-Bibliothek laden...</string>
+    <string name="get_template_body_message">Vorlagen-Sammlung laden...</string>
     <string name="error_empty_template_title">Name für die Vorlage eingeben</string>
     <string name="error_empty_template_desc">Beschreibung für die Vorlage eingeben</string>
     <string name="template_downloads">Downloads: %s</string>
@@ -546,7 +546,7 @@
     <string name="prepare_linking_library">Vorbereitung für das Verbinden...</string>
     <string name="error_prepare_linking">Während der Vorbereitung zur Verbindung ist ein Fehler aufgetreten: %s</string>
     <string name="have_library_items_ask_title">Verknüpfung mit einer Google Tabelle</string>
-    <string name="have_library_items_ask_message">Diese Bibliothek enthält die Einträge, die während der Verbindung entfernt wurden. Soll die Übertragung der Bibliothek zu Google Sheets fortgesetzt werden?</string>
+    <string name="have_library_items_ask_message">Diese Sammlung enthält die Einträge, die während der Verbindung entfernt wurden. Soll die Übertragung der Sammlung zu Google Sheets fortgesetzt werden?</string>
     <string name="autofill_source_option_title">Datenquelle</string>
     <string name="amazon_source_option_title">Amazon</string>
     <string name="auto_backup_option_title">Auto Backup</string>
@@ -579,7 +579,7 @@
     <string name="main_title">Memento Datenbank</string>
     <string name="main_menu_add_group">Gruppe hinzufügen</string>
     <string name="main_menu_bookmarks">Lesezeichen und Verlauf</string>
-    <string name="main_menu_add_lib_group">Bibliothek oder Gruppe hinzufügen</string>
+    <string name="main_menu_add_lib_group">Sammlung oder Gruppe hinzufügen</string>
     <string name="no_entries">keine Einträge</string>
     <plurals name="library_box_entries_count">
 	<item quantity="one">ein Eintrag</item>
@@ -644,7 +644,7 @@
     <string name="auto_bakup_dir_pref_title">Verzeichnis für Auto-Backup</string>
     <string name="google_play_not_found_message">Ihr Gerät hat kein Google Play. Sie können den OI Dateimanager von der Herstellerseite herunter laden.</string>
     <string name="library_not_found_dialog_title">Sammlung</string>
-    <string name="library_not_found_dialog_message">Bibliothek nicht gefunden. Es ist möglich, dass Ihre Bibliothek entfernt wurde.</string>
+    <string name="library_not_found_dialog_message">Sammlung nicht gefunden. Es ist möglich, dass Ihre Sammlung entfernt wurde.</string>
     <string name="add_field_above">Feld obendrüber hinzufügen</string>
     <string name="add_field_below">Feld darunter hinzufügen</string>
     <string name="year_default_now">aktuelles Jahr als Standard</string>
@@ -665,7 +665,7 @@
 	<item quantity="other">zwei Abhängigkeiten</item>
 </plurals>
     <string name="add_depends_button_title">Abhängigkeit hinzufügen</string>
-    <string name="library_dont_have_fields_for_depends">Bibliothek enthält nicht die entsprechenden Felder um eine Abhängigkeit für dieses Feld zu erstellen</string>
+    <string name="library_dont_have_fields_for_depends">Sammlung enthält nicht die entsprechenden Felder um eine Abhängigkeit für dieses Feld zu erstellen</string>
     <string name="select_type_depends">Typ der Abhängigkeit auswählen</string>
     <string name="select_type_depends_spinner_title">Typ der Abhängigkeit</string>
     <string name="select_master_field_for_depend">Feld für Abhängigkeit auswählen</string>
@@ -723,16 +723,16 @@
     <string name="link_to_new_document">Verknüpfung zu einem neuen Dokument</string>
     <string name="link_to_existing_document">Verknüpfung zu einem existierenden Dokument</string>
     <string name="google_sync_files_checkbox">Dateien (Bilder), die an Datensätze angehängt sind, zum Cloudspeicher hochladen.</string>
-    <string name="list_library_in_google">Verzeichnis der Bibliotheken auf Google Drive</string>
+    <string name="list_library_in_google">Verzeichnis der Sammlungen auf Google Drive</string>
     <string name="add_lib_from_google_drive">von Google Drive</string>
     <string name="selected">%s ausgewählt</string>
     <string name="delete_template_from_google_drive_question">Möchten Sie die ausgewählten Bibliotheken auf Google Drive wirklich löschen?</string>
     <string name="delete_data_table_from_google_drive">"Löschen der Datentabellen,  die mit den Vorlagen verknüpft sind"</string>
-    <string name="lock_library_edit_message">Änderungen an der Struktur der Bibliothek sind gesperrt.\nSie können die Bearbeitung in den Einstellungen der Bibliothek erlauben.</string>
+    <string name="lock_library_edit_message">Änderungen an der Struktur der Sammlung sind gesperrt.\nSie können die Bearbeitung in den Einstellungen der Sammlung erlauben.</string>
     <string name="lock_edit_library_pref_title">Struktur sperren</string>
-    <string name="lock_edit_library_pref_summary_on">Veränderungen an der Struktur der Bibliothek sind nicht erlaubt</string>
-    <string name="lock_edit_library_pref_summary_off">Änderungen an der Struktur der Bibliothek sind erlaubt</string>
-    <string name="cant_restore_form_google_drive">Ihr Gerät unterstützt nicht die Erstellung einer Bibliothek auf Google Drive</string>
+    <string name="lock_edit_library_pref_summary_on">Veränderungen an der Struktur der Sammlung sind nicht erlaubt</string>
+    <string name="lock_edit_library_pref_summary_off">Änderungen an der Struktur der Sammlung sind erlaubt</string>
+    <string name="cant_restore_form_google_drive">Ihr Gerät unterstützt nicht die Erstellung einer Sammlung auf Google Drive</string>
     <string name="record_error_dialog_message">"Entschuldigung,  aber eine Applikation für das Aufnehmen wurde nicht gefunden."</string>
     <string name="sync_error_dialog_title">Synchronisationsfehler</string>
     <string name="field_display_options_group">Einstellungen für die Anzeige</string>
@@ -747,7 +747,7 @@
     <string name="entry_page_title">Seitenname</string>
     <string name="cant_delete_main_page">Sie können die Standardseite nicht löschen.</string>
     <string name="field_count_on_page">Feld: %s</string>
-    <string name="master_libraries_list_caption">Liste der Einträge der Bibliothek</string>
+    <string name="master_libraries_list_caption">Liste der Einträge der Sammlung</string>
     <string name="view_on_this_page_title">auf dieser Seite anzeigen</string>
     <string name="set_default_page">Als Standard einstellen</string>
     <string name="entry_page_default">Standard</string>
@@ -835,19 +835,19 @@
     <string name="cant_delete_charts_field_message">Sie können dieses Feld nicht entfernen, es wird in Chats benutzt: %s</string>
     <string name="save_to_file_name">Dateiname</string>
     <string name="save_to_file_directory">Verzeichnis</string>
-    <string name="need_pro_for_charts">In der kostenlosen Version kann eine Bibliothek nur ein Chart enthalten. Um diese Beschränkung aufzuheben, kaufen Sie die PRO Version.</string>
+    <string name="need_pro_for_charts">In der kostenlosen Version kann eine Sammlung nur ein Chart enthalten. Um diese Beschränkung aufzuheben, kaufen Sie die PRO Version.</string>
     <string name="need_internet_for_charts">Google Charts benötigt eine Verbindung zum Internet</string>
     <string name="download_image_from_google_photo_message">Bild von Google Photo herunterladen...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Für diese Felder werden Daten aus dem Web verwendet</string>
     <string name="google_base_field_new">Attribut Wert von der Quelle</string>
     <string name="wrong_search_query_string_1">Suchanfrage darf nicht mit \"-\" beginnen</string>
-    <string name="link_master_library_not_found">Sorry, in dieser Bibliothek wurde eine Verknüpfung nicht gefunden</string>
+    <string name="link_master_library_not_found">Sorry, in dieser Sammlung wurde eine Verknüpfung nicht gefunden</string>
     <string name="sync_with_google_drive_dont_support">Ihre Android-Version unterstützt keine Synchronisation mit Google Drive</string>
     <string name="internal_storage_title">Interner Speicher</string>
     <string name="sd_storage_title">SD Karte</string>
     <string name="external_storage_title">externer Speicher</string>
     <string name="custom_storage_title">Benutzer</string>
-    <string name="choose_dir">Wählen Sie ein Verzeichnis aus</string>
+    <string name="choose_dir">Wählen Sie ein Sammlung aus</string>
     <string name="choose_file">Wählen Sie eine Datei aus</string>
     <string name="file_is_not_database">Die ausgewählte Datei ist keine Datenbank</string>
     <string name="create_collection">Sammlung erstellen</string>
@@ -860,7 +860,7 @@
     <string name="edit_entry">Eintrag bearbeiten</string>
     <string name="create_chart">Chart erstellen</string>
     <string name="edit_chart">Chart bearbeiten</string>
-    <string name="edit_library_main_color">Farbe der Bibliothek</string>
+    <string name="edit_library_main_color">Farbe der Sammlung</string>
     <string name="color_swatch_description">Farbe %d</string>
     <string name="color_swatch_description_selected">Farbe %d ausgewählt</string>
     <string name="button_palette">Palette...</string>
@@ -876,26 +876,26 @@
     <string name="icon_pack_title_field_mult_flat">Multimedia</string>
     <string name="icon_pack_title_field_net_flat">Netzwerk</string>
     <string name="library_tile_options">Am Teil ansetzen</string>
-    <string name="show_icon_on_tile">Symbol für Bibliothek</string>
+    <string name="show_icon_on_tile">Symbol für Sammlung</string>
     <string name="show_num_entries_on_tile">Anzahl der Einträge</string>
     <string name="show_update_time_on_tile">Bearbeitungszeit</string>
-    <string name="only_title_on_tile">Nur der Name der Bibliothek</string>
+    <string name="only_title_on_tile">Nur der Name der Sammlung</string>
     <plurals name="fields_count">
 	<item quantity="one">Ein Feld</item>
 	<item quantity="other">%d Felder</item>
 </plurals>
     <plurals name="libraries_count">
-	<item quantity="one">Eine Bibliothek</item>
-	<item quantity="other">%d Bibliotheken</item>
+	<item quantity="one">Eine Sammlung</item>
+	<item quantity="other">%d Sammlungen</item>
 </plurals>
     <string name="empty">leer</string>
     <string name="add_page">Seite hinzufügen</string>
     <string name="move_to_page">Verschieben zu Seite</string>
     <string name="empty_entry_page_text">Diese Seite ist leer.\nSie können hier Felder oder eine Liste von Einträgen hinzufügen.</string>
-    <string name="empty_fields_list_text">In dieser Bibliothek sind keine Felder enthalten.</string>
-    <string name="empty_aggregation_list_text">Diese Bibliothek enthält keine Funktionen.</string>
-    <string name="empty_chart_list_text">Diese Bibliothek enthält keine Charts.</string>
-    <string name="empty_entry_list_text">Diese Bibliothek enthält momentan keine Einträge.</string>
+    <string name="empty_fields_list_text">In dieser Sammlung sind keine Felder enthalten.</string>
+    <string name="empty_aggregation_list_text">Diese Sammlung enthält keine Funktionen.</string>
+    <string name="empty_chart_list_text">Diese Sammlung enthält keine Charts.</string>
+    <string name="empty_entry_list_text">Diese Sammlung enthält momentan keine Einträge.</string>
     <string name="empty_recycle_bin_text">Es sind keine Einträge zur Wiederherstellung vorhanden.</string>
     <string name="empty_main_recycle_bin_text">Keine Bibliotheken für eine Wiederherstellung verfügbar.</string>
     <string name="string_edit_cap_options_title">Großschreibung</string>
@@ -949,7 +949,7 @@
     <string name="csv_import_errors_count">Fehler:</string>
     <string formatted="false" name="csv_import_error_item">Zeile %d - %s</string>
     <string name="undo_button">Rückgängig</string>
-    <string name="google_sync_without_memento_id_text">Diese Bibliothek wurde unter Verwendung der alten Methode synchronisiert, die fehlergaft ist.\nÜbertragen Sie die Bibliothek in eine neue Tabelle und nutzen Sie die neue Methode.\nMöchten Sie den Vorgang starten?</string>
+    <string name="google_sync_without_memento_id_text">Diese Sammlung wurde unter Verwendung der alten Methode synchronisiert, die fehlergaft ist.\nÜbertragen Sie die Sammlung in eine neue Tabelle und nutzen Sie die neue Methode.\nMöchten Sie den Vorgang starten?</string>
     <string name="rating_field_max_value">Maximum Rate</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d Stern</item>
@@ -964,10 +964,10 @@
     <string name="barcode_rule_delete_text">Möchten Sie die Autovervollständigungsregel für das Feld \"%s\" löschen?</string>
     <string name="multi_library_item_trush_message_text">Möchten Sie die ausgewählten Einträge in den Papierkorb verschieben?</string>
     <string name="multi_library_item_delete_message_text">Möchten Sie die ausgewählten Einträge löschen?</string>
-    <string name="delete_library_snackbar_text">Bibliothek \"%s\" wurde in den Papierkorb verschoben</string>
+    <string name="delete_library_snackbar_text">Sammlung \"%s\" wurde in den Papierkorb verschoben</string>
     <string name="deleted">gelöscht</string>
-    <string name="library_recover_dialog_text">Möchten Sie die Bibliothek \"%s\" wiederherstellen?</string>
-    <string name="library_recover_snackbar_text">Bibliothek \"%s\" wurde wiederhergestellt</string>
+    <string name="library_recover_dialog_text">Möchten Sie die Sammlung \"%s\" wiederherstellen?</string>
+    <string name="library_recover_snackbar_text">Sammlung \"%s\" wurde wiederhergestellt</string>
     <string name="sort_by_name">Nach Name sortieren</string>
     <string name="sort_by_time">Nach Zeitpunkt des Hinzufügens sortieren</string>
     <string name="favorites_empty_list_layout">keine Favoriten Einträge.</string>
@@ -993,8 +993,8 @@
     <string name="rename_group">Gruppe umbenennen</string>
     <string name="move">Verschieben</string>
     <string name="select_group">Gruppe auswählen</string>
-    <string name="library_moved_message">Bibliothek wurde in Gruppe \"%s\" verschoben</string>
-    <string name="master_library_entries">Einträge der entsprechenden Bibliothek</string>
+    <string name="library_moved_message">Sammlung wurde in Gruppe \"%s\" verschoben</string>
+    <string name="master_library_entries">Einträge der entsprechenden Sammlung</string>
     <string name="invisible">unsichtbar</string>
     <string name="display_master_libraries_items">In der Kartenansicht anzeigen</string>
     <string name="sync_with_google_left_menu_item">Synchronisation mit Google</string>
@@ -1052,7 +1052,7 @@
     <string name="calendar_3day_view">3 Tagesansicht</string>
     <string name="calendar_week_view">Wochenansicht</string>
     <string name="go_to_date">zu Datum gehen</string>
-    <string name="lost_linked_library">Verknüpfte Bibliothek wurde nicht gefunden, kann sein das Sie entfernt wurde.</string>
+    <string name="lost_linked_library">Verknüpfte Sammlung wurde nicht gefunden, kann sein das Sie entfernt wurde.</string>
     <string name="multichoice_field_empty">Keine Werte für diese Auswahl</string>
     <string name="show_add_button_on_tile">Knopf \"Eintrag hinzufügen\"</string>
     <string name="cant_find_audio_selection_app">Entschuldigung, aber die Applikation für den Audio Track wurde nicht gefunden.</string>
@@ -1081,14 +1081,14 @@
 	<string name="entries_name_dialog_title">Namen der Einträge werden bestimmt nach die Werte der ausgewählen Felder</string>
 	<string name="template_views_count">Views: %s</string>
 	<string name="sort_by_views">Nach Anzahl Views sortiert</string>
-	<string name="no_fields_for_role">In diesem Verzeichnis befinden sich keine passenden Felder für diese Rolle</string>
+	<string name="no_fields_for_role">In diesem Sammlung befinden sich keine passenden Felder für diese Rolle</string>
 	<string name="update_item_name_index">Baue Index auf ...</string>	
 	<string name="entry_name_must_be_notnull">Der Eintragsname sollte nicht leer sein</string>
-	<string name="library_have_duplicates">Einträge mit ähnlichen Namen im Verzeichnis</string>
+	<string name="library_have_duplicates">Einträge mit ähnlichen Namen im Sammlung</string>
 	<string name="library_have_duplicates2">Für gutes Funktionieren ändern oder löschen Sie doppelte Einträge.</string>
 	<string name="dont_show_anymore">Nicht mehr zeigen</string>
-	<string name="need_make_slave_library_unique">Um “Verknüpfung zum Eintrag“-Felder zu synchronisieren, müssen Sie im Verzeichnis, auf das sich die Verknüpfung bezieht, die Eindeutigkeit des Eintragsnamens aktivieren.\nWissen Sie das?</string>
-	<string name="need_make_slave_library_unique_import">Um “Verknüpfung zum Eintrag“-Felder zu importieren, müssen Sie im Verzeichnis, auf das sich die Verknüpfung bezieht, die Eindeutigkeit des Eintragsnamens aktivieren.\nWissen Sie das?</string>
+	<string name="need_make_slave_library_unique">Um “Verknüpfung zum Eintrag“-Felder zu synchronisieren, müssen Sie im Sammlung, auf das sich die Verknüpfung bezieht, die Eindeutigkeit des Eintragsnamens aktivieren.\nWissen Sie das?</string>
+	<string name="need_make_slave_library_unique_import">Um “Verknüpfung zum Eintrag“-Felder zu importieren, müssen Sie im Sammlung, auf das sich die Verknüpfung bezieht, die Eindeutigkeit des Eintragsnamens aktivieren.\nWissen Sie das?</string>
 	<string name="run_sync_slave_libraries_pref">Verknüpfte Sammlungen</string>
 	<string name="run_sync_slave_libraries_summary">Synchronisieren Sie zuerst verknüpfte Verzeignisse</string>
 	<string name="choice_type_add_button_in_edit_title">Erstellung von Elementen, während ein Eintrag bearbeitet wird</string>
@@ -1097,14 +1097,14 @@
 	<string name="upload_to_cloud_menu_item">In die Cloud</string>
 	<string name="memento_cloud">Cloud</string>
 	<string name="start_remove_librarary_from_cloud">Sammlung wird gelöscht...</string>
-	<string name="success_remove_librarary_from_cloud">Verzeichnis mit erfolg gelöscht aus der Cloud</string>
+	<string name="success_remove_librarary_from_cloud">Sammlung mit erfolg gelöscht aus der Cloud</string>
 	<string name="start_upload_library_to_cloud">Sammlung wird hochgeladen...</string>	
-	<string name="success_upload_library_to_cloud">Das Verzeichnis wurde erfolgreich hochgeladen...\nDas Verzeichnis wird automatisch synchronisiert.</string>
+	<string name="success_upload_library_to_cloud">Das Sammlung wurde erfolgreich hochgeladen...\nDas Sammlung wird automatisch synchronisiert.</string>
 	<string name="push_entries_to_cloud_message" formatted="false">"Einträge werden hochgeladen
 \n%s von %s Einträgen verarbeitet "</string>
 	<string name="permissions">Erlaubnisse</string>
 	<string name="button_hide">Verstecken</string>	
-	<string name="empty_cloud_libraries_list_text">Sie haben keine hochgeladen Verzeichnisse</string>
+	<string name="empty_cloud_libraries_list_text">Sie haben keine hochgeladen Sammlungen</string>
 	<string name="my_cloud_libraries_menu_item">Cloud Speicher</string>
 	<string name="start_download_library_model">Bibliotheksstruktur wird hochgeladen ...</string>
 	<string name="open_library">Sammlung öffnen</string>
@@ -1127,7 +1127,7 @@
     <string name="cloud_size">Größe</string>
     <string name="cloud_server_unavaliable">"Memento Cloud Server ist nicht erreichbar, checken Sie die Verbindung zum Internet, ob diese auf Ihrem Gerät eingeschaltet ist. "</string>
     <string name="delete_from_cloud">Löschen aus der Cloud</string>
-    <string name="delete_from_cloud_message_question">Wollen Sie wirklich das Verzeichnis aus der Cloud löschen?</string>
+    <string name="delete_from_cloud_message_question">Wollen Sie wirklich das Sammlung aus der Cloud löschen?</string>
         
     <string name="byteShort">B</string>    
     <string name="kilobyteShort">KB</string>
@@ -1138,11 +1138,11 @@
     <string name="start_download_file_from_cloud">"Datei %s wird heruntergeladen "</string>
     <string name="upload_file_to_cloud">Datei wird hochgeladen...</string>    
     <string name="upload_files_to_cloud">Dateien werden hochgeladen</string>
-    <string name="cloud_upload_error_title">Wir konnten dieses Verzeichnis nicht synchronisieren</string>
+    <string name="cloud_upload_error_title">Wir konnten dieses Sammlung nicht synchronisieren</string>
     <string name="featured_templates">Bevorzugt</string>
-	<string name="welcome_text_description">Das Verzeichnis ist der Platz, wo Ihre Einträge gespeichert werden.\nSie können mit der Einarbeitung in das Programm beginnen, indem Sie ein Verzeichnis erstellen, das auf einer der mitgelieferten Vorlagen basiert.</string>
+	<string name="welcome_text_description">Das Sammlung ist der Platz, wo Ihre Einträge gespeichert werden.\nSie können mit der Einarbeitung in das Programm beginnen, indem Sie ein Sammlung erstellen, das auf einer der mitgelieferten Vorlagen basiert.</string>
 	
-	<string name="success_pull_library_from_cloud">Einträge wurden erfolgreich heruntergeladen.\nDie Bibliothek wird automatisch synchronisiert.</string>
+	<string name="success_pull_library_from_cloud">Einträge wurden erfolgreich heruntergeladen.\nDie Sammlung wird automatisch synchronisiert.</string>
 	<string name="cloud_files_count">Dateien Anzahl</string>
     <string name="cloud_who_has_access">"Wer hat Zugriff "</string>
     <string name="prepare_library_for_cloud">Sammlung wird bearbeitet...</string>
@@ -1159,7 +1159,7 @@
 	<string name="user_not_found">Anwender nicht gefunden</string>
 	<string name="push_error_forbidden">Zugriff verweigert</string>
 	<string name="button_ignore">Ignorieren</string>
-	<string name="cloud_library_forbidden">Sie haben kein Zugriffsberechtigung für dieses Verzeichnis</string>
+	<string name="cloud_library_forbidden">Sie haben kein Zugriffsberechtigung für dieses Sammlung</string>
 	<string name="shared_with_me">Mit mir geteilt</string>
 	<string name="entry_author">Verfasser</string>
 	<string name="info_menu_item">Info</string>   
@@ -1175,8 +1175,8 @@
 	<string name="subscription_activation_error">Aktivierungsfehler: %s</string>
 	<string name="google_play_unavaliable">Google Play ist niet erreichbar:(</string>
 	<string name="subscription_already_activation_for_user">Abonnement kann nicht aktiviert werden weil as ist gekauft für Anwender %s.</string>
-	<string name="library_cloud_count_limit">Ihr Abonnement erlaubt das Hochladen von %s Verzeichnissen in die Cloud.</string>
-	<string name="restore_cloud_library_from_recycle">Dieses lokale Verzeichnis is gelöscht. Wiederherstellen?</string>
+	<string name="library_cloud_count_limit">Ihr Abonnement erlaubt das Hochladen von %s Sammlungen in die Cloud.</string>
+	<string name="restore_cloud_library_from_recycle">Dieses lokale Sammlung is gelöscht. Wiederherstellen?</string>
 	<string name="button_signin">Eintragen</string>
 	<string name="library_alias_menu_item">Alias</string>
 	<string name="library_public_access">Allgemeine Zutritt</string>
@@ -1197,10 +1197,10 @@
 	<string name="empty_library_title">Leere Sammlung</string>
 	<string name="catalog_templates_hint">Mehr als 3000 Vorlagen</string>
 	<string name="templates">Vorlagen</string>
-	<string name="success_upload_library_to_cloud2">Sie können Ihren Verzeichnis zugänglich machen für andere Memento Anwender in den Zugriff Einstellungen.</string>	
+	<string name="success_upload_library_to_cloud2">Sie können Ihren Sammlung zugänglich machen für andere Memento Anwender in den Zugriff Einstellungen.</string>
 	<string name="upload_big_file_error" formatted="false">Eintrag enthält grosser Datei %s (%s).\nMaximale Dateigröße ist %s.</string>
     <string name="edit_permission">Einstellungen für teilen mit Anwender</string>	
-	<string name="start_download_slave_library_model">Hochladen abhängiges Verzeichnis %s</string>
+	<string name="start_download_slave_library_model">Hochladen abhängiges Sammlung %s</string>
 	<string name="price_free">Kostenlos</string>
 	<string name="catalog_templates_title">Online Katalog</string>
 	<string name="add_lib_from_google_drive_hint">Wiederherstellen van Google Drive</string>
@@ -1242,12 +1242,12 @@
     <string name="font_style_italic">Kursiv</string>
     <string name="font_style_bold_italic">Fett kursiv</string>
     <string name="push_entry_error_text" formatted="false">Der Eintrag is nicht in die Cloud eingespeichert\nName: %s\nFehler: %s</string>
-	<string name="need_upload_to_cloud_slave_libraries">Bitte laden Sie abhängige Verzeichnisse in die Cloud.</string>
-	<string name="open_access_for_slave_libraries">Bearbeiten Sie Lesezugriff zu abhängige Verzeichnisse</string>
+	<string name="need_upload_to_cloud_slave_libraries">Bitte laden Sie abhängige Sammlungen in die Cloud.</string>
+	<string name="open_access_for_slave_libraries">Bearbeiten Sie Lesezugriff zu abhängige Sammlungen</string>
 	<string name="cloud_file_while_not_upload">Die Datei ist noch nicht in die Cloud</string>
 	<string name="button_tarifs">Preispläne</string>
 	<string name="cloud_storage_plans">Preispläne</string>
-	<string name="cloud_library_already_uploaded">Dieses Verzeichnis is schon hochgeladen in die Cloud.</string>
+	<string name="cloud_library_already_uploaded">Dieses Sammlung is schon hochgeladen in die Cloud.</string>
 	<string name="upload_to_cloud_offer_title">{fertig für die Cloud...}</string>
 	<string name="autofill_from">von %s</string>
 	<string name="copying_entries">Einträge kopieren ...</string>
@@ -1260,14 +1260,14 @@
 	<string name="cloud_storage_full_text2" formatted="false">Speicherplatz in der Cloud nicht ausreichend.
 \n%s notwendig, aber nur %s verfügbar.
 \nKaufen Sie ein Upgrade, um mehr Speicherplatz zu erhalten.</string>
-	<string name="alien_cloud_storage_full_text">Der Eigentümer des Verzeichnisses hat zu wenig Speicherplatz zur Verfügung.</string>	
+	<string name="alien_cloud_storage_full_text">Der Eigentümer des Sammlung hat zu wenig Speicherplatz zur Verfügung.</string>
 	<string name="subscription_reactivation_error">Keine aktiven Abonnements: %s</string>
 	<string name="return_to_free_plan_message">Wechseln Sie zu einem kostenlosen Account, indem Sie in Google Play Ihr kostenpflichtiges Abonnement kündigen</string>
 	<string name="upload_ecrypted_libraries_dont_supported">Verschlüsselte Bibliotheken können temporär nicht in der Cloud gespeichert werden.</string>
-	<string name="cloud_library_not_found">Die Bibliothek konnte nicht in der Cloud gefunden werden. Wurde sie gelöscht?\nSoll eine lokale Kopie erstellt werden?</string>
+	<string name="cloud_library_not_found">Die Sammlung konnte nicht in der Cloud gefunden werden. Wurde sie gelöscht?\nSoll eine lokale Kopie erstellt werden?</string>
 	<string name="upload_to_cloud_offer_text">• Teamwork\n• Synchron auf allen Geräten\n• Backup in der Cloud</string>
 	<string name="invalid_library_template_file_format">Ungültiges Dateiformat der Vorlage</string>    
-	<string name="remove_from_old_public">Vor dem Hochladen der Bibliothek in die Cloud wird die Veröffentlichung rückgängig gemacht, falls sie über veraltete Methoden erfolgt war.</string>
+	<string name="remove_from_old_public">Vor dem Hochladen der Sammlung in die Cloud wird die Veröffentlichung rückgängig gemacht, falls sie über veraltete Methoden erfolgt war.</string>
 	<string name="subscription_pro_bonus_text">Die meisten Preispläne für Cloudspeicher enthalten die PRO-Version als Bonus</string>
 	<string name="clear_search_history_hint">Entfernt alle bislang durchgeführten Suchen</string>
 	<string name="clear_search_history_quest">Sind Sie sich sicher, dass Sie ihre gesamten bislang ausgeführten Suchen löschen wollen?</string>
@@ -1275,8 +1275,8 @@
 	
 	<string name="autofill_by_barcode">Nach Barcode</string>
 	<string name="autofill_by_title">Nach Titel</string>
-	<string name="autofill_need_barcode_field">Um Ihre Bibliothek automatisch mit Barcodes zu füllen, muss diese ein \"Barcode\"-Feld enthalten. Wollen Sie erfahren, wie dieses Feld angelegt wird?</string>
-	<string name="autofill_need_text_field">Um Ihre Bibliothek automatisch mit Titeln zu füllen, muss diese ein \"Titel\"-Feld enthalten. Wollen Sie erfahren, wie dieses Feld angelegt wird?</string>
+	<string name="autofill_need_barcode_field">Um Ihre Sammlung automatisch mit Barcodes zu füllen, muss diese ein \"Barcode\"-Feld enthalten. Wollen Sie erfahren, wie dieses Feld angelegt wird?</string>
+	<string name="autofill_need_text_field">Um Ihre Sammlung automatisch mit Titeln zu füllen, muss diese ein \"Titel\"-Feld enthalten. Wollen Sie erfahren, wie dieses Feld angelegt wird?</string>
 	<string name="autofill_select_master_field">Eingabefeld für Suche</string>
 	<string name="unknown_data_source">Unbekannte Quelle</string>
     <string name="autofill_rules_delete_title">Löscht Regeln zum automatischen Füllen</string>
@@ -1285,12 +1285,12 @@
     <string name="copy_library_structure_menu_item">Struktur ohne Inhalt</string>
     <string name="copy_all_library_menu_item">Struktur und Einträge</string>
     <string name="encryption_for_cloud_uploaded_library">Verschlüsselung kann nur vor dem Hochladen in die Cloud aktiviert werden.</string>
-    <string name="need_reload_library_from_cloud_encrypted">Kopien der Bibliotheken im Cloudspeicher wurden verschlüsselt.
-\nLöschen Sie die lokale Kopie der Bibliothek und laden Sie die Bibliothek dann aus der Cloud herunter.</string>
-    <string name="need_reload_library_from_cloud_decrypted">Kopien der Bibliotheken im Cloudspeicher wurden entschlüsselt.
-\nLöschen Sie die lokale Kopie der Bibliothek und laden Sie die Bibliothek dann aus der Cloud herunter.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Kopien der Sammlung im Cloudspeicher wurden verschlüsselt.
+\nLöschen Sie die lokale Kopie der Sammlung und laden Sie die Sammlung dann aus der Cloud herunter.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Kopien der Sammlung im Cloudspeicher wurden entschlüsselt.
+\nLöschen Sie die lokale Kopie der Sammlung und laden Sie die Sammlung dann aus der Cloud herunter.</string>
 
-    <string name="protected_libraries_not_show_in_widget">Bibliothek ist geschützt und kann nicht angezeigt werden</string>
+    <string name="protected_libraries_not_show_in_widget">Sammlung ist geschützt und kann nicht angezeigt werden</string>
     <string name="widget_free_limit_item_text">Ansicht aller Datensätze nur für Nutzer der PRO-Version</string>
     <string name="rate_me_dialog_title">Gefällt Ihnen Memento?</string>
     <string name="rate_me_dialog_text">Bewerten Sie uns in Google Play</string>
@@ -1319,7 +1319,7 @@
 
     <string name="cloud_library_download_notification_text">%s: Sammlung heruntergeladen</string>
     <string name="cloud_notification_for_subscribers">Nur Abonnenten können Benachrichtigungen erhalten.</string>
-    <string name="cloud_library_notification_hint">Push-Benachrichtigungen, sobald andere Nutzer die Bibliothek ändern</string>
+    <string name="cloud_library_notification_hint">Push-Benachrichtigungen, sobald andere Nutzer die Sammlung ändern</string>
     <string name="cloud_library_notification_title">Benachrichtigungen</string>
     <string name="comments">Kommentar</string>
     <string name="comment_input_hint">Schreiben Sie einen Kommentar</string>
@@ -1349,13 +1349,13 @@
     <string name="button_apply">Anwenden</string>
     <string name="find_missing_files_empty">Fehlende Dateien nicht gefunden</string>
     <string name="file_manager_not_found">Keine Unterstützung für Dateien auf Ihrem Gerät gefunden.</string>
-    <string name="file_list_empty">Die Bibliothek enthält keine Dateien</string>
+    <string name="file_list_empty">Die Sammlung enthält keine Dateien</string>
     <string name="feature_available_only_in_pro">Dieses Feature ist nur in der PRO-Version nutzbar.</string>
     <string name="preview_button">Vorschau</string>
     <string name="select_calc_preview_entry">Eintrag für Vorschau</string>
     <string name="calc_preview_title">Vorschau</string>
     <string name="add_relationship">Beziehung</string>
-    <string name="add_relationship_with_title">Wählen Sie eine zweite Bibliothek aus</string>
+    <string name="add_relationship_with_title">Wählen Sie eine zweite Sammlung aus</string>
     <string name="add_relationship_success">Die Beziehung zwischen beiden Bibliotheken wird über das Feld \"%s\" hergestellt.</string>
     <string name="create_shortcut_text">Benennen Sie diesen Shortcut</string>
     <string name="permission_storage_title">Speicher</string>
@@ -1376,13 +1376,13 @@
 </plurals>
 
     <string name="display_aggregation">Aggregation anzeigen</string>
-    <string name="display_aggregation_hint">Aggregation über Einträge der verbundenen Bibliothek</string>
+    <string name="display_aggregation_hint">Aggregation über Einträge der verbundenen Sammlung</string>
     <string name="app_permissions">Anwendungsberechtigungen</string>
     <string name="app_permissions_only_for_android6">Nur für Android 6 und höher</string>
     <string name="need_permission_dialog_title">Berechtigung erforderlich</string>
     <string name="need_permission_dialog_text">Dieser Vorgang benötigt System-Berechtigung - %s</string>
-    <string name="unlock_linked_library_text">Verbundene Bibliothek ist verschlüsselt, Sie müssen das Master-Passwort eingeben</string>
-    <string name="preview_calc_exec_time">Ausführungszeit: : %d ms</string>
+    <string name="unlock_linked_library_text">Verbundene Sammlung ist verschlüsselt, Sie müssen das Master-Passwort eingeben</string>
+    <string name="preview_calc_exec_time">Ausführungszeit: %d ms</string>
     <string name="group_by_and">Alle (AND)</string>
     <string name="group_by_or">Ein beliebiger (OR)</string>
     <string name="field_delimiters">Feldtrennzeichen</string>
@@ -1390,7 +1390,7 @@
 
     <string name="script">Script</string>
     <string name="js_libraries">JavaScript-Bibliotheken</string>
-    <string name="empty_autofill_rules_list_text">Attribute aus der Datenquelle mit Feldern der Bibliothek verbinden</string>
+    <string name="empty_autofill_rules_list_text">Attribute aus der Datenquelle mit Feldern der Sammlung verbinden</string>
     <string name="js_realtime">Script in Echtzeit ausführen</string>
     <string name="js_realtime_hint_off">Das Script läuft nur, wenn ein Eintrag editiert wird</string>
     <string name="js_realtime_hint_on">Das Script läuft, wenn ein Eintrag angezeigt wird</string>
@@ -1411,12 +1411,12 @@
     <string formatted="false" name="of_counter">%d von %d</string>
 
 
-<string name="decryption_for_cloud_uploaded_library">Deaktivieren der Verschlüsselung beim Hochladen der Bibliothek in die Cloud wird nicht unterstützt. Bitte löschen Sie zuerst die Bibliothek aus der Cloud.</string>
+<string name="decryption_for_cloud_uploaded_library">Deaktivieren der Verschlüsselung beim Hochladen der Sammlung in die Cloud wird nicht unterstützt. Bitte löschen Sie zuerst die Sammlung aus der Cloud.</string>
     <string name="permission_accounts_text">Für die Synchronisation mit Google Sheets und den Zugriff auf Felder vom Typ Kontakt ist es erforderlich, Memento Zugriff auf Konten zu geben.</string>
     <string name="permission_location_text">Für den Zugriff auf Felder vom Typ Standort ist es erforderlich, Memento Zugriff auf den Standort zu geben.</string>
     <string name="permission_not_necessarily">Diese Berechtigung ist nicht obligatorisch.</string>
     <string name="field_enclosed">Textbegrenzer</string>
 
     <string name="users_manager">Benutzerverwalter</string>
-    <string name="js_moment_library">Bibliothek zum Parsen, Validieren, Verändern und Formatieren von Datumswerten</string>
+    <string name="js_moment_library">Sammlung zum Parsen, Validieren, Verändern und Formatieren von Datumswerten</string>
     </resources>

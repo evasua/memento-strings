@@ -1412,4 +1412,219 @@
     <string formatted="false" name="of_counter">%d de %d</string>
 
 
-</resources>
+<string name="lost_database_text">Impossible d\'ouvrir le fichier base de données, vérifier s\'il est présent dans le chemin indiqué</string>
+    <string name="upload_to_cloud">Téléversez sur le Cloud</string>
+    <string name="multi_choice_delimiter">Délimiteur</string>
+    <string name="cloud_plan_free">Gratuit</string>
+    <string name="cloud_plan_plan3">Version Light</string>
+    <string name="cloud_plan_plan6">Version Pro</string>
+    <string name="cloud_plan_plan10">Version Pro Plus</string>
+    <string name="cloud_plan_storage">%s Mémoire</string>
+
+    <string name="memento_server_settings_group">Serveur Memento</string>
+    <string name="memento_server_host">L\'adresse du serveur Memento</string>
+    <string name="memento_server_cloud">Utiliser le nuage Memento</string>
+    <string name="memento_server_private">Utiliser le serveur privé Memento</string>
+    <string name="memento_server_private_hint">host:port</string>
+    <string name="memento_server_private_not_found">Le serveur privé n\'existe pas à l\'adresse indiquée</string>
+    <string name="latitude_longitude">Latitude/Longitude</string>
+    <string name="latitude_longitude_hint">latitude,longitude</string>
+    <string name="latitude_longitude_parse_error">Impossible d\'analyser latitude/longitude</string>
+    <string name="relation_type">Type de relation</string>
+    <string name="relation_type_one_to_one">1-1</string>
+    <string name="relation_type_one_to_many">1-n</string>
+    <string name="relation_type_many_to_many">n-m</string>
+    <string name="relation_type_one_limit">L\'enregistrement sélectionné possède déjà une relation</string>
+    <string name="relation_type_one_limit2">%s possède déjà une relation</string>
+    <string name="library_edit_mode">Mode édition</string>
+    <string name="library_edit_mode_hint">Ouvrir le formulaire d\'édition en cliquant sur un enregistrement</string>
+    <string name="desktop_version">Version bureau</string>
+
+    <string name="no_comments">Pas de commentaires</string>
+    <plurals name="comments_count">
+	<item quantity="one">1 commentaire</item>
+	<item quantity="other">%d commentaires</item>
+</plurals>
+    <string name="comments_only_for_cloud">Les commentaires ne peuvent ^ter publiés que sur les bases téléversées dans le nuage. Voulez-vous téléverser la base dans le nuage ?</string>
+    <string name="locale_plugin_add_edit_entry_title">Ajouter/modifier un enregistrement</string>
+    <string name="from_google_drive">Depuis Google Drive</string>
+
+<string name="locale_to_fields_add_rule_title">Ajouter une règle</string>
+    <string name="locale_to_fields_edit_rule_title">Modifier une règle</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Modifier un enregistrement</string>
+    <string name="send_field_title">Envoyer le nom du champ</string>
+    <string name="send_field_title_summary">Le nom du champ suivra la valeur du champ</string>
+    <string name="auto_lock_libraries_time_title">Fermer l\'accès aux bases</string>
+    <string name="auto_lock_libraries_after">Après %s</string>
+
+    <string name="trigger_event">Evénénement</string>
+    <string name="trigger_name">Nom du déclencheur</string>
+    <string name="unknown_trigger_event_type">Evénement inconnu</string>
+    <string name="trigger_event_create_entry">Création d\'un enregistrement</string>
+    <string name="trigger_event_modify_entry">Mise à jour d\'un enregistrement</string>
+    <string name="trigger_event_delete_entry">Suppression d\'un enregistrement</string>
+    <string name="trigger_event_add_favorites">Ajout d\'un enregistrement dans les favoris</string>
+    <string name="trigger_event_remove_favorites">Suppression d\'un enregistrement des favoris</string>
+    <string name="trigger_default_name">Déclencheur %d</string>
+    <string name="trigger_enabled">Activé</string>
+    <string name="trigger_delete_message">Voulez-vous vraiment supprimer le déclencheur \"%s\" ?</string>
+
+
+    <string name="trigger_moment_after_delete">Après la suppression d\'un enregistrement</string>
+    <string name="trigger_moment_before_delete">Avant la suppression d\'un enregistrement</string>
+    <string name="trigger_moment_after_save">Après l\'enregistrement d\'un enregistrement</string>
+    <string name="trigger_moment_before_show">Avant l\'affichage de la fenêtre</string>
+    <string name="trigger_moment_after_show">Après l\'affichage de la fenêtre</string>
+
+    <string name="application">Application</string>
+    <string name="trigger_moment_before_save">Avant de sauvegarder l\'enregistrement</string>
+    <string name="uom_category_energy">Energie</string>
+    <string name="uom_joule">Joule</string>
+    <string name="uom_kilojoule">Kilojoule</string>
+
+    <string name="uom_category_frequency">Fréquence</string>
+    <string name="uom_hertz">Hertz</string>
+    <string name="uom_kilohertz">Kilohertz</string>
+    <string name="uom_megahertz">Megahertz</string>
+    <string name="uom_gigahertz">Gigahertz</string>
+
+    <string name="locale_to_fields_list_empty_text">utiliser le bouton [+] pour créer une nouvelle règle de remplissage des champs de la librairie.</string>
+    <string name="locale_to_fields_var">texte provenant de %s</string>
+    <string name="variable_select">Sélection de variable</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Créer un nouvel enregistrement si vous n\'en avez pas trouvé à l\'aide du champ clé</string>
+
+    <string name="empty_triggers_list_text">Cette librairie ne contient pas de déclencheur.\nUn déclencheur est un script qui défini le procédure à suivre suite à un événement survenu.</string>
+    <string name="triggers">Déclencheurs</string>
+    <string name="trigger_moment">Phase</string>
+    <string name="unknown_trigger_moment_type">Phase inconnue</string>
+
+    <string name="trigger_switched_off">Déclenché</string>
+    <string name="debug">Débogage</string>
+    <string name="debug_summary">Options de traçage</string>
+    <string name="log_files_folder">"Répertoire  des fichiers de traçage"</string>
+
+    <string name="trigger_permissions">Permissions pour les déclencheurs</string>
+    <string name="trigger_permission_read_file">Lecture des fichiers</string>
+    <string name="trigger_permission_write_file">Ecrire les fichiers</string>
+    <string name="trigger_permission_network">Réseau</string>
+    <string name="trigger_permission_network_hint">Permet aux scripts d\'exécuter des requêtes HTTP</string>
+
+    <string name="trigger_permission_libraries">Librairies</string>
+    <string name="trigger_permission_libraries_hint">Accès à toutes les librairies</string>
+
+    <string name="trigger_permission_libraries_select">Librairies disponibles</string>
+    <string name="trigger_permission_libraries_select_title">Sélection des librairies</string>
+    <string name="filters_tab">Tabulateurs...</string>
+    <string name="export_template_include_filters">Inclu les filtres</string>
+
+    <string name="unit_of_measurement_enable">Ajouter une unité de mesure pour le champ</string>
+    <string name="unit_of_measurement_none">Aucun</string>
+
+    <string name="unit_of_measurement_category">Catégorie</string>
+    <string name="unit_of_measurement">Unité de mesure</string>
+    <string name="unit_of_measurement_button">Ajouter un convertisseur d\'unité pour le champ</string>
+
+    <string name="uom_category_temperature">Température</string>
+    <string name="uom_celsius">Celsius</string>
+    <string name="uom_fahrenheit">Fahrenheit</string>
+    <string name="uom_kelvin">Kelvin</string>
+    <string name="uom_category_time">Heure</string>
+    <string name="uom_nanosecond">Nanoseconde</string>
+    <string name="uom_microsecond">Microseconde</string>
+    <string name="uom_millisecond">Miliseconde</string>
+    <string name="uom_second">Seconde</string>
+    <string name="uom_minute">Minute</string>
+    <string name="uom_hour">Heure</string>
+    <string name="uom_day">Jour</string>
+    <string name="uom_week">Semaine</string>
+    <string name="uom_year">Année</string>
+
+    <string name="uom_category_pressure">Pression</string>
+    <string name="uom_pascal">Pascal</string>
+    <string name="uom_atmosphere">Atmosphère</string>
+    <string name="uom_bar">Bar</string>
+
+    <string name="uom_category_length">Longueur</string>
+    <string name="uom_meter">Mètre</string>
+    <string name="uom_kilometer">Kilomètre</string>
+    <string name="uom_centimeter">Centimètre</string>
+    <string name="uom_millimeter">Millimètre</string>
+    <string name="uom_micrometer">Micromètre</string>
+    <string name="uom_nanometer">Nanomètre</string>
+    <string name="uom_mile">Mile</string>
+    <string name="uom_nautical_mile">Mile nautique</string>
+    <string name="uom_foot">Pied</string>
+    <string name="uom_inch">Pouce</string>
+    <string name="uom_astronomical_unit">unité astronomique</string>
+    <string name="uom_light_year">Année lumière</string>
+    <string name="uom_category_mass">Masse</string>
+    <string name="uom_microgram">Microgramme</string>
+    <string name="uom_milligram">Milligramme</string>
+    <string name="uom_gram">Gramme</string>
+    <string name="uom_kilogram">Kilogramme</string>
+    <string name="uom_ton">Tonne</string>
+    <string name="uom_ton_uk">Tone impériale</string>
+    <string name="uom_ton_us">Tonne US</string>
+    <string name="uom_category_volume">Volume</string>
+    <string name="uom_cubic_metre">Mètre cube</string>
+    <string name="uom_liter">Litre</string>
+    <string name="uom_category_dataamount">Mémorisation digitale</string>
+    <string name="uom_bit">Bit</string>
+    <string name="uom_byte">Octet</string>
+    <string name="uom_kilobit">Kilobit</string>
+    <string name="uom_kilobyte">Kilooctet</string>
+    <string name="uom_megabit">Megabit</string>
+    <string name="uom_megabyte">Megaoctet</string>
+    <string name="uom_gigabit">Gigabit</string>
+    <string name="uom_gigabyte">Gigaoctet</string>
+    <string name="uom_terabit">Terabit</string>
+    <string name="uom_terabyte">Teraoctet</string>
+    <string name="uom_petabit">Petabit</string>
+    <string name="uom_petabyte">Petaoctet</string>
+
+    <string name="uom_category_area">Surface</string>
+    <string name="uom_square_metre">Mètre carré</string>
+    <string name="uom_are">Are</string>
+    <string name="uom_hectare">Hectare</string>
+
+    <string name="uom_category_velocity">Vitesse</string>
+    <string name="uom_meters_per_second">Mètre par seconde</string>
+    <string name="uom_miles_per_hour">Miles par heure</string>
+    <string name="uom_kilometers_per_hour">Kilomètre à l\'heure</string>
+    <string name="uom_knot">Noeud</string>
+    <string name="uom_mach">Mach</string>
+
+    <string name="uom_category_power">Puissance</string>
+    <string name="uom_watt">Watt</string>
+    <string name="uom_kilowatt">Kilowatt</string>
+    <string name="uom_megawatt">Megawatt</string>
+    <string name="wrong_field_value">Champ %s a une valeur inacceptable</string>
+
+    <string name="unit_converter">Convertisseur d\'unité</string>
+    <string name="increase">Incrémenter</string>
+    <string name="decrease">Décrémenter</string>
+    <string name="date_and_time_formats">Formats pour la date et l\'heure</string>
+    <string name="date_formats">Formats date</string>
+    <string name="time_formats">Formats heure</string>
+    <string name="date_formats_short">Date courte</string>
+    <string name="date_formats_long">Date longue</string>
+    <string name="time_formats_short">Heure courte</string>
+    <string name="time_formats_long">Heure longue</string>
+    <string name="language">Langage</string>
+    <string name="next_button">Suivant</string>
+    <string name="memento_cloud2">Nuage Memento</string>
+
+    <string name="from_file">Depuis le fichier</string>
+    <string name="trigger_moment_open_form">Ouvrir une fenêtre d\'édition d\'un enregistrement</string>
+    <string name="enable_logging_triggers">Traçage des déclencheurs</string>
+    <string name="script_log">Traçage des scripts</string>
+
+    <string name="sign_up">S\'inscrire</string>
+    <string name="trigger_event_open_entry">Ouvrir une vue de l\'enregistrement</string>
+    <string name="enable_logging_cloud">Appels sur le nuage Memento</string>
+    <string name="trigger_permission_read_file_hint">Permet aux scripts de lire depuis une mémoire externe</string>
+    <string name="trigger_permission_write_file_hint">Permet aus scripts d\'écrire dans une mémoire externe</string>
+    <string name="login">S\'identifier</string>
+    <string name="need_pro_for_triggers">Dans la version gratuite une librairie ne peut contenir qu\'un seul déclencheur. Pour éliminer cette restriction passer à la version pro.</string>
+    <string name="filters_tab_dialog_title">Sélectioner les filtres pour les tabulateurs</string>
+    </resources>

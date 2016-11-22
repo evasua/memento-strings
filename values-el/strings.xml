@@ -86,7 +86,7 @@
     <string name="flex_role_name">Όνομα εγγραφής</string>
     <string name="flex_role_status">Κατάσταση εγγραφής</string>
     <string name="short_flex_role_name">όνομα</string>
-    <string name="short_flex_role_hint">φθίνουσα</string>
+    <string name="short_flex_role_hint">περιγραφή</string>
     <string name="short_flex_role_status">κατάσταση</string>
     <string name="item_add_to_favorite">Η εγγραφή προστέθηκε στα Αγαπημένα</string>
     <string name="item_remove_from_favorite">Η εγγραφή αφαιρέθηκε από τα Αγαπημένα</string>
@@ -246,7 +246,7 @@
     <string name="memento_pass_hint2">Επανάληψη κωδικού πρόσβασης</string>
     <string name="memento_email_hint">Ηλ. Ταχυδρομείο</string>
     <string name="memento_register_button">Δημιουργία</string>
-    <string name="memento_have_button">Έχω το λογαριασμό</string>
+    <string name="memento_have_button">Έχω ένα λογαριασμό</string>
     <string name="login_empty">Πληκτρολογήστε το όνομα χρήστη</string>
     <string name="pass_not_equal">Παρακαλώ επιβεβαιώστε ξανά τον κωδικό πρόσβασής σας</string>
     <string name="incorrect_email">Μη έγκυρο ηλ. ταχυδρομείο</string>
@@ -958,7 +958,7 @@
     <string name="calc_value_type_number">Αριθμητικός τύπος τιμής</string>
     <string name="calc_value_type_string">Τύπος τιμής συμβολοσειράς</string>
     <string name="sort_by_downloads">Ταξινόμηση κατά Λήψεις</string>
-    <string name="need_auth_on_memento_server">Θα πρέπει να δημιουργήσετε το λογαριασμό στο διακομιστή Memento</string>
+    <string name="need_auth_on_memento_server">Θα πρέπει να δημιουργήσετε το λογαριασμό στο Σύννεφο Memento</string>
     <string name="empty_my_templates_list">Δεν έχετε δημοσιευμένα πρότυπα βιβλιοθήκης.</string>
     <string name="empty_field_depend_list">Αυτό το πεδίο δεν έχει εξαρτήσεις σε άλλα πεδία.</string>
     <string name="share_template_dialog_title">Μοιραστείτε το πρότυπο μέσα από το ηλεκτρονικό κατάλογο</string>
@@ -1389,4 +1389,239 @@
 
 <string name="chart_option_display_legends">Γράφημα legend</string>
     <string name="find_library_by_url_hint">http://libs.mobi/address</string>
-	</resources>
+	<string name="lost_database_text">Δεν είναι δυνατό να ανοίξει το αρχείο βάσης δεδομένων, βεβαιωθείτε ότι υπάρχει στην καθορισμένη διαδρομή</string>
+    <string name="upload_to_cloud">Ανέβασμα στο Σύννεφο</string>
+    <string name="multi_choice_delimiter">Διαχωριστικό</string>
+    <string name="cloud_plan_free">Δωρεάν</string>
+    <string name="cloud_plan_plan3">Περιορισμένη</string>
+    <string name="cloud_plan_plan6">Επαγγελματική</string>
+    <string name="cloud_plan_plan10">Pro Συν</string>
+    <string name="cloud_plan_storage">%s Χώρος Αποθήκευσης</string>
+
+    <string name="memento_server_settings_group">Διακομιστής Memento</string>
+    <string name="memento_server_host">Η διεύθυνση του Διακομιστή Memento</string>
+    <string name="memento_server_cloud">Χρήση Σύννεφου Memento</string>
+    <string name="memento_server_private">Χρήση Ιδιωτικού Διακομιστή Memento</string>
+    <string name="memento_server_private_hint">φιλοξενία:θύρα</string>
+    <string name="memento_server_private_not_found">Ο ιδιωτικός διακομιστής δεν βρέθηκε με την συγκεκριμένη διεύθυνση</string>
+    <string name="latitude_longitude">Γεωγραφικό πλάτος/Γεωγραφικό μήκος</string>
+    <string name="latitude_longitude_hint">γεωγραφικό πλάτος,γεωγραφικό μήκος</string>
+    <string name="latitude_longitude_parse_error">Δεν μπορώ να αναλύσω το γεωγραφικό πλάτος,γεωγραφικό μήκος</string>
+    <string name="relation_type">Είδος της σχέσης</string>
+    <string name="relation_type_one_to_one">Ένα-προς-Ένα</string>
+    <string name="relation_type_one_to_many">Ένα-προς-Πολλά</string>
+    <string name="relation_type_many_to_many">Πολλά-προς-Πολλά</string>
+    <string name="relation_type_one_limit">Η επιλεγμένη εγγραφή έχει ήδη μια σχέση</string>
+    <string name="relation_type_one_limit2">%s έχει ήδη μια σχέση</string>
+    <string name="library_edit_mode">Κατάσταση επεξεργασίας</string>
+    <string name="library_edit_mode_hint">Άνοιγμα επεξεργασίας κάνοντας κλικ σε μια καταχώρηση</string>
+    <string name="desktop_version">Έκδοση για υπολογιστές</string>
+
+    <string name="no_comments">Χωρίς σχόλια</string>
+    <plurals name="comments_count">
+	<item quantity="one">Ένα σχόλιο</item>
+	<item quantity="other">%d σχόλια</item>
+</plurals>
+    <string name="comments_only_for_cloud">Σχόλια μπορούν να αναρτηθούν μόνο στις βιβλιοθήκες που έχουν ανέβει στο σύννεφο. Ανέβασμα μιας βιβλιοθήκης στο σύννεφο;</string>
+    <string name="locale_plugin_add_edit_entry_title">Προσθέστε/επεξεργαστείτε μια καταχώρηση</string>
+    <string name="locale_to_fields_list_empty_text">Κάντε κλικ στο κουμπί + για να δημιουργήσετε νέους κανόνες για τη συμπλήρωση πεδίων βιβλιοθήκης.</string>
+    <string name="locale_to_fields_var">Κείμενο από %s</string>
+    <string name="locale_to_fields_add_rule_title">Προσθήκη κανόνα</string>
+    <string name="locale_to_fields_edit_rule_title">Επεξεργασία κανόνα</string>
+    <string name="variable_select">Επιλογή Μεταβλητής</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Επεξεργασία Καταχώρησης</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Δημιουργήστε μια νέα καταχώρηση, εάν αποτύχατε να βρείτε μια καταχώρηση με το πεδίο κλειδί</string>
+
+    <string name="send_field_title">Αποστολή του ονόματος πεδίου</string>
+    <string name="send_field_title_summary">Το όνομα πεδίου θα ακολουθήσει την τιμή του πεδίου</string>
+    <string name="auto_lock_libraries_time_title">Κλείσιμο της πρόσβασης σε βιβλιοθήκες</string>
+    <string name="auto_lock_libraries_after">Μετά %s</string>
+
+    <string name="empty_triggers_list_text">Αυτή η βιβλιοθήκη δεν περιέχει εναύσματα.\nΤο έναυσμα είναι ένα σενάριο που καθορίζει την επεξεργασία μιας καταχώρησης βασισμένη σε ένα συμβάν που έλαβε χώρα.</string>
+    <string name="triggers">Εναύσματα</string>
+    <string name="trigger_name">Όνομα εναύσματος</string>
+    <string name="trigger_event">Συμβάν</string>
+    <string name="trigger_moment">Φάση</string>
+    <string name="unknown_trigger_event_type">Άγνωστο συμβάν</string>
+    <string name="unknown_trigger_moment_type">Άγνωστη φάση</string>
+
+    <string name="trigger_event_create_entry">Δημιουργώντας μια καταχώρηση</string>
+    <string name="trigger_event_modify_entry">Ενημερώνοντας μια καταχώρηση</string>
+    <string name="trigger_event_delete_entry">Διαγράφοντας μια καταχώρηση</string>
+    <string name="trigger_event_open_entry">Ανοίγοντας κάρτα Προβολής Καταχώρησης</string>
+    <string name="trigger_event_add_favorites">Προσθέτοντας καταχωρήσεις στα Αγαπημένα</string>
+    <string name="trigger_event_remove_favorites">Διαγράφοντας μια καταχώρηση από τα Αγαπημένα</string>
+    <string name="trigger_default_name">Έναυσμα %d</string>
+    <string name="trigger_enabled">Ενεργοποιήθηκε</string>
+    <string name="trigger_switched_off">Απενεργοποιημένο</string>
+    <string name="trigger_delete_message">Θέλετε σιγουρα να διαγράψετε το έναυσμα \"%s\" ;</string>
+
+
+    <string name="trigger_moment_open_form">Αγοίγοντα μια κάρτα Επεξεργασία Καταχώρησης</string>
+    <string name="trigger_moment_before_save">Πριν την αποθήκευση μιας καταχώρησης</string>
+    <string name="trigger_moment_after_save">Μετά την αποθήκευση της καταχώρησης</string>
+    <string name="trigger_moment_before_delete">Πριν την διαγραφή μιας καταχώρησης</string>
+    <string name="trigger_moment_after_delete">Μετά την διαγραφή μιας καταχώρησης</string>
+    <string name="trigger_moment_before_show">Πριν την εμφάνιση παραθύρου</string>
+    <string name="trigger_moment_after_show">Μετά την εμφάνιση παραθύρου</string>
+
+    <string name="application">Εφαρμογή</string>
+    <string name="debug">Εντοπισμός σφαλμάτων</string>
+    <string name="debug_summary">Επιλογές Καταγραφής</string>
+    <string name="log_files_folder">Κατάλογος αρχείων καταγραφής</string>
+
+    <string name="enable_logging_cloud">Κλήσεις Σύννεφου Memento</string>
+    <string name="enable_logging_triggers">Καταγραφές εναυσμάτων</string>
+    <string name="script_log">Καταγραφή Δέσμης Ενεργειών</string>
+
+    <string name="trigger_permissions">Δικαιώματα για εναύσματα</string>
+    <string name="trigger_permission_read_file">Ανάγνωση αρχείων</string>
+    <string name="trigger_permission_read_file_hint">Επιτρέπει στην δέσμη ενεργειών την ανάγνωση από εξωτερικό χώρο αποθήκευσης</string>
+    <string name="trigger_permission_write_file">Εγγραφή αρχείων</string>
+    <string name="trigger_permission_write_file_hint">Επιτρέπει στην δέσμη ενεργειών την εγγραφή σε εξωτερικό χώρο αποθήκευσης</string>
+    <string name="trigger_permission_network">Δίκτυο</string>
+    <string name="trigger_permission_network_hint">Επιτρέπει στην δέσμη ενεργειών (script) να εκτελεί αιτήσεις HTTP</string>
+
+    <string name="trigger_permission_libraries">Βιβλιοθήκες</string>
+    <string name="trigger_permission_libraries_hint">Πρόσβαση σε όλες τις βιβλιοθήκες</string>
+
+    <string name="trigger_permission_libraries_select">Διαθέσιμες βιβλιοθήκες</string>
+    <string name="trigger_permission_libraries_select_title">Επιλέξτε βιβλιοθήκες</string>
+    <string name="need_pro_for_triggers">Στην δωρεάν έκδοση, μία βιβλιοθήκη μπορεί να περιέχει μόνο ένα έναυσμα. Για να καταργήσετε αυτόν τον περιορισμό, παρακαλούμε αναβαθμίστε στην έκδοση PRO.</string>
+    <string name="filters_tab">Καρτέλες...</string>
+    <string name="filters_tab_dialog_title">Επιλέξτε φίλτρα για τις καρτέλες</string>
+    <string name="export_template_include_filters">Περιλαμβάνει φίλτρα</string>
+
+    <string name="unit_of_measurement_enable">Προσθέστε μια μονάδα μέτρησης για το πεδίο</string>
+    <string name="unit_of_measurement_none">Κανένα</string>
+
+    <string name="unit_of_measurement_category">Κατηγορία</string>
+    <string name="unit_of_measurement">Μονάδα μέτρησης</string>
+    <string name="unit_of_measurement_button">Προσθέστε ένα μετατροπέα μονάδων στο πεδίο</string>
+
+    <string name="uom_category_temperature">Θερμοκρασία</string>
+    <string name="uom_celsius">Κελσίου</string>
+    <string name="uom_fahrenheit">Φαρενάιτ</string>
+    <string name="uom_kelvin">Κέλβιν</string>
+    <string name="uom_rankine">Ράνκιν</string>
+
+    <string name="uom_category_time">Ώρα</string>
+    <string name="uom_nanosecond">Νανοδευτερόλεπτο</string>
+    <string name="uom_microsecond">Μικροδευτερόλεπτο</string>
+    <string name="uom_millisecond">Χιλιοστό δευτερολέπτου</string>
+    <string name="uom_second">Δευτερόλεπτο</string>
+    <string name="uom_minute">Λεπτό</string>
+    <string name="uom_hour">Ώρα</string>
+    <string name="uom_day">Ημέρα</string>
+    <string name="uom_week">Εβδομάδα</string>
+    <string name="uom_year">Έτος</string>
+
+    <string name="uom_category_pressure">Πίεση</string>
+    <string name="uom_pascal">Πασκάλ</string>
+    <string name="uom_atmosphere">Ατμόσφαιρα</string>
+    <string name="uom_bar">Μπαρ</string>
+
+    <string name="uom_category_length">Μέγεθος</string>
+    <string name="uom_meter">Μέτρο</string>
+    <string name="uom_kilometer">Χιλιόμετρο</string>
+    <string name="uom_centimeter">Εκατοστό</string>
+    <string name="uom_millimeter">Χιλιοστό</string>
+    <string name="uom_micrometer">Μικρόμετρο</string>
+    <string name="uom_nanometer">Νανόμετρο</string>
+    <string name="uom_mile">Μίλι</string>
+    <string name="uom_nautical_mile">Ναυτικό μίλι</string>
+    <string name="uom_foot">Πόδι</string>
+    <string name="uom_yard">Γιάρδα</string>
+    <string name="uom_inch">Ίντσα</string>
+    <string name="uom_angstrom">Άνγκστρομ</string>
+    <string name="uom_astronomical_unit">Αστρονομική μονάδα</string>
+    <string name="uom_light_year">Έτος φωτός</string>
+    <string name="uom_parsec">Παρσέκ</string>
+
+    <string name="uom_category_mass">Μάζα</string>
+    <string name="uom_microgram">Μικρογραμμάριο</string>
+    <string name="uom_milligram">Χιλιοστόγραμμο</string>
+    <string name="uom_gram">Γραμμάριο</string>
+    <string name="uom_kilogram">Κιλό</string>
+    <string name="uom_ton">Τόνος</string>
+    <string name="uom_ton_uk">Imperial τόνος</string>
+    <string name="uom_ton_us">Τόνος ΗΠΑ</string>
+    <string name="uom_pound">Λίβρα</string>
+    <string name="uom_ounce">Ουγγιά</string>
+
+    <string name="uom_category_volume">Ένταση</string>
+    <string name="uom_cubic_metre">Κυβικό μέτρο</string>
+    <string name="uom_liter">Λίτρο</string>
+    <string name="uom_cubic_inch">Κυβική ίντσα</string>
+    <string name="uom_gallon_liquid_us">Γαλόνι ΗΠΑ</string>
+    <string name="uom_ounce_liquid_us">Ουγγιά υγρού ΗΠΑ</string>
+    <string name="uom_gallon_uk">Γαλόνι Imperial</string>
+    <string name="uom_ounce_liquid_uk">Ουγγιά υγρού Imperial</string>
+
+    <string name="uom_category_dataamount">Ψηφιακή αποθήκευση</string>
+    <string name="uom_bit">Μπιτ (Bit)</string>
+    <string name="uom_byte">Μπάιτ (Byte)</string>
+    <string name="uom_kilobit">Κιλομπιτ (Kilobit)</string>
+    <string name="uom_kilobyte">Κιλομπάιτ (Kilobyte)</string>
+    <string name="uom_megabit">Μεγαμπιτ (Megabit)</string>
+    <string name="uom_megabyte">Μεγαμπάιτ (Megabyte)</string>
+    <string name="uom_gigabit">Γιγαμπίτ (Gigabit)</string>
+    <string name="uom_gigabyte">Γιγαμπάιτ (Gigabyte)</string>
+    <string name="uom_terabit">Τεραμπίτ (Terabit)</string>
+    <string name="uom_terabyte">Τεραμπάιτ (Terabyte)</string>
+    <string name="uom_petabit">Πεταμπίτ (Petabit)</string>
+    <string name="uom_petabyte">Πεταμπάιτ (Petabyte)</string>
+
+    <string name="uom_category_area">Περιοχή</string>
+    <string name="uom_square_metre">Τετρ. μέτρο</string>
+    <string name="uom_are">Έαρ</string>
+    <string name="uom_hectare">Εκτάριο</string>
+
+    <string name="uom_category_velocity">Ταχύτητα</string>
+    <string name="uom_meters_per_second">Μέτρα ανά δευτερόλεπτο</string>
+    <string name="uom_miles_per_hour">Μίλια ανά ώρα</string>
+    <string name="uom_kilometers_per_hour">Χιλιόμετρα ανά ώρα</string>
+    <string name="uom_knot">Κόμβος</string>
+    <string name="uom_mach">Μαχ</string>
+
+    <string name="uom_category_power">Δύναμη</string>
+    <string name="uom_watt">Βατ</string>
+    <string name="uom_kilowatt">Κιλοβάτ</string>
+    <string name="uom_megawatt">Μεγαβάτ</string>
+    <string name="uom_horsepower">Ιπποδύμανη</string>
+
+    <string name="uom_category_energy">Ενέργεια</string>
+    <string name="uom_joule">Τζάουλ</string>
+    <string name="uom_kilojoule">Κιλοτζάουλ</string>
+
+    <string name="uom_category_frequency">Συχνότητα</string>
+    <string name="uom_hertz">Χερτζ</string>
+    <string name="uom_kilohertz">Κιλοχέρτζ</string>
+    <string name="uom_megahertz">Μεγαχέρτζ</string>
+    <string name="uom_gigahertz">Γιγαχέρτζ</string>
+
+    <string name="wrong_field_value">Το πεδίο %s έχει μία μη αποδεκτή τιμή</string>
+
+    <string name="unit_converter">Μετατροπέας μονάδων</string>
+    <string name="increase">Αύξηση</string>
+    <string name="decrease">Μείωση</string>
+    <string name="frozen">Σταθεροποιημένο</string>
+    <string name="frozen_text">Η βιβλιοθήκη έχει παγώσει, επειδή έχετε υπερβεί το όριο προγράμματός σας για τον αριθμό των βιβλιοθηκών που ανεβάσατε στο σύννεφο.</string>
+    <string name="date_and_time_formats">Μορφές ημερομηνίας και ώρας</string>
+    <string name="date_formats">Μορφές ημερομηνίας</string>
+    <string name="time_formats">Μορφές ώρας</string>
+    <string name="date_formats_short">Σύντομη ημερομηνία</string>
+    <string name="date_formats_long">Πλήρης ημερομηνία</string>
+    <string name="time_formats_short">Σύντομη ώρα</string>
+    <string name="time_formats_long">Πλήρης ώρα</string>
+    <string name="language">Γλώσσα</string>
+    <string name="next_button">Επόμενο</string>
+    <string name="bulk_add">Μαζική Προσθήκη</string>
+    <string name="login">Είσοδος</string>
+    <string name="sign_up">Εγγραφή</string>
+    <string name="memento_cloud2">Σύννεφο Memento</string>
+
+    <string name="from_file">Από αρχείο</string>
+    <string name="from_google_drive">Από Google Drive</string>
+
+</resources>

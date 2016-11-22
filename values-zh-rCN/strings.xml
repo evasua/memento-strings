@@ -1203,7 +1203,7 @@
 	<string name="catalog_templates_title">在线目录</string>
 	<string name="catalog_templates_hint">在线模板3000</string>
 	<string name="add_lib_from_google_drive_hint">从谷歌硬盘恢复</string>
-	<string name="templates">模板（强烈推荐-大量的中文模板下载：imedata.org）</string>
+	<string name="templates">模板</string>
 	<string name="import_template_from_file_hint">从文件导入模板</string>
 	<string name="help_cloud">云存储和团队精神</string>
 	<string name="subscription_pro_bonus_text">大多数资费计划，云存储还包括专业版作为奖金\n谷歌云端硬盘</string>
