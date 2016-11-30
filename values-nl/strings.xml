@@ -606,7 +606,7 @@
     <string name="clear_filter">Filter opheffen</string>
     <string name="new_filter_dialog_title">Nieuw filter</string>
     <string name="new_filter_dialog_text">Naam van de filter</string>
-    <string name="delete_filter_dialog_text">Wilt u dit filter echt verwijderen?</string>
+    <string name="delete_filter_dialog_text">Wilt u deze filter echt verwijderen?</string>
     <string name="add_to_favorite">Toevoegen aan Favorieten</string>
     <string name="remove_from_favorite">Verwijderen uit Favorieten</string>
     <string name="search_result_subtitle">Resultaten doorzoeken</string>
@@ -986,7 +986,7 @@
     <string name="share_template_dialog_title">Deel het sjabloon met anderen via de online catalogus</string>
     <string name="catalog_templates">Sjablonen in de catalogus</string>
     <string name="empty_search_result2">Er zijn geen items die voldoen aan je zoekopdracht %s</string>
-    <string name="rename_group">Hernoem groep</string>
+    <string name="rename_group">wijzig groep</string>
     <string name="move">Verplaats</string>
     <string name="select_group">Selecteer groep</string>
     <string name="library_moved_message">Verzameling verplaatst naar groep \"%s\"</string>
@@ -1141,7 +1141,7 @@
     <string name="cant_download_item_files_for_copy">Het downloaden van bestanden om kopieën te maken is mislukt.</string> 
     <string name="library_cloud_model_changed_message">De structuur van de verzameling is in de cloud ge-update. Update de structuur voor verdere synchronisatie.</string>
     <string name="button_update">Vernieuwen</string>
-    <string name="add_people">Voeg personen toe</string>
+    <string name="add_people">Voeg personen of een groep toe</string>
     <string name="read_permission">Lees</string>      
     <string name="write_permission">Schrijf</string>
     <string name="create_permission">Aanmaken</string>
@@ -1454,47 +1454,47 @@
 
     <string name="send_field_title">Verstuur de veldnaam</string>
     <string name="send_field_title_summary">De veldnaam volgt op de veldwaarde</string>
-    <string name="auto_lock_libraries_time_title">Sluit de toegang tot de bibliotheek</string>
+    <string name="auto_lock_libraries_time_title">toegang naar verzamelingen sluiten</string>
     <string name="auto_lock_libraries_after">Na %s</string>
 
-    <string name="empty_triggers_list_text"/>
-    <string name="triggers"/>
-    <string name="trigger_name"/>
+    <string name="empty_triggers_list_text">deze verzameling bevat geen triggers.\nEen trigger start een script nadat een event plaatsgevonden heeft.</string>
+    <string name="triggers">start van gebeurtenisen</string>
+    <string name="trigger_name">Trigger naam</string>
     <string name="trigger_event">Gebeurtenis</string>
     <string name="trigger_moment">Fase</string>
     <string name="unknown_trigger_event_type">Onbekende gebeurtenis</string>
     <string name="unknown_trigger_moment_type">Onbekende Fase</string>
 
-    <string name="trigger_event_create_entry">Een invoer aanmaken</string>
-    <string name="trigger_event_modify_entry">Een invoer updaten</string>
-    <string name="trigger_event_delete_entry">Een invoer verwijderen</string>
-    <string name="trigger_event_open_entry">"Een invoer  Beeld Kaart openen"</string>
-    <string name="trigger_event_add_favorites">Een invoer aan Favorieten toevoegen</string>
-    <string name="trigger_event_remove_favorites">"Een invoer verwijderen uit  Favorieten"</string>
-    <string name="trigger_default_name">Activering %d</string>
+    <string name="trigger_event_create_entry">Invoer aanmaken</string>
+    <string name="trigger_event_modify_entry">Invoer updaten</string>
+    <string name="trigger_event_delete_entry">Invoer verwijderen</string>
+    <string name="trigger_event_open_entry">Invoer beelkaart</string>
+    <string name="trigger_event_add_favorites">Invoer aan favorieten toevoegen</string>
+    <string name="trigger_event_remove_favorites">Invoer verwijderen uit favorieten</string>
+    <string name="trigger_default_name">Trigger %d</string>
     <string name="trigger_enabled">Ingeschakeld</string>
     <string name="trigger_switched_off">Uitgeschakeld</string>
-    <string name="trigger_delete_message">Bent u zeker dat u de activering \"%s\" wilt verwijderen?</string>
+    <string name="trigger_delete_message">Bent u zeker dat u de trigger \"%s\" wilt verwijderen?</string>
 
 
-    <string name="trigger_moment_open_form">Een invoer bewerken kaart openen</string>
+    <string name="trigger_moment_open_form">Invoer kaart openen</string>
     <string name="trigger_moment_before_save">Vooraleer de invoer op te slaan</string>
-    <string name="trigger_moment_after_save">Na de invoer op te slaan</string>
-    <string name="trigger_moment_before_delete">Alvorens een invoer te verwijderen</string>
-    <string name="trigger_moment_after_delete">Na een invoer te hebben verwijderd</string>
+    <string name="trigger_moment_after_save">Na het opslaan van de invoer</string>
+    <string name="trigger_moment_before_delete">voor het verwijderen van een invoer</string>
+    <string name="trigger_moment_after_delete">Na het verwijderen van een invoer</string>
     <string name="trigger_moment_before_show">Vooraleer het venster te vertonen</string>
     <string name="trigger_moment_after_show">Na het venster te hebben vertoond</string>
 
     <string name="application">Toepassing</string>
-    <string name="debug">Debuggen</string>
+    <string name="debug">verwijder fouten</string>
     <string name="debug_summary">Registratie opties</string>
     <string name="log_files_folder">Registratiebestandenmap</string>
 
     <string name="enable_logging_cloud">Memento Cloud oproepen</string>
-    <string name="enable_logging_triggers">Activeringsregstraties</string>
+    <string name="enable_logging_triggers">Trigger regstraties</string>
     <string name="script_log">Script registraties</string>
 
-    <string name="trigger_permissions">Machtigingen/toelatingen voor activeringen</string>
+    <string name="trigger_permissions">Machtigingen voor triggers</string>
     <string name="trigger_permission_read_file">Lees bestanden</string>
     <string name="trigger_permission_read_file_hint">Sta Scripts toe te lezen uit externe opslag</string>
     <string name="trigger_permission_write_file">Schrijf bestanden</string>
@@ -1502,15 +1502,15 @@
     <string name="trigger_permission_network">Netwerk</string>
     <string name="trigger_permission_network_hint">Sta scripts toe HTTP-verzoeken uit te voeren</string>
 
-    <string name="trigger_permission_libraries">Bibliotheken</string>
-    <string name="trigger_permission_libraries_hint">Toegang tot alle bibliotheken</string>
+    <string name="trigger_permission_libraries">Verzamelingen</string>
+    <string name="trigger_permission_libraries_hint">Toegang tot alle verzamelingen</string>
 
-    <string name="trigger_permission_libraries_select">Beschikbare bibliotheken</string>
-    <string name="trigger_permission_libraries_select_title">Selecteer bibliotheken</string>
-    <string name="need_pro_for_triggers">In de gratis versie kan één bibliotheek slechts één activering bevatten.</string>
+    <string name="trigger_permission_libraries_select">Beschikbare verzamelingen</string>
+    <string name="trigger_permission_libraries_select_title">Selecteer verzamelingen</string>
+    <string name="need_pro_for_triggers">In de gratis versie kan een verzameling maximum één trigger bevatten. Upgrade naar de PRO versie om deze beperking te verwijderen.</string>
     <string name="filters_tab">Tabbladen...</string>
     <string name="filters_tab_dialog_title">Selecteer filters voor tabbladen</string>
-    <string name="export_template_include_filters">Filters meetellen</string>
+    <string name="export_template_include_filters">Inclusief filters</string>
 
     <string name="unit_of_measurement_enable">Een maateenheid toevoegen aan een veld</string>
     <string name="unit_of_measurement_none">Geen</string>
@@ -1563,7 +1563,7 @@
     <string name="uom_milligram">Milligram</string>
     <string name="uom_gram">Gram</string>
     <string name="uom_kilogram">Kilogram</string>
-    <string name="uom_ton">megagram</string>
+    <string name="uom_ton">Ton</string>
     <string name="uom_ton_uk">Engelse ton</string>
     <string name="uom_pound">Pond</string>
     <string name="uom_ounce">Ons</string>
@@ -1572,10 +1572,10 @@
     <string name="uom_cubic_metre">Kubieke meter</string>
     <string name="uom_liter">Liter</string>
     <string name="uom_cubic_inch">Kubieke duim</string>
-    <string name="uom_gallon_liquid_us"/>
-    <string name="uom_ounce_liquid_us"/>
-    <string name="uom_gallon_uk"/>
-    <string name="uom_ounce_liquid_uk"/>
+    <string name="uom_gallon_liquid_us">Amerikaanse gallon</string>
+    <string name="uom_ounce_liquid_us">Amerikaanse vloeistof ounce</string>
+    <string name="uom_gallon_uk">Engelse gallon</string>
+    <string name="uom_ounce_liquid_uk">Engelse vloeistof ounce</string>
 
     <string name="uom_category_dataamount">Digitale opslag</string>
     <string name="uom_bit">Bit</string>
@@ -1586,12 +1586,12 @@
     <string name="uom_megabyte">Megabyte</string>
     <string name="uom_gigabit">Gigabit</string>
     <string name="uom_gigabyte">Gigabyte</string>
-    <string name="uom_terabit">Terrabit</string>
-    <string name="uom_terabyte">Terrabyte</string>
+    <string name="uom_terabit">Terabit</string>
+    <string name="uom_terabyte">Terabyte</string>
     <string name="uom_petabit">Petabit</string>
     <string name="uom_petabyte">Petabyte</string>
 
-    <string name="uom_category_area">Oppervlakte</string>
+    <string name="uom_category_area">Ruimte</string>
     <string name="uom_square_metre">Vierkante meter</string>
     <string name="uom_are">Are</string>
     <string name="uom_hectare">Hectare</string>
@@ -1607,7 +1607,7 @@
     <string name="uom_watt">Watt</string>
     <string name="uom_kilowatt">Kilowatt</string>
     <string name="uom_megawatt">Megawatt</string>
-    <string name="uom_horsepower">Paardekracht</string>
+    <string name="uom_horsepower">Paardenkracht</string>
 
     <string name="uom_category_energy">Energie</string>
     <string name="uom_joule">Joule</string>
@@ -1621,11 +1621,11 @@
 
     <string name="wrong_field_value">Veld %s heeft een ongeldige waarde</string>
 
-    <string name="unit_converter">Eenheidomzetter</string>
+    <string name="unit_converter">Eenheids omzetter</string>
     <string name="increase">Verhogen</string>
     <string name="decrease">Verlagen</string>
     <string name="frozen">Bevroren</string>
-    <string name="frozen_text">De bibliotheek is bevroren omdat het aantal bibliotheken in de Cloud, begrepen in uw tariefplan, overschreden is.</string>
+    <string name="frozen_text">De bibliotheek is bevroren omdat het aantal verzamelingen in de Cloud, begrepen in uw tariefplan, overschreden is.</string>
     <string name="date_and_time_formats">Datum- en tijdsformaten</string>
     <string name="date_formats">Datumformaten</string>
     <string name="time_formats">Tijdsformaten</string>
@@ -1640,7 +1640,53 @@
     <string name="sign_up">Registreren</string>
     <string name="memento_cloud2">Memento Cloud</string>
 
-    <string name="from_file">Uit bestand</string>
+    <string name="from_file">Van bestand</string>
     <string name="from_google_drive">Uit Google Drive</string>
+
+<string name="uom_ton_us">Amerikaanse ton</string>
+    <string name="locale_key_field_description">Hoofdveld invoer wijzigen</string>
+
+    <string name="field_values_delimiter">veld scheiding</string>
+    <string name="entries_desc_dialog_title">Invoer beschrijvingen zijn bepaald door waardes van de gekozen velden</string>
+    <string name="image_caption">bijschrift</string>
+    <string name="flex_type_subheader">subtitel</string>
+    <string name="create_subheader">subtitel aanmaken</string>
+    <string name="edit_subheader">subtitel wijzigen</string>
+    <string name="subheader_collapsed_by_default">standaard ingeklapt</string>
+    <string name="aggr_always_show">Toon altijd</string>
+    <string name="cant_add_management">De administrator heeft volledige toegang tot deze verzameling</string>
+    <string name="auth_error_user_blocked">Uw account is uitgeschakeld</string>
+    <string name="team_license">Team</string>
+    <string name="user_manager_only_for_team">het managen van gebruikers en licenties is alleen beschikbaar met groepstarief</string>
+    <string name="send_password_to_user">Verstuur wachtwoord via email naar gebruiker</string>
+    <string name="create_permissions">machtigingen aanmaken</string>
+    <string name="edit_permissions">machtigingen aanpassen</string>
+    <string name="library_permissions">verzameling machtigingen</string>
+    <string name="field_permissions">veld machtigingen</string>
+    <string name="library_permissions_subject">Gebruikersnaam/email/groep</string>
+    <string name="permissions_delete_message">"Wilt u de machtigingen van  \"%s\" verwijderen?"</string>
+    <string name="field_right_need_library_download">U moet een verzameling downloaden op uw toestel, om toegangsrechten voor velden aan te passen.</string>
+    <string name="field_permission_invisible">onzichtbaar</string>
+    <string name="field_permission_read_only">alleen lezen</string>
+    <string name="field_permissions_limit">toegangsrechten kunnen enkel toegepast worden met groepstarief.</string>
+    <string name="user_groups">gebruikersgroepen</string>
+    <string name="add_user_group">Gebruikersgroep toevoegen</string>
+    <string name="add_user_group_hint">Groepsnaam</string>
+    <string name="user_group_name_empty">De groepsnaam kan niet leeg zijn</string>
+    <string name="users_count_none">geen gebruikers</string>
+    <plurals name="users_count">
+	<item quantity="one">één</item>
+	<item quantity="other">andere</item>
+</plurals>
+    <string name="user_group_delete_message">Wilt u de groep \"%s\" verwijderen?</string>
+    <string name="group_not_found">Groep niet gevonden</string>
+    <string name="individual">Individueel</string>
+    <string name="team">Groep</string>
+    <string name="cloud_plan_team5">Groep 5</string>
+    <string name="cloud_plan_team10">Groep 10</string>
+    <string name="cloud_plan_team15">Groep 15</string>
+    <string name="cloud_plan_team20">Groep 20</string>
+    <string name="pro_for_team">PRO mogelijkheden voor alle gebruikers in de groep</string>
+    <string name="team_features_trial">Alle pakketten zijn inclusief 14 dagen gratis demo.</string>
 
 </resources>
