@@ -826,7 +826,7 @@
     <string name="cant_delete_charts_filter_message">Je kunt deze filter niet verwijderen, omdat het gebruikt wordt in de grafieken: %s</string>
     <string name="cant_delete_charts_field_message">Je kunt dit veld niet verwijderen, want het wordt gebruikt in de grafieken: %s</string>
     <string name="save_to_file_name">Bestandsnaam</string>
-    <string name="save_to_file_directory">Directory</string>
+    <string name="save_to_file_directory">Index</string>
     <string name="need_pro_for_charts">In de gratis versie kan een verzameling maar één grafiek bevatten. Upgrade alsjeblieft naar de PRO versie om deze beperking te verwijderen.</string>
     <string name="need_internet_for_charts">Google Charts vereist een actieve verbinding met het Internet</string>
     <string name="download_image_from_google_photo_message">Afbeelding van Google Photo aan het downloaden ...</string>
@@ -1240,7 +1240,7 @@
 	<string name="cloud_storage_full_text">Onvoldoende opslagruimte in de cloud.\nU kunt een hogere abonnementsvorm kiezen voor meer opslagruimte.</string>
 	<string name="cloud_storage_full_text2" formatted="false">Onvoldoende opslagruimte in de cloud.\nU heeft %s nodig, er is %s beschikbaar\nU kunt een hogere abonnementsvorm kiezen voor meer opslagruimte.</string>
 	<string name="library_cloud_count_limit">Met uw abonnementsvorm kunt u maximaal %s verzamelingen naar de cloud uploaden.</string>
-	<string name="google_books_source">Google Books</string>
+	<string name="google_books_source">Google Boeken</string>
     <string name="autofill_rules_delete_title">Verwijder de regels voor automatisch aanvullen</string>
     <string name="autofill_rules_delete_text">Weet u zeker dat u de regels voor automatisch vullen van bron \"%s\" wilt verwijderen?</string>
     <string name="empty_autofill_list_text">Maak regels voor automatisch vullen aan voor records van het internet</string>
@@ -1439,7 +1439,7 @@
 
     <string name="no_comments">Geen commentaar</string>
     <plurals name="comments_count">
-	<item quantity="one">Eén commentaar</item>
+	<item quantity="one">één commentaar</item>
 	<item quantity="other">%d commentaren</item>
 </plurals>
     <string name="comments_only_for_cloud">Opmerkingen kunnen enkel gepost worden in bibliotheken die in de Cloud zijn opgeslagen. Een bibliotheek in de Cloud opslaan?</string>
