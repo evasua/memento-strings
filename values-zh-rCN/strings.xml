@@ -1509,7 +1509,7 @@
 
     <string name="uom_category_temperature">温度</string>
     <string name="uom_celsius">摄氏度</string>
-    <string name="uom_fahrenheit">华氏</string>
+    <string name="uom_fahrenheit">华氏度</string>
     <string name="uom_kelvin">开尔文</string>
     <string name="uom_rankine">兰金</string>
 
@@ -1567,18 +1567,18 @@
     <string name="uom_ounce_liquid_uk">英制流体盎司</string>
 
     <string name="uom_category_dataamount">数字存储</string>
-    <string name="uom_bit">位</string>
-    <string name="uom_byte">字节</string>
+    <string name="uom_bit">bit</string>
+    <string name="uom_byte">B</string>
     <string name="uom_kilobit">千位元</string>
-    <string name="uom_kilobyte">千字节</string>
+    <string name="uom_kilobyte">KB</string>
     <string name="uom_megabit">兆比特</string>
-    <string name="uom_megabyte">兆字节</string>
+    <string name="uom_megabyte">MB</string>
     <string name="uom_gigabit">千兆</string>
-    <string name="uom_gigabyte">技嘉</string>
+    <string name="uom_gigabyte">GB</string>
     <string name="uom_terabit">太比</string>
-    <string name="uom_terabyte">太字节</string>
+    <string name="uom_terabyte">TB</string>
     <string name="uom_petabit">贝脱比特</string>
-    <string name="uom_petabyte">PB级</string>
+    <string name="uom_petabyte">PB</string>
 
     <string name="uom_category_area">面积</string>
     <string name="uom_square_metre">平方米</string>
