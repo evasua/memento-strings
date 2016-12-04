@@ -1397,4 +1397,283 @@
     <string formatted="false" name="of_counter">%d 与 %d</string>
 
 
+<string name="lost_database_text">无法打开数据库文件，请检查它是否存在指定路径中</string>
+    <string name="upload_to_cloud">上传到云端</string>
+    <string name="multi_choice_delimiter">分隔符</string>
+    <string name="cloud_plan_free">免费</string>
+    <string name="cloud_plan_plan3">精简版</string>
+    <string name="cloud_plan_plan6">专业版</string>
+    <string name="cloud_plan_plan10">专业增强版</string>
+    <string name="cloud_plan_storage">%s 储存</string>
+
+    <string name="memento_server_settings_group">Memento服务器</string>
+    <string name="memento_server_host">Memento服务器的地址</string>
+    <string name="memento_server_cloud">使用Memento云</string>
+    <string name="memento_server_private">使用Memento私人服务器</string>
+    <string name="memento_server_private_hint">主机：端口</string>
+    <string name="memento_server_private_not_found">通过指定地址找不到私人服务器</string>
+    <string name="latitude_longitude">纬度/经度</string>
+    <string name="latitude_longitude_hint">纬度,经度</string>
+    <string name="latitude_longitude_parse_error">无法解析纬度/经度</string>
+    <string name="relation_type">关系类型</string>
+    <string name="relation_type_one_to_one">一对一</string>
+    <string name="relation_type_one_to_many">一对多</string>
+    <string name="relation_type_many_to_many">多对多</string>
+    <string name="relation_type_one_limit">所选记录已有关系</string>
+    <string name="relation_type_one_limit2">%s 已经有一个关系</string>
+    <string name="library_edit_mode">编辑模式</string>
+    <string name="library_edit_mode_hint">通过单击条目打开编辑表单</string>
+    <string name="desktop_version">桌面版本</string>
+
+    <string name="no_comments">没意见</string>
+    <plurals name="comments_count">
+	<item quantity="one">一个评论</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="comments_only_for_cloud">注释只能发布到已上传到云的库。将库上传到云？</string>
+    <string name="locale_plugin_add_edit_entry_title">添加/编辑条目</string>
+    <string name="locale_to_fields_list_empty_text">单击+按钮以创建用于填写库字段的新规则。</string>
+    <string name="locale_to_fields_var">来自%s的文字</string>
+    <string name="locale_to_fields_add_rule_title">添加规则</string>
+    <string name="locale_to_fields_edit_rule_title">编辑规则</string>
+    <string name="variable_select">变量选择</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">编辑条目</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">如果未能通过字段找到条目，请创建新条目</string>
+
+    <string name="send_field_title">发送字段名称</string>
+    <string name="send_field_title_summary">字段名称将在字段值后面</string>
+    <string name="auto_lock_libraries_time_title">关闭对库的访问</string>
+    <string name="auto_lock_libraries_after">%s 之后</string>
+
+    <string name="empty_triggers_list_text">此库不包含触发器。\n触发器是一个脚本，用于根据发生的事件定义条目的处理。</string>
+    <string name="triggers">触发器</string>
+    <string name="trigger_name">触发器名称</string>
+    <string name="trigger_event">事件</string>
+    <string name="trigger_moment">阶段</string>
+    <string name="unknown_trigger_event_type">未知事件</string>
+    <string name="unknown_trigger_moment_type">未知阶段</string>
+
+    <string name="trigger_event_create_entry">创建条目</string>
+    <string name="trigger_event_modify_entry">更新条目</string>
+    <string name="trigger_event_delete_entry">删除条目</string>
+    <string name="trigger_event_open_entry">打开条目查看卡</string>
+    <string name="trigger_event_add_favorites">向收藏夹中添加条目</string>
+    <string name="trigger_event_remove_favorites">从收藏夹中删除条目</string>
+    <string name="trigger_default_name">触发 %d</string>
+    <string name="trigger_enabled">启用</string>
+    <string name="trigger_switched_off">关闭</string>
+    <string name="trigger_delete_message">您真的要删除触发器“%s”吗？</string>
+
+
+    <string name="trigger_moment_open_form">打开条目编辑卡</string>
+    <string name="trigger_moment_before_save">保存条目之前</string>
+    <string name="trigger_moment_after_save">保存条目后</string>
+    <string name="trigger_moment_before_delete">删除条目之前</string>
+    <string name="trigger_moment_after_delete">删除条目后</string>
+    <string name="trigger_moment_before_show">窗口显示前</string>
+    <string name="trigger_moment_after_show">窗口显示后</string>
+
+    <string name="application">应用</string>
+    <string name="debug">调试</string>
+    <string name="debug_summary">日志选项</string>
+    <string name="log_files_folder">日志文件目录</string>
+
+    <string name="enable_logging_cloud">Memento云电话</string>
+    <string name="enable_logging_triggers">触发日志</string>
+    <string name="script_log">脚本日志</string>
+
+    <string name="trigger_permissions">触发器权限</string>
+    <string name="trigger_permission_read_file">读取文件</string>
+    <string name="trigger_permission_read_file_hint">允许脚本从外部存储器读取</string>
+    <string name="trigger_permission_write_file">写文件</string>
+    <string name="trigger_permission_write_file_hint">允许脚本写入外部存储</string>
+    <string name="trigger_permission_network">网络</string>
+    <string name="trigger_permission_network_hint">允许脚本执行HTTP请求</string>
+
+    <string name="trigger_permission_libraries">库</string>
+    <string name="trigger_permission_libraries_hint">访问所有库</string>
+
+    <string name="trigger_permission_libraries_select">可用的库</string>
+    <string name="trigger_permission_libraries_select_title">选择库</string>
+    <string name="need_pro_for_triggers">在免费版本中，一个库只能包含一个触发器。要取消这种限制，请升级到专业版。</string>
+    <string name="filters_tab">标签...</string>
+    <string name="filters_tab_dialog_title">选择标签的过滤器</string>
+    <string name="export_template_include_filters">包含过滤器</string>
+
+    <string name="unit_of_measurement_enable">将度量单位添加到字段</string>
+    <string name="unit_of_measurement_none">没有</string>
+
+    <string name="unit_of_measurement_category">类别</string>
+    <string name="unit_of_measurement">测量单位</string>
+    <string name="unit_of_measurement_button">向字段添加单位的转换器</string>
+
+    <string name="uom_category_temperature">温度</string>
+    <string name="uom_celsius">摄氏度</string>
+    <string name="uom_fahrenheit">华氏</string>
+    <string name="uom_kelvin">开尔文</string>
+    <string name="uom_rankine">兰金</string>
+
+    <string name="uom_category_time">时间</string>
+    <string name="uom_nanosecond">纳秒</string>
+    <string name="uom_microsecond">微秒</string>
+    <string name="uom_millisecond">毫秒</string>
+    <string name="uom_second">第二</string>
+    <string name="uom_minute">分钟</string>
+    <string name="uom_hour">小时</string>
+    <string name="uom_day">天</string>
+    <string name="uom_week">周</string>
+    <string name="uom_year">年</string>
+
+    <string name="uom_category_pressure">压力</string>
+    <string name="uom_pascal">帕斯卡</string>
+    <string name="uom_atmosphere">大气层</string>
+    <string name="uom_bar">酒吧</string>
+
+    <string name="uom_category_length">长度</string>
+    <string name="uom_meter">米</string>
+    <string name="uom_kilometer">公里</string>
+    <string name="uom_centimeter">厘米</string>
+    <string name="uom_millimeter">毫米</string>
+    <string name="uom_micrometer">千分尺</string>
+    <string name="uom_nanometer">纳米</string>
+    <string name="uom_mile">英里</string>
+    <string name="uom_nautical_mile">海里</string>
+    <string name="uom_foot">英尺</string>
+    <string name="uom_yard">码</string>
+    <string name="uom_inch">英寸</string>
+    <string name="uom_angstrom">Angstrem</string>
+    <string name="uom_astronomical_unit">天文单位</string>
+    <string name="uom_light_year">光年</string>
+    <string name="uom_parsec">秒差距</string>
+
+    <string name="uom_category_mass">质量</string>
+    <string name="uom_microgram">微克</string>
+    <string name="uom_milligram">毫克</string>
+    <string name="uom_gram">公克</string>
+    <string name="uom_kilogram">公斤</string>
+    <string name="uom_ton">吨</string>
+    <string name="uom_ton_uk">帝国吨</string>
+    <string name="uom_ton_us">美吨</string>
+    <string name="uom_pound">磅</string>
+    <string name="uom_ounce">盎司</string>
+
+    <string name="uom_category_volume">卷</string>
+    <string name="uom_cubic_metre">立方米</string>
+    <string name="uom_liter">升</string>
+    <string name="uom_cubic_inch">立方英寸</string>
+    <string name="uom_gallon_liquid_us">美制加仑</string>
+    <string name="uom_ounce_liquid_us">美国流体盎司</string>
+    <string name="uom_gallon_uk">英制加仑</string>
+    <string name="uom_ounce_liquid_uk">英制流体盎司</string>
+
+    <string name="uom_category_dataamount">数字存储</string>
+    <string name="uom_bit">位</string>
+    <string name="uom_byte">字节</string>
+    <string name="uom_kilobit">千位元</string>
+    <string name="uom_kilobyte">千字节</string>
+    <string name="uom_megabit">兆比特</string>
+    <string name="uom_megabyte">兆字节</string>
+    <string name="uom_gigabit">千兆</string>
+    <string name="uom_gigabyte">技嘉</string>
+    <string name="uom_terabit">太比</string>
+    <string name="uom_terabyte">太字节</string>
+    <string name="uom_petabit">贝脱比特</string>
+    <string name="uom_petabyte">PB级</string>
+
+    <string name="uom_category_area">面积</string>
+    <string name="uom_square_metre">平方米</string>
+    <string name="uom_are">是</string>
+    <string name="uom_hectare">公顷</string>
+
+    <string name="uom_category_velocity">速度</string>
+    <string name="uom_meters_per_second">米每秒</string>
+    <string name="uom_miles_per_hour">英里每小时</string>
+    <string name="uom_kilometers_per_hour">公里每小时</string>
+    <string name="uom_knot">结</string>
+    <string name="uom_mach">马赫</string>
+
+    <string name="uom_category_power">功率</string>
+    <string name="uom_watt">瓦</string>
+    <string name="uom_kilowatt">千瓦</string>
+    <string name="uom_megawatt">兆瓦</string>
+    <string name="uom_horsepower">英制马力</string>
+
+    <string name="uom_category_energy">能源</string>
+    <string name="uom_joule">焦耳</string>
+    <string name="uom_kilojoule">千焦耳</string>
+
+    <string name="uom_category_frequency">频率</string>
+    <string name="uom_hertz">赫兹</string>
+    <string name="uom_kilohertz">千赫</string>
+    <string name="uom_megahertz">兆赫</string>
+    <string name="uom_gigahertz">千兆赫</string>
+
+    <string name="wrong_field_value">字段 %s 具有不可接受的值</string>
+
+    <string name="unit_converter">单位转换器</string>
+    <string name="increase">增加</string>
+    <string name="decrease">减少</string>
+    <string name="frozen">冷冻</string>
+    <string name="frozen_text">库已冻结，因为已超过上传到云库的数量资费限制。</string>
+    <string name="date_and_time_formats">日期和时间格式</string>
+    <string name="date_formats">日期格式</string>
+    <string name="time_formats">时间格式</string>
+    <string name="date_formats_short">短日期</string>
+    <string name="date_formats_long">长日期</string>
+    <string name="time_formats_short">短时间</string>
+    <string name="time_formats_long">长时间</string>
+    <string name="language">语言</string>
+    <string name="next_button">下一步</string>
+    <string name="bulk_add">批量添加</string>
+    <string name="login">登录</string>
+    <string name="sign_up">注册</string>
+    <string name="memento_cloud2">Memento云</string>
+
+    <string name="from_file">来自文件</string>
+    <string name="from_google_drive">来自Google云端硬盘</string>
+    <string name="locale_key_field_description">编辑条目中的关键字段</string>
+
+    <string name="field_values_delimiter">字段分隔符</string>
+    <string name="entries_desc_dialog_title">条目描述由所选字段的值决定</string>
+    <string name="image_caption">标题</string>
+    <string name="flex_type_subheader">副标题</string>
+    <string name="create_subheader">创建副标题</string>
+    <string name="edit_subheader">编辑副标题</string>
+    <string name="subheader_collapsed_by_default">默认折叠</string>
+    <string name="aggr_always_show">始终显示</string>
+    <string name="cant_add_management">管理员具有对此库的完全访问权限</string>
+    <string name="auth_error_user_blocked">您的帐户已禁用</string>
+    <string name="team_license">团队</string>
+    <string name="user_manager_only_for_team">用户和许可证的管理仅适用于团队资费</string>
+    <string name="send_password_to_user">通过电子邮件向用户发送密码</string>
+    <string name="create_permissions">创建权限</string>
+    <string name="edit_permissions">编辑权限</string>
+    <string name="library_permissions">库权限</string>
+    <string name="field_permissions">字段权限</string>
+    <string name="library_permissions_subject">用户名/电子邮件/组</string>
+    <string name="permissions_delete_message">您确定要删除“%s”的权限吗？</string>
+    <string name="field_right_need_library_download">您必须下载设备上的库，增加了对新字段的访问权限。</string>
+    <string name="field_permission_invisible">不可见</string>
+    <string name="field_permission_read_only">只读</string>
+    <string name="field_permissions_limit">字段的访问权限只能在团队资费上设置。</string>
+    <string name="user_groups">用户组</string>
+    <string name="add_user_group">添加用户组</string>
+    <string name="add_user_group_hint">组名称</string>
+    <string name="user_group_name_empty">组名称不能为空</string>
+    <string name="users_count_none">没有用户</string>
+    <plurals name="users_count">
+	<item quantity="one">一个用户</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="user_group_delete_message">您确定要删除群组“%s”吗？</string>
+    <string name="group_not_found">找不到群组</string>
+    <string name="individual">个人</string>
+    <string name="team">团队</string>
+    <string name="cloud_plan_team5">团队5</string>
+    <string name="cloud_plan_team10">团队10</string>
+    <string name="cloud_plan_team15">团队15</string>
+    <string name="cloud_plan_team20">团队 20</string>
+    <string name="pro_for_team">专业版功能为团队中的所有用户</string>
+    <string name="team_features_trial">所有计划包括免费14天试用。</string>
+
 </resources>
