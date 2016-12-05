@@ -690,7 +690,7 @@
     <string name="files_storage_settings_dublicate_title">复制文件到存储文件夹</string>
     <string name="files_storage_settings_dublicate_summary">增加记录时，文件复制到存储文件夹</string>
     <string name="files_storage_settings_remove_original_title">删除原文件</string>
-    <string name="files_storage_settings_remove_original_summary">当复制文件到存储文件夹时，删除原文件。</string>
+    <string name="files_storage_settings_remove_original_summary">将文件复制到存储器后，请删除原文件。</string>
     <string name="dublicate_file_error">"不能移动存储的文件: "</string>
     <string name="select_map_type">地图类型</string>
     <string name="normal">正常</string>
@@ -926,7 +926,7 @@
     <string name="aggregation_result_right">右</string>
     <string name="aggregation_delete_title">删除聚合</string>
     <string name="aggregation_delete_message">难道你真的要删除聚合“%s”吗？</string>
-    <string name="aggregation_need_select_field_message">您必须选择一个字段作为这个聚合函数。</string>
+    <string name="aggregation_need_select_field_message">您必须为这个聚合函数选择一个字段。</string>
     <string name="open_object_by_uri_error">无法打开对象：%s</string>
     <string name="import_and_export_menu_item">导入和导出...</string>
     <string name="entries_export_snackbar_ok">导出成功</string>
@@ -1115,7 +1115,7 @@
     <string name="cloud_size">尺寸</string>
     <string name="cloud_files_count">文件计数</string>
     <string name="cloud_who_has_access">谁有权访问</string>
-    <string name="cloud_server_unavaliable">Memento云服务器不可用，请检查一下网络连接及您的设备。</string>
+    <string name="cloud_server_unavaliable">Memento云服务器不可用，请检查一下您的网络连接。</string>
     <string name="delete_from_cloud">从云中删除</string>
     <string name="delete_from_cloud_message_question">难道你真的想要删除的云库？</string>
         
