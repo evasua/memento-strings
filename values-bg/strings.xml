@@ -2,7 +2,7 @@
 <resources><string name="app_name">Memento</string>
     <string name="library_menu_add_item">Добавяне</string>
     <string name="main_menu_add_lib">Добавяне на библиотека</string>
-    <string name="ghostData_lib_title">Име</string>
+    <string name="ghostData_lib_title">Име на колекция</string>
     <string name="custom_template_title">Потребителски</string>
     <string name="button_create">Създаване</string>
     <string name="button_yes">Да</string>
@@ -595,7 +595,7 @@
     <string name="clear_filter">Изчистване на филтър</string>
     <string name="new_filter_dialog_title">Нов филтър</string>
     <string name="new_filter_dialog_text">Име на филтъра</string>
-    <string name="delete_filter_dialog_text">Наистина ли искате да изтриете този филтър?</string>
+    <string name="delete_filter_dialog_text">Наистина ли искате да изтриете филтър \"%s\"?</string>
     <string name="add_to_favorite">Добави към любими</string>
     <string name="remove_from_favorite">Премахване от любими</string>
     <string name="search_result_subtitle">Резултати от търсенето</string>
@@ -979,7 +979,7 @@
     <string name="share_template_dialog_title">Споделете шаблона чрез онлайн каталога</string>
     <string name="catalog_templates">Каталог шаблони</string>
     <string name="empty_search_result2">При търсенето на - %s - нищо не е намерено</string>
-    <string name="rename_group">Преименуване на група</string>
+    <string name="rename_group">Редактиране на група</string>
     <string name="move">Преместване</string>
     <string name="select_group">Изберете група</string>
     <string name="library_moved_message">Библиотеката е преместена в групата \"%s\"</string>
@@ -1124,7 +1124,7 @@
     <string name="cant_download_item_files_for_copy">Свалянето на файлове за създаване на копия се провалили.</string> 
     <string name="library_cloud_model_changed_message">Структурата на библиотеката е била изменена в облака. Актуализиране на структурата за по-нататъшна синхронизация.</string>
     <string name="button_update">Обновяване</string>
-    <string name="add_people">Добавяне на ползватели</string>
+    <string name="add_people">Добавяне на потребител или група</string>
     <string name="read_permission">Четене</string>      
     <string name="write_permission">Изменение</string>
     <string name="create_permission">Създаване</string>
@@ -1495,11 +1495,11 @@
     <string name="need_pro_for_triggers">В безплатната версия, една библиотека може да съдържа само един тригер. За да премахнете това ограничение, моля преминете към PRO версия.</string>
     <string name="export_template_include_filters">Включване на филтри</string>
 
-    <string name="unit_of_measurement_enable">Добави единица за измерване на полето</string>
+    <string name="unit_of_measurement_enable">Добавяне на мерна единица за полето</string>
     <string name="unit_of_measurement_none">Нито един</string>
 
     <string name="unit_of_measurement_category">Категория</string>
-    <string name="unit_of_measurement">Единица за измерване</string>
+    <string name="unit_of_measurement">Мерна единица</string>
     <string name="unit_of_measurement_button">Добави конвертор на единици за полето</string>
 
     <string name="uom_category_temperature">Температура</string>
@@ -1633,4 +1633,49 @@
     <string name="uom_mach">Mach</string>
 
     <string name="bulk_add">Масово добавяне</string>
-    </resources>
+    <string name="locale_key_field_description">Ключово поле за редактиране на записи</string>
+
+    <string name="field_values_delimiter">Разделител на поле</string>
+    <string name="entries_desc_dialog_title">Ввъвеждането на описание се определя от стойностите на избраните полета</string>
+    <string name="image_caption">Надпис</string>
+    <string name="flex_type_subheader">Подзаглавие</string>
+    <string name="create_subheader">Създаване на подзаглавие</string>
+    <string name="edit_subheader">Редактиране на подзаглавие</string>
+    <string name="subheader_collapsed_by_default">Свито по подразбиране</string>
+    <string name="aggr_always_show">Винаги да се показва</string>
+    <string name="cant_add_management">Администраторът има пълен достъп до тази библиотека</string>
+    <string name="auth_error_user_blocked">Профилът ви бе забранен</string>
+    <string name="team_license">Екип</string>
+    <string name="user_manager_only_for_team">Управлението на потребители и лицензи е достъпно само за екипни тарифи</string>
+    <string name="send_password_to_user">Изпратете парола до потребител по имейл</string>
+    <string name="create_permissions">Създаване на права</string>
+    <string name="edit_permissions">Редактиране на права</string>
+    <string name="library_permissions">Права за библиотека</string>
+    <string name="field_permissions">Права за поле</string>
+    <string name="library_permissions_subject">Потребителско име/имейл/група</string>
+    <string name="permissions_delete_message">Наистина ли искате да изтриете правата за \"%s\" ?</string>
+    <string name="field_right_need_library_download">Трябва да свалите библиотеката на вашето устройство за да се добавят нови права за достъп на полета.</string>
+    <string name="field_permission_invisible">Невидим</string>
+    <string name="field_permission_read_only">Само за четене</string>
+    <string name="field_permissions_limit">Права за достъп на полета могат да бъдат определяни само на екипни тарифи.</string>
+    <string name="user_groups">Потребителски групи</string>
+    <string name="add_user_group">Добавяне на потребителска група</string>
+    <string name="add_user_group_hint">Име на група</string>
+    <string name="user_group_name_empty">Името на групата не трябва да е празно</string>
+    <string name="users_count_none">Няма потребители</string>
+    <plurals name="users_count">
+	<item quantity="one">Един потребител</item>
+	<item quantity="other">%d потребители</item>
+</plurals>
+    <string name="user_group_delete_message">Наистина ли искате да изтриете групата \"%s\" ?</string>
+    <string name="group_not_found">Групата не е намерена</string>
+    <string name="individual">Индивидуален</string>
+    <string name="team">Екип</string>
+    <string name="cloud_plan_team5">Екип 5</string>
+    <string name="cloud_plan_team10">Екип 10</string>
+    <string name="cloud_plan_team15">Екип 15</string>
+    <string name="cloud_plan_team20">Екип 20</string>
+    <string name="pro_for_team">Pro функции за всички потребители в рамките на екипа</string>
+    <string name="team_features_trial">Всички планове включват безплатна 14-дневна пробна версия.</string>
+
+</resources>
