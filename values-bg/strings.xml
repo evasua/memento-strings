@@ -10,7 +10,7 @@
     <string name="button_no">Не</string>
     <string name="button_save">Запазване</string>
     <string name="button_cancel">Отказ</string>
-    <string name="button_add_field">Добавяне на поле</string>
+    <string name="button_add_field">Добавете поле</string>
     <string name="add_new_library_item">Добавяне на запис ...</string>
     <string name="flex_type_title_string">Текст</string>
     <string name="flex_type_title_int">Цяло число</string>
@@ -108,7 +108,7 @@
     <string name="flex_role_hint">Добавяне на описание</string>
     <string name="flex_role_status">Добавяне на статус</string>
     <string name="short_flex_role_name">име</string>
-    <string name="short_flex_role_hint">описание</string>
+    <string name="short_flex_role_hint">Описание</string>
     <string name="short_flex_role_status">статус</string>
     <string name="item_add_to_favorite">Добавяне към любими</string>
     <string name="item_remove_from_favorite">Премахване от любими</string>
@@ -264,7 +264,7 @@
     <string name="memento_pass_hint2">Повторете паролата</string>
     <string name="memento_email_hint">Email</string>
     <string name="memento_register_button">Създаване</string>
-    <string name="memento_have_button">Аз имам акаунт</string>
+    <string name="memento_have_button">Имам акаунт</string>
     <string name="login_empty">Въведете потребителско име</string>
     <string name="login_format_error">Данните за вход може да съдържат само букви и цифри</string>
     <string name="pass_not_equal">Въведените пароли не съвпадат</string>
@@ -1400,7 +1400,7 @@
 
 <string name="from_google_drive">От Google Drive</string>
 
-<string name="from_file">От файл</string>
+<string name="from_file">От Файл</string>
     <string name="lost_database_text">Не може да се отвори файла с базата данни, проверете дали тя присъства в посочения път</string>
     <string name="upload_to_cloud">Качване в облак</string>
     <string name="multi_choice_delimiter">Разделител</string>
