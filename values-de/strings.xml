@@ -4,7 +4,7 @@
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Eintrag hinzufügen</string>
     <string name="main_menu_add_lib">Sammlung hinzufügen</string>
-    <string name="ghostData_lib_title">Sammlung Name</string>
+    <string name="ghostData_lib_title">Name der Sammlung</string>
     <string name="custom_template_title">Benutzerdefiniert</string>
     <string name="button_create">Erstellen</string>
     <string name="button_yes">Ja</string>
@@ -105,9 +105,9 @@
     <string name="flex_role_name">Name eingeben</string>
     <string name="flex_role_hint">Beschreibung eingeben</string>
     <string name="flex_role_status">Status eingeben</string>
-    <string name="short_flex_role_name">name</string>
-    <string name="short_flex_role_hint">Aufsteigend</string>
-    <string name="short_flex_role_status">status</string>
+    <string name="short_flex_role_name">Name</string>
+    <string name="short_flex_role_hint">Beschreibung</string>
+    <string name="short_flex_role_status">Status</string>
     <string name="item_add_to_favorite">Der Eintrag wird den Favoriten hinzugefügt</string>
     <string name="item_remove_from_favorite">Der Eintrag wird aus den Favoriten entfernt</string>
     <string name="history_dialog_title">Verlauf</string>
@@ -268,7 +268,7 @@
     <string name="memento_pass_hint2">Wiederhole Passwort</string>
     <string name="memento_email_hint">Email</string>
     <string name="memento_register_button">Erstelle</string>
-    <string name="memento_have_button">Ich habe bereits ein Passwort</string>
+    <string name="memento_have_button">Ich habe bereits ein Konto</string>
     <string name="login_empty">Benutzerkennung eingeben</string>
     <string name="login_format_error">Die Benutzerkennung darf nur aus Buchstaben und Zahlen bestehen</string>
     <string name="pass_not_equal">Bitte kontrollieren Sie das Passwort nochmal</string>
@@ -609,7 +609,7 @@
     <string name="clear_filter">Filter entfernen</string>
     <string name="new_filter_dialog_title">Neuer Filter</string>
     <string name="new_filter_dialog_text">Name des Filters</string>
-    <string name="delete_filter_dialog_text">Möchten Sie den Filter wirklich löschen?</string>
+    <string name="delete_filter_dialog_text">Möchten Sie den Filter \"%s\" wirklich löschen?</string>
     <string name="add_to_favorite">zu Favoriten hinzufügen</string>
     <string name="remove_from_favorite">von Favoriten entfernen</string>
     <string name="search_result_subtitle">Suche in Ergebnissen</string>
@@ -1149,7 +1149,7 @@
     <string name="download_files_from_cloud">Dateien werden aus der Cloud heruntergeladen...</string>
     <string name="cant_download_item_files_for_copy">Herunterladen der Dateien um Kopien herzustellen ist fehlgeschlagen.</string> 
     <string name="button_update">Aktualisierung</string>
-    <string name="add_people">Personen hinzufügen</string>
+    <string name="add_people">Person oder Gruppe hinzufügen</string>
     <string name="read_permission">Lesen</string>      
     <string name="write_permission">Schreiben</string>
     <string name="create_permission">Erstellen</string>
@@ -1419,4 +1419,215 @@
 
     <string name="users_manager">Benutzerverwalter</string>
     <string name="js_moment_library">Sammlung zum Parsen, Validieren, Verändern und Formatieren von Datumswerten</string>
+    <string name="lost_database_text">Kann Datenbankdatei nicht öffnen, überprüfen ob im angegeben Pfad vorhanden</string>
+    <string name="upload_to_cloud">Auf den Server hochladen</string>
+    <string name="multi_choice_delimiter">Trennzeichen</string>
+    <string name="cloud_plan_free">Kostenlos</string>
+    <string name="cloud_plan_plan3">Lite</string>
+    <string name="cloud_plan_plan6">Pro</string>
+    <string name="cloud_plan_storage">%s Speicher</string>
+
+    <string name="memento_server_host">Die Adresse des Memento Servers</string>
+    <string name="memento_server_cloud">Memento Server benutzen</string>
+    <string name="memento_server_private">Privaten Memento Server benutzen</string>
+    <string name="latitude_longitude">Breitengrad/Längengrad</string>
+    <string name="latitude_longitude_hint">Breitengrad,Längengrad</string>
+    <string name="latitude_longitude_parse_error">Kann Breitengrad/Längengrad nicht parsen</string>
+    <string name="relation_type">Art der Beziehung</string>
+    <string name="relation_type_one_to_one">eins-zu-eins</string>
+    <string name="relation_type_one_to_many">eins-zu-viele</string>
+    <string name="relation_type_many_to_many">viele-zu-viele</string>
+    <string name="relation_type_one_limit2">%s hat schon eine Beziehung</string>
+    <string name="library_edit_mode">Bearbeitungsmodus</string>
+    <string name="desktop_version">Desktopversion</string>
+
+    <string name="no_comments">Keine Kommentare</string>
+    <plurals name="comments_count">
+	<item quantity="one">Ein Kommentar</item>
+	<item quantity="other">%d Kommentare</item>
+</plurals>
+    <string name="comments_only_for_cloud">Kommentare können nur für Bibliotheken abgegeben werden, die auf den Server hochgeladen wurden. Bibliothek auf den Server hochladen?</string>
+    <string name="locale_plugin_add_edit_entry_title">Eintrag hinzufügen/bearbeiten</string>
+    <string name="locale_to_fields_list_empty_text">Den + Button klicken um neue Regeln für das Ausfüllen von Bibliotheksfeldern zu erstellen.</string>
+    <string name="locale_to_fields_var">Text von %s</string>
+    <string name="locale_to_fields_add_rule_title">Regel hinzufügen</string>
+    <string name="locale_to_fields_edit_rule_title">Regel bearbeiten</string>
+    <string name="variable_select">Variable auswählen</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Eintrag bearbeiten</string>
+    <string name="send_field_title">Feldname senden</string>
+    <string name="auto_lock_libraries_after">Nach %s</string>
+
+    <string name="triggers">Trigger</string>
+    <string name="trigger_event">Ereignis</string>
+    <string name="unknown_trigger_event_type">Unbekanntes Ereignis</string>
+    <string name="trigger_event_create_entry">Einen Eintrag erstellen</string>
+    <string name="trigger_event_modify_entry">Einen Eintrag aktualisieren</string>
+    <string name="trigger_event_delete_entry">Einen Eintrag löschen</string>
+    <string name="trigger_event_add_favorites">Einträge zu Favoriten hinzufügen</string>
+    <string name="trigger_event_remove_favorites">Einen Eintrag aus den Favoriten entfernen</string>
+    <string name="trigger_enabled">Aktiviert</string>
+    <string name="trigger_switched_off">Ausgeschaltet</string>
+    <string name="trigger_delete_message">Wollen Sie den Trigger \"%s\" wirklich löschen ?</string>
+
+
+    <string name="application">Anwendung</string>
+    <string name="debug">Fehlersuche</string>
+    <string name="debug_summary">Protokollierungsoptionen</string>
+    <string name="log_files_folder">Protokolldateienordner</string>
+
+    <string name="enable_logging_triggers">Triggerprotokolle</string>
+    <string name="trigger_permissions">Berechtigungen für Trigger</string>
+    <string name="trigger_permission_read_file">Dateien lesen</string>
+    <string name="trigger_permission_read_file_hint">Erlaubt Skripten vom externen Speicher zu lesen</string>
+    <string name="trigger_permission_write_file">Dateien schreiben</string>
+    <string name="trigger_permission_write_file_hint">Erlaubt Skripten auf externen Speicher zu schreiben</string>
+    <string name="trigger_permission_network">Netzwerk</string>
+    <string name="trigger_permission_libraries">Bibliotheken</string>
+    <string name="trigger_permission_libraries_hint">Zugriff auf alle Bibliotheken</string>
+
+    <string name="trigger_permission_libraries_select">Verfügbare Bibliotheken</string>
+    <string name="trigger_permission_libraries_select_title">Bibliotheken auswählen</string>
+    <string name="need_pro_for_triggers">In der kostenlosen Version kann eine Bibliothek nur einen Trigger enthalten. Bitte auf die PRO Version upgraden, um diese Beschränkung aufzuheben.</string>
+    <string name="filters_tab">Registerkarten...</string>
+    <string name="filters_tab_dialog_title">Filter auswählen für Registerkarten</string>
+    <string name="export_template_include_filters">Filter einschließen</string>
+
+    <string name="unit_of_measurement_enable">Maßeinheit zu Feld hinzufügen</string>
+    <string name="unit_of_measurement_none">Keine</string>
+
+    <string name="unit_of_measurement_category">Kategorie</string>
+    <string name="unit_of_measurement">Maßeinheit</string>
+    <string name="unit_of_measurement_button">Maßeinheitsumrechner zu Feld hinzufügen</string>
+
+    <string name="uom_category_temperature">Temperatur</string>
+    <string name="uom_celsius">Celsius</string>
+    <string name="uom_category_time">Zeit</string>
+    <string name="uom_nanosecond">Nanosekunde</string>
+    <string name="uom_microsecond">Mikrosekunde</string>
+    <string name="uom_millisecond">Millisekunde</string>
+    <string name="uom_second">Sekunde</string>
+    <string name="uom_minute">Minute</string>
+    <string name="uom_hour">Stunde</string>
+    <string name="uom_day">Tag</string>
+    <string name="uom_week">Woche</string>
+    <string name="uom_year">Jahr</string>
+
+    <string name="uom_category_pressure">Druck</string>
+    <string name="uom_pascal">Pascal</string>
+    <string name="uom_atmosphere">Atmosphäre</string>
+    <string name="uom_bar">Bar</string>
+
+    <string name="uom_category_length">Länge</string>
+    <string name="uom_centimeter">Zentimeter</string>
+    <string name="uom_millimeter">Millimeter</string>
+    <string name="uom_micrometer">Mikrometer</string>
+    <string name="uom_nanometer">Nanometer</string>
+    <string name="uom_mile">Meile</string>
+    <string name="uom_nautical_mile">Seemeile</string>
+    <string name="uom_foot">Fuß</string>
+    <string name="uom_yard">Yard</string>
+    <string name="uom_inch">Zoll</string>
+    <string name="uom_astronomical_unit">Astronomische Einheit</string>
+    <string name="uom_light_year">Lichtjahr</string>
+    <string name="uom_parsec">Parsec</string>
+
+    <string name="uom_category_mass">Masse</string>
+    <string name="uom_microgram">Mikrogramm</string>
+    <string name="uom_milligram">Milligramm</string>
+    <string name="uom_gram">Gramm</string>
+    <string name="uom_kilogram">Kilogramm</string>
+    <string name="uom_ton">Tonne</string>
+    <string name="uom_ton_uk">Englische Tonne</string>
+    <string name="uom_ton_us">Amerikanische Tonne</string>
+    <string name="uom_pound">Pfund</string>
+    <string name="uom_ounce">Unze</string>
+
+    <string name="uom_category_volume">Volumen</string>
+    <string name="uom_cubic_metre">Kubikmeter</string>
+    <string name="uom_liter">Liter</string>
+    <string name="uom_cubic_inch">Kubikzoll</string>
+    <string name="uom_gallon_liquid_us">Amerikanische Gallone</string>
+    <string name="uom_ounce_liquid_us">Amerikanische Flüssigunze</string>
+    <string name="uom_gallon_uk">Britische Gallone</string>
+    <string name="uom_ounce_liquid_uk">Britische Flüssigunze</string>
+
+    <string name="uom_category_dataamount">Digitaler Speicher</string>
+    <string name="uom_bit">Bit</string>
+    <string name="uom_byte">Byte</string>
+    <string name="uom_kilobit">Kilobit</string>
+    <string name="uom_kilobyte">Kilobyte</string>
+    <string name="uom_megabit">Megabit</string>
+    <string name="uom_megabyte">Megabyte</string>
+    <string name="uom_category_area">Fläche</string>
+    <string name="uom_square_metre">Quadratmeter</string>
+    <string name="uom_are">Are</string>
+    <string name="uom_hectare">Hektar</string>
+
+    <string name="uom_category_velocity">Geschwindigkeit</string>
+    <string name="uom_meters_per_second">Meter pro Sekunde</string>
+    <string name="uom_miles_per_hour">Meilen pro Stunde</string>
+    <string name="uom_kilometers_per_hour">Kilometer pro Stunde</string>
+    <string name="uom_knot">Knoten</string>
+    <string name="uom_mach">Mach</string>
+
+    <string name="uom_category_power">Leistung</string>
+    <string name="uom_watt">Watt</string>
+    <string name="uom_joule">Joule</string>
+    <string name="uom_category_frequency">Frequenz</string>
+    <string name="uom_hertz">Hertz</string>
+    <string name="unit_converter">Einheitsumrechner</string>
+    <string name="cloud_plan_plan10">Pro Plus</string>
+    <string name="team_features_trial">Alle Pläne beinhalten einen 14-tägigen Probezeitraum.</string>
+
+<plurals name="users_count">
+	<item quantity="one">Ein Benutzer</item>
+	<item quantity="other">%s Benutzer</item>
+</plurals>
+    <string name="user_group_delete_message">Wollen Sie die Gruppe \"%s\" wirklich löschen ?</string>
+    <string name="group_not_found">Gruppe nicht gefunden</string>
+    <string name="relation_type_one_limit">Gewählter Eintrag hat bereits eine Beziehung</string>
+    <string name="trigger_moment_after_save">Nach dem Speichern des Eintrags</string>
+    <string name="trigger_moment_before_delete">Vor dem Löschen eines Eintrags</string>
+    <string name="trigger_moment_after_delete">Nach dem Löschen eines Eintrags</string>
+    <string name="trigger_moment_before_save">Vor dem Speichern des Eintrags</string>
+    <string name="trigger_permission_network_hint">Erlaubt Skripten HTTP-Anfragen auszuführen</string>
+
+    <string name="wrong_field_value">Feld %s hat einen unakzeptablen Wert</string>
+
+    <string name="frozen">Eingefroren</string>
+    <string name="date_and_time_formats">Datums- und Zeitformate</string>
+    <string name="date_formats">Datumsformate</string>
+    <string name="time_formats">Zeitformate</string>
+    <string name="date_formats_short">Kurzes Datum</string>
+    <string name="date_formats_long">Langes Datum</string>
+    <string name="time_formats_short">Kurze Zeit</string>
+    <string name="time_formats_long">Lange Zeit</string>
+    <string name="language">Sprache</string>
+    <string name="next_button">Nächste</string>
+    <string name="login">Einloggen</string>
+    <string name="sign_up">Registrieren</string>
+    <string name="from_file">Von Datei</string>
+    <string name="from_google_drive">Von Google Drive</string>
+    <string name="field_values_delimiter">Feldtrenner</string>
+    <string name="aggr_always_show">Immer anzeigen</string>
+    <string name="cant_add_management">Der Admin hat vollen Zugang zu dieser Bibliothek</string>
+    <string name="auth_error_user_blocked">Ihr Account wurde deaktiviert</string>
+    <string name="team_license">Team</string>
+    <string name="user_manager_only_for_team">Verwaltung von Benutzern und Lizenzen ist nur für Teamtarife möglich</string>
+    <string name="send_password_to_user">Passwort an Benutzer per Email senden</string>
+    <string name="create_permissions">Berechtigungen anlegen</string>
+    <string name="edit_permissions">Berechtigungen bearbeiten</string>
+    <string name="library_permissions">Bibliotheksberechtigungen</string>
+    <string name="field_permissions">Feldberechtigungen</string>
+    <string name="library_permissions_subject">Benutzername/Email/Gruppe</string>
+    <string name="permissions_delete_message">Wollen Sie wirklich die Berechtigungen für \"%s\" löschen ?</string>
+    <string name="field_right_need_library_download">Sie müssen eine Bibliothek auf Ihr Gerät downloaden, um neue Zugriffsrechte für Felder hinzuzufügen.</string>
+    <string name="field_permission_invisible">Unsichtbar</string>
+    <string name="field_permission_read_only">Nur lesen</string>
+    <string name="field_permissions_limit">Zugriffsrechte für Felder können nur in Teamtarifen gesetzt werden.</string>
+    <string name="user_groups">Benutzergruppen</string>
+    <string name="add_user_group">Benutzergruppe hinzufügen</string>
+    <string name="add_user_group_hint">Gruppenname</string>
+    <string name="user_group_name_empty">Der Gruppenname soll nicht leer sein</string>
+    <string name="users_count_none">Keine Benutzer</string>
     </resources>
