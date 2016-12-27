@@ -868,7 +868,8 @@
     <string name="show_update_time_on_tile">编辑时间</string>
     <string name="only_title_on_tile">库的唯一的名称</string>
     <plurals name="fields_count">
-	<item quantity="other">一个字段</item>
+        <item quantity="one">一个字段</item>
+	<item quantity="other">%d个字段</item>
 </plurals>
     <plurals name="libraries_count">
         <item quantity="one">一库</item>
@@ -1001,7 +1002,7 @@
     <string name="scale">小数位%d</string>
     <plurals name="duration_seconds">
 	<item quantity="one">1秒</item>
-	<item quantity="other"/>
+	<item quantity="other">%d秒</item>
 </plurals>
     <plurals name="duration_minutes">
 	<item quantity="one">1分钟</item>
@@ -1046,7 +1047,8 @@
     <string name="use_depend_only_in_edit_hint_false">在编辑和查看状态下</string>
 	<string name="year_default_now">本年度默认</string>
     <plurals name="field_depends_count">
-	<item quantity="other">一个依赖关系</item>
+        <item quantity="one">一个依赖关系</item>
+	<item quantity="other">%d个依赖关系</item>
 </plurals>
     <string name="most_viewed_templates">最受关注</string>    
 	<string name="featured_templates">精选</string>
@@ -1428,7 +1430,7 @@
     <string name="no_comments">没意见</string>
     <plurals name="comments_count">
 	<item quantity="one">一个评论</item>
-	<item quantity="other"/>
+	<item quantity="other">%d个评论</item>
 </plurals>
     <string name="comments_only_for_cloud">注释只能发布到已上传到云的库。将库上传到云？</string>
     <string name="locale_plugin_add_edit_entry_title">添加/编辑条目</string>
@@ -1663,7 +1665,7 @@
     <string name="users_count_none">没有用户</string>
     <plurals name="users_count">
 	<item quantity="one">一个用户</item>
-	<item quantity="other"/>
+	<item quantity="other">%d个用户</item>
 </plurals>
     <string name="user_group_delete_message">您确定要删除群组“%s”吗？</string>
     <string name="group_not_found">找不到群组</string>

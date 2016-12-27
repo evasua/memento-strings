@@ -1307,7 +1307,7 @@
 	<string name="button_tarifs">Costi</string>
 	<string name="cloud_storage_plans">Abbonamenti</string>
 	<string name="price_free">GRATIS</string>
-	<string name="price_per_month">%/mese</string>
+	<string name="price_per_month">%s/mese</string>
 	<string name="unlimited_libraries">Librerie illimitate</string>	
 	<string name="adv_free">Nessuna pubblicità</string>
 	<string name="subscription_activation">Attiva sottoscrizione ...</string>
