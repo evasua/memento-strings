@@ -1219,7 +1219,7 @@
 	<string name="show_deleted_entries_menu_item">Mostra elementi eliminati</string>
 	<string name="upload_to_cloud_menu_item">Salva nel Cloud</string>
 	<string name="welcome_text_title">Benvenuto nel Database di Memento</string>
-	<string name="welcome_text_description">La libreria è il luogo dove vengono raccolti i tuoi elementi.\nPuoi iniziare a familiarizzare con il programma creando una libreria basata su uno dei modelli predefiniti.</string>
+	<string name="welcome_text_description">La libreria è il luogo dove vengono raccolti i tuoi elementi.\nPuoi iniziare a familiarizzare con il programma creando una libreria basata su uno dei modelli forniti.</string>
 	
 	<string name="memento_cloud">Memento Cloud</string>
 	<string name="start_remove_librarary_from_cloud">Eliminazione libreria...</string>
@@ -1690,4 +1690,40 @@
 	<item quantity="one">"Un utente "</item>
 	<item quantity="other">"%d utenti "</item>
 </plurals>
-    </resources>
+    <string name="tasker_plugin_create_entry_event_title">Elemento creato</string>
+    <string name="tasker_plugin_delete_entry_event_title">Elemento cancellato</string>
+    <string name="tasker_plugin_modified_entry_event_title">Elemento modificato</string>
+    <string name="no_libraries_text">Ancora nessuna libreria!</string>
+    <string name="add_linked_libraries">Includi le librerie collegate</string>
+    <string name="create_collections">Crea le librerie</string>
+    <string name="create_collections_success">Librerie create</string>
+    <string name="template_included_libraries">Il modello contiene altre librerie.</string>
+
+    <string name="card_view_number_of_columns">Numero di colonne</string>
+    <plurals name="columns_count">
+	<item quantity="one">Una colonna</item>
+	<item quantity="other">%d colonne</item>
+</plurals>
+
+    <string name="card_view_squared_image">Ritaglia le immagini in un riquadro</string>
+    <string name="hint_previous_entry">Elemento precedente</string>
+    <string name="hint_next_entry">Elemento successivo</string>
+    <string name="hint_remove_image_button">Rimuovi l\'immagine</string>
+    <string name="hint_insert_image_button">Inserisci un\'immagine</string>
+    <string name="hint_capture_image_button">Acquisisci un\'immagine</string>
+    <string name="hint_change_date">Cambia la data</string>
+    <string name="hint_change_time">Cambia l\'ora</string>
+    <string name="hint_add_reminder">Aggiungi promemoria</string>
+    <string name="hint_remove_reminder">Rimuovi promemoria</string>
+    <string name="hint_insert_contact_button">Inserisci un Contatto</string>
+    <string name="hint_create_contact_button">Crea un Contatto</string>
+    <string name="hint_insert_audio_button">Inserisci Audio</string>
+    <string name="hint_record_audio_button">Registra Audio</string>
+    <string name="hint_insert_location_button">Inserisci posizione</string>
+    <string name="hint_get_my_location_button">Ottieni la mia posizione</string>
+    <string name="hint_insert_entry_button">Inserisci elemento</string>
+    <string name="barcode_type_option_title">Tipo</string>
+    <string name="barcode_type_1d">Codice a barre</string>
+    <string name="barcode_type_2d">QR Code</string>
+
+</resources>
