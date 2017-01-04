@@ -1254,7 +1254,7 @@
     <string name="cant_download_item_files_for_copy">La descarga de archivos para crear copias ha fallado.</string> 
     <string name="library_cloud_model_changed_message">La estructura de la biblioteca fue actualizada en la nube. Actualiza la estructura para una mejor sincronización.</string>
     <string name="button_update">Actualizar</string>
-    <string name="add_people">Agregar personas</string>
+    <string name="add_people">Agregar usuario o grupo</string>
     <string name="edit_permission">Configuración de uso compartido</string>	
 	<string name="push_entry_error_text" formatted="false">La entrada no se almacenado en la nube.\nNombre: %s\nError: %s</string>
 	<string name="need_upload_to_cloud_slave_libraries">Por favor, sube bibliotecas dependientes a la nube.</string>
