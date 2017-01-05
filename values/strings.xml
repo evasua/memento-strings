@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name" translatable="false">Memento</string>
     <string name="library_menu_add_item">Add an entry</string>
@@ -12,7 +12,7 @@
     <string name="button_save">Save</string>
     <string name="button_cancel">Cancel</string>
     <string name="button_add_field">Add field</string>
-    <string name="add_new_library_item">Add an entry ...</string>
+    <string name="add_new_library_item">Add entry</string>
     <string name="flex_type_title_string">Text</string>
     <string name="flex_type_title_int">Integer</string>
     <string name="flex_type_title_bool">Boolean (Checkbox)</string>
@@ -1170,7 +1170,7 @@
     <string name="megabyteShort">MB</string>
     <string name="gigabyteShort">GB</string>
     <string name="button_refresh">Refresh</string>
-    <string name="cloud_storage_space_text"  formatted="false">%s (%s) of %s used</string>   
+    <string name="cloud_storage_space_text" formatted="false">%s (%s) of %s used</string>   
     <string name="start_download_file_from_cloud">File %s will be downloaded</string>
     <string name="upload_file_to_cloud">Uploading file...</string>    
     <string name="upload_files_to_cloud">Uploading files</string>
@@ -1235,7 +1235,7 @@
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Library not found</string>
 	<string name="upload_to_cloud_offer_title">{cloud ready...}</string>
-	<string name="upload_to_cloud_offer_text">&#8226; Teamwork\n&#8226; Sync across devices\n&#8226; Backup are always in the cloud</string>
+	<string name="upload_to_cloud_offer_text">• Teamwork\n• Sync across devices\n• Backup are always in the cloud</string>
 	<string name="button_no_thanks">No, thanks</string>
 	<string name="button_upload">Upload</string>
 	
