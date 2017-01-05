@@ -1118,10 +1118,10 @@
 	<string name="show_deleted_entries_menu_item">Show deleted entries</string>
 	<string name="upload_to_cloud_menu_item">To Cloud</string>
 	<string name="welcome_text_title">Welcome to Memento Database</string>
-	<string name="welcome_text_description">The Library is the place where your entries will be stored.\nYou can begin familiarizing yourself with the program by creating a library based on one of the templates provided.</string>
+	<string name="welcome_text_description">The Library is the place where your entries will be stored. You can begin familiarizing yourself with the Memento by creating a library based on one of the templates provided.</string>
 	
 	<!-- 3.5.0 -->
-	<string name="memento_cloud">Cloud</string>
+	<string name="memento_cloud">Memento Cloud</string>
 	<string name="start_remove_librarary_from_cloud">Deleting library...</string>
 	<string name="success_remove_librarary_from_cloud">Library deleted successfully from the cloud</string>
 	<string name="start_upload_library_to_cloud">Uploading library...</string>	
@@ -1741,5 +1741,46 @@
     <string name="cloud_plan_team20">Team 20</string>
     <string name="pro_for_team">Pro features for all the users within the team</string>
     <string name="team_features_trial">All Plans Include a Free 14‑Day Trial.</string>
+
+    <string name="tasker_plugin_create_entry_event_title">Entry created</string>
+    <string name="tasker_plugin_delete_entry_event_title">Entry deleted</string>
+    <string name="tasker_plugin_modified_entry_event_title">Entry modified</string>
+    <string name="no_libraries_text">No Libraries yet!</string>
+    <string name="add_linked_libraries">Include related libraries</string>
+    <string name="create_collections">Create libraries</string>
+    <string name="create_collections_success">Libraries created</string>
+    <string name="template_included_libraries">The template contains additional libraries.</string>
+
+    <!-- 4.2.0 -->
+    <string name="entries_view_type_cards">Cards</string>
+    <string name="card_view_number_of_columns">Number of columns</string>
+    <plurals name="columns_count">
+        <item quantity="one">One column</item>
+        <item quantity="few">%d columns</item>
+        <item quantity="many">%d columns</item>
+        <item quantity="other">%d columns</item>
+    </plurals>
+
+    <string name="card_view_title_on_image">Display text over image</string>
+    <string name="card_view_squared_image">Crop images into a square</string>
+    <string name="hint_previous_entry">Previous entry</string>
+    <string name="hint_next_entry">Next entry</string>
+    <string name="hint_remove_image_button">Remove Image</string>
+    <string name="hint_insert_image_button">Insert Image</string>
+    <string name="hint_capture_image_button">Capture Image</string>
+    <string name="hint_change_date">Change date</string>
+    <string name="hint_change_time">Change time</string>
+    <string name="hint_add_reminder">Add reminder</string>
+    <string name="hint_remove_reminder">Remove reminder</string>
+    <string name="hint_insert_contact_button">Insert Contact</string>
+    <string name="hint_create_contact_button">Create Contact</string>
+    <string name="hint_insert_audio_button">Insert Audio</string>
+    <string name="hint_record_audio_button">Record Audio</string>
+    <string name="hint_insert_location_button">Insert location</string>
+    <string name="hint_get_my_location_button">Get my location</string>
+    <string name="hint_insert_entry_button">Insert entry</string>
+    <string name="barcode_type_option_title">Type</string>
+    <string name="barcode_type_1d">Barcode</string>
+    <string name="barcode_type_2d">QR Code</string>
 
 </resources>

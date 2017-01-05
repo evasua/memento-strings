@@ -588,7 +588,7 @@
     <string name="clear_filter">Очистити фільтр</string>
     <string name="new_filter_dialog_title">Новий фільтр</string>
     <string name="new_filter_dialog_text">Назва фільтру</string>
-    <string name="delete_filter_dialog_text">Ви дійсно хочете видалити даний фільтр?</string>
+    <string name="delete_filter_dialog_text">Ви дійсно хочете видалити фільтр \"%s\"?</string>
     <string name="add_to_favorite">Додати в обране</string>
     <string name="remove_from_favorite">Вилучити з Обраного</string>
     <string name="search_result_subtitle">Результати пошуку</string>
@@ -974,13 +974,13 @@
     <string name="calc_value_type_number">Тип значення Числовий</string>
     <string name="calc_value_type_string">Тип значення Рядок</string>
     <string name="sort_by_downloads">Сортування по завантаженнях</string>
-    <string name="need_auth_on_memento_server">Потрібно створити обліковий запис на Memento сервері</string>
+    <string name="need_auth_on_memento_server">Потрібно створити обліковий запис на Memento Cloud сервері</string>
     <string name="empty_my_templates_list">У вас немає опублікованих шаблонів бібліотек.</string>
     <string name="empty_field_depend_list">Це поле не має залежностей від інших полів.</string>
     <string name="share_template_dialog_title">Поділитися шаблоном через онлайн каталог</string>
     <string name="catalog_templates">Каталог шаблонів</string>
     <string name="empty_search_result2">За запитом - %s - нічого не знайдено</string>
-    <string name="rename_group">Перейменувати групу</string>
+    <string name="rename_group">Редагувати групу</string>
     <string name="move">Перенести</string>
     <string name="select_group">Оберіть групу</string>
     <string name="library_moved_message">Бібліотека переміщена в групу \"%s\"</string>
@@ -1160,7 +1160,7 @@
     <string name="cant_download_item_files_for_copy">Не вдалось завантаження файлів для створення копій.</string> 
     <string name="library_cloud_model_changed_message">Структура бібліотеки в хмарі була оновлена. Оновіть структуру для подальшої синхронізації.</string>
     <string name="button_update">Оновити</string>
-    <string name="add_people">Додати людей</string>
+    <string name="add_people">Додати користувача або групу</string>
     <string name="read_permission">Читання</string>      
     <string name="write_permission">Запис</string>
     <string name="create_permission">Створення</string>
@@ -1185,7 +1185,7 @@
 	<string name="cloud_storage_full_text2" formatted="false">Недостатньо місця в хмарному сховищі.\nпотрібно %s, доступно %s.\nВи можете перейти на тарифний план, який передбачає більше місця для зберігання.</string>
 	<string name="alien_cloud_storage_full_text">У власника бібліотеки не має достатньо місця для зберігання.</string>	
 	<string name="button_tarifs">Тарифи</string>
-	<string name="cloud_storage_plans">Плани</string>
+	<string name="cloud_storage_plans">Плани підписки</string>
 	<string name="price_free">Безкоштовно</string>
 	<string name="price_per_month">%s/місяць</string>
 	<string name="unlimited_libraries">Необмежена кількість бібліотек</string>	
@@ -1464,4 +1464,8 @@
     <string name="send_field_title">Надіслати ім\'я поля</string>
     <string name="send_field_title_summary">Ім\'я поля буде повторювати значення поля</string>
     <string name="auto_lock_libraries_time_title">Закрити доступ до бібліотек</string>
+    <plurals name="comments_count">
+	<item quantity="one">Один коментар</item>
+	<item quantity="other">%d коментарів</item>
+</plurals>
     </resources>

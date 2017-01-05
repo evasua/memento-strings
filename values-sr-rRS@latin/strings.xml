@@ -116,4 +116,7 @@
     <string name="restore_preference">Povrati</string>
     <string name="restore_summary_preference">Povraćaj biblioteka iz rezervnih kopija</string>
     <string name="backup_file_not_found">Fajl rezervne kopije nije pronađen.</string>
-    </resources>
+    <string name="custom_template_title">Prilagodi</string>
+    <string name="team_features_trial">Svi paketi uključuju besplatnih 14 dana probnog perioda.</string>
+
+</resources>
