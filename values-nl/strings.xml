@@ -20,7 +20,7 @@
     <string name="flex_type_title_date_time">Datum/Tijd</string>
     <string name="flex_type_contact">Contact</string>
     <string name="flex_type_image">Afbeelding</string>
-    <string name="flex_type_string_list">Keuzelijst</string>
+    <string name="flex_type_string_list">Enkele-keuzelijst</string>
     <string name="flex_type_audio">Audio</string>
     <string name="flex_type_money">Bedrag</string>
     <string name="flex_type_rating">Waardering</string>
