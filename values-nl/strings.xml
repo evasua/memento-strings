@@ -12,7 +12,7 @@
     <string name="button_save">Opslaan</string>
     <string name="button_cancel">Annuleren</string>
     <string name="button_add_field">Veld toevoegen</string>
-    <string name="add_new_library_item">Item toevoegen ...</string>
+    <string name="add_new_library_item">Voeg item toe</string>
     <string name="flex_type_title_string">Tekst</string>
     <string name="flex_type_title_int">Geheel getal</string>
     <string name="flex_type_title_bool">Boolean (Aankruisveld)</string>
@@ -27,7 +27,7 @@
     <string name="flex_type_web">Hyperlink</string>
     <string name="flex_type_map">Google Maps coördinaten</string>
     <string name="flex_type_real">Reëel getal</string>
-    <string name="field_list_caption">Item velden in verzameling</string>
+    <string name="field_list_caption">Itemvelden in verzameling</string>
     <string name="flextemplate_up_item">Omhoog</string>
     <string name="flextemplate_down_item">Omlaag</string>
     <string name="flextemplate_edit_item">Wijzigen</string>
@@ -92,12 +92,12 @@
     <string name="home">thuis</string>
     <string name="work">werk</string>
     <string name="other">anders</string>
-    <string name="pager">pieper</string>
+    <string name="pager">semafoon</string>
     <string name="image_not_found">Afbeelding niet gevonden</string>
-    <string name="audio_not_found">Geen audiofragment gevonden</string>
+    <string name="audio_not_found">Geen geluidsbestand gevonden</string>
     <string name="flex_type_money_currency_dlg_title">Selecteer bedrag</string>
     <string name="flex_type_money_currency_option_title">Bedrag</string>
-    <string name="flex_type_money_default_currency">USD</string>
+    <string name="flex_type_money_default_currency">EUR</string>
     <string name="flex_role_not_usage">Normaal veld</string>
     <string name="flex_role_name">Item naam</string>
     <string name="flex_role_hint">Itemomschrijving</string>
@@ -119,7 +119,7 @@
     <string name="backup_preference">Back-up</string>
     <string name="backup_summary_preference">Een back-up van alle verzamelingen op SD-kaart aan het maken</string>
     <string name="backup_fail">Back-up fout</string>
-    <string name="cdcard_not_found">Sorry, jouw SD-kaart is niet beschikbaar</string>
+    <string name="cdcard_not_found">Sorry, uw SD-kaart is niet beschikbaar</string>
     <string name="backup_process">Back-up van verzamelingen aan het maken.</string>
     <string name="restore_preference">Back-up terugzetten</string>
     <string name="restore_summary_preference">Terugzetten van de verzamelingen vanaf de back-up</string>
@@ -132,7 +132,7 @@
     <string name="clear_index">Indexen verwijderen</string>
     <string name="reindex">Herindexeren:</string>
     <string name="load_templates_title">Sjablonen laden</string>
-    <string name="load_templates_message">Even geduld totdat de verzamelingenjablonen geladen zijn.</string>
+    <string name="load_templates_message">Even geduld totdat de verzamelingensjablonen geladen zijn.</string>
     <string name="help_title">Memento Hulp</string>
     <string name="activate_button_title">Activeren van de PRO-versie</string>
     <string name="activate_button_hint">U heeft een activatiecode nodig</string>
@@ -1084,9 +1084,9 @@
 	<string name="run_sync_slave_libraries_summary">Synchroniseer eerst geassocieerde verzamelingen</string>
 	<string name="choice_type_add_button_in_edit_title">Het creëren van elementen tijdens het wijzigen van een item</string>	
 	
-<string name="welcome_text_description">De Verzameling is de plaats waar je oblecten worden opgeslagen.\nJe kunt beginnen met jezelf vertrouwd maken met het programma door een verzameling te maken op basis van een van de beschikbare sjablonen.</string>
+<string name="welcome_text_description">De Verzameling is de plaats waar je objecten worden opgeslagen.\nJe kunt beginnen met jezelf vertrouwd te maken met het programma door een verzameling te maken op basis van een van de beschikbare sjablonen.</string>
 	
-	<string name="memento_cloud">Cloud</string>
+	<string name="memento_cloud">Memento Cloud</string>
 	<string name="start_remove_librarary_from_cloud">De verzameling wordt verwijderd...</string>
 	<string name="success_remove_librarary_from_cloud">De verzameling is succesvol verwijderd uit de cloud</string>
 	<string name="start_upload_library_to_cloud">De verzameling wordt ge-upload...</string>	
@@ -1688,5 +1688,43 @@
     <string name="cloud_plan_team20">Groep 20</string>
     <string name="pro_for_team">PRO mogelijkheden voor alle gebruikers in de groep</string>
     <string name="team_features_trial">Alle pakketten zijn inclusief 14 dagen gratis demo.</string>
+
+<string name="tasker_plugin_create_entry_event_title">Invoer toegevoegd</string>
+    <string name="tasker_plugin_delete_entry_event_title">Invoer verwijderd</string>
+    <string name="tasker_plugin_modified_entry_event_title">Invoer gewijzigd</string>
+    <string name="no_libraries_text">Er zijn nog geen verzamelingen!</string>
+    <string name="add_linked_libraries">Includeer gerelateerde verzamelingen</string>
+    <string name="create_collections">Maak verzamelingen aan</string>
+    <string name="create_collections_success">Verzamelingen gecreëerd</string>
+    <string name="template_included_libraries">De vorm bevat additionele verzamelingen.</string>
+
+    <string name="entries_view_type_cards">Kaarten</string>
+    <string name="card_view_number_of_columns">Aantal kolommen</string>
+    <plurals name="columns_count">
+	<item quantity="one">Één kolom</item>
+	<item quantity="other">%d kolommen</item>
+</plurals>
+
+    <string name="card_view_title_on_image">Toon tekst over afbeelding</string>
+    <string name="card_view_squared_image">Knip figuren vierkant</string>
+    <string name="hint_previous_entry">Vorige invoer</string>
+    <string name="hint_next_entry">Volgende invoer</string>
+    <string name="hint_remove_image_button">Verwijder afbeelding</string>
+    <string name="hint_insert_image_button">Voeg afbeelding in</string>
+    <string name="hint_capture_image_button">Fotografeer</string>
+    <string name="hint_change_date">Wijzig de datum</string>
+    <string name="hint_change_time">Wijzig de tijd</string>
+    <string name="hint_add_reminder">Voeg herinnering toe</string>
+    <string name="hint_remove_reminder">Verwijder herinnering</string>
+    <string name="hint_insert_contact_button">Voeg Contact in</string>
+    <string name="hint_create_contact_button">Maak een Contact aan</string>
+    <string name="hint_insert_audio_button">Voeg Audio in</string>
+    <string name="hint_record_audio_button">Neem geluid op</string>
+    <string name="hint_insert_location_button">Voeg locatie in</string>
+    <string name="hint_get_my_location_button">Locatie verkrijgen</string>
+    <string name="hint_insert_entry_button">Element invoeren</string>
+    <string name="barcode_type_option_title">Type</string>
+    <string name="barcode_type_1d">Barcode</string>
+    <string name="barcode_type_2d">QR Code</string>
 
 </resources>
