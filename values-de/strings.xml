@@ -3,8 +3,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Eintrag hinzufügen</string>
-    <string name="main_menu_add_lib">Sammlung hinzufügen</string>
-    <string name="ghostData_lib_title">Name der Sammlung</string>
+    <string name="main_menu_add_lib">Datenbank hinzufügen</string>
+    <string name="ghostData_lib_title">Name der Datenbank</string>
     <string name="custom_template_title">Benutzerdefiniert</string>
     <string name="button_create">Erstellen</string>
     <string name="button_yes">Ja</string>
