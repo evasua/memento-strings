@@ -11,7 +11,7 @@
     <string name="button_save">Зберегти</string>
     <string name="button_cancel">Cкасувати</string>
     <string name="button_add_field">Додати поле</string>
-    <string name="add_new_library_item">Додати запис ...</string>
+    <string name="add_new_library_item">Додати запис</string>
     <string name="flex_type_title_string">Текст</string>
     <string name="flex_type_title_int">Ціле число</string>
     <string name="flex_type_title_bool">Логічне (прапорець)</string>
@@ -1100,7 +1100,7 @@
 	<string name="welcome_text_title">Вітаємо в Memento Database</string>
 	<string name="welcome_text_description">Бібліотека є місцем де будуть зберігатися ваші записи.\nВи можете почати знайомство з програмою, створивши бібліотеку по одному з готових шаблонів.\nВи можете розпочати самостійне знайомство з програмою, створивши бібліотеку, за допомогою одного з готових шаблонів.</string>
 	
-	<string name="memento_cloud">Хмара</string>
+	<string name="memento_cloud">Хмара Memento</string>
 	<string name="start_remove_librarary_from_cloud">Видалення бібліотеки...</string>
 	<string name="success_remove_librarary_from_cloud">Бібліотека успішно видалена з хмари</string>
 	<string name="start_upload_library_to_cloud">Вивантаження бібліотеки...</string>	
@@ -1335,7 +1335,9 @@
 
     <plurals name="notification_edit_library_common_text">
 	<item quantity="one">%d непрочитана зміна</item>
-	<item quantity="other">%d непрочитаних змін</item>
+	<item quantity="few">%d непрочитаних змін</item>
+	<item quantity="many">%d непрочитаних змін</item>
+	<item quantity="other"/>
 </plurals>
 
     <string name="notification_edit_library_create_text">запис додано</string>
@@ -1343,7 +1345,9 @@
     <string name="notification_edit_library_delete_text">запис видалено</string>
     <plurals name="notification_comments_common_text">
 	<item quantity="one">%d новий коментар</item>
-	<item quantity="other">%d нових коментарів</item>
+	<item quantity="few">%d нових коментарів</item>
+	<item quantity="many">%d нових коментарів</item>
+	<item quantity="other"/>
 </plurals>
 
     <string name="flex_type_rich_text">Форматований текст</string>
@@ -1466,6 +1470,282 @@
     <string name="auto_lock_libraries_time_title">Закрити доступ до бібліотек</string>
     <plurals name="comments_count">
 	<item quantity="one">Один коментар</item>
-	<item quantity="other">%d коментарів</item>
+	<item quantity="few">%d коментарів</item>
+	<item quantity="many">%d коментарів</item>
+	<item quantity="other"/>
 </plurals>
+    <string name="barcode_type_2d">QR код</string>
+
+<string name="comments_only_for_cloud">Коментарі доступні тільки для бібліотек завантажених в хмару. Завантажити бібліотеку в хмару?</string>
+    <string name="auto_lock_libraries_after">Після %s</string>
+
+    <string name="empty_triggers_list_text">У цієї бібліотеки немає тригерів.\nТригер це скрипт, який запускається при певних діях або подіях.</string>
+    <string name="triggers">Тригери</string>
+    <string name="trigger_name">Назва тригера</string>
+    <string name="trigger_event">Подія</string>
+    <string name="trigger_moment">Момент запуску скрипту</string>
+    <string name="unknown_trigger_event_type">Невідома подія</string>
+    <string name="unknown_trigger_moment_type">Невідомий момент запуску скрипту</string>
+
+    <string name="trigger_event_create_entry">Створення запису</string>
+    <string name="trigger_event_modify_entry">Створення запису</string>
+    <string name="trigger_event_delete_entry">Видалення запису</string>
+    <string name="trigger_event_open_entry">Відкриття картки записи</string>
+    <string name="trigger_event_add_favorites">Додавання записів в обране</string>
+    <string name="trigger_event_remove_favorites">Видалення запису з обраного</string>
+    <string name="trigger_default_name">Тригер %d</string>
+    <string name="trigger_enabled">Увімкнений</string>
+    <string name="trigger_switched_off">Вимкнений</string>
+    <string name="trigger_delete_message">Ви дійсно хочете видалити тригер \"%s\"?</string>
+
+
+    <string name="trigger_moment_open_form">Відкриття форми</string>
+    <string name="trigger_moment_before_save">Перед збереженням запису</string>
+    <string name="trigger_moment_after_save">Після збереження запису</string>
+    <string name="trigger_moment_before_delete">Перед видаленням запису</string>
+    <string name="trigger_moment_after_delete">Після видалення запису</string>
+    <string name="trigger_moment_before_show">Перед відкриттям</string>
+    <string name="trigger_moment_after_show">Після відкриття</string>
+
+    <string name="application">Додаток</string>
+    <string name="debug">Відлагодження</string>
+    <string name="debug_summary">Налаштування логування</string>
+    <string name="log_files_folder">Каталог лог-файлів</string>
+
+    <string name="enable_logging_cloud">Лог запитів до Memento хмари</string>
+    <string name="enable_logging_triggers">Лог тригерів</string>
+    <string name="script_log">Лог скрипту</string>
+
+    <string name="trigger_permissions">Дозволи для тригерів</string>
+    <string name="trigger_permission_read_file">Читання файлів</string>
+    <string name="trigger_permission_read_file_hint">Дозволяє скриптам читати з файлів</string>
+    <string name="trigger_permission_write_file">Запис файлів</string>
+    <string name="trigger_permission_write_file_hint">Дозволяє скриптам записувати на зовнішній пристрій зберігання</string>
+    <string name="trigger_permission_network">Мережа</string>
+    <string name="trigger_permission_network_hint">Дозволяє скриптам виконувати HTTP запити</string>
+
+    <string name="trigger_permission_libraries">Бібліотекі</string>
+    <string name="trigger_permission_libraries_hint">Доступ до всіх бібліотек</string>
+
+    <string name="trigger_permission_libraries_select">Доступні бібліотеки</string>
+    <string name="trigger_permission_libraries_select_title">Оберіть бібліотеки</string>
+    <string name="need_pro_for_triggers">Безкоштовна версія дозволяє створити тільки один тригер.\nОновіться до PRO версії для зняття цього обмеження.</string>
+    <string name="filters_tab">Вкладки...</string>
+    <string name="filters_tab_dialog_title">Оберіть фільтри для вкладок</string>
+    <string name="export_template_include_filters">Включити фільтри</string>
+
+    <string name="unit_of_measurement_enable">Додати до поля одиницю виміру</string>
+    <string name="unit_of_measurement_none">Жоден</string>
+
+    <string name="unit_of_measurement_category">Категорія</string>
+    <string name="unit_of_measurement">Одиниця виміру</string>
+    <string name="unit_of_measurement_button">Додати до поля конвертер одиниць виміру</string>
+
+    <string name="uom_category_temperature">Температура</string>
+    <string name="uom_celsius">Градус Цельсія</string>
+    <string name="uom_fahrenheit">Градус Фаренгейта</string>
+    <string name="uom_kelvin">Кельвін</string>
+    <string name="uom_rankine">Градус Ранкіна</string>
+
+    <string name="uom_category_time">Час</string>
+    <string name="uom_nanosecond">Наносекунда</string>
+    <string name="uom_microsecond">Мікросекунда</string>
+    <string name="uom_millisecond">Мілісекунда</string>
+    <string name="uom_second">Секунда</string>
+    <string name="uom_minute">Хвилина</string>
+    <string name="uom_hour">Година</string>
+    <string name="uom_day">День</string>
+    <string name="uom_week">Тиждень</string>
+    <string name="uom_year">Рік</string>
+
+    <string name="uom_category_pressure">Тиск</string>
+    <string name="uom_pascal">Паскаль</string>
+    <string name="uom_atmosphere">Атмосфера</string>
+    <string name="uom_bar">Бар</string>
+
+    <string name="uom_category_length">Довжина</string>
+    <string name="uom_meter">Метр</string>
+    <string name="uom_kilometer">Кілометр</string>
+    <string name="uom_centimeter">Сантиметр</string>
+    <string name="uom_millimeter">Міліметр</string>
+    <string name="uom_micrometer">Мікрометр</string>
+    <string name="uom_nanometer">Нанометр</string>
+    <string name="uom_mile">Миля</string>
+    <string name="uom_nautical_mile">Морська миля</string>
+    <string name="uom_foot">Фут</string>
+    <string name="uom_yard">Ярд</string>
+    <string name="uom_inch">Дюйм</string>
+    <string name="uom_angstrom">Ангстрем</string>
+    <string name="uom_astronomical_unit">Астрономічна одиниця</string>
+    <string name="uom_light_year">Світловий рік</string>
+    <string name="uom_parsec">Парсек</string>
+
+    <string name="uom_category_mass">Маса</string>
+    <string name="uom_microgram">Мікрограм</string>
+    <string name="uom_milligram">Міліграм</string>
+    <string name="uom_gram">Грам</string>
+    <string name="uom_kilogram">Кілограм</string>
+    <string name="uom_ton">Тонна</string>
+    <string name="uom_ton_uk">Англійська тонна</string>
+    <string name="uom_ton_us">Американська тонна</string>
+    <string name="uom_pound">Фунт</string>
+    <string name="uom_ounce">Унція</string>
+
+    <string name="uom_category_volume">Об `єм</string>
+    <string name="uom_cubic_metre">Кубічний метр</string>
+    <string name="uom_liter">Літр</string>
+    <string name="uom_cubic_inch">Кубічний дюйм</string>
+    <string name="uom_gallon_liquid_us">Американський галон</string>
+    <string name="uom_ounce_liquid_us">Американська рідка унція</string>
+    <string name="uom_gallon_uk">Імперський галон</string>
+    <string name="uom_ounce_liquid_uk">Імперська рідка унція</string>
+
+    <string name="uom_category_dataamount">Об\'єм інформації</string>
+    <string name="uom_bit">Біт</string>
+    <string name="uom_byte">Байт</string>
+    <string name="uom_kilobit">Кілобіт</string>
+    <string name="uom_kilobyte">Кілобайт</string>
+    <string name="uom_megabit">Мегабіт</string>
+    <string name="uom_megabyte">Мегабайт</string>
+    <string name="uom_gigabit">Гігабіт</string>
+    <string name="uom_gigabyte">Гігабайт</string>
+    <string name="uom_terabit">Терабіт</string>
+    <string name="uom_terabyte">Терабайт</string>
+    <string name="uom_petabit">Петабіт</string>
+    <string name="uom_petabyte">Петабайт</string>
+
+    <string name="uom_category_area">Площа</string>
+    <string name="uom_square_metre">Квадратний метр</string>
+    <string name="uom_are">Акр</string>
+    <string name="uom_hectare">Гектар</string>
+
+    <string name="uom_category_velocity">Швидкість</string>
+    <string name="uom_meters_per_second">Метр в секунду</string>
+    <string name="uom_miles_per_hour">Миль в годину</string>
+    <string name="uom_kilometers_per_hour">Кілометрів на годину</string>
+    <string name="uom_knot">Вузол</string>
+    <string name="uom_mach">Мах</string>
+
+    <string name="uom_category_power">Потужність</string>
+    <string name="uom_watt">Ватт</string>
+    <string name="uom_kilowatt">Кіловат</string>
+    <string name="uom_megawatt">Мегават</string>
+    <string name="uom_horsepower">Кінська сила</string>
+
+    <string name="uom_category_energy">Еенергія</string>
+    <string name="uom_joule">Джоуль</string>
+    <string name="uom_kilojoule">Кілоджоуль</string>
+
+    <string name="uom_category_frequency">Частота</string>
+    <string name="uom_hertz">Герц</string>
+    <string name="uom_kilohertz">Кілогерц</string>
+    <string name="uom_megahertz">Мегагерц</string>
+    <string name="uom_gigahertz">Гігагерц</string>
+
+    <string name="wrong_field_value">Поле %s містить неприйнятне значення</string>
+
+    <string name="unit_converter">Конвертер одиниць</string>
+    <string name="increase">Збільшити</string>
+    <string name="decrease">Зменшити</string>
+    <string name="frozen">Блокування</string>
+    <string name="frozen_text">Бібліотека блокована, так як ви перевищили ліміт на кількість завантажених в хмару бібліотек на вашому тарифному плані.</string>
+    <string name="date_and_time_formats">Формати дати і часу</string>
+    <string name="date_formats">Формат дати</string>
+    <string name="time_formats">Формат часу</string>
+    <string name="date_formats_short">Коротка дата</string>
+    <string name="date_formats_long">Довга дата</string>
+    <string name="time_formats_short">Короткий час</string>
+    <string name="time_formats_long">Довгий час</string>
+    <string name="language">Мова</string>
+    <string name="next_button">Далі</string>
+    <string name="bulk_add">Масове додавання</string>
+    <string name="login">Вхід</string>
+    <string name="sign_up">Реєстрація</string>
+    <string name="memento_cloud2">Memento Cloud</string>
+
+    <string name="from_file">З файлу</string>
+    <string name="from_google_drive">З Google Диску</string>
+    <string name="locale_key_field_description">Ключове поле для редагування запису</string>
+
+    <string name="field_values_delimiter">Розділювач полів</string>
+    <string name="entries_desc_dialog_title">Опис запису визначається обраними полями</string>
+    <string name="image_caption">Підпис до зображення</string>
+    <string name="flex_type_subheader">Підзаголовок</string>
+    <string name="create_subheader">Створити підзаголовок</string>
+    <string name="edit_subheader">Змінити підзаголовок</string>
+    <string name="subheader_collapsed_by_default">Згорнути за замовчуванням</string>
+    <string name="aggr_always_show">Завжди відображати</string>
+    <string name="cant_add_management">Адміністратор вже має повний доступ до цієї бібліотеки</string>
+    <string name="auth_error_user_blocked">Ваш обліковий запис був заблокований</string>
+    <string name="team_license">Команда</string>
+    <string name="user_manager_only_for_team">Керування користувачами та ліцензіями наявне тільки на тарифах категорії \"Команда\"</string>
+    <string name="send_password_to_user">Надіслати пароль користувачеві</string>
+    <string name="create_permissions">Створити правила доступу</string>
+    <string name="edit_permissions">Змінити правила доступу</string>
+    <string name="library_permissions">Правила доступу до бібліотеки</string>
+    <string name="field_permissions">Правила доступу до полів</string>
+    <string name="library_permissions_subject">Ім\'я/email/група</string>
+    <string name="permissions_delete_message">Ви дійсно бажаєте видалити правила для \"%s\" ?</string>
+    <string name="field_right_need_library_download">Завантажте бібліотеку на пристрій для додавання прав доступу до полів.</string>
+    <string name="field_permission_invisible">Приховати</string>
+    <string name="field_permission_read_only">Тільки для читання</string>
+    <string name="field_permissions_limit">Налаштування прав доступу до полів підтримується тільки на тарифах категорії \"Команда\".</string>
+    <string name="user_groups">Групи</string>
+    <string name="add_user_group">Додати групу</string>
+    <string name="add_user_group_hint">Назва групи</string>
+    <string name="user_group_name_empty">Назва групи не повинно бути порожнім</string>
+    <string name="users_count_none">Немає користувачів</string>
+    <plurals name="users_count">
+	<item quantity="one">Один користувач</item>
+	<item quantity="few">%d користувача</item>
+	<item quantity="many">%d користувачів</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="user_group_delete_message">Ви дійсно хочете видалити групу \"%s\" ?</string>
+    <string name="group_not_found">Групу не знайдено</string>
+    <string name="individual">Особисті</string>
+    <string name="team">Команда</string>
+    <string name="cloud_plan_team5">Команда 5</string>
+    <string name="cloud_plan_team10">Команда 10</string>
+    <string name="cloud_plan_team15">Команда 15</string>
+    <string name="cloud_plan_team20">Команда 20</string>
+    <string name="pro_for_team">ПРО функції для всіх користувачів команди</string>
+    <string name="team_features_trial">Тарифи включають 14-денний безкоштовний період.</string>
+
+    <string name="tasker_plugin_create_entry_event_title">Запис створено</string>
+    <string name="tasker_plugin_delete_entry_event_title">Запис видалено</string>
+    <string name="tasker_plugin_modified_entry_event_title">Запис змінено</string>
+    <string name="no_libraries_text">У вас ще немає бібліотек</string>
+    <string name="add_linked_libraries">Додати пов\'язані бібліотеки</string>
+    <string name="create_collections">Створення бібліотек</string>
+    <string name="create_collections_success">Бібліотеки створені</string>
+    <string name="template_included_libraries">Шаблон містить додаткові бібліотеки</string>
+
+    <string name="entries_view_type_cards">Картки</string>
+    <string name="card_view_number_of_columns">Кількість колонок</string>
+    <plurals name="columns_count">
+	<item quantity="one">Одна колонка</item>
+	<item quantity="other">%d колонки</item>
+</plurals>
+
+    <string name="card_view_title_on_image">Текст на зображенні</string>
+    <string name="card_view_squared_image">Обрізати зображення в квадрат</string>
+    <string name="hint_previous_entry">Попередній запис</string>
+    <string name="hint_next_entry">Наступний запис</string>
+    <string name="hint_remove_image_button">Видалити зображення</string>
+    <string name="hint_insert_image_button">Вибрати зображення</string>
+    <string name="hint_capture_image_button">Сфотографувати</string>
+    <string name="hint_change_date">Змінити дату</string>
+    <string name="hint_change_time">Змінити час</string>
+    <string name="hint_add_reminder">Додати нагадування</string>
+    <string name="hint_remove_reminder">Видалити нагадування</string>
+    <string name="hint_insert_contact_button">Вибрати контакт</string>
+    <string name="hint_create_contact_button">Створити контакт</string>
+    <string name="hint_insert_audio_button">Вставити аудіозапис</string>
+    <string name="hint_record_audio_button">Зробити аудіозапис</string>
+    <string name="hint_insert_location_button">Вставити розташування</string>
+    <string name="hint_get_my_location_button">Визначити моє місце розташування</string>
+    <string name="hint_insert_entry_button">Вставити запис</string>
+    <string name="barcode_type_option_title">Тип</string>
+    <string name="barcode_type_1d">Штрих код</string>
     </resources>
