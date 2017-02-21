@@ -1067,7 +1067,7 @@
 	<item quantity="one">%1$d запис знайдено</item>
 	<item quantity="few">%1$d записів знайдено</item>
 	<item quantity="many">%1$d записів знайдено</item>
-	<item quantity="other"/>
+	<item quantity="other"></item>
 </plurals>
     <string name="memento_search_in_lib">Memento Пошук в %s</string>
     <string name="memento_search">Memento Пошук</string>
