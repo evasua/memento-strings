@@ -1172,7 +1172,7 @@
 	<string name="cloud_storage_full_text2" formatted="false">Pas assez d\'espace dans le nuage.↵\n%s sont nécessaires, %s sont disponibles.\nVous pouvez passer à une des offres tarifaires pour plus d\'espace de stockage.</string>
 	<string name="alien_cloud_storage_full_text">Le propriétaire de la base ne dispose pas d\'assez d\'espace de stockage.</string>	
 	<string name="button_tarifs">Tarifs</string>
-	<string name="cloud_storage_plans">Offres</string>
+	<string name="cloud_storage_plans">Offres d\'abonnement</string>
 	<string name="price_free">GRATUIT</string>
 	<string name="price_per_month">%s/mois</string>
 	<string name="unlimited_libraries">Bases illimitées</string>	
@@ -1269,7 +1269,7 @@
     <string name="font_style_normal">Normal</string>
     <string name="font_style_bold_italic">Gras italique</string>
     <string name="font_sample">Exemple</string>
-    <string name="font_sample_text">Sans exemple, comment enseigner correctement ?</string>
+    <string name="font_sample_text">The quick brown fox jumped over the lazy dog.</string>
     <string name="font_default_title">Police par défaut</string>
     <string name="choice_item_use_color_for_text">Utiliser la couleur pour le texte</string>
     <string name="encryption_for_cloud_uploaded_library">Le chiffrage de la base ne peut être activé qu\'avant son téléversement dans le nuage.</string>
@@ -1515,7 +1515,7 @@
     <string name="trigger_permission_libraries_select">Librairies disponibles</string>
     <string name="trigger_permission_libraries_select_title">Sélection des librairies</string>
     <string name="filters_tab">Tabulateurs...</string>
-    <string name="export_template_include_filters">Inclu les filtres</string>
+    <string name="export_template_include_filters">Inclure les filtres</string>
 
     <string name="unit_of_measurement_enable">Ajouter une unité de mesure pour le champ</string>
     <string name="unit_of_measurement_none">Aucun</string>
@@ -1626,7 +1626,7 @@
     <string name="trigger_permission_write_file_hint">Permet aux scripts d\'écrire sur un stockage externe</string>
     <string name="login">S\'identifier</string>
     <string name="need_pro_for_triggers">Dans la version gratuite une librairie ne peut contenir qu\'un seul déclencheur. Pour éliminer cette restriction passer à la version pro.</string>
-    <string name="filters_tab_dialog_title">Sélectionner les filtres pour tabulateurs</string>
+    <string name="filters_tab_dialog_title">Sélectionner les filtres pour les tabulateurs</string>
     <string name="uom_rankine">Rankine</string>
 
     <string name="uom_yard">Yard</string>
@@ -1649,4 +1649,80 @@
     <string name="entries_desc_dialog_title">La description des enregistrements est constitué parmi les champs suivants</string>
     <string name="image_caption">Sous-titrer</string>
     <string name="flex_type_subheader">Sous-titre</string>
-    </resources>
+    <string name="create_subheader">Créer un sous-titre</string>
+    <string name="edit_subheader">Modifier le sous-titre</string>
+    <string name="aggr_always_show">Toujours affiché</string>
+    <string name="cant_add_management">L\'administrateur a tout les accès à la base</string>
+    <string name="auth_error_user_blocked">Votre compte a été désactivé</string>
+    <string name="team_license">Équipe</string>
+    <string name="user_manager_only_for_team">La gestion des utilisateurs et des licences est disponible uniquement avec les tarifs équipe</string>
+    <string name="send_password_to_user">Envoyer le mot de passe à l\'utilisateur par mail</string>
+    <string name="library_permissions_subject">Nom d\'utilisateur / email / groupe</string>
+    <string name="permissions_delete_message">Voulez-vous vraiment supprimer les droits d\'accès pour \"%s\" ?</string>
+    <string name="create_permissions">Créer des droits d\'accès</string>
+    <string name="edit_permissions">Modifier les droits d\'accès</string>
+    <string name="library_permissions">Droits d\'accès de la base</string>
+    <string name="field_permissions">Droits d\'accès du champ</string>
+    <string name="field_right_need_library_download">Vous devez télécharger une base sur votre appareil pour ajouter de nouveaux droits d\'accès aux champs.</string>
+    <string name="field_permission_invisible">Invisible</string>
+    <string name="field_permission_read_only">Lecture seule</string>
+    <string name="field_permissions_limit">Les droits d\'accès pour les champs ne peuvent être définis qu\'avec les tarifs Équipe.</string>
+    <string name="user_groups">Groupes d\'utilisateurs</string>
+    <string name="add_user_group">Ajouter un groupe d\'utilisateurs</string>
+    <string name="add_user_group_hint">Nom du groupe</string>
+    <string name="user_group_name_empty">Le nom du groupe ne doit pas être vide</string>
+    <string name="users_count_none">Aucun utilisateur</string>
+    <plurals name="users_count">
+	<item quantity="one">Un utilisateur</item>
+	<item quantity="other">%d utilisateurs</item>
+</plurals>
+    <string name="user_group_delete_message">Voulez-vous vraiment supprimer le groupe \"%s\" ?</string>
+    <string name="group_not_found">Groupe non trouvé</string>
+    <string name="individual">Individuel</string>
+    <string name="team">Équipe</string>
+    <string name="cloud_plan_team5">Équipe 5</string>
+    <string name="cloud_plan_team10">Équipe 10</string>
+    <string name="cloud_plan_team15">Équipe 15</string>
+    <string name="cloud_plan_team20">Équipe 20</string>
+    <string name="pro_for_team">Fonctionnalités Pro pour tous les utilisateurs de l\'équipe</string>
+    <string name="team_features_trial">Tous les abonnements incluent un essai gratuit de 14 jours.</string>
+
+    <string name="tasker_plugin_create_entry_event_title">Enregistrement créé</string>
+    <string name="tasker_plugin_delete_entry_event_title">Enregistrement supprimé</string>
+    <string name="tasker_plugin_modified_entry_event_title">Enregistrement modifié</string>
+    <string name="no_libraries_text">Pas encore de Base !</string>
+    <string name="add_linked_libraries">Inclure les bases connexes</string>
+    <string name="create_collections">Créer des bases</string>
+    <string name="create_collections_success">Bases créées</string>
+    <string name="template_included_libraries">Le modèle contient des bases supplémentaires.</string>
+
+    <string name="entries_view_type_cards">Cartes</string>
+    <string name="card_view_number_of_columns">Nombre de colonnes</string>
+    <plurals name="columns_count">
+	<item quantity="one">Une colonne</item>
+	<item quantity="other">%d colonnes</item>
+</plurals>
+
+    <string name="card_view_title_on_image">Afficher le texte au-dessus de l\'image</string>
+    <string name="card_view_squared_image">Recadrer les images dans un carré</string>
+    <string name="hint_previous_entry">Enregistrement précédent</string>
+    <string name="hint_next_entry">Enregistrement suivant</string>
+    <string name="hint_remove_image_button">Supprimer l\'image</string>
+    <string name="hint_insert_image_button">Insérer une image</string>
+    <string name="hint_capture_image_button">Capturer une image</string>
+    <string name="hint_change_date">Date de modification</string>
+    <string name="hint_change_time">Heure de modification</string>
+    <string name="hint_add_reminder">Ajouter un rappel</string>
+    <string name="hint_remove_reminder">Supprimer un rappel</string>
+    <string name="hint_insert_contact_button">Insérer un contact</string>
+    <string name="hint_create_contact_button">Créer un contact</string>
+    <string name="hint_insert_audio_button">Insérer un son</string>
+    <string name="hint_record_audio_button">Enregistrer un son</string>
+    <string name="hint_insert_location_button">Insérer un emplacement</string>
+    <string name="hint_get_my_location_button">Obtenir mon emplacement</string>
+    <string name="hint_insert_entry_button">Insérer un enregistrement</string>
+    <string name="barcode_type_option_title">Type</string>
+    <string name="barcode_type_1d">Code-barres</string>
+    <string name="barcode_type_2d">QR Code</string>
+
+</resources>
