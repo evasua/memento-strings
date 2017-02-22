@@ -12,7 +12,7 @@
     <string name="button_save">Sauvegarder</string>
     <string name="button_cancel">Annuler</string>
     <string name="button_add_field">Ajouter un champ</string>
-    <string name="add_new_library_item">Ajouter un enregistrement...</string>
+    <string name="add_new_library_item">Ajouter un enregistrement</string>
     <string name="flex_type_title_string">Texte</string>
     <string name="flex_type_title_int">Entier</string>
     <string name="flex_type_title_bool">Booléen (case à cocher)</string>
@@ -510,7 +510,7 @@
     <string name="button_delete_goup">Supprimer le groupe</string>
     <string name="group_delete_message_title">Supprimer le groupe</string>
     <string name="library_recover_snackbar_text">Base restaurée dans le groupe \"%s\"</string>
-    <string name="rename_group">Renommer le groupe</string>
+    <string name="rename_group">Modifier le groupe</string>
     <string name="select_group">Sélectionner le groupe</string>
     <string name="pref_cat_library_view">Affichage</string>
     <string name="edit_library_tab_view">VUE</string>
@@ -604,7 +604,7 @@
     <string name="clear_filter">Effacer le filtre</string>
     <string name="new_filter_dialog_title">Nouveau filtre</string>
     <string name="new_filter_dialog_text">Nom du filtre</string>
-    <string name="delete_filter_dialog_text">Voulez-vous vraiment supprimer ce filtre ?</string>
+    <string name="delete_filter_dialog_text">Voulez-vous vraiment supprimer le filtre \"%s\" ?</string>
     <string name="add_to_favorite">Ajouter aux favoris</string>
     <string name="remove_from_favorite">Retirer des favoris</string>
     <string name="search_result_subtitle">Résultats de la recherche</string>
@@ -1083,12 +1083,12 @@
 	<string name="show_deleted_entries_menu_item">Montrer les enregistrements supprimés</string>
 	<string name="upload_to_cloud_menu_item">Vers le net</string>
 	<string name="welcome_text_title">Bienvenue sur la Base de Données Memento</string>
-	<string name="welcome_text_description">La base est le lieu de stockage de vos enregistrements.\nVous pouvez vous familiariser avec ce logiciel en créant une base inspirée de l\'un des modèles fournis.</string>	
+	<string name="welcome_text_description">La base est le lieu de stockage de vos enregistrements.\nVous pouvez vous familiariser avec Memento en créant une base inspirée de l\'un des modèles fournis.</string>	
 	
 <string name="featured_templates">Mis en avant</string>
 	<string name="need_make_slave_library_unique">Pour synchroniser le \"lien avec l\'enregistrement\" il faut d\'abord activer le contrôle de l\'unicité de l\'identifiant des enregistrements dans la base à laquelle le lien se réfère. Voulez-vous le faire maintenant ?</string>
 	<string name="need_make_slave_library_unique_import">Pour importer le \"lien avec l\'enregistrement\" il faut d\'abord activer le contrôle de l\'unicité de l\'identifiant des enregistrements dans la base à laquelle le lien se réfère. Voulez-vous le faire maintenant ?</string>
-	<string name="memento_cloud">Nuage</string>
+	<string name="memento_cloud">Nuage Memento</string>
 	<string name="start_remove_librarary_from_cloud">Suppression de la base...</string>
 	<string name="success_remove_librarary_from_cloud">Base supprimée du nuage</string>
 	<string name="start_upload_library_to_cloud">Téléversement de la base...</string>	
@@ -1146,7 +1146,7 @@
     <string name="cant_download_item_files_for_copy">Echec du téléchargement des fichiers pour créer des copies.</string> 
     <string name="library_cloud_model_changed_message">La structure de la base a été mise à jour dans le nuage. Mettre à jour la structure pour des synchronisations ultérieures.</string>
     <string name="button_update">Mettre à jour</string>
-    <string name="add_people">Ajouter des personnes</string>
+    <string name="add_people">Ajouter une personne ou un groupe</string>
     <string name="read_permission">Lire</string>      
     <string name="write_permission">Ecrire</string>
     <string name="create_permission">Créer</string>
@@ -1627,4 +1627,19 @@
     <string name="login">S\'identifier</string>
     <string name="need_pro_for_triggers">Dans la version gratuite une librairie ne peut contenir qu\'un seul déclencheur. Pour éliminer cette restriction passer à la version pro.</string>
     <string name="filters_tab_dialog_title">Sélectioner les filtres pour les tabulateurs</string>
+    <string name="uom_rankine">Rankine</string>
+
+    <string name="uom_yard">Yard</string>
+    <string name="uom_angstrom">Angström</string>
+    <string name="uom_parsec">Parsec</string>
+
+    <string name="uom_pound">Livre</string>
+    <string name="uom_ounce">Once</string>
+
+    <string name="uom_ounce_liquid_us">Once liquide US</string>
+    <string name="uom_gallon_uk">Gallon impérial</string>
+    <string name="uom_ounce_liquid_uk">Once liquide impériale</string>
+
+    <string name="uom_gallon_liquid_us">Gallon US</string>
+    <string name="uom_cubic_inch">Pouce cube</string>
     </resources>
