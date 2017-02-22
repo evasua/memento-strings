@@ -30,7 +30,7 @@
     <string name="field_list_caption">Liste des champs</string>
     <string name="flextemplate_up_item">Monter</string>
     <string name="flextemplate_down_item">Descendre</string>
-    <string name="flextemplate_edit_item">Editer</string>
+    <string name="flextemplate_edit_item">Éditer</string>
     <string name="flextemplate_delete_item">Supprimer</string>
     <string name="ghostData_template_title">Entrer le nom du champ</string>
     <string name="template_title">Nom du champ</string>
@@ -1645,4 +1645,8 @@
     <string name="uom_horsepower">Chevaux</string>
 
     <string name="frozen">Gelé</string>
+    <string name="field_values_delimiter">Séparateur de champs</string>
+    <string name="entries_desc_dialog_title">La description des enregistrements est constitué parmi les champs suivants</string>
+    <string name="image_caption">Sous-titrer</string>
+    <string name="flex_type_subheader">Sous-titre</string>
     </resources>
