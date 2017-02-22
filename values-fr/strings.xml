@@ -1642,4 +1642,7 @@
 
     <string name="uom_gallon_liquid_us">Gallon US</string>
     <string name="uom_cubic_inch">Pouce cube</string>
+    <string name="uom_horsepower">Chevaux</string>
+
+    <string name="frozen">Gelé</string>
     </resources>
