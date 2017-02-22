@@ -1623,7 +1623,7 @@
     <string name="trigger_event_open_entry">Ouvrir une vue de l\'enregistrement</string>
     <string name="enable_logging_cloud">Appels sur le nuage Memento</string>
     <string name="trigger_permission_read_file_hint">Permet aux scripts de lire à partir d\'un stockage externe</string>
-    <string name="trigger_permission_write_file_hint">Permet aux scripts d\'écrire sur des stockages externes</string>
+    <string name="trigger_permission_write_file_hint">Permet aux scripts d\'écrire sur un stockage externe</string>
     <string name="login">S\'identifier</string>
     <string name="need_pro_for_triggers">Dans la version gratuite une librairie ne peut contenir qu\'un seul déclencheur. Pour éliminer cette restriction passer à la version pro.</string>
     <string name="filters_tab_dialog_title">Sélectioner les filtres pour les tabulateurs</string>
