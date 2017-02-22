@@ -1626,7 +1626,7 @@
     <string name="trigger_permission_write_file_hint">Permet aux scripts d\'écrire sur un stockage externe</string>
     <string name="login">S\'identifier</string>
     <string name="need_pro_for_triggers">Dans la version gratuite une librairie ne peut contenir qu\'un seul déclencheur. Pour éliminer cette restriction passer à la version pro.</string>
-    <string name="filters_tab_dialog_title">Sélectioner les filtres pour les tabulateurs</string>
+    <string name="filters_tab_dialog_title">Sélectionner les filtres pour tabulateurs</string>
     <string name="uom_rankine">Rankine</string>
 
     <string name="uom_yard">Yard</string>
