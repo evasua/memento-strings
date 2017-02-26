@@ -1646,13 +1646,13 @@
 
     <string name="frozen">Gelé</string>
     <string name="field_values_delimiter">Séparateur de champs</string>
-    <string name="entries_desc_dialog_title">La description des enregistrements est constitué parmi les champs suivants</string>
+    <string name="entries_desc_dialog_title">La description des enregistrements est constituée parmi les champs suivants</string>
     <string name="image_caption">Sous-titrer</string>
     <string name="flex_type_subheader">Sous-titre</string>
     <string name="create_subheader">Créer un sous-titre</string>
     <string name="edit_subheader">Modifier le sous-titre</string>
     <string name="aggr_always_show">Toujours affiché</string>
-    <string name="cant_add_management">L\'administrateur a tout les accès à la base</string>
+    <string name="cant_add_management">L\'administrateur a un accès intégral à la base</string>
     <string name="auth_error_user_blocked">Votre compte a été désactivé</string>
     <string name="team_license">Équipe</string>
     <string name="user_manager_only_for_team">La gestion des utilisateurs et des licences est disponible uniquement avec les tarifs équipe</string>
@@ -1690,13 +1690,13 @@
     <string name="tasker_plugin_create_entry_event_title">Enregistrement créé</string>
     <string name="tasker_plugin_delete_entry_event_title">Enregistrement supprimé</string>
     <string name="tasker_plugin_modified_entry_event_title">Enregistrement modifié</string>
-    <string name="no_libraries_text">Pas encore de Base !</string>
+    <string name="no_libraries_text">Pas encore de base !</string>
     <string name="add_linked_libraries">Inclure les bases connexes</string>
     <string name="create_collections">Créer des bases</string>
     <string name="create_collections_success">Bases créées</string>
     <string name="template_included_libraries">Le modèle contient des bases supplémentaires.</string>
 
-    <string name="entries_view_type_cards">Cartes</string>
+    <string name="entries_view_type_cards">Fiches</string>
     <string name="card_view_number_of_columns">Nombre de colonnes</string>
     <plurals name="columns_count">
 	<item quantity="one">Une colonne</item>
@@ -1725,4 +1725,8 @@
     <string name="barcode_type_1d">Code-barres</string>
     <string name="barcode_type_2d">QR Code</string>
 
-</resources>
+<string name="frozen_text">La base est gelée car la limite de votre plan tarifaire en nombre de bases téléversées dans le nuage est dépassée.</string>
+    <string name="bulk_add">Ajout par lot</string>
+    <string name="locale_key_field_description">Le champ clef pour modifier les enregistrements</string>
+
+    </resources>
