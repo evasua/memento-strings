@@ -202,7 +202,7 @@
     <string name="preference_restore_libs_title">Obnova knihoven</string>
     <string name="preference_restore_libs_hint">Obnova smazaných knihoven</string>
     <string name="preference_category_general">Hlavní</string>
-    <string name="library_import_and_export">Nastavení %s\n(Import a Export)</string>
+    <string name="library_import_and_export">Import a Export</string>
     <string name="recovering">Obnovení</string>
     <string name="recovering_message">Obnovení knihovny</string>
     <string name="library_recover">Obnovit</string>
@@ -1107,7 +1107,7 @@
 	<string name="welcome_text_title">Vítejte v Memento databázi</string>
 	<string name="welcome_text_description">Knihovna je místo, kde budou uloženy vaše záznamy.\nVytvořením knihovny založené na jedné z poskytnutých šablon se můžete začít seznamovat s programem.</string>
 	
-	<string name="memento_cloud">Cloudové úložiště na serveru Memento</string>
+	<string name="memento_cloud">Cloudové</string>
 	<string name="start_remove_librarary_from_cloud">Mazání knihovny...</string>
 	<string name="success_remove_librarary_from_cloud">Knihovna byla úspěšně smazána z cloudu</string>
 	<string name="start_upload_library_to_cloud">Nahrávání knihovny...</string>	
@@ -1130,7 +1130,7 @@
 	<item quantity="other">Během synchronizace se vyskytlo %d konfliktů</item>
 </plurals>
     <string name="button_select">Vybrat</string>
-    <string name="cloud">Cloudové úložiště</string>
+    <string name="cloud">Cloudové</string>
     <string name="library_not_in_cloud">Není v cloudu</string>
     <string name="synced">Synchronizováno %s</string>
     <string name="cloud_synced_progress">Synchronizace ...</string>
@@ -1332,7 +1332,7 @@
 	<string name="find_library_by_url_title">Otevřít přes URL adresu</string>
 	<string name="upload_to_cloud_offer_text">• Spolupráce v týmu\n• Synchronizace různých zařízení\n• Vždy dostupná záloha v cloudu</string>
 	<string name="featured_templates">Charakteristický</string>
-	<string name="entries_view_type_cards">Štítky,</string>
+	<string name="entries_view_type_cards">Karty</string>
     <string name="card_view_number_of_columns">Počet sloupců</string>
     <string name="create_collections">Vytvořit knihovny</string>
     <string name="create_collections_success">Knihovny vytvořeny</string>

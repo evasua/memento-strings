@@ -928,12 +928,10 @@
     <string name="google_sync_without_memento_id_text">ライブラリはエラーが生じる可能性がある古い方法で同期されました。\n新しい工法を使用できるようにするにはライブラリのテーブルを再構築しなければなりません。\nすぐに再構築しますか？</string>
     <string name="rating_field_max_value">最大レート</string>
     <plurals name="rating_stars_count">
-	<item quantity="one">%d スター</item>
-	<item quantity="other"/>
+	<item quantity="other">%d スター</item>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
-	<item quantity="one">%d エントリーがゴミ箱に移動されました</item>
-	<item quantity="other"/>
+	<item quantity="other">%d エントリーがゴミ箱に移動されました</item>
 </plurals>
     <string name="auto_fill_barcode_empty2">オートコンプリートソースとエントリー項目の属性を比較</string>
     <string name="barcode_rule_delete_title">ルールを削除</string>
@@ -996,20 +994,16 @@
     <string name="free_version_multi_field_limit">フリーバージョンでは、2つの要素しか追加することができません。制限を加除するには PRO バージョンへアップグレードしてください。</string>
     <string name="scale">スケール %d</string>
     <plurals name="duration_seconds">
-	<item quantity="one">"%d  秒"</item>
-	<item quantity="other"/>
+	<item quantity="other">"%d  秒"</item>
 </plurals>
     <plurals name="duration_minutes">
-	<item quantity="one">%d 分</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 分</item>
 </plurals>
     <plurals name="duration_hours">
-	<item quantity="one">%d 時間</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 時間</item>
 </plurals>
     <plurals name="duration_days">
-	<item quantity="one">%d 日</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 日</item>
 </plurals>
     <string name="all">すべて</string>
     <string name="page">ページ</string>
@@ -1091,8 +1085,7 @@
 	<string name="cloud_conflict_fields_title">競合</string>
 	<string name="cloud_conflict_fix_button_title">修正</string>
     <plurals name="conflict_count">
-	<item quantity="one">同期中に %d 件の競合が発生しました</item>
-	<item quantity="other"/>
+	<item quantity="other">同期中に %d 件の競合が発生しました</item>
 </plurals>
     <string name="button_select">選択</string>
     <string name="cloud">クラウド</string>
@@ -1276,8 +1269,7 @@
     <string name="rating_tooltips_hint">ツールチップ</string>
     <string name="rating_tooltips_empty">項目にはツールチップがありません</string>
     <plurals name="rating_tooltips_count">
-	<item quantity="one">%d ツールチップ</item>
-	<item quantity="other"/>
+	<item quantity="other">%d ツールチップ</item>
 </plurals>
     <string name="calculator">電卓</string>
     <string name="calculator_options_hint">電卓を表示させるボタンを追加</string>
@@ -1304,9 +1296,8 @@
     <string name="notification_edit_library_edit_text">編集されたエントリー</string>
     <string name="notification_edit_library_delete_text">削除されたエントリー</string>
     <plurals name="notification_comments_common_text">
-	<item quantity="one">%d 新しいコメント</item>
-	<item quantity="other"/>
-</plurals>
+	    <item quantity="other">%d 新しいコメント</item>
+    </plurals>
 
     <string name="flex_type_rich_text">リッチテキスト</string>
     <string name="text_background_color">背景色</string>
