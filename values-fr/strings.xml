@@ -1729,4 +1729,5 @@
     <string name="bulk_add">Ajout par lot</string>
     <string name="locale_key_field_description">Le champ clef pour modifier les enregistrements</string>
 
+    <string name="subheader_collapsed_by_default">Section repliée par défaut</string>
     </resources>
