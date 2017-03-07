@@ -3,7 +3,7 @@
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">新增一個項目</string>
     <string name="main_menu_add_lib">新增庫</string>
-    <string name="ghostData_lib_title">庫的名子</string>
+    <string name="ghostData_lib_title">資料庫名稱</string>
     <string name="custom_template_title">自訂</string>
     <string name="button_create">建立</string>
     <string name="button_yes">是</string>
@@ -11,7 +11,7 @@
     <string name="button_no">否</string>
     <string name="button_save">儲存</string>
     <string name="button_cancel">取消</string>
-    <string name="button_add_field">新增一個欄位</string>
+    <string name="button_add_field">新增欄位</string>
     <string name="add_new_library_item">新增一個項目...</string>
     <string name="flex_type_title_string">文本</string>
     <string name="flex_type_title_int">整數</string>
