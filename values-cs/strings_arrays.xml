@@ -61,4 +61,9 @@
     <string name="auto_backup_time_day">Ne častěji než jednou za den</string>
 <string name="date_format_list_current_locale">Aktuální místo</string>
     <string name="db_location_pref_custom">Uživatelský</string>
+    <string name="calc_result_types_date">výsledek ve tvaru datumu</string>
+    <string name="calc_result_types_datetime">výsledek ve tvaru datumu a času</string>
+    <string name="calc_result_types_string">výsledek ve tvaru řetězce</string>
+    <string name="flex_edit_option_values_table">Přehled záznamů</string>
+    <string name="date_format_list_date_pref">Fuzzy,</string>
     </resources>

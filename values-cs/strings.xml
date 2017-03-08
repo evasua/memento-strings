@@ -12,7 +12,7 @@
     <string name="button_save">Uložit</string>
     <string name="button_cancel">Zrušit</string>
     <string name="button_add_field">Přidat pole</string>
-    <string name="add_new_library_item">Přidat záznam ...</string>
+    <string name="add_new_library_item">Přidat záznam</string>
     <string name="flex_type_title_string">Text</string>
     <string name="flex_type_title_int">Celé číslo</string>
     <string name="flex_type_title_bool">Logická hodnota</string>
@@ -32,43 +32,43 @@
     <string name="flextemplate_down_item">Dolů</string>
     <string name="flextemplate_edit_item">Změnit</string>
     <string name="flextemplate_delete_item">Smazat</string>
-    <string name="ghostData_template_title">Zadejte název pole</string>
+    <string name="ghostData_template_title">Zadat název pole</string>
     <string name="template_title">Jméno/název pole</string>
     <string name="select_flex_template_title">Typ pole</string>
     <string name="select_flex_template_role">Funkce pole</string>
-    <string name="select_create_lib_template">Vyberte šablonu knihovny</string>
+    <string name="select_create_lib_template">Vybrat šablonu knihovny</string>
     <string name="button_next">Další</string>
     <string name="select_flex_template_type">Typ pole</string>
     <string name="default_value">Přednastavená hodnota</string>
     <string name="flex_template_options_title">Doplňkové parametry</string>
-    <string name="error_template_empty_title">Vyplňte název pole</string>
+    <string name="error_template_empty_title">Vyplnit název pole</string>
     <string name="error_library_withous_name_flex">Knihovna musí mít nejméně jedno pole s funkcí – \"jméno/název\".</string>
     <string name="select_library_icon_activity">Výběr ikonky pro knihovnu</string>
     <string name="select_flex_template_role_title">Funkce pole</string>
     <string name="library_edit2">Upravit knihovnu</string>
     <string name="library_edit">Upravit</string>
     <string name="library_delete">Smazat</string>
-    <string name="library_delete_message_title">Smazání knihovny</string>
+    <string name="library_delete_message_title">Smazat knihovnu</string>
     <string name="library_delete_message_text">Skutečně chcete smazat knihovnu \"%s\" ?</string>
-    <string name="error_library_empty_title">Vyplňte jméno/název knihovny</string>
+    <string name="error_library_empty_title">Vyplnit jméno/název knihovny</string>
     <string name="library_item_edit">Upravit</string>
     <string name="library_item_delete">Smazat</string>
     <string name="library_item_delete_message_text">Skutečně chcete smazat záznam \"%s\" ?</string>
     <string name="library_item_trush_message_text">Opravdu chcete přesunout záznam \"%s\" do koše ?</string>
     <string name="library_items_count">Záznamů: %s</string>
-    <string name="library_menu_select_sort">Třídění</string>
-    <string name="library_menu_select_group">Seskupení</string>
-    <string name="select_sort_template">Vyberte pole, podle kterého třídit</string>
-    <string name="select_group_template">Vyberte pole, podle kterého seskupovat</string>
+    <string name="library_menu_select_sort">Třídit</string>
+    <string name="library_menu_select_group">Seskupit</string>
+    <string name="select_sort_template">Vybrat pole, podle kterého třídit</string>
+    <string name="select_group_template">Vybrat pole, podle kterého seskupovat</string>
     <string name="sort_by_date">Čas vytvoření</string>
-    <string name="flex_delete_message_title">Smazání pole</string>
+    <string name="flex_delete_message_title">Smazat pole</string>
     <string name="flex_delete_message_text">Skutečně chcete smazat pole \"%s\" ?</string>
     <string name="not_group">Bez seskupení</string>
     <string name="bool_yes">Ano</string>
     <string name="bool_not">Ne</string>
     <string name="group_null_value">Prázdná hodnota</string>
     <string name="date_not_set">Neznámá</string>
-    <string name="set_default_value">Určete přednastavenou hodnotu</string>
+    <string name="set_default_value">Určit přednastavenou hodnotu</string>
     <string name="date_default_null">Prázdná hodnota dle přednastavení</string>
     <string name="date_default_now">Aktuální datum dle přednastavení</string>
     <string name="search">Hledat</string>
@@ -88,16 +88,16 @@
     <string name="library_item_restore">Obnovit</string>
     <string name="clear_trash">Vyprázdnit koš</string>
     <string name="clear_trash_progress_dialog_title">Vyprázdnění koše</string>
-    <string name="clear_trash_dialog_title">Vyprázdnění koše</string>
+    <string name="clear_trash_dialog_title">Vyprázdnit koš</string>
     <string name="clear_trash_dialog_text">Skutečně chcete smazat všechny záznamy z koše ?</string>
-    <string name="mobile">mobil</string>
+    <string name="mobile">mobilní</string>
     <string name="home">domů</string>
-    <string name="work">prac.</string>
+    <string name="work">pracovní</string>
     <string name="other">jiný</string>
     <string name="pager">pager</string>
     <string name="image_not_found">Snímek nenalezen</string>
     <string name="audio_not_found">Nenalezený audio záznam</string>
-    <string name="flex_type_money_currency_dlg_title">Vyberte měnu</string>
+    <string name="flex_type_money_currency_dlg_title">Vybrat měnu</string>
     <string name="flex_type_money_currency_option_title">Měna</string>
     <string name="flex_type_money_default_currency">CZK</string>
     <string name="flex_role_not_usage">Normální pole</string>
@@ -112,11 +112,11 @@
     <string name="history_dialog_title">Historie</string>
     <string name="favorites_dialog_title">Oblíbené</string>
     <string name="map_coord_not_set_hint">Tapněte k vybrání polohy</string>
-    <string name="select_map_coord">Vyberte polohu</string>
-    <string name="find_selected_address">Hledání adresy ...</string>
+    <string name="select_map_coord">Vybrat polohu</string>
+    <string name="find_selected_address">Hledat adresu ...</string>
     <string name="open_gmap">Otevřít Google Mapy</string>
     <string name="help">Nápověda</string>
-    <string name="preference_category_backup">Záloha</string>
+    <string name="preference_category_backup">Zálohovat</string>
     <string name="main_preferences_title">Nastavení</string>
     <string name="backup_preference">Záloha</string>
     <string name="backup_summary_preference">Zálohování všech knihoven na flash kartu</string>
@@ -135,8 +135,8 @@
     <string name="reindex">Reindexace:</string>
     <string name="load_templates_title">Načtení šablony</string>
     <string name="load_templates_message">Prosím vyčkejte, provádí se prvotní načítání šablony knihovny.</string>
-    <string name="help_title">Memento Nápověda</string>
-    <string name="activate_button_title">Activovat PRO verzi</string>
+    <string name="help_title">Memento nápověda</string>
+    <string name="activate_button_title">Aktivovat PRO verzi</string>
     <string name="activate_button_hint">Potřebujete aktivační klíč</string>
     <string name="activate_main_text">Aktualizovat na PRO verzi</string>
     <string name="activation_dialog_text_hint">Zadejte aktivační kód</string>
@@ -150,13 +150,13 @@
     <string name="about_license_type">Licence:</string>
     <string name="pro_version">PRO verze</string>
     <string name="send_library_item">Odeslat</string>
-    <string name="send_chooser_title">Vyberte aplikaci pro odeslání:</string>
+    <string name="send_chooser_title">Vybrat aplikaci pro odeslání:</string>
     <string name="create_shortcut">Vytvořit zástupce</string>
-    <string name="app_name_library">Memento Knihovna</string>
+    <string name="app_name_library">Memento knihovna</string>
     <string name="error_cant_open_memento_dir">Chyba: nelze otevřít adresář memento na flash kartě</string>
     <string name="preference_category_csv_import">Operace se záznamy</string>
     <string name="csvexport">Export do CSV</string>
-    <string name="csvexport_summary">Export záznamů do CSV souboru</string>
+    <string name="csvexport_summary">Exportováni záznamů do CSV souboru</string>
     <string name="csvimport">Import z CSV</string>
     <string name="csvimport_from">Import z %s</string>
     <string name="csvexport_to">Export do %s</string>
@@ -170,7 +170,8 @@
     <string name="need_title_column_text">Jméno sloupce musí odpovídat jménu pole záznamu. </string>
     <string name="csv_result_import_text">Záznamy byly importovány</string>
     <string name="csv_result_import_succes_items">Přidáno záznamů:</string>
-    <string formatted="false" name="csv_result_import_fail_items">Počet chybných sloupců: %s \nSloupců: %s</string>
+    <string formatted="false" name="csv_result_import_fail_items">Počet chybných sloupců: %s
+\nSloupce: %s</string>
     <string name="enter_csv_name_dialog_title">Export do CSV</string>
     <string name="enter_csv_name_dialog_value_title">Zadejte jméno CSV souboru</string>
     <string name="enter_csv_name_dialog_value_hint">Jméno souboru</string>
@@ -178,9 +179,9 @@
     <string name="export_error">Chyba při exportu záznamů: %s</string>
     <string name="library_saved">Knihovna uložena</string>
     <string name="library_created">Knihovna vytvořena</string>
-    <string name="msg_default_status">Umístěte čarový kód doprostřed hledáčku pro naskenování.</string>
-    <string name="scan_library_item">Skenování čarového kódu</string>
-    <string name="search_product_title">Hledání produktu v Google Base ...</string>
+    <string name="msg_default_status">Umístit čarový kód doprostřed hledáčku pro naskenování.</string>
+    <string name="scan_library_item">Skenovat čarový kód</string>
+    <string name="search_product_title">Hledání produktu podle čárového kódu ...</string>
     <string name="empty_result_text">Bohužel\nProdukt nenalezen</string>
     <string name="add_entry_manual">Přidat ručně ...</string>
     <string name="fill_entry_manual">Vyplnit ručně ...</string>
@@ -193,25 +194,25 @@
     <string name="memento_field_promt">Pole záznamu knihovny</string>
     <string name="uniquery_check_fail">Knihovna může obsahovat pouze jedno pole typu "%s"</string>
     <string name="to">do</string>
-    <string name="barcode_search">Hledání čarového kódu</string>
+    <string name="barcode_search">Hledání čárového kódu</string>
     <!-- 1.2.1 -->
     <string name="msg_camera_framework_bug">Litujeme, Android kamera zaznamenala problém. Je nutné restartovat přístroj.</string>
     <!-- 1.2.3 -->
-    <string name="deleted_library_hint">Záznamů: %s</string>
+    <string name="deleted_library_hint">Záznamy: %s</string>
     <string name="preference_restore_libs_title">Obnova knihoven</string>
     <string name="preference_restore_libs_hint">Obnova smazaných knihoven</string>
     <string name="preference_category_general">Hlavní</string>
     <string name="library_import_and_export">Import a Export</string>
     <string name="recovering">Obnovení</string>
     <string name="recovering_message">Obnovení knihovny</string>
-    <string name="library_recover">Obnova</string>
+    <string name="library_recover">Obnovit</string>
     <string name="deleting_library_title">Smazání</string>
     <string name="deleting_library_message">Smazání knihovny</string>
     <!-- 1.2.5 -->
     <string name="view_category">Zobrazení</string>
     <string name="title_lib_theme_preference">Téma</string>
     <string name="summary_lib_theme_preference">Výběr tématu pro knihovnu</string>
-    <string name="dialog_title_lib_theme_preference">Výběr tématu pro knihovnu</string>
+    <string name="dialog_title_lib_theme_preference">Výběr tématu pro knihovny</string>
     <!-- 1.3.0 -->
     <string name="unbind_from_gdocs">Odpojit od Google Sheets</string>
     <string name="bind_to_gdocs">Spojit s Google Sheets</string>
@@ -231,7 +232,7 @@
     <string formatted="false" name="google_docs_task_step_process_row">Zpracování seznamu řádek. %s z %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Přidávání řádků. %s z %s</string>
     <string formatted="false" name="google_docs_task_step_update_row">Obnova řádků. %s z %s</string>
-    <string name="google_docs_task_create_document">Vytvoření dokumentu</string>
+    <string name="google_docs_task_create_document">Vytvoření dokumentu (tabulky)</string>
     <string name="google_docs_task_create_worksheet">Přidání listu</string>
     <string name="google_docs_task_shange_columns">Obnovení listu</string>
     <string name="username_hint">Emailová adresa</string>
@@ -252,23 +253,23 @@
     <string name="capture_picture">Zachytit snímek</string>
     <string name="please_wait">Čekejte prosím...</string>
     <!-- 1.4.0 -->
-    <string name="public_library_title">Publikace knihovny</string>
-    <string name="public_to_picasa_message">Upload knihovny obrázků do Picasa</string>
-    <string name="public_to_picasa_create_album">Vytvoření Picasa alba pro publikovanou knihovnu</string>
-    <string name="public_to_picasa_success">Obrázky byly uploadovány do Picasa</string>
+    <string name="public_library_title">Publikování knihovny</string>
+    <string name="public_to_picasa_message">Nahrání knihovny obrázků do Picasa</string>
+    <string name="public_to_picasa_create_album">"Vytvoření alba Picasa  pro publikovanou knihovnu"</string>
+    <string name="public_to_picasa_success">Obrázky byly nahrány do Picasa</string>
     <string name="picasa_task_step_auth">Autorizace k službě Picasa</string>
     <string formatted="false" name="picasa_send_image_step">Nahrávání obrázků z knihovny do Picasa. %s z %s</string>
     <string name="public_library">Publikování knihovny</string>
-    <string name="update_public_library">Update publikace</string>
+    <string name="update_public_library">Nahrát publikaci</string>
     <string name="memento_register_account_title">Vytvoření účtu\nna serveru Memento</string>
     <string name="memento_register_account_text">K publikování knihoven a jejich podpisu je vyžadován účet na serveru Memento</string>
-    <string name="memento_login_hint">Uživ.jméno</string>
+    <string name="memento_login_hint">Uživatelské jméno</string>
     <string name="memento_pass_hint">Heslo</string>
     <string name="memento_pass_hint2">Opakovat heslo</string>
     <string name="memento_email_hint">Email</string>
     <string name="memento_register_button">Vytvořit</string>
     <string name="memento_have_button">Mám již účet</string>
-    <string name="login_empty">Zadejte uživ.jméno</string>
+    <string name="login_empty">Zadejte uživatelské jméno</string>
     <string name="login_format_error">Uživatelské jméno smí obsahovat pouze písmena a číslice</string>
     <string name="pass_not_equal">Prosím zkontrolujte Vaše heslo</string>
     <string name="incorrect_email">Chybný email</string>
@@ -279,10 +280,10 @@
     <string name="memento_server_error">Chyba serveru, zkuste to později</string>
     <string name="memento_account_title">Memento účet</string>
     <string name="memento_create_account_button">Nový účet</string>
-    <string name="memento_auth_error">Chybné uživ.jméno nebo heslo</string>
+    <string name="memento_auth_error">Chybné uživatelské jméno nebo heslo</string>
     <string name="memento_library_lock">Knihovna je blokována, zkuste to později</string>
     <string name="preference_memento_account_title">Memento účet</string>
-    <string name="preference_memento_account_hint">Uživ.jméno a heslo Vašeho Memento účtu</string>
+    <string name="preference_memento_account_hint">Uživatelské jméno a heslo Vašeho Memento účtu</string>
     <string name="public_library_task_auth">Autorizace služby Memento</string>
     <string name="public_library_task_send_template">Přenos šablony knihovny</string>
     <string formatted="false" name="public_library_task_send_items">Přenos záznamů knihovny.\n%s z %s</string>
@@ -302,7 +303,7 @@
     <string name="publish_library_address_hint">Vaši přátelé smí použít Memento k prohlížení této knihovny. Za tímto účelem se musí přihlásit do knihovny pomocí výše uvedené adresy.</string>
     <string name="deafult_group_title">Mé knihovny</string>
     <string name="subscribe_activity_title">Podepsané knihovny</string>
-    <string name="library_uri_hint">Adresa knihovny / uživatel</string>
+    <string name="library_uri_hint">Adresa knihovny / uživatelské jméno</string>
     <string name="find_libraries_task_title">Hledání knihovny</string>
     <string name="find_libraries_task_by_uri">Hledání knihovny\npodle adresy</string>
     <string name="find_libraries_task_by_user">Získání seznamu\nknihoven uživatele</string>
@@ -327,7 +328,7 @@
     <string name="clear_preference_hint">Smazání všech záznamů knihovny</string>
     <string name="clear_preference_quest">Smazat všechny záznamy v knihovně?</string>
     <string name="last_sync">Synchronizace: %s</string>
-    <string name="last_public">Publikování: %s</string>
+    <string name="last_public">Publikované: %s</string>
     <string name="unpublic_library_title">Zrušit publikování knihovny</string>
     <string name="unpublic_library">Zrušit publikování</string>
     <string name="unpublish_success">Knihovně bylo zrušeno publikování</string>
@@ -344,8 +345,8 @@
     <string name="flex_image_load">Nahrávám obraz ...</string>
     <string name="subscribed">Podepsána</string>
     <string name="info_public_library">Adresa knihovny</string>
-    <string name="cant_public">Bezplatná verze Vám dovoluje publikovat pouze tři knihovny.\nUpgrade na PRO verzi zruší toto omezení.</string>
-    <string name="add_permission_user_hint">Zadejte uživ.jméno nebo e-mail</string>
+    <string name="cant_public">Bezplatná verze Vám dovoluje publikovat pouze dvĕ knihovny.\nUpgrad na PRO verzi zruší toto omezení.</string>
+    <string name="add_permission_user_hint">Zadejte uživatelské jméno nebo e-mail</string>
     <string name="edit_pub_permissions">Práva přístupu ke knihovně</string>
     <string name="edit_pub_permissions_hint">Editace seznamu uživatelů s přístupem ke knihovně</string>
     <string name="edit_pub_permissions_task_dialog_message">Změna práv přístupů ke knihovně</string>
@@ -460,7 +461,7 @@
     <string name="template_from_catalog_title">Z online katalogu</string>
     <string name="template_category_text">Kategorie šablony</string>
     <string name="template_description_title">Popis šablony</string>
-    <string name="template_author_text">autor %s</string>
+    <string name="template_author_text">z %s</string>
     <string name="template_date_text">vytvořeno %s</string>
     <string name="button_download">Stáhnout</string>
     <string name="get_template_body_message">Stažení šablony knihovny...</string>
@@ -514,8 +515,8 @@
     <string name="file_not_found">Soubor nenalezen</string>
     <string name="select_app">Vyberte aplikaci</string>
     <string name="forum">Forum</string>
-    <string name="autoincrement">Auto-inkrement</string>
-    <string name="cant_protect">Bezplatná verze dovoluje chránit pouze tři knihovny.\nPro odstranění tohoto omezení si pořiďte PRO-verzi.</string>
+    <string name="autoincrement">Automatický pŕírůstek</string>
+    <string name="cant_protect">Bezplatná verze dovoluje chránit pouze dvĕ knihovny.\nPro odstranění tohoto omezení si pořiďte PRO-verzi.</string>
     <!-- 1.8.4 -->
     <string name="flex_edit_option_title">Kde lze editovat</string>
     <string name="flex_edit_option_default">Formulář úpravy záznamu</string>
@@ -614,7 +615,7 @@
     <string name="clear_filter">Vyčistit filtr</string>
     <string name="new_filter_dialog_title">Nový filtr</string>
     <string name="new_filter_dialog_text">Název filtru</string>
-    <string name="delete_filter_dialog_text">Chcete skutečně smazat filtr?</string>
+    <string name="delete_filter_dialog_text">Chcete skutečně smazat filtr \"℅s\"?</string>
     <string name="add_to_favorite">Přidat do oblíbených</string>
     <string name="remove_from_favorite">Odstranit z oblíbených</string>
     <string name="button_delete_goup">Smazat skupinu</string>
@@ -668,7 +669,7 @@
     <string name="no_dependencies">bez závislosti</string>
     <string name="add_depends_button_title">Pridat závislost</string>
     <string name="library_dont_have_fields_for_depends">Knihovna neobsahuje vhodná pole pro vytvoření závislosti tohoto pole</string>
-    <string name="select_type_depends">Vybrat typ zavislosti</string>
+    <string name="select_type_depends">Vybrat typ závislosti</string>
     <string name="select_type_depends_spinner_title">Typ zavislosti</string>
     <string name="select_master_field_for_depend">Vybrat pole, ze kterého má být závislost</string>
     <string name="library_fields">Knihovna vstupních polí</string>
@@ -753,10 +754,10 @@
     <string name="faq">FAQ - často kladené otázky</string>
     <string name="accept_button">Souhlasím</string>
     <string name="sort_by_subtitle">podle %s</string>
-    <string name="run_sync_slave_libraries_pref">Příbuzné knihovny</string>
+    <string name="run_sync_slave_libraries_pref">Propojené knihovny</string>
 	<string name="run_sync_slave_libraries_summary">První synchronizace propojených knihoven</string>
 	<string name="group_by_subtitle">podle %s</string>
-    <string name="sort_asc">ASC</string>
+    <string name="sort_asc">vzestupně</string>
     <string name="multy_sorting">Třídit podle mnohonásobných polí</string>
     <string name="new_button">nový</string>
     <string name="free_version_entry_page_limit">Ve free verzi můžete vytvořit pouze dvě stránky. Povýšení na PRO verzi deaktivuje toto omezení.</string>
@@ -778,7 +779,7 @@
     <string name="chart_type_pie">Koláč</string>
     <string name="chart_type_line">Čára</string>
     <string name="chart_type_bar">Sloupec</string>
-    <string name="chart_type_column">Sloupec</string>
+    <string name="chart_type_column">Sloupce</string>
     <string name="chart_type_area">Plocha</string>
     <string name="chart_type_scatter">Rozptyl</string>
     <string name="chart_type_stepped_area">Stupňový prostor</string>
@@ -787,7 +788,7 @@
     <string name="chart_display_option_category_title">Možnosti diagramu</string>
     <string name="restore_files_error">Soubory se nezdařilo obnovit</string>
     <string name="send_files_to_cloud_error">Chyba nahrávání souborů do cloudového úložiště:</string>
-    <string name="sort_desc">DESC</string>
+    <string name="sort_desc">sestupně</string>
     <string name="sliding_hint_text">Přejeďte zprava doleva\npro otevření rozšířené nabídky -\ntřídění, skupiny, filtry, tabulky a falší ...</string>
     <string name="pref_entry_editor_with_margin_summary">Možnost pro mod krajina</string>
     <string name="flex_type_signature_options_title">Možnosti malování</string>
@@ -999,10 +1000,10 @@
     <string name="string_functions">Řetězce</string>
     <string name="logic_functions">Logická</string>
     <string name="sort_by_downloads">Třídit podle stahování</string>
-    <string name="need_auth_on_memento_server">Musíte si vytvořit účet na Memento serveru</string>
+    <string name="need_auth_on_memento_server">Musíte si vytvořit účet na cloudovém úložišti serveru Memento</string>
     <string name="empty_my_templates_list">Nemáte žádné zveřejněné šablony knihoven.</string>
     <string name="empty_field_depend_list">Toto pole nemá žádnou závislost na jiných polích.</string>
-    <string name="share_template_dialog_title">Sdílet šablonu prostřednictvím online kalogu</string>
+    <string name="share_template_dialog_title">Sdílet šablonu prostřednictvím online katalogu</string>
     <string name="empty_search_result2">Vaše hledání - %s - neodpovídá žádnému záznamu</string>
     <string name="rename_group">Přejmenovat skupinu</string>
     <string name="move">Přesunout</string>
@@ -1011,7 +1012,7 @@
     <string name="master_library_entries">Záznamy z navazující knihovny</string>
     <string name="invisible">neviditelný</string>
     <string name="display_master_libraries_items">Zobrazit na kartě</string>
-    <string name="sync_with_google_left_menu_item">Synchronozovat s Google</string>
+    <string name="sync_with_google_left_menu_item">Synchronizovat s Google</string>
     <string name="entries_view_menu_title">Zobrazení</string>
     <string name="entries_view_list">Seznam</string>
     <string name="entries_view_table">Tabulka</string>
@@ -1074,7 +1075,7 @@
     <string name="calendar_day_view">Zobrazení dne</string>
     <string name="calendar_3day_view">Zobrazení tří dnů</string>
     <string name="calendar_week_view">Zobrazení týdne</string>
-    <string name="lost_linked_library">Propjená knihovna nebyla nalezena, možná byla odstraněna.</string>
+    <string name="lost_linked_library">Propojená knihovna nebyla nalezena, možná byla odstraněna.</string>
     <string name="multichoice_field_empty">Žádné hodnoty nejsou dostupné pro výběr</string>
     <string name="show_add_button_on_tile">Tlačítko \"Přidat záznam\"</string>
     <string name="cant_find_audio_selection_app">Buhužel, ale aplikace pro volbu audiozáznamu nebyla nalezena.</string>
@@ -1104,9 +1105,9 @@
 	<string name="show_deleted_entries_menu_item">Zobrazit smazané záznamy</string>
 	<string name="upload_to_cloud_menu_item">Do cloudu</string>
 	<string name="welcome_text_title">Vítejte v Memento databázi</string>
-	<string name="welcome_text_description">Knihovna je místo, kde budou uloženy vaše položky.\nVytvořením knihovny založené na jedné z poskytnutých šablon se můžete začít seznamovat s programem.</string>
+	<string name="welcome_text_description">Knihovna je místo, kde budou uloženy vaše záznamy.\nVytvořením knihovny založené na jedné z poskytnutých šablon se můžete začít seznamovat s programem.</string>
 	
-	<string name="memento_cloud">Cloud</string>
+	<string name="memento_cloud">Cloudové</string>
 	<string name="start_remove_librarary_from_cloud">Mazání knihovny...</string>
 	<string name="success_remove_librarary_from_cloud">Knihovna byla úspěšně smazána z cloudu</string>
 	<string name="start_upload_library_to_cloud">Nahrávání knihovny...</string>	
@@ -1129,7 +1130,7 @@
 	<item quantity="other">Během synchronizace se vyskytlo %d konfliktů</item>
 </plurals>
     <string name="button_select">Vybrat</string>
-    <string name="cloud">Cloud</string>
+    <string name="cloud">Cloudové</string>
     <string name="library_not_in_cloud">Není v cloudu</string>
     <string name="synced">Synchronizováno %s</string>
     <string name="cloud_synced_progress">Synchronizace ...</string>
@@ -1159,7 +1160,7 @@
     <string name="download_files_from_cloud">Stahování souborů z cloudu...</string>
     <string name="cant_download_item_files_for_copy">Stažení souborů pro vytvoření kopií se nezdařilo.</string> 
     <string name="button_update">Aktualizovat</string>
-    <string name="add_people">Přidat lidi</string>
+    <string name="add_people">Přidat uživatele nebo skupinu</string>
     <string name="read_permission">Číst</string>      
     <string name="write_permission">Zapisovat</string>
     <string name="create_permission">Vytvářet</string>
@@ -1183,7 +1184,7 @@
 	<string name="adv_free">Žádné reklamy</string>
 	<string name="subscription_activation">Aktivovat předplatné ...</string>
 	<string name="subscription_activation_error">Chyba při aktivaci: %s</string>
-	<string name="google_play_unavaliable">Google Play není dospupný:(</string>
+	<string name="google_play_unavaliable">Google Play není dostupný:(</string>
 	<string name="cloud_file_while_not_upload">Soubor ještě není v cloudu</string>
 	<string name="button_signin">Přihlásit se</string>
 	<string name="library_public_access">Veřejný přístup</string>
@@ -1330,4 +1331,30 @@
 	<string name="subscription_already_activation_for_user">Předplatné nelze aktivovat, protože bylo zakoupeno pro uživatele %s.</string>
 	<string name="find_library_by_url_title">Otevřít přes URL adresu</string>
 	<string name="upload_to_cloud_offer_text">• Spolupráce v týmu\n• Synchronizace různých zařízení\n• Vždy dostupná záloha v cloudu</string>
-	</resources>
+	<string name="featured_templates">Charakteristický</string>
+	<string name="entries_view_type_cards">Karty</string>
+    <string name="card_view_number_of_columns">Počet sloupců</string>
+    <string name="create_collections">Vytvořit knihovny</string>
+    <string name="create_collections_success">Knihovny vytvořeny</string>
+    <string name="template_included_libraries">Šablona obsahuje další knihovny</string>
+
+    <string name="tasker_plugin_create_entry_event_title">Záznam vytvořen</string>
+    <string name="tasker_plugin_delete_entry_event_title">Záznam vymazán</string>
+    <string name="tasker_plugin_modified_entry_event_title">Záznam upraven</string>
+    <string name="no_libraries_text">Ještě není vytvořena žádná knihovna</string>
+    <string name="flex_type_rich_text">Rozšířený text</string>
+    <string name="attached_files">Připojené soubory</string>
+    <string name="cloud_file_download_pending">Nerozhodnuto</string>
+    <string name="cloud_file_queued">Zařazené do fronty</string>
+    <string name="add_relationship">Vzájemná vazba/propojení</string>
+    <string name="group_by_and">Vše z (A)</string>
+    <string name="group_by_or">Nic z (NEBO)</string>
+    <string name="upload_to_cloud">Nahrát do cloudu</string>
+    <string name="triggers">Spouštěče</string>
+    <string name="trigger_name">Název spouštěče</string>
+    <string name="trigger_event">Událost</string>
+    <string name="trigger_permission_libraries">Knihovny</string>
+    <string name="date_and_time_formats">Formát data a času</string>
+    <string name="date_formats">Formát data</string>
+    <string name="time_formats">Formát času</string>
+    </resources>

@@ -1254,7 +1254,7 @@
     <string name="cant_download_item_files_for_copy">La descarga de archivos para crear copias ha fallado.</string> 
     <string name="library_cloud_model_changed_message">La estructura de la biblioteca fue actualizada en la nube. Actualiza la estructura para una mejor sincronización.</string>
     <string name="button_update">Actualizar</string>
-    <string name="add_people">Agregar personas</string>
+    <string name="add_people">Agregar usuario o grupo</string>
     <string name="edit_permission">Configuración de uso compartido</string>	
 	<string name="push_entry_error_text" formatted="false">La entrada no se almacenado en la nube.\nNombre: %s\nError: %s</string>
 	<string name="need_upload_to_cloud_slave_libraries">Por favor, sube bibliotecas dependientes a la nube.</string>
@@ -1661,4 +1661,18 @@
     <string name="from_google_drive">Desde Google Drive</string>
 
 <string name="bulk_add">Agregar en grupo</string>
+    <string name="barcode_type_2d">Código QR</string>
+
+<string name="field_values_delimiter">Delimitador del campo</string>
+    <string name="entries_desc_dialog_title">La descripción de las entradas es determinada por los valores de los campos selectos</string>
+    <string name="cant_add_management">El administrador tiene completo acceso a esta biblioteca</string>
+    <string name="auth_error_user_blocked">Tu cuenta ha sido deshabilitada</string>
+    <string name="send_password_to_user">Enviar contraseña al usuario por email</string>
+    <string name="field_permission_read_only">Sólo lectura</string>
+    <string name="add_user_group_hint">Nombre del grupo</string>
+    <string name="user_group_name_empty">El nombre del grupo no debe estar vacío</string>
+    <plurals name="users_count">
+	<item quantity="one">Un usuario</item>
+	<item quantity="other">%d usuarios</item>
+</plurals>
     </resources>

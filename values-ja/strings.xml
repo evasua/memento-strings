@@ -10,8 +10,8 @@
     <string name="button_no">いいえ</string>
     <string name="button_save">保存</string>
     <string name="button_cancel">キャンセル</string>
-    <string name="button_add_field">項目を追加</string>
-    <string name="add_new_library_item">エントリーを追加 ...</string>
+    <string name="button_add_field">フィールドを追加</string>
+    <string name="add_new_library_item">エントリーを追加</string>
     <string name="flex_type_title_string">テキスト</string>
     <string name="flex_type_title_int">整数</string>
     <string name="flex_type_title_bool">ブール型 (チェックボックス)</string>
@@ -63,7 +63,7 @@
     <string name="flex_delete_message_title">項目を削除</string>
     <string name="flex_delete_message_text">項目 \"%s\" を本当に削除しますか？</string>
     <string name="not_group">グループ化解除</string>
-    <string name="bool_yes">Yes</string>
+    <string name="bool_yes">はい</string>
     <string name="bool_not">No</string>
     <string name="group_null_value">空白</string>
     <string name="date_not_set">空白</string>
@@ -100,7 +100,7 @@
     <string name="flex_role_hint">エントリー概要</string>
     <string name="flex_role_status">エントリーステータス</string>
     <string name="short_flex_role_name">名前</string>
-    <string name="short_flex_role_hint">降順</string>
+    <string name="short_flex_role_hint">詳細</string>
     <string name="short_flex_role_status">ステータス</string>
     <string name="item_add_to_favorite">エントリーはお気に入りに追加されました</string>
     <string name="item_remove_from_favorite">エントリーはお気に入りから削除されました</string>
@@ -411,7 +411,7 @@
     <string name="library_protection_pass">パスワード</string>
     <string name="library_protection_pass_checkbox">パスワードアクセス</string>
     <string name="buy_from_market_title">Google Play を通して購入</string>
-    <string name="buy_from_market_hint">Google Wallet</string>
+    <string name="buy_from_market_hint">Googleウォレット</string>
     <string name="flex_type_password">パスワード</string>
     <string name="flex_type_phone">電話</string>
     <string name="license_check">ライセンスチェック中</string>
@@ -590,7 +590,7 @@
     <string name="clear_filter">フィルタをクリア</string>
     <string name="new_filter_dialog_title">新フィルタ</string>
     <string name="new_filter_dialog_text">フィルタ名</string>
-    <string name="delete_filter_dialog_text">このフィルタを本当に削除しますか？</string>
+    <string name="delete_filter_dialog_text">フィルター \"%s\" を本当に削除しますか？</string>
     <string name="add_to_favorite">お気に入りに追加</string>
     <string name="remove_from_favorite">お気に入りから消去</string>
     <string name="search_result_subtitle">検索結果</string>
@@ -928,12 +928,10 @@
     <string name="google_sync_without_memento_id_text">ライブラリはエラーが生じる可能性がある古い方法で同期されました。\n新しい工法を使用できるようにするにはライブラリのテーブルを再構築しなければなりません。\nすぐに再構築しますか？</string>
     <string name="rating_field_max_value">最大レート</string>
     <plurals name="rating_stars_count">
-	<item quantity="one">%d スター</item>
-	<item quantity="other"/>
+	<item quantity="other">%d スター</item>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
-	<item quantity="one">%d エントリーがゴミ箱に移動されました</item>
-	<item quantity="other"/>
+	<item quantity="other">%d エントリーがゴミ箱に移動されました</item>
 </plurals>
     <string name="auto_fill_barcode_empty2">オートコンプリートソースとエントリー項目の属性を比較</string>
     <string name="barcode_rule_delete_title">ルールを削除</string>
@@ -960,13 +958,13 @@
     <string name="calc_value_type_number">数値タイプ</string>
     <string name="calc_value_type_string">文字列タイプ</string>
     <string name="sort_by_downloads">ダウンロードによる並び替え</string>
-    <string name="need_auth_on_memento_server">Memento サーバのアカウントを作成する必要があります</string>
+    <string name="need_auth_on_memento_server">Mementoクラウドのアカウントを作成する必要があります</string>
     <string name="empty_my_templates_list">発行済みライブラリテンプレートはありません。</string>
     <string name="empty_field_depend_list">この項目は他の項目との依存関係がありません。</string>
     <string name="share_template_dialog_title">オンラインカタログを通してテンプレートを共有</string>
     <string name="catalog_templates">カタログテンプレート</string>
     <string name="empty_search_result2">検索 - %s - 一致したエントリーがありません</string>
-    <string name="rename_group">グループ名を変更</string>
+    <string name="rename_group">グループを編集</string>
     <string name="move">移動</string>
     <string name="select_group">グループを選択</string>
     <string name="library_moved_message">グループ \"%s\" へ移動したライブラリ</string>
@@ -996,20 +994,16 @@
     <string name="free_version_multi_field_limit">フリーバージョンでは、2つの要素しか追加することができません。制限を加除するには PRO バージョンへアップグレードしてください。</string>
     <string name="scale">スケール %d</string>
     <plurals name="duration_seconds">
-	<item quantity="one">"%d  秒"</item>
-	<item quantity="other"/>
+	<item quantity="other">"%d  秒"</item>
 </plurals>
     <plurals name="duration_minutes">
-	<item quantity="one">%d 分</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 分</item>
 </plurals>
     <plurals name="duration_hours">
-	<item quantity="one">%d 時間</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 時間</item>
 </plurals>
     <plurals name="duration_days">
-	<item quantity="one">%d 日</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 日</item>
 </plurals>
     <string name="all">すべて</string>
     <string name="page">ページ</string>
@@ -1067,9 +1061,9 @@
 	<string name="show_deleted_entries_menu_item">削除エントリーを表示</string>
 	<string name="upload_to_cloud_menu_item">クラウドへ</string>
 	<string name="welcome_text_title">Memento データベースにようこそ</string>
-	<string name="welcome_text_description">ライブラリは、エントリーが保存される場所です。\n提供されているテンプレートを使用してライブラリを作成することで、プログラムの使用方法を習得しましょう。</string>	
+	<string name="welcome_text_description">ライブラリは、エントリーが保存される場所です.\n提供されているテンプレートを使用してライブラリを作成すると、Mementoの使い方をよく理解できます.</string>	
 	
-<string name="memento_cloud">クラウド</string>
+<string name="memento_cloud">Mementoクラウド</string>
 	<string name="start_remove_librarary_from_cloud">ライブラリを削除中...</string>
 	<string name="success_remove_librarary_from_cloud">クラウドからライブラリが削除されました</string>
 	<string name="start_upload_library_to_cloud">ライブラリアップロード中...</string>	
@@ -1091,8 +1085,7 @@
 	<string name="cloud_conflict_fields_title">競合</string>
 	<string name="cloud_conflict_fix_button_title">修正</string>
     <plurals name="conflict_count">
-	<item quantity="one">同期中に %d 件の競合が発生しました</item>
-	<item quantity="other"/>
+	<item quantity="other">同期中に %d 件の競合が発生しました</item>
 </plurals>
     <string name="button_select">選択</string>
     <string name="cloud">クラウド</string>
@@ -1127,7 +1120,7 @@
     <string name="cant_download_item_files_for_copy">ダウンロードされたファイルのコピーの作成が失敗しました。</string> 
     <string name="library_cloud_model_changed_message">クラウドのライブライ構造が更新されました。将来の同期のため構造を更新してください。</string>
     <string name="button_update">更新</string>
-    <string name="add_people">人を追加</string>
+    <string name="add_people">ユーザー/グループを追加</string>
     <string name="read_permission">読込</string>      
     <string name="write_permission">書込</string>
     <string name="create_permission">作成</string>
@@ -1153,7 +1146,7 @@
 	<string name="cloud_storage_full_text2" formatted="false">クラウドに十分な容量がありません。\n必要容量 %s, 空き容量 %s。\nクラウド容量をアップグレードしてください。</string>
 	<string name="alien_cloud_storage_full_text">ライブラリ所有者は十分な容量を持っていません。</string>	
 	<string name="button_tarifs">トラフィック</string>
-	<string name="cloud_storage_plans">プラン</string>
+	<string name="cloud_storage_plans">購入プラン</string>
 	<string name="price_free">無料</string>
 	<string name="price_per_month">%s / 月</string>
 	<string name="unlimited_libraries">無制限ライブラリ</string>	
@@ -1276,8 +1269,7 @@
     <string name="rating_tooltips_hint">ツールチップ</string>
     <string name="rating_tooltips_empty">項目にはツールチップがありません</string>
     <plurals name="rating_tooltips_count">
-	<item quantity="one">%d ツールチップ</item>
-	<item quantity="other"/>
+	<item quantity="other">%d ツールチップ</item>
 </plurals>
     <string name="calculator">電卓</string>
     <string name="calculator_options_hint">電卓を表示させるボタンを追加</string>
@@ -1287,4 +1279,56 @@
     <string name="multiediting_title">複数編集</string>
     <string name="select_all">すべて選択</string>
     
-</resources>
+<string name="group_separator_option_title">桁区切り</string>
+    <string name="group_separator_option_hints">桁区切りとして空白を使用する</string>
+
+
+    <string name="cloud_library_notification_title">通知</string>
+    <string name="cloud_library_notification_hint">他のユーザーがライブラリーを変更しているときにプッシュ通知を受け取る</string>
+    <string name="cloud_library_download_notification_text">%s: ダウンロード済みライブラリー</string>
+    <string name="cloud_notification_for_subscribers">申し訳ありません, 通知受け取りサービスはアプリ購入者のみ利用できます.</string>
+    <string name="comments">コメント</string>
+    <string name="comment_input_hint">コメントを書く</string>
+    <string name="comment_send_error">エラー通知コメント: %s</string>
+    <string name="edit_comment_dialog_title">コメントを編集</string>
+
+    <string name="notification_edit_library_create_text">追加されたエントリー</string>
+    <string name="notification_edit_library_edit_text">編集されたエントリー</string>
+    <string name="notification_edit_library_delete_text">削除されたエントリー</string>
+    <plurals name="notification_comments_common_text">
+	    <item quantity="other">%d 新しいコメント</item>
+    </plurals>
+
+    <string name="flex_type_rich_text">リッチテキスト</string>
+    <string name="text_background_color">背景色</string>
+    <string name="field_type_rich_only_for_android_kit_kat">この種類のフィールドはAndroid 4.4 Kitkat以降でしか利用できません.</string>
+    <string name="field_type_rich_list_free_limit">申し訳ありません, リスト機能はPROバージョンでのみ利用できます。</string>
+    <string name="field_type_rich_align_free_limit">申し訳ありません, 整列機能はPROバージョンでのみ利用できます.</string>
+    <string name="attached_files">添付ファイル</string>
+    <string name="cloud_file_not_downloaded">未ダウンロード</string>
+    <string name="cloud_file_download_pending">保留</string>
+    <string name="cloud_file_queued">キューに登録済み</string>
+    <string name="cloud_file_uploading">アップロード中</string>
+    <string name="cloud_file_downloading">ダウンロード中</string>
+    <string name="sort_by_size">サイズで並び替え</string>
+    <string name="download_all">全てダウンロード</string>
+    <string name="button_apply">適用する</string>
+    <string name="file_manager_not_found">デバイス上に利用できるファイルマネージャーが見つかりません.</string>
+    <string name="file_list_empty">このライブラリーにはファイルがありません</string>
+    <string name="feature_available_only_in_pro">この機能はPROバージョンでのみ利用できます.</string>
+    <string name="preview_button">プレビュー</string>
+    <string name="calc_preview_title">プレビュー</string>
+    <string name="add_relationship">リレーションシップ</string>
+    <string name="add_relationship_with_title">連携するライブラリーを選択してください</string>
+    <string name="add_relationship_success">このリレーションシップはフィールド\"%s\"で連携されます.</string>
+    <string name="display_aggregation">アグリゲーションを表示</string>
+    <string name="create_shortcut_text">ショートカットに名前をつけてください</string>
+    <string name="permission_storage_title">保存領域</string>
+    <string name="permission_storage_text">続けるには, Mementoからの保存領域へのアクセス許可が必要です.</string>
+    <string name="permission_accounts_title">アカウント</string>
+    <string name="permission_location_title">位置情報</string>
+    <string name="cloud_file_error_upload">クラウドへの送信エラーです</string>
+    <string name="permission_storage_explanation_text">バックアップや画像やファイルの添付には, 保存領域へのアクセス権が必要です.</string>
+    <string name="permission_accounts_text">Googleスプレッドシートとの同期や連絡先フィールドを利用するためにはGoogleアカウントへのアクセス許可が必要です.</string>
+    <string name="permission_location_text">位置情報フィールドを利用するためには位置情報へのアクセス許可が必要です.</string>
+    </resources>

@@ -12,7 +12,7 @@
     <string name="button_save">Salvar</string>
     <string name="button_cancel">Cancelar</string>
     <string name="button_add_field">Adicionar um campo</string>
-    <string name="add_new_library_item">Adicionar uma entrada...</string>
+    <string name="add_new_library_item">Adicione uma entrada</string>
     <string name="flex_type_title_string">Texto</string>
     <string name="flex_type_title_int">Inteiro</string>
     <string name="flex_type_title_bool">Booleano</string>
@@ -20,7 +20,7 @@
     <string name="flex_type_title_date_time">Data/Tempo</string>
     <string name="flex_type_contact">Contato</string>
     <string name="flex_type_image">Imagem</string>
-    <string name="flex_type_string_list">Sequência de valores</string>
+    <string name="flex_type_string_list">Lista de escolhas unicas</string>
     <string name="flex_type_audio">Áudio</string>
     <string name="flex_type_money">Moeda</string>
     <string name="flex_type_rating">Avaliação</string>
@@ -625,7 +625,7 @@
     <string name="delete_filter">Apagar filtro</string>
     <string name="clear_filter">Limpar filtro</string>
     <string name="new_filter_dialog_text">O nome do filtro</string>
-    <string name="delete_filter_dialog_text">Deseja mesmo apagar este filtro?</string>
+    <string name="delete_filter_dialog_text">Deseja mesmo apagar o filtro \"%s\"?</string>
     <string name="reindex_dialog_message">A criar indexes...</string>
     <string name="add_product_manually">Manualmente</string>
     <string name="flextemplate_move_to_begin">Mover para o topo</string>
@@ -1019,7 +1019,7 @@
     <string name="share_template_dialog_title">Partilhar modelo através do catálogo on-line</string>
     <string name="catalog_templates">Catálogo de modelos</string>
     <string name="empty_search_result2">A sua pesquisa - %s - não encontrou nenhuma entrada</string>
-    <string name="rename_group">Renomear grupo</string>
+    <string name="rename_group">Editar grupo</string>
     <string name="move">Mover</string>
     <string name="select_group">Selecionar grupo</string>
     <string name="library_moved_message">Biblioteca movida para o grupo \"%s\"</string>
@@ -1113,27 +1113,27 @@
 	<string name="need_make_slave_library_unique_import">Para importar campo \"Link para a entrada\", você deve habilitar o nome de entrada como único na biblioteca para as ligações se referem.↵\nFazer isto agora?</string>
 	<string name="choice_type_add_button_in_edit_title">Criação de elementos enquanto a entrada está sendo editada</string>
 	
-	<string name="memento_cloud">Nuvem (cloud)</string>
-	<string name="welcome_text_description">A biblioteca é o lugar onde as entradas serão armazenados.↵\nVocê pode começar por se familiarizar com o programa criando uma biblioteca com base em um dos modelos fornecidos.</string>
+	<string name="memento_cloud">Nuvem Memento</string>
+	<string name="welcome_text_description">A biblioteca é o lugar onde as entradas serão armazenados. Voçê pode começar de familiarize-se com Memento em criando uma biblioteca baseado em um dos modelos fornecidos.</string>
 	
-	<string name="start_remove_librarary_from_cloud">A eliminar biblioteca...</string>
-	<string name="success_remove_librarary_from_cloud">Biblioteca eliminada com sucesso a partir da nuvem</string>
-	<string name="start_upload_library_to_cloud">A carregar biblioteca...</string>	
-	<string name="download_library_hint">Criar uma cópia local</string>			
-	<string name="pull_entries_from_cloud_message">A descarregar entradas...</string>
-	<string name="download_library">descarregar biblioteca</string>
-	<string name="open_library_hint">Abrir uma cópia local</string>
-	<string name="open_library">Abrir biblioteca</string>
-	<string name="start_download_library_model">A enviar a estrutura da biblioteca...</string>
+	<string name="start_remove_librarary_from_cloud">Apagando a biblioteca...</string>
+	<string name="success_remove_librarary_from_cloud">Biblioteca foi apagada da nuvem com sucesso</string>
+	<string name="start_upload_library_to_cloud">Mandando biblioteca...</string>	
+	<string name="download_library_hint">Crie uma cópia local</string>			
+	<string name="pull_entries_from_cloud_message">Baixando entradas...</string>
+	<string name="download_library">Baixa biblioteca</string>
+	<string name="open_library_hint">Abre cópia local</string>
+	<string name="open_library">Abre biblioteca</string>
+	<string name="start_download_library_model">Enviando a estrutura da biblioteca...</string>
 	<string name="my_cloud_libraries_menu_item">Armazenamento na nuvem</string>
 	<string name="button_hide">esconder</string>	
-	<string name="empty_cloud_libraries_list_text">Não enviou bibliotecas</string>
+	<string name="empty_cloud_libraries_list_text">Não tem alguma biblioteca enviada</string>
 	<string name="permissions">Permissões</string>
-	<string name="success_upload_library_to_cloud">A biblioteca foi carregada com sucesso.↵\nA biblioteca será sincronizada automaticamente.</string>
-	<string name="success_upload_library_to_cloud2">Você pode fazer sua biblioteca acessível por outros utilizadors Memento em configurações de acesso.</string>	
-	<string name="push_entries_to_cloud_message" formatted="false">A enviar entradas↵\n%s of %s entradas processadas</string>
+	<string name="success_upload_library_to_cloud">A biblioteca foi mandada com sucesso.↵\nA biblioteca será sincronizada automaticamente.</string>
+	<string name="success_upload_library_to_cloud2">Você pode tornar a sua biblioteca acessível por outros utilizadores de Memento nos configurações de acesso.</string>	
+	<string name="push_entries_to_cloud_message" formatted="false">Enviando entradas↵\n%s de %s entradas processadas</string>
 	<string name="pull_entries_from_cloud_message2" formatted="false">%s de %s entradas processadas</string>
-	<string name="success_pull_library_from_cloud">As entradas descarregadas com sucesso.↵\nA biblioteca será sincronizada automaticamente.</string>
+	<string name="success_pull_library_from_cloud">Entradas estão baixadas com sucesso.↵\nA biblioteca será sincronizada automaticamente.</string>
 	<string name="cloud_conflict_fields_title">Conflitos</string>
 	<string name="cloud_conflict_fix_button_title">consertar</string>
     <plurals name="conflict_count">
@@ -1173,7 +1173,7 @@
     <string name="cant_download_item_files_for_copy">A descarregar ficheiros para criar cópias que falharam.</string> 
     <string name="library_cloud_model_changed_message">A estrutura da biblioteca foi atualizado na nuvem. Actualizar a estrutura para posterior sincronização.</string>
     <string name="button_update">Atualizar</string>
-    <string name="add_people">Adicionar pessoas</string>
+    <string name="add_people">Adicione usuário ou grupo</string>
     <string name="read_permission">Ler</string>      
     <string name="write_permission">Escrever</string>
     <string name="create_permission">Criar</string>
@@ -1460,4 +1460,149 @@
 	<item quantity="one">Um comentário</item>
 	<item quantity="other">%d comentários</item>
 </plurals>
+    <string name="comments_only_for_cloud">Os comentários só podem ser postados para as bibliotecas que foram carregados para a nuvem. Carregar uma biblioteca para a nuvem?</string>
+    <string name="locale_plugin_add_edit_entry_title">Adicionar/mudar uma entrada</string>
+    <string name="locale_to_fields_var">Texto de %s</string>
+    <string name="locale_to_fields_add_rule_title">Adicionar regra</string>
+    <string name="locale_to_fields_edit_rule_title">Editar regra</string>
+    <string name="variable_select">Selecionar um Variável</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Editar entrada</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Crie uma nova entrada, se falliu encontrar uma por meu do campo chave</string>
+
+    <string name="send_field_title">Mande o nome do campo</string>
+    <string name="send_field_title_summary">O nome do campo segue o valor do campo</string>
+    <string name="auto_lock_libraries_time_title">Feche acesso da biblioteca</string>
+    <string name="auto_lock_libraries_after">Depois %s</string>
+
+    <string name="empty_triggers_list_text">Esta biblioteca não contém disparadores.\nUm Disparador é um script que define o processamento de uma entrada baseado em um Evento que ocorreu.</string>
+    <string name="triggers">Disparadores</string>
+    <string name="trigger_name">Nome do disparador</string>
+    <string name="trigger_event">Evento</string>
+    <string name="trigger_moment">Fase</string>
+    <string name="unknown_trigger_event_type">Evento desconhecido</string>
+    <string name="unknown_trigger_moment_type">Fase desconhecido</string>
+
+    <string name="trigger_event_create_entry">Criar uma entrada</string>
+    <string name="trigger_event_modify_entry">Atualizar uma entrada</string>
+    <string name="trigger_event_delete_entry">Apagar uma entrada</string>
+    <string name="trigger_event_open_entry">Abrir um cartão de Ver Entrada</string>
+    <string name="trigger_event_add_favorites">Adicionando entradas para os Favoritos</string>
+    <string name="trigger_event_remove_favorites">Apagar uma entrada dos Favoritos</string>
+    <string name="trigger_default_name">Disparador %d</string>
+    <string name="trigger_enabled">Habilitado</string>
+    <string name="trigger_switched_off">Desligado</string>
+    <string name="trigger_delete_message">Você mesmo quer apagar o disparador \"%s\"?</string>
+
+
+    <string name="trigger_moment_open_form">Abre uma cartão de Editar Entrada</string>
+    <string name="trigger_moment_before_save">Antes de salvar a entrada</string>
+    <string name="trigger_moment_after_save">Depois salvar a entrada</string>
+    <string name="trigger_moment_before_delete">Antes de apagar uma entrada</string>
+    <string name="trigger_moment_after_delete">Depois de apagar uma entrada</string>
+    <string name="trigger_moment_before_show">Antes de mostrar a janela</string>
+    <string name="trigger_moment_after_show">Depois de ter mostrada a janela</string>
+
+    <string name="application">Aplicação</string>
+    <string name="debug">Depurar</string>
+    <string name="debug_summary">Opções de Registro</string>
+    <string name="log_files_folder">Diretório de arquivos de registro</string>
+
+    <string name="enable_logging_cloud">Chamadas no Nuvem Memento</string>
+    <string name="enable_logging_triggers">Registro de disparações</string>
+    <string name="script_log">Registro de roteiros</string>
+
+    <string name="trigger_permissions">Permissões para disparadores</string>
+    <string name="trigger_permission_read_file">Ler arquivos</string>
+    <string name="trigger_permission_read_file_hint">Permite os roteiros de ler no armazenamento externo</string>
+    <string name="trigger_permission_write_file">Gravar arquivos</string>
+    <string name="trigger_permission_write_file_hint">Permite os roteiros de gravar no armazenamento externo</string>
+    <string name="trigger_permission_network">Rede</string>
+    <string name="trigger_permission_network_hint">Permite os roteiros de executar solicitações HTTP</string>
+
+    <string name="trigger_permission_libraries">Bibliotecas</string>
+    <string name="trigger_permission_libraries_hint">Acesso de todas as bibliotecas</string>
+
+    <string name="trigger_permission_libraries_select">Bibliotecas à disposição</string>
+    <string name="trigger_permission_libraries_select_title">Selecionar bibliotecas</string>
+    <string name="need_pro_for_triggers">Na versão gratuita, uma biblioteca pode conter apenas um disparador. Para remover esta restrição, por favor, atualize para a versão PRO.</string>
+    <string name="filters_tab">Guias...</string>
+    <string name="filters_tab_dialog_title">Selecionar filtros para as guias</string>
+    <string name="export_template_include_filters">Filtros incluidos</string>
+
+    <string name="unit_of_measurement_enable">Adicionar uma unidade de medida para um campo</string>
+    <string name="unit_of_measurement_none">Nenhum</string>
+
+    <string name="unit_of_measurement_category">Categoria</string>
+    <string name="unit_of_measurement">Unidade de medida</string>
+    <string name="unit_of_measurement_button">Adicionar um conversor de unidades para o campo</string>
+
+    <string name="uom_category_temperature">Temperatura</string>
+    <string name="uom_celsius">Celsius</string>
+    <string name="uom_fahrenheit">Fahrenheit</string>
+    <string name="uom_kelvin">Kelvin</string>
+    <string name="uom_rankine">Rankine</string>
+
+    <string name="uom_category_time">Tempo</string>
+    <string name="uom_nanosecond">Nanosegundo</string>
+    <string name="uom_microsecond">Microssegundo</string>
+    <string name="uom_millisecond">Millissegundo</string>
+    <string name="uom_second">Segundo</string>
+    <string name="uom_minute">Minuto</string>
+    <string name="uom_hour">Hora</string>
+    <string name="uom_day">Dia</string>
+    <string name="uom_week">Semana</string>
+    <string name="uom_year">Ano</string>
+
+    <string name="uom_category_pressure">Pressão</string>
+    <string name="uom_pascal">Pascal</string>
+    <string name="uom_atmosphere">Atmosfera</string>
+    <string name="uom_bar">Bar</string>
+
+    <string name="uom_category_length">Comprimento</string>
+    <string name="uom_meter">Metro</string>
+    <string name="uom_kilometer">Quilômetro</string>
+    <string name="uom_centimeter">Centímetro</string>
+    <string name="uom_millimeter">Millímetro</string>
+    <string name="uom_micrometer">Micrômetro</string>
+    <string name="uom_nanometer">Nanômetro</string>
+    <string name="uom_mile">Milha</string>
+    <string name="uom_nautical_mile">Milha náutica</string>
+    <string name="uom_foot">pé</string>
+    <string name="uom_yard">Yard</string>
+    <string name="uom_inch">Polegada</string>
+    <string name="uom_angstrom">Angstrom</string>
+    <string name="uom_astronomical_unit">Unidade astronômica</string>
+    <string name="locale_to_fields_list_empty_text">Clique no botão + para criar novas regras para preenchimento de campos de biblioteca.</string>
+    <string name="uom_light_year">Ano luz</string>
+    <string name="uom_parsec">Parsec</string>
+
+    <string name="uom_category_mass">Massa</string>
+    <string name="uom_microgram">Micrograma</string>
+    <string name="uom_milligram">Miligrama</string>
+    <string name="uom_gram">Grama</string>
+    <string name="uom_kilogram">Quilograma</string>
+    <string name="uom_ton">Tonelada</string>
+    <string name="uom_ton_uk">Tonelada Imperial</string>
+    <string name="uom_ton_us">EUA tonelada</string>
+    <string name="uom_pound">Libra</string>
+    <string name="uom_ounce">Onça</string>
+
+    <string name="uom_category_volume">Volume</string>
+    <string name="uom_cubic_metre">Metro cúbico</string>
+    <string name="uom_liter">Litro</string>
+    <string name="uom_cubic_inch">Polegada cúbica</string>
+    <string name="uom_gallon_liquid_us">Galão americano</string>
+    <string name="uom_ounce_liquid_us">Onça fluida de E.U.A.</string>
+    <string name="uom_gallon_uk">Galão Imperial</string>
+    <string name="uom_ounce_liquid_uk">Onça fluida imperial</string>
+
+    <string name="uom_category_dataamount">Armazenamento digital</string>
+    <string name="uom_bit">Bit</string>
+    <string name="uom_byte">Byte</string>
+    <string name="uom_kilobit">Kilobit</string>
+    <string name="uom_kilobyte">Kilobyte</string>
+    <string name="uom_megabit">Megabit</string>
+    <string name="uom_megabyte">Megabyte</string>
+    <string name="uom_gigabit">Gigabit</string>
+    <string name="uom_gigabyte">Gigabyte</string>
     </resources>
