@@ -1676,4 +1676,6 @@
 	<item quantity="other">%d usuarios</item>
 </plurals>
     <string name="subheader_collapsed_by_default">Contraído de forma predeterminada</string>
+    <string name="aggr_always_show">Mostrar siempre</string>
+    <string name="team_license">Equipo</string>
     </resources>
