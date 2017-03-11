@@ -1694,4 +1694,7 @@
     <string name="individual">Individual</string>
     <string name="team">Equipo</string>
     <string name="cloud_plan_team5">Equipo 5</string>
+    <string name="cloud_plan_team10">Equipo 10</string>
+    <string name="cloud_plan_team15">Equipo 15</string>
+    <string name="cloud_plan_team20">Equipo 20</string>
     </resources>
