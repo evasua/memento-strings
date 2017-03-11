@@ -1688,5 +1688,8 @@
     <string name="field_right_need_library_download">Debe descargar una biblioteca a su dispositivo para adicionar nuevos derechos pare el acceso a campos.</string>
     <string name="field_permission_invisible">Invisible</string>
     <string name="field_permissions_limit">Los derechos de acceso para campos solo pueden establecerse en tarifas de Equipo.</string>
-    <string name="user_groups"></string>
+    <string name="user_groups">Grupos de usuarios</string>
+    <string name="user_group_delete_message">¿Realmente desea eliminar el grupo \"%s\" ?</string>
+    <string name="group_not_found">Grupo no encontrado</string>
+    <string name="individual">Individual</string>
     </resources>
