@@ -1684,4 +1684,5 @@
     <string name="library_permissions">Permisos de la biblioteca</string>
     <string name="field_permissions">Permisos del campo</string>
     <string name="library_permissions_subject">Nombre de usuario/email/grupo</string>
+    <string name="permissions_delete_message">¿Realmente quiere eliminar los permisos para \"%s\" ?</string>
     </resources>
