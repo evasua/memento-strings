@@ -1679,4 +1679,9 @@
     <string name="aggr_always_show">Mostrar siempre</string>
     <string name="team_license">Equipo</string>
     <string name="user_manager_only_for_team">La gestión de usuarios y licencias sólo está disponible en las tarifas de Equipo</string>
+    <string name="create_permissions">Crear permisos</string>
+    <string name="edit_permissions">Editar permisos</string>
+    <string name="library_permissions">Permisos de la biblioteca</string>
+    <string name="field_permissions">Permisos del campo</string>
+    <string name="library_permissions_subject">Nombre de usuario/email/grupo</string>
     </resources>
