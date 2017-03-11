@@ -1693,4 +1693,5 @@
     <string name="group_not_found">Grupo no encontrado</string>
     <string name="individual">Individual</string>
     <string name="team">Equipo</string>
+    <string name="cloud_plan_team5">Equipo 5</string>
     </resources>
