@@ -1678,4 +1678,5 @@
     <string name="subheader_collapsed_by_default">Contraído de forma predeterminada</string>
     <string name="aggr_always_show">Mostrar siempre</string>
     <string name="team_license">Equipo</string>
+    <string name="user_manager_only_for_team">La gestión de usuarios y licencias sólo está disponible en las tarifas de Equipo</string>
     </resources>
