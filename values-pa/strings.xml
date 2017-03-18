@@ -607,4 +607,9 @@
     <string name="sync_google_all">ਗੂਗਲ ਨਾਲ ਸਮਕਾਲ ਕਰੋ</string>
     <string name="user_manual_menu">ਮਦਦ ਸਮੱਗਰੀ</string>
     <string name="save_library_changes">ਬਦਲਾਅ ਸਾਂਭੇ ਜਾਣ?</string>
+    <string name="library_ex_options">ਅਗੇਤੇ ਮਾਪਦੰਡ</string>
+    <string name="library_last_sync">%s ਦਾ ਸਮਕਾਲ ਕਰੋ</string>
+    <string name="build_navigate_list_dialog">ਇੰਦਰਾਜ ਟਿਕਾਏ ਜਾ ਰਹੇ ਹਨ ...</string>
+    <string name="navigate_first_entry">ਇਹ ਪਹਿਲਾ ਇੰਦਰਾਜ ਹੈ</string>
+    <string name="navigate_last_entry">ਇਹ ਆਖ਼ਰੀ ਇੰਦਰਾਜ ਹੈ</string>
     </resources>
