@@ -1051,7 +1051,7 @@
     <string name="icon_pack_title_field_material">Matériel</string>
     <string name="google_base_field_new">Valeur de l\'attribut d\'après la source</string>
     <string name="icon_pack_title_field_general_flat">Général</string>
-    <string name="single_line_options_title">Ligne simple↵\nchamp texte</string>
+    <string name="single_line_options_title">Ligne unique (sans ↵)\nchamp texte</string>
     <string name="reminders_count_limit">Vous pouvez ajouter un maximum de 10 rappels par champ</string>
     <string name="aggregation_result_position">Emplacement</string>
     <string name="aggregation_result_prev_line">Pas de retour à la ligne</string>
@@ -1514,7 +1514,7 @@
 
     <string name="trigger_permission_libraries_select">Librairies disponibles</string>
     <string name="trigger_permission_libraries_select_title">Sélection des librairies</string>
-    <string name="filters_tab">Tabulateurs...</string>
+    <string name="filters_tab">Onglets...</string>
     <string name="export_template_include_filters">Inclure les filtres</string>
 
     <string name="unit_of_measurement_enable">Ajouter une unité de mesure pour le champ</string>
@@ -1614,19 +1614,19 @@
     <string name="next_button">Suivant</string>
     <string name="memento_cloud2">Nuage Memento</string>
 
-    <string name="from_file">Depuis le fichier</string>
+    <string name="from_file">Depuis un fichier</string>
     <string name="trigger_moment_open_form">Ouvrir une fenêtre d\'édition d\'un enregistrement</string>
     <string name="enable_logging_triggers">Traçage des déclencheurs</string>
     <string name="script_log">Traçage des scripts</string>
 
     <string name="sign_up">S\'inscrire</string>
-    <string name="trigger_event_open_entry">Ouvrir une vue de l\'enregistrement</string>
+    <string name="trigger_event_open_entry">Ouverture d\'une vue de l\'enregistrement</string>
     <string name="enable_logging_cloud">Appels sur le nuage Memento</string>
     <string name="trigger_permission_read_file_hint">Permet aux scripts de lire à partir d\'un stockage externe</string>
     <string name="trigger_permission_write_file_hint">Permet aux scripts d\'écrire sur un stockage externe</string>
     <string name="login">S\'identifier</string>
     <string name="need_pro_for_triggers">Dans la version gratuite une librairie ne peut contenir qu\'un seul déclencheur. Pour éliminer cette restriction passer à la version pro.</string>
-    <string name="filters_tab_dialog_title">Sélectionner les filtres pour les tabulateurs</string>
+    <string name="filters_tab_dialog_title">Sélectionner les filtres pour les onglets</string>
     <string name="uom_rankine">Rankine</string>
 
     <string name="uom_yard">Yard</string>
@@ -1648,9 +1648,9 @@
     <string name="field_values_delimiter">Séparateur de champs</string>
     <string name="entries_desc_dialog_title">La description des enregistrements est constituée parmi les champs suivants</string>
     <string name="image_caption">Sous-titrer</string>
-    <string name="flex_type_subheader">Sous-titre</string>
-    <string name="create_subheader">Créer un sous-titre</string>
-    <string name="edit_subheader">Modifier le sous-titre</string>
+    <string name="flex_type_subheader">Rubrique</string>
+    <string name="create_subheader">Créer une rubrique</string>
+    <string name="edit_subheader">Modifier la rubrique</string>
     <string name="aggr_always_show">Toujours affiché</string>
     <string name="cant_add_management">L\'administrateur a un accès intégral à la base</string>
     <string name="auth_error_user_blocked">Votre compte a été désactivé</string>
@@ -1729,5 +1729,5 @@
     <string name="bulk_add">Ajout par lot</string>
     <string name="locale_key_field_description">Le champ clef pour modifier les enregistrements</string>
 
-    <string name="subheader_collapsed_by_default">Section repliée par défaut</string>
+    <string name="subheader_collapsed_by_default">Repliée par défaut</string>
     </resources>
