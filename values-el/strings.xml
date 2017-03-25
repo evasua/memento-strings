@@ -8,7 +8,7 @@
     <string name="button_no">Οχι</string>
     <string name="button_save">Αποθήκευση</string>
     <string name="button_cancel">Άκυρο</string>
-    <string name="button_add_field">Προσθήκη ενός πεδίου</string>
+    <string name="button_add_field">Προσθήκη πεδίου</string>
     <string name="add_new_library_item">Προσθήκη εγγραφής</string>
     <string name="flex_type_title_string">Κείμενο</string>
     <string name="flex_type_title_int">Ακέραιος αριθμός</string>
@@ -1364,7 +1364,7 @@
     <string name="users_manager">Διαχειριστής χρηστών</string>
     <string name="create_new_user_dialog">Προσθήκη Νέου Χρήστη</string>
 
-    <string name="script">Δέσμη ενεργειών</string>
+    <string name="script">Σενάριο</string>
     <string name="js_libraries">Βιβλιοθήκες JavaScript</string>
     <string name="js_moment_library">Βιβλιοθήκη για την ανάλυση, την επικύρωση, το χειρισμό και τη μορφοποίηση ημερομηνιών</string>
     <string name="js_realtime">Εκτελέστε το σενάριο σε πραγματικό χρόνο</string>
@@ -1472,7 +1472,7 @@
 
     <string name="enable_logging_cloud">Κλήσεις Σύννεφου Memento</string>
     <string name="enable_logging_triggers">Καταγραφές εναυσμάτων</string>
-    <string name="script_log">Καταγραφή Δέσμης Ενεργειών</string>
+    <string name="script_log">Καταγραφή Σεναρίου</string>
 
     <string name="trigger_permissions">Δικαιώματα για σενάρια</string>
     <string name="trigger_permission_read_file">Ανάγνωση αρχείων</string>
@@ -1480,7 +1480,7 @@
     <string name="trigger_permission_write_file">Εγγραφή αρχείων</string>
     <string name="trigger_permission_write_file_hint">Επιτρέπει στην δέσμη ενεργειών την εγγραφή σε εξωτερικό χώρο αποθήκευσης</string>
     <string name="trigger_permission_network">Δίκτυο</string>
-    <string name="trigger_permission_network_hint">Επιτρέπει στην δέσμη ενεργειών (script) να εκτελεί αιτήσεις HTTP</string>
+    <string name="trigger_permission_network_hint">Επιτρέπει στο σενάριο (script) να εκτελεί αιτήσεις HTTP</string>
 
     <string name="trigger_permission_libraries">Βιβλιοθήκες</string>
     <string name="trigger_permission_libraries_hint">Πρόσβαση σε όλες τις βιβλιοθήκες</string>
