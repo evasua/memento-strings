@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name" translatable="false">Memento</string>
+    <string name="app_name" translatable="false">Memento Database</string>
     <string name="library_menu_add_item">Add an entry</string>
     <string name="main_menu_add_lib">Add Library</string>
     <string name="ghostData_lib_title">Library name</string>
@@ -672,7 +672,7 @@
     <string name="field_depends_activity_title">Dependencies</string>
     <string name="no_dependencies">no dependencies</string>
     <plurals name="field_depends_count">
-        <item quantity="one">One dependence</item>
+        <item quantity="one">One dependency</item>
     	<item quantity="few">%d dependencies</item>
     	<item quantity="many">%d dependencies</item>       
         <item quantity="other">%d dependencies</item>                
@@ -681,7 +681,7 @@
     <string name="library_dont_have_fields_for_depends">Library does not contain the appropriate fields for the construction of dependence of this field</string>
     <string name="select_type_depends">Select the type of dependency</string>
     <string name="select_type_depends_spinner_title">Type of dependency</string>
-    <string name="select_master_field_for_depend">Select the field from which to be dependence</string>
+    <string name="select_master_field_for_depend">Select the field upon which to be dependent</string>
     <string name="library_fields">Library entry fields</string>
     <string name="boolean_field_check_value">Checked</string>
     <string name="boolean_field_uncheck_value">Unchecked</string>
@@ -1170,7 +1170,7 @@
     <string name="megabyteShort">MB</string>
     <string name="gigabyteShort">GB</string>
     <string name="button_refresh">Refresh</string>
-    <string name="cloud_storage_space_text" formatted="false">%s (%s) of %s used</string>   
+    <string name="cloud_storage_space_text"  formatted="false">%s (%s) of %s used</string>   
     <string name="start_download_file_from_cloud">File %s will be downloaded</string>
     <string name="upload_file_to_cloud">Uploading file...</string>    
     <string name="upload_files_to_cloud">Uploading files</string>
@@ -1235,7 +1235,7 @@
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Library not found</string>
 	<string name="upload_to_cloud_offer_title">{cloud ready...}</string>
-	<string name="upload_to_cloud_offer_text">• Teamwork\n• Sync across devices\n• Backup are always in the cloud</string>
+	<string name="upload_to_cloud_offer_text">&#8226; Teamwork\n&#8226; Sync across devices\n&#8226; Backup are always in the cloud</string>
 	<string name="button_no_thanks">No, thanks</string>
 	<string name="button_upload">Upload</string>
 	
@@ -1525,7 +1525,7 @@
     <string name="trigger_default_name">Trigger %d</string>
     <string name="trigger_enabled">Enabled</string>
     <string name="trigger_switched_off">Switched off</string>
-    <string name="trigger_delete_message">Do you really want to delete the trigger \"%s\" ?</string>
+    <string name="trigger_delete_message">Do you really want to delete the script \"%s\" ?</string>
 
 
     <string name="trigger_moment_open_form">Opening an Entry Edit card</string>
@@ -1542,10 +1542,10 @@
     <string name="log_files_folder">Log files directory</string>
 
     <string name="enable_logging_cloud">Memento Cloud calls</string>
-    <string name="enable_logging_triggers">Triggers logs</string>
+    <string name="enable_logging_triggers">Scripts logs</string>
     <string name="script_log">Script Log</string>
 
-    <string name="trigger_permissions">Permissions for triggers</string>
+    <string name="trigger_permissions">Permissions for scripts</string>
     <string name="trigger_permission_read_file">Read files</string>
     <string name="trigger_permission_read_file_hint">Allows scripts to read from external storage</string>
     <string name="trigger_permission_write_file">Write files</string>
@@ -1783,4 +1783,60 @@
     <string name="barcode_type_1d">Barcode</string>
     <string name="barcode_type_2d">QR Code</string>
 
+    <!-- 4.3.0 -->
+    <string name="embedded_js_libraries">Embedded</string>
+    <string name="repository_js_libraries">Repositories</string>
+    <string name="repository_android_intents_hint">Functions for interaction with other Android-applications</string>
+    <string name="repository_data_sources_hint">Data sources for autofill</string>
+    <string name="warning">Warning</string>
+    <string name="add_javascript_library">Add javascript libraries...</string>
+    <string name="add_repository">Add repository</string>
+    <string name="repository_location_hint">GitHub Repository URL</string>
+    <string name="repository_location_error">Specify the HTTPS link to GitHub repository. For example: https://github.com/username/repo-name</string>
+    <string name="repository_not_found_error">Can\'t find repository: %s</string>
+    <string name="repository_delete_message">Do you really want to delete the repository \"%s\" ?</string>
+    <string name="repository_other">Other</string>
+
+    <string name="map_field_current_by_default_title">Current location</string>
+    <string name="map_field_current_by_default_hint">Obtain current location by default</string>
+    <string name="receiving_document_content">Receiving document content</string>
+    <string name="find_address">Find address</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="trigger_event_action">Action</string>
+    <string name="action_context_library">Library</string>
+    <string name="action_context_view_entry">Entry view card</string>
+    <string name="trigger">Trigger</string>
+    <string name="action_default_name">Action %d</string>
+    <string name="place_of_action">Place of action</string>
+    <string name="action_arguments">Arguments</string>
+    <string name="action_arguments_empty">The script can have arguments, the values of which will be entered by the user.</string>
+    <string name="select_argument_type">Argument type</string>
+    <string name="script_argument_delete_message_text">Do you really want to delete the argument \"%s\" ?</string>
+    <string name="create_argument">Create argument</string>
+    <string name="edit_argument">Edit argument</string>
+    <string name="argument_name">Argument name</string>
+    <string name="argument_hint">Argument hint</string>
+    <string name="required_argument_text">Argument must be filled</string>
+    <string name="scripts">Scripts</string>
+    <string name="actions">Actions</string>
+    <string name="empty_script_list_text">This library does not contain scripts</string>
+    <string name="empty_script_list_trigger_text">Trigger is a script that defines the processing of an entry based on an Event that has taken place.</string>
+    <string name="empty_script_list_action_text">Action is a script that is started manually by pressing the button in the library or entry card.</string>
+    <string name="autofill_goto_script_title">Script editor</string>
+    <string name="autofill_goto_script_hint">Scripted data source</string>
+    <string name="java_script_data_source_title">Custom source</string>
+    <string name="java_script_data_source_hint">JavaScript</string>
+    <string name="script_cant_run_for_not_saved_library">You can run script only after saving the library.</string>
+    <string name="autofill_script_source_key_title">Point out the object property returned by the script</string>
+    <string name="test_js_data_source_query_hint">Query string</string>
+    <string name="test_js_data_source_query_result">Query result:\n%s</string>
+    <string name="run">Run</string>
+    <string name="run_arguments">Run arguments</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">You can set permissions for script only after saving the library.</string>
+    <string name="script_permissions_required_message">The library has the scripts that require the following permissions:</string>
+    <string name="required_access_to_library">access to %s</string>
+    <string name="memento_signin_title" translatable="false"><![CDATA[<font face="sans-serif-condensed">Memento</font><font face="sans-serif-light">Cloud</font>]]></string>
+    <string name="action_with_library_context">Library Action</string>
+    <string name="action_with_entry_context">Entry Action</string>
+    <string name="library_related_cloud_model_changed_message">The structure of related library  was updated in the cloud. Go to the related library for the update.</string>
 </resources>
