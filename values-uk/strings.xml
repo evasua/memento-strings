@@ -649,7 +649,7 @@
     <string name="library_dont_have_fields_for_depends">Бібліотека не містить відповідних полів для побудови залежності у даного поля</string>
     <string name="select_type_depends">Виберіть тип залежності</string>
     <string name="select_type_depends_spinner_title">Тип залежності</string>
-    <string name="select_master_field_for_depend">Виберіть поле від якого буде залежність</string>
+    <string name="select_master_field_for_depend">Оберіть поле від якого буде залежати</string>
     <string name="library_fields">Поля введення бібліотеки</string>
     <string name="boolean_field_check_value">Обрано</string>
     <string name="boolean_field_uncheck_value">Не обрано</string>
@@ -1067,7 +1067,7 @@
 	<item quantity="one">%1$d запис знайдено</item>
 	<item quantity="few">%1$d записів знайдено</item>
 	<item quantity="many">%1$d записів знайдено</item>
-	<item quantity="other"></item>
+	<item quantity="other"/>
 </plurals>
     <string name="memento_search_in_lib">Memento Пошук в %s</string>
     <string name="memento_search">Memento Пошук</string>
@@ -1496,7 +1496,7 @@
     <string name="trigger_default_name">Тригер %d</string>
     <string name="trigger_enabled">Увімкнений</string>
     <string name="trigger_switched_off">Вимкнений</string>
-    <string name="trigger_delete_message">Ви дійсно хочете видалити тригер \"%s\"?</string>
+    <string name="trigger_delete_message">Ви дійсно хочете видалити скрипт \"%s\"?</string>
 
 
     <string name="trigger_moment_open_form">Відкриття форми</string>
@@ -1513,10 +1513,10 @@
     <string name="log_files_folder">Каталог лог-файлів</string>
 
     <string name="enable_logging_cloud">Лог запитів до Memento хмари</string>
-    <string name="enable_logging_triggers">Лог тригерів</string>
+    <string name="enable_logging_triggers">Лог скриптів</string>
     <string name="script_log">Лог скрипту</string>
 
-    <string name="trigger_permissions">Дозволи для тригерів</string>
+    <string name="trigger_permissions">Дозволи для скриптів</string>
     <string name="trigger_permission_read_file">Читання файлів</string>
     <string name="trigger_permission_read_file_hint">Дозволяє скриптам читати з файлів</string>
     <string name="trigger_permission_write_file">Запис файлів</string>
@@ -1748,4 +1748,58 @@
     <string name="hint_insert_entry_button">Вставити запис</string>
     <string name="barcode_type_option_title">Тип</string>
     <string name="barcode_type_1d">Штрих код</string>
-    </resources>
+    <string name="embedded_js_libraries">Вбудовані</string>
+    <string name="repository_js_libraries">Репозиторії</string>
+    <string name="repository_android_intents_hint">Допоміжні функції для взаємодії з іншими Android-додатками</string>
+    <string name="repository_data_sources_hint">Джерела для автозаповнення</string>
+    <string name="warning">Увага</string>
+    <string name="add_javascript_library">Додати javascript бібліотеки...</string>
+    <string name="add_repository">Додати репозиторій</string>
+    <string name="repository_location_hint">Адреса GitHub репозиторія</string>
+    <string name="repository_location_error">Будь ласка, вкажіть HTTPS посилання на ваш GitHub репозиторій. Наприклад: https://github.com/username/repo-name</string>
+    <string name="repository_not_found_error">Репозиторій не знайдено: %s</string>
+    <string name="repository_delete_message">Ви дійсно бажаєте видалити репозиторій \"%s\" ?</string>
+    <string name="repository_other">Інші</string>
+
+    <string name="map_field_current_by_default_title">Поточне місце розташування</string>
+    <string name="map_field_current_by_default_hint">Додати своє поточне місце розташування за замовчуванням</string>
+    <string name="receiving_document_content">Отримання вмісту документа</string>
+    <string name="find_address">Знайти адресу</string>
+    <string name="privacy_policy">Політика конфіденційності</string>
+    <string name="trigger_event_action">Дія</string>
+    <string name="action_context_library">Бібліотека</string>
+    <string name="action_context_view_entry">Вид картки запису</string>
+    <string name="trigger">Тригер</string>
+    <string name="action_default_name">Дія %d</string>
+    <string name="place_of_action">Місце дії</string>
+    <string name="action_arguments">Аргументи</string>
+    <string name="action_arguments_empty">Скрипт може містити аргументи, значення яких будуть вводитися користувачем.</string>
+    <string name="select_argument_type">Тип аргументу</string>
+    <string name="script_argument_delete_message_text">Ви дійсно хочете видалити аргумент \"%s\" ?</string>
+    <string name="create_argument">Створити аргумент</string>
+    <string name="edit_argument">Редагувати аргумент</string>
+    <string name="argument_name">Назва аргументу</string>
+    <string name="argument_hint">Назва аргументу</string>
+    <string name="required_argument_text">Аргумент повинен бути зазначений</string>
+    <string name="scripts">Скрипти</string>
+    <string name="actions">Дії</string>
+    <string name="empty_script_list_text">Ця бібліотека не містить скриптів</string>
+    <string name="empty_script_list_trigger_text">Тригер - це скрипт який запускається при певних діях або подіях.</string>
+    <string name="empty_script_list_action_text">Дія - це скрипт який запускається вручну при натисканні кнопки в бібліотеці або картці записи.</string>
+    <string name="autofill_goto_script_title">Редактор скриптів</string>
+    <string name="autofill_goto_script_hint">Натисніть для редагування скрипта</string>
+    <string name="java_script_data_source_title">Скрипт</string>
+    <string name="java_script_data_source_hint">JavaScript</string>
+    <string name="script_cant_run_for_not_saved_library">Запуск скриптів можливий тільки після збереження бібліотеки</string>
+    <string name="autofill_script_source_key_title">Вкажіть властивість об\'єкта, що повертається скриптом</string>
+    <string name="test_js_data_source_query_hint">Рядок запиту</string>
+    <string name="test_js_data_source_query_result">Результат запиту:\n%s</string>
+    <string name="run">Запуск</string>
+    <string name="run_arguments">Аргументи</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">Можна встановити дозволи для скрипу тільки після збереження бібліотеки.</string>
+    <string name="script_permissions_required_message">Бібліотека містить скрипти для яких потрібні наступні дозволи:</string>
+    <string name="required_access_to_library">доступ до %s</string>
+    <string name="action_with_library_context">Дія в бібліотеці</string>
+    <string name="action_with_entry_context">Дія в записі</string>
+    <string name="library_related_cloud_model_changed_message">Структура відповідної бібліотеки була оновлена в хмарі. Перейти до відповідної бібліотеки для поновлення.</string>
+</resources>
