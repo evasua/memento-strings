@@ -1715,17 +1715,19 @@
     <string name="tasker_plugin_create_entry_event_title">Запис створено</string>
     <string name="tasker_plugin_delete_entry_event_title">Запис видалено</string>
     <string name="tasker_plugin_modified_entry_event_title">Запис змінено</string>
-    <string name="no_libraries_text">У вас ще немає бібліотек</string>
+    <string name="no_libraries_text">У вас ще немає бібліотек!</string>
     <string name="add_linked_libraries">Додати пов\'язані бібліотеки</string>
     <string name="create_collections">Створення бібліотек</string>
     <string name="create_collections_success">Бібліотеки створені</string>
-    <string name="template_included_libraries">Шаблон містить додаткові бібліотеки</string>
+    <string name="template_included_libraries">Шаблон містить додаткові бібліотеки.</string>
 
     <string name="entries_view_type_cards">Картки</string>
     <string name="card_view_number_of_columns">Кількість колонок</string>
     <plurals name="columns_count">
 	<item quantity="one">Одна колонка</item>
-	<item quantity="other">%d колонки</item>
+	<item quantity="few">%d колонки</item>
+	<item quantity="many">%d колонок</item>
+	<item quantity="other"/>
 </plurals>
 
     <string name="card_view_title_on_image">Текст на зображенні</string>
@@ -1790,7 +1792,7 @@
     <string name="autofill_goto_script_hint">Натисніть для редагування скрипта</string>
     <string name="java_script_data_source_title">Скрипт</string>
     <string name="java_script_data_source_hint">JavaScript</string>
-    <string name="script_cant_run_for_not_saved_library">Запуск скриптів можливий тільки після збереження бібліотеки</string>
+    <string name="script_cant_run_for_not_saved_library">Запуск скриптів можливий тільки після збереження бібліотеки.</string>
     <string name="autofill_script_source_key_title">Вкажіть властивість об\'єкта, що повертається скриптом</string>
     <string name="test_js_data_source_query_hint">Рядок запиту</string>
     <string name="test_js_data_source_query_result">Результат запиту:\n%s</string>
