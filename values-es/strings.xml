@@ -12,7 +12,7 @@
     <string name="button_save">Guardar</string>
     <string name="button_cancel">Cancelar</string>
     <string name="button_add_field">Añadir un campo</string>
-    <string name="add_new_library_item">Añadir una entrada ...</string>
+    <string name="add_new_library_item">Añadir entrada</string>
     <string name="flex_type_title_string">Texto</string>
     <string name="flex_type_title_int">Entero</string>
     <string name="flex_type_title_bool">Booleano (Casilla de verificación)</string>
@@ -20,7 +20,7 @@
     <string name="flex_type_title_date_time">Fecha/Hora</string>
     <string name="flex_type_contact">Contacto</string>
     <string name="flex_type_image">Imagen</string>
-    <string name="flex_type_string_list">Lista desplegable</string>
+    <string name="flex_type_string_list">Lista de una sola opción</string>
     <string name="flex_type_audio">Audio</string>
     <string name="flex_type_money">Moneda</string>
     <string name="flex_type_rating">Valoración</string>
@@ -122,7 +122,7 @@
     <string name="cdcard_not_found">Lo siento, tu SD está completa</string>
     <string name="backup_process">Copiando librerías.</string>
     <string name="restore_preference">Restaurar</string>
-    <string name="restore_summary_preference">Restaurando bibliotecas desde tu copia de seguridad</string>
+    <string name="restore_summary_preference">Restaurar bibliotecas desde tu copia de seguridad</string>
     <string name="backup_file_not_found">No se encuentra copia de seguridad previa.</string>
     <string name="restore_dialog_message">La bibliotecas existentes serán reemplazadas con las de la copia de seguridad durante la restauración.\nTodos los cambios realizados después de la copia de seguridad se perderán.\n¿Comenzar la restauración ?</string>
     <string name="backup_dialog_message">¿Reemplazar la copia de seguridad con la nueva?</string>
@@ -321,7 +321,7 @@
     <string name="subscribe_last_update">Última actualización %s</string>
     <string name="subscribe_last_update_dialog_title">Actualizar biblioteca</string>
     <string name="subscribe_last_update_dialog_message">Actualizando la biblioteca</string>
-    <string name="clear_preference">Limpiando la biblioteca</string>
+    <string name="clear_preference">Borrado de la biblioteca</string>
     <string name="clear_preference_hint">Eliminando todas las entradas de la biblioteca</string>
     <string name="clear_preference_quest">¿Borrar todas las entradas de la biblioteca?</string>
     <string name="last_sync">Última sincronización: %s</string>
@@ -519,7 +519,7 @@
     <string name="reset_master_quest">¿Deseas realmente restablecer la contraseña?\nAtención! Todas las bibliotecas cifradas serán eliminadas!</string>
     <string name="remove_encript_lib_dlg_msg">Eliminar bibliotecas cifradas</string>
     <string name="master_password_reset">Reajustar contraseña</string>
-    <string name="edit_entry_screen_preference">Editando entradas</string>
+    <string name="edit_entry_screen_preference">Edición entradas</string>
     <string name="edit_entry_screen_preference_summary">Parámetros de formulario para crear/editar entradas</string>
     <string name="auto_show_soft_keyboard">Mostrar teclado</string>
     <string name="auto_show_soft_keyboard_summary">Cuando se abre el formulario - mostrar el teclado</string>
@@ -614,7 +614,7 @@
     <string name="clear_filter">Limpiar filtro</string>
     <string name="new_filter_dialog_title">Nuevo filtro</string>
     <string name="new_filter_dialog_text">El nombre del filtro</string>
-    <string name="delete_filter_dialog_text">¿Deseas realmente eliminar este filtro?</string>
+    <string name="delete_filter_dialog_text">¿Deseas realmente eliminar el filtro \"%s\"?</string>
     <string name="add_to_favorite">Añadir a Favoritos</string>
     <string name="remove_from_favorite">Eliminar de Favoritos</string>
     <string name="search_result_subtitle">Buscar resultados</string>
@@ -941,7 +941,7 @@
     <string name="empty_field_depend_list">Este campo no tiene dependencias con otros campos.</string>
     <string name="share_template_dialog_title">Comparte la plantilla a través del catálogo online</string>
     <string name="catalog_templates">Catálogo de plantillas</string>
-    <string name="rename_group">Renombra el grupo</string>
+    <string name="rename_group">Editar grupo</string>
     <string name="move">Mover</string>
     <string name="select_group">Selecciona el grupo</string>
     <string name="library_moved_message">Biblioteca movida al grupo \"%s\"</string>
@@ -1103,9 +1103,9 @@
 	<string name="show_deleted_entries_menu_item">Mostrar entradas borradas</string>
 	<string name="upload_to_cloud_menu_item">A la Nube</string>
 	<string name="welcome_text_title">Bienvenido a Memento Database</string>
-	<string name="welcome_text_description">La biblioteca es el lugar donde se almacenarán tus entradas.\nPuedes empezar familiarizándote con el programa creando una biblioteca basada en una de las plantillas proporcionadas.</string>	
+	<string name="welcome_text_description">La biblioteca es el lugar donde se almacenarán tus entradas.\nPuedes empezar familiarizándote con Memento creando una biblioteca basada en una de las plantillas proporcionadas.</string>	
 	
-<string name="memento_cloud">Nube</string>
+<string name="memento_cloud">Memento Cloud</string>
 	<string name="start_remove_librarary_from_cloud">Borrando biblioteca...</string>
 	<string name="start_upload_library_to_cloud">Subiendo biblioteca...</string>	
 	<string name="success_upload_library_to_cloud">La biblioteca se ha subido correctamente.\nLa biblioteca se sincronizará automáticamente.</string>
@@ -1529,7 +1529,7 @@
     <string name="filters_tab_dialog_title">Selecciones filtros para las pestañas</string>
     <string name="export_template_include_filters">Filtros incluidos</string>
 
-    <string name="unit_of_measurement_enable">Adiciones una unidad de medica al campo</string>
+    <string name="unit_of_measurement_enable">Añadir una unidad de medida al campo</string>
     <string name="unit_of_measurement_none">Ninguno</string>
 
     <string name="unit_of_measurement_category">Categoria</string>
@@ -1657,7 +1657,7 @@
     <string name="sign_up">Registrarse</string>
     <string name="memento_cloud2">Nube de Memento</string>
 
-    <string name="from_file">Desde el archivo</string>
+    <string name="from_file">Desde archivo</string>
     <string name="from_google_drive">Desde Google Drive</string>
 
 <string name="bulk_add">Agregar en grupo</string>
@@ -1675,4 +1675,26 @@
 	<item quantity="one">Un usuario</item>
 	<item quantity="other">%d usuarios</item>
 </plurals>
+    <string name="subheader_collapsed_by_default">Contraído de forma predeterminada</string>
+    <string name="aggr_always_show">Mostrar siempre</string>
+    <string name="team_license">Equipo</string>
+    <string name="user_manager_only_for_team">La gestión de usuarios y licencias sólo está disponible en las tarifas de Equipo</string>
+    <string name="create_permissions">Crear permisos</string>
+    <string name="edit_permissions">Editar permisos</string>
+    <string name="library_permissions">Permisos de la biblioteca</string>
+    <string name="field_permissions">Permisos del campo</string>
+    <string name="library_permissions_subject">Nombre de usuario/email/grupo</string>
+    <string name="permissions_delete_message">¿Realmente quiere eliminar los permisos para \"%s\" ?</string>
+    <string name="field_right_need_library_download">Debe descargar una biblioteca a su dispositivo para adicionar nuevos derechos pare el acceso a campos.</string>
+    <string name="field_permission_invisible">Invisible</string>
+    <string name="field_permissions_limit">Los derechos de acceso para campos solo pueden establecerse en tarifas de Equipo.</string>
+    <string name="user_groups">Grupos de usuarios</string>
+    <string name="user_group_delete_message">¿Realmente desea eliminar el grupo \"%s\" ?</string>
+    <string name="group_not_found">Grupo no encontrado</string>
+    <string name="individual">Individual</string>
+    <string name="team">Equipo</string>
+    <string name="cloud_plan_team5">Equipo 5</string>
+    <string name="cloud_plan_team10">Equipo 10</string>
+    <string name="cloud_plan_team15">Equipo 15</string>
+    <string name="cloud_plan_team20">Equipo 20</string>
     </resources>

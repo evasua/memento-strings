@@ -1477,11 +1477,11 @@
 
     <!--3.9.7-->
     <string name="memento_server_settings_group">Memento Server</string>
-    <string name="memento_server_host">The address of Memento Server</string>
-    <string name="memento_server_cloud">Use Memento Cloud</string>
-    <string name="memento_server_private">Use Memento Private Server</string>
-    <string name="memento_server_private_hint">host:port</string>
-    <string name="memento_server_private_not_found">Private Server not found by specified address</string>
+    <string name="memento_server_host">Memento Server адрес</string>
+    <string name="memento_server_cloud">Использовать Memento Cloud</string>
+    <string name="memento_server_private">Использовать Private Server</string>
+    <string name="memento_server_private_hint">хост:порт</string>
+    <string name="memento_server_private_not_found">Private Server не найден по указанному адресу</string>
     <string name="latitude_longitude">Latitude/Longitude</string>
     <string name="latitude_longitude_hint">latitude,longitude</string>
     <string name="latitude_longitude_parse_error">Can\'t parse latitude/longitude</string>
@@ -1493,7 +1493,7 @@
     <string name="relation_type_one_limit2">%s уже имеет связь</string>
     <string name="library_edit_mode">Режим редактирования</string>
     <string name="library_edit_mode_hint">При нажатии на запись открывать форму редактирования</string>
-    <string name="desktop_version">Desktop version</string>
+    <string name="desktop_version">Настольная версия</string>
 
 
     <!-- 4.0.0 -->
@@ -1536,7 +1536,7 @@
     <string name="trigger_default_name">Триггер %d</string>
     <string name="trigger_enabled">Включен</string>
     <string name="trigger_switched_off">Выключен</string>
-    <string name="trigger_delete_message">Вы действительно хотите удалить триггер \"%s\" ?</string>
+    <string name="trigger_delete_message">Вы действительно хотите удалить скрипт \"%s\" ?</string>
 
 
     <string name="trigger_moment_open_form">Открытие формы</string>
@@ -1556,7 +1556,7 @@
     <string name="enable_logging_triggers">Лог триггеров</string>
     <string name="script_log">Лог</string>
 
-    <string name="trigger_permissions">Разрешения для триггеров</string>
+    <string name="trigger_permissions">Разрешения для скриптов</string>
     <string name="trigger_permission_read_file">Чтение файлов</string>
     <string name="trigger_permission_read_file_hint">Позволяет скриптам читать из файлов</string>
     <string name="trigger_permission_write_file">Запись файлов</string>
@@ -1793,5 +1793,60 @@
     <string name="barcode_type_option_title">Тип</string>
     <string name="barcode_type_1d">Штрихкод</string>
     <string name="barcode_type_2d">QR-код</string>
+
+    <!-- 4.3.0 -->
+    <string name="embedded_js_libraries">Встроенные</string>
+    <string name="repository_js_libraries">Репозитории</string>
+    <string name="repository_android_intents_hint">Вспомогательные функции для взаимодействия с другими Android-приложениями</string>
+    <string name="repository_data_sources_hint">Источники автозаполнения</string>
+    <string name="warning">Внимание</string>
+    <string name="add_javascript_library">Добавить javascript библиотеки...</string>
+    <string name="add_repository">Добавить репозиторий</string>
+    <string name="repository_location_hint">Адрес GitHub репозитория</string>
+    <string name="repository_location_error">Пожалуйста, укажите HTTPS ссылку на ваш GitHub репозиторий. Например: https://github.com/username/repo-name</string>
+    <string name="repository_not_found_error">Репозиторий не найден: %s</string>
+    <string name="repository_delete_message">Вы действительно желаете удалить репозиторий \"%s\" ?</string>
+    <string name="repository_other">Другие</string>
+
+    <string name="map_field_current_by_default_title">Текущее местоположение</string>
+    <string name="map_field_current_by_default_hint">По умолчанию добавить текущее местоположение</string>
+    <string name="receiving_document_content">Получение содержимого докумнта</string>
+    <string name="find_address">Искать адрес</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="trigger_event_action">Действие</string>
+    <string name="action_context_library">Библиотека</string>
+    <string name="action_context_view_entry">Карточка записи</string>
+    <string name="trigger">Триггер</string>
+    <string name="action_default_name">Действие %d</string>
+    <string name="place_of_action">Место действия</string>
+    <string name="action_arguments">Аргументы</string>
+    <string name="action_arguments_empty">Скрипт может содержать аргументы, которые будут запрашиваться перед запуском скрипта.</string>
+    <string name="select_argument_type">Тип аргумента</string>
+    <string name="script_argument_delete_message_text">Вы действительно хотите удалить аргумент \"%s\" ?</string>
+    <string name="create_argument">Создать аргумент</string>
+    <string name="edit_argument">Изменить аргумент</string>
+    <string name="argument_name">Название аргумента</string>
+    <string name="argument_hint">Подсказка аргумента</string>
+    <string name="required_argument_text">Аргумент должен быть указан</string>
+    <string name="scripts">Скрипты</string>
+    <string name="actions">Действия</string>
+    <string name="empty_script_list_text">Эта библиотека не содержит скриптов</string>
+    <string name="empty_script_list_trigger_text">Триггер - это скрипт который запускается при определенных действиях или событиях.</string>
+    <string name="empty_script_list_action_text">Действие - это скрипт который запускается вручную при нажатии кнопки в библиотеке или карточке записи.</string>
+    <string name="autofill_goto_script_title">Скрипт источника данных</string>
+    <string name="autofill_goto_script_hint">Нажмите для редактирования скрипта</string>
+    <string name="java_script_data_source_title">Скрипт</string>
+    <string name="java_script_data_source_hint">JavaScript</string>
+    <string name="script_cant_run_for_not_saved_library">Запуск скриптов возможен только после сохранения библиотеки</string>
+    <string name="autofill_script_source_key_title">Ключ для получения значений из возвращаемых скриптом объектов</string>
+    <string name="test_js_data_source_query_hint">Запрос</string>
+    <string name="test_js_data_source_query_result">Результат запроса:\n%s</string>
+    <string name="run">Запуск</string>
+    <string name="run_arguments">Аргументы</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">Установка разрешений для скриптов возможена только после сохранения библиотеки</string>
+    <string name="script_permissions_required_message">Библиотека имеет скрипты для которых требуются следующие разрешения:</string>
+    <string name="required_access_to_library">доступ к %s</string>
+    <string name="action_with_library_context">Действие в библиотеке</string>
+    <string name="action_with_entry_context">Действие в записи</string>
 </resources>
 

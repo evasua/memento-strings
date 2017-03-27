@@ -12,7 +12,7 @@
     <string name="button_save">Salva</string>
     <string name="button_cancel">Annulla</string>
     <string name="button_add_field">Aggiungi campo</string>
-    <string name="add_new_library_item">Aggiungi un elemento ...</string>
+    <string name="add_new_library_item">Aggiungi un elemento</string>
     <string name="flex_type_title_string">Testo</string>
     <string name="flex_type_title_int">Numero Intero</string>
     <string name="flex_type_title_bool">Booleano</string>
@@ -1644,7 +1644,7 @@
     <string name="aggr_always_show">Visualizza sempre</string>
     <string name="cant_add_management">Libreria</string>
     <string name="auth_error_user_blocked">Il tuo account è stato disabilitato</string>
-    <string name="team_license">Squadra</string>
+    <string name="team_license">Team</string>
     <string name="user_manager_only_for_team">La gestione di utenti e licenze è disponibile solamente con le tariffe Team</string>
     <string name="send_password_to_user">Invia la password all\'utente via email</string>
     <string name="create_permissions">Crea permessi</string>
