@@ -11,7 +11,7 @@
     <string name="button_save">Desar</string>
     <string name="button_cancel">Cancel·lar</string>
     <string name="button_add_field">Afegir un camp</string>
-    <string name="add_new_library_item">Afegir una entrada ...</string>
+    <string name="add_new_library_item">Afegir una entrada</string>
     <string name="flex_type_title_string">Text</string>
     <string name="flex_type_title_int">Enter</string>
     <string name="flex_type_title_bool">Quadre de verificació</string>
@@ -592,7 +592,7 @@
     <string name="clear_filter">Netejar el filtre</string>
     <string name="new_filter_dialog_title">Filtre nou</string>
     <string name="new_filter_dialog_text">Nom del filtre</string>
-    <string name="delete_filter_dialog_text">Voleu eliminar aquest filtre?</string>
+    <string name="delete_filter_dialog_text">Segur que vols eliminar aquest filtre?</string>
     <string name="add_to_favorite">Afegir a Preferits</string>
     <string name="remove_from_favorite">Treure de Preferits</string>
     <string name="search_result_subtitle">Resultats de la cerca</string>
@@ -972,7 +972,7 @@
     <string name="share_template_dialog_title">Compartir plantilla mitjançant el catàleg online</string>
     <string name="catalog_templates">Catalogar plantilles</string>
     <string name="empty_search_result2">La cerca - %s - no ha trobat cap entrada</string>
-    <string name="rename_group">Re anomenar grup</string>
+    <string name="rename_group">Editar grup</string>
     <string name="move">Moure</string>
     <string name="select_group">Seleccionar grup</string>
     <string name="library_moved_message">Biblioteca moguda al grup \"%s\"</string>
@@ -1073,9 +1073,9 @@
 <string name="show_deleted_entries_menu_item">Mostrar entrades eliminades</string>
 	<string name="upload_to_cloud_menu_item">Al núvol</string>
 	<string name="welcome_text_title">Benvingut a Memento Database</string>
-	<string name="welcome_text_description">"La biblioteca és on les teves entrades seran guardades\nPots començar familiaritzar-te amb  programa creant una biblioteca basada en alguna de les plantilles proporcionades."</string>
+	<string name="welcome_text_description">"La biblioteca és on les teves entrades seràn guardades.\nPots començar a familiaritzar-te amb  Memento creant una biblioteca basada en alguna de les plantilles proporcionades."</string>
 	
-	<string name="memento_cloud">Núvol</string>
+	<string name="memento_cloud">Servidor de Memento</string>
 	<string name="start_remove_librarary_from_cloud">Eliminant biblioteca...</string>
 	<string name="success_remove_librarary_from_cloud">Biblioteca eliminada satisfactòriament del núvol</string>
 	<string name="start_upload_library_to_cloud">Penjant la biblioteca...</string>	
@@ -1133,7 +1133,7 @@
     <string name="cant_download_item_files_for_copy">Descarrega d\'arxius per crear còpies ha fallat.</string> 
     <string name="library_cloud_model_changed_message">L\'estructura de la biblioteca ha sigut actualitzada al núvol. Actualitzi l\'estructura per a noves sincronitzacions.</string>
     <string name="button_update">Actualitzar</string>
-    <string name="add_people">Agregar persones</string>
+    <string name="add_people">Afegir usuari o grup</string>
     <string name="read_permission">Llegir</string>      
     <string name="write_permission">Escriure</string>
     <string name="create_permission">Crear</string>
@@ -1369,4 +1369,75 @@
     <string name="field_delimiters">Delimitador de camp</string>
     <string name="field_enclosed">Qualificador de text</string>
     
-</resources>
+<string name="users_manager">Gestor d\'usuaris</string>
+    <string name="create_new_user_dialog">Crear nou usuari</string>
+
+    <string name="script">Script</string>
+    <string name="js_libraries">Biblioteques JavaScript</string>
+    <string name="js_moment_library">Biblioteca per analitzar, validar, manipular i donar format a dates</string>
+    <string name="js_realtime">Executar script a temps real</string>
+    <string name="js_realtime_hint_off">L\'script només està treballant quan s\'edita un registre</string>
+    <string name="js_realtime_hint_on">L\'script treballa quan es mostra un registre</string>
+    <string name="user_limit_message">Has arribat al límit d\'usuaris</string>
+    <string name="remaining_users" formatted="false">%d de %d llicències utilitzades</string>
+    <string name="delete_slave_user_message">Estàs segur que vols eliminar l\'usuari \"%s\"?</string>
+    <string name="active_users">Usuaris actius</string>
+    <string name="deleted_users">Usuaris eliminats</string>
+    <string name="powered_by_text">Impulsat per Base de Dades Memento</string>
+
+    <string name="string_list_sort_menu_title">Ordenar per títol</string>
+    <string name="previous_value">Valor anterior</string>
+    <string name="specify_value">Especifica valor</string>
+    <string name="filters_order">Ordenar...</string>
+    <string name="full_screen_mode">Mode pantalla completa</string>
+    <string name="standard_screen_mode">Mode de pantalla estàndar</string>
+    <string name="restore_from_cloud">Restaurar del núvol</string>
+    <string formatted="false" name="of_counter">%d de %d</string>
+
+    <string name="lost_database_text">Impossible obrir l\'arxiu de base de dades, assegurat que està present a la direcció especificada</string>
+    <string name="upload_to_cloud">Pujar al Núvol</string>
+    <string name="multi_choice_delimiter">Delimitador</string>
+    <string name="cloud_plan_free">Gratis</string>
+    <string name="cloud_plan_plan3">Lleugera</string>
+    <string name="cloud_plan_plan6">Professional</string>
+    <string name="cloud_plan_plan10">Professional Plus</string>
+    <string name="cloud_plan_storage">%s Magatzem</string>
+
+    <string name="memento_server_settings_group">Servidor de Memento</string>
+    <string name="memento_server_host">L\'adreça del Servidor de Memento</string>
+    <string name="memento_server_cloud">Utilitzar el Núvol de Memento</string>
+    <string name="memento_server_private">Utilitzar el Servidor privat de Memento</string>
+    <string name="memento_server_private_hint">Anfitrió:port</string>
+    <string name="memento_server_private_not_found">El Servidor privat no s\'ha trobat a la dirección especificada</string>
+    <string name="latitude_longitude">Latitut/Longitut</string>
+    <string name="latitude_longitude_hint">latitut,longitut</string>
+    <string name="latitude_longitude_parse_error">No es por analitzar la latitut/longitut</string>
+    <string name="relation_type">Tipus de relació</string>
+    <string name="relation_type_one_to_one">Un-a-Un</string>
+    <string name="relation_type_one_to_many">Un-a-Molts</string>
+    <string name="relation_type_many_to_many">Molts-a-Molts</string>
+    <string name="relation_type_one_limit">El registre seleccionat ja té una relació</string>
+    <string name="relation_type_one_limit2">%s ja té una relació</string>
+    <string name="library_edit_mode">Mode editar</string>
+    <string name="library_edit_mode_hint">Obre el formulari d\'edició fent clic a un registre</string>
+    <string name="desktop_version">Versió escriptori</string>
+
+    <string name="no_comments">No hi ha comentaris</string>
+    <plurals name="comments_count">
+	<item quantity="one">Un comentari</item>
+	<item quantity="other">%d comentaris</item>
+</plurals>
+    <string name="comments_only_for_cloud">Els comentaris només es poden publicar a les biblioteques pujades al Núvol. Vols pujar una biblioteca al Núvol?</string>
+    <string name="locale_plugin_add_edit_entry_title">Afegir/editar un registre</string>
+    <string name="locale_to_fields_list_empty_text">Fes flic al botó + per a crear noves normes per omplir camps d\'una biblioteca.</string>
+    <string name="locale_to_fields_var">Text de %s</string>
+    <string name="locale_to_fields_add_rule_title">Afegir norma</string>
+    <string name="locale_to_fields_edit_rule_title">Editar norma</string>
+    <string name="variable_select">Variable Seleccionar</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Editar Registre</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Crea un nou registre, si no has trobat un registre mitjançant camps clau</string>
+
+    <string name="send_field_title">Envia el nom del camp</string>
+    <string name="send_field_title_summary">El nom del camp seguirà al valor del camp</string>
+    <string name="auto_lock_libraries_time_title">Accès tancat a les biblioteques</string>
+    </resources>
