@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="description_short">Track and organize anything with extremely customisable database</string>
+<string name="description_long">
+		<![CDATA[
+Memento Database is a  highly flexible and customizable database management tool. The program can be used to manage pretty much any type of data.
+<b>KEY FEATURES</b>
+• Storing entries with custom fields.
+• Performing Data analysis, including aggregation, charting, sorting, grouping, and filtering entries by any fields.
+• Displaying data in the form of a list, a set of cards, a table, on a map, or in a calendar.
+• Synchronization with Google Sheets.
+• Cloud storage and Teamwork, by providing access to libraries to other users.
+• Offline data entry.
+• Access to data from several Android devices and from laptop and desktop computers; users can work with the same libraries on their phones, tablets, and PCs.
+• Building the data collection form.
+• Dozens of types of fields, including text, integer, real, boolean, date/time, rating, checkboxes, radio buttons, currency, image, signature, file, audio, contact, calculation, JavaScript, geolocations with Google Maps coordinates, and others.
+• One-to-many, one-to-one, and many-to-many relationships between libraries.
+• Importing and exporting CSV files, permitting interoperation with popular programs like Microsoft Excel, Filemaker.
+• Populating database entries at the touch of a button with data from Web services and other sources.
+• Scripting (triggers , scripted data source).
+• Password protection (encrypt entries using AES-128).
+• Charts — Pie, Line, Bar, Columns, Area, Scatter, Stepped Area.
+• Aggregation: sum, maximum, minimum, average.
+• Reminders.
+• Sending entries via SMS, e-mail, and other available services.
+• Searching entries in database by barcode.
+• Online catalog of database templates -- thousands of templates available.
+<b>TARGET USERS & USE CASES</b>
+• the casual, perhaps single-library user who just wants to throw up a grocery list, collections or recipe repository.
+• the intermediate user who might want to have some related libraries tracking some activities.
+• the power user who might be pushing the boundaries in certain areas, like scripting, complex data structure, retail or barcode solutions, media solutions, inventory, product catalogs, charting, or others.
+• the organizational / business user who might need teamwork collaboration, cross-platform compatibility, cloud storage & coordination, offline data collection and others.
+Memento's online catalog of user templates contains thousands of predefined, ready-to-use libraries to use directly or serve as a starting place. It also gives users the opportunity to familiarize themselves with a large number of ways to use Memento to provide solutions.
+<b>SYNCHRONIZATION</b>
+Elements of a user's database — libraries (tables) and associated files — may be synchronized across 
+devices via an available cloud service. 
+Database also may be synchronized with Google Sheets to enable the user's data to be manipulated or analyzed by either tool, as needed. 
+Import/export from/to CSV-files enables coordinated use with external applications, like Excel.
+All data can be stored in the Memento Cloud. All such records, photos, and files are synchronized automatically between the cloud and local copies on Android devices. Users can provide access to their data to other users, enabling teamwork use.
+<b>GLOSSARY</b>
+• Database - a general term for an organized set of data, gathered and organized for a purpose, generally comprising multiple libraries.
+• Library - a container for entries (records, rows) of fielded data , equivalent of a spreadsheet.
+• Field - a data structure for a single piece of data, equivalent of a spreadsheet column.
+Desktop version can be downloaded here: http://mementodatabase.com/#desktop
+Visit forum at http://mementodatabase.com
+Like us on Facebook at http://www.facebook.com/mementodatabase
+Follow us on Twitter at http://twitter.com/mementodatabase
+  		]]>
+</string>
+</resources>
