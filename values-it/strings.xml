@@ -1729,4 +1729,37 @@
 <string name="locale_plugin_edit_mode_create_new_entry">"Crea un nuovo elemento se la ricerca per campo chiave non ha dato risultati "</string>
 
     <string name="send_field_title_summary">Il nome del campo derivera\' dal valore del campo stesso</string>
+    <string name="library_related_cloud_model_changed_message">La struttura della libreria collegata è stata aggiornata nel cloud. Vai alla libreria collegata per aggiornarla.</string>
+<string name="action_context_library">Libreria</string>
+    <string name="action_context_view_entry">Vista tessera</string>
+    <string name="trigger">Trigger</string>
+    <string name="action_default_name">Action %d</string>
+    <string name="place_of_action">Place of action</string>
+    <string name="action_arguments">Argomenti</string>
+    <string name="action_arguments_empty">Lo script può avere argomenti: i relativi valori saranno immessi dall\'utente.</string>
+    <string name="select_argument_type">Tipo di argomento</string>
+    <string name="script_argument_delete_message_text">Vuoi davvero eliminare l\'argomento \"%s\"?</string>
+    <string name="create_argument">Crea argomento</string>
+    <string name="edit_argument">Modifica argomento</string>
+    <string name="argument_name">Nome argomento</string>
+    <string name="argument_hint">Suggerimento argomento</string>
+    <string name="required_argument_text">L\'argomento è richiesto</string>
+    <string name="scripts">Scripts</string>
+    <string name="actions">Azioni</string>
+    <string name="empty_script_list_text">Questa libreria non contiene scripts</string>
+    <string name="empty_script_list_trigger_text">Un trigger è uno script che definisce l\'elaborazione di un elemento basata su un evento che ha avuto luogo.</string>
+    <string name="empty_script_list_action_text">L\'Action è uno script che viene eseguito manualmente con la pressione di un tasto nella libreria o nella scheda elemento.</string>
+    <string name="autofill_goto_script_title">Script editor</string>
+    <string name="autofill_goto_script_hint">Origine dati da script</string>
+    <string name="java_script_data_source_title">Origine personalizzata</string>
+    <string name="java_script_data_source_hint">JavaScript</string>
+    <string name="script_cant_run_for_not_saved_library">Puoi eseguire lo script solo dopo aver salvato la libreria.</string>
+    <string name="test_js_data_source_query_hint">Stringa query</string>
+    <string name="test_js_data_source_query_result">Risultato della query:\n%s</string>
+    <string name="run">Esegui</string>
+    <string name="run_arguments">Esegui argomenti</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">Puoi impostare i permessi dello script solo dopo aver salvato la libreria.</string>
+    <string name="script_permissions_required_message">La libreria ha degli scripts che richiedono i seguenti permessi:</string>
+    <string name="required_access_to_library">accesso a %s</string>
+    <string name="action_with_library_context"></string>
     </resources>
