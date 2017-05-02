@@ -39,7 +39,7 @@
     <string name="library_item_edit">Izmeni</string>
     <string name="library_item_delete">Obriši</string>
     <string name="library_menu_add_item">Dodaj unos</string>
-    <string name="add_new_library_item">Dodaj unos ...</string>
+    <string name="add_new_library_item">Dodaj unos</string>
     <string name="flex_type_title_int">Intedžer</string>
     <string name="flex_type_string_list">Lista sa jednim mogućim izborom</string>
     <string name="flex_type_rating">Rejting</string>
@@ -119,4 +119,31 @@
     <string name="custom_template_title">Prilagodi</string>
     <string name="team_features_trial">Svi paketi uključuju besplatnih 14 dana probnog perioda.</string>
 
-</resources>
+<string name="restore_dialog_message">Postojeća biblioteka biće zamenjena bibliotekom iz rezervne kopije tokom oporavka.\nSve promene načinjene nakon pravljenja rezervne kopije biće izgubljene.\nPokreni oporavak?</string>
+    <string name="backup_dialog_message">Zameni rezervnu kopiju sa novom?</string>
+    <string name="restore_success">Biblioteka je uspešno obnovljena iz rezervne kopije</string>
+    <string name="restore_step1">Obnavljanje</string>
+    <string name="restore_step2">Čišćenje keša</string>
+    <string name="clear_index">Uklanjanje indeksa</string>
+    <string name="reindex">Ponovno indeksiranje:</string>
+    <string name="load_templates_title">Učitavanje šablona</string>
+    <string name="load_templates_message">Molimo sačekajte dok se biblioteke šablona inicijalno učitaju.</string>
+    <string name="help_title">Memento pomoć</string>
+    <string name="activate_button_title">Aktiviraj PRO verziju</string>
+    <string name="activate_button_hint">Potreban vam je aktivacioni ključ</string>
+    <string name="activate_main_text">Nadogradi na PRO verziju</string>
+    <string name="activation_dialog_text_hint">Aktivacioni kod</string>
+    <string name="activation_dialog_title">Nadogradi na PRO verziju</string>
+    <string name="activation_ok">Hvala što ste aktivirali Memento</string>
+    <string name="activation_error">Aktivacioni kod nije ispravan. Molimo, pokušajte ponovo.</string>
+    <string name="about">O programu</string>
+    <string name="luckydroid_web">www.mementodatabase.com</string>
+    <string name="copyright">Copyright © 2016 LuckyDroid\nAll rights reserved</string>
+    <string name="about_hint">Vidi verziju softvera</string>
+    <string name="about_license_type">Licenca:</string>
+    <string name="pro_version">PRO verzija</string>
+    <string name="send_library_item">Pošalji</string>
+    <string name="send_chooser_title">Izaberi aplikaciju za slanje:</string>
+    <string name="create_shortcut">Napravi prečicu</string>
+    <string name="app_name_library">Memento biblioteka</string>
+    </resources>
