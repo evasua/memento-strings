@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
-    <string name="library_menu_add_item">新增一個項目</string>
+    <string name="library_menu_add_item">新增條目</string>
     <string name="main_menu_add_lib">新增庫</string>
-    <string name="ghostData_lib_title">資料庫名稱</string>
+    <string name="ghostData_lib_title">庫名稱</string>
     <string name="custom_template_title">自訂</string>
     <string name="button_create">建立</string>
     <string name="button_yes">是</string>
@@ -12,8 +12,8 @@
     <string name="button_save">儲存</string>
     <string name="button_cancel">取消</string>
     <string name="button_add_field">新增欄位</string>
-    <string name="add_new_library_item">新增一個項目</string>
-    <string name="flex_type_title_string">文本</string>
+    <string name="add_new_library_item">新增條目</string>
+    <string name="flex_type_title_string">文字</string>
     <string name="flex_type_title_int">整數</string>
     <string name="flex_type_title_bool">布林值 (勾選框)</string>
     <string name="flex_type_title_date">日期</string>
@@ -27,7 +27,7 @@
     <string name="flex_type_web">超連結</string>
     <string name="flex_type_map">地圖位置</string>
     <string name="flex_type_real">實數</string>
-    <string name="field_list_caption">庫輸入字段</string>
+    <string name="field_list_caption">庫條目欄位</string>
     <string name="flextemplate_up_item">向上</string>
     <string name="flextemplate_down_item">向下</string>
     <string name="flextemplate_edit_item">修改</string>
@@ -53,16 +53,16 @@
     <string name="error_library_empty_title">輸入庫的名字</string>
     <string name="library_item_edit">編輯</string>
     <string name="library_item_delete">刪除</string>
-    <string name="library_item_delete_message_text">您真的確定要刪除項目\"%s\" ?</string>
-    <string name="library_item_trush_message_text">您真的要傳送項目\"%s\"到垃圾桶？</string>
-    <string name="library_items_count">項目： %s</string>
+    <string name="library_item_delete_message_text">您真的確定要刪除「%s」條目？</string>
+    <string name="library_item_trush_message_text">您真的要把「%s」條目丟到垃圾桶？</string>
+    <string name="library_items_count">條目： %s</string>
     <string name="library_menu_select_sort">排序</string>
-    <string name="library_menu_select_group">組</string>
-    <string name="select_sort_template">排序選取的欄位，根據</string>
-    <string name="select_group_template">群組選取的欄位，根據</string>
+    <string name="library_menu_select_group">群組</string>
+    <string name="select_sort_template">選取排序欄位</string>
+    <string name="select_group_template">選取群組欄位</string>
     <string name="sort_by_date">建立時間</string>
     <string name="flex_delete_message_title">刪除欄位</string>
-    <string name="flex_delete_message_text">您是否真的要刪除欄位\"%s\" ?</string>
+    <string name="flex_delete_message_text">您是否真的要刪除「%s」欄位？</string>
     <string name="not_group">不群組</string>
     <string name="bool_yes">是</string>
     <string name="bool_not">否</string>
@@ -70,42 +70,41 @@
     <string name="date_not_set">空值</string>
     <string name="set_default_value">指定預設值</string>
     <string name="date_default_null">預設空值</string>
-    <string name="date_default_now">預設的目前日期</string>
-    <string name="search">搜索</string>
-    <string name="search_hint">搜索項目</string>
+    <string name="date_default_now">預設為目前日期</string>
+    <string name="search">搜尋</string>
+    <string name="search_hint">搜尋條目</string>
     <string name="search_parse_exception_messagee">無效的搜尋字串</string>
     <plurals name="NItemsFind">
-        <item quantity="other">Entries found: <xliff:g id="COUNT">%d</xliff:g>
-        </item>
-    </plurals>
-    <string name="memento_search">Memento 搜索</string>
-    <string name="memento_search_in_lib">Memento 搜索於"%s"</string>
+	<item quantity="other">找到條目: %d</item>
+</plurals>
+    <string name="memento_search">Memento 搜尋</string>
+    <string name="memento_search_in_lib">Memento 在 %s 搜尋</string>
     <string name="removed">已刪除 %s</string>
     <string name="trush">垃圾桶</string>
     <string name="library_item_restore">還原</string>
     <string name="clear_trash">清空垃圾桶</string>
     <string name="clear_trash_progress_dialog_title">清空垃圾桶</string>
     <string name="clear_trash_dialog_title">清空垃圾桶</string>
-    <string name="clear_trash_dialog_text">您真的確定要清空垃圾桶中所有項目？</string>
+    <string name="clear_trash_dialog_text">您真的確定要清空垃圾桶中所有條目？</string>
     <string name="mobile">手機</string>
     <string name="home">住宅電話</string>
     <string name="work">工作電話</string>
     <string name="other">其他</string>
     <string name="pager">呼叫器</string>
-    <string name="image_not_found">圖像沒有找到</string>
-    <string name="audio_not_found">沒有找到音軌</string>
+    <string name="image_not_found">找不到影像</string>
+    <string name="audio_not_found">找不到音軌</string>
     <string name="flex_type_money_currency_dlg_title">選取貨幣</string>
     <string name="flex_type_money_currency_option_title">貨幣</string>
     <string name="flex_type_money_default_currency">美元</string>
     <string name="flex_role_not_usage">一般欄位</string>
-    <string name="flex_role_name">項目名稱</string>
-    <string name="flex_role_hint">項目描述</string>
-    <string name="flex_role_status">項目狀態</string>
+    <string name="flex_role_name">條目名稱</string>
+    <string name="flex_role_hint">條目描述</string>
+    <string name="flex_role_status">條目狀態</string>
     <string name="short_flex_role_name">名字</string>
     <string name="short_flex_role_hint">描述</string>
     <string name="short_flex_role_status">狀態</string>
-    <string name="item_add_to_favorite">該項目已新增到最愛</string>
-    <string name="item_remove_from_favorite">該項目已從最愛刪除</string>
+    <string name="item_add_to_favorite">該條目已新增到最愛</string>
+    <string name="item_remove_from_favorite">該條目已從最愛刪除</string>
     <string name="history_dialog_title">歷史</string>
     <string name="favorites_dialog_title">最愛</string>
     <string name="map_coord_not_set_hint">點擊以選取位置</string>
@@ -133,19 +132,19 @@
     <string name="load_templates_title">正在載入範本</string>
     <string name="load_templates_message">請稍等，庫範本庫正在初始化載入。</string>
     <string name="help_title">Memento 說明</string>
-    <string name="activate_button_title">啟用專業版</string>
+    <string name="activate_button_title">啟用 PRO 版</string>
     <string name="activate_button_hint">您需要啟用碼</string>
-    <string name="activate_main_text">升級到專業版</string>
+    <string name="activate_main_text">升級到 PRO 版</string>
     <string name="activation_dialog_text_hint">啟用碼</string>
-    <string name="activation_dialog_title">升級到專業版</string>
+    <string name="activation_dialog_title">升級到 PRO 版</string>
     <string name="activation_ok">謝謝您啟用 Memento</string>
     <string name="activation_error">無效的啟用碼。請重試。</string>
     <string name="about">關於</string>
     <string name="copyright">版權所有 c 2016 LuckyDroid\n保留所有權利</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">檢視軟體版本</string>
-    <string name="about_license_type">許可協議：</string>
-    <string name="pro_version">專業版</string>
+    <string name="about_license_type">授權：</string>
+    <string name="pro_version">PRO 版</string>
     <string name="send_library_item">傳送</string>
     <string name="send_chooser_title">選取要傳送的套用程式：</string>
     <string name="create_shortcut">建立捷徑</string>
@@ -153,29 +152,30 @@
     <string name="error_cant_open_memento_dir">錯誤：無法在存儲卡上建立Memento目錄</string>
     <string name="preference_category_csv_import">資料操作</string>
     <string name="csvexport">匯出到CSV</string>
-    <string name="csvexport_summary">匯出項目到CSV檔案中</string>
+    <string name="csvexport_summary">匯出條目到CSV檔案中</string>
     <string name="csvimport">從CSV中匯入</string>
     <string name="csvimport_from">從 %s 中匯入</string>
     <string name="csvexport_to">匯出到 %s</string>
-    <string name="csvimport_summary">從CSV檔案匯入項目</string>
+    <string name="csvimport_summary">從CSV檔案匯入條目</string>
     <string name="select_csv_file_title">Memento資料夾中的CSV檔案</string>
     <string name="button_import">匯入</string>
     <string name="button_export">匯出</string>
-    <string name="find_csv_column_title">在選取檔案中找到項目欄位：</string>
+    <string name="find_csv_column_title">在選取檔案中找到的條目欄位：</string>
     <string name="not_find_csv_column_title">在選取的檔案中未找到欄位。</string>
     <string name="csv_delimiter_text">欄位值必須用逗號分隔(,)</string>
-    <string name="need_title_column_text">"欄位的名稱必須對應一個項目欄位的名稱. "</string>
-    <string name="csv_result_import_text">已匯入此項目</string>
-    <string name="csv_result_import_succes_items">新增項目：</string>
-    <string formatted="false" name="csv_result_import_fail_items">有列包含錯誤：%s \n列數：%s</string>
+    <string name="need_title_column_text">"欄位的名稱必須對應一個條目欄位的名稱. "</string>
+    <string name="csv_result_import_text">已匯入此條目</string>
+    <string name="csv_result_import_succes_items">新增條目：</string>
+    <string formatted="false" name="csv_result_import_fail_items">有列包含錯誤: %s
+\n列數: %s</string>
     <string name="enter_csv_name_dialog_title">匯出到CSV</string>
     <string name="enter_csv_name_dialog_value_title">輸入CSV檔案的名子</string>
     <string name="enter_csv_name_dialog_value_hint">檔案名</string>
-    <string name="export_success">項目已匯出到 /sdcard/memento/%s</string>
-    <string name="export_error">匯出一下項目失敗：%s</string>
+    <string name="export_success">條目已匯出到 /sdcard/memento/%s</string>
+    <string name="export_error">匯出以下條目失敗:\n%s</string>
     <string name="library_saved">已儲存庫</string>
     <string name="library_created">已建立庫</string>
-    <string name="msg_default_status">在取景器範圍內放置條碼以掃瞄它.</string>
+    <string name="msg_default_status">在取景器範圍內放置條碼以掃瞄它。</string>
     <string name="scan_library_item">掃瞄條碼</string>
     <string name="search_product_title">正在以條碼搜尋商品 ...</string>
     <string name="empty_result_text">抱歉\n未找到產品</string>
@@ -187,14 +187,14 @@
     <string name="barcode_auto_fill_checkbox">自動完成欄位</string>
     <string name="add_fill_field_dialog_title">建立一個自動完成規則</string>
     <string name="memento_field">它將被儲存到輸入欄位</string>
-    <string name="memento_field_promt">庫項目欄位</string>
+    <string name="memento_field_promt">庫條目欄位</string>
     <string name="uniquery_check_fail">一個庫只能包含一個 "%s" 類型的欄位</string>
     <string name="to">到</string>
     <string name="barcode_search">條碼搜索</string>
     <!-- 1.2.1 -->
     <string name="msg_camera_framework_bug">抱歉，Android相機出現了一個問題。您可能需要重啟設備。</string>
     <!-- 1.2.3 -->
-    <string name="deleted_library_hint">項目： %s</string>
+    <string name="deleted_library_hint">條目: %s</string>
     <string name="preference_restore_libs_title">還原庫</string>
     <string name="preference_restore_libs_hint">還原被刪除的庫</string>
     <string name="preference_category_general">一般</string>
@@ -216,7 +216,7 @@
     <string name="unbind_message_title">中斷與Google Sheets的連接</string>
     <string name="unbind_message_text">您是否確定要中斷庫\"%s\"到Google Sheets的連接？</string>
     <string name="bind_to_gdocs_message">正在連接Google Spreadsheets。</string>
-    <string name="bind_to_gdocs_success">此庫已連接到Google Spreadsheets。正在開始進行項目同步。</string>
+    <string name="bind_to_gdocs_success">此庫已連接到 Google Spreadsheets。</string>
     <string name="sync_with_gdocs_success">此庫已完成與Google Spreadsheets的同步</string>
     <string name="sync_with_gdocs_title">與Google Sheets同步</string>
     <string name="sync_with_gdocs_message">正在與Google Spreadsheets同步。</string>
@@ -235,15 +235,15 @@
     <string name="preference_category_accounts">帳號</string>
     <string name="preference_google_account_title">Google帳戶</string>
     <string name="preference_google_account_hint">您的Google帳戶Email和密碼</string>
-    <string name="conflict_dialog_text">同樣的項目已在Memento和Google Sheets中被編輯。哪一個是正確的？</string>
-    <string name="copy_memento_to_gdocs">來自Memento的項目</string>
-    <string name="copy_gdocs_to_memento">來自Google Sheets的項目</string>
-    <string name="edit_flex_title_disabled">由於目前庫已連接到Google Sheets，無法對其重新命名</string>
-    <string name="cant_bind">免費版本只允許您連接三個庫到Google Sheets。\n升級到專業版以解除此限制。</string>
-    <string name="button_pro_version">專業版</string>
+    <string name="conflict_dialog_text">同條目在 Memento 與 Google Sheets 都被編輯。哪一個是正確版本？</string>
+    <string name="copy_memento_to_gdocs">來自Memento的條目</string>
+    <string name="copy_gdocs_to_memento">來自Google Sheets的條目</string>
+    <string name="edit_flex_title_disabled">由於目前庫已連接到Google Sheets，無法重新命名欄位</string>
+    <string name="cant_bind">免費版本只允許您連接三個庫到Google Sheets。\n升級到 PRO 版以解除此限制。</string>
+    <string name="button_pro_version">PRO 版</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">自動完成</string>
-    <string name="option_autofill_hint">下拉清單顯示來自其他項目的可用值</string>
+    <string name="option_autofill_hint">下拉清單顯示來自其他條目的可用值</string>
     <string name="capture_picture">截圖</string>
     <string name="please_wait">請稍等...</string>
     <!-- 1.4.0 -->
@@ -256,7 +256,7 @@
     <string name="public_library">發佈這個庫</string>
     <string name="update_public_library">更新發佈</string>
     <string name="memento_register_account_title">正在Memento伺服器上\n建立一個賬戶</string>
-    <string name="memento_register_account_text">如要發佈庫以及訂閱庫，一個在Memento伺服器上的賬戶是必需的</string>
+    <string name="memento_register_account_text">發佈庫以及訂閱庫，需要在 Memento Server 上的帳號</string>
     <string name="memento_login_hint">使用者名</string>
     <string name="memento_pass_hint">密碼</string>
     <string name="memento_pass_hint2">重複密碼</string>
@@ -268,19 +268,19 @@
     <string name="pass_not_equal">請再次驗證你的密碼</string>
     <string name="incorrect_email">無效的Email位址</string>
     <string name="create_memento_account_dlg_title">註冊</string>
-    <string name="create_memento_account_dlg_text">正在於Memento伺服器上註冊使用者 ...</string>
+    <string name="create_memento_account_dlg_text">正在於 Memento Server 上註冊使用者 ...</string>
     <string name="memento_register_user_exists">該使用者名已存在</string>
     <string name="memento_register_email_exists">已存在一個使用相同郵箱位址的使用者</string>
     <string name="memento_server_error">伺服器錯誤，請稍後重試</string>
-    <string name="memento_account_title">Memento賬戶</string>
-    <string name="memento_create_account_button">新增賬戶</string>
+    <string name="memento_account_title">Memento 帳號</string>
+    <string name="memento_create_account_button">新增帳號</string>
     <string name="memento_auth_error">錯誤的使用者名或密碼</string>
-    <string name="memento_library_lock">庫是鎖定的，請稍後重試</string>
-    <string name="preference_memento_account_title">Memento賬戶</string>
+    <string name="memento_library_lock">庫被鎖定，請稍後重試</string>
+    <string name="preference_memento_account_title">Memento 帳號</string>
     <string name="preference_memento_account_hint">您的Memento賬戶使用者名和密碼</string>
     <string name="public_library_task_auth">正在驗證Memento服務</string>
     <string name="public_library_task_send_template">正在傳送庫範本</string>
-    <string formatted="false" name="public_library_task_send_items">正在傳送庫項目。\n%s 來自 %s</string>
+    <string formatted="false" name="public_library_task_send_items">正在傳送庫條目。\n%s 來自 %s</string>
     <string name="memento_not_support_template">您所使用的Memento版本已過期，請更新</string>
     <string name="memento_not_found">未找到資源</string>
     <string name="alias_hint">輸入庫的別名</string>
@@ -299,7 +299,7 @@
     <string name="subscribe_activity_title">訂閱庫</string>
     <string name="library_uri_hint">庫的位址</string>
     <string name="find_libraries_task_title">庫搜索</string>
-    <string name="find_libraries_task_by_uri">同過庫的位址\n進行搜索</string>
+    <string name="find_libraries_task_by_uri">正在依照位址\n取得庫</string>
     <string name="find_libraries_task_by_user">正在獲取該使用者\n擁有的所有庫</string>
     <string name="libraries_list_result_header">已找到的庫</string>
     <string name="libraries_by_user_not_found">未找到指定的使用者或該使用者未發佈任何庫</string>
@@ -307,9 +307,9 @@
     <string name="wrong_library_address_format">無效的庫位址格式</string>
     <string name="last_update">上次更新：%s</string>
     <string name="subscribe_button">訂閱</string>
-    <string name="subscribe_task_get_library">正在獲取庫的項目</string>
+    <string name="subscribe_task_get_library">正在取得庫條目</string>
     <string name="subscribe_task_create_library">正在建立庫</string>
-    <string formatted="false" name="subscribe_task_save_library_task">正在儲存項目。\n%s 來自 %s</string>
+    <string formatted="false" name="subscribe_task_save_library_task">正在儲存條目。\n%s 來自 %s</string>
     <string name="subscribe_task_create_index">正在建立索引</string>
     <string name="subscribes_group_title">我的訂閱</string>
     <string name="library_settings">設定</string>
@@ -319,8 +319,8 @@
     <string name="subscribe_last_update_dialog_title">更新庫</string>
     <string name="subscribe_last_update_dialog_message">正在更新庫</string>
     <string name="clear_preference">正在清除庫</string>
-    <string name="clear_preference_hint">正在刪除庫中的所有項目</string>
-    <string name="clear_preference_quest">刪除庫中的所有項目？</string>
+    <string name="clear_preference_hint">正在刪除庫中的所有條目</string>
+    <string name="clear_preference_quest">刪除庫中的所有條目？</string>
     <string name="last_sync">上次同步：%s</string>
     <string name="last_public">已發佈：%s</string>
     <string name="unpublic_library_title">取消發佈的庫</string>
@@ -350,7 +350,7 @@
     <string name="export_template_error">匯出以下範本錯誤：%s</string>
     <string name="import_template_success">範本已被匯入</string>
     <string name="wrong_template_version">你目前的Memento版本不支援選取的範本檔案。請更新Memento。</string>
-    <string name="flex_type_library_entry">連接項目</string>
+    <string name="flex_type_library_entry">連接條目</string>
     <string name="flex_type_entry_option_title">庫</string>
     <string name="flex_type_entry_option_dlg_title">選取庫</string>
     <string name="flex_type_entry_select_library">選取一個庫，其內容會成為本欄位的選項。</string>
@@ -371,7 +371,7 @@
     <string name="flex_type_multy_sl">多選值</string>
     <string name="library_item_copy">複製</string>
     <string name="send_all_dialog_title">傳送全部</string>
-    <string name="send_all_dialog_message">正在準備要傳送的項目 ...</string>
+    <string name="send_all_dialog_message">正在準備要傳送的條目 ...</string>
     <string name="send_all_csv">以CSV傳送</string>
     <string name="send_all_text">以文字傳送</string>
     <string name="flex_type_time">時間</string>
@@ -381,7 +381,7 @@
     <string name="sync_with_gdocs_message_2">與Google表格\"%s\" 同步 .</string>
     <string name="help_create_library">創建庫</string>
     <string name="help_edit_field">定義庫的結構</string>
-    <string name="help_library_items">操作庫項目</string>
+    <string name="help_library_items">操作庫條目</string>
     <string name="help_import_export">導入和導出CSV文件</string>
     <string name="help_barcode">條碼掃瞄</string>
     <string name="help_gdocs_sync">與Google試算表同步處理</string>
@@ -400,7 +400,7 @@
     <string name="button_home">主頁</string>
     <string name="library_is_locked">關閉加密庫</string>
     <string name="library_encription_checkbox">加密內容</string>
-    <string name="library_encription_description">將使用AES加密項目的字串欄位。\n不支援搜索加密項目。</string>
+    <string name="library_encription_description">將使用 AES 加密條目的字串欄位。\n不支援搜尋加密條目。</string>
     <string name="library_pass_access_description">您必須輸入主密碼才能進入此庫</string>
     <string name="set_library_protection_title">加密條目</string>
     <string name="set_library_protection_message">正在加密庫條目...</string>
@@ -436,9 +436,9 @@
     <string name="font_size_category_entries_list">條目列表中的字體</string>
     <string name="font_size_category_entries_card">條目中的字體</string>
     <string name="font_size_dialog">字體大小</string>
-    <string name="entry_name_font_size_preference">項目名字</string>
-    <string name="entry_desc_font_size_preference">項目介紹</string>
-    <string name="entry_status_font_size_preference">項目狀態</string>
+    <string name="entry_name_font_size_preference">條目名稱</string>
+    <string name="entry_desc_font_size_preference">條目描述</string>
+    <string name="entry_status_font_size_preference">條目狀態</string>
     <string name="entry_field_title_font_size_preference">欄位名稱</string>
     <string name="entry_field_value_font_size_preference">欄位值</string>
 
@@ -932,9 +932,9 @@
     <string name="color">顏色</string>
     <string name="edit_library_entries_options_group">條目清單</string>
     <string name="entries_color">條目顏色</string>
-    <string name="entries_color_dialog_title">根據欄位值決定顏色</string>
+    <string name="entries_color_dialog_title">將此欄位作為條目顏色</string>
     <string name="entries_icon">條目縮圖</string>
-    <string name="entries_icon_dialog_title">根據欄位值決定縮圖</string>
+    <string name="entries_icon_dialog_title">將此欄位作為縮圖</string>
     <string name="string_list_export_menu_title">匯出項目</string>
     <string name="string_list_import_menu_title">匯入項目</string>
     <string name="open_button">開啟</string>
