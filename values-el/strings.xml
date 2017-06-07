@@ -8,8 +8,8 @@
     <string name="button_no">Οχι</string>
     <string name="button_save">Αποθήκευση</string>
     <string name="button_cancel">Άκυρο</string>
-    <string name="button_add_field">Προσθήκη ενός πεδίου</string>
-    <string name="add_new_library_item">Προσθέστε μία εγγραφή ...</string>
+    <string name="button_add_field">Προσθήκη πεδίου</string>
+    <string name="add_new_library_item">Προσθήκη εγγραφής</string>
     <string name="flex_type_title_string">Κείμενο</string>
     <string name="flex_type_title_int">Ακέραιος αριθμός</string>
     <string name="flex_type_title_date">Ημερομηνία</string>
@@ -1364,7 +1364,7 @@
     <string name="users_manager">Διαχειριστής χρηστών</string>
     <string name="create_new_user_dialog">Προσθήκη Νέου Χρήστη</string>
 
-    <string name="script">Δέσμη ενεργειών</string>
+    <string name="script">Σενάριο</string>
     <string name="js_libraries">Βιβλιοθήκες JavaScript</string>
     <string name="js_moment_library">Βιβλιοθήκη για την ανάλυση, την επικύρωση, το χειρισμό και τη μορφοποίηση ημερομηνιών</string>
     <string name="js_realtime">Εκτελέστε το σενάριο σε πραγματικό χρόνο</string>
@@ -1472,15 +1472,15 @@
 
     <string name="enable_logging_cloud">Κλήσεις Σύννεφου Memento</string>
     <string name="enable_logging_triggers">Καταγραφές εναυσμάτων</string>
-    <string name="script_log">Καταγραφή Δέσμης Ενεργειών</string>
+    <string name="script_log">Καταγραφή Σεναρίου</string>
 
-    <string name="trigger_permissions">Δικαιώματα για εναύσματα</string>
+    <string name="trigger_permissions">Δικαιώματα για σενάρια</string>
     <string name="trigger_permission_read_file">Ανάγνωση αρχείων</string>
     <string name="trigger_permission_read_file_hint">Επιτρέπει στην δέσμη ενεργειών την ανάγνωση από εξωτερικό χώρο αποθήκευσης</string>
     <string name="trigger_permission_write_file">Εγγραφή αρχείων</string>
     <string name="trigger_permission_write_file_hint">Επιτρέπει στην δέσμη ενεργειών την εγγραφή σε εξωτερικό χώρο αποθήκευσης</string>
     <string name="trigger_permission_network">Δίκτυο</string>
-    <string name="trigger_permission_network_hint">Επιτρέπει στην δέσμη ενεργειών (script) να εκτελεί αιτήσεις HTTP</string>
+    <string name="trigger_permission_network_hint">Επιτρέπει στο σενάριο (script) να εκτελεί αιτήσεις HTTP</string>
 
     <string name="trigger_permission_libraries">Βιβλιοθήκες</string>
     <string name="trigger_permission_libraries_hint">Πρόσβαση σε όλες τις βιβλιοθήκες</string>
@@ -1707,4 +1707,58 @@
     <string name="barcode_type_1d">Barcode</string>
     <string name="barcode_type_2d">Κώδικας QR</string>
 
+<string name="embedded_js_libraries">Ενσωματωμένο</string>
+    <string name="repository_js_libraries">Αποθετήρια</string>
+    <string name="repository_android_intents_hint">Λειτουργίες για την αλληλεπίδραση με άλλες Android-εφαρμογές</string>
+    <string name="repository_data_sources_hint">Πηγές δεδομένων για την αυτόματη συμπλήρωση</string>
+    <string name="warning">Προειδοποίηση</string>
+    <string name="add_javascript_library">Προσθήκη βιβλιοθηκών javascript...</string>
+    <string name="add_repository">Προσθήκη αποθετηρίου</string>
+    <string name="repository_location_hint">Υπερσύνδεσμος Αποθετηρίου GitHub</string>
+    <string name="repository_location_error">Καθορίστε τον σύνδεσμο HTTPS στο αποθετήριο GitHub. Για παράδειγμα: https://github.com/username/repo-name</string>
+    <string name="repository_not_found_error">Το αποθετήριο δεν βρέθηκε: %s</string>
+    <string name="repository_delete_message">Θέλετε πραγματικά να διαγράψετε το αποθετήριο \"%s\" ;</string>
+    <string name="repository_other">Άλλο</string>
+
+    <string name="map_field_current_by_default_title">Τρέχουσα θέση</string>
+    <string name="map_field_current_by_default_hint">Αποκτήστε την τρέχουσα θέση από προεπιλογή</string>
+    <string name="receiving_document_content">Λήψη περιεχόμενου του εγγράφου</string>
+    <string name="find_address">Εύρεση διεύθυνσης</string>
+    <string name="privacy_policy">Πολιτική Προστασίας Προσωπικών Δεδομένων</string>
+    <string name="trigger_event_action">Ενέργεια</string>
+    <string name="action_context_library">Βιβλιοθήκη</string>
+    <string name="action_context_view_entry">Κάρτα προβολής εισαγωγής</string>
+    <string name="trigger">Έναυσμα</string>
+    <string name="action_default_name">Ενέργεια %d</string>
+    <string name="place_of_action">Τόπος δράσης</string>
+    <string name="action_arguments">Επιχειρήματα</string>
+    <string name="action_arguments_empty">Το σενάριο μπορεί να έχει επιχειρήματα, τις τιμές των οποίων θα πρέπει να εισάγει ο χρήστης.</string>
+    <string name="select_argument_type">Τύπος επιχειρήματος</string>
+    <string name="script_argument_delete_message_text">Θέλετε πραγματικά να διαγράψετε το επιχείρημα «%s» ;</string>
+    <string name="create_argument">Δημιουργία επιχειρήματος</string>
+    <string name="edit_argument">Επεξεργασία επιχειρήματος</string>
+    <string name="argument_name">Όνομα επιχειρήματος</string>
+    <string name="argument_hint">Υπόδειξη επιχειρήματος</string>
+    <string name="required_argument_text">Το Επιχείρημα πρέπει να συμπληρωθεί</string>
+    <string name="scripts">Σενάρια</string>
+    <string name="actions">Ενέργειες</string>
+    <string name="empty_script_list_text">Η βιβλιοθήκη δεν περιέχει σενάρια</string>
+    <string name="empty_script_list_trigger_text">Το Έναυσμα είναι ένα σενάριο που καθορίζει την επεξεργασία μιας εγγραφής με βάση ένα συμβάν που έλαβε χώρα.</string>
+    <string name="empty_script_list_action_text">Η Ενέργεια είναι ένα σενάριο που έχει ξεκινήσει χειροκίνητα με το πάτημα του κουμπιού στη βιβλιοθήκη ή την κάρτα εισαγωγής.</string>
+    <string name="autofill_goto_script_title">Επεξεργαστής σεναρίου</string>
+    <string name="autofill_goto_script_hint">Σενάριο πηγή δεδομένων</string>
+    <string name="java_script_data_source_title">Προσαρμοσμένη πηγή</string>
+    <string name="java_script_data_source_hint">JavaScript</string>
+    <string name="script_cant_run_for_not_saved_library">Μπορείτε να εκτελέσετε το σενάριο μόνο μετά την αποθήκευση της βιβλιοθήκης.</string>
+    <string name="autofill_script_source_key_title">Επισημάνετε την ιδιότητα του αντικειμένου που επιστρέφεται από το σενάριο</string>
+    <string name="test_js_data_source_query_hint">Συμβολοσειρά ερωτήματος</string>
+    <string name="test_js_data_source_query_result">Αποτέλεσμα ερωτήματος:\n%s</string>
+    <string name="run">Εκτέλεση</string>
+    <string name="run_arguments">Εκτέλεση επιχειρημάτων</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">Μπορείτε να ορίσετε δικαιώματα για το σενάριο μόνο μετά την αποθήκευση της βιβλιοθήκης.</string>
+    <string name="script_permissions_required_message">Η βιβλιοθήκη διαθέτει τα σενάρια που απαιτούν τα ακόλουθα δικαιώματα:</string>
+    <string name="required_access_to_library">πρόσβαση σε %s</string>
+    <string name="action_with_library_context">Ενέργεια Βιβλιοθήκης</string>
+    <string name="action_with_entry_context">Ενέργεια Εισαγωγής</string>
+    <string name="library_related_cloud_model_changed_message">Η δομή των σχετικών βιβλιοθηκών ενημερώθηκε στο σύννεφο. Πηγαίνετε στη σχετική βιβλιοθήκη για την ενημέρωση.</string>
 </resources>

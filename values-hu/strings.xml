@@ -11,7 +11,7 @@
     <string name="button_save">Mentés</string>
     <string name="button_cancel">Mégsem</string>
     <string name="button_add_field">Új mező</string>
-    <string name="add_new_library_item">Új bejegyzés ...</string>
+    <string name="add_new_library_item">Új bejegyzés</string>
     <string name="flex_type_title_string">Szöveg</string>
     <string name="flex_type_title_int">Egész szám</string>
     <string name="flex_type_title_bool">Logikai (Jelölőnégyzet)</string>
@@ -98,7 +98,7 @@
     <string name="field_enclosed">Szöveg minősítő</string>
     
 <string name="removed">Törölve a(z) %s -ból</string>
-    <string name="short_flex_role_hint">csökkenő</string>
+    <string name="short_flex_role_hint">leírás</string>
     <string name="short_flex_role_status">állapot</string>
     <string name="item_add_to_favorite">Az elem hozzáadva a kedvencekhez</string>
     <string name="item_remove_from_favorite">Elem eltávolítva a kedvencekből</string>
@@ -522,7 +522,7 @@
     <string name="link_button">Kapcsolat</string>
     <string name="prepare_linking_library">Felkészülés az összekapcsolásra ...</string>
     <plurals name="NItemsFind">
-	<item quantity="other">1 találat</item>
+	<item quantity="other">1 bejegyzés talált</item>
 </plurals>
     <string name="error_prepare_linking">Hiba merült fel a kapcsolat létrehozása közben: %s</string>
     <string name="have_library_items_ask_title">Összekapcsolás a Google Táblázattal</string>
@@ -589,7 +589,7 @@
     <string name="clear_filter">Szűrő eltávolítása</string>
     <string name="new_filter_dialog_title">Új szűrő</string>
     <string name="new_filter_dialog_text">Szűrő neve</string>
-    <string name="delete_filter_dialog_text">Biztosan törölni szeretnéd a szűrőt?</string>
+    <string name="delete_filter_dialog_text">Biztosan törölni szeretnéd a szűrőt \"%s\"?</string>
     <string name="add_to_favorite">Hozzáadás a kedvencekhez</string>
     <string name="remove_from_favorite">Eltávolítás a kedvencekből</string>
     <string name="search_result_subtitle">Keresés eredménye</string>
@@ -960,4 +960,7 @@
     <string name="string_functions">Szöveges</string>
     <string name="logic_functions">Logikai</string>
     <string name="calc_value_type_date">Numerikus típus, másodperc</string>
+    <string name="calc_value_type_number">Numerikus érték típusa</string>
+    <string name="calc_value_type_string">Karakterlánc érték típus</string>
+    <string name="sort_by_downloads">Sorrend letöltések</string>
     </resources>
