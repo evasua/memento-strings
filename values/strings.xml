@@ -142,7 +142,7 @@
     <string name="activation_ok">Thank you for activation Memento</string>
     <string name="activation_error">Activation code is invalid. Please, try again.</string>
     <string name="about">About</string>
-    <string name="copyright">Copyright © 2016 LuckyDroid\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2017 LuckyDroid\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">View software version</string>
     <string name="about_license_type">License:</string>
@@ -1209,7 +1209,7 @@
 	<string name="button_tarifs">Tariffs</string>
 	<string name="cloud_storage_plans">Subscription plans</string>
 	<string name="price_free">FREE</string>
-	<string name="price_per_month">%s/month</string>
+	<string name="price_per_month">%s/mo</string>
 	<string name="unlimited_libraries">Unlimited libraries</string>	
 	<string name="adv_free">No advertising</string>
 	<string name="subscription_activation">Activate subscription ...</string>
@@ -1839,4 +1839,30 @@
     <string name="action_with_library_context">Library Action</string>
     <string name="action_with_entry_context">Entry Action</string>
     <string name="library_related_cloud_model_changed_message">The structure of related library  was updated in the cloud. Go to the related library for the update.</string>
+    
+    <string name="monthly_plan">Monthly</string>
+    <string name="yearly_plan">Yearly</string>
+    <string name="cloud_plan_plan3_annual">Lite</string>
+    <string name="cloud_plan_plan6_annual">Pro</string>
+    <string name="cloud_plan_plan10_annual">Pro Plus</string>
+    <string name="cloud_plan_team5_annual">Team 5</string>
+    <string name="cloud_plan_team10_annual">Team 10</string>
+    <string name="cloud_plan_team15_annual">Team 15</string>
+    <string name="cloud_plan_team20_annual">Team 20</string>
+    <string name="price_per_year">%s/yr</string>
+
+    <!-- 4.3.1 -->
+    <string name="frozen_alien_text">The library is frozen , please contact with library owner (%s).</string>
+    <string name="copy_field">Copy field</string>
+    <string name="delete_reminder_dialog_text">Do you really want to delete the reminder?</string>
+    <string name="igdb_source">igdb.com</string>
+    <string name="games">Games</string>
+    <string name="number_increment_delta_title">Increment/decrement buttons</string>
+    <string name="number_increment_delta_value">Step size %s</string>
+    <string name="number_increment_visible_option">Show buttons</string>
+    <string name="is_empty">Is empty</string>
+    <string name="is_not_empty">Is not empty</string>
+    <string name="trigger_event_open_library">Opening an library</string>
+    <string name="search_base_folder">Search base</string>
+    <string name="line_interpolate_nulls_titles">Interpolate empty values</string>
 </resources>
