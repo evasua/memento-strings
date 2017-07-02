@@ -147,7 +147,8 @@
     <string name="activation_ok">Благодарим Ви за активирането на Memento</string>
     <string name="activation_error">Активиращият код е невалиден. Моля, опитайте отново.</string>
     <string name="about">За програмата</string>
-    <string name="copyright">Copyright © 2016 LuckyDroid\nВсички права запазени</string>
+    <string name="copyright">Copyright © 2017 LuckyDroid
+Всички права запазени</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Вижте версията на програмата</string>
     <string name="about_license_type">Лиценз:</string>
@@ -1152,7 +1153,7 @@
 	<string name="button_tarifs">Тарифи</string>
 	<string name="cloud_storage_plans">Абонаментни планове</string>
 	<string name="price_free">БЕЗПЛАТНО</string>
-	<string name="price_per_month">%s/месец</string>
+	<string name="price_per_month">%s/мес</string>
 	<string name="unlimited_libraries">Неограничено количество библиотеки</string>	
 	<string name="adv_free">Без реклами</string>
 	<string name="subscription_activation">Активация абонамент ...</string>
@@ -1771,4 +1772,28 @@
     <string name="action_with_library_context">Библиотека действие</string>
     <string name="action_with_entry_context">Влизане действие</string>
     <string name="library_related_cloud_model_changed_message">Структурата на свързаната библиотека бе обновена в облака. Отидете в съответната библиотека за актуализация.</string>
+<string name="monthly_plan">Месечно</string>
+    <string name="yearly_plan">Годишно</string>
+    <string name="cloud_plan_plan3_annual">Лайт</string>
+    <string name="cloud_plan_plan6_annual">Про</string>
+    <string name="cloud_plan_plan10_annual">Про Плюс</string>
+    <string name="cloud_plan_team5_annual">Екип 5</string>
+    <string name="cloud_plan_team10_annual">Екип 10</string>
+    <string name="cloud_plan_team15_annual">Екип 15</string>
+    <string name="cloud_plan_team20_annual">Екип 20</string>
+    <string name="price_per_year">%s/год</string>
+
+    <string name="frozen_alien_text">Библиотеката е замразена, моля, свържете се със собственика на библиотеката (%s).</string>
+    <string name="copy_field">Копиране на поле</string>
+    <string name="delete_reminder_dialog_text">Наистина ли искате да изтриете напомнянето?</string>
+    <string name="igdb_source">igdb.com</string>
+    <string name="games">Игри</string>
+    <string name="number_increment_delta_title">Бутони за увеличаване/намаляване</string>
+    <string name="number_increment_delta_value">Размер на стъпката %s</string>
+    <string name="number_increment_visible_option">Бутони за показване</string>
+    <string name="is_empty">Празно е</string>
+    <string name="is_not_empty">Не е празно</string>
+    <string name="trigger_event_open_library">Отваряне на библиотека</string>
+    <string name="search_base_folder">Търсене на база</string>
+    <string name="line_interpolate_nulls_titles">Интерполирайте празните стойности</string>
 </resources>
