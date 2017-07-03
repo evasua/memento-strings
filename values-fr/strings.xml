@@ -490,7 +490,7 @@ Tout droits réservés</string>
     <string name="backup_success2">Sauvegarde terminée</string>
     <string name="restore_file_path_title">Répertoire de sauvegarde</string>
     <string name="auto_bakup_dir_pref_title">Répertoire de sauvegarde automatique</string>
-    <string name="google_play_not_found_message">Google Play n\'est pas disponible sur votre appareil. Vous pouvez télécharger OI File Manager sur le site du développeur.</string>
+    <string name="google_play_not_found_message">Google Play n\'est pas disponible sur votre dispositif. Vous pouvez télécharger OI File Manager sur le site du développeur.</string>
     <string name="library_not_found_dialog_title">Base</string>
     <string name="library_not_found_dialog_message">Base non trouvée. La base a peut-être été retirée.</string>
     <string name="add_field_above">Ajouter un champ au-dessus</string>
@@ -665,7 +665,7 @@ Tout droits réservés</string>
     <string name="select_google_account">Sélectionner un compte Google</string>
     <string name="send_files_to_cloud_error">Erreur en téléversant les fichiers dans le cloud :</string>
     <string name="prepare_google_sync">Connexion à votre compte...</string>
-    <string name="no_google_accounts">Aucun compte Google disponible. Merci d\'ajouter préalablement un compte à votre appareil.</string>
+    <string name="no_google_accounts">Aucun compte Google disponible. Merci d\'ajouter préalablement un compte à votre dispositif.</string>
     <string name="google_account_not_selected">Compte non sélectionné</string>
     <string name="bakup_files_need_pro_title">Nécessite la version PRO</string>
     <string name="bakup_files_need_pro_message">La création de fichiers de sauvegarde n\'est disponible qu\'en version PRO du logiciel</string>
@@ -693,7 +693,7 @@ Tout droits réservés</string>
     <string name="lock_edit_library_pref_title">Verrouiller la structure</string>
     <string name="lock_edit_library_pref_summary_on">Modification de la structure de la base non autorisée</string>
     <string name="lock_edit_library_pref_summary_off">Modification de la structure de la base autorisée</string>
-    <string name="cant_restore_form_google_drive">Votre appareil ne prend pas en charge la création de bases depuis Google Drive</string>
+    <string name="cant_restore_form_google_drive">Votre dispositif ne prend pas en charge la création de bases depuis Google Drive</string>
     <string name="record_error_dialog_message">Désolé, pas d\'application d\'enregistrement trouvée.</string>
     <string name="sync_error_dialog_title">Erreur de synchronisation</string>
     <string name="field_display_title_in_card">Nom du champ</string>
@@ -1127,7 +1127,7 @@ Tout droits réservés</string>
     <string name="cloud_size">Taille</string>
     <string name="cloud_files_count">Nombre de fichiers</string>
     <string name="cloud_who_has_access">Qui a accès</string>
-    <string name="cloud_server_unavaliable">Memento Cloud Server n\'est pas disponible, vérifier l\'accès Internet de votre appareil</string>
+    <string name="cloud_server_unavaliable">Memento Cloud Server n\'est pas disponible, vérifier l\'accès Internet de votre dispositif</string>
     <string name="delete_from_cloud">Supprimer du nuage</string>
     <string name="delete_from_cloud_message_question">Voulez-vous réellement supprimer la base du nuage ?</string>
         
@@ -1270,7 +1270,7 @@ Tout droits réservés</string>
     <string name="font_style_normal">Normal</string>
     <string name="font_style_bold_italic">Gras italique</string>
     <string name="font_sample">Exemple</string>
-    <string name="font_sample_text">The quick brown fox jumped over the lazy dog.</string>
+    <string name="font_sample_text">Portez ce vieux whisky au juge blond qui fume.</string>
     <string name="font_default_title">Police par défaut</string>
     <string name="choice_item_use_color_for_text">Utiliser la couleur pour le texte</string>
     <string name="encryption_for_cloud_uploaded_library">Le chiffrage de la base ne peut être activé qu\'avant son téléversement dans le nuage.</string>
@@ -1355,7 +1355,7 @@ Tout droits réservés</string>
     <string name="find_missing_files">Fichiers absents détectés</string>
     <string name="button_apply">Appliquer</string>
     <string name="find_missing_files_empty">Fichiers manquants non trouvés</string>
-    <string name="file_manager_not_found">Aucun gestionnaire de fichier compatible trouvé sur votre appareil.</string>
+    <string name="file_manager_not_found">Aucun gestionnaire de fichier compatible trouvé sur votre dispositif.</string>
     <string name="file_list_empty">Cette base ne contient pas de fichiers</string>
     <string name="feature_available_only_in_pro">Cette fonction n\'est disponible que dans la version PRO.</string>
     <string name="preview_button">Prévisualiser</string>
@@ -1664,7 +1664,7 @@ Tout droits réservés</string>
     <string name="edit_permissions">Modifier les droits d\'accès</string>
     <string name="library_permissions">Droits d\'accès de la base</string>
     <string name="field_permissions">Droits d\'accès du champ</string>
-    <string name="field_right_need_library_download">Vous devez télécharger une base sur votre appareil pour ajouter de nouveaux droits d\'accès aux champs.</string>
+    <string name="field_right_need_library_download">Vous devez télécharger une base sur votre dispositif pour ajouter de nouveaux droits d\'accès aux champs.</string>
     <string name="field_permission_invisible">Invisible</string>
     <string name="field_permission_read_only">Lecture seule</string>
     <string name="field_permissions_limit">Les droits d\'accès pour les champs ne peuvent être définis qu\'avec les tarifs Équipe.</string>
@@ -1770,7 +1770,7 @@ Tout droits réservés</string>
     <string name="empty_script_list_trigger_text">Le déclencheur est un script définissant le traitement d\'un enregistrement à appliquer après la survenance d\'un événement.</string>
     <string name="empty_script_list_action_text">Une action est un script initié manuellement par pression d\'un bouton à partir d\'une bibliothèque ou d\'un enregistrement.</string>
     <string name="autofill_goto_script_title">Éditeur de script</string>
-    <string name="autofill_goto_script_hint">Scripted data source</string>
+    <string name="autofill_goto_script_hint">Source de données scriptées</string>
     <string name="java_script_data_source_title">Source personnalisée</string>
     <string name="java_script_data_source_hint">JavaScript</string>
     <string name="script_cant_run_for_not_saved_library">Vous ne pouvez exécuter un script qu\'après avoir sauvegardé la bibliothèque.</string>
