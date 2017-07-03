@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Ajouter un enregistrement</string>
@@ -142,7 +142,8 @@
     <string name="activation_ok">Merci pour l\'activation de Memento</string>
     <string name="activation_error">Le code d\'activation est invalide. Merci de réessayer.</string>
     <string name="about">A propos</string>
-    <string name="copyright">Copyright © 2016 LuckyDroid\nTout droits réservés</string>
+    <string name="copyright">Copyright © 2017 LuckyDroid
+Tout droits réservés</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Version du logiciel</string>
     <string name="about_license_type">Licence :</string>
@@ -1174,7 +1175,7 @@
 	<string name="button_tarifs">Tarifs</string>
 	<string name="cloud_storage_plans">Offres d\'abonnement</string>
 	<string name="price_free">GRATUIT</string>
-	<string name="price_per_month">%s/mois</string>
+	<string name="price_per_month">%s/mo</string>
 	<string name="unlimited_libraries">Bases illimitées</string>	
 	<string name="adv_free">Pas de publicité</string>
 	<string name="subscription_activation">Activer la souscription...</string>
@@ -1730,4 +1731,84 @@
     <string name="locale_key_field_description">Le champ clef pour modifier les enregistrements</string>
 
     <string name="subheader_collapsed_by_default">Repliée par défaut</string>
-    </resources>
+    <string name="embedded_js_libraries">Embarqué</string>
+    <string name="repository_js_libraries">Référentiels</string>
+    <string name="repository_android_intents_hint">Fonctions pour interaction avec les autres applications Android</string>
+    <string name="repository_data_sources_hint">Sources de données pour autoremplissage</string>
+    <string name="warning">Attention</string>
+    <string name="add_javascript_library">Ajouter des bibliothèques javascript...</string>
+    <string name="add_repository">Ajouter un référentiel</string>
+    <string name="repository_location_hint">URL du référentiel GitHub</string>
+    <string name="repository_location_error">Indiquer le lien HTTPS du référentiel GitHub. Exemple : https://github.com/username/repo-name</string>
+    <string name="repository_not_found_error">Impossible de trouver le référentiel : %s</string>
+    <string name="repository_delete_message">Voulez-vous vraiment supprimer le référentiel \"%s\" ?</string>
+    <string name="repository_other">Autre</string>
+
+    <string name="map_field_current_by_default_title">Emplacement courant</string>
+    <string name="map_field_current_by_default_hint">Obtenir l\'emplacement courant par défaut</string>
+    <string name="receiving_document_content">Réception du contenu du document</string>
+    <string name="find_address">Chercher l\'adresse</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="trigger_event_action">Action</string>
+    <string name="action_context_library">Bibliothèque</string>
+    <string name="action_context_view_entry">Vue de l\'enregistrement</string>
+    <string name="trigger">Déclencheur</string>
+    <string name="action_default_name">Action %d</string>
+    <string name="place_of_action">Lieu de l\'action</string>
+    <string name="action_arguments">Arguments</string>
+    <string name="action_arguments_empty">Le script peut avoir des arguments, les valeurs seront entrées par l\'utilisateur.</string>
+    <string name="select_argument_type">Type d\'argument</string>
+    <string name="script_argument_delete_message_text">Voulez-vous réellement supprimer l\'argument \"%s\" ?</string>
+    <string name="create_argument">Créer un argument</string>
+    <string name="edit_argument">Modifier un argument</string>
+    <string name="argument_name">Nom de l\'argument</string>
+    <string name="argument_hint">Indice pour l\'argument</string>
+    <string name="required_argument_text">L\'argument doit être rempli</string>
+    <string name="scripts">Scripts</string>
+    <string name="actions">Actions</string>
+    <string name="empty_script_list_text">Cette bibliothèque ne contient pas de scripts</string>
+    <string name="empty_script_list_trigger_text">Le déclencheur est un script définissant le traitement d\'un enregistrement à appliquer après la survenance d\'un événement.</string>
+    <string name="empty_script_list_action_text">Une action est un script initié manuellement par pression d\'un bouton à partir d\'une bibliothèque ou d\'un enregistrement.</string>
+    <string name="autofill_goto_script_title">Éditeur de script</string>
+    <string name="autofill_goto_script_hint">Scripted data source</string>
+    <string name="java_script_data_source_title">Source personnalisée</string>
+    <string name="java_script_data_source_hint">JavaScript</string>
+    <string name="script_cant_run_for_not_saved_library">Vous ne pouvez exécuter un script qu\'après avoir sauvegardé la bibliothèque.</string>
+    <string name="autofill_script_source_key_title">Indiquer la propriété de l\'objet retournée par le script</string>
+    <string name="test_js_data_source_query_hint">Chaîne requête</string>
+    <string name="test_js_data_source_query_result">Résultat de la requête: 
+%s</string>
+    <string name="run">Exécuter</string>
+    <string name="run_arguments">Exécuter les arguments</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">Vous pouvez indiquer des autorisations pour le script uniquement après avoir sauvegardé la bibliothèque.</string>
+    <string name="script_permissions_required_message">La bibliothèque contient des scripts qui nécessitent les autorisations suivantes :</string>
+    <string name="required_access_to_library">accès à %s</string>
+    <string name="action_with_library_context">Bibliothèque action</string>
+    <string name="action_with_entry_context">Action enregistrement</string>
+    <string name="library_related_cloud_model_changed_message">La structure de la bibliothèque associée a été mise à jour dans le nuage. Aller à la bibliothèque associée pour la mise à jour.</string>
+    
+    <string name="monthly_plan">Mensuel</string>
+    <string name="yearly_plan">Annuel</string>
+    <string name="cloud_plan_plan3_annual">Lite</string>
+    <string name="cloud_plan_plan6_annual">Pro</string>
+    <string name="cloud_plan_plan10_annual">Pro Plus</string>
+    <string name="cloud_plan_team5_annual">Team 5</string>
+    <string name="cloud_plan_team10_annual">Team 10</string>
+    <string name="cloud_plan_team15_annual">Team 15</string>
+    <string name="cloud_plan_team20_annual">Team 20</string>
+    <string name="price_per_year">%s/yr</string>
+
+    <string name="frozen_alien_text">Cette bibliothèque est gelée, contacter SVP le propriétaire de la bibliothèque (%s).</string>
+    <string name="copy_field">Copier le champ</string>
+    <string name="delete_reminder_dialog_text">Voulez-vous réellement supprimer le rappel ?</string>
+    <string name="igdb_source">igdb.com</string>
+    <string name="games">Jeux</string>
+    <string name="number_increment_delta_title">Incrémentation/décrémentation boutons</string>
+    <string name="number_increment_delta_value">Taille du pas %s</string>
+    <string name="number_increment_visible_option">Afficher les boutons</string>
+    <string name="is_empty">Est vide</string>
+    <string name="is_not_empty">N\'est pas vide</string>
+    <string name="trigger_event_open_library">Ouverture d\'une bibliothèque</string>
+    <string name="search_base_folder">Base de recherche</string>
+    <string name="line_interpolate_nulls_titles">Interpolation des valeurs vides</string>
+</resources>
