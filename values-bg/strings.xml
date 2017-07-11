@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="app_name">Memento</string>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="app_name">Memento</string>
     <string name="library_menu_add_item">Добавяне</string>
     <string name="main_menu_add_lib">Добавяне на библиотека</string>
     <string name="ghostData_lib_title">Име на колекция</string>
@@ -11,7 +11,7 @@
     <string name="button_save">Запазване</string>
     <string name="button_cancel">Отказ</string>
     <string name="button_add_field">Добавете поле</string>
-    <string name="add_new_library_item">Добавяне на запис ...</string>
+    <string name="add_new_library_item">Добавяне на запис</string>
     <string name="flex_type_title_string">Текст</string>
     <string name="flex_type_title_int">Цяло число</string>
     <string name="flex_type_title_bool">Логическо (Поле за отметка)</string>
@@ -147,7 +147,8 @@
     <string name="activation_ok">Благодарим Ви за активирането на Memento</string>
     <string name="activation_error">Активиращият код е невалиден. Моля, опитайте отново.</string>
     <string name="about">За програмата</string>
-    <string name="copyright">Copyright © 2016 LuckyDroid\nВсички права запазени</string>
+    <string name="copyright">Copyright © 2017 LuckyDroid
+Всички права запазени</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Вижте версията на програмата</string>
     <string name="about_license_type">Лиценз:</string>
@@ -923,7 +924,7 @@
     <string name="reminders_count_limit">Можете да добавите максимум 10 напомняния за поле</string>
     <plurals name="NItemsFind">
 	<item quantity="one">1 намерен запис</item>
-	<item quantity="other">Намерени записи: <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="COUNT">%d</xliff:g></item>
+	<item quantity="other">Намерени записи: <xliff:g id="COUNT">%d</xliff:g></item>
 </plurals>
     <string name="aggregation_add_item_dialog_title">Добави функция за агрегация</string>
     <string name="aggregation_edit_item_dialog_title">Редактиране на функция за агрегация</string>
@@ -1152,7 +1153,7 @@
 	<string name="button_tarifs">Тарифи</string>
 	<string name="cloud_storage_plans">Абонаментни планове</string>
 	<string name="price_free">БЕЗПЛАТНО</string>
-	<string name="price_per_month">%s/месец</string>
+	<string name="price_per_month">%s/мес</string>
 	<string name="unlimited_libraries">Неограничено количество библиотеки</string>	
 	<string name="adv_free">Без реклами</string>
 	<string name="subscription_activation">Активация абонамент ...</string>
@@ -1678,4 +1679,121 @@
     <string name="pro_for_team">Pro функции за всички потребители в рамките на екипа</string>
     <string name="team_features_trial">Всички планове включват безплатна 14-дневна пробна версия.</string>
 
+<string name="tasker_plugin_create_entry_event_title">Записът е създаден</string>
+    <string name="tasker_plugin_delete_entry_event_title">Записът е изтрит</string>
+    <string name="tasker_plugin_modified_entry_event_title">Записът е променен</string>
+    <string name="no_libraries_text">Няма библиотеки!</string>
+    <string name="add_linked_libraries">Включете свързани библиотеки</string>
+    <string name="create_collections">Създайте библиотеки</string>
+    <string name="create_collections_success">Библиотеките са създадени</string>
+    <string name="template_included_libraries">Шаблонът съдържа допълнителни библиотеки.</string>
+
+    <string name="entries_view_type_cards">Карти</string>
+    <string name="card_view_number_of_columns">Брой колони</string>
+    <plurals name="columns_count">
+	<item quantity="one">Една колона</item>
+	<item quantity="other">%d колони</item>
+</plurals>
+
+    <string name="card_view_title_on_image">Показване на текст върху изображението</string>
+    <string name="card_view_squared_image">Изрежете изображенията в квадрат</string>
+    <string name="hint_previous_entry">Предишен запис</string>
+    <string name="hint_next_entry">Следващ запис</string>
+    <string name="hint_remove_image_button">Премахване на изображението</string>
+    <string name="hint_insert_image_button">Вмъкване на изображение</string>
+    <string name="hint_capture_image_button">Заснемане на изображение</string>
+    <string name="hint_change_date">Промяна на дата</string>
+    <string name="hint_change_time">Промяна на време</string>
+    <string name="hint_add_reminder">Добавяне на напомняне</string>
+    <string name="hint_remove_reminder">Премахване на напомняне</string>
+    <string name="hint_insert_contact_button">Вмъкване на контакт</string>
+    <string name="hint_create_contact_button">Създаване на контакт</string>
+    <string name="hint_insert_audio_button">Вмъкване на аудио</string>
+    <string name="hint_record_audio_button">Записване на аудио</string>
+    <string name="hint_insert_location_button">Вмъкване на местоположение</string>
+    <string name="hint_get_my_location_button">Определете местоположението си</string>
+    <string name="hint_insert_entry_button">Въвеждане на запис</string>
+    <string name="barcode_type_option_title">Тип</string>
+    <string name="barcode_type_1d">Баркод</string>
+    <string name="barcode_type_2d">QR код</string>
+
+    <string name="embedded_js_libraries">Фиксиране</string>
+    <string name="repository_js_libraries">Хранилища</string>
+    <string name="repository_android_intents_hint">Функции за взаимодействие с други Android приложения</string>
+    <string name="repository_data_sources_hint">Източници на данни за автоматично попълване</string>
+    <string name="warning">Внимание</string>
+    <string name="add_javascript_library">Добавяне на JavaScript библиотеки...</string>
+    <string name="add_repository">Добавяне на хранилище</string>
+    <string name="repository_location_hint">URL адрес на хранилището GitHub</string>
+    <string name="repository_location_error">Посочете HTTPS връзка към хранилището на GitHub. Например: https://github.com/username/repo-name</string>
+    <string name="repository_not_found_error">Не може да се намери хранилище: %s</string>
+    <string name="repository_delete_message">Наистина ли искате да изтриете хранилището \"%s\" ?</string>
+    <string name="repository_other">Друг</string>
+
+    <string name="map_field_current_by_default_title">Настоящо местонахождение</string>
+    <string name="map_field_current_by_default_hint">Текущо местоположение по подразбиране</string>
+    <string name="receiving_document_content">Получаване съдържанието на документа</string>
+    <string name="find_address">Намиране на адрес</string>
+    <string name="privacy_policy">Декларация за поверителност</string>
+    <string name="trigger_event_action">Действие</string>
+    <string name="action_context_library">Библиотека</string>
+    <string name="action_context_view_entry">Карта за влизане</string>
+    <string name="trigger">Тригер</string>
+    <string name="action_default_name">Действие %d</string>
+    <string name="place_of_action">Място на действие</string>
+    <string name="action_arguments">Аргументи</string>
+    <string name="action_arguments_empty">Скриптът може да има аргументи, чиито стойности ще бъдат въведени от потребителя.</string>
+    <string name="select_argument_type">Тип аргумент</string>
+    <string name="script_argument_delete_message_text">Наистина ли искате да изтриете аргумента \"%s\" ?</string>
+    <string name="create_argument">Създаване на аргумент</string>
+    <string name="edit_argument">Редактиране на аргумент</string>
+    <string name="argument_name">Име на аргумент</string>
+    <string name="argument_hint">Съвет за аргумент</string>
+    <string name="required_argument_text">Аргументът трябва да бъде попълнен</string>
+    <string name="scripts">Скриптове</string>
+    <string name="actions">Действия</string>
+    <string name="empty_script_list_text">Тази библиотека не съдържа скриптове</string>
+    <string name="empty_script_list_trigger_text">Тригер е скрипт, който дефинира обработката на даден запис въз основа на събитие, което е станало.</string>
+    <string name="empty_script_list_action_text">Action е скрипт, който се стартира ръчно чрез натискане на бутона в библиотеката или входната карта.</string>
+    <string name="autofill_goto_script_title">Редактор на скриптове</string>
+    <string name="autofill_goto_script_hint">Източник на данни за скриптове</string>
+    <string name="java_script_data_source_title">Персонализиран източник</string>
+    <string name="java_script_data_source_hint">Java Script</string>
+    <string name="script_cant_run_for_not_saved_library">Можете да стартирате скрипта само след запазването на библиотеката.</string>
+    <string name="autofill_script_source_key_title">Посочете обекта, върнат от скрипта</string>
+    <string name="test_js_data_source_query_hint">Запитване за поредица</string>
+    <string name="test_js_data_source_query_result">Резултат от заявката:
+%s</string>
+    <string name="run_arguments">Изпълнение на аргументи</string>
+    <string name="run">Изпълнение</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">Можете да зададете разрешения за скрипт само след запазването на библиотеката.</string>
+    <string name="script_permissions_required_message">Библиотеката има скриптове, които изискват следните разрешения:</string>
+    <string name="required_access_to_library">достъп до %s</string>
+    <string name="action_with_library_context">Библиотека действие</string>
+    <string name="action_with_entry_context">Влизане действие</string>
+    <string name="library_related_cloud_model_changed_message">Структурата на свързаната библиотека бе обновена в облака. Отидете в съответната библиотека за актуализация.</string>
+<string name="monthly_plan">Месечно</string>
+    <string name="yearly_plan">Годишно</string>
+    <string name="cloud_plan_plan3_annual">Лайт</string>
+    <string name="cloud_plan_plan6_annual">Про</string>
+    <string name="cloud_plan_plan10_annual">Про Плюс</string>
+    <string name="cloud_plan_team5_annual">Екип 5</string>
+    <string name="cloud_plan_team10_annual">Екип 10</string>
+    <string name="cloud_plan_team15_annual">Екип 15</string>
+    <string name="cloud_plan_team20_annual">Екип 20</string>
+    <string name="price_per_year">%s/год</string>
+
+    <string name="frozen_alien_text">Библиотеката е замразена, моля, свържете се със собственика на библиотеката (%s).</string>
+    <string name="copy_field">Копиране на поле</string>
+    <string name="delete_reminder_dialog_text">Наистина ли искате да изтриете напомнянето?</string>
+    <string name="igdb_source">igdb.com</string>
+    <string name="games">Игри</string>
+    <string name="number_increment_delta_title">Бутони за увеличаване/намаляване</string>
+    <string name="number_increment_delta_value">Размер на стъпката %s</string>
+    <string name="number_increment_visible_option">Бутони за показване</string>
+    <string name="is_empty">Празно е</string>
+    <string name="is_not_empty">Не е празно</string>
+    <string name="trigger_event_open_library">Отваряне на библиотека</string>
+    <string name="search_base_folder">Търсене на база</string>
+    <string name="line_interpolate_nulls_titles">Интерполирайте празните стойности</string>
 </resources>

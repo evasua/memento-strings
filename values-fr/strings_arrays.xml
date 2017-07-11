@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="call">Appeler</string>
     <string name="send_sms">Envoyer un SMS</string>    
@@ -32,7 +32,7 @@
     <string name="template_category_travel">Voyage</string>
     <string name="template_category_other">Autres</string>
     <string name="date_format_list_date_pref">Préférence utilisateur pour les dates</string>
-    <string name="db_location_pref_internal">Stockage interne de l\'appareil</string>
+    <string name="db_location_pref_internal">Stockage interne du dispositif</string>
     <string name="db_location_pref_sd">Carte SD</string>
     <string name="db_location_pref_custom">Personnalisé</string>
     <string name="number_filter_types_less">Moins que</string>
