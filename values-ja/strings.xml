@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="app_name">Memento</string>
     <string name="library_menu_add_item">エントリーを追加</string>
     <string name="main_menu_add_lib">ライブラリを追加</string>
@@ -1296,8 +1296,8 @@
     <string name="notification_edit_library_edit_text">編集されたエントリー</string>
     <string name="notification_edit_library_delete_text">削除されたエントリー</string>
     <plurals name="notification_comments_common_text">
-	    <item quantity="other">%d 新しいコメント</item>
-    </plurals>
+	<item quantity="other">%d つの新しいコメント</item>
+</plurals>
 
     <string name="flex_type_rich_text">リッチテキスト</string>
     <string name="text_background_color">背景色</string>
@@ -1331,4 +1331,9 @@
     <string name="permission_storage_explanation_text">バックアップや画像やファイルの添付には, 保存領域へのアクセス権が必要です.</string>
     <string name="permission_accounts_text">Googleスプレッドシートとの同期や連絡先フィールドを利用するためにはGoogleアカウントへのアクセス許可が必要です.</string>
     <string name="permission_location_text">位置情報フィールドを利用するためには位置情報へのアクセス許可が必要です.</string>
+    <plurals name="notification_edit_library_common_text">
+	<item quantity="one">%d つの変更点が未読</item>
+	<item quantity="other"/>
+</plurals>
+
     </resources>
