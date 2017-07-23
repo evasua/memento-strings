@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="app_name">Mementó</string>
     <string name="library_menu_add_item">Új bejegyzés</string>
     <string name="main_menu_add_lib">Új gyűjtemény</string>
@@ -137,7 +137,8 @@
     <string name="activation_ok">Köszönjük hogy aktiváltad a Memento-t</string>
     <string name="activation_error">Érvénytelen aktiváló kód. Próbáld újra.</string>
     <string name="about">Rólunk</string>
-    <string name="copyright">Copyright © 2015 LuckyDroid\nMinden jog fenntartva</string>
+    <string name="copyright">Copyright © 2017 LuckyDroid
+Minden jog fenntartva</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Szoftver verzió megtekintése</string>
     <string name="about_license_type">Liensz:</string>
@@ -963,4 +964,33 @@
     <string name="calc_value_type_number">Numerikus érték típusa</string>
     <string name="calc_value_type_string">Karakterlánc érték típus</string>
     <string name="sort_by_downloads">Sorrend letöltések</string>
+    <string name="need_auth_on_memento_server">Létre kell hoznod egy felhasználói fiókot a Memento felhőben (szerveren)</string>
+    <string name="empty_my_templates_list">Nincs publikált könyvtár sablonod</string>
+    <string name="empty_field_depend_list">Ennek a mezőnek nincs függősége más mezővel.</string>
+    <string name="share_template_dialog_title">Sablon megosztása az online katalóguson keresztül</string>
+    <string name="catalog_templates">Katalógus sablon</string>
+    <string name="empty_search_result2">Keresésed - %s - nem egyezett egyik bejegyzéssel sem</string>
+    <string name="rename_group">Csoport szerkesztése</string>
+    <string name="move">Átmozgatás</string>
+    <string name="select_group">Csoport kiválasztása</string>
+    <string name="library_moved_message">Könyvtár átmozgatva a(z) \"%s\" csoportba</string>
+    <string name="master_library_entries">Bejegyzések a kapcsolódó könyvtárakból</string>
+    <string name="invisible">láthatatlan</string>
+    <string name="display_master_libraries_items">Megjelenítés a kártyán</string>
+    <string name="sync_with_google_left_menu_item">Szinkronizálás a Google-lal</string>
+    <string name="entries_view_menu_title">Nézet</string>
+    <string name="entries_view_list">Lista</string>
+    <string name="entries_view_table">Táblázat</string>
+    <string name="flex_edit_option_in_table">Tábla bejegyzések</string>
+    <string name="table_cell_image_text">KÉPERNYŐ</string>
+    <string name="table_column_width">Oszlop szélesség</string>
+    <string name="empty_list_after_filter">Nincs a szűrési feltételnek megfelelő rekord.</string>
+    <string name="size_of_line">Sor mérete</string>
+    <string name="map_coord_source_network">Hálózat</string>
+    <string name="search_address_hint">Cím keresés</string>
+    <string name="map_field_fast_option_title">Koordináták gyors meghatározása</string>
+    <string name="map_field_fast_option_hint">Hely meghatározása alacsony pontosságú lesz</string>
+    <string name="map_field_address_option_title">Elválasztó mező a címhez</string>
+    <string name="off">Ki</string>
+    <string name="auto_backup_not_yeat_launched">Még nem lett elindítva</string>
     </resources>
