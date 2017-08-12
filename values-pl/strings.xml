@@ -1,9 +1,9 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Dodaj wpis</string>
-    <string name="main_menu_add_lib">Dodaj Bazę</string>
-    <string name="ghostData_lib_title">Nazwa bazy</string>
+    <string name="main_menu_add_lib">Dodaj bibliotekę</string>
+    <string name="ghostData_lib_title">Nazwa biblioteki</string>
     <string name="custom_template_title">Użytkownika</string>
     <string name="button_create">Dodaj</string>
     <string name="button_yes">Tak</string>
@@ -12,7 +12,7 @@
     <string name="button_save">Zapisz</string>
     <string name="button_cancel">Anuluj</string>
     <string name="button_add_field">Dodaj pole</string>
-    <string name="add_new_library_item">Dodaj wpis ...</string>
+    <string name="add_new_library_item">Dodaj wpis</string>
     <string name="flex_type_title_string">Tekst</string>
     <string name="flex_type_title_int">Liczba całkowita</string>
     <string name="flex_type_title_bool">Boolean (0-1 Box)</string>
@@ -27,7 +27,7 @@
     <string name="flex_type_web">Hiperlink</string>
     <string name="flex_type_map">Pozycja w Google Maps</string>
     <string name="flex_type_real">Liczba rzeczywista</string>
-    <string name="field_list_caption">Pola bazy</string>
+    <string name="field_list_caption">Pola biblioteki</string>
     <string name="flextemplate_up_item">Do góry</string>
     <string name="flextemplate_down_item">W dół</string>
     <string name="flextemplate_edit_item">Zmień</string>
@@ -36,25 +36,22 @@
     <string name="template_title">Nazwa pola</string>
     <string name="select_flex_template_title">Typ pola</string>
     <string name="select_flex_template_role">Funkcja pola</string>
-    <string name="select_create_lib_template">Wybierz szablon bazy</string>
+    <string name="select_create_lib_template">Wybierz szablon biblioteki</string>
     <string name="button_next">Dalej</string>
     <string name="select_flex_template_type">Typ pola</string>
     <string name="default_value">Wartość domyślna</string>
     <string name="flex_template_options_title">Parametry
 zaawansowane</string>
     <string name="error_template_empty_title">Wprowadź nazwę pola</string>
-    <string name="error_library_withous_name_flex">Baza musi posiadać
-przynajmniej jedno pole z funkcją – \"nazwa\".</string>
-    <string name="select_library_icon_activity">Wybór ikony dla
-bazy</string>
+    <string name="error_library_withous_name_flex">Biblioteka musi posiadać przynajmniej jedno pole z funkcją – \"nazwa\".</string>
+    <string name="select_library_icon_activity">Wybór ikony dla biblioteki</string>
     <string name="select_flex_template_role_title">Funkcja pola</string>
-    <string name="library_edit2">Edytuj bazę</string>
+    <string name="library_edit2">Edytuj bibliotekę</string>
     <string name="library_edit">Edytuj</string>
     <string name="library_delete">Usuń</string>
-    <string name="library_delete_message_title">Usuń bazę</string>
-    <string name="library_delete_message_text">Naprawdę chcesz usunąć
-bazę \"%s\" ?</string>
-    <string name="error_library_empty_title">Wprowadź nazwę bazy</string>
+    <string name="library_delete_message_title">Usuń bibliotekę</string>
+    <string name="library_delete_message_text">Czy na pewno chcesz usunąć bibliotekę \"%s\"?</string>
+    <string name="error_library_empty_title">Wprowadź nazwę biblioteki</string>
     <string name="library_item_edit">Edytuj</string>
     <string name="library_item_delete">Usuń</string>
     <string name="library_item_delete_message_text">Naprawdę chcesz usunąć wpis \"%s\" ?</string>
@@ -125,53 +122,49 @@ lokalizację</string>
     <string name="find_selected_address">Szukanie adresu ...</string>
     <string name="open_gmap">Otwórz Mapy Google</string>
     <string name="help">Pomoc</string>
-    <string name="preference_category_backup">Kopia</string>
+    <string name="preference_category_backup">Kopia zapasowa</string>
     <string name="main_preferences_title">Ustawienia</string>
-    <string name="backup_preference">Kopiuj</string>
-    <string name="backup_summary_preference">Kopiowanie wszystkich bazy na
-kartę pamięci</string>
-    <string name="backup_fail">Błąd kopiowania</string>
-    <string name="cdcard_not_found">Przepraszam, Twoja karta SD jest
+    <string name="backup_preference">Kopia zapasowa</string>
+    <string name="backup_summary_preference">Wykonywanie kopii zapasowej wszystkich bibliotek na kartę pamięci</string>
+    <string name="backup_fail">Błąd kopii zapasowej</string>
+    <string name="cdcard_not_found">Przepraszamy, Twoja karta SD jest
 zajęta</string>
-    <string name="backup_process">Kopiowanie baz.</string>
-    <string name="restore_preference">Odzyskiwanie</string>
-    <string name="restore_summary_preference">Odzyskiwanie baz z kopii</string>
-    <string name="backup_file_not_found">Nie znaleziono plików kopii.</string>
-    <string name="restore_dialog_message">W trakcie odtwarzania kopii,
-istniejące bazy zostaną zastąpione bazami z kopii.\nWszystkie zmiany
-wprowadzone po stworzeniu kopii zostaną utracone.\nZacząć odtwarzanie
-?</string>
-    <string name="backup_dialog_message">Zastąpić istniejący plik kopii
-?</string>
-    <string name="restore_success">Bazy zostały pomyślnie odtworzone z plików kopii zapasowej</string>
-    <string name="restore_step1">Odtwarzanie</string>
-    <string name="restore_step2">Czyszczenie cache</string>
+    <string name="backup_process">Kopia zapasowa bibliotek.</string>
+    <string name="restore_preference">Przywracanie</string>
+    <string name="restore_summary_preference">Przywracanie bibliotek z kopii zapasowej</string>
+    <string name="backup_file_not_found">Nie znaleziono plików kopii zapasowej.</string>
+    <string name="restore_dialog_message">W trakcie odtwarzania kopii zapasowej, istniejące biblioteki zostaną zastąpione bibliotekami z kopii.
+Wszystkie zmiany wprowadzone po stworzeniu kopii zapasowej zostaną utracone.
+Rozpocząć przywracanie?</string>
+    <string name="backup_dialog_message">Zastąpić istniejący plik kopii zapasowej nową?</string>
+    <string name="restore_success">Biblioteki zostały pomyślnie przywrócone z plików kopii zapasowej</string>
+    <string name="restore_step1">Przywracanie</string>
+    <string name="restore_step2">Czyszczenie pamięci podręcznej</string>
     <string name="clear_index">Usuwanie indeksów</string>
-    <string name="reindex">Reindeksowanie:</string>
+    <string name="reindex">Ponowne indeksowanie:</string>
     <string name="load_templates_title">Ładowanie szablonów</string>
-    <string name="load_templates_message">Proszę czekać, szablony baz są
-ładowane.</string>
+    <string name="load_templates_message">Proszę czekać, ładuję szablony bibliotek.</string>
     <string name="help_title">Pomoc Memento</string>
     <string name="activate_button_title">Aktywuj wersję PRO</string>
-    <string name="activate_button_hint">Potrzebujesz klucz aktywacyjny</string>
+    <string name="activate_button_hint">Wymagany klucz aktywacyjny</string>
     <string name="activate_main_text">Uaktualnij do wersji PRO</string>
     <string name="activation_dialog_text_hint">Kod aktywacji</string>
-    <string name="activation_dialog_title">Uaktualnienie do wersji PRO</string>
-    <string name="activation_ok">Dziękuję za aktywację Memento</string>
+    <string name="activation_dialog_title">Uaktualnij do wersji PRO</string>
+    <string name="activation_ok">Dziękujemy za aktywację Memento</string>
     <string name="activation_error">Niepoprawny kod aktywacyjny. Spróbuj ponownie.</string>
-    <string name="about">Informacje</string>
-    <string name="copyright">Copyright © 2016 LuckyDroid\nWszelkie prawa
-zastrzeżone</string>
+    <string name="about">O aplikacji</string>
+    <string name="copyright">Prawo autorskie © 2017 LuckyDroid
+Wszelkie prawa zastrzeżone</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
-    <string name="about_hint">Sprawdź wersję programu</string>
+    <string name="about_hint">Sprawdzanie wersję aplikacji</string>
     <string name="about_license_type">Licencja:</string>
     <string name="pro_version">Wersja PRO</string>
     <string name="send_library_item">Wyślij</string>
     <string name="send_chooser_title">Wybierz aplikację:</string>
     <string name="create_shortcut">Utwórz skrót</string>
-    <string name="app_name_library">Baza Memento</string>
-    <string name="error_cant_open_memento_dir">Błąd: nie mogę otworzyć
-folderu memento na karcie SD</string>
+    <string name="app_name_library">Biblioteka Memento</string>
+    <string name="error_cant_open_memento_dir">Błąd: nie można otworzyć
+folderu Memento na karcie SD</string>
     <string name="preference_category_csv_import">Operacje na danych</string>
     <string name="csvexport">Eksport do CSV</string>
     <string name="csvexport_summary">Eksportowanie wpisów do pliku CSV</string>
@@ -198,14 +191,13 @@ CSV</string>
     <string name="enter_csv_name_dialog_value_hint">Nazwa pliku</string>
     <string name="export_success">Wpisy zostały wyeksportowane do /sdcard/memento/%s</string>
     <string name="export_error">Błąd eksportu wpisów: %s</string>
-    <string name="library_saved">Baza zapisana</string>
-    <string name="library_created">Baza utworzona</string>
+    <string name="library_saved">Zapisano bibliotekę</string>
+    <string name="library_created">Utworzona bibliotekę</string>
     <string name="msg_default_status">Aby zeskanować, umieść kod paskowy wewnątrz pola.</string>
     <string name="scan_library_item">Skanowanie Barcodu</string>
-    <string name="search_product_title">Szukanie produktu w Bazie Google
-...</string>
-    <string name="empty_result_text">Przepraszam\nProdukt nie został
-znaleziony</string>
+    <string name="search_product_title">Wyszukiwanie produktu po kodzie kreskowym...</string>
+    <string name="empty_result_text">Przepraszamy,
+Produkt nie został znaleziony</string>
     <string name="add_entry_manual">Dodaj ręcznie ...</string>
     <string name="fill_entry_manual">Uzupełnij ręcznie ...</string>
     <string name="flex_type_barcode">Kod paskowy</string>
@@ -216,51 +208,45 @@ autouzupełniania</string>
     <string name="barcode_auto_fill_checkbox">Pole autouzupełniania</string>
     <string name="add_fill_field_dialog_title">Tworzenie zasady autouzupełniania</string>
     <string name="memento_field">Zostanie to zapisane w polu</string>
-    <string name="memento_field_promt">Pola rekordu bazy</string>
-    <string name="uniquery_check_fail">Baza może zawierać tylko jedno pole typu %s</string>
+    <string name="memento_field_promt">Pola wpisu biblioteki</string>
+    <string name="uniquery_check_fail">Biblioteka może zawierać tylko jedno pole typu %s</string>
     <string name="to">do</string>
-    <string name="barcode_search">Szukanie Barcode</string>
+    <string name="barcode_search">Wyszukaj kod kreskowy</string>
     <!-- 1.2.1 -->
     <string name="msg_camera_framework_bug">Przepraszam, kamera Androida
 napotkała problem. Może być konieczny restart urządzenia.</string>
     <!-- 1.2.3 -->
     <string name="deleted_library_hint">Rekordy: %s</string>
-    <string name="preference_restore_libs_title">Odzyskiwanie baz</string>
-    <string name="preference_restore_libs_hint">Odzyskiwanie usuniętych
-baz</string>
+    <string name="preference_restore_libs_title">Odzyskiwanie bibliotek</string>
+    <string name="preference_restore_libs_hint">Odzyskiwanie usuniętych bibliotek</string>
     <string name="preference_category_general">Główne</string>
     <string name="library_import_and_export">Ustawienia %s</string>
     <string name="recovering">Odzyskiwanie</string>
-    <string name="recovering_message">Odzyskiwanie bazy</string>
+    <string name="recovering_message">Odzyskiwanie biblioteki</string>
     <string name="library_recover">Odzyskaj</string>
     <string name="deleting_library_title">Usuwanie</string>
-    <string name="deleting_library_message">Usuwanie bazy</string>
+    <string name="deleting_library_message">Usuwanie biblioteki</string>
     <!-- 1.2.5 -->
     <string name="view_category">Widok</string>
     <string name="title_lib_theme_preference">Wygląd</string>
-    <string name="summary_lib_theme_preference">Ustawienia wyglądu
-baz</string>
-    <string name="dialog_title_lib_theme_preference">Ustawienia wyglądu
-baz</string>
+    <string name="summary_lib_theme_preference">Ustawienia motywu bibliotek</string>
+    <string name="dialog_title_lib_theme_preference">Ustawienia motywu bibliotek</string>
     <!-- 1.3.0 -->
     <string name="unbind_from_gdocs">Rozłącz z Google Sheets</string>
     <string name="bind_to_gdocs">Połącz z Google Sheets</string>
     <string name="bind_to_gdocs_title">Połącz z Google Sheets</string>
     <string name="unbind_message_title">Rozłącz z Google Sheets</string>
-    <string name="unbind_message_text">Czy naprawdę chcesz odłączyć bazę
-\"%s\" od Google Sheets ?</string>
-    <string name="bind_to_gdocs_message">Łączenie bazy z Arkuszem
-Google.</string>
-    <string name="bind_to_gdocs_success">Baza została połączona z Arkuszem Google.</string>
-    <string name="sync_with_gdocs_success">Zsynchronizowano bazę z Arkuszem Google</string>
-    <string name="sync_with_gdocs_success_2">Zsynchronizowano bazę \"%s\" z Arkuszem Google</string>
+    <string name="unbind_message_text">Czy na pewno chcesz odłączyć bibliotek \"%s\" od Arkusze Google?</string>
+    <string name="bind_to_gdocs_message">Łączenie biblioteki z Arkuszem Google.</string>
+    <string name="bind_to_gdocs_success">Biblioteka została połączona z Arkuszem Google.</string>
+    <string name="sync_with_gdocs_success">Zsynchronizowano bibliotekę z Arkuszem Google</string>
+    <string name="sync_with_gdocs_success_2">Zsynchronizowano bibliotekę \"%s\" z Arkuszem Google</string>
     <string name="sync_with_gdocs_title">Synchronizacja z Google Sheets</string>
-    <string name="sync_with_gdocs_message">Synchronizacja bazy z Arkuszem Google.</string>
-    <string name="sync_with_gdocs_message_2">Synchronizacja bazy \"%s\" z Arkuszem Google.</string>
-    <string name="sync_with_gdocs">Synch. z Google Sheets</string>
+    <string name="sync_with_gdocs_message">Synchronizacja biblioteki z Arkuszem Google.</string>
+    <string name="sync_with_gdocs_message_2">Synchronizacja biblioteki \"%s\" z Arkuszem Google.</string>
+    <string name="sync_with_gdocs">Synchronizacja z Arkuszem Google</string>
     <string name="google_docs_task_step_auth">Uwierzytelnianie w serwisie Arkuszy</string>
-    <string name="google_docs_task_step_get_rows">Pobieranie zawartości
-bazy</string>
+    <string name="google_docs_task_step_get_rows">Pobieranie zawartości biblioteki</string>
     <string formatted="false" name="google_docs_task_step_process_row">Przetwarzanie wierszy. %s
 z %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Dodawanie wierszy. %s z
@@ -282,11 +268,9 @@ Google</string>
     <string name="conflict_dialog_text">Zostały edytowane te same wpisy w Memento i Google Sheets. Która wersja jest poprawna ?</string>
     <string name="copy_memento_to_gdocs">Wpisy z Memento</string>
     <string name="copy_gdocs_to_memento">Wpisy z Google Sheets</string>
-    <string name="edit_flex_title_disabled">To pole nie może zostać zmienione
-ponieważ baza jest połączona z Google Sheets</string>
-    <string name="cant_bind">Darmowa wersja pozwala na połączenie z z Google
-Docs tylko trzech baz.\nAktualizuj do wersji PRO w celu usunięcia tego
-limitu.</string>
+    <string name="edit_flex_title_disabled">Nie może zmienić nazwy tego pola ponieważ biblioteka jest połączona z Arkuszem Google</string>
+    <string name="cant_bind">Darmowa wersja pozwala na połączenie z Arkuszem Google tylko dwóch bibliotek.
+Aktualizuj do wersji PRO, aby usunąć te ograniczenia.</string>
     <string name="button_pro_version">Wersja PRO</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">Autouzupełnianie</string>
@@ -295,22 +279,19 @@ poprzednich wpisów</string>
     <string name="capture_picture">Zrób zdjęcie</string>
     <string name="please_wait">Proszę czekać...</string>
     <!-- 1.4.0 -->
-    <string name="public_library_title">Publikuję bazę</string>
-    <string name="public_to_picasa_message">Wgrywam obrazy bazy do
-Picasa</string>
-    <string name="public_to_picasa_create_album">Tworzenie albumu Picasa dla
-publikowanej bazy</string>
+    <string name="public_library_title">Publikuję bibliotekę</string>
+    <string name="public_to_picasa_message">Przesyłam obrazy biblioteki do Picasa</string>
+    <string name="public_to_picasa_create_album">Tworzenie albumu Picasa dla publikowanej biblioteki</string>
     <string name="public_to_picasa_success">Obrazy zostały wgrane do
 Picasa</string>
     <string name="picasa_task_step_auth">Uwierzytelnianie w serwisie
 Picasa</string>
-    <string formatted="false" name="picasa_send_image_step">Wgrywanie obrazów bazy do Picasa. %s
-z %s</string>
-    <string name="public_library">Opublikuj bazę</string>
+    <string formatted="false" name="picasa_send_image_step">Przesyłanie obrazów biblioteki do Picasa. %s z %s</string>
+    <string name="public_library">Opublikuj bibliotekę</string>
     <string name="update_public_library">Aktualizuj publikację</string>
     <string name="memento_register_account_title">Tworzenie konta\nna serwerze
 Memento</string>
-    <string name="memento_register_account_text">Aby mieć możliwość publikowania własnych baz i subskrypcji baz innych użytkowników, wymagane jest konto na serwerze Memento</string>
+    <string name="memento_register_account_text">Aby mieć możliwość publikowania własnych bibliotek i subskrypcji bibliotek innych użytkowników, wymagane jest konto na serwerze Memento</string>
     <string name="memento_login_hint">Użytkownik</string>
     <string name="memento_pass_hint">Hasło</string>
     <string name="memento_pass_hint2">Powtórz hasło</string>
@@ -334,105 +315,84 @@ później</string>
     <string name="memento_account_title">Konto Memento</string>
     <string name="memento_create_account_button">Nowe konto</string>
     <string name="memento_auth_error">Błędny użytkownik lub hasło</string>
-    <string name="memento_library_lock">Baza jest zablokowana, spróbuj
-później</string>
+    <string name="memento_library_lock">Biblioteka jest zablokowana, spróbuj ponownie później</string>
     <string name="preference_memento_account_title">Konto Memento</string>
     <string name="preference_memento_account_hint">Twoje konto Memento. Nazwa
 użytkownika i hasło</string>
     <string name="public_library_task_auth">Uwierzytelnianie serwisu
 Memento</string>
-    <string name="public_library_task_send_template">Transfer szablonu
-bazy</string>
-    <string formatted="false" name="public_library_task_send_items">Transfer rekordów bazy.\n%s
-z %s</string>
+    <string name="public_library_task_send_template">Transfer szablonu biblioteki</string>
+    <string formatted="false" name="public_library_task_send_items">Transfer wpisów biblioteki.
+%s z %s</string>
     <string name="memento_not_support_template">Twoja wersja Memento jest
 nieaktualna, uaktualnij ją</string>
     <string name="memento_not_found">Nie znaleziono zasobu</string>
-    <string name="alias_hint">Wprowadź alias bazy</string>
+    <string name="alias_hint">Wprowadź alias biblioteki</string>
     <string name="button_publish">Publikuj</string>
-    <string name="publish_update_success">Publikacja bazy została
-uaktualniona</string>
+    <string name="publish_update_success">Publikacja biblioteki została uaktualniona</string>
     <string name="private_library_checkbox">Dostęp prywatny</string>
-    <string name="private_library_checkbox_hint">Tylko wskazani użytkownicy
-będą mieli dostęp do bazy</string>
-    <string name="enter_alias">Wprowadź alias bazy</string>
+    <string name="private_library_checkbox_hint">Tylko wskazani użytkownicy będą mieli dostęp do biblioteki</string>
+    <string name="enter_alias">Wprowadź alias biblioteki</string>
     <string name="incorrect_alias">Alias może zawierać tylko litery i
 cyfry</string>
-    <string name="public_library_address_text">Adres bazy</string>
-    <string name="alias_exists">Już opublikowałeś bazę z takim
-aliasem</string>
-    <string name="memento_forbidden_error">Dostęp do bazy jest
-zabroniony</string>
-    <string name="publish_library_address">Baza %s jest teraz dostępna
-na</string>
-    <string name="publish_library_address_hint">Twoi przyjaciele mogą używać
-Memento aby przeglądać tą bazę. Aby to zrobić, powinni użyć
-powyższego adresu subskrybując bazę.</string>
-    <string name="deafult_group_title">Moje bazy</string>
-    <string name="subscribe_activity_title">Subskrypcja baz</string>
-    <string name="library_uri_hint">Adres bazy</string>
-    <string name="find_libraries_task_title">Szukanie bazy</string>
-    <string name="find_libraries_task_by_uri">Dostęp do bazy\npo jej
-adresie</string>
-    <string name="find_libraries_task_by_user">Dostęp do listy\nbaz
-użytkownika</string>
-    <string name="libraries_list_result_header">Znalezione bazy</string>
-    <string name="libraries_by_user_not_found">Podany użytkownik nie został
-znaleziony lub nie opublikował baz</string>
-    <string name="library_not_found">Nie znaleziono bazy pod tym
-adresem</string>
-    <string name="wrong_library_address_format">Błędny format adresu
-bazy</string>
+    <string name="public_library_address_text">Adres biblioteki</string>
+    <string name="alias_exists">Już opublikowałeś bibliotekę z takim aliasem</string>
+    <string name="memento_forbidden_error">Dostęp do biblioteki jest zabroniony</string>
+    <string name="publish_library_address">Biblioteka %s jest teraz dostępna na</string>
+    <string name="publish_library_address_hint">Twoi przyjaciele mogą używać Memento do przeglądania tej biblioteki. Aby to zrobić, powinni użyć powyższego adresu subskrybując bibliotekę.</string>
+    <string name="deafult_group_title">Moje biblioteki</string>
+    <string name="subscribe_activity_title">Subskrypcja biblioteki</string>
+    <string name="library_uri_hint">Adres biblioteki / nazwa użytkownika</string>
+    <string name="find_libraries_task_title">Wyszukaj bibliotekę</string>
+    <string name="find_libraries_task_by_uri">Dostęp do biblioteki
+po jej adresie</string>
+    <string name="find_libraries_task_by_user">Dostęp do listy
+bibliotek użytkownika</string>
+    <string name="libraries_list_result_header">Znalezione biblioteki</string>
+    <string name="libraries_by_user_not_found">Podany użytkownik nie został znaleziony lub nie opublikował żadnej biblioteki</string>
+    <string name="library_not_found">Nie znaleziono biblioteki pod tym adresem</string>
+    <string name="wrong_library_address_format">Błędny format adresu biblioteki</string>
     <string name="last_update">Ostatnia aktualizacja: %s</string>
     <string name="subscribe_button">Subskrybuj</string>
-    <string name="subscribe_task_get_library">Pobieranie rekordów
-bazy</string>
-    <string name="subscribe_task_create_library">Tworzenie bazy</string>
+    <string name="subscribe_task_get_library">Pobieranie wpisów biblioteki</string>
+    <string name="subscribe_task_create_library">Tworzenie biblioteki</string>
     <string formatted="false" name="subscribe_task_save_library_task">Zapisywanie rekordów.\n%s z %s</string>
     <string name="subscribe_task_create_index">Tworzenie indeksów</string>
     <string name="subscribes_group_title">Moje subskrypcje</string>
     <string name="library_settings">Ustawienia</string>
     <string name="subscribe_get_updated_pack">Sprawdzanie aktualizacji</string>
-    <string name="subscribe_have_updated_pack">Otrzymano aktualizację
-bazy</string>
+    <string name="subscribe_have_updated_pack">Otrzymano aktualizację biblioteki</string>
     <string name="subscribe_last_update">Ostatnia aktualizacja %s</string>
-    <string name="subscribe_last_update_dialog_title">Aktualizuj bazę</string>
-    <string name="subscribe_last_update_dialog_message">Aktualizuję
-bazę</string>
-    <string name="clear_preference">Czyszczenie bazy</string>
-    <string name="clear_preference_hint">Usuwanie wszystkich rekordów w
-bazie</string>
-    <string name="clear_preference_quest">Usunąć wszystkie rekordy bazy
-?</string>
-    <string name="last_sync">Ostatnia synch.: %s</string>
+    <string name="subscribe_last_update_dialog_title">Aktualizuj bibliotekę</string>
+    <string name="subscribe_last_update_dialog_message">Aktualizowanie biblioteki</string>
+    <string name="clear_preference">Czyszczenie biblioteki</string>
+    <string name="clear_preference_hint">Usuwanie wszystkich wpisów z biblioteki</string>
+    <string name="clear_preference_quest">Usunąć wszystkie wpisy z biblioteki?</string>
+    <string name="last_sync">Ostatnia synchronizacja: %s</string>
     <string name="last_public">Opublikowane: %s</string>
-    <string name="unpublic_library_title">Wycofanie publikacji bazy</string>
+    <string name="unpublic_library_title">Wycofanie publikacji biblioteki</string>
     <string name="unpublic_library">Wycofaj publikację</string>
-    <string name="unpublish_success">Publikacja bazy została wycofana</string>
-    <string name="unpublic_message_text">Czy naprawdę chcesz wycofać
-publikację bazy \"%s\" ?</string>
-    <string name="unbind_from_gdocs_hint">Odłącz od Google Sheets</string>
-    <string name="preference_category_google_docs">Google Sheets</string>
-    <string name="unbind_from_google_docs_success">Baza nie jest już
-połączona z Google Sheets</string>
+    <string name="unpublish_success">Publikacja biblioteki została wycofana</string>
+    <string name="unpublic_message_text">Czy na pewno chcesz wycofać publikację biblioteki \"%s\"?</string>
+    <string name="unbind_from_gdocs_hint">Odłącz od Arkusze Google</string>
+    <string name="preference_category_google_docs">Arkusze Google</string>
+    <string name="unbind_from_google_docs_success">Biblioteka nie jest już połączona z Arkuszem Google</string>
     <string name="preference_category_memento_server">Serwer Memento</string>
-    <string name="unpublic_library_hint">Wycofanie publikacji bazy</string>
-    <string name="need_unpublic_library">Przed usunięciem bazy powinieneś
-wycofać jej publikację</string>
+    <string name="unpublic_library_hint">Wycofanie publikacji biblioteki</string>
+    <string name="need_unpublic_library">Przed usunięciem biblioteki powinieneś wycofać jej publikację</string>
     <string name="rename_library">Zmiana nazwy</string>
     <string name="rename_dialog_title">Zmiana nazwy</string>
-    <string name="rename_dialog_text">Nazwa bazy</string>
+    <string name="rename_dialog_text">Nazwa biblioteki</string>
     <string name="flex_image_load">Ładowanie obrazu...</string>
     <string name="subscribed">Subskrybowana</string>
-    <string name="info_public_library">Adres bazy</string>
-    <string name="cant_public">Darmowa wersja umożliwia Ci publikację tylko dwie baz.\nUaktualnij do wersji PRO w celu likwidacji tego ograniczenia.</string>
+    <string name="info_public_library">Adres biblioteki</string>
+    <string name="cant_public">Darmowa wersja umożliwia Ci publikację tylko dwóch bibliotek.
+Uaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
     <string name="add_permission_user_hint">Wprowadź nazwę użytkownika lub
 email</string>
-    <string name="edit_pub_permissions">Prawa dostępu do bazy</string>
-    <string name="edit_pub_permissions_hint">Edycja listy użytkowników
-mających dostęp do bazy</string>
-    <string name="edit_pub_permissions_task_dialog_message">Zmiana praw
-dostępu do bazy</string>
+    <string name="edit_pub_permissions">Prawa dostępu do biblioteki</string>
+    <string name="edit_pub_permissions_hint">Edycja listy użytkowników mających dostęp do biblioteki</string>
+    <string name="edit_pub_permissions_task_dialog_message">Zmiana praw dostępu do biblioteki</string>
     <!-- 1.4.5 -->
     <string name="import_template">Import szablonu</string>
     <string name="export_template">Eksport szablonu</string>
@@ -440,9 +400,9 @@ dostępu do bazy</string>
     <string name="import_template_success">Szablon został zaimportowany</string>
     <string name="wrong_template_version">Twoja wersja Memento nie wspiera wybranego pliku szablonu. Uaktualnij Memento.</string>
     <string name="flex_type_library_entry">Link do rekordu</string>
-    <string name="flex_type_entry_option_title">Baza</string>
-    <string name="flex_type_entry_option_dlg_title">Wybierz bazę</string>
-    <string name="flex_type_entry_select_library">Wybierz bazę, rekordy, które zostaną użyte w tym polu.</string>
+    <string name="flex_type_entry_option_title">Biblioteka</string>
+    <string name="flex_type_entry_option_dlg_title">Wybierz bibliotekę</string>
+    <string name="flex_type_entry_select_library">Wybierz bibliotekę, wpisy, które zostaną użyte w tym polu.</string>
     <string name="error_template_wrong_title">Nazwa pola może zawierać jedynie litery i cyfry</string>
     <!-- 1.4.8 -->
     <string name="filter_not_set">Brak Filtrów</string>
@@ -467,27 +427,29 @@ wysłania...</string>
     <string name="flex_type_time">Godzina</string>
     <!-- 1.6.0 -->
     <string name="set_library_protection">Zabezpieczenia</string>
-    <string name="set_master_pass_text">Ustaw hasło główne dostępu do baz.\nW celu dostępu do chronionych baz będziesz musiał wprowadzać to hasło.</string>
+    <string name="set_master_pass_text">Ustaw hasło główne dostępu do biblioteki.
+W celu dostępu do chronionych bibliotek będziesz musiał wprowadzać to hasło.</string>
     <string name="master_pass_hint">Hasło</string>
     <string name="master_pass_hint2">Powtórz hasło</string>
     <string name="set_master_pass_dialog">Ustawienia hasła głównego</string>
-    <string name="check_master_pass_text">Proszę wprowadzić hasło główne\ndostępu do baz</string>
+    <string name="check_master_pass_text">Proszę wprowadzić hasło główne dostępu do biblioteki</string>
     <string name="master_password_hint">Hasło główne</string>
     <string name="button_continue">Kontynuuj</string>
     <string name="wrong_master_password">Błędne hasło</string>
     <string name="button_home">Powrót</string>
-    <string name="library_is_locked">Dostęp do szyfrowanych baz jest zablokowany</string>
-    <string name="library_pass_access_description">W celu dostępu do tej bazy będziesz musiał wprowadzić hasło główne</string>
+    <string name="library_is_locked">Dostęp do zaszyfrowanych bibliotek jest zablokowany</string>
+    <string name="library_pass_access_description">W celu dostępu do tej biblioteki będziesz musiał wprowadzić hasło główne</string>
     <string name="library_encription_checkbox">Szyfruj zawartość</string>
-    <string name="library_encription_description">Zawartość pól rekordów będzie szyfrowana za pomocą AES\nPrzeszukiwanie zaszyfrowanych baz niemożliwe.</string>
+    <string name="library_encription_description">Zawartość pól wpisów będzie zaszyfrowana za pomocą AES.
+Przeszukiwanie zaszyfrowanych bibliotek będzie niemożliwe.</string>
     <string name="set_library_protection_title">Szyfrowanie rekordów</string>
-    <string name="set_library_protection_message">Szyfruję rekordy bazy ...</string>
+    <string name="set_library_protection_message">Szyfruję wpisy biblioteki...</string>
     <string name="remove_library_protection">Usuń ochronę</string>
-    <string name="remove_library_protection_desc">Dostęp do bazy nie będzie wymagał hasła</string>
-    <string name="remove_library_protection_question">Czy naprawdę chcesz zdjąć ochronę bazy?</string>
+    <string name="remove_library_protection_desc">Dostęp do biblioteki nie będzie wymagał hasła</string>
+    <string name="remove_library_protection_question">Czy na pewno chcesz usunąć zabezpieczenie biblioteki?</string>
     <string name="preference_category_security">Zabezpieczenia</string>
     <string name="remove_library_protection_title">Usuń ochronę</string>
-    <string name="remove_library_protection_message">Deszyfruję rekordy bazy ...</string>
+    <string name="remove_library_protection_message">Deszyfruję wpisy biblioteki...</string>
     <!-- 1.6.1 -->
     <string name="change_master_password">Zmień hasło główne</string>
     <string name="change_master_password_hint">Twoje dane zostaną zaszyfrowane za pomocą nowego hasła.</string>
@@ -496,8 +458,8 @@ wysłania...</string>
     <string name="new_master_pass_hint2">Zweryfikuj haslo</string>
     <string name="re_encripted_entries">Szyfrowanie wpisów ...</string>
     <string name="pass_changed">Hasło zmienione pomyślnie</string>
-    <string name="library_protection_options">Ochrona bazy</string>
-    <string name="library_protection_not">Żadna</string>
+    <string name="library_protection_options">Ochrona biblioteki</string>
+    <string name="library_protection_not">Brak</string>
     <string name="library_protection_pass">Hasło</string>
     <string name="library_protection_pass_checkbox">Dostęp z hasłem</string>
     <!-- 1.6.2 -->
@@ -506,42 +468,42 @@ wysłania...</string>
     <string name="license_check">Sprawdzam licencję</string>
     <string name="license_wrong">Klucz licencyjny PRO nie pasuje do Twojego konta Google</string>
     <!-- 1.6.5 -->
-    <string name="flex_type_email">Email</string>
-    <string name="email_chooser_title">Wybierz aplikację Email</string>
+    <string name="flex_type_email">Adres e-mail</string>
+    <string name="email_chooser_title">Wybierz aplikację do poczty</string>
     <string name="choose_own_icon_text">Wybierz własną ikonę</string>
     <string name="font_size_screen_preference">Czcionki</string>
-    <string name="font_size_screen_preference_summary">Czcionki rekordu i listy rekordów</string>
-    <string name="font_size_category_entries_list">Czcionki listy rekordów</string>
-    <string name="font_size_category_entries_card">Czcionki w rekordzie</string>
+    <string name="font_size_screen_preference_summary">Czcionki wpisu i listy wpisów</string>
+    <string name="font_size_category_entries_list">Czcionki listy wpisów</string>
+    <string name="font_size_category_entries_card">Czcionki we wpisach</string>
     <string name="font_size_dialog">Rozmiar czcionki</string>
-    <string name="entry_name_font_size_preference">Nazwa rekordu</string>
+    <string name="entry_name_font_size_preference">Nazwa wpisu</string>
     <string name="entry_name_font_size_preference_summary">Ustaw rozmiar czcionki nazwy</string>
-    <string name="entry_desc_font_size_preference">Opis rekordu</string>
+    <string name="entry_desc_font_size_preference">Opis wpisu</string>
     <string name="entry_desc_font_size_preference_summary">Ustaw rozmiar czcionki opisu</string>
     <string name="entry_status_font_size_preference">Status wpisu</string>
     <string name="entry_status_font_size_preference_summary">Ustaw rozmiar czcionki statusu</string>
-    <string name="entry_field_title_font_size_preference">Pole Nazwa</string>
+    <string name="entry_field_title_font_size_preference">Pole \'Nazwa\'</string>
     <string name="entry_field_title_font_size_preference_summary">Ustaw rozmiar czcionki pola Nazwa</string>
-    <string name="entry_field_value_font_size_preference">Pole Wartość</string>
+    <string name="entry_field_value_font_size_preference">Pole \'Wartość\'</string>
     <string name="entry_field_value_font_size_preference_summary">Ustaw rozmiar czcionki pola Wartość</string>
 <string name="help_intro">Czym jest Memento</string>
-    <string name="help_create_library">Tworzenie baz</string>
-    <string name="help_edit_field">Określanie struktury bazy</string>
-    <string name="help_library_items">Praca z rekordami baz</string>
+    <string name="help_create_library">Tworzenie biblioteki</string>
+    <string name="help_edit_field">Określanie struktury biblioteki</string>
+    <string name="help_library_items">Praca z wpisami biblioteki</string>
     <string name="help_import_export">Import i eksport plików CSV</string>
     <string name="help_barcode">Czytnik kodów kreskowych</string>
     <string name="help_gdocs_sync">Synchronizacja z Arkuszami Google</string>
-    <string name="help_publish">Publikowanie baz</string>
-    <string name="help_subscribe">Subskrybowanie baz</string>
-    <string name="lib_protection">Ochrona baz</string>
-    <string name="buy_from_market_title">Kup przez Google Play</string>
+    <string name="help_publish">Publikowanie biblioteki</string>
+    <string name="help_subscribe">Subskrybowanie biblioteki</string>
+    <string name="lib_protection">Ochrona biblioteki</string>
+    <string name="buy_from_market_title">Kup przez Sklep Play</string>
     <string name="buy_from_market_hint">Google Wallet</string>
     <string name="flex_type_calc">Obliczanie</string>
     <string name="flex_type_calc_option_header">Wyrażenie</string>
-    <string name="expression_hint">Wprowadź tutaj wyrażenie do obliczania</string>
+    <string name="expression_hint">Wprowadź tutaj wyrażenie do obliczenia</string>
     <string name="add_function_button">Dodaj funkcję</string>
     <string name="calc_result_type_prompt">Typ wyniku</string>
-    <string name="save_library_task_message">Zapisywanie struktury bazy</string>
+    <string name="save_library_task_message">Zapisywanie struktury biblioteki</string>
     <string name="save_library_task_recalc">Powtórne obliczanie danych</string>
     <string name="memento_funct_promt">Funkcje</string>
     <string name="help_calc">Pole obliczania</string>
@@ -552,15 +514,15 @@ wysłania...</string>
     <string name="template_category">Kategoria</string>
     <string name="template_description">Opis szablonu</string>
     <string name="button_share_template">Udostępnij szablon</string>
-    <string name="share_template_text">Wysyłanie szablonu bazy do katalogu on-line</string>
-    <string name="share_success">Szablon bazy pomyślnie wysłany do katalogu on-line</string>
+    <string name="share_template_text">Wysyłanie szablonu biblioteki do katalogu on-line</string>
+    <string name="share_success">Pomyślnie wysłano szablon biblioteki do katalogu on-line</string>
     <string name="template_from_catalog_title">Z katalogu on-line</string>
     <string name="template_category_text">Kategoria szablonów</string>
     <string name="template_description_title">Opis szablonu</string>
     <string name="template_author_text">od %s</string>
     <string name="template_date_text">utworzony %s</string>
     <string name="button_download">Pobieranie</string>
-    <string name="get_template_body_message">Pobieranie szablonu bazy...</string>
+    <string name="get_template_body_message">Pobierz szablon biblioteki...</string>
     <string name="error_empty_template_title">Wprowadź nazwę szablonu</string>
     <string name="error_empty_template_desc">Wprowadź opis szablonu</string>
     <string name="template_downloads">Pobieranie: %s</string>
@@ -568,7 +530,7 @@ wysłania...</string>
     <string name="latest">Ostatnio</string>
     <string name="scale_dialog">Skala wyniku</string>
     <string name="pref_cat_library_view">Widok</string>
-    <string name="field_email_preferences">Formatowanie szablonu e-mail</string>
+    <string name="field_email_preferences">Formatowanie wiadomości e-mail</string>
     <string name="field_email_preferences_summary">Formatowanie opcji rekordów do wysyłki e-mail</string>
     <string name="formatted_field_prompt">Zaznacz pole</string>
     <string name="formatted_field_name">Format pola</string>
@@ -595,12 +557,13 @@ wysłania...</string>
     <string name="fill_required_fields">Wymagane pola muszą zostać wypełnione</string>
     <string name="required_mark">wymagane</string>
     <string name="reset_master_password">Zresetuj hasło główne</string>
-    <string name="reset_master_password_hint">Wszystkie szyfrowane bazy zostaną usunięte</string>
-    <string name="reset_master_quest">Czy chcesz zresetować hasło główne?\nUwaga! Wszystkie szyfrowane bazy zostaną usunięte!</string>
-    <string name="remove_encript_lib_dlg_msg">Usuwanie szyfrowanych baz</string>
+    <string name="reset_master_password_hint">Wszystkie zaszyfrowane biblioteki zostaną usunięte</string>
+    <string name="reset_master_quest">Czy chcesz zresetować hasło główne?
+Uwaga! Wszystkie zaszyfrowane biblioteki zostaną usunięte!</string>
+    <string name="remove_encript_lib_dlg_msg">Usuń zaszyfrowane biblioteki</string>
     <string name="master_password_reset">Reset głównego hasła</string>
-    <string name="edit_entry_screen_preference">Edycja danych</string>
-    <string name="edit_entry_screen_preference_summary">Parametry formularza tworzenia/edycji danych</string>
+    <string name="edit_entry_screen_preference">Edycja wpisów</string>
+    <string name="edit_entry_screen_preference_summary">Parametry formularza tworzenia/edycji wpisów</string>
     <string name="auto_show_soft_keyboard">Pokaż klawiaturę</string>
     <string name="auto_show_soft_keyboard_summary">Po otwarciu formularza - pokaż klawiaturę</string>
     <string name="flex_type_file">Łącze do pliku</string>
@@ -609,7 +572,8 @@ wysłania...</string>
     <string name="select_app">Wybierz aplikację</string>
     <string name="forum">Forum</string>
     <string name="autoincrement">Auto-przyrost</string>
-    <string name="cant_protect">Wersja darmowa pozwala ci chronić tylko dwie bazy.\nUaktualnij do wersji PRO aby wyłączyć to ograniczenie.</string>
+    <string name="cant_protect">Wersja darmowa pozwala zabezpieczyć tylko dwie biblioteki.
+Uaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
     <string name="flex_edit_option_title">Kiedy możesz edytować</string>
     <string name="flex_edit_option_default">Formularz edycji danych</string>
     <string name="flex_edit_option_in_list">lista rekordów</string>
@@ -618,7 +582,7 @@ wysłania...</string>
     <string name="google_doc_list_title">Dokumenty Google</string>
     <string name="updated_document_time">Zaktualizowano: %s</string>
     <string name="move_from_google_docs">Przesyłanie danych z Arkusza Google do Memento</string>
-    <string name="move_from_google_docs_attention">Wszystkie dostępne wpisy bazy będą usunięte</string>
+    <string name="move_from_google_docs_attention">Wszystkie dostępne wpisy biblioteki zostaną usunięte</string>
     <string name="move_from_memento">Przesyłanie danych z Memento do Arkusza Google</string>
     <string name="move_from_memento_attention">Wszystkie dostępne dane w Arkuszu Google będą usunięte</string>
     <string name="find_in_spreadsheet_column_title">Lista pól w Memento i Arkuszu Google</string>
@@ -630,8 +594,7 @@ wysłania...</string>
     <string name="prepare_linking_library">Przygotowanie łącza...</string>
     <string name="error_prepare_linking">Wystąpił błąd podczas przygotowania łącza: %s</string>
     <string name="have_library_items_ask_title">Łączenie z Arkuszem Google</string>
-    <string name="have_library_items_ask_message">Baza zawiera wpisy, które są usuwane podczas operacji łączenia.
-\nWykonać łączenie Bazy z Arkuszem Google?</string>
+    <string name="have_library_items_ask_message">Biblioteka zawiera wpisy, które są usuwane podczas operacji łączenia. Wykonać łączenie biblioteki z Arkuszem Google?</string>
     <string name="autofill_source_option_title">Źródło danych</string>
     <string name="amazon_source_option_title">Amazon</string>
     <string name="auto_backup_option_title">Automatyczna kopia</string>
@@ -664,15 +627,15 @@ wysłania...</string>
     <string name="main_title">Memento Database</string>
     <string name="main_menu_add_group">Dodaj Grupę</string>
     <string name="main_menu_bookmarks">Zakładki i Historia</string>
-    <string name="main_menu_add_lib_group">Dodaj Bazę lub Grupę</string>
+    <string name="main_menu_add_lib_group">Dodaj bibliotekę lub grupę</string>
     <string name="no_entries">Brak wpisów</string>
     <string name="add_group_dialog_text">Nazwa grupy</string>
     <string name="add_group_dialog_hint">Wpisz nazwę grupy</string>
     <string name="button_delete_goup">Usuń Grupę</string>
     <string name="group_delete_message_title">Usuń grupę</string>
     <string name="group_delete_message_text">Chcesz rzeczywiście usunąć grupę \"%s\" ?</string>
-    <string name="main_lock_button_text">Blokuj dostęp do baz</string>
-    <string name="lock_libraries_completed">Dostęp do szyfrowanych baz jest zablokowany</string>
+    <string name="main_lock_button_text">Zablokuj dostęp do biblioteki</string>
+    <string name="lock_libraries_completed">Dostęp do zaszyfrowanych bibliotek jest zablokowany</string>
     <string name="sync_google_all">Synchronizacja z Google</string>
     <string name="library_ex_options">Opcje zaawansowane</string>
     <string name="library_last_edit">Aktualizacja %s</string>
@@ -707,15 +670,15 @@ wysłania...</string>
     <string name="delete_catalog_template_title">Usuwanie szablonu</string>
     <string name="delete_catalog_template_message">Czy rzeczywiście chcesz usunąć szablon %s z katalogu on-line?</string>
     <string name="cant_share_template_withous_fields">Nie możesz udostępniać szablonu bez pól</string>
-    <string name="reset_pass_button">Zapomniane hasło?</string>
+    <string name="reset_pass_button">Nie pamiętasz hasła?</string>
     <string name="request_pass_dialog_title">Zmiana Hasła</string>
     <string name="request_pass_dialog_text">Wpisz adres e-mail, aby pomóc nam zlokalizować twoje konto Memento</string>
     <string name="request_pass_dialog_hint">E-mail</string>
     <string name="change_password_success">Sprawdź skrzynkę pocztową.\nWysłaliśmy do ciebie wiadomość, która pozwoli ci łatwo i szybko zresetować hasło.</string>
     <string name="tile_options_text">tytuł</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
-    <string name="search_in_protected_libraries">Przeszukiwanie w bazach chronionych hasłem
-\n(z wyjątkiem szyfrowanych)</string>
+    <string name="search_in_protected_libraries">Przeszukiwanie bibliotek chronionych hasłem
+(z wyjątkiem zaszyfrowanych)</string>
     <string name="stat_result_type">Format wyniku</string>
     <string name="backup_file_name_title">Nazwa pliku kopii bezpieczeństwa</string>
     <string name="backup_file_path_title">Folder kopii bezpieczeństwa</string>
@@ -725,8 +688,8 @@ wysłania...</string>
     <string name="restore_file_path_title">Folder z kopiami bezpieczeństwa</string>
     <string name="auto_bakup_dir_pref_title">Folder do autozapisu</string>
     <string name="google_play_not_found_message">Twoje urządzenie nie posiada Google Play. Możesz pobrać OI File Manager że strony producenta.</string>
-    <string name="library_not_found_dialog_title">Baza</string>
-    <string name="library_not_found_dialog_message">Baza nie znaleziona. Baza być może została przeniesiona.</string>
+    <string name="library_not_found_dialog_title">Biblioteka</string>
+    <string name="library_not_found_dialog_message">Nie znaleziono biblioteki. Być może biblioteka została przeniesiona.</string>
     <string name="add_field_above">Dodaj pole powyżej</string>
     <string name="add_field_below">Dodaj pole poniżej</string>
     <string name="year_default_now">Domyślnie obecny rok</string>
@@ -743,11 +706,11 @@ wysłania...</string>
     <string name="field_depends_activity_title">Zależności</string>
     <string name="no_dependencies">brak zależności</string>
     <string name="add_depends_button_title">Dodaj zależność</string>
-    <string name="library_dont_have_fields_for_depends">Baza nie zawiera odpowiednich pól, aby zbudować zależności tego pola</string>
+    <string name="library_dont_have_fields_for_depends">Biblioteka nie zawiera odpowiednich pól, aby zbudować zależności tego pola</string>
     <string name="select_type_depends">Wybierz typ zależności</string>
     <string name="select_type_depends_spinner_title">Typ zależności</string>
     <string name="select_master_field_for_depend">Zaznacz pole, od którego utworzysz zależność</string>
-    <string name="library_fields">Pola wpisów bazy</string>
+    <string name="library_fields">Pola wpisów biblioteki</string>
     <string name="boolean_field_check_value">Zaznaczone</string>
     <string name="boolean_field_uncheck_value">Odznaczony</string>
     <string name="visible_field_depend_pretitle">Stan pola %s</string>
@@ -778,14 +741,14 @@ wysłania...</string>
     <string name="start_reindex_title">Reindeksowanie</string>
     <string name="start_reindex_summary">Odbudowa indeksów Przeszukiwania</string>
     <string name="search_pref_category">Szukaj</string>
-    <string name="reindex_complete_message">Reindeksowanie zakończone</string>
+    <string name="reindex_complete_message">Ponowne indeksowanie zakończone</string>
     <string name="files_backup_not_found_files">Nie znaleziono plików:</string>
-    <string name="files_storage_settings_screen">Magazyn Plików</string>
-    <string name="files_storage_settings_screen_summary">Umieszczanie foto i innych plików</string>
-    <string name="files_storage_settings_path_title">Folder składowania plików</string>
+    <string name="files_storage_settings_screen">Przechowywanie plików</string>
+    <string name="files_storage_settings_screen_summary">Miejsce dla zdjęć i innych plików</string>
+    <string name="files_storage_settings_path_title">Folder przechowywania plików</string>
     <string name="files_storage_settings_dublicate_title">Kopiowanie do magazynu</string>
-    <string name="files_storage_settings_dublicate_summary">Pliki załączone do wpisu, zostaną skopiowane do foldera magazynu</string>
-    <string name="files_storage_settings_remove_original_title">Usuń oryginały</string>
+    <string name="files_storage_settings_dublicate_summary">Pliki załączone do wpisów, zostaną skopiowane do foldera magazynu</string>
+    <string name="files_storage_settings_remove_original_title">Usuwanie oryginałów</string>
     <string name="files_storage_settings_remove_original_summary">Po skopiowaniu plików do magazynu, usuń oryginały</string>
     <string name="dublicate_file_error">"Nie można przenieść pliku do magazynu: "</string>
     <string name="select_map_type">Typ mapy</string>
@@ -794,23 +757,24 @@ wysłania...</string>
     <string name="satellite">Satelita</string>
     <string name="terrain">Teren</string>
     <string name="open_map_menu_item">Mapa</string>
-    <string name="google_drive">Google Drive</string>
+    <string name="google_drive">Dysk Google</string>
     <string name="none_files_cloud_storage">Bez zmian</string>
     <string name="select_files_cloud_storage">Wybierz serwer chmury do synchronizacji</string>
     <string name="files_cloud_storage_pref">Synchronizacja plików</string>
     <string name="link_to_new_document">Łącze do nowego dokumentu</string>
     <string name="link_to_existing_document">Łącze do istniejącego dokumentu</string>
     <string name="google_sync_files_checkbox">Wysyłanie w chmurę plików (obrazów) załączonych do wpisu.</string>
-    <string name="list_library_in_google">Lista baz na Google Drive</string>
+    <string name="list_library_in_google">Lista bibliotek na Dysk Google</string>
     <string name="add_lib_from_google_drive">Z Google Drive</string>
     <string name="selected">%s wybrane</string>
-    <string name="delete_template_from_google_drive_question">Czy rzeczywiście chcesz usunąć wybrane bazy z Google Drive?</string>
+    <string name="delete_template_from_google_drive_question">Czy na pewno chcesz usunąć zaznaczone biblioteki z Dysk Google?</string>
     <string name="delete_data_table_from_google_drive">Usuwanie danych arkuszy powiązanych z szablonami</string>
-    <string name="lock_library_edit_message">Zmiany w strukturze bazy są zablokowane.\nMożesz włączyć możliwość edycji w opcjach dla tej bazy.</string>
+    <string name="lock_library_edit_message">Zmiany w strukturze biblioteki są zablokowane.
+Możesz włączyć możliwość edycji w opcjach dla tej biblioteki.</string>
     <string name="lock_edit_library_pref_title">Blokada struktury</string>
-    <string name="lock_edit_library_pref_summary_on">Zmiany w strukturze bazy są zablokowane</string>
-    <string name="lock_edit_library_pref_summary_off">Zmiany w strukturze bazy są odblokowane</string>
-    <string name="cant_restore_form_google_drive">Twoje urządzenie nie posiada możliwości tworzenia bazy z Google Drive</string>
+    <string name="lock_edit_library_pref_summary_on">Zmiany w strukturze biblioteki są zablokowane</string>
+    <string name="lock_edit_library_pref_summary_off">Zmiany w strukturze biblioteki są odblokowane</string>
+    <string name="cant_restore_form_google_drive">Twoje urządzenie nie posiada możliwości tworzenia biblioteki z Dysk Google</string>
     <string name="record_error_dialog_message">Przepraszamy, aplikacja do zapisu nie znaleziona.</string>
     <string name="sync_error_dialog_title">Błąd synchronizacji</string>
     <string name="field_display_options_group">Opcje wyświetlania</string>
@@ -825,7 +789,7 @@ wysłania...</string>
     <string name="entry_page_title">Nazwa strony</string>
     <string name="cant_delete_main_page">Nie możesz usunąć domyślnej strony.</string>
     <string name="field_count_on_page">Pola: %s</string>
-    <string name="master_libraries_list_caption">Lista wpisów z bazy</string>
+    <string name="master_libraries_list_caption">Lista wpisów z biblioteki</string>
     <string name="view_on_this_page_title">Pokaż na tej stronie</string>
     <string name="set_default_page">Ustaw domyślnie</string>
     <string name="entry_page_default">domyślnie</string>
@@ -846,7 +810,7 @@ wysłania...</string>
     <string name="select_button">WYBIERZ</string>
     <string name="clear_button">WYCZYŚĆ</string>
     <string name="image_info_button">INFO</string>
-    <string name="error_library_not_unique_field_names">Nazwa pola bazy musi być unikalna.Sprawdź pola: %s.</string>
+    <string name="error_library_not_unique_field_names">Nazwa pola biblioteki musi być unikalna. Sprawdź pola: %s.</string>
     <string name="info_path">Ścieżka:</string>
     <string name="info_resolution">Rozdzielczość:</string>
     <string name="info_size">Rozmiar:</string>
@@ -866,7 +830,7 @@ wysłania...</string>
     <string name="flex_type_signature_background_title">Kolor tła</string>
     <string name="flex_type_signature_paint_size_title">Rozmiar pędzla</string>
     <string name="signature_save_error">Błąd przy zapisie podpisu: %s</string>
-    <string name="change_color_only_in_pro">Zmiana koloru możliwa tylko w wersji PRO.</string>
+    <string name="change_color_only_in_pro">Zmiana koloru możliwa jest tylko w wersji PRO.</string>
     <string name="chart_list_activity_title">Wykresy</string>
     <string name="chart_type_pie">Tort</string>
     <string name="chart_type_line">Linie</string>
@@ -908,19 +872,19 @@ wysłania...</string>
     <string name="change_chart_type_dialog_title">Dostępne rodzaje</string>
     <string name="chart_dont_have_compatible_types">Typ tego wykresu nie jest zgodny z innymi rodzajami wykresów</string>
     <string name="chart_copy_title_postfix">Kopiuj</string>
-    <string name="chart_validate_error_empty_fields">Musisz wybrać pole danych</string>
+    <string name="chart_validate_error_empty_fields">Należy wybrać pole danych</string>
     <string name="no_data_for_chart">Brak danych</string>
     <string name="cant_delete_charts_filter_message">Nie możesz wyłączyć tego filtru, ponieważ jest używany w wykresie: %s</string>
     <string name="cant_delete_charts_field_message">Nie możesz wyłączyć tego pola, ponieważ jest używane w wykresie: %s</string>
     <string name="save_to_file_name">Nazwa pliku</string>
     <string name="save_to_file_directory">Ścieżka</string>
-    <string name="need_pro_for_charts">W darmowej wersji jedna baza może zawierać tylko jeden wykres. Aby usunąć to ograniczenie, zakup wersję PRO.</string>
+    <string name="need_pro_for_charts">W darmowej wersji jedna biblioteka może zawierać tylko jeden wykres. Zakup wersję PRO, aby usunąć to ograniczenie.</string>
     <string name="need_internet_for_charts">Wykresy Google wymagają aktywnego połączenia z internetem</string>
     <string name="download_image_from_google_photo_message">Pobieranie obrazu z Google Foto...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Dane ze strony www będą dodane w pola wpisu</string>
     <string name="google_base_field_new">Wartość atrybutu ze źródła</string>
     <string name="wrong_search_query_string_1">Łańcuch wyszukiwania nie może rozpoczynać się od \"-\"</string>
-    <string name="link_master_library_not_found">Przepraszamy, baza połączona z tym polem nie została odnaleziona</string>
+    <string name="link_master_library_not_found">Przepraszamy, biblioteka połączona z tym polem nie została odnaleziona</string>
     <string name="sync_with_google_drive_dont_support">Twoja wersja Androida nie obsługuje synchronizacji z Google Drive</string>
     <string name="internal_storage_title">Pamięć wewnętrzna urządzenia</string>
     <string name="sd_storage_title">Karta SD</string>
@@ -929,8 +893,8 @@ wysłania...</string>
     <string name="choose_dir">Wybierz folder</string>
     <string name="choose_file">Wybierz plik</string>
     <string name="file_is_not_database">Wybrany plik nie jest bazą danych</string>
-    <string name="create_collection">Utwórz bazę</string>
-    <string name="edit_collection">Edytuj bazę</string>
+    <string name="create_collection">Utwórz bibliotekę</string>
+    <string name="edit_collection">Edytuj bibliotekę</string>
     <string name="create_field">Utwórz pole</string>
     <string name="edit_field">Edytuj pole</string>
     <string name="create_dependency">Utwórz zależność</string>
@@ -939,7 +903,7 @@ wysłania...</string>
     <string name="edit_entry">Edytuj wpis</string>
     <string name="create_chart">Utwórz wykres</string>
     <string name="edit_chart">Edytuj wykres</string>
-    <string name="edit_library_main_color">Kolor bazy</string>
+    <string name="edit_library_main_color">Kolor biblioteki</string>
     <string name="color_swatch_description">Kolor %d</string>
     <string name="color_swatch_description_selected">Kolor %d wybrany</string>
     <string name="button_palette">Paleta...</string>
@@ -955,21 +919,21 @@ wysłania...</string>
     <string name="icon_pack_title_field_mult_flat">Multimedia</string>
     <string name="icon_pack_title_field_net_flat">Networking</string>
     <string name="library_tile_options">Umieść na panelu</string>
-    <string name="show_icon_on_tile">Miniatura bazy</string>
+    <string name="show_icon_on_tile">Miniatura biblioteki</string>
     <string name="show_num_entries_on_tile">Liczba wpisów</string>
     <string name="show_update_time_on_tile">Czas edycji</string>
-    <string name="only_title_on_tile">Tylko nazwa bazy</string>
+    <string name="only_title_on_tile">Tylko nazwa biblioteki</string>
     <string name="empty">Puste</string>
     <string name="add_page">Dodaj Stronę</string>
     <string name="move_to_page">Przenieś na stronę</string>
     <string name="empty_entry_page_text">Ta strona jest pusta.
 \nMożesz tutaj dodać pola lub listy wpisów.</string>
-    <string name="empty_fields_list_text">W tej bazie nie ma pól.</string>
-    <string name="empty_aggregation_list_text">Baza nie zawiera funkcji agregujących.</string>
-    <string name="empty_chart_list_text">Baza nie zawiera wykresów.</string>
-    <string name="empty_entry_list_text">Baza jeszcze nie zawiera wpisów.</string>
-    <string name="empty_recycle_bin_text">W tej bazie nie ma wpisów do odtworzenia.</string>
-    <string name="empty_main_recycle_bin_text">Brak baz do odtworzenia.</string>
+    <string name="empty_fields_list_text">W tej bibliotece nie ma pól.</string>
+    <string name="empty_aggregation_list_text">Biblioteka nie zawiera funkcji agregujących.</string>
+    <string name="empty_chart_list_text">Biblioteka nie zawiera wykresów.</string>
+    <string name="empty_entry_list_text">Biblioteka nie zawiera wpisów.</string>
+    <string name="empty_recycle_bin_text">Brak wpisów w bibliotece do odtworzenia.</string>
+    <string name="empty_main_recycle_bin_text">Brak bibliotek do odtworzenia.</string>
     <string name="string_edit_cap_options_title">Wielkie litery</string>
     <string name="string_edit_cap_options_none">Nie</string>
     <string name="string_edit_cap_options_sent">Na początku zdania</string>
@@ -1018,19 +982,19 @@ wysłania...</string>
     <string name="csv_import_errors_count">Błędy:</string>
     <string formatted="false" name="csv_import_error_item">Wiersz %d - %s</string>
     <string name="undo_button">Cofnij</string>
-    <string name="google_sync_without_memento_id_text">Ta baza jest synchronizowana przy pomocy starej metody, która może zawierać potencjalne błędy.
-\nWykonaj przeniesienie bazy do nowej tabeli, stosując nową metodę.
-\nUruchomić przetwarzanie teraz ?</string>
+    <string name="google_sync_without_memento_id_text">Ta biblioteka jest synchronizowana przy pomocy starej metody, która może zawierać potencjalne błędy.
+Wykonaj przeniesienie biblioteki do nowej tabeli, stosując nową metodę.
+Uruchomić przetwarzanie?</string>
     <string name="rating_field_max_value">Ocena maksimum</string>
     <string name="auto_fill_barcode_empty2">Porównaj atrybuty autokompletacji źródła i pól wpisu</string>
     <string name="barcode_rule_delete_text">Czy rzeczywiście chcesz usunąć regułę autokompletacji dla pola \"%s\" ?</string>
     <string name="multi_library_item_trush_message_text">Czy rzeczywiście chcesz przenieść zaznaczone wpisy do kosza?</string>
     <string name="multi_library_item_delete_message_text">Czy rzeczywiście chcesz usunąć zaznaczone wpisy?</string>
-    <string name="delete_library_snackbar_text">Baza \"%s\" została przeniesiona do kosza</string>
+    <string name="delete_library_snackbar_text">Biblioteka \"%s\" została przeniesiona do kosza</string>
     <string name="barcode_rule_delete_title">Usuń regułę</string>
     <string name="deleted">Usunięte</string>
-    <string name="library_recover_dialog_text">Czy chcesz odtworzyć bazę \"%s\"?</string>
-    <string name="library_recover_snackbar_text">Baza odtworzona w grupie \"%s\"</string>
+    <string name="library_recover_dialog_text">Czy chcesz przywrócić bibliotekę \"%s\"?</string>
+    <string name="library_recover_snackbar_text">Biblioteka została przywrócona w grupie \"%s\"</string>
     <string name="sort_by_name">Sortuj po Nazwa</string>
     <string name="sort_by_time">Sortuj po Czas Dodania</string>
     <string name="favorites_empty_list_layout">Brak ulubionych wpisów.</string>
@@ -1048,7 +1012,7 @@ wysłania...</string>
     <string name="calc_value_type_string">Dane typu ciągi</string>
     <string name="sort_by_downloads">Sortuj po Pobraniach</string>
     <string name="need_auth_on_memento_server">Musisz utworzyć konto na Serwerze Memento</string>
-    <string name="empty_my_templates_list">Nie posiadasz opublikowanych szablonów baz.</string>
+    <string name="empty_my_templates_list">Nie posiadasz opublikowanych szablonów bibliotek.</string>
     <string name="empty_field_depend_list">To pole nie posiada zależności od innych pól.</string>
     <string name="share_template_dialog_title">Udostępnij szablon poprzez katalog on-line</string>
     <string name="catalog_templates">Katalog szablonów</string>
@@ -1056,8 +1020,8 @@ wysłania...</string>
     <string name="rename_group">Zmień nazwę grupy</string>
     <string name="move">Przenieś</string>
     <string name="select_group">Wybierz grupę</string>
-    <string name="library_moved_message">Baza przeniesiona do grupy \"%s\"</string>
-    <string name="master_library_entries">Wpisy z powiązanej bazy</string>
+    <string name="library_moved_message">Biblioteka została przeniesiona do grupy \"%s\"</string>
+    <string name="master_library_entries">Wpisy z powiązanej biblioteki</string>
     <string name="invisible">niewidoczne</string>
     <string name="display_master_libraries_items">Wyświetla na karcie</string>
     <string name="sync_with_google_left_menu_item">Synchronizacja z Google</string>
@@ -1079,7 +1043,7 @@ wysłania...</string>
     <string name="auto_backup_run_group">Podczas autozapisu kopii zapasowej</string>
     <string name="auto_backup_when_close_app">Po zamknięciu aplikacji</string>
     <string name="auto_backup_when_sync">Przed synchronizacją z Google</string>
-    <string name="auto_backup_when_edit_libs">Przed zmianą baz</string>
+    <string name="auto_backup_when_edit_libs">Przed zmianą biblioteki</string>
     <string name="free_version_multi_field_limit">W darmowej wersji możesz dodać tylko dwa elementy. Zakup wersję PRO, aby usunąć to ograniczenie.</string>
     <string name="scale">Skala %d</string>
     <string name="all">Wszystkie</string>
@@ -1146,7 +1110,7 @@ wysłania...</string>
 	<item quantity="other">Dni: %d</item>
 </plurals>
     <string name="entries_view_type_calendar">Kalendarz</string>
-    <string name="calendar_field_role">Użyj w Kalendarzu jako</string>
+    <string name="calendar_field_role">Użyj w kalendarzu jako</string>
     <string name="calendar_field_role_start">Czas rozpoczęcia</string>
     <string name="calendar_field_role_end">Czas zakończenia</string>
     <string name="calendar_field_role_duration_min">Czas trwania, min</string>
@@ -1159,7 +1123,7 @@ wysłania...</string>
     <string name="calendar_3day_view">Widok 3 dni</string>
     <string name="calendar_week_view">Widok 7 dni</string>
     <string name="go_to_date">Idź do daty</string>
-    <string name="lost_linked_library">"Powiązana baza nie odnaleziona,  być może została usunięta."</string>
+    <string name="lost_linked_library">Nie odnaleziono powiązanej biblioteki, być może została usunięta.</string>
     <string name="multichoice_field_empty">Brak wartości do wyboru</string>
     <string name="show_add_button_on_tile">Przycisk \"Dodaj wpis\"</string>
     <string name="cant_find_audio_selection_app">Przepraszamy, aplikacja do wybierania zapisów audio nie znaleziona.</string>
@@ -1172,7 +1136,7 @@ wysłania...</string>
 	<item quantity="one">Zaimportowano punktów: 0</item>
 	<item quantity="few">Zaimportowano punktów: %d</item>
 	<item quantity="many">Zaimportowano punktów: %d</item>
-	<item quantity="other">Zaimportowano punktów: %d</item>
+	<item quantity="other"/>
 </plurals>
     <string name="icon_pack_title_files_types">Pliki</string>
     <string name="use_depend_only_in_edit_title">Gdzie użyć</string>
@@ -1220,9 +1184,9 @@ wysłania...</string>
 	<string name="push_entries_to_cloud_message" formatted="false">Wysyłanie wpisów\n%s z %s wpisów przesłane</string>
 	<string name="permissions">Pozwolenia</string>
 	<string name="button_hide">ukryj</string>	
-	<string name="empty_cloud_libraries_list_text">Brak załadowanych bibliotek</string>
-	<string name="my_cloud_libraries_menu_item">Dane w Chmurze</string>
-	<string name="start_download_library_model">Wysyłanie struktury biblioteki...</string>
+	<string name="empty_cloud_libraries_list_text">Brak bibliotek przesłanych do chmury</string>
+	<string name="my_cloud_libraries_menu_item">Dane w chmurze</string>
+	<string name="start_download_library_model">Przesyłanie struktury bibliotek...</string>
 	<string name="open_library">Otwórz bibliotekę</string>
 	<string name="open_library_hint">Otwórz lokalną kopię</string>
 	<string name="download_library">Pobieranie biblioteki</string>
@@ -1262,11 +1226,12 @@ wysłania...</string>
     <string name="button_refresh">Odśwież</string>
     <string name="cloud_storage_space_text" formatted="false">%s (%s) z %s użyte</string>   
     <string name="start_download_file_from_cloud">Plik %s zostanie pobrany</string>
-    <string name="upload_file_to_cloud">Wysyłanie pliku...</string>    
-    <string name="upload_files_to_cloud">Wysyłanie plików</string>
-    <string name="cloud_upload_error_title">Nie można synchronizować tej biblioteki</string>
-    <string name="upload_big_file_error" formatted="false">Wpis %s zawiera zbyt duże pliki %s (%s).\nMaksymalny rozmiar pliku jest %s.</string>
-    <string name="prepare_library_for_cloud">Biblioteka jest przetwarzana...</string>
+    <string name="upload_file_to_cloud">Przesyłanie pliku...</string>    
+    <string name="upload_files_to_cloud">Przesyłanie plików</string>
+    <string name="cloud_upload_error_title">Nie można zsynchronizować tej biblioteki</string>
+    <string name="upload_big_file_error" formatted="false">Wpis %s zawiera zbyt duże pliki %s (%s).
+Maksymalny rozmiar pliku to %s.</string>
+    <string name="prepare_library_for_cloud">Przetwarzanie biblioteki...</string>
     <string name="download_files_from_cloud">Pobieranie plików z chmury...</string>
     <string name="cant_download_item_files_for_copy">Nieudane pobieranie plików w celu utworzenia kopii.</string> 
     <string name="library_cloud_model_changed_message">Struktura biblioteki zastała wysłana do chmury. Aktualizuj strukturę dla późniejszych synchronizacji.</string>
@@ -1329,7 +1294,7 @@ wysłania...</string>
 	<string name="find_library_by_url_title">Otwórz przez URL</string>
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Biblioteka nie znaleziona</string>
-	<string name="upload_to_cloud_offer_title">{cloud ready...}</string>
+	<string name="upload_to_cloud_offer_title">{chmura...}</string>
 	<string name="upload_to_cloud_offer_text">• Praca zespołowa
 \n• Synchronizacja z różnymi urządzeniami
 \n• Backup\'y są zawsze w chmurze</string>
@@ -1354,22 +1319,22 @@ wysłania...</string>
 	<string name="pro_for_cloud_storage_title">Subskrybcja</string>
 	<string name="default_file_manager_pref_title">Menedżer plików</string>
 	<string name="default_file_manager_built_in">wbudowany</string>	
-	<string name="clear_search_history">Czyszczenie Historii Wyszukiwania</string>
-	<string name="clear_search_history_hint">Usuwa wszystkie przeprowadzone wyszukiwania</string>
+	<string name="clear_search_history">Wyczyść historię wyszukiwania</string>
+	<string name="clear_search_history_hint">Usuń wszystkie wyniki wyszukiwania</string>
 	<string name="success_clear_search_history">Historia wyszukiwania została wyczyszczona</string>	
-	<string name="clear_search_history_quest">"Jesteś pewien,  że chcesz wyczyścić historię wyszukiwania?"</string>
+	<string name="clear_search_history_quest">Czy na pewni chcesz wyczyścić historię wyszukiwania?</string>
 		        	
-<string name="uservoice_menu_title">Głos Użytkowników</string>
-	<string name="view_csv_error_dialog_message">Przepraszamy, aplikacja do poglądu plików csv nie znaleziona</string>
+<string name="uservoice_menu_title">Głosy użytkowników</string>
+	<string name="view_csv_error_dialog_message">Przepraszamy, nie znaleziono aplikacji do poglądu plików CSV</string>
 	
 	<string name="edit_library_tabs_autofill">Autouzupełnianie</string>
 	<string name="autofill_from">z %s</string>
 	<string name="autofill_by_barcode">Przez kod kreskowy</string>
 	<string name="autofill_by_title">Przez tytuł</string>
-	<string name="autofill_need_barcode_field">Aby autowypełnić bibliotekę po kodzie kreskowym, musi ona posiadać pole \"Kod kreskowy\". Utworzyć teraz?</string>
-	<string name="autofill_need_text_field">Aby autowypełnić bibliotekę po tytule, musi ona zawierać pole \"Tekst\". Utworzyć teraz?</string>
+	<string name="autofill_need_barcode_field">Aby automatycznie uzupełniać bibliotekę po kodzie kreskowym, musi ona posiadać pole \"Kod kreskowy\". Jak go utworzyć?</string>
+	<string name="autofill_need_text_field">Aby automatycznie uzupełniać bibliotekę po tytule musi ona posiadać pole \"Tekst\". Jak go utworzyć?</string>
 	<string name="autofill_select_master_field">Wpisz pole do wyszukiwania</string>
-	<string name="autofill_rules_title">Reguły Autouzupełniania</string>
+	<string name="autofill_rules_title">Reguły automatycznego uzupełniania</string>
 	<string name="music_brainz_source_artist">Artysta muzyczny</string>
     <string name="music_brainz_source_album">Albumy</string>
 	<string name="music_brainz_source">musicbrainz.org</string>
@@ -1381,7 +1346,7 @@ wysłania...</string>
     <string name="themoviedb_source_tv">TV</string>
 
     <string name="autofill_rules_delete_title">Usuń reguły autouzupełniania</string>
-    <string name="autofill_rules_delete_text">Jesteś pewien, że chcesz usunąć reguły autouzupełniania ze źródła \"%s\" ?</string>
+    <string name="autofill_rules_delete_text">Czy na pewno chcesz usunąć reguły autouzupełniania ze źródła \"%s\" ?</string>
     <string name="empty_autofill_list_text">Utwórz reguły autouzupełniania danych z internetu</string>
     <string name="empty_autofill_rules_list_text">Sparuj atrybuty źródła z polami biblioteki</string>
     <string formatted="false" name="movie_cast_person_item">%s jak %s</string>
@@ -1401,7 +1366,7 @@ wysłania...</string>
     <string name="entry_saved_as_pdf_success">PDF pomyślnie utworzony</string>
     <string name="one_row_with_previous">W wierszu poprzednim</string>
     <string name="protected_libraries_not_show_in_widget">Chroniona biblioteka nie może być wyświetlana w widżecie</string>
-    <string name="widget_free_limit_item_text">Wszystkie wpisy mogą być wyświetlane tylko użytkownikom wersji PRO</string>
+    <string name="widget_free_limit_item_text">Wszystkie wpisy są wyświetlane tylko dla użytkowników wersji PRO</string>
     <string name="rate_me_dialog_title">Lubisz używać Memento ?</string>
     <string name="rate_me_dialog_text">Oceń nas w Google Play</string>
     <string name="button_rate_now">Oceń teraz</string>
@@ -1430,9 +1395,9 @@ wysłania...</string>
     <string name="rating_tooltips_hint">Podpowiedź</string>
     <string name="rating_tooltips_empty">Pole nie zawiera podpowiedzi</string>
     <plurals name="rating_tooltips_count">
-	<item quantity="one">Podpowiedzi %d</item>
-	<item quantity="few">Podpowiedzi %d</item>
-	<item quantity="many">Podpowiedzi %d</item>
+	<item quantity="one">Podpowiedzi: %d</item>
+	<item quantity="few">Podpowiedzi: %d</item>
+	<item quantity="many">Podpowiedzi: %d</item>
 	<item quantity="other"/>
 </plurals>
     <string name="calculator">Kalkulator</string>
@@ -1457,9 +1422,9 @@ wysłania...</string>
     <string name="edit_comment_dialog_title">Edytuj komentarz</string>
 
     <plurals name="notification_edit_library_common_text">
-	<item quantity="one">Zmian nieodczytanych: %d</item>
-	<item quantity="few">Zmian nieodczytanych: %d</item>
-	<item quantity="many">Zmian nieodczytanych: %d</item>
+	<item quantity="one">Nieodczytanych zmian: %d</item>
+	<item quantity="few">Nieodczytanych zmian: %d</item>
+	<item quantity="many">Nieodczytanych zmian: %d</item>
 	<item quantity="other"/>
 </plurals>
 
@@ -1467,9 +1432,9 @@ wysłania...</string>
     <string name="notification_edit_library_edit_text">edytowany wpis</string>
     <string name="notification_edit_library_delete_text">usunięty wpis</string>
     <plurals name="notification_comments_common_text">
-	<item quantity="one">nowych komentarzy %d</item>
-	<item quantity="few">nowych komentarzy %d</item>
-	<item quantity="many">nowych komentarzy %d</item>
+	<item quantity="one">Nowych komentarzy: %d</item>
+	<item quantity="few">Nowych komentarzy: %d</item>
+	<item quantity="many">Nowych komentarzy: %d</item>
 	<item quantity="other"/>
 </plurals>
 
@@ -1538,7 +1503,7 @@ wysłania...</string>
     <string name="delete_slave_user_message">Czy rzeczywiście chcesz usunąć użytkownika \"%s\"?</string>
     <string name="active_users">Aktywni użytkownicy</string>
     <string name="deleted_users">Usunięci użytkownicy</string>
-    <string name="powered_by_text">Powered by Memento Database</string>
+    <string name="powered_by_text">Wspierane przez Memento Database</string>
 
     <string name="string_list_sort_menu_title">Sortuj wg tytułu</string>
     <string name="previous_value">Poprzednia wartość</string>
@@ -1550,4 +1515,401 @@ wysłania...</string>
     <string formatted="false" name="of_counter">%d z %d</string>
 
 
+<string name="upload_to_cloud">Prześlij do chmury</string>
+    <string name="memento_server_cloud">Użyj chmury Memento</string>
+    <string name="memento_server_private">Użyj prywatnego serwera Memento</string>
+    <string name="desktop_version">Wersja na komputer</string>
+
+    <string name="no_comments">Brak komentarzy</string>
+    <string name="locale_plugin_add_edit_entry_title">Dodaj/edytuj wpis</string>
+    <string name="no_libraries_text">Brak bibliotek!</string>
+    <string name="lost_database_text">3.9.5</string>
+    <string name="multi_choice_delimiter">Separator</string>
+    <string name="cloud_plan_free">Za darmo</string>
+    <string name="cloud_plan_plan3">Lite</string>
+    <string name="cloud_plan_plan6">Pro</string>
+    <string name="cloud_plan_plan10">Pro Plus</string>
+    <string name="cloud_plan_storage">Pojemność %s</string>
+
+    <string name="memento_server_settings_group">3.9.7</string>
+    <string name="memento_server_host">Adres serwera Memento</string>
+    <string name="memento_server_private_hint">host:port</string>
+    <string name="memento_server_private_not_found">Nie można znaleźć serwera o podanym adresie</string>
+    <string name="latitude_longitude">Długość i szerokość geograficzna</string>
+    <string name="latitude_longitude_hint">długość,szerokość</string>
+    <string name="latitude_longitude_parse_error">Nie można przeanalizować szerokości/długości geograficznej</string>
+    <string name="relation_type">Rodzaj związku</string>
+    <string name="relation_type_one_to_one">Jeden do jeden</string>
+    <string name="relation_type_one_to_many">Jeden do wielu</string>
+    <string name="relation_type_many_to_many">Wiele do wielu</string>
+    <string name="library_edit_mode">Tryb edycji</string>
+    <string name="library_edit_mode_hint">Otwórz okienko edycji dotykając wpis</string>
+    <plurals name="comments_count">
+	<item quantity="one">Komentarze: %d</item>
+	<item quantity="few">Komentarze: %d</item>
+	<item quantity="many">Komentarze: %d</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="comments_only_for_cloud">Komentarze można zamieszczać tylko w bibliotekach przesłanych do chmur. Przesłać bibliotekę do chmury?</string>
+    <string name="locale_to_fields_list_empty_text">Dotknij +, aby utworzyć nową regułę wypełniania pól w bibliotece.</string>
+    <string name="locale_to_fields_var">Tekst z %s</string>
+    <string name="locale_to_fields_add_rule_title">Dodaj regułę</string>
+    <string name="locale_to_fields_edit_rule_title">Edytuj regułę</string>
+    <string name="variable_select">Zaznacz zmienną</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Edytuj wpis</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Utwórz nowy wpis, jeśli nie udało się znaleźć wpisu według pola klucza</string>
+
+    <string name="send_field_title">Wyślij nazwę pola</string>
+    <string name="send_field_title_summary">Nazwa pola będzie odpowiadać wartości pola</string>
+    <string name="auto_lock_libraries_time_title">Zamknij dostęp do biblioteki</string>
+    <string name="auto_lock_libraries_after">Po %s</string>
+
+    <string name="empty_triggers_list_text">Ta biblioteka nie zawiera wyzwalaczy.
+Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie, które miało miejsce.</string>
+    <string name="triggers">Wyzwalacze</string>
+    <string name="trigger_name">Nazwa wyzwalacza</string>
+    <string name="trigger_event">Zdarzenie</string>
+    <string name="trigger_moment">Faza</string>
+    <string name="unknown_trigger_event_type">Nieznane zdarzenie</string>
+    <string name="unknown_trigger_moment_type">Nieznana faza</string>
+
+    <string name="trigger_event_create_entry">Tworzenie wpisu</string>
+    <string name="trigger_event_modify_entry">Aktualizacja wpisu</string>
+    <string name="trigger_event_delete_entry">Usuwanie wpisu</string>
+    <string name="trigger_event_open_entry">Otwieranie karty wpisu</string>
+    <string name="trigger_event_add_favorites">Dodawanie wpisów do ulubionych</string>
+    <string name="trigger_event_remove_favorites">Usuwanie wpisów z ulubionych</string>
+    <string name="trigger_default_name">Wyzwalacz %d</string>
+    <string name="trigger_enabled">Włączony</string>
+    <string name="trigger_switched_off">Wyłączony</string>
+    <string name="trigger_delete_message">Czy na pewno chcesz usunąć skrypt \"%s\"?</string>
+
+
+    <string name="trigger_moment_open_form">Otwieranie karty edycji wpisu</string>
+    <string name="trigger_moment_before_save">Przed zapisaniem wpisu</string>
+    <string name="trigger_moment_after_save">Po zapisaniu wpisu</string>
+    <string name="trigger_moment_before_delete">Przed usunięciem wpisu</string>
+    <string name="trigger_moment_after_delete">Po usunięciu wpisu</string>
+    <string name="trigger_moment_before_show">Przed wyświetleniem okna</string>
+    <string name="trigger_moment_after_show">Po wyświetleniu okna</string>
+
+    <string name="application">Aplikacja</string>
+    <string name="debug_summary">Opcje wylogowania</string>
+    <string name="log_files_folder">Folder dziennika zdarzeń</string>
+
+    <string name="enable_logging_cloud">Połączenia Memento Cloud</string>
+    <string name="enable_logging_triggers">Dziennik skryptów</string>
+    <string name="script_log">Dziennik skryptu</string>
+
+    <string name="trigger_permissions">Uprawnienia dla skryptów</string>
+    <string name="trigger_permission_read_file">Odczyt plików</string>
+    <string name="trigger_permission_read_file_hint">Zezwól skryptom na odczyt z pamięci zewnętrznej</string>
+    <string name="trigger_permission_write_file">Zapis pliku</string>
+    <string name="trigger_permission_write_file_hint">Zezwól skryptom na zapis w pamięci zewnętrznej</string>
+    <string name="trigger_permission_network">Sieć</string>
+    <string name="trigger_permission_network_hint">Zezwól skryptom na wykonywanie żądań HTTP</string>
+
+    <string name="trigger_permission_libraries">Biblioteki</string>
+    <string name="trigger_permission_libraries_hint">Dostęp do wszystkich bibliotek</string>
+
+    <string name="trigger_permission_libraries_select">Dostępne biblioteki</string>
+    <string name="trigger_permission_libraries_select_title">Zaznacz bibliotekę</string>
+    <string name="need_pro_for_triggers">W darmowej wersji, jedna biblioteka może zawierać tylko jeden wyzwalacz. Aktualizuj do wersji PRO, aby usunąć te ograniczenia.</string>
+    <string name="filters_tab">Zakładki...</string>
+    <string name="filters_tab_dialog_title">Wybierz filtr dla zakładek</string>
+    <string name="export_template_include_filters">Dołącz filtry</string>
+
+    <string name="unit_of_measurement_enable">Dodać jednostkę miary do pola</string>
+    <string name="unit_of_measurement_none">Brak</string>
+
+    <string name="unit_of_measurement_category">Kategoria</string>
+    <string name="unit_of_measurement">Jednostka miary</string>
+    <string name="unit_of_measurement_button">Dodaj konwerter jednostek do pola</string>
+
+    <string name="uom_category_temperature">Temperatura</string>
+    <string name="uom_celsius">Celsjusz</string>
+    <string name="uom_fahrenheit">Fahrenheit</string>
+    <string name="uom_kelvin">Kelwin</string>
+    <string name="uom_rankine">Rankine</string>
+
+    <string name="uom_category_time">Czas</string>
+    <string name="uom_nanosecond">Nanosekunda</string>
+    <string name="uom_microsecond">Mikrosekunda</string>
+    <string name="uom_millisecond">Milisekunda</string>
+    <string name="uom_second">Sekunda</string>
+    <string name="uom_minute">Minuta</string>
+    <string name="uom_hour">Godzina</string>
+    <string name="uom_day">Dzień</string>
+    <string name="uom_week">Tydzień</string>
+    <string name="uom_year">Rok</string>
+
+    <string name="uom_category_pressure">Ciśnienie</string>
+    <string name="uom_pascal">Paskal</string>
+    <string name="uom_atmosphere">Atmosfera</string>
+    <string name="uom_bar">Bar</string>
+
+    <string name="uom_category_length">Długość</string>
+    <string name="uom_meter">Metr</string>
+    <string name="uom_kilometer">Kilometr</string>
+    <string name="uom_centimeter">Centymetr</string>
+    <string name="uom_millimeter">Milimetr</string>
+    <string name="uom_micrometer">Mikrometr</string>
+    <string name="uom_nanometer">Nanometr</string>
+    <string name="uom_mile">Mila</string>
+    <string name="uom_nautical_mile">Mila morska</string>
+    <string name="uom_foot">Stopa</string>
+    <string name="uom_yard">Jard</string>
+    <string name="uom_inch">Cal</string>
+    <string name="uom_angstrom">Angstrem</string>
+    <string name="uom_astronomical_unit">Jednostka astronomiczna</string>
+    <string name="uom_light_year">"Rok  świetlny"</string>
+    <string name="uom_parsec">Parsek</string>
+
+    <string name="uom_category_mass">Masa</string>
+    <string name="uom_microgram">Mikrogram</string>
+    <string name="uom_milligram">Miligram</string>
+    <string name="uom_gram">Gram</string>
+    <string name="uom_kilogram">Kilogram</string>
+    <string name="uom_ton">Tona</string>
+    <string name="uom_ton_uk">Tona angielska</string>
+    <string name="uom_ton_us">Tona amerykańska</string>
+    <string name="uom_pound">Funt</string>
+    <string name="uom_ounce">Uncja</string>
+
+    <string name="uom_category_volume">Objętość</string>
+    <string name="uom_cubic_metre">Metr sześcienny</string>
+    <string name="uom_liter">Litr</string>
+    <string name="uom_cubic_inch">Cal sześcienny</string>
+    <string name="uom_gallon_liquid_us">Galon amerykański</string>
+    <string name="uom_ounce_liquid_us">Uncja płynu amerykańska</string>
+    <string name="uom_gallon_uk">Galon angielski</string>
+    <string name="uom_ounce_liquid_uk">Uncja płynu angielska</string>
+
+    <string name="uom_category_dataamount">Pamięć cyfrowa</string>
+    <string name="uom_bit">Bit</string>
+    <string name="uom_byte">Bajt</string>
+    <string name="uom_kilobit">Kilobit</string>
+    <string name="uom_kilobyte">Kilobajt</string>
+    <string name="uom_megabit">Megabit</string>
+    <string name="uom_megabyte">Megabajt</string>
+    <string name="uom_gigabit">Gigabit</string>
+    <string name="uom_gigabyte">Gigabajt</string>
+    <string name="uom_terabit">Terabit</string>
+    <string name="uom_terabyte">Terabajt</string>
+    <string name="uom_petabit">Petabit</string>
+    <string name="uom_petabyte">Petabajt</string>
+
+    <string name="uom_category_area">Powierzchnia</string>
+    <string name="uom_square_metre">Metr sześcienny</string>
+    <string name="uom_are">Ar</string>
+    <string name="uom_hectare">Hektar</string>
+
+    <string name="uom_category_velocity">Prędkość</string>
+    <string name="uom_meters_per_second">Metrów na sekundę</string>
+    <string name="uom_miles_per_hour">Mil na godzinę</string>
+    <string name="uom_kilometers_per_hour">Kilometrów na godzinę</string>
+    <string name="uom_knot">Węzeł</string>
+    <string name="uom_mach">Mach</string>
+
+    <string name="uom_category_power">Moc</string>
+    <string name="uom_watt">Wat</string>
+    <string name="uom_kilowatt">Kilowat</string>
+    <string name="uom_megawatt">Megawat</string>
+    <string name="uom_horsepower">Konie mechaniczne</string>
+
+    <string name="uom_category_energy">Energia</string>
+    <string name="uom_joule">Dżul</string>
+    <string name="uom_kilojoule">Kilodżul</string>
+
+    <string name="uom_category_frequency">Częstotliwość</string>
+    <string name="uom_hertz">Herc</string>
+    <string name="uom_kilohertz">Kiloherc</string>
+    <string name="uom_megahertz">Megaherc</string>
+    <string name="uom_gigahertz">Gigaherc</string>
+
+    <string name="wrong_field_value">Pole %s zawiera niepoprawną wartość</string>
+
+    <string name="unit_converter">Konwersja jednostek</string>
+    <string name="increase">Zwiększ</string>
+    <string name="decrease">Zmniejsz</string>
+    <string name="frozen">Zamrożona</string>
+    <string name="frozen_text">Biblioteka jest zamrożona ponieważ przekroczone limit bibliotek przesłanych do chmury w tym planie.</string>
+    <string name="date_and_time_formats">Format daty i czasu</string>
+    <string name="date_formats">Format daty</string>
+    <string name="time_formats">Format czasu</string>
+    <string name="date_formats_short">Krótka data</string>
+    <string name="date_formats_long">Długa data</string>
+    <string name="time_formats_short">Krótki czas</string>
+    <string name="time_formats_long">Długi czas</string>
+    <string name="language">Język</string>
+    <string name="next_button">Dalej</string>
+    <string name="login">Zaloguj</string>
+    <string name="sign_up">Zarejestruj się</string>
+    <string name="memento_cloud2">Memento Cloud</string>
+
+    <string name="from_file">Z pliku</string>
+    <string name="from_google_drive">Z Dysk Google</string>
+    <string name="field_values_delimiter">Separator pola</string>
+    <string name="entries_desc_dialog_title">Opis wpisu jest określany przez wartości wybranych pól</string>
+    <string name="image_caption">Podpis</string>
+    <string name="create_subheader">Utórz</string>
+    <string name="subheader_collapsed_by_default">Domyślnie zwinięte</string>
+    <string name="aggr_always_show">Zawsze pokazuj</string>
+    <string name="cant_add_management">Administrator posiada pełny dostęp do biblioteki</string>
+    <string name="auth_error_user_blocked">Twoje konto zostało wyłączone</string>
+    <string name="team_license">Zespół</string>
+    <string name="send_password_to_user">Wyślij hasło do użytkownika przez e-mail</string>
+    <string name="create_permissions">Uwtórz uprawnienia</string>
+    <string name="edit_permissions">Edytuj uprawnienia</string>
+    <string name="library_permissions">Uprawnienia biblioteki</string>
+    <string name="field_permissions">Uprawnienia pola</string>
+    <string name="library_permissions_subject">Nazwa użytkownika/e-mail/grupa</string>
+    <string name="permissions_delete_message">Czy na pewno chcesz usunąć uprawnienia dla \"%s\"?</string>
+    <string name="field_permission_invisible">Niewidoczne</string>
+    <string name="field_permission_read_only">Do odczytu</string>
+    <string name="field_permissions_limit">Prawa dostępu mogą być ustawiane tylko w planie Zespół</string>
+    <string name="user_groups">Grupy użytkowników</string>
+    <string name="add_user_group">Dodaj użytkownika do grupy</string>
+    <string name="add_user_group_hint">Nazwa grupy</string>
+    <string name="user_group_name_empty">Nazwa grupy nie może być pusta</string>
+    <string name="users_count_none">Brak użytkowników</string>
+    <plurals name="users_count">
+	<item quantity="one">Użytkowników: %d</item>
+	<item quantity="few">Użytkowników: %d</item>
+	<item quantity="many">Użytkowników: %d</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="user_group_delete_message">Czy na pewno chcesz usunąć grupę \"%s\"?</string>
+    <string name="group_not_found">Nie znaleziono grupy</string>
+    <string name="individual">Indywidialne</string>
+    <string name="team">Zespół</string>
+    <string name="cloud_plan_team5">Zespół 5</string>
+    <string name="cloud_plan_team10">Zespół 10</string>
+    <string name="cloud_plan_team15">Zespół 15</string>
+    <string name="cloud_plan_team20">Zespół 20</string>
+    <string name="pro_for_team">Funkcje Pro dla wszystkich użytkowników w planie Zespół</string>
+    <string name="team_features_trial">Każdy plan zawiera 14 dniowy okres próbny.</string>
+
+    <string name="tasker_plugin_create_entry_event_title">Utworzono wpis</string>
+    <string name="tasker_plugin_delete_entry_event_title">Usunięto wpis</string>
+    <string name="tasker_plugin_modified_entry_event_title">Zmodyfikowano wpis</string>
+    <string name="add_linked_libraries">Dołącz powiązane biblioteki</string>
+    <string name="create_collections">Utwórz biblioteki</string>
+    <string name="create_collections_success">Utworzono biblioteki</string>
+    <string name="template_included_libraries">Szablon zawiera dodatkowe biblioteki</string>
+
+    <string name="entries_view_type_cards">Karty</string>
+    <string name="card_view_number_of_columns">Liczba kolumn</string>
+    <plurals name="columns_count">
+	<item quantity="one">Kolumny: %d</item>
+	<item quantity="few">Kolumny: %d</item>
+	<item quantity="many">Kolumny: %d</item>
+	<item quantity="other"/>
+</plurals>
+
+    <string name="card_view_title_on_image">Wyświetl tekst na obrazem</string>
+    <string name="hint_previous_entry">Poprzedni wpis</string>
+    <string name="hint_next_entry">Następny wpis</string>
+    <string name="hint_remove_image_button">Usuń obraz</string>
+    <string name="hint_insert_image_button">Wstaw obraz</string>
+    <string name="hint_capture_image_button">Przechwyć obraz</string>
+    <string name="hint_change_date">Zmień datę</string>
+    <string name="hint_change_time">Zmień czas</string>
+    <string name="hint_add_reminder">Dodaj przypomnienie</string>
+    <string name="hint_remove_reminder">Usuń przypomnienie</string>
+    <string name="hint_insert_contact_button">Wstaw kontakt</string>
+    <string name="hint_create_contact_button">Utwórz kontakt</string>
+    <string name="hint_insert_audio_button">Wstaw dźwięk</string>
+    <string name="hint_record_audio_button">Nagraj dzwięk</string>
+    <string name="hint_insert_location_button">Wstaw lokalizacje</string>
+    <string name="hint_get_my_location_button">Pobierz lokalizację</string>
+    <string name="hint_insert_entry_button">Wstaw wpis</string>
+    <string name="barcode_type_option_title">Typ</string>
+    <string name="barcode_type_1d">Kod kreskowy</string>
+    <string name="barcode_type_2d">Kod QR</string>
+
+    <string name="embedded_js_libraries">Osadzono</string>
+    <string name="repository_js_libraries">Magazyny</string>
+    <string name="card_view_squared_image">Przytnij obrazek do kształtu kwadratu</string>
+    <string name="warning">Uwaga</string>
+    <string name="add_javascript_library">Dodaj biblioteki JavaScript</string>
+    <string name="add_repository">Dodaj magazyn</string>
+    <string name="repository_location_hint">Adres URL magazynu GitHub</string>
+    <string name="repository_location_error">Podaj link HTTPS do magazynu GitHub. Na przykład: https://github.com/username/repo-name</string>
+    <string name="repository_not_found_error">Nie można znaleźć magazynu: %s</string>
+    <string name="repository_delete_message">Czy na pewno chcesz usunąć magazyn \"%s\"?</string>
+    <string name="repository_other">Inne</string>
+
+    <string name="map_field_current_by_default_title">Aktualna lokalizacja</string>
+    <string name="map_field_current_by_default_hint">Domyślnie uzyskaj aktualną lokalizację</string>
+    <string name="receiving_document_content">Odbieranie zawartości dokumentu</string>
+    <string name="find_address">Znajdź adresy</string>
+    <string name="privacy_policy">Polity prywatności</string>
+    <string name="trigger_event_action">Operacje</string>
+    <string name="action_context_library">Biblioteka</string>
+    <string name="trigger">Wyzwalacz</string>
+    <string name="action_default_name">Operacja %d</string>
+    <string name="place_of_action">Miejsce operacji</string>
+    <string name="action_arguments">Argumenty</string>
+    <string name="select_argument_type">Typ argumentu</string>
+    <string name="action_arguments_empty">Skrypt może zawierać argumenty, których wartości zostaną wprowadzone przez użytkownika.</string>
+    <string name="script_argument_delete_message_text">Czy na pewno chcesz usunąć argument \"%s\"?</string>
+    <string name="create_argument">Utwórz argument</string>
+    <string name="edit_argument">Edytuj argument</string>
+    <string name="argument_name">Nazwa argumentu</string>
+    <string name="argument_hint">Podpowiedź do argumentu</string>
+    <string name="required_argument_text">Argument musi być wypełniony</string>
+    <string name="scripts">Skrypty</string>
+    <string name="actions">Operacje</string>
+    <string name="empty_script_list_text">Biblioteka nie zawiera skryptów</string>
+    <string name="empty_script_list_trigger_text">Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie, które miało miejsce.</string>
+    <string name="autofill_goto_script_title">Edytor skryptu</string>
+    <string name="empty_script_list_action_text">Operacja to skrypt uruchamiany ręcznie, uruchamiany przyciskiem w bibliotece lub w widoku karty.</string>
+    <string name="autofill_goto_script_hint">Źródło skryptów</string>
+    <string name="java_script_data_source_title">Własne źródło</string>
+    <string name="java_script_data_source_hint">JavaScript</string>
+    <string name="script_cant_run_for_not_saved_library">Skrypt można uruchomić tylko po zapisaniu biblioteki.</string>
+    <string name="run">Uruchom</string>
+    <string name="run_arguments">Uruchom argument</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">Uprawnienia dla skryptu można ustawić tylko po zapisaniu biblioteki.</string>
+    <string name="script_permissions_required_message">Biblioteki zawiera skrypt, który wymagają następujących uprawnień:</string>
+    <string name="required_access_to_library">dostęp do %s</string>
+    <string name="action_with_library_context">Operacje biblioteki</string>
+    <string name="monthly_plan">Miesięcznie</string>
+    <string name="yearly_plan">Rocznie</string>
+    <string name="cloud_plan_plan3_annual">Lite</string>
+    <string name="cloud_plan_plan6_annual">Pro</string>
+    <string name="cloud_plan_plan10_annual">Pro Plus</string>
+    <string name="copy_field">Kopiuj pole</string>
+    <string name="delete_reminder_dialog_text">Czy na pewno chcesz usunąć przypomnienie?</string>
+    <string name="igdb_source">igdb.com</string>
+    <string name="games">Gry</string>
+    <string name="number_increment_delta_value">Krok %s</string>
+    <string name="number_increment_visible_option">Pokaż przyciski</string>
+    <string name="is_empty">Jest pusty</string>
+    <string name="is_not_empty">Nie jest pusty</string>
+    <string name="trigger_event_open_library">Otwieranie biblioteki</string>
+    <string name="relation_type_one_limit">Zaznaczony wpis jest już powiązany</string>
+    <string name="relation_type_one_limit2">%s jest już powiązanych</string>
+    <string name="debug">Usuń błędy</string>
+    <string name="locale_key_field_description">Pole klucza do edycji wpisów</string>
+
+    <string name="flex_type_subheader">Podgrupa</string>
+    <string name="edit_subheader">Edytuj podgrupę</string>
+    <string name="user_manager_only_for_team">Zarządzenie użytkownikami i licencjami dostępne jest tylko w planie Zespół</string>
+    <string name="field_right_need_library_download">Aby dodać nowe prawa dostępu do pól, musisz pobrać bibliotekę na urządzenie.</string>
+    <string name="repository_data_sources_hint">Źródła danych automatycznego uzupełniania</string>
+    <string name="action_context_view_entry">Widok karty</string>
+    <string name="autofill_script_source_key_title">Wskaż właściwość obiektu zwracaną przez skrypt</string>
+    <string name="library_related_cloud_model_changed_message">Struktura powiązanej biblioteki została zaktualizowana w chmurze. Przejdź do powiązanej biblioteki, aby zaktualizować.</string>
+    
+    <string name="cloud_plan_team5_annual">Zespół 5</string>
+    <string name="cloud_plan_team10_annual">Zespół 10</string>
+    <string name="cloud_plan_team15_annual">Zespół 15</string>
+    <string name="cloud_plan_team20_annual">Zespół 20</string>
+    <string name="price_per_year">%s/rok</string>
+
+    <string name="frozen_alien_text">Biblioteka jest zamrożona. Proszę skontaktować się z właścicielem (%s).</string>
+    <string name="number_increment_delta_title">Przyciski zwiększania/zmniejszania</string>
+    <string name="line_interpolate_nulls_titles">Interpoluj puste wartości</string>
 </resources>
