@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Adicione uma entrada</string>
@@ -142,7 +142,8 @@
     <string name="activation_ok">Obrigado pela ativação do Memento</string>
     <string name="activation_error">O código de ativação é inválido. Por favor, tente novamente.</string>
     <string name="about">Sobre</string>
-    <string name="copyright">Copyright © 2016 LuckyDroid\nTodos os direitos reservados</string>
+    <string name="copyright">Copyright © 2017 LuckyDroid
+Todos os direitos reservados</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Verificar versão do programa</string>
     <string name="about_license_type">Licensa:</string>
@@ -1605,4 +1606,25 @@
     <string name="uom_megabyte">Megabyte</string>
     <string name="uom_gigabit">Gigabit</string>
     <string name="uom_gigabyte">Gigabyte</string>
+    <string name="uom_terabit">Terabit</string>
+    <string name="uom_category_area">Área</string>
+    <string name="uom_meters_per_second">Metro por segundo</string>
+    <string name="uom_miles_per_hour">Milhas por hora</string>
+    <string name="uom_kilometers_per_hour">Kilometros por hora</string>
+    <string name="uom_terabyte">Terabyte</string>
+    <string name="uom_petabit">Pentabit</string>
+    <string name="uom_petabyte">Pentabyte</string>
+
+    <string name="uom_hectare">Hectare</string>
+
+    <string name="uom_category_frequency">Freqüência</string>
+    <string name="increase">Acrescentar</string>
+    <string name="decrease">Decrescer</string>
+    <string name="frozen">Congelar</string>
+    <string name="date_and_time_formats">Formatos de data e hora</string>
+    <string name="date_formats">Formatos de data</string>
+    <string name="time_formats">Formato de horas</string>
+    <string name="date_formats_short">Ordenar data</string>
+    <string name="language">Linguagem</string>
+    <string name="next_button">Próximo</string>
     </resources>
