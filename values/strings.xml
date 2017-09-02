@@ -1118,7 +1118,7 @@
 	<string name="show_deleted_entries_menu_item">Show deleted entries</string>
 	<string name="upload_to_cloud_menu_item">To Cloud</string>
 	<string name="welcome_text_title">Welcome to Memento Database</string>
-	<string name="welcome_text_description">The Library is the place where your entries will be stored. You can begin familiarizing yourself with the Memento by creating a library based on one of the templates provided.</string>
+	<string name="welcome_text_description">The Library is the place where your information will be stored. You can begin familiarizing yourself with the Memento by creating a library based on one of the templates provided.</string>
 	
 	<!-- 3.5.0 -->
 	<string name="memento_cloud">Memento Cloud</string>
@@ -1865,4 +1865,69 @@
     <string name="trigger_event_open_library">Opening an library</string>
     <string name="search_base_folder">Search base</string>
     <string name="line_interpolate_nulls_titles">Interpolate empty values</string>
+
+
+    <!-- 4.3.7 -->
+    <string name="wizard">Wizard</string>
+    <string name="wizard_library_name_title">Memento organizes your information into libraries. What would you like to name your library?</string>
+    <string name="wizard_library_name_hint2">Libraries are used to hold a list of one particular type of item.</string>
+    <string name="wizard_library_name_hint3">Library similar to worksheets in a spreadsheet.</string>
+    <string name="wizard_library_icon_title">Select icon for this library</string>
+    <string name="wizard_library_structure_title">Let\'s create structure of your library.</string>
+    <string name="wizard_library_structure_hint2">Every item you put into your library is called a \'entry\'. Each entry will have its own fields with all the information you want to store about it.</string>
+    <string name="wizard_library_structure_hint3">An entry is the equivalent of a row in a spreadsheet.</string>
+    <string name="wizard_library_structure_hint4">A field is the equivalent of a column in a spreadsheet.</string>
+    <string name="wizard_select_field_type_message">Please select the field type</string>
+    <string name="wizard_add_name_field_message">Add the field that will be the name of the entry.</string>
+    <string name="wizard_field_options_title">Field attributes</string>
+    <string name="wizard_field_items_title">Items</string>
+    <string name="wizard_field_options_select_type_message">Field attributes will be available after choosing the field type.</string>
+    <string name="wizard_field_options_empty">Only advanced attributes are available for the selected field type.</string>
+    <string name="wizard_field_advanced_options_button">Advanced</string>
+    <string name="wizard_choice_field_items_empty_text">You should create a preset number of items (values) for the field type.</string>
+    <string name="wizard_field_name_title">What would you like to name this field?</string>
+    <string name="wizard_field_name_examples">For example you might have fields for \'title\', \'description\', \'type of equipment\', \'cost\', \'size\', \'location\', etc.</string>
+    <string name="wizard_field_type_title">Each field can be designed to hold a specific type of data.</string>
+    <string name="wizard_field_display_options_title">Do you want to display the values of this field in the list of entries?</string>
+    <string name="wizard_field_display_no">No, thanks</string>
+    <string name="wizard_field_display_name">As an Entry Name</string>
+    <string name="wizard_field_display_thumb">As an Entry Thumbnail</string>
+    <string name="wizard_field_display_desc">As an Entry Description</string>
+    <string name="wizard_field_display_status">As an Entry Status</string>
+    <string name="more_info">Need help?</string>
+    <string name="type_desc_rating">A Rating field may be empty or contain an number value from 1 to 5 as stars.</string>
+    <string name="type_desc_location">A Location field may contain a location, depicted as a latitude/longitude and a postal address.</string>
+    <string name="type_desc_link_to_entry">A Link To Entry field may contain a link to an entry or to entries in another library.</string>
+    <string name="type_desc_contact">A Contact field may contain a link to a contact in the local Contacts application.</string>
+    <string name="type_desc_images">An Image field may contain links to images.</string>
+    <string name="type_desc_signature">A signature field allows you to collect electronic signatures.</string>
+    <string name="type_desc_file">A Link To File field may contain links to externally-stored files.</string>
+    <string name="type_desc_audio">An Audio field may contain links to stored audios.</string>
+    <string name="type_desc_date">A Date field may contain a value that is used to represent a particular calendar date.</string>
+    <string name="type_desc_datetime">A DateTime field may contain a value that is used to represent a particular calendar date and time.</string>
+    <string name="type_desc_time">A Time field may contain a value that is used to represent a particular time of day.</string>
+    <string name="type_desc_boolean">The Boolean field type provides a single checkbox (yes/no).</string>
+    <string name="type_desc_money">A money field has a currency and a amount. The currency must be selected when the template is defined.</string>
+    <string name="type_desc_real">The Real field type holds numbers with or without decimal places.</string>
+    <string name="type_desc_int">The Number field type holds plain numbers without any decimals.</string>
+    <string name="type_desc_int_list">A Integer values field is an ordered set of numbers from which a user might select one.</string>
+    <string name="type_desc_text">A Text field may contain any textual data.</string>
+    <string name="type_desc_phone">A Phone Number field may contain a telephone number in textual form.</string>
+    <string name="type_desc_url">A Hyperlink field may contain a textual HTML link.</string>
+    <string name="type_desc_email">An Email Address field may contain an email address in textual form.</string>
+    <string name="type_desc_barcode">The Barcode Field is used to scan barcodes or QR-codes.</string>
+    <string name="type_desc_pass">A Password field may contain any textual data. The characters in a password field are masked (shown as asterisks).</string>
+    <string name="type_desc_rich">A Rich Text field may contain any textual data, including text formatting information.</string>
+    <string name="type_desc_multiple_choice">A Multiple-choice List field is an set of text strings from which a user might select any or all.</string>
+    <string name="type_desc_checkboxes">The Checkboxes field allows to present one or many checkboxes which allow multiple selections.</string>
+    <string name="type_desc_single_choice">A Single-choice field is an set of text strings from which a user might select one.</string>
+    <string name="type_desc_radiobuttons">The radio buttons field is used to make a selection from a group of choices.</string>
+    <string name="type_desc_js">The value of the field will be the result of execution of the script defined in the field and executed in the entry context.</string>
+    <string name="type_desc_calc">A Calculation field is used to display read-only values based on a calculation which may include values, from other fields on the entry.</string>
+
+    <string name="wizard_complete_text1">Congratulation!</string>
+    <string name="wizard_complete_text2">You\'ve successfully created your Library.</string>
+    <string name="wizard_complete_text3">You can change the structure of your library, add aggregation, autofill, scripts, etc. at any time.</string>
+    <string name="close">Close</string>
+
 </resources>
