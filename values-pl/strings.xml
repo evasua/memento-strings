@@ -1766,7 +1766,7 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
     <string name="permissions_delete_message">Czy na pewno chcesz usunąć uprawnienia dla \"%s\"?</string>
     <string name="field_permission_invisible">Niewidoczne</string>
     <string name="field_permission_read_only">Do odczytu</string>
-    <string name="field_permissions_limit">Prawa dostępu mogą być ustawiane tylko w planie Zespół</string>
+    <string name="field_permissions_limit">Prawa dostępu mogą być ustawiane tylko w planie Zespół.</string>
     <string name="user_groups">Grupy użytkowników</string>
     <string name="add_user_group">Dodaj użytkownika do grupy</string>
     <string name="add_user_group_hint">Nazwa grupy</string>
@@ -1795,7 +1795,7 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
     <string name="add_linked_libraries">Dołącz powiązane biblioteki</string>
     <string name="create_collections">Utwórz biblioteki</string>
     <string name="create_collections_success">Utworzono biblioteki</string>
-    <string name="template_included_libraries">Szablon zawiera dodatkowe biblioteki</string>
+    <string name="template_included_libraries">Szablon zawiera dodatkowe biblioteki.</string>
 
     <string name="entries_view_type_cards">Karty</string>
     <string name="card_view_number_of_columns">Liczba kolumn</string>
@@ -1831,7 +1831,7 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
     <string name="repository_js_libraries">Magazyny</string>
     <string name="card_view_squared_image">Przytnij obrazek do kształtu kwadratu</string>
     <string name="warning">Uwaga</string>
-    <string name="add_javascript_library">Dodaj biblioteki JavaScript</string>
+    <string name="add_javascript_library">Dodaj biblioteki JavaScript...</string>
     <string name="add_repository">Dodaj magazyn</string>
     <string name="repository_location_hint">Adres URL magazynu GitHub</string>
     <string name="repository_location_error">Podaj link HTTPS do magazynu GitHub. Na przykład: https://github.com/username/repo-name</string>
