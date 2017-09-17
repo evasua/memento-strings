@@ -1084,7 +1084,8 @@ Tout droits réservés</string>
 	<string name="show_deleted_entries_menu_item">Montrer les enregistrements supprimés</string>
 	<string name="upload_to_cloud_menu_item">Vers le net</string>
 	<string name="welcome_text_title">Bienvenue sur la Base de Données Memento</string>
-	<string name="welcome_text_description">La base est le lieu de stockage de vos enregistrements.\nVous pouvez vous familiariser avec Memento en créant une base inspirée de l\'un des modèles fournis.</string>	
+	<string name="welcome_text_description">La base de données est le lieu de stockage de vos informations.
+Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'un des modèles fournis.</string>	
 	
 <string name="featured_templates">Mis en avant</string>
 	<string name="need_make_slave_library_unique">Pour synchroniser le \"lien avec l\'enregistrement\" il faut d\'abord activer le contrôle de l\'unicité de l\'identifiant des enregistrements dans la base à laquelle le lien se réfère. Voulez-vous le faire maintenant ?</string>
@@ -1811,4 +1812,66 @@ Tout droits réservés</string>
     <string name="trigger_event_open_library">Ouverture d\'une bibliothèque</string>
     <string name="search_base_folder">Base de recherche</string>
     <string name="line_interpolate_nulls_titles">Interpolation des valeurs vides</string>
-</resources>
+<string name="wizard">Assistant</string>
+    <string name="wizard_library_name_title">Memento organise vos informations en bases de données. Quel nom voulez-vous donner à cette base de données ?</string>
+    <string name="wizard_library_name_hint2">Les bases de donnée sont utilisées pour contenir une liste d\'enregistrements d\'un type particulier.</string>
+    <string name="wizard_library_name_hint3">Une base de donnée est comparable à une feuille de tableur.</string>
+    <string name="wizard_library_icon_title">Sélectionner un icône pour la base de données</string>
+    <string name="wizard_library_structure_title">Créons maintenant la structure de votre base de données.</string>
+    <string name="wizard_library_structure_hint2">Chaque item que vous mémorisez dans votre base de données est appelé un \"enregistrement\". Chaque enregistrement disposera de ses propres \"champs\" pour toutes les informations que vous souhaitez stocker à son sujet.</string>
+    <string name="wizard_library_structure_hint3">Un enregistrement est l\'équivalent d\'une ligne dans une feuille de tableur.</string>
+    <string name="wizard_library_structure_hint4">Un champ est l\'équivalent d\'une colonne dans une feuille de tableur.</string>
+    <string name="wizard_select_field_type_message">Sélectionner le type de champ</string>
+    <string name="wizard_add_name_field_message">Ajouter le champ qui sera le nom de l\'enregistrement.</string>
+    <string name="wizard_field_options_title">Attributs du champ</string>
+    <string name="wizard_field_items_title">Items</string>
+    <string name="wizard_field_options_select_type_message">Les attributs du champ seront disponible après le choix du type de champ.</string>
+    <string name="wizard_field_options_empty">Seuls les attributs avancés sont disponibles pour le type de champs choisi.</string>
+    <string name="wizard_field_advanced_options_button">Avancé</string>
+    <string name="wizard_choice_field_items_empty_text">Vous devez créer un jeu d\'items (valeurs possibles) pour ce type de champ.</string>
+    <string name="wizard_field_name_title">Quel nom souhaitez-vous donner à ce champ ?</string>
+    <string name="wizard_field_name_examples">Par exemple, vous pouvez créer des champs \"titre\", \"description\", \"type d\'équipement\", \"prix\", \"taille\", \"emplacement\", etc.</string>
+    <string name="wizard_field_type_title">Chaque champ est destiné à contenir un type spécifique de donnée.</string>
+    <string name="more_info">Besoin d\'aide ?</string>
+    <string name="type_desc_rating">Un champ Evaluation peut être vide ou contenir une valeur numérique représentant 1 à 5 étoiles.</string>
+    <string name="type_desc_location">Un champ Coordonnées peut contenir un emplacement géographique exprimé en latitude/longitude et une adresse postale.</string>
+    <string name="type_desc_link_to_entry">Un champ Lien à un enregistrement peut contenir un lien vers un enregistrement ou des enregistrements d\'une autre base de données.</string>
+    <string name="type_desc_contact">Un champ Contact peut contenir un lien vers un contact de l\'application locale Contacts.</string>
+    <string name="type_desc_images">Un champ Image peut contenir des liens vers des images.</string>
+    <string name="type_desc_signature">Un champ Signature vous permet de collecter des signatures électroniques.</string>
+    <string name="type_desc_file">Un champ Lier à un fichier peut contenir des liens à des fichiers externes.</string>
+    <string name="type_desc_audio">Un champ Audio peut contenir des liens vers des fichiers audios.</string>
+    <string name="type_desc_date">Un champ Date peut contenir une valeur utilisée pour représenter une date calendaire particulière.</string>
+    <string name="type_desc_datetime">Un champ Date/Heure peut contenir une valeur utilisée pour représenter une date/heure particulière.</string>
+    <string name="type_desc_time">Un champ Heure peut contenir une valeur utilisée pour représenter une heure particulière de la journée.</string>
+    <string name="type_desc_boolean">Un champ Bouléen propose une case à cocher unique (valeurs oui/non).</string>
+    <string name="type_desc_money">Un champ Monnaie correspond à une devise et à un montant. La devise doit être choisie au moment de la définition du champ.</string>
+    <string name="type_desc_real">Un champ Nombre Réel contient des nombres avec ou sans décimales.</string>
+    <string name="type_desc_int">Un champ Entier contient des nombres entiers (sans décimales).</string>
+    <string name="type_desc_int_list">Un champ Liste d\'Entiers correspond à une liste d\'entiers prédéfinie dans laquelle un utilisateur peut en choisir une.</string>
+    <string name="type_desc_text">Un champ Texte peut contenir toute donnée textuelle.</string>
+    <string name="type_desc_phone">Un champ Téléphone peut contenir un numéro de téléphone sous forme textuelle.</string>
+    <string name="type_desc_url">Un champ Lien peut contenir un lien HTML au format texte.</string>
+    <string name="type_desc_email">Un champ Email peut contenir une adresse messagerie au format textuel.</string>
+    <string name="type_desc_barcode">Un champ Code-barres est utilisé pour numériser des code-barres ou des QR-codes.</string>
+    <string name="type_desc_pass">Un champ Mot de passe peut contenir tout type de texte. Les caractères du champ Mot de passe sont masqués (affichés par des astérisques).</string>
+    <string name="type_desc_rich">Un champ Texte riche peut contenir tout type de données textuelles, y compris des caractéristiques de format (gras, italique, etc.).</string>
+    <string name="type_desc_multiple_choice">Un champ Choix multiples contient un ensemble de chaines textuelles dans lequel un utilisateur peut sélectionner un ou plusieurs éléments.</string>
+    <string name="type_desc_checkboxes">Le champ Cases à cocher offre la sélection multiple dans une ou plusieurs cases à cocher.</string>
+    <string name="type_desc_single_choice">Le champ Liste à choix unique permet la sélection d\'un élément dans une liste de chaines textuelles.</string>
+    <string name="type_desc_radiobuttons">Le champ Boutons radio est utilisé pour sélectionner un élément dans un panel d\'options.</string>
+    <string name="type_desc_js">La valeur du champ sera le résultat de l\'exécution du script défini dans le champ et exécuter dans le contexte de l\'enregistrement.</string>
+    <string name="type_desc_calc">Un Champ calculé est utilisé pour afficher des valeurs résultant de calculs qui peuvent associer des valeurs d\'autres champs de l’enregistrement.</string>
+
+    <string name="wizard_complete_text1">Félicitations !</string>
+    <string name="wizard_complete_text2">Vous avez réussi à créer votre base de données.</string>
+    <string name="wizard_complete_text3">A tout moment, vous pouvez modifier la structure de votre base de données, ajouter des agrégats, des remplissages automatiques, des scripts, etc.</string>
+    <string name="close">Fermer</string>
+
+<string name="wizard_field_display_options_title">Voulez-vous afficher les valeurs de ce champ dans la liste des enregistrements ?</string>
+    <string name="wizard_field_display_no">Non, merci</string>
+    <string name="wizard_field_display_name">Comme nom de l\'enregistrement</string>
+    <string name="wizard_field_display_thumb">Comme miniature de l\'enregistrement</string>
+    <string name="wizard_field_display_desc">Comme description de l\'enregistrement</string>
+    <string name="wizard_field_display_status">Comme statut de l\'enregistrement</string>
+    </resources>
