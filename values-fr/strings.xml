@@ -226,11 +226,11 @@ Tout droits réservés</string>
     <string name="sync_with_gdocs_message_2">Synchronisation de la base \"%s\" avec Google Sheets.</string>
     <string name="sync_with_gdocs">Synchroniser avec Google Sheets</string>
     <string name="google_docs_task_step_auth">Authentification auprès de Google Sheets</string>
-    <string name="google_docs_task_step_get_rows">Récupération de la liste des champs</string>
-    <string formatted="false" name="google_docs_task_step_process_row">Traitement de la liste des lignes. %s sur %s</string>
+    <string name="google_docs_task_step_get_rows">Récupération de la liste des mises-à-jour</string>
+    <string formatted="false" name="google_docs_task_step_process_row">Traitement de la liste de lignes. %s sur %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Ajout d\'une liste de lignes : %s sur %s</string>
-    <string formatted="false" name="google_docs_task_step_update_row">Mise à jour d\'une liste de ligne. %s sur %s</string>
-    <string name="google_docs_task_create_document">Création d\'une feuille de classeur</string>
+    <string formatted="false" name="google_docs_task_step_update_row">Mise à jour d\'une liste de lignes. %s sur %s</string>
+    <string name="google_docs_task_create_document">Création d\'un classeur</string>
     <string name="google_docs_task_create_worksheet">Ajout d\'une feuille de classeur</string>
     <string name="google_docs_task_shange_columns">Mise à jour d\'une feuille de classeur</string>
     <string name="username_hint">Adresse e-mail</string>
@@ -708,7 +708,9 @@ Tout droits réservés</string>
     <string name="accept_button">J\'accepte</string>
     <string name="sort_asc">ASC</string>
     <string name="sort_desc">DESC</string>
-    <string name="sliding_hint_text">Glisser de droite à gauche↵\npour accéder aux menus avancés -↵\ntri, regroupement, filtres et plus...</string>
+    <string name="sliding_hint_text">Glisser de droite à gauche↵
+pour accéder aux menus avancés -↵
+tri, regroupement, filtres, graphiques et plus...</string>
     <string name="multy_sorting">Trier sur champs multiples</string>
     <string name="new_button">nouveau</string>
     <string name="free_version_entry_page_limit">Dans la version gratuite vous ne pouvez créer que deux pages. Passer à la version PRO pour supprimer cette limitation.</string>
@@ -1117,7 +1119,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
 </plurals>
     <string name="button_select">Sélectionner</string>
     <string name="cloud">Nuage</string>
-    <string name="library_not_in_cloud">Pas dans le nuage</string>
+    <string name="library_not_in_cloud">Hors nuage</string>
     <string name="synced">Synchronisé %s</string>
     <string name="cloud_synced_progress">Synchronisation...</string>
     <string name="cloud_offline">Hors ligne</string>
@@ -1848,7 +1850,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="type_desc_money">Un champ Monnaie correspond à une devise et à un montant. La devise doit être choisie au moment de la définition du champ.</string>
     <string name="type_desc_real">Un champ Nombre Réel contient des nombres avec ou sans décimales.</string>
     <string name="type_desc_int">Un champ Entier contient des nombres entiers (sans décimales).</string>
-    <string name="type_desc_int_list">Un champ Liste d\'Entiers correspond à une liste d\'entiers prédéfinie dans laquelle un utilisateur peut en choisir une.</string>
+    <string name="type_desc_int_list">Un champ Liste d\'Entiers correspond à une liste d\'entiers prédéfinie dans laquelle un utilisateur peut en choisir un.</string>
     <string name="type_desc_text">Un champ Texte peut contenir toute donnée textuelle.</string>
     <string name="type_desc_phone">Un champ Téléphone peut contenir un numéro de téléphone sous forme textuelle.</string>
     <string name="type_desc_url">Un champ Lien peut contenir un lien HTML au format texte.</string>
