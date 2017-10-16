@@ -1726,4 +1726,5 @@ All rights reserved</string>
     <string name="forum">Forum</string>
     <string name="autoincrement">Autoincrement</string>
     <string name="amazon_source_option_title">Amazon</string>
+    <string formatted="false" name="stats_title_in_list">%s by %s</string>
     </resources>
