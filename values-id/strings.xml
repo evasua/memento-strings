@@ -86,7 +86,7 @@
     <string name="home">rumah</string>
     <string name="work">kantor</string>
     <string name="other">lainnya</string>
-    <string name="image_not_found">Gambar tidak ditemukan.</string>
+    <string name="image_not_found">Gambar tidak ditemukan</string>
     <string name="audio_not_found">Tidak ditemukan berkas audio</string>
     <string name="flex_type_money_currency_dlg_title">Pilih mata uang</string>
     <string name="flex_type_money_currency_option_title">Mata Uang</string>
@@ -387,7 +387,7 @@ Anda harus memasukkan kata sandi ini untuk mengakses koleksi terenkripsi.</strin
     <string name="wrong_master_password">Kata sandi salah</string>
     <string name="button_home">Kembali</string>
     <string name="library_is_locked">Akses ke koleksi terenkripsi ditutup</string>
-    <string name="library_pass_access_description">Anda harus memasukkan kata sandi utama untuk mengakses koleksi ini.</string>
+    <string name="library_pass_access_description">Anda harus memasukkan kata sandi utama untuk mengakses koleksi ini</string>
     <string name="library_encription_checkbox">Enkripsi konten</string>
     <string name="library_encription_description">Field string entri akan dienkripsi menggunakan AES.
 Pencarian entri enkripsi tidak didukung.</string>
@@ -837,7 +837,7 @@ Anda bisa menambah field atau lists record di sini.</string>
     <string name="empty_fields_list_text">Tidak ada field di koleksi ini.</string>
     <string name="empty_aggregation_list_text">Koleksi ini tidak memiliki fungsi agregasi.</string>
     <string name="empty_chart_list_text">Koleksi ini tidak memiliki grafik.</string>
-    <string name="empty_entry_list_text">Koleksi belum berisi entri</string>
+    <string name="empty_entry_list_text">Koleksi belum berisi entri.</string>
     <string name="empty_recycle_bin_text">Tidak tersedia entri untuk pemulihan di koleksi ini.</string>
     <string name="empty_main_recycle_bin_text">Tidak ada koleksi tersedia untuk pemulihan.</string>
     <string name="string_edit_cap_options_title">Huruh besar</string>
@@ -1645,7 +1645,7 @@ Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event y
     <string name="wizard_library_name_hint2">Koleksi-koleksi digunakan untuk menyimpan daftar satu jenis item tertentu.</string>
     <string name="wizard_library_name_hint3">Koleksi setara dengan lembar kerja dalam suatu spreadsheet.</string>
     <string name="wizard_library_icon_title">Pilih ikon untuk koleksi ini</string>
-    <string name="wizard_library_structure_title">Ayo buat struktur koleksimu</string>
+    <string name="wizard_library_structure_title">Ayo buat struktur koleksimu.</string>
     <string name="wizard_library_structure_hint2">Setiap item yang anda taruh ke dalam koleksi disebut sebuah \'entri\'. Setiap entri akan punya field masing-masing dengan semua informasi yang anda ingin simpan.</string>
     <string name="wizard_library_structure_hint3">Sebuah entri setara dengan sebuah baris dalam suatu spreadsheet.</string>
     <string name="wizard_library_structure_hint4">Sebuah field setara dengan sebuah kolom dalam suatu spreadsheet.</string>
@@ -1727,4 +1727,168 @@ All rights reserved</string>
     <string name="autoincrement">Autoincrement</string>
     <string name="amazon_source_option_title">Amazon</string>
     <string formatted="false" name="stats_title_in_list">%s by %s</string>
+    <string name="sum_function_title">Sum</string>
+    <string name="max_function_title">Max</string>
+    <string name="min_function_title">Min</string>
+    <string name="avg_function_title">Average</string>
+    <string name="main_title">Memento Database</string>
+    <plurals name="library_box_entries_count">
+	<item quantity="one">Satu entri</item>
+	<item quantity="other"/>
+</plurals>
+    <string formatted="false" name="library_item_position_text">%d/%d</string>
+    <plurals name="field_depends_count">
+	<item quantity="one">Satu dependensi</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="normal">Normal</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="satellite">Satelit</string>
+    <string name="terrain">Terrain</string>
+    <string name="google_drive">Google Drive</string>
+    <string name="field_count_on_page">Field: %s</string>
+    <string name="entry_page_default">default</string>
+    <string name="faq">FAQ</string>
+    <string name="sort_by_subtitle">menurut %s</string>
+    <string name="group_by_subtitle">menurut %s</string>
+    <string name="sort_asc">ASC</string>
+    <string name="sort_desc">DESC</string>
+    <string name="image_info_button">INFO</string>
+    <string name="info_exif">EXIF:</string>
+    <string name="chart_type_scatter">Scatter</string>
+    <string name="chart_type_stepped_area">Stepped Area</string>
+    <string name="pie_chart_option_3d">3D</string>
+    <string name="icon_pack_title_field_material">Material</string>
+    <string name="icon_pack_title_field_mult_flat">Multimedia</string>
+    <plurals name="string_list_import_snackbar_ok">
+	<item quantity="one">Diimpor %d item</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="undo_button">Undo</string>
+    <plurals name="rating_stars_count">
+	<item quantity="one">%d bintang</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="field">Field</string>
+    <plurals name="conflict_count">
+	<item quantity="one">%d konflik terjadi saat sinkronisasi</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="cloud">Cloud</string>
+    <string name="cloud_offline">Offline</string>
+    <string name="byteShort">B</string>    
+    <string name="kilobyteShort">Kb</string>
+    <string name="megabyteShort">Mb</string>
+    <string name="gigabyteShort">Gb</string>
+    <string name="library_alias_menu_item">Alias</string>
+	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
+	<string name="default_file_manager_built_in">built-in</string>	
+	<string name="uservoice_menu_title">UserVoice</string>
+	<string name="edit_library_tabs_autofill">Autofill</string>
+	<string name="music_brainz_source">musicbrainz.org</string>
+	<string name="google_books_source">Google Books</string>
+    <string name="themoviedb_source">themoviedb.org</string>
+    <string name="themoviedb_source_tv">TV</string>
+
+    <string name="font_style">Style</string>
+    <string name="font_picker_dialog_title">Font</string>
+    <string name="font_style_normal">Normal</string>
+    <string name="font_sample_text">The quick brown fox jumped over the lazy dog.</string>
+    <string name="rating_tooltips_hint">Tooltip</string>
+    <plurals name="rating_tooltips_count">
+	<item quantity="other">%d tooltip</item>
+</plurals>
+    <string name="multiediting_title">Multi-edit</string>
+    <plurals name="notification_edit_library_common_text">
+	<item quantity="one">%d perubahan yang belum dibaca</item>
+	<item quantity="other"/>
+</plurals>
+
+    <plurals name="notification_comments_common_text">
+	<item quantity="one">%d komentar baru</item>
+	<item quantity="other"/>
+</plurals>
+
+    <string name="script">Script</string>
+    <string name="cloud_plan_plan3">Lite</string>
+    <string name="cloud_plan_plan6">Pro</string>
+    <string name="cloud_plan_plan10">Pro Plus</string>
+    <string name="memento_server_private_hint">host:port</string>
+    <string name="relation_type_one_to_one">One-to-One</string>
+    <string name="relation_type_one_to_many">One-to-Many</string>
+    <string name="relation_type_many_to_many">Many-to-Many</string>
+    <plurals name="comments_count">
+	<item quantity="one">%d komentar</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="trigger_event">Event</string>
+    <string name="trigger_default_name">Trigger %d</string>
+    <string name="debug">Debug</string>
+    <string name="uom_celsius">Celsius</string>
+    <string name="uom_fahrenheit">Fahrenheit</string>
+    <string name="uom_kelvin">Kelvin</string>
+    <string name="uom_rankine">Rankine</string>
+
+    <string name="uom_pascal">Pascal</string>
+    <string name="uom_meter">Meter</string>
+    <string name="uom_kilometer">Kilometer</string>
+    <string name="uom_centimeter">Sentimeter</string>
+    <string name="uom_nanometer">Nanometer</string>
+    <string name="uom_yard">Yard</string>
+    <string name="uom_parsec">Parsec</string>
+
+    <string name="uom_gram">Gram</string>
+    <string name="uom_kilogram">Kilogram</string>
+    <string name="uom_ton">Ton</string>
+    <string name="uom_liter">Liter</string>
+    <string name="uom_bit">Bit</string>
+    <string name="uom_byte">Byte</string>
+    <string name="uom_kilobit">Kilobit</string>
+    <string name="uom_kilobyte">Kilobyte</string>
+    <string name="uom_megabit">Megabit</string>
+    <string name="uom_megabyte">Megabyte</string>
+    <string name="uom_gigabit">Gigabit</string>
+    <string name="uom_gigabyte">Gigabyte</string>
+    <string name="uom_terabit">Terabit</string>
+    <string name="uom_terabyte">Terabyte</string>
+    <string name="uom_petabit">Petabit</string>
+    <string name="uom_petabyte">Petabyte</string>
+
+    <string name="uom_are">Are</string>
+    <string name="uom_knot">Knot</string>
+    <string name="uom_mach">Mach</string>
+
+    <string name="uom_watt">Watt</string>
+    <string name="uom_kilowatt">Kilowatt</string>
+    <string name="uom_megawatt">Megawatt</string>
+    <string name="uom_joule">Joule</string>
+    <string name="uom_kilojoule">Kilojoule</string>
+
+    <string name="uom_hertz">Hertz</string>
+    <string name="uom_kilohertz">Kilohertz</string>
+    <string name="uom_megahertz">Megahertz</string>
+    <string name="uom_gigahertz">Gigahertz</string>
+
+    <plurals name="users_count">
+	<item quantity="one">%d pengguna</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="individual">Individual</string>
+    <plurals name="columns_count">
+	<item quantity="one">%d kolom</item>
+	<item quantity="other"/>
+</plurals>
+
+    <string name="barcode_type_1d">Barcode</string>
+    <string name="barcode_type_2d">QR Code</string>
+
+    <string name="trigger_event_action">Action</string>
+    <string name="trigger">Trigger</string>
+    <string name="action_default_name">Action %d</string>
+    <string name="java_script_data_source_hint">JavaScript</string>
+    <string name="cloud_plan_plan3_annual">Lite</string>
+    <string name="cloud_plan_plan6_annual">Pro</string>
+    <string name="cloud_plan_plan10_annual">Pro Plus</string>
+    <string name="igdb_source">igdb.com</string>
+    <string name="wizard">Wizard</string>
     </resources>
