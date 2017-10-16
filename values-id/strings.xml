@@ -72,7 +72,7 @@
     <string name="search_parse_exception_messagee">String pencarian salah</string>
     <plurals name="NItemsFind">
 	<item quantity="one">1 entri ditemukan</item>
-	<item quantity="other"></item>
+	<item quantity="other"/>
 </plurals>
     <string name="memento_search">Pencarian Memento</string>
     <string name="memento_search_in_lib">Pencarian Memento pada %s</string>
@@ -823,11 +823,11 @@ sortir, grup, filter, grafik dan banyak lagi ...</string>
     <string name="only_title_on_tile">Hanya nama koleksi</string>
     <plurals name="fields_count">
 	<item quantity="one">Satu field</item>
-	<item quantity="other"></item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="libraries_count">
 	<item quantity="one">Satu koleksi</item>
-	<item quantity="other"></item>
+	<item quantity="other"/>
 </plurals>
     <string name="empty">Kosong</string>
     <string name="add_page">Tambah Halaman</string>
@@ -893,7 +893,7 @@ Jalankan rebinding sekarang?</string>
     <string name="rating_field_max_value">Peringkat maksimum</string>
     <plurals name="delete_entries_snackbar_text">
 	<item quantity="one">%d entri telah dipindahkan ke keranjang sampah</item>
-	<item quantity="other"></item>
+	<item quantity="other"/>
 </plurals>
     <string name="auto_fill_barcode_empty2">Bandingkan atribut sumber autocomplete dan entri field</string>
     <string name="barcode_rule_delete_title">Hapus aturan</string>
@@ -956,19 +956,19 @@ Jalankan rebinding sekarang?</string>
     <string name="scale">Skala %d</string>
     <plurals name="duration_seconds">
 	<item quantity="one">1 detik</item>
-	<item quantity="other"></item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="duration_minutes">
 	<item quantity="one">1 menit</item>
-	<item quantity="other"></item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="duration_hours">
 	<item quantity="one">1 jam</item>
-	<item quantity="other"></item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="duration_days">
 	<item quantity="one">1 hari</item>
-	<item quantity="other"></item>
+	<item quantity="other"/>
 </plurals>
     <string name="all">Semua</string>
     <string name="page">Halaman</string>
@@ -1702,4 +1702,28 @@ Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event y
     <string name="wizard_complete_text3">Anda bisa mengganti struktur koleksi anda, menambah agregasi, autofill, script, dll. kapan saja.</string>
     <string name="close">Tutup</string>
 
-</resources>
+<string name="flex_type_title_int">Integer</string>
+    <string name="mobile">mobile</string>
+    <string name="pager">pager</string>
+    <string name="short_flex_role_status">status</string>
+    <string name="preference_category_backup">Backup</string>
+    <string name="backup_preference">Backup</string>
+    <string name="flex_type_audio">Audio</string>
+    <string name="copyright">Copyright © 2017 LuckyDroid
+All rights reserved</string>
+    <string name="luckydroid_web">www.mementodatabase.com</string>
+    <string name="flex_type_barcode">Barcode</string>
+    <string name="barcode_auto_fill_checkbox">Field autocompletion</string>
+    <string name="option_autofill_title">Autocomplete</string>
+    <string name="memento_email_hint">Email</string>
+    <string name="preference_category_google_docs">Google Sheets</string>
+    <string name="buy_from_market_hint">Google Wallet</string>
+    <string name="flex_type_email">Email</string>
+    <string name="font_size_screen_preference">Fonts</string>
+    <string name="flex_role_icon">Thumbnail</string>
+    <string name="short_flex_role_icon">thumbnail</string>
+    <string name="default_email_template_title">Default</string>
+    <string name="forum">Forum</string>
+    <string name="autoincrement">Autoincrement</string>
+    <string name="amazon_source_option_title">Amazon</string>
+    </resources>
