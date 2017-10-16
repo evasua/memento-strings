@@ -63,4 +63,6 @@
     <string name="auto_backup_time_always">Setiap kali</string>
     <string name="auto_backup_time_hour">Tidak lebih dari sekali per jam</string>
     <string name="auto_backup_time_day">Tidak lebih dari sekali per hari</string>
-</resources>
+<string name="slice_text_label">Label</string>
+    <string name="edit_library_tabs_facade">FACADE</string>
+    </resources>
