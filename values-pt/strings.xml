@@ -1627,4 +1627,19 @@ Todos os direitos reservados</string>
     <string name="date_formats_short">Ordenar data</string>
     <string name="language">Linguagem</string>
     <string name="next_button">Próximo</string>
+    <string name="uom_square_metre">Metro quadrado</string>
+    <string name="uom_category_velocity">Velocidade</string>
+    <string name="uom_knot">Nó</string>
+    <string name="uom_watt">Watt</string>
+    <string name="uom_kilowatt">Quilowatt</string>
+    <string name="uom_megawatt">Megawatt</string>
+    <string name="uom_horsepower">Potência</string>
+
+    <string name="uom_category_energy">Energia</string>
+    <string name="uom_joule">Joule</string>
+    <string name="uom_kilojoule">Quilojoule</string>
+
+    <string name="uom_hertz">Hertz</string>
+    <string name="uom_kilohertz">Quilohertz</string>
+    <string name="uom_megahertz">Megahertz</string>
     </resources>
