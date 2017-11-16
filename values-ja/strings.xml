@@ -1332,8 +1332,6 @@
     <string name="permission_accounts_text">Googleスプレッドシートとの同期や連絡先フィールドを利用するためにはGoogleアカウントへのアクセス許可が必要です.</string>
     <string name="permission_location_text">位置情報フィールドを利用するためには位置情報へのアクセス許可が必要です.</string>
     <plurals name="notification_edit_library_common_text">
-	<item quantity="one">%d つの変更点が未読</item>
-	<item quantity="other"/>
-</plurals>
-
-    </resources>
+	    <item quantity="other">%d つの変更点が未読</item>
+    </plurals>
+</resources>

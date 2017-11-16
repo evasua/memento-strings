@@ -1930,7 +1930,7 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
     <string name="wizard_field_type_title">Każde pole może być ustawione do przechowywania konkretnego typu danych.</string>
     <string name="wizard_field_display_options_title">Czy chcesz wyświetlić wartości tego pola na liście wpisów?</string>
     <string name="wizard_field_display_no">Nie, dziękuję</string>
-    <string name="more_info">Potrzebujesz pomocy?</string>
+    <string name="more_info">Pomocy?</string>
     <string name="type_desc_rating">Pole oceny może być puste lub zawierać liczbę od 1 do 5 (gwiazdek).</string>
     <string name="type_desc_location">Pole \'Lokalizacja\' może zawierać lokalizację, opisaną jako szerokość/długość geograficzna i adres pocztowy.</string>
     <string name="type_desc_link_to_entry">Pole \'Link do wpisu\' może zawierać łącze do wpisu lub do wpisów w innej bibliotece.</string>
