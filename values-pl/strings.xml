@@ -1171,8 +1171,7 @@ Uruchomić przetwarzanie?</string>
 <string name="show_deleted_entries_menu_item">Pokaż skasowane wpisy</string>
 	<string name="upload_to_cloud_menu_item">Do Chmury</string>
 	<string name="welcome_text_title">Witaj w Memento Database</string>
-	<string name="welcome_text_description">"Biblioteka jest miejscem, gdzie przechowywane są twoje wpisy.
-\nMożesz rozpocząć poznawanie programu,  poprzez utworzenie biblioteki opartej na jednym z dołączonych szablonów."</string>	
+	<string name="welcome_text_description">"Biblioteka jest miejscem, gdzie przechowywane są twoje wpisy. Możesz rozpocząć poznawanie programu,  poprzez utworzenie biblioteki opartej na jednym z dołączonych szablonów."</string>	
 	
 <string name="memento_cloud">W Chmurze</string>
 	<string name="start_remove_librarary_from_cloud">Usuwanie biblioteki...</string>
@@ -1767,7 +1766,7 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
     <string name="permissions_delete_message">Czy na pewno chcesz usunąć uprawnienia dla \"%s\"?</string>
     <string name="field_permission_invisible">Niewidoczne</string>
     <string name="field_permission_read_only">Do odczytu</string>
-    <string name="field_permissions_limit">Prawa dostępu mogą być ustawiane tylko w planie Zespół</string>
+    <string name="field_permissions_limit">Prawa dostępu mogą być ustawiane tylko w planie Zespół.</string>
     <string name="user_groups">Grupy użytkowników</string>
     <string name="add_user_group">Dodaj użytkownika do grupy</string>
     <string name="add_user_group_hint">Nazwa grupy</string>
@@ -1796,7 +1795,7 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
     <string name="add_linked_libraries">Dołącz powiązane biblioteki</string>
     <string name="create_collections">Utwórz biblioteki</string>
     <string name="create_collections_success">Utworzono biblioteki</string>
-    <string name="template_included_libraries">Szablon zawiera dodatkowe biblioteki</string>
+    <string name="template_included_libraries">Szablon zawiera dodatkowe biblioteki.</string>
 
     <string name="entries_view_type_cards">Karty</string>
     <string name="card_view_number_of_columns">Liczba kolumn</string>
@@ -1832,7 +1831,7 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
     <string name="repository_js_libraries">Magazyny</string>
     <string name="card_view_squared_image">Przytnij obrazek do kształtu kwadratu</string>
     <string name="warning">Uwaga</string>
-    <string name="add_javascript_library">Dodaj biblioteki JavaScript</string>
+    <string name="add_javascript_library">Dodaj biblioteki JavaScript...</string>
     <string name="add_repository">Dodaj magazyn</string>
     <string name="repository_location_hint">Adres URL magazynu GitHub</string>
     <string name="repository_location_error">Podaj link HTTPS do magazynu GitHub. Na przykład: https://github.com/username/repo-name</string>
@@ -1912,4 +1911,73 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
     <string name="frozen_alien_text">Biblioteka jest zamrożona. Proszę skontaktować się z właścicielem (%s).</string>
     <string name="number_increment_delta_title">Przyciski zwiększania/zmniejszania</string>
     <string name="line_interpolate_nulls_titles">Interpoluj puste wartości</string>
-</resources>
+<string name="search_base_folder">Wyszukaj w bazie</string>
+    <string name="wizard">Kreator</string>
+    <string name="wizard_library_name_title">Memento organizuje Twoje informacje w bibliotekach. Jak chcesz nazwać swoja bibliotekę?</string>
+    <string name="wizard_library_name_hint2">Biblioteki używane są do przechowywania list, jednego, konkretnego typu elementu.</string>
+    <string name="wizard_library_name_hint3">Biblioteka jest podobna do arkuszy w arkuszu kalkulacyjnym.</string>
+    <string name="wizard_library_icon_title">Wybierz ikonę dla biblioteki</string>
+    <string name="wizard_library_structure_title">Utwórzmy strukturę Twojej biblioteki.</string>
+    <string name="wizard_library_structure_hint3">Wpis jest odpowiednikiem wiersza w arkuszu kalkulacyjnym.</string>
+    <string name="wizard_library_structure_hint4">Pole jest odpowiednikiem kolumny w arkuszu kalkulacyjnym.</string>
+    <string name="wizard_library_structure_hint2">Każdy element wprowadzany do biblioteki nazywany jest \"wpisem\". Każda wpis składa się z pól ze wszystkimi informacjami, które chcesz zachować.</string>
+    <string name="wizard_select_field_type_message">Proszę wybrać typ pola</string>
+    <string name="wizard_field_options_title">Atrybuty pola</string>
+    <string name="wizard_field_items_title">Elementy</string>
+    <string name="wizard_field_options_select_type_message">Atrybuty pola będą dostępne po wybraniu typu pola.</string>
+    <string name="wizard_field_options_empty">Dostępne są tylko zaawansowane atrybuty dla wybranego typu pola.</string>
+    <string name="wizard_field_advanced_options_button">Zaawansowane</string>
+    <string name="wizard_field_type_title">Każde pole może być ustawione do przechowywania konkretnego typu danych.</string>
+    <string name="wizard_field_display_options_title">Czy chcesz wyświetlić wartości tego pola na liście wpisów?</string>
+    <string name="wizard_field_display_no">Nie, dziękuję</string>
+    <string name="more_info">Potrzebujesz pomocy?</string>
+    <string name="type_desc_rating">Pole oceny może być puste lub zawierać liczbę od 1 do 5 (gwiazdek).</string>
+    <string name="type_desc_location">Pole \'Lokalizacja\' może zawierać lokalizację, opisaną jako szerokość/długość geograficzna i adres pocztowy.</string>
+    <string name="type_desc_link_to_entry">Pole \'Link do wpisu\' może zawierać łącze do wpisu lub do wpisów w innej bibliotece.</string>
+    <string name="type_desc_contact">Pole \'Kontakt\' może zawierać link do kontaktu w lokalnej aplikacji Kontakty.</string>
+    <string name="type_desc_images">Pole \'Obraz\' może zawierać linki do obrazów.</string>
+    <string name="type_desc_signature">Pole podpisu umożliwia gromadzenie podpisów elektronicznych.</string>
+    <string name="type_desc_file">Pole \'Link do pliku\' może zawierać linki do plików zapisanych w pamięci zewnętrznej.</string>
+    <string name="type_desc_audio">Pole \'Dźwięk\' może zawierać linki do zapisanych plików dźwiękowych.</string>
+    <string name="type_desc_date">Pole \'Data\' może zawierać wartość, która będzie używana do określenia daty w kalendarza.</string>
+    <string name="type_desc_datetime">Pole \'Data-Czas\' może zawierać wartość, która będzie służyć do określonej daty i godziny w kalendarzu.</string>
+    <string name="type_desc_time">Pole \'Czas\' może zawierać wartość, która będzie służyć do określonia pory dnia.</string>
+    <string name="type_desc_boolean">Pole \'Boolean\' udostępnia pojedyncze pole wyboru (tak/nie).</string>
+    <string name="type_desc_int_list">Pole \'Liczba całkowita\' to uporządkowany zestaw liczb, z których użytkownik może wybrać tylko jedną.</string>
+    <string name="type_desc_text">Pole \'Tekst\' może zawierać dowolne dane tekstowe.</string>
+    <string name="type_desc_phone">Pole \'Numer telefonu\' może zawierać numer telefonu w formie tekstowej.</string>
+    <string name="type_desc_url">Pole \'Hiperłącze\' może zawierać tekstowy link HTML.</string>
+    <string name="type_desc_email">Pole \'Adres e-mail\' może zawierać adres e-mail w formie tekstowej.</string>
+    <string name="type_desc_barcode">Pole \'Kod kreskowy\' służy do skanowania kodów kreskowych lub kodów QR.</string>
+    <string name="type_desc_pass">Pole \'Hasło\' może zawierać dowolne dane tekstowe. Znaki w polu hasła są maskowane (wyświetlane jako gwiazdki).</string>
+    <string name="type_desc_rich">Pole \'Tekst sformatowany\' może zawierać dowolne dane tekstowe, w tym informacje o formatowaniu tekstu.</string>
+    <string name="type_desc_single_choice">Pole \'Pojedynczy wybór\' to zestaw ciągów tekstowych, z których użytkownik może wybrać tylko jeden.</string>
+    <string name="type_desc_calc">Pole \'Obliczanie\' służy do wyświetlania wartości (tylko do odczytu) opierając się na obliczeniach, które mogą zawierać wartości z innych pól wpisu.</string>
+
+    <string name="wizard_complete_text1">Gratulujemy!</string>
+    <string name="wizard_complete_text2">Udało Ci się utworzyć bibliotekę.</string>
+    <string name="wizard_complete_text3">W każdej chwili możesz zmienić strukturę swojej biblioteki, dodać agregację, automatyczne uzupełnianie, skrypty itp.</string>
+    <string name="close">Zamknij</string>
+
+<string name="repository_android_intents_hint">Funkcje do interakcji z innymi aplikacjami Android</string>
+    <string name="action_with_entry_context">Akcje dla wpisów</string>
+    <string name="wizard_add_name_field_message">Dodaj pole, które będzie nazwą wpisu.</string>
+    <string name="wizard_field_name_title">Czy chciałbyś nazwać to pole?</string>
+    <string name="wizard_choice_field_items_empty_text">Należy ustalić liczbę elementów (wartości) dla typu pola.</string>
+    <string name="wizard_field_display_name">Jako nazwa wpisu</string>
+    <string name="wizard_field_display_thumb">Jako miniaturka wpisu</string>
+    <string name="wizard_field_display_desc">Jako opis wpisu</string>
+    <string name="wizard_field_display_status">Jako status wpisu</string>
+    <string name="type_desc_js">Wartość pola będzie wynikiem wykonania skryptu zdefiniowanego w polu i wykonanego w kontekście wprowadzania.</string>
+    <string name="type_desc_multiple_choice">Pole \'Lista wielokrotnego wyboru\' to zestaw ciągów tekstowych, z których użytkownik może wybrać dowolną liczbę ciągów.</string>
+    <string name="type_desc_int">Pola \'Liczba\' zawiera zwykłe liczby, bez miejsc dziesiętnych.</string>
+    <string name="type_desc_real">Pole \'Liczba rzeczywista\' zawiera dowolną liczbę, z lub bez miejsc po przecinku.</string>
+    <string name="type_desc_money">Pole \'Pieniądze\' to waluta i kwota. Podczas definiowania szablonu trzeba będzie wybrać walutę.</string>
+    <string name="wizard_field_name_examples">Dla przykładu mogą to być pola: \"tytuł\", \"opis\", \"typ sprzętu\", \"koszt\", \"rozmiar\", \"lokalizacja\" itp.</string>
+    <string name="bulk_add">Dodaj luźny</string>
+    <string name="test_js_data_source_query_hint">Ciąg zapytania</string>
+    <string name="test_js_data_source_query_result">Wynik zapytania:
+%s</string>
+    <string name="type_desc_radiobuttons">Pole \'Przycisk opcji\' może służyć do wyboru z grupy opcji.</string>
+    <string name="type_desc_checkboxes">Pole \'Przycisk wyboru\' pozwala na przedstawienie jednego lub wielu pól, umożliwiających wielokrotny wybór.</string>
+    </resources>

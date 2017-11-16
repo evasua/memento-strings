@@ -3,8 +3,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Eintrag hinzufügen</string>
-    <string name="main_menu_add_lib">Datenbank hinzufügen</string>
-    <string name="ghostData_lib_title">Name der Datenbank</string>
+    <string name="main_menu_add_lib">Sammlung hinzufügen</string>
+    <string name="ghostData_lib_title">Name der Sammlung</string>
     <string name="custom_template_title">Benutzerdefiniert</string>
     <string name="button_create">Erstellen</string>
     <string name="button_yes">Ja</string>
@@ -44,13 +44,13 @@
     <string name="flex_template_options_title">Fortgeschrittene Parameter</string>
     <string name="error_template_empty_title">Gebe den Feldnamen ein</string>
     <string name="error_library_withous_name_flex">Ein Sammlung muss wenigstens ein Feld mit der Funktion – \"name\" haben.</string>
-    <string name="select_library_icon_activity">Wähle ein Icon für das Sammlung</string>
+    <string name="select_library_icon_activity">Wähle ein Icon für die Sammlung</string>
     <string name="select_flex_template_role_title">Feldfunktion</string>
-    <string name="library_edit2">Bearbeite das Sammlung</string>
+    <string name="library_edit2">Bearbeite die Sammlung</string>
     <string name="library_edit">Bearbeiten</string>
     <string name="library_delete">Löschen</string>
-    <string name="library_delete_message_title">Lösche das Sammlung</string>
-    <string name="library_delete_message_text">Soll das Sammlung \"%s\" wirklich gelöscht werden?</string>
+    <string name="library_delete_message_title">Lösche die Sammlung</string>
+    <string name="library_delete_message_text">Soll die Sammlung \"%s\" wirklich gelöscht werden?</string>
     <string name="error_library_empty_title">Gebe den Sammlungnamen ein</string>
     <string name="library_item_edit">Bearbeiten</string>
     <string name="library_item_delete">Löschen</string>
@@ -207,7 +207,7 @@
     <string name="recovering_message">Stelle Sammlung wieder her</string>
     <string name="library_recover">Wiederherstellen</string>
     <string name="deleting_library_title">Löschen</string>
-    <string name="deleting_library_message">Lösche das Sammlung</string>
+    <string name="deleting_library_message">Lösche die Sammlung</string>
     <!-- 1.2.5 -->
     <string name="view_category">Aussehen</string>
     <string name="title_lib_theme_preference">Design</string>
@@ -219,11 +219,11 @@
     <string name="bind_to_gdocs_title">Mit Google Sheets verknüpfen</string>
     <string name="unbind_message_title">Verknüpfung nach Google Sheets aufheben</string>
     <string name="unbind_message_text">Soll die Verknüpfung des Sammlung \"%s\" nach Google Sheets wirklich aufgehoben werden?</string>
-    <string name="bind_to_gdocs_message">Verknüpfe das Sammlung mit Google Sheets.</string>
+    <string name="bind_to_gdocs_message">Verknüpfe die Sammlung mit Google Sheets.</string>
     <!-- für & wirklich amp notwendig? -->
-    <string name="bind_to_gdocs_success">Das Sammlung wurde mit Google Sheets verknüpft.</string>
-    <string name="sync_with_gdocs_success">Das Sammlung wurde mit Google Text Tabellen synchronisiert</string>
-    <string name="sync_with_gdocs_success_2">Das Sammlung \"%s\" wurde mit Google Text Tabellen synchronisiert</string>
+    <string name="bind_to_gdocs_success">Die Sammlung wurde mit Google Sheets verknüpft.</string>
+    <string name="sync_with_gdocs_success">Die Sammlung wurde mit Google Text Tabellen synchronisiert</string>
+    <string name="sync_with_gdocs_success_2">Die Sammlung \"%s\" wurde mit Google Text Tabellen synchronisiert</string>
     <string name="sync_with_gdocs_title">Synchronisation mit Google Sheets</string>
     <string name="sync_with_gdocs_message">Synchronisation des Sammlung mit Google Text Tabellen.</string>
     <string name="sync_with_gdocs">Synchronisiere mit Google Sheets</string>
@@ -244,7 +244,7 @@
     <string name="conflict_dialog_text">Ein Eintrag wurde sowohl in Memento als auch bei Google Text &amp; Tabellen verändert. Welche Version ist die aktuelle?</string>
     <string name="copy_memento_to_gdocs">Eintrag in Memento</string>
     <string name="copy_gdocs_to_memento">Eintrag von Google Text &amp; Tabellen</string>
-    <string name="edit_flex_title_disabled">Dieses Feld kann nicht umbenannt werden weil das Sammlung mit Google Text &amp; Tabellen verknüpft ist</string>
+    <string name="edit_flex_title_disabled">Dieses Feld kann nicht umbenannt werden weil die Sammlung mit Google Text &amp; Tabellen verknüpft ist</string>
     <string name="cant_bind">In der kostenlosen Version können nur 2 Sammlung mit Google Text &amp; Tabellen verknüpft werden.\nUm diese Beschränkung aufzuheben sollte auf die PRO Version umgestiegen werden.</string>
     <string name="button_pro_version">PRO Version</string>
     <!-- 1.3.1 -->
@@ -259,7 +259,7 @@
     <string name="public_to_picasa_success">Upload der Bilder fertig</string>
     <string name="picasa_task_step_auth">Anmelden beim Picasa Service</string>
     <string formatted="false" name="picasa_send_image_step">Upload von Sammlungbildern nach Picasa. %s von %s</string>
-    <string name="public_library">Veröffentliche das Sammlung</string>
+    <string name="public_library">Veröffentliche die Sammlung</string>
     <string name="update_public_library">Aktualisiere die veröffentlichten Sammlungen</string>
     <string name="memento_register_account_title">Erstelle ein Passwort\nauf dem Memento Server</string>
     <string name="memento_register_account_text">Ein Passwort bei Memento ist notwendig um Sammlungen zu veröffentlichen und sie zu abonnieren</string>
@@ -281,7 +281,7 @@
     <string name="memento_account_title">Memento Konto</string>
     <string name="memento_create_account_button">Neues Konto</string>
     <string name="memento_auth_error">Falsche Benutzerkennung oder Passwort</string>
-    <string name="memento_library_lock">Das Sammlung ist blockiert, später nochmal probieren</string>
+    <string name="memento_library_lock">Die Sammlung ist blockiert, später nochmal probieren</string>
     <string name="preference_memento_account_title">Memento Konto</string>
     <string name="preference_memento_account_hint">Ihr Memento Konto Benutzerkennung und Passwort</string>
     <string name="public_library_task_auth">Anmelden beim Memento Service</string>
@@ -289,23 +289,23 @@
     <string formatted="false" name="public_library_task_send_items">Übertrage die Sammlungeinträge.\n%s von %s</string>
     <string name="memento_not_support_template">Ihre Version von Memento ist nicht mehr aktuell, bitte aktualisieren</string>
     <string name="memento_not_found">Resource nicht gefunden</string>
-    <string name="alias_hint">Den Alias für das Sammlung eingeben</string>
+    <string name="alias_hint">Den Alias für die Sammlung eingeben</string>
     <string name="button_publish">Veröffentlichen</string>
-    <string name="publish_update_success">Das Sammlung wurde aktualisiert</string>
+    <string name="publish_update_success">Die Sammlung wurde aktualisiert</string>
     <string name="private_library_checkbox">Privater Zugriff</string>
-    <string name="private_library_checkbox_hint">Nur die angegebenen Benutzer werden Zugriff auf das Sammlung haben</string>
+    <string name="private_library_checkbox_hint">Nur die angegebenen Benutzer werden Zugriff auf die Sammlung haben</string>
     <string name="enter_alias">Gib ein Alias des Sammlungen ein</string>
-    <string name="incorrect_alias">Das Sammlung Alias kann nur Buchstaben und Ziffern enthalten</string>
+    <string name="incorrect_alias">Die Sammlung Alias kann nur Buchstaben und Ziffern enthalten</string>
     <string name="public_library_address_text">Sammlung Addresse</string>
     <string name="alias_exists">Ein Sammlung mit dem gleichen Alias wurde bereits veröffentlicht</string>
-    <string name="memento_forbidden_error">Zugriff auf das Sammlung ist nicht erlaubt</string>
-    <string name="publish_library_address">Das Sammlung %s ist nun verfügbar unter</string>
-    <string name="publish_library_address_hint"> Ihre Bekannten können nun Memento benutzen um sich das Sammlung anzusehen. Zum Abonnieren sollte sie die oben genannte Adresse benutzen.</string>
+    <string name="memento_forbidden_error">Zugriff auf die Sammlung ist nicht erlaubt</string>
+    <string name="publish_library_address">Die Sammlung %s ist nun verfügbar unter</string>
+    <string name="publish_library_address_hint"> Ihre Bekannten können nun Memento benutzen um sich die Sammlung anzusehen. Zum Abonnieren sollte sie die oben genannte Adresse benutzen.</string>
     <string name="deafult_group_title">Meine Sammlungen</string>
     <string name="subscribe_activity_title">Sammlung abonnieren</string>
     <string name="library_uri_hint">Sammlung Adresse</string>
     <string name="find_libraries_task_title">Sammlung search</string>
-    <string name="find_libraries_task_by_uri">Abonniere das Sammlung\nnach der Adresse</string>
+    <string name="find_libraries_task_by_uri">Abonniere die Sammlung\nnach der Adresse</string>
     <string name="find_libraries_task_by_user">Empfange Sammlungliste\ndes Benutzers</string>
     <string name="libraries_list_result_header">Sammlungen gefunden</string>
     <string name="libraries_by_user_not_found">Der angegebene Benutzer wurde nicht gefunden oder er hat keine Sammlungen veröffentlicht</string>
@@ -323,22 +323,22 @@
     <string name="subscribe_have_updated_pack">Empfange Sammlungaktualisierung</string>
     <string name="subscribe_last_update">Letzte Aktualisierung %s</string>
     <string name="subscribe_last_update_dialog_title">Aktualisiere Sammlung</string>
-    <string name="subscribe_last_update_dialog_message">Aktualisiere das Sammlung</string>
-    <string name="clear_preference">Leere das Sammlung</string>
+    <string name="subscribe_last_update_dialog_message">Aktualisiere die Sammlung</string>
+    <string name="clear_preference">Leere die Sammlung</string>
     <string name="clear_preference_hint">Lösche alle Einträge in dem Sammlung</string>
     <string name="clear_preference_quest">Löschen aller Einträge des Sammlung?</string>
     <string name="last_sync">Letzte Aktualisierung: %s</string>
     <string name="last_public">Veröffentlicht: %s</string>
     <string name="unpublic_library_title">Ziehe Veröffentlichung des Sammlung zurück</string>
     <string name="unpublic_library">Zurückziehen</string>
-    <string name="unpublish_success">Das Sammlung wurde zurückgezogen</string>
-    <string name="unpublic_message_text">Möchten Sie das Sammlung \"%s\" wirklich zurückziehen?</string>
+    <string name="unpublish_success">Die Sammlung wurde zurückgezogen</string>
+    <string name="unpublic_message_text">Möchten Sie die Sammlung \"%s\" wirklich zurückziehen?</string>
     <string name="unbind_from_gdocs_hint">Link zu Google Text &amp; Tabellen aufheben</string>
     <string name="preference_category_google_docs">Google Text &amp; Tabellen</string>
-    <string name="unbind_from_google_docs_success">Das Sammlung ist nicht mehr mit Google Text &amp; Tabellen verbunden</string>
+    <string name="unbind_from_google_docs_success">Die Sammlung ist nicht mehr mit Google Text &amp; Tabellen verbunden</string>
     <string name="preference_category_memento_server">Memento Server</string>
     <string name="unpublic_library_hint">Zurückziehen des Sammlung</string>
-    <string name="need_unpublic_library">Bevor das Sammlung gelöscht wird, sollte die Veröffentlichung zurückgezogen werden</string>
+    <string name="need_unpublic_library">Bevor die Sammlung gelöscht wird, sollte die Veröffentlichung zurückgezogen werden</string>
     <string name="rename_library">Umbenennen</string>
     <string name="rename_dialog_title">Umbenennen</string>
     <string name="rename_dialog_text">Sammlung Name</string>
@@ -348,8 +348,8 @@
     <string name="cant_public">In der freien Version können nur 3 Sammlungen veröffentlicht werden.\nUpgrade zur PRO Version um dieses Limit aufzuheben.</string>
     <string name="add_permission_user_hint">Gebe Benutzerkennung oder EMail ein</string>
     <string name="edit_pub_permissions">Sammlung Zugriffsrechte</string>
-    <string name="edit_pub_permissions_hint">Bearbeite die Liste der Nutzer die Zugriffsrechte auf das Sammlung haben</string>
-    <string name="edit_pub_permissions_task_dialog_message">Ändere die Zugriffsrechte auf das Sammlung</string>
+    <string name="edit_pub_permissions_hint">Bearbeite die Liste der Nutzer die Zugriffsrechte auf die Sammlung haben</string>
+    <string name="edit_pub_permissions_task_dialog_message">Ändere die Zugriffsrechte auf die Sammlung</string>
     <!-- 1.4.5 -->
     <string name="import_template">Importiere Vorlage</string>
     <string name="export_template">Exportiere Vorlage</string>
@@ -1099,7 +1099,7 @@
 	<string name="start_remove_librarary_from_cloud">Sammlung wird gelöscht...</string>
 	<string name="success_remove_librarary_from_cloud">Sammlung mit erfolg gelöscht aus der Cloud</string>
 	<string name="start_upload_library_to_cloud">Sammlung wird hochgeladen...</string>	
-	<string name="success_upload_library_to_cloud">Das Sammlung wurde erfolgreich hochgeladen...\nDas Sammlung wird automatisch synchronisiert.</string>
+	<string name="success_upload_library_to_cloud">Die Sammlung wurde erfolgreich hochgeladen...\nDie Sammlung wird automatisch synchronisiert.</string>
 	<string name="push_entries_to_cloud_message" formatted="false">"Einträge werden hochgeladen
 \n%s von %s Einträgen verarbeitet "</string>
 	<string name="permissions">Erlaubnisse</string>
@@ -1127,7 +1127,7 @@
     <string name="cloud_size">Größe</string>
     <string name="cloud_server_unavaliable">"Memento Cloud Server ist nicht erreichbar, checken Sie die Verbindung zum Internet, ob diese auf Ihrem Gerät eingeschaltet ist. "</string>
     <string name="delete_from_cloud">Löschen aus der Cloud</string>
-    <string name="delete_from_cloud_message_question">Wollen Sie wirklich das Sammlung aus der Cloud löschen?</string>
+    <string name="delete_from_cloud_message_question">Wollen Sie wirklich die Sammlung aus der Cloud löschen?</string>
         
     <string name="byteShort">B</string>    
     <string name="kilobyteShort">KB</string>
@@ -1140,7 +1140,7 @@
     <string name="upload_files_to_cloud">Dateien werden hochgeladen</string>
     <string name="cloud_upload_error_title">Wir konnten dieses Sammlung nicht synchronisieren</string>
     <string name="featured_templates">Bevorzugt</string>
-	<string name="welcome_text_description">Das Sammlung ist der Platz, wo Ihre Einträge gespeichert werden.\nSie können mit der Einarbeitung in das Programm beginnen, indem Sie ein Sammlung erstellen, das auf einer der mitgelieferten Vorlagen basiert.</string>
+	<string name="welcome_text_description">Die Sammlung ist der Platz, wo Ihre Einträge gespeichert werden.\nSie können mit der Einarbeitung in das Programm beginnen, indem Sie ein Sammlung erstellen, das auf einer der mitgelieferten Vorlagen basiert.</string>
 	
 	<string name="success_pull_library_from_cloud">Einträge wurden erfolgreich heruntergeladen.\nDie Sammlung wird automatisch synchronisiert.</string>
 	<string name="cloud_files_count">Dateien Anzahl</string>

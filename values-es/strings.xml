@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Añadir una entrada</string>
@@ -1103,7 +1103,8 @@
 	<string name="show_deleted_entries_menu_item">Mostrar entradas borradas</string>
 	<string name="upload_to_cloud_menu_item">A la Nube</string>
 	<string name="welcome_text_title">Bienvenido a Memento Database</string>
-	<string name="welcome_text_description">La biblioteca es el lugar donde se almacenarán tus entradas.\nPuedes empezar familiarizándote con Memento creando una biblioteca basada en una de las plantillas proporcionadas.</string>	
+	<string name="welcome_text_description">La biblioteca es el lugar donde se almacenarán tus datos.
+Puedes empezar familiarizándote con Memento creando una biblioteca basada en una de las plantillas proporcionadas.</string>	
 	
 <string name="memento_cloud">Memento Cloud</string>
 	<string name="start_remove_librarary_from_cloud">Borrando biblioteca...</string>
@@ -1697,4 +1698,94 @@
     <string name="cloud_plan_team10">Equipo 10</string>
     <string name="cloud_plan_team15">Equipo 15</string>
     <string name="cloud_plan_team20">Equipo 20</string>
+    <string name="locale_key_field_description">El campo clave para edición de registros</string>
+
+    <string name="image_caption">Título</string>
+    <string name="flex_type_subheader">Sub encabezado</string>
+    <string name="create_subheader">Crear sub encabezado</string>
+    <string name="edit_subheader">Modificar sub encabezado</string>
+    <string name="add_user_group">Añadir grupo de usuario</string>
+    <string name="users_count_none">Sin usuarios</string>
+    <string name="pro_for_team">Funciones adicionales para todos los usuarios del equipo</string>
+    <string name="team_features_trial">Todos los planes incluyen 14 días de prueba gratis.</string>
+
+    <string name="tasker_plugin_create_entry_event_title">Registro creado</string>
+    <string name="tasker_plugin_delete_entry_event_title">Registro borrado</string>
+    <string name="tasker_plugin_modified_entry_event_title">Registro modificado</string>
+    <string name="no_libraries_text">Aún sin bibliotecas</string>
+    <string name="add_linked_libraries">Incluye bibliotecas relacionadas</string>
+    <string name="create_collections">Crear bibliotecas</string>
+    <string name="create_collections_success">Biblioteca creada</string>
+    <string name="template_included_libraries">La plantilla contiene bibliotecas adicionales</string>
+
+    <string name="entries_view_type_cards">Tarjetas</string>
+    <string name="card_view_number_of_columns">Número de columnas</string>
+    <string name="card_view_title_on_image">Mostrar texto sobre la imagen</string>
+    <string name="card_view_squared_image">Reportar imágenes en un cuadro</string>
+    <string name="hint_previous_entry">Registro anterior</string>
+    <string name="hint_next_entry">Próximo registro</string>
+    <string name="hint_remove_image_button">Quitar imagen</string>
+    <string name="hint_insert_image_button">Insertar imagen</string>
+    <string name="hint_capture_image_button">Capturar imagen</string>
+    <string name="hint_change_date">Cambiar fecha</string>
+    <string name="hint_change_time">Cambiar hora</string>
+    <string name="hint_add_reminder">Agregar recordatorio</string>
+    <string name="hint_remove_reminder">Quitar recordatorio</string>
+    <string name="hint_insert_contact_button">Insertar contacto</string>
+    <string name="hint_create_contact_button">Crear contacto</string>
+    <string name="hint_insert_audio_button">Insertar audio</string>
+    <string name="hint_record_audio_button">Grabar audio</string>
+    <string name="hint_insert_location_button">Insertar ubicación</string>
+    <string name="hint_get_my_location_button">Obtener mi ubicación</string>
+    <string name="hint_insert_entry_button">Insertar registro</string>
+    <string name="barcode_type_option_title">Tipo</string>
+    <string name="barcode_type_1d">Barra de código</string>
+    <string name="repository_js_libraries">Contenedores</string>
+    <string name="repository_android_intents_hint">Funciones para interacción con otras aplicaciones Android</string>
+    <string name="repository_data_sources_hint">Fuentes de datos para autocompletar</string>
+    <string name="warning">Cuidado</string>
+    <string name="add_javascript_library">Añadir biblioteca javascript</string>
+    <string name="add_repository">Añadir contenedor</string>
+    <string name="repository_not_found_error">No se puede encontrar contenedor: %s</string>
+    <string name="repository_delete_message">¿Realmente quiere eliminar el contenedor \"%s\"?</string>
+    <string name="repository_other">Otros</string>
+
+    <string name="map_field_current_by_default_title">Ubicación actual</string>
+    <string name="map_field_current_by_default_hint">Obtener ubicación actual por defecto</string>
+    <string name="receiving_document_content">Recibiendo contenido del documento</string>
+    <string name="find_address">Buscar dirección</string>
+    <string name="privacy_policy">Política de privacidad</string>
+    <string name="trigger_event_action">Acción</string>
+    <string name="action_context_library">Biblioteca</string>
+    <string name="action_context_view_entry">Registrar tarjeta de presentación</string>
+    <string name="trigger">Disparador</string>
+    <string name="action_default_name">Acción %d</string>
+    <string name="place_of_action">Lugar de acción</string>
+    <string name="action_arguments">Argumentos</string>
+    <string name="action_arguments_empty">El código puede tener argumentos, cuyos valores serán ingresados por el usuario.</string>
+    <string name="select_argument_type">Tipo de argumento</string>
+    <string name="script_argument_delete_message_text">¿Realmente quiere eliminar el argumento \"%s\"?</string>
+    <string name="create_argument">Crear argumento</string>
+    <string name="edit_argument">Modificar argumento</string>
+    <string name="argument_name">Nombre del argumento</string>
+    <string name="required_argument_text">El argumento debe ser llenado</string>
+    <string name="actions">Acciones</string>
+    <string name="empty_script_list_text">Esta biblioteca no contiene códigos</string>
+    <string name="empty_script_list_trigger_text">Un disparador es un código que define el proceso de un registro basado en un evento que ha tomado lugar</string>
+    <string name="empty_script_list_action_text">Una acción es un código que ha comenzado manualmente por presionar el botón en la biblioteca o tarjeta de entrada</string>
+    <string name="autofill_goto_script_title">Editor de código</string>
+    <string name="autofill_goto_script_hint">Código fuente</string>
+    <string name="java_script_data_source_title">Fuente personalizada</string>
+    <string name="script_cant_run_for_not_saved_library">Usted puede correr el código solamente después de grabar la biblioteca</string>
+    <string name="autofill_script_source_key_title">Señale la propiedad de objeto devuelta por el código</string>
+    <string name="test_js_data_source_query_hint">Cadena de consulta</string>
+    <string name="test_js_data_source_query_result">Resultado de la consulta:
+%s</string>
+    <string name="run">Correr</string>
+    <string name="run_arguments">Correr argumentos</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">"Usted puede conceder  permisos al código solamente después de grabar la biblioteca"</string>
+    <string name="script_permissions_required_message">La biblioteca tiene el código que necesitan los siguientes permisos:</string>
+    <string name="required_access_to_library">Acceso a %s</string>
+    <string name="action_with_library_context">Acción de la biblioteca</string>
+    <string name="action_with_entry_context">Acción de entrada</string>
     </resources>
