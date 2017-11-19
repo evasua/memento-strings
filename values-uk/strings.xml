@@ -1429,10 +1429,10 @@
 <string name="shared_with_me">Доступно для мене</string>
 	<string name="upload_to_cloud">Завантажити на хмару</string>
     <string name="cloud_plan_free">Безкоштовна</string>
-    <string name="cloud_plan_plan6">Професійна</string>
+    <string name="cloud_plan_plan6">ПРО</string>
     <string name="cloud_plan_plan3">Проста</string>
-    <string name="cloud_plan_plan10">Професійна +</string>
-    <string name="cloud_plan_storage">% Сховище</string>
+    <string name="cloud_plan_plan10">ПРО+</string>
+    <string name="cloud_plan_storage">%s Сховище</string>
 
     <string name="memento_server_cloud">Використовувати Memento хмару</string>
     <string name="memento_server_settings_group">Memento Сервер</string>

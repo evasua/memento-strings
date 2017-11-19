@@ -71,8 +71,7 @@
     <string name="search_hint">Pencarian entri</string>
     <string name="search_parse_exception_messagee">String pencarian salah</string>
     <plurals name="NItemsFind">
-	<item quantity="one">1 entri ditemukan</item>
-	<item quantity="other"/>
+	<item quantity="other">%d entri ditemukan</item>
 </plurals>
     <string name="memento_search">Pencarian Memento</string>
     <string name="memento_search_in_lib">Pencarian Memento pada %s</string>
@@ -822,12 +821,10 @@ sortir, grup, filter, grafik dan banyak lagi ...</string>
     <string name="show_update_time_on_tile">Waktu penyuntingan</string>
     <string name="only_title_on_tile">Hanya nama koleksi</string>
     <plurals name="fields_count">
-	<item quantity="one">Satu field</item>
-	<item quantity="other"/>
+	<item quantity="other">%d fields</item>
 </plurals>
     <plurals name="libraries_count">
-	<item quantity="one">Satu koleksi</item>
-	<item quantity="other"/>
+	<item quantity="other">%d koleksi</item>
 </plurals>
     <string name="empty">Kosong</string>
     <string name="add_page">Tambah Halaman</string>
@@ -845,8 +842,7 @@ Anda bisa menambah field atau lists record di sini.</string>
     <string name="string_edit_cap_options_sent">Di awal kalimat</string>
     <string name="string_edit_cap_options_wolds">Pada awal tiap kata</string>
     <string name="string_edit_cap_options_all">Semua huruf</string>
-    <string name="single_line_options_title">Satu baris
-field teks</string>
+    <string name="single_line_options_title">Satu baris field teks</string>
     <string name="main_field_options_tab_title">Utama</string>
     <string name="string_list_items_tab_title">Item</string>
     <string name="string_list_edit_item_title_hint">Judul item</string>
@@ -892,8 +888,7 @@ Jalankan proses rebinding koleksi ke tabel baru menggunakan metode baru.
 Jalankan rebinding sekarang?</string>
     <string name="rating_field_max_value">Peringkat maksimum</string>
     <plurals name="delete_entries_snackbar_text">
-	<item quantity="one">%d entri telah dipindahkan ke keranjang sampah</item>
-	<item quantity="other"/>
+	<item quantity="other">%d entri telah dipindahkan ke keranjang sampah</item>
 </plurals>
     <string name="auto_fill_barcode_empty2">Bandingkan atribut sumber autocomplete dan entri field</string>
     <string name="barcode_rule_delete_title">Hapus aturan</string>
@@ -955,20 +950,16 @@ Jalankan rebinding sekarang?</string>
     <string name="free_version_multi_field_limit">Pada versi gratis, anda hanya bisa menambahkan dua elemen. Upgrade ke versi PRO untuk menghilangkan batasan ini.</string>
     <string name="scale">Skala %d</string>
     <plurals name="duration_seconds">
-	<item quantity="one">1 detik</item>
-	<item quantity="other"/>
+	<item quantity="other">%d detik</item>
 </plurals>
     <plurals name="duration_minutes">
-	<item quantity="one">1 menit</item>
-	<item quantity="other"/>
+	<item quantity="other">%d menit</item>
 </plurals>
     <plurals name="duration_hours">
-	<item quantity="one">1 jam</item>
-	<item quantity="other"/>
+	<item quantity="other">%d jam</item>
 </plurals>
     <plurals name="duration_days">
-	<item quantity="one">1 hari</item>
-	<item quantity="other"/>
+	<item quantity="other">%d hari</item>
 </plurals>
     <string name="all">Semua</string>
     <string name="page">Halaman</string>
@@ -1733,13 +1724,11 @@ All rights reserved</string>
     <string name="avg_function_title">Average</string>
     <string name="main_title">Memento Database</string>
     <plurals name="library_box_entries_count">
-	<item quantity="one">Satu entri</item>
-	<item quantity="other"/>
+	<item quantity="other">%d entri</item>
 </plurals>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
     <plurals name="field_depends_count">
-	<item quantity="one">Satu dependensi</item>
-	<item quantity="other"/>
+	<item quantity="other">%d dependensi</item>
 </plurals>
     <string name="normal">Normal</string>
     <string name="hybrid">Hybrid</string>
@@ -1761,18 +1750,15 @@ All rights reserved</string>
     <string name="icon_pack_title_field_material">Material</string>
     <string name="icon_pack_title_field_mult_flat">Multimedia</string>
     <plurals name="string_list_import_snackbar_ok">
-	<item quantity="one">Diimpor %d item</item>
-	<item quantity="other"/>
+	<item quantity="other">Diimpor %d item</item>
 </plurals>
     <string name="undo_button">Undo</string>
     <plurals name="rating_stars_count">
-	<item quantity="one">%d bintang</item>
-	<item quantity="other"/>
+	<item quantity="other">%d bintang</item>
 </plurals>
     <string name="field">Field</string>
     <plurals name="conflict_count">
-	<item quantity="one">%d konflik terjadi saat sinkronisasi</item>
-	<item quantity="other"/>
+	<item quantity="other">%d konflik terjadi saat sinkronisasi</item>
 </plurals>
     <string name="cloud">Cloud</string>
     <string name="cloud_offline">Offline</string>
@@ -1800,13 +1786,11 @@ All rights reserved</string>
 </plurals>
     <string name="multiediting_title">Multi-edit</string>
     <plurals name="notification_edit_library_common_text">
-	<item quantity="one">%d perubahan yang belum dibaca</item>
-	<item quantity="other"/>
+	<item quantity="other">%d perubahan yang belum dibaca</item>
 </plurals>
 
     <plurals name="notification_comments_common_text">
-	<item quantity="one">%d komentar baru</item>
-	<item quantity="other"/>
+	<item quantity="other">%d komentar baru</item>
 </plurals>
 
     <string name="script">Script</string>
@@ -1818,8 +1802,7 @@ All rights reserved</string>
     <string name="relation_type_one_to_many">One-to-Many</string>
     <string name="relation_type_many_to_many">Many-to-Many</string>
     <plurals name="comments_count">
-	<item quantity="one">%d komentar</item>
-	<item quantity="other"/>
+	<item quantity="other">%d komentar</item>
 </plurals>
     <string name="trigger_event">Event</string>
     <string name="trigger_default_name">Trigger %d</string>
@@ -1870,13 +1853,11 @@ All rights reserved</string>
     <string name="uom_gigahertz">Gigahertz</string>
 
     <plurals name="users_count">
-	<item quantity="one">%d pengguna</item>
-	<item quantity="other"/>
+	<item quantity="other">%d pengguna</item>
 </plurals>
     <string name="individual">Individual</string>
     <plurals name="columns_count">
-	<item quantity="one">%d kolom</item>
-	<item quantity="other"/>
+	<item quantity="other">%d kolom</item>
 </plurals>
 
     <string name="barcode_type_1d">Barcode</string>
