@@ -72,7 +72,7 @@
     <string name="date_default_null">Campo vacío por defecto</string>
     <string name="date_default_now">Fecha actual por defecto</string>
     <string name="search">Buscar</string>
-    <string name="search_hint">Búsqueda</string>
+    <string name="search_hint">Búsqueda de entrada</string>
     <string name="search_parse_exception_messagee">Cadena de búsqueda no válida</string>
     <plurals name="NItemsFind">
         <item quantity="one">1 entrada encontrada</item>
@@ -227,7 +227,7 @@ Todos los derechos reservados</string>
     <string name="sync_with_gdocs">Sincronizar con Google Sheets</string>
     <string name="google_docs_task_step_auth">Autentificando servicio con Google Sheets</string>
     <string name="google_docs_task_step_get_rows">Recibiendo listas</string>
-    <string formatted="false" name="google_docs_task_step_process_row">Procesando columnas. %s de %s</string>
+    <string formatted="false" name="google_docs_task_step_process_row">Procesando filas de una lista. %s de %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Añadiendo una fila. %s de %s</string>
     <string formatted="false" name="google_docs_task_step_update_row">Actualizando columna. %s de %s</string>
     <string name="google_docs_task_create_document">Creando hoja de cálculo</string>
@@ -491,7 +491,7 @@ Todos los derechos reservados</string>
     <string name="field_email_preferences_summary">Dar formato a entradas cuando las envías por e-mail</string>
     <string name="formatted_field_prompt">Seleccionar campos</string>
     <string name="formatted_field_name">El formato para el campo</string>
-    <string name="field_email_enter">Comenzar linea nueva</string>
+    <string name="field_email_enter">Comenzar una línea nueva</string>
     <string name="field_email_enter_summary">El Nombre y el valor serán mostrados en una nueva línea</string>
     <string name="colon_after_name">Dos puntos después del nombre</string>
     <string name="colon_after_name_summary">Usar dos puntos depués del nombre del campo</string>
@@ -1182,7 +1182,7 @@ Puedes empezar familiarizándote con Memento creando una biblioteca basada en un
 	<string name="info_menu_item">Información</string>   
 	<string name="unlimited_libraries">Bibliotecas ilimitadas</string>	
 	<string name="adv_free">Sin publicidad</string>
-	<string name="subscription_activation">Activar suscripción ...</string>
+	<string name="subscription_activation">Activar suscripción...</string>
 	<string name="subscription_activation_error">Error de activación: %s</string>
 	<string name="google_play_unavaliable">Google Play no está disponible:(</string>
 	<string name="button_signin">Iniciar sesión</string>
@@ -1390,7 +1390,7 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
     <string name="add_relationship_success">La relación entre bibliotecas será proporcionada utilizando el campo \"%s\".</string>
     <string name="display_aggregation">Pantalla de agregación</string>
     <string name="display_aggregation_hint">Agregación por entradas de la biblioteca enlazada</string>
-    <string name="create_shortcut_text">Escribe un nombre para este enlace</string>
+    <string name="create_shortcut_text">Escribe un nombre para este atajo</string>
     <string name="permission_storage_title">Almacenamiento</string>
     <string name="permission_storage_text">Para continuar, dale permiso de acceso a tu almacenamiento a Memento.</string>
     <string name="permission_storage_explanation_text">El acceso al almacenamiento es requerido para almacenar caché, copias de seguridad, y disponibilidad para adjuntar imágenes y archivos a tus entradas.</string>
@@ -1524,28 +1524,28 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
 
     <string name="trigger_permissions">Permisos para los scripts</string>
     <string name="trigger_permission_read_file">Leer archivos</string>
-    <string name="trigger_permission_read_file_hint">Permite a los scripts leer de almacenamiento externo</string>
+    <string name="trigger_permission_read_file_hint">Permite que los scripts lean del almacenamiento externo</string>
     <string name="trigger_permission_write_file">Escribir archivos</string>
-    <string name="trigger_permission_write_file_hint">Permite a los scripts escribir en el almacenamiento externo</string>
+    <string name="trigger_permission_write_file_hint">Permite que los scripts escriban en el almacenamiento externo</string>
     <string name="trigger_permission_network">Red</string>
-    <string name="trigger_permission_network_hint">Permite a los scripts ejecutar solicitudes HTTP</string>
+    <string name="trigger_permission_network_hint">Permite a los scripts ejecutar peticiones HTTP</string>
 
-    <string name="trigger_permission_libraries">Librerias</string>
-    <string name="trigger_permission_libraries_hint">Acceso a todas la librerias</string>
+    <string name="trigger_permission_libraries">Bibliotecas</string>
+    <string name="trigger_permission_libraries_hint">Acceso a todas las bibliotecas</string>
 
     <string name="trigger_permission_libraries_select">Bibliotecas disponibles</string>
     <string name="trigger_permission_libraries_select_title">Seleccionar bibliotecas</string>
-    <string name="need_pro_for_triggers">En la versión libre, una librería puede contener solo un disparador. Para remover esta restricción, por favor mejore a versión PRO.</string>
+    <string name="need_pro_for_triggers">En la versión gratuita, una biblioteca puede contener un único disparador. Por favor, para eliminar esta restricción actualice a la versión PRO.</string>
     <string name="filters_tab">Pestañas...</string>
-    <string name="filters_tab_dialog_title">Selecciones filtros para las pestañas</string>
-    <string name="export_template_include_filters">Filtros incluidos</string>
+    <string name="filters_tab_dialog_title">Seleccione filtros para las pestañas</string>
+    <string name="export_template_include_filters">Incluir filtros</string>
 
     <string name="unit_of_measurement_enable">Añadir una unidad de medida al campo</string>
     <string name="unit_of_measurement_none">Ninguno</string>
 
-    <string name="unit_of_measurement_category">Categoria</string>
+    <string name="unit_of_measurement_category">Categoría</string>
     <string name="unit_of_measurement">Unidad de medida</string>
-    <string name="unit_of_measurement_button">Adicione un convertidor de unidades al campo</string>
+    <string name="unit_of_measurement_button">Añadir un conversor de unidades al campo</string>
 
     <string name="uom_category_temperature">Temperatura</string>
     <string name="uom_celsius">Celsius</string>
@@ -1554,10 +1554,10 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
     <string name="uom_rankine">Rankine</string>
 
     <string name="uom_category_time">Tiempo</string>
-    <string name="uom_nanosecond">Nanosegundos</string>
-    <string name="uom_microsecond">Microsegundos</string>
-    <string name="uom_millisecond">Milisegundos</string>
-    <string name="uom_second">Segundos</string>
+    <string name="uom_nanosecond">Nanosegundo</string>
+    <string name="uom_microsecond">Microsegundo</string>
+    <string name="uom_millisecond">Milisegundo</string>
+    <string name="uom_second">Segundo</string>
     <string name="uom_minute">Minuto</string>
     <string name="uom_hour">Hora</string>
     <string name="uom_day">Día</string>
@@ -1581,7 +1581,7 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
     <string name="uom_foot">Pie</string>
     <string name="uom_yard">Yarda</string>
     <string name="uom_inch">Pulgada</string>
-    <string name="uom_angstrom">Anstroum</string>
+    <string name="uom_angstrom">Ångström</string>
     <string name="uom_astronomical_unit">Unidad astronómica</string>
     <string name="uom_light_year">Año luz</string>
     <string name="uom_parsec">Parsel</string>
@@ -1903,7 +1903,7 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
     <string name="select_attribute_type">Tipo de atributo</string>
     <string name="create_attribute">Crear atributo</string>
     <string name="edit_attribute">Modificar atributo</string>
-    <string name="attribute_name">Nombre de atributo</string>
+    <string name="attribute_name">Nombre del atributo</string>
     <string name="required_attribute_text">El atributo debe indicarse</string>
 
     <string name="attribute_display_title_in_card">El nombre del atributo</string>
