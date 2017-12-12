@@ -6,7 +6,7 @@
     <string name="ghostData_lib_title">Nombre de la biblioteca</string>
     <string name="custom_template_title">Personalizado</string>
     <string name="button_create">Crear</string>
-    <string name="button_yes">Si</string>
+    <string name="button_yes">Sí</string>
     <string name="button_ok">OK</string>
     <string name="button_no">No</string>
     <string name="button_save">Guardar</string>
@@ -41,7 +41,7 @@
     <string name="select_flex_template_type">Tipo de campo</string>
     <string name="default_value">Valor por defecto</string>
     <string name="flex_template_options_title">Parámetros avanzados</string>
-    <string name="error_template_empty_title">Tipo del nombre de campo</string>
+    <string name="error_template_empty_title">Escriba el nombre del campo</string>
     <string name="error_library_withous_name_flex">La librería debe tener al menos un campo con la función – \"nombre\".</string>
     <string name="select_library_icon_activity">Seleccione el icono para la biblioteca</string>
     <string name="select_flex_template_role_title">Función del campo</string>
@@ -54,7 +54,7 @@
     <string name="library_item_edit">Editar</string>
     <string name="library_item_delete">Eliminar</string>
     <string name="library_item_delete_message_text">¿Realmente desea eliminar esta entrada \"%s\" ?</string>
-    <string name="library_item_trush_message_text">¿Realmente quiere enviar esta entrada \"%s\" a la papelera?</string>
+    <string name="library_item_trush_message_text">¿Seguro que desea enviar la entrada \"%s\" a la Papelera?</string>
     <string name="library_items_count">Entradas: %s</string>
     <string name="library_menu_select_sort">Orden</string>
     <string name="library_menu_select_group">Grupo</string>
@@ -62,9 +62,9 @@
     <string name="select_group_template">Selecciona el campo para agrupar por</string>
     <string name="sort_by_date">Hora de creación</string>
     <string name="flex_delete_message_title">Eliminar este campo</string>
-    <string name="flex_delete_message_text">¿Realmente deseas eliminar este campo \"%s\" ?</string>
-    <string name="not_group">No agrupar</string>
-    <string name="bool_yes">Si</string>
+    <string name="flex_delete_message_text">¿Seguro que deseas eliminar el campo \"%s\"?</string>
+    <string name="not_group">Sin agrupar</string>
+    <string name="bool_yes">Sí</string>
     <string name="bool_not">No</string>
     <string name="group_null_value">Valor vacío</string>
     <string name="date_not_set">Valor vacío</string>
@@ -117,7 +117,7 @@
     <string name="preference_category_backup">Copia de seguridad</string>
     <string name="main_preferences_title">Ajustes</string>
     <string name="backup_preference">Copia de seguridad</string>
-    <string name="backup_summary_preference">Volcando todas la bibliotecas a tarjeta flash</string>
+    <string name="backup_summary_preference">Haciendo copia de seguridad de todas las bibliotecas a la tarjeta flash</string>
     <string name="backup_fail">Error en copia de seguridad</string>
     <string name="cdcard_not_found">Lo siento, tu SD está completa</string>
     <string name="backup_process">Copiando librerías.</string>
@@ -228,7 +228,7 @@ Todos los derechos reservados</string>
     <string name="google_docs_task_step_auth">Autentificando servicio con Google Sheets</string>
     <string name="google_docs_task_step_get_rows">Recibiendo listas</string>
     <string formatted="false" name="google_docs_task_step_process_row">Procesando columnas. %s de %s</string>
-    <string formatted="false" name="google_docs_task_step_send_row">Añadiendo columna. %s de %s</string>
+    <string formatted="false" name="google_docs_task_step_send_row">Añadiendo una fila. %s de %s</string>
     <string formatted="false" name="google_docs_task_step_update_row">Actualizando columna. %s de %s</string>
     <string name="google_docs_task_create_document">Creando hoja de cálculo</string>
     <string name="google_docs_task_create_worksheet">Añadiendo libro</string>
@@ -254,7 +254,7 @@ Todos los derechos reservados</string>
     <string name="public_library_title">Publicando biblioteca</string>
     <string name="public_to_picasa_message">Actualizando imágenes de biblioteca en Picasa</string>
     <string name="public_to_picasa_create_album">Creando un album en Picasa de la biblioteca publicada</string>
-    <string name="public_to_picasa_success">Imágenes subidas en Picasa</string>
+    <string name="public_to_picasa_success">Imágenes subidas a Picasa con éxito</string>
     <string name="picasa_task_step_auth">Autentificando servicio en Picasa</string>
     <string formatted="false" name="picasa_send_image_step">Cargando imágenes de biblioteca en Picasa. %s de %s</string>
     <string name="public_library">Publicar la biblioteca</string>
@@ -270,7 +270,7 @@ Todos los derechos reservados</string>
     <string name="login_empty">Introduce el Usuario</string>
     <string name="login_format_error">Sólo puede contener letras o números</string>
     <string name="pass_not_equal">Verifica de nuevo tu contraseña</string>
-    <string name="incorrect_email">Correo electrónico inválido</string>
+    <string name="incorrect_email">Correo electrónico no válido</string>
     <string name="create_memento_account_dlg_title">Registro</string>
     <string name="create_memento_account_dlg_text">Registrando al usuario en el servidor de Memento...</string>
     <string name="memento_register_user_exists">Éste usuario ya existe</string>
@@ -327,14 +327,14 @@ Todos los derechos reservados</string>
     <string name="clear_preference_quest">¿Borrar todas las entradas de la biblioteca?</string>
     <string name="last_sync">Última sincronización: %s</string>
     <string name="last_public">Publicado: %s</string>
-    <string name="unpublic_library_title">Eliminando publicación</string>
+    <string name="unpublic_library_title">Eliminando publicación de la biblioteca</string>
     <string name="unpublic_library">Sin publicar</string>
     <string name="unpublish_success">La biblioteca ya no está publicada</string>
     <string name="unpublic_message_text">¿Deseas que la biblioteca \"%s\" no esté publicada ?</string>
     <string name="unbind_from_gdocs_hint">Desvinculando desde Google Sheets</string>
     <string name="preference_category_google_docs">Google Sheets</string>
     <string name="unbind_from_google_docs_success">La biblioteca no seguirá vinculada con Google Sheets</string>
-    <string name="preference_category_memento_server">Servidor Memento</string>
+    <string name="preference_category_memento_server">Servidor de Memento</string>
     <string name="unpublic_library_hint">Eliminando publicación de la biblioteca</string>
     <string name="need_unpublic_library">Antes de eliminar la biblioteca, deberías anular la publicación</string>
     <string name="rename_library">Renombrar</string>
@@ -344,7 +344,7 @@ Todos los derechos reservados</string>
     <string name="subscribed">Suscrito</string>
     <string name="info_public_library">Dirección de la biblioteca</string>
     <string name="cant_public">La versión gratis solo permite publicar dos bibliotecas.\nActualiza a la versión PRO para eliminar esta limitación.</string>
-    <string name="add_permission_user_hint">Introduce usuario o e-mail</string>
+    <string name="add_permission_user_hint">Introduce nombre de usuario o e-mail</string>
     <string name="edit_pub_permissions">Derechos de acceso a la biblioteca</string>
     <string name="edit_pub_permissions_hint">Editando lista de usuarios con acceso a la biblioteca</string>
     <string name="edit_pub_permissions_task_dialog_message">Cambios de acceso a biblioteca realizados</string>
@@ -375,7 +375,7 @@ Todos los derechos reservados</string>
     <string name="flex_type_multy_sl">Lista de selección múltiple</string>
     <string name="library_item_copy">Copiar</string>
     <string name="send_all_dialog_title">Enviar todo</string>
-    <string name="send_all_dialog_message">Preparando entradas para enviar ...</string>
+    <string name="send_all_dialog_message">Preparando entradas para enviar...</string>
     <string name="send_all_csv">Enviar como csv</string>
     <string name="send_all_text">Enviar como texto</string>
     <string name="flex_type_time">Hora</string>
@@ -388,7 +388,7 @@ Todos los derechos reservados</string>
     <string name="help_barcode">Escáner de Código de Barras</string>
     <string name="help_gdocs_sync">Sincronizar con Google Sheets</string>
     <string name="help_publish">Publicando bibliotecas</string>
-    <string name="help_subscribe">Suscribiéndose a las bibliotecas</string>
+    <string name="help_subscribe">Suscribiéndose a bibliotecas</string>
     <string name="lib_protection">Protección de la biblioteca</string>
     <!-- 1.6.0 -->
     <string name="set_library_protection">Configurar protección</string>
@@ -488,7 +488,7 @@ Todos los derechos reservados</string>
     <!-- 1.7.7 -->
     <string name="pref_cat_library_view">Vista</string>
     <string name="field_email_preferences">Formato e-mail</string>
-    <string name="field_email_preferences_summary">Dar formato a entradas cuando las envias por e-mail</string>
+    <string name="field_email_preferences_summary">Dar formato a entradas cuando las envías por e-mail</string>
     <string name="formatted_field_prompt">Seleccionar campos</string>
     <string name="formatted_field_name">El formato para el campo</string>
     <string name="field_email_enter">Comenzar linea nueva</string>
@@ -516,8 +516,9 @@ Todos los derechos reservados</string>
     <string name="required_mark">requerido</string>
     <!-- 1.8.3 -->
     <string name="reset_master_password">Restablecer contraseña maestra</string>
-    <string name="reset_master_password_hint">Todas las librerías cifradas serán eliminadas</string>
-    <string name="reset_master_quest">¿Deseas realmente restablecer la contraseña?\nAtención! Todas las bibliotecas cifradas serán eliminadas!</string>
+    <string name="reset_master_password_hint">Todas las bibliotecas cifradas serán eliminadas</string>
+    <string name="reset_master_quest">¿Seguro que deseas restablecer la contraseña maestra?
+¡Atención! ¡Todas las bibliotecas cifradas serán eliminadas!</string>
     <string name="remove_encript_lib_dlg_msg">Eliminar bibliotecas cifradas</string>
     <string name="master_password_reset">Reajustar contraseña</string>
     <string name="edit_entry_screen_preference">Edición entradas</string>
@@ -530,7 +531,8 @@ Todos los derechos reservados</string>
     <string name="select_app">Selecciona una aplicación</string>
     <string name="forum">Foro</string>
     <string name="autoincrement">Autoincrementar</string>
-    <string name="cant_protect">La versión gratuita solo permite proteger dos bibliotecas.\nActualiza a versión PRO y elimina esta limitación.</string>
+    <string name="cant_protect">La versión gratuita sólo permite proteger dos bibliotecas.
+Actualiza a la versión PRO y elimina esta limitación.</string>
     <!-- 1.8.4 -->
     <string name="flex_edit_option_title">Dónde puedes editar</string>
     <string name="flex_edit_option_default">Formulario de edición de entrada</string>
@@ -553,7 +555,7 @@ Todos los derechos reservados</string>
     <string name="prepare_linking_library">Preparando para enlazar ...</string>
     <string name="error_prepare_linking">Ocurrió un error mientras se enlazaba: %s</string>
     <string name="have_library_items_ask_title">Vinculando con Hoja de cálculo de Google</string>
-    <string name="have_library_items_ask_message">La biblioteca contiene entradas que serán eliminadas durante la operación de enlace. ¿Realizar la operación de enlazar la biblioteca con Google Spreadsheet?</string>
+    <string name="have_library_items_ask_message">La biblioteca contiene entradas que serán eliminadas al enlazar. ¿Realizar la operación de enlazar la biblioteca con Google Sheets?</string>
     <string name="autofill_source_option_title">Origen de los datos</string>
     <string name="amazon_source_option_title">Amazon</string>
     <!-- 1.9.1 -->
@@ -564,7 +566,7 @@ Todos los derechos reservados</string>
     <string formatted="false" name="stats_title_in_list">%s por %s</string>
     <string name="sum_function_title">Suma</string>
     <string name="max_function_title">Máx</string>
-    <string name="min_function_title">Min</string>
+    <string name="min_function_title">Mín</string>
     <string name="avg_function_title">Promedio</string>
     <string name="align_left">izquierda</string>
     <string name="align_right">derecha</string>
@@ -575,7 +577,7 @@ Todos los derechos reservados</string>
     <string name="create_stat_item_title">Creando una función</string>
     <string name="select_stat_function_title">Seleccionar una función</string>
     <string name="select_field_title">Seleccionar un campo</string>
-    <string name="dont_have_field_for_function">No se encuentran campos</string>
+    <string name="dont_have_field_for_function">No hay campos que coincidan</string>
     <string name="line_number">Linea %s</string>
     <string name="ghostData_template_hint">Introduzca la descripción del campo</string>
     <string name="template_hint">Descripción del campo</string>
@@ -615,32 +617,34 @@ Todos los derechos reservados</string>
     <string name="clear_filter">Limpiar filtro</string>
     <string name="new_filter_dialog_title">Nuevo filtro</string>
     <string name="new_filter_dialog_text">El nombre del filtro</string>
-    <string name="delete_filter_dialog_text">¿Deseas realmente eliminar el filtro \"%s\"?</string>
+    <string name="delete_filter_dialog_text">¿Seguro que deseas eliminar el filtro \"%s\"?</string>
     <string name="add_to_favorite">Añadir a Favoritos</string>
     <string name="remove_from_favorite">Eliminar de Favoritos</string>
     <string name="search_result_subtitle">Buscar resultados</string>
     <string name="reindex_dialog_message">Creando índices...</string>
     <string name="add_product_manually">Manualmente</string>
-    <string name="flextemplate_move_to_begin">Mover al primero</string>
+    <string name="flextemplate_move_to_begin">Mover al inicio</string>
     <string name="flextemplate_move_to_end">Mover al final</string>
     <string name="db_location_pref_title">Ubicación de la base de datos</string>
-    <string name="moving_database_dialog_message">Moviendo Base de datos ...</string>
-    <string name="moving_database_error">La Base de datos no se puede mover</string>
+    <string name="moving_database_dialog_message">Moviendo la base de datos...</string>
+    <string name="moving_database_error">La base de datos no se puede mover</string>
     <string name="my_templates">Mis plantillas</string>
-    <string name="most_popular">Más popular</string>
+    <string name="most_popular">Más populares</string>
     <string name="templates_sort_dialog_title">Ordenar plantillas</string>
     <string name="delete_catalog_template_title">Eliminando la plantilla</string>
-    <string name="delete_catalog_template_message">¿Deseas realmente eliminar la plantilla %s del catálogo online?</string>
-    <string name="cant_share_template_withous_fields">No puede compartir una plantilla sin campos</string>
+    <string name="delete_catalog_template_message">¿Seguro que desea eliminar la plantilla %s del catálogo en línea?</string>
+    <string name="cant_share_template_withous_fields">No se puede compartir una plantilla sin campos</string>
     <string name="reset_pass_button">¿Olvidaste tu contraseña?</string>
     <string name="request_pass_dialog_title">Cambio de contraseña</string>
-    <string name="request_pass_dialog_text">Por favor, introduzca un email para ayudarle a localizar su cuenta Memento</string>
-    <string name="request_pass_dialog_hint">Dirección Email</string>
-    <string name="change_password_success">Por favor, comprueba tu email\nTe hemos enviado un email para cambiar tu contraseña fácilmente.</string>
+    <string name="request_pass_dialog_text">Por favor, introduzca un email para ayudarle a localizar su cuenta de Memento</string>
+    <string name="request_pass_dialog_hint">Dirección de correo electrónico</string>
+    <string name="change_password_success">Por favor, comprueba tu email
+Te hemos enviado un correo que te permitirá restablecer tu contraseña fácil y rápidamente.</string>
     <string name="tile_options_text">título</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
     <!-- 2.0.3 -->
-    <string name="search_in_protected_libraries">Buscar en bibliotecas protegidas\n(excepto las cifradas)</string>
+    <string name="search_in_protected_libraries">Buscar en bibliotecas protegidas por contraseña
+(excepto en las cifradas)</string>
     <string name="link_to_new_document">Enlazar a nuevo documento</string>
     <string name="link_to_existing_document">Enlazar a documento existente</string>
     <string name="internal_storage_title">Almacenamiento interno</string>
@@ -648,16 +652,16 @@ Todos los derechos reservados</string>
 	<string name="all">Todo</string>        
 <string name="no_entries">Ninguna entrada</string>
     <string name="stat_result_type">Formato del resultado</string>
-    <string name="backup_file_name_title">Nombre del archivo de copia seguridad</string>
+    <string name="backup_file_name_title">Nombre del archivo de copia de seguridad</string>
     <string name="change_dir_button">Cambiar</string>
-    <string name="backup_success2">La copia de seguridad está completa</string>
+    <string name="backup_success2">La copia de seguridad se ha completado</string>
     <string name="translate">Traducir</string>
-<string name="backup_file_path_title">Directorio del archivo de copia seguridad</string>
+<string name="backup_file_path_title">Directorio de copias de seguridad</string>
     <string name="restore_file_path_title">Directorio con copias de seguridad</string>
-    <string name="auto_bakup_dir_pref_title">Directorio para copia de seguridad automática</string>
-    <string name="google_play_not_found_message">Tu dispositivo no tiene Google Play. Puedes bajarte OI File Manager desde el sitio del desarrollador.</string>
+    <string name="auto_bakup_dir_pref_title">Directorio para copias de seguridad automáticas</string>
+    <string name="google_play_not_found_message">Tu dispositivo no tiene Google Play. Puedes descargar OI File Manager desde el sitio web del desarrollador.</string>
     <string name="library_not_found_dialog_title">Biblioteca</string>
-    <string name="library_not_found_dialog_message">Biblioteca no encontrada. Quizás la biblioteca se ha eliminado.</string>
+    <string name="library_not_found_dialog_message">No se ha encontrado la biblioteca. Tal vez haya sido eliminada.</string>
     <string name="add_field_above">Añadir campo por encima</string>
     <string name="add_field_below">Añadir campo por debajo</string>
     <string name="year_default_now">Año actual por defecto</string>
@@ -666,20 +670,20 @@ Todos los derechos reservados</string>
     <string name="flex_type_int_max">Fin</string>
     <string name="flex_type_int_main_options_title">La secuencia de números</string>
     <string name="flex_type_int_allow_direct_input">Permitir entrada directa</string>
-    <string name="flex_type_int_allow_direct_input2">Entrada directa</string>
+    <string name="flex_type_int_allow_direct_input2">entrada directa</string>
     <string name="visible_field_depend_type">Visibilidad de este campo</string>
     <string name="visible_field_depend_state_visible">Visible</string>
     <string name="field_depends">Dependencias del campo</string>
     <string name="field_depends_activity_title">Dependencias</string>
-    <string name="no_dependencies">Sin dependencias</string>
-    <string name="add_depends_button_title">Añadir a dependencia</string>
-    <string name="library_dont_have_fields_for_depends">La biblioteca no contiene los campos apropiados para la construcción de dependencia en este campo</string>
+    <string name="no_dependencies">sin dependencias</string>
+    <string name="add_depends_button_title">Añadir una dependencia</string>
+    <string name="library_dont_have_fields_for_depends">La biblioteca no contiene los campos apropiados para construir la dependencia de este campo</string>
     <string name="select_type_depends">Selecciona el tipo de dependencia</string>
     <string name="select_type_depends_spinner_title">Tipo de dependencia</string>
     <string name="select_master_field_for_depend">Selecciona el campo desde el cual ser dependiente</string>
     <string name="library_fields">Campos de entrada de la biblioteca</string>
-    <string name="boolean_field_check_value">Comprobado</string>
-    <string name="boolean_field_uncheck_value">Sin comprobar</string>
+    <string name="boolean_field_check_value">Marcado</string>
+    <string name="boolean_field_uncheck_value">Desmarcado</string>
     <plurals name="field_depends_count">
 	<item quantity="one">Una dependencia</item>
 	<item quantity="other">%d dependencias</item>
@@ -689,22 +693,22 @@ Todos los derechos reservados</string>
 	<item quantity="one">Una entrada</item>
 	<item quantity="other">%d entradas</item>
 </plurals>
-    <string name="delete_depend_dialog_title">Borrar la dependencia</string>
-    <string name="delete_depend_dialog_message">¿De verdad quieres borrar la dependencia del campo \"%s\"?</string>
+    <string name="delete_depend_dialog_title">Eliminar la dependencia</string>
+    <string name="delete_depend_dialog_message">¿Seguro que deseas eliminar la dependencia del campo \"%s\"?</string>
     <string name="sl_content_depend_type">Contenido de este campo</string>
-    <string name="backup_images_checkbox">Creación de copias de seguridad de imágenes asociadas, registros de audio y otros archivos</string>
+    <string name="backup_images_checkbox">Creación de copias de seguridad de imágenes, registros de audio y otros archivos asociados</string>
     <string name="backup_files_progress_title">Copias de seguridad de archivos</string>
-    <string name="restore_files_message">La copia de seguridad contiene un archivo con ficheros asociados con la base de datos;¿ quieres restaurarlos?</string>
+    <string name="restore_files_message">La copia de seguridad contiene un archivo con ficheros asociados con la base de datos; ¿deseas restaurarlos?</string>
     <string name="restore_files_progress_title">Restaurando archivos</string>
     <string name="restore_files_success2">Todos los archivos asociados con la base de datos han sido descomprimidos</string>
     <string name="restore_files_error">Error al restaurar los archivos</string>
-    <string name="select_google_account">Selecciona una cuenta Google</string>
+    <string name="select_google_account">Selecciona una cuenta de Google</string>
     <string name="send_files_to_cloud_error">Error al subir archivos a la nube:</string>
-    <string name="prepare_google_sync">Conectando con tu cuenta ...</string>
-    <string name="no_google_accounts">No hay cuenta de google disponible. Por favor, añade primero una cuenta en el dispositivo.</string>
+    <string name="prepare_google_sync">Conectando con tu cuenta...</string>
+    <string name="no_google_accounts">No hay cuenta de Google disponible. Por favor, añade primero una cuenta en el dispositivo.</string>
     <string name="google_account_not_selected">Cuenta no seleccionada</string>
-    <string name="bakup_files_need_pro_title">Requiere versión PRO</string>
-    <string name="bakup_files_need_pro_message">La creacion de copias de seguridad de archivos sólo está disponible en la versión PRO del programa</string>
+    <string name="bakup_files_need_pro_title">Requiere la versión PRO</string>
+    <string name="bakup_files_need_pro_message">La creación de copias de seguridad de archivos sólo está disponible en la versión PRO</string>
     <string name="search_pref_category">Buscar</string>
     <string name="files_storage_settings_screen">Almacenamiento de Archivos</string>
     <string name="files_storage_settings_screen_summary">Ubicación de fotos y otros archivos</string>
@@ -722,15 +726,15 @@ Todos los derechos reservados</string>
     <string name="open_map_menu_item">Mapa</string>
     <string name="google_drive">Google Drive</string>
     <string name="none_files_cloud_storage">Ninguno</string>
-    <string name="select_files_cloud_storage">Elije un servicio en la nube para sincronización</string>
+    <string name="select_files_cloud_storage">Elige un servicio en la nube para sincronizar</string>
     <string name="files_cloud_storage_pref">Sincronizando archivos</string>
     <string name="google_sync_files_checkbox">Subir archivos (imágenes) adjuntos a los registros al almacenamiento en la nube.</string>
     <string name="list_library_in_google">Listado de bibliotecas en Google Drive</string>
     <string name="add_lib_from_google_drive">Desde Google Drive</string>
     <string name="selected">%s seleccionado</string>
-    <string name="delete_template_from_google_drive_question">¿De verdad quieres borrar las bibliotecas seleccionadas de Google Drive?</string>
+    <string name="delete_template_from_google_drive_question">¿Seguro que deseas eliminar de Google Drive las bibliotecas seleccionadas?</string>
     <string name="delete_data_table_from_google_drive">Borrar los datos de las hojas de cálculo asociadas con plantillas</string>
-    <string name="lock_edit_library_pref_summary_on">No está permitido cambiar el diseño de la biblioteca</string>
+    <string name="lock_edit_library_pref_summary_on">No está permitido cambiar la estructura de la biblioteca</string>
     <string name="lock_edit_library_pref_summary_off">Está permitido cambiar la estructura de la biblioteca</string>
     <string name="cant_restore_form_google_drive">Tu dispositivo no soporta la creación de una biblioteca desde Google Drive</string>
     <string name="record_error_dialog_message">No se encuentra ninguna aplicación para hacer una grabación.</string>
@@ -738,30 +742,32 @@ Todos los derechos reservados</string>
     <string name="field_display_options_group">Opciones de visualización</string>
     <string name="field_display_title_in_card">Nombre del campo</string>
     <string name="display_in_list_how">Visualizar en la lista como</string>
-    <string name="field_display_title_in_card_hint">Visualizar el nombre del campo en la tarjeta de entrada</string>
-    <string name="edit_library_tab_structure">DISEÑO</string>
+    <string name="field_display_title_in_card_hint">Mostrar el nombre del campo en la tarjeta de entrada</string>
+    <string name="edit_library_tab_structure">ESTRUCTURA</string>
     <string name="edit_library_tab_view">VISTA</string>
     <string name="add_button">Añadir</string>
     <string name="default_entry_page_title">Principal</string>
-    <string name="entry_page_title">Nombre página</string>
-    <string name="cant_delete_main_page">No puedes borrar la página por defecto.</string>
+    <string name="entry_page_title">Nombre de la página</string>
+    <string name="cant_delete_main_page">No se puede borrar la página por defecto.</string>
     <string name="field_count_on_page">Campos: %s</string>
-    <string name="master_libraries_list_caption">Listado de entradas desde la biblioteca</string>
+    <string name="master_libraries_list_caption">Listado de entradas de la biblioteca</string>
     <string name="view_on_this_page_title">Mostrar en esta página</string>
-    <string name="entry_page_delete_message_text">¿De verdad quieres borrar la pagina \"%s\" ?</string>
-    <string name="faq">FAQ</string>
+    <string name="entry_page_delete_message_text">¿Seguro que deseas borrar la página \"%s\"?</string>
+    <string name="faq">Preguntas frecuentes</string>
     <string name="accept_button">Acepto</string>
     <string name="sort_by_subtitle">por %s</string>
     <string name="group_by_subtitle">por %s</string>
-    <string name="sliding_hint_text">Deslice de derecha a izquierda\npara abrir el menú avanzado -\norganizar, grupos, filtros, gráficas y más ...</string>
+    <string name="sliding_hint_text">Deslice de derecha a izquierda
+para abrir el menú avanzado -
+organizar, agrupar, filtros, gráficas y más...</string>
     <string name="multy_sorting">Ordenar por múltiples campos</string>
-    <string name="new_button">Nuevo</string>
-    <string name="free_version_entry_page_limit">En la versión gratuita solo puedes crear dos paginas. Actualiza a la versión PRO para eliminar esta limitación.</string>
+    <string name="new_button">nuevo</string>
+    <string name="free_version_entry_page_limit">En la versión gratuita sólo se pueden crear dos páginas. Actualiza a la versión PRO para eliminar esta limitación.</string>
     <string name="button_change_activation_code">Activación</string>
     <string name="select_button">SELECCIONAR</string>
     <string name="clear_button">LIMPIAR</string>
     <string name="image_info_button">INFO</string>
-    <string name="error_library_not_unique_field_names">Los nombres de los campos en la biblioteca deben ser únicos. Comprueba los campos: %s.</string>
+    <string name="error_library_not_unique_field_names">Los nombres de los campos de la biblioteca deben ser únicos. Comprueba los campos: %s.</string>
     <string name="info_path">Ruta:</string>
     <string name="info_resolution">Resolución:</string>
     <string name="info_size">Tamaño:</string>
@@ -852,7 +858,7 @@ Todos los derechos reservados</string>
     <string name="show_icon_on_tile">Icono de la biblioteca</string>
     <string name="show_num_entries_on_tile">Número de entradas</string>
     <string name="show_update_time_on_tile">Tiempo de edición</string>
-    <string name="only_title_on_tile">Solo el nombre de la librería</string>
+    <string name="only_title_on_tile">Sólo el nombre de la biblioteca</string>
     <plurals name="fields_count">
 	<item quantity="one">Un campo</item>
 	<item quantity="other">%d campos</item>
@@ -1004,11 +1010,11 @@ Todos los derechos reservados</string>
     <string formatted="false" name="restore_files_error_message">No se pudieron restaurar archivos desde el archivo: %s</string>
     <string formatted="false" name="upload_file_to_cloud_message">Subir %s (%d/%d)</string>
     <string name="boolen_filter_checkbox">El valor del campo</string>
-    <string name="start_reindex_summary">Reconstruir el índice de búsqueda</string>
+    <string name="start_reindex_summary">Reconstruyendo el Índice de Búsqueda</string>
     <string name="reindex_complete_message">La reindexación está completa</string>
     <string name="start_reindex_title">Reindexar</string>
     <string name="files_backup_not_found_files">No se encuentran los archivos:</string>
-    <string name="lock_edit_library_pref_title">Diseño bloqueado</string>
+    <string name="lock_edit_library_pref_title">Estructura bloqueada</string>
     <string name="entry_page_default">Por defecto</string>
     <string name="sort_asc">ASC</string>
     <string name="flex_type_signature_width_title">Anchura de la firma</string>
@@ -1016,7 +1022,7 @@ Todos los derechos reservados</string>
     <string name="chart_values_function">Función</string>
     <string name="link_master_library_not_found">No se ha encontrado la biblioteca vinculada a este campo</string>
     <string name="empty_main_recycle_bin_text">No hay bibliotecas disponibles para recuperación.</string>
-    <string name="file_already_exists">* Ya existe ese archivo en el directorio</string>
+    <string name="file_already_exists">* El archivo de destino ya existe</string>
     <string name="flex_type_int_default_value">Especifica valor por defecto</string>
     <string name="visible_field_depend_pretitle">Estado del campo %s</string>
     <string name="sl_content_depend_pretitle">El valor del campo %s</string>
@@ -1048,7 +1054,7 @@ Puedes activar la capacidad de edición en los ajustes de esta biblioteca.</stri
     <string name="barcode_auto_fill_checkbox_hint_new">Los datos desde la web se introducirán en los campos de entrada</string>
     <string name="wrong_search_query_string_1">La búsqueda no puede comenzar con \"-\"</string>
     <string name="empty_recycle_bin_text">No hay entradas disponibles para la recuperación de esta biblioteca.</string>
-    <string name="something_wrong_dialog_title">Algo está mal</string>
+    <string name="something_wrong_dialog_title">Algo va mal</string>
     <string name="aggregation_add_item_dialog_title">Añadir función de agregación</string>
     <string name="aggregation_edit_item_dialog_title">Editar función de agregación</string>
     <string name="aggregation_result_prev_line">No comenzar desde una linea nueva</string>
@@ -1079,7 +1085,7 @@ Puedes activar la capacidad de edición en los ajustes de esta biblioteca.</stri
     <string name="use_depend_only_in_edit_hint_false">Al editar y visualizar la entrada</string>
     
 <string name="most_viewed_templates">Más vistos</string>    
-	<string name="featured_templates">Destacados</string>
+	<string name="featured_templates">Destacadas</string>
 	<string name="template_views_count">Vistas: %s</string>
 	<string name="sort_by_views">Ordenar por vistas</string>
 	<string name="select_category_template">Por favor, selecciona la categoría</string>	
@@ -1199,7 +1205,7 @@ Puedes empezar familiarizándote con Memento creando una biblioteca basada en un
 	<string name="send_formatting_menu_item">Formateando...</string>
 	<string name="pro_for_cloud_storage_title">Suscripción</string>
 	<string name="default_file_manager_pref_title">Administrador de archivos</string>
-	<string name="default_file_manager_built_in">Integrado</string>	
+	<string name="default_file_manager_built_in">integrado</string>	
 	<string name="clear_search_history">Borrar Historial de Búsqueda</string>
 	<string name="edit_library_tabs_autofill">Autorellenar</string>
 	<string name="autofill_from">de %s</string>
@@ -1257,13 +1263,15 @@ Puedes empezar familiarizándote con Memento creando una biblioteca basada en un
     <string name="cant_download_item_files_for_copy">La descarga de archivos para crear copias ha fallado.</string> 
     <string name="library_cloud_model_changed_message">La estructura de la biblioteca fue actualizada en la nube. Actualiza la estructura para una mejor sincronización.</string>
     <string name="button_update">Actualizar</string>
-    <string name="add_people">Agregar usuario o grupo</string>
+    <string name="add_people">Añadir usuario o grupo</string>
     <string name="edit_permission">Configuración de uso compartido</string>	
 	<string name="push_entry_error_text" formatted="false">La entrada no se almacenado en la nube.\nNombre: %s\nError: %s</string>
-	<string name="need_upload_to_cloud_slave_libraries">Por favor, sube bibliotecas dependientes a la nube.</string>
+	<string name="need_upload_to_cloud_slave_libraries">Por favor, sube las bibliotecas dependientes a la nube.</string>
 	<string name="start_download_slave_library_model">Subiendo biblioteca dependiente %s</string>
 	<string name="cloud_storage_full_text">No hay suficiente espacio en el almacenamiento en la nube.\nPuedes actualizar a un plan de tarifas que proporcione más espacio de almacenamiento.</string>
-	<string name="cloud_storage_full_text2" formatted="false">No hay suficiente espacio en el almacenamiento en la nube.\n%s son necesarios, %s están disponibles.\nPuedes actualizar a un plan de tarifas que proporcione más espacio de almacenamiento.</string>
+	<string name="cloud_storage_full_text2" formatted="false">No hay suficiente espacio en el almacenamiento en la nube.
+%s son necesarios, %s están disponibles.
+Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</string>
 	<string name="restore_cloud_library_from_recycle">La biblioteca local esta borrada. ¿Recuperar?</string>
 	<string name="cloud_file_while_not_upload">El archivo no está aún en la nube</string>
 	<string name="upload_ecrypted_libraries_dont_supported">La subida de librerías encriptadas a la nube no está disponible temporalmente.</string>
@@ -1273,7 +1281,7 @@ Puedes empezar familiarizándote con Memento creando una biblioteca basada en un
 	<string name="upload_to_cloud_offer_text">• Trabajo en equipo\n• Sincronización a través de dispositivos\n• Las copias de seguridad están siempre en la nube</string>
 	<string name="cant_upload_file_to_cloud">La subida de archivo(s) falló.</string>
     <string name="button_show">Mostrar</string>
-	<string name="cant_add_yourself">No te puedes añadir a ti mismo</string>
+	<string name="cant_add_yourself">No puedes añadirte a ti mismo</string>
 	<string name="select_template_title">Selecciona plantilla</string>
 	<string name="empty_library_title">Biblioteca vacia</string>
 	<string name="help_cloud">Almacenaje en la nube y trabajo en equipo</string>
@@ -1324,7 +1332,7 @@ Puedes empezar familiarizándote con Memento creando una biblioteca basada en un
     <string name="multiediting_only_in_pro">La edición de entradas múltiples está sólo disponible para los usuarios de la versión PRO.</string>
     <string name="remove_from_old_public">Antes de subir la biblioteca a la nube, será des-publicada si fue publicada con métodos desactualizados.</string>
 	<string name="empty_autofill_rules_list_text">Hacer coincidir atributos originales y campos de la biblioteca</string>
-    <string name="decryption_for_cloud_uploaded_library">No se puede desactivar el encriptamiento para subir la biblioteca a la nube. Primero elimine la biblioteca de la nube.</string>
+    <string name="decryption_for_cloud_uploaded_library">No se puede desactivar el cifrado para subir la biblioteca a la nube. Primero elimine la biblioteca de la nube.</string>
     <string name="one_row_with_previous">Una fila con previsualización</string>
     <string name="group_separator_option_title">Separadores de millares</string>
     <string name="group_separator_option_hints">Usar un espacio como separador de millares</string>
@@ -1336,7 +1344,7 @@ Puedes empezar familiarizándote con Memento creando una biblioteca basada en un
     <string name="cloud_notification_for_subscribers">Lo sentimos, solo los subscriptores pueden recibir notificaciones.</string>
     <string name="comments">Comentarios</string>
     <string name="comment_input_hint">Escribe un comentario</string>
-    <string name="comment_send_error">Error enviando comentarios: %s</string>
+    <string name="comment_send_error">Error al enviar comentarios: %s</string>
     <string name="edit_comment_dialog_title">Editar comentario</string>
 
     <plurals name="notification_edit_library_common_text">
@@ -1473,7 +1481,7 @@ Puedes empezar familiarizándote con Memento creando una biblioteca basada en un
     <string name="send_field_title">Enviar el nombre del campo</string>
     <string name="send_field_title_summary">El nombre del campo precederá al valor del campo</string>
     <string name="auto_lock_libraries_time_title">Cerrar acceso a las librerias</string>
-    <string name="auto_lock_libraries_after">Después %s</string>
+    <string name="auto_lock_libraries_after">Después de %s</string>
 
     <string name="triggers">Disparadores</string>
     <string name="trigger_name">Nombre del disparador</string>
@@ -1484,41 +1492,41 @@ Puedes empezar familiarizándote con Memento creando una biblioteca basada en un
 
     <string name="trigger_event_create_entry">Crear una entrada</string>
     <string name="trigger_event_modify_entry">Actualizar una entrada</string>
-    <string name="trigger_event_delete_entry">Borar una entrada</string>
-    <string name="trigger_event_add_favorites">Editar entradas de favoritos</string>
-    <string name="trigger_event_remove_favorites">Borar una entrada de Favoritos</string>
-    <string name="trigger_default_name">Disparador %s</string>
+    <string name="trigger_event_delete_entry">Eliminar una entrada</string>
+    <string name="trigger_event_add_favorites">Añadir entradas a Favoritos</string>
+    <string name="trigger_event_remove_favorites">Borrar una entrada de Favoritos</string>
+    <string name="trigger_default_name">Disparador %d</string>
     <string name="cloud_plan_plan3">Ligero</string>
     <string name="library_edit_mode_hint">Editar en forma abierta, haga clic en una entrada</string>
     <string name="empty_triggers_list_text">Esta biblioteca no contiene disparadores.\nUn disparador es un script que define el procesamiento de una entrada sobre la base de un evento que ha tenido lugar.</string>
-    <string name="trigger_event_open_entry">Abrir una entrada View card</string>
+    <string name="trigger_event_open_entry">Abrir una tarjeta de Vista de Entrada</string>
     <string name="trigger_enabled">Habilitado</string>
     <string name="trigger_switched_off">Apagar</string>
-    <string name="trigger_delete_message">Realmente quiere borrar el disparador \"%s\" ?</string>
+    <string name="trigger_delete_message">¿Seguro que deseas eliminar el script \"%s\"?</string>
 
 
     <string name="trigger_moment_open_form">Abrir una tarjeta de edición</string>
-    <string name="trigger_moment_before_save">Antes guarde la entrada</string>
-    <string name="trigger_moment_after_save">Después guarde la entrada</string>
+    <string name="trigger_moment_before_save">Antes de guardar la entrada</string>
+    <string name="trigger_moment_after_save">Después de guardar la entrada</string>
     <string name="trigger_moment_before_delete">Antes de eliminar una entrada</string>
     <string name="trigger_moment_after_delete">Después de eliminar una entrada</string>
-    <string name="trigger_moment_before_show">Antes de visualizar la ventana</string>
-    <string name="trigger_moment_after_show">Después de visualizar la ventana</string>
+    <string name="trigger_moment_before_show">Antes de mostrar la ventana</string>
+    <string name="trigger_moment_after_show">Después de mostrar la ventana</string>
 
     <string name="application">Aplicación</string>
     <string name="debug">Depurar</string>
-    <string name="debug_summary">Opciones de Logueo</string>
+    <string name="debug_summary">Opciones de registro</string>
     <string name="log_files_folder">Directorio de archivos de registro</string>
 
     <string name="enable_logging_cloud">Llamada de nube de Memento</string>
-    <string name="enable_logging_triggers">Registro de disparos</string>
-    <string name="script_log">secuencia de comandos de registro</string>
+    <string name="enable_logging_triggers">Registros de scripts</string>
+    <string name="script_log">Registro de script</string>
 
-    <string name="trigger_permissions">Permisos para los disparadores</string>
+    <string name="trigger_permissions">Permisos para los scripts</string>
     <string name="trigger_permission_read_file">Leer archivos</string>
-    <string name="trigger_permission_read_file_hint">Permite que los scripts leer desde almacenamiento externo</string>
+    <string name="trigger_permission_read_file_hint">Permite a los scripts leer de almacenamiento externo</string>
     <string name="trigger_permission_write_file">Escribir archivos</string>
-    <string name="trigger_permission_write_file_hint">Permite que los scripts escribir desde almacenamiento externo</string>
+    <string name="trigger_permission_write_file_hint">Permite a los scripts escribir en el almacenamiento externo</string>
     <string name="trigger_permission_network">Red</string>
     <string name="trigger_permission_network_hint">Permite a los scripts ejecutar solicitudes HTTP</string>
 
@@ -1640,9 +1648,9 @@ Puedes empezar familiarizándote con Memento creando una biblioteca basada en un
     <string name="uom_megahertz">Megahercio</string>
     <string name="uom_gigahertz">Gigahercio</string>
 
-    <string name="wrong_field_value">Campo %s tiene un valor inaceptable</string>
+    <string name="wrong_field_value">El campo %s tiene un valor incorrecto</string>
 
-    <string name="unit_converter">Convertidor de unidades</string>
+    <string name="unit_converter">Conversor de unidades</string>
     <string name="increase">Incrementar</string>
     <string name="decrease">Disminuir</string>
     <string name="frozen">Congelado</string>
@@ -1711,7 +1719,7 @@ Puedes empezar familiarizándote con Memento creando una biblioteca basada en un
     <string name="pro_for_team">Funciones adicionales para todos los usuarios del equipo</string>
     <string name="team_features_trial">Todos los planes incluyen 14 días de prueba gratis.</string>
 
-    <string name="tasker_plugin_create_entry_event_title">Registro creado</string>
+    <string name="tasker_plugin_create_entry_event_title">Entrada creada</string>
     <string name="tasker_plugin_delete_entry_event_title">Registro borrado</string>
     <string name="tasker_plugin_modified_entry_event_title">Registro modificado</string>
     <string name="no_libraries_text">¡Aún no hay Bibliotecas!</string>
@@ -1744,7 +1752,7 @@ Puedes empezar familiarizándote con Memento creando una biblioteca basada en un
     <string name="barcode_type_1d">Código de barras</string>
     <string name="repository_js_libraries">Contenedores</string>
     <string name="repository_android_intents_hint">Funciones para interacción con otras aplicaciones Android</string>
-    <string name="repository_data_sources_hint">Fuentes de datos para autocompletar</string>
+    <string name="repository_data_sources_hint">Fuentes de datos para autocompletado</string>
     <string name="warning">Advertencia</string>
     <string name="add_javascript_library">Añadir librerías de JavaScript...</string>
     <string name="add_repository">Añadir contenedor</string>
@@ -1801,7 +1809,7 @@ Puedes empezar familiarizándote con Memento creando una biblioteca basada en un
     <string name="java_script_data_source_hint">JavaScript</string>
     <string name="library_related_cloud_model_changed_message">La estructura de la biblioteca relacionada se ha actualizado en la nube. Vaya a la biblioteca relacionada para ver la actualización.</string>
     
-    <string name="monthly_plan">Mensualmente</string>
+    <string name="monthly_plan">Mensual</string>
     <string name="yearly_plan">Anualmente</string>
     <string name="cloud_plan_plan3_annual">Básico</string>
     <string name="cloud_plan_plan6_annual">Profesional</string>
@@ -1865,7 +1873,7 @@ Puedes empezar familiarizándote con Memento creando una biblioteca basada en un
     <string name="type_desc_datetime">Un campo FechaHora puede contener un valor usado para representar una fecha y hora concreta del calendario.</string>
     <string name="type_desc_time">Un campo de Tiempo puede contener un valor usado para representar una hora concreta del día.</string>
     <string name="type_desc_boolean">El tipo de campo Booleano proporciona una casilla de verificación (sí/no).</string>
-    <string name="type_desc_money">Un campo de dinero tiene una divisa y una cantidad. La divisa debe seleccionarse cuando se define la plantilla.</string>
+    <string name="type_desc_money">Un campo de dinero contiene una divisa y una cantidad. La divisa debe seleccionarse cuando se define la plantilla.</string>
     <string name="type_desc_real">El tipo de campo Real almacena números con o sin decimales.</string>
     <string name="type_desc_int">El tipo de campo Número almacena números sin decimales.</string>
     <string name="type_desc_int_list">Un campo de Valores enteros es un conjunto ordenado de números de los cuales el usuario puede seleccionar uno.</string>
