@@ -1504,7 +1504,7 @@
     <string name="locale_plugin_edit_mode_create_new_entry">Create a new entry, if you failed to find an entry by key field</string>
 
     <string name="send_field_title">Send the field name</string>
-    <string name="send_field_title_summary">The field name will follow the field value</string>
+    <string name="send_field_title_summary">The field name will precede the field value</string>
     <string name="auto_lock_libraries_time_title">Close access to libraries</string>
     <string name="auto_lock_libraries_after">After %s</string>
 
@@ -1929,5 +1929,39 @@
     <string name="wizard_complete_text2">You\'ve successfully created your Library.</string>
     <string name="wizard_complete_text3">You can change the structure of your library, add aggregation, autofill, scripts, etc. at any time.</string>
     <string name="close">Close</string>
+
+    <!-- 4.4.0 -->
+    <string name="attributes">Attributes</string>
+    <string name="select_attribute_type">Attribute type</string>
+    <string name="create_attribute">Create attribute</string>
+    <string name="edit_attribute">Edit attribute</string>
+    <string name="attribute_name">Attribute name</string>
+    <string name="required_attribute_text">Attribute must be filled</string>
+
+    <string name="attribute_display_title_in_card">The attribute name</string>
+    <string name="attribute_display_title_in_card_hint">Display the name of the attribute in the card entry</string>
+    <string name="attribute_delete_message_text">Do you really want to delete the attribute \"%s\" ?</string>
+    <string name="free_version_attributes_limit">In the free version, you can add only one attribute. Upgrade to PRO version to remove this restriction.</string>
+    <string name="trigger_event_link_entry">Linking an entry</string>
+    <string name="trigger_event_unlink_entry">Unlinking an entry</string>
+    <string name="script_cant_run_links_not_exists">Script can\'t be run, any links to this library does not exists.</string>
+    <string name="entry_name_and_description">Entry name and description</string>
+    <string name="all_searchable_fields">All searchable fields</string>
+    <string name="search_settings_quick">Quick search in</string>
+    <string name="search_by_specified_fields">Specified fields</string>
+    <string name="index_not_found_message">Search is not possible, entries are not indexed</string>
+    <string name="script_error_message">Script Error: %s</string>
+    <string name="advanced_search">Advanced search</string>
+    <string name="quick_filter_for_numbers">For numbers</string>
+    <string name="quick_filter_for_text">For text</string>
+    <string name="save_as_filter">Save as filter</string>
+    <string name="save_as_filter_success">You have successfully create a new filter</string>
+    <string name="shortcut_not_supported">Unfortunately your launcher not support app shortcuts.</string>
+    <string name="notification_channel_reminders">Reminders</string>
+    <string name="notification_channel_entries">Changes in libraries</string>
+    <string name="notification_channel_files">Files</string>
+    <string name="quick_filter_limit_message">The free version allows you to search only by five fields.\nUpgrade to the PRO version to disable this limitation.</string>
+    <string name="button_upgrade">Upgrade</string>
+    <string name="autofilll_source_not_supported">Sorry, but %s is not supported anymore.</string>
 
 </resources>

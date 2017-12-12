@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!-- German Translation Dirk Sudowe 09:40 26.09.2010 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
@@ -708,7 +708,7 @@
     <string name="files_storage_settings_dublicate_title">Kopiere zum Speicher</string>
     <string name="files_storage_settings_dublicate_summary">Dateien, die zum Datensatz gehören werden zum Speicherordner kopiert</string>
     <string name="files_storage_settings_remove_original_title">Originale löschen</string>
-    <string name="files_storage_settings_remove_original_summary">"Nach dem Kopieren zur Dateiablage,  Originale löschen"</string>
+    <string name="files_storage_settings_remove_original_summary">Nach dem Kopieren zur Dateiablage, Originale löschen</string>
     <string name="dublicate_file_error">"Konnte Datei nicht in Dateiablage verschieben: "</string>
     <string name="select_map_type">Kartentyp</string>
     <string name="normal">Normal</string>

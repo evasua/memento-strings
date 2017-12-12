@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="app_name">Memento</string>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="app_name">Memento</string>
     <string name="library_menu_add_item">Afegir una entrada</string>
     <string name="main_menu_add_lib">Afegir una biblioteca</string>
     <string name="ghostData_lib_title">Nom de la biblioteca</string>
@@ -14,7 +14,7 @@
     <string name="add_new_library_item">Afegir una entrada</string>
     <string name="flex_type_title_string">Text</string>
     <string name="flex_type_title_int">Enter</string>
-    <string name="flex_type_title_bool">Quadre de verificació</string>
+    <string name="flex_type_title_bool">Booleà (Quadre de verificació)</string>
     <string name="flex_type_title_date">Data</string>
     <string name="flex_type_title_date_time">Data/Hora</string>
     <string name="flex_type_contact">Contacte</string>
@@ -31,7 +31,7 @@
     <string name="flextemplate_down_item">Avall</string>
     <string name="flextemplate_edit_item">Canviar</string>
     <string name="flextemplate_delete_item">Eliminar</string>
-    <string name="ghostData_template_title">Introduir nom del camp</string>
+    <string name="ghostData_template_title">Introduir el nom del camp</string>
     <string name="template_title">Nom del camp</string>
     <string name="select_flex_template_title">Tipus de camp</string>
     <string name="select_flex_template_role">Funció del camp</string>
@@ -41,18 +41,18 @@
     <string name="default_value">Valor per defecte</string>
     <string name="flex_template_options_title">Paràmetres avançats</string>
     <string name="error_template_empty_title">Escriure el nom del camp</string>
-    <string name="error_library_withous_name_flex">Una biblioteca ha de tenir al menys un camp amb la funció \"nom\".</string>
+    <string name="error_library_withous_name_flex">Una biblioteca ha de tenir al menys un camp amb la funció – \"nom\".</string>
     <string name="select_library_icon_activity">Seleccionar una icona per a la biblioteca</string>
     <string name="select_flex_template_role_title">Funció del camp</string>
     <string name="library_edit2">Editar la biblioteca</string>
     <string name="library_edit">Editar</string>
     <string name="library_delete">Eliminar</string>
     <string name="library_delete_message_title">Eliminar la biblioteca</string>
-    <string name="library_delete_message_text">Voleu eliminar la biblioteca \"%s\" ?</string>
+    <string name="library_delete_message_text">Voleu eliminar la biblioteca \"%s\"?</string>
     <string name="error_library_empty_title">Escriure el nom de la biblioteca</string>
     <string name="library_item_edit">Editar</string>
     <string name="library_item_delete">Eliminar</string>
-    <string name="library_item_delete_message_text">Voleu eliminar l\'entrada \"%s\" ?</string>
+    <string name="library_item_delete_message_text">Voleu eliminar l\'entrada \"%s\"?</string>
     <string name="library_item_trush_message_text">Voleu enviar l\'entrada \"%s\" a la paperera?</string>
     <string name="library_items_count">Entrades: %s</string>
     <string name="library_menu_select_sort">Ordenar</string>
@@ -61,7 +61,7 @@
     <string name="select_group_template">Seleccionar el camp per a agrupar</string>
     <string name="sort_by_date">Hora de la creació</string>
     <string name="flex_delete_message_title">Eliminar aquest camp</string>
-    <string name="flex_delete_message_text">Voleu eliminar el camp \"%s\" ?</string>
+    <string name="flex_delete_message_text">Segur que voleu eliminar el camp \"%s\"?</string>
     <string name="not_group">Sense agrupament</string>
     <string name="bool_yes">Sí</string>
     <string name="bool_not">No</string>
@@ -75,7 +75,7 @@
     <string name="search_parse_exception_messagee">Cerca no vàlida</string>
     <plurals name="NItemsFind">
 	<item quantity="one">1 entrada trobada</item>
-	<item quantity="other">Entrades trobades: %d</item>
+	<item quantity="other">Entrades trobades: <xliff:g id="COUNT">%d</xliff:g></item>
 </plurals>
     <string name="memento_search">Cerca de Memento</string>
     <string name="memento_search_in_lib">Cerca de Memento a %s</string>
@@ -85,11 +85,11 @@
     <string name="clear_trash">Paperera buida</string>
     <string name="clear_trash_progress_dialog_title">Paperera buida</string>
     <string name="clear_trash_dialog_title">Paperera buida</string>
-    <string name="clear_trash_dialog_text">Voleu eliminar el contingut de la paperera?</string>
+    <string name="clear_trash_dialog_text">Voleu eliminar totes les entrades de la paperera?</string>
     <string name="mobile">mòbil</string>
-    <string name="home">Casa</string>
-    <string name="work">Feina</string>
-    <string name="other">Altres</string>
+    <string name="home">casa</string>
+    <string name="work">feina</string>
+    <string name="other">altres</string>
     <string name="pager">buscapersones</string>
     <string name="image_not_found">Imatge no trobada</string>
     <string name="audio_not_found">Pista d\'àudio no trobada</string>
@@ -109,7 +109,7 @@
     <string name="favorites_dialog_title">Favorits</string>
     <string name="map_coord_not_set_hint">Picar per a seleccionar ubicació</string>
     <string name="select_map_coord">Seleccionar ubicació</string>
-    <string name="find_selected_address">Cerca d\'adreça ...</string>
+    <string name="find_selected_address">Cerca d\'adreça...</string>
     <string name="open_gmap">Obrir Google Maps</string>
     <string name="help">Ajuda</string>
     <string name="preference_category_backup">Còpia de seguretat</string>
@@ -140,9 +140,10 @@
     <string name="activation_ok">Gràcies per l\'activació de Memento</string>
     <string name="activation_error">El codi d\'activació no és vàlid. Si\'s plau, torneu a provar-ho.</string>
     <string name="about">Sobre</string>
-    <string name="copyright">Copyright © 2016 LuckyDroid\nTots els drets reservats</string>
+    <string name="copyright">Copyright © 2017 LuckyDroid
+Tots els drets reservats</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
-    <string name="about_hint">Veure la versió del software</string>
+    <string name="about_hint">Veure la versió del programari</string>
     <string name="about_license_type">Llicència:</string>
     <string name="pro_version">Versió PRO</string>
     <string name="send_library_item">Enviar</string>
@@ -364,7 +365,7 @@
     <string name="flex_type_multy_sl">Llista de selecció múltiple</string>
     <string name="library_item_copy">Copiar</string>
     <string name="send_all_dialog_title">Enviar tot</string>
-    <string name="send_all_dialog_message">Preparant entrades per a enviar ...</string>
+    <string name="send_all_dialog_message">Preparant entrades per a enviar...</string>
     <string name="send_all_csv">Enviar com csv</string>
     <string name="send_all_text">Enviar com text</string>
     <string name="flex_type_time">Hora</string>
@@ -529,7 +530,7 @@
     <string name="prepare_linking_library">Preparant per a enllaçar ...</string>
     <string name="error_prepare_linking">Ha succeït un error en preparar l\'enllaç: %s</string>
     <string name="have_library_items_ask_title">Enllaçant amb Google Sheet</string>
-    <string name="have_library_items_ask_message">La biblioteca conté entrades que s\'eliminaran en enllaçar. Portem a terme l\'enllaç de la biblioteca amb Google Spreadsheet?</string>
+    <string name="have_library_items_ask_message">La biblioteca conté entrades que s\'eliminaran en enllaçar. Portem a terme l\'enllaç de la biblioteca amb Google Sheets?</string>
     <string name="autofill_source_option_title">Origen de les dades</string>
     <string name="amazon_source_option_title">Amazon</string>
     <string name="auto_backup_option_title">Còpia de seguretat automàtica</string>
@@ -596,7 +597,7 @@
     <string name="add_to_favorite">Afegir a Preferits</string>
     <string name="remove_from_favorite">Treure de Preferits</string>
     <string name="search_result_subtitle">Resultats de la cerca</string>
-    <string name="reindex_dialog_message">Creant índexs ...</string>
+    <string name="reindex_dialog_message">Creant índexs...</string>
     <string name="add_product_manually">Manualment</string>
     <string name="flextemplate_move_to_begin">Moure a l\'inici</string>
     <string name="flextemplate_move_to_end">Moure al final</string>
@@ -674,7 +675,7 @@
     <string name="select_google_account">Seleccioneu un compte Google</string>
     <string name="send_files_to_cloud_error">Error al pujar arxius al núvol:</string>
     <string formatted="false" name="upload_file_to_cloud_message">Pujar %s (%d/%d)</string>
-    <string name="prepare_google_sync">Connectant amb el teu compte ...</string>
+    <string name="prepare_google_sync">Connectant amb el teu compte...</string>
     <string name="no_google_accounts">Cap compte Google disponible. Afegiu-ne primer una.</string>
     <string name="google_account_not_selected">Compte no seleccionat</string>
     <string name="bakup_files_need_pro_title">Cal la versió PRO</string>
@@ -741,7 +742,9 @@
     <string name="group_by_subtitle">per %s</string>
     <string name="sort_asc">ASC</string>
     <string name="sort_desc">DESC</string>
-    <string name="sliding_hint_text">Desplaçar de dreta a esquerra\nper obrir el menú avançat\nendreçar, agrupar, filtrar, gràfics i més ...</string>
+    <string name="sliding_hint_text">Desplaçar de dreta a esquerra
+per obrir el menú avançat
+endreçar, agrupar, filtrar, gràfics i més...</string>
     <string name="multy_sorting">Ordenar per més d\'un camp</string>
     <string name="new_button">nou</string>
     <string name="free_version_entry_page_limit">A la versió lliure es poden crear dos pàgines. Actualitzeu a la versió PRO per a eliminar aquest límit.</string>
@@ -1073,7 +1076,8 @@
 <string name="show_deleted_entries_menu_item">Mostrar entrades eliminades</string>
 	<string name="upload_to_cloud_menu_item">Al núvol</string>
 	<string name="welcome_text_title">Benvingut a Memento Database</string>
-	<string name="welcome_text_description">"La biblioteca és on les teves entrades seràn guardades.\nPots començar a familiaritzar-te amb  Memento creant una biblioteca basada en alguna de les plantilles proporcionades."</string>
+	<string name="welcome_text_description">La biblioteca és el lloc on es desarà la teva informació.
+Pots començar a familiaritzar-te amb Memento creant una biblioteca basada en alguna de les plantilles proporcionades.</string>
 	
 	<string name="memento_cloud">Servidor de Memento</string>
 	<string name="start_remove_librarary_from_cloud">Eliminant biblioteca...</string>
@@ -1130,7 +1134,7 @@
     <string name="upload_big_file_error" formatted="false">L\'entrada %s conté l\'arxiu pesat %s (%s).\nLa mida màxima és de %s.</string>
     <string name="prepare_library_for_cloud">Processant biblioteca...</string>
     <string name="download_files_from_cloud">Descarregant arxius del núvol...</string>
-    <string name="cant_download_item_files_for_copy">Descarrega d\'arxius per crear còpies ha fallat.</string> 
+    <string name="cant_download_item_files_for_copy">La descàrrega d\'arxius per crear còpies ha fallat.</string> 
     <string name="library_cloud_model_changed_message">L\'estructura de la biblioteca ha sigut actualitzada al núvol. Actualitzi l\'estructura per a noves sincronitzacions.</string>
     <string name="button_update">Actualitzar</string>
     <string name="add_people">Afegir usuari o grup</string>
@@ -1438,6 +1442,48 @@
     <string name="locale_plugin_edit_mode_create_new_entry">Crea un nou registre, si no has trobat un registre mitjançant camps clau</string>
 
     <string name="send_field_title">Envia el nom del camp</string>
-    <string name="send_field_title_summary">El nom del camp seguirà al valor del camp</string>
+    <string name="send_field_title_summary">El nom del camp precedirà al valor del camp</string>
     <string name="auto_lock_libraries_time_title">Accès tancat a les biblioteques</string>
+    <string name="auto_lock_libraries_after">Després de %s</string>
+
+    <string name="empty_triggers_list_text">Aquesta biblioteca no conté activadors.
+Un Activador és un script que defineix el processament d\'una entrada basat en un Esdeveniment que s\'ha produït.</string>
+    <string name="triggers">Activadors</string>
+    <string name="trigger_name">Nom de l\'activador</string>
+    <string name="trigger_event">Esdeveniment</string>
+    <string name="trigger_moment">Fase</string>
+    <string name="unknown_trigger_event_type">Esdeveniment desconegut</string>
+    <string name="unknown_trigger_moment_type">Fase desconeguda</string>
+
+    <string name="trigger_event_create_entry">Creant una entrada</string>
+    <string name="trigger_event_modify_entry">S\'està actualitzant una entrada</string>
+    <string name="attribute_display_title_in_card">El nom de l\'atribut</string>
+    <string name="trigger_event_delete_entry">Eliminar una entrada</string>
+    <string name="trigger_event_open_entry">Obrir una targeta de Vista d\'Entrada</string>
+    <string name="trigger_event_add_favorites">Afegir entrades a Preferits</string>
+    <string name="trigger_event_remove_favorites">Eliminar una entrada de Preferits</string>
+    <string name="trigger_default_name">Activador %d</string>
+    <string name="notification_channel_entries">Canvis en biblioteques</string>
+    <string name="uom_mile">Milla</string>
+    <string name="trigger_enabled">Habilitat</string>
+    <string name="trigger_moment_before_save">Abans de desar l\'entrada</string>
+    <string name="trigger_moment_after_save">Després de desar l\'entrada</string>
+    <string name="trigger_moment_before_delete">Abans d\'eliminar una entrada</string>
+    <string name="trigger_moment_after_delete">Després d\'eliminar una entrada</string>
+    <string name="trigger_moment_before_show">Abans de mostrar la finestra</string>
+    <string name="trigger_moment_after_show">Després de mostrar la finestra</string>
+
+    <string name="application">Aplicació</string>
+    <string name="debug">Depurar</string>
+    <string name="debug_summary">Opcions de registre</string>
+    <string name="log_files_folder">Directori de fitxers de registre</string>
+
+    <string name="enable_logging_cloud">Crides de Memento Cloud</string>
+    <string name="enable_logging_triggers">Registres d\'scripts</string>
+    <string name="script_log">Registre d\'script</string>
+
+    <string name="trigger_permissions">Permisos per als scripts</string>
+    <string name="trigger_permission_read_file">Llegir arxius</string>
+    <string name="trigger_permission_read_file_hint">Permet als scripts llegir des de l\'emmagatzematge extern</string>
+    <string name="trigger_permission_write_file">Escriure arxius</string>
     </resources>
