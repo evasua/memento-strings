@@ -142,8 +142,7 @@
     <string name="activation_ok">Merci pour l\'activation de Memento</string>
     <string name="activation_error">Le code d\'activation est invalide. Merci de réessayer.</string>
     <string name="about">A propos</string>
-    <string name="copyright">Copyright © 2017 LuckyDroid
-Tout droits réservés</string>
+    <string name="copyright">Copyright © 2017 LuckyDroid\nTout droits réservés</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Version du logiciel</string>
     <string name="about_license_type">Licence :</string>
@@ -465,8 +464,7 @@ Tout droits réservés</string>
     <string name="required_mark">obligatoire</string>
     <string name="reset_master_password">Réinitialiser le mot de passe maître</string>
     <string name="reset_master_password_hint">Toutes les bases chiffrées seront retirées</string>
-    <string name="reset_master_quest">Voulez-vous vraiment réinitialiser le mot de passe maître ?
-\nAttention ! Toutes les bases chiffrées seront retirées !</string>
+    <string name="reset_master_quest">Voulez-vous vraiment réinitialiser le mot de passe maître ?\nAttention ! Toutes les bases chiffrées seront retirées !</string>
     <string name="remove_encript_lib_dlg_msg">Supprimer les bases chiffrées</string>
     <string name="master_password_reset">Mot de passe maître réinitialisé</string>
     <string name="auto_show_soft_keyboard">Afficher le clavier logiciel</string>
@@ -557,7 +555,7 @@ Tout droits réservés</string>
     <string name="select_app">Sélectionner une application</string>
     <string name="forum">Forum</string>
     <string name="autoincrement">Incrémentation automatique</string>
-    <string name="cant_protect">La version gratuite vous autorise à protéger deux bases seulement.↵\nPasser à la version PRO pour ôter cette limitation.</string>
+    <string name="cant_protect">La version gratuite vous autorise à protéger deux bases seulement.\nPasser à la version PRO pour ôter cette limitation.</string>
     <string name="loading_google_document_list">Chargement...</string>
     <string name="google_doc_list_title">Google Documents</string>
     <string name="updated_document_time">Mis à jour : %s</string>
@@ -622,7 +620,7 @@ Tout droits réservés</string>
     <string name="reset_pass_button">"Mot de passe oublié  ?"</string>
     <string name="request_pass_dialog_text">Merci de saisir une adresse mail pour nous aider à trouver votre compte Memento</string>
     <string name="request_pass_dialog_hint">Adresse email</string>
-    <string name="change_password_success">Merci de consulter votre email↵\nNous vous avons envoyé un email pour vous permettre de réinitialiser rapidement et facilement votre mot de passe.</string>
+    <string name="change_password_success">Merci de consulter votre email\nNous vous avons envoyé un email pour vous permettre de réinitialiser rapidement et facilement votre mot de passe.</string>
     <string name="tile_options_text">titre</string>
     <string name="flex_type_calc_option_header">Expression</string>
     <string name="default_email_template_title">Défaut</string>
@@ -708,9 +706,7 @@ Tout droits réservés</string>
     <string name="accept_button">J\'accepte</string>
     <string name="sort_asc">ASC</string>
     <string name="sort_desc">DESC</string>
-    <string name="sliding_hint_text">Glisser de droite à gauche↵
-pour accéder aux menus avancés -↵
-tri, regroupement, filtres, graphiques et plus...</string>
+    <string name="sliding_hint_text">Glisser de droite à gauche\npour accéder aux menus avancés -\ntri, regroupement, filtres, graphiques et plus...</string>
     <string name="multy_sorting">Trier sur champs multiples</string>
     <string name="new_button">nouveau</string>
     <string name="free_version_entry_page_limit">Dans la version gratuite vous ne pouvez créer que deux pages. Passer à la version PRO pour supprimer cette limitation.</string>
@@ -841,7 +837,7 @@ tri, regroupement, filtres, graphiques et plus...</string>
     <string name="library_dont_have_fields_for_depends">La base ne contient pas de champs permettant la création de dépendance avec ce champ</string>
     <string name="off">Désactivé</string>
     <string name="formatted_string_value">Type de champ Valeurs en multiselection</string>
-    <string name="empty_entry_page_text">Cette page est vierge.↵\nVous pouvez ajouter des champs ou des listes d\'enregistrements ici.</string>
+    <string name="empty_entry_page_text">Cette page est vierge.\nVous pouvez ajouter des champs ou des listes d\'enregistrements ici.</string>
     <string name="entries_view_list">Liste</string>
     <string name="entries_view_table">Tableau</string>
     <string name="entries_view_menu_title">Affichage</string>
@@ -895,7 +891,7 @@ tri, regroupement, filtres, graphiques et plus...</string>
     <string name="add_button">Ajouter</string>
     <string name="string_list_add_item_dialog_title">Ajouter un item</string>
     <string name="email_templates_spinner_hint">Modèle de format</string>
-    <string name="search_in_protected_libraries">Recherche dans les bases protégées par mot de passe↵\n(à l\'exception des bases chiffrées)</string>
+    <string name="search_in_protected_libraries">Recherche dans les bases protégées par mot de passe\n(à l\'exception des bases chiffrées)</string>
     <string name="have_library_items_ask_title">Attachement à Google Sheets</string>
     <string name="have_library_items_ask_message">La base contient des enregistrements qui seront supprimés lors de l\'attachement. Voulez-vous néanmoins attacher la base à Google Sheets ?</string>
     <string name="deleted">Supprimée</string>
@@ -953,7 +949,7 @@ tri, regroupement, filtres, graphiques et plus...</string>
     <string name="files_storage_settings_screen_summary">Rangement photos et autres fichiers</string>
     <string name="files_storage_settings_dublicate_title">Copier dans le stockage</string>
     <string name="selected">%s sélectionné</string>
-    <string name="lock_library_edit_message">Les changements dans la base sont verrouillés.↵\nVous devez activer l\'option de modification dans le paramétrage de cette base.</string>
+    <string name="lock_library_edit_message">Les changements dans la base sont verrouillés.\nVous devez activer l\'option de modification dans le paramétrage de cette base.</string>
     <string name="field_display_options_group">Options d\'affichage</string>
     <string name="display_in_list_how">Afficher dans la liste comme</string>
     <string name="default_entry_page_title">Principal</string>
@@ -1054,13 +1050,13 @@ tri, regroupement, filtres, graphiques et plus...</string>
     <string name="icon_pack_title_field_material">Matériel</string>
     <string name="google_base_field_new">Valeur de l\'attribut d\'après la source</string>
     <string name="icon_pack_title_field_general_flat">Général</string>
-    <string name="single_line_options_title">Ligne unique (sans ↵)\nchamp texte</string>
+    <string name="single_line_options_title">Ligne unique (sans )\nchamp texte</string>
     <string name="reminders_count_limit">Vous pouvez ajouter un maximum de 10 rappels par champ</string>
     <string name="aggregation_result_position">Emplacement</string>
     <string name="aggregation_result_prev_line">Pas de retour à la ligne</string>
     <string name="csv_import_total_lines">Lignes traitées :</string>
     <string formatted="false" name="csv_import_error_item">Ligne %d - %s</string>
-    <string name="google_sync_without_memento_id_text">La base est synchronisée en utilisant l\'ancienne méthode qui comporte potentiellement des erreurs .↵\nEffectuer la reconsolidation de la base vers la nouvelle table pour utiliser la nouvelle méthode.↵\nDémarrer la reconsolidation maintenant ?</string>
+    <string name="google_sync_without_memento_id_text">La base est synchronisée en utilisant l\'ancienne méthode qui comporte potentiellement des erreurs .\nEffectuer la reconsolidation de la base vers la nouvelle table pour utiliser la nouvelle méthode.\nDémarrer la reconsolidation maintenant ?</string>
     <string name="auto_fill_barcode_empty2">Comparer les attributs de la source d’auto-complétion et les champs des enregistrements</string>
     <string name="most_viewed_templates">Les plus visités</string>    
 	<string name="template_views_count">Vues : %s</string>
@@ -1096,9 +1092,9 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
 	<string name="start_remove_librarary_from_cloud">Suppression de la base...</string>
 	<string name="success_remove_librarary_from_cloud">Base supprimée du nuage</string>
 	<string name="start_upload_library_to_cloud">Téléversement de la base...</string>	
-	<string name="success_upload_library_to_cloud">La base a été téléversée.↵\nLa base sera synchronisée automatiquement.</string>
+	<string name="success_upload_library_to_cloud">La base a été téléversée.\nLa base sera synchronisée automatiquement.</string>
 	<string name="success_upload_library_to_cloud2">Vous pouvez rendre accessible votre base à d\'autres utilisateurs Memento en modifiant les paramètres d\'accès.</string>	
-	<string name="push_entries_to_cloud_message" formatted="false">Téléversement des enregistrements↵\n%s enregistrements de %s traités</string>
+	<string name="push_entries_to_cloud_message" formatted="false">Téléversement des enregistrements\n%s enregistrements de %s traités</string>
 	<string name="permissions">Droits d\'accès</string>
 	<string name="button_hide">cacher</string>	
 	<string name="empty_cloud_libraries_list_text">Vous n\'avez pas de bases téléversées</string>
@@ -1110,7 +1106,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
 	<string name="download_library_hint">Créer une copie locale</string>			
 	<string name="pull_entries_from_cloud_message">Téléchargement des enregistrements...</string>
 	<string name="pull_entries_from_cloud_message2" formatted="false">%s enregistrements de %s traités</string>
-	<string name="success_pull_library_from_cloud">Enregistrements téléchargés.↵\nLa base sera synchronisée automatiquement.</string>
+	<string name="success_pull_library_from_cloud">Enregistrements téléchargés.\nLa base sera synchronisée automatiquement.</string>
 	<string name="cloud_conflict_fields_title">Conflits</string>
 	<string name="cloud_conflict_fix_button_title">Réparer</string>
     <plurals name="conflict_count">
@@ -1144,7 +1140,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="upload_file_to_cloud">Téléversement du fichier...</string>    
     <string name="upload_files_to_cloud">Téléversement des fichiers</string>
     <string name="cloud_upload_error_title">Nous ne pouvons pas synchroniser cette base</string>
-    <string name="upload_big_file_error" formatted="false">L\'enregistrement %s contient un fichier volumineux %s (%s).↵\nLa taille maximale des fichiers est %s.</string>
+    <string name="upload_big_file_error" formatted="false">L\'enregistrement %s contient un fichier volumineux %s (%s).\nLa taille maximale des fichiers est %s.</string>
     <string name="prepare_library_for_cloud">La base est en cours de traitement...</string>
     <string name="download_files_from_cloud">Téléchargement des fichiers depuis le nuage...</string>
     <string name="cant_download_item_files_for_copy">Echec du téléchargement des fichiers pour créer des copies.</string> 
@@ -1161,7 +1157,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
 	<string name="only_owner_permission">Uniquement le propriétaire</string>
 	<string name="user_not_found">Utilisateur non trouvé</string>
 	<string name="edit_permission">Paramètres de partage utilisateurs</string>	
-	<string name="push_entry_error_text" formatted="false">L\'enregistrement n\'est pas stocké dans le nuage.↵\nNom : %s↵\nErreur : %s</string>
+	<string name="push_entry_error_text" formatted="false">L\'enregistrement n\'est pas stocké dans le nuage.\nNom : %s\nErreur : %s</string>
 	<string name="push_error_forbidden">Accès réfusé</string>
 	<string name="button_ignore">Ignorer</string>
 	<string name="button_try_again">Réessayer</string>	
@@ -1172,8 +1168,8 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
 	<string name="need_upload_to_cloud_slave_libraries">Merci de téléverser les bases dépendantes dans le nuage.</string>
 	<string name="start_download_slave_library_model">Téléversement de la base dépendante %s</string>
 	<string name="open_access_for_slave_libraries">Fournir l\'accès en lecture pour les bases dépendantes</string>
-	<string name="cloud_storage_full_text">Pas assez d\'espace dans le nuage.↵\nVous pouvez passer à une des offres tarifaires pour plus d\'espace de stockage.</string>
-	<string name="cloud_storage_full_text2" formatted="false">Pas assez d\'espace dans le nuage.↵\n%s sont nécessaires, %s sont disponibles.\nVous pouvez passer à une des offres tarifaires pour plus d\'espace de stockage.</string>
+	<string name="cloud_storage_full_text">Pas assez d\'espace dans le nuage.\nVous pouvez passer à une des offres tarifaires pour plus d\'espace de stockage.</string>
+	<string name="cloud_storage_full_text2" formatted="false">Pas assez d\'espace dans le nuage.\n%s sont nécessaires, %s sont disponibles.\nVous pouvez passer à une des offres tarifaires pour plus d\'espace de stockage.</string>
 	<string name="alien_cloud_storage_full_text">Le propriétaire de la base ne dispose pas d\'assez d\'espace de stockage.</string>	
 	<string name="button_tarifs">Tarifs</string>
 	<string name="cloud_storage_plans">Offres d\'abonnement</string>
@@ -1192,7 +1188,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
 	<string name="cloud_file_while_not_upload">Ce fichier n\'est pas encore dans le nuage</string>
 	<string name="upload_ecrypted_libraries_dont_supported">Le téléversement de bases chiffrées dans le nuage est temporairement indisponible.</string>
 	<string name="button_signin">Se connecter</string>
-	<string name="cloud_library_not_found">La base n\'a pas été trouvée dans le nuage. Elle a peut-être été supprimée.↵\nConvertir la base en base locale ?</string>
+	<string name="cloud_library_not_found">La base n\'a pas été trouvée dans le nuage. Elle a peut-être été supprimée.\nConvertir la base en base locale ?</string>
 	<string name="cloud_library_already_uploaded">La base a déjà été téléversée dans le nuage.</string>
 	<string name="library_alias_menu_item">Alias</string>
 	<string name="library_public_access">Accès public</string>
@@ -1204,7 +1200,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Base non trouvée</string>
 	<string name="upload_to_cloud_offer_title">{Cloud ready...}</string>
-	<string name="upload_to_cloud_offer_text">• Travail en équipe↵\n• Synchronisation entre matériels↵\n• Sauvegarde toujours présente dans le nuage</string>
+	<string name="upload_to_cloud_offer_text">• Travail en équipe\n• Synchronisation entre matériels\n• Sauvegarde toujours présente dans le nuage</string>
 	<string name="button_no_thanks">Non, merci</string>
 	<string name="button_upload">Téléverser</string>
 	
@@ -1876,7 +1872,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="wizard_field_display_thumb">Comme miniature de l\'enregistrement</string>
     <string name="wizard_field_display_desc">Comme description de l\'enregistrement</string>
     <string name="wizard_field_display_status">Comme statut de l\'enregistrement</string>
-    <string name="attributes">Le nom du champ précédera la valeur du champ</string>
+    <string name="attributes">Attributs</string>
     <string name="select_attribute_type">type d\'attribut</string>
     <string name="create_attribute">Créer un attribut</string>
     <string name="edit_attribute">Editer attribut</string>
@@ -1900,12 +1896,10 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="shortcut_not_supported">Malheureusement votre lanceur n\'accepte pas les raccourcis de l application.</string>
     <string name="notification_channel_entries">Modifications dans les bibliothèques</string>
     <string name="notification_channel_files">Fichiers</string>
-    <string name="quick_filter_limit_message">La version gratuite n\'autorise que 5 champs de recherche.
-Actualisez vers la version PRO pour supprimer cette limitation.</string>
+    <string name="quick_filter_limit_message">La version gratuite n\'autorise que 5 champs de recherche. Actualisez vers la version PRO pour supprimer cette limitation.</string>
     <string name="button_upgrade">Actualiser vers version supérieure</string>
     <string name="autofilll_source_not_supported">Désolé mais %s n\'est plus utilisé.</string>
-
-<string name="entry_name_and_description">Nom de l entrée et description</string>
+    <string name="entry_name_and_description">Nom de l entrée et description</string>
     <string name="search_settings_quick">Recherche rapide</string>
     <string name="index_not_found_message">Recherche impossible, les entrées ne sont pas indexées</string>
     <string name="notification_channel_reminders">Rappels</string>
