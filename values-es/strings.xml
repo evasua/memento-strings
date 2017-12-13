@@ -1501,11 +1501,11 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
     <string name="empty_triggers_list_text">Esta biblioteca no contiene disparadores.\nUn disparador es un script que define el procesamiento de una entrada sobre la base de un evento que ha tenido lugar.</string>
     <string name="trigger_event_open_entry">Abrir una tarjeta de Vista de Entrada</string>
     <string name="trigger_enabled">Habilitado</string>
-    <string name="trigger_switched_off">Apagar</string>
+    <string name="trigger_switched_off">Apagado</string>
     <string name="trigger_delete_message">¿Seguro que deseas eliminar el script \"%s\"?</string>
 
 
-    <string name="trigger_moment_open_form">Abrir una tarjeta de edición</string>
+    <string name="trigger_moment_open_form">Abriendo una tarjeta de Edición de Entrada</string>
     <string name="trigger_moment_before_save">Antes de guardar la entrada</string>
     <string name="trigger_moment_after_save">Después de guardar la entrada</string>
     <string name="trigger_moment_before_delete">Antes de eliminar una entrada</string>
@@ -1584,7 +1584,7 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
     <string name="uom_angstrom">Ångström</string>
     <string name="uom_astronomical_unit">Unidad astronómica</string>
     <string name="uom_light_year">Año luz</string>
-    <string name="uom_parsec">Parsel</string>
+    <string name="uom_parsec">Pársec</string>
 
     <string name="uom_category_mass">Masa</string>
     <string name="uom_microgram">Microgramo</string>
@@ -1593,7 +1593,7 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
     <string name="uom_kilogram">Kilogramo</string>
     <string name="uom_ton">Tonelada</string>
     <string name="uom_ton_uk">Tonelada imperial</string>
-    <string name="uom_ton_us">Tonelada americana</string>
+    <string name="uom_ton_us">Tonelada corta</string>
     <string name="uom_pound">Libra</string>
     <string name="uom_ounce">Onza</string>
 
@@ -1602,7 +1602,7 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
     <string name="uom_liter">Litro</string>
     <string name="uom_cubic_inch">Pulgada cúbica</string>
     <string name="uom_gallon_liquid_us">Galón americano</string>
-    <string name="uom_ounce_liquid_us">Onza líquida americana</string>
+    <string name="uom_ounce_liquid_us">Onza líquida estadounidense</string>
     <string name="uom_gallon_uk">Galón imperial</string>
     <string name="uom_ounce_liquid_uk">Onza líquida imperial</string>
 
@@ -1623,7 +1623,7 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
     <string name="uom_category_area">Área</string>
     <string name="uom_square_metre">Metro cuadrado</string>
     <string name="uom_are">Area</string>
-    <string name="uom_hectare">Hectarea</string>
+    <string name="uom_hectare">Hectárea</string>
 
     <string name="uom_category_velocity">Velocidad</string>
     <string name="uom_meters_per_second">Metros por segundo</string>
@@ -1632,11 +1632,11 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
     <string name="uom_knot">Nudo</string>
     <string name="uom_mach">Mach</string>
 
-    <string name="uom_category_power">Fuerza</string>
+    <string name="uom_category_power">Potencia</string>
     <string name="uom_watt">Vatio</string>
     <string name="uom_kilowatt">Kilovatio</string>
     <string name="uom_megawatt">Megavatio</string>
-    <string name="uom_horsepower">Caballo de fuerza</string>
+    <string name="uom_horsepower">Caballo de vapor</string>
 
     <string name="uom_category_energy">Energía</string>
     <string name="uom_joule">Julio</string>
@@ -1662,7 +1662,7 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
     <string name="date_formats_long">Fecha larga</string>
     <string name="time_formats_short">Hora corta</string>
     <string name="time_formats_long">Hora larga</string>
-    <string name="language">Lenguaje</string>
+    <string name="language">Idioma</string>
     <string name="next_button">Siguiente</string>
     <string name="login">Iniciar sesión</string>
     <string name="sign_up">Registrarse</string>
