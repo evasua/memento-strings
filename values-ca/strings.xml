@@ -1352,7 +1352,7 @@ Pots començar a familiaritzar-te amb Memento creant una biblioteca basada en al
     <string name="add_relationship_success">La relació entre biblioteques serà proporciona utilitzant el camp \"%s\".</string>
     <string name="display_aggregation">Pantalla d\'agregació</string>
     <string name="display_aggregation_hint">Agregació per entrades de la biblioteca lligada</string>
-    <string name="create_shortcut_text">Escrigui un nom per aquesta deçera</string>
+    <string name="create_shortcut_text">Escrigui un nom per aquesta drecera</string>
     <string name="permission_storage_title">Emmagatzematge</string>
     <string name="permission_storage_text">Per tal de continuar, doni permís d\'accés al seu emmagatzematge a Memento.</string>
     <string name="permission_storage_explanation_text">L\'accés a l\'emmagatzematge és requerit per emmagatzemar caché, còpies de seguretat i disponibilitat per adjuntar imatges i arxius a les seves entrades.</string>
@@ -1484,6 +1484,61 @@ Un Activador és un script que defineix el processament d\'una entrada basat en 
 
     <string name="trigger_permissions">Permisos per als scripts</string>
     <string name="trigger_permission_read_file">Llegir arxius</string>
-    <string name="trigger_permission_read_file_hint">Permet als scripts llegir des de l\'emmagatzematge extern</string>
+    <string name="trigger_permission_read_file_hint">Permet als scripts llegir des d\'emmagatzematge extern</string>
     <string name="trigger_permission_write_file">Escriure arxius</string>
+    <string name="trigger_permission_write_file_hint">Permet als scripts escriure en emmagatzematge extern</string>
+    <string name="trigger_permission_network">Xarxa</string>
+    <string name="trigger_permission_network_hint">Permet als scripts executar peticions HTTP</string>
+
+    <string name="trigger_permission_libraries">Biblioteques</string>
+    <string name="trigger_permission_libraries_hint">Accés a totes les biblioteques</string>
+
+    <string name="trigger_permission_libraries_select">Biblioteques disponibles</string>
+    <string name="trigger_permission_libraries_select_title">Seleccionar biblioteques</string>
+    <string name="need_pro_for_triggers">A la versió gratuïta, una biblioteca pot contenir només un activador. Per eliminar aquesta restricció, actualitzeu a la versió PRO.</string>
+    <string name="filters_tab">Pestanyes...</string>
+    <string name="filters_tab_dialog_title">Selecciona filtres per a les pestanyes</string>
+    <string name="export_template_include_filters">Inclou filtres</string>
+
+    <string name="unit_of_measurement_enable">Afegeix una unitat de mesura al camp</string>
+    <string name="unit_of_measurement_none">Cap</string>
+
+    <string name="unit_of_measurement_category">Categoria</string>
+    <string name="unit_of_measurement">Unitat de mesura</string>
+    <string name="unit_of_measurement_button">Afegeix un convertidor d\'unitats al camp</string>
+
+    <string name="uom_category_temperature">Temperatura</string>
+    <string name="uom_celsius">Celsius</string>
+    <string name="uom_fahrenheit">Fahrenheit</string>
+    <string name="uom_kelvin">Kelvin</string>
+    <string name="uom_rankine">Rankine</string>
+
+    <string name="uom_category_time">Temps</string>
+    <string name="uom_nanosecond">Nanosegon</string>
+    <string name="uom_microsecond">Microsegon</string>
+    <string name="uom_millisecond">Mil·lisegon</string>
+    <string name="uom_second">Segon</string>
+    <string name="uom_minute">Minut</string>
+    <string name="uom_hour">Hora</string>
+    <string name="uom_day">Dia</string>
+    <string name="uom_week">Setmana</string>
+    <string name="uom_year">Any</string>
+
+    <string name="uom_category_pressure">Pressió</string>
+    <string name="uom_pascal">Pascal</string>
+    <string name="uom_atmosphere">Atmosfera</string>
+    <string name="uom_bar">Bar</string>
+
+    <string name="uom_category_length">Longitud</string>
+    <string name="uom_meter">Metre</string>
+    <string name="uom_kilometer">Quilòmetre</string>
+    <string name="uom_centimeter">Centímetre</string>
+    <string name="uom_millimeter">Mil·límetre</string>
+    <string name="uom_micrometer">Micròmetre</string>
+    <string name="uom_nanometer">Nanòmetre</string>
+    <string name="uom_nautical_mile">Milla nàutica</string>
+    <string name="uom_foot">Peu</string>
+    <string name="uom_yard">Iarda</string>
+    <string name="uom_inch">Polzada</string>
+    <string name="uom_angstrom">Àngstrom</string>
     </resources>
