@@ -1453,7 +1453,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="locale_to_fields_edit_rule_title">Modifier une règle</string>
     <string name="locale_plugin_add_edit_entry_edit_mode">Modifier un enregistrement</string>
     <string name="send_field_title">Envoyer le nom du champ</string>
-    <string name="send_field_title_summary">Le nom du champ precedera la vale ur du champ</string>
+    <string name="send_field_title_summary">Le nom du champ précède la valeur du champ</string>
     <string name="auto_lock_libraries_time_title">Fermer l\'accès aux bases</string>
     <string name="auto_lock_libraries_after">Après %s</string>
 
@@ -1782,9 +1782,9 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="script_cant_set_permissions_for_not_saved_library">Vous pouvez indiquer des autorisations pour le script uniquement après avoir sauvegardé la bibliothèque.</string>
     <string name="script_permissions_required_message">La bibliothèque contient des scripts qui nécessitent les autorisations suivantes :</string>
     <string name="required_access_to_library">accès à %s</string>
-    <string name="action_with_library_context">Opération sur Bibliothèque</string>
+    <string name="action_with_library_context">Action sur la base</string>
     <string name="action_with_entry_context">Action enregistrement</string>
-    <string name="library_related_cloud_model_changed_message">La structure de la bibliothèque associée a été mise à jour dans le Cloud. Aller à la bibliothèque associée pour la mise à jour.</string>
+    <string name="library_related_cloud_model_changed_message">La structure de la base associée a été mise à jour dans le nuage. Aller à la base associée pour la mise à jour.</string>
     
     <string name="monthly_plan">Mensuel</string>
     <string name="yearly_plan">Annuel</string>
@@ -1809,7 +1809,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="is_not_empty">N\'est pas vide</string>
     <string name="trigger_event_open_library">Ouverture d\'une bibliothèque</string>
     <string name="search_base_folder">Base de recherche</string>
-    <string name="line_interpolate_nulls_titles">Interpolation des valeurs vides</string>
+    <string name="line_interpolate_nulls_titles">Interpoler les valeurs vides</string>
 <string name="wizard">Assistant</string>
     <string name="wizard_library_name_title">Memento organise vos informations en bases de données. Quel nom voulez-vous donner à cette base de données ?</string>
     <string name="wizard_library_name_hint2">Les bases de donnée sont utilisées pour contenir une liste d\'enregistrements d\'un type particulier.</string>
@@ -1873,35 +1873,35 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="wizard_field_display_desc">Comme description de l\'enregistrement</string>
     <string name="wizard_field_display_status">Comme statut de l\'enregistrement</string>
     <string name="attributes">Attributs</string>
-    <string name="select_attribute_type">type d\'attribut</string>
+    <string name="select_attribute_type">Type d\'attribut</string>
     <string name="create_attribute">Créer un attribut</string>
-    <string name="edit_attribute">Editer attribut</string>
+    <string name="edit_attribute">Editer un attribut</string>
     <string name="attribute_name">Nom de l\'attribut</string>
     <string name="required_attribute_text">L\'attribut doit être rempli</string>
 
-    <string name="attribute_display_title_in_card">Nom de l\'attribut</string>
-    <string name="attribute_delete_message_text">Voulez vous vraiment effacer l attribut \"%s\" ?</string>
-    <string name="free_version_attributes_limit">Version gratuite : vous pouvez seulement ajouter un attribut. Actualiser vers la version PRO pour retirer cette restriction.</string>
-    <string name="trigger_event_link_entry">Lier un entrée</string>
-    <string name="trigger_event_unlink_entry">Délier une entrée</string>
-    <string name="script_cant_run_links_not_exists">Le script ne peut être exécuté, aucun lien existant vers cette bibliothèque.</string>
-    <string name="all_searchable_fields">Tous les champs accessible en recherche</string>
+    <string name="attribute_display_title_in_card">Le nom de l\'attribut</string>
+    <string name="attribute_delete_message_text">Voulez-vous vraiment supprimer l\'attribut \"%s\" ?</string>
+    <string name="free_version_attributes_limit">Version gratuite : vous pouvez ajouter un seul attribut. Actualiser vers la version PRO pour lever cette restriction.</string>
+    <string name="trigger_event_link_entry">Lier un enregistrement</string>
+    <string name="trigger_event_unlink_entry">Délier un enregistrement</string>
+    <string name="script_cant_run_links_not_exists">Le script ne peut être exécuté, aucun lien existant vers cette base.</string>
+    <string name="all_searchable_fields">Tous les champs accessibles en recherche</string>
     <string name="search_by_specified_fields">Champs spécifiés</string>
-    <string name="script_error_message">erreur de script : %s</string>
+    <string name="script_error_message">Erreur de script : %s</string>
     <string name="advanced_search">Recherche avancée</string>
     <string name="quick_filter_for_numbers">Pour les nombres</string>
     <string name="quick_filter_for_text">Pour le texte</string>
-    <string name="save_as_filter">enregistrer comme filtre</string>
+    <string name="save_as_filter">Enregistrer comme filtre</string>
     <string name="save_as_filter_success">Vous avez créé un nouveau filtre avec succès</string>
-    <string name="shortcut_not_supported">Malheureusement votre lanceur n\'accepte pas les raccourcis de l application.</string>
-    <string name="notification_channel_entries">Modifications dans les bibliothèques</string>
+    <string name="shortcut_not_supported">Malheureusement votre lanceur n\'accepte pas les raccourcis de l\'application.</string>
+    <string name="notification_channel_entries">Modifications dans les bases</string>
     <string name="notification_channel_files">Fichiers</string>
     <string name="quick_filter_limit_message">La version gratuite n\'autorise que 5 champs de recherche. Actualisez vers la version PRO pour supprimer cette limitation.</string>
-    <string name="button_upgrade">Actualiser vers version supérieure</string>
-    <string name="autofilll_source_not_supported">Désolé mais %s n\'est plus utilisé.</string>
-    <string name="entry_name_and_description">Nom de l entrée et description</string>
+    <string name="button_upgrade">Actualiser vers une version supérieure</string>
+    <string name="autofilll_source_not_supported">Désolé mais %s n\'est plus supporté.</string>
+    <string name="entry_name_and_description">Nom de l\'enregistrement et description</string>
     <string name="search_settings_quick">Recherche rapide</string>
-    <string name="index_not_found_message">Recherche impossible, les entrées ne sont pas indexées</string>
+    <string name="index_not_found_message">Recherche impossible, les enregistrements ne sont pas indexés</string>
     <string name="notification_channel_reminders">Rappels</string>
-    <string name="attribute_display_title_in_card_hint">Afficher le nom de l\'attribut dans l entrée du répertoire</string>
+    <string name="attribute_display_title_in_card_hint">Afficher le nom de l\'attribut sur la fiche enregistrement</string>
     </resources>
