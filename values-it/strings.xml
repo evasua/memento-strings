@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Database di Memento</string>
     <string name="library_menu_add_item">Aggiungi un elemento</string>
@@ -1679,7 +1679,7 @@
     <string name="locale_to_fields_var">Testo da %s</string>
     <string name="trigger_event_open_entry">Apertura di un form visualizza voce</string>
     <string name="trigger_moment_before_show">Prima di visualizzare la finestra</string>
-    <string name="uom_rankine"/>
+    <string name="uom_rankine">Rankine</string>
 
     <string name="uom_ton_uk">Tonnellate inglesi</string>
     <string name="uom_ton_us">Tonnellate USA</string>
@@ -1761,5 +1761,5 @@
     <string name="script_cant_set_permissions_for_not_saved_library">Puoi impostare i permessi dello script solo dopo aver salvato la libreria.</string>
     <string name="script_permissions_required_message">La libreria ha degli scripts che richiedono i seguenti permessi:</string>
     <string name="required_access_to_library">accesso a %s</string>
-    <string name="action_with_library_context"></string>
+    <string name="action_with_library_context"/>
     </resources>
