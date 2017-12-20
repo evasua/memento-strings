@@ -122,8 +122,8 @@
     <string name="restore_preference">Restaura</string>
     <string name="restore_summary_preference">Restaurant biblioteques des de la còpia de seguretat</string>
     <string name="backup_file_not_found">No s\'ha trobat còpia de seguretat.</string>
-    <string name="restore_dialog_message">Les biblioteques existents seran reemplaçades per les de la còpia de seguretat.↵
-Tots els canvis fets en aquestes biblioteques després de la creació de la còpia de seguretat es perdran.↵
+    <string name="restore_dialog_message">Les biblioteques existents seran reemplaçades per les de la còpia de seguretat.
+Tots els canvis fets en aquestes biblioteques després de la creació de la còpia de seguretat es perdran.
 Vols iniciar la restauració?</string>
     <string name="backup_dialog_message">Substituir la còpia de seguretat anterior per la nova?</string>
     <string name="restore_success">Les biblioteques s\'han restaurat amb èxit des de la còpia de seguretat</string>
@@ -1132,7 +1132,7 @@ Pots començar a familiaritzar-te amb Memento creant una biblioteca basada en al
     <string name="start_download_file_from_cloud">L\'arxiu %s serà descarregat</string>
     <string name="upload_file_to_cloud">Penjant l\'arxiu...</string>    
     <string name="upload_files_to_cloud">Penjant arxius</string>
-    <string name="cloud_upload_error_title">No hem pogut sincronitzar aquesta biblioteca</string>
+    <string name="cloud_upload_error_title">No s\'ha pogut sincronitzar aquesta biblioteca</string>
     <string name="upload_big_file_error" formatted="false">L\'entrada %s conté l\'arxiu pesat %s (%s).\nLa mida màxima és de %s.</string>
     <string name="prepare_library_for_cloud">Processant biblioteca...</string>
     <string name="download_files_from_cloud">Descarregant arxius del núvol...</string>
