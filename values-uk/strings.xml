@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="app_name">Мементо</string>
     <string name="library_menu_add_item">Додати запис</string>
     <string name="main_menu_add_lib">Додати бібліотеку</string>
@@ -1098,7 +1098,8 @@
 	<string name="show_deleted_entries_menu_item">Відображати видалені записи</string>
 	<string name="upload_to_cloud_menu_item">В Хмару</string>
 	<string name="welcome_text_title">Вітаємо в Memento Database</string>
-	<string name="welcome_text_description">Бібліотека є місцем де будуть зберігатися ваші записи.\nВи можете почати знайомство з програмою, створивши бібліотеку по одному з готових шаблонів.\nВи можете розпочати самостійне знайомство з програмою, створивши бібліотеку, за допомогою одного з готових шаблонів.</string>
+	<string name="welcome_text_description">Бібліотека - це місце, де буде зберігатися ваша інформація.
+Ви можете почати ознайомлюватися з Memento, створивши бібліотеку на основі одного з запропонованих шаблонів.</string>
 	
 	<string name="memento_cloud">Хмара Memento</string>
 	<string name="start_remove_librarary_from_cloud">Видалення бібліотеки...</string>
@@ -1187,7 +1188,7 @@
 	<string name="button_tarifs">Тарифи</string>
 	<string name="cloud_storage_plans">Плани підписки</string>
 	<string name="price_free">Безкоштовно</string>
-	<string name="price_per_month">%s/місяць</string>
+	<string name="price_per_month">%s/міс</string>
 	<string name="unlimited_libraries">Необмежена кількість бібліотек</string>	
 	<string name="adv_free">Без реклами</string>
 	<string name="subscription_activation">Активувати підписку ...</string>
@@ -1466,7 +1467,7 @@
     <string name="locale_plugin_edit_mode_create_new_entry">Створити новий запис, якщо не вдалося знайти запис по ключовому полю</string>
 
     <string name="send_field_title">Надіслати ім\'я поля</string>
-    <string name="send_field_title_summary">Ім\'я поля буде повторювати значення поля</string>
+    <string name="send_field_title_summary">Назва поля буде повторювати значення поля</string>
     <string name="auto_lock_libraries_time_title">Закрити доступ до бібліотек</string>
     <plurals name="comments_count">
 	<item quantity="one">Один коментар</item>
@@ -1804,4 +1805,126 @@
     <string name="action_with_library_context">Дія в бібліотеці</string>
     <string name="action_with_entry_context">Дія в записі</string>
     <string name="library_related_cloud_model_changed_message">Структура відповідної бібліотеки була оновлена в хмарі. Перейти до відповідної бібліотеки для поновлення.</string>
+<string name="monthly_plan">Щомісяця</string>
+    <string name="yearly_plan">Щорічно</string>
+    <string name="cloud_plan_plan3_annual">Lite</string>
+    <string name="cloud_plan_plan6_annual">Pro</string>
+    <string name="cloud_plan_plan10_annual">Pro Plus</string>
+    <string name="cloud_plan_team5_annual">Команда 5</string>
+    <string name="cloud_plan_team10_annual">Команда 10</string>
+    <string name="cloud_plan_team15_annual">Команда 15</string>
+    <string name="cloud_plan_team20_annual">Команда 20</string>
+    <string name="price_per_year">%s/рік</string>
+
+    <string name="frozen_alien_text">Бібліотека заморожена, будь ласка, зв\'яжіться з власником бібліотеки (%s).</string>
+    <string name="copy_field">Копіювати поле</string>
+    <string name="delete_reminder_dialog_text">Ви дійсно бажаєте видалити нагадування?</string>
+    <string name="igdb_source">igdb.com</string>
+    <string name="games">Ігри</string>
+    <string name="number_increment_delta_title">Кнопки збільшення/зменшення</string>
+    <string name="number_increment_delta_value">Розмір кроку %s</string>
+    <string name="number_increment_visible_option">Показати кнопки</string>
+    <string name="is_empty">Є порожній</string>
+    <string name="is_not_empty">Не є порожній</string>
+    <string name="trigger_event_open_library">Відкриття бібліотеки</string>
+    <string name="search_base_folder">Пошукова база</string>
+    <string name="line_interpolate_nulls_titles">Інтерполювати порожні значення</string>
+
+
+    <string name="wizard">Майстер</string>
+    <string name="wizard_library_name_title">Memento організовує вашу інформацію в бібліотеках. Як бажаєте назвати свою бібліотеку?</string>
+    <string name="wizard_library_name_hint2">Бібліотеки використовуються для зберігання списку одного конкретного типу елемента.</string>
+    <string name="wizard_library_name_hint3">Бібліотека подібна до робочих таблиць у електронній таблиці.</string>
+    <string name="wizard_library_icon_title">Оберіть значок для цієї бібліотеки</string>
+    <string name="wizard_library_structure_title">Давайте створимо структуру вашої бібліотеки.</string>
+    <string name="wizard_library_structure_hint2">Кожен елемент, який ви додаєте до своєї бібліотеки, називається \"запис\". Кожен запис буде мати власні поля з усією інформацією, яку ви хочете зберегти.</string>
+    <string name="wizard_library_structure_hint3">Запис є еквівалентом рядка в електронній таблиці.</string>
+    <string name="wizard_library_structure_hint4">Поле є еквівалентом стовпця в електронній таблиці.</string>
+    <string name="wizard_select_field_type_message">Будь ласка, оберіть тип поля</string>
+    <string name="wizard_add_name_field_message">Додайте поле, яке буде назвою запису.</string>
+    <string name="wizard_field_options_title">Поле атрибутів</string>
+    <string name="wizard_field_items_title">Елементи</string>
+    <string name="wizard_field_options_select_type_message">Атрибути поля будуть доступні після того, як ви оберете тип поля.</string>
+    <string name="wizard_field_options_empty">Доступні лише розширені атрибути для обраного типу поля.</string>
+    <string name="wizard_field_advanced_options_button">Розширений</string>
+    <string name="wizard_choice_field_items_empty_text">Вам слід створити задане число елементів (значень) для типу поля.</string>
+    <string name="wizard_field_name_title">Як бажаєте назвати це поле?</string>
+    <string name="wizard_field_name_examples">Наприклад, у вас можуть бути поля \"назва\", \"опис\", \"тип обладнання\", \"вартість\", \"розмір\", \"місце розташування\", тощо.</string>
+    <string name="wizard_field_type_title">Кожне поле може бути призначене для зберігання певного типу даних.</string>
+    <string name="wizard_field_display_options_title">Бажаєте, щоб значення цього поля відображалось у списку записів?</string>
+    <string name="wizard_field_display_no">Ні, дякую</string>
+    <string name="wizard_field_display_name">Як Назва Запису</string>
+    <string name="wizard_field_display_thumb">Як Ускіз Запису</string>
+    <string name="wizard_field_display_desc">Як Опис Запису</string>
+    <string name="wizard_field_display_status">Як Статус Запису</string>
+    <string name="more_info">Потрібна допомога?</string>
+    <string name="type_desc_rating">Поле «Рейтинг» може бути порожнім або містити значення від 1 до 5 зірочок.</string>
+    <string name="type_desc_location">Поле «Місцезнаходження» може містити місце розташування, яке відображається у вигляді широти/довготи та поштової адреси.</string>
+    <string name="type_desc_link_to_entry">Поле «Посилання на Запис» може містити посилання на запис або записи в іншій бібліотеці.</string>
+    <string name="type_desc_contact">Поле «Контакт» може містити посилання на контакт у вашому додатку контактів.</string>
+    <string name="type_desc_images">Поле «Зображення» може містити посилання на зображення.</string>
+    <string name="type_desc_signature">Поле «підпис» дозволяє збирати електронні підписи.</string>
+    <string name="type_desc_file">Поле «Посилання на файл» може містити посилання на зовнішні файли.</string>
+    <string name="type_desc_audio">Поле «Аудіо» може містити посилання на збережені аудіофайли.</string>
+    <string name="type_desc_date">Поле «Дата» може містити значення, яке використовується для відображення певної календарної дати.</string>
+    <string name="type_desc_datetime">Поле «ДатаЧас» може містити значення, яке використовується для відображення певної календарної дати та часу.</string>
+    <string name="type_desc_time">Поле «Час» може містити значення, яке використовується для відображення певного часу дня.</string>
+    <string name="type_desc_boolean">Тип поля «Логічне» дає можливість обрати однин з варінатів (так/ні) завдяки прапорцю.</string>
+    <string name="type_desc_money">«Грошове» поле містить валюту та суму. Валюта повинна бути обрана, коли визначено шаблон.</string>
+    <string name="type_desc_real">«Реальний» тип поля містить цифри з десятковими знаками або без них.</string>
+    <string name="type_desc_int">Тип поля «Номер» містить звичайні числа без будь-яких десяткових знаків.</string>
+    <string name="type_desc_int_list">Поле «Ціле число» це упорядкований набір чисел, з яких користувач може обрати одне.</string>
+    <string name="type_desc_text">«Текстове» поле може містити будь-які текстові дані.</string>
+    <string name="type_desc_phone">Поле «Телефонний номер» може містити телефонний номер у текстовій формі.</string>
+    <string name="type_desc_url">Поле «Гіперпосилання» може містити текстове HTML-посилання.</string>
+    <string name="type_desc_email">Поле «Адреса електронної пошти» може містити адресу електронної пошти в текстовій формі.</string>
+    <string name="type_desc_barcode">Поле «Штрих-код» використовується для сканування штрих-кодів або QR-кодів.</string>
+    <string name="type_desc_pass">Поле «Пароль» може містити будь-які текстові дані. Символи в цьому полі маскуються (відображаються зірочки).</string>
+    <string name="type_desc_rich">Поле «Форматований текст» може містити будь-які текстові дані, включаючи інформацію про форматування тексту.</string>
+    <string name="type_desc_multiple_choice">Поле «Множинного вибору» це набір текстових рядків, з яких користувач може обрати декілька або всі.</string>
+    <string name="type_desc_checkboxes">Поле «Прапорці» дозволяє вказати однин або декілька прапорців, з яких користувач може обрати кілька.</string>
+    <string name="type_desc_single_choice">Поле «Вибір одного» це набір текстових рядків, з яких користувач може обрати тільки один.</string>
+    <string name="type_desc_radiobuttons">Поле «Радіоперемикач» відображаються у вигляді радіокнопок, з яких можна обрати тільки одну.</string>
+    <string name="type_desc_js">Значення поля буде результатом виконання сценарію, визначеного у полі. Сценарій задається в налаштуваннях поля.</string>
+    <string name="type_desc_calc">Поле «Обчислення» використовується для відображення значень на основі розрахунку та може включати значення з інших полів запису.</string>
+
+    <string name="wizard_complete_text1">Вітаю!</string>
+    <string name="wizard_complete_text2">Ви успішно створили свою бібліотеку.</string>
+    <string name="wizard_complete_text3">Ви можете змінити структуру своєї бібліотеки в будь-який час, додавши агрегацію, автозаповнення, сценарії тощо.</string>
+    <string name="close">Закрити</string>
+
+    <string name="attributes">Атрибути</string>
+    <string name="select_attribute_type">Тип атрибута</string>
+    <string name="create_attribute">Створити атрибут</string>
+    <string name="edit_attribute">Редагувати атрибут</string>
+    <string name="attribute_name">Назва атрибута</string>
+    <string name="required_attribute_text">Атрибут повинен бути заповнений</string>
+
+    <string name="attribute_display_title_in_card">Назва атрибута</string>
+    <string name="attribute_display_title_in_card_hint">Відобразити назву атрибута у картці запису</string>
+    <string name="attribute_delete_message_text">Ви дійсно бажаєте видалити атрибут \"%s\"?</string>
+    <string name="free_version_attributes_limit">У безкоштовній версії ви можете додати лише один атрибут. Оновіть додаток до версії PRO, щоб зняти це обмеження.</string>
+    <string name="trigger_event_link_entry">Поєднання запису</string>
+    <string name="trigger_event_unlink_entry">Видалення поєдання запису</string>
+    <string name="script_cant_run_links_not_exists">Сценарій не може бути виконаний, жодних посилань на цю бібліотеку не існує.</string>
+    <string name="entry_name_and_description">Назва та опис запису</string>
+    <string name="all_searchable_fields">Усі пошукові поля</string>
+    <string name="search_settings_quick">Швидкий пошук</string>
+    <string name="search_by_specified_fields">Вказані поля</string>
+    <string name="index_not_found_message">Пошук неможливий, записи не проіндексовані</string>
+    <string name="script_error_message">Помилка сценарію: %s</string>
+    <string name="advanced_search">Розширений пошук</string>
+    <string name="quick_filter_for_numbers">Для номерів</string>
+    <string name="quick_filter_for_text">Для тексту</string>
+    <string name="save_as_filter">Зберегти як фільтр</string>
+    <string name="save_as_filter_success">Ви успішно створили новий фільтр</string>
+    <string name="shortcut_not_supported">На жаль, ваша панель запуску не підтримує ярлики додатків.</string>
+    <string name="notification_channel_reminders">Нагадування</string>
+    <string name="notification_channel_entries">Зміни у бібліотеках</string>
+    <string name="notification_channel_files">Файли</string>
+    <string name="quick_filter_limit_message">Ця безкоштовна версія дозволяє робити пошук лише по 5 полях.
+Оновіть додаток до версії PRO, щоб зняти це обмеження.</string>
+    <string name="button_upgrade">Оновити</string>
+    <string name="autofilll_source_not_supported">Вибачте, але %s більше не підтримується.</string>
+
 </resources>
