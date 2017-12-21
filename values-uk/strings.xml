@@ -48,12 +48,12 @@
     <string name="library_edit">Редагувати</string>
     <string name="library_delete">Видалити</string>
     <string name="library_delete_message_title">Видалення бібліотеки</string>
-    <string name="library_delete_message_text">Ви дійсно хочете видалити бібліотеку \"%s\" ?</string>
+    <string name="library_delete_message_text">Ви дійсно бажаєте видалити бібліотеку \"%s\" ?</string>
     <string name="error_library_empty_title">Введіть назву бібліотеки</string>
     <string name="library_item_edit">Редагувати</string>
     <string name="library_item_delete">Видалити</string>
-    <string name="library_item_delete_message_text">Ви дійсно хочете видалити запис \"%s\" ?</string>
-    <string name="library_item_trush_message_text">Ви дійсно хочете відправити запис \"%s\" до корзини ?</string>
+    <string name="library_item_delete_message_text">Ви дійсно бажаєте видалити запис \"%s\" ?</string>
+    <string name="library_item_trush_message_text">Ви дійсно бажаєте відправити запис \"%s\" до корзини ?</string>
     <string name="library_items_count">Записів: %s</string>
     <string name="library_menu_select_sort">Сортування</string>
     <string name="library_menu_select_group">Групування</string>
@@ -61,7 +61,7 @@
     <string name="select_group_template">Оберіть поле для групування</string>
     <string name="sort_by_date">Час створення</string>
     <string name="flex_delete_message_title">Видалення поля</string>
-    <string name="flex_delete_message_text">Ви дійсно хочете видалити поле \"%s\" ?</string>
+    <string name="flex_delete_message_text">Ви дійсно бажаєте видалити поле \"%s\" ?</string>
     <string name="not_group">Без групування</string>
     <string name="bool_yes">Так</string>
     <string name="bool_not">Ні</string>
@@ -72,14 +72,14 @@
     <string name="date_default_now">За замовчуванням поточна дата</string>
     <string name="search">Пошук</string>
     <string name="search_hint">Пошук записів</string>
-    <string name="search_parse_exception_messagee">Неприпустимий рядок пошуку</string>
+    <string name="search_parse_exception_messagee">Неправильний рядок пошуку</string>
     <string name="removed">Видалений %s</string>
     <string name="trush">Кошик</string>
     <string name="library_item_restore">Відновити</string>
     <string name="clear_trash">Очистити кошик</string>
     <string name="clear_trash_progress_dialog_title">Очищення кошика</string>
     <string name="clear_trash_dialog_title">Очищення кошика</string>
-    <string name="clear_trash_dialog_text">Ви дійсно хочете видалити всі записи з кошика ?</string>
+    <string name="clear_trash_dialog_text">Ви дійсно бажаєте видалити всі записи з кошика ?</string>
     <string name="mobile">мобільний</string>
     <string name="home">домашній</string>
     <string name="work">робочий</string>
@@ -97,11 +97,11 @@
     <string name="short_flex_role_name">назва</string>
     <string name="short_flex_role_hint">опис</string>
     <string name="short_flex_role_status">статус</string>
-    <string name="item_add_to_favorite">Запис додано в обране</string>
-    <string name="item_remove_from_favorite">Запис видалено з обраного</string>
+    <string name="item_add_to_favorite">Запис додано в Улюблені</string>
+    <string name="item_remove_from_favorite">Запис видалено з Улюбленних</string>
     <string name="history_dialog_title">Історія</string>
-    <string name="favorites_dialog_title">Вибране</string>
-    <string name="map_coord_not_set_hint">Натисніть для вибору місцязнаходження</string>
+    <string name="favorites_dialog_title">Улюблені</string>
+    <string name="map_coord_not_set_hint">Натисніть для вибору місцезнаходження</string>
     <string name="select_map_coord">Оберіть місцезнаходження</string>
     <string name="find_selected_address">Пошук адреси ...</string>
     <string name="open_gmap">Відкрити Google Maps</string>
@@ -154,8 +154,8 @@
     <string name="select_csv_file_title">Список CSV файлів в каталозі memento</string>
     <string name="button_import">Імпорт</string>
     <string name="button_export">Експорт</string>
-    <string name="find_csv_column_title">У вибраному файлі знайдені поля запису:</string>
-    <string name="not_find_csv_column_title">У вибраному файлі не знайдено жодного поля.</string>
+    <string name="find_csv_column_title">У обраніому файлі знайдені поля запису:</string>
+    <string name="not_find_csv_column_title">У обраному файлі не знайдено жодного поля.</string>
     <string name="csv_delimiter_text">Значення колонок повинні бути розділені комою (,)</string>
     <string name="need_title_column_text">"У файлі обов\'язково повинна бути колонка для поля, що являється назвою запису. "</string>
     <string name="csv_result_import_text">Записи були імпортовані</string>
@@ -315,7 +315,7 @@
     <string name="unpublic_library_title">Скасування публікації бібліотеки</string>
     <string name="unpublic_library">Скасувати публікацію</string>
     <string name="unpublish_success">Бібліотека була знята з публікації</string>
-    <string name="unpublic_message_text">Ви дійсно хочете скасувати публікацію бібліотеки \"%s\" ?</string>
+    <string name="unpublic_message_text">Ви дійсно бажаєте скасувати публікацію бібліотеки \"%s\" ?</string>
     <string name="unbind_from_gdocs_hint">Відв\'язування від Google Таблиць</string>
     <string name="preference_category_google_docs">Google Таблиці</string>
     <string name="unbind_from_google_docs_success">Бібліотека не більше не пов\'язаний з Google Таблиями</string>
@@ -390,7 +390,7 @@
     <string name="set_library_protection_message">Шифрування записів бібліотеки ...</string>
     <string name="remove_library_protection">Зняти захист з бібліотеки</string>
     <string name="remove_library_protection_desc">Для доступу до бібліотеки не вимагатиметься пароль</string>
-    <string name="remove_library_protection_question">Ви дійсно хочете зняти захист з бібліотеки?</string>
+    <string name="remove_library_protection_question">Ви дійсно бажаєте зняти захист з бібліотеки?</string>
     <string name="preference_category_security">Безпека</string>
     <string name="remove_library_protection_title">Зняття захисту</string>
     <string name="remove_library_protection_message">Дешифрування записів бібліотеки ...</string>
@@ -481,7 +481,7 @@
     <string name="add_email_template_dialog_title">Створити шаблон</string>
     <string name="add_email_template_dialog_text">Назва шаблону</string>
     <string name="delete_email_template">Видалити шаблон</string>
-    <string name="delete_email_template_dialog_text">Ви дійсно хочете видалити поточний шаблон?</string>
+    <string name="delete_email_template_dialog_text">Ви дійсно бажаєте видалити поточний шаблон?</string>
     <string name="select_email_template">Оберіть шаблон</string>
     <string name="required_field">Обов\'язкові</string>
     <string name="required_field_text">Поле має бути заповнене</string>
@@ -489,7 +489,8 @@
     <string name="required_mark">обов\'язкові</string>
     <string name="reset_master_password">Скинути майстер-пароль</string>
     <string name="reset_master_password_hint">Всі зашифровані бібліотеки будуть видалені</string>
-    <string name="reset_master_quest">Ви дійсно хочете скинути майстер-пароль?\nУвага! Всі зашифровані бібліотеки будуть видалені!</string>
+    <string name="reset_master_quest">Ви дійсно бажаєте скинути майстер-пароль?
+Увага! Всі зашифровані бібліотеки будуть видалені!</string>
     <string name="remove_encript_lib_dlg_msg">Видалення зашифрованих бібліотек</string>
     <string name="master_password_reset">Майстер пароль обнулений</string>
     <string name="edit_entry_screen_preference">Редагування записів</string>
@@ -560,7 +561,7 @@
     <string name="no_entries">Немає записів</string>
     <plurals name="library_box_entries_count">
 	<item quantity="one">%d запис</item>
-	<item quantity="few">%d записів</item>
+	<item quantity="few">%d записи</item>
 	<item quantity="many">%d записів</item>
 	<item quantity="other"/>
 </plurals>
@@ -568,7 +569,7 @@
     <string name="add_group_dialog_hint">Введіть назву групи</string>
     <string name="button_delete_goup">Видалити Групу</string>
     <string name="group_delete_message_title">Видалити групу</string>
-    <string name="group_delete_message_text">Ви дійсно хочете видалити групу \"%s\" ?</string>
+    <string name="group_delete_message_text">Ви дійсно бажаєте видалити групу \"%s\" ?</string>
     <string name="main_lock_button_text">Закрити доступ до бібліотек</string>
     <string name="lock_libraries_completed">Доступ до зашифрованих бібліотек закритий</string>
     <string name="sync_google_all">Синхронізувати з Google</string>
@@ -588,9 +589,9 @@
     <string name="clear_filter">Очистити фільтр</string>
     <string name="new_filter_dialog_title">Новий фільтр</string>
     <string name="new_filter_dialog_text">Назва фільтру</string>
-    <string name="delete_filter_dialog_text">Ви дійсно хочете видалити фільтр \"%s\"?</string>
-    <string name="add_to_favorite">Додати в обране</string>
-    <string name="remove_from_favorite">Вилучити з Обраного</string>
+    <string name="delete_filter_dialog_text">Ви дійсно бажаєте видалити фільтр \"%s\"?</string>
+    <string name="add_to_favorite">Додати в Улюблені</string>
+    <string name="remove_from_favorite">Вилучити з Улюбленних</string>
     <string name="search_result_subtitle">Результати пошуку</string>
     <string name="reindex_dialog_message">Створення індексів...</string>
     <string name="add_product_manually">Вручну</string>
@@ -603,7 +604,7 @@
     <string name="most_popular">Найбільш популярні</string>
     <string name="templates_sort_dialog_title">Сортувати шаблони</string>
     <string name="delete_catalog_template_title">Видалення шаблону</string>
-    <string name="delete_catalog_template_message">Ви дійсно хочете видалити шаблон %s з онлайн каталогу?</string>
+    <string name="delete_catalog_template_message">Ви дійсно бажаєте видалити шаблон %s з онлайн каталогу?</string>
     <string name="cant_share_template_withous_fields">Ви не можете розшарити шаблон без полів</string>
     <string name="reset_pass_button">Забули свій пароль?</string>
     <string name="request_pass_dialog_title">Зміна пароля</string>
@@ -641,7 +642,7 @@
     <string name="no_dependencies">немає залежностей</string>
     <plurals name="field_depends_count">
 	<item quantity="one">%d залежність</item>
-	<item quantity="few">%d залежностей</item>
+	<item quantity="few">%d залежності</item>
 	<item quantity="many">%d залежностей</item>
 	<item quantity="other"/>
 </plurals>
@@ -657,14 +658,14 @@
     <string name="visible_field_depend_description">Поле буде перебувати в даному стані, якщо поле %s приймає вказані значення</string>
     <string name="depend_from">"Залежність від  %s"</string>
     <string name="delete_depend_dialog_title">Видалення залежності</string>
-    <string name="delete_depend_dialog_message">Ви дійсно хочете видалити залежність від поля %s?</string>
+    <string name="delete_depend_dialog_message">Ви дійсно бажаєте видалити залежність від поля %s?</string>
     <string name="sl_content_depend_type">Вміст цього поля</string>
     <string name="sl_content_depend_pretitle">Значення поля %s</string>
     <string name="sl_content_depend_description">Значення поля буде доступно для вибору, якщо поле %s приймає відмічені значення</string>
     <string name="backup_images_checkbox">Створення резервних копій пов\'язаних зображень, аудіозаписів та інших файлів</string>
     <string name="backup_files_progress_title">Резервне копіювання файлів</string>
     <string name="backup_files_error">Помилка під час резервного копіювання файлів: %s</string>
-    <string name="restore_files_message">Резервна копія містить архів з файлами, пов\'язаних з базою даних; ви хочете відновити їх?</string>
+    <string name="restore_files_message">Резервна копія містить архів з файлами, пов\'язаних з базою даних; бажаєте відновити їх?</string>
     <string name="restore_files_progress_title">Відновлення файлів</string>
     <string name="restore_files_success2">Всі пов\'язані з базою даних файли розпаковані</string>
     <string formatted="false" name="restore_files_error_message">Не вдалось відновити файли з архіву: %s</string>
@@ -706,8 +707,8 @@
     <string name="google_sync_files_checkbox">Завантажувати прикріплені до записів файли (зображення) в хмарне сховище.</string>
     <string name="list_library_in_google">Список бібліотек в Google Drive</string>
     <string name="add_lib_from_google_drive">З Google Drive</string>
-    <string name="selected">%s вибрано</string>
-    <string name="delete_template_from_google_drive_question">Ви дійсно бажаєте видалити вибрані шаблони бібліотек з Google Drive?</string>
+    <string name="selected">%s обрано</string>
+    <string name="delete_template_from_google_drive_question">Ви дійсно бажаєте видалити обрані шаблони бібліотек з Google Drive?</string>
     <string name="delete_data_table_from_google_drive">Видалити пов\'язані з шаблонами таблиці даних</string>
     <string name="lock_library_edit_message">Редагування структури бібліотеки заблоковано.\nВи можете увімкнути можливість редагування в налаштуваннях даної бібліотеки.</string>
     <string name="lock_edit_library_pref_title">Заблокувати структуру</string>
@@ -732,7 +733,7 @@
     <string name="view_on_this_page_title">Показати на цій сторінці</string>
     <string name="set_default_page">Встановити за замовчуванням</string>
     <string name="entry_page_default">за замовчуванням</string>
-    <string name="entry_page_delete_message_text">Ви дійсно хочете видалити сторінку \"%s\" ?</string>
+    <string name="entry_page_delete_message_text">Ви дійсно бажаєте видалити сторінку \"%s\" ?</string>
     <string name="faq">FAQ</string>
     <string name="accept_button">Приймаю</string>
     <string name="sort_by_subtitle">по %s</string>
@@ -783,7 +784,7 @@
     <string name="chart_option_display_legends">Відображати легенду</string>
     <string name="chart_values_function">Функція</string>
     <string name="chart_edit_error_need_title">Введіть назву графіка</string>
-    <string name="chart_delete_message">Ви дійсно хочете видалити діаграму \"%s\" ?</string>
+    <string name="chart_delete_message">Ви дійсно бажаєте видалити діаграму \"%s\" ?</string>
     <string name="chart_other_value">Інше</string>
     <string name="pie_chart_category_title">Категорія</string>
     <string name="pie_chart_values_title">Значення</string>
@@ -862,13 +863,13 @@
     <string name="only_title_on_tile">Тільки назва бібліотеки</string>
     <plurals name="fields_count">
 	<item quantity="one">%d поле</item>
-	<item quantity="few">%d полів</item>
+	<item quantity="few">%d поля</item>
 	<item quantity="many">%d полів</item>
 	<item quantity="other"/>
 </plurals>
     <plurals name="libraries_count">
 	<item quantity="one">%d бібліотека</item>
-	<item quantity="few">%d бібліотек</item>
+	<item quantity="few">%d бібліотеки</item>
 	<item quantity="many">%d бібліотек</item>
 	<item quantity="other"/>
 </plurals>
@@ -893,7 +894,7 @@
     <string name="string_list_edit_item_title_hint">Назва елементу</string>
     <string name="string_list_add_item_dialog_title">Додати елемент</string>
     <string name="string_list_edit_item_dialog_title">Змінити елемент</string>
-    <string name="delete_string_list_item_message">Ви дійсно хочете видалити елемент \"%s\" ?</string>
+    <string name="delete_string_list_item_message">Ви дійсно бажаєте видалити елемент \"%s\" ?</string>
     <string name="icon">ІКОНКА</string>
     <string name="color">КОЛІР</string>
     <string name="edit_library_entries_options_group">Список записів</string>
@@ -909,14 +910,14 @@
     <string name="string_list_import_error">Виникла помилка під час імпорту: %s</string>
     <string name="something_wrong_dialog_title">Щось не так</string>
     <plurals name="string_list_import_snackbar_ok">
-	<item quantity="one">Імпортовано 0 элементів</item>
-	<item quantity="few">Імпортовано %1$d елементів</item>
+	<item quantity="one">Імпортовано 0 элемент</item>
+	<item quantity="few">Імпортовано %1$d елементи</item>
 	<item quantity="many">Імпортовано %1$d елементів</item>
 	<item quantity="other"/>
 </plurals>
     <string name="export_template_snackbar_ok">Шаблон був експортований</string>
     <string name="import_template_error">Помилка імпорту шаблону: %s</string>
-    <string name="mass_delete_string_list_item_message">Ви дійсно хочете видалити обрані елемент(и)?</string>
+    <string name="mass_delete_string_list_item_message">Ви дійсно бажаєте видалити обрані елемент(и)?</string>
     <string name="reminders_count_limit">Ви можете додати до поля максимум 10 нагадувань</string>
     <string name="aggregation_add_item_dialog_title">Додати функцію агрегування</string>
     <string name="aggregation_edit_item_dialog_title">Змінити функцію агрегування</string>
@@ -925,7 +926,7 @@
     <string name="aggregation_result_left">Ліворуч</string>
     <string name="aggregation_result_right">Праворуч</string>
     <string name="aggregation_delete_title">Видалити агрегацію</string>
-    <string name="aggregation_delete_message">Ви дійсно хочете видалити агрегацію \"%s\" ?</string>
+    <string name="aggregation_delete_message">Ви дійсно бажаєте видалити агрегацію \"%s\" ?</string>
     <string name="aggregation_need_select_field_message">Ви повинні обрати поле для функції агрегування</string>
     <string name="open_object_by_uri_error">Неможливо відкрити об\'єкт: %s</string>
     <string name="import_and_export_menu_item">Імпорт та експорт…</string>
@@ -939,24 +940,24 @@
     <string name="rating_field_max_value">Максимальний рейтинг</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%1$d зірка</item>
-	<item quantity="few">%1$d зірок</item>
+	<item quantity="few">%1$d зірки</item>
 	<item quantity="many">%1$d зірок</item>
 	<item quantity="other"/>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
 	<item quantity="one">%d запис був переміщений у кошик</item>
-	<item quantity="few">%d записів було переміщено у кошик</item>
+	<item quantity="few">%d записи було переміщено у кошик</item>
 	<item quantity="many">%d записів було переміщено у кошик</item>
 	<item quantity="other"/>
 </plurals>
     <string name="auto_fill_barcode_empty2">Порівняйте атрибути джерела автозаповнення та полів запису</string>
     <string name="barcode_rule_delete_title">Видалити правило</string>
-    <string name="barcode_rule_delete_text">Ви дійсно хочете видалити правило автозаповнення для поля \"%s\" ?</string>
-    <string name="multi_library_item_trush_message_text">Ви впевнені, що хочете відправити вибрані записи в сміття?</string>
-    <string name="multi_library_item_delete_message_text">Ви впевнені, що хочете видалити обрані записи ?</string>
+    <string name="barcode_rule_delete_text">Ви дійсно бажаєте видалити правило автозаповнення для поля \"%s\" ?</string>
+    <string name="multi_library_item_trush_message_text">Ви впевнені, що бажаєте відправити обрані записи в сміття?</string>
+    <string name="multi_library_item_delete_message_text">Ви впевнені, що бажаєте видалити обрані записи ?</string>
     <string name="delete_library_snackbar_text">Бібліотека \"%s\" була переміщена в кошик</string>
     <string name="deleted">Видалено</string>
-    <string name="library_recover_dialog_text">Ви хочете відновити бібліотеку \"%s\" ?</string>
+    <string name="library_recover_dialog_text">Ви бажаєте відновити бібліотеку \"%s\" ?</string>
     <string name="library_recover_snackbar_text">Бібліотека відновлена в групі \"%s\"</string>
     <string name="sort_by_name">Сортувати за назвою</string>
     <string name="sort_by_time">Сортувати за Часом Додавання</string>
@@ -1011,25 +1012,25 @@
     <string name="scale">Точність %d</string>
     <plurals name="duration_seconds">
 	<item quantity="one">%d секунда</item>
-	<item quantity="few">%d секунд</item>
+	<item quantity="few">%d секунди</item>
 	<item quantity="many">%d секунд</item>
 	<item quantity="other"/>
 </plurals>
     <plurals name="duration_minutes">
 	<item quantity="one">%d хвилина</item>
-	<item quantity="few">%d хвилин</item>
+	<item quantity="few">%d хвилини</item>
 	<item quantity="many">%d хвилин</item>
 	<item quantity="other"/>
 </plurals>
     <plurals name="duration_hours">
 	<item quantity="one">%d година</item>
-	<item quantity="few">%d годин</item>
+	<item quantity="few">%d години</item>
 	<item quantity="many">%d годин</item>
 	<item quantity="other"/>
 </plurals>
     <plurals name="duration_days">
 	<item quantity="one">%d день</item>
-	<item quantity="few">%d днів</item>
+	<item quantity="few">%d дні</item>
 	<item quantity="many">%d днів</item>
 	<item quantity="other"/>
 </plurals>
@@ -1065,7 +1066,7 @@
     
 <plurals name="NItemsFind">
 	<item quantity="one">%1$d запис знайдено</item>
-	<item quantity="few">%1$d записів знайдено</item>
+	<item quantity="few">%1$d записи знайдено</item>
 	<item quantity="many">%1$d записів знайдено</item>
 	<item quantity="other"/>
 </plurals>
@@ -1123,9 +1124,9 @@
 	<string name="cloud_conflict_fields_title">Конфлікти</string>
 	<string name="cloud_conflict_fix_button_title">Виправити</string>
     <plurals name="conflict_count">
-	<item quantity="one">Під час синхронізації виник конфлікт %d</item>
-	<item quantity="few">Під час синхронізації виникло конфліктів %d</item>
-	<item quantity="many">Під час синхронізації виникло конфліктів %d</item>
+	<item quantity="one">Під час синхронізації виник %d конфлікт</item>
+	<item quantity="few">Під час синхронізації виникло %d конфлікти</item>
+	<item quantity="many">Під час синхронізації виникло %d конфліктів</item>
 	<item quantity="other"/>
 </plurals>
     <string name="button_select">Обрати</string>
@@ -1143,7 +1144,7 @@
     <string name="cloud_who_has_access">Хто має доступ</string>
     <string name="cloud_server_unavaliable">Немає доступу до Memento Cloud Server, перевірте інтернет на вашому пристрої</string>
     <string name="delete_from_cloud">Видалити з хмари</string>
-    <string name="delete_from_cloud_message_question">Ви дійсно хочете видалити бібліотеку з хмари?</string>
+    <string name="delete_from_cloud_message_question">Ви дійсно бажаєте видалити бібліотеку з хмари?</string>
         
     <string name="byteShort">Б</string>    
     <string name="kilobyteShort">КБ</string>
@@ -1239,7 +1240,7 @@
 	<string name="clear_search_history">Очистити історію пошуку</string>
 	<string name="clear_search_history_hint">Видалити всі виконані пошукові запити</string>
 	<string name="success_clear_search_history">Ваша історія пошуку була очищена</string>	
-	<string name="clear_search_history_quest">Ви впевнені, що хочете очистити історію пошуку?</string>
+	<string name="clear_search_history_quest">Ви впевнені, що бажаєте очистити історію пошуку?</string>
 	<string name="uservoice_menu_title">UserVoice</string>
 	<string name="view_csv_error_dialog_message">Вибачте, але додаток для перегляду CSV-файлу не знайдено</string>
 	
@@ -1262,7 +1263,7 @@
     <string name="themoviedb_source_tv">Телебачення</string>
 
     <string name="autofill_rules_delete_title">Видалити правила автозаповнення</string>
-    <string name="autofill_rules_delete_text">Ви впевнені, що хочете видалити правила автозаповнення з джерела \"%s\" ?</string>
+    <string name="autofill_rules_delete_text">Ви впевнені, що бажаєте видалити правила автозаповнення з джерела \"%s\" ?</string>
     <string name="empty_autofill_list_text">Створити правила автозаповнення записів даних з Інтернету</string>
     <string name="empty_autofill_rules_list_text">Зіставити атрибути джерела та полів бібліотеки</string>
     <string formatted="false" name="movie_cast_person_item">%s в ролі %s</string>
@@ -1310,7 +1311,7 @@
     <string name="rating_tooltips_empty">Поле не має підказок</string>
     <plurals name="rating_tooltips_count">
 	<item quantity="one">%d підказка</item>
-	<item quantity="few">%d підказок</item>
+	<item quantity="few">%d підказки</item>
 	<item quantity="many">%d підказок</item>
 	<item quantity="other"/>
 </plurals>
@@ -1336,7 +1337,7 @@
 
     <plurals name="notification_edit_library_common_text">
 	<item quantity="one">%d непрочитана зміна</item>
-	<item quantity="few">%d непрочитаних змін</item>
+	<item quantity="few">%d непрочитаних зміни</item>
 	<item quantity="many">%d непрочитаних змін</item>
 	<item quantity="other"/>
 </plurals>
@@ -1346,7 +1347,7 @@
     <string name="notification_edit_library_delete_text">запис видалено</string>
     <plurals name="notification_comments_common_text">
 	<item quantity="one">%d новий коментар</item>
-	<item quantity="few">%d нових коментарів</item>
+	<item quantity="few">%d нових коментарі</item>
 	<item quantity="many">%d нових коментарів</item>
 	<item quantity="other"/>
 </plurals>
@@ -1404,7 +1405,7 @@
     <string name="users_manager">Менеджер користувачів</string>
     <string name="create_new_user_dialog">Створити нового користувача</string>
 
-    <string name="script">Скрипт</string>
+    <string name="script">Сценарій</string>
     <string name="js_libraries">Бібліотеки JavaScript</string>
     <string name="js_moment_library">Бібліотека для аналізу, перевірки, маніпулювання та форматування дат</string>
     <string name="js_realtime">Виконання сценарію в режимі реального часу</string>
@@ -1412,7 +1413,7 @@
     <string name="js_realtime_hint_on">Сценарій виконується при відображенні записи</string>
     <string name="user_limit_message">Ви досягли ліміту користувачів</string>
     <string name="remaining_users" formatted="false">%d з %d ліцензій використовується</string>
-    <string name="delete_slave_user_message">Ви дійсно хочете видалити користувача \"%s\"?</string>
+    <string name="delete_slave_user_message">Ви дійсно бажаєте видалити користувача \"%s\"?</string>
     <string name="active_users">Активні користувачі</string>
     <string name="deleted_users">Віддалені користувачі</string>
     <string name="powered_by_text">Працює на Memento Database</string>
@@ -1448,7 +1449,7 @@
     <string name="no_comments">Без коментарів</string>
     <string name="relation_type_one_limit2">%s уже має зв\'язок</string>
     <string name="relation_type_many_to_many">Багато-до-Багатьох</string>
-    <string name="relation_type_one_limit">Вибраний запис уже має зв\'язок</string>
+    <string name="relation_type_one_limit">Обраний запис уже має зв\'язок</string>
     <string name="desktop_version">Настільна версія</string>
 
     <string name="locale_to_fields_var">Текст з %s</string>
@@ -1471,7 +1472,7 @@
     <string name="auto_lock_libraries_time_title">Закрити доступ до бібліотек</string>
     <plurals name="comments_count">
 	<item quantity="one">Один коментар</item>
-	<item quantity="few">%d коментарів</item>
+	<item quantity="few">%d коментарі</item>
 	<item quantity="many">%d коментарів</item>
 	<item quantity="other"/>
 </plurals>
@@ -1480,24 +1481,25 @@
 <string name="comments_only_for_cloud">Коментарі доступні тільки для бібліотек завантажених в хмару. Завантажити бібліотеку в хмару?</string>
     <string name="auto_lock_libraries_after">Після %s</string>
 
-    <string name="empty_triggers_list_text">У цієї бібліотеки немає тригерів.\nТригер це скрипт, який запускається при певних діях або подіях.</string>
+    <string name="empty_triggers_list_text">У цієї бібліотеки немає тригерів.
+Тригер це сценарій, який виконується при певних умовах або подіях.</string>
     <string name="triggers">Тригери</string>
     <string name="trigger_name">Назва тригера</string>
     <string name="trigger_event">Подія</string>
-    <string name="trigger_moment">Момент запуску скрипту</string>
+    <string name="trigger_moment">Момент виконання сценарію</string>
     <string name="unknown_trigger_event_type">Невідома подія</string>
-    <string name="unknown_trigger_moment_type">Невідомий момент запуску скрипту</string>
+    <string name="unknown_trigger_moment_type">Невідомий момент виконання сценарію</string>
 
     <string name="trigger_event_create_entry">Створення запису</string>
     <string name="trigger_event_modify_entry">Створення запису</string>
     <string name="trigger_event_delete_entry">Видалення запису</string>
     <string name="trigger_event_open_entry">Відкриття картки записи</string>
-    <string name="trigger_event_add_favorites">Додавання записів в обране</string>
-    <string name="trigger_event_remove_favorites">Видалення запису з обраного</string>
+    <string name="trigger_event_add_favorites">Додавання записів в Улюблені</string>
+    <string name="trigger_event_remove_favorites">Видалення запису з Улюбленних</string>
     <string name="trigger_default_name">Тригер %d</string>
     <string name="trigger_enabled">Увімкнений</string>
     <string name="trigger_switched_off">Вимкнений</string>
-    <string name="trigger_delete_message">Ви дійсно хочете видалити скрипт \"%s\"?</string>
+    <string name="trigger_delete_message">Ви дійсно бажаєте видалити сценарій \"%s\" ?</string>
 
 
     <string name="trigger_moment_open_form">Відкриття форми</string>
@@ -1514,16 +1516,16 @@
     <string name="log_files_folder">Каталог лог-файлів</string>
 
     <string name="enable_logging_cloud">Лог запитів до Memento хмари</string>
-    <string name="enable_logging_triggers">Лог скриптів</string>
-    <string name="script_log">Лог скрипту</string>
+    <string name="enable_logging_triggers">Лог сценаріїв</string>
+    <string name="script_log">Лог сценарію</string>
 
-    <string name="trigger_permissions">Дозволи для скриптів</string>
-    <string name="trigger_permission_read_file">Читання файлів</string>
-    <string name="trigger_permission_read_file_hint">Дозволяє скриптам читати з файлів</string>
+    <string name="trigger_permissions">Дозволи для сценаріїв</string>
+    <string name="trigger_permission_read_file">Читати файли</string>
+    <string name="trigger_permission_read_file_hint">Дозволяє сценаріям читати з файлів</string>
     <string name="trigger_permission_write_file">Запис файлів</string>
-    <string name="trigger_permission_write_file_hint">Дозволяє скриптам записувати на зовнішній пристрій зберігання</string>
+    <string name="trigger_permission_write_file_hint">Дозволяє сценаріям записувати на зовнішню пам\'ять</string>
     <string name="trigger_permission_network">Мережа</string>
-    <string name="trigger_permission_network_hint">Дозволяє скриптам виконувати HTTP запити</string>
+    <string name="trigger_permission_network_hint">Дозволяє сценаріям виконувати HTTP запити</string>
 
     <string name="trigger_permission_libraries">Бібліотекі</string>
     <string name="trigger_permission_libraries_hint">Доступ до всіх бібліотек</string>
@@ -1592,7 +1594,7 @@
     <string name="uom_pound">Фунт</string>
     <string name="uom_ounce">Унція</string>
 
-    <string name="uom_category_volume">Об `єм</string>
+    <string name="uom_category_volume">Об`єм</string>
     <string name="uom_cubic_metre">Кубічний метр</string>
     <string name="uom_liter">Літр</string>
     <string name="uom_cubic_inch">Кубічний дюйм</string>
@@ -1649,7 +1651,7 @@
     <string name="increase">Збільшити</string>
     <string name="decrease">Зменшити</string>
     <string name="frozen">Блокування</string>
-    <string name="frozen_text">Бібліотека блокована, так як ви перевищили ліміт на кількість завантажених в хмару бібліотек на вашому тарифному плані.</string>
+    <string name="frozen_text">Бібліотека заблокована, так як ви перевищили ліміт на кількість завантажених в хмару бібліотек на вашому тарифному плані.</string>
     <string name="date_and_time_formats">Формати дати і часу</string>
     <string name="date_formats">Формат дати</string>
     <string name="time_formats">Формат часу</string>
@@ -1683,14 +1685,14 @@
     <string name="send_password_to_user">Надіслати пароль користувачеві</string>
     <string name="create_permissions">Створити правила доступу</string>
     <string name="edit_permissions">Змінити правила доступу</string>
-    <string name="library_permissions">Правила доступу до бібліотеки</string>
+    <string name="library_permissions">Права доступу до бібліотеки</string>
     <string name="field_permissions">Правила доступу до полів</string>
     <string name="library_permissions_subject">Ім\'я/email/група</string>
     <string name="permissions_delete_message">Ви дійсно бажаєте видалити правила для \"%s\" ?</string>
     <string name="field_right_need_library_download">Завантажте бібліотеку на пристрій для додавання прав доступу до полів.</string>
     <string name="field_permission_invisible">Приховати</string>
     <string name="field_permission_read_only">Тільки для читання</string>
-    <string name="field_permissions_limit">Налаштування прав доступу до полів підтримується тільки на тарифах категорії \"Команда\".</string>
+    <string name="field_permissions_limit">Налаштування прав доступу до полів, що підтримується тільки на тарифах категорії \"Команда\".</string>
     <string name="user_groups">Групи</string>
     <string name="add_user_group">Додати групу</string>
     <string name="add_user_group_hint">Назва групи</string>
@@ -1702,7 +1704,7 @@
 	<item quantity="many">%d користувачів</item>
 	<item quantity="other"/>
 </plurals>
-    <string name="user_group_delete_message">Ви дійсно хочете видалити групу \"%s\" ?</string>
+    <string name="user_group_delete_message">Ви дійсно бажаєте видалити групу \"%s\" ?</string>
     <string name="group_not_found">Групу не знайдено</string>
     <string name="individual">Особисті</string>
     <string name="team">Команда</string>
@@ -1746,8 +1748,8 @@
     <string name="hint_create_contact_button">Створити контакт</string>
     <string name="hint_insert_audio_button">Вставити аудіозапис</string>
     <string name="hint_record_audio_button">Зробити аудіозапис</string>
-    <string name="hint_insert_location_button">Вставити розташування</string>
-    <string name="hint_get_my_location_button">Визначити моє місце розташування</string>
+    <string name="hint_insert_location_button">Вставити місцезнаходження</string>
+    <string name="hint_get_my_location_button">Визначити моє місцезнаходження</string>
     <string name="hint_insert_entry_button">Вставити запис</string>
     <string name="barcode_type_option_title">Тип</string>
     <string name="barcode_type_1d">Штрих код</string>
@@ -1758,14 +1760,14 @@
     <string name="warning">Увага</string>
     <string name="add_javascript_library">Додати javascript бібліотеки...</string>
     <string name="add_repository">Додати репозиторій</string>
-    <string name="repository_location_hint">Адреса GitHub репозиторія</string>
+    <string name="repository_location_hint">URL GitHub репозиторія</string>
     <string name="repository_location_error">Будь ласка, вкажіть HTTPS посилання на ваш GitHub репозиторій. Наприклад: https://github.com/username/repo-name</string>
-    <string name="repository_not_found_error">Репозиторій не знайдено: %s</string>
+    <string name="repository_not_found_error">Не знайдено репозиторій: %s</string>
     <string name="repository_delete_message">Ви дійсно бажаєте видалити репозиторій \"%s\" ?</string>
     <string name="repository_other">Інші</string>
 
-    <string name="map_field_current_by_default_title">Поточне місце розташування</string>
-    <string name="map_field_current_by_default_hint">Додати своє поточне місце розташування за замовчуванням</string>
+    <string name="map_field_current_by_default_title">Поточне місцезнаходження</string>
+    <string name="map_field_current_by_default_hint">Додати своє поточне місцезнаходження за замовчуванням</string>
     <string name="receiving_document_content">Отримання вмісту документа</string>
     <string name="find_address">Знайти адресу</string>
     <string name="privacy_policy">Політика конфіденційності</string>
@@ -1776,31 +1778,31 @@
     <string name="action_default_name">Дія %d</string>
     <string name="place_of_action">Місце дії</string>
     <string name="action_arguments">Аргументи</string>
-    <string name="action_arguments_empty">Скрипт може містити аргументи, значення яких будуть вводитися користувачем.</string>
+    <string name="action_arguments_empty">Сценарій може містити аргументи, значення яких будуть вводитися користувачем.</string>
     <string name="select_argument_type">Тип аргументу</string>
-    <string name="script_argument_delete_message_text">Ви дійсно хочете видалити аргумент \"%s\" ?</string>
+    <string name="script_argument_delete_message_text">Ви дійсно бажаєте видалити аргумент \"%s\" ?</string>
     <string name="create_argument">Створити аргумент</string>
     <string name="edit_argument">Редагувати аргумент</string>
     <string name="argument_name">Назва аргументу</string>
     <string name="argument_hint">Назва аргументу</string>
     <string name="required_argument_text">Аргумент повинен бути зазначений</string>
-    <string name="scripts">Скрипти</string>
+    <string name="scripts">Сценарії</string>
     <string name="actions">Дії</string>
-    <string name="empty_script_list_text">Ця бібліотека не містить скриптів</string>
-    <string name="empty_script_list_trigger_text">Тригер - це скрипт який запускається при певних діях або подіях.</string>
-    <string name="empty_script_list_action_text">Дія - це скрипт який запускається вручну при натисканні кнопки в бібліотеці або картці записи.</string>
-    <string name="autofill_goto_script_title">Редактор скриптів</string>
-    <string name="autofill_goto_script_hint">Натисніть для редагування скрипта</string>
-    <string name="java_script_data_source_title">Скрипт</string>
+    <string name="empty_script_list_text">Ця бібліотека не містить сценаріїв</string>
+    <string name="empty_script_list_trigger_text">Тригер - це сценарій який виконується при певних умовах або подіях.</string>
+    <string name="empty_script_list_action_text">Дія - це сценарій який виконується вручну при натисканні кнопки в бібліотеці або картці запису.</string>
+    <string name="autofill_goto_script_title">Редактор сценаріїв</string>
+    <string name="autofill_goto_script_hint">Натисніть для редагування сценарію</string>
+    <string name="java_script_data_source_title">Користувацьке джерело</string>
     <string name="java_script_data_source_hint">JavaScript</string>
-    <string name="script_cant_run_for_not_saved_library">Запуск скриптів можливий тільки після збереження бібліотеки.</string>
-    <string name="autofill_script_source_key_title">Вкажіть властивість об\'єкта, що повертається скриптом</string>
+    <string name="script_cant_run_for_not_saved_library">Виконання сценаріїв можливий тільки після збереження бібліотеки.</string>
+    <string name="autofill_script_source_key_title">Вкажіть властивість об\'єкта, що повертається сценарієм</string>
     <string name="test_js_data_source_query_hint">Рядок запиту</string>
     <string name="test_js_data_source_query_result">Результат запиту:\n%s</string>
-    <string name="run">Запуск</string>
+    <string name="run">Виконання</string>
     <string name="run_arguments">Аргументи</string>
-    <string name="script_cant_set_permissions_for_not_saved_library">Можна встановити дозволи для скрипу тільки після збереження бібліотеки.</string>
-    <string name="script_permissions_required_message">Бібліотека містить скрипти для яких потрібні наступні дозволи:</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">Можна встановити дозволи для сценарію тільки після збереження бібліотеки.</string>
+    <string name="script_permissions_required_message">Бібліотека містить сценарій для яких потрібні наступні дозволи:</string>
     <string name="required_access_to_library">доступ до %s</string>
     <string name="action_with_library_context">Дія в бібліотеці</string>
     <string name="action_with_entry_context">Дія в записі</string>
@@ -1816,7 +1818,7 @@
     <string name="cloud_plan_team20_annual">Команда 20</string>
     <string name="price_per_year">%s/рік</string>
 
-    <string name="frozen_alien_text">Бібліотека заморожена, будь ласка, зв\'яжіться з власником бібліотеки (%s).</string>
+    <string name="frozen_alien_text">Бібліотека заблокована, будь ласка, зв\'яжіться з власником бібліотеки (%s).</string>
     <string name="copy_field">Копіювати поле</string>
     <string name="delete_reminder_dialog_text">Ви дійсно бажаєте видалити нагадування?</string>
     <string name="igdb_source">igdb.com</string>
@@ -1837,7 +1839,7 @@
     <string name="wizard_library_name_hint3">Бібліотека подібна до робочих таблиць у електронній таблиці.</string>
     <string name="wizard_library_icon_title">Оберіть значок для цієї бібліотеки</string>
     <string name="wizard_library_structure_title">Давайте створимо структуру вашої бібліотеки.</string>
-    <string name="wizard_library_structure_hint2">Кожен елемент, який ви додаєте до своєї бібліотеки, називається \"запис\". Кожен запис буде мати власні поля з усією інформацією, яку ви хочете зберегти.</string>
+    <string name="wizard_library_structure_hint2">Кожен елемент, який ви додаєте до своєї бібліотеки, називається \"запис\". Кожен запис буде мати власні поля з усією інформацією, яку ви бажаєте зберегти.</string>
     <string name="wizard_library_structure_hint3">Запис є еквівалентом рядка в електронній таблиці.</string>
     <string name="wizard_library_structure_hint4">Поле є еквівалентом стовпця в електронній таблиці.</string>
     <string name="wizard_select_field_type_message">Будь ласка, оберіть тип поля</string>
@@ -1849,7 +1851,7 @@
     <string name="wizard_field_advanced_options_button">Розширений</string>
     <string name="wizard_choice_field_items_empty_text">Вам слід створити задане число елементів (значень) для типу поля.</string>
     <string name="wizard_field_name_title">Як бажаєте назвати це поле?</string>
-    <string name="wizard_field_name_examples">Наприклад, у вас можуть бути поля \"назва\", \"опис\", \"тип обладнання\", \"вартість\", \"розмір\", \"місце розташування\", тощо.</string>
+    <string name="wizard_field_name_examples">Наприклад, у вас можуть бути поля \"назва\", \"опис\", \"тип обладнання\", \"вартість\", \"розмір\", \"місцезнаходження\", тощо.</string>
     <string name="wizard_field_type_title">Кожне поле може бути призначене для зберігання певного типу даних.</string>
     <string name="wizard_field_display_options_title">Бажаєте, щоб значення цього поля відображалось у списку записів?</string>
     <string name="wizard_field_display_no">Ні, дякую</string>
@@ -1859,7 +1861,7 @@
     <string name="wizard_field_display_status">Як Статус Запису</string>
     <string name="more_info">Потрібна допомога?</string>
     <string name="type_desc_rating">Поле «Рейтинг» може бути порожнім або містити значення від 1 до 5 зірочок.</string>
-    <string name="type_desc_location">Поле «Місцезнаходження» може містити місце розташування, яке відображається у вигляді широти/довготи та поштової адреси.</string>
+    <string name="type_desc_location">Поле «Місцезнаходження» може містити місцезнаходження, яке відображається у вигляді широти/довготи та поштової адреси.</string>
     <string name="type_desc_link_to_entry">Поле «Посилання на Запис» може містити посилання на запис або записи в іншій бібліотеці.</string>
     <string name="type_desc_contact">Поле «Контакт» може містити посилання на контакт у вашому додатку контактів.</string>
     <string name="type_desc_images">Поле «Зображення» може містити посилання на зображення.</string>
