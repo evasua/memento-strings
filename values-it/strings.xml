@@ -1762,4 +1762,14 @@
     <string name="script_permissions_required_message">La libreria ha degli scripts che richiedono i seguenti permessi:</string>
     <string name="required_access_to_library">accesso a %s</string>
     <string name="action_with_library_context"/>
+    <string name="uom_ounce_liquid_us">Onda fluida americana</string>
+    <string name="uom_ounce_liquid_uk">Oncia fluida imperiale</string>
+
+    <string name="image_caption">Didascalia</string>
+    <string name="add_user_group">Aggiungi un gruppo di utenti</string>
+    <string name="individual">Individuale</string>
+    <string name="team">Squadra</string>
+    <string name="warning">avvertimento</string>
+    <string name="repository_other">Altro</string>
+
     </resources>
