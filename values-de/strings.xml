@@ -13,7 +13,7 @@
     <string name="button_save">Speichern</string>
     <string name="button_cancel">Abbrechen</string>
     <string name="button_add_field">Feld hinzufügen</string>
-    <string name="add_new_library_item">Eintrag hinzufügen...</string>
+    <string name="add_new_library_item">Eintrag hinzufügen</string>
     <string name="flex_type_title_string">Text</string>
     <string name="flex_type_title_int">Ganzzahl</string>
     <string name="flex_type_title_bool">Boolean</string>
@@ -145,7 +145,8 @@
     <string name="activation_ok">Danke dass Sie Memento aktiviert haben</string>
     <string name="activation_error">Aktivierungscode ungültig. Bitte nochmal versuchen.</string>
     <string name="about">Über</string>
-    <string name="copyright">Copyright © 2016 LuckyDroid\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2017 LuckyDroid
+All rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Software Version</string>
     <string name="about_license_type">Lizenz:</string>
@@ -714,7 +715,7 @@
     <string name="normal">Normal</string>
     <string name="hybrid">Hybrid</string>
     <string name="satellite">Satellit</string>
-    <string name="terrain">Terrain</string>
+    <string name="terrain">Boden</string>
     <string name="open_map_menu_item">Karte</string>
     <string name="google_drive">Google Drive</string>
     <string name="none_files_cloud_storage">nichts</string>
@@ -863,7 +864,7 @@
     <string name="edit_library_main_color">Farbe der Sammlung</string>
     <string name="color_swatch_description">Farbe %d</string>
     <string name="color_swatch_description_selected">Farbe %d ausgewählt</string>
-    <string name="button_palette">Palette...</string>
+    <string name="button_palette">Palette</string>
     <string name="button_own_pictures">Gallerie...</string>
     <string name="icon_pack_title_flat">flach</string>
     <string name="icon_pack_title_circle">Kreise</string>
@@ -1212,7 +1213,7 @@
 	<string name="default_file_manager_built_in">Eingebaut</string>	
 	<string name="clear_search_history">Suchgeschichte löschen</string>
 	<string name="success_clear_search_history">Ihr Suchgeschichte ist gelöscht</string>	
-	<string name="uservoice_menu_title">UserVoice</string>
+	<string name="uservoice_menu_title">Benutzerstimme</string>
 	<string name="edit_library_tabs_autofill">Automatisches Ausfüllen</string>
 	<string name="autofill_rules_title">Regeln für Automatisches Ausfüllen</string>
 	<string name="music_brainz_source_artist">Musikartisten</string>
@@ -1630,4 +1631,289 @@
     <string name="add_user_group_hint">Gruppenname</string>
     <string name="user_group_name_empty">Der Gruppenname soll nicht leer sein</string>
     <string name="users_count_none">Keine Benutzer</string>
-    </resources>
+    <string name="uom_angstrom">Angstrem</string>
+    <string name="trigger_event_open_library">Eine Bibliothek öffnen</string>
+    <string name="memento_server_private_hint">host:port</string>
+    <string name="memento_server_private_not_found">Privater Server wurde nicht an der angegebenen Adresse gefunden</string>
+    <string name="library_edit_mode_hint">Öffnen Sie das Bearbeitungsformular indem Sie auf einen Eintrag klicken</string>
+    <string name="send_field_title_summary">Der Feldname wird dem Feldwert vorangestellt</string>
+    <string name="auto_lock_libraries_time_title">Schließen Sie den Zugriff auf die Bibliotheken</string>
+    <string name="trigger_name">Name des Auslösers</string>
+    <string name="trigger_moment">Phase</string>
+    <string name="unknown_trigger_moment_type">Unbekannte Phase</string>
+
+    <string name="trigger_default_name">Auslöser %d</string>
+    <string name="trigger_moment_before_show">Vor der Fensteranzeige</string>
+    <string name="enable_logging_cloud">Memento Cloud Anrufe</string>
+    <string name="script_log">Skriptprotokoll</string>
+
+    <string name="memento_server_settings_group">Memento Server</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Erstellen Sie einen neuen Eintrag, wenn Sie keinen Eintrag nach dem Schlüsselfeld gefunden haben</string>
+
+    <string name="empty_triggers_list_text">Diese Bibliothek enthält keine Trigger.
+Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf einem Ereignis definiert.</string>
+    <string name="uom_fahrenheit">Fahrenheit</string>
+    <string name="uom_kelvin">Kelvin</string>
+    <string name="uom_rankine">Rankine</string>
+
+    <string name="uom_meter">Meter</string>
+    <string name="uom_kilometer">Kilometer</string>
+    <string name="uom_gigabit">Gigabit</string>
+    <string name="uom_gigabyte">Gigabyte</string>
+    <string name="uom_terabit">Terabit</string>
+    <string name="uom_terabyte">Terabyte</string>
+    <string name="uom_petabit">Petabit</string>
+    <string name="uom_petabyte">Petabyte</string>
+
+    <string name="uom_kilowatt">Kilowatt</string>
+    <string name="uom_megawatt">Megawatt</string>
+    <string name="uom_horsepower">Pferdestärke</string>
+
+    <string name="uom_category_energy">Energie</string>
+    <string name="uom_kilojoule">Kilojoule</string>
+
+    <string name="uom_kilohertz">Kilohertz</string>
+    <string name="uom_megahertz">Megahertz</string>
+    <string name="uom_gigahertz">Gigahertz</string>
+
+    <string name="increase">Anstieg</string>
+    <string name="decrease">Abnahme</string>
+    <string name="frozen_text">Die Bibliothek wurde eingefroren, da Ihr Tarifplan für die Anzahl der in die Cloud hochgeladenen Bibliotheken überschritten wurde.</string>
+    <string name="bulk_add">Masse hinzufügen</string>
+    <string name="memento_cloud2">Memento Cloud</string>
+
+    <string name="locale_key_field_description">Das Schlüsselfeld zum Bearbeiten von Einträgen</string>
+
+    <string name="entries_desc_dialog_title">Die Eintragsbeschreibung wird durch die Werte der ausgewählten Felder bestimmt</string>
+    <string name="image_caption">Bildbeschriftung</string>
+    <string name="flex_type_subheader">Unterordner</string>
+    <string name="create_subheader">Unterordner erstellen</string>
+    <string name="edit_subheader">Unterordner bearbeiten</string>
+    <string name="subheader_collapsed_by_default">Standardmäßig minimiert</string>
+    <string name="individual">Individuell</string>
+    <string name="team">Team</string>
+    <string name="cloud_plan_team5">Team 5</string>
+    <string name="cloud_plan_team10">Team 10</string>
+    <string name="cloud_plan_team15">Team 15</string>
+    <string name="cloud_plan_team20">Team 20</string>
+    <string name="pro_for_team">Pro Features für alle Benutzer im Team</string>
+    <string name="tasker_plugin_create_entry_event_title">Eintrag erstellt</string>
+    <string name="tasker_plugin_delete_entry_event_title">Eintrag gelöscht</string>
+    <string name="tasker_plugin_modified_entry_event_title">Eintrag geändert</string>
+    <string name="no_libraries_text">Noch keine Bibliotheken!</string>
+    <string name="add_linked_libraries">Enthalten Sie verwandte Bibliotheken</string>
+    <string name="create_collections">Erstellen Sie Bibliotheken</string>
+    <string name="create_collections_success">Bibliotheken erstellt</string>
+    <string name="template_included_libraries">Die Vorlage enthält zusätzliche Bibliotheken.</string>
+
+    <string name="entries_view_type_cards">Karten</string>
+    <string name="card_view_number_of_columns">Anzahl der Spalten</string>
+    <plurals name="columns_count">
+	<item quantity="one">Eine Spalte</item>
+	<item quantity="other">%d Spalte</item>
+</plurals>
+
+    <string name="card_view_title_on_image">Text über dem Bild</string>
+    <string name="card_view_squared_image">Beschneide Bilder in ein Quadrat</string>
+    <string name="hint_previous_entry">Vorheriger Eintrag</string>
+    <string name="hint_next_entry">Nächster Eintrag</string>
+    <string name="hint_remove_image_button">Bild löschen</string>
+    <string name="hint_insert_image_button">Bild einfügen</string>
+    <string name="hint_capture_image_button">Bild aufnehmen</string>
+    <string name="hint_change_date">Datum ändern</string>
+    <string name="hint_change_time">Uhrzeit ändern</string>
+    <string name="hint_add_reminder">Erinnerung hinzufügen</string>
+    <string name="hint_remove_reminder">Erinnerung löschen</string>
+    <string name="hint_insert_contact_button">Kontakt einfügen</string>
+    <string name="hint_create_contact_button">Kontakt erstellen</string>
+    <string name="hint_insert_audio_button">Ton einfügen</string>
+    <string name="hint_record_audio_button">Ton aufnehmen</string>
+    <string name="hint_insert_location_button">Ort einfügen</string>
+    <string name="hint_get_my_location_button">Suche meinen Standort</string>
+    <string name="hint_insert_entry_button">Eintrag hinzufügen</string>
+    <string name="barcode_type_option_title">Typ</string>
+    <string name="barcode_type_1d">Barcode</string>
+    <string name="barcode_type_2d">QR Code</string>
+
+    <string name="embedded_js_libraries">Version</string>
+    <string name="repository_js_libraries">Quelle</string>
+    <string name="repository_android_intents_hint">Funktionen für die Interaktion mit einer anderen Android-Anwendungen</string>
+    <string name="repository_data_sources_hint">Datenquellen für das automatisch ausfüllen</string>
+    <string name="warning">Warnung</string>
+    <string name="add_javascript_library">Füge Javascript-Bibliotheken hinzu</string>
+    <string name="add_repository">Quelle hinzufügen</string>
+    <string name="repository_location_hint">GitHub Quelle URL</string>
+    <string name="repository_location_error">Geben Sie den HTTPS-Link zur GitHub-Quelle an. Zum Beispiel: https://github.com/username/repo-name</string>
+    <string name="repository_not_found_error">Quelle nicht gefunden: %s</string>
+    <string name="repository_delete_message">Möchten Sie die Quelle \"%s\" wirklich löschen?</string>
+    <string name="repository_other">Andere</string>
+
+    <string name="map_field_current_by_default_title">Aktueller Standort</string>
+    <string name="map_field_current_by_default_hint">Besorgen Sie sich den aktuellen Standort standardmäßig</string>
+    <string name="receiving_document_content">Dokumenteninhalt empfangen</string>
+    <string name="find_address">Adresse suchen</string>
+    <string name="privacy_policy">Datenschutz-Bestimmungen</string>
+    <string name="trigger_event_action">Aktion</string>
+    <string name="action_context_library">Bibliothek</string>
+    <string name="trigger">Auslöser</string>
+    <string name="action_default_name">Aktion %d</string>
+    <string name="place_of_action">Ort der Aktion</string>
+    <string name="action_arguments">Argumente</string>
+    <string name="action_arguments_empty">Das Skript kann Argumente haben, deren Werte vom Benutzer eingegeben werden.</string>
+    <string name="select_argument_type">Argumenttyp</string>
+    <string name="script_argument_delete_message_text">Möchten Sie das Argument \"%s\" wirklich löschen?</string>
+    <string name="create_argument">Erstellen Sie ein Argument</string>
+    <string name="edit_argument">Argument bearbeiten</string>
+    <string name="argument_name">Argumentname</string>
+    <string name="argument_hint">Argument Hinweis</string>
+    <string name="required_argument_text">Argument muss ausgefüllt sein</string>
+    <string name="scripts">Skripte</string>
+    <string name="actions">Aktionen</string>
+    <string name="empty_script_list_text">Diese Bibliothek enthält keine Skripte</string>
+    <string name="empty_script_list_trigger_text">Trigger ist ein Skript, das die Verarbeitung eines Eintrags basierend auf einem Ereignis definiert.</string>
+    <string name="empty_script_list_action_text">Aktion ist ein Skript, das manuell durch Drücken der Taste in der Bibliothek oder der Eingangskarte gestartet wird.</string>
+    <string name="autofill_goto_script_title">Script Editor</string>
+    <string name="java_script_data_source_title">Benutzerdefinierte Quelle</string>
+    <string name="java_script_data_source_hint">JavaScript</string>
+    <string name="script_cant_run_for_not_saved_library">Sie können das Skript erst nach dem Speichern der Bibliothek ausführen.</string>
+    <string name="autofill_script_source_key_title">Weisen Sie auf die Objekteigenschaft hin die vom Skript zurückgegeben wird</string>
+    <string name="test_js_data_source_query_hint">Abfragezeichenfolge</string>
+    <string name="test_js_data_source_query_result">Abfrageergebnis:
+%s</string>
+    <string name="run">Läuft</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">Sie können Berechtigungen nur nach dem Speichern der Bibliothek für das Skript festlegen.</string>
+    <string name="script_permissions_required_message">Die Bibliothek verfügt über die Skripts, die die folgenden Berechtigungen erfordern:</string>
+    <string name="required_access_to_library">Zugriff auf %s</string>
+    <string name="action_with_library_context">Bibliotheksaktion</string>
+    <string name="action_with_entry_context">Einstiegsaktion</string>
+    <string name="library_related_cloud_model_changed_message">Die Struktur der zugehörigen Bibliothek wurde in der Cloud aktualisiert. Wechseln Sie zur entsprechenden Bibliothek für das Update.</string>
+    
+    <string name="monthly_plan">Monatlich</string>
+    <string name="yearly_plan">Jährlich</string>
+    <string name="cloud_plan_plan3_annual">Lite</string>
+    <string name="cloud_plan_plan6_annual">Pro</string>
+    <string name="cloud_plan_plan10_annual">Pro Plus</string>
+    <string name="cloud_plan_team5_annual">Team 5</string>
+    <string name="cloud_plan_team10_annual">Team 10</string>
+    <string name="cloud_plan_team15_annual">Team 15</string>
+    <string name="cloud_plan_team20_annual">Team 20</string>
+    <string name="price_per_year">%s/yr</string>
+
+    <string name="frozen_alien_text">Die Bibliothek ist eingefroren. Bitte wenden Sie sich an den Eigentümer der Bibliothek (%s).</string>
+    <string name="copy_field">Feld kopieren</string>
+    <string name="delete_reminder_dialog_text">Möchten Sie die Erinnerung wirklich löschen?</string>
+    <string name="igdb_source">igdb.com</string>
+    <string name="games">Spiele</string>
+    <string name="number_increment_delta_title">Tasten zum Erhöhen / Verringern</string>
+    <string name="number_increment_delta_value">Schrittgröße %s</string>
+    <string name="number_increment_visible_option">Schaltflächen anzeigen</string>
+    <string name="is_empty">Ist leer</string>
+    <string name="is_not_empty">Ist nicht leer</string>
+    <string name="search_base_folder">Suchkatalog</string>
+    <string name="line_interpolate_nulls_titles">Leere Werte interpolieren</string>
+
+
+    <string name="wizard">Wizard</string>
+    <string name="wizard_library_name_title">Memento organisiert Ihre Informationen in den Bibliotheken. Wie möchten Sie Ihre Bibliothek benennen?</string>
+    <string name="wizard_library_name_hint2">Bibliotheken werden verwendet, um eine Liste eines bestimmten Elementtyps zu speichern.</string>
+    <string name="wizard_library_icon_title">Wählen Sie das Symbol für diese Bibliothek</string>
+    <string name="wizard_library_structure_title">Lassen Sie uns die Struktur Ihrer Bibliothek erstellen.</string>
+    <string name="wizard_library_structure_hint2">Jedes Objekt, das Sie in Ihre Bibliothek legen, wird als \"Eintrag\" bezeichnet. Jeder Eintrag hat seine eigenen Felder mit allen Informationen, die Sie darüber speichern möchten.</string>
+    <string name="wizard_library_structure_hint3">Ein Eintrag entspricht einer Zeile in einer Tabelle.</string>
+    <string name="wizard_library_structure_hint4">Ein Feld entspricht einer Spalte in einer Tabelle.</string>
+    <string name="wizard_select_field_type_message">Bitte wählen Sie den Feldtyp aus</string>
+    <string name="wizard_add_name_field_message">Fügen Sie das Feld hinzu, das der Name des Eintrags sein wird.</string>
+    <string name="wizard_field_options_title">Feldmerkmale</string>
+    <string name="wizard_field_items_title">Artikel</string>
+    <string name="wizard_field_options_select_type_message">Feldattribute sind nach Auswahl des Feldtyps verfügbar.</string>
+    <string name="wizard_field_options_empty">Für den ausgewählten Feldtyp sind nur erweiterte Attribute verfügbar.</string>
+    <string name="wizard_field_advanced_options_button">Fortgeschritten</string>
+    <string name="wizard_choice_field_items_empty_text">Sie sollten eine voreingestellte Anzahl von Elementen (Werten) für den Feldtyp erstellen.</string>
+    <string name="wizard_field_name_title">Wie möchten Sie dieses Feld benennen?</string>
+    <string name="wizard_field_name_examples">Zum Beispiel könnten Sie Felder für \"Titel\", \"Beschreibung\", \"Gerätetyp\", \"Kosten\", \"Größe\", \"Standort\" usw. haben.</string>
+    <string name="wizard_field_type_title">Jedes Feld kann so gestaltet werden, dass es eine bestimmte Art von Daten enthält.</string>
+    <string name="wizard_field_display_options_title">Möchten Sie die Werte dieses Feldes in der Liste der Einträge anzeigen?</string>
+    <string name="wizard_field_display_no">Nein Danke</string>
+    <string name="wizard_field_display_name">Als Eintragsname</string>
+    <string name="wizard_field_display_thumb">Als ein Eintrags-Vorschaubild</string>
+    <string name="wizard_field_display_desc">Als Eintrag Beschreibung</string>
+    <string name="wizard_field_display_status">Als Eintragsstatus</string>
+    <string name="more_info">Brauche Sie Hilfe?</string>
+    <string name="type_desc_rating">Ein Bewertungsfeld kann leer sein oder einen Zahlenwert von 1 bis 5 als Sterne enthalten.</string>
+    <string name="type_desc_location">Ein Standortfeld kann einen Ort enthalten, der als Breiten- / Längengrad und Postadresse dargestellt ist.</string>
+    <string name="type_desc_link_to_entry">Ein Link zum Eingabefeld kann eine Verknüpfung zu einem Eintrag oder zu Einträgen in einer anderen Bibliothek enthalten.</string>
+    <string name="type_desc_contact">Ein Kontaktfeld enthält möglicherweise eine Verknüpfung zu einem Kontakt in der lokalen Kontaktanwendung.</string>
+    <string name="type_desc_images">Ein Bildfeld kann Links zu Bildern enthalten.</string>
+    <string name="type_desc_signature">Ein Signatursfeld ermöglicht es Ihnen, elektronische Signaturen zu sammeln.</string>
+    <string name="type_desc_audio">Ein Audio-Feld kann Links zu gespeicherten Audios enthalten.</string>
+    <string name="type_desc_date">Ein Datumsfeld kann einen Wert enthalten, der zur Darstellung eines bestimmten Kalenderdatums verwendet wird.</string>
+    <string name="type_desc_datetime">Ein Datum/Zeit-Feld kann einen Wert enthalten, der verwendet wird, um ein bestimmtes Kalenderdatum und eine bestimmte Uhrzeit darzustellen.</string>
+    <string name="type_desc_time">Ein Zeitfeld kann einen Wert enthalten, der zur Darstellung einer bestimmten Tageszeit verwendet wird.</string>
+    <string name="type_desc_boolean">Der boolesche Feldtyp bietet ein einzelnes Kontrollkästchen (ja / nein).</string>
+    <string name="type_desc_money">Ein Geldfeld hat eine Währung und einen Betrag. Die Währung muss ausgewählt sein, wenn die Vorlage definiert ist.</string>
+    <string name="type_desc_real">Der Feldtyp Real enthält Zahlen mit oder ohne Dezimalstellen.</string>
+    <string name="type_desc_int">Der Feldtyp Zahl enthält einfache Zahlen ohne Dezimalstellen.</string>
+    <string name="type_desc_int_list">Ein Integer-Wertefeld ist eine geordnete Menge von Zahlen, aus denen ein Benutzer einen auswählen kann.</string>
+    <string name="type_desc_text">Ein Textfeld kann beliebige Textdaten enthalten.</string>
+    <string name="type_desc_phone">Ein Telefonnummernfeld kann eine Telefonnummer in Textform enthalten.</string>
+    <string name="type_desc_url">Ein Hyperlink-Feld kann eine textuelle HTML-Verknüpfung enthalten.</string>
+    <string name="type_desc_email">Ein Feld für die E-Mail-Adresse kann eine E-Mail-Adresse in Textform enthalten.</string>
+    <string name="type_desc_barcode">Das Barcode-Feld wird zum Scannen von Barcodes oder QR-Codes verwendet.</string>
+    <string name="type_desc_pass">Ein Passwortfeld kann beliebige Textdaten enthalten. Die Zeichen in einem Passwortfeld sind maskiert (als Sternchen dargestellt).</string>
+    <string name="type_desc_rich">Ein Rich-Text-Feld kann beliebige Textdaten einschließlich Textformatierungsinformationen enthalten.</string>
+    <string name="type_desc_multiple_choice">Ein Multiple-Choice-Listenfeld ist eine Gruppe von Textzeichenfolgen, aus denen ein Benutzer beliebige oder alle auswählen kann.</string>
+    <string name="type_desc_checkboxes">Im Feld Checkboxes können ein oder mehrere Kontrollkästchen angezeigt werden, die mehrere Auswahlmöglichkeiten zulassen.</string>
+    <string name="type_desc_single_choice">Ein Single-Choice-Feld ist eine Reihe von Textstrings, aus denen ein Benutzer einen auswählen kann.</string>
+    <string name="type_desc_radiobuttons">Das Optionsfeld wird verwendet, um eine Auswahl aus einer Gruppe von Auswahlmöglichkeiten zu treffen.</string>
+    <string name="type_desc_js">Der Wert des Feldes ist das Ergebnis der Ausführung des Skripts, das im Feld definiert ist und im Eintragskontext ausgeführt wird.</string>
+    <string name="type_desc_calc">Ein Berechnungsfeld wird verwendet, um schreibgeschützte Werte anzuzeigen, die auf einer Berechnung basieren, die Werte aus anderen Feldern des Eintrags enthalten kann.</string>
+
+    <string name="wizard_complete_text1">Glückwunsch!</string>
+    <string name="wizard_complete_text2">Sie haben Ihre Bibliothek erfolgreich erstellt.</string>
+    <string name="wizard_complete_text3">Sie können jederzeit die Struktur Ihrer Bibliothek ändern, Aggregation, AutoFill, Skripte usw. hinzufügen.</string>
+    <string name="close">Schließen</string>
+
+    <string name="attributes">Attribute</string>
+    <string name="select_attribute_type">Attribute Typ</string>
+    <string name="create_attribute">Attribute erstellen</string>
+    <string name="edit_attribute">Attribute bearbeiten</string>
+    <string name="attribute_name">Attribut Name</string>
+    <string name="required_attribute_text">Attribute müssen ausgefüllt werden</string>
+
+    <string name="attribute_display_title_in_card">Der Attributen Name</string>
+    <string name="attribute_display_title_in_card_hint">Zeigen Sie den Namen des Attributs im Karteneintrag an</string>
+    <string name="attribute_delete_message_text">Möchten Sie das Attribut \"%s\" wirklich löschen?</string>
+    <string name="free_version_attributes_limit">In der kostenlosen Version können Sie nur ein Attribut hinzufügen. Aktualisieren Sie auf PRO-Version, um diese Einschränkung zu entfernen.</string>
+    <string name="trigger_event_link_entry">Einen Eintrag verknüpfen</string>
+    <string name="trigger_event_unlink_entry">Verknüpfung eines Eintrags aufheben</string>
+    <string name="script_cant_run_links_not_exists">Skript kann nicht ausgeführt werden, Links zu dieser Bibliothek sind nicht vorhanden.</string>
+    <string name="entry_name_and_description">Name und Beschreibung des Eintrags</string>
+    <string name="all_searchable_fields">Alle durchsuchbaren Felder</string>
+    <string name="search_settings_quick">Schnellsuche in</string>
+    <string name="search_by_specified_fields">Angegebene Felder</string>
+    <string name="index_not_found_message">Suche ist nicht möglich, Einträge sind nicht indiziert</string>
+    <string name="script_error_message">Skriptfehler: %s</string>
+    <string name="advanced_search">Erweiterte Suche</string>
+    <string name="quick_filter_for_numbers">Für Zahlen</string>
+    <string name="quick_filter_for_text">Für Text</string>
+    <string name="save_as_filter">Als Filter speichern</string>
+    <string name="save_as_filter_success">Sie haben erfolgreich einen neuen Filter erstellt</string>
+    <string name="trigger_event_open_entry">Öffnen einer Eintragsansichtskarte</string>
+    <string name="trigger_moment_open_form">Öffnen einer Eingabebestätigungskarte</string>
+    <string name="trigger_moment_after_show">Nach der Fensteranzeige</string>
+
+    <string name="action_context_view_entry">Eintragsansichtskarte</string>
+    <string name="autofill_goto_script_hint">Geskriptete Datenquelle</string>
+    <string name="run_arguments">Argumente ausführen</string>
+    <string name="wizard_library_name_hint3">Bibliothek ähnlich wie Arbeitsblätter in einer Tabelle.</string>
+    <string name="type_desc_file">Ein Link zum Datei Feld kann Links zu extern gespeicherten Dateien enthalten.</string>
+    <string name="shortcut_not_supported">Leider unterstützt Ihr Launcher keine App-Verknüpfungen.</string>
+    <string name="notification_channel_reminders">Erinnerungen</string>
+    <string name="notification_channel_entries">Änderungen in Bibliotheken</string>
+    <string name="notification_channel_files">Dateien</string>
+    <string name="quick_filter_limit_message">In der kostenlosen Version können Sie nur nach fünf Feldern suchen.
+Upgraden Sie zur PRO-Version, um diese Einschränkung zu deaktivieren.</string>
+    <string name="button_upgrade">Aktualisierung</string>
+    <string name="autofilll_source_not_supported">Entschuldigung, %s wird nicht mehr unterstützt.</string>
+
+</resources>
