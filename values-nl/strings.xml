@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Voeg een item toe</string>
@@ -1727,4 +1727,16 @@
     <string name="barcode_type_1d">Barcode</string>
     <string name="barcode_type_2d">QR Code</string>
 
-</resources>
+<string name="repository_js_libraries">Opslag</string>
+    <string name="repository_other">Ander</string>
+
+    <string name="map_field_current_by_default_title">Huidige Locatie</string>
+    <string name="find_address">Vind adres</string>
+    <string name="privacy_policy">Privacybeleid</string>
+    <string name="trigger_event_action">Actie</string>
+    <string name="action_context_library">Bibliotheek</string>
+    <string name="place_of_action">Plaats van handeling</string>
+    <string name="action_arguments">Argumenten</string>
+    <string name="actions">Acties</string>
+    <string name="warning">Waarschuwing</string>
+    </resources>
