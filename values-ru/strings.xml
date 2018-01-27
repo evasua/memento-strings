@@ -965,7 +965,7 @@ All rights reserved</string>
 	<item quantity="many">%1$d запись отправлена в корзину</item>
 	<item quantity="other"/>
 </plurals>
-    <string name="auto_fill_barcode_empty2">Сопоставьте атрибуты из источника автозаполнения и поля записей</string>
+    <string name="auto_fill_barcode_empty2">Сравните атрибуты из источника автозаполнения и поля записей</string>
     <string name="barcode_rule_delete_title">Удалить правило</string>
     <string name="barcode_rule_delete_text">Вы действительно хотите удалить правило автозаполнения для поля \"%s\" ?</string>
     <string name="multi_library_item_trush_message_text">Вы действительно хотите отправить выбранные записи в Корзину ?</string>
