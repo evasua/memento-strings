@@ -1966,7 +1966,7 @@ All rights reserved</string>
     <string name="quick_filter_for_text">Для текста</string>
     <string name="save_as_filter">Сохранить как фильтр</string>
     <string name="save_as_filter_success">Вы успешно создали новый фильтр</string>
-    <string name="shortcut_not_supported">К сожалению, ваше устройство не поддерживает ярлыки этого приложения</string>
+    <string name="shortcut_not_supported">К сожалению, ваш лаунчер не поддерживает ярлыки этого приложения</string>
     <string name="notification_channel_reminders">Напоминания</string>
     <string name="notification_channel_entries">Изменения в библиотеках</string>
     <string name="notification_channel_files">Файлы</string>
