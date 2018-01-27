@@ -963,9 +963,9 @@ All rights reserved</string>
 	<item quantity="one">Запись% d была перемещена в корзину</item>
 	<item quantity="few">% d записей перемещено в корзину</item>
 	<item quantity="many">%1$d запись отправлена в корзину</item>
-	<item quantity="other"></item>
+	<item quantity="other"/>
 </plurals>
-    <string name="auto_fill_barcode_empty2">Сравните атрибуты источников автозаполнения и полей ввода</string>
+    <string name="auto_fill_barcode_empty2">Сопоставьте атрибуты из источника автозаполнения и поля записей</string>
     <string name="barcode_rule_delete_title">Удалить правило</string>
     <string name="barcode_rule_delete_text">Вы действительно хотите удалить правило автозаполнения для поля \"%s\" ?</string>
     <string name="multi_library_item_trush_message_text">Вы действительно хотите отправить выбранные записи в Корзину ?</string>
