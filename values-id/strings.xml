@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="library_menu_add_item">Tambah entri baru</string>
     <string name="main_menu_add_lib">Tambah Koleksi</string>
-    <string name="ghostData_lib_title">Nama koleksi</string>
+    <string name="ghostData_lib_title">Nama Koleksi</string>
     <string name="custom_template_title">Kustom</string>
     <string name="button_create">Buat</string>
     <string name="button_yes">Ya</string>
@@ -32,7 +32,7 @@
     <string name="template_title">Nama field</string>
     <string name="select_flex_template_title">Jenis field</string>
     <string name="select_flex_template_role">Fungsi field</string>
-    <string name="select_create_lib_template">Pilih template koleksi</string>
+    <string name="select_create_lib_template">Pilih templat koleksi</string>
     <string name="button_next">Selanjutnya</string>
     <string name="select_flex_template_type">Jenis field</string>
     <string name="default_value">Nilai default</string>
@@ -59,7 +59,7 @@
     <string name="sort_by_date">Waktu pembuatan</string>
     <string name="flex_delete_message_title">Hapus field</string>
     <string name="flex_delete_message_text">Apa anda yakin ingin menghapus field \"%s\" ?</string>
-    <string name="not_group">Tidak ada grup</string>
+    <string name="not_group">Tidak digrupkan</string>
     <string name="bool_yes">Ya</string>
     <string name="bool_not">Tidak</string>
     <string name="group_null_value">Nilai kosong</string>
@@ -69,18 +69,18 @@
     <string name="date_default_now">Tanggal sekarang secara default</string>
     <string name="search">Cari</string>
     <string name="search_hint">Pencarian entri</string>
-    <string name="search_parse_exception_messagee">String pencarian salah</string>
+    <string name="search_parse_exception_messagee">String pencarian tidak sah</string>
     <plurals name="NItemsFind">
-	<item quantity="other">%d entri ditemukan</item>
+	<item quantity="other">1 entri ditemukan</item>
 </plurals>
     <string name="memento_search">Pencarian Memento</string>
     <string name="memento_search_in_lib">Pencarian Memento pada %s</string>
     <string name="removed">Dihapus pada %s</string>
     <string name="trush">Bak Daur ulang</string>
     <string name="library_item_restore">Pulihkan</string>
-    <string name="clear_trash">Kosongkan keranjang sampah</string>
-    <string name="clear_trash_progress_dialog_title">Kosongkan keranjang sampah</string>
-    <string name="clear_trash_dialog_title">Kosongkan keranjang sampah</string>
+    <string name="clear_trash">Kosongkan Keranjang sampah</string>
+    <string name="clear_trash_progress_dialog_title">Kosongkan Keranjang sampah</string>
+    <string name="clear_trash_dialog_title">Kosongkan Keranjang sampah</string>
     <string name="clear_trash_dialog_text">Apa anda yakin menghapus semua entri dari keranjang sampah ?</string>
     <string name="home">rumah</string>
     <string name="work">kantor</string>
@@ -113,17 +113,17 @@
     <string name="restore_preference">Pulihkan</string>
     <string name="restore_summary_preference">Memulihkan koleksi dari salinan backup</string>
     <string name="backup_file_not_found">Tidak ditemukan berkas backup.</string>
-    <string name="restore_dialog_message">Koleksi yang ada akan diganti dengan koleksi backup selama pemulihan.
-Setelah pembuatan salinan backup, semua perubahan koleksi ini akan hilang.
-Mulai pemulihan ?</string>
+    <string name="restore_dialog_message">Koleksi yang ada akan digantikan dengan koleksi dari bakcup pada waktu pemulihan .
+Semua perubahan pada koleksi ini sesudah pembuatan salinan backup akan hilang.
+Mulai memulihkan ?</string>
     <string name="backup_dialog_message">Ganti salinan backup dengan yang baru ?</string>
     <string name="restore_success">Koleksi berhasil dipulihkan dari salinan backup</string>
     <string name="restore_step1">Memulihkan</string>
     <string name="restore_step2">Membersihkan cache</string>
     <string name="clear_index">Menghapus indeks</string>
     <string name="reindex">Indeks ulang:</string>
-    <string name="load_templates_title">Memuat template</string>
-    <string name="load_templates_message">Mohon tunggu selagi template koleksi dimuat.</string>
+    <string name="load_templates_title">Memuat templat</string>
+    <string name="load_templates_message">Mohon tunggu selagi templat koleksi dimuat.</string>
     <string name="help_title">Bantuan Memento</string>
     <string name="activate_button_title">Aktifkan versi PRO</string>
     <string name="activate_button_hint">Anda memerlukan kode aktivasi</string>
@@ -131,7 +131,7 @@ Mulai pemulihan ?</string>
     <string name="activation_dialog_text_hint">Kode Aktivasi</string>
     <string name="activation_dialog_title">Upgrade ke versi PRO</string>
     <string name="activation_ok">Terima kasih untuk aktivasi Memento</string>
-    <string name="activation_error">Kode aktivasi salah. Mohon, coba lagi.</string>
+    <string name="activation_error">Kode aktivasi tidak sah. Silakan coba lagi.</string>
     <string name="about">Tentang</string>
     <string name="about_hint">Lihat versi software</string>
     <string name="about_license_type">Lisensi:</string>
@@ -140,7 +140,7 @@ Mulai pemulihan ?</string>
     <string name="send_chooser_title">Pilih aplikasi untuk mengirim:</string>
     <string name="create_shortcut">Buat Pintasan</string>
     <string name="app_name_library">Koleksi Memento</string>
-    <string name="error_cant_open_memento_dir">Galat: tidak bisa membuka folder memento pada kartu SD</string>
+    <string name="error_cant_open_memento_dir">Galat: tidak dapat membuka folder memento pada kartu SD</string>
     <string name="preference_category_csv_import">Proses data</string>
     <string name="csvexport">Ekspor ke CSV</string>
     <string name="csvexport_summary">Ekspor entri ke berkas CSV</string>
@@ -179,15 +179,15 @@ tidak ditemukan produk</string>
     <string name="add_fill_field_dialog_title">Membuat aturan autocompletion</string>
     <string name="memento_field">Ini akan disimpan pada field</string>
     <string name="memento_field_promt">Field entri pada koleksi</string>
-    <string name="uniquery_check_fail">Koleksi hanya bisa berisi satu field dengan jenis %s</string>
+    <string name="uniquery_check_fail">Koleksi hanya dapat berisi satu field dengan jenis %s</string>
     <string name="to">ke</string>
     <string name="barcode_search">Pencarian barcode</string>
-    <string name="msg_camera_framework_bug">Maaf, terjadi permasalahan dengan kamera Android. Anda mungkin perlu restart perangkat.</string>
+    <string name="msg_camera_framework_bug">Maaf, kamera Android mengalami masalah. Anda barangkali harus mengulang kembali perangkat.</string>
     <string name="deleted_library_hint">Entri: %s</string>
     <string name="preference_restore_libs_title">Pulihkan koleksi</string>
     <string name="preference_restore_libs_hint">Pulihkan koleksi yang dihapus</string>
     <string name="preference_category_general">Umum</string>
-    <string name="library_import_and_export">Pengaturan %s</string>
+    <string name="library_import_and_export">Setelan %s</string>
     <string name="recovering">Memulihkan</string>
     <string name="recovering_message">Memulihkan koleksi</string>
     <string name="library_recover">Pulihkan</string>
@@ -212,9 +212,9 @@ tidak ditemukan produk</string>
     <string name="sync_with_gdocs">Sinkronkan dengan Google Sheets</string>
     <string name="google_docs_task_step_auth">Mengautentikasi ke layanan Sheets</string>
     <string name="google_docs_task_step_get_rows">Mengambil daftar informasi</string>
-    <string formatted="false" name="google_docs_task_step_process_row">Memroses daftar baris. %s dari %s</string>
-    <string formatted="false" name="google_docs_task_step_send_row">Menambah daftar baris. %s dari %s</string>
-    <string formatted="false" name="google_docs_task_step_update_row">Memperbarui daftar baris. %s dari %s</string>
+    <string formatted="false" name="google_docs_task_step_process_row">Memroses daftar barisan. %s dari %s</string>
+    <string formatted="false" name="google_docs_task_step_send_row">Menambah daftar barisan. %s dari %s</string>
+    <string formatted="false" name="google_docs_task_step_update_row">Memperbarui daftar barisan. %s dari %s</string>
     <string name="google_docs_task_create_document">Membuat spreadsheet</string>
     <string name="google_docs_task_create_worksheet">Menambah worksheet</string>
     <string name="google_docs_task_shange_columns">Memperbarui worksheet</string>
@@ -224,12 +224,12 @@ tidak ditemukan produk</string>
     <string name="preference_category_accounts">Akun</string>
     <string name="preference_google_account_title">Akun Google</string>
     <string name="preference_google_account_hint">Email Akun Google anda dan kata sandi</string>
-    <string name="conflict_dialog_text">Entri yang sama telah disunting di Memento dan Google Sheets. Versi mana yang sebenarnya?</string>
+    <string name="conflict_dialog_text">Entri yang sama telah disunting di Memento dan Google Sheets. Versi mana yang benar?</string>
     <string name="copy_memento_to_gdocs">Entri dari Memento</string>
     <string name="copy_gdocs_to_memento">Entri dari Google Sheets</string>
-    <string name="edit_flex_title_disabled">Nama field tidak bisa diganti karena koleksi ini terhubung ke Google Sheets</string>
-    <string name="cant_bind">Versi gratis hanya mengizinkan dua koleksi terhubung ke Google Sheets.
-Upgrade ke versi PRO untuk menghapus batasan ini.</string>
+    <string name="edit_flex_title_disabled">Nama field tidak dapat diganti karena koleksi ini terhubung ke Google Sheets</string>
+    <string name="cant_bind">Versi gratis hanya dapat menautkan dua koleksi saja ke Google Sheets.
+Upgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
     <string name="button_pro_version">Versi PRO</string>
     <string name="option_autofill_hint">Daftar drop down nilai yang memungkinkan dari entri lainnya</string>
     <string name="capture_picture">Ambil Gambar</string>
@@ -239,21 +239,21 @@ Upgrade ke versi PRO untuk menghapus batasan ini.</string>
     <string name="public_to_picasa_create_album">Membuat album Picasa untuk album yang diterbitkan</string>
     <string name="public_to_picasa_success">Gambar telah diunggah ke Picasa</string>
     <string name="picasa_task_step_auth">Mengautentikasi ke layanan Picasa</string>
-    <string formatted="false" name="picasa_send_image_step">Mengunggah koleksi gambar ke Picasa. %s dari %s</string>
+    <string formatted="false" name="picasa_send_image_step">Mengunggah gambar koleksi ke Picasa. %s dari %s</string>
     <string name="public_library">Terbitkan koleksi</string>
     <string name="update_public_library">Perbarui terbitan</string>
     <string name="memento_register_account_title">Membuat akun
 di server Memento</string>
-    <string name="memento_register_account_text">Untuk bisa menerbitkan dan berlangganan koleksi, diperlukan akun server Memento</string>
+    <string name="memento_register_account_text">Untuk dapat menerbitkan dan berlangganan koleksi, diperlukan akun server Memento</string>
     <string name="memento_login_hint">Nama pengguna</string>
     <string name="memento_pass_hint">Kata sandi</string>
     <string name="memento_pass_hint2">Ulangi kata sandi</string>
     <string name="memento_register_button">Buat</string>
     <string name="memento_have_button">Saya punya akun</string>
     <string name="login_empty">Masukkan nama pengguna</string>
-    <string name="login_format_error">Nama login hanya bisa berisi huruf dan angka</string>
+    <string name="login_format_error">Nama login hanya boleh berisi huruf dan angka</string>
     <string name="pass_not_equal">Masukkan kembali kata sandi</string>
-    <string name="incorrect_email">Email salah</string>
+    <string name="incorrect_email">Email tidak sah</string>
     <string name="create_memento_account_dlg_title">Pendaftaran</string>
     <string name="create_memento_account_dlg_text">Mendaftarkan pengguna pada server Memento ...</string>
     <string name="memento_register_user_exists">Nama pengguna ini sudah digunakan</string>
@@ -266,8 +266,8 @@ di server Memento</string>
     <string name="preference_memento_account_title">Akun Memento</string>
     <string name="preference_memento_account_hint">Nama pengguna server Memento anda dan kata sandi</string>
     <string name="public_library_task_auth">Mengautentikasi ke layanan Memento</string>
-    <string name="public_library_task_send_template">Mengirim template koleksi</string>
-    <string formatted="false" name="public_library_task_send_items">Mengirim entri koleksi.
+    <string name="public_library_task_send_template">Mengirim templat koleksi</string>
+    <string formatted="false" name="public_library_task_send_items">Mentransfer entri koleksi.
 %s dari %s</string>
     <string name="memento_not_support_template">Anda menggunakan versi lama Memento, perbarui</string>
     <string name="memento_not_found">Tidak ditemukan resource</string>
@@ -277,12 +277,12 @@ di server Memento</string>
     <string name="private_library_checkbox">Akses privat</string>
     <string name="private_library_checkbox_hint">Hanya pengguna tertentu bisa mengakses koleksi</string>
     <string name="enter_alias">Masukkan alias koleksi</string>
-    <string name="incorrect_alias">Alias koleksi hanya bisa berisi huruf dan angka</string>
+    <string name="incorrect_alias">Alias koleksi hanya boleh berisi huruf dan angka</string>
     <string name="public_library_address_text">Alamat koleksi</string>
     <string name="alias_exists">Anda telah menerbitkan suatu koleksi dengan alias tersebut</string>
     <string name="memento_forbidden_error">Akses koleksi ditolak</string>
     <string name="publish_library_address">Koleksi %s sekarang tersedia di</string>
-    <string name="publish_library_address_hint">Teman anda bisa menggunakan Memento untuk melihat koleksi ini. Untuk melakukannya, mereka harus menggunakan alamat di atas untuk berlangganan ke koleksi.</string>
+    <string name="publish_library_address_hint">Teman anda dapat menggunakan Memento untuk melihat koleksi ini. Untuk melakukannya, mereka mesti memakai alamat di atas untuk berlangganan koleksi tersebut.</string>
     <string name="deafult_group_title">Koleksiku</string>
     <string name="subscribe_activity_title">Berlangganan ke koleksi</string>
     <string name="library_uri_hint">Alamat koleksi / nama pengguna</string>
@@ -294,7 +294,7 @@ koleksi pengguna</string>
     <string name="libraries_list_result_header">Koleksi yang ditemukan</string>
     <string name="libraries_by_user_not_found">Pengguna tidak ditemukan atau tidak ditemukan koleksi yang diterbitkan pengguna</string>
     <string name="library_not_found">Koleksi tidak ditemukan berdasarkan alamat ini</string>
-    <string name="wrong_library_address_format">Format alamat koleksi salah</string>
+    <string name="wrong_library_address_format">Format alamat koleksi tidak sah</string>
     <string name="last_update">Pembaruan terakhir: %s</string>
     <string name="subscribe_button">Berlangganan</string>
     <string name="subscribe_task_get_library">Mengambil entri koleksi</string>
@@ -325,27 +325,27 @@ koleksi pengguna</string>
     <string name="need_unpublic_library">Sebelum menghapus koleksi, anda harus mengurungkan penerbitannya</string>
     <string name="rename_library">Ganti nama</string>
     <string name="rename_dialog_title">Ganti nama</string>
-    <string name="rename_dialog_text">Nama koleksi</string>
+    <string name="rename_dialog_text">Nama Koleksi</string>
     <string name="flex_image_load">Memuat gambar ...</string>
     <string name="subscribed">Berlangganan</string>
     <string name="info_public_library">Alamat koleksi</string>
-    <string name="cant_public">Versi gratis hanya mengizinkan anda menerbitkan dua koleksi.
-Upgrade ke versi PRO untuk menghapus batasan ini.</string>
+    <string name="cant_public">Versi gratis hanya dapat menerbitkan dua koleksi saja.
+Upgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
     <string name="add_permission_user_hint">Masukkan nama pengguna atau email</string>
     <string name="edit_pub_permissions">Hak akses koleksi</string>
     <string name="edit_pub_permissions_hint">Menyunting daftar pengguna yang punya akses ke koleksi</string>
     <string name="edit_pub_permissions_task_dialog_message">Mengganti hak akses koleksi</string>
-    <string name="import_template">Impor template</string>
-    <string name="export_template">Ekspor template</string>
-    <string name="export_template_error">Galat mengekspor template: %s</string>
-    <string name="import_template_success">Template telah diimpor</string>
-    <string name="wrong_template_version">Versi Memento anda tidak mendukung berkas template yang dipilih. Perbarui Memento.</string>
+    <string name="import_template">Impor templat</string>
+    <string name="export_template">Ekspor templat</string>
+    <string name="export_template_error">Galat mengekspor templat: %s</string>
+    <string name="import_template_success">Templat telah diimpor</string>
+    <string name="wrong_template_version">Versi Memento anda tidak mendukung templat yang dipilih. Update Memento.</string>
     <string name="flex_type_library_entry">Tautan ke entri</string>
     <string name="flex_type_entry_option_title">Koleksi</string>
     <string name="flex_type_entry_option_dlg_title">Pilih koleksi</string>
     <string name="flex_type_entry_select_library">Pilih sebuah koleksi, entri yang akan dipakai untuk field ini.</string>
-    <string name="error_template_wrong_title">Nama koleksi hanya bisa berisi huruf dan angka</string>
-    <string name="filter_not_set">Tidak ada filter</string>
+    <string name="error_template_wrong_title">Nama koleksi hanya boleh berisi huruf dan angka</string>
+    <string name="filter_not_set">Tidak difilter</string>
     <string name="filters">Filter</string>
     <string name="button_remove_all">Hapus semua</string>
     <string name="period">Periode</string>
@@ -375,31 +375,31 @@ Upgrade ke versi PRO untuk menghapus batasan ini.</string>
     <string name="help_subscribe">Berlangganan ke koleksi</string>
     <string name="lib_protection">Proteksi koleksi</string>
     <string name="set_library_protection">Proteksi</string>
-    <string name="set_master_pass_text">Pengaturan kata sandi utama untuk mengakses koleksi.
-Anda harus memasukkan kata sandi ini untuk mengakses koleksi terenkripsi.</string>
+    <string name="set_master_pass_text">Tetapkan kata sandi utama untuk mengakses koleksi.
+Anda harus memasukkan kata sandi untuk mengakses koleksi terenkripsi.</string>
     <string name="master_pass_hint">Kata sandi</string>
     <string name="master_pass_hint2">Ulangi kata sandi</string>
-    <string name="set_master_pass_dialog">Pengaturan kata sandi utama</string>
+    <string name="set_master_pass_dialog">Menetapkan kata sandi utama</string>
     <string name="check_master_pass_text">Masukkan kata sandi utama untuk mengakses koleksi</string>
     <string name="master_password_hint">Kata sandi utama</string>
     <string name="button_continue">Lanjutkan</string>
-    <string name="wrong_master_password">Kata sandi salah</string>
+    <string name="wrong_master_password">Kata sandi tidak sah</string>
     <string name="button_home">Kembali</string>
     <string name="library_is_locked">Akses ke koleksi terenkripsi ditutup</string>
     <string name="library_pass_access_description">Anda harus memasukkan kata sandi utama untuk mengakses koleksi ini</string>
     <string name="library_encription_checkbox">Enkripsi konten</string>
-    <string name="library_encription_description">Field string entri akan dienkripsi menggunakan AES.
-Pencarian entri enkripsi tidak didukung.</string>
+    <string name="library_encription_description">Field String dari entri akan dienkripsi menggunakan AES.
+Pencarian pada entri yang terenkripsi tidak didukung.</string>
     <string name="set_library_protection_title">Mengenkripsi entri</string>
     <string name="set_library_protection_message">Mengenkripsi entri koleksi ...</string>
     <string name="remove_library_protection">Hapus proteksi</string>
     <string name="remove_library_protection_desc">Tidak diperlukan kata sandi untuk mengakses koleksi ini</string>
-    <string name="remove_library_protection_question">Apa anda yakin membuang proteksi koleksi?</string>
+    <string name="remove_library_protection_question">Apa anda yakin menghilangkan proteksi koleksi?</string>
     <string name="preference_category_security">Keamanan</string>
     <string name="remove_library_protection_title">Hapus proteksi</string>
-    <string name="remove_library_protection_message">Membuang enkripsi entri koleksi ...</string>
+    <string name="remove_library_protection_message">Menghilangkan enkripsi entri koleksi ...</string>
     <string name="change_master_password">Ganti Kata sandi Utama</string>
-    <string name="change_master_password_hint">Data anda akan diekripsi kembali dengan kata sandi baru.</string>
+    <string name="change_master_password_hint">Data anda akan dienkripsi kembali dengan kata sandi baru.</string>
     <string name="old_master_pass_hint">Kata sandi lama</string>
     <string name="new_master_pass_hint">Kata sandi baru</string>
     <string name="new_master_pass_hint2">Ulangi kata sandi</string>
@@ -437,22 +437,22 @@ Pencarian entri enkripsi tidak didukung.</string>
     <string name="help_calc">Field Kalkulasi</string>
     <string name="template_save_button">Ekspor</string>
     <string name="template_load_button">Impor</string>
-    <string name="template_share_button">Berbagi</string>
-    <string name="library_template_name">Nama template</string>
+    <string name="template_share_button">Bagikan</string>
+    <string name="library_template_name">Nama templat</string>
     <string name="template_category">Kategori</string>
-    <string name="template_description">Deskripsi template</string>
-    <string name="button_share_template">Berbagi template</string>
-    <string name="share_template_text">Mengunggah template koleksi ke katalog online</string>
-    <string name="share_success">Template koleksi berhasil diunggah ke katalog online</string>
+    <string name="template_description">Deskripsi templat</string>
+    <string name="button_share_template">Berbagi templat</string>
+    <string name="share_template_text">Mengunggah templat koleksi ke katalog online</string>
+    <string name="share_success">Templat koleksi berhasil diunggah ke katalog online</string>
     <string name="template_from_catalog_title">Dari katalog online</string>
-    <string name="template_category_text">Kategori template</string>
-    <string name="template_description_title">Deskripsi template</string>
+    <string name="template_category_text">Kategori templat</string>
+    <string name="template_description_title">Deskripsi templat</string>
     <string name="template_author_text">dari %s</string>
     <string name="template_date_text">dibuat %s</string>
     <string name="button_download">Unduh</string>
-    <string name="get_template_body_message">Unduh template koleksi...</string>
-    <string name="error_empty_template_title">Masukkan nama template</string>
-    <string name="error_empty_template_desc">Masukkan deskripsi template</string>
+    <string name="get_template_body_message">Unduh templat koleksi...</string>
+    <string name="error_empty_template_title">Masukkan nama templat</string>
+    <string name="error_empty_template_desc">Masukkan deskripsi templat</string>
     <string name="template_downloads">Unduh: %s</string>
     <string name="clear">Bersihkan</string>
     <string name="latest">Terbaru</string>
@@ -469,24 +469,24 @@ Pencarian entri enkripsi tidak didukung.</string>
     <string name="formatted_string_value">Nilai jenis field Pilihan-ganda</string>
     <string name="formatted_string_value_summary">Jumlah nilai di suatu baris</string>
     <string name="reminders_label">Pengingat</string>
-    <string name="email_templates_spinner_hint">Menyusun template</string>
+    <string name="email_templates_spinner_hint">Menyusun templat</string>
     <string name="field_send_by_email">Field kirim</string>
     <string name="field_send_by_email_summary">Kirim nama dan nilai field dengan email/sms</string>
-    <string name="add_email_template_dialog_title">Buat template</string>
-    <string name="add_email_template_dialog_text">Nama template</string>
-    <string name="delete_email_template">Hapus template</string>
-    <string name="delete_email_template_dialog_text">Apa anda yakin menghapus template saat ini?</string>
-    <string name="select_email_template">Pilih template</string>
+    <string name="add_email_template_dialog_title">Buat templat</string>
+    <string name="add_email_template_dialog_text">Nama templat</string>
+    <string name="delete_email_template">Hapus templat</string>
+    <string name="delete_email_template_dialog_text">Apa anda yakin menghapus templat saat ini?</string>
+    <string name="select_email_template">Pilih templat</string>
     <string name="required_field">Wajib</string>
     <string name="required_field_text">Field harus diisi</string>
     <string name="fill_required_fields">Field Wajib harus diisi</string>
     <string name="required_mark">wajib</string>
     <string name="reset_master_password">Reset kata sandi utama</string>
     <string name="reset_master_password_hint">Semua koleksi yang dienkripsi akan dihapus</string>
-    <string name="reset_master_quest">Apa anda yakin ingin reset kata sandi utama\\?
-Perhatian! Semua koleksi yang dienkripsi akan dihapus!</string>
+    <string name="reset_master_quest">Anda ingin reset kata kunci utama?
+Perhatian! Semua koleksi terenkripsi akan dihapus!</string>
     <string name="remove_encript_lib_dlg_msg">Hapus koleksi yang dienkripsi</string>
-    <string name="master_password_reset">Kata kunci utama reset</string>
+    <string name="master_password_reset">Kata kunci utama direset</string>
     <string name="edit_entry_screen_preference">Menyunting entri</string>
     <string name="edit_entry_screen_preference_summary">Parameter formulir untuk buat/sunting entri</string>
     <string name="auto_show_soft_keyboard">Tampilkan soft keyboard</string>
@@ -495,14 +495,14 @@ Perhatian! Semua koleksi yang dienkripsi akan dihapus!</string>
     <string name="file_size">Ukuran berkas: %s</string>
     <string name="file_not_found">Berkas tidak ditemukan</string>
     <string name="select_app">Pilih aplikasi</string>
-    <string name="cant_protect">Versi gratis hanya mengizinkan anda memproteksi dua koleksi.
-Upgrade ke versi PRO untuk menghapus batasan ini.</string>
+    <string name="cant_protect">Versi gratis hanya dapat mengunci dua koleksi saja.
+Upgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
     <string name="flex_edit_option_title">Bisa disunting di mana</string>
     <string name="flex_edit_option_default">Formulir penyuntingan entri</string>
     <string name="flex_edit_option_in_list">entri daftar</string>
     <string name="flex_edit_option_in_view">entri kartu</string>
     <string name="loading_google_document_list">Memuat...</string>
-    <string name="google_doc_list_title">dokumen Google</string>
+    <string name="google_doc_list_title">Dokumen Google</string>
     <string name="updated_document_time">Diperbarui: %s</string>
     <string name="move_from_google_docs">Transfer data dari Google Sheets ke Memento</string>
     <string name="move_from_google_docs_attention">Semua entri koleksi yang tersedia akan dihapus</string>
@@ -517,7 +517,7 @@ Upgrade ke versi PRO untuk menghapus batasan ini.</string>
     <string name="prepare_linking_library">Mempersiapkan hubungan...</string>
     <string name="error_prepare_linking">Terjadi galat saat mempersiapkan hubungan: %s</string>
     <string name="have_library_items_ask_title">Menghubungkan ke Google Sheets</string>
-    <string name="have_library_items_ask_message">Koleksi berisi record yang dihapus selama proses hubungan. Jalankan proses hubungan Koleksi dengan Google Sheets?</string>
+    <string name="have_library_items_ask_message">Koleksi berisi record yang dihapus sewaktu operasi penautan. Lakukan operasi penautan Koleksi dengan Google Sheet?</string>
     <string name="autofill_source_option_title">Sumber data</string>
     <string name="auto_backup_option_title">Backup otomatis</string>
     <string name="last_auto_backup_time">Backup otomatis terakhir: %s</string>
@@ -525,20 +525,20 @@ Upgrade ke versi PRO untuk menghapus batasan ini.</string>
     <string name="date_format_sample">Format tanggal: %s</string>
     <string name="align_left">kiri</string>
     <string name="align_right">kanan</string>
-    <string name="button_add_stat_item">Tambah fungsi</string>
+    <string name="button_add_stat_item">Tambah satu fungsi</string>
     <string name="stats_edit_title_hint">Awalan hasil</string>
     <string name="stat_item_align_prompt">Penyelarasan hasil</string>
     <string name="stat_item_line_prompt">Penempatan baris hasil.</string>
     <string name="create_stat_item_title">Membuat Fungsi</string>
     <string name="select_stat_function_title">Pilih fungsi</string>
-    <string name="select_field_title">Pilih field</string>
+    <string name="select_field_title">Pilih sebuah field</string>
     <string name="dont_have_field_for_function">Tidak ada field yang cocok</string>
     <string name="line_number">Baris %s</string>
     <string name="ghostData_template_hint">Masukkan petunjuk field</string>
     <string name="template_hint">Petunjuk field</string>
     <string name="time_default_now">Jam sekarang secara default</string>
     <string name="determination_location">Tentukan lokasi...</string>
-    <string name="preference_category_export_data_cfg">Pengaturan Impor/Ekspor/Sinkronisasi</string>
+    <string name="preference_category_export_data_cfg">Setelan Impor/Ekspor/Sinkronisasi</string>
     <string name="import_export_date_format">Pilih format tanggal</string>
     <string name="import_export_date_format_dialog">Pilih format tanggal untuk impor/ekspor/sinkronisasi</string>
     <string name="main_menu_add_group">Tambah Grup</string>
@@ -575,17 +575,17 @@ Upgrade ke versi PRO untuk menghapus batasan ini.</string>
     <string name="search_result_subtitle">Hasil pencarian</string>
     <string name="reindex_dialog_message">Membuat indeks...</string>
     <string name="add_product_manually">Secara manual</string>
-    <string name="flextemplate_move_to_begin">Pindah ke awal</string>
-    <string name="flextemplate_move_to_end">Pindah ke akhir</string>
+    <string name="flextemplate_move_to_begin">Pindah ke atas</string>
+    <string name="flextemplate_move_to_end">Pindahkan ke akhir</string>
     <string name="db_location_pref_title">Lokasi database</string>
     <string name="moving_database_dialog_message">Memindahkan database ...</string>
     <string name="moving_database_error">Database tidak bisa dipindahkan</string>
-    <string name="my_templates">Templateku</string>
+    <string name="my_templates">Templatku</string>
     <string name="most_popular">Paling populer</string>
-    <string name="templates_sort_dialog_title">Sortir template</string>
-    <string name="delete_catalog_template_title">Hapus template</string>
-    <string name="delete_catalog_template_message">Apa anda yakin ingin menghapus template %s dari katalog online?</string>
-    <string name="cant_share_template_withous_fields">Anda tidak bisa berbagi template tanpa field</string>
+    <string name="templates_sort_dialog_title">Sortir templat</string>
+    <string name="delete_catalog_template_title">Hapus templat</string>
+    <string name="delete_catalog_template_message">Apa anda yakin ingin menghapus templat %s dari katalog online?</string>
+    <string name="cant_share_template_withous_fields">Anda tidak bisa berbagi templat tanpa field</string>
     <string name="reset_pass_button">Lupa kata sandi?</string>
     <string name="request_pass_dialog_title">Ganti Kata sandi</string>
     <string name="request_pass_dialog_text">Masukkan alamat email untuk membantu kami menemukan akun Memento anda</string>
@@ -603,16 +603,16 @@ Kami mengirim email untuk reset kata sandi secara cepat dan mudah.</string>
     <string name="backup_success2">Backup selesai</string>
     <string name="restore_file_path_title">Folder dengan backup</string>
     <string name="auto_bakup_dir_pref_title">Folder untuk backup otomatis</string>
-    <string name="google_play_not_found_message">Perangkat anda tidak memiliki Google Play. Anda bisa mengunduh Pengelola Berkas OI dari situs developer.</string>
+    <string name="google_play_not_found_message">Perangkat anda tidak memiliki Google Play. Anda dapat mengunduh OI Manager dari situs developer.</string>
     <string name="library_not_found_dialog_title">Koleksi</string>
-    <string name="library_not_found_dialog_message">Koleksi tidak ditemukan. Mungkin koleksi terhapus.</string>
+    <string name="library_not_found_dialog_message">Koleksi tidak ditemukan. Barangkali koleksi telah dihapus.</string>
     <string name="add_field_above">Tambah field di atas</string>
     <string name="add_field_below">Tambah field di bawah</string>
     <string name="year_default_now">Tahun sekarang secara default</string>
     <string name="flex_type_int_list">Nilai integer</string>
     <string name="flex_type_int_default_value">Tetapkan nilai default</string>
     <string name="flex_type_int_min">Mulai</string>
-    <string name="flex_type_int_max">Berakhir</string>
+    <string name="flex_type_int_max">Selesai</string>
     <string name="flex_type_int_main_options_title">Urutan angka</string>
     <string name="flex_type_int_allow_direct_input">Izinkan input langsung</string>
     <string name="flex_type_int_allow_direct_input2">input langsung</string>
@@ -622,7 +622,7 @@ Kami mengirim email untuk reset kata sandi secara cepat dan mudah.</string>
     <string name="field_depends_activity_title">Dependensi</string>
     <string name="no_dependencies">tidak ada dependensi</string>
     <string name="add_depends_button_title">Tambah dependensi</string>
-    <string name="library_dont_have_fields_for_depends">Koleksi tidak berisi filed yang sesuai untuk pembuatan dependensi field ini</string>
+    <string name="library_dont_have_fields_for_depends">Koleksi tidak berisi field yang sesuai untuk pembuatan dependensi field ini</string>
     <string name="select_type_depends">Pilih jenis dependensi</string>
     <string name="select_type_depends_spinner_title">Jenis dependensi</string>
     <string name="select_master_field_for_depend">Pilih field yang dijadikan dependen</string>
@@ -630,26 +630,26 @@ Kami mengirim email untuk reset kata sandi secara cepat dan mudah.</string>
     <string name="boolean_field_check_value">Tercentang</string>
     <string name="boolean_field_uncheck_value">Tidak tercentang</string>
     <string name="visible_field_depend_pretitle">Keadaan field %s</string>
-    <string name="visible_field_depend_description">Field di atas akan berada keadaan ini jika field %s diberikan nilai</string>
+    <string name="visible_field_depend_description">Field di atas akan berada dalam keadaan ini jika field %s diberikan nilai</string>
     <string name="depend_from">Dependensi dari %s</string>
     <string name="delete_depend_dialog_title">Hapus dependensi</string>
     <string name="delete_depend_dialog_message">Apa anda yakin ingin menghapus dependensi dari field \"%s\" ?</string>
     <string name="sl_content_depend_type">Isi field ini</string>
     <string name="sl_content_depend_pretitle">Nilai field %s</string>
     <string name="sl_content_depend_description">Nilai field akan tersedia untuk pemilihan jika nilai field %s adalah</string>
-    <string name="backup_images_checkbox">Pembuatan salinan backup gambar, rekaman audio dan berkas lainnya yang berhubungan</string>
+    <string name="backup_images_checkbox">Pembuatan salinan backup gambar, rekaman audio dan berkas lainnya yang berkaitan</string>
     <string name="backup_files_progress_title">Backup berkas</string>
     <string name="backup_files_error">Galat selagi backup berkas: %s</string>
-    <string name="restore_files_message">Salinan backup berisi arsip beserta berkas-berkas yang berhubungan dengan database; apa anda ingin memulihkannya?</string>
+    <string name="restore_files_message">Salinan backup berisi arsip beserta berkas yang berkaitan dengan database; apa anda ingin memulihkannya?</string>
     <string name="restore_files_progress_title">Memulihkan berkas</string>
-    <string name="restore_files_success2">Semua berkas yang berhubungan dengan database telah dibuka</string>
+    <string name="restore_files_success2">Semua berkas yang berkaitan dengan database telah dibuka</string>
     <string formatted="false" name="restore_files_error_message">Gagal memulihkan berkas dari arsip: %s</string>
     <string name="restore_files_error">Gagal memulihkan berkas</string>
     <string name="select_google_account">Pilih akun Google</string>
     <string name="send_files_to_cloud_error">Galat mengunggah berkas ke cloud:</string>
     <string formatted="false" name="upload_file_to_cloud_message">Unggah %s (%d/%d)</string>
     <string name="prepare_google_sync">Menyambungkan akun anda ...</string>
-    <string name="no_google_accounts">Tidak ada akun google yang tersedia. Tambahkan dulu sebuah akun ke perangkat.</string>
+    <string name="no_google_accounts">Tidak ada akun Google yang tersedia. Silakan lebih dulu menambah akun pada perangkat.</string>
     <string name="google_account_not_selected">Akun tidak dipilih</string>
     <string name="bakup_files_need_pro_title">Memerlukan versi PRO</string>
     <string name="bakup_files_need_pro_message">Pembuatan berkas backup hanya tersedia pada program versi PRO</string>
@@ -665,7 +665,7 @@ Kami mengirim email untuk reset kata sandi secara cepat dan mudah.</string>
     <string name="files_storage_settings_dublicate_title">Salin ke tempat penyimpanan</string>
     <string name="files_storage_settings_dublicate_summary">Berkas yang terlampir pada record akan disalin ke folder tempat penyimpanan</string>
     <string name="files_storage_settings_remove_original_title">Hapus orisinal</string>
-    <string name="files_storage_settings_remove_original_summary">Setelah menyalin berkas ke tempat penyimpanan, hapus orisinal</string>
+    <string name="files_storage_settings_remove_original_summary">Setelah menyalin berkas ke tempat penyimpanan, hapus yang orisinal</string>
     <string name="dublicate_file_error">"Tidak bisa memindahkan berkas ke tempat penyimpanan: "</string>
     <string name="select_map_type">Jenis peta</string>
     <string name="open_map_menu_item">Peta</string>
@@ -679,15 +679,15 @@ Kami mengirim email untuk reset kata sandi secara cepat dan mudah.</string>
     <string name="add_lib_from_google_drive">Dari Google Drive</string>
     <string name="selected">%s dipilih</string>
     <string name="delete_template_from_google_drive_question">Apa anda yakin ingin menghapus koleksi terpilih dari Google Drive?</string>
-    <string name="delete_data_table_from_google_drive">Buang spreadsheet data yang berhubungan dengan template</string>
+    <string name="delete_data_table_from_google_drive">Hapus spreadsheet data yang berkaitan dengan templat</string>
     <string name="lock_library_edit_message">Perubahan struktur koleksi dikunci.
-Anda bisa menghidupkan kemampuan penyuntingan pada pengaturan koleksi ini.</string>
+Anda dapat menghidupkan penyuntingan untuk koleksi ini pada setelan.</string>
     <string name="lock_edit_library_pref_title">Kunci struktur</string>
     <string name="lock_edit_library_pref_summary_on">Mengganti struktur koleksi tidak diizinkan</string>
     <string name="lock_edit_library_pref_summary_off">Mengganti struktur koleksi diizinkan</string>
     <string name="cant_restore_form_google_drive">Perangkat anda tidak mendukung pembuatan koleksi dari Google Drive</string>
     <string name="record_error_dialog_message">Maaf, aplikasi perekam tidak ditemukan.</string>
-    <string name="sync_error_dialog_title">"Penyinkronan galat "</string>
+    <string name="sync_error_dialog_title">Penyinkronan galat</string>
     <string name="field_display_options_group">Opsi tampilan</string>
     <string name="display_in_list_how">Tampilkan di daftar sebagai</string>
     <string name="field_display_title_in_card">Nama field</string>
@@ -701,7 +701,7 @@ Anda bisa menghidupkan kemampuan penyuntingan pada pengaturan koleksi ini.</stri
     <string name="cant_delete_main_page">Anda tidak bisa menghapus halaman default.</string>
     <string name="master_libraries_list_caption">Daftar entri dari koleksi</string>
     <string name="view_on_this_page_title">Tampillan pada halaman ini</string>
-    <string name="set_default_page">Atur default</string>
+    <string name="set_default_page">Tetapkan default</string>
     <string name="entry_page_delete_message_text">Apa ada yakin ingin menghapus halaman \"%s\" ?</string>
     <string name="accept_button">Saya Setuju</string>
     <string name="sliding_hint_text">Geser dari kanan ke kiri
@@ -709,11 +709,11 @@ untuk membuka menu lanjutan -
 sortir, grup, filter, grafik dan banyak lagi ...</string>
     <string name="multy_sorting">Sortir menurut beberapa field</string>
     <string name="new_button">baru</string>
-    <string name="free_version_entry_page_limit">Pada versi gratis, anda hanya bisa membuat dua halaman. Upgrade ke versi PRO untuk menghapus batasan ini.</string>
+    <string name="free_version_entry_page_limit">Pada versi gratis anda hanya dapat membuat dua halaman. Upgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
     <string name="button_change_activation_code">Aktivasi</string>
     <string name="select_button">PILIH</string>
     <string name="clear_button">BERSIHKAN</string>
-    <string name="error_library_not_unique_field_names">Nama field pada koleksi harus unik. Field centang: %s.</string>
+    <string name="error_library_not_unique_field_names">Nama field dalam koleksi ini harus unik. Field Check: %s.</string>
     <string name="info_path">Jalur:</string>
     <string name="info_resolution">Resolusi:</string>
     <string name="info_size">Ukuran:</string>
@@ -725,7 +725,7 @@ sortir, grup, filter, grafik dan banyak lagi ...</string>
     <string name="pref_entry_editor_with_margin_summary">Opsi untuk mode lanskap</string>
     <string name="flex_type_signature">Tanda tangan</string>
     <string name="flex_type_signature_options_title">Opsi melukis</string>
-    <string name="flex_type_signature_options_hint">Ukuran dan latar kanvas, pengaturan kuas</string>
+    <string name="flex_type_signature_options_hint">Ukuran dan latar kanvas, setelan kuas</string>
     <string name="flex_type_signature_width_title">Lebar tanda tangan</string>
     <string name="flex_type_signature_height_title">Tinggi tanda tangan</string>
     <string name="flex_type_signature_paint_color_title">Warna kuas</string>
@@ -777,7 +777,7 @@ sortir, grup, filter, grafik dan banyak lagi ...</string>
     <string name="cant_delete_charts_field_message">Anda tidak bisa menghapus field ini, sebab dipakai dalam grafik: %s</string>
     <string name="save_to_file_name">Nama berkas</string>
     <string name="save_to_file_directory">Folder</string>
-    <string name="need_pro_for_charts">"Pada versi gratis, satu koleksi hanya bisa berisi satu grafik.  Untuk menghilangkan batasan ini, silakan upgrade ke versi PRO."</string>
+    <string name="need_pro_for_charts">Pada versi gratis anda hanya dapat membuat satu grafik. Untuk menghilangkan batasan ini, silakan upgrade ke versi PRO.</string>
     <string name="need_internet_for_charts">Google Charts memerlukan koneksi internet</string>
     <string name="download_image_from_google_photo_message">Mengunduh gambar dari Google Photo ...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Data dari Web akan dimasukkan ke field entri</string>
@@ -821,28 +821,29 @@ sortir, grup, filter, grafik dan banyak lagi ...</string>
     <string name="show_update_time_on_tile">Waktu penyuntingan</string>
     <string name="only_title_on_tile">Hanya nama koleksi</string>
     <plurals name="fields_count">
-	<item quantity="other">%d fields</item>
+	<item quantity="other">Satu fields</item>
 </plurals>
     <plurals name="libraries_count">
-	<item quantity="other">%d koleksi</item>
+	<item quantity="other">Satu koleksi</item>
 </plurals>
     <string name="empty">Kosong</string>
     <string name="add_page">Tambah Halaman</string>
     <string name="move_to_page">Pindahkan ke halaman</string>
     <string name="empty_entry_page_text">Halaman ini kosong.
-Anda bisa menambah field atau lists record di sini.</string>
+Anda dapat menambah field atau daftar record di sini.</string>
     <string name="empty_fields_list_text">Tidak ada field di koleksi ini.</string>
     <string name="empty_aggregation_list_text">Koleksi ini tidak memiliki fungsi agregasi.</string>
     <string name="empty_chart_list_text">Koleksi ini tidak memiliki grafik.</string>
     <string name="empty_entry_list_text">Koleksi belum berisi entri.</string>
     <string name="empty_recycle_bin_text">Tidak tersedia entri untuk pemulihan di koleksi ini.</string>
     <string name="empty_main_recycle_bin_text">Tidak ada koleksi tersedia untuk pemulihan.</string>
-    <string name="string_edit_cap_options_title">Huruh besar</string>
+    <string name="string_edit_cap_options_title">Huruf besar</string>
     <string name="string_edit_cap_options_none">Tidak</string>
     <string name="string_edit_cap_options_sent">Di awal kalimat</string>
     <string name="string_edit_cap_options_wolds">Pada awal tiap kata</string>
     <string name="string_edit_cap_options_all">Semua huruf</string>
-    <string name="single_line_options_title">Satu baris field teks</string>
+    <string name="single_line_options_title">Field teks
+baris tunggal</string>
     <string name="main_field_options_tab_title">Utama</string>
     <string name="string_list_items_tab_title">Item</string>
     <string name="string_list_edit_item_title_hint">Judul item</string>
@@ -863,8 +864,8 @@ Anda bisa menambah field atau lists record di sini.</string>
     <string name="string_list_export_error">Terjadi galat saat mengekspor: %s</string>
     <string name="string_list_import_error">Terjadi galat saat mengimpor: %s</string>
     <string name="something_wrong_dialog_title">Terjadi kesalahan</string>
-    <string name="export_template_snackbar_ok">Template telah diekspor</string>
-    <string name="import_template_error">Galat mengimpor template: %s</string>
+    <string name="export_template_snackbar_ok">Templat telah diekspor</string>
+    <string name="import_template_error">Galat mengimpor templat: %s</string>
     <string name="mass_delete_string_list_item_message">Apa anda yakin ingin menghapus item yang dipilih ?</string>
     <string name="reminders_count_limit">Anda bisa menambah 10 reminder maksimum pada sebuah field</string>
     <string name="aggregation_add_item_dialog_title">Tambah fungsi agregasi</string>
@@ -883,9 +884,9 @@ Anda bisa menambah field atau lists record di sini.</string>
     <string name="csv_import_total_lines">Baris yang diproses:</string>
     <string name="csv_import_errors_count">Galat:</string>
     <string formatted="false" name="csv_import_error_item">Baris %d - %s</string>
-    <string name="google_sync_without_memento_id_text">Koleksi ini tersinkron menggunakan metode lama, dengan kerusakan yang potensial.
-Jalankan proses rebinding koleksi ke tabel baru menggunakan metode baru.
-Jalankan rebinding sekarang?</string>
+    <string name="google_sync_without_memento_id_text">Koleksi ini disinkronkan memakai metode lama, yang memiliki galat.
+Lakukan proses rebinding koleksi ke tabel baru untuk pemakaian metode terkini.
+Jalankan proses rebinding sekarang?</string>
     <string name="rating_field_max_value">Peringkat maksimum</string>
     <plurals name="delete_entries_snackbar_text">
 	<item quantity="other">%d entri telah dipindahkan ke keranjang sampah</item>
@@ -902,7 +903,7 @@ Jalankan rebinding sekarang?</string>
     <string name="sort_by_name">Sortir menurut Nama</string>
     <string name="sort_by_time">Sortir menurut Waktu Ditambahkan</string>
     <string name="favorites_empty_list_layout">Tidak ada entri favorit.</string>
-    <string name="history_empty_list_layout">Tidak ada entri yang baru dilihat.</string>
+    <string name="history_empty_list_layout">Tidak ada entri yang dilihat baru-baru ini.</string>
     <string name="clear_history">Hapus riwayat</string>
     <string name="entry_not_found">Entri tidak ditemukan</string>
     <string name="function">Fungsi</string>
@@ -915,23 +916,23 @@ Jalankan rebinding sekarang?</string>
     <string name="calc_value_type_string">Jenis nilai string</string>
     <string name="sort_by_downloads">Sortir menurut Unduhan</string>
     <string name="need_auth_on_memento_server">Anda perlu membuat akun di Memento Cloud</string>
-    <string name="empty_my_templates_list">Anda tidak punya template koleksi yang diterbitkan.</string>
+    <string name="empty_my_templates_list">Anda tidak punya templat koleksi yang diterbitkan.</string>
     <string name="empty_field_depend_list">Field ini tidak memiliki dependensi ke field lain.</string>
-    <string name="share_template_dialog_title">Berbagi template melalui katalog online</string>
-    <string name="catalog_templates">Template katalog</string>
+    <string name="share_template_dialog_title">Bagikan templat melalui katalog online</string>
+    <string name="catalog_templates">Templat katalog</string>
     <string name="empty_search_result2">Tidak ada item yang cocok dengan pencarian anda - %s -</string>
-    <string name="rename_group">Sunting grup</string>
+    <string name="rename_group">Sunting Grup</string>
     <string name="move">Pindah</string>
     <string name="select_group">Pilih grup</string>
     <string name="library_moved_message">Koleksi dipindahkan ke grup \"%s\"</string>
     <string name="master_library_entries">Entri dari koleksi terkait</string>
-    <string name="invisible">Tak terlihat</string>
+    <string name="invisible">tak terlihat</string>
     <string name="display_master_libraries_items">Tampilkan pada kartu</string>
     <string name="sync_with_google_left_menu_item">Sinkronkan dengan Google</string>
     <string name="entries_view_menu_title">Tampilan</string>
     <string name="entries_view_list">Daftar</string>
     <string name="entries_view_table">Tabel</string>
-    <string name="flex_edit_option_in_table">Entri tabel</string>
+    <string name="flex_edit_option_in_table">entri tabel</string>
     <string name="table_cell_image_text">LAYAR</string>
     <string name="table_column_width">Lebar kolom</string>
     <string name="empty_list_after_filter">Tak ada record yang sesuai kriteria filter.</string>
@@ -947,19 +948,19 @@ Jalankan rebinding sekarang?</string>
     <string name="auto_backup_when_close_app">Setelah aplikasi ditutup</string>
     <string name="auto_backup_when_sync">Sebelum sinkron ke Google</string>
     <string name="auto_backup_when_edit_libs">Sebelum mengubah koleksi</string>
-    <string name="free_version_multi_field_limit">Pada versi gratis, anda hanya bisa menambahkan dua elemen. Upgrade ke versi PRO untuk menghilangkan batasan ini.</string>
+    <string name="free_version_multi_field_limit">Pada versi gratis anda hanya dapat menambah dua elemen. Upgrade ke versi PRO untuk menghilangkan batasan ini.</string>
     <string name="scale">Skala %d</string>
     <plurals name="duration_seconds">
-	<item quantity="other">%d detik</item>
+	<item quantity="other">1 detik</item>
 </plurals>
     <plurals name="duration_minutes">
-	<item quantity="other">%d menit</item>
+	<item quantity="other">1 menit</item>
 </plurals>
     <plurals name="duration_hours">
-	<item quantity="other">%d jam</item>
+	<item quantity="other">1 jam</item>
 </plurals>
     <plurals name="duration_days">
-	<item quantity="other">%d hari</item>
+	<item quantity="other">1 hari</item>
 </plurals>
     <string name="all">Semua</string>
     <string name="page">Halaman</string>
@@ -967,7 +968,7 @@ Jalankan rebinding sekarang?</string>
     <string name="entries_view_type_calendar">Kalender</string>
     <string name="calendar_field_role">Gunakan di kalender sebagai</string>
     <string name="calendar_field_role_start">Jam mulai</string>
-    <string name="calendar_field_role_end">Jam berakhir</string>
+    <string name="calendar_field_role_end">Jam selesai</string>
     <string name="calendar_field_role_duration_min">Durasi, menit</string>
     <string name="calendar_field_role_duration_hour">Durasi, jam</string>
     <string name="calendar_field_role_duration_hour_time">Durasi</string>
@@ -978,7 +979,7 @@ Jalankan rebinding sekarang?</string>
     <string name="calendar_3day_view">Tampilah 3 hari</string>
     <string name="calendar_week_view">Tampilan minggu</string>
     <string name="go_to_date">Pergi ke tanggal</string>
-    <string name="lost_linked_library">Koleksi yang ditautkan tidak ditemukan, mungkin telah dihapus.</string>
+    <string name="lost_linked_library">Koleksi yang ditautkan tidak ditemukan, barangkali telah dihapus.</string>
     <string name="multichoice_field_empty">Tidak tersedia nilai untuk pemilihan</string>
     <string name="show_add_button_on_tile">Tombol \"Tambah entri\"</string>
     <string name="cant_find_audio_selection_app">Maaf, aplikasi untuk memilih berkas audio tidak ditemukan.</string>
@@ -987,7 +988,7 @@ Jalankan rebinding sekarang?</string>
     <string name="library_group_view_type_small_tile">Tegel kecil</string>
     <string name="library_group_view_type_icons">Ikon</string>
     <string name="icon_pack_title_files_types">Berkas</string>
-    <string name="use_depend_only_in_edit_title">Di pakai di mana</string>
+    <string name="use_depend_only_in_edit_title">Dipakai di mana</string>
     <string name="use_depend_only_in_edit_hint_true">Hanya saat menyunting entri</string>
     <string name="use_depend_only_in_edit_hint_false">Saat menyunting dan melihat entri</string>
 	<string name="most_viewed_templates">Paling banyak dilihat</string>    
@@ -995,10 +996,10 @@ Jalankan rebinding sekarang?</string>
 	<string name="template_views_count">Dilihat: %s</string>
 	<string name="sort_by_views">Sortir menurut Tampilan</string>
 	<string name="select_category_template">Pilih kategori</string>	
-	<string name="select_template_lang">Pilih bahasa template</string>
+	<string name="select_template_lang">Pilih bahasa templat</string>
 	<string name="template_language">Bahasa:</string>	
 	<string name="display_lang_option">Filter menurut bahasa</string>
-	<string name="display_lang_option_all">Semua template</string>
+	<string name="display_lang_option_all">Semua templat</string>
 	<string name="entries_name_dialog_title">Nama entri ditentukan oleh nilai dari field yang dipilih</string>
 	<string name="entries_name_is_unique">Nama entri unik</string> 
 	<string name="no_fields_for_role">Tidak ada field yang sesuai untuk peran ini pada koleksi tersebut</string>
@@ -1008,10 +1009,10 @@ Jalankan rebinding sekarang?</string>
 	<string name="library_have_duplicates">Entri dengan nama serupa pada koleksi</string>
 	<string name="library_have_duplicates2">Ubah atau hapus duplikasi untuk berjalan baik.</string>
 	<string name="dont_show_anymore">Jangan tampilkan lagi</string>
-	<string name="need_make_slave_library_unique">Untuk menyinkronkan field \"Tautan ke entri\", anda harus mengaktifkan kontrol nama unik pada koleksi terkait.
-Jalankan ini sekarang?</string>
-	<string name="need_make_slave_library_unique_import">Untuk mengimpor field \"Tautan to entry\", anda harus mengaktifkan kontrol nama unik pada koleksi tertaut.
-Jalankan ini sekarang?</string>
+	<string name="need_make_slave_library_unique">Untuk mensinkronkan field \"Tautan ke Entri\", anda harus menghidupkan kontrol nama entri unik pada koleksi yang bersangkutan.
+Lakukan hal ini sekarang?</string>
+	<string name="need_make_slave_library_unique_import">Untuk mengimpor field \"Tautan ke Entri\", anda harus menghidupkan kontrol nama entri unik pada koleksi yang bersangkutan.
+Lakukan hal ini sekarang?</string>
 	<string name="run_sync_slave_libraries_pref">Koleksi terkait</string>
 	<string name="run_sync_slave_libraries_summary">Koleksi terkait sinkronisasi pertama</string>
 	<string name="choice_type_add_button_in_edit_title">Pembuatan elemen saat menyuting entri</string>
@@ -1019,18 +1020,18 @@ Jalankan ini sekarang?</string>
 	<string name="show_deleted_entries_menu_item">Tampilkan entri yang dihapus</string>
 	<string name="upload_to_cloud_menu_item">Ke Cloud</string>
 	<string name="welcome_text_title">Selamat datang di Memento Database</string>
-	<string name="welcome_text_description">Koleksi adalah tempat informasi anda disimpan. Anda bisa mulai mengakrabkan diri dengan membuat koleksi dari salah satu template yang tersedia.</string>
+	<string name="welcome_text_description">Koleksi adalah tempat informasi anda akan disimpan. Anda bisa mulai mengakrabkan diri dengan Memento dengan membuat sebuah koleksi yang berdasarkan templat yang disediakan.</string>
 	
 	<string name="memento_cloud">Cloud Memento</string>
 	<string name="start_remove_librarary_from_cloud">Menghapus koleksi...</string>
 	<string name="success_remove_librarary_from_cloud">Koleksi berhasil dihapus dari cloud</string>
 	<string name="start_upload_library_to_cloud">Mengunggah koleksi...</string>	
 	<string name="success_upload_library_to_cloud">Koleksi berhasil diunggah.
-Koleksi akan disinkronkan secara otomatis.</string>
-	<string name="success_upload_library_to_cloud2">Anda bisa mengizinkan pengguna Memento lain mengakses koleksi anda pada pengaturan akses.</string>	
+Koleksi akan otomatis disinkronkan.</string>
+	<string name="success_upload_library_to_cloud2">Anda bisa mengizinkan pengguna Memento lain mengakses koleksi anda pada setelan akses.</string>	
 	<string name="push_entries_to_cloud_message" formatted="false">Mengunggah entri
 %s dari %s entri diproses</string>
-	<string name="permissions">PerIzinan</string>
+	<string name="permissions">Perizinan</string>
 	<string name="button_hide">sembunyikan</string>	
 	<string name="empty_cloud_libraries_list_text">Anda tidak punya koleksi yang diunggah</string>
 	<string name="my_cloud_libraries_menu_item">Tempat penyimpanan Cloud</string>
@@ -1042,7 +1043,7 @@ Koleksi akan disinkronkan secara otomatis.</string>
 	<string name="pull_entries_from_cloud_message">Mengunduh entri...</string>
 	<string name="pull_entries_from_cloud_message2" formatted="false">%s dari %s entri diproses</string>
 	<string name="success_pull_library_from_cloud">Entri berhasil diunduh.
-Koleksi akan disinkronkan secara otomatis.</string>
+Koleksi akan otomatis disinkronkan.</string>
 	<string name="cloud_conflict_fields_title">Konflik</string>
 	<string name="cloud_conflict_fix_button_title">Perbaiki</string>
     <string name="button_select">Pilih</string>
@@ -1066,12 +1067,12 @@ Koleksi akan disinkronkan secara otomatis.</string>
     <string name="upload_file_to_cloud">Mengunggah berkas...</string>    
     <string name="upload_files_to_cloud">Mengunggah berkas</string>
     <string name="cloud_upload_error_title">Kami tak bisa mensinkronkan koleksi ini</string>
-    <string name="upload_big_file_error" formatted="false">Entri %s berisi berkas besar %s (%s).
+    <string name="upload_big_file_error" formatted="false">Entri %s berisi berkas yang besar %s (%s).
 Ukuran maksimum berkas adalah %s.</string>
     <string name="prepare_library_for_cloud">Koleksi sedang diproses...</string>
     <string name="download_files_from_cloud">Mengunduh berkas dari cloud...</string>
     <string name="cant_download_item_files_for_copy">Pengunduhan berkas untuk membuat salinan gagal.</string> 
-    <string name="library_cloud_model_changed_message">Struktur koleksi telah diperbarui di cloud. Perbarui struktur untuk sinkronisasi lanjutan.</string>
+    <string name="library_cloud_model_changed_message">Struktur koleksi diperbarui di cloud. Perbarui struktur untuk sinkronisasi lebih lanjut.</string>
     <string name="button_update">Perbarui</string>
     <string name="add_people">Tambah pengguna atau grup</string>
     <string name="read_permission">Baca</string>      
@@ -1083,7 +1084,7 @@ Ukuran maksimum berkas adalah %s.</string>
 	<string name="deny_permission">Tolak</string>
 	<string name="only_owner_permission">Hanya milik sendiri</string>
 	<string name="user_not_found">Pengguna tidak ditemukan</string>
-	<string name="edit_permission">Pengaturan berbagi pengguna</string>	
+	<string name="edit_permission">Setelan berbagi pengguna</string>	
 	<string name="push_entry_error_text" formatted="false">Entri tidak disimpan di cloud.
 Nama: %s
 Galat: %s</string>
@@ -1097,12 +1098,12 @@ Galat: %s</string>
 	<string name="need_upload_to_cloud_slave_libraries">Silakan unggah koleksi turunan ke awan.</string>
 	<string name="start_download_slave_library_model">Mengunggah koleksi turunan %s</string>
 	<string name="open_access_for_slave_libraries">Sediakan akses baca ke koleksi turunan</string>
-	<string name="cloud_storage_full_text">Tidak cukup ruang pada tempat penyimpanan cloud .
-Anda bisa upgrade ke paket tarif yang menyediakan lebih banyak ruang.</string>
-	<string name="cloud_storage_full_text2" formatted="false">Tidak cukup ruang pada tempat penyimpanan cloud .
-dibutuhkan %s, tersedia %s.
-Anda bisa upgrade ke paket tarif yang menyediakan lebih banyak ruang.</string>
-	<string name="alien_cloud_storage_full_text">Pemilik koleksi tidak memiliki cukup tempat penyimpanan.</string>	
+	<string name="cloud_storage_full_text">Tidak cukup ruang pada tempat penyimpanan cloud
+Anda dapat upgrade ke paket tariff yang menyediakan lebih banyak ruang tempat penyimpanan.</string>
+	<string name="cloud_storage_full_text2" formatted="false">Tidak cukup ruang pada tempat penyimpanan cloud
+%s dibutuhkaan, %s tersedia.
+Anda dapat upgrade ke paket tariff yang menyediakan lebih banyak ruang tempat penyimpanan.</string>
+	<string name="alien_cloud_storage_full_text">Pemilik koleksi tidak memiliki cukup ruang tempat penyimpanan.</string>	
 	<string name="button_tarifs">Tarif</string>
 	<string name="cloud_storage_plans">Paket langganan</string>
 	<string name="price_free">GRATIS</string>
@@ -1116,12 +1117,12 @@ Anda bisa upgrade ke paket tarif yang menyediakan lebih banyak ruang.</string>
 	<string name="return_to_free_plan_message">Anda bisa pindah ke akun gratis dengan berhenti berlangganan di Google Play</string>
 	<string name="subscription_already_activation_for_user">Langganan tidak bisa diaktifkan karena dibeli oleh pengguna %s.</string>
 	<string name="library_cloud_count_limit">Paket tarif anda mengizinkan pengunggahan sampai %s koleksi ke cloud.</string>
-	<string name="restore_cloud_library_from_recycle">Bentuk setempat koleksi ini dihapus. Pulihkan?</string>
+	<string name="restore_cloud_library_from_recycle">Lokal setempat koleksi ini dihapus. Pulihkan?</string>
 	<string name="cloud_file_while_not_upload">Berkas belum berada di cloud</string>
 	<string name="upload_ecrypted_libraries_dont_supported">Penggunggahan koleksi terenkripsi ke cloud sementara tidak tersedia.</string>
 	<string name="button_signin">Masuk</string>
-	<string name="cloud_library_not_found">Koleksi tidak ditemukan di cloud. Mungkin, itu dihapus
-Ubah koleksi ke bentuk setempat?</string>
+	<string name="cloud_library_not_found">Koleksi tidak ditemukan di cloud. Barangkali telah dihapus.
+Konvert koleksi ke lokal setempat?</string>
 	<string name="cloud_library_already_uploaded">Koleksi ini sudah pernah diunggah ke cloud.</string>
 	<string name="library_public_access">Akses publik</string>
 	<string name="library_public_access_disabled">Dinonaktifkan</string>
@@ -1132,29 +1133,29 @@ Ubah koleksi ke bentuk setempat?</string>
 	<string name="library_not_found_by_uri">Koleksi tidak ditemukan</string>
 	<string name="upload_to_cloud_offer_title">{siap untuk cloud...}</string>
 	<string name="upload_to_cloud_offer_text">• Kolaborasi tim
-• Sinkronisasi untuk semua perangkat
+• Sinkronisasi antar perangkat
 • Backup selalu tersedia di cloud</string>
 	<string name="button_no_thanks">Tidak, terima kasih</string>
 	<string name="button_upload">Unggah</string>
 	
 	<string name="cant_upload_file_to_cloud">Pengunggahan berkas gagal.</string>
     <string name="button_show">Tampilkan</string>
-	<string name="invalid_library_template_file_format">Format berkas tempalate salah</string>    
+	<string name="invalid_library_template_file_format">Format berkas tempalate tidak sah</string>    
 	<string name="cant_add_yourself">Anda tidak bisa menambahkan diri sendiri</string>
 	<string name="remove_from_old_public">Sebelum diunggah, koleksi akan dibatalkan penerbitannya jika menggunakan versi lama.</string>
-	<string name="select_template_title">Pilih template</string>
-	<string name="empty_library_title">Kosongkan koleksi</string>
+	<string name="select_template_title">Pilih templat</string>
+	<string name="empty_library_title">Koleksi kosong</string>
 	<string name="catalog_templates_title">Katalog online</string>
-	<string name="catalog_templates_hint">Lebih dari 3000 template</string>
+	<string name="catalog_templates_hint">Lebih dari 3000 templat</string>
 	<string name="add_lib_from_google_drive_hint">Pulihkan dari Google Drive</string>
-	<string name="templates">Template</string>
-	<string name="import_template_from_file_hint">Impor template dari berkas</string>
+	<string name="templates">Templat</string>
+	<string name="import_template_from_file_hint">Impor templat dari berkas</string>
 	<string name="help_cloud">Tempat penyimpanan cloud and Kolaborasi tim</string>
 	<string name="subscription_pro_bonus_text">Sebagian besar paket tarif untuk tempat penyimpanan cloud sudah termasuk versi PRO sebagai bonus</string>
 	<string name="send_formatting_menu_item">Susunan...</string>
 	<string name="pro_for_cloud_storage_title">Langganan</string>
 	<string name="default_file_manager_pref_title">Pengelola berkas</string>
-	<string name="clear_search_history">Bersihkan Riwayat Penelusuan</string>
+	<string name="clear_search_history">Bersihkan Riwayat Pencarian</string>
 	<string name="clear_search_history_hint">Hapus semua penelusuran yang pernah dilakukan</string>
 	<string name="success_clear_search_history">Riwayat pencarian anda telah dibersihkan</string>	
 	<string name="clear_search_history_quest">Apa anda yakin ingin membersihkan riwayat pencarian?</string>
@@ -1163,8 +1164,8 @@ Ubah koleksi ke bentuk setempat?</string>
 	<string name="autofill_from">dari %s</string>
 	<string name="autofill_by_barcode">Menurut barcode</string>
 	<string name="autofill_by_title">Menurut judul</string>
-	<string name="autofill_need_barcode_field">Koleksi anda harus berisi field \"Barcode\" untuk autofill koleksi menurut barcode. Bagaimana caranya?</string>
-	<string name="autofill_need_text_field">Koleksi anda harus berisi field \"Teks\" untuk autofill koleksi menurut judul. Bagaimana caranya?</string>
+	<string name="autofill_need_barcode_field">Untuk menjalankan autofill pada koleksi dengan barcode, koleksi harus berisi field \"Barcode\". Bagaimana membuatnya?</string>
+	<string name="autofill_need_text_field">Untuk menjalankan autofill pada koleksi dengan judul, koleksi harus berisi field \"Teks\". Bagaimana membuatnya?</string>
 	<string name="autofill_select_master_field">Kolom pencarian</string>
 	<string name="autofill_rules_title">Aturan autofill</string>
 	<string name="music_brainz_source_artist">Artis musik</string>
@@ -1183,11 +1184,11 @@ Ubah koleksi ke bentuk setempat?</string>
     <string name="copying_entries">Menyalin entri ...</string>
 
     <string name="encryption_for_cloud_uploaded_library">Enkripsi koleksi hanya bisa diaktifkan sebelum diunggah ke cloud.</string>
-    <string name="decryption_for_cloud_uploaded_library">Penonaktifan enkripsi untuk pengunggahan koleksi ke cloud tidak didukung. Pertama-tama hapus koleksi dari cloud.</string>
-    <string name="need_reload_library_from_cloud_encrypted">Salinan koleksi di cloud sudah terenkripsi.
-Hapus salinan koleksi lokal, lalu unduh lagi koleksi dari cloud.</string>
-    <string name="need_reload_library_from_cloud_decrypted">Salinan koleksi di cloud sudah terenkripsi.
-Hapus salinan koleksi lokal, lalu unduh lagi koleksi dari cloud.</string>
+    <string name="decryption_for_cloud_uploaded_library">Penonaktifan enkripsi untuk pengunggahan ke cloud koleksi tidak didukung. Pertama-tama hapus koleksi dari cloud.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Salinan koleksi di cloud terenkripsi.
+Hapus salinan lokal koleksi, dan lalu unduh lagi koleksi dari cloud.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Salinan koleksi di cloud dilepas enkripsinya.
+Hapus salinan lokal koleksi, dan lalu unduh lagi koleksi dari cloud.</string>
 
     <string name="render_pdf_menu_item">Simpan sebagai PDF</string>
     <string name="entry_saved_as_pdf_success">PDF berhasil dibuat</string>
@@ -1199,7 +1200,7 @@ Hapus salinan koleksi lokal, lalu unduh lagi koleksi dari cloud.</string>
     <string name="button_rate_now">Beri peringkat sekarang</string>
     <string name="button_ask_later">Ingatkan lain kali</string>
     <string name="flex_type_radiobuttons">Tombol Radio</string>
-    <string name="flex_type_checkboxes">Kotak centang</string>
+    <string name="flex_type_checkboxes">Kotak Centang</string>
     <string name="field_orientation_option_title">Orientasi</string>
     <string name="field_orientation_option_horizontal">Horisontal</string>
     <string name="field_orientation_option_vertical">Vertikal</string>
@@ -1211,13 +1212,13 @@ Hapus salinan koleksi lokal, lalu unduh lagi koleksi dari cloud.</string>
     <string name="font_style_bold">Tebal</string>
     <string name="font_style_italic">Miring</string>
     <string name="font_style_bold_italic">Tebal Miring</string>
-    <string name="font_sample">Sampel</string>
+    <string name="font_sample">Contoh</string>
     <string name="font_default_title">Font default</string>
     <string name="choice_item_use_color_for_text">Gunakan warna untuk teks</string>
     <string name="rating_tooltips">Tooltip</string>
     <string name="rating_tooltips_empty">Field tidak punya tooltip</string>
     <string name="calculator">Kalkulator</string>
-    <string name="calculator_options_hint">Tambah tombol untuk menampilkan kalkulator</string>
+    <string name="calculator_options_hint">Tambah tombol penampil kalkulator</string>
     <string name="filter_by_number">Filter menurut angka</string>
     <string name="filter_by_string">Filter menurut string</string>
     <string name="multiediting_only_in_pro">Sunting beberapa entri hanya tersedia untuk pengguna versi PRO.</string>
@@ -1235,9 +1236,9 @@ Hapus salinan koleksi lokal, lalu unduh lagi koleksi dari cloud.</string>
     <string name="comment_send_error">Galat mengirim komentar: %s</string>
     <string name="edit_comment_dialog_title">Sunting komentar</string>
 
-    <string name="notification_edit_library_create_text">entri ditambahkan</string>
-    <string name="notification_edit_library_edit_text">entri disunting</string>
-    <string name="notification_edit_library_delete_text">entri dihapus</string>
+    <string name="notification_edit_library_create_text">entri yang ditambahkan</string>
+    <string name="notification_edit_library_edit_text">entri yang disunting</string>
+    <string name="notification_edit_library_delete_text">entri yang dihapus</string>
     <string name="flex_type_rich_text">Teks Lengkap</string>
     <string name="text_background_color">Warna Latar</string>
     <string name="field_type_rich_only_for_android_kit_kat">Jenis field ini hanya tersedia untuk Android 4.4 KitKat dan selanjutnya.</string>
@@ -1263,9 +1264,9 @@ Hapus salinan koleksi lokal, lalu unduh lagi koleksi dari cloud.</string>
     <string name="preview_button">Pratinjau</string>
     <string name="select_calc_preview_entry">Entri untuk pratinjau</string>
     <string name="calc_preview_title">Pratinjau</string>
-    <string name="add_relationship">Hubungan</string>
+    <string name="add_relationship">Tautan</string>
     <string name="add_relationship_with_title">Pilih koleksi sekunder</string>
-    <string name="add_relationship_success">Hubungan antar koleksi akan tersedia menggunakan field \"%s\".</string>
+    <string name="add_relationship_success">Tautan antar koleksi akan tersedia menggunakan field \"%s\".</string>
     <string name="display_aggregation">Tampilkan agregasi</string>
     <string name="display_aggregation_hint">Agregasi menurut entri dari koleksi yang ditautkan</string>
     <string name="create_shortcut_text">Ketik nama untuk pintasan ini</string>
@@ -1292,7 +1293,7 @@ Hapus salinan koleksi lokal, lalu unduh lagi koleksi dari cloud.</string>
     <string name="create_new_user_dialog">Buat Pengguna Baru</string>
 
     <string name="js_libraries">Pustaka JavaScript</string>
-    <string name="js_moment_library">Koleksi untuk parsing, validasi, pemrosesan, dan penyusunan tanggal</string>
+    <string name="js_moment_library">Koleksi untuk parsing, mengesahan, pemrosesan, dan penyusunan tanggal</string>
     <string name="js_realtime">Eksekusi script secara real time</string>
     <string name="js_realtime_hint_off">Script hanya berjalan saat penyuntingan record</string>
     <string name="js_realtime_hint_on">Script berjalan saat menampilkan record</string>
@@ -1326,15 +1327,15 @@ Hapus salinan koleksi lokal, lalu unduh lagi koleksi dari cloud.</string>
     <string name="latitude_longitude">Bujur/Lintang</string>
     <string name="latitude_longitude_hint">bujur,lintang</string>
     <string name="latitude_longitude_parse_error">Tidak bisa parse bujur/lintang</string>
-    <string name="relation_type">Jenis hubungan</string>
-    <string name="relation_type_one_limit">Record yang dipilih sudah mempunyai hubungan</string>
-    <string name="relation_type_one_limit2">%s sudah mempunyai hubungan</string>
+    <string name="relation_type">Jenis tautan</string>
+    <string name="relation_type_one_limit">Record yang dipilih sudah memiliki tautan</string>
+    <string name="relation_type_one_limit2">%s sudah memiliki tautan</string>
     <string name="library_edit_mode">Mode sunting</string>
     <string name="library_edit_mode_hint">Buka formulir penyuntingan dengan mengklik sebuah entri</string>
     <string name="desktop_version">Versi Desktop</string>
 
     <string name="no_comments">Tidak ada komentar</string>
-    <string name="comments_only_for_cloud">Komentar hanya bisa ditambah ke koleksi yang diunggah ke cloud. Unggah koleksi ke cloud?</string>
+    <string name="comments_only_for_cloud">Komentar hanya dapat dikirim dari koleksi yang diunggah ke cloud. Unggah koleksi ke cloud?</string>
     <string name="locale_plugin_add_edit_entry_title">Tambah/sunting entri</string>
     <string name="locale_to_fields_list_empty_text">Klik tombol + untuk membuat aturan baru untuk mengisi field koleksi.</string>
     <string name="locale_to_fields_var">Teks dari %s</string>
@@ -1345,12 +1346,12 @@ Hapus salinan koleksi lokal, lalu unduh lagi koleksi dari cloud.</string>
     <string name="locale_plugin_edit_mode_create_new_entry">Buat entri baru, jika anda gagal menemukan entri menurut key field</string>
 
     <string name="send_field_title">Kirim nama field</string>
-    <string name="send_field_title_summary">Nama field akan mengikuti nilai field</string>
+    <string name="send_field_title_summary">Nama field akan mendahului nilai field</string>
     <string name="auto_lock_libraries_time_title">Kunci akses ke koleksi</string>
     <string name="auto_lock_libraries_after">Setelah %s</string>
 
-    <string name="empty_triggers_list_text">Koleksi ini tidak memiliki trigger.
-Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event yang berlangsung.</string>
+    <string name="empty_triggers_list_text">Koleksi ini tidak berisi trigger.
+Trigger adalah sebuah script yang menetapkan cara proses entri berdasarkan satu Event yang telah terjadi.</string>
     <string name="triggers">Trigger</string>
     <string name="trigger_name">Nama trigger</string>
     <string name="trigger_moment">Fase</string>
@@ -1384,7 +1385,7 @@ Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event y
     <string name="enable_logging_triggers">Log script</string>
     <string name="script_log">Log Script</string>
 
-    <string name="trigger_permissions">PerIzinan untuk script</string>
+    <string name="trigger_permissions">Perizinan untuk script</string>
     <string name="trigger_permission_read_file">Membaca berkas</string>
     <string name="trigger_permission_read_file_hint">Izinkan script membaca dari tempat penyimpanan eksternal</string>
     <string name="trigger_permission_write_file">Menulis berkas</string>
@@ -1397,7 +1398,7 @@ Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event y
 
     <string name="trigger_permission_libraries_select">Koleksi tersedia</string>
     <string name="trigger_permission_libraries_select_title">Pilih koleksi</string>
-    <string name="need_pro_for_triggers">"Pada versi gratis, satu koleksi hanya bisa berisi satu trigger.  Untuk menghilangkan batasan ini, silakan upgrade ke versi PRO."</string>
+    <string name="need_pro_for_triggers">Pada versi gratis, satu koleksi hanya dapat berisi satu trigger saja. Untuk menghilangkan batasan ini, silakan upgrade ke versi PRO.</string>
     <string name="filters_tab">Tab...</string>
     <string name="filters_tab_dialog_title">Pilih filter untuk tab</string>
     <string name="export_template_include_filters">Sertakan filter</string>
@@ -1459,7 +1460,7 @@ Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event y
     <string name="uom_category_velocity">Kecepatan</string>
     <string name="uom_meters_per_second">Meter per detik</string>
     <string name="uom_miles_per_hour">Mil per jam</string>
-    <string name="uom_kilometers_per_hour">Kilometer per jamr</string>
+    <string name="uom_kilometers_per_hour">Kilometer per jam</string>
     <string name="uom_category_power">Daya</string>
     <string name="uom_horsepower">Daya kuda</string>
 
@@ -1493,9 +1494,9 @@ Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event y
     <string name="field_values_delimiter">Tanda pisah field</string>
     <string name="entries_desc_dialog_title">Deskripsi entri ditentukan oleh nilai dari field yang dipilih</string>
     <string name="image_caption">Keterangan</string>
-    <string name="flex_type_subheader">Subtitel</string>
-    <string name="create_subheader">Buat subtitel</string>
-    <string name="edit_subheader">Sunting subtitel</string>
+    <string name="flex_type_subheader">Subjudul</string>
+    <string name="create_subheader">Buat subjudul</string>
+    <string name="edit_subheader">Sunting subjudul</string>
     <string name="subheader_collapsed_by_default">Jatuhkan secara default</string>
     <string name="aggr_always_show">Selalu tampilkan</string>
     <string name="cant_add_management">Admin punya akses penuh ke koleksi ini</string>
@@ -1512,7 +1513,7 @@ Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event y
     <string name="field_right_need_library_download">Anda harus mengunduh koleksi ke perangkat anda untuk menambah hak akses baru ke field.</string>
     <string name="field_permission_invisible">Tak terlihat</string>
     <string name="field_permission_read_only">Hanya Baca</string>
-    <string name="field_permissions_limit">Hak akses untuk field hanya tersedia pada tarif Tim.</string>
+    <string name="field_permissions_limit">Hak akses untuk field dapat ditetapkan pada tarif Tim saja.</string>
     <string name="user_groups">Grup pengguna</string>
     <string name="add_user_group">Tambah grup pengguna</string>
     <string name="add_user_group_hint">Nama grup</string>
@@ -1563,10 +1564,10 @@ Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event y
     <string name="repository_android_intents_hint">Fungsi untuk berinteraksi dengan aplikasi Android lainnya</string>
     <string name="repository_data_sources_hint">Sumber data untuk autofill</string>
     <string name="warning">Peringatan</string>
-    <string name="add_javascript_library">Tambah pustaka javascript ...</string>
+    <string name="add_javascript_library">Tambah pustaka javascript...</string>
     <string name="add_repository">Tambah repositori</string>
     <string name="repository_location_hint">URL Repositori GitHub</string>
-    <string name="repository_location_error">Tentukan link HTTPS ke repositori GitHub. Contoh: https://github.com/nama-pengguna/nama-repo</string>
+    <string name="repository_location_error">Spesifikan tautan HTTPS ke repositori GitHub. Sebagai contoh: https://github.com/username/repo-name</string>
     <string name="repository_not_found_error">Gagal menemukan repositori: %s</string>
     <string name="repository_delete_message">Apa anda yakin ingin menghapus repositori \"%s\" ?</string>
     <string name="repository_other">Lainnya</string>
@@ -1591,7 +1592,7 @@ Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event y
     <string name="scripts">Script</string>
     <string name="actions">Action</string>
     <string name="empty_script_list_text">Koleksi ini tidak berisi script</string>
-    <string name="empty_script_list_trigger_text">Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event yang berlangsung.</string>
+    <string name="empty_script_list_trigger_text">Trigger adalah sebuah script yang menetapkan cara proses entri berdasarkan satu Event yang telah terjadi.</string>
     <string name="empty_script_list_action_text">Action adalah suatu script yang dimulai secara manual dengan menekan tombol pada koleksi atau kartu entri.</string>
     <string name="autofill_goto_script_title">Penyunting script</string>
     <string name="autofill_goto_script_hint">Sumber data script</string>
@@ -1603,12 +1604,12 @@ Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event y
 %s</string>
     <string name="run">Jalankan</string>
     <string name="run_arguments">Jalankan argumen</string>
-    <string name="script_cant_set_permissions_for_not_saved_library">Anda bisa menetapkan peizinan script setelah menyimpan koleksi.</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">Anda bisa menetapkan perizinan script setelah menyimpan koleksi.</string>
     <string name="script_permissions_required_message">Koleksi berisi script yang memerlukan perizinan berikut:</string>
     <string name="required_access_to_library">akses ke %s</string>
     <string name="action_with_library_context">Action Koleksi</string>
     <string name="action_with_entry_context">Action Entri</string>
-    <string name="library_related_cloud_model_changed_message">Struktur koleksi terkait telah diperbarui di cloud. Pergi ke koleksi terkait untuk pembaruan.</string>
+    <string name="library_related_cloud_model_changed_message">Struktur dari koleksi bersangkutan diperbarui di cloud. Masuk ke koleksi bersangkutan untuk pembaruan.</string>
     
     <string name="monthly_plan">Bulanan</string>
     <string name="yearly_plan">Tahunan</string>
@@ -1622,7 +1623,7 @@ Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event y
     <string name="copy_field">Salin field</string>
     <string name="delete_reminder_dialog_text">Apa anda yakin ingin menghapus pengingat ini?</string>
     <string name="games">Permainan</string>
-    <string name="number_increment_delta_title">Tombol penaikan/pengurangan</string>
+    <string name="number_increment_delta_title">Tombol naik/turun</string>
     <string name="number_increment_delta_value">Ukuran step %s</string>
     <string name="number_increment_visible_option">Tampilkan tombol</string>
     <string name="is_empty">Adalah kosong</string>
@@ -1632,12 +1633,12 @@ Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event y
     <string name="line_interpolate_nulls_titles">Sisipkan nilai kosong</string>
 
 
-    <string name="wizard_library_name_title">Memento menata informasi anda ke dalam koleksi-koleksi. Nama apa yang anda inginkan untuk koleksi anda?</string>
-    <string name="wizard_library_name_hint2">Koleksi-koleksi digunakan untuk menyimpan daftar satu jenis item tertentu.</string>
+    <string name="wizard_library_name_title">Memento mengatur informasi anda ke dalam koleksi-koleksi. Nama apa yang anda inginkan untuk koleksi anda?</string>
+    <string name="wizard_library_name_hint2">Koleksi digunakan untuk menyimpan daftar satu jenis item tertentu.</string>
     <string name="wizard_library_name_hint3">Koleksi setara dengan lembar kerja dalam suatu spreadsheet.</string>
     <string name="wizard_library_icon_title">Pilih ikon untuk koleksi ini</string>
     <string name="wizard_library_structure_title">Ayo buat struktur koleksimu.</string>
-    <string name="wizard_library_structure_hint2">Setiap item yang anda taruh ke dalam koleksi disebut sebuah \'entri\'. Setiap entri akan punya field masing-masing dengan semua informasi yang anda ingin simpan.</string>
+    <string name="wizard_library_structure_hint2">Setiap item yang anda taruh ke dalam koleksi anda disebut \'entri\'. Masing-masing entri akan punya field sendiri beserta semua informasi yang akan disimpan.</string>
     <string name="wizard_library_structure_hint3">Sebuah entri setara dengan sebuah baris dalam suatu spreadsheet.</string>
     <string name="wizard_library_structure_hint4">Sebuah field setara dengan sebuah kolom dalam suatu spreadsheet.</string>
     <string name="wizard_select_field_type_message">Pilih jenis field</string>
@@ -1660,33 +1661,33 @@ Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event y
     <string name="more_info">Butuh bantuan?</string>
     <string name="type_desc_rating">Field Peringkat bisa kosong atau berisi nilai angka dari 1 sampai 5 sebagai bintang.</string>
     <string name="type_desc_location">Field Lokasi bisa berisi suatu lokasi, digambarkan sebagai posisi bujur/lintang dan alamat pos.</string>
-    <string name="type_desc_link_to_entry">Field Tautan ke Entri bisa berisi sebuah tautan ke sebuah entri dalam koleksi lain.</string>
-    <string name="type_desc_contact">Field Kontak bisa berisi sambungan ke satu kontak dalam aplikasi Kontak lokal.</string>
-    <string name="type_desc_images">Field Gambar bisa berisi sambungan ke gambar.</string>
-    <string name="type_desc_signature">Filed Tanda tangan membolehkan anda mengumpulkan tanda tangan elektronik.</string>
-    <string name="type_desc_file">Field Tauran ke Berkas bisa berisi sambungan ke berkas yang disimpan secara eksternal.</string>
-    <string name="type_desc_audio">Field Audio bisa berisi sambungan ke audio yang tersimpan.</string>
+    <string name="type_desc_link_to_entry">Field Tautan ke Entri bisa berisi tautan ke sebuah entri dalam koleksi lain.</string>
+    <string name="type_desc_contact">Field Kontak bisa berisi tautan ke satu kontak dalam aplikasi Kontak lokal.</string>
+    <string name="type_desc_images">Field Gambar bisa berisi tautan ke berkas gambar.</string>
+    <string name="type_desc_signature">Field Tanda tangan membolehkan anda mengumpulkan tanda tangan elektronik.</string>
+    <string name="type_desc_file">Field Tauran ke Berkas bisa berisi tautan ke berkas yang disimpan secara eksternal.</string>
+    <string name="type_desc_audio">Field Audio bisa berisi tautan ke berkas audio yang tersimpan.</string>
     <string name="type_desc_date">Field Tanggal bisa berisi nilai yang digunakan untuk mewakili pertanggalan kalender tertentu.</string>
     <string name="type_desc_datetime">Field TanggalJam bisa berisi nilai yang digunakan untuk mewakili pertanggalan dan perwaktuan kalender tertentu.</string>
     <string name="type_desc_time">Field Jam bisa berisi nilai yang digunakan untuk mewakili jam tertentu.</string>
     <string name="type_desc_boolean">Jenis field Boolean menyajikan sebuah kotak centang tunggal(ya/tidak).</string>
-    <string name="type_desc_money">Field uang berisi satu mata uang dan satu jumlah. Mata uang harus dipilih saat penentuan template.</string>
+    <string name="type_desc_money">Field uang memiliki satuan mata uang dan jumlah. Mata uang harus dipilih saat penetapan templat.</string>
     <string name="type_desc_real">Jenis field Riil menyimpan angka dengan atau tanpa tempat desimal.</string>
-    <string name="type_desc_int">Field Angka menyimpan angka-angka sederhana tanpa suatu desimal.</string>
+    <string name="type_desc_int">Field Angka menyimpan angka sederhana tanpa suatu desimal.</string>
     <string name="type_desc_int_list">Field nilai Integer adalah sebuah set angka yang diurutkan yang satu daripadanya bisa dipilih seorang pengguna.</string>
     <string name="type_desc_text">Field Teks bisa berisi suatu data tekstual.</string>
     <string name="type_desc_phone">Field Nomor Telepon bisa berisi sebuah nomor telepon dalam bentuk tekstual.</string>
     <string name="type_desc_url">Field Pranala bisa berisi sebuah tautan HTML tekstual.</string>
     <string name="type_desc_email">Field Alamat Email bisa berisi sebuah alamat email dalam bentuk tekstual.</string>
     <string name="type_desc_barcode">Field Barcode digunakan untuk memindai barcode atau QR-codes.</string>
-    <string name="type_desc_pass">Field Kata Sandi bisa berisi suatu data tekstual. Pada field kata sandi, karakter-karakternya tersembunyi (diperlihatkan sebagai tanda bintang).</string>
+    <string name="type_desc_pass">Field Kata sandi dapat berisi suatu data tekstual. Karakter-karakter pada field kata kunci akan ditutupi (diperlihatkan sebagai tanda bintang).</string>
     <string name="type_desc_rich">Field Teks Lengkap bisa berisi suatu data tekstual, termasuk informasi penyusunan teks.</string>
-    <string name="type_desc_multiple_choice">Field Daftar Pilihan-ganda adalah sebuah set string teks yang satu atau semua daripadanya bisa dipilih seorang pengguna .</string>
-    <string name="type_desc_checkboxes">Field Kotak Centang membolehkan penyajian satu atau banyak kotak centang yang bebas menentukan beberapa pilihan.</string>
-    <string name="type_desc_single_choice">Field Pilihan-tunggal adalah sebuah set string teks yang satu daripadanya bisa dipilih seorang pengguna .</string>
+    <string name="type_desc_multiple_choice">Field Daftar Pilihan-ganda adalah sebuah set string teks yang satu atau semua daripadanya bisa dipilih seorang pengguna.</string>
+    <string name="type_desc_checkboxes">Field Kotak Centang membolehkan penyajian satu atau banyak kotak centang yang penentuan pilihannya bebas.</string>
+    <string name="type_desc_single_choice">Field Pilihan-tunggal adalah sebuah set string teks yang satu daripadanya bisa dipilih seorang pengguna.</string>
     <string name="type_desc_radiobuttons">Field Tombol Radio digunakan untuk melakukan seleksi dari satu grup pilihan.</string>
     <string name="type_desc_js">Nilai field akan jadi hasil eksekusi script yang ditentukan dalam field dan dieksekusi sesuai konteks entri.</string>
-    <string name="type_desc_calc">Field Kalkulasi digunakan untuk menampilkan nilai read-only berdasarkan perhitungan yang bisa termasuk nilai, dari field lain pada suatu entri.</string>
+    <string name="type_desc_calc">Field Kalkulasi digunakan untuk menampilkan nilai read-only berdasarkan perhitungan yang bisa termasuk nilai dari field lain pada suatu entri.</string>
 
     <string name="wizard_complete_text1">Selamat!</string>
     <string name="wizard_complete_text2">Anda telah berhasil membuat Koleksi anda.</string>
@@ -1701,10 +1702,10 @@ Trigger adalah suatu script yang menentukan pemrosesan entri berdasarkan Event y
     <string name="backup_preference">Backup</string>
     <string name="flex_type_audio">Audio</string>
     <string name="copyright">Copyright © 2017 LuckyDroid
-All rights reserved</string>
+Hak cipta dilindungi</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="flex_type_barcode">Barcode</string>
-    <string name="barcode_auto_fill_checkbox">Field autocompletion</string>
+    <string name="barcode_auto_fill_checkbox">Autocompletion field</string>
     <string name="option_autofill_title">Autocomplete</string>
     <string name="memento_email_hint">Email</string>
     <string name="preference_category_google_docs">Google Sheets</string>
@@ -1717,7 +1718,7 @@ All rights reserved</string>
     <string name="forum">Forum</string>
     <string name="autoincrement">Autoincrement</string>
     <string name="amazon_source_option_title">Amazon</string>
-    <string formatted="false" name="stats_title_in_list">%s by %s</string>
+    <string formatted="false" name="stats_title_in_list">%s per %s</string>
     <string name="sum_function_title">Sum</string>
     <string name="max_function_title">Max</string>
     <string name="min_function_title">Min</string>
@@ -1752,7 +1753,7 @@ All rights reserved</string>
     <plurals name="string_list_import_snackbar_ok">
 	<item quantity="other">Diimpor %d item</item>
 </plurals>
-    <string name="undo_button">Undo</string>
+    <string name="undo_button">Kembali</string>
     <plurals name="rating_stars_count">
 	<item quantity="other">%d bintang</item>
 </plurals>
@@ -1872,4 +1873,36 @@ All rights reserved</string>
     <string name="cloud_plan_plan10_annual">Pro Plus</string>
     <string name="igdb_source">igdb.com</string>
     <string name="wizard">Wizard</string>
-    </resources>
+    <string name="attributes">Atribut</string>
+    <string name="select_attribute_type">Tipe Atribut</string>
+    <string name="create_attribute">Buat atribut</string>
+    <string name="edit_attribute">Sunting atribut</string>
+    <string name="attribute_name">Nama atribut</string>
+    <string name="required_attribute_text">Atribut harus diisi</string>
+
+    <string name="attribute_display_title_in_card">Nama atribut</string>
+    <string name="attribute_display_title_in_card_hint">Tampilkan nama atribut pada entri kartu</string>
+    <string name="attribute_delete_message_text">Apa anda yakin ingin menghapus atribut \"%s\" ?</string>
+    <string name="free_version_attributes_limit">Pada versi gratis anda hanya dapat menambah satu atribut. Upgrade ke versi PRO untuk menghilangkan batasan ini.</string>
+    <string name="trigger_event_link_entry">Menautkan entri</string>
+    <string name="trigger_event_unlink_entry">Melepaskan tautan entri</string>
+    <string name="script_cant_run_links_not_exists">Script tidak bisa dijalankan, tidak ada tautan apapun pada koleksi ini.</string>
+    <string name="entry_name_and_description">Nama entri dan deskripsi</string>
+    <string name="all_searchable_fields">Semua field yang dapat dicari</string>
+    <string name="search_settings_quick">Pencarian cepat</string>
+    <string name="search_by_specified_fields">Field spesifik</string>
+    <string name="index_not_found_message">Pencarian tidak memungkinkan, entri tidak terindeks</string>
+    <string name="advanced_search">Pencarian lanjutan</string>
+    <string name="quick_filter_for_numbers">Untuk angka</string>
+    <string name="quick_filter_for_text">Untuk teks</string>
+    <string name="save_as_filter">Simpan sebagai filter</string>
+    <string name="save_as_filter_success">Anda telah berhasil membuat filter baru</string>
+    <string name="shortcut_not_supported">Sayangnya launcher anda tidak mendukung pintasan app.</string>
+    <string name="notification_channel_reminders">Pengingat</string>
+    <string name="notification_channel_entries">Perubahan dalam koleksi</string>
+    <string name="notification_channel_files">Berkas</string>
+    <string name="quick_filter_limit_message">Versi gratis hanya dapat mencari berdasarkan lima field saja.
+Upgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
+    <string name="autofilll_source_not_supported">Maaf, tapi %s tidak lagi didukung.</string>
+
+</resources>
