@@ -1905,4 +1905,6 @@ Hak cipta dilindungi</string>
 Upgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
     <string name="autofilll_source_not_supported">Maaf, tapi %s tidak lagi didukung.</string>
 
-</resources>
+<string name="script_error_message">Galat Script: %s</string>
+    <string name="button_upgrade">Upgrade</string>
+    </resources>
