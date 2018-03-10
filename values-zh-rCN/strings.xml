@@ -1080,7 +1080,7 @@
 	<string name="show_deleted_entries_menu_item">显示已删除的项</string>
 	<string name="upload_to_cloud_menu_item">在线云</string>
 	<string name="welcome_text_title">欢迎使用memento database</string>
-	<string name="welcome_text_description">库是存储您数据的地方。\n你可以通过右上角的米按钮添加库，从提供的模板来创建库，从而熟知软件的使用。</string>
+	<string name="welcome_text_description">库是存储您信息的地方。你可以通过右上角的三点按钮添加库，通过提供的模板来创建库，从而熟知软件的使用。</string>
 	
 	<string name="memento_cloud">云同步</string>
 	<string name="start_remove_librarary_from_cloud">删除库...</string>
@@ -1446,7 +1446,7 @@
     <string name="locale_plugin_edit_mode_create_new_entry">如果未能通过字段找到条目，请创建新条目</string>
 
     <string name="send_field_title">发送字段名称</string>
-    <string name="send_field_title_summary">字段名称将在字段值后面</string>
+    <string name="send_field_title_summary">字段名称将在字段值之前</string>
     <string name="auto_lock_libraries_time_title">关闭对库的访问</string>
     <string name="auto_lock_libraries_after">%s 之后</string>
 
@@ -1741,4 +1741,12 @@
     <string name="edit_argument">编辑参数</string>
     <string name="argument_name">参数名称</string>
     <string name="argument_hint">参数提示</string>
+    <string name="entries_view_type_cards">卡片</string>
+    <plurals name="columns_count">
+	<item quantity="one">%d 列</item>
+	<item quantity="other"/>
+</plurals>
+
+    <string name="embedded_js_libraries">内置</string>
+    <string name="trigger_event_action">动作</string>
     </resources>
