@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="call">Panggilan</string>
+<resources><string name="call">Panggil</string>
     <string name="send_sms">Kirim pesan SMS</string>
     <string name="light_theme">Tema Terang</string>
     <string name="dark_theme">Tema Gelap</string>
@@ -33,7 +33,7 @@
     <string name="flex_edit_option_values_list">Entri daftar</string>
     <string name="flex_edit_option_values_card">Entri kartu</string>
     <string name="flex_edit_option_values_table">Entri tabel</string>
-    <string name="date_format_list_current_locale">Bentuk setempat sekarang</string>
+    <string name="date_format_list_current_locale">Bentuk setempat saat ini</string>
     <string name="date_format_list_date_pref">Preferensi tanggal pengguna</string>
     <string name="db_location_pref_internal">Tempat penyimpanan perangkat internal</string>
     <string name="db_location_pref_sd">Kartu SD</string>
@@ -44,7 +44,7 @@
     <string name="number_filter_types_notequal">Tidak sama dengan</string>
     <string name="string_filter_types_contains">Berisi</string>
     <string name="string_filter_types_notcontains">Tidak berisi</string>
-    <string name="time_field_group_entries_no">Tidak ada grup</string>
+    <string name="time_field_group_entries_no">Tidak digrupkan</string>
     <string name="time_field_group_entries_hour">Grup per jam</string>
     <string name="time_field_group_entries_day">Grup per hari</string>
     <string name="time_field_group_entries_month">Grup per bulan</string>
@@ -57,7 +57,7 @@
     <string name="edit_library_tabs_fields">FIELD</string>
     <string name="edit_library_tabs_aggr">AGREGASI</string>
     <string name="show_soft_keyboard_no">Jangan tampilkan</string>
-    <string name="show_soft_keyboard_create">Ketika menambahkan entri</string>
+    <string name="show_soft_keyboard_create">Ketika membuat entri</string>
     <string name="show_soft_keyboard_always">Selalu</string>
     <string name="auto_backup_time_never">Tidak pernah</string>
     <string name="auto_backup_time_always">Setiap kali</string>
