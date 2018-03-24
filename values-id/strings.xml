@@ -71,7 +71,7 @@
     <string name="search_hint">Pencarian entri</string>
     <string name="search_parse_exception_messagee">String pencarian tidak sah</string>
     <plurals name="NItemsFind">
-	<item quantity="other">1 entri ditemukan</item>
+	<item quantity="other">%d entri ditemukan</item>
 </plurals>
     <string name="memento_search">Pencarian Memento</string>
     <string name="memento_search_in_lib">Pencarian Memento pada %s</string>
@@ -114,8 +114,8 @@
     <string name="restore_summary_preference">Memulihkan koleksi dari salinan backup</string>
     <string name="backup_file_not_found">Tidak ditemukan berkas backup.</string>
     <string name="restore_dialog_message">Koleksi yang ada akan digantikan dengan koleksi dari bakcup pada waktu pemulihan .
-Semua perubahan pada koleksi ini sesudah pembuatan salinan backup akan hilang.
-Mulai memulihkan ?</string>
+\nSemua perubahan pada koleksi ini sesudah pembuatan salinan backup akan hilang.
+\nMulai memulihkan ?</string>
     <string name="backup_dialog_message">Ganti salinan backup dengan yang baru ?</string>
     <string name="restore_success">Koleksi berhasil dipulihkan dari salinan backup</string>
     <string name="restore_step1">Memulihkan</string>
@@ -158,20 +158,20 @@ Mulai memulihkan ?</string>
     <string name="csv_result_import_text">Entri telah diimpor</string>
     <string name="csv_result_import_succes_items">Entri yang ditambah:</string>
     <string formatted="false" name="csv_result_import_fail_items">Jumlah baris dengan galat: %s 
-Rows: %s</string>
+\nRows: %s</string>
     <string name="enter_csv_name_dialog_title">Ekspor ke CSV</string>
     <string name="enter_csv_name_dialog_value_title">Masukkan nama berkas CSV</string>
     <string name="enter_csv_name_dialog_value_hint">Nama berkas</string>
     <string name="export_success">Entri telah diekspor ke /sdcard/memento/%s</string>
     <string name="export_error">Gagal mengekspor entri:
-%s</string>
+\n%s</string>
     <string name="library_saved">Koleksi disimpan</string>
     <string name="library_created">Koleksi berhasil dibuat</string>
     <string name="msg_default_status">Letakkan barcode di dalam kotak viewfinder untuk memindai.</string>
     <string name="scan_library_item">Pindai barcode</string>
     <string name="search_product_title">Telusuri produk menurut barcode ...</string>
     <string name="empty_result_text">Maaf,
-tidak ditemukan produk</string>
+\ntidak ditemukan produk</string>
     <string name="add_entry_manual">Tambah secara manual...</string>
     <string name="fill_entry_manual">Isi secara manual ...</string>
     <string name="flex_type_barcode_option">Mengatur field autocompletion</string>
@@ -229,7 +229,7 @@ tidak ditemukan produk</string>
     <string name="copy_gdocs_to_memento">Entri dari Google Sheets</string>
     <string name="edit_flex_title_disabled">Nama field tidak dapat diganti karena koleksi ini terhubung ke Google Sheets</string>
     <string name="cant_bind">Versi gratis hanya dapat menautkan dua koleksi saja ke Google Sheets.
-Upgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
+\nUpgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
     <string name="button_pro_version">Versi PRO</string>
     <string name="option_autofill_hint">Daftar drop down nilai yang memungkinkan dari entri lainnya</string>
     <string name="capture_picture">Ambil Gambar</string>
@@ -243,7 +243,7 @@ Upgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
     <string name="public_library">Terbitkan koleksi</string>
     <string name="update_public_library">Perbarui terbitan</string>
     <string name="memento_register_account_title">Membuat akun
-di server Memento</string>
+\ndi server Memento</string>
     <string name="memento_register_account_text">Untuk dapat menerbitkan dan berlangganan koleksi, diperlukan akun server Memento</string>
     <string name="memento_login_hint">Nama pengguna</string>
     <string name="memento_pass_hint">Kata sandi</string>
@@ -268,7 +268,7 @@ di server Memento</string>
     <string name="public_library_task_auth">Mengautentikasi ke layanan Memento</string>
     <string name="public_library_task_send_template">Mengirim templat koleksi</string>
     <string formatted="false" name="public_library_task_send_items">Mentransfer entri koleksi.
-%s dari %s</string>
+\n%s dari %s</string>
     <string name="memento_not_support_template">Anda menggunakan versi lama Memento, perbarui</string>
     <string name="memento_not_found">Tidak ditemukan resource</string>
     <string name="alias_hint">Masukkan alias koleksi</string>
@@ -288,9 +288,9 @@ di server Memento</string>
     <string name="library_uri_hint">Alamat koleksi / nama pengguna</string>
     <string name="find_libraries_task_title">Pencarian koleksi</string>
     <string name="find_libraries_task_by_uri">Mencari koleksi
-menurut alamatnya</string>
+\nmenurut alamatnya</string>
     <string name="find_libraries_task_by_user">Mengambil daftar
-koleksi pengguna</string>
+\nkoleksi pengguna</string>
     <string name="libraries_list_result_header">Koleksi yang ditemukan</string>
     <string name="libraries_by_user_not_found">Pengguna tidak ditemukan atau tidak ditemukan koleksi yang diterbitkan pengguna</string>
     <string name="library_not_found">Koleksi tidak ditemukan berdasarkan alamat ini</string>
@@ -300,7 +300,7 @@ koleksi pengguna</string>
     <string name="subscribe_task_get_library">Mengambil entri koleksi</string>
     <string name="subscribe_task_create_library">Membuat koleksi</string>
     <string formatted="false" name="subscribe_task_save_library_task">Menyimpan entri.
-%s dari %s</string>
+\n%s dari %s</string>
     <string name="subscribe_task_create_index">Membuat indeks</string>
     <string name="subscribes_group_title">Langganan</string>
     <string name="library_settings">Setelan</string>
@@ -330,7 +330,7 @@ koleksi pengguna</string>
     <string name="subscribed">Berlangganan</string>
     <string name="info_public_library">Alamat koleksi</string>
     <string name="cant_public">Versi gratis hanya dapat menerbitkan dua koleksi saja.
-Upgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
+\nUpgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
     <string name="add_permission_user_hint">Masukkan nama pengguna atau email</string>
     <string name="edit_pub_permissions">Hak akses koleksi</string>
     <string name="edit_pub_permissions_hint">Menyunting daftar pengguna yang punya akses ke koleksi</string>
@@ -376,7 +376,7 @@ Upgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
     <string name="lib_protection">Proteksi koleksi</string>
     <string name="set_library_protection">Proteksi</string>
     <string name="set_master_pass_text">Tetapkan kata sandi utama untuk mengakses koleksi.
-Anda harus memasukkan kata sandi untuk mengakses koleksi terenkripsi.</string>
+\nAnda harus memasukkan kata sandi untuk mengakses koleksi terenkripsi.</string>
     <string name="master_pass_hint">Kata sandi</string>
     <string name="master_pass_hint2">Ulangi kata sandi</string>
     <string name="set_master_pass_dialog">Menetapkan kata sandi utama</string>
@@ -389,7 +389,7 @@ Anda harus memasukkan kata sandi untuk mengakses koleksi terenkripsi.</string>
     <string name="library_pass_access_description">Anda harus memasukkan kata sandi utama untuk mengakses koleksi ini</string>
     <string name="library_encription_checkbox">Enkripsi konten</string>
     <string name="library_encription_description">Field String dari entri akan dienkripsi menggunakan AES.
-Pencarian pada entri yang terenkripsi tidak didukung.</string>
+\nPencarian pada entri yang terenkripsi tidak didukung.</string>
     <string name="set_library_protection_title">Mengenkripsi entri</string>
     <string name="set_library_protection_message">Mengenkripsi entri koleksi ...</string>
     <string name="remove_library_protection">Hapus proteksi</string>
@@ -484,7 +484,7 @@ Pencarian pada entri yang terenkripsi tidak didukung.</string>
     <string name="reset_master_password">Reset kata sandi utama</string>
     <string name="reset_master_password_hint">Semua koleksi yang dienkripsi akan dihapus</string>
     <string name="reset_master_quest">Anda ingin reset kata kunci utama?
-Perhatian! Semua koleksi terenkripsi akan dihapus!</string>
+\nPerhatian! Semua koleksi terenkripsi akan dihapus!</string>
     <string name="remove_encript_lib_dlg_msg">Hapus koleksi yang dienkripsi</string>
     <string name="master_password_reset">Kata kunci utama direset</string>
     <string name="edit_entry_screen_preference">Menyunting entri</string>
@@ -496,7 +496,7 @@ Perhatian! Semua koleksi terenkripsi akan dihapus!</string>
     <string name="file_not_found">Berkas tidak ditemukan</string>
     <string name="select_app">Pilih aplikasi</string>
     <string name="cant_protect">Versi gratis hanya dapat mengunci dua koleksi saja.
-Upgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
+\nUpgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
     <string name="flex_edit_option_title">Bisa disunting di mana</string>
     <string name="flex_edit_option_default">Formulir penyuntingan entri</string>
     <string name="flex_edit_option_in_list">entri daftar</string>
@@ -591,10 +591,10 @@ Upgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
     <string name="request_pass_dialog_text">Masukkan alamat email untuk membantu kami menemukan akun Memento anda</string>
     <string name="request_pass_dialog_hint">Alamat email</string>
     <string name="change_password_success">Silakan periksa email anda
-Kami mengirim email untuk reset kata sandi secara cepat dan mudah.</string>
+\nKami mengirim email untuk reset kata sandi secara cepat dan mudah.</string>
     <string name="tile_options_text">judul</string>
     <string name="search_in_protected_libraries">Cari di koleksi yang diproteksi kata sandi
-(kecuali yang dienkripsi)</string>
+\n(kecuali yang dienkripsi)</string>
     <string name="stat_result_type">Format hasil</string>
     <string name="backup_file_name_title">Nama berkas backup</string>
     <string name="backup_file_path_title">Folder backup</string>
@@ -681,7 +681,7 @@ Kami mengirim email untuk reset kata sandi secara cepat dan mudah.</string>
     <string name="delete_template_from_google_drive_question">Apa anda yakin ingin menghapus koleksi terpilih dari Google Drive?</string>
     <string name="delete_data_table_from_google_drive">Hapus spreadsheet data yang berkaitan dengan templat</string>
     <string name="lock_library_edit_message">Perubahan struktur koleksi dikunci.
-Anda dapat menghidupkan penyuntingan untuk koleksi ini pada setelan.</string>
+\nAnda dapat menghidupkan penyuntingan untuk koleksi ini pada setelan.</string>
     <string name="lock_edit_library_pref_title">Kunci struktur</string>
     <string name="lock_edit_library_pref_summary_on">Mengganti struktur koleksi tidak diizinkan</string>
     <string name="lock_edit_library_pref_summary_off">Mengganti struktur koleksi diizinkan</string>
@@ -705,8 +705,8 @@ Anda dapat menghidupkan penyuntingan untuk koleksi ini pada setelan.</string>
     <string name="entry_page_delete_message_text">Apa ada yakin ingin menghapus halaman \"%s\" ?</string>
     <string name="accept_button">Saya Setuju</string>
     <string name="sliding_hint_text">Geser dari kanan ke kiri
-untuk membuka menu lanjutan -
-sortir, grup, filter, grafik dan banyak lagi ...</string>
+\nuntuk membuka menu lanjutan -
+\nsortir, grup, filter, grafik dan banyak lagi ...</string>
     <string name="multy_sorting">Sortir menurut beberapa field</string>
     <string name="new_button">baru</string>
     <string name="free_version_entry_page_limit">Pada versi gratis anda hanya dapat membuat dua halaman. Upgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
@@ -821,16 +821,16 @@ sortir, grup, filter, grafik dan banyak lagi ...</string>
     <string name="show_update_time_on_tile">Waktu penyuntingan</string>
     <string name="only_title_on_tile">Hanya nama koleksi</string>
     <plurals name="fields_count">
-	<item quantity="other">Satu fields</item>
+	<item quantity="other">%d Satu fields</item>
 </plurals>
     <plurals name="libraries_count">
-	<item quantity="other">Satu koleksi</item>
+	<item quantity="other">%d Satu koleksi</item>
 </plurals>
     <string name="empty">Kosong</string>
     <string name="add_page">Tambah Halaman</string>
     <string name="move_to_page">Pindahkan ke halaman</string>
     <string name="empty_entry_page_text">Halaman ini kosong.
-Anda dapat menambah field atau daftar record di sini.</string>
+\nAnda dapat menambah field atau daftar record di sini.</string>
     <string name="empty_fields_list_text">Tidak ada field di koleksi ini.</string>
     <string name="empty_aggregation_list_text">Koleksi ini tidak memiliki fungsi agregasi.</string>
     <string name="empty_chart_list_text">Koleksi ini tidak memiliki grafik.</string>
@@ -843,7 +843,7 @@ Anda dapat menambah field atau daftar record di sini.</string>
     <string name="string_edit_cap_options_wolds">Pada awal tiap kata</string>
     <string name="string_edit_cap_options_all">Semua huruf</string>
     <string name="single_line_options_title">Field teks
-baris tunggal</string>
+\nbaris tunggal</string>
     <string name="main_field_options_tab_title">Utama</string>
     <string name="string_list_items_tab_title">Item</string>
     <string name="string_list_edit_item_title_hint">Judul item</string>
@@ -885,8 +885,8 @@ baris tunggal</string>
     <string name="csv_import_errors_count">Galat:</string>
     <string formatted="false" name="csv_import_error_item">Baris %d - %s</string>
     <string name="google_sync_without_memento_id_text">Koleksi ini disinkronkan memakai metode lama, yang memiliki galat.
-Lakukan proses rebinding koleksi ke tabel baru untuk pemakaian metode terkini.
-Jalankan proses rebinding sekarang?</string>
+\nLakukan proses rebinding koleksi ke tabel baru untuk pemakaian metode terkini.
+\nJalankan proses rebinding sekarang?</string>
     <string name="rating_field_max_value">Peringkat maksimum</string>
     <plurals name="delete_entries_snackbar_text">
 	<item quantity="other">%d entri telah dipindahkan ke keranjang sampah</item>
@@ -951,16 +951,16 @@ Jalankan proses rebinding sekarang?</string>
     <string name="free_version_multi_field_limit">Pada versi gratis anda hanya dapat menambah dua elemen. Upgrade ke versi PRO untuk menghilangkan batasan ini.</string>
     <string name="scale">Skala %d</string>
     <plurals name="duration_seconds">
-	<item quantity="other">1 detik</item>
+	<item quantity="other">%d detik</item>
 </plurals>
     <plurals name="duration_minutes">
-	<item quantity="other">1 menit</item>
+	<item quantity="other">%d menit</item>
 </plurals>
     <plurals name="duration_hours">
-	<item quantity="other">1 jam</item>
+	<item quantity="other">%d jam</item>
 </plurals>
     <plurals name="duration_days">
-	<item quantity="other">1 hari</item>
+	<item quantity="other">%d hari</item>
 </plurals>
     <string name="all">Semua</string>
     <string name="page">Halaman</string>
@@ -1010,9 +1010,9 @@ Jalankan proses rebinding sekarang?</string>
 	<string name="library_have_duplicates2">Ubah atau hapus duplikasi untuk berjalan baik.</string>
 	<string name="dont_show_anymore">Jangan tampilkan lagi</string>
 	<string name="need_make_slave_library_unique">Untuk mensinkronkan field \"Tautan ke Entri\", anda harus menghidupkan kontrol nama entri unik pada koleksi yang bersangkutan.
-Lakukan hal ini sekarang?</string>
+\nLakukan hal ini sekarang?</string>
 	<string name="need_make_slave_library_unique_import">Untuk mengimpor field \"Tautan ke Entri\", anda harus menghidupkan kontrol nama entri unik pada koleksi yang bersangkutan.
-Lakukan hal ini sekarang?</string>
+\nLakukan hal ini sekarang?</string>
 	<string name="run_sync_slave_libraries_pref">Koleksi terkait</string>
 	<string name="run_sync_slave_libraries_summary">Koleksi terkait sinkronisasi pertama</string>
 	<string name="choice_type_add_button_in_edit_title">Pembuatan elemen saat menyuting entri</string>
@@ -1027,10 +1027,10 @@ Lakukan hal ini sekarang?</string>
 	<string name="success_remove_librarary_from_cloud">Koleksi berhasil dihapus dari cloud</string>
 	<string name="start_upload_library_to_cloud">Mengunggah koleksi...</string>	
 	<string name="success_upload_library_to_cloud">Koleksi berhasil diunggah.
-Koleksi akan otomatis disinkronkan.</string>
+\nKoleksi akan otomatis disinkronkan.</string>
 	<string name="success_upload_library_to_cloud2">Anda bisa mengizinkan pengguna Memento lain mengakses koleksi anda pada setelan akses.</string>	
 	<string name="push_entries_to_cloud_message" formatted="false">Mengunggah entri
-%s dari %s entri diproses</string>
+\n%s dari %s entri diproses</string>
 	<string name="permissions">Perizinan</string>
 	<string name="button_hide">sembunyikan</string>	
 	<string name="empty_cloud_libraries_list_text">Anda tidak punya koleksi yang diunggah</string>
@@ -1043,7 +1043,7 @@ Koleksi akan otomatis disinkronkan.</string>
 	<string name="pull_entries_from_cloud_message">Mengunduh entri...</string>
 	<string name="pull_entries_from_cloud_message2" formatted="false">%s dari %s entri diproses</string>
 	<string name="success_pull_library_from_cloud">Entri berhasil diunduh.
-Koleksi akan otomatis disinkronkan.</string>
+\nKoleksi akan otomatis disinkronkan.</string>
 	<string name="cloud_conflict_fields_title">Konflik</string>
 	<string name="cloud_conflict_fix_button_title">Perbaiki</string>
     <string name="button_select">Pilih</string>
@@ -1068,7 +1068,7 @@ Koleksi akan otomatis disinkronkan.</string>
     <string name="upload_files_to_cloud">Mengunggah berkas</string>
     <string name="cloud_upload_error_title">Kami tak bisa mensinkronkan koleksi ini</string>
     <string name="upload_big_file_error" formatted="false">Entri %s berisi berkas yang besar %s (%s).
-Ukuran maksimum berkas adalah %s.</string>
+\nUkuran maksimum berkas adalah %s.</string>
     <string name="prepare_library_for_cloud">Koleksi sedang diproses...</string>
     <string name="download_files_from_cloud">Mengunduh berkas dari cloud...</string>
     <string name="cant_download_item_files_for_copy">Pengunduhan berkas untuk membuat salinan gagal.</string> 
@@ -1086,8 +1086,8 @@ Ukuran maksimum berkas adalah %s.</string>
 	<string name="user_not_found">Pengguna tidak ditemukan</string>
 	<string name="edit_permission">Setelan berbagi pengguna</string>	
 	<string name="push_entry_error_text" formatted="false">Entri tidak disimpan di cloud.
-Nama: %s
-Galat: %s</string>
+\nNama: %s
+\nGalat: %s</string>
 	<string name="push_error_forbidden">Akses ditolak</string>
 	<string name="button_ignore">Abaikan</string>
 	<string name="button_try_again">Coba lagi</string>	
@@ -1099,10 +1099,10 @@ Galat: %s</string>
 	<string name="start_download_slave_library_model">Mengunggah koleksi turunan %s</string>
 	<string name="open_access_for_slave_libraries">Sediakan akses baca ke koleksi turunan</string>
 	<string name="cloud_storage_full_text">Tidak cukup ruang pada tempat penyimpanan cloud
-Anda dapat upgrade ke paket tariff yang menyediakan lebih banyak ruang tempat penyimpanan.</string>
+\nAnda dapat upgrade ke paket tariff yang menyediakan lebih banyak ruang tempat penyimpanan.</string>
 	<string name="cloud_storage_full_text2" formatted="false">Tidak cukup ruang pada tempat penyimpanan cloud
-%s dibutuhkaan, %s tersedia.
-Anda dapat upgrade ke paket tariff yang menyediakan lebih banyak ruang tempat penyimpanan.</string>
+\n%s dibutuhkaan, %s tersedia.
+\nAnda dapat upgrade ke paket tariff yang menyediakan lebih banyak ruang tempat penyimpanan.</string>
 	<string name="alien_cloud_storage_full_text">Pemilik koleksi tidak memiliki cukup ruang tempat penyimpanan.</string>	
 	<string name="button_tarifs">Tarif</string>
 	<string name="cloud_storage_plans">Paket langganan</string>
@@ -1122,7 +1122,7 @@ Anda dapat upgrade ke paket tariff yang menyediakan lebih banyak ruang tempat pe
 	<string name="upload_ecrypted_libraries_dont_supported">Penggunggahan koleksi terenkripsi ke cloud sementara tidak tersedia.</string>
 	<string name="button_signin">Masuk</string>
 	<string name="cloud_library_not_found">Koleksi tidak ditemukan di cloud. Barangkali telah dihapus.
-Konvert koleksi ke lokal setempat?</string>
+\nKonvert koleksi ke lokal setempat?</string>
 	<string name="cloud_library_already_uploaded">Koleksi ini sudah pernah diunggah ke cloud.</string>
 	<string name="library_public_access">Akses publik</string>
 	<string name="library_public_access_disabled">Dinonaktifkan</string>
@@ -1133,8 +1133,8 @@ Konvert koleksi ke lokal setempat?</string>
 	<string name="library_not_found_by_uri">Koleksi tidak ditemukan</string>
 	<string name="upload_to_cloud_offer_title">{siap untuk cloud...}</string>
 	<string name="upload_to_cloud_offer_text">• Kolaborasi tim
-• Sinkronisasi antar perangkat
-• Backup selalu tersedia di cloud</string>
+\n• Sinkronisasi antar perangkat
+\n• Backup selalu tersedia di cloud</string>
 	<string name="button_no_thanks">Tidak, terima kasih</string>
 	<string name="button_upload">Unggah</string>
 	
@@ -1186,9 +1186,9 @@ Konvert koleksi ke lokal setempat?</string>
     <string name="encryption_for_cloud_uploaded_library">Enkripsi koleksi hanya bisa diaktifkan sebelum diunggah ke cloud.</string>
     <string name="decryption_for_cloud_uploaded_library">Penonaktifan enkripsi untuk pengunggahan ke cloud koleksi tidak didukung. Pertama-tama hapus koleksi dari cloud.</string>
     <string name="need_reload_library_from_cloud_encrypted">Salinan koleksi di cloud terenkripsi.
-Hapus salinan lokal koleksi, dan lalu unduh lagi koleksi dari cloud.</string>
+\nHapus salinan lokal koleksi, dan lalu unduh lagi koleksi dari cloud.</string>
     <string name="need_reload_library_from_cloud_decrypted">Salinan koleksi di cloud dilepas enkripsinya.
-Hapus salinan lokal koleksi, dan lalu unduh lagi koleksi dari cloud.</string>
+\nHapus salinan lokal koleksi, dan lalu unduh lagi koleksi dari cloud.</string>
 
     <string name="render_pdf_menu_item">Simpan sebagai PDF</string>
     <string name="entry_saved_as_pdf_success">PDF berhasil dibuat</string>
@@ -1351,7 +1351,7 @@ Hapus salinan lokal koleksi, dan lalu unduh lagi koleksi dari cloud.</string>
     <string name="auto_lock_libraries_after">Setelah %s</string>
 
     <string name="empty_triggers_list_text">Koleksi ini tidak berisi trigger.
-Trigger adalah sebuah script yang menetapkan cara proses entri berdasarkan satu Event yang telah terjadi.</string>
+\nTrigger adalah sebuah script yang menetapkan cara proses entri berdasarkan satu Event yang telah terjadi.</string>
     <string name="triggers">Trigger</string>
     <string name="trigger_name">Nama trigger</string>
     <string name="trigger_moment">Fase</string>
@@ -1601,7 +1601,7 @@ Trigger adalah sebuah script yang menetapkan cara proses entri berdasarkan satu 
     <string name="autofill_script_source_key_title">Tunjukkan properti objek yang dikembalikan oleh script</string>
     <string name="test_js_data_source_query_hint">String kueri</string>
     <string name="test_js_data_source_query_result">Hasil kueri:
-%s</string>
+\n%s</string>
     <string name="run">Jalankan</string>
     <string name="run_arguments">Jalankan argumen</string>
     <string name="script_cant_set_permissions_for_not_saved_library">Anda bisa menetapkan perizinan script setelah menyimpan koleksi.</string>
@@ -1701,8 +1701,8 @@ Trigger adalah sebuah script yang menetapkan cara proses entri berdasarkan satu 
     <string name="preference_category_backup">Backup</string>
     <string name="backup_preference">Backup</string>
     <string name="flex_type_audio">Audio</string>
-    <string name="copyright">Copyright © 2017 LuckyDroid
-Hak cipta dilindungi</string>
+    <string name="copyright">Copyright © 2018 LuckyDroid
+\nHak cipta dilindungi</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="flex_type_barcode">Barcode</string>
     <string name="barcode_auto_fill_checkbox">Autocompletion field</string>
@@ -1902,7 +1902,7 @@ Hak cipta dilindungi</string>
     <string name="notification_channel_entries">Perubahan dalam koleksi</string>
     <string name="notification_channel_files">Berkas</string>
     <string name="quick_filter_limit_message">Versi gratis hanya dapat mencari berdasarkan lima field saja.
-Upgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
+\nUpgrade ke versi PRO untuk mengnonaktifkan batasan ini.</string>
     <string name="autofilll_source_not_supported">Maaf, tapi %s tidak lagi didukung.</string>
 
 <string name="script_error_message">Galat Script: %s</string>

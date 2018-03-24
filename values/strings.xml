@@ -142,7 +142,7 @@
     <string name="activation_ok">Thank you for activation Memento</string>
     <string name="activation_error">Activation code is invalid. Please, try again.</string>
     <string name="about">About</string>
-    <string name="copyright">Copyright © 2017 LuckyDroid\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2018 LuckyDroid\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">View software version</string>
     <string name="about_license_type">License:</string>

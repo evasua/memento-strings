@@ -142,7 +142,7 @@
     <string name="activation_ok">Grazie per aver acquistato la versione PRO di Memento</string>
     <string name="activation_error">La chiave di attivazione non è valida. Riprova.</string>
     <string name="about">Informazioni</string>
-    <string name="copyright">Copyright © 2016 LuckyDroid\nTutti i diritti riservati</string>
+    <string name="copyright">Copyright © 2018 LuckyDroid\nTutti i diritti riservati</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Mostra la versione dell\'applicazione</string>
     <string name="about_license_type">Licenza:</string>
@@ -1761,7 +1761,6 @@
     <string name="script_cant_set_permissions_for_not_saved_library">Puoi impostare i permessi dello script solo dopo aver salvato la libreria.</string>
     <string name="script_permissions_required_message">La libreria ha degli scripts che richiedono i seguenti permessi:</string>
     <string name="required_access_to_library">accesso a %s</string>
-    <string name="action_with_library_context"/>
     <string name="uom_ounce_liquid_us">Onda fluida americana</string>
     <string name="uom_ounce_liquid_uk">Oncia fluida imperiale</string>
 

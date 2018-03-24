@@ -155,7 +155,7 @@
     <string name="load_templates_message">Παρακαλώ περιμένετε ενώ τα πρότυπα βιβλιοθηκών φορτώνονται για πρώτη φορά.</string>
     <string name="activation_error">Μη έγκυρος κωδικός ενεργοποίησης. Παρακαλώ προσπαθήστε ξανά.</string>
     <string name="about">Πληροφορίες</string>
-    <string name="copyright">Copyright © 2016 LuckyDroid\nΌλα τα δικαιώματα διατηρούνται</string>
+    <string name="copyright">Copyright © 2018 LuckyDroid\nΌλα τα δικαιώματα διατηρούνται</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Δείτε την έκδοση λογισμικού</string>
     <string name="preference_category_csv_import">Λειτουργίες δεδομένων</string>

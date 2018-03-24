@@ -143,7 +143,7 @@
     <string name="activation_ok">Спасибо за активацию Memento</string>
     <string name="activation_error">Код активации неверен. Пожалуйста, попробуйте снова.</string>
     <string name="about">О программе</string>
-    <string name="copyright">Copyright © 2017 LuckyDroid
+    <string name="copyright">Copyright © 2018 LuckyDroid
 All rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Посмотреть версию программы</string>

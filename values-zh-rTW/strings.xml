@@ -140,8 +140,8 @@
     <string name="activation_ok">謝謝您啟用 Memento</string>
     <string name="activation_error">無效的啟用碼。請重試。</string>
     <string name="about">關於</string>
-    <string name="copyright">版權所有 © 2017 LuckyDroid
-保留所有權利</string>
+    <string name="copyright">版權所有 © 2018 LuckyDroid
+\n保留所有權利</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">檢視軟體版本</string>
     <string name="about_license_type">授權：</string>
@@ -901,11 +901,11 @@
     <string name="only_title_on_tile">只顯示庫名</string>
     <plurals name="fields_count">
 	<item quantity="one">%d 個欄位</item>
-	<item quantity="other"/>
+        <item quantity="other">%d 個欄位</item>
 </plurals>
     <plurals name="libraries_count">
 	<item quantity="one">%d 個庫</item>
-	<item quantity="other"/>
+        <item quantity="other">%d 個庫</item>
 </plurals>
     <string name="empty">空</string>
     <string name="add_page">新增分頁</string>
@@ -945,7 +945,7 @@
     <string name="something_wrong_dialog_title">發生不明錯誤</string>
     <plurals name="string_list_import_snackbar_ok">
 	<item quantity="one">已匯入 %d 個項目</item>
-	<item quantity="other"/>
+        <item quantity="other">已匯入 %d 個項目</item>
 </plurals>
     <string name="export_template_snackbar_ok">已匯出範本</string>
     <string name="import_template_error">匯入範本錯誤: %s</string>
@@ -972,11 +972,11 @@
     <string name="rating_field_max_value">最高評分</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d 星</item>
-	<item quantity="other"/>
+        <item quantity="other">%d 星</item>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
 	<item quantity="one">%d 條目已丟到垃圾桶</item>
-	<item quantity="other"/>
+        <item quantity="other">%d 條目已丟到垃圾桶</item>
 </plurals>
     <string name="auto_fill_barcode_empty2">比較自動完成來源與條目欄位的屬性</string>
     <string name="barcode_rule_delete_title">刪除規則</string>
@@ -1030,19 +1030,19 @@
     <string name="scale">比例 %d</string>
     <plurals name="duration_seconds">
 	<item quantity="one">%d 秒</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 秒</item>
 </plurals>
     <plurals name="duration_minutes">
 	<item quantity="one">%d 分</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 分</item>
 </plurals>
     <plurals name="duration_hours">
 	<item quantity="one">%d 時</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 時</item>
 </plurals>
     <plurals name="duration_days">
 	<item quantity="one">%d 日</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 日</item>
 </plurals>
     <string name="all">全部</string>
     <string name="page">頁</string>
@@ -1101,7 +1101,7 @@
 	<string name="upload_to_cloud_menu_item">上傳到雲端</string>
 	<string name="welcome_text_title">歡迎使用 Memento 資料庫</string>
 	<string name="welcome_text_description">庫是儲存您的資料的地方。
-您可以依照提供的範本建立新庫，開始熟悉 Memento 的運用。</string>
+\n您可以依照提供的範本建立新庫，開始熟悉 Memento 的運用。</string>
 	
 	<string name="start_remove_librarary_from_cloud">正在刪除庫 ...</string>
 	<string name="success_remove_librarary_from_cloud">成功從雲端刪除庫</string>
@@ -1125,7 +1125,7 @@
 	<string name="cloud_conflict_fix_button_title">修正</string>
     <plurals name="conflict_count">
 	<item quantity="one">同步過程中發生 %d 件衝突</item>
-	<item quantity="other"/>
+	<item quantity="other">同步過程中發生 %d 件衝突</item>
 </plurals>
     <string name="button_select">選擇</string>
     <string name="cloud">雲端</string>
@@ -1299,7 +1299,7 @@
     <string name="rating_tooltips_empty">欄位沒有工具提示</string>
     <plurals name="rating_tooltips_count">
 	<item quantity="one">%d 工具提示</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 工具提示</item>
 </plurals>
     <string name="calculator">計算機</string>
     <string name="calculator_options_hint">新增顯示計算機按鈕</string>
@@ -1323,7 +1323,7 @@
 
     <plurals name="notification_edit_library_common_text">
 	<item quantity="one">%d 個未讀變動</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 個未讀變動</item>
 </plurals>
 
     <string name="notification_edit_library_create_text">新增條目</string>
@@ -1331,7 +1331,7 @@
     <string name="notification_edit_library_delete_text">刪除的條目</string>
     <plurals name="notification_comments_common_text">
 	<item quantity="one">%d 個新註解</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 個新註解</item>
 </plurals>
 
     <string name="text_background_color">背景色</string>
@@ -1429,7 +1429,7 @@
     <string name="no_comments">無註解</string>
     <plurals name="comments_count">
 	<item quantity="one">%d 個註解</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 個註解</item>
 </plurals>
     <string name="comments_only_for_cloud">註解只能加到上傳到雲端的庫。要把庫上傳到雲端嗎？</string>
     <string name="locale_plugin_add_edit_entry_title">新增/編輯條目</string>
@@ -1630,7 +1630,7 @@
     <string name="users_count_none">沒有使用者</string>
     <plurals name="users_count">
 	<item quantity="one">%d 個使用者</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 個使用者</item>
 </plurals>
     <string name="user_group_delete_message">您確定要刪除「%s」群組嗎？</string>
     <string name="group_not_found">找不到群組</string>
@@ -1656,7 +1656,7 @@
     <string name="card_view_number_of_columns">欄位數量</string>
     <plurals name="columns_count">
 	<item quantity="one">%d 個欄位</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 個欄位</item>
 </plurals>
 
     <string name="card_view_title_on_image">在圖片上顯示文字</string>
@@ -1884,7 +1884,7 @@
     <string name="notification_channel_entries">庫修改</string>
     <string name="notification_channel_files">檔案</string>
     <string name="quick_filter_limit_message">免費版只能搜尋五個欄位。
-升級到 PRO 版就沒有這個限制。</string>
+\n升級到 PRO 版就沒有這個限制。</string>
     <string name="button_upgrade">升級</string>
     <string name="autofilll_source_not_supported">抱歉，%s 已不被支援。</string>
 

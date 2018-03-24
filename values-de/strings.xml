@@ -145,8 +145,8 @@
     <string name="activation_ok">Danke dass Sie Memento aktiviert haben</string>
     <string name="activation_error">Aktivierungscode ungültig. Bitte nochmal versuchen.</string>
     <string name="about">Über</string>
-    <string name="copyright">Copyright © 2017 LuckyDroid
-All rights reserved</string>
+    <string name="copyright">Copyright © 2018 LuckyDroid
+\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Software Version</string>
     <string name="about_license_type">Lizenz:</string>
@@ -1650,7 +1650,7 @@ All rights reserved</string>
     <string name="memento_server_settings_group">Memento Server</string>
     <string name="locale_plugin_edit_mode_create_new_entry">Erstellen Sie einen neuen Eintrag, wenn Sie keinen Eintrag nach dem Schlüsselfeld gefunden haben</string>
 
-    <string name="empty_triggers_list_text">Diese Bibliothek enthält keine Trigger.
+    <string name="empty_triggers_list_text">Diese Bibliothek enthält keine Trigger.\n
 Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf einem Ereignis definiert.</string>
     <string name="uom_fahrenheit">Fahrenheit</string>
     <string name="uom_kelvin">Kelvin</string>
@@ -1778,8 +1778,7 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="script_cant_run_for_not_saved_library">Sie können das Skript erst nach dem Speichern der Bibliothek ausführen.</string>
     <string name="autofill_script_source_key_title">Weisen Sie auf die Objekteigenschaft hin die vom Skript zurückgegeben wird</string>
     <string name="test_js_data_source_query_hint">Abfragezeichenfolge</string>
-    <string name="test_js_data_source_query_result">Abfrageergebnis:
-%s</string>
+    <string name="test_js_data_source_query_result">Abfrageergebnis:\n%s</string>
     <string name="run">Läuft</string>
     <string name="script_cant_set_permissions_for_not_saved_library">Sie können Berechtigungen nur nach dem Speichern der Bibliothek für das Skript festlegen.</string>
     <string name="script_permissions_required_message">Die Bibliothek verfügt über die Skripts, die die folgenden Berechtigungen erfordern:</string>
@@ -1911,7 +1910,7 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="notification_channel_reminders">Erinnerungen</string>
     <string name="notification_channel_entries">Änderungen in Bibliotheken</string>
     <string name="notification_channel_files">Dateien</string>
-    <string name="quick_filter_limit_message">In der kostenlosen Version können Sie nur nach fünf Feldern suchen.
+    <string name="quick_filter_limit_message">In der kostenlosen Version können Sie nur nach fünf Feldern suchen.\n
 Upgraden Sie zur PRO-Version, um diese Einschränkung zu deaktivieren.</string>
     <string name="button_upgrade">Aktualisierung</string>
     <string name="autofilll_source_not_supported">Entschuldigung, %s wird nicht mehr unterstützt.</string>
