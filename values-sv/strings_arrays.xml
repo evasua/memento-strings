@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="call">Ring</string>
     <string name="send_sms">Skicka SMS</string>
@@ -10,7 +10,7 @@
     <string name="datetime_filter_items_month">Denna månad</string>
     <string name="datetime_filter_items_last_week">Förra veckan</string>
     <string name="datetime_filter_items_last_month">Förra månaden</string>
-    <string name="datetime_filter_items_custom">Custom</string>
+    <string name="datetime_filter_items_custom">Anpassade</string>
     <string name="template_category_arts">Konst</string>
     <string name="template_category_business">Näringsliv / Affärer</string>
     <string name="template_category_contacts">Kontakter och personer</string>
@@ -26,4 +26,13 @@
     <string name="template_category_sports">Sport</string>
     <string name="template_category_travel">Resor</string>
     <string name="template_category_other">Andra kategorier</string>    
-</resources>
+<string name="calc_result_types_real">Verkligt resultat</string>
+    <string name="calc_result_types_int">Heltal resultat</string>
+    <string name="calc_result_types_date">Datumresultat</string>
+    <string name="calc_result_types_datetime">Datum / Tidsresultat</string>
+    <string name="calc_result_types_string">Stringresultat</string>
+    <string name="flex_edit_option_values_list">Lista poster</string>
+    <string name="db_location_pref_internal">Intern lagring av enheter</string>
+    <string name="number_filter_types_equal">Är lika med</string>
+    <string name="number_filter_types_notequal">Är inte lika med</string>
+    </resources>

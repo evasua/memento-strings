@@ -144,7 +144,7 @@
     <string name="activation_ok">Děkujeme za aktivaci Mementa</string>
     <string name="activation_error">Aktivační kód je chybný. Prosím, zadejte jej znovu.</string>
     <string name="about">O programu</string>
-    <string name="copyright">Copyright © 2016 LuckyDroid\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2018 LuckyDroid\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Zobrazit verzi softwaru</string>
     <string name="about_license_type">Licence:</string>

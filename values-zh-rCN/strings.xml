@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">添加一个条目</string>
@@ -140,7 +140,7 @@
     <string name="activation_ok">谢谢您激活 Memento</string>
     <string name="activation_error">无效的激活码，请重试。</string>
     <string name="about">关于</string>
-    <string name="copyright">版权所有 © 2016 LuckyDroid\n保留所有权利</string>
+    <string name="copyright">版权所有 © 2018 LuckyDroid</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">查看软件版本</string>
     <string name="about_license_type">许可协议：</string>
@@ -1077,7 +1077,7 @@
 	<string name="show_deleted_entries_menu_item">显示已删除的项</string>
 	<string name="upload_to_cloud_menu_item">在线云</string>
 	<string name="welcome_text_title">欢迎使用memento database</string>
-	<string name="welcome_text_description">库是存储您数据的地方。\n你可以通过右上角的米按钮添加库，从提供的模板来创建库，从而熟知软件的使用。</string>
+	<string name="welcome_text_description">库是存储您信息的地方。你可以通过右上角的三点按钮添加库，通过提供的模板来创建库，从而熟知软件的使用。</string>
 	
 	<string name="memento_cloud">云同步</string>
 	<string name="start_remove_librarary_from_cloud">删除库...</string>
@@ -1443,7 +1443,7 @@
     <string name="locale_plugin_edit_mode_create_new_entry">如果未能通过字段找到条目，请创建新条目</string>
 
     <string name="send_field_title">发送字段名称</string>
-    <string name="send_field_title_summary">字段名称将在字段值后面</string>
+    <string name="send_field_title_summary">字段名称将在字段值之前</string>
     <string name="auto_lock_libraries_time_title">关闭对库的访问</string>
     <string name="auto_lock_libraries_after">%s 之后</string>
 
@@ -1678,4 +1678,72 @@
     <string name="pro_for_team">专业版功能为团队中的所有用户</string>
     <string name="team_features_trial">所有计划包括免费14天试用。</string>
 
-</resources>
+<string name="tasker_plugin_create_entry_event_title">条目已创建</string>
+    <string name="tasker_plugin_delete_entry_event_title">条目已删除</string>
+    <string name="tasker_plugin_modified_entry_event_title">条目已修改</string>
+    <string name="no_libraries_text">还没有库！</string>
+    <string name="add_linked_libraries">包含相关的库</string>
+    <string name="create_collections">创建库</string>
+    <string name="create_collections_success">创建了库</string>
+    <string name="template_included_libraries">该模板包含额外的库。</string>
+
+    <string name="card_view_number_of_columns">列数</string>
+    <string name="card_view_title_on_image">在图片上显示文字</string>
+    <string name="hint_previous_entry">以前的条目</string>
+    <string name="hint_next_entry">下一项</string>
+    <string name="card_view_squared_image">将图像裁剪成方形</string>
+    <string name="hint_remove_image_button">删除图像</string>
+    <string name="hint_insert_image_button">插入图像</string>
+    <string name="hint_capture_image_button">捕获图像</string>
+    <string name="hint_change_date">改变日期</string>
+    <string name="hint_change_time">改变时间</string>
+    <string name="hint_add_reminder">添加提醒</string>
+    <string name="hint_remove_reminder">删除提醒</string>
+    <string name="hint_insert_contact_button">插入联系人</string>
+    <string name="hint_create_contact_button">创建联系人</string>
+    <string name="hint_insert_audio_button">插入音频</string>
+    <string name="hint_record_audio_button">录制音频</string>
+    <string name="hint_insert_location_button">插入位置</string>
+    <string name="hint_get_my_location_button">获取我的位置</string>
+    <string name="hint_insert_entry_button">插入条目</string>
+    <string name="barcode_type_option_title">类型</string>
+    <string name="barcode_type_1d">条码</string>
+    <string name="barcode_type_2d">二维码</string>
+
+    <string name="repository_js_libraries">库</string>
+    <string name="repository_android_intents_hint">用于与其他Android应用程序交互的功能</string>
+    <string name="repository_data_sources_hint">用于自动填充的数据源</string>
+    <string name="warning">警告</string>
+    <string name="add_javascript_library">添加JavaScript库...</string>
+    <string name="add_repository">添加存储库</string>
+    <string name="repository_location_hint">GitHub存储库URL</string>
+    <string name="repository_location_error">指定GitHub存储库的HTTPS链接。 例如：https://github.com/username/repo-name</string>
+    <string name="repository_not_found_error">找不到存储库：％s</string>
+    <string name="repository_delete_message">你真的想删除存储库“%s”吗？</string>
+    <string name="repository_other">其他</string>
+
+    <string name="map_field_current_by_default_title">当前位置</string>
+    <string name="map_field_current_by_default_hint">默认获取当前位置</string>
+    <string name="receiving_document_content">接收文件内容</string>
+    <string name="find_address">查找地址</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="action_context_library">库</string>
+    <string name="action_context_view_entry">条目视图卡</string>
+    <string name="trigger">触发器</string>
+    <string name="action_arguments">参数</string>
+    <string name="action_arguments_empty">该脚本可以有参数，其值将由用户输入。</string>
+    <string name="select_argument_type">参数类型</string>
+    <string name="script_argument_delete_message_text">你真的想删除参数\"%s\"吗？</string>
+    <string name="create_argument">创建参数</string>
+    <string name="edit_argument">编辑参数</string>
+    <string name="argument_name">参数名称</string>
+    <string name="argument_hint">参数提示</string>
+    <string name="entries_view_type_cards">卡片</string>
+    <plurals name="columns_count">
+	<item quantity="one">%d 列</item>
+        <item quantity="other">%d 列</item>
+</plurals>
+
+    <string name="embedded_js_libraries">内置</string>
+    <string name="trigger_event_action">动作</string>
+    </resources>

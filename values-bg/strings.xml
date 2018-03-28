@@ -147,7 +147,7 @@
     <string name="activation_ok">Благодарим Ви за активирането на Memento</string>
     <string name="activation_error">Активиращият код е невалиден. Моля, опитайте отново.</string>
     <string name="about">За програмата</string>
-    <string name="copyright">Copyright © 2017 LuckyDroid
+    <string name="copyright">Copyright © 2018 LuckyDroid
 Всички права запазени</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Вижте версията на програмата</string>
@@ -1076,7 +1076,7 @@
 	<string name="show_deleted_entries_menu_item">Показване на изтритите записи</string>
 	<string name="upload_to_cloud_menu_item">Към облак</string>
 	<string name="welcome_text_title">Добре дошли в Memento Database</string>
-	<string name="welcome_text_description">Библиотеката е мястото, където записите ви ще се съхраняват.↵\nМожете да започнете да се запознавате с програмата чрез създаване на библиотека въз основа на един от предвидените шаблони.</string>	
+	<string name="welcome_text_description">Библиотеката е мястото, където ще бъде съхранена информацията ви. Можете да започнете да се запознавате с програмата чрез създаване на библиотека въз основа на един от предвидените шаблони.</string>	
 	
 <string name="memento_cloud">Облак</string>
 	<string name="start_remove_librarary_from_cloud">Изтриване на библиотека ...</string>
@@ -1446,7 +1446,7 @@
     <string name="locale_plugin_edit_mode_create_new_entry">Създаване на нов запис, ако не успеете да намерите запис от ключово поле</string>
 
     <string name="send_field_title">Изпращане името на полето</string>
-    <string name="send_field_title_summary">Името на полето ще следва стойността на полето</string>
+    <string name="send_field_title_summary">Името на полето ще предхожда стойността на полето</string>
     <string name="auto_lock_libraries_time_title">Затваряне достъпа до библиотеките</string>
     <string name="auto_lock_libraries_after">След %s</string>
 
@@ -1796,4 +1796,7 @@
     <string name="trigger_event_open_library">Отваряне на библиотека</string>
     <string name="search_base_folder">Търсене на база</string>
     <string name="line_interpolate_nulls_titles">Интерполирайте празните стойности</string>
-</resources>
+<string name="wizard_library_name_title">Memento организира информацията ви в библиотеки. Как бихте искали да назовете библиотеката си?</string>
+    <string name="wizard_library_name_hint3">Библиотека, подобна на работните листове в електронна таблица.</string>
+    <string name="wizard">Съветник</string>
+    </resources>

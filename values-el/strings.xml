@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="library_menu_add_item">Προσθέστε μία εγγραφή</string>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="library_menu_add_item">Προσθέστε μία εγγραφή</string>
     <string name="main_menu_add_lib">Προσθήκη Βιβλιοθήκης</string>
     <string name="ghostData_lib_title">Όνομα βιβλιοθήκης</string>
     <string name="button_create">Δημιουργία</string>
@@ -61,7 +61,7 @@
     <string name="date_default_null">Κενή τιμή από προεπιλογή</string>
     <string name="date_default_now">Τρέχουσα ημερομηνία από προεπιλογή</string>
     <string name="search">Αναζήτηση</string>
-    <plurals xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" name="NItemsFind">
+    <plurals name="NItemsFind">
 	<item quantity="one">Βρέθηκε μία εγγραφή</item>
 	<item quantity="other">Βρέθηκαν εγγραφές: <xliff:g id="COUNT">%d</xliff:g></item>
 </plurals>
@@ -155,7 +155,7 @@
     <string name="load_templates_message">Παρακαλώ περιμένετε ενώ τα πρότυπα βιβλιοθηκών φορτώνονται για πρώτη φορά.</string>
     <string name="activation_error">Μη έγκυρος κωδικός ενεργοποίησης. Παρακαλώ προσπαθήστε ξανά.</string>
     <string name="about">Πληροφορίες</string>
-    <string name="copyright">Copyright © 2016 LuckyDroid\nΌλα τα δικαιώματα διατηρούνται</string>
+    <string name="copyright">Copyright © 2018 LuckyDroid\nΌλα τα δικαιώματα διατηρούνται</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Δείτε την έκδοση λογισμικού</string>
     <string name="preference_category_csv_import">Λειτουργίες δεδομένων</string>
@@ -1761,4 +1761,95 @@
     <string name="action_with_library_context">Ενέργεια Βιβλιοθήκης</string>
     <string name="action_with_entry_context">Ενέργεια Εισαγωγής</string>
     <string name="library_related_cloud_model_changed_message">Η δομή των σχετικών βιβλιοθηκών ενημερώθηκε στο σύννεφο. Πηγαίνετε στη σχετική βιβλιοθήκη για την ενημέρωση.</string>
-</resources>
+<string name="monthly_plan">Μηνιαία</string>
+    <string name="yearly_plan">Ετήσια</string>
+    <string name="cloud_plan_plan3_annual">Περιορισμένη</string>
+    <string name="cloud_plan_plan6_annual">Επαγγελματική</string>
+    <string name="cloud_plan_plan10_annual">Pro Plus</string>
+    <string name="cloud_plan_team5_annual">Ομάδα 5</string>
+    <string name="cloud_plan_team10_annual">Ομάδα 10</string>
+    <string name="cloud_plan_team15_annual">Ομάδα 15</string>
+    <string name="cloud_plan_team20_annual">Ομάδα 20</string>
+    <string name="frozen_alien_text">Η βιβλιοθήκη είναι κλειδωμένη, παρακαλούμε επικοινωνήστε με τον ιδιοκτήτη της βιβλιοθήκης (%s).</string>
+    <string name="copy_field">Αντιγραφή πεδίου</string>
+    <string name="delete_reminder_dialog_text">Θέλετε πραγματικά να διαγράψετε την υπενθύμιση;</string>
+    <string name="games">Παιχνίδια</string>
+    <string name="number_increment_delta_title">Κουμπιά αυξομείωσης</string>
+    <string name="number_increment_delta_value">Βήμα αυξομείωσης: %s</string>
+    <string name="number_increment_visible_option">Εμφάνιση κουμπιών</string>
+    <string name="is_empty">Είναι άδειο</string>
+    <string name="is_not_empty">Δεν είναι άδειο</string>
+    <string name="trigger_event_open_library">Άνοιγμα βιβλιοθήκης</string>
+    <string name="search_base_folder">Αναζήτηση βάσεως</string>
+    <string name="line_interpolate_nulls_titles">Να εισάγονται κενές τιμές</string>
+
+
+    <string name="wizard_library_name_title">Η Memento οργανώνει τα δεδομένα σας σε βιβλιοθήκες. Πως θα θέλατε να ονομάσετε την βιβλιοθήκη;</string>
+    <string name="wizard_library_name_hint2">Οι βιβλιοθήκες αποτελούνται συνήθως από μια λίστα αντικειμένων συγκεκριμένου τύπου.</string>
+    <string name="wizard_library_name_hint3">Βιβλιοθήκη παρόμοια με φύλλα εργασίας σε ένα υπολογιστικό φύλλο.</string>
+    <string name="wizard_library_icon_title">Επιλέξτε εικονίδιο για αυτήν την βιβλιοθήκη</string>
+    <string name="wizard_library_structure_title">Ας δημιουργήσουμε τη δομή της βιβλιοθήκη σας.</string>
+    <string name="wizard_library_structure_hint2">Κάθε αντικείμενο που τοποθετείτε στην βιβλιοθήκη σας ονομάζεται μία \'καταχώρηση\'. Κάθε καταχώρηση θα έχει τα δικά της πεδία με όλες τις πληροφορίες που θέλετε να αποθηκεύσετε για αυτήν.</string>
+    <string name="wizard_library_structure_hint3">Μία καταχώρηση αντιστοιχεί με μία γραμμή σε ένα φύλλο εργασίας.</string>
+    <string name="wizard_library_structure_hint4">Ένα πεδίο αντιστοιχεί με μία στήλη σε ένα φύλλο εργασίας.</string>
+    <string name="wizard_select_field_type_message">Παρακαλούμε επιλέξτε τον τύπο του πεδίου</string>
+    <string name="wizard_add_name_field_message">Προσθέστε το πεδίο που θα αποτελεί το όνομα της καταχώρησης.</string>
+    <string name="wizard_field_options_title">Ιδιότητες πεδίου</string>
+    <string name="wizard_field_items_title">Αντικείμενα</string>
+    <string name="wizard_field_options_select_type_message">Οι ιδιότητες του πεδίου θα είναι διαθέσιμες μετά την επιλογή του τύπου του πεδίου.</string>
+    <string name="wizard_field_options_empty">Μόνο προχωρημένες ιδιότητες είναι διαθέσιμες για τον επιλεγμένο τύπου πεδίου.</string>
+    <string name="wizard_field_advanced_options_button">Προχωρημένο</string>
+    <string name="wizard_choice_field_items_empty_text">Θα πρέπει να δημιουργήσετε έναν συγκεκριμένο αριθμό αντικειμένων (τιμών) για αυτόν τον τύπο πεδίου.</string>
+    <string name="wizard_field_name_examples">Για παράδειγμα μπορεί να έχετε πεδία για \'τίτλο\', \'περιγραφή\', \'τύπο εξοπλισμού\', \'κόστος\', \'μέγεθος\', \'τοποθεσία\', κ.λπ.</string>
+    <string name="wizard_field_type_title">Κάθε πεδίο μπορεί να σχεδιαστεί για να αποθηκεύει ένα συγκεκριμένο τύπο δεδομένων.</string>
+    <string name="wizard_field_display_no">Όχι, ευχαριστώ</string>
+    <string name="wizard_field_display_name">Ως όνομα της Καταχώρησης</string>
+    <string name="wizard_field_display_thumb">Ως Μικρογραφία Καταχώρησης</string>
+    <string name="wizard_field_display_desc">Ως περιγραφή της Καταχώρησης</string>
+    <string name="wizard_field_display_status">Ως κατάσταση της Καταχώρησης</string>
+    <string name="type_desc_rating">Ένα πεδίο βαθμολόγησης μπορεί να είναι άδειο ή να περιλαμβάνει έναν αριθμό από το 1 έως το 5 ως αριθμό αστεριών.</string>
+    <string name="type_desc_location">Ένα πεδίο Τοποθεσίας μπορεί να περιέχει μια τοποθεσία, που περιγράφεται από το γεωγραφικό πλάτος /μήκος και τον ταχυδρομικό κώδικα.</string>
+    <string name="price_per_year"/>
+
+    <string name="wizard">Οδηγός</string>
+    <string name="type_desc_link_to_entry">Ένα πεδίο τύπου \'Σύνδεσμος σε εγγραφή\' μπορεί να περιέχει ένα σύνδεσμο σε μία καταχώρηση ή σε καταχωρήσεις σε άλλη βιβλιοθήκη.</string>
+    <string name="type_desc_contact">Ένα πεδίο τύπου \'Επαφή\' μπορεί να περιέχει ένα σύνδεσμο σε μία επαφή στην τοπική εφαρμογή Επαφών (π.χ. στις επαφές της συσκευής).</string>
+    <string name="type_desc_images">Ένα πεδίο τύπου \'Εικόνα\' μπορεί να περιέχει συνδέσμους σε εικόνες.</string>
+    <string name="type_desc_signature">Ένα πεδίο τύπου \'Υπογραφή\' σας επιτρέπει να συλλέγετε ηλεκτρονικές υπογραφές.</string>
+    <string name="type_desc_file">Ένα πεδίο τύπου \'Σύνδεσμος σε αρχείο\' μπορεί να περιέχει συνδέσμους σε αρχεία που βρίσκονται αποθηκευμένα εκτός της εφαρμογής Memento.</string>
+    <string name="type_desc_audio">Ένα πεδίο τύπου \'Ήχος\' μπορεί να περιέχει συνδέσμους σε αποθηκευμένα αρχεία ήχου.</string>
+    <string name="type_desc_date">Ένα πεδίο τύπου \'Ημερομηνία\' μπορεί να περιέχει μια τιμή που χρησιμοποιείται για να αντιπροσωπεύει μια συγκεκριμένη ημερομηνία ημερολογίου.</string>
+    <string name="type_desc_datetime">Ένα πεδίο τύπου \'Ημερομηνία/Ώρα\' μπορεί να περιέχει μια τιμή που χρησιμοποιείται για να αντιπροσωπεύει μια συγκεκριμένη ημερομηνία και ώρα ημερολογίου.</string>
+    <string name="type_desc_time">Ένα πεδίο τύπου \'Ὠρα\' μπορεί να περιέχει μια τιμή που χρησιμοποιείται για να αντιπροσωπεύει μια συγκεκριμένη ώρα της ημέρας.</string>
+    <string name="type_desc_boolean">Ο τύπος πεδίου \'Δυαδική τιμή (Κουτάκι)\' παρέχει ένα μόνο πλαίσιο ελέγχου (ναι / όχι).</string>
+    <string name="type_desc_money">Ένα πεδίο τύπου \'Νόμισμα\' περιέχει μία νομισματική μονάδα και ένα ποσό. Η νομισματική μονάδα πρέπει να επιλεχθεί όταν ορίζεται το πρότυπο του πεδίου.</string>
+    <string name="type_desc_real">Ο τύπος του πεδίου \'Πραγματικός Αριθμός\' περιέχει αριθμούς με ή χωρίς δεκαδικά ψηφία.</string>
+    <string name="type_desc_int">Ο τύπος του πεδίου \'Ακέραιος Αριθμός\' περιέχει αριθμούς χωρίς δεκαδικά ψηφία.</string>
+    <string name="type_desc_int_list">Ένα πεδίο τύπου \'Ακέραιες τιμές\' είναι ένα ταξινομημένο σύνολο ακεραίων αριθμών από το οποίο ένας χρήστης μπορεί να επιλέξει έναν.</string>
+    <string name="type_desc_text">Ένα πεδίο τύπου \'Κείμενο\' μπορεί να περιέχει οποιαδήποτε δεδομένα κειμένου.</string>
+    <string name="type_desc_phone">Ένα πεδίο τύπου \'Τηλέφωνο\' μπορεί να περιέχει έναν τηλεφωνικό αριθμό σε μορφή κειμένου.</string>
+    <string name="type_desc_url">Ένα πεδίο τύπου \'Υπερσύνδεσμος΄ μπορεί να περιέχει έναν σύνδεσμο σε μορφή HTML.</string>
+    <string name="type_desc_email">Ένα πεδίο τύπου \'Ηλ. Ταχυδρομείο\' μπορεί να περιέχει ένα email σε μορφή κειμένου.</string>
+    <string name="type_desc_barcode">Ένα πεδίο τύπου \'Γραμμωτός κώδικας\' χρησιμοποιείται για να σαρώνονται barcodes ή QR-codes.</string>
+    <string name="type_desc_pass">Ένα πεδίο τύπου \'Κωδικός πρόσβασης\' μπορεί να περιέχει οποιοδήποτε σύνολο χαρακτήρων κειμένου. Οι χαρακτήρες σε ένα πεδίο Κωδικού πρόσβασης είναι καλυμμένοι (εμφανίζονται ως αστερίσκοι).</string>
+    <string name="type_desc_rich">Ένα πεδίο τύπου \'Εμπλουτισμένο Κείμενο΄ μπορεί να περιέχει οποιοδήποτε σύνολο χαρακτήρων κειμένου, συμπεριλαμβανομένων και των των πληροφοριών μορφοποίησης.</string>
+    <string name="type_desc_multiple_choice">Ένα πεδίο τύπου \'Λίστα πολλαπλών επιλογών\' είναι μία λίστα συμβολοσειρών από την οποία ο χρήστης μπορεί να επιλέξει από ένα έως και όλα τα στοιχεία.</string>
+    <string name="type_desc_checkboxes">Ένα πεδίο τύπου \'Κουμπιά Επιλογής\' επιτρέπει την εμφάνιση ενός ή περισσοτέρων πλαισίων ελέγχου το οποίο δίνει την δυνατότητα πολλαπλής επιλογής.</string>
+    <string name="wizard_complete_text1">Συγχαρητήρια!</string>
+    <string name="close">Κλείσιμο</string>
+
+    <string name="attributes">Ιδιότητες</string>
+    <string name="select_attribute_type">Τύπος Ιδιοτήτων</string>
+    <string name="create_attribute">Δημιουργία ιδιότητας</string>
+    <string name="edit_attribute">Επεξεργασία ιδιότητας</string>
+    <string name="attribute_name">Όνομα ιδιότητας</string>
+    <string name="required_attribute_text">Η Ιδιότητα πρέπει να συμπληρωθεί</string>
+
+    <string name="attribute_display_title_in_card">Η ιδιότητα Όνομα</string>
+    <string name="attribute_display_title_in_card_hint">Εμφάνιση του ονόματος της ιδιότητας στην καταχώρηση κάρτας</string>
+    <string name="free_version_attributes_limit">Στην δωρεάν έκδοση μπορείτε να προσθέσετε μόνο μία ιδιότητα. Αναβαθμίστε το Memento στην Επαγγελματική έκδοση για καταργηθεί αυτός ο περιορισμός.</string>
+    <string name="trigger_event_link_entry">Σύνδεση εγγραφής</string>
+    <string name="trigger_event_unlink_entry">Αποσύνδεση εγγραφής</string>
+    <string name="script_cant_run_links_not_exists">Το Script δεν μπορεί να τρέξει, κάποιος σύνδεσμος σε αυτήν την βιβλιοθήκη δεν υπάρχει.</string>
+    <string name="entry_name_and_description">Όνομα και περιγραφή Εγγραφής</string>
+    </resources>

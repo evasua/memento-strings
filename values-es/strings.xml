@@ -144,7 +144,7 @@ Se perderán todos los cambios realizados tras la creación de la copia de segur
     <string name="activation_ok">Gracias por activar Memento</string>
     <string name="activation_error">El código no es válido. Por favor, inténtalo de nuevo.</string>
     <string name="about">Acerca de</string>
-    <string name="copyright">Copyright © 2017 LuckyDroid
+    <string name="copyright">Copyright © 2018 LuckyDroid
 Todos los derechos reservados</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Ver versión del software</string>

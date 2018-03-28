@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">新增條目</string>
@@ -140,7 +140,8 @@
     <string name="activation_ok">謝謝您啟用 Memento</string>
     <string name="activation_error">無效的啟用碼。請重試。</string>
     <string name="about">關於</string>
-    <string name="copyright">版權所有 c 2016 LuckyDroid\n保留所有權利</string>
+    <string name="copyright">版權所有 © 2018 LuckyDroid
+\n保留所有權利</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">檢視軟體版本</string>
     <string name="about_license_type">授權：</string>
@@ -900,11 +901,11 @@
     <string name="only_title_on_tile">只顯示庫名</string>
     <plurals name="fields_count">
 	<item quantity="one">%d 個欄位</item>
-	<item quantity="other"/>
+        <item quantity="other">%d 個欄位</item>
 </plurals>
     <plurals name="libraries_count">
 	<item quantity="one">%d 個庫</item>
-	<item quantity="other"/>
+        <item quantity="other">%d 個庫</item>
 </plurals>
     <string name="empty">空</string>
     <string name="add_page">新增分頁</string>
@@ -944,7 +945,7 @@
     <string name="something_wrong_dialog_title">發生不明錯誤</string>
     <plurals name="string_list_import_snackbar_ok">
 	<item quantity="one">已匯入 %d 個項目</item>
-	<item quantity="other"/>
+        <item quantity="other">已匯入 %d 個項目</item>
 </plurals>
     <string name="export_template_snackbar_ok">已匯出範本</string>
     <string name="import_template_error">匯入範本錯誤: %s</string>
@@ -971,11 +972,11 @@
     <string name="rating_field_max_value">最高評分</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d 星</item>
-	<item quantity="other"/>
+        <item quantity="other">%d 星</item>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
 	<item quantity="one">%d 條目已丟到垃圾桶</item>
-	<item quantity="other"/>
+        <item quantity="other">%d 條目已丟到垃圾桶</item>
 </plurals>
     <string name="auto_fill_barcode_empty2">比較自動完成來源與條目欄位的屬性</string>
     <string name="barcode_rule_delete_title">刪除規則</string>
@@ -1029,19 +1030,19 @@
     <string name="scale">比例 %d</string>
     <plurals name="duration_seconds">
 	<item quantity="one">%d 秒</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 秒</item>
 </plurals>
     <plurals name="duration_minutes">
 	<item quantity="one">%d 分</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 分</item>
 </plurals>
     <plurals name="duration_hours">
 	<item quantity="one">%d 時</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 時</item>
 </plurals>
     <plurals name="duration_days">
 	<item quantity="one">%d 日</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 日</item>
 </plurals>
     <string name="all">全部</string>
     <string name="page">頁</string>
@@ -1099,7 +1100,8 @@
 	<string name="show_deleted_entries_menu_item">顯示被刪除的條目</string>
 	<string name="upload_to_cloud_menu_item">上傳到雲端</string>
 	<string name="welcome_text_title">歡迎使用 Memento 資料庫</string>
-	<string name="welcome_text_description">庫是儲存您的條目的地方。\n您可以依照提供的範本建立新庫，開始熟悉 Memento 的運用。</string>
+	<string name="welcome_text_description">庫是儲存您的資料的地方。
+\n您可以依照提供的範本建立新庫，開始熟悉 Memento 的運用。</string>
 	
 	<string name="start_remove_librarary_from_cloud">正在刪除庫 ...</string>
 	<string name="success_remove_librarary_from_cloud">成功從雲端刪除庫</string>
@@ -1123,7 +1125,7 @@
 	<string name="cloud_conflict_fix_button_title">修正</string>
     <plurals name="conflict_count">
 	<item quantity="one">同步過程中發生 %d 件衝突</item>
-	<item quantity="other"/>
+	<item quantity="other">同步過程中發生 %d 件衝突</item>
 </plurals>
     <string name="button_select">選擇</string>
     <string name="cloud">雲端</string>
@@ -1182,7 +1184,7 @@
 	<string name="button_tarifs">付費方案</string>
 	<string name="cloud_storage_plans">定期付費方案</string>
 	<string name="price_free">免費</string>
-	<string name="price_per_month">每月 %s</string>
+	<string name="price_per_month">%s/月</string>
 	<string name="unlimited_libraries">庫數量無限</string>	
 	<string name="adv_free">無廣告</string>
 	<string name="subscription_activation">啟用定期付費 ...</string>
@@ -1297,7 +1299,7 @@
     <string name="rating_tooltips_empty">欄位沒有工具提示</string>
     <plurals name="rating_tooltips_count">
 	<item quantity="one">%d 工具提示</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 工具提示</item>
 </plurals>
     <string name="calculator">計算機</string>
     <string name="calculator_options_hint">新增顯示計算機按鈕</string>
@@ -1321,7 +1323,7 @@
 
     <plurals name="notification_edit_library_common_text">
 	<item quantity="one">%d 個未讀變動</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 個未讀變動</item>
 </plurals>
 
     <string name="notification_edit_library_create_text">新增條目</string>
@@ -1329,7 +1331,7 @@
     <string name="notification_edit_library_delete_text">刪除的條目</string>
     <plurals name="notification_comments_common_text">
 	<item quantity="one">%d 個新註解</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 個新註解</item>
 </plurals>
 
     <string name="text_background_color">背景色</string>
@@ -1427,7 +1429,7 @@
     <string name="no_comments">無註解</string>
     <plurals name="comments_count">
 	<item quantity="one">%d 個註解</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 個註解</item>
 </plurals>
     <string name="comments_only_for_cloud">註解只能加到上傳到雲端的庫。要把庫上傳到雲端嗎？</string>
     <string name="locale_plugin_add_edit_entry_title">新增/編輯條目</string>
@@ -1440,7 +1442,7 @@
     <string name="locale_plugin_edit_mode_create_new_entry">如果根據欄位找不到條目的話，就建立新條目</string>
 
     <string name="send_field_title">傳送欄位名稱</string>
-    <string name="send_field_title_summary">欄位名稱會跟著欄位值</string>
+    <string name="send_field_title_summary">欄位名稱會出現在欄位值之前</string>
     <string name="auto_lock_libraries_time_title">關閉庫操作權</string>
     <string name="auto_lock_libraries_after">%s 之後</string>
 
@@ -1628,7 +1630,7 @@
     <string name="users_count_none">沒有使用者</string>
     <plurals name="users_count">
 	<item quantity="one">%d 個使用者</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 個使用者</item>
 </plurals>
     <string name="user_group_delete_message">您確定要刪除「%s」群組嗎？</string>
     <string name="group_not_found">找不到群組</string>
@@ -1654,7 +1656,7 @@
     <string name="card_view_number_of_columns">欄位數量</string>
     <plurals name="columns_count">
 	<item quantity="one">%d 個欄位</item>
-	<item quantity="other"/>
+	<item quantity="other">%d 個欄位</item>
 </plurals>
 
     <string name="card_view_title_on_image">在圖片上顯示文字</string>
@@ -1769,4 +1771,121 @@
 
     <string name="repository_location_hint">GitHub Repository URL</string>
     <string name="scripts">Scripts</string>
-    </resources>
+    <string name="monthly_plan">每月</string>
+    <string name="yearly_plan">每年</string>
+    <string name="cloud_plan_plan3_annual">Lite</string>
+    <string name="cloud_plan_plan6_annual">Pro</string>
+    <string name="cloud_plan_plan10_annual">Pro Plus</string>
+    <string name="price_per_year">%s/年</string>
+
+    <string name="frozen_alien_text">此庫已被凍結，請聯絡庫擁有者 (%s)。</string>
+    <string name="copy_field">複製欄位</string>
+    <string name="delete_reminder_dialog_text">您真的要刪除提醒嗎？</string>
+    <string name="games">遊戲</string>
+    <string name="number_increment_delta_title">遞增/遞減按鈕</string>
+    <string name="number_increment_delta_value">步階大小 %s</string>
+    <string name="number_increment_visible_option">顯示按鈕</string>
+    <string name="is_empty">是空的</string>
+    <string name="is_not_empty">不是空的</string>
+    <string name="trigger_event_open_library">開啟一個庫</string>
+    <string name="search_base_folder">搜尋基礎</string>
+    <string name="line_interpolate_nulls_titles">內插空值</string>
+
+
+    <string name="wizard">精靈</string>
+    <string name="wizard_library_name_title">Memento 將您的資訊整理成庫。您想怎麼稱呼這個庫？</string>
+    <string name="wizard_library_name_hint2">「庫」的用途是儲存一種特定物品的清單。</string>
+    <string name="wizard_library_name_hint3">「庫」很像試算表裡的工作表。</string>
+    <string name="wizard_library_icon_title">選擇代表此庫的圖示</string>
+    <string name="wizard_library_structure_title">讓我們開始建立庫的結構。</string>
+    <string name="wizard_library_structure_hint2">您放進庫的每個項目稱為「條目」。每個條目都有一系列欄位，容納所有您想儲存的資訊。</string>
+    <string name="wizard_library_structure_hint3">「條目」等於試算表內的一條橫列。</string>
+    <string name="wizard_library_structure_hint4">欄位等於試算表裡的直欄。</string>
+    <string name="wizard_select_field_type_message">請選擇欄位型別</string>
+    <string name="wizard_add_name_field_message">新增要作為條目名稱的欄位。</string>
+    <string name="wizard_field_options_title">欄位屬性</string>
+    <string name="wizard_field_items_title">項目</string>
+    <string name="wizard_field_options_select_type_message">欄位屬性要在選擇欄位型別之後才能調整。</string>
+    <string name="wizard_field_options_empty">選定的欄位型別只有進階屬性。</string>
+    <string name="wizard_field_advanced_options_button">進階</string>
+    <string name="wizard_choice_field_items_empty_text">您應該為這個欄位型別建立一系列選項。</string>
+    <string name="wizard_field_name_title">您想如何稱呼這個欄位？</string>
+    <string name="wizard_field_name_examples">比如說您可能會想建立「標題」「描述」「器材類型」「價格」「大小」「位置」之類的欄位。</string>
+    <string name="wizard_field_type_title">每個欄位都可指定儲存一種特定類型的資料。</string>
+    <string name="wizard_field_display_options_title">您想在條目清單內顯示這個欄位的內容嗎？</string>
+    <string name="wizard_field_display_no">不，謝謝</string>
+    <string name="wizard_field_display_name">作為項目名稱</string>
+    <string name="wizard_field_display_thumb">顯示為項目縮圖</string>
+    <string name="wizard_field_display_desc">顯示為項目描述</string>
+    <string name="wizard_field_display_status">顯示為項目狀態</string>
+    <string name="more_info">需要說明？</string>
+    <string name="type_desc_rating">評分欄位可以留空，或是儲存 1 到 5 之間的數值代表星等。</string>
+    <string name="type_desc_location">位置欄位可以存放位置，以經緯度與地址表示。</string>
+    <string name="type_desc_link_to_entry">連結條目欄位可以連到另一個庫的單一條目、或一系列相關條目。</string>
+    <string name="type_desc_contact">聯絡人欄位可以儲存連到本機通訊錄一位聯絡人的連結。</string>
+    <string name="type_desc_images">影像欄位可以儲存影像連結。</string>
+    <string name="type_desc_signature">簽章欄位讓您能收集數位簽章。</string>
+    <string name="type_desc_file">檔案連結欄位可以儲存連到儲存在外部檔案的連結。</string>
+    <string name="type_desc_audio">音訊欄位可以儲存連到音訊檔的連結。</string>
+    <string name="type_desc_date">日期欄位可以儲存一組代表特定日曆日期的值。</string>
+    <string name="type_desc_datetime">日期時間欄位可以儲存代表特定日曆日期與時間的值。</string>
+    <string name="type_desc_time">時間欄位可以儲存代表一天內特定時間的值。</string>
+    <string name="type_desc_boolean">布林欄位是一個勾選框 (是/否)。</string>
+    <string name="type_desc_money">金額欄位可儲存幣值與數值。幣值必須在定義模板的時候指定。</string>
+    <string name="type_desc_real">實數欄位可儲存包含小數的數字。</string>
+    <string name="type_desc_int">數值欄位可儲存不包含小數的整數。</string>
+    <string name="type_desc_int_list">整數值欄位可提供一系列預先決定的數字，讓使用者挑選一個。</string>
+    <string name="type_desc_text">文字欄位可儲存任意文字資料。</string>
+    <string name="type_desc_phone">電話號碼欄位能以文字形式儲存一組電話號碼。</string>
+    <string name="type_desc_url">超連結欄位可儲存一組文字超連結。</string>
+    <string name="type_desc_email">Email 信箱欄位能以文字形式儲存一組信箱。</string>
+    <string name="type_desc_barcode">條碼欄位可用來掃描一維或二維條碼 (QR-code)。</string>
+    <string name="type_desc_pass">密碼欄位可儲存任意文字資料。編修時內容會被遮蔽 (顯示為星號)。</string>
+    <string name="type_desc_rich">豐富格式文字欄位可儲存各種文字資料，包含文字格式化資訊。</string>
+    <string name="type_desc_multiple_choice">多選清單欄位可提供一系列選項，使用者可在其中選擇任意或所有項目。</string>
+    <string name="type_desc_checkboxes">勾選框欄位可顯示一或多個勾選框，允許使用者分別勾選。</string>
+    <string name="type_desc_single_choice">單選欄位是一系列文字選項，使用者只能在其中選擇一個。</string>
+    <string name="type_desc_radiobuttons">單選框欄位用來在一系列選項之中挑選一個。</string>
+    <string name="type_desc_js">欄位的值會是 script 在輸入資料的環境下執行後得到的結果。</string>
+    <string name="type_desc_calc">計算欄位可用來顯示根據條目內其他欄位的內容，以指定算式計算後求得的數值 (不可修改)。</string>
+
+    <string name="wizard_complete_text1">恭喜！</string>
+    <string name="wizard_complete_text2">您已成功建立您的庫。</string>
+    <string name="wizard_complete_text3">您之後可以隨時修改庫的結構、加入集合統計條件、自動填滿、script 等等。</string>
+    <string name="close">關閉</string>
+
+    <string name="attributes">屬性</string>
+    <string name="select_attribute_type">屬性類型</string>
+    <string name="create_attribute">建立屬性</string>
+    <string name="edit_attribute">編輯屬性</string>
+    <string name="attribute_name">屬性名稱</string>
+    <string name="required_attribute_text">屬性必須填寫</string>
+
+    <string name="attribute_display_title_in_card">屬性名稱</string>
+    <string name="attribute_display_title_in_card_hint">在條目卡片上顯示屬性的名稱</string>
+    <string name="attribute_delete_message_text">您真的要刪除「%s」屬性嗎？</string>
+    <string name="free_version_attributes_limit">免費版您只能新增一個屬性。升級到 PRO 版就沒有這個限制。</string>
+    <string name="trigger_event_link_entry">連結一個條目</string>
+    <string name="trigger_event_unlink_entry">取消連結條目</string>
+    <string name="script_cant_run_links_not_exists">無法執行 script，沒有任何連到這個庫的連結。</string>
+    <string name="entry_name_and_description">條目名稱與描述</string>
+    <string name="all_searchable_fields">所有可搜尋欄位</string>
+    <string name="search_settings_quick">快速搜尋</string>
+    <string name="search_by_specified_fields">指定欄位</string>
+    <string name="index_not_found_message">無法搜尋，條目沒有索引</string>
+    <string name="script_error_message">Script 錯誤: %s</string>
+    <string name="advanced_search">進階搜尋</string>
+    <string name="quick_filter_for_numbers">數字</string>
+    <string name="quick_filter_for_text">文字</string>
+    <string name="save_as_filter">存為過濾條件</string>
+    <string name="save_as_filter_success">您已成功建立新的過濾條件</string>
+    <string name="shortcut_not_supported">可惜您的啟動器不支援 App 捷徑。</string>
+    <string name="notification_channel_reminders">提醒</string>
+    <string name="notification_channel_entries">庫修改</string>
+    <string name="notification_channel_files">檔案</string>
+    <string name="quick_filter_limit_message">免費版只能搜尋五個欄位。
+\n升級到 PRO 版就沒有這個限制。</string>
+    <string name="button_upgrade">升級</string>
+    <string name="autofilll_source_not_supported">抱歉，%s 已不被支援。</string>
+
+</resources>

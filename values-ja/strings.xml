@@ -139,7 +139,7 @@
     <string name="activation_ok">Memento を有効化していただきありがとうございます</string>
     <string name="activation_error">アクティベーションコードは無効です。再度実行してください。</string>
     <string name="about">Memento について</string>
-    <string name="copyright">Copyright © 2016 LuckyDroid\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2018 LuckyDroid\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">バージョン情報</string>
     <string name="about_license_type">ライセンス：</string>
