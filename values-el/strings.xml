@@ -1121,7 +1121,8 @@
     <string name="pie_chart_option_3d">3Δ</string>
     <string name="library_tile_options">Τοποθέτηση στο πλακίδιο</string>
     <string name="gigabyteShort">GB</string>
-    <string name="upload_big_file_error" formatted="false">Η καταχώρηση %s περιέχει μεγάλο αρχείο %s (% s).\nΤο μέγιστο μέγεθος αρχείου είναι %s.</string>
+    <string name="upload_big_file_error" formatted="false">Η καταχώρηση %s περιέχει μεγάλο αρχείο %s (%s).
+Το μέγιστο μέγεθος αρχείου είναι %s.</string>
     <string name="prepare_library_for_cloud">Η βιβλιοθήκη είναι υπό επεξεργασία ...</string>
     <string name="download_files_from_cloud">Λήψη αρχείων από το σύννεφο...</string>
     <string name="cant_download_item_files_for_copy">Η λήψη αρχείων για τη δημιουργία αντιγράφων απέτυχε.</string> 

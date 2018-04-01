@@ -960,10 +960,10 @@ All rights reserved</string>
         <item quantity="other">%1$d звезд</item>
      </plurals>
     <plurals name="delete_entries_snackbar_text">
-	<item quantity="one">Запись% d была перемещена в корзину</item>
-	<item quantity="few">% d записей перемещено в корзину</item>
+	<item quantity="one">Запись%d была перемещена в корзину</item>
+	<item quantity="few">%d записей перемещено в корзину</item>
 	<item quantity="many">%1$d запись отправлена в корзину</item>
-	<item quantity="other"/>
+	<item quantity="other"></item>
 </plurals>
     <string name="auto_fill_barcode_empty2">Сравните атрибуты из источника автозаполнения и поля записей</string>
     <string name="barcode_rule_delete_title">Удалить правило</string>
