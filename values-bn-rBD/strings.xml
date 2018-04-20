@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="library_menu_add_item">একটি এন্ট্রি যোগ করুন</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="library_menu_add_item">এন্ট্রি যোগ করুন</string>
     <string name="main_menu_add_lib">লাইব্রেরি যোগ করুন</string>
-    <string name="ghostData_lib_title">লাইব্রেরি নাম</string>
+    <string name="ghostData_lib_title">লাইব্রেরির নাম</string>
     <string name="custom_template_title">কাষ্টম</string>
-    <string name="button_create">তৈরি</string>
+    <string name="button_create">তৈরি করুন</string>
     <string name="button_yes">হাঁ</string>
     <string name="button_ok">ঠিক আছে</string>
     <string name="button_no">না</string>
@@ -25,18 +25,18 @@
     <string name="flex_type_web">হাইপারলিঙ্ক</string>
     <string name="flex_type_map">লোকেশন</string>
     <string name="flex_type_real">বাস্তব সংখ্যা</string>
-    <string name="field_list_caption">লাইব্রেরি এন্ট্রি ফিল্ড</string>
-    <string name="flextemplate_up_item">উপর</string>
+    <string name="field_list_caption">লাইব্রেরির এন্ট্রি ফিল্ড</string>
+    <string name="flextemplate_up_item">উপরে</string>
     <string name="flextemplate_down_item">নিচে</string>
     <string name="flextemplate_edit_item">পরিবর্তন</string>
     <string name="flextemplate_delete_item">ডিলেট করুন</string>
     <string name="ghostData_template_title">ফিল্ডের নাম লিখুন</string>
     <string name="template_title">ফিল্ডের নাম</string>
-    <string name="select_flex_template_title">ফিল্ডের প্রকার</string>
+    <string name="select_flex_template_title">ফিল্ডের ধরণ</string>
     <string name="select_flex_template_role">ফিল্ডের ফাংশন</string>
     <string name="select_create_lib_template">লাইব্রেরি টেমপ্লেট সিলেক্ট করুন</string>
     <string name="button_next">পরবর্তী</string>
-    <string name="select_flex_template_type">ফিল্ডের প্রকার</string>
+    <string name="select_flex_template_type">ফিল্ডের ধরণ</string>
     <string name="default_value">ডিফল্ট মান</string>
     <string name="flex_template_options_title">এ্যাডভান্স প্যারামিটারস</string>
     <string name="error_template_empty_title">ফিল্ডের নাম টাইপ করুন</string>
@@ -47,20 +47,20 @@
     <string name="library_edit">সম্পাদন</string>
     <string name="library_delete">ডিলেট করুন</string>
     <string name="library_delete_message_title">লাইব্রেরি ডিলেট করুন</string>
-    <string name="library_delete_message_text">আপনি কি সত্যিই লাইব্রেরি \"%s\" ডিলেট ফেলতে চান?</string>
+    <string name="library_delete_message_text">আপনি কি সত্যিই লাইব্রেরি \"%s\" ডিলেট করতে চান?</string>
     <string name="error_library_empty_title">লাইব্রেরির নাম টাইপ করুন</string>
     <string name="library_item_edit">সম্পাদন</string>
     <string name="library_item_delete">ডিলেট করুন</string>
-    <string name="library_item_delete_message_text">আপনি কি সত্যিই \"%s\" এন্ট্রি ডিলেট ফেলতে চান?</string>
-    <string name="library_item_trush_message_text">আপনি সত্যিই রিসাইকেল বিন এ \"%s\" এন্ট্রি প্রেরণ করতে চান?</string>
+    <string name="library_item_delete_message_text">আপনি কি সত্যিই \"%s\" এন্ট্রি ডিলেট করতে চান?</string>
+    <string name="library_item_trush_message_text">আপনি সত্যিই রিসাইকেল বিন এ \"%s\" এন্ট্রিটি প্রেরণ করতে চান?</string>
     <string name="library_items_count">এন্ট্রিসমূহ: %s</string>
     <string name="library_menu_select_sort">সাজান</string>
     <string name="library_menu_select_group">গ্রুপ</string>
-    <string name="select_sort_template">ফিল্ড সাজানোর জন্য বাছাই করুন</string>
-    <string name="select_group_template">ফিল্ড গ্রুপ করার জন্য বাছাই করুন</string>
+    <string name="select_sort_template">ফিল্ড সাজানোর জন্য সিলেক্ট করুন</string>
+    <string name="select_group_template">ফিল্ড গ্রুপ করার জন্য সিলেক্ট করুন</string>
     <string name="sort_by_date">তৈরির সময়</string>
     <string name="flex_delete_message_title">ফিল্ড ডিলেট করুন</string>
-    <string name="flex_delete_message_text">আপনি কি সত্যিই \"%s\" ফিল্ড ডিলেট ফেলতে চান?</string>
+    <string name="flex_delete_message_text">আপনি কি সত্যিই \"%s\" ফিল্ড ডিলেট করতে চান?</string>
     <string name="not_group">কোন গ্রুপ নাই</string>
     <string name="bool_yes">হা</string>
     <string name="bool_not">না</string>
@@ -80,7 +80,7 @@
     <string name="date_default_null">ডিফল্ট হিসেবে খালি মান</string>
     <string name="clear_trash_progress_dialog_title">খালি ঝুড়ি</string>
     <string name="clear_trash_dialog_title">খালি ঝুড়ি</string>
-    <string name="clear_trash_dialog_text">আপনি কি ট্র্যাশ থেকে সত্যিই সকল এন্ট্রিগুলো ডিলেট ফেলতে চান?</string>
+    <string name="clear_trash_dialog_text">আপনি কি ট্র্যাশ থেকে সত্যিই সকল এন্ট্রিগুলো ডিলেট করতে চান?</string>
     <string name="mobile">মোবাইল</string>
     <string name="home">বাড়ি</string>
     <string name="work">কাজ</string>
@@ -88,7 +88,7 @@
     <string name="pager">পেজার</string>
     <string name="image_not_found">ছবি পাওয়া যায়নি</string>
     <string name="audio_not_found">কোন অডিও ট্রাক পাওয়া যায়নি</string>
-    <string name="flex_type_money_currency_dlg_title">মুদ্রা বাছাই করুন</string>
+    <string name="flex_type_money_currency_dlg_title">মুদ্রা সিলেক্ট করুন</string>
     <string name="flex_type_money_currency_option_title">মুদ্রা</string>
     <string name="flex_type_money_default_currency">আমেরিকান ডলার</string>
     <string name="flex_role_not_usage">নিয়মিত ফিল্ড</string>
@@ -102,8 +102,8 @@
     <string name="item_remove_from_favorite">এই এন্ট্রিটি পছন্দের থেকে বাদ দেয়া হয়েছে</string>
     <string name="history_dialog_title">ইতিহাস</string>
     <string name="favorites_dialog_title">পছন্দসমূহ</string>
-    <string name="map_coord_not_set_hint">লোকেশন বাছাই করতে স্পর্শ করুন</string>
-    <string name="select_map_coord">স্থান বাছাই করুন</string>
+    <string name="map_coord_not_set_hint">লোকেশন সিলেক্ট করতে স্পর্শ করুন</string>
+    <string name="select_map_coord">স্থান সিলেক্ট করুন</string>
     <string name="find_selected_address">ঠিকানা খুঁজুন...</string>
     <string name="open_gmap">Google Maps খুলুন</string>
     <string name="help">সাহায্য</string>
@@ -148,7 +148,7 @@
     <string name="about_license_type">লাইসেন্স:</string>
     <string name="pro_version">PRO ভার্সন</string>
     <string name="send_library_item">পাঠানো</string>
-    <string name="send_chooser_title">পাঠানোর জন্য অ্যাপ্লিকেশন বাছাই করুন:</string>
+    <string name="send_chooser_title">পাঠানোর জন্য অ্যাপ্লিকেশন সিলেক্ট করুন:</string>
     <string name="create_shortcut">শর্টকাট তৈরি করুন</string>
     <string name="app_name_library">Memento লাইব্রেরি</string>
     <string name="error_cant_open_memento_dir">ত্রুটি: ফ্ল্যাশ কার্ডের ডিরেক্টরি memento থেকে খোলা যাচ্ছে না</string>
@@ -159,7 +159,7 @@
     <string name="csvimport_from">%s থেকে ইমপোর্ট করুন</string>
     <string name="csvexport_to">%s এ এক্সপোর্ট করুন</string>
     <string name="csvimport_summary">একটি CSV ফাইল থেকে এন্ট্রি ইমপোর্ট করা হচ্ছে</string>
-    <string name="select_csv_file_title">memento ফোল্ডারে CSV ফাইল</string>
+    <string name="select_csv_file_title">Memento ফোল্ডারের CSV ফাইল</string>
     <string name="button_import">ইমপোর্ট</string>
     <string name="button_export">এক্সপোর্ট</string>
     <string name="find_csv_column_title">নির্বাচিত ফাইল এ এন্ট্রি ফিল্ড পাওয়া যায়:</string>
@@ -176,7 +176,7 @@
     <string name="export_success">এন্ট্রিসমূহ /sdcard/memento/%s এ এক্সপোর্ট করা হয়েছে</string>
     <string name="export_error">এন্ট্রি এক্সপোর্ট করতে ব্যর্থ হয়েছে:
 %s</string>
-    <string name="library_saved">লাইব্রেরি সংরক্ষিত</string>
+    <string name="library_saved">লাইব্রেরিটি সংরক্ষিত</string>
     <string name="library_created">লাইব্রেরি তৈরি করা হয়েছে</string>
     <string name="msg_default_status">এটি স্ক্যান করার জন্য ভিউফাইন্ডার আয়তফিল্ডের ভিতরে একটি বারকোড রাখুন।</string>
     <string name="scan_library_item">বারকোড স্ক্যান করুন</string>
@@ -199,7 +199,7 @@
     <string name="preference_restore_libs_title">লাইব্রেরি উদ্ধার করুন</string>
     <string name="preference_restore_libs_hint">ডিলেট করা লাইব্রেরিসমূহ পুনরুদ্ধার করুন</string>
     <string name="preference_category_general">সাধারণ</string>
-    <string name="library_import_and_export">সেটিংস%s</string>
+    <string name="library_import_and_export">সেটিংস %s</string>
     <string name="recovering">পুনরুদ্ধার হচ্ছে</string>
     <string name="recovering_message">লাইব্রেরি পুনরুদ্ধার করা হচ্ছে</string>
     <string name="library_recover">পুনরুদ্ধার</string>
@@ -320,7 +320,7 @@ Memento সার্ভারে</string>
     <string name="subscribe_have_updated_pack">লাইব্রেরি আপডেট গ্রহণ করা হচ্ছে</string>
     <string name="subscribe_last_update">সর্বশেষ আপডেট%s</string>
     <string name="subscribe_last_update_dialog_title">লাইব্রেরি আপডেট করুন</string>
-    <string name="subscribe_last_update_dialog_message">লাইব্রেরি আপডেট করা হচ্ছে</string>
+    <string name="subscribe_last_update_dialog_message">লাইব্রেরিটি আপডেট করা হচ্ছে</string>
     <string name="clear_preference">লাইব্রেরি ক্লিয়ারিং</string>
     <string name="clear_preference_hint">লাইব্রেরির সমস্ত এন্ট্রি ডিলেট করা হচ্ছে</string>
     <string name="clear_preference_quest">লাইব্রেরির সমস্ত এন্ট্রি ডিলেট করুন?</string>
@@ -355,7 +355,7 @@ Memento সার্ভারে</string>
     <string name="export_template_error">ইমপোর্ট টেমপ্লেট ত্রুটি:%s</string>
     <string name="import_template_success">টেমপ্লেটটি ইমপোর্ট করা হয়েছে</string>
     <string name="wrong_template_version">Memento আপনার ভার্সনটি নির্বাচিত টেমপ্লেট ফাইলটি সমর্থন করে না। আপডেট স্মরণ।</string>
-    <string name="flex_type_library_entry">এন্ট্রি লিঙ্ক করুন</string>
+    <string name="flex_type_library_entry">এন্ট্রিতে লিঙ্ক করুন</string>
     <string name="flex_type_entry_option_title">লাইব্রেরি</string>
     <string name="flex_type_entry_option_dlg_title">লাইব্রেরি সিলেক্ট করুন</string>
     <string name="flex_type_entry_select_library">একটি লাইব্রেরি সিলেক্ট করুন, এন্ট্রিসমূহ এই ফিল্ডে ব্যবহার করা হবে।</string>
@@ -384,7 +384,7 @@ Memento সার্ভারে</string>
     <string name="help_create_library">লাইব্রেরি তৈরি করা</string>
     <string name="help_edit_field">লাইব্রেরির কাঠামো নির্ধারণ করা</string>
     <string name="help_library_items">লাইব্রেরি এন্ট্রির সাথে কাজ হচ্ছে</string>
-    <string name="help_import_export">CSV ফাইলসমূহ ইমপোর্ট ও এক্সপোর্ট করা</string>
+    <string name="help_import_export">CSV ফাইলসমূহ ইমপোর্ট ও এক্সপোর্ট করা হচ্ছে</string>
     <string name="help_barcode">বারকোড স্ক্যানার</string>
     <string name="help_gdocs_sync">Google Sheetsসমূহের সাথে সিঙ্ক্রোনাইজেশন করুন</string>
     <string name="help_publish">প্রকাশনা লাইব্রেরি</string>
@@ -403,11 +403,11 @@ Memento সার্ভারে</string>
     <string name="button_home">হোম</string>
     <string name="library_is_locked">এনক্রিপ্ট করা লাইব্রেরির অ্যাক্সেস বন্ধ আছে</string>
     <string name="library_pass_access_description">এই লাইব্রেরিটি অ্যাক্সেস করার জন্য আপনাকে মাস্টার পাসওয়ার্ড লিখতে হবে</string>
-    <string name="library_encription_checkbox">বিষয়বস্তু এনক্রিপ্ট</string>
+    <string name="library_encription_checkbox">বিষয়বস্তু এনক্রিপ্ট করুন</string>
     <string name="library_encription_description">এন্ট্রিসমূহের স্ট্রিং ফিল্ডসমূহ AES এর সাহায্যে এনক্রিপ্ট করা হবে।
 এনক্রিপ্ট করা এন্ট্রি অনুসন্ধান সমর্থিত নয়।</string>
     <string name="set_library_protection_title">এন্ট্রি এনক্রিপ্টিং হচ্ছে</string>
-    <string name="set_library_protection_message">লাইব্রেরি এন্ট্রি এনক্রিপ্ট করা হচ্ছে...</string>
+    <string name="set_library_protection_message">লাইব্রেরির এন্ট্রি এনক্রিপ্ট করা হচ্ছে...</string>
     <string name="remove_library_protection">সুরক্ষা সরান</string>
     <string name="remove_library_protection_desc">এই লাইব্রেরি অ্যাক্সেস করতে কোনও পাসওয়ার্ডের প্রয়োজন হবে না</string>
     <string name="remove_library_protection_question">আপনি সত্যিই লাইব্রেরি অরক্ষিত করতে চান?</string>
@@ -437,7 +437,7 @@ Memento সার্ভারে</string>
     <string name="font_size_screen_preference_summary">এন্ট্রি এবং এন্ট্রি তালিকা ফন্ট</string>
     <string name="font_size_category_entries_list">এন্ট্রির তালিকাতে ফন্ট</string>
     <string name="font_size_category_entries_card">এন্ট্রির ফন্ট</string>
-    <string name="font_size_dialog">অক্ষরের আকার</string>
+    <string name="font_size_dialog">ফন্টের আকার</string>
     <string name="entry_name_font_size_preference">এন্ট্রি নাম</string>
     <string name="entry_desc_font_size_preference">এন্ট্রির বর্ণনা</string>
     <string name="entry_status_font_size_preference">প্রবেশ অবস্থা</string>
@@ -452,7 +452,7 @@ Memento সার্ভারে</string>
     <string name="save_library_task_message">লাইব্রেরির কাঠামো সংরক্ষণ</string>
     <string name="save_library_task_recalc">ফিল্ড পুনঃসংখ্যা</string>
     <string name="memento_funct_promt">ফাংশনস</string>
-    <string name="help_calc">গণনা ফিল্ড</string>
+    <string name="help_calc">গণনার ফিল্ড</string>
     <string name="library_template_name">টেম্পলেট নাম</string>
     <string name="template_category">শ্রেণী</string>
     <string name="template_description">টেমপ্লেট বিবরণ</string>
@@ -487,7 +487,7 @@ Memento সার্ভারে</string>
     <string name="colon_after_name">নামের পরে কোলন</string>
     <string name="colon_after_name_summary">ফিল্ড নামের পরে একটি কোলন
 ব্যবহার করুন</string>
-    <string name="formatted_string_value">ফিল্ডের ধরন একাধিক বাছাই মান</string>
+    <string name="formatted_string_value">ফিল্ডের ধরন একাধিক সিলেক্ট মান</string>
     <string name="formatted_string_value_summary">একটি সারিতে মান সংখ্যা</string>
     <string name="reminders_label">মনে করানো</string>
     <string name="flex_role_icon">ছোট ছবি</string>
@@ -498,8 +498,8 @@ Memento সার্ভারে</string>
     <string name="add_email_template_dialog_text">টেমপ্লেটের নাম</string>
     <string name="delete_email_template">টেমপ্লেট ডিলেট করুন</string>
     <string name="delete_email_template_dialog_text">আপনি কি সত্যিই বর্তমান
-টেমপ্লেটটি ডিলেট ফেলতে চান?</string>
-    <string name="select_email_template">টেমপ্লেট বাছাই করুন</string>
+টেমপ্লেটটি ডিলেট করতে চান?</string>
+    <string name="select_email_template">টেমপ্লেট সিলেক্ট করুন</string>
     <string name="required_field">জরুরি</string>
     <string name="required_field_text">ফিল্ড অবশ্যই পূরণীয়</string>
     <string name="field_send_by_email_summary">নাম এবং ফিল্ডের মান ই-মেইল /
@@ -542,10 +542,8 @@ Memento সার্ভারে</string>
     <string name="updated_document_time">আপডেট করা হয়েছে:%s</string>
     <string name="move_from_google_docs">Google শীট থেকে স্মরণে তথ্য
 স্থানান্তর করুন</string>
-    <string name="move_from_google_docs_attention">সমস্ত পাওয়া যায় লাইব্রেরির এন্ট্রি ডিলেট
-ফেলা হবে</string>
-    <string name="move_from_memento">Memento থেকে Google Sheets থেকে
-ডেটা স্থানান্তর করুন</string>
+    <string name="move_from_google_docs_attention">সমস্ত প্রবেশযোগ্য লাইব্রেরির এন্ট্রি ডিলেট করা হবে</string>
+    <string name="move_from_memento">Memento থেকে Google Sheets এ ডাটা স্থানান্তর করুন</string>
     <string name="move_from_memento_attention">Google Sheetsসমূহতে সমস্ত পাওয়া যায় ডেটা
 সরানো হবে</string>
     <string name="find_in_spreadsheet_column_title">Memento এবং Google Sheetsসমূহের
@@ -553,7 +551,7 @@ Memento সার্ভারে</string>
     <string name="google_doc_exists_link_option">সংযোগের প্যারামিটার</string>
     <string name="get_google_docs_columns_message">নির্বাচিত Google Sheetsসমূহের জন্য
 কলামের তালিকা লোড হচ্ছে ...</string>
-    <string name="field_not_found">পাওয়া যায় নি</string>
+    <string name="field_not_found">পাওয়া যায়নি</string>
     <string name="field_not_sync">সিঙ্ক্রোনাইজেশন না</string>
     <string name="link_button">লিঙ্ক</string>
     <string name="prepare_linking_library">লিঙ্কিং জন্য প্রস্তুত করা হচ্ছে...</string>
@@ -566,7 +564,7 @@ Memento সার্ভারে</string>
     <string name="date_format_sample">তারিখ বিন্যাস:%s</string>
     <string formatted="false" name="stats_title_in_list">%s দ্বারা%s</string>
     <string name="sum_function_title">সমষ্টি</string>
-    <string name="max_function_title">ম্যাক্স</string>
+    <string name="max_function_title">সর্বোচ্চ</string>
     <string name="min_function_title">ন্যূনতম</string>
     <string name="avg_function_title">গড়</string>
     <string name="align_left">বাম</string>
@@ -578,7 +576,7 @@ Memento সার্ভারে</string>
     <string name="create_stat_item_title">একটি ফাংশন নির্মাণ</string>
     <string name="select_stat_function_title">একটি ফাংশন সিলেক্ট করুন</string>
     <string name="select_field_title">একটি ফিল্ড সিলেক্ট করুন</string>
-    <string name="dont_have_field_for_function">কোন মিলিত ফিল্ড নেই</string>
+    <string name="dont_have_field_for_function">কোন ফিল্ডের মিল পাওয়া যায়নি</string>
     <string name="line_number">লাইন%s</string>
     <string name="ghostData_template_hint">ফিল্ড ইঙ্গিত লিখুন</string>
     <string name="template_hint">ফিল্ড ইঙ্গিত</string>
@@ -595,7 +593,7 @@ Memento সার্ভারে</string>
     <string name="add_group_dialog_hint">গ্রুপ নাম টাইপ করুন</string>
     <string name="button_delete_goup">গ্রুপটি ডিলেট করুন</string>
     <string name="group_delete_message_title">গ্রুপটি ডিলেট করুন</string>
-    <string name="group_delete_message_text">আপনি কি সত্যিই \"%s\" গ্রুপটি ডিলেট ফেলতে চান?</string>
+    <string name="group_delete_message_text">আপনি কি সত্যিই \"%s\" গ্রুপটি ডিলেট করতে চান?</string>
     <string name="main_lock_button_text">লাইব্রেরি অ্যাক্সেস লক</string>
     <string name="lock_libraries_completed">এনক্রিপ্ট করা লাইব্রেরি অ্যাক্সেস বন্ধ</string>
     <string name="amazon_source_option_title">অ্যামাজন</string>
@@ -605,7 +603,7 @@ Memento সার্ভারে</string>
     <string name="library_ex_options">উন্নত পরামিতিসমূহ</string>
     <string name="library_last_edit">%s আপডেট করা হয়েছে</string>
     <string name="library_last_sync">%s সিঙ্ক্রোনাইজেশন করুন</string>
-    <string name="user_manual_menu">সাহায্য বিষয়বস্তু</string>
+    <string name="user_manual_menu">সাহায্যের বিষয়বস্তু</string>
     <string name="save_library_changes">পরিবর্তনগুলোর সংরক্ষন করুন?</string>
     <string name="build_navigate_list_dialog">বিন্যাসে সাজানো ...</string>
     <string name="navigate_first_entry">এই এন্ট্রি প্রথম</string>
@@ -618,7 +616,7 @@ Memento সার্ভারে</string>
     <string name="clear_filter">স্বচ্ছ ছাকুনী</string>
     <string name="new_filter_dialog_title">নতুন ফিল্টার</string>
     <string name="new_filter_dialog_text">ফিল্টারের নাম</string>
-    <string name="delete_filter_dialog_text">আপনি কি সত্যিই \"%s\" ফিল্টারটি ডিলেট ফেলতে চান?</string>
+    <string name="delete_filter_dialog_text">আপনি কি সত্যিই \"%s\" ফিল্টারটি ডিলেট করতে চান?</string>
     <string name="add_to_favorite">ফেভারিটে যোগ করুন</string>
     <string name="remove_from_favorite">পছন্দের তালিকা থেকে অপসারণ</string>
     <string name="search_result_subtitle">অনুসন্ধান ফলাফল</string>
@@ -629,16 +627,16 @@ Memento সার্ভারে</string>
     <string name="db_location_pref_title">ডাটাবেস লোকেশন</string>
     <string name="moving_database_dialog_message">ডাটাবেস স্থানান্তর ...</string>
     <string name="moving_database_error">ডাটাবেস স্থানান্তর করা যাবে না</string>
-    <string name="my_templates">আমার টেমপ্লেট</string>
+    <string name="my_templates">আমার টেমপ্লেটসমূহ</string>
     <string name="most_popular">সবচেয়ে জনপ্রিয়</string>
     <string name="templates_sort_dialog_title">টেমপ্লেটসমূহ সাজান</string>
-    <string name="delete_catalog_template_title">টেমপ্লেট ডিলেট ফেলছে</string>
-    <string name="delete_catalog_template_message">আপনি কি অনলাইন তালিকা থেকে টেমপ্লেটটি%s ডিলেট ফেলতে চান?</string>
+    <string name="delete_catalog_template_title">টেমপ্লেটটি ডিলেট করা হচ্ছে</string>
+    <string name="delete_catalog_template_message">আপনি কি অনলাইন তালিকা থেকে টেমপ্লেটটি%s ডিলেট করতে চান?</string>
     <string name="cant_share_template_withous_fields">আপনি ফিল্ড ছাড়া টেমপ্লেট ভাগ করতে পারবেন না</string>
     <string name="reset_pass_button">আপনি কি পাসওয়ার্ড ভুলে গেছেন?</string>
     <string name="request_pass_dialog_title">পাসওয়ার্ড পরিবর্তন</string>
     <string name="request_pass_dialog_text">আপনার Memento অ্যাকাউন্টটি সনাক্ত করতে আমাদের সাহায্য করার জন্য একটি ইমেল ঠিকানা লিখুন</string>
-    <string name="request_pass_dialog_hint">ইমেল ঠিকানা</string>
+    <string name="request_pass_dialog_hint">ইমেলের ঠিকানা</string>
     <string name="change_password_success">অনুগ্রহপূর্বক আপনার ইমেইল চেক করুন
 আমরা আপনাকে একটি ইমেল পাঠিয়েছি যা আপনাকে দ্রুত এবং সহজে আপনার পাসওয়ার্ড পুনরায় সেট করার অনুমতি দেবে।</string>
     <string name="tile_options_text">শিরোনাম</string>
@@ -652,7 +650,7 @@ Memento সার্ভারে</string>
     <string name="backup_success2">ব্যাকআপ সম্পূর্ণ</string>
     <string name="restore_file_path_title">ব্যাকআপ সহ ডিরেক্টরি</string>
     <string name="auto_bakup_dir_pref_title">স্বয়ংক্রিয় ব্যাকআপের জন্য ডিরেক্টরি</string>
-    <string name="google_play_not_found_message">আপনার ডিভাইসে Google Play নেই আপনি ডেভেলপার-সাইট থেকে OI ফাইল ম্যানেজার ডাউনলোড করতে পারেন।</string>
+    <string name="google_play_not_found_message">আপনার ডিভাইসে Google Play নেই। আপনি ডেভেলপার-সাইট থেকে OI ফাইল ম্যানেজার ডাউনলোড করতে পারেন।</string>
     <string name="library_not_found_dialog_title">লাইব্রেরি</string>
     <string name="library_not_found_dialog_message">লাইব্রেরি পাওয়া যায় নি। হয়তো লাইব্রেরি সরানো হয়েছে।</string>
     <string name="add_field_above">উপরের একটি ফিল্ড যোগ করুন</string>
@@ -662,18 +660,18 @@ Memento সার্ভারে</string>
     <string name="flex_type_int_default_value">ডিফল্ট মান উল্লেখ করুন</string>
     <string name="flex_type_int_min">শুরু</string>
     <string name="flex_type_int_max">শেষ</string>
-    <string name="flex_type_int_main_options_title">সংখ্যা ক্রম</string>
+    <string name="flex_type_int_main_options_title">সংখ্যার ক্রম</string>
     <string name="flex_type_int_allow_direct_input">সরাসরি ইনপুট অনুমতি দিন</string>
     <string name="flex_type_int_allow_direct_input2">সরাসরি ঢুকানো</string>
     <string name="visible_field_depend_type">এই ফিল্ডের দৃশ্যমানতা</string>
     <string name="visible_field_depend_state_visible">দৃশ্যমান</string>
     <string name="field_depends">ফিল্ডের নির্ভরতা</string>
     <string name="field_depends_activity_title">নির্ভরতা</string>
-    <string name="no_dependencies">কোন নির্ভরশীলতা</string>
+    <string name="no_dependencies">কোন নির্ভরশীলতা নাই</string>
     <string name="add_depends_button_title">একটি নির্ভরতা যোগ করুন</string>
     <string name="library_dont_have_fields_for_depends">এই ফিল্ডের নির্ভরতা নির্মাণের জন্য লাইব্রেরিতে কোন উপযুক্ত ফিল্ড নেই</string>
     <string name="select_type_depends">নির্ভরতার ধরন সিলেক্ট করুন</string>
-    <string name="select_type_depends_spinner_title">নির্ভরতা প্রকার</string>
+    <string name="select_type_depends_spinner_title">নির্ভরতার ধরণ</string>
     <plurals name="field_depends_count">
 	<item quantity="one">পূর্ণসংখ্যা মান</item>
 	<item quantity="other">%d নির্ভরতা</item>
@@ -686,7 +684,7 @@ Memento সার্ভারে</string>
     <string name="visible_field_depend_description">%s ফিল্ডের মানগুলি স্বীকার করলে ফিল্ডটি এই অবস্থায় থাকবে</string>
     <string name="depend_from">এই ফিল্ডের দৃশ্যমানতা %s</string>
     <string name="delete_depend_dialog_title">নির্ভরতা ডিলেট করুন</string>
-    <string name="delete_depend_dialog_message">আপনি কি সত্যিই \"%s\" ফিল্ড থেকে নির্ভরতা ডিলেট ফেলতে চান?</string>
+    <string name="delete_depend_dialog_message">আপনি কি সত্যিই \"%s\" ফিল্ড থেকে নির্ভরতা ডিলেট করতে চান?</string>
     <string name="sl_content_depend_type">এই ফিল্ডের বিষয়বস্তু</string>
     <string name="sl_content_depend_pretitle">ফিল্ড মান%s</string>
     <plurals name="library_box_entries_count">
@@ -698,7 +696,7 @@ Memento সার্ভারে</string>
     <string name="backup_files_progress_title">ফাইল ব্যাকআপ</string>
     <string name="backup_files_error">ব্যাকআপ ফাইলের সময় ত্রুটি:%s</string>
     <string name="restore_files_message">ব্যাকআপ কপিটিতে ডাটাবেসের সাথে যুক্ত ফাইলসমূহের একটি আর্কাইভ রয়েছে; আপনি তাদের পুনরুদ্ধার করতে চান?</string>
-    <string name="restore_files_progress_title">ফাইল পুনরুদ্ধার</string>
+    <string name="restore_files_progress_title">ফাইল পুনরুদ্ধার করা হচ্ছে</string>
     <string name="restore_files_success2">ডাটাবেসের সাথে যুক্ত সমস্ত ফাইল আনপ্যাক করা হয়েছে</string>
     <string formatted="false" name="restore_files_error_message">আর্কাইভ থেকে ফাইলসমূহ পুনরুদ্ধার করতে ব্যর্থ হয়েছে:%s</string>
     <string name="restore_files_error">ফাইলসমূহ পুনরুদ্ধার করতে ব্যর্থ হয়েছে</string>
@@ -716,21 +714,21 @@ Memento সার্ভারে</string>
     <string name="reindex_complete_message">পুনঃ ইনডেক্সিং সম্পূর্ণ</string>
     <string name="files_backup_not_found_files">ফাইল খুঁজে পাওয়া যায়নি:</string>
     <string name="files_storage_settings_screen">ফাইল সংগ্রহস্থল</string>
-    <string name="files_storage_settings_screen_summary">ছবি এবং অন্যান্য ফাইল স্থাপন</string>
+    <string name="files_storage_settings_screen_summary">ছবি এবং অন্যান্য ফাইল স্থাপন করা হচ্ছে</string>
     <string name="files_storage_settings_path_title">ফাইল স্টোরেজ ফোল্ডার</string>
     <string name="files_storage_settings_dublicate_title">স্টোরেজ কপি</string>
     <string name="files_storage_settings_dublicate_summary">রেকর্ড সংযুক্ত ফাইলসমূহ স্টোরেজ ফোল্ডারে কপি করা হবে</string>
     <string name="files_storage_settings_remove_original_title">মূলসমূহ ডিলেট করুন</string>
     <string name="files_storage_settings_remove_original_summary">ফাইলসমূহের স্টোরেজ কপি করার পরে, মূলসমূহ ডিলেট করুন</string>
     <string name="dublicate_file_error">"সংগ্রহস্থলের মধ্যে একটি ফাইল সরাতে পারে না: "</string>
-    <string name="select_map_type">মানচিত্রের প্রকার</string>
+    <string name="select_map_type">মানচিত্রের ধরণ</string>
     <string name="normal">সাধারণ</string>
     <string name="hybrid">হাইব্রিড</string>
     <string name="satellite">উপগ্রহ</string>
     <string name="terrain">ভূখণ্ড</string>
     <string name="open_map_menu_item">মানচিত্র</string>
     <string name="none_files_cloud_storage">না</string>
-    <string name="select_files_cloud_storage">সিঙ্ক্রোনাইজেশনেশনের জন্য একটি ক্লাউড সার্ভার বাছাই করুন</string>
+    <string name="select_files_cloud_storage">সিঙ্ক্রোনাইজেশনেশনের জন্য একটি ক্লাউড সার্ভার সিলেক্ট করুন</string>
     <string name="files_cloud_storage_pref">ফাইলসমূহ সিঙ্ক্রোনাইজেশন করা হচ্ছে</string>
     <string name="link_to_new_document">নতুন ডকুমেন্টে লিঙ্ক করুন</string>
     <string name="link_to_existing_document">বিদ্যমান ডকুমেন্টর সাথে লিঙ্ক করুন</string>
@@ -738,7 +736,7 @@ Memento সার্ভারে</string>
     <string name="list_library_in_google">Google Driveে লাইব্রেরিসমূহের তালিকা</string>
     <string name="add_lib_from_google_drive">Google Drive থেকে</string>
     <string name="selected">%s নির্বাচিত</string>
-    <string name="delete_template_from_google_drive_question">আপনি কি সত্যিই Google Drive থেকে নির্বাচিত লাইব্রেরি ডিলেট ফেলতে চান?</string>
+    <string name="delete_template_from_google_drive_question">আপনি কি সত্যিই Google Drive থেকে নির্বাচিত লাইব্রেরি ডিলেট করতে চান?</string>
     <string name="delete_data_table_from_google_drive">টেমপ্লেটসমূহের সাথে সম্পর্কিত তথ্য স্প্রেডশীটসমূহ সরান</string>
     <string name="lock_library_edit_message">লাইব্রেরির কাঠামোর পরিবর্তনসমূহ লক করা আছে।
 আপনি এই লাইব্রেরির সেটিংসে সম্পাদনা সামর্থ্য চালু করতে পারেন।</string>
@@ -761,13 +759,13 @@ Memento সার্ভারে</string>
     <string name="add_button">যোগ</string>
     <string name="default_entry_page_title">মূল</string>
     <string name="entry_page_title">পৃষ্ঠা নাম</string>
-    <string name="cant_delete_main_page">আপনি ডিফল্ট পৃষ্ঠাটি ডিলেট ফেলতে পারবেন না।</string>
+    <string name="cant_delete_main_page">আপনি ডিফল্ট পৃষ্ঠাটি ডিলেট করতে পারবেন না।</string>
     <string name="field_count_on_page">ফিল্ড:%s</string>
-    <string name="master_libraries_list_caption">লাইব্রেরি থেকে এন্ট্রি তালিকা</string>
+    <string name="master_libraries_list_caption">লাইব্রেরি থেকে এন্ট্রির তালিকা</string>
     <string name="view_on_this_page_title">এই পৃষ্ঠাতে দেখান</string>
     <string name="set_default_page">ডিফল্ট সেট করুন</string>
     <string name="entry_page_default">ডিফল্ট</string>
-    <string name="entry_page_delete_message_text">আপনি কি সত্যিই \"%s\" পৃষ্ঠাটি ডিলেট ফেলতে চান?</string>
+    <string name="entry_page_delete_message_text">আপনি কি সত্যিই \"%s\" পৃষ্ঠাটি ডিলেট করতে চান?</string>
     <string name="faq">প্রায়শই জিজ্ঞাসিত প্রশ্নাবলী</string>
     <string name="accept_button">আমি স্বীকার করছি</string>
     <string name="sort_by_subtitle">%s দ্বারা</string>
@@ -777,11 +775,11 @@ Memento সার্ভারে</string>
     <string name="sliding_hint_text">ডান থেকে বাম দিকে সোয়াইপ করুন
 উন্নত মেনু খুলতে -
 সাজানোর, গ্রুপ, ফিল্টার, চার্ট এবং আরও ...</string>
-    <string name="multy_sorting">একাধিক ফিল্ড দ্বারা বাছাই করুন</string>
+    <string name="multy_sorting">একাধিক ফিল্ড দ্বারা সিলেক্ট করুন</string>
     <string name="new_button">নতুন</string>
     <string name="free_version_entry_page_limit">বিনামূল্যে ভার্সনে আপনি কেবল দুটি পৃষ্ঠা তৈরি করতে পারেন। এই সীমাবদ্ধতা দূর করতে PRO ভার্সনে আপগ্রেড করুন।</string>
     <string name="button_change_activation_code">অ্যাক্টিভেশন</string>
-    <string name="select_button">বাছাই</string>
+    <string name="select_button">সিলেক্ট</string>
     <string name="clear_button">ডিলেট করুন</string>
     <string name="image_info_button">ইনফো</string>
     <string name="error_library_not_unique_field_names">লাইব্রেরির ফিল্ডের নামসমূহ অনন্য হতে হবে। ফিল্ড চেক করুন:%s।</string>
@@ -798,9 +796,9 @@ Memento সার্ভারে</string>
     <string name="flex_type_signature">সিগনেচার</string>
     <string name="flex_type_signature_options_title">পেইন্ট অপশন</string>
     <string name="flex_type_signature_options_hint">ক্যানভাসের আকার এবং ব্যাকগ্রাউন্ড, ব্রাশ সেটিংস</string>
-    <string name="flex_type_signature_width_title">স্বাক্ষর এর প্রস্থ</string>
+    <string name="flex_type_signature_width_title">স্বাক্ষরের প্রস্থ</string>
     <string name="flex_type_signature_height_title">স্বাক্ষরের উচ্চতা</string>
-    <string name="flex_type_signature_paint_color_title">ব্রাশ রং</string>
+    <string name="flex_type_signature_paint_color_title">ব্রাশের রং</string>
     <string name="flex_type_signature_background_title">ব্যাকগ্রাউন্ড রং</string>
     <string name="flex_type_signature_paint_size_title">ব্রাশের আকার</string>
     <string name="signature_save_error">স্বাক্ষর সংরক্ষণ করার সময় ত্রুটি:%s</string>
@@ -820,7 +818,7 @@ Memento সার্ভারে</string>
     <string name="chart_option_display_legends">প্রদর্শনী কিংবদন্তি</string>
     <string name="chart_values_function">কাজ</string>
     <string name="chart_edit_error_need_title">চার্ট নাম লিখুন</string>
-    <string name="chart_delete_message">আপনি কি সত্যিই \"%s\" চার্টটি ডিলেট ফেলতে চান?</string>
+    <string name="chart_delete_message">আপনি কি সত্যিই \"%s\" চার্টটি ডিলেট করতে চান?</string>
     <string name="chart_other_value">অন্য</string>
     <string name="pie_chart_category_title">ক্যাটাগরি</string>
     <string name="pie_chart_values_title">মান</string>
@@ -843,7 +841,7 @@ Memento সার্ভারে</string>
     <string name="chart_to_image_menu_item">ইমেজ হিসাবে সংরক্ষণ করুন</string>
     <string name="chart_to_image_file_name">ফাইলের নাম লিখুন</string>
     <string name="copy_chart_menu_item">কপি</string>
-    <string name="change_chart_type_dialog_title">পাওয়া যায় এমন ধরনের</string>
+    <string name="change_chart_type_dialog_title">সহজলভ্য ধরনের</string>
     <string name="chart_dont_have_compatible_types">এই চার্টের ধরন অন্য ধরনের চার্টসমূহের সাথে অসঙ্গতিপূর্ণ</string>
     <string name="chart_copy_title_postfix">কপি</string>
     <string name="chart_validate_error_empty_fields">আপনাকে একটি ডেটা ফিল্ড সিলেক্ট করতে হবে</string>
@@ -857,7 +855,7 @@ Memento সার্ভারে</string>
     <string name="download_image_from_google_photo_message">ছবিটি Google ফটো থেকে ডাউনলোড করা হচ্ছে ...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">ওয়েব থেকে তথ্য প্রবেশ ফিল্ডসমূহতে প্রবেশ করা হবে</string>
     <string name="google_base_field_new">উৎস থেকে অ্যাট্রিবিউট মান</string>
-    <string name="wrong_search_query_string_1">অনুসন্ধান ক্যোয়ারী \"-\" দিয়ে শুরু করতে পারে না</string>
+    <string name="wrong_search_query_string_1">অনুসন্ধান প্রশ্ন \"-\" দিয়ে শুরু করতে পারে না</string>
     <string name="link_master_library_not_found">দুঃখিত, এই ফিল্ডের সাথে সংযুক্ত লাইব্রেরিটি পাওয়া যায় না</string>
     <string name="sync_with_google_drive_dont_support">আপনার Android Google Driveের সাথে সিঙ্ক্রোনাইজেশন সমর্থন করে না</string>
     <string name="internal_storage_title">ডিভাইসের অভ্যন্তরীণ স্টোরেজ</string>
@@ -878,7 +876,7 @@ Memento সার্ভারে</string>
     <string name="create_chart">চার্ট তৈরি করুন</string>
     <string name="edit_chart">চার্ট সম্পাদনা করুন</string>
     <string name="edit_library_main_color">লাইব্রেরির রং</string>
-    <string name="color_swatch_description">রং%d</string>
+    <string name="color_swatch_description">রং %d</string>
     <string name="color_swatch_description_selected">রং%d নির্বাচিত</string>
     <string name="button_palette">প্যালেট ...</string>
     <string name="button_own_pictures">গ্যালারি...</string>
@@ -928,7 +926,7 @@ Memento সার্ভারে</string>
     <string name="string_list_edit_item_title_hint">পণ্যের শিরোনাম</string>
     <string name="string_list_add_item_dialog_title">আইটেম যোগ করুন</string>
     <string name="string_list_edit_item_dialog_title">আইটেম সম্পাদনা করুন</string>
-    <string name="delete_string_list_item_message">আপনি কি সত্যিই \"%s\" আইটেমটি ডিলেট ফেলতে চান?</string>
+    <string name="delete_string_list_item_message">আপনি কি সত্যিই \"%s\" আইটেমটি ডিলেট করতে চান?</string>
     <string name="icon">আইকন</string>
     <string name="color">রং</string>
     <string name="edit_library_entries_options_group">এন্ট্রির তালিকা</string>
@@ -939,7 +937,7 @@ Memento সার্ভারে</string>
     <string name="string_list_export_menu_title">আইটেমসমূহ এক্সপোর্ট করুন</string>
     <string name="string_list_import_menu_title">আইটেমসমূহ ইমপোর্ট করুন</string>
     <string name="open_button">খুলুন</string>
-    <string name="string_list_export_snackbar_ok">আইটেমসমূহ এক্সপোর্ট করা হয়েছে</string>
+    <string name="string_list_export_snackbar_ok">আইটেম এক্সপোর্ট করা হয়েছে</string>
     <string name="string_list_export_error">ইমপোর্ট করার সময় ত্রুটি ঘটেছে: %s</string>
     <string name="string_list_import_error">ইমপোর্ট করার সময় ত্রুটি ঘটেছে: %s</string>
     <string name="something_wrong_dialog_title">কিছু একটা ভুল ঘটেছে</string>
@@ -949,7 +947,7 @@ Memento সার্ভারে</string>
 	<item quantity="other">%d আইটেমটি ইমপোর্ট করা হয়েছে</item>
 </plurals>
     <string name="import_template_error">ত্রুটি ইমপোর্ট টেমপ্লেট:%s</string>
-    <string name="mass_delete_string_list_item_message">আপনি কি নিশ্চিত যে আপনি নির্বাচিত আইটেম (সমূহ) ডিলেট ফেলতে চান?</string>
+    <string name="mass_delete_string_list_item_message">আপনি কি নিশ্চিত যে আপনি নির্বাচিত আইটেম (সমূহ) ডিলেট করতে চান?</string>
     <string name="reminders_count_limit">আপনি একটি ফিল্ডের জন্য সর্বোচ্চ 10 টি রিমাইন্ডার যোগ করতে পারেন</string>
     <string name="aggregation_add_item_dialog_title">সমষ্টি ফাংশন যোগ করুন</string>
     <string name="aggregation_edit_item_dialog_title">সমষ্টি ফাংশন সম্পাদনা করুন</string>
@@ -957,8 +955,8 @@ Memento সার্ভারে</string>
     <string name="aggregation_result_prev_line">নতুন লাইন থেকে শুরু করবেন না</string>
     <string name="aggregation_result_left">বাম</string>
     <string name="aggregation_result_right">ডান</string>
-    <string name="aggregation_delete_title">সমষ্টি সরান</string>
-    <string name="aggregation_delete_message">আপনি কি সত্যিই সমষ্টি \"%s\" ডিলেট ফেলতে চান?</string>
+    <string name="aggregation_delete_title">সমষ্টিটি সরান</string>
+    <string name="aggregation_delete_message">আপনি কি সত্যিই সমষ্টি \"%s\" ডিলেট করতে চান?</string>
     <string name="aggregation_need_select_field_message">এই সমষ্টি ফাংশনের জন্য আপনাকে একটি ফিল্ড সিলেক্ট করতে হবে</string>
     <string name="open_object_by_uri_error">বস্তুটি খোলা যাবে না:%s</string>
     <string name="import_and_export_menu_item">ইমপোর্ট এবং এক্সপোর্ট...</string>
@@ -982,15 +980,15 @@ Memento সার্ভারে</string>
 </plurals>
     <string name="auto_fill_barcode_empty2">স্বয়ংসম্পূর্ণ উৎস এবং এন্ট্রি ফিল্ডের বৈশিষ্ট্যসমূহ তুলনা করুন</string>
     <string name="barcode_rule_delete_title">নিয়মটি ডিলেট করুন</string>
-    <string name="barcode_rule_delete_text">আপনি কি \"%s\" ফিল্ডের জন্য স্বয়ংসম্পূর্ণতা নীতি ডিলেট ফেলতে চান?</string>
+    <string name="barcode_rule_delete_text">আপনি কি \"%s\" ফিল্ডের জন্য স্বয়ংসম্পূর্ণতা নীতি ডিলেট করতে চান?</string>
     <string name="multi_library_item_trush_message_text">আপনি কি নির্বাচিত এন্ট্রিসমূহ ট্র্যাশে পাঠাতে চান?</string>
-    <string name="multi_library_item_delete_message_text">আপনি কি নিশ্চিতভাবে নির্বাচিত এন্ট্রিসমূহ ডিলেট ফেলতে চান?</string>
+    <string name="multi_library_item_delete_message_text">আপনি কি নিশ্চিতভাবে নির্বাচিত এন্ট্রিসমূহ ডিলেট করতে চান?</string>
     <string name="delete_library_snackbar_text">লাইব্রেরি \"%s\" ট্র্যাশে সরানো হয়েছে</string>
     <string name="deleted">ডিলেট করা হয়েছে</string>
     <string name="library_recover_dialog_text">আপনি কি লাইব্রেরি \"%s\" পুনরুদ্ধার করতে চান?</string>
     <string name="library_recover_snackbar_text">\"%s\" গ্রুপে লাইব্রেরি পুনরুদ্ধার করা হয়েছে</string>
     <string name="sort_by_name">নাম অনুযায়ী সাজাও</string>
-    <string name="sort_by_time">সময় অনুসারে বাছাই করা হয়েছে</string>
+    <string name="sort_by_time">সময় অনুসারে সিলেক্ট করা হয়েছে</string>
     <string name="favorites_empty_list_layout">কোন প্রিয় এন্ট্রি নেই।</string>
     <string name="history_empty_list_layout">পূর্বে কোনও দেখানো এন্ট্রি নয়।</string>
     <string name="clear_history">ইতিহাস পরিষ্কার করুন</string>
@@ -1001,7 +999,7 @@ Memento সার্ভারে</string>
     <string name="datetime_functions">তারিখ/সময়</string>
     <string name="string_functions">স্ট্রিংস</string>
     <string name="logic_functions">যুক্তিযুক্ত</string>
-    <string name="calc_value_type_date">সাংখ্যিক মান টাইপ, সেকেন্ড</string>
+    <string name="calc_value_type_date">সাংখ্যিক ধরণের মান, সেকেন্ড</string>
     <string name="calc_value_type_number">সাংখ্যিক ধরণের মান</string>
     <string name="calc_value_type_string">স্ট্রিং মান টাইপ</string>
     <string name="sort_by_downloads">ডাউনলোডসমূহ অনুসারে সাজান</string>
@@ -1009,9 +1007,9 @@ Memento সার্ভারে</string>
     <string name="empty_my_templates_list">আপনার কোন প্রকাশিত লাইব্রেরি টেমপ্লেট নেই।</string>
     <string name="empty_field_depend_list">এই ফিল্ডের অন্য ফিল্ডসমূহের উপর কোন নির্ভরশীলতা নেই।</string>
     <string name="share_template_dialog_title">অনলাইন ক্যাটালগ মাধ্যমে টেমপ্লেট শেয়ার করুন</string>
-    <string name="catalog_templates">ক্যাটালগ টেমপ্লেট</string>
+    <string name="catalog_templates">টেমপ্লেটের ক্যাটালগ</string>
     <string name="empty_search_result2">আপনার অনুসন্ধান -%s - কোনো এন্ট্রির সাথে মেলেনি</string>
-    <string name="rename_group">গোষ্ঠী সম্পাদনা করুন</string>
+    <string name="rename_group">গ্রুপ সম্পাদনা করুন</string>
     <string name="move">হস্তান্তর</string>
     <string name="select_group">গ্রুপ সিলেক্ট করুন</string>
     <string name="library_moved_message">লাইব্রেরি \"%s\" গ্রুপে সরানো হয়েছে</string>
@@ -1071,7 +1069,7 @@ Memento সার্ভারে</string>
     <string name="calendar_field_role_duration_short">সময়কাল</string>
     <string name="calendar_day_view">দিন দেখুন</string>
     <string name="calendar_3day_view">তিন দিন দেখুন</string>
-    <string name="calendar_week_view">সপ্তাহ দেখুন</string>
+    <string name="calendar_week_view">সপ্তাহ ভিউ</string>
     <string name="go_to_date">তারিখ উপর যান</string>
     <string name="lost_linked_library">সংযুক্ত লাইব্রেরি পাওয়া যায় নি, সম্ভবত এটি সরানো হয়েছে।</string>
     <string name="multichoice_field_empty">সিলেক্টের জন্য কোন মূল্য পাওয়া যায়নি</string>
@@ -1087,7 +1085,7 @@ Memento সার্ভারে</string>
     <string name="use_depend_only_in_edit_hint_false">সম্পাদনা এবং এন্ট্রি দেখার সময়</string>
 	<string name="most_viewed_templates">সর্বাধিক দেখা</string>    
 	<string name="featured_templates">বৈশিষ্ট্যযুক্ত</string>
-	<string name="template_views_count">দৃশ্য:%s</string>
+	<string name="template_views_count">দৃশ্য: %s</string>
 	<string name="sort_by_views">দৃশ্য অনুসারে সাজান</string>
 	<string name="select_category_template">বিভাগ সিলেক্ট করুন</string>	
 	<string name="select_template_lang">টেমপ্লেটের ভাষা সিলেক্ট করুন</string>
@@ -1098,7 +1096,7 @@ Memento সার্ভারে</string>
 	<string name="entries_name_is_unique">এন্ট্রি নামটি অনন্য</string> 
 	<string name="no_fields_for_role">এই লাইব্রেরিতে এই ভূমিকাটির জন্য কোন উপযুক্ত ফিল্ড নেই</string>
 	<string name="update_item_name_index">সূচকটি তৈরি করা হচ্ছে ...</string>	
-	<string name="entry_name_must_be_unique">এন্ট্রি নাম অনন্য নয়</string>
+	<string name="entry_name_must_be_unique">এন্ট্রিটির নাম অনন্য নয়</string>
 	<string name="entry_name_must_be_notnull">এন্ট্রি নামটি ফাঁকা হওয়া উচিত নয়</string>
 	<string name="library_have_duplicates">লাইব্রেরিতে একই নামের নামসমূহ</string>
 	<string name="library_have_duplicates2">সঠিকভাবে কাজ করার জন্য ডুপ্লেটসমূহ পরিবর্তন বা ডিলেট করুন।</string>
@@ -1130,11 +1128,11 @@ Memento সার্ভারে</string>
 	<string name="my_cloud_libraries_menu_item">ক্লাউড স্টোরেজ</string>
 	<string name="start_download_library_model">লাইব্রেরির কাঠামো আপলোড করা হচ্ছে ...</string>
 	<string name="open_library">লাইব্রেরি খুলুন</string>
-	<string name="open_library_hint">স্থানীয় কপি খুলুন</string>
+	<string name="open_library_hint">লোকাল কপি খুলুন</string>
 	<string name="download_library">লাইব্রেরি ডাউনলোড করুন</string>
-	<string name="download_library_hint">স্থানীয় কপি তৈরি করুন</string>			
+	<string name="download_library_hint">লোকাল কপি তৈরি করুন</string>			
 	<string name="pull_entries_from_cloud_message">এন্ট্রি ডাউনলোড হচ্ছে ...</string>
-	<string name="pull_entries_from_cloud_message2" formatted="false">%s এর%s এন্ট্রি প্রক্রিয়া</string>
+	<string name="pull_entries_from_cloud_message2" formatted="false">%s এর %s এন্ট্রি প্রক্রিয়া</string>
 	<string name="success_pull_library_from_cloud">এন্ট্রিসমূহ সফলভাবে ডাউনলোড করা হয়েছে।
 লাইব্রেরিটি স্বয়ংক্রিয়ভাবে সিঙ্ক্রোনাইজেশন করা হবে।</string>
 	<string name="cloud_conflict_fields_title">দ্বন্দ্ব</string>
@@ -1146,7 +1144,7 @@ Memento সার্ভারে</string>
     <string name="button_select">সিলেক্ট</string>
     <string name="cloud">ক্লাউড</string>
     <string name="library_not_in_cloud">ক্লাউডে নেই</string>
-    <string name="synced">সিঙ্ক্রোনাইজেশন হওয়া%s</string>
+    <string name="synced">সিঙ্ক্রোনাইজেশন হয়েছে %s</string>
     <string name="cloud_synced_progress">সিঙ্ক্রোনাইজেশনেশন ...</string>
     <string name="cloud_offline">অফলাইন</string>
     <string name="cloud_last_sync">শেষ সিঙ্ক্রোনাইজেশন</string>
@@ -1158,23 +1156,23 @@ Memento সার্ভারে</string>
     <string name="cloud_who_has_access">কে অ্যাক্সেস আছে</string>
     <string name="cloud_server_unavaliable">Memento ক্লাউড সার্ভার অনুপলব্ধ, আপনার ডিভাইসে ইন্টারনেট পরীক্ষা করুন</string>
     <string name="delete_from_cloud">ক্লাউড থেকে ডিলেট করুন</string>
-    <string name="delete_from_cloud_message_question">আপনি সত্যিই লাইব্রেরি ক্লাউড থেকে ডিলেট ফেলতে চান?</string>
+    <string name="delete_from_cloud_message_question">আপনি সত্যিই লাইব্রেরি ক্লাউড থেকে ডিলেট করতে চান?</string>
         
     <string name="memento_cloud">Memento ক্লাউড</string>
 	<string name="button_refresh">রিফ্রেশ</string>
     <string name="cloud_storage_space_text" formatted="false">%s এর%s (%s) ব্যবহৃত হয়েছে</string>   
     <string name="start_download_file_from_cloud">ফাইল%s ডাউনলোড করা হবে</string>
-    <string name="upload_file_to_cloud">ফাইল আপলোড হচ্ছে ...</string>    
+    <string name="upload_file_to_cloud">ফাইল আপলোড করা হচ্ছে ...</string>    
     <string name="upload_files_to_cloud">ফাইল আপলোড করা হচ্ছে</string>
     <string name="cloud_upload_error_title">আমরা এই লাইব্রেরিটি সিঙ্ক্রোনাইজেশন করতে পারিনি</string>
     <string name="upload_big_file_error" formatted="false">%s এ এন্ট্রি বড় ফাইল %s (%s) আছে
 সর্বাধিক ফাইলের আকার %s।</string>
     <string name="prepare_library_for_cloud">লাইব্রেরি প্রক্রিয়াকরণের অধীন হয় ...</string>
     <string name="download_files_from_cloud">ক্লাউড থেকে ফাইল ডাউনলোড করা হচ্ছে ...</string>
-    <string name="cant_download_item_files_for_copy">কপি তৈরি করতে ফাইল ডাউনলোড ব্যর্থ হয়েছে।</string> 
+    <string name="cant_download_item_files_for_copy">কপি তৈরির জন্য ফাইল ডাউনলোড ব্যর্থ হয়েছে।</string> 
     <string name="library_cloud_model_changed_message">লাইব্রেরির কাঠামো ক্লাউডে আপডেট করা হয়েছিল। আরও সমন্বয় জন্য কাঠামো আপডেট করুন।</string>
-    <string name="button_update">হালনাগাদ</string>
-    <string name="add_people">ব্যবহারকারী বা গোষ্ঠী যোগ করুন</string>
+    <string name="button_update">আপডেট</string>
+    <string name="add_people">ব্যবহারকারী বা গ্রুপ যোগ করুন</string>
     <string name="read_permission">পড়া</string>      
     <string name="write_permission">লেখা</string>
     <string name="create_permission">তৈরি করা</string>
@@ -1200,7 +1198,7 @@ Memento সার্ভারে</string>
 	<string name="open_access_for_slave_libraries">অধীন লাইব্রেরি প্রবেশ অ্যাক্সেস পড়া</string>
 	<string name="cloud_storage_full_text">ক্লাউড স্টোরেজে পর্যাপ্ত স্পেস নেই।
 আপনি আরো স্টোরেজ স্পেস প্রদানের জন্য একটি ট্যারিফ প্ল্যানের মধ্যে আপগ্রেড করতে পারেন।</string>
-	<string name="cloud_storage_full_text2" formatted="false">ক্লাউড সঞ্চয়স্থানে পর্যাপ্ত স্পেস নেই।
+	<string name="cloud_storage_full_text2" formatted="false">ক্লাউড স্টোরেজে পর্যাপ্ত স্পেস নেই।
 %s প্রয়োজন,%s পাওয়া যায়।
 আপনি আরো স্টোরেজ স্পেস পাওয়ার জন্য একটি ট্যারিফ প্ল্যানের মধ্যে আপগ্রেড করতে পারেন।</string>
 	<string name="alien_cloud_storage_full_text">লাইব্রেরির মালিকের কাছে যথেষ্ট স্টোরেজ স্পেস নেই।</string>	
@@ -1219,7 +1217,7 @@ Memento সার্ভারে</string>
 	<string name="library_cloud_count_limit">আপনার ট্যারিফ পরিকল্পনা ক্লাউডে %s লাইব্রেরিসমূহতে আপলোড করার অনুমতি দেয়।</string>
 	<string name="restore_cloud_library_from_recycle">এই লাইব্রেরি লোকালি ডিলেট করা হয়েছে। উদ্ধার করবেন?</string>
 	<string name="cloud_file_while_not_upload">ফাইল এখনো ক্লাউডে নেই</string>
-	<string name="upload_ecrypted_libraries_dont_supported">এনক্রিপ্ট করা লাইব্রেরি ক্লাউডে আপলোড করা অস্থায়ীভাবে করা যাবে না।</string>
+	<string name="upload_ecrypted_libraries_dont_supported">এনক্রিপ্ট করা লাইব্রেরি ক্লাউডে অস্থায়ীভাবে আপলোড করা যাবে না।</string>
 	<string name="button_signin">প্রবেশ কর</string>
 	<string name="cloud_library_not_found">লাইব্রেরিটি ক্লাউডে পাওয়া যায়নি। সম্ভবত, এটি ডিলেট করা হয়েছে।
 লাইব্রেরিটি লোকালে রূপান্তর করুন?</string>
@@ -1232,7 +1230,7 @@ Memento সার্ভারে</string>
 	<string name="owner">মালিক</string>
 	<string name="find_library_by_url_title">URL দ্বারা খুলুন</string>
 	<string name="upload_to_cloud_offer_title">{ক্লাউড প্রস্তুত ...}</string>
-	<string name="upload_to_cloud_offer_text">• দলবদ্ধভাবে সম্পাদিত কাজ
+	<string name="upload_to_cloud_offer_text">• টিমবদ্ধভাবে সম্পাদিত কাজ
 • ডিভাইসসমূহে সিঙ্ক্রোনাইজেশন করা
 • ব্যাকআপ সবসময় ক্লাউডে থাকা</string>
 	<string name="button_no_thanks">না, ধন্যবাদ</string>
@@ -1265,7 +1263,7 @@ Memento সার্ভারে</string>
 	<string name="clear_search_history">অনুসন্ধানের ইতিহাস পরিষ্কার করুন</string>
 	<string name="clear_search_history_hint">আপনি সঞ্চালিত সমস্ত অনুসন্ধান সরান</string>
 	<string name="success_clear_search_history">আপনার অনুসন্ধানের ইতিহাস পরিষ্কার করা হয়েছিল</string>	
-	<string name="clear_search_history_quest">আপনি কি অনুসন্ধান ইতিহাস ডিলেট ফেলতে চান?</string>
+	<string name="clear_search_history_quest">আপনি কি অনুসন্ধান ইতিহাস ডিলেট করতে চান?</string>
 	<string name="view_csv_error_dialog_message">দুঃখিত, কিন্তু csv-file দেখার জন্য অ্যাপ্লিকেশন পাওয়া যায় নি</string>
 	
 	<string name="edit_library_tabs_autofill">স্বতঃপূর্ণ</string>
@@ -1285,7 +1283,7 @@ Memento সার্ভারে</string>
     <string name="themoviedb_source_tv">টিভি</string>
 
     <string name="autofill_rules_delete_title">অটোফিল নিয়মসমূহ ডিলেট করুন</string>
-    <string name="autofill_rules_delete_text">আপনি কি \"%s\" উৎস থেকে স্বতঃপূর্ণ নিয়মসমূহ ডিলেট ফেলতে চান?</string>
+    <string name="autofill_rules_delete_text">আপনি কি \"%s\" উৎস থেকে স্বতঃপূর্ণ নিয়মসমূহ ডিলেট করতে চান?</string>
     <string name="empty_autofill_list_text">ইন্টারনেট থেকে ডেটা রেকর্ডসমূহের জন্য স্বতঃফিল নিয়ম তৈরি করুন</string>
     <string name="empty_autofill_rules_list_text">সোর্স অ্যাট্রিবিউট এবং লাইব্রেরির ফিল্ডসমূহ মিলুন</string>
     <string name="copy_library_structure_menu_item">গঠন শুধুমাত্র</string>
@@ -1295,14 +1293,14 @@ Memento সার্ভারে</string>
     <string name="encryption_for_cloud_uploaded_library">ক্লাউড আপলোড করার আগে লাইব্রেরি এনক্রিপশন সক্রিয় করা যাবে।</string>
     <string name="decryption_for_cloud_uploaded_library">লাইব্রেরির ক্লাউডে আপলোড করার জন্য এনক্রিপশন Deactivation সমর্থিত নয়। প্রথমে ক্লাউড থেকে লাইব্রেরিটি সরিয়ে ফেলুন।</string>
     <string name="need_reload_library_from_cloud_encrypted">ক্লাউডের লাইব্রেরি কপি এনক্রিপ্ট হয়েছিল।
-লাইব্রেরির স্থানীয় কপিটি ডিলেট করুন, এবং তারপর ক্লাউড থেকে লাইব্রেরি ডাউনলোড করুন।</string>
+লাইব্রেরির লোকাল কপিটি ডিলেট করুন, এবং তারপর ক্লাউড থেকে লাইব্রেরি ডাউনলোড করুন।</string>
     <string name="need_reload_library_from_cloud_decrypted">ক্লাউডের লাইব্রেরি কপি ডিক্রিপ্ট করা হয়েছিল।
-লাইব্রেরির স্থানীয় কপিটি ডিলেট করুন, এবং তারপর ক্লাউড থেকে লাইব্রেরি ডাউনলোড করুন।</string>
+লাইব্রেরির লোকাল কপিটি ডিলেট করুন, এবং তারপর ক্লাউড থেকে লাইব্রেরি ডাউনলোড করুন।</string>
 
     <string name="render_pdf_menu_item">PDF হিসাবে সংরক্ষণ করুন</string>
     <string name="entry_saved_as_pdf_success">PDF সফলভাবে তৈরি</string>
     <string name="one_row_with_previous">পূর্ববর্তী এক সারি</string>
-    <string name="protected_libraries_not_show_in_widget">সংরক্ষিত লাইব্রেরিটি উইজেটে প্রদর্শন করা যাবে না</string>
+    <string name="protected_libraries_not_show_in_widget">সংরক্ষিত লাইব্রেরি উইজেটে প্রদর্শন করা যাবে না</string>
     <string name="widget_free_limit_item_text">সমস্ত এন্ট্রি শুধুমাত্র প্রো-ভার্সন ব্যবহারকারীদের কাছে প্রদর্শিত হতে পারে</string>
     <string name="rate_me_dialog_title">Memento ব্যবহার করে ভালোবাসা?</string>
     <string name="uservoice_menu_title">ইউজারভয়েস</string>
@@ -1315,7 +1313,7 @@ Memento সার্ভারে</string>
     <string name="button_ask_later">আমাকে পরে জিজ্ঞেস করো</string>
     <string name="flex_type_radiobuttons">রেডিওর বাটনসমূহ</string>
     <string name="flex_type_checkboxes">চেকবাক্সসমূহ</string>
-    <string name="field_orientation_option_title">অরিয়েন্টেশন</string>
+    <string name="field_orientation_option_title">ঘূর্ণন</string>
     <string name="field_orientation_option_horizontal">অনুভূমিক</string>
     <string name="field_orientation_option_vertical">উল্লম্ব</string>
     <string name="preparing_files_for_sending">পাঠানোর জন্য ফাইল প্রস্তুত করা হচ্ছে ...</string>
@@ -1385,9 +1383,9 @@ Memento সার্ভারে</string>
     <string name="cloud_file_error_upload">পাঠানোর সময় ত্রুটি</string>
     <string name="cloud_file_uploading">আপলোড হচ্ছে</string>
     <string name="cloud_file_downloading">ডাউনলোড হচ্ছে</string>
-    <string name="file_show_in_folder">ফাইল এর ভেতরে দেখুন</string>
+    <string name="file_show_in_folder">ফোল্ডারে দেখান</string>
     <string name="file_show_in_entry">এন্ট্রিতে দেখান</string>
-    <string name="sort_by_size">আকার দ্বারা বাছাই করুন</string>
+    <string name="sort_by_size">আকার দ্বারা সিলেক্ট করুন</string>
     <string name="download_all">সবগুলো ডাউনলোড</string>
     <string name="find_missing_files">অনুপস্থিত ফাইলসমূহ খুঁজুন</string>
     <string name="button_apply">প্রয়োগ করুন</string>
@@ -1402,13 +1400,13 @@ Memento সার্ভারে</string>
     <string name="add_relationship_with_title">একটি দ্বিতীয় লাইব্রেরি সিলেক্ট করুন</string>
     <string name="add_relationship_success">ফিল্ড \"%s\" ব্যবহার করে লাইব্রেরির মধ্যে সম্পর্কটি প্রদান করা হবে।</string>
     <string name="display_aggregation">সমষ্টি প্রদর্শন করুন</string>
-    <string name="display_aggregation_hint">সংযুক্ত লাইব্রেরির এন্ট্রি দ্বারা সমষ্টি করা হবে</string>
+    <string name="display_aggregation_hint">সংযুক্ত লাইব্রেরির এন্ট্রিসমূহ দ্বারা সমষ্টি করা হবে</string>
     <string name="create_shortcut_text">এই শর্টকাটের জন্য একটি নাম টাইপ করুন</string>
     <string name="permission_storage_title">স্টোরেজ</string>
-    <string name="permission_storage_text">চালিয়ে যেতে, আপনার সঞ্চয়স্থানের জন্য Mementoস্তম্ভ অ্যাক্সেস দিন।</string>
+    <string name="permission_storage_text">চালিয়ে যেতে, আপনার স্টোরেজের জন্য Mementoস্তম্ভ অ্যাক্সেস দিন।</string>
     <string name="permission_storage_explanation_text">আপনার এন্ট্রিতে ইমেজ এবং ফাইল সংযুক্ত করার জন্য ক্যাশে, ব্যাকআপ এবং প্রাপ্যতার জন্য স্টোরেজ অ্যাক্সেসের প্রয়োজন।</string>
     <string name="permission_accounts_title">অ্যাকাউন্টস</string>
-    <string name="permission_accounts_text">Google Sheets এবং কন্টাক্টের ফিল্ডের প্রকারের সাথে সমন্বয় করার জন্য Memento access প্রদান করা প্রয়োজন।</string>
+    <string name="permission_accounts_text">Google Sheets এবং কন্টাক্টের ফিল্ডের ধরণের সাথে সমন্বয় করার জন্য Memento access প্রদান করা প্রয়োজন।</string>
     <string name="permission_location_title">লোকেশন</string>
     <string name="permission_location_text">এটি লোকেশন ফিল্ডের লোকেশনের জন্য Memento access প্রদান করা প্রয়োজন।</string>
     <string name="permission_not_necessarily">এই অনুমতি বাধ্যতামূলক নয়।</string>
@@ -1434,10 +1432,10 @@ Memento সার্ভারে</string>
     <string name="js_realtime_hint_on">একটি রেকর্ড প্রদর্শন করার সময় স্ক্রিপ্ট রান</string>
     <string name="user_limit_message">আপনি আপনার ব্যবহারকারীদের সীমায় পৌঁছেছেন</string>
     <string name="remaining_users" formatted="false">%d এর%d লাইসেন্সসমূহ ব্যবহৃত হয়েছে</string>
-    <string name="delete_slave_user_message">আপনি কি সত্যিই \"%s\" ব্যবহারকারী ডিলেট ফেলতে চান?</string>
+    <string name="delete_slave_user_message">আপনি কি সত্যিই \"%s\" ব্যবহারকারী ডিলেট করতে চান?</string>
     <string name="active_users">সক্রিয় ব্যবহারকারী</string>
-    <string name="deleted_users">ডিলেটd ব্যবহারকারী</string>
-    <string name="string_list_sort_menu_title">শিরোনাম অনুসারে বাছাই করুন</string>
+    <string name="deleted_users">ডিলেটকৃত ব্যবহারকারী</string>
+    <string name="string_list_sort_menu_title">শিরোনাম অনুসারে সিলেক্ট করুন</string>
     <string name="previous_value">পূর্ববর্তী মান</string>
     <string name="specify_value">মান নির্দিষ্ট করুন</string>
     <string name="filters_order">ক্রম...</string>
@@ -1459,14 +1457,14 @@ Memento সার্ভারে</string>
     <string name="memento_server_host">Memento সার্ভারের ঠিকানা</string>
     <string name="memento_server_cloud">Memento ক্লাউড ব্যবহার করুন</string>
     <string name="memento_server_private">Memento প্রাইভেট সার্ভার ব্যবহার করুন</string>
-    <string name="memento_server_private_not_found">নির্দিষ্ট সার্ভার দ্বারা ব্যক্তিগত সার্ভার পাওয়া যায় নি</string>
+    <string name="memento_server_private_not_found">নির্দিষ্ট সার্ভার দ্বারা ব্যক্তিগত সার্ভার পাওয়া যায়নি</string>
     <string name="latitude_longitude">অক্ষাংশ/দ্রাঘিমাংশ</string>
     <string name="latitude_longitude_hint">অক্ষাংশ দ্রাঘিমাংশ</string>
     <string name="latitude_longitude_parse_error">অক্ষাংশ / দ্রাঘিমাংশ বিশ্লেষণ করা যাবে না</string>
     <string name="relation_type">সম্পর্কের ধরন</string>
     <string name="relation_type_one_to_one">একের পর এক</string>
     <string name="relation_type_one_to_many">এক থেকে অনেক</string>
-    <string name="relation_type_many_to_many">অনেক সাথে অধিকের</string>
+    <string name="relation_type_many_to_many">অধিকের সাথে অধিকের</string>
     <string name="relation_type_one_limit">নির্বাচিত রেকর্ড ইতিমধ্যে একটি সম্পর্ক আছে</string>
     <string name="relation_type_one_limit2">%s এর ইতিমধ্যে একটি সম্পর্ক আছে</string>
     <string name="library_edit_mode">সম্পাদনা মোড</string>
@@ -1507,14 +1505,14 @@ Memento সার্ভারে</string>
 
     <string name="trigger_event_create_entry">একটি এন্ট্রি তৈরি করা</string>
     <string name="trigger_event_modify_entry">একটি এন্ট্রি আপডেট করা</string>
-    <string name="trigger_event_delete_entry">একটি এন্ট্রি ডিলেট করা হচ্ছে</string>
+    <string name="trigger_event_delete_entry">এন্ট্রি ডিলেট করা হচ্ছে</string>
     <string name="trigger_event_open_entry">একটি এন্ট্রি ভিউ কার্ড খোলা হচ্ছে</string>
     <string name="trigger_event_add_favorites">পছন্দে এন্ট্রি যোগ করা হচ্ছে</string>
     <string name="trigger_event_remove_favorites">পছন্দ থেকে একটি এন্ট্রি ডিলেট করা হচ্ছে</string>
     <string name="trigger_default_name">ট্রিগার%d</string>
     <string name="trigger_enabled">সক্ষম করা</string>
     <string name="trigger_switched_off">সুইচ বন্ধ আছে</string>
-    <string name="trigger_delete_message">আপনি কি সত্যিই \"%s\" স্ক্রিপ্টটি ডিলেট ফেলতে চান?</string>
+    <string name="trigger_delete_message">আপনি কি সত্যিই \"%s\" স্ক্রিপ্টটি ডিলেট করতে চান?</string>
 
 
     <string name="trigger_moment_open_form">একটি এণ্ট্রি সম্পাদনা কার্ড খোলা হচ্ছে</string>
@@ -1527,7 +1525,7 @@ Memento সার্ভারে</string>
 
     <string name="application">অ্যাপ্লিকেশন</string>
     <string name="debug">ডিবাগ করা</string>
-    <string name="debug_summary">লগিং বিকল্পসমূহ</string>
+    <string name="debug_summary">লগিং এর বিকল্পসমূহ</string>
     <string name="log_files_folder">লগ ফাইলের ডিরেক্টরি</string>
 
     <string name="enable_logging_cloud">Memento ক্লাউড কল</string>
@@ -1568,7 +1566,7 @@ Memento সার্ভারে</string>
     <string name="uom_category_time">সময়</string>
     <string name="uom_nanosecond">ন্যানো সেকেন্ড</string>
     <string name="uom_microsecond">মাইক্রো সেকেন্ড</string>
-    <string name="uom_millisecond">মিলি সেকেন্ড</string>
+    <string name="uom_millisecond">মিলিসেকেন্ড</string>
     <string name="uom_second">সেকেন্ড</string>
     <string name="uom_minute">মিনিট</string>
     <string name="uom_hour">ঘণ্টা</string>
@@ -1639,7 +1637,7 @@ Memento সার্ভারে</string>
 
     <string name="uom_category_velocity">বেগ</string>
     <string name="uom_meters_per_second">মিটার/সেকেন্ড</string>
-    <string name="uom_miles_per_hour">মাইল/সেকেন্ড</string>
+    <string name="uom_miles_per_hour">মাইল পার ঘণ্টা</string>
     <string name="uom_kilometers_per_hour">কিলোমিটার/সেকেন্ড</string>
     <string name="uom_knot">নট</string>
     <string name="uom_mach">ম্যাচ</string>
@@ -1662,7 +1660,7 @@ Memento সার্ভারে</string>
 
     <string name="wrong_field_value">ফিল্ড %s একটি গ্রহণযোগ্য মান নাই</string>
 
-    <string name="unit_converter">একক কনভার্টার</string>
+    <string name="unit_converter">এককের কনভার্টার</string>
     <string name="increase">বাড়ানো</string>
     <string name="decrease">কমানো</string>
     <string name="frozen">হিমায়িত</string>
@@ -1697,13 +1695,13 @@ Memento সার্ভারে</string>
     <string name="auth_error_user_blocked">আপনার অ্যাকাউন্ট নিষ্ক্রিয় করা হয়েছে</string>
     <string name="team_license">টিম</string>
     <string name="user_manager_only_for_team">ব্যবহারকারীদের লাইসেন্স এবং লাইসেন্সসমূহ শুধুমাত্র টীম ট্যারিফের জন্য পাওয়া যায়</string>
-    <string name="send_password_to_user">ইমেল দ্বারা ব্যবহারকারীর পাসওয়ার্ড পাঠান</string>
+    <string name="send_password_to_user">ইমেল এ ব্যবহারকারীর পাসওয়ার্ড পাঠান</string>
     <string name="create_permissions">অনুমতি তৈরি করুন</string>
     <string name="edit_permissions">অনুমতি সম্পাদনা করুন</string>
     <string name="library_permissions">লাইব্রেরি অনুমতিসমূহ</string>
     <string name="field_permissions">ফিল্ডের অনুমতিসমূহ</string>
     <string name="library_permissions_subject">ব্যবহারকারী নাম / ইমেইল / গ্রুপ</string>
-    <string name="permissions_delete_message">আপনি কি সত্যিই \"%s\" এর অনুমতি ডিলেট ফেলতে চান?</string>
+    <string name="permissions_delete_message">আপনি কি সত্যিই \"%s\" এর অনুমতি ডিলেট করতে চান?</string>
     <string name="field_right_need_library_download">ফিল্ডসমূহের জন্য নতুন অ্যাক্সেসের অধিকারসমূহ জুড়তে আপনাকে অবশ্যই আপনার ডিভাইসে একটি লাইব্রেরি ডাউনলোড করতে হবে।</string>
     <string name="field_permission_invisible">অদৃশ্য</string>
     <string name="field_permission_read_only">শুধুমাত্র পাঠযোগ্য</string>
@@ -1711,21 +1709,21 @@ Memento সার্ভারে</string>
     <string name="user_groups">ব্যবহারকারী গ্রুপ</string>
     <string name="add_user_group">ব্যবহারকারী গ্রুপ যোগ করুন</string>
     <string name="add_user_group_hint">গ্রুগের নাম</string>
-    <string name="user_group_name_empty">গোষ্ঠীর নামটি খালি রাখা উচিত নয়</string>
+    <string name="user_group_name_empty">গ্রুপর নামটি খালি রাখা উচিত নয়</string>
     <string name="users_count_none">কোন ব্যবহারকারী নাই</string>
     <plurals name="users_count">
 	<item quantity="one">এক ব্যবহারকারী</item>
 	<item quantity="other">%d ব্যবহারকারী</item>
 </plurals>
-    <string name="user_group_delete_message">আপনি কি সত্যিই \"%s\" গ্রুপটি ডিলেট ফেলতে চান?</string>
+    <string name="user_group_delete_message">আপনি কি সত্যিই \"%s\" গ্রুপটি ডিলেট করতে চান?</string>
     <string name="group_not_found">গ্রুপ খুঁজে পাওয়া যায় নি</string>
     <string name="individual">স্বতন্ত্র</string>
-    <string name="team">দল</string>
-    <string name="cloud_plan_team5">দল ৫</string>
-    <string name="cloud_plan_team10">দল ১০</string>
-    <string name="cloud_plan_team15">দল ১৫</string>
-    <string name="cloud_plan_team20">দল ২০</string>
-    <string name="pro_for_team">দলের মধ্যে সব ব্যবহারকারীদের জন্য PRO বৈশিষ্ট্য</string>
+    <string name="team">টিম</string>
+    <string name="cloud_plan_team5">টিম ৫</string>
+    <string name="cloud_plan_team10">টিম ১০</string>
+    <string name="cloud_plan_team15">টিম ১৫</string>
+    <string name="cloud_plan_team20">টিম ২০</string>
+    <string name="pro_for_team">টিমের মধ্যে সব ব্যবহারকারীদের জন্য PRO বৈশিষ্ট্য</string>
     <string name="team_features_trial">সমস্ত পরিকল্পনা একটি বিনামূল্যে 14-দিন ট্রায়াল অন্তর্ভুক্ত।</string>
 
     <string name="tasker_plugin_create_entry_event_title">এন্ট্রি তৈরি করা হয়েছে</string>
@@ -1741,14 +1739,14 @@ Memento সার্ভারে</string>
     <string name="card_view_number_of_columns">কলামের সংখ্যা</string>
     <plurals name="columns_count">
 	<item quantity="one">এক কলাম</item>
-	<item quantity="other">%d কলাম</item>
+	<item quantity="other">%d কলামসমূহ</item>
 </plurals>
 
     <string name="card_view_title_on_image">চিত্র উপরে টেক্সট প্রদর্শন করুন</string>
-    <string name="card_view_squared_image">একটি বর্গফিল্ডের মধ্যে চিত্রসমূহ কাটা</string>
+    <string name="card_view_squared_image">একটি বর্গফিল্ডের মধ্যে চিত্রসমূহ কাটুন</string>
     <string name="hint_previous_entry">পূর্ববর্তী এন্ট্রি</string>
     <string name="hint_next_entry">পরবর্তী এন্ট্রি</string>
-    <string name="hint_remove_image_button">চিত্র সরান</string>
+    <string name="hint_remove_image_button">চিত্রটি সরান</string>
     <string name="hint_insert_image_button">ছবি যোগ করুন</string>
     <string name="hint_capture_image_button">চিত্র ক্যাপচার করুন</string>
     <string name="hint_change_date">তারিখ পরিবর্তন</string>
@@ -1776,7 +1774,7 @@ Memento সার্ভারে</string>
     <string name="repository_location_hint">GitHub সংগ্রহস্থল URL</string>
     <string name="repository_location_error">GitHub সংগ্রহস্থলের জন্য HTTPS লিঙ্ক নির্দিষ্ট করুন। উদাহরণস্বরূপ: https://github.com/username/repo-name</string>
     <string name="repository_not_found_error">সংগ্রহস্থল খুঁজে পাওয়া যাবে না:%s</string>
-    <string name="repository_delete_message">আপনি আসলে \"%s\" সংগ্রহস্থলটি ডিলেট ফেলতে চান?</string>
+    <string name="repository_delete_message">আপনি আসলে \"%s\" সংগ্রহস্থলটি ডিলেট করতে চান?</string>
     <string name="repository_other">অন্যান্য</string>
 
     <string name="map_field_current_by_default_title">বর্তমান লোকেশন</string>
@@ -1791,9 +1789,9 @@ Memento সার্ভারে</string>
     <string name="action_default_name">অ্যাকশন %d</string>
     <string name="place_of_action">কর্মের স্থান</string>
     <string name="action_arguments">যুক্তি</string>
-    <string name="action_arguments_empty">স্ক্রিপ্টের মধ্যে যুক্তি থাকতে পারে, যা ব্যবহারকারীর দ্বারা লেখা হবে।</string>
+    <string name="action_arguments_empty">স্ক্রিপ্টের মধ্যে যুক্তি থাকতে পারে, যার মান ব্যবহারকারীর দ্বারা প্রবেশ করাতে হবে।</string>
     <string name="select_argument_type">যুক্তির ধরণ</string>
-    <string name="script_argument_delete_message_text">আপনি কি সত্যিই যুক্তি \"%s\" ডিলেট ফেলতে চান?</string>
+    <string name="script_argument_delete_message_text">আপনি কি সত্যিই যুক্তি \"%s\" ডিলেট করতে চান?</string>
     <string name="create_argument">যুক্তি তৈরি করুন</string>
     <string name="edit_argument">যুক্তি সম্পাদনা করুন</string>
     <string name="argument_name">যুক্তিের নাম</string>
@@ -1816,26 +1814,26 @@ Memento সার্ভারে</string>
     <string name="run">রান</string>
     <string name="run_arguments">যুক্তি রান করুন</string>
     <string name="script_cant_set_permissions_for_not_saved_library">লাইব্রেরি সংরক্ষণ করার পরে আপনি স্ক্রিপ্টের জন্য অনুমতিসমূহ সেট করতে পারেন।</string>
-    <string name="script_permissions_required_message">লাইব্রেরিতে এমন স্ক্রিপ্ট রয়েছে যা নিম্নোক্ত অনুমতিসমূহের প্রয়োজন:</string>
+    <string name="script_permissions_required_message">লাইব্রেরিতে এমন স্ক্রিপ্ট রয়েছে যার নিম্নোক্ত অনুমতিসমূহের প্রয়োজন:</string>
     <string name="required_access_to_library">%s এ অ্যাক্সেস</string>
     <string name="action_with_library_context">লাইব্রেরি অ্যাকশন</string>
     <string name="action_with_entry_context">প্রবেশ অ্যাকশন</string>
-    <string name="library_related_cloud_model_changed_message">সংশ্লিষ্ট লাইব্রেরির কাঠামো ক্লাউডে আপডেট করা হয়েছিল। আপডেটের জন্য সম্পর্কিত লাইব্রেরি যান।</string>
+    <string name="library_related_cloud_model_changed_message">সংশ্লিষ্ট লাইব্রেরির কাঠামো ক্লাউডে আপডেট করা হয়েছিল। আপডেটের জন্য সম্পর্কিত লাইব্রেরিতে যান।</string>
     
     <string name="monthly_plan">মাসিক</string>
     <string name="yearly_plan">বার্ষিক</string>
     <string name="cloud_plan_plan3_annual">লাইট</string>
     <string name="cloud_plan_plan6_annual">PRO</string>
     <string name="cloud_plan_plan10_annual">PRO প্লাস</string>
-    <string name="cloud_plan_team5_annual">দল ৫</string>
-    <string name="cloud_plan_team10_annual">দল ১০</string>
-    <string name="cloud_plan_team15_annual">দল ১৫</string>
-    <string name="cloud_plan_team20_annual">দল ২০</string>
+    <string name="cloud_plan_team5_annual">টিম ৫</string>
+    <string name="cloud_plan_team10_annual">টিম ১০</string>
+    <string name="cloud_plan_team15_annual">টিম ১৫</string>
+    <string name="cloud_plan_team20_annual">টিম ২০</string>
     <string name="price_per_year">%s- / বছর</string>
 
     <string name="frozen_alien_text">লাইব্রেরিটি হ্রাস করা হয়েছে, লাইব্রেরির মালিক (%s) এর সাথে যোগাযোগ করুন।</string>
     <string name="copy_field">ফিল্ড কপি করুন</string>
-    <string name="delete_reminder_dialog_text">আপনি কি সত্যিই রিমাইন্ডারটি ডিলেট ফেলতে চান?</string>
+    <string name="delete_reminder_dialog_text">আপনি কি সত্যিই রিমাইন্ডারটি ডিলেট করতে চান?</string>
     <string name="games">গেমস</string>
     <string name="number_increment_delta_title">বৃদ্ধি / হ্রাস বাটন</string>
     <string name="number_increment_delta_value">পদক্ষেপের আকার%s</string>
@@ -1851,20 +1849,20 @@ Memento সার্ভারে</string>
     <string name="wizard">জাদুর কাঠি</string>
     <string name="wizard_library_name_title">Memento আপনার তথ্যসমূহ লাইব্রেরিতে সাজিয়ে রাখে। আপনি আপনার লাইব্রেরি কি নাম পছন্দ করবেন?</string>
     <string name="wizard_library_name_hint2">একটি বিশেষ ধরনের আইটেমের তালিকা রাখার জন্য লাইব্রেরিসমূহ ব্যবহার করা হয়।</string>
-    <string name="wizard_library_name_hint3">একটি spreadsheet এ worksheets এর ধরণের লাইব্রেরি।</string>
+    <string name="wizard_library_name_hint3">লাইব্রেরিটি একটি spreadsheet এ worksheets এর মত।</string>
     <string name="wizard_library_icon_title">এই লাইব্রেরির জন্য আইকন সিলেক্ট করুন</string>
     <string name="wizard_library_structure_title">চলুন আপনার লাইব্রেরির গঠন তৈরি করি।</string>
-    <string name="wizard_library_structure_hint2">আপনার লাইব্রেরিতে যে আইটেমসমূহ আপনি রাখেন তা \'এন্ট্রি\' বলা হয়। প্রতিটি এন্ট্রি এর নিজস্ব ফিল্ড থাকবে যা আপনার সম্পর্কে তথ্য সংরক্ষণ করতে চায়।</string>
-    <string name="wizard_library_structure_hint3">একটি এন্ট্রির একটি spreadsheet একটি সারির সমতুল্য।</string>
+    <string name="wizard_library_structure_hint2">আপনার লাইব্রেরিতে যে আইটেমসমূহ আপনি রাখেন তাকে \'এন্ট্রি\' বলা হয়। প্রতিটি এন্ট্রির নিজস্ব ফিল্ড থাকবে যা আপনার সম্পর্কে তথ্য সংরক্ষণ করতে চায়।</string>
+    <string name="wizard_library_structure_hint3">একটি এন্ট্রি একটি spreadsheet এর একটি সারির সমতুল্য।</string>
     <string name="wizard_library_structure_hint4">একটি ফিল্ড একটি spreadsheet একটি কলাম সমতুল্য।</string>
-    <string name="wizard_select_field_type_message">ফিল্ডের প্রকার সিলেক্ট করুন</string>
+    <string name="wizard_select_field_type_message">ফিল্ডের ধরণ সিলেক্ট করুন</string>
     <string name="wizard_add_name_field_message">ফিল্ড যোগ করুন যে এন্ট্রির নাম হবে।</string>
     <string name="wizard_field_options_title">ফিল্ড বৈশিষ্ট্য</string>
     <string name="wizard_field_items_title">আইটেমস</string>
     <string name="wizard_field_options_select_type_message">ফিল্ডের ধরণ সিলেক্ট করার পরে ফিল্ডের বৈশিষ্ট্যসমূহ পাওয়া যাবে।</string>
-    <string name="wizard_field_options_empty">শুধুমাত্র উন্নত বৈশিষ্ট্যসমূহ নির্বাচিত ফিল্ডের প্রকারের জন্য পাওয়া যায়।</string>
+    <string name="wizard_field_options_empty">শুধুমাত্র উন্নত বৈশিষ্ট্যসমূহ নির্বাচিত ফিল্ডের ধরণের জন্য পাওয়া যায়।</string>
     <string name="wizard_field_advanced_options_button">উন্নত স্তর</string>
-    <string name="wizard_choice_field_items_empty_text">আপনি ফিল্ড প্রকারের জন্য একটি প্রিসেট সংখ্যা আইটেম (মান) তৈরি করা উচিত।</string>
+    <string name="wizard_choice_field_items_empty_text">আপনি ফিল্ড ধরণের জন্য একটি প্রিসেট সংখ্যা আইটেম (মান) তৈরি করা উচিত।</string>
     <string name="wizard_field_name_title">আপনি কি এই ফিল্ডের নাম পছন্দ করতে চান?</string>
     <string name="wizard_field_name_examples">উদাহরণস্বরূপ আপনার \'শিরোনাম\', \'বিবরণ\', \'সরঞ্জামের ধরন\', \'খরচ\', \'আকার\', \'লোকেশন\' ইত্যাদি জন্য ফিল্ড থাকতে পারে।</string>
     <string name="wizard_field_type_title">প্রতিটি ফিল্ড একটি নির্দিষ্ট ধরনের ডেটা রাখার জন্য ডিজাইন করা যেতে পারে।</string>
@@ -1878,18 +1876,18 @@ Memento সার্ভারে</string>
     <string name="type_desc_rating">"একটি  র‍্যাটিং ফিল্ড খালি হতে পারে অথবা একটি সংখ্যা মান 1 থেকে 5 হতে পারে।"</string>
     <string name="type_desc_location">একটি লোকেশন ফিল্ডের একটি লোকেশন থাকতে পারে, একটি অক্ষাংশ / দ্রাঘিমাংশ এবং একটি ডাক ঠিকানা হিসেবে চিহ্নিত করা।</string>
     <string name="type_desc_link_to_entry">একটি লিঙ্কের একটি এন্ট্রি ফিল্ডের জন্য একটি লিঙ্কের একটি এন্ট্রি বা অন্য লাইব্রেরির এন্ট্রি থাকতে পারে।</string>
-    <string name="type_desc_contact">একটি কন্টাক্ট ফিল্ডের মধ্যে স্থানীয় কন্টাক্ট অ্যাপ্লিকেশানে একটি কন্টাক্টের লিঙ্ক থাকতে পারে।</string>
+    <string name="type_desc_contact">একটি কন্টাক্ট ফিল্ডের মধ্যে লোকাল কন্টাক্ট অ্যাপ্লিকেশানে একটি কন্টাক্টের লিঙ্ক থাকতে পারে।</string>
     <string name="type_desc_images">একটি ইমেজ ফিল্ড ইমেজ লিঙ্ক থাকতে পারে।</string>
     <string name="type_desc_signature">একটি স্বাক্ষর ফিল্ড আপনাকে ইলেক্ট্রনিক স্বাক্ষর সংগ্রহ করার অনুমতি দেয়।</string>
     <string name="type_desc_file">ফাইল ফিল্ডের একটি লিঙ্ক বহিরাগত-সংরক্ষিত ফাইলের লিঙ্ক থাকতে পারে।</string>
     <string name="type_desc_audio">একটি অডিও ফিল্ড সংরক্ষিত অডিওসমূহের লিঙ্কসমূহ থাকতে পারে।</string>
     <string name="type_desc_date">একটি তারিখ ফিল্ডের একটি মান থাকতে পারে যা একটি নির্দিষ্ট ক্যালেন্ডার তারিখ প্রতিনিধিত্ব করতে ব্যবহৃত হয়।</string>
     <string name="type_desc_datetime">একটি DateTime ফিল্ড একটি মান থাকতে পারে যা একটি নির্দিষ্ট ক্যালেন্ডার তারিখ এবং সময় প্রতিনিধিত্ব ব্যবহৃত হয়।</string>
-    <string name="type_desc_time">একটি সময় ফিল্ডের একটি মান থাকতে পারে যেটি নির্দিষ্ট দিনে প্রতিনিধিত্ব করতে ব্যবহৃত হয়।</string>
-    <string name="type_desc_boolean">বুলিয়ান ফিল্ডের প্রকার একটি একক চেকবক্স প্রদান করে (হ্যাঁ / না)।</string>
-    <string name="type_desc_real">বাস্তব ফিল্ডের প্রকারের জন্য দশমিক স্থানসমূহের সহ বা ব্যবধানের সংখ্যা রয়েছে।</string>
+    <string name="type_desc_time">একটি সময় ফিল্ডের একটি মান থাকতে পারে যেটি নির্দিষ্ট দিনের প্রতিনিধিত্ব করতে ব্যবহৃত হয়।</string>
+    <string name="type_desc_boolean">বুলিয়ান ফিল্ডের ধরণ একটি একক চেকবক্স প্রদান করে (হ্যাঁ / না)।</string>
+    <string name="type_desc_real">বাস্তব ফিল্ডের ধরণের জন্য দশমিক স্থানসমূহের সহ বা ব্যবধানের সংখ্যা রয়েছে।</string>
     <string name="type_desc_money">একটি অর্থ ফিল্ডের একটি মুদ্রা এবং একটি পরিমাণ আছে। টেমপ্লেটটি সংজ্ঞায়িত হলে মুদ্রাটি অবশ্যই সিলেক্ট করা উচিত।</string>
-    <string name="type_desc_int">সংখ্যা ফিল্ডের প্রকারটি কোন দশমিক সংখ্যা ছাড়াই সাধারণ সংখ্যা ধারণ করে।</string>
+    <string name="type_desc_int">সংখ্যা ফিল্ডের ধরণটি কোন দশমিক সংখ্যা ছাড়াই সাধারণ সংখ্যা ধারণ করে।</string>
     <string name="type_desc_int_list">একটি পূর্ণসংখ্যা মান ফিল্ডসমূহ এমন একটি ক্রম সংকলন যা একটি ব্যবহারকারী একটি সিলেক্ট করতে পারে।</string>
     <string name="type_desc_text">একটি টেক্সট ফিল্ড কোনও টেক্সট ডাটা ধারণ করতে পারে।</string>
     <string name="type_desc_phone">একটি ফোন নম্বর ফিল্ডের টেক্সট ফর্মে একটি টেলিফোন নম্বর থাকতে পারে।</string>
@@ -1919,7 +1917,7 @@ Memento সার্ভারে</string>
 
     <string name="attribute_display_title_in_card">বৈশিষ্ট্য নাম</string>
     <string name="attribute_display_title_in_card_hint">কার্ড এন্ট্রিতে অ্যাট্রিবিউটের নাম প্রদর্শন করুন</string>
-    <string name="attribute_delete_message_text">আপনি কি সত্যিই \"%s\" বৈশিষ্ট্যটি ডিলেট ফেলতে চান?</string>
+    <string name="attribute_delete_message_text">আপনি কি সত্যিই \"%s\" বৈশিষ্ট্যটি ডিলেট করতে চান?</string>
     <string name="free_version_attributes_limit">বিনামূল্যে ভার্সনে, আপনি কেবলমাত্র একটি বৈশিষ্ট্য যোগ করতে পারেন। এই সীমাবদ্ধতা সরাতে PRO ভার্সনে আপগ্রেড করুন।</string>
     <string name="trigger_event_link_entry">একটি এন্ট্রি লিঙ্কিং</string>
     <string name="trigger_event_unlink_entry">"একটি এন্ট্রি  আনলিঙ্ক করা হচ্ছে"</string>
