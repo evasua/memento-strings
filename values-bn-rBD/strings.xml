@@ -689,7 +689,7 @@ Memento সার্ভারে</string>
     <string name="sl_content_depend_pretitle">ফিল্ড মান%s</string>
     <plurals name="library_box_entries_count">
 	<item quantity="one">একটি এন্ট্রি</item>
-	<item quantity="other">একাধিক এন্ট্রি</item>
+	<item quantity="other">%d এন্ট্রি</item>
 </plurals>
     <string name="sl_content_depend_description">ফিল্ড%s এর মান যদি ফিল্ডের মানটি সিলেক্টের জন্য পাওয়া যায় হবে</string>
     <string name="backup_images_checkbox">সংশ্লিষ্ট চিত্রসমূহ, অডিও রেকর্ডস এবং অন্যান্য ফাইলসমূহের ব্যাকআপ কপি তৈরি করা</string>
@@ -897,7 +897,7 @@ Memento সার্ভারে</string>
     <string name="only_title_on_tile">শুধুমাত্র লাইব্রেরির নাম</string>
     <plurals name="fields_count">
 	<item quantity="one">এক ফিল্ড</item>
-	<item quantity="other">অন্য ফিল্ড</item>
+	<item quantity="other">%d ফিল্ড</item>
 </plurals>
     <plurals name="libraries_count">
 	<item quantity="one">এক লাইব্রেরি</item>
