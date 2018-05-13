@@ -483,9 +483,7 @@
     <string name="required_mark">wajib</string>
     <string name="reset_master_password">Reset kata sandi utama</string>
     <string name="reset_master_password_hint">Semua koleksi yang dienkripsi akan dihapus</string>
-    <string name="reset_master_quest">Anda ingin reset kata sandi utama?
-
-Perhatian! Semua koleksi terenkripsi akan dihapus!</string>
+    <string name="reset_master_quest">Anda ingin reset kata sandi utama?\nPerhatian! Semua koleksi terenkripsi akan dihapus!</string>
     <string name="remove_encript_lib_dlg_msg">Hapus koleksi yang dienkripsi</string>
     <string name="master_password_reset">Kata sandi utama direset</string>
     <string name="edit_entry_screen_preference">Penyuntingan entri</string>
