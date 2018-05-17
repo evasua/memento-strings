@@ -264,7 +264,7 @@
     <string name="memento_pass_hint">Password</string>
     <string name="memento_pass_hint2">Repeat password</string>
     <string name="memento_email_hint">Email</string>
-    <string name="memento_register_button">Create</string>
+    <string name="memento_register_button">Create Account</string>
     <string name="memento_have_button">I have an account</string>
     <string name="login_empty">Enter username</string>
     <string name="login_format_error">The login may contain only letters and digits</string>
@@ -654,7 +654,7 @@
     <string name="auto_bakup_dir_pref_title">Directory for auto-backup</string>
     <string name="google_play_not_found_message">Your device does not have Google Play. You can download OI File Manager from the developer-site.</string>
     <string name="library_not_found_dialog_title">Library</string>
-    <string name="library_not_found_dialog_message">Library was not found. Maybe the library has been removed.</string>
+    <string name="library_not_found_dialog_message">Library not found. Maybe the library has been removed.</string>
     <string name="add_field_above">Add a field above</string>
     <string name="add_field_below">Add a field below</string>
     <!-- 2.1.1 -->
@@ -1112,7 +1112,7 @@
 	<string name="need_make_slave_library_unique_import">To import \"Link to entry\" fields, you must enable entry name uniqueness control in the library to which the links refer.\nDo this now?</string>
 	<string name="run_sync_slave_libraries_pref">Related libraries</string>
 	<string name="run_sync_slave_libraries_summary">First synchronize associated libraries</string>
-	<string name="choice_type_add_button_in_edit_title">The creation of elements while a entry is being edited</string>
+	<string name="choice_type_add_button_in_edit_title">Allow creation of items while an entry is being edited</string>
 	
 	<!-- 3.2.3 -->
 	<string name="show_deleted_entries_menu_item">Show deleted entries</string>
@@ -1235,7 +1235,7 @@
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Library not found</string>
 	<string name="upload_to_cloud_offer_title">{cloud ready...}</string>
-	<string name="upload_to_cloud_offer_text">&#8226; Teamwork\n&#8226; Sync across devices\n&#8226; Backup are always in the cloud</string>
+	<string name="upload_to_cloud_offer_text">&#8226; Teamwork\n&#8226; Sync across devices\n&#8226; Backup are always in the cloud\n&#8226; Version history</string>
 	<string name="button_no_thanks">No, thanks</string>
 	<string name="button_upload">Upload</string>
 	
@@ -1739,7 +1739,7 @@
     <string name="cloud_plan_team10">Team 10</string>
     <string name="cloud_plan_team15">Team 15</string>
     <string name="cloud_plan_team20">Team 20</string>
-    <string name="pro_for_team">Pro features for all the users within the team</string>
+    <string name="pro_for_team"> Pro features for all team users</string>
     <string name="team_features_trial">All Plans Include a Free 14‑Day Trial.</string>
 
     <string name="tasker_plugin_create_entry_event_title">Entry created</string>
@@ -1862,7 +1862,7 @@
     <string name="number_increment_visible_option">Show buttons</string>
     <string name="is_empty">Is empty</string>
     <string name="is_not_empty">Is not empty</string>
-    <string name="trigger_event_open_library">Opening an library</string>
+    <string name="trigger_event_open_library">Opening a library</string>
     <string name="search_base_folder">Search base</string>
     <string name="line_interpolate_nulls_titles">Interpolate empty values</string>
 
@@ -1963,5 +1963,69 @@
     <string name="quick_filter_limit_message">The free version allows you to search only by five fields.\nUpgrade to the PRO version to disable this limitation.</string>
     <string name="button_upgrade">Upgrade</string>
     <string name="autofilll_source_not_supported">Sorry, but %s is not supported anymore.</string>
+    <string name="link_attributes_empty_text">This field does not have attributes for the links.</string>
+    <string name="cant_find_contact_selection_app">Sorry, but application for choice contact does not found.</string>
+    <string name="library_item_not_found_dialog_message">Entry not found. It may have been deleted.</string>
+
+    <!-- 4.4.5 -->
+    <string name="license_key_tab">License Key</string>
+    <string name="pro_feature_0">No advertising</string>
+    <string name="pro_feature_1">Unlimited number of libraries that can be synchronized with Google Sheets</string>
+    <string name="pro_feature_2">Unlimited number of \"protected\" libraries</string>
+    <string name="pro_feature_3">Unlimited number of graphs</string>
+    <string name="pro_feature_4">Unlimited number of scripts</string>
+    <string name="pro_feature_5">The advanced search</string>
+    <string name="pro_feature_6">One entry field may contain multiple number of objects (images, files, contacts, coordinates, etc.</string>
+    <string name="pro_feature_7">Multiple entries editing</string>
+    <string name="pro_feature_8">Handy app widget</string>
+    <string name="pro_license_activated">License activated</string>
+    <string name="pro_features_title">Pro features</string>
+    <string name="activate_with_key">Activate with a key</string>
+    <string name="plans_and_pricing">Plans &amp; Pricing</string>
+    <string name="email_or_username">Email or username</string>
+    <string name="sign_in_with_google">Continue with Google</string>
+    <string name="minimum_pass_length">Password must be at least %d characters long.</string>
+    <string name="please_sign_in">Please sign in to Memento Cloud.</string>
+    <string name="sign_up_or_sign_in">Sign up or log in</string>
+    <string name="auth_error_title">Authentication error</string>
+    <string name="auth_error_text">An error occurred, please authenticate again %s.</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirmation">Are you sure you want to logout?</string>
+    <string name="current_plan">Current plan</string>
+    <string name="change_password">Change password</string>
+    <string name="current_password">Current password</string>
+    <string name="new_password">New password</string>
+    <string name="password_changed_message">Your password has been changed successfully!</string>
+    <string name="sign_in_error">Couldn\'t sign in</string>
+    <string name="choose_username">Choose your username</string>
+    <string name="account_without_password_message">That account appears to be a Google Account without a password. Try using the \"Continue with Google\" button.</string>
+    <string name="template_not_found_by_uri">Template not found</string>
+    <string name="public_template_address_text">Template address</string>
+    <string name="wrong_template_address">Invalid template address format</string>
+    <string name="search_index_tokenizer">Lexical analyzer</string>
+
+    <string name="permission_contacts_title">Contacts</string>
+    <string name="permission_contacts_text">It is required to grant Memento access to contacts for the Contact field type.</string>
+    <string name="boolean_format">Format</string>
+    <string name="boolean_format_on">On label</string>
+    <string name="boolean_format_off">Off label</string>
+    <string name="plans_comparison">See our complete feature comparison</string>
+
+    <!-- 4.5.0 -->
+    <string name="revision_history">Version history</string>
+    <string name="revision_current_version">Current version</string>
+    <string name="revision_action_edit">%s changed</string>
+    <string name="revision_action_create">%s created entry</string>
+    <string name="revert_to_version">Revert to this version</string>
+    <string name="revert_to_version_message">Are you sure you want to revert to the version from %s ?</string>
+    <string name="revision_history_only_for_cloud">Version history is available only for the libraries that were uploaded to the cloud and on the PRO or TEAM accounts.</string>
+    <string name="barcode_type_nfc">NFC</string>
+    <string name="pending_user">Pending...</string>
+    <string name="uom_category_userdefined">User Defined</string>
+    <string name="uom_custom_name">Unit name</string>
+    <string name="time_field_group_by_day_and_time">Group by day and time</string>
+
+    <string name="select_source_library_dialog_title">Select the library from which to copy data</string>
+    <string name="select_source_library_dialog_hint">Select a data source</string>
 
 </resources>

@@ -39,7 +39,7 @@
     <string name="flex_template_options_title">Parameter Lanjutan</string>
     <string name="error_template_empty_title">Ketik nama field</string>
     <string name="error_library_withous_name_flex">Koleksi setidaknya harus punya satu field dengan fungsi – \"nama\".</string>
-    <string name="select_library_icon_activity">Memilih ikon untuk koleksi</string>
+    <string name="select_library_icon_activity">Pemilihan ikon untuk koleksi</string>
     <string name="select_flex_template_role_title">Fungsi field</string>
     <string name="library_edit2">Sunting koleksi</string>
     <string name="library_edit">Sunting</string>
@@ -154,7 +154,7 @@
     <string name="find_csv_column_title">Field entri yang ditemukan pada berkas yang dipilih:</string>
     <string name="not_find_csv_column_title">Tidak ditemukan field pada berkas yang dipilih.</string>
     <string name="csv_delimiter_text">Nilai kolom harus dipisahkan oleh koma (,)</string>
-    <string name="need_title_column_text">"Nama kolom harus cocok dengan nama kolom entri. "</string>
+    <string name="need_title_column_text">"Nama kolom harus cocok dengan nama field entri. "</string>
     <string name="csv_result_import_text">Entri telah diimpor</string>
     <string name="csv_result_import_succes_items">Entri yang ditambah:</string>
     <string formatted="false" name="csv_result_import_fail_items">Jumlah baris dengan galat: %s 
@@ -309,7 +309,7 @@
     <string name="subscribe_last_update">Pembaruan terakhir %s</string>
     <string name="subscribe_last_update_dialog_title">Perbarui koleksi</string>
     <string name="subscribe_last_update_dialog_message">Memperbarui koleksi</string>
-    <string name="clear_preference">Membersihkan koleksi</string>
+    <string name="clear_preference">Pembersihan koleksi</string>
     <string name="clear_preference_hint">Menghapus semua entri dalam koleksi</string>
     <string name="clear_preference_quest">Hapus semua entri dalam koleksi?</string>
     <string name="last_sync">Sinkron terakhir: %s</string>
@@ -458,10 +458,10 @@
     <string name="latest">Terbaru</string>
     <string name="scale_dialog">Skala hasil</string>
     <string name="pref_cat_library_view">Tampilan</string>
-    <string name="field_email_preferences">Menyusun email</string>
+    <string name="field_email_preferences">Penyusunan email</string>
     <string name="field_email_preferences_summary">Menyusun opsi entri untuk dikirim melalui email</string>
     <string name="formatted_field_prompt">Pilih field</string>
-    <string name="formatted_field_name">Format field</string>
+    <string name="formatted_field_name">Susunan field</string>
     <string name="field_email_enter">Mulai baris baru</string>
     <string name="field_email_enter_summary">Nama dan nilai field akan ditampilkan pada baris baru</string>
     <string name="colon_after_name">Titik dua setelah nama</string>
@@ -469,8 +469,8 @@
     <string name="formatted_string_value">Nilai jenis field Pilihan-ganda</string>
     <string name="formatted_string_value_summary">Jumlah nilai di suatu baris</string>
     <string name="reminders_label">Pengingat</string>
-    <string name="email_templates_spinner_hint">Menyusun templat</string>
-    <string name="field_send_by_email">Field kirim</string>
+    <string name="email_templates_spinner_hint">Templat Penyuntingan</string>
+    <string name="field_send_by_email">Field pengiriman</string>
     <string name="field_send_by_email_summary">Kirim nama dan nilai field dengan email/sms</string>
     <string name="add_email_template_dialog_title">Buat templat</string>
     <string name="add_email_template_dialog_text">Nama templat</string>
@@ -483,11 +483,10 @@
     <string name="required_mark">wajib</string>
     <string name="reset_master_password">Reset kata sandi utama</string>
     <string name="reset_master_password_hint">Semua koleksi yang dienkripsi akan dihapus</string>
-    <string name="reset_master_quest">Anda ingin reset kata kunci utama?
-\nPerhatian! Semua koleksi terenkripsi akan dihapus!</string>
+    <string name="reset_master_quest">Anda ingin reset kata sandi utama?\nPerhatian! Semua koleksi terenkripsi akan dihapus!</string>
     <string name="remove_encript_lib_dlg_msg">Hapus koleksi yang dienkripsi</string>
-    <string name="master_password_reset">Kata kunci utama direset</string>
-    <string name="edit_entry_screen_preference">Menyunting entri</string>
+    <string name="master_password_reset">Kata sandi utama direset</string>
+    <string name="edit_entry_screen_preference">Penyuntingan entri</string>
     <string name="edit_entry_screen_preference_summary">Parameter formulir untuk buat/sunting entri</string>
     <string name="auto_show_soft_keyboard">Tampilkan soft keyboard</string>
     <string name="auto_show_soft_keyboard_summary">Ketika formulir terbuka - buka soft keyboard</string>
@@ -660,7 +659,7 @@
     <string name="reindex_complete_message">Pengindeksan ulang selesai</string>
     <string name="files_backup_not_found_files">Tidak menemukan berkas:</string>
     <string name="files_storage_settings_screen">Tempat penyimpanan berkas</string>
-    <string name="files_storage_settings_screen_summary">Menempatkan foto dan berkas lain</string>
+    <string name="files_storage_settings_screen_summary">Penempatan foto dan berkas lain</string>
     <string name="files_storage_settings_path_title">Folder tempat penyimpanan berkas</string>
     <string name="files_storage_settings_dublicate_title">Salin ke tempat penyimpanan</string>
     <string name="files_storage_settings_dublicate_summary">Berkas yang terlampir pada record akan disalin ke folder tempat penyimpanan</string>
@@ -683,7 +682,7 @@
     <string name="lock_library_edit_message">Perubahan struktur koleksi dikunci.
 \nAnda dapat menghidupkan penyuntingan untuk koleksi ini pada setelan.</string>
     <string name="lock_edit_library_pref_title">Kunci struktur</string>
-    <string name="lock_edit_library_pref_summary_on">Mengganti struktur koleksi tidak diizinkan</string>
+    <string name="lock_edit_library_pref_summary_on">Perubahan struktur koleksi tidak diizinkan</string>
     <string name="lock_edit_library_pref_summary_off">Mengganti struktur koleksi diizinkan</string>
     <string name="cant_restore_form_google_drive">Perangkat anda tidak mendukung pembuatan koleksi dari Google Drive</string>
     <string name="record_error_dialog_message">Maaf, aplikasi perekam tidak ditemukan.</string>
@@ -1022,7 +1021,7 @@
 	<string name="welcome_text_title">Selamat datang di Memento Database</string>
 	<string name="welcome_text_description">Koleksi adalah tempat informasi anda akan disimpan. Anda bisa mulai mengakrabkan diri dengan Memento dengan membuat sebuah koleksi yang berdasarkan templat yang disediakan.</string>
 	
-	<string name="memento_cloud">Cloud Memento</string>
+	<string name="memento_cloud">Memento Cloud</string>
 	<string name="start_remove_librarary_from_cloud">Menghapus koleksi...</string>
 	<string name="success_remove_librarary_from_cloud">Koleksi berhasil dihapus dari cloud</string>
 	<string name="start_upload_library_to_cloud">Mengunggah koleksi...</string>	
@@ -1099,10 +1098,13 @@
 	<string name="start_download_slave_library_model">Mengunggah koleksi turunan %s</string>
 	<string name="open_access_for_slave_libraries">Sediakan akses baca ke koleksi turunan</string>
 	<string name="cloud_storage_full_text">Tidak cukup ruang pada tempat penyimpanan cloud
-\nAnda dapat upgrade ke paket tariff yang menyediakan lebih banyak ruang tempat penyimpanan.</string>
+
+Anda dapat upgrade ke paket tarif yang menyediakan lebih banyak ruang tempat penyimpanan.</string>
 	<string name="cloud_storage_full_text2" formatted="false">Tidak cukup ruang pada tempat penyimpanan cloud
-\n%s dibutuhkaan, %s tersedia.
-\nAnda dapat upgrade ke paket tariff yang menyediakan lebih banyak ruang tempat penyimpanan.</string>
+
+%s dibutuhkaan, %s tersedia.
+
+Anda dapat upgrade ke paket tarif yang menyediakan lebih banyak ruang tempat penyimpanan.</string>
 	<string name="alien_cloud_storage_full_text">Pemilik koleksi tidak memiliki cukup ruang tempat penyimpanan.</string>	
 	<string name="button_tarifs">Tarif</string>
 	<string name="cloud_storage_plans">Paket langganan</string>
@@ -1386,9 +1388,9 @@
     <string name="script_log">Log Script</string>
 
     <string name="trigger_permissions">Perizinan untuk script</string>
-    <string name="trigger_permission_read_file">Membaca berkas</string>
+    <string name="trigger_permission_read_file">Pembacaan berkas</string>
     <string name="trigger_permission_read_file_hint">Izinkan script membaca dari tempat penyimpanan eksternal</string>
-    <string name="trigger_permission_write_file">Menulis berkas</string>
+    <string name="trigger_permission_write_file">Penulisan berkas</string>
     <string name="trigger_permission_write_file_hint">Izinkan script menulis ke tempat penyimpanan eksternal</string>
     <string name="trigger_permission_network">Jaringan</string>
     <string name="trigger_permission_network_hint">Izinkan script menjalankan request HTTP</string>
@@ -1485,7 +1487,7 @@
     <string name="bulk_add">Tambah massal</string>
     <string name="login">Masuk</string>
     <string name="sign_up">Daftar</string>
-    <string name="memento_cloud2">Cloud Memento</string>
+    <string name="memento_cloud2">Memento Cloud</string>
 
     <string name="from_file">Dari berkas</string>
     <string name="from_google_drive">Dari Google Drive</string>
@@ -1609,7 +1611,7 @@
     <string name="required_access_to_library">akses ke %s</string>
     <string name="action_with_library_context">Action Koleksi</string>
     <string name="action_with_entry_context">Action Entri</string>
-    <string name="library_related_cloud_model_changed_message">Struktur dari koleksi bersangkutan diperbarui di cloud. Masuk ke koleksi bersangkutan untuk pembaruan.</string>
+    <string name="library_related_cloud_model_changed_message">Struktur dari koleksi terkait diperbarui di cloud. Masuk ke koleksi bersangkutan untuk pembaruan.</string>
     
     <string name="monthly_plan">Bulanan</string>
     <string name="yearly_plan">Tahunan</string>
@@ -1680,7 +1682,7 @@
     <string name="type_desc_url">Field Pranala bisa berisi sebuah tautan HTML tekstual.</string>
     <string name="type_desc_email">Field Alamat Email bisa berisi sebuah alamat email dalam bentuk tekstual.</string>
     <string name="type_desc_barcode">Field Barcode digunakan untuk memindai barcode atau QR-codes.</string>
-    <string name="type_desc_pass">Field Kata sandi dapat berisi suatu data tekstual. Karakter-karakter pada field kata kunci akan ditutupi (diperlihatkan sebagai tanda bintang).</string>
+    <string name="type_desc_pass">Field Kata sandi dapat berisi suatu data tekstual. Karakter-karakter pada field kata sandi akan ditutupi (diperlihatkan sebagai tanda bintang).</string>
     <string name="type_desc_rich">Field Teks Lengkap bisa berisi suatu data tekstual, termasuk informasi penyusunan teks.</string>
     <string name="type_desc_multiple_choice">Field Daftar Pilihan-ganda adalah sebuah set string teks yang satu atau semua daripadanya bisa dipilih seorang pengguna.</string>
     <string name="type_desc_checkboxes">Field Kotak Centang membolehkan penyajian satu atau banyak kotak centang yang penentuan pilihannya bebas.</string>
