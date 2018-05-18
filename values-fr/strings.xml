@@ -239,7 +239,7 @@
     <string name="preference_google_account_title">Compte Google</string>
     <string name="preference_google_account_hint">Adresse e-mail et mot de passe de votre compte Google</string>
     <string name="conflict_dialog_text">Le même enregistrement a été édité à la fois dans Memento et Google Sheets. Laquelle de ces versions est correcte ?</string>
-    <string name="copy_memento_to_gdocs">Enregistrement de Memento</string>
+    <string name="copy_memento_to_gdocs">Enregistrements de Memento</string>
     <string name="copy_gdocs_to_memento">Enregistrements de Google Sheets</string>
     <string name="edit_flex_title_disabled">Ce champ ne peut être renommé car la base est liée à Google Sheets</string>
     <string name="cant_bind">La version gratuite vous permet de lier seulement deux bases à Google Sheets.\nMerci de bien vouloir acheter la version PRO pour dépasser cette limitation.</string>
@@ -313,7 +313,7 @@
     <string name="subscribe_task_get_library">Récupération des enregistrements de la base</string>
     <string name="subscribe_task_create_library">Création de la base</string>
     <string formatted="false" name="subscribe_task_save_library_task">Sauvegarde des enregistrements.\n%s sur %s</string>
-    <string name="subscribe_task_create_index">Création des indexes</string>
+    <string name="subscribe_task_create_index">Création des index</string>
     <string name="subscribes_group_title">Mes abonnements</string>
     <string name="library_settings">Paramètres</string>
     <string name="subscribe_get_updated_pack">Vérification des mises à jour</string>
@@ -440,7 +440,7 @@
     <string name="button_share_template">Partager le modèle</string>
     <string name="share_template_text">Téléverser le modèle de base au catalogue en ligne</string>
     <string name="share_success">Modèle de base téléversé avec succès au catalogue en ligne</string>
-    <string name="template_from_catalog_title">Du catalogue en ligne</string>
+    <string name="template_from_catalog_title">Depuis le catalogue en ligne</string>
     <string name="template_category_text">Catégorie du modèle</string>
     <string name="template_description_title">Description du modèle</string>
     <string name="template_author_text">de %s</string>
@@ -593,8 +593,8 @@
     <string name="library_ex_options">Paramètres avancés</string>
     <string name="save_library_changes">Enregistrer les modifications ?</string>
     <string name="build_navigate_list_dialog">Tri des enregistrements...</string>
-    <string name="navigate_first_entry">Premier enregistrement</string>
-    <string name="navigate_last_entry">Dernier enregistrement</string>
+    <string name="navigate_first_entry">Cet enregistrement est le premier</string>
+    <string name="navigate_last_entry">Cet enregistrement est le dernier</string>
     <string name="library_custom_filter_name">Filtre utilisateur</string>
     <string name="select_library_filter">Choisir le filtre</string>
     <string name="no_filter_item">Retirer le filtre</string>
@@ -1077,7 +1077,7 @@
 	<string name="dont_show_anymore">Ne plus montrer</string>
 	<string name="run_sync_slave_libraries_pref">Bases attachées</string>
 	<string name="run_sync_slave_libraries_summary">Synchroniser d\'abord les bases associées</string>
-	<string name="choice_type_add_button_in_edit_title">Ajout d\'items en mode édition d\'enregistrements</string>
+	<string name="choice_type_add_button_in_edit_title">Autoriser l\'ajout d\'items en mode édition d\'enregistrements</string>
 	
 	<string name="show_deleted_entries_menu_item">Montrer les enregistrements supprimés</string>
 	<string name="upload_to_cloud_menu_item">Vers le net</string>
@@ -1654,7 +1654,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="flex_type_subheader">Rubrique</string>
     <string name="create_subheader">Créer une rubrique</string>
     <string name="edit_subheader">Modifier la rubrique</string>
-    <string name="aggr_always_show">Toujours affiché</string>
+    <string name="aggr_always_show">Toujours afficher</string>
     <string name="cant_add_management">L\'administrateur a un accès intégral à la base</string>
     <string name="auth_error_user_blocked">Votre compte a été désactivé</string>
     <string name="team_license">Équipe</string>
