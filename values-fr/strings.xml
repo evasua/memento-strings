@@ -1896,14 +1896,14 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="quick_filter_for_text">Pour le texte</string>
     <string name="save_as_filter">Enregistrer comme filtre</string>
     <string name="save_as_filter_success">Vous avez créé un nouveau filtre avec succès</string>
-    <string name="shortcut_not_supported">Malheureusement votre programme lanceur n\'accepte pas les raccourcis de l\'application.</string>
+    <string name="shortcut_not_supported">Maleureusement votre lanceur n\'accepte pas les raccourcis de l application</string>
     <string name="notification_channel_entries">Modifications dans les bases</string>
     <string name="notification_channel_files">Fichiers</string>
     <string name="quick_filter_limit_message">La version gratuite n\'autorise que 5 champs de recherche. Actualisez vers la version PRO pour supprimer cette limitation.</string>
     <string name="button_upgrade">Actualiser vers une version supérieure</string>
     <string name="autofilll_source_not_supported">Désolé mais %s n\'est plus supporté.</string>
     <string name="entry_name_and_description">Nom de l\'entrée et description</string>
-    <string name="search_settings_quick">Recherche rapide</string>
+    <string name="search_settings_quick">"Recherche rapide dans "</string>
     <string name="index_not_found_message">Recherche impossible, les enregistrements ne sont pas indexés</string>
     <string name="notification_channel_reminders">Rappels</string>
     <string name="attribute_display_title_in_card_hint">Afficher le nom de l\'attribut sur la fiche enregistrement</string>
