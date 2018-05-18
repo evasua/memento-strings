@@ -264,7 +264,7 @@
     <string name="memento_pass_hint">Mot de passe</string>
     <string name="memento_pass_hint2">Répétez le mot de passe</string>
     <string name="memento_email_hint">Adresse e-mail</string>
-    <string name="memento_register_button">Créer</string>
+    <string name="memento_register_button">Créer un compte</string>
     <string name="memento_have_button">J\'ai déjà un compte</string>
     <string name="login_empty">Entrez un nom</string>
     <string name="login_format_error">Le nom doit contenir seulement des lettres et des chiffres</string>
@@ -1200,7 +1200,10 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Base non trouvée</string>
 	<string name="upload_to_cloud_offer_title">{Cloud ready...}</string>
-	<string name="upload_to_cloud_offer_text">• Travail en équipe\n• Synchronisation entre matériels\n• Sauvegarde toujours présente dans le nuage</string>
+	<string name="upload_to_cloud_offer_text">• Travail en équipe
+• Synchronisation entre matériels
+• Sauvegarde toujours présente dans le nuage
+• Historique des versions</string>
 	<string name="button_no_thanks">Non, merci</string>
 	<string name="button_upload">Téléverser</string>
 	
@@ -1684,7 +1687,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="cloud_plan_team10">Équipe 10</string>
     <string name="cloud_plan_team15">Équipe 15</string>
     <string name="cloud_plan_team20">Équipe 20</string>
-    <string name="pro_for_team">Fonctionnalités Pro pour tous les utilisateurs de l\'équipe</string>
+    <string name="pro_for_team">" Fonctionnalités Pro pour tous les utilisateurs"</string>
     <string name="team_features_trial">Tous les abonnements incluent un essai gratuit de 14 jours.</string>
 
     <string name="tasker_plugin_create_entry_event_title">Enregistrement créé</string>
@@ -1904,4 +1907,67 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="index_not_found_message">Recherche impossible, les enregistrements ne sont pas indexés</string>
     <string name="notification_channel_reminders">Rappels</string>
     <string name="attribute_display_title_in_card_hint">Afficher le nom de l\'attribut sur la fiche enregistrement</string>
-    </resources>
+    <string name="link_attributes_empty_text">Ce champ n\'a pas de propriétés pour les liens.</string>
+    <string name="cant_find_contact_selection_app">Désolé, l\'application pour le choix de contact n\'a pas été trouvée.</string>
+    <string name="library_item_not_found_dialog_message">Enregistrement non trouvé. Il a peut-être été supprimé.</string>
+
+    <string name="license_key_tab">Clé de licence</string>
+    <string name="pro_feature_0">Pas de publicité</string>
+    <string name="pro_feature_1">Pas de limite en nombre de bibliothèques synchronisables avec Google Sheets</string>
+    <string name="pro_feature_2">Nombre illimité de bibliothèques \"protégées\"</string>
+    <string name="pro_feature_3">Nombre illimité de graphiques</string>
+    <string name="pro_feature_4">Nombre illimité de scripts</string>
+    <string name="pro_feature_5">Recherche avancée</string>
+    <string name="pro_feature_6">Un champ d\'enregistrement peur contenir plusieurs objets (images, contacts, coordonnées, etc.).</string>
+    <string name="pro_feature_7">Modification multi-enregistrements</string>
+    <string name="pro_feature_8">Widget d\'application pratique</string>
+    <string name="pro_license_activated">Licence activée</string>
+    <string name="pro_features_title">Fonctionnalités Pro</string>
+    <string name="activate_with_key">Activer avec une clé</string>
+    <string name="plans_and_pricing">Options &amp; Prix</string>
+    <string name="email_or_username">Email ou nom d\'utilisateur</string>
+    <string name="sign_in_with_google">Continuer avec Google</string>
+    <string name="minimum_pass_length">Le mot de passe doit contenir au moins %d caractères.</string>
+    <string name="please_sign_in">Se connecter au nuage Memento, SVP.</string>
+    <string name="sign_up_or_sign_in">S\'enregistrer ou se connecter</string>
+    <string name="auth_error_title">Erreur d\'authentification</string>
+    <string name="auth_error_text">Une erreur est survenue, merci de vous authentifier à nouveau %s.</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="logout_confirmation">Etes-vous sûr de vouloir vous déconnecter ?</string>
+    <string name="current_plan">Option actuelle</string>
+    <string name="change_password">Changer le mot de passe</string>
+    <string name="current_password">Mot de passe actuel</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="password_changed_message">Votre mot de passe a bien été changé !</string>
+    <string name="sign_in_error">Connexion impossible</string>
+    <string name="choose_username">Choisissez votre nom d\'utilisateur</string>
+    <string name="account_without_password_message">Votre compte est un compte Google sans mot de passe. Essayez d\'utiliser le bouton \"Continuer avec Google\".</string>
+    <string name="template_not_found_by_uri">Modèle non trouvé</string>
+    <string name="public_template_address_text">Modèle adresse</string>
+    <string name="wrong_template_address">Format de modèle d\'adresse invalide</string>
+    <string name="search_index_tokenizer">Analyseur lexical</string>
+
+    <string name="permission_contacts_title">Contacts</string>
+    <string name="permission_contacts_text">Il est impératif de donner l\'accès aux contacts à Memento pour les champs de type Contact.</string>
+    <string name="boolean_format">Format</string>
+    <string name="boolean_format_on">Etiquette On</string>
+    <string name="boolean_format_off">Etiquette Off</string>
+    <string name="plans_comparison">Consulter l\'intégralité de notre comparatif de fonctionnalités</string>
+
+    <string name="revision_history">Historique de version</string>
+    <string name="revision_current_version">Version actuelle</string>
+    <string name="revision_action_edit">%s changé</string>
+    <string name="revision_action_create">%s enregistrement créé</string>
+    <string name="revert_to_version">Retour à cette version</string>
+    <string name="revert_to_version_message">Etes-vous sûr de vouloir retourner à la version depuis %s ?</string>
+    <string name="revision_history_only_for_cloud">"L\'historique de version est disponible uniquement pour les bases qui ont été téléversées sur le nuage et pour les comptes PRO  et TEAM."</string>
+    <string name="barcode_type_nfc">NFC</string>
+    <string name="pending_user">En attente...</string>
+    <string name="uom_category_userdefined">Défini par l\'utilisateur</string>
+    <string name="uom_custom_name">Nom de l\'unité</string>
+    <string name="time_field_group_by_day_and_time">Regroupement par date et heure</string>
+
+    <string name="select_source_library_dialog_title">Sélectionner la base source pour la copie des données</string>
+    <string name="select_source_library_dialog_hint">Sélectionner une source de données</string>
+
+</resources>
