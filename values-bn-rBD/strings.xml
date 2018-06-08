@@ -1977,7 +1977,7 @@ Memento সার্ভারে</string>
     <string name="password_changed_message">আপনার পাসওয়ার্ড সফলভাবে পরিবর্তন করা হয়েছে!</string>
     <string name="sign_in_error">সাইন ইন করা যায়নি</string>
     <string name="choose_username">আপনার ব্যবহারকারী নাম চয়ন করুন</string>
-    <string name="account_without_password_message">যে অ্যাকাউন্টটি কোনও পাসওয়ার্ড ছাড়াই একটি Google অ্যাকাউন্ট বলে মনে হচ্ছে \"Google এর সাথে চালিয়ে\" বোতামটি ব্যবহার করে দেখুন।</string>
+    <string name="account_without_password_message">যে অ্যাকাউন্টটি কোনও পাসওয়ার্ড ছাড়াই একটি Google অ্যাকাউন্ট বলে মনে হচ্ছে তা \"Continue with Google\" বোতামটি ব্যবহার করে দেখুন।</string>
     <string name="template_not_found_by_uri">টেমপ্লেট খুঁজে পাওয়া যায় নি</string>
     <string name="public_template_address_text">টেমপ্লেটের ঠিকানা</string>
     <string name="wrong_template_address">অবৈধ টেমপ্লেট ঠিকানা ফরম্যাট</string>
@@ -1996,7 +1996,7 @@ Memento সার্ভারে</string>
     <string name="revision_action_create">%s এন্ট্রি তৈরি করেছিল</string>
     <string name="revert_to_version">এই সংস্করণে প্রত্যাবর্তন</string>
     <string name="revert_to_version_message">আপনি কি %s থেকে সংস্করণে ফিরে যেতে চান?</string>
-    <string name="revision_history_only_for_cloud">সংস্করণ ইতিহাস কেবল লাইব্রেরির জন্য উপলব্ধ যা ক্লাউডে আপলোড করা হয় এবং PRO বা TEAM অ্যাকাউন্টগুলিতে।</string>
+    <string name="revision_history_only_for_cloud">সংস্করণ ইতিহাস কেবল লাইব্রেরির জন্য পাওয়া যায় যা ক্লাউডে আপলোড করা হয় এবং PRO বা TEAM অ্যাকাউন্টগুলিতে।</string>
     <string name="pending_user">অমীমাংসিত...</string>
     <string name="uom_category_userdefined">ব্যবহারকারী নির্ধারিত</string>
     <string name="uom_custom_name">ইউনিটের নাম</string>
