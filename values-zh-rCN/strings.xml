@@ -12,7 +12,7 @@
     <string name="button_save">保存</string>
     <string name="button_cancel">取消</string>
     <string name="button_add_field">添加一个字段</string>
-    <string name="add_new_library_item">添加一个条目...</string>
+    <string name="add_new_library_item">添加条目</string>
     <string name="flex_type_title_string">文本</string>
     <string name="flex_type_title_int">整数</string>
     <string name="flex_type_title_bool">布尔</string>
@@ -560,7 +560,7 @@
     <string name="preference_category_export_data_cfg">设置导入/导出/同步</string>
     <string name="import_export_date_format">选择日期格式</string>
     <string name="import_export_date_format_dialog">选择日期格式导入/导出/同步</string>
-    <string name="main_title">Memento Database</string>
+    <string name="main_title">Memento数据库</string>
     <string name="main_menu_add_group">添加组</string>
     <string name="main_menu_bookmarks">网页浏览历史记录</string>
     <string name="main_menu_add_lib_group">添加库或组</string>
@@ -690,7 +690,7 @@
     <string name="files_storage_settings_dublicate_title">复制文件到存储文件夹</string>
     <string name="files_storage_settings_dublicate_summary">增加记录时，文件复制到存储文件夹</string>
     <string name="files_storage_settings_remove_original_title">删除原文件</string>
-    <string name="files_storage_settings_remove_original_summary">将文件复制到存储器后，请删除原文件。</string>
+    <string name="files_storage_settings_remove_original_summary">将文件复制到存储器后，请删除原文件</string>
     <string name="dublicate_file_error">"不能移动存储的文件: "</string>
     <string name="select_map_type">地图类型</string>
     <string name="normal">正常</string>
@@ -927,7 +927,7 @@
     <string name="aggregation_result_right">右</string>
     <string name="aggregation_delete_title">删除聚合</string>
     <string name="aggregation_delete_message">难道你真的要删除聚合“%s”吗？</string>
-    <string name="aggregation_need_select_field_message">您必须为这个聚合函数选择一个字段。</string>
+    <string name="aggregation_need_select_field_message">您必须为这个聚合函数选择一个字段</string>
     <string name="open_object_by_uri_error">无法打开对象：%s</string>
     <string name="import_and_export_menu_item">导入和导出...</string>
     <string name="entries_export_snackbar_ok">导出成功</string>
@@ -1060,7 +1060,7 @@
 	<string name="display_lang_option">按语言过滤</string>
 	<string name="display_lang_option_all">所有模板</string>
 	<string name="entries_name_dialog_title">请选择作为名称的字段</string>
-	<string name="entries_name_is_unique">名称唯一不重复！</string> 
+	<string name="entries_name_is_unique">记录主键只能选择一个</string> 
 	<string name="no_fields_for_role">在这个库中没有合适的字段</string>
 	<string name="update_item_name_index">重建索引...</string>	
 	<string name="entry_name_must_be_unique">条目名称不唯一</string>
@@ -1072,7 +1072,7 @@
 	<string name="need_make_slave_library_unique_import">要导入“连接条目”字段，您必须启用条目名称的唯一性控制指向该库的连接。\n现在做到这一点？</string>
 	<string name="run_sync_slave_libraries_pref">相关库</string>
 	<string name="run_sync_slave_libraries_summary">首先同步相关库</string>
-	<string name="choice_type_add_button_in_edit_title">允许一条记录在编辑时增加记录</string>
+	<string name="choice_type_add_button_in_edit_title">允许一条记录在编辑时增加其他记录</string>
 	
 	<string name="show_deleted_entries_menu_item">显示已删除的项</string>
 	<string name="upload_to_cloud_menu_item">在线云</string>
@@ -1117,7 +1117,7 @@
     <string name="cloud_size">尺寸</string>
     <string name="cloud_files_count">文件计数</string>
     <string name="cloud_who_has_access">谁有权访问</string>
-    <string name="cloud_server_unavaliable">Memento云服务器不可用，请检查一下您的网络连接。</string>
+    <string name="cloud_server_unavaliable">Memento云服务器不可用,请检查一下您的网络连接</string>
     <string name="delete_from_cloud">从云中删除</string>
     <string name="delete_from_cloud_message_question">难道你真的想要删除的云库？</string>
         
@@ -1270,7 +1270,7 @@
     <string name="field_orientation_option_horizontal">水平</string>
     <string name="field_orientation_option_vertical">垂直</string>
     <string name="preparing_files_for_sending">准备文件发送...</string>
-    <string name="whats_new_dialog_title">更新内容</string>
+    <string name="whats_new_dialog_title">更新内容?</string>
     <string name="font_size">尺寸</string>
     <string name="font_family">字体</string>
     <string name="font_style">样式</string>
@@ -1766,7 +1766,7 @@
     <string name="script_cant_run_for_not_saved_library">必须保存库后才能运行脚本。</string>
     <string name="autofill_script_source_key_title">指定脚本返回的对象属性</string>
     <string name="test_js_data_source_query_hint">查询语句字符串</string>
-    <string name="test_js_data_source_query_result">查询结果
+    <string name="test_js_data_source_query_result">查询结果:
 %s</string>
     <string name="run">运行</string>
     <string name="run_arguments">运行参数</string>
@@ -1774,7 +1774,7 @@
     <string name="script_permissions_required_message">此库包含需要如下权限的脚本:</string>
     <string name="required_access_to_library">访问 %s</string>
     <string name="action_with_library_context">库动作</string>
-    <string name="action_with_entry_context">记录操作</string>
+    <string name="action_with_entry_context">条目操作</string>
     <string name="library_related_cloud_model_changed_message">此云中的相关库结构已经更新.请更新相关库.</string>
     
     <string name="monthly_plan">每月</string>
@@ -1815,7 +1815,7 @@
     <string name="wizard_select_field_type_message">请选择字段类型</string>
     <string name="wizard_add_name_field_message">增加记录的关键(主键)值字段.</string>
     <string name="wizard_field_options_title">字段属性</string>
-    <string name="wizard_field_items_title">记录</string>
+    <string name="wizard_field_items_title">条目</string>
     <string name="wizard_field_options_select_type_message">选择字段类型后字段属性即可使用.</string>
     <string name="wizard_field_options_empty">选定的字段类型只有高级属性可用.</string>
     <string name="wizard_field_advanced_options_button">高级</string>
@@ -1873,7 +1873,7 @@
     <string name="required_attribute_text">属性必须填写</string>
 
     <string name="attribute_display_title_in_card">属性名称</string>
-    <string name="attribute_display_title_in_card_hint">在卡片式记录中显示属性名称</string>
+    <string name="attribute_display_title_in_card_hint">在卡片式条目中显示属性名称</string>
     <string name="attribute_delete_message_text">确定要删除 \"%s\"属性 ?</string>
     <string name="free_version_attributes_limit">免费版本只能添加一个属性.升级到专业版可以移除此限制.</string>
     <string name="trigger_event_link_entry">链接一条记录</string>
