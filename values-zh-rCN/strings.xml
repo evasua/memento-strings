@@ -260,7 +260,7 @@
     <string name="memento_pass_hint">密码</string>
     <string name="memento_pass_hint2">重复密码</string>
     <string name="memento_email_hint">邮件</string>
-    <string name="memento_register_button">创建</string>
+    <string name="memento_register_button">创建账户</string>
     <string name="memento_have_button">我有一个账户</string>
     <string name="login_empty">输入用户名</string>
     <string name="login_format_error">登录用户名只能包含有字母或是数字</string>
@@ -629,8 +629,8 @@
     <string name="google_play_not_found_message">你的设备上没有谷歌商店。你可以下载OI开发网站的文件管理器。</string>
     <string name="library_not_found_dialog_title">库</string>
     <string name="library_not_found_dialog_message">未找到库。也许该库已被删除。</string>
-    <string name="add_field_above">在上面添加</string>
-    <string name="add_field_below">在下面添加</string>
+    <string name="add_field_above">在上面添加字段</string>
+    <string name="add_field_below">在下面添加字段</string>
     <string name="flex_type_int_list">整数值</string>
     <string name="flex_type_int_default_value">指定默认值</string>
     <string name="flex_type_int_min">开始</string>
@@ -1045,7 +1045,7 @@
     <string name="use_depend_only_in_edit_title">在哪里使用</string>
     <string name="use_depend_only_in_edit_hint_true">只在编辑状态下</string>
     <string name="use_depend_only_in_edit_hint_false">在编辑和查看状态下</string>
-	<string name="year_default_now">本年度默认</string>
+	<string name="year_default_now">默认今年</string>
     <plurals name="field_depends_count">
         <item quantity="one">一个依赖关系</item>
 	<item quantity="other">%d个依赖关系</item>
@@ -1072,7 +1072,7 @@
 	<string name="need_make_slave_library_unique_import">要导入“连接条目”字段，您必须启用条目名称的唯一性控制指向该库的连接。\n现在做到这一点？</string>
 	<string name="run_sync_slave_libraries_pref">相关库</string>
 	<string name="run_sync_slave_libraries_summary">首先同步相关库</string>
-	<string name="choice_type_add_button_in_edit_title">编辑时显示添加按钮</string>
+	<string name="choice_type_add_button_in_edit_title">允许一条记录在编辑时增加记录</string>
 	
 	<string name="show_deleted_entries_menu_item">显示已删除的项</string>
 	<string name="upload_to_cloud_menu_item">在线云</string>
@@ -1191,7 +1191,10 @@
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">库未找到</string>
 	<string name="upload_to_cloud_offer_title">{云就绪...}</string>
-	<string name="upload_to_cloud_offer_text">•团队合作\n•跨设备同步\n•备份到云中</string>
+	<string name="upload_to_cloud_offer_text">•团队合作
+•跨设备同步
+•备份到云中
+• 版本历史</string>
 	<string name="button_no_thanks">不用了，谢谢</string>
 	<string name="button_upload">上传</string>
 	
@@ -1675,7 +1678,7 @@
     <string name="cloud_plan_team10">团队10</string>
     <string name="cloud_plan_team15">团队15</string>
     <string name="cloud_plan_team20">团队 20</string>
-    <string name="pro_for_team">专业版功能为团队中的所有用户</string>
+    <string name="pro_for_team">" 团队中的所有用户可使用专业版功能"</string>
     <string name="team_features_trial">所有计划包括免费14天试用。</string>
 
 <string name="tasker_plugin_create_entry_event_title">条目已创建</string>
@@ -1746,4 +1749,214 @@
 
     <string name="embedded_js_libraries">内置</string>
     <string name="trigger_event_action">动作</string>
+    <string name="select_source_library_dialog_hint">选择数据源</string>
+
+<string name="action_default_name">动作</string>
+    <string name="place_of_action">动作的位置</string>
+    <string name="required_argument_text">必填参数</string>
+    <string name="scripts">脚本</string>
+    <string name="actions">动作</string>
+    <string name="empty_script_list_text">库未包含脚本</string>
+    <string name="empty_script_list_trigger_text">触发器是指基于一项已发生的事件，定义的一个处理数据库记录的脚本。</string>
+    <string name="empty_script_list_action_text">动作是在库或数据库记录卡片里通过点击按钮来手工启动的脚本。</string>
+    <string name="autofill_goto_script_title">脚本编辑器</string>
+    <string name="autofill_goto_script_hint">脚本化的数据源</string>
+    <string name="java_script_data_source_title">自定义源</string>
+    <string name="java_script_data_source_hint">Java脚本</string>
+    <string name="script_cant_run_for_not_saved_library">必须保存库后才能运行脚本。</string>
+    <string name="autofill_script_source_key_title">指定脚本返回的对象属性</string>
+    <string name="test_js_data_source_query_hint">查询语句字符串</string>
+    <string name="test_js_data_source_query_result">查询结果
+%s</string>
+    <string name="run">运行</string>
+    <string name="run_arguments">运行参数</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">库必须保存后才能设置脚本权限.</string>
+    <string name="script_permissions_required_message">此库包含需要如下权限的脚本:</string>
+    <string name="required_access_to_library">访问 %s</string>
+    <string name="action_with_library_context">库动作</string>
+    <string name="action_with_entry_context">记录操作</string>
+    <string name="library_related_cloud_model_changed_message">此云中的相关库结构已经更新.请更新相关库.</string>
+    
+    <string name="monthly_plan">每月</string>
+    <string name="yearly_plan">每年</string>
+    <string name="cloud_plan_plan3_annual">精简版</string>
+    <string name="cloud_plan_plan6_annual">专业版</string>
+    <string name="cloud_plan_plan10_annual">专业增强版</string>
+    <string name="cloud_plan_team5_annual">5组</string>
+    <string name="cloud_plan_team10_annual">10组</string>
+    <string name="cloud_plan_team15_annual">15组</string>
+    <string name="cloud_plan_team20_annual">20组</string>
+    <string name="price_per_year">/年</string>
+
+    <string name="frozen_alien_text">为库已经锁定，请联系库所有者(%s).</string>
+    <string name="copy_field">复制字段</string>
+    <string name="delete_reminder_dialog_text">确定删除此提醒？</string>
+    <string name="igdb_source">igdb.com</string>
+    <string name="games">游戏</string>
+    <string name="number_increment_delta_title">增加/减少 按钮</string>
+    <string name="number_increment_delta_value">步幅 %s</string>
+    <string name="number_increment_visible_option">显示按钮</string>
+    <string name="is_empty">为空</string>
+    <string name="is_not_empty">不为空</string>
+    <string name="trigger_event_open_library">正在打开库</string>
+    <string name="search_base_folder">搜索根目录</string>
+    <string name="line_interpolate_nulls_titles">平滑空值</string>
+
+
+    <string name="wizard">向导</string>
+    <string name="wizard_library_name_title">Memento要把信息入库.请命名此库为?</string>
+    <string name="wizard_library_name_hint2">库曾经使用过一种特定类型的项目列表.</string>
+    <string name="wizard_library_name_hint3">库类似电子表格中的工作表.</string>
+    <string name="wizard_library_icon_title">为此库选择一个图标</string>
+    <string name="wizard_library_structure_title">为此库创建库结构.</string>
+    <string name="wizard_library_structure_hint2">你录入数据库的每条项目称为\'记录\'.每条记录都有一些用来存储信息的字段.</string>
+    <string name="wizard_library_structure_hint3">一条记录相当于电子表格中的一行.</string>
+    <string name="wizard_library_structure_hint4">字段相当于电子表格中的列.</string>
+    <string name="wizard_select_field_type_message">请选择字段类型</string>
+    <string name="wizard_add_name_field_message">增加记录的关键(主键)值字段.</string>
+    <string name="wizard_field_options_title">字段属性</string>
+    <string name="wizard_field_items_title">记录</string>
+    <string name="wizard_field_options_select_type_message">选择字段类型后字段属性即可使用.</string>
+    <string name="wizard_field_options_empty">选定的字段类型只有高级属性可用.</string>
+    <string name="wizard_field_advanced_options_button">高级</string>
+    <string name="wizard_choice_field_items_empty_text">必须为字段类型创建一个预设的记录值.</string>
+    <string name="wizard_field_name_title">命名此字段为?</string>
+    <string name="wizard_field_name_examples">比如你可以命名字段为\'标题\',\'备注\',\'设备类型\',\'成本\',\'尺寸\',地点\'等等.</string>
+    <string name="wizard_field_type_title">可以指定每个字段存储某个特定类型的数据.</string>
+    <string name="wizard_field_display_options_title">确定在记录列表中显示此字段的值?</string>
+    <string name="wizard_field_display_no">不,谢谢</string>
+    <string name="wizard_field_display_name">指定为记录主键</string>
+    <string name="wizard_field_display_thumb">作为记录缩略图</string>
+    <string name="wizard_field_display_desc">作为记录的备注说明</string>
+    <string name="wizard_field_display_status">作为记录状态</string>
+    <string name="more_info">需要更多的帮助信息吗?</string>
+    <string name="type_desc_rating">评级字段可以为空或者存放一个表示星级的1至5之间的数值.</string>
+    <string name="type_desc_location">地址字段可以包含一个用经纬度或邮政地址表示的地点.</string>
+    <string name="type_desc_link_to_entry">记录链接可以包含一个指向一条记录或另外一个数据库中的一条记录的链接.</string>
+    <string name="type_desc_contact">通讯录字段可以包含一个指向一条联系人记录的链接,该条联系人记录储存在本机设备中的通讯录软件中.</string>
+    <string name="type_desc_images">图片字段包含指向图片的链接记地址.</string>
+    <string name="type_desc_signature">签名字段可以保存各类电子签名.</string>
+    <string name="type_desc_file">文件链接字段包含指向一个保存在外部储存器上面的文件的链接.</string>
+    <string name="type_desc_audio">音频字段存储指向保存音频文件的链接.</string>
+    <string name="type_desc_date">日期保存日历中的日期值.</string>
+    <string name="type_desc_datetime">日期时间字段存储日历上的日期和时间.</string>
+    <string name="type_desc_time">时间字段存储时间值.</string>
+    <string name="type_desc_boolean">布尔字段可以提供一个让你选择(yes/no)的单选框。</string>
+    <string name="type_desc_money">货币字段有币种和金额。在货币类型定义后币种必须确定下来.</string>
+    <string name="type_desc_real">实数字段类型存储带(或不带)小数点分隔的数字.</string>
+    <string name="type_desc_int">数值字段存储没有小数点分隔的数字.</string>
+    <string name="type_desc_int_list">整数字段通常用来存储用户设置的序号.</string>
+    <string name="type_desc_text">文本字段保存文本.</string>
+    <string name="type_desc_phone">电话号码字段以文本形式保存电话号码.</string>
+    <string name="type_desc_url">超链字段保存一个HTML链接.</string>
+    <string name="type_desc_email">邮箱地址字段保存邮箱地址.</string>
+    <string name="type_desc_barcode">条码字段可以保存通过扫描条码或二维码获得的数值.</string>
+    <string name="type_desc_pass">密码字段保存文本形式的密码.保存的密码字符是用星号显示(不用明文显示).</string>
+    <string name="type_desc_rich">富文本格式字段可以保存富文本格式的文本.</string>
+    <string name="type_desc_multiple_choice">多选列表字段可以保存一个列表,可以实现用户在此列表中多选的目的.</string>
+    <string name="type_desc_checkboxes">勾选字段可以实现让用户在此字段勾选任意选项的功能.</string>
+    <string name="type_desc_single_choice">单选字段让用户在此字段中任选一个数值.</string>
+    <string name="type_desc_radiobuttons">互斥单选字段让用户在一组选项中单选.</string>
+    <string name="type_desc_js">在此字段中定义的脚本运行后的结果将填入此字段.</string>
+    <string name="type_desc_calc">计算结果字段.此字段的值来自对此记录中其他字段进行运算后的结果.</string>
+
+    <string name="wizard_complete_text1">祝贺你完成设置!</string>
+    <string name="wizard_complete_text2">你已经成功创建一个数据库.</string>
+    <string name="wizard_complete_text3">你可以随时更改数据库结构,比如增加聚合操作,自动填充,脚本等.</string>
+    <string name="close">关闭</string>
+
+    <string name="attributes">属性</string>
+    <string name="select_attribute_type">属性类型</string>
+    <string name="create_attribute">创建属性</string>
+    <string name="edit_attribute">编辑属性</string>
+    <string name="attribute_name">命名属性</string>
+    <string name="required_attribute_text">属性必须填写</string>
+
+    <string name="attribute_display_title_in_card">属性名称</string>
+    <string name="attribute_display_title_in_card_hint">在卡片式记录中显示属性名称</string>
+    <string name="attribute_delete_message_text">确定要删除 \"%s\"属性 ?</string>
+    <string name="free_version_attributes_limit">免费版本只能添加一个属性.升级到专业版可以移除此限制.</string>
+    <string name="trigger_event_link_entry">链接一条记录</string>
+    <string name="trigger_event_unlink_entry">断开记录链接</string>
+    <string name="script_cant_run_links_not_exists">脚本无法运行,些此数据库的链接不存在.</string>
+    <string name="entry_name_and_description">记录名称和备注说明</string>
+    <string name="all_searchable_fields">所有可搜索字段</string>
+    <string name="search_settings_quick">快捷搜索</string>
+    <string name="search_by_specified_fields">指定的字段</string>
+    <string name="index_not_found_message">搜索无法执行,因为记录尚未进行过索引操作</string>
+    <string name="script_error_message">脚本错误: %s</string>
+    <string name="advanced_search">高级搜索</string>
+    <string name="quick_filter_for_numbers">以数值</string>
+    <string name="quick_filter_for_text">以文本</string>
+    <string name="save_as_filter">保存为过滤器</string>
+    <string name="save_as_filter_success">成功创建过滤器</string>
+    <string name="shortcut_not_supported">你的启动器不支持APP快捷键.</string>
+    <string name="notification_channel_reminders">提醒</string>
+    <string name="notification_channel_entries">数据库中的变动</string>
+    <string name="notification_channel_files">文件</string>
+    <string name="quick_filter_limit_message">免费版本只能搜索5个字段.
+升级到专业版可取消此限制.</string>
+    <string name="button_upgrade">升级</string>
+    <string name="autofilll_source_not_supported">"对不起, 不在支持%s  ."</string>
+    <string name="link_attributes_empty_text">此字段不支持该属性的链接.</string>
+    <string name="cant_find_contact_selection_app">未找到选择联系人的应用软件.</string>
+    <string name="library_item_not_found_dialog_message">记录未找到.可以已经被删除.</string>
+
+    <string name="license_key_tab">注册码</string>
+    <string name="pro_feature_0">无广告</string>
+    <string name="pro_feature_1">可以与Google Sheets同步无限数量的数据库</string>
+    <string name="pro_feature_2">无限数量的被保护数据库</string>
+    <string name="pro_feature_3">无限数量的图片</string>
+    <string name="pro_feature_4">无限数量的脚本</string>
+    <string name="pro_feature_5">高级搜索</string>
+    <string name="pro_feature_6">一条记录中的字段可以存储各种对象(如图片,文件,通讯录,坐标等).</string>
+    <string name="pro_feature_7">多记录编辑</string>
+    <string name="pro_feature_8">手机桌面小部件</string>
+    <string name="pro_license_activated">注册码激活</string>
+    <string name="pro_features_title">专业版特有功能</string>
+    <string name="activate_with_key">注册码激活</string>
+    <string name="plans_and_pricing">方案&amp;定价</string>
+    <string name="email_or_username">邮箱地址或用户名</string>
+    <string name="sign_in_with_google">继续用谷歌账号登录</string>
+    <string name="minimum_pass_length">密码必须至少有%d位长度的字符.</string>
+    <string name="please_sign_in">登录Memento云.</string>
+    <string name="sign_up_or_sign_in">注册或登录</string>
+    <string name="auth_error_title">密码错误</string>
+    <string name="auth_error_text">发生错误,请再登录%s.</string>
+    <string name="logout">退出登录</string>
+    <string name="logout_confirmation">确定退出登录?</string>
+    <string name="current_plan">当前方案</string>
+    <string name="change_password">更改密码</string>
+    <string name="current_password">当前密码</string>
+    <string name="new_password">新密码</string>
+    <string name="password_changed_message">更改密码成功!</string>
+    <string name="sign_in_error">无法登录</string>
+    <string name="choose_username">输入用户名</string>
+    <string name="account_without_password_message">此账号是无密码的谷歌账号.尝试点击\"用Google账号登录\".</string>
+    <string name="template_not_found_by_uri">模板未找到</string>
+    <string name="public_template_address_text">模板地址</string>
+    <string name="wrong_template_address">不正确的模板地址格式</string>
+    <string name="search_index_tokenizer">词法分析</string>
+
+    <string name="permission_contacts_title">通讯录</string>
+    <string name="permission_contacts_text">使用通讯录字段必须授权Memento可以访问手机的通讯录.</string>
+    <string name="boolean_format">格式</string>
+    <string name="boolean_format_on">标签功能打开</string>
+    <string name="boolean_format_off">标签功能关闭</string>
+    <string name="plans_comparison">参考完整的功能对比表</string>
+
+    <string name="revision_history">版本历史</string>
+    <string name="revision_current_version">当前版本</string>
+    <string name="revision_action_edit">%s 已更改</string>
+    <string name="revision_action_create">%s 创建记录</string>
+    <string name="revert_to_version">恢复到此版本</string>
+    <string name="revert_to_version_message">确定从%s 版本恢复到此版本?</string>
+    <string name="revision_history_only_for_cloud">版本历史功能只限于使用专业版和团队协作账号上传到云的数据库.</string>
+    <string name="barcode_type_nfc">NFC(近场通讯)</string>
+    <string name="pending_user">待定中...</string>
+    <string name="uom_category_userdefined">用户定义</string>
+    <string name="uom_custom_name">单元名称</string>
+    <string name="time_field_group_by_day_and_time">按日和时间分组</string>
+
+    <string name="select_source_library_dialog_title">选择要复制数据的库</string>
     </resources>
