@@ -490,7 +490,7 @@
     <string name="auto_bakup_dir_pref_title">Répertoire de sauvegarde automatique</string>
     <string name="google_play_not_found_message">Google Play n\'est pas disponible sur votre dispositif. Vous pouvez télécharger OI File Manager sur le site du développeur.</string>
     <string name="library_not_found_dialog_title">Base</string>
-    <string name="library_not_found_dialog_message">Base non trouvée. La base a peut-être été retirée.</string>
+    <string name="library_not_found_dialog_message">Base non trouvée. La base a peut-être été supprimée.</string>
     <string name="add_field_above">Ajouter un champ au-dessus</string>
     <string name="library_group_view_type_icons">Icônes</string>
     <string name="icon_pack_title_files_types">Fichiers</string>
@@ -1256,7 +1256,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="autofill_rules_delete_title">Supprimer les règles d\'autoremplissage</string>
     <string name="autofill_rules_delete_text">Etes-vous sûr de supprimer les règles d\'autoremplissage de la source \"%s\" ?</string>
     <string name="empty_autofill_list_text">Créer des règles d\'autoremplissage pour des données Internet</string>
-    <string name="empty_autofill_rules_list_text">Mettre en relation données source et champs de la base</string>
+    <string name="empty_autofill_rules_list_text">Mettre en relation attributs source et champs de la base</string>
     <string formatted="false" name="movie_cast_person_item">%s comme %s</string>
 
     <string name="copy_library_structure_menu_item">Uniquement la structure</string>
@@ -1826,7 +1826,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="wizard_add_name_field_message">Ajouter le champ qui sera le nom de l\'enregistrement.</string>
     <string name="wizard_field_options_title">Attributs du champ</string>
     <string name="wizard_field_items_title">Items</string>
-    <string name="wizard_field_options_select_type_message">Les attributs du champ seront disponible après le choix du type de champ.</string>
+    <string name="wizard_field_options_select_type_message">Les attributs du champ seront disponibles après le choix du type de champ.</string>
     <string name="wizard_field_options_empty">Seuls les attributs avancés sont disponibles pour le type de champs choisi.</string>
     <string name="wizard_field_advanced_options_button">Avancé</string>
     <string name="wizard_choice_field_items_empty_text">Vous devez créer un jeu d\'items (valeurs possibles) pour ce type de champ.</string>
@@ -1896,18 +1896,18 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="quick_filter_for_text">Pour le texte</string>
     <string name="save_as_filter">Enregistrer comme filtre</string>
     <string name="save_as_filter_success">Vous avez créé un nouveau filtre avec succès</string>
-    <string name="shortcut_not_supported">Maleureusement votre lanceur n\'accepte pas les raccourcis de l application</string>
+    <string name="shortcut_not_supported">Malheureusement votre lanceur n\'accepte pas les raccourcis de l\'application.</string>
     <string name="notification_channel_entries">Modifications dans les bases</string>
     <string name="notification_channel_files">Fichiers</string>
     <string name="quick_filter_limit_message">La version gratuite n\'autorise que 5 champs de recherche. Actualisez vers la version PRO pour supprimer cette limitation.</string>
-    <string name="button_upgrade">Actualiser vers une version supérieure</string>
-    <string name="autofilll_source_not_supported">Désolé mais %s n\'est plus supporté.</string>
-    <string name="entry_name_and_description">Nom de l\'entrée et description</string>
-    <string name="search_settings_quick">"Recherche rapide dans "</string>
+    <string name="button_upgrade">Passer à une version supérieure</string>
+    <string name="autofilll_source_not_supported">Désolé, mais %s n\'est plus supporté.</string>
+    <string name="entry_name_and_description">Nom de l\'enregistrement et description</string>
+    <string name="search_settings_quick">Recherche rapide dans</string>
     <string name="index_not_found_message">Recherche impossible, les enregistrements ne sont pas indexés</string>
     <string name="notification_channel_reminders">Rappels</string>
     <string name="attribute_display_title_in_card_hint">Afficher le nom de l\'attribut sur la fiche enregistrement</string>
-    <string name="link_attributes_empty_text">Ce champ n\'a pas de propriétés pour les liens.</string>
+    <string name="link_attributes_empty_text">Ce champ n\'a pas d\'attributs pour les liens.</string>
     <string name="cant_find_contact_selection_app">Désolé, l\'application pour le choix de contact n\'a pas été trouvée.</string>
     <string name="library_item_not_found_dialog_message">Enregistrement non trouvé. Il a peut-être été supprimé.</string>
 
@@ -1952,7 +1952,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="boolean_format">Format</string>
     <string name="boolean_format_on">Etiquette On</string>
     <string name="boolean_format_off">Etiquette Off</string>
-    <string name="plans_comparison">Consulter l\'intégralité de notre comparatif de fonctionnalités</string>
+    <string name="plans_comparison">Consulter l\'intégralité de notre comparatif des fonctionnalités</string>
 
     <string name="revision_history">Historique de version</string>
     <string name="revision_current_version">Version actuelle</string>
