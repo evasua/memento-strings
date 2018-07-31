@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="call">拨打电话</string>
     <string name="send_sms">发送短信</string>
     <string name="light_theme">默认主题</string>
@@ -35,13 +35,13 @@
     <string name="flex_edit_option_values_table">表格选项</string>
     <string name="date_format_list_current_locale">当前语言环境</string>
     <string name="date_format_list_date_pref">用户的日期偏好</string>
-    <string name="db_location_pref_internal">设备内存(手机内存)</string>
+    <string name="db_location_pref_internal">设备内存(手机内置存储器)</string>
     <string name="db_location_pref_sd">SD卡</string>
     <string name="db_location_pref_custom">自定义</string>
     <string name="number_filter_types_less">少于</string>
     <string name="number_filter_types_greater">大于</string>
-    <string name="number_filter_types_equal">相当于</string>
-    <string name="number_filter_types_notequal">等于</string>
+    <string name="number_filter_types_equal">等于</string>
+    <string name="number_filter_types_notequal">不等于</string>
     <string name="string_filter_types_contains">包含</string>
     <string name="string_filter_types_notcontains">不包含</string>
     <string name="time_field_group_entries_no">不分组</string>

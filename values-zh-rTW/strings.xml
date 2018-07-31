@@ -262,7 +262,7 @@
     <string name="memento_pass_hint">密碼</string>
     <string name="memento_pass_hint2">重複密碼</string>
     <string name="memento_email_hint">Email</string>
-    <string name="memento_register_button">建立</string>
+    <string name="memento_register_button">建立帳戶</string>
     <string name="memento_have_button">現有賬戶</string>
     <string name="login_empty">輸入使用者名</string>
     <string name="login_format_error">登入只能包含有字母或是數字</string>
@@ -667,7 +667,7 @@
     <string name="auto_bakup_dir_pref_title">自動備份路徑</string>
     <string name="google_play_not_found_message">你的設備沒有Google Play. 你可以在開發者網頁下載OI File Manager.</string>
     <string name="library_not_found_dialog_title">資料庫</string>
-    <string name="library_not_found_dialog_message">資料庫不存在. 可能資料庫已被移除.</string>
+    <string name="library_not_found_dialog_message">資料庫不存在，可能已被移除。</string>
     <string name="add_field_above">在上方加入新儲存格</string>
     <string name="add_field_below">在下方加入新儲存格</string>
     <string name="year_default_now">預設當年年份</string>
@@ -1095,7 +1095,7 @@
 	<string name="need_make_slave_library_unique_import">要匯入「連結到條目」欄位，您必須啟用連結對象庫的條目名稱重複檢查。\n要立刻啟用嗎？</string>
 	<string name="run_sync_slave_libraries_pref">相關庫</string>
 	<string name="run_sync_slave_libraries_summary">首先同步相關庫</string>
-	<string name="choice_type_add_button_in_edit_title">編輯條目時新建元素</string>
+	<string name="choice_type_add_button_in_edit_title">允許編輯條目時新建元素</string>
 	
 	<string name="show_deleted_entries_menu_item">顯示被刪除的條目</string>
 	<string name="upload_to_cloud_menu_item">上傳到雲端</string>
@@ -1209,7 +1209,10 @@
 	<string name="find_library_by_url_title">以 URL 開啟</string>
 	<string name="library_not_found_by_uri">找不到庫</string>
 	<string name="upload_to_cloud_offer_title">{雲端準備完成...}</string>
-	<string name="upload_to_cloud_offer_text">• 團隊協作\n• 多裝置同步\n• 雲端上總是有備份</string>
+	<string name="upload_to_cloud_offer_text">• 團隊協作
+• 多裝置同步
+• 雲端上總是有備份
+• 版本歷史紀錄</string>
 	<string name="button_no_thanks">不，謝謝</string>
 	<string name="button_upload">上傳</string>
 	
@@ -1640,7 +1643,7 @@
     <string name="cloud_plan_team10">10 人團隊</string>
     <string name="cloud_plan_team15">15 人團隊</string>
     <string name="cloud_plan_team20">20 人團隊</string>
-    <string name="pro_for_team">團隊所有使用者都有 PRO 功能</string>
+    <string name="pro_for_team">" 團隊所有使用者都能使用 PRO 功能"</string>
     <string name="team_features_trial">所有方案都提供 14 天免費適用。</string>
 
     <string name="tasker_plugin_create_entry_event_title">已建立條目</string>
@@ -1887,5 +1890,73 @@
 \n升級到 PRO 版就沒有這個限制。</string>
     <string name="button_upgrade">升級</string>
     <string name="autofilll_source_not_supported">抱歉，%s 已不被支援。</string>
+
+<string name="cloud_plan_team5_annual">5 人團隊</string>
+    <string name="cloud_plan_team10_annual">10 人團隊</string>
+    <string name="cloud_plan_team15_annual">15 人團隊</string>
+    <string name="cloud_plan_team20_annual">20 人團隊</string>
+    <string name="igdb_source">igdb.com</string>
+    <string name="link_attributes_empty_text">此欄位的連結沒有屬性。</string>
+    <string name="cant_find_contact_selection_app">抱歉，找不到能選擇聯絡人的程式。</string>
+    <string name="library_item_not_found_dialog_message">找不到條目。可能已被刪除。</string>
+
+    <string name="license_key_tab">授權金鑰</string>
+    <string name="pro_feature_0">無廣告</string>
+    <string name="pro_feature_1">可跟 Google Sheets 同步無限數量的資料庫</string>
+    <string name="pro_feature_2">可「保護」的資料庫數量無限制</string>
+    <string name="pro_feature_3">圖表數量無限制</string>
+    <string name="pro_feature_4">指令稿的數量無限制</string>
+    <string name="pro_feature_5">進階搜尋功能</string>
+    <string name="pro_feature_6">一個欄位可包含多個物件 (影像、檔案、聯絡人、座標等等)</string>
+    <string name="pro_feature_7">多項目編輯</string>
+    <string name="pro_feature_8">便利的 App 小工具</string>
+    <string name="pro_license_activated">授權已啟用</string>
+    <string name="pro_features_title">Pro 功能</string>
+    <string name="activate_with_key">以 key 起動</string>
+    <string name="plans_and_pricing">方案與價格</string>
+    <string name="email_or_username">Email 或使用者名稱</string>
+    <string name="sign_in_with_google">以 Google 繼續</string>
+    <string name="minimum_pass_length">密碼長度必須至少有 %d 個字元。</string>
+    <string name="please_sign_in">請登入 Memento Cloud。</string>
+    <string name="sign_up_or_sign_in">註冊或登入</string>
+    <string name="auth_error_title">認證資料有誤</string>
+    <string name="auth_error_text">發生錯誤，請再次認證 %s。</string>
+    <string name="logout">登出</string>
+    <string name="logout_confirmation">您確定要登出嗎？</string>
+    <string name="current_plan">目前方案</string>
+    <string name="change_password">變更密碼</string>
+    <string name="current_password">目前密碼</string>
+    <string name="new_password">新密碼</string>
+    <string name="password_changed_message">您的密碼已變更完成！</string>
+    <string name="sign_in_error">無法登入</string>
+    <string name="choose_username">選擇您的使用者名稱</string>
+    <string name="account_without_password_message">這個帳戶看來是個沒有密碼的 Google 帳戶，請嘗試改用「以 Google 繼續」按鈕。</string>
+    <string name="template_not_found_by_uri">找不到範本</string>
+    <string name="public_template_address_text">範本位址</string>
+    <string name="wrong_template_address">範本位址格式錯誤</string>
+    <string name="search_index_tokenizer">語法分析器</string>
+
+    <string name="permission_contacts_title">聯絡人</string>
+    <string name="permission_contacts_text">您需要授權 Memento 取用聯絡人資料，才能使用聯絡人欄位型別。</string>
+    <string name="boolean_format">格式</string>
+    <string name="boolean_format_on">「開啟」標籤</string>
+    <string name="boolean_format_off">「關閉」標籤</string>
+    <string name="plans_comparison">請參閱我們的完整功能對比</string>
+
+    <string name="revision_history">版本歷史</string>
+    <string name="revision_current_version">目前版本</string>
+    <string name="revision_action_edit">%s 編輯</string>
+    <string name="revision_action_create">%s 新增條目</string>
+    <string name="revert_to_version">退回到這個版本</string>
+    <string name="revert_to_version_message">您確定要從 %s 退回到這個版本嗎？</string>
+    <string name="revision_history_only_for_cloud">版本歷史只有上傳到雲端、且使用 PRO 或 TEAM 帳戶的資料庫才能使用。</string>
+    <string name="barcode_type_nfc">NFC</string>
+    <string name="pending_user">待處理...</string>
+    <string name="uom_category_userdefined">使用者自訂</string>
+    <string name="uom_custom_name">單位名稱</string>
+    <string name="time_field_group_by_day_and_time">以日期與時間分組</string>
+
+    <string name="select_source_library_dialog_title">選擇要複製的來源資料庫</string>
+    <string name="select_source_library_dialog_hint">選擇資料來源</string>
 
 </resources>
