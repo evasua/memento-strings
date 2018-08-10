@@ -255,7 +255,7 @@
     <string name="memento_pass_hint">パスワード</string>
     <string name="memento_pass_hint2">パスワード再入力</string>
     <string name="memento_email_hint">メールアドレス</string>
-    <string name="memento_register_button">作成</string>
+    <string name="memento_register_button">アカウント作成</string>
     <string name="memento_have_button">アカウントを持っています</string>
     <string name="login_empty">ユーザ名を入力</string>
     <string name="login_format_error">文字と数値を使用することができます</string>
