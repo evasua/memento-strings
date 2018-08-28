@@ -267,7 +267,7 @@ Todos los derechos reservados</string>
     <string name="memento_pass_hint">Contraseña</string>
     <string name="memento_pass_hint2">Repetir contraseña</string>
     <string name="memento_email_hint">Email</string>
-    <string name="memento_register_button">Crear</string>
+    <string name="memento_register_button">Crear una Cuenta</string>
     <string name="memento_have_button">Ya tengo una cuenta</string>
     <string name="login_empty">Introduce el Usuario</string>
     <string name="login_format_error">Sólo puede contener letras o números</string>
@@ -1106,7 +1106,7 @@ Puedes activar la capacidad de edición en los ajustes de esta biblioteca.</stri
 	<string name="dont_show_anymore">No mostrar nunca más</string>
 	<string name="run_sync_slave_libraries_pref">Bibliotecas relacionadas</string>
 	<string name="run_sync_slave_libraries_summary">Primero sincroniza las bibliotecas asociadas</string>
-	<string name="choice_type_add_button_in_edit_title">La creación de elementos mientras una entrada está siendo editada</string>	
+	<string name="choice_type_add_button_in_edit_title">Permitir la creación de ítems mientras se edita una entrada</string>	
 	
 <string name="need_make_slave_library_unique">"Para sincronizar los campos de tipo  \"Enlace a entrada\", debes habilitar el control de nombre de entrada único en la biblioteca a la que harás referencia.\n¿Deseas hacerlo ahora?"</string>
 	<string name="need_make_slave_library_unique_import">"Para importar los campos de tipo  \"Enlace a entrada\", debes habilitar el control de nombre de entrada único en la biblioteca a la que harás referencia.↵\n¿Deseas hacerlo ahora?"</string>
@@ -1280,7 +1280,10 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
 	<string name="cloud_library_already_uploaded">Esta librería ya está subida en la nube.</string>
 	<string name="find_library_by_url_title">Abrir por URL</string>
 	<string name="upload_to_cloud_offer_title">{nube preparada...}</string>
-	<string name="upload_to_cloud_offer_text">• Trabajo en equipo\n• Sincronización a través de dispositivos\n• Las copias de seguridad están siempre en la nube</string>
+	<string name="upload_to_cloud_offer_text">• Trabajo en equipo
+• Sincronización a través de dispositivos
+• Las copias de seguridad están siempre en la nube
+• Histórico de versiones</string>
 	<string name="cant_upload_file_to_cloud">La subida de archivo(s) falló.</string>
     <string name="button_show">Mostrar</string>
 	<string name="cant_add_yourself">No puedes añadirte a ti mismo</string>
@@ -1935,4 +1938,14 @@ Actualiza a la versión PRO para deshabilitar esta limitación.</string>
     <string name="button_upgrade">Actualiza</string>
     <string name="autofilll_source_not_supported">Lo sentimos, pero %s ya no está soportado.</string>
 
-</resources>
+<string name="cant_find_contact_selection_app">Disculpe, no se encuentra la aplicación para elegir contacto.</string>
+    <string name="library_item_not_found_dialog_message">Entrada no encontrada. Quizás ha sido borrada.</string>
+
+    <string name="license_key_tab">Clave de la licencia</string>
+    <string name="pro_feature_0">Sin publicidad</string>
+    <string name="pro_feature_1">Puede sincronizar con Google Sheets un número ilimitado de bibliotecas</string>
+    <string name="pro_feature_2">Número ilimitado de bibliotecas \"protegidas\"</string>
+    <string name="pro_feature_3">Número ilimitado de gráficos</string>
+    <string name="pro_feature_4">Número ilimitado de «scripts»</string>
+    <string name="pro_feature_5">Búsqueda avanzada</string>
+    </resources>
