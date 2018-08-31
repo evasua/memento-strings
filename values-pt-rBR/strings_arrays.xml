@@ -1,2 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="datetime_filter_items_today">Hoje</string>
+    <string name="datetime_filter_items_yesterday">Ontem</string>
+    <string name="datetime_filter_items_week">Esta semana</string>
+    <string name="datetime_filter_items_month">Este mês</string>
+    <string name="datetime_filter_items_last_week">Última semana</string>
+    <string name="datetime_filter_items_last_month">Último mês</string>
+    <string name="calc_result_types_real">Resultado real</string>
+    <string name="template_category_arts">Artes</string>
+    <string name="template_category_business">Negócios</string>
+    <string name="template_category_edu">Educação</string>
+    <string name="template_category_health">Saúde</string>
+    <string name="template_category_sports">Esportes</string>
+    </resources>
