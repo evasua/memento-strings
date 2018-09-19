@@ -265,7 +265,7 @@ Todos os direitos reservados</string>
     <string name="memento_pass_hint">Senha</string>
     <string name="memento_pass_hint2">Repita a senha</string>
     <string name="memento_email_hint">Email</string>
-    <string name="memento_register_button">Criar</string>
+    <string name="memento_register_button">Criar conta</string>
     <string name="memento_have_button">Eu tenho uma conta</string>
     <string name="login_empty">Entre com o nome do utilizador</string>
     <string name="login_format_error">O login deve conter apenas letras e números</string>
@@ -633,7 +633,7 @@ Todos os direitos reservados</string>
     <string name="flextemplate_move_to_end">Mover para o fim</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
     <string name="library_not_found_dialog_title">Biblioteca</string>
-    <string name="library_not_found_dialog_message">Biblioteca não encontrada. Talvêz a biblioteca tenha sido removida.</string>
+    <string name="library_not_found_dialog_message">Biblioteca não encontrada. Talvez a biblioteca tenha sido removida.</string>
     <string name="add_field_above">Adicione um campo acima</string>
     <string name="flex_type_int_min">Início</string>
     <string name="flex_type_int_max">Fim</string>
@@ -1112,10 +1112,10 @@ Todos os direitos reservados</string>
 	<string name="dont_show_anymore">Não mostrar mais</string>
 	<string name="need_make_slave_library_unique">Para sincronizar \"Link para os campos da entrada\", você deve habilitar o nome de entrada como único na biblioteca para que as ligações que se referem.↵\nFazer isto agora?</string>
 	<string name="need_make_slave_library_unique_import">Para importar campo \"Link para a entrada\", você deve habilitar o nome de entrada como único na biblioteca para as ligações se referem.↵\nFazer isto agora?</string>
-	<string name="choice_type_add_button_in_edit_title">Criação de elementos enquanto a entrada está sendo editada</string>
+	<string name="choice_type_add_button_in_edit_title">Permite a criação de itens enquanto uma entrada está sendo editada</string>
 	
 	<string name="memento_cloud">Nuvem Memento</string>
-	<string name="welcome_text_description">A biblioteca é o lugar onde as entradas serão armazenados. Voçê pode começar de familiarize-se com Memento em criando uma biblioteca baseado em um dos modelos fornecidos.</string>
+	<string name="welcome_text_description">A biblioteca é o lugar onde as informações serão armazenados. Você pode começar de familiarize-se com Memento em criando uma biblioteca baseado em um dos modelos fornecidos.</string>
 	
 	<string name="start_remove_librarary_from_cloud">Apagando a biblioteca...</string>
 	<string name="success_remove_librarary_from_cloud">Biblioteca foi apagada da nuvem com sucesso</string>
@@ -1233,7 +1233,10 @@ Todos os direitos reservados</string>
 	<string name="empty_library_title">Biblioteca vazia</string>
 	<string name="select_template_title">Selecione modelo</string>
 	<string name="remove_from_old_public">Antes de fazer o envio da biblioteca para a nuvem, se ela foi publicada por métodos ultrapassados, será despublicado.</string>
-	<string name="upload_to_cloud_offer_text">• Equipa de Trabalho↵\n• Sincronização através de dispositivos↵\n• Cópia de segurança estão sempre na nuvem</string>
+	<string name="upload_to_cloud_offer_text">• Equipe de Trabalho↵
+• Sincronização entre dispositivos↵
+• Cópia de segurança estão sempre na nuvem
+• Histórico de versões</string>
 	<string name="upload_to_cloud_offer_title">{nuvem pronta...}</string>
 	<string name="library_not_found_by_uri">Biblioteca não encontrada</string>
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
@@ -1471,7 +1474,7 @@ Todos os direitos reservados</string>
     <string name="locale_plugin_edit_mode_create_new_entry">Crie uma nova entrada, se falliu encontrar uma por meu do campo chave</string>
 
     <string name="send_field_title">Mande o nome do campo</string>
-    <string name="send_field_title_summary">O nome do campo segue o valor do campo</string>
+    <string name="send_field_title_summary">O nome do campo precede o valor do campo</string>
     <string name="auto_lock_libraries_time_title">Feche acesso da biblioteca</string>
     <string name="auto_lock_libraries_after">Depois %s</string>
 
@@ -1575,7 +1578,7 @@ Todos os direitos reservados</string>
     <string name="uom_astronomical_unit">Unidade astronômica</string>
     <string name="locale_to_fields_list_empty_text">Clique no botão + para criar novas regras para preenchimento de campos de biblioteca.</string>
     <string name="uom_light_year">Ano luz</string>
-    <string name="uom_parsec">Parsec</string>
+    <string name="uom_parsec">parsec</string>
 
     <string name="uom_category_mass">Massa</string>
     <string name="uom_microgram">Micrograma</string>

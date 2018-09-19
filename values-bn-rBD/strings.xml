@@ -263,7 +263,7 @@ Memento সার্ভারে</string>
     <string name="memento_pass_hint">পাসওয়ার্ড</string>
     <string name="memento_pass_hint2">পুনরাবৃত্তি পাসওয়ার্ড</string>
     <string name="memento_email_hint">ইমেইল</string>
-    <string name="memento_register_button">তৈরি করা</string>
+    <string name="memento_register_button">অ্যাকাউন্ট তৈরি করুন</string>
     <string name="memento_have_button">আমার একটি একাউন্ট আছে</string>
     <string name="login_empty">ব্যবহারকারী নাম লিখুন</string>
     <string name="login_format_error">লগইনটিতে কেবল অক্ষর এবং সংখ্যা থাকতে পারে</string>
@@ -652,7 +652,7 @@ Memento সার্ভারে</string>
     <string name="auto_bakup_dir_pref_title">স্বয়ংক্রিয় ব্যাকআপের জন্য ডিরেক্টরি</string>
     <string name="google_play_not_found_message">আপনার ডিভাইসে Google Play নেই। আপনি ডেভেলপার-সাইট থেকে OI ফাইল ম্যানেজার ডাউনলোড করতে পারেন।</string>
     <string name="library_not_found_dialog_title">লাইব্রেরি</string>
-    <string name="library_not_found_dialog_message">লাইব্রেরি পাওয়া যায় নি। হয়তো লাইব্রেরি সরানো হয়েছে।</string>
+    <string name="library_not_found_dialog_message">লাইব্রেরি পাওয়া যায় নি। হয়তো লাইব্রেরিটি সরানো হয়েছে।</string>
     <string name="add_field_above">উপরের একটি ফিল্ড যোগ করুন</string>
     <string name="add_field_below">নীচে একটি ফিল্ড যোগ করুন</string>
     <string name="year_default_now">ডিফল্ট হিসেবে বর্তমান বছর</string>
@@ -1107,7 +1107,7 @@ Memento সার্ভারে</string>
 এই এখন কি?</string>
 	<string name="run_sync_slave_libraries_pref">সম্পর্কিত লাইব্রেরি</string>
 	<string name="run_sync_slave_libraries_summary">প্রথমে সংযুক্ত লাইব্রেরিসমূহ সিঙ্ক্রোনাইজেশন করুন</string>
-	<string name="choice_type_add_button_in_edit_title">একটি এন্ট্রি সম্পাদনা করা হচ্ছে যখন উপাদান সৃষ্টি</string>
+	<string name="choice_type_add_button_in_edit_title">একটি এন্ট্রি সম্পাদনা করা হচ্ছে যখন আইটেম তৈরি অনুমতি দিন</string>
 	
 	<string name="show_deleted_entries_menu_item">ডিলেট করা এন্ট্রি দেখান</string>
 	<string name="upload_to_cloud_menu_item">ক্লাউডে</string>
@@ -1232,7 +1232,8 @@ Memento সার্ভারে</string>
 	<string name="upload_to_cloud_offer_title">{ক্লাউড প্রস্তুত ...}</string>
 	<string name="upload_to_cloud_offer_text">• টিমবদ্ধভাবে সম্পাদিত কাজ
 • ডিভাইসসমূহে সিঙ্ক্রোনাইজেশন করা
-• ব্যাকআপ সবসময় ক্লাউডে থাকা</string>
+• ব্যাকআপ সবসময় ক্লাউডে থাকা
+• সংস্করণ ইতিহাস</string>
 	<string name="button_no_thanks">না, ধন্যবাদ</string>
 	<string name="button_upload">আপলোড</string>
 	
@@ -1723,7 +1724,7 @@ Memento সার্ভারে</string>
     <string name="cloud_plan_team10">টিম ১০</string>
     <string name="cloud_plan_team15">টিম ১৫</string>
     <string name="cloud_plan_team20">টিম ২০</string>
-    <string name="pro_for_team">টিমের মধ্যে সব ব্যবহারকারীদের জন্য PRO বৈশিষ্ট্য</string>
+    <string name="pro_for_team">" টিমের সব ব্যবহারকারীদের জন্য PRO বৈশিষ্ট্য"</string>
     <string name="team_features_trial">সমস্ত পরিকল্পনা একটি বিনামূল্যে 14-দিন ট্রায়াল অন্তর্ভুক্ত।</string>
 
     <string name="tasker_plugin_create_entry_event_title">এন্ট্রি তৈরি করা হয়েছে</string>
@@ -1942,4 +1943,67 @@ Memento সার্ভারে</string>
     <string name="button_upgrade">আপগ্রেড</string>
     <string name="autofilll_source_not_supported">দুঃখিত, কিন্তু%s আর সমর্থিত নয়।</string>
 
-</resources>
+<string name="link_attributes_empty_text">এই ফিল্ডের লিঙ্কগুলির জন্য বৈশিষ্ট্যাবলী নেই।</string>
+    <string name="cant_find_contact_selection_app">দুঃখিত, পছন্দসই যোগাযোগের জন্য অ্যাপ্লিকেশন পাওয়া যায় নি।</string>
+    <string name="library_item_not_found_dialog_message">এন্ট্রি পাওয়া যায়নি। এটি মুছে ফেলা হতে পারে।</string>
+
+    <string name="license_key_tab">লাইসেন্সের চাবি</string>
+    <string name="pro_feature_0">কোন বিজ্ঞাপন নেই</string>
+    <string name="pro_feature_1">আনলিমিটেড লাইব্রেরি Google Sheets এর সাথে সিঙ্ক্রোনাইজ করা যাবে</string>
+    <string name="pro_feature_2">আনলিমিটেড \"সুরক্ষিত\" লাইব্রেরি</string>
+    <string name="pro_feature_3">আনলিমিটেড গ্রাফের সংখ্যা</string>
+    <string name="pro_feature_4">আনলিমিটেড স্ক্রিপ্টের সংখ্যা</string>
+    <string name="pro_feature_5">উন্নত অনুসন্ধান</string>
+    <string name="pro_feature_6">একটি এন্ট্রি ফিল্ডের একাধিক অবজেক্ট থাকতে পারে (চিত্র, ফাইল, পরিচিতি, স্থানাঙ্ক ইত্যাদি)।</string>
+    <string name="pro_feature_7">একাধিক এন্ট্রি সম্পাদনা</string>
+    <string name="pro_feature_8">সুবিধাজনক অ্যাপ্লিকেশন উইজেট</string>
+    <string name="pro_license_activated">লাইসেন্স সক্রিয় করা হয়েছে</string>
+    <string name="pro_features_title">প্রো বৈশিষ্ট্যগুলি</string>
+    <string name="activate_with_key">একটি চাবি দিয়ে সক্রিয় করুন</string>
+    <string name="plans_and_pricing">পরিকল্পনা এবং মূল্যনির্ধারণ</string>
+    <string name="email_or_username">ইমেল বা ব্যবহারকারীর নাম</string>
+    <string name="sign_in_with_google">Google এর সাথে চালিয়ে যান</string>
+    <string name="minimum_pass_length">পাসওয়ার্ড অবশ্যই কমপক্ষে %d অক্ষর দীর্ঘ হওয়া আবশ্যক।</string>
+    <string name="please_sign_in">দয়া করে Memento ক্লাউডে সাইন ইন করুন।</string>
+    <string name="sign_up_or_sign_in">সাইন আপ করুন অথবা লগ ইন করুন</string>
+    <string name="auth_error_title">প্রমাণীকরণ ত্রুটি</string>
+    <string name="auth_error_text">একটি ত্রুটি ঘটেছে, দয়া করে পুনরায় প্রমাণ করুন %s।</string>
+    <string name="logout">লগ আউট</string>
+    <string name="logout_confirmation">আপনি কি লগ আউট করতে চান?</string>
+    <string name="current_plan">বর্তমান পরিকল্পনা</string>
+    <string name="change_password">পাসওয়ার্ড পরিবর্তন করুন</string>
+    <string name="current_password">বর্তমান পাসওয়ার্ড</string>
+    <string name="new_password">নতুন পাসওয়ার্ড</string>
+    <string name="password_changed_message">আপনার পাসওয়ার্ড সফলভাবে পরিবর্তন করা হয়েছে!</string>
+    <string name="sign_in_error">সাইন ইন করা যায়নি</string>
+    <string name="choose_username">আপনার ব্যবহারকারী নাম চয়ন করুন</string>
+    <string name="account_without_password_message">যে অ্যাকাউন্টটি কোনও পাসওয়ার্ড ছাড়াই একটি Google অ্যাকাউন্ট বলে মনে হচ্ছে তা \"Continue with Google\" বোতামটি ব্যবহার করে দেখুন।</string>
+    <string name="template_not_found_by_uri">টেমপ্লেট খুঁজে পাওয়া যায় নি</string>
+    <string name="public_template_address_text">টেমপ্লেটের ঠিকানা</string>
+    <string name="wrong_template_address">অবৈধ টেমপ্লেট ঠিকানা ফরম্যাট</string>
+    <string name="search_index_tokenizer">আভিধানিক বিশ্লেষণ</string>
+
+    <string name="permission_contacts_title">কন্ট্যাকস</string>
+    <string name="boolean_format">ফরম্যাট</string>
+    <string name="permission_contacts_text">"এটি যোগাযোগ ফিল্ডের জন্য  বিন্যাসের অ্যাক্সেস প্রদান করতে হবে।"</string>
+    <string name="boolean_format_on">লেবেলে</string>
+    <string name="boolean_format_off">বন্ধ লেবেল</string>
+    <string name="plans_comparison">আমাদের সম্পূর্ণ বৈশিষ্ট্য তুলনা দেখুন</string>
+
+    <string name="revision_history">সংস্করণ ইতিহাস</string>
+    <string name="revision_current_version">বর্তমান সংস্করণ</string>
+    <string name="revision_action_edit">%s পরিবর্তন করা হয়েছে</string>
+    <string name="revision_action_create">%s এন্ট্রি তৈরি করেছিল</string>
+    <string name="revert_to_version">এই সংস্করণে প্রত্যাবর্তন</string>
+    <string name="revert_to_version_message">আপনি কি %s থেকে সংস্করণে ফিরে যেতে চান?</string>
+    <string name="revision_history_only_for_cloud">সংস্করণ ইতিহাস কেবল লাইব্রেরির জন্য পাওয়া যায় যা ক্লাউডে আপলোড করা হয় এবং PRO বা TEAM অ্যাকাউন্টগুলিতে।</string>
+    <string name="pending_user">অমীমাংসিত...</string>
+    <string name="uom_category_userdefined">ব্যবহারকারী নির্ধারিত</string>
+    <string name="uom_custom_name">ইউনিটের নাম</string>
+    <string name="time_field_group_by_day_and_time">দিন এবং সময় গ্রুপ করুন</string>
+
+    <string name="select_source_library_dialog_title">ডাটা কপি করার জন্য লাইব্রেরি নির্বাচন করুন</string>
+    <string name="select_source_library_dialog_hint">একটি ডাটা উৎস নির্বাচন করুন</string>
+
+<string name="barcode_type_nfc">NFC</string>
+    </resources>
