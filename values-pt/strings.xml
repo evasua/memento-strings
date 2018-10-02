@@ -12,7 +12,7 @@
     <string name="button_save">Guardar</string>
     <string name="button_cancel">Cancelar</string>
     <string name="button_add_field">Adicionar um campo</string>
-    <string name="add_new_library_item">Adicione uma entrada</string>
+    <string name="add_new_library_item">Adicionar uma entrada</string>
     <string name="flex_type_title_string">Texto</string>
     <string name="flex_type_title_int">Inteiro</string>
     <string name="flex_type_title_bool">Booleano (Caixa de verificação)</string>
@@ -25,7 +25,7 @@
     <string name="flex_type_money">Moeda</string>
     <string name="flex_type_rating">Avaliação</string>
     <string name="flex_type_web">Ligação</string>
-    <string name="flex_type_map">Coordenadas Google Maps</string>
+    <string name="flex_type_map">Localização</string>
     <string name="flex_type_real">Número real</string>
     <string name="field_list_caption">Campos de entrada da biblioteca</string>
     <string name="flextemplate_up_item">Acima</string>
@@ -36,14 +36,14 @@
     <string name="template_title">Nome do campo</string>
     <string name="select_flex_template_title">Tipo de campo</string>
     <string name="select_flex_template_role">Função do campo</string>
-    <string name="select_create_lib_template">Selecione o modelo da biblioteca</string>
+    <string name="select_create_lib_template">Seleccione o modelo da biblioteca</string>
     <string name="button_next">Seguinte</string>
     <string name="select_flex_template_type">Tipo de campo</string>
     <string name="default_value">Valor por defeito</string>
     <string name="flex_template_options_title">Parâmetros avançados</string>
     <string name="error_template_empty_title">Indique o nome do campo</string>
     <string name="error_library_withous_name_flex">Uma biblioteca deve ter ao menos um campo com a função – \"nome\".</string>
-    <string name="select_library_icon_activity">Selecione o ícone para a biblioteca</string>
+    <string name="select_library_icon_activity">Seleccione o ícone para a biblioteca</string>
     <string name="select_flex_template_role_title">Função do campo</string>
     <string name="library_edit2">Editar a biblioteca</string>
     <string name="library_edit">Editar</string>
@@ -86,10 +86,10 @@
     <string name="trush">Reciclagem</string>
     <string name="library_item_restore">Recuperar</string>
     <string name="clear_trash">Esvaziar reciclagem</string>
-    <string name="clear_trash_progress_dialog_title">Lixeira Vazia</string>
-    <string name="clear_trash_dialog_title">Lixeira vazia</string>
+    <string name="clear_trash_progress_dialog_title">Reciclagem Vazia</string>
+    <string name="clear_trash_dialog_title">Reciclagem Vazia</string>
     <string name="clear_trash_dialog_text">Quer realmente apagar todas as entradas da Reciclagem?</string>
-    <string name="mobile">telemóvel</string>
+    <string name="mobile">móvel</string>
     <string name="home">casa</string>
     <string name="work">trabalho</string>
     <string name="other">outro</string>
@@ -98,7 +98,7 @@
     <string name="audio_not_found">Nenhuma faixa de áudio encontrada</string>
     <string name="flex_type_money_currency_dlg_title">Seleccione a moeda</string>
     <string name="flex_type_money_currency_option_title">Moeda</string>
-    <string name="flex_type_money_default_currency">USD</string>
+    <string name="flex_type_money_default_currency">EUR</string>
     <string name="flex_role_not_usage">Campo regular</string>
     <string name="flex_role_name">Nome de entrada</string>
     <string name="flex_role_hint">Descrição de entrada</string>
@@ -106,8 +106,8 @@
     <string name="short_flex_role_name">nome</string>
     <string name="short_flex_role_hint">descrição</string>
     <string name="short_flex_role_status">estado</string>
-    <string name="item_add_to_favorite">A entrada foi adicionada aos favoritos</string>
-    <string name="item_remove_from_favorite">A entrada foi removida dos favoritos</string>
+    <string name="item_add_to_favorite">A entrada foi adicionada aos Favoritos</string>
+    <string name="item_remove_from_favorite">A entrada foi removida dos Favoritos</string>
     <string name="history_dialog_title">Histórico</string>
     <string name="favorites_dialog_title">Favoritos</string>
     <string name="map_coord_not_set_hint">Toque para seleccionar uma localização</string>
@@ -120,7 +120,7 @@
     <string name="backup_preference">Cópia de segurança</string>
     <string name="backup_summary_preference">A fazer cópia de segurança de todas as bibliotecas para o cartão SD</string>
     <string name="backup_fail">Erro na cópia de segurança</string>
-    <string name="cdcard_not_found">O seu cartão SD está ocupado</string>
+    <string name="cdcard_not_found">O cartão SD está ocupado</string>
     <string name="backup_process">A fazer cópia de segurança das bibliotecas.</string>
     <string name="restore_preference">Recuperar cópia de segurança</string>
     <string name="restore_summary_preference">Recuperando bibliotecas da cópia de segurança</string>
@@ -163,7 +163,7 @@ Todos os direitos reservados</string>
     <string name="csvimport_from">Importar de %s</string>
     <string name="csvexport_to">Exportar para %s</string>
     <string name="csvimport_summary">Importando entradas do ficheiro CSV</string>
-    <string name="select_csv_file_title">Arquivos CSV na pasta memento</string>
+    <string name="select_csv_file_title">Ficheiros CSV na pasta memento</string>
     <string name="button_import">Importar</string>
     <string name="button_export">Exportar</string>
     <string name="find_csv_column_title">Campos de entrada encontrados no ficheiro seleccionado:</string>
@@ -198,7 +198,7 @@ produto não encontrado</string>
     <string name="memento_field_promt">Campos de entrada da biblioteca</string>
     <string name="uniquery_check_fail">Uma biblioteca só pode conter um campo do tipo %s</string>
     <string name="to">para</string>
-    <string name="barcode_search">Pesquisar código de barras</string>
+    <string name="barcode_search">Pesquisar por código de barras</string>
     <!-- 1.2.1 -->
     <string name="msg_camera_framework_bug">Desculpe, a câmara do Android encontrou um problema. Deve reiniciar o dispositivo.</string>
     <!-- 1.2.3 -->
@@ -423,7 +423,7 @@ para aceder às bilbiotecas</string>
 Não é possível pesquisar em campos encriptados.</string>
     <string name="set_library_protection_title">A encriptar entradas</string>
     <string name="set_library_protection_message">A encriptar entradas da biblioteca ...</string>
-    <string name="remove_library_protection">Remover proteção</string>
+    <string name="remove_library_protection">Remover protecção</string>
     <string name="remove_library_protection_desc">Não é necessário usar palavra-passe para aceder a esta biblioteca</string>
     <string name="remove_library_protection_question">Deseja mesmo desproteger a biblioteca?</string>
     <string name="preference_category_security">Segurança</string>
@@ -710,10 +710,10 @@ Enviamos um email que lhe permitirá redefinir a palavra-passe de forma rápida 
 	<string name="cant_add_yourself">Não pode adicionar-se a si próprio</string>    
 
 		        	
-<string name="invalid_library_template_file_format">Formato inválido do ficheiro do modelo</string>    
+<string name="invalid_library_template_file_format">O formato do ficheiro do modelo é inválido</string>    
 	<string name="owner">Proprietário</string>
 	<string name="find_library_by_url_title">Abrir por URL</string>
-	<string name="library_access_read_only">Só de leitura</string>
+	<string name="library_access_read_only">Só leitura</string>
 	<string name="library_access_can_edit">Pode editar</string>
 	<string name="library_public_access_disabled">Desactivado</string>
 	<string name="library_public_access">Acesso público</string>
@@ -975,7 +975,7 @@ Vá a configurações e marque a função de edição para esta biblioteca.</str
     <string name="string_list_import_error">Ocorreu um erro ao importar: %s</string>
     <string name="something_wrong_dialog_title">Alguma coisa está mal</string>
     <plurals name="string_list_import_snackbar_ok">
-	<item quantity="one">Foi importado 0 item</item>
+	<item quantity="one">Foi importado um item</item>
 	<item quantity="other">Foram importados %d itens</item>
 </plurals>
     <string name="export_template_snackbar_ok">O modelo foi exportado</string>
@@ -985,7 +985,7 @@ Vá a configurações e marque a função de edição para esta biblioteca.</str
     <string name="aggregation_add_item_dialog_title">Adicionar função de agregação</string>
     <string name="aggregation_edit_item_dialog_title">Editar função de agregação</string>
     <string name="aggregation_result_position">Posição</string>
-    <string name="aggregation_result_prev_line">Não comece a partir de uma nova linha</string>
+    <string name="aggregation_result_prev_line">Não começar a partir de uma nova linha</string>
     <string name="aggregation_result_left">Esquerda</string>
     <string name="aggregation_result_right">Direita</string>
     <string name="aggregation_delete_title">Apagar agregação</string>
@@ -999,7 +999,7 @@ Vá a configurações e marque a função de edição para esta biblioteca.</str
     <string name="csv_import_errors_count">Erros:</string>
     <string formatted="false" name="csv_import_error_item">Linha %d - %s</string>
     <string name="undo_button">Desfazer</string>
-    <string name="google_sync_without_memento_id_text">Esta biblioteca é sincronizada usando um método antigo, que tem potenciais erros.
+    <string name="google_sync_without_memento_id_text">Esta biblioteca está a ser sincronizada usando um método antigo, que tem potenciais erros.
 Volte a ligar a biblioteca para a nova tabela para usar o novo método.
 Voltar a ligar agora?</string>
     <string name="rating_field_max_value">Classificação máxima</string>
@@ -1090,23 +1090,23 @@ Voltar a ligar agora?</string>
     <string name="translate">Traduzir</string>
     <string name="entries_view_type_calendar">Calendário</string>
     <string name="calendar_field_role">Usar no calendário como</string>
-    <string name="calendar_field_role_start">Tempo de início</string>
-    <string name="calendar_field_role_end">Tempo final</string>
+    <string name="calendar_field_role_start">Hora de início</string>
+    <string name="calendar_field_role_end">Hora final</string>
     <string name="calendar_field_role_duration_min">Duração, minuto</string>
     <string name="calendar_field_role_duration_hour">Duração, hora</string>
     <string name="calendar_field_role_duration_hour_time">Duração</string>
     <string name="calendar_field_role_start_short">início</string>
     <string name="calendar_field_role_end_short">fim</string>
     <string name="calendar_field_role_duration_short">duração</string>
-    <string name="calendar_day_view">Vista: dia</string>
-    <string name="calendar_3day_view">Vista: 3 dias</string>
-    <string name="calendar_week_view">Vista semanal</string>
+    <string name="calendar_day_view">Ver dia</string>
+    <string name="calendar_3day_view">Ver 3 dias</string>
+    <string name="calendar_week_view">Ver semana</string>
     <string name="go_to_date">Ir para data</string>
     <string name="lost_linked_library">A biblioteca ligada não foi encontrada, talvez tenha sido removida.</string>
     <string name="multichoice_field_empty">Não há valores disponíveis para a selecção</string>
     <string name="show_add_button_on_tile">Botão \"Adicionar entrada\"</string>
     <string name="cant_find_audio_selection_app">A aplicação para ouvir o áudio escolhido não foi encontrada.</string>
-    <string name="library_group_view_type">Vista</string>
+    <string name="library_group_view_type">Ver</string>
     <string name="library_group_view_type_big_tile">Mosaicos grandes</string>
     <string name="library_group_view_type_small_tile">Mosaicos pequenos</string>
     <string name="library_group_view_type_icons">Ícones</string>
@@ -1285,7 +1285,7 @@ Converter a biblioteca numa local?</string>
 	<string name="autofill_select_master_field">Campo de entrada para pesquisa</string>
 	<string name="autofill_rules_title">Regras de preenchimento automático</string>
 	<string name="music_brainz_source_artist">Artistas da música</string>
-    <string name="music_brainz_source_album">Albuns</string>
+    <string name="music_brainz_source_album">Álbuns</string>
 	<string name="music_brainz_source">musicbrainz.org</string>
 	<string name="unknown_data_source">Origem desconhecida</string>
     <string name="google_books_source">Google Livros</string>
@@ -1305,7 +1305,7 @@ Converter a biblioteca numa local?</string>
     <string name="copying_entries">Copiando as entradas ...</string>
 
     <string name="encryption_for_cloud_uploaded_library">Uma biblioteca encriptada só pode ser activada antes de ser enviada para a nuvem.</string>
-    <string name="decryption_for_cloud_uploaded_library">A desactivação de criptografia para fazer o envio para a nuvem não é suportada. Primeiro remova a biblioteca da nuvem</string>
+    <string name="decryption_for_cloud_uploaded_library">A desactivação de criptografia para fazer o envio para a nuvem não é suportada. Primeiro remova a biblioteca da nuvem.</string>
     <string name="need_reload_library_from_cloud_encrypted">As cópias da biblioteca na nuvem foram encriptadas.
 Apague a cópia local da biblioteca e, em seguida, transfira novamente a biblioteca da nuvem.</string>
     <string name="need_reload_library_from_cloud_decrypted">As cópias da biblioteca na nuvem foram desencriptadas.
@@ -1389,7 +1389,7 @@ Apague a cópia local da biblioteca e, em seguida, transfira novamente a bibliot
     <string name="cloud_file_not_downloaded">Não transferido</string>
     <string name="cloud_file_download_pending">Pendente</string>
     <string name="cloud_file_queued">Em fila</string>
-    <string name="cloud_file_error_upload">Erro a enviar</string>
+    <string name="cloud_file_error_upload">Erro ao enviar</string>
     <string name="cloud_file_uploading">Enviando</string>
     <string name="cloud_file_downloading">Transferindo</string>
     <string name="file_show_in_folder">Mostrar na pasta</string>
@@ -1432,7 +1432,7 @@ Apague a cópia local da biblioteca e, em seguida, transfira novamente a bibliot
     <string name="field_enclosed">Qualificador de texto</string>
     
 <string name="users_manager">Gestor de utilizadores</string>
-    <string name="create_new_user_dialog">Criar um novo utilizador</string>
+    <string name="create_new_user_dialog">Criar um Novo Utilizador</string>
 
     <string name="script">Script</string>
     <string name="js_libraries">Bibliotecas JavaScript</string>
@@ -1502,9 +1502,9 @@ Apague a cópia local da biblioteca e, em seguida, transfira novamente a bibliot
     <string name="locale_to_fields_var">Texto de %s</string>
     <string name="locale_to_fields_add_rule_title">Adicionar regra</string>
     <string name="locale_to_fields_edit_rule_title">Editar regra</string>
-    <string name="variable_select">Selecionar uma Variável</string>
+    <string name="variable_select">Seleccionar uma Variável</string>
     <string name="locale_plugin_add_edit_entry_edit_mode">Editar Entrada</string>
-    <string name="locale_plugin_edit_mode_create_new_entry">Crie uma nova entrada se não conseguiu encontrar uma entrada por campo-chave</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Crie uma nova entrada se não conseguiu encontrar uma entrada pelo campo-chave</string>
 
     <string name="send_field_title">Enviar o nome do campo</string>
     <string name="send_field_title_summary">O nome do campo precede o valor do campo</string>
@@ -1523,7 +1523,7 @@ Um Activador é um script que define o processamento de uma entrada baseado num 
     <string name="trigger_event_create_entry">Criar uma entrada</string>
     <string name="trigger_event_modify_entry">Actualizando uma entrada</string>
     <string name="trigger_event_delete_entry">Apagando uma entrada</string>
-    <string name="trigger_event_open_entry">Abrir um cartão Entrada</string>
+    <string name="trigger_event_open_entry">Abrir um cartão de Entrada</string>
     <string name="trigger_event_add_favorites">Adicionando entradas aos Favoritos</string>
     <string name="trigger_event_remove_favorites">Apagar uma entrada dos Favoritos</string>
     <string name="trigger_default_name">Activador %d</string>
@@ -1553,7 +1553,7 @@ Um Activador é um script que define o processamento de uma entrada baseado num 
     <string name="trigger_permission_read_file">Ler ficheiros</string>
     <string name="trigger_permission_read_file_hint">Permite aos scripts ler no armazenamento externo</string>
     <string name="trigger_permission_write_file">Escrever ficheiros</string>
-    <string name="trigger_permission_write_file_hint">Permite aos scripts escreverem no armazenamento externo</string>
+    <string name="trigger_permission_write_file_hint">Permite aos scripts escrever no armazenamento externo</string>
     <string name="trigger_permission_network">Rede</string>
     <string name="trigger_permission_network_hint">Permite aos scripts executar solicitações HTTP</string>
 
@@ -1611,7 +1611,7 @@ Um Activador é um script que define o processamento de uma entrada baseado num 
     <string name="uom_angstrom">Angstrom</string>
     <string name="uom_astronomical_unit">Unidade astronómica</string>
     <string name="locale_to_fields_list_empty_text">Clique no botão + para criar novas regras para preenchimento de campos da biblioteca.</string>
-    <string name="uom_light_year">Ano luz</string>
+    <string name="uom_light_year">Ano-luz</string>
     <string name="uom_parsec">Parsec</string>
 
     <string name="uom_category_mass">Massa</string>
@@ -1830,7 +1830,7 @@ https://github.com/username/repo-name</string>
     <string name="script_permissions_required_message">A biblioteca tem scripts que requerem as seguintes permissões:</string>
     <string name="required_access_to_library">acesso a %s</string>
     <string name="action_with_library_context">Acção sobre a biblioteca</string>
-    <string name="action_with_entry_context">Acção de entrada de dados</string>
+    <string name="action_with_entry_context">Acção de Entrada de Dados</string>
     <string name="library_related_cloud_model_changed_message">A estrutura da biblioteca associada foi actualizada na nuvem. Ir para a biblioteca associada para actualizar.</string>
     
     <string name="monthly_plan">Mensalmente</string>
@@ -1844,7 +1844,7 @@ https://github.com/username/repo-name</string>
     <string name="cloud_plan_team20_annual">Equipa 20</string>
     <string name="price_per_year">%s/ano</string>
 
-    <string name="frozen_alien_text">Está biblioteca está bloqueada. Por favor, contacte o proprietário da biblioteca (%s).</string>
+    <string name="frozen_alien_text">Esta biblioteca está bloqueada. Por favor, contacte o proprietário da biblioteca (%s).</string>
     <string name="copy_field">Copiar campo</string>
     <string name="delete_reminder_dialog_text">Deseja mesmo apagar a lembrança?</string>
     <string name="igdb_source">igdb.com</string>
@@ -1965,7 +1965,7 @@ Actualize para a versão PRO para remover esta limitação.</string>
     <string name="pro_feature_3">Número ilimitado de gráficos</string>
     <string name="pro_feature_4">Número ilimitado de scripts</string>
     <string name="pro_feature_5">Pesquisa avançada</string>
-    <string name="pro_feature_6">Um campo de entrada pode conter vários objectos (imagens, ficheiros, contactos, coordenadas, etc.)</string>
+    <string name="pro_feature_6">Um campo de entrada pode conter vários objectos (imagens, ficheiros, contactos, coordenadas, etc.).</string>
     <string name="pro_feature_7">Modificar diversas entradas</string>
     <string name="pro_feature_8">Widget de aplicações</string>
     <string name="pro_license_activated">Licença activada</string>
