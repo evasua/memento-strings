@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="button_create">Criar</string>
+    <string name="button_yes">Sim</string>
+    <string name="button_ok">OK</string>
+    <string name="button_no">Não</string>
+    <string name="button_save">Salvar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="flex_type_title_string">Texto</string>
+    <string name="flex_type_title_int">Inteiro</string>
+    <string name="flex_type_title_date">Data</string>
+    <string name="flex_type_contact">Contato</string>
+    <string name="flex_type_image">Imagem</string>
+    </resources>
