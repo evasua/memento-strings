@@ -1955,7 +1955,7 @@
     <string name="please_sign_in">Будь ласка, увійдіть в Memento Хмару.</string>
     <string name="sign_up_or_sign_in">Зареєструйтеся або увійдіть в систему</string>
     <string name="auth_error_title">Помилка аутентифікації</string>
-    <string name="auth_error_text">Виникла помилка, будь ласка, перевірте знову %s</string>
+    <string name="auth_error_text">Виникла помилка, будь ласка, перевірте знову %s.</string>
     <string name="logout">Вийти</string>
     <string name="logout_confirmation">Ви впевнені, що хочете вийти з системи?</string>
     <string name="current_plan">Поточний план</string>
@@ -1981,7 +1981,7 @@
     <string name="revision_action_create">%s створений запис</string>
     <string name="revert_to_version">Повернутися до цієї версії</string>
     <string name="revert_to_version_message">Ви впевнені, що хочете повернутися до версії з %s?</string>
-    <string name="revision_history_only_for_cloud">Попередня версія доступна лише для бібліотек, завантажених у хмару та на облікові записи PRO або TEAM</string>
+    <string name="revision_history_only_for_cloud">Попередня версія доступна лише для бібліотек, завантажених у хмару та на облікові записи PRO або TEAM.</string>
     <string name="revision_history">Попередня версія</string>
     <string name="barcode_type_nfc">НФЦ</string>
     <string name="pending_user">Очікує на розгляд ...</string>
