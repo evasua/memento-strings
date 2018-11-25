@@ -137,7 +137,7 @@
     <string name="activation_ok">شكرا لك على التنشيط</string>
     <string name="activation_error">رمز التنشيط غير صالح. حاول مرة اخرى.</string>
     <string name="about">حول</string>
-    <string name="copyright">حقوق النشر©2017 لوكيدرويد
+    <string name="copyright">حقوق النشر©2018 لوكيدرويد
 كل الحقوق محفوظة</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">عرض إصدار البرنامج</string>
@@ -146,16 +146,16 @@
     <string name="send_library_item">إرسال</string>
     <string name="send_chooser_title">اختيار التطبيق لإرسال:</string>
     <string name="create_shortcut">انشاء اختصار</string>
-    <string name="app_name_library">Memento مكتبة</string>
-    <string name="error_cant_open_memento_dir">خطأ: لا يمكن فتح تذكار الدليل إلى بطاقة فلاش</string>
+    <string name="app_name_library">مكتبة ميمينتو</string>
+    <string name="error_cant_open_memento_dir">خطأ: لا يمكن فتح ميمينتو إلى بطاقة فلاشية</string>
     <string name="preference_category_csv_import">عمليات البيانات</string>
-    <string name="csvexport">تصدير إلى كسف</string>
-    <string name="csvexport_summary">تصدير الإدخالات إلى ملف كسف</string>
-    <string name="csvimport">استيراد من كسف</string>
+    <string name="csvexport">تصدير إلى اكسل</string>
+    <string name="csvexport_summary">تصدير الإدخالات إلى ملف اكسل</string>
+    <string name="csvimport">استيراد من اكسل</string>
     <string name="csvimport_from">استيراد من٪ s</string>
     <string name="csvexport_to">تصدير إلى٪ s</string>
-    <string name="csvimport_summary">استيراد الإدخالات من ملف كسف</string>
-    <string name="select_csv_file_title">ملفات كسف في مجلد التذكارات</string>
+    <string name="csvimport_summary">استيراد الإدخالات من ملف اكسل</string>
+    <string name="select_csv_file_title">ملفات اكسل في مجلد ميمينتو</string>
     <string name="button_import">استيراد</string>
     <string name="button_export">تصدير</string>
     <string name="find_csv_column_title">حقول الإدخال الموجودة في الملف المحدد:</string>
@@ -232,7 +232,7 @@
     <string name="memento_pass_hint">كلمة المرور</string>
     <string name="memento_pass_hint2">اعد كلمة السر</string>
     <string name="memento_email_hint">البريد الإلكتروني</string>
-    <string name="memento_register_button">خلق</string>
+    <string name="memento_register_button">انشاء حساب</string>
     <string name="memento_have_button">لدي حساب</string>
     <string name="login_empty">ادخل اسم المستخدم</string>
     <string name="login_format_error">قد يحتوي تسجيل الدخول على أحرف وأرقام فقط</string>
@@ -638,7 +638,7 @@
     <string name="auto_bakup_dir_pref_title">دليل لصناعة السيارات في النسخ الاحتياطي</string>
     <string name="google_play_not_found_message">لا يحتوي جهازك على غوغل بلاي. يمكنك تحميل أوي فيل ماناجر من موقع المطور.</string>
     <string name="library_not_found_dialog_title">مكتبة</string>
-    <string name="library_not_found_dialog_message">لم يتم العثور على المكتبة. ربما تمت إزالة المكتبة.</string>
+    <string name="library_not_found_dialog_message">لم يتم العثور على المكتبة ربما تمت إزالة المكتبة.</string>
     <string name="add_field_above">أضف حقل أعلاه</string>
     <string name="add_field_below">أضف حقل أدناه</string>
     <string name="year_default_now">السنة الحالية بشكل افتراضي</string>
@@ -1871,5 +1871,11 @@
 <plurals name="string_list_import_snackbar_ok">
 	<item quantity="one">تم استيراد 0 عناصر</item>
 	<item quantity="other">تم استيراد 1 عناصر</item>
+</plurals>
+    <string name="select_source_library_dialog_hint">اختار مصدر البيانات</string>
+
+<plurals name="rating_stars_count">
+	<item quantity="one">صفر (اي. جي. 0)</item>
+	<item quantity="other">واحد (اي. جي. 1)</item>
 </plurals>
     </resources>
