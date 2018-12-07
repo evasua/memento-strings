@@ -268,7 +268,7 @@
     <string name="memento_pass_hint">Passwort</string>
     <string name="memento_pass_hint2">Wiederhole Passwort</string>
     <string name="memento_email_hint">Email</string>
-    <string name="memento_register_button">Erstelle</string>
+    <string name="memento_register_button">Konto erstellen</string>
     <string name="memento_have_button">Ich habe bereits ein Konto</string>
     <string name="login_empty">Benutzerkennung eingeben</string>
     <string name="login_format_error">Die Benutzerkennung darf nur aus Buchstaben und Zahlen bestehen</string>
@@ -645,7 +645,7 @@
     <string name="auto_bakup_dir_pref_title">Verzeichnis für Auto-Backup</string>
     <string name="google_play_not_found_message">Ihr Gerät hat kein Google Play. Sie können den OI Dateimanager von der Herstellerseite herunter laden.</string>
     <string name="library_not_found_dialog_title">Sammlung</string>
-    <string name="library_not_found_dialog_message">Sammlung nicht gefunden. Es ist möglich, dass Ihre Sammlung entfernt wurde.</string>
+    <string name="library_not_found_dialog_message">Sammlung wurde nicht gefunden. Es ist möglich, dass Ihre Sammlung entfernt wurde.</string>
     <string name="add_field_above">Feld obendrüber hinzufügen</string>
     <string name="add_field_below">Feld darunter hinzufügen</string>
     <string name="year_default_now">aktuelles Jahr als Standard</string>
@@ -1092,7 +1092,7 @@
 	<string name="need_make_slave_library_unique_import">Um “Verknüpfung zum Eintrag“-Felder zu importieren, müssen Sie im Sammlung, auf das sich die Verknüpfung bezieht, die Eindeutigkeit des Eintragsnamens aktivieren.\nWissen Sie das?</string>
 	<string name="run_sync_slave_libraries_pref">Verknüpfte Sammlungen</string>
 	<string name="run_sync_slave_libraries_summary">Synchronisieren Sie zuerst verknüpfte Verzeignisse</string>
-	<string name="choice_type_add_button_in_edit_title">Erstellung von Elementen, während ein Eintrag bearbeitet wird</string>
+	<string name="choice_type_add_button_in_edit_title">Erstellung von Elementen erlauben, während ein Eintrag bearbeitet wird</string>
 	
 	<string name="show_deleted_entries_menu_item">"Zeige gelöschte Einträge "</string>
 	<string name="upload_to_cloud_menu_item">In die Cloud</string>
@@ -1266,7 +1266,10 @@
 	<string name="return_to_free_plan_message">Wechseln Sie zu einem kostenlosen Account, indem Sie in Google Play Ihr kostenpflichtiges Abonnement kündigen</string>
 	<string name="upload_ecrypted_libraries_dont_supported">Verschlüsselte Bibliotheken können temporär nicht in der Cloud gespeichert werden.</string>
 	<string name="cloud_library_not_found">Die Sammlung konnte nicht in der Cloud gefunden werden. Wurde sie gelöscht?\nSoll eine lokale Kopie erstellt werden?</string>
-	<string name="upload_to_cloud_offer_text">• Teamwork\n• Synchron auf allen Geräten\n• Backup in der Cloud</string>
+	<string name="upload_to_cloud_offer_text">• Teamwork
+• Synchronisieren auf allen Geräten
+• Backup in der Cloud
+• Versionen-Historie</string>
 	<string name="invalid_library_template_file_format">Ungültiges Dateiformat der Vorlage</string>    
 	<string name="remove_from_old_public">Vor dem Hochladen der Sammlung in die Cloud wird die Veröffentlichung rückgängig gemacht, falls sie über veraltete Methoden erfolgt war.</string>
 	<string name="subscription_pro_bonus_text">Die meisten Preispläne für Cloudspeicher enthalten die PRO-Version als Bonus</string>
@@ -1696,7 +1699,7 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="cloud_plan_team10">Team 10</string>
     <string name="cloud_plan_team15">Team 15</string>
     <string name="cloud_plan_team20">Team 20</string>
-    <string name="pro_for_team">Pro Features für alle Benutzer im Team</string>
+    <string name="pro_for_team">" Pro Features für alle Benutzer im Team"</string>
     <string name="tasker_plugin_create_entry_event_title">Eintrag erstellt</string>
     <string name="tasker_plugin_delete_entry_event_title">Eintrag gelöscht</string>
     <string name="tasker_plugin_modified_entry_event_title">Eintrag geändert</string>
@@ -1915,4 +1918,33 @@ Upgraden Sie zur PRO-Version, um diese Einschränkung zu deaktivieren.</string>
     <string name="button_upgrade">Aktualisierung</string>
     <string name="autofilll_source_not_supported">Entschuldigung, %s wird nicht mehr unterstützt.</string>
 
-</resources>
+<string name="link_attributes_empty_text">Dieses Feld hat keine Attribute für die Links.</string>
+    <string name="cant_find_contact_selection_app">Sorry, die Applikation für die Kontaktauswahl konnte nicht gefunden werden.</string>
+    <string name="library_item_not_found_dialog_message">Eintrag nicht gefunden. Er könnte gelöscht worden sein.</string>
+
+    <string name="license_key_tab">Lizenzschlüssel</string>
+    <string name="pro_feature_0">Keine Werbung</string>
+    <string name="pro_feature_1">Unlimitierte Nummer von Sammlungen, die mit Google Sheets synchronisiert werden können</string>
+    <string name="pro_feature_2">Unlimitierte Anzahl von \"geschützten\" Sammlungen</string>
+    <string name="pro_feature_3">Unlimitierte Anzahl von Graphen</string>
+    <string name="pro_feature_4">Unlimitierte Anzahl von Scripts</string>
+    <string name="pro_feature_5">Erweiterte Suche</string>
+    <string name="pro_feature_6">Ein Eintragsfeld kann verschiedene Objekte enthalten (Bilder, Dateien, Kontakte, Koordinaten, etc.).</string>
+    <string name="pro_feature_7">Mehrere Einträge editieren</string>
+    <string name="pro_feature_8">Praktisches App Widget</string>
+    <string name="pro_license_activated">Lizenz aktiviert</string>
+    <string name="pro_features_title">Pro Features</string>
+    <string name="activate_with_key">Aktivieren mit Schlüssel</string>
+    <string name="plans_and_pricing">Modelle &amp; Preise</string>
+    <string name="email_or_username">Email oder Benutzername</string>
+    <string name="sign_in_with_google">Fortfahren mit Google</string>
+    <string name="minimum_pass_length">Das Passwort muss mindestens %d Zeichen lang sein.</string>
+    <string name="please_sign_in">Bitte melden Sie sich in der Memento Cloud an.</string>
+    <string name="sign_up_or_sign_in">Registrieren oder Einloggen</string>
+    <string name="auth_error_title">Authentifizierungsfehler</string>
+    <string name="current_plan">Aktuelles Modell</string>
+    <string name="change_password">Passwort ändern</string>
+    <string name="current_password">Aktuelles Passwort</string>
+    <string name="new_password">Neues Passwort</string>
+    <string name="password_changed_message">Ihr Passwort wurde erfolgreich geändert!</string>
+    </resources>

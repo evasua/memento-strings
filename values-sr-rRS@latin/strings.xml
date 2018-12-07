@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="app_name">Memento</string>
     <string name="main_menu_add_lib">Dodaj biblioteku</string>
     <string name="ghostData_lib_title">Ime biblioteke</string>
@@ -146,4 +146,12 @@
     <string name="send_chooser_title">Izaberi aplikaciju za slanje:</string>
     <string name="create_shortcut">Napravi prečicu</string>
     <string name="app_name_library">Memento biblioteka</string>
+    <string name="csvexport">Izvezi kao CSV</string>
+    <string name="csvimport">Uvezi iz CSV</string>
+    <string name="csvimport_from">Uvezi iz %s</string>
+    <string name="csvexport_to">Izvezi kao %s</string>
+    <string name="button_import">Uvezi</string>
+    <string name="button_export">Izvezi</string>
+    <string name="flex_type_title_bool">Bulov tip (polje za potvrdu)</string>
+    <string name="csv_delimiter_text">Vrednosti kolone moraju biti razdvojene zarezom (,)</string>
     </resources>
