@@ -75,11 +75,9 @@
     <string name="search_hint">Pesquisar</string>
     <string name="search_parse_exception_messagee">Cadeia de pesquisa inválida</string>
     <plurals name="NItemsFind">
-	<item quantity="one">1 entrada encontrada</item>
-	<item quantity="other">Entradas encontradas: 
-<xliff:g id="COUNT">
-%d</xliff:g></item>
-</plurals>
+	    <item quantity="one">1 entrada encontrada</item>
+	    <item quantity="other">Entradas encontradas:<xliff:g id="COUNT">%d</xliff:g></item>
+    </plurals>
     <string name="memento_search">Pesquisa Memento</string>
     <string name="memento_search_in_lib">Pesquisa Memento em %s</string>
     <string name="removed">Apagado em %s</string>
@@ -125,9 +123,7 @@
     <string name="restore_preference">Recuperar cópia de segurança</string>
     <string name="restore_summary_preference">Recuperando bibliotecas da cópia de segurança</string>
     <string name="backup_file_not_found">Nenhuma cópia de segurança encontrada.</string>
-    <string name="restore_dialog_message">As bibliotecas existentes serão substituídas pelas bibliotecas recuperadas durante a cópia de segurança.
-Todas as alterações nessas bibliotecas, após a criação da cópia de segurança, serão perdidas.
-Iniciar recuperação ?</string>
+    <string name="restore_dialog_message">As bibliotecas existentes serão substituídas pelas bibliotecas recuperadas durante a cópia de segurança.\nTodas as alterações nessas bibliotecas, após a criação da cópia de segurança, serão perdidas.\nIniciar recuperação ?</string>
     <string name="backup_dialog_message">Substituir a cópia de segurança por uma nova?</string>
     <string name="restore_success">As bibliotecas foram recuperadas com sucesso da cópia de segurança</string>
     <string name="restore_step1">Recuperando</string>
@@ -145,8 +141,7 @@ Iniciar recuperação ?</string>
     <string name="activation_ok">Obrigado por activar Memento</string>
     <string name="activation_error">O código de activação é inválido. Por favor, tente novamente.</string>
     <string name="about">Sobre</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid
-Todos os direitos reservados</string>
+    <string name="copyright">Copyright © 2018 LuckyDroid\nTodos os direitos reservados</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Verificar versão do programa</string>
     <string name="about_license_type">Licença:</string>
@@ -172,21 +167,18 @@ Todos os direitos reservados</string>
     <string name="need_title_column_text">O nome da coluna deve corresponder ao nome do campo de entrada. </string>
     <string name="csv_result_import_text">As entradas foram importadas</string>
     <string name="csv_result_import_succes_items">Entradas adicionadas:</string>
-    <string formatted="false" name="csv_result_import_fail_items">Número de linhas com erros: %s 
-Linhas: %s</string>
+    <string formatted="false" name="csv_result_import_fail_items">Número de linhas com erros: %s\nLinhas: %s</string>
     <string name="enter_csv_name_dialog_title">Exportar para CSV</string>
     <string name="enter_csv_name_dialog_value_title">Indique o nome do ficheiro CSV</string>
     <string name="enter_csv_name_dialog_value_hint">Nome do ficheiro</string>
     <string name="export_success">As entradas foram exportadas para /sdcard/memento/%s</string>
-    <string name="export_error">Falha ao exportar entradas: 
-%s</string>
+    <string name="export_error">Falha ao exportar entradas:\n%s</string>
     <string name="library_saved">Biblioteca guardada</string>
     <string name="library_created">Biblioteca criada</string>
     <string name="msg_default_status">Coloque um código de barras dentro do rectângulo para digitalização.</string>
     <string name="scan_library_item">Digitalizando código de barras</string>
     <string name="search_product_title">Pesquisando produto por código de barras ...</string>
-    <string name="empty_result_text">Desculpe, 
-produto não encontrado</string>
+    <string name="empty_result_text">Desculpe,\nproduto não encontrado</string>
     <string name="add_entry_manual">Adicionar manualmente ...</string>
     <string name="fill_entry_manual">Preencher manualmente ...</string>
     <string name="flex_type_barcode">Código de barras</string>
@@ -249,8 +241,7 @@ produto não encontrado</string>
     <string name="copy_memento_to_gdocs">Entradas do Memento</string>
     <string name="copy_gdocs_to_memento">Entradas das Folhas de Cálculo Google</string>
     <string name="edit_flex_title_disabled">Esse campo não pode mudar de nome porque a biblioteca está ligada às Folhas de Cálculo Google</string>
-    <string name="cant_bind">A versão gratuita permite apenas ligar duas bibliotecas às Folhas de Cálculo Google.
-Actualize para a versão PRO para remover esta limitação.</string>
+    <string name="cant_bind">A versão gratuita permite apenas ligar duas bibliotecas às Folhas de Cálculo Google.\nActualize para a versão PRO para remover esta limitação.</string>
     <string name="button_pro_version">Versão PRO</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">Preenchimento automático</string>
@@ -266,8 +257,7 @@ Actualize para a versão PRO para remover esta limitação.</string>
     <string formatted="false" name="picasa_send_image_step">Transferindo biblioteca de imagens para o Picasa. %s de %s</string>
     <string name="public_library">Publicar a biblioteca</string>
     <string name="update_public_library">Actualizar a publicação</string>
-    <string name="memento_register_account_title">Criando uma conta
-no servidor Memento</string>
+    <string name="memento_register_account_title">Criando uma conta\nno servidor Memento</string>
     <string name="memento_register_account_text">Para poder publicar bibliotecas e subscrevê-las, é preciso ter uma conta no servidor Memento</string>
     <string name="memento_login_hint">Utilizador</string>
     <string name="memento_pass_hint">Palavra-passe</string>
@@ -292,8 +282,7 @@ no servidor Memento</string>
     <string name="preference_memento_account_hint">Nome de utilizador e palavra-passe da sua conta Memento</string>
     <string name="public_library_task_auth">Autenticando no serviço Memento</string>
     <string name="public_library_task_send_template">Transferindo a biblioteca modelo</string>
-    <string formatted="false" name="public_library_task_send_items">Transferindo entradas da biblioteca.
-%s de %s</string>
+    <string formatted="false" name="public_library_task_send_items">Transferindo entradas da biblioteca.\n%s de %s</string>
     <string name="memento_not_support_template">A sua versão do Memento está desactualizada. Actualize-a, por favor.</string>
     <string name="memento_not_found">Recurso não encontrado</string>
     <string name="alias_hint">Indique um nome alternativo da biblioteca</string>
@@ -312,10 +301,8 @@ no servidor Memento</string>
     <string name="subscribe_activity_title">Subscrever bibliotecas</string>
     <string name="library_uri_hint">Endereço da biblioteca</string>
     <string name="find_libraries_task_title">Procurar bibliotecas</string>
-    <string name="find_libraries_task_by_uri">Obter o endereço da biblioteca
-através do seu endereço</string>
-    <string name="find_libraries_task_by_user">Obtendo a lista 
-das bibliotecas do utilizador</string>
+    <string name="find_libraries_task_by_uri">Obter o endereço da biblioteca\natravés do seu endereço</string>
+    <string name="find_libraries_task_by_user">Obtendo a lista\ndas bibliotecas do utilizador</string>
     <string name="libraries_list_result_header">Bibliotecas encontradas</string>
     <string name="libraries_by_user_not_found">O utilizador indicado não foi encontrado ou não existem bibliotecas publicadas por ele</string>
     <string name="library_not_found">Nenhuma biblioteca encontrada nesse endereço</string>
@@ -324,8 +311,7 @@ das bibliotecas do utilizador</string>
     <string name="subscribe_button">Subscrever</string>
     <string name="subscribe_task_get_library">Obtendo entradas da biblioteca</string>
     <string name="subscribe_task_create_library">Criando biblioteca</string>
-    <string formatted="false" name="subscribe_task_save_library_task">Guardando entradas.
-%s de %s</string>
+    <string formatted="false" name="subscribe_task_save_library_task">Guardando entradas.\n%s de %s</string>
     <string name="subscribe_task_create_index">Criando índices</string>
     <string name="subscribes_group_title">As minhas subscrições</string>
     <string name="library_settings">Configurações</string>
@@ -355,8 +341,7 @@ das bibliotecas do utilizador</string>
     <string name="flex_image_load">A carregar a imagem ...</string>
     <string name="subscribed">Subscrito</string>
     <string name="info_public_library">Endereço da biblioteca</string>
-    <string name="cant_public">A versão gratuita só permite publicar duas bibliotecas.
-Actualize para a versão PRO para remover essa limitação.</string>
+    <string name="cant_public">A versão gratuita só permite publicar duas bibliotecas.\nActualize para a versão PRO para remover essa limitação.</string>
     <string name="add_permission_user_hint">Indique nome do utilizador ou email</string>
     <string name="edit_pub_permissions">Direitos de acesso à biblioteca</string>
     <string name="edit_pub_permissions_hint">Editando a lista de utilizadores que têm acesso à biblioteca</string>
@@ -405,13 +390,11 @@ Actualize para a versão PRO para remover essa limitação.</string>
     <string name="lib_protection">Protecção de bibliotecas</string>
     <!-- 1.6.0 -->
     <string name="set_library_protection">Protecção</string>
-    <string name="set_master_pass_text">Configurar uma palavra-passe principal para acesso às bibliotecas.
-Terá de indicar essa palavra-passe para aceder às bibliotecas encriptadas.</string>
+    <string name="set_master_pass_text">Configurar uma palavra-passe principal para acesso às bibliotecas.\nTerá de indicar essa palavra-passe para aceder às bibliotecas encriptadas.</string>
     <string name="master_pass_hint">Palavra-passe</string>
     <string name="master_pass_hint2">Repita a palavra-passe</string>
     <string name="set_master_pass_dialog">Configurar uma palavra-passe principal</string>
-    <string name="check_master_pass_text">Por favor indique a palavra-passe principal
-para aceder às bilbiotecas</string>
+    <string name="check_master_pass_text">Por favor indique a palavra-passe principal\npara aceder às bilbiotecas</string>
     <string name="master_password_hint">Palavra-passe principal</string>
     <string name="button_continue">Continuar</string>
     <string name="wrong_master_password">Palavra-passe inválida</string>
@@ -419,8 +402,7 @@ para aceder às bilbiotecas</string>
     <string name="library_is_locked">O acesso às bibliotecas encriptadas está fechado</string>
     <string name="library_pass_access_description">Deve indicar a palavra-passe principal para aceder a esta biblioteca</string>
     <string name="library_encription_checkbox">Encriptar o conteúdo</string>
-    <string name="library_encription_description">Os campos de texto das entradas serão encriptados usando AES. 
-Não é possível pesquisar em campos encriptados.</string>
+    <string name="library_encription_description">Os campos de texto das entradas serão encriptados usando AES.\nNão é possível pesquisar em campos encriptados.</string>
     <string name="set_library_protection_title">A encriptar entradas</string>
     <string name="set_library_protection_message">A encriptar entradas da biblioteca ...</string>
     <string name="remove_library_protection">Remover protecção</string>
@@ -534,9 +516,7 @@ Não é possível pesquisar em campos encriptados.</string>
     <string name="scale">Decimais %d</string>
 <string name="reset_master_password">Redefinir a palavra-passe principal</string>
     <string name="reset_master_password_hint">Todas as bibliotecas encriptadas serão removidas</string>
-    <string name="reset_master_quest">"Deseja mesmo  redefinir a palavra-passe principal?
-
-Atenção! Todas as bibliotecas encriptadas serão removidas!"</string>
+    <string name="reset_master_quest">"Deseja mesmo  redefinir a palavra-passe principal?\nAtenção! Todas as bibliotecas encriptadas serão removidas!"</string>
     <string name="remove_encript_lib_dlg_msg">Apagar as bibliotecas encriptadas</string>
     <string name="master_password_reset">Redefinição da palavra-passe principal</string>
     <string name="edit_entry_screen_preference">Editando entradas</string>
@@ -549,8 +529,7 @@ Atenção! Todas as bibliotecas encriptadas serão removidas!"</string>
     <string name="select_app">Seleccione uma aplicação</string>
     <string name="forum">Fórum</string>
     <string name="autoincrement">Incremento automático</string>
-    <string name="cant_protect">A versão gratuita permite apenas proteger duas bibliotecas.↵
-Actualize para a versão PRO para remover esta limitação.</string>
+    <string name="cant_protect">A versão gratuita permite apenas proteger duas bibliotecas.\nActualize para a versão PRO para remover esta limitação.</string>
     <string name="flex_edit_option_title">Onde pode editar</string>
     <string name="flex_edit_option_default">Formulário para editar a entrada</string>
     <string name="loading_google_document_list">A carregar...</string>
@@ -697,20 +676,15 @@ Actualize para a versão PRO para remover esta limitação.</string>
     <string name="run_sync_slave_libraries_summary">Sincronize primeiro as bibliotecas associadas</string>
 	<string name="show_deleted_entries_menu_item">Mostrar entradas apagadas</string>
 	<string name="upload_to_cloud_menu_item">Para a nuvem</string>
-	<string name="change_password_success">Por favor, verifique o seu email↵
-Enviamos um email que lhe permitirá redefinir a palavra-passe de forma rápida e simples.</string>
-    <string name="search_in_protected_libraries">Procurar em bibliotecas protegidas por palavra-passe
-(excepto as encriptadas )</string>
+	<string name="change_password_success">Por favor, verifique o seu email\nEnviamos um email que lhe permitirá redefinir a palavra-passe de forma rápida e simples.</string>
+    <string name="search_in_protected_libraries">Procurar em bibliotecas protegidas por palavra-passe\n(excepto as encriptadas )</string>
     <string name="google_play_not_found_message">O dispositivo não tem Google Play. Pode transferir OI File Manager da página do programador.</string>
     <string name="button_no_thanks">Não, obrigado</string>
 	<string name="button_upload">Enviar</string>
-	
 	<string name="cant_upload_file_to_cloud">Falhou o envio.</string>
     <string name="button_show">Mostrar</string>
-	<string name="cant_add_yourself">Não pode adicionar-se a si próprio</string>    
-
-		        	
-<string name="invalid_library_template_file_format">O formato do ficheiro do modelo é inválido</string>    
+	<string name="cant_add_yourself">Não pode adicionar-se a si próprio</string>
+    <string name="invalid_library_template_file_format">O formato do ficheiro do modelo é inválido</string>
 	<string name="owner">Proprietário</string>
 	<string name="find_library_by_url_title">Abrir por URL</string>
 	<string name="library_access_read_only">Só leitura</string>
@@ -778,8 +752,7 @@ Enviamos um email que lhe permitirá redefinir a palavra-passe de forma rápida 
     <string name="selected">%s seleccionado</string>
     <string name="delete_template_from_google_drive_question">Quer mesmo apagar as bibliotecas seleccionadas do Google Drive?</string>
     <string name="delete_data_table_from_google_drive">Remover dados das folhas de cálculo associados com os modelos</string>
-    <string name="lock_library_edit_message">As alterações à estrutura da biblioteca estão bloqueadas.↵ 
-Vá a configurações e marque a função de edição para esta biblioteca.</string>
+    <string name="lock_library_edit_message">As alterações à estrutura da biblioteca estão bloqueadas.\nVá a configurações e marque a função de edição para esta biblioteca.</string>
     <string name="lock_edit_library_pref_title">Bloquear estrutura</string>
     <string name="lock_edit_library_pref_summary_on">Não é permitido mudar a estrutura da biblioteca</string>
     <string name="lock_edit_library_pref_summary_off">Alterar estrutura da biblioteca</string>
@@ -953,8 +926,7 @@ Vá a configurações e marque a função de edição para esta biblioteca.</str
     <string name="string_edit_cap_options_sent">No início da frase</string>
     <string name="string_edit_cap_options_wolds">No início de cada palavra</string>
     <string name="string_edit_cap_options_all">Todas as letras</string>
-    <string name="single_line_options_title">Linha única↵
-campo de texto</string>
+    <string name="single_line_options_title">Linha única\ncampo de texto</string>
     <string name="main_field_options_tab_title">Principal</string>
     <string name="string_list_items_tab_title">Itens</string>
     <string name="string_list_edit_item_title_hint">Título do item</string>
@@ -1001,8 +973,8 @@ campo de texto</string>
     <string formatted="false" name="csv_import_error_item">Linha %d - %s</string>
     <string name="undo_button">Desfazer</string>
     <string name="google_sync_without_memento_id_text">Esta biblioteca está a ser sincronizada usando um método antigo, que tem potenciais erros.
-Volte a ligar a biblioteca para a nova tabela para usar o novo método.
-Voltar a ligar agora?</string>
+\nVolte a ligar a biblioteca para a nova tabela para usar o novo método.
+\nVoltar a ligar agora?</string>
     <string name="rating_field_max_value">Classificação máxima</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d estrela</item>
@@ -1133,10 +1105,8 @@ Voltar a ligar agora?</string>
 	<string name="library_have_duplicates">Há entradas com nomes semelhantes na biblioteca</string>
 	<string name="library_have_duplicates2">Alterar ou apagar duplicados para trabalhar correctamente.</string>
 	<string name="dont_show_anymore">Não mostrar mais</string>
-	<string name="need_make_slave_library_unique">Para sincronizar os campos \"Ligar à entrada\", deve activar o controlo de exclusividade do nome da entrada na biblioteca à qual as ligações se referem.
-Fazer isso agora?</string>
-	<string name="need_make_slave_library_unique_import">Para importar campo \"Ligar à entrada\", deve activar o controlo de exclusividade do nome de entrada na biblioteca para as ligações a que se referem.↵
-Fazer isto agora?</string>
+	<string name="need_make_slave_library_unique">Para sincronizar os campos \"Ligar à entrada\", deve activar o controlo de exclusividade do nome da entrada na biblioteca à qual as ligações se referem.\nFazer isso agora?</string>
+	<string name="need_make_slave_library_unique_import">Para importar campo \"Ligar à entrada\", deve activar o controlo de exclusividade do nome de entrada na biblioteca para as ligações a que se referem.↵\nFazer isto agora?</string>
 	<string name="choice_type_add_button_in_edit_title">Permitir a criação de itens enquanto uma entrada está a ser editada</string>
 	
 	<string name="memento_cloud">Nuvem Memento</string>
@@ -1155,13 +1125,11 @@ Fazer isto agora?</string>
 	<string name="button_hide">esconder</string>	
 	<string name="empty_cloud_libraries_list_text">Não enviou ainda bibliotecas</string>
 	<string name="permissions">Permissões</string>
-	<string name="success_upload_library_to_cloud">A biblioteca foi enviada com sucesso.↵
-A biblioteca será sincronizada automaticamente.</string>
+	<string name="success_upload_library_to_cloud">A biblioteca foi enviada com sucesso.\nA biblioteca será sincronizada automaticamente.</string>
 	<string name="success_upload_library_to_cloud2">Pode tornar a sua biblioteca acessível a outros utilizadores de Memento nas configurações de acesso.</string>	
 	<string name="push_entries_to_cloud_message" formatted="false">Enviando entradas↵\n%s de %s entradas processadas</string>
 	<string name="pull_entries_from_cloud_message2" formatted="false">%s de %s entradas processadas</string>
-	<string name="success_pull_library_from_cloud">As entradas foram transferidas com sucesso.↵
-A biblioteca será sincronizada automaticamente.</string>
+	<string name="success_pull_library_from_cloud">As entradas foram transferidas com sucesso.\nA biblioteca será sincronizada automaticamente.</string>
 	<string name="cloud_conflict_fields_title">Conflitos</string>
 	<string name="cloud_conflict_fix_button_title">Reparar</string>
     <plurals name="conflict_count">
@@ -1195,8 +1163,7 @@ A biblioteca será sincronizada automaticamente.</string>
     <string name="upload_file_to_cloud">A enviar o ficheiro...</string>    
     <string name="upload_files_to_cloud">A enviar ficheiros</string>
     <string name="cloud_upload_error_title">Não conseguimos sincronizar esta biblioteca</string>
-    <string name="upload_big_file_error" formatted="false">A entrada %s contém um ficheiro grande %s (%s).
-O tamanho máximo do ficheiro é %s.</string>
+    <string name="upload_big_file_error" formatted="false">A entrada %s contém um ficheiro grande %s (%s).\nO tamanho máximo do ficheiro é %s.</string>
     <string name="prepare_library_for_cloud">A biblioteca está a ser processada...</string>
     <string name="download_files_from_cloud">A transferir ficheiros da nuvem...</string>
     <string name="cant_download_item_files_for_copy">A transferir ficheiros para criar cópias que falharam.</string> 
@@ -1224,11 +1191,8 @@ O tamanho máximo do ficheiro é %s.</string>
 	<string name="need_upload_to_cloud_slave_libraries">Por favor, envie as bibliotecas secundárias para a nuvem.</string>
 	<string name="start_download_slave_library_model">A enviar as bibliotecas secundárias %s</string>
 	<string name="open_access_for_slave_libraries">Fornecer acesso de leitura às bibliotecas secundárias</string>
-	<string name="cloud_storage_full_text">Não há espaço suficiente no armazenamento na nuvem.↵
-Pode actualizar para um plano tarifário que proporcione mais espaço de armazenamento.</string>
-	<string name="cloud_storage_full_text2" formatted="false">"Não há espaço suficiente no armazenamento da nuvem.↵
-São necessários %s  e só estão disponíveis %s.↵
-Pode actualizar para um plano tarifário que proporcione mais espaço de armazenamento."</string>
+	<string name="cloud_storage_full_text">Não há espaço suficiente no armazenamento na nuvem.\nPode actualizar para um plano tarifário que proporcione mais espaço de armazenamento.</string>
+	<string name="cloud_storage_full_text2" formatted="false">Não há espaço suficiente no armazenamento da nuvem.\nSão necessários %s  e só estão disponíveis %s.\nPode actualizar para um plano tarifário que proporcione mais espaço de armazenamento.</string>
 	<string name="alien_cloud_storage_full_text">O proprietário da biblioteca não tem espaço suficiente de armazenamento.</string>	
 	<string name="button_tarifs">Tarifas</string>
 	<string name="cloud_storage_plans">Planos de subscrição</string>
@@ -1264,16 +1228,12 @@ Pode actualizar para um plano tarifário que proporcione mais espaço de armazen
 	<string name="empty_library_title">Biblioteca vazia</string>
 	<string name="select_template_title">Seleccionar modelo</string>
 	<string name="remove_from_old_public">Antes de enviar a biblioteca para a nuvem ela deixará de estar publicada se tiver sido publicada por métodos obsoletos.</string>
-	<string name="upload_to_cloud_offer_text">• Equipa↵
-• Sincronização entre dispositivos↵
-• Cópia de segurança sempre na nuvem
-• Histórico de versões</string>
+	<string name="upload_to_cloud_offer_text">• Equipa\n• Sincronização entre dispositivos\n• Cópia de segurança sempre na nuvem\n• Histórico de versões</string>
 	<string name="upload_to_cloud_offer_title">{nuvem pronta...}</string>
 	<string name="library_not_found_by_uri">Biblioteca não encontrada</string>
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="cloud_library_already_uploaded">Esta biblioteca já foi enviada para a nuvem.</string>
-	<string name="cloud_library_not_found">A biblioteca não foi encontrada na nuvem. Talvez tenha sido apagada.↵
-Converter a biblioteca numa local?</string>
+	<string name="cloud_library_not_found">A biblioteca não foi encontrada na nuvem. Talvez tenha sido apagada.\nConverter a biblioteca numa local?</string>
 	<string name="uservoice_menu_title">Sugestões</string>
 	<string name="view_csv_error_dialog_message">Não foi encontrada a aplicação para visualizar ficheiros CSV</string>
 	
@@ -1307,10 +1267,8 @@ Converter a biblioteca numa local?</string>
 
     <string name="encryption_for_cloud_uploaded_library">Uma biblioteca encriptada só pode ser activada antes de ser enviada para a nuvem.</string>
     <string name="decryption_for_cloud_uploaded_library">A desactivação de criptografia para fazer o envio para a nuvem não é suportada. Primeiro remova a biblioteca da nuvem.</string>
-    <string name="need_reload_library_from_cloud_encrypted">As cópias da biblioteca na nuvem foram encriptadas.
-Apague a cópia local da biblioteca e, em seguida, transfira novamente a biblioteca da nuvem.</string>
-    <string name="need_reload_library_from_cloud_decrypted">As cópias da biblioteca na nuvem foram desencriptadas.
-Apague a cópia local da biblioteca e, em seguida, transfira novamente a biblioteca da nuvem.</string>
+    <string name="need_reload_library_from_cloud_encrypted">As cópias da biblioteca na nuvem foram encriptadas.\nApague a cópia local da biblioteca e, em seguida, transfira novamente a biblioteca da nuvem.</string>
+    <string name="need_reload_library_from_cloud_decrypted">As cópias da biblioteca na nuvem foram desencriptadas.\nApague a cópia local da biblioteca e, em seguida, transfira novamente a biblioteca da nuvem.</string>
 
     <string name="render_pdf_menu_item">Guardar como PDF</string>
     <string name="entry_saved_as_pdf_success">PDF criado com sucesso</string>
@@ -1512,8 +1470,7 @@ Apague a cópia local da biblioteca e, em seguida, transfira novamente a bibliot
     <string name="auto_lock_libraries_time_title">Fechar acesso às bibliotecas</string>
     <string name="auto_lock_libraries_after">Depois %s</string>
 
-    <string name="empty_triggers_list_text">Esta biblioteca não contém activadores.
-Um Activador é um script que define o processamento de uma entrada baseado num Evento que ocorreu.</string>
+    <string name="empty_triggers_list_text">Esta biblioteca não contém activadores.\nUm Activador é um script que define o processamento de uma entrada baseado num Evento que ocorreu.</string>
     <string name="triggers">Activadores</string>
     <string name="trigger_name">Nome do activador</string>
     <string name="trigger_event">Evento</string>
@@ -1785,8 +1742,7 @@ Um Activador é um script que define o processamento de uma entrada baseado num 
     <string name="add_javascript_library">Adicionar bibliotecas javascript.</string>
     <string name="add_repository">Adicionar repositório</string>
     <string name="repository_location_hint">Endereço do Repositório GitHub</string>
-    <string name="repository_location_error">Indicar o endereço HTTPS para o repositório GitHub. Exemplo:
-https://github.com/username/repo-name</string>
+    <string name="repository_location_error">Indicar o endereço HTTPS para o repositório GitHub. Exemplo:\nhttps://github.com/username/repo-name</string>
     <string name="repository_not_found_error">Não é possível encontrar o repositório: %s</string>
     <string name="repository_delete_message">Deseja mesmo apagar o repositório \"%s\"?</string>
     <string name="repository_other">Outro</string>
@@ -1823,8 +1779,7 @@ https://github.com/username/repo-name</string>
     <string name="script_cant_run_for_not_saved_library">Só pode executar o script depois de guardar a biblioteca.</string>
     <string name="autofill_script_source_key_title">Indicar a propriedade do objecto devolvida pelo script</string>
     <string name="test_js_data_source_query_hint">Cadeia de consulta</string>
-    <string name="test_js_data_source_query_result">Resultado da consulta:
-%s</string>
+    <string name="test_js_data_source_query_result">Resultado da consulta:\n%s</string>
     <string name="run">Executar</string>
     <string name="run_arguments">Executar argumentos</string>
     <string name="script_cant_set_permissions_for_not_saved_library">Só pode atribuir permissões para o script depois de guardar a biblioteca.</string>
@@ -1951,8 +1906,7 @@ https://github.com/username/repo-name</string>
     <string name="notification_channel_reminders">Lembranças</string>
     <string name="notification_channel_entries">Modificações nas bibliotecas</string>
     <string name="notification_channel_files">Ficheiros</string>
-    <string name="quick_filter_limit_message">A versão gratuita só permite pesquisar em cinco campos.
-Actualize para a versão PRO para remover esta limitação.</string>
+    <string name="quick_filter_limit_message">A versão gratuita só permite pesquisar em cinco campos.\nActualize para a versão PRO para remover esta limitação.</string>
     <string name="button_upgrade">Actualizar</string>
     <string name="autofilll_source_not_supported">Lamentamos mas %s já não é suportado.</string>
     <string name="link_attributes_empty_text">O campo não tem atributos para estas ligações.</string>

@@ -1435,8 +1435,8 @@
 	<string name="upload_to_cloud">Завантажити на хмару</string>
     <string name="cloud_plan_free">Безкоштовна</string>
     <string name="cloud_plan_plan6">ПРО</string>
-    <string name="cloud_plan_plan3">Проста</string>
-    <string name="cloud_plan_plan10">ПРО+</string>
+    <string name="cloud_plan_plan3">Лайт</string>
+    <string name="cloud_plan_plan10">ПРО Плюс</string>
     <string name="cloud_plan_storage">%s Сховище</string>
 
     <string name="memento_server_cloud">Використовувати Memento хмару</string>
@@ -1812,9 +1812,9 @@
     <string name="library_related_cloud_model_changed_message">Структура відповідної бібліотеки була оновлена в хмарі. Перейти до відповідної бібліотеки для поновлення.</string>
 <string name="monthly_plan">Щомісяця</string>
     <string name="yearly_plan">Щорічно</string>
-    <string name="cloud_plan_plan3_annual">версія Лайт</string>
-    <string name="cloud_plan_plan6_annual">версія ПРО</string>
-    <string name="cloud_plan_plan10_annual">версія ПРО Плюс</string>
+    <string name="cloud_plan_plan3_annual">Лайт</string>
+    <string name="cloud_plan_plan6_annual">ПРО</string>
+    <string name="cloud_plan_plan10_annual">ПРО Плюс</string>
     <string name="cloud_plan_team5_annual">Команда 5</string>
     <string name="cloud_plan_team10_annual">Команда 10</string>
     <string name="cloud_plan_team15_annual">Команда 15</string>
