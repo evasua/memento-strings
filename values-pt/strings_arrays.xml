@@ -57,9 +57,9 @@
     <string name="flex_edit_option_values_table">Entradas da tabela</string>
     <string name="date_format_list_current_locale">Local actual</string>
     <string name="date_format_list_date_pref">Data - preferências do utilizador</string>
-    <string name="show_soft_keyboard_create">Quando a entrada foi criada</string>
+    <string name="show_soft_keyboard_create">Quando a entrada for criada</string>
     <string name="chart_continuous_axis">Eixo contínuo</string>
-    <string name="slice_text_none">Nenhum</string>
+    <string name="slice_text_none">Seleccionar</string>
     <string name="chart_discrete_axis">Eixo descontínuo</string>
     <string name="edit_library_tabs_facade">VISTA</string>
     <string name="show_soft_keyboard_no">Não mostrar</string>
