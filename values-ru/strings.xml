@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
     <string name="library_menu_add_item">Добавить</string>
@@ -143,8 +143,7 @@
     <string name="activation_ok">Спасибо за активацию Memento</string>
     <string name="activation_error">Код активации неверен. Пожалуйста, попробуйте снова.</string>
     <string name="about">О программе</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid
-All rights reserved</string>
+    <string name="copyright">Copyright © 2018 LuckyDroid\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Посмотреть версию программы</string>
     <string name="about_license_type">Лицензия:</string>
@@ -687,8 +686,8 @@ All rights reserved</string>
     <string name="prepare_google_sync">Соединение с аккаунтом...</string>
     <string name="no_google_accounts">Нет доступных Google-аккаунтов. Вы можете добавить Google-аккаунт в настройках вашего устройства.</string>
     <string name="google_account_not_selected">Аккаунт не выбран</string>
-    <string name="bakup_files_need_pro_title">Требуется ПРО-версия</string>
-    <string name="bakup_files_need_pro_message">Резервное копирование файлов доступно только в ПРО-версии</string>
+    <string name="bakup_files_need_pro_title">Требуется PRO-версия</string>
+    <string name="bakup_files_need_pro_message">Резервное копирование файлов доступно только в PRO-версии</string>
     <string name="boolen_filter_checkbox">Значение поля</string>
     <!-- 2.3.0 -->
     <string name="start_reindex_title">Переиндексация</string>
@@ -828,7 +827,7 @@ All rights reserved</string>
     <string name="cant_delete_charts_field_message">Вы не можете удалить это поле, т.к. оно используется в графиках: %s</string>
     <string name="save_to_file_name">Имя файла</string>
     <string name="save_to_file_directory">Каталог</string>
-    <string name="need_pro_for_charts">В бесплатной версии одна библиотека может содержать только один график. Для снятия этого ограничения обновитесь до ПРО-версии.</string>
+    <string name="need_pro_for_charts">В бесплатной версии одна библиотека может содержать только один график. Для снятия этого ограничения обновитесь до PRO-версии.</string>
     <!-- 2.5.2 -->
     <string name="download_image_from_google_photo_message">Скачиваю изображение из Google Photo...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Данные по продуктам из источника будут записаны в поля записей</string>
@@ -960,12 +959,13 @@ All rights reserved</string>
         <item quantity="other">%1$d звезд</item>
      </plurals>
     <plurals name="delete_entries_snackbar_text">
-	<item quantity="one">Запись%d была перемещена в корзину</item>
-	<item quantity="few">%d записей перемещено в корзину</item>
-	<item quantity="many">%1$d запись отправлена в корзину</item>
-	<item quantity="other"></item>
-</plurals>
-    <string name="auto_fill_barcode_empty2">Сравните атрибуты из источника автозаполнения и поля записей</string>
+        <item quantity="zero"/>
+        <item quantity="one">%1$d запись отправлена в корзину</item>
+    	<item quantity="few">%1$d записи отправлены в корзину</item>
+    	<item quantity="many">%1$d записей отправлено в корзину</item>       
+        <item quantity="other">%1$d записей отправлено в корзину</item>
+     </plurals>
+    <string name="auto_fill_barcode_empty2">Сопоставьте атрибуты из источника автозаполнения и поля записей.</string>
     <string name="barcode_rule_delete_title">Удалить правило</string>
     <string name="barcode_rule_delete_text">Вы действительно хотите удалить правило автозаполнения для поля \"%s\" ?</string>
     <string name="multi_library_item_trush_message_text">Вы действительно хотите отправить выбранные записи в Корзину ?</string>
@@ -1163,7 +1163,7 @@ All rights reserved</string>
     <string name="megabyteShort">MB</string>
     <string name="gigabyteShort">GB</string>
     <string name="button_refresh">Обновить</string>
-    <string name="cloud_storage_space_text" formatted="false">Использую %s (%s) из %s</string>   
+    <string name="cloud_storage_space_text"  formatted="false">Использую %s (%s) из %s</string>   
     <string name="start_download_file_from_cloud">Файл %s будет загружен из облака</string>
     <string name="upload_file_to_cloud">Загружаю файл в облако...</string>    
     <string name="upload_files_to_cloud">Загрузка файлов</string>    
@@ -1202,7 +1202,7 @@ All rights reserved</string>
 	<string name="button_tarifs">Тарифы</string>
 	<string name="cloud_storage_plans">Тарифы</string>
 	<string name="price_free">Бесплатно</string>
-	<string name="price_per_month">%s/месяц</string>
+	<string name="price_per_month">%s/мес</string>
 	<string name="unlimited_libraries">Неограниченное кол-во библиотек</string>	
 	<string name="adv_free">Без рекламы</string>
 	<string name="subscription_activation">Активация подписки...</string>
@@ -1228,7 +1228,7 @@ All rights reserved</string>
 	<string name="find_library_by_url_hint">https://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Библиотека не найдена</string>
 	<string name="upload_to_cloud_offer_title">{облако готово...}</string>
-	<string name="upload_to_cloud_offer_text">• Совместная работа\n• Синхронизация между устройствами\n• Резервная копия всегда в облаке</string>
+	<string name="upload_to_cloud_offer_text">&#8226; Совместная работа\n&#8226; Синхронизация между устройствами\n&#8226; Резервная копия всегда в облаке</string>
 	<string name="button_no_thanks">Нет</string>
 	<string name="button_upload">В облако</string>	
 	
@@ -1246,7 +1246,7 @@ All rights reserved</string>
 	<string name="templates">Шаблоны</string>
 	<string name="import_template_from_file_hint">Импорт шаблона из файла</string>
 	<string name="help_cloud">Облачное хранилище и совместная работа</string>
-	<string name="subscription_pro_bonus_text">Многие тарифы на облако уже включают в себя ПРО-версию</string>
+	<string name="subscription_pro_bonus_text">Многие тарифы на облако уже включают в себя PRO-версию</string>
 	<string name="send_formatting_menu_item">Форматирование...</string>	
 	<string name="pro_for_cloud_storage_title">Подписка</string>
 	<string name="default_file_manager_pref_title">Файловый менеджер</string>
@@ -1334,7 +1334,7 @@ All rights reserved</string>
     <string name="calculator_options_hint">Добавить кнопку для отображения калькулятора</string>
     <string name="filter_by_number">Фильтр по числу</string>
     <string name="filter_by_string">Фильтр по строке</string>
-    <string name="multiediting_only_in_pro">Мультиредактирование записей доступно только в ПРО-версии.</string>
+    <string name="multiediting_only_in_pro">Мультиредактирование записей доступно только в PRO-версии.</string>
     <string name="multiediting_title">Мультиредактирование</string>
     <string name="select_all">Выделить все</string>
     <string name="group_separator_option_title">Разделитель разрядов</string>
@@ -1370,8 +1370,8 @@ All rights reserved</string>
     <string name="flex_type_rich_text">Форматированный текст</string>
     <string name="text_background_color">Цвет фона</string>
     <string name="field_type_rich_only_for_android_kit_kat">Данный тип поля доступен только для Android 4.4 KitKat или выше</string>
-    <string name="field_type_rich_list_free_limit">Извините, списки доступны только в ПРО-версии</string>
-    <string name="field_type_rich_align_free_limit">Извините, выравнивание доступно только в ПРО-версии</string>
+    <string name="field_type_rich_list_free_limit">Извините, списки доступны только в PRO-версии</string>
+    <string name="field_type_rich_align_free_limit">Извините, выравнивание доступно только в PRO-версии</string>
     <string name="attached_files">Файлы</string>
     <string name="cloud_file_not_downloaded">Не загружен</string>
     <string name="cloud_file_download_pending">Ожидание</string>
@@ -1388,7 +1388,7 @@ All rights reserved</string>
     <string name="find_missing_files_empty">Пропавшие файлы не найдены</string>
     <string name="file_manager_not_found">На вашем устройстве не найден поддерживаемый файловый менеджер</string>
     <string name="file_list_empty">Эта библиотека не содержит файлов</string>
-    <string name="feature_available_only_in_pro">Эта функция доступна только в ПРО-версии.</string>
+    <string name="feature_available_only_in_pro">Эта функция доступна только в PRO-версии.</string>
     <string name="preview_button">Предпросмотр</string>
     <string name="select_calc_preview_entry">Запись для предпросмотра</string>
     <string name="calc_preview_title">Предпросмотр результата</string>
@@ -1689,7 +1689,7 @@ All rights reserved</string>
     <string name="decrease">Уменьшить</string>
     <string name="frozen">Блокировка</string>
     <string name="frozen_text">Библиотека блокирована так как вы превысили лимит на количество загруженных в облако библиотек на вашем тарифном плане.</string>
-    <string name="time_accuracy_option"/>
+    <string name="time_accuracy_option"></string>
     <string name="date_and_time_formats">Форматы даты и времени</string>
     <string name="date_formats">Формат даты</string>
     <string name="time_formats">Формат времени</string>
@@ -1752,7 +1752,7 @@ All rights reserved</string>
     <string name="cloud_plan_team10">Команда 10</string>
     <string name="cloud_plan_team15">Команда 15</string>
     <string name="cloud_plan_team20">Команда 20</string>
-    <string name="pro_for_team">ПРО функции для всех пользователй команды</string>
+    <string name="pro_for_team">PRO функции для всех пользователй команды</string>
     <string name="team_features_trial">Тарифы включают 14-дневный бесплатный период.</string>
     <!-- 4.2.0 -->
     <string name="tasker_plugin_create_entry_event_title">Запись создана</string>
@@ -1962,17 +1962,89 @@ All rights reserved</string>
     <string name="index_not_found_message">Поиск невозможен, так как записи не проиндексированы</string>
     <string name="script_error_message">Ошибка скрипта: %s</string>
     <string name="advanced_search">Расширенные поиск</string>
-<string name="quick_filter_for_numbers">Для чисел</string>
+
+    <string name="quick_filter_for_numbers">Для чисел</string>
     <string name="quick_filter_for_text">Для текста</string>
     <string name="save_as_filter">Сохранить как фильтр</string>
     <string name="save_as_filter_success">Вы успешно создали новый фильтр</string>
-    <string name="shortcut_not_supported">К сожалению, ваш лаунчер не поддерживает ярлыки этого приложения</string>
+    <string name="shortcut_not_supported">К сожалению ваш лаунчер не поддерживает ссылки на приложение.</string>
     <string name="notification_channel_reminders">Напоминания</string>
     <string name="notification_channel_entries">Изменения в библиотеках</string>
     <string name="notification_channel_files">Файлы</string>
-    <string name="quick_filter_limit_message">Бесплатная версия позволяет искать только по пяти полям.
-Обновите приложение до версии PRO чтобы отключить это ограничение.</string>
-    <string name="button_upgrade">Обновить</string>
-    <string name="autofilll_source_not_supported">К сожалению, %s больше не поддерживается.</string>
+    <string name="quick_filter_limit_message">В бесплатной версии вы можете искать только по пяти полям.\nОбновитесь до PRO версии для снятия этого ограничения.</string>
+    <string name="button_upgrade">Тарифы</string>
+    <string name="autofilll_source_not_supported">Извините, источник %s больше не поддерживается.</string>
+    <string name="link_attributes_empty_text">Это поле не имеет атрибутов для связи.</string>
+    <string name="cant_find_contact_selection_app">Извините, приложение для работы с контактами не найдено.</string>
+    <string name="library_item_not_found_dialog_message">Запись не найдена. ВОзможно эта запись была удалена.</string>
+
+    <!-- 4.4.5 -->
+    <string name="license_key_tab">PRO Ключ</string>
+    <string name="pro_feature_0">Без рекламы</string>
+    <string name="pro_feature_1">Синхронизация с Google Таблицами без ограничений</string>
+    <string name="pro_feature_2">Неограниченное количество зашифрованных библиотек</string>
+    <string name="pro_feature_3">Неограниченное количество графиков</string>
+    <string name="pro_feature_4">Неограниченное количество скриптов</string>
+    <string name="pro_feature_5">Поиск по полям</string>
+    <string name="pro_feature_6">Одно поле записи может содержать несколько объектов (фото, файлы, контакты, координаты)</string>
+    <string name="pro_feature_7">Одновременное редактирование нескольких записей</string>
+    <string name="pro_feature_8">Виджет без ограничений</string>
+    <string name="pro_license_activated">Лицензия активирована</string>
+    <string name="pro_features_title">Преимущества PRO версии</string>
+    <string name="activate_with_key">Активировать с ключем</string>
+    <string name="plans_and_pricing">Тарифы и цены</string>
+    <string name="email_or_username">Email или имя пользователя</string>
+    <string name="sign_in_with_google">Продолжить с Google</string>
+    <string name="minimum_pass_length">Пароль должен быть длинной не менее %d символов.</string>
+    <string name="please_sign_in">Пожалуйств войдите в Memento Cloud.</string>
+    <string name="sign_up_or_sign_in">Вход или регистрация</string>
+    <string name="auth_error_title">Ошибка авторизации</string>
+    <string name="auth_error_text">Ошибка входа в Memento Cloud, пожалуйста авторизуйтесь заново %s.</string>
+    <string name="logout">Выход</string>
+    <string name="logout_confirmation">Вы действительно хотите выйти из учетной записи Memento?</string>
+    <string name="current_plan">Текущий тариф</string>
+    <string name="change_password">Изменить пароль</string>
+    <string name="current_password">Текущий пароль</string>
+    <string name="new_password">Новый пароль</string>
+    <string name="password_changed_message">Ваш пароль был успешно изменен!</string>
+    <string name="sign_in_error">Не удалось войти в аккаунт</string>
+    <string name="choose_username">Выберите имя пользователя</string>
+    <string name="account_without_password_message">Этот аккуант создан с помощью Google входа и не имеет пароля. Используйте кнопку \"Продолжить с Google\" для входа.</string>
+    <string name="template_not_found_by_uri">Шаблон не найден</string>
+    <string name="public_template_address_text">Адрес шаблона</string>
+    <string name="wrong_template_address">Неверный формат адреса шаблона</string>
+    <string name="search_index_tokenizer">Лексический анализатор</string>
+
+    <string name="permission_contacts_title">Контакты</string>
+    <string name="permission_contacts_text">Для типа поля "Контакты" требуется предоставить Memento доступ к контактам.</string>
+    <string name="boolean_format">Формат</string>
+    <string name="boolean_format_on">Метка для Да</string>
+    <string name="boolean_format_off">Метка для Нет</string>
+    <string name="plans_comparison">Открыть сравнение тарифов</string>
+
+    <!-- 4.5.5 -->
+    <string name="moby_source">mobygames.com</string>
+    <string name="type_desc_color">Тип поля цвет позволяет хранить любой цвет в RGB формате.</string>
+    <string name="image_cache_settings_path_title">Каталог кэша изображений</string>
+
+    <!-- 4.5.6 -->
+    <string name="unlock_fingerprint_dialog_title">Разблокировать по отпечатку</string>
+    <string name="unlock_fingerprint_dialog_text">В следующий раз вы хотите разблокировать библиотеку по отпечатку?</string>
+    <string name="fingerprint_not_recognized">Отпечаток не распознан</string>
+    <string name="unlock_fingerprint_hint">Для разблокирования библиотек приложите палец к сканеру отпечатков</string>
+    <string name="enable_fingerprint">Разблокирование по отпечатку пальца</string>
+
+    <string name="storage_permission_required_title">Требуется разрешение</string>
+    <string name="storage_permission_required_text">Это приложение требует доступ к хранилищу файлов. Вы можете предоставить доступ в настройках приложения.</string>
+    <string name="got_to_system_settings">Открыть настройки</string>
+    <string name="file_save_error">Ошибка сохранения файла:\n%s</string>
+
+
+    <!-- 4.5.10 -->
+    <string name="years_range">Доступные года в датах</string>
+    <string name="begin_year">Начало</string>
+    <string name="end_year">Конец</string>
+    <string name="years_range_wrong">Конец должен быть больше или равен началу</string>
 
 </resources>
+

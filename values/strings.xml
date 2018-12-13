@@ -1551,7 +1551,7 @@
     <string name="trigger_permission_write_file">Write files</string>
     <string name="trigger_permission_write_file_hint">Allows scripts to write to external storage</string>
     <string name="trigger_permission_network">Network</string>
-    <string name="trigger_permission_network_hint">Allows scripts to execute HTTP requests</string>
+    <string name="trigger_permission_network_hint">Allows scripts to execute HTTP requests, and send emails.</string>
 
     <string name="trigger_permission_libraries">Libraries</string>
     <string name="trigger_permission_libraries_hint">Access to all libraries</string>
@@ -2027,5 +2027,28 @@
 
     <string name="select_source_library_dialog_title">Select the library from which to copy data</string>
     <string name="select_source_library_dialog_hint">Select a data source</string>
+    <string name="wiki">Wiki</string>
 
+    <!-- 4.5.5 -->
+    <string name="moby_source">mobygames.com</string>
+    <string name="type_desc_color">The color field type allows store any color in RGB format.</string>
+    <string name="image_cache_settings_path_title">Image cache folder</string>
+
+    <!-- 4.5.6 -->
+    <string name="unlock_fingerprint_dialog_title">Unlock with fingerprint</string>
+    <string name="unlock_fingerprint_dialog_text">Next time, would you like to unlock your protected libraries using Fingerprint?</string>
+    <string name="fingerprint_not_recognized">Fingerprint not recognized</string>
+    <string name="unlock_fingerprint_hint">Scan your fingerprint to unlock</string>
+    <string name="enable_fingerprint">Enable fingerprint</string>
+
+    <string name="storage_permission_required_title">Need permission</string>
+    <string name="storage_permission_required_text">This app needs the storage permission. You can grant it in app settings.</string>
+    <string name="got_to_system_settings">Goto Settings</string>
+    <string name="file_save_error">Can\'t save file:\n%s</string>
+
+    <!-- 4.5.10 -->
+    <string name="years_range">Years range in dates</string>
+    <string name="begin_year">Begin</string>
+    <string name="end_year">End</string>
+    <string name="years_range_wrong">Year end must be larger than or equal to year start</string>
 </resources>

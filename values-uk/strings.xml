@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources><string name="app_name">Мементо</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="app_name">Мементо</string>
     <string name="library_menu_add_item">Додати запис</string>
     <string name="main_menu_add_lib">Додати бібліотеку</string>
     <string name="ghostData_lib_title">Назва бібліотеки</string>
@@ -250,7 +250,7 @@
     <string name="memento_pass_hint">Пароль</string>
     <string name="memento_pass_hint2">Повторити пароль</string>
     <string name="memento_email_hint">Email</string>
-    <string name="memento_register_button">Створити</string>
+    <string name="memento_register_button">Створити обліковий запис</string>
     <string name="memento_have_button">У мене є обліковий запис</string>
     <string name="login_empty">Введіть ім\'я користувача</string>
     <string name="login_format_error">Логін може містити тільки букви і цифри</string>
@@ -554,7 +554,7 @@
     <string name="preference_category_export_data_cfg">Налаштування Імпорту/Експорту/Синхронізації</string>
     <string name="import_export_date_format">Оберіть формат дати</string>
     <string name="import_export_date_format_dialog">Оберіть формат дати для імпорту/експорту/синхронізації</string>
-    <string name="main_title">Memento Database</string>
+    <string name="main_title">База даних Memento</string>
     <string name="main_menu_add_group">Додати групу</string>
     <string name="main_menu_bookmarks">Закладки та Історія</string>
     <string name="main_menu_add_lib_group">Додати бібліотеку або групу</string>
@@ -624,7 +624,7 @@
     <string name="auto_bakup_dir_pref_title">Каталог для автоматичного резервного копіювання</string>
     <string name="google_play_not_found_message">На вашому пристрої немає Google Play. Ви можете завантажити OI File Manager з сайту розробника.</string>
     <string name="library_not_found_dialog_title">Бібліотека</string>
-    <string name="library_not_found_dialog_message">Бібліотека не була знайдена. Можливо дана бібліотека була видалена.</string>
+    <string name="library_not_found_dialog_message">Бібліотека не знайдена. Цілком можливо, що ваша бібліотека була вилучена.</string>
     <string name="add_field_above">Додати поле вище</string>
     <string name="add_field_below">Додати поле нижче</string>
     <string name="year_default_now">У поточному році за замовчуванням</string>
@@ -1065,9 +1065,9 @@
     <string name="use_depend_only_in_edit_hint_false">При редагуванні і перегляді запису</string>
     
 <plurals name="NItemsFind">
-	<item quantity="one">%1$d запис знайдено</item>
+	<item quantity="one">один запис знайдено</item>
 	<item quantity="few">%1$d записи знайдено</item>
-	<item quantity="many">%1$d записів знайдено</item>
+	<item quantity="many">"знайдено записів:  "<xliff:g id="COUNT"> 1%d</xliff:g> 2</item>
 	<item quantity="other"/>
 </plurals>
     <string name="memento_search_in_lib">Memento Пошук в %s</string>
@@ -1094,7 +1094,7 @@
 	<string name="need_make_slave_library_unique_import">Для імпорту полів типу \"Посилання на запис\" потрібно увімкнути контроль унікальності імен записів в бібліотеці на яку робиться посилання.\nЗробити це зараз?</string>
 	<string name="run_sync_slave_libraries_pref">Пов\'язані бібліотеки</string>
 	<string name="run_sync_slave_libraries_summary">Спочатку синхронізувати пов\'язані бібліотеки</string>
-	<string name="choice_type_add_button_in_edit_title">Створення елементів при редагуванні запису</string>
+	<string name="choice_type_add_button_in_edit_title">Дозволити створення елементів під час редагування запису</string>
 	
 	<string name="show_deleted_entries_menu_item">Відображати видалені записи</string>
 	<string name="upload_to_cloud_menu_item">В Хмару</string>
@@ -1215,7 +1215,10 @@
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Бібліотеку не знайдено</string>
 	<string name="upload_to_cloud_offer_title">{хмара готова ...}</string>
-	<string name="upload_to_cloud_offer_text">• Робота в команді\n• Синхронізація між пристроями\n• Резервне копіювання завжди в хмарі</string>
+	<string name="upload_to_cloud_offer_text">• Робота в команді
+• Синхронізація між пристроями
+• Резервне копіювання завжди в хмарі
+• Попередня версія</string>
 	<string name="button_no_thanks">Ні, дякую</string>
 	<string name="button_upload">Вивантажити</string>
 	
@@ -1241,7 +1244,7 @@
 	<string name="clear_search_history_hint">Видалити всі виконані пошукові запити</string>
 	<string name="success_clear_search_history">Ваша історія пошуку була очищена</string>	
 	<string name="clear_search_history_quest">Ви впевнені, що бажаєте очистити історію пошуку?</string>
-	<string name="uservoice_menu_title">UserVoice</string>
+	<string name="uservoice_menu_title">Голос користувача</string>
 	<string name="view_csv_error_dialog_message">Вибачте, але додаток для перегляду CSV-файлу не знайдено</string>
 	
 	<string name="edit_library_tabs_autofill">Автозаповнення</string>
@@ -1432,8 +1435,8 @@
 	<string name="upload_to_cloud">Завантажити на хмару</string>
     <string name="cloud_plan_free">Безкоштовна</string>
     <string name="cloud_plan_plan6">ПРО</string>
-    <string name="cloud_plan_plan3">Проста</string>
-    <string name="cloud_plan_plan10">ПРО+</string>
+    <string name="cloud_plan_plan3">Лайт</string>
+    <string name="cloud_plan_plan10">ПРО Плюс</string>
     <string name="cloud_plan_storage">%s Сховище</string>
 
     <string name="memento_server_cloud">Використовувати Memento хмару</string>
@@ -1664,7 +1667,7 @@
     <string name="bulk_add">Масове додавання</string>
     <string name="login">Вхід</string>
     <string name="sign_up">Реєстрація</string>
-    <string name="memento_cloud2">Memento Cloud</string>
+    <string name="memento_cloud2">Хмара Memento</string>
 
     <string name="from_file">З файлу</string>
     <string name="from_google_drive">З Google Диску</string>
@@ -1712,7 +1715,7 @@
     <string name="cloud_plan_team10">Команда 10</string>
     <string name="cloud_plan_team15">Команда 15</string>
     <string name="cloud_plan_team20">Команда 20</string>
-    <string name="pro_for_team">ПРО функції для всіх користувачів команди</string>
+    <string name="pro_for_team">" версія ПРО функцій для всіх користувачів команди"</string>
     <string name="team_features_trial">Тарифи включають 14-денний безкоштовний період.</string>
 
     <string name="tasker_plugin_create_entry_event_title">Запис створено</string>
@@ -1794,7 +1797,7 @@
     <string name="autofill_goto_script_title">Редактор сценаріїв</string>
     <string name="autofill_goto_script_hint">Натисніть для редагування сценарію</string>
     <string name="java_script_data_source_title">Користувацьке джерело</string>
-    <string name="java_script_data_source_hint">JavaScript</string>
+    <string name="java_script_data_source_hint">ЯваСкрипт</string>
     <string name="script_cant_run_for_not_saved_library">Виконання сценаріїв можливий тільки після збереження бібліотеки.</string>
     <string name="autofill_script_source_key_title">Вкажіть властивість об\'єкта, що повертається сценарієм</string>
     <string name="test_js_data_source_query_hint">Рядок запиту</string>
@@ -1809,9 +1812,9 @@
     <string name="library_related_cloud_model_changed_message">Структура відповідної бібліотеки була оновлена в хмарі. Перейти до відповідної бібліотеки для поновлення.</string>
 <string name="monthly_plan">Щомісяця</string>
     <string name="yearly_plan">Щорічно</string>
-    <string name="cloud_plan_plan3_annual">Lite</string>
-    <string name="cloud_plan_plan6_annual">Pro</string>
-    <string name="cloud_plan_plan10_annual">Pro Plus</string>
+    <string name="cloud_plan_plan3_annual">Лайт</string>
+    <string name="cloud_plan_plan6_annual">ПРО</string>
+    <string name="cloud_plan_plan10_annual">ПРО Плюс</string>
     <string name="cloud_plan_team5_annual">Команда 5</string>
     <string name="cloud_plan_team10_annual">Команда 10</string>
     <string name="cloud_plan_team15_annual">Команда 15</string>
@@ -1929,4 +1932,67 @@
     <string name="button_upgrade">Оновити</string>
     <string name="autofilll_source_not_supported">Вибачте, але %s більше не підтримується.</string>
 
-</resources>
+<string name="link_attributes_empty_text">Це поле не має атрибутів для посилань.</string>
+    <string name="cant_find_contact_selection_app">Вибачте, але заявки на вибір контакту не знайдено.</string>
+    <string name="library_item_not_found_dialog_message">Вхід не знайдено. Можливо, його було видалено.</string>
+
+    <string name="license_key_tab">Ліцензійний ключ</string>
+    <string name="pro_feature_0">Відсутня реклама</string>
+    <string name="pro_feature_1">Безмежна кількість бібліотек, які можуть бути синхронізовані з Google Таблицями</string>
+    <string name="pro_feature_2">Необмежена кількість \"захищених\" бібліотек</string>
+    <string name="pro_feature_3">Необмежена кількість графіків</string>
+    <string name="pro_feature_4">Необмежена кількість скриптів</string>
+    <string name="pro_feature_5">Розширений пошук</string>
+    <string name="pro_feature_6">Одне поле введення може містити декілька об\'єктів (зображення, файли, контакти, координати і т. д.).</string>
+    <string name="pro_feature_7">Кілька записів редагування</string>
+    <string name="pro_feature_8">Віджети для зручного додатка</string>
+    <string name="pro_license_activated">Ліцензія активована</string>
+    <string name="pro_features_title">Особливості Pro</string>
+    <string name="activate_with_key">Активувати за допомогою ключа</string>
+    <string name="email_or_username">Пошта або Ім\'я користувача</string>
+    <string name="sign_in_with_google">Продовжуйте роботу з Google</string>
+    <string name="minimum_pass_length">Пароль у довжину повинен містити принаймні% d символів.</string>
+    <string name="please_sign_in">Будь ласка, увійдіть в Memento Хмару.</string>
+    <string name="sign_up_or_sign_in">Зареєструйтеся або увійдіть в систему</string>
+    <string name="auth_error_title">Помилка аутентифікації</string>
+    <string name="auth_error_text">Виникла помилка, будь ласка, перевірте знову %s.</string>
+    <string name="logout">Вийти</string>
+    <string name="logout_confirmation">Ви впевнені, що хочете вийти з системи?</string>
+    <string name="current_plan">Поточний план</string>
+    <string name="change_password">Змінити пароль</string>
+    <string name="current_password">Поточний пароль</string>
+    <string name="new_password">Новий пароль</string>
+    <string name="password_changed_message">Ваш пароль успішно змінено!</string>
+    <string name="sign_in_error">Не вдалося ввійти</string>
+    <string name="choose_username">Виберіть своє ім\'я користувача</string>
+    <string name="account_without_password_message">Цей обліковий запис, як видається, є обліковим записом Google без пароля. Спробуйте скористатись кнопкою \"Продовжити через Google\".</string>
+    <string name="template_not_found_by_uri">Шаблон не знайдено</string>
+    <string name="public_template_address_text">Шаблон адреси</string>
+    <string name="wrong_template_address">Неправильний формат адреси шаблону</string>
+    <string name="search_index_tokenizer">Лексичний аналізатор</string>
+
+    <string name="permission_contacts_title">Контакти</string>
+    <string name="permission_contacts_text">Потрібно надати Memento доступ до контактів для типу поля Contact.</string>
+    <string name="boolean_format">Формат</string>
+    <string name="boolean_format_on">Включити рядок</string>
+    <string name="boolean_format_off">Виключити рядок</string>
+    <string name="revision_current_version">Поточна версія</string>
+    <string name="revision_action_edit">%s змінився</string>
+    <string name="revision_action_create">%s створений запис</string>
+    <string name="revert_to_version">Повернутися до цієї версії</string>
+    <string name="revert_to_version_message">Ви впевнені, що хочете повернутися до версії з %s?</string>
+    <string name="revision_history_only_for_cloud">Попередня версія доступна лише для бібліотек, завантажених у хмару та на облікові записи PRO або TEAM.</string>
+    <string name="revision_history">Попередня версія</string>
+    <string name="barcode_type_nfc">НФЦ</string>
+    <string name="pending_user">Очікує на розгляд ...</string>
+    <string name="uom_category_userdefined">Визначений користувачем</string>
+    <string name="uom_custom_name">Назва одиниці</string>
+    <string name="time_field_group_by_day_and_time">Групувати за днем і часом</string>
+
+    <string name="select_source_library_dialog_title">Виберіть бібліотеку, з якої потрібно скопіювати дані</string>
+    <string name="select_source_library_dialog_hint">Виберіть джерело даних</string>
+
+<string name="plans_and_pricing">Підписки та ціни</string>
+    <string name="plans_comparison">Дивіться Наші закінчені порівняння характеристик</string>
+
+    </resources>

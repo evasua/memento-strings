@@ -1266,10 +1266,7 @@
 	<string name="return_to_free_plan_message">Wechseln Sie zu einem kostenlosen Account, indem Sie in Google Play Ihr kostenpflichtiges Abonnement kündigen</string>
 	<string name="upload_ecrypted_libraries_dont_supported">Verschlüsselte Bibliotheken können temporär nicht in der Cloud gespeichert werden.</string>
 	<string name="cloud_library_not_found">Die Sammlung konnte nicht in der Cloud gefunden werden. Wurde sie gelöscht?\nSoll eine lokale Kopie erstellt werden?</string>
-	<string name="upload_to_cloud_offer_text">• Teamwork
-• Synchronisieren auf allen Geräten
-• Backup in der Cloud
-• Versionen-Historie</string>
+	<string name="upload_to_cloud_offer_text">• Teamwork\n• Synchronisieren auf allen Geräten\n• Backup in der Cloud\n• Versionen-Historie</string>
 	<string name="invalid_library_template_file_format">Ungültiges Dateiformat der Vorlage</string>    
 	<string name="remove_from_old_public">Vor dem Hochladen der Sammlung in die Cloud wird die Veröffentlichung rückgängig gemacht, falls sie über veraltete Methoden erfolgt war.</string>
 	<string name="subscription_pro_bonus_text">Die meisten Preispläne für Cloudspeicher enthalten die PRO-Version als Bonus</string>

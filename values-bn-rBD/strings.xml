@@ -117,9 +117,7 @@
     <string name="restore_preference">ফিরে পাওয়া</string>
     <string name="restore_summary_preference">ব্যাকআপ কপি থেকে সকল লাইব্রেরি ফিরিয়ে আনা হচ্ছে</string>
     <string name="backup_file_not_found">কোন ব্যাকআপ ফাইল পাওয়া যায়নি।</string>
-    <string name="restore_dialog_message">পুনরুদ্ধারের সময় বিদ্যমান লাইব্রেরিসমূহ ব্যাকআপ কপি থেকে লাইব্রেরিসমূহের সাথে প্রতিস্থাপিত হবে।
-ব্যাকআপ কপি তৈরির পর এই লাইব্রেরিসমূহে করা সমস্ত পরিবর্তন হারিয়ে যাবে।
-পুনরুদ্ধার শুরু?</string>
+    <string name="restore_dialog_message">পুনরুদ্ধারের সময় বিদ্যমান লাইব্রেরিসমূহ ব্যাকআপ কপি থেকে লাইব্রেরিসমূহের সাথে প্রতিস্থাপিত হবে।\nব্যাকআপ কপি তৈরির পর এই লাইব্রেরিসমূহে করা সমস্ত পরিবর্তন হারিয়ে যাবে।\nপুনরুদ্ধার শুরু?</string>
     <string name="backup_dialog_message">নতুন এক ব্যাকআপ কপির সাথে প্রতিস্থাপন করুন?</string>
     <string name="restore_success">ব্যাকআপ কপি থেকে লাইব্রেরি সফলভাবে পুনরুদ্ধার করা হয়েছে</string>
     <string name="restore_step1">পুনরুদ্ধার করা হচ্ছে</string>
@@ -141,8 +139,7 @@
     <string name="activation_ok">অ্যাক্টিভেশন করার জন্য আপনাকে ধন্যবাদ</string>
     <string name="activation_error">অ্যাক্টিভেশন কোডটি অবৈধ। অনুগ্রহপূর্বক আবার চেষ্টা করুন.</string>
     <string name="about">সম্পর্কিত</string>
-    <string name="copyright">কপিরাইট © 2018 LuckyDroid
-সর্বস্বত্ব সংরক্ষিত</string>
+    <string name="copyright">কপিরাইট © 2018 LuckyDroid\nসর্বস্বত্ব সংরক্ষিত</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">সফ্টওয়্যার ভার্সন দেখুন</string>
     <string name="about_license_type">লাইসেন্স:</string>
@@ -168,21 +165,18 @@
     <string name="need_title_column_text">"একটি কলামের নামের একটি এন্ট্রি ফিল্ডের নামের সাথে সংশ্লিষ্ট হওয়া আবশ্যক। "</string>
     <string name="csv_result_import_text">এন্ট্রিসমূহ ইমপোর্ট করা হয়েছে</string>
     <string name="csv_result_import_succes_items">যোগ করা এন্ট্রি:</string>
-    <string formatted="false" name="csv_result_import_fail_items">ত্রুটি সহ সারিসমূহের সংখ্যা: %s
-সারি: %s</string>
+    <string formatted="false" name="csv_result_import_fail_items">ত্রুটি সহ সারিসমূহের সংখ্যা: %s\nসারি: %s</string>
     <string name="enter_csv_name_dialog_title">CSV তে এক্সপোর্ট করুন</string>
     <string name="enter_csv_name_dialog_value_title">CSV ফাইলের নাম লিখুন</string>
     <string name="enter_csv_name_dialog_value_hint">ফাইলের নাম</string>
     <string name="export_success">এন্ট্রিসমূহ /sdcard/memento/%s এ এক্সপোর্ট করা হয়েছে</string>
-    <string name="export_error">এন্ট্রি এক্সপোর্ট করতে ব্যর্থ হয়েছে:
-%s</string>
+    <string name="export_error">এন্ট্রি এক্সপোর্ট করতে ব্যর্থ হয়েছে:\n%s</string>
     <string name="library_saved">লাইব্রেরিটি সংরক্ষিত</string>
     <string name="library_created">লাইব্রেরি তৈরি করা হয়েছে</string>
     <string name="msg_default_status">এটি স্ক্যান করার জন্য ভিউফাইন্ডার আয়তফিল্ডের ভিতরে একটি বারকোড রাখুন।</string>
     <string name="scan_library_item">বারকোড স্ক্যান করুন</string>
     <string name="search_product_title">বারকোড দ্বারা পণ্য অনুসন্ধান করা হচ্ছে ...</string>
-    <string name="empty_result_text">দুঃখিত,
-পণ্য পাওয়া যায় নি</string>
+    <string name="empty_result_text">দুঃখিত,\nপণ্য পাওয়া যায় নি</string>
     <string name="add_entry_manual">নিজে সংযোজন করুন...</string>
     <string name="fill_entry_manual">নিজে পূরণ করুন ...</string>
     <string name="flex_type_barcode">বারকোড</string>
@@ -241,8 +235,7 @@
     <string name="copy_memento_to_gdocs">Memento থেকে এন্ট্রিসমূহ</string>
     <string name="copy_gdocs_to_memento">Google Sheets থেকে এন্ট্রিসমূহ</string>
     <string name="edit_flex_title_disabled">এই ফিল্ডটি পুনরায় নামকরণ করা যাবে না কারণ লাইব্রেরিটি Google Sheets এর সাথে লিঙ্ক করা আছে</string>
-    <string name="cant_bind">বিনামূল্যের ভার্সনটি আপনাকে Google Sheets এ কেবলমাত্র দুটি লাইব্রেরি লিঙ্ক করতে দেয়।
-এই সীমাবদ্ধতা দূর করতে PRO ভার্সনে আপগ্রেড করুন।</string>
+    <string name="cant_bind">বিনামূল্যের ভার্সনটি আপনাকে Google Sheets এ কেবলমাত্র দুটি লাইব্রেরি লিঙ্ক করতে দেয়।\nএই সীমাবদ্ধতা দূর করতে PRO ভার্সনে আপগ্রেড করুন।</string>
     <string name="button_pro_version">PRO ভার্সন</string>
     <string name="option_autofill_title">স্বতঃপূরণ</string>
     <string name="option_autofill_hint">অন্যান্য এন্ট্রি থেকে সম্ভাব্য মানের তালিকা ড্রপ ডাউন করুন</string>
@@ -256,8 +249,7 @@
     <string formatted="false" name="picasa_send_image_step">Picasa তে লাইব্রেরি ইমেজ আপলোড করা হচ্ছে। %s এর %s</string>
     <string name="public_library">লাইব্রেরি প্রকাশ করুন</string>
     <string name="update_public_library">প্রকাশনা আপডেট করুন</string>
-    <string name="memento_register_account_title">একটি অ্যাকাউন্ট তৈরি করা হচ্ছে
-Memento সার্ভারে</string>
+    <string name="memento_register_account_title">একটি অ্যাকাউন্ট তৈরি করা হচ্ছে\nMemento সার্ভারে</string>
     <string name="memento_register_account_text">লাইব্রেরিসমূহ প্রকাশ করতে এবং তাদের সদস্যতা নিতে সক্ষম হওয়ার জন্য, Memento সার্ভারের একটি অ্যাকাউন্টের প্রয়োজন</string>
     <string name="memento_login_hint">ব্যবহারকারীর নাম</string>
     <string name="memento_pass_hint">পাসওয়ার্ড</string>
@@ -311,8 +303,7 @@ Memento সার্ভারে</string>
     <string name="subscribe_button">সাবস্ক্রাইব</string>
     <string name="subscribe_task_get_library">লাইব্রেরির এন্ট্রি পাওয়া যাচ্ছে</string>
     <string name="subscribe_task_create_library">লাইব্রেরি তৈরি করা হচ্ছে</string>
-    <string formatted="false" name="subscribe_task_save_library_task">এন্ট্রি সংরক্ষণ করা হচ্ছে
-%s থেকে %s</string>
+    <string formatted="false" name="subscribe_task_save_library_task">এন্ট্রি সংরক্ষণ করা হচ্ছে\n%s থেকে %s</string>
     <string name="subscribe_task_create_index">সূচী তৈরি করা হচ্ছে</string>
     <string name="subscribes_group_title">সাবস্ক্রিপশন</string>
     <string name="library_settings">সেটিংস</string>
@@ -341,8 +332,7 @@ Memento সার্ভারে</string>
     <string name="flex_image_load">ছবিটি লোড হচ্ছে ...</string>
     <string name="subscribed">সাবস্ক্রাইব</string>
     <string name="info_public_library">লাইব্রেরির ঠিকানা</string>
-    <string name="cant_public">বিনামূল্যে ভার্সনটি আপনাকে কেবলমাত্র দুটি লাইব্রেরি প্রকাশ করতে দেয়।
-এই সীমাবদ্ধতা দূর করতে PRO ভার্সনে আপগ্রেড করুন।</string>
+    <string name="cant_public">বিনামূল্যে ভার্সনটি আপনাকে কেবলমাত্র দুটি লাইব্রেরি প্রকাশ করতে দেয়।\nএই সীমাবদ্ধতা দূর করতে PRO ভার্সনে আপগ্রেড করুন।</string>
     <string name="add_permission_user_hint">ব্যবহারকারী নাম বা ইমেইল লিখুন</string>
     <string name="preference_memento_account_title">Memento অ্যাকাউন্ট</string>
     <string name="button_publish">প্রকাশ করা</string>
@@ -391,8 +381,7 @@ Memento সার্ভারে</string>
     <string name="help_subscribe">লাইব্রেরির সদস্যতা</string>
     <string name="lib_protection">লাইব্রেরির সুরক্ষা</string>
     <string name="set_library_protection">সুরক্ষা</string>
-    <string name="set_master_pass_text">লাইব্রেরি অ্যাক্সেসের জন্য একটি মাস্টার পাসওয়ার্ড সেট করুন।
-এনক্রিপ্ট করা লাইব্রেরি অ্যাক্সেস করতে আপনাকে এই পাসওয়ার্ডটি প্রবেশ করতে হবে।</string>
+    <string name="set_master_pass_text">লাইব্রেরি অ্যাক্সেসের জন্য একটি মাস্টার পাসওয়ার্ড সেট করুন।\nএনক্রিপ্ট করা লাইব্রেরি অ্যাক্সেস করতে আপনাকে এই পাসওয়ার্ডটি প্রবেশ করতে হবে।</string>
     <string name="master_pass_hint">পাসওয়ার্ড</string>
     <string name="master_pass_hint2">পুনরাবৃত্তি পাসওয়ার্ড</string>
     <string name="set_master_pass_dialog">একটি মাস্টার পাসওয়ার্ড সেট</string>
@@ -404,8 +393,7 @@ Memento সার্ভারে</string>
     <string name="library_is_locked">এনক্রিপ্ট করা লাইব্রেরির অ্যাক্সেস বন্ধ আছে</string>
     <string name="library_pass_access_description">এই লাইব্রেরিটি অ্যাক্সেস করার জন্য আপনাকে মাস্টার পাসওয়ার্ড লিখতে হবে</string>
     <string name="library_encription_checkbox">বিষয়বস্তু এনক্রিপ্ট করুন</string>
-    <string name="library_encription_description">এন্ট্রিসমূহের স্ট্রিং ফিল্ডসমূহ AES এর সাহায্যে এনক্রিপ্ট করা হবে।
-এনক্রিপ্ট করা এন্ট্রি অনুসন্ধান সমর্থিত নয়।</string>
+    <string name="library_encription_description">এন্ট্রিসমূহের স্ট্রিং ফিল্ডসমূহ AES এর সাহায্যে এনক্রিপ্ট করা হবে।\nএনক্রিপ্ট করা এন্ট্রি অনুসন্ধান সমর্থিত নয়।</string>
     <string name="set_library_protection_title">এন্ট্রি এনক্রিপ্টিং হচ্ছে</string>
     <string name="set_library_protection_message">লাইব্রেরির এন্ট্রি এনক্রিপ্ট করা হচ্ছে...</string>
     <string name="remove_library_protection">সুরক্ষা সরান</string>
@@ -482,11 +470,9 @@ Memento সার্ভারে</string>
     <string name="template_save_button">এক্সপোর্ট</string>
     <string name="template_load_button">ইমপোর্ট</string>
     <string name="template_share_button">শেয়ার</string>
-    <string name="field_email_enter_summary">নাম এবং মান ফিল্ড একটি নতুন লাইন
-প্রদর্শিত হবে</string>
+    <string name="field_email_enter_summary">নাম এবং মান ফিল্ড একটি নতুন লাইন প্রদর্শিত হবে</string>
     <string name="colon_after_name">নামের পরে কোলন</string>
-    <string name="colon_after_name_summary">ফিল্ড নামের পরে একটি কোলন
-ব্যবহার করুন</string>
+    <string name="colon_after_name_summary">ফিল্ড নামের পরে একটি কোলন ব্যবহার করুন</string>
     <string name="formatted_string_value">ফিল্ডের ধরন একাধিক সিলেক্ট মান</string>
     <string name="formatted_string_value_summary">একটি সারিতে মান সংখ্যা</string>
     <string name="reminders_label">মনে করানো</string>
@@ -497,24 +483,17 @@ Memento সার্ভারে</string>
     <string name="field_send_by_email">ফিল্ড পাঠান</string>
     <string name="add_email_template_dialog_text">টেমপ্লেটের নাম</string>
     <string name="delete_email_template">টেমপ্লেট ডিলেট করুন</string>
-    <string name="delete_email_template_dialog_text">আপনি কি সত্যিই বর্তমান
-টেমপ্লেটটি ডিলেট করতে চান?</string>
+    <string name="delete_email_template_dialog_text">আপনি কি সত্যিই বর্তমান টেমপ্লেটটি ডিলেট করতে চান?</string>
     <string name="select_email_template">টেমপ্লেট সিলেক্ট করুন</string>
     <string name="required_field">জরুরি</string>
     <string name="required_field_text">ফিল্ড অবশ্যই পূরণীয়</string>
-    <string name="field_send_by_email_summary">নাম এবং ফিল্ডের মান ই-মেইল /
-এসএমএস পাঠান</string>
+    <string name="field_send_by_email_summary">নাম এবং ফিল্ডের মান ই-মেইল / এসএমএস পাঠান</string>
     <string name="add_email_template_dialog_title">টেমপ্লেট বানান</string>
     <string name="fill_required_fields">ফিল্ড অবশ্যই পূরণীয়</string>
     <string name="required_mark">জরুরি</string>
     <string name="reset_master_password">মাস্টার পাসওয়ার্ড রিসেট করুন</string>
-    <string name="reset_master_password_hint">সমস্ত এনক্রিপ্ট করা লাইব্রেরিসমূহ
-সরানো হবে</string>
-    <string name="reset_master_quest">আপনি কি সত্যিই মাস্টার পাসওয়ার্ড
-পুনরায় সেট করতে চান? 
-মনোযোগ!
-সমস্ত এনক্রিপ্ট করা লাইব্রেরিসমূহ
-সরানো হবে!</string>
+    <string name="reset_master_password_hint">সমস্ত এনক্রিপ্ট করা লাইব্রেরিসমূহ সরানো হবে</string>
+    <string name="reset_master_quest">আপনি কি সত্যিই মাস্টার পাসওয়ার্ড পুনরায় সেট করতে চান?\nমনোযোগ! সমস্ত এনক্রিপ্ট করা লাইব্রেরিসমূহ সরানো হবে!</string>
     <string name="remove_encript_lib_dlg_msg">এনক্রিপ্ট করা লাইব্রেরি ডিলেট করুন</string>
     <string name="master_password_reset">মাস্টার পাসওয়ার্ড পুনরায় সেট করুন</string>
     <string name="edit_entry_screen_preference">সম্পাদনার সম্পাদনা</string>
@@ -637,11 +616,9 @@ Memento সার্ভারে</string>
     <string name="request_pass_dialog_title">পাসওয়ার্ড পরিবর্তন</string>
     <string name="request_pass_dialog_text">আপনার Memento অ্যাকাউন্টটি সনাক্ত করতে আমাদের সাহায্য করার জন্য একটি ইমেল ঠিকানা লিখুন</string>
     <string name="request_pass_dialog_hint">ইমেলের ঠিকানা</string>
-    <string name="change_password_success">অনুগ্রহপূর্বক আপনার ইমেইল চেক করুন
-আমরা আপনাকে একটি ইমেল পাঠিয়েছি যা আপনাকে দ্রুত এবং সহজে আপনার পাসওয়ার্ড পুনরায় সেট করার অনুমতি দেবে।</string>
+    <string name="change_password_success">অনুগ্রহপূর্বক আপনার ইমেইল চেক করুন\nআমরা আপনাকে একটি ইমেল পাঠিয়েছি যা আপনাকে দ্রুত এবং সহজে আপনার পাসওয়ার্ড পুনরায় সেট করার অনুমতি দেবে।</string>
     <string name="tile_options_text">শিরোনাম</string>
-    <string name="search_in_protected_libraries">পাসওয়ার্ড-সুরক্ষিত লাইব্রেরিসমূহতে অনুসন্ধান করুন
-(এনক্রিপ্ট ছাড়া)</string>
+    <string name="search_in_protected_libraries">পাসওয়ার্ড-সুরক্ষিত লাইব্রেরিসমূহতে অনুসন্ধান করুন\n(এনক্রিপ্ট ছাড়া)</string>
     <string name="stat_result_type">ফলাফল বিন্যাস</string>
     <string name="backup_file_name_title">ব্যাকআপ ফাইলের নাম</string>
     <string name="backup_file_path_title">ব্যাকআপ ডিরেক্টরি</string>
@@ -738,8 +715,7 @@ Memento সার্ভারে</string>
     <string name="selected">%s নির্বাচিত</string>
     <string name="delete_template_from_google_drive_question">আপনি কি সত্যিই Google Drive থেকে নির্বাচিত লাইব্রেরি ডিলেট করতে চান?</string>
     <string name="delete_data_table_from_google_drive">টেমপ্লেটসমূহের সাথে সম্পর্কিত তথ্য স্প্রেডশীটসমূহ সরান</string>
-    <string name="lock_library_edit_message">লাইব্রেরির কাঠামোর পরিবর্তনসমূহ লক করা আছে।
-আপনি এই লাইব্রেরির সেটিংসে সম্পাদনা সামর্থ্য চালু করতে পারেন।</string>
+    <string name="lock_library_edit_message">লাইব্রেরির কাঠামোর পরিবর্তনসমূহ লক করা আছে।\nআপনি এই লাইব্রেরির সেটিংসে সম্পাদনা সামর্থ্য চালু করতে পারেন।</string>
     <string name="lock_edit_library_pref_title">লক গঠন</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
     <string name="start_reindex_title">রিইন্ডেক্স</string>
@@ -772,9 +748,7 @@ Memento সার্ভারে</string>
     <string name="group_by_subtitle">%s দ্বারা</string>
     <string name="sort_asc">উচ্চক্রমে</string>
     <string name="sort_desc">নিম্নক্রমে</string>
-    <string name="sliding_hint_text">ডান থেকে বাম দিকে সোয়াইপ করুন
-উন্নত মেনু খুলতে -
-সাজানোর, গ্রুপ, ফিল্টার, চার্ট এবং আরও ...</string>
+    <string name="sliding_hint_text">ডান থেকে বাম দিকে সোয়াইপ করুন\nউন্নত মেনু খুলতে -\nসাজানোর, গ্রুপ, ফিল্টার, চার্ট এবং আরও ...</string>
     <string name="multy_sorting">একাধিক ফিল্ড দ্বারা সিলেক্ট করুন</string>
     <string name="new_button">নতুন</string>
     <string name="free_version_entry_page_limit">বিনামূল্যে ভার্সনে আপনি কেবল দুটি পৃষ্ঠা তৈরি করতে পারেন। এই সীমাবদ্ধতা দূর করতে PRO ভার্সনে আপগ্রেড করুন।</string>
@@ -906,8 +880,7 @@ Memento সার্ভারে</string>
     <string name="empty">খালি</string>
     <string name="add_page">পেজ যোগ করুন</string>
     <string name="move_to_page">পেজে মুভ করুন</string>
-    <string name="empty_entry_page_text">এই পৃষ্ঠাটি ফাঁকা।
-আপনি এখানে ফিল্ড বা রেকর্ডের তালিকা যোগ করতে পারেন।</string>
+    <string name="empty_entry_page_text">এই পৃষ্ঠাটি ফাঁকা।\nআপনি এখানে ফিল্ড বা রেকর্ডের তালিকা যোগ করতে পারেন।</string>
     <string name="empty_fields_list_text">এই লাইব্রেরি কোন ফিল্ড নেই।</string>
     <string name="empty_aggregation_list_text">এই লাইব্রেরি সমষ্টি ফাংশন ধারণ করে না।</string>
     <string name="empty_chart_list_text">এই লাইব্রেরিটিতে চার্ট নেই।</string>
@@ -919,8 +892,7 @@ Memento সার্ভারে</string>
     <string name="string_edit_cap_options_sent">বাক্যটির শুরুতে</string>
     <string name="string_edit_cap_options_wolds">প্রতিটি শব্দ শুরুতে</string>
     <string name="string_edit_cap_options_all">সমস্ত অক্ষর</string>
-    <string name="single_line_options_title">একক লাইন
-টেক্সট ফিল্ডের</string>
+    <string name="single_line_options_title">একক লাইন\nটেক্সট ফিল্ডের</string>
     <string name="main_field_options_tab_title">মেইন</string>
     <string name="string_list_items_tab_title">আইটেম</string>
     <string name="string_list_edit_item_title_hint">পণ্যের শিরোনাম</string>
@@ -1101,10 +1073,8 @@ Memento সার্ভারে</string>
 	<string name="library_have_duplicates">লাইব্রেরিতে একই নামের নামসমূহ</string>
 	<string name="library_have_duplicates2">সঠিকভাবে কাজ করার জন্য ডুপ্লেটসমূহ পরিবর্তন বা ডিলেট করুন।</string>
 	<string name="dont_show_anymore">আর দেখান না</string>
-	<string name="need_make_slave_library_unique">\"এন্ট্রি লিঙ্কে প্রবেশ করুন\" ফিল্ডসমূহ সিঙ্ক্রোনাইজেশন করার জন্য, আপনাকে অবশ্যই লাইব্রেরিতে এন্ট্রি নামটি স্বতন্ত্রতা নিয়ন্ত্রণ সক্ষম করতে হবে যা লিঙ্কসমূহ দেখায়।
-এই এখন কি?</string>
-	<string name="need_make_slave_library_unique_import">\"এন্ট্রি লিঙ্কে\" ফিল্ডসমূহ ইমপোর্ট করতে, আপনাকে অবশ্যই লাইব্রেরিতে এন্ট্রি নামটি স্বতন্ত্রতা নিয়ন্ত্রণ সক্ষম করতে হবে যা লিংকসমূহ দেখায়।
-এই এখন কি?</string>
+	<string name="need_make_slave_library_unique">\"এন্ট্রি লিঙ্কে প্রবেশ করুন\" ফিল্ডসমূহ সিঙ্ক্রোনাইজেশন করার জন্য, আপনাকে অবশ্যই লাইব্রেরিতে এন্ট্রি নামটি স্বতন্ত্রতা নিয়ন্ত্রণ সক্ষম করতে হবে যা লিঙ্কসমূহ দেখায়।\nএই এখন কি?</string>
+	<string name="need_make_slave_library_unique_import">\"এন্ট্রি লিঙ্কে\" ফিল্ডসমূহ ইমপোর্ট করতে, আপনাকে অবশ্যই লাইব্রেরিতে এন্ট্রি নামটি স্বতন্ত্রতা নিয়ন্ত্রণ সক্ষম করতে হবে যা লিংকসমূহ দেখায়।\nএই এখন কি?</string>
 	<string name="run_sync_slave_libraries_pref">সম্পর্কিত লাইব্রেরি</string>
 	<string name="run_sync_slave_libraries_summary">প্রথমে সংযুক্ত লাইব্রেরিসমূহ সিঙ্ক্রোনাইজেশন করুন</string>
 	<string name="choice_type_add_button_in_edit_title">একটি এন্ট্রি সম্পাদনা করা হচ্ছে যখন আইটেম তৈরি অনুমতি দিন</string>
@@ -1117,11 +1087,9 @@ Memento সার্ভারে</string>
 	<string name="start_remove_librarary_from_cloud">লাইব্রেরি ডিলেট হচ্ছে ...</string>
 	<string name="success_remove_librarary_from_cloud">ক্লাউড থেকে লাইব্রেরি সফলভাবে ডিলেট করা হয়েছে</string>
 	<string name="start_upload_library_to_cloud">লাইব্রেরি আপলোড হচ্ছে ...</string>	
-	<string name="success_upload_library_to_cloud">লাইব্রেরিটি সফলভাবে আপলোড করা হয়েছে।
-লাইব্রেরিটি স্বয়ংক্রিয়ভাবে সিঙ্ক্রোনাইজেশন করা হবে।</string>
+	<string name="success_upload_library_to_cloud">লাইব্রেরিটি সফলভাবে আপলোড করা হয়েছে।\nলাইব্রেরিটি স্বয়ংক্রিয়ভাবে সিঙ্ক্রোনাইজেশন করা হবে।</string>
 	<string name="success_upload_library_to_cloud2">আপনি অ্যাক্সেস সেটিংসে অন্যান্য Memento ব্যবহারকারীদের দ্বারা আপনার লাইব্রেরিটি অ্যাক্সেস করতে পারেন।</string>	
-	<string name="push_entries_to_cloud_message" formatted="false">এন্ট্রিসমূহ আপলোড
-%s এর%s এন্ট্রি প্রক্রিয়া</string>
+	<string name="push_entries_to_cloud_message" formatted="false">এন্ট্রিসমূহ আপলোড\n%s এর%s এন্ট্রি প্রক্রিয়া</string>
 	<string name="permissions">পারমিশনস</string>
 	<string name="button_hide">লুকানো</string>	
 	<string name="empty_cloud_libraries_list_text">আপনার কোন আপলোড করা লাইব্রেরি নেই</string>
@@ -1133,8 +1101,7 @@ Memento সার্ভারে</string>
 	<string name="download_library_hint">লোকাল কপি তৈরি করুন</string>			
 	<string name="pull_entries_from_cloud_message">এন্ট্রি ডাউনলোড হচ্ছে ...</string>
 	<string name="pull_entries_from_cloud_message2" formatted="false">%s এর %s এন্ট্রি প্রক্রিয়া</string>
-	<string name="success_pull_library_from_cloud">এন্ট্রিসমূহ সফলভাবে ডাউনলোড করা হয়েছে।
-লাইব্রেরিটি স্বয়ংক্রিয়ভাবে সিঙ্ক্রোনাইজেশন করা হবে।</string>
+	<string name="success_pull_library_from_cloud">এন্ট্রিসমূহ সফলভাবে ডাউনলোড করা হয়েছে।\nলাইব্রেরিটি স্বয়ংক্রিয়ভাবে সিঙ্ক্রোনাইজেশন করা হবে।</string>
 	<string name="cloud_conflict_fields_title">দ্বন্দ্ব</string>
 	<string name="cloud_conflict_fix_button_title">ঠিক করা</string>
     <plurals name="conflict_count">
@@ -1165,8 +1132,7 @@ Memento সার্ভারে</string>
     <string name="upload_file_to_cloud">ফাইল আপলোড করা হচ্ছে ...</string>    
     <string name="upload_files_to_cloud">ফাইল আপলোড করা হচ্ছে</string>
     <string name="cloud_upload_error_title">আমরা এই লাইব্রেরিটি সিঙ্ক্রোনাইজেশন করতে পারিনি</string>
-    <string name="upload_big_file_error" formatted="false">%s এ এন্ট্রি বড় ফাইল %s (%s) আছে
-সর্বাধিক ফাইলের আকার %s।</string>
+    <string name="upload_big_file_error" formatted="false">%s এ এন্ট্রি বড় ফাইল %s (%s) আছে\nসর্বাধিক ফাইলের আকার %s।</string>
     <string name="prepare_library_for_cloud">লাইব্রেরি প্রক্রিয়াকরণের অধীন হয় ...</string>
     <string name="download_files_from_cloud">ক্লাউড থেকে ফাইল ডাউনলোড করা হচ্ছে ...</string>
     <string name="cant_download_item_files_for_copy">কপি তৈরির জন্য ফাইল ডাউনলোড ব্যর্থ হয়েছে।</string> 
@@ -1183,9 +1149,7 @@ Memento সার্ভারে</string>
 	<string name="only_owner_permission">শুধু নিজের</string>
 	<string name="user_not_found">ব্যবহারকারী খুঁজে পাওয়া যায় না</string>
 	<string name="edit_permission">ব্যবহারকারীর ভাগ করা সেটিংস</string>	
-	<string name="push_entry_error_text" formatted="false">এন্ট্রি ক্লাউডে সংরক্ষণ করা হয় না।
-নাম:%s
-ত্রুটি:%s</string>
+	<string name="push_entry_error_text" formatted="false">এন্ট্রি ক্লাউডে সংরক্ষণ করা হয় না।\nনাম:%s\nত্রুটি:%s</string>
 	<string name="push_error_forbidden">অ্যাক্সেস অস্বীকার</string>
 	<string name="button_ignore">উপেক্ষা করা</string>
 	<string name="button_try_again">আরার চেষ্টা করুন</string>	
@@ -1196,11 +1160,8 @@ Memento সার্ভারে</string>
 	<string name="need_upload_to_cloud_slave_libraries">দয়া করে ক্লাউডে নিম্নগামী লাইব্রেরিসমূহ আপলোড করুন।</string>
 	<string name="start_download_slave_library_model">অধীনস্থ লাইব্রেরি%s আপলোড হচ্ছে</string>
 	<string name="open_access_for_slave_libraries">অধীন লাইব্রেরি প্রবেশ অ্যাক্সেস পড়া</string>
-	<string name="cloud_storage_full_text">ক্লাউড স্টোরেজে পর্যাপ্ত স্পেস নেই।
-আপনি আরো স্টোরেজ স্পেস প্রদানের জন্য একটি ট্যারিফ প্ল্যানের মধ্যে আপগ্রেড করতে পারেন।</string>
-	<string name="cloud_storage_full_text2" formatted="false">ক্লাউড স্টোরেজে পর্যাপ্ত স্পেস নেই।
-%s প্রয়োজন,%s পাওয়া যায়।
-আপনি আরো স্টোরেজ স্পেস পাওয়ার জন্য একটি ট্যারিফ প্ল্যানের মধ্যে আপগ্রেড করতে পারেন।</string>
+	<string name="cloud_storage_full_text">ক্লাউড স্টোরেজে পর্যাপ্ত স্পেস নেই।\nআপনি আরো স্টোরেজ স্পেস প্রদানের জন্য একটি ট্যারিফ প্ল্যানের মধ্যে আপগ্রেড করতে পারেন।</string>
+	<string name="cloud_storage_full_text2" formatted="false">ক্লাউড স্টোরেজে পর্যাপ্ত স্পেস নেই।\n%s প্রয়োজন,%s পাওয়া যায়।\nআপনি আরো স্টোরেজ স্পেস পাওয়ার জন্য একটি ট্যারিফ প্ল্যানের মধ্যে আপগ্রেড করতে পারেন।</string>
 	<string name="alien_cloud_storage_full_text">লাইব্রেরির মালিকের কাছে যথেষ্ট স্টোরেজ স্পেস নেই।</string>	
 	<string name="button_tarifs">টারিফস</string>
 	<string name="cloud_storage_plans">সাবস্ক্রিপশন পরিকল্পনা</string>
@@ -1230,10 +1191,7 @@ Memento সার্ভারে</string>
 	<string name="owner">মালিক</string>
 	<string name="find_library_by_url_title">URL দ্বারা খুলুন</string>
 	<string name="upload_to_cloud_offer_title">{ক্লাউড প্রস্তুত ...}</string>
-	<string name="upload_to_cloud_offer_text">• টিমবদ্ধভাবে সম্পাদিত কাজ
-• ডিভাইসসমূহে সিঙ্ক্রোনাইজেশন করা
-• ব্যাকআপ সবসময় ক্লাউডে থাকা
-• সংস্করণ ইতিহাস</string>
+	<string name="upload_to_cloud_offer_text">• টিমবদ্ধভাবে সম্পাদিত কাজ\n• ডিভাইসসমূহে সিঙ্ক্রোনাইজেশন করা\n• ব্যাকআপ সবসময় ক্লাউডে থাকা\n• সংস্করণ ইতিহাস</string>
 	<string name="button_no_thanks">না, ধন্যবাদ</string>
 	<string name="button_upload">আপলোড</string>
 	
@@ -1492,8 +1450,7 @@ Memento সার্ভারে</string>
     <string name="auto_lock_libraries_time_title">লাইব্রেরি অ্যাক্সেস বন্ধ করুন</string>
     <string name="auto_lock_libraries_after">%s এর পরে</string>
 
-    <string name="empty_triggers_list_text">এই লাইব্রেরিটিতে ট্রিগার নেই
-একটি ট্রিগার একটি স্ক্রিপ্ট যে একটি ঘটনা উপর ভিত্তি করে একটি ঘটনা উপর ভিত্তি করে একটি এন্ট্রি প্রক্রিয়াকরণের সংজ্ঞা।</string>
+    <string name="empty_triggers_list_text">এই লাইব্রেরিটিতে ট্রিগার নেই\nএকটি ট্রিগার একটি স্ক্রিপ্ট যে একটি ঘটনা উপর ভিত্তি করে একটি ঘটনা উপর ভিত্তি করে একটি এন্ট্রি প্রক্রিয়াকরণের সংজ্ঞা।</string>
     <string name="powered_by_text">Memento Database দ্বারা চালিত</string>
 
     <string name="memento_server_private_hint">হোস্ট:পোর্ট</string>
@@ -1810,8 +1767,7 @@ Memento সার্ভারে</string>
     <string name="script_cant_run_for_not_saved_library">লাইব্রেরি সংরক্ষণ করার পর আপনি স্ক্রিপ্ট চালাতে পারেন।</string>
     <string name="autofill_script_source_key_title">স্ক্রিপ্ট দ্বারা ফিরে বস্তু অবজেক্ট খুঁজে পাওয়া</string>
     <string name="test_js_data_source_query_hint">প্রশ্ন স্ট্রিং</string>
-    <string name="test_js_data_source_query_result">অনুসন্ধানের ফলাফল:
-%s-</string>
+    <string name="test_js_data_source_query_result">অনুসন্ধানের ফলাফল:\n%s-</string>
     <string name="run">রান</string>
     <string name="run_arguments">যুক্তি রান করুন</string>
     <string name="script_cant_set_permissions_for_not_saved_library">লাইব্রেরি সংরক্ষণ করার পরে আপনি স্ক্রিপ্টের জন্য অনুমতিসমূহ সেট করতে পারেন।</string>
@@ -1938,8 +1894,7 @@ Memento সার্ভারে</string>
     <string name="notification_channel_reminders">রিমাইন্ডার</string>
     <string name="notification_channel_entries">লাইব্রেরিতে পরিবর্তন</string>
     <string name="notification_channel_files">ফাইল</string>
-    <string name="quick_filter_limit_message">বিনামূল্যে ভার্সন আপনাকে শুধুমাত্র পাঁচটি ফিল্ডের মাধ্যমে অনুসন্ধান করতে দেয়।
-এই সীমাবদ্ধতা দূর করতে PRO ভার্সনে আপগ্রেড করুন।</string>
+    <string name="quick_filter_limit_message">বিনামূল্যে ভার্সন আপনাকে শুধুমাত্র পাঁচটি ফিল্ডের মাধ্যমে অনুসন্ধান করতে দেয়।\nএই সীমাবদ্ধতা দূর করতে PRO ভার্সনে আপগ্রেড করুন।</string>
     <string name="button_upgrade">আপগ্রেড</string>
     <string name="autofilll_source_not_supported">দুঃখিত, কিন্তু%s আর সমর্থিত নয়।</string>
 
