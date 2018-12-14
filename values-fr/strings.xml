@@ -1510,7 +1510,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="trigger_permission_read_file">Lecture des fichiers</string>
     <string name="trigger_permission_write_file">Ecrire les fichiers</string>
     <string name="trigger_permission_network">Réseau</string>
-    <string name="trigger_permission_network_hint">Permet aux scripts d\'exécuter des requêtes HTTP</string>
+    <string name="trigger_permission_network_hint">Permet aux scripts d\'exécuter des requêtes HTTP et d\'envoyer des emails.</string>
 
     <string name="trigger_permission_libraries">Librairies</string>
     <string name="trigger_permission_libraries_hint">Accès à toutes les librairies</string>
@@ -1970,4 +1970,26 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="select_source_library_dialog_title">Sélectionner la base source pour la copie des données</string>
     <string name="select_source_library_dialog_hint">Sélectionner une source de données</string>
 
+<string name="wiki">Wiki</string>
+
+    <string name="moby_source">mobygames.com</string>
+    <string name="type_desc_color">Le type de champ Couleur autorise toute couleur au format RGB.</string>
+    <string name="image_cache_settings_path_title">Dossier du cache image</string>
+
+    <string name="unlock_fingerprint_dialog_title">Débloquer sur empreinte</string>
+    <string name="unlock_fingerprint_dialog_text">La prochaine fois, souhaitez-vous débloquer votre base avec votre empreinte ?</string>
+    <string name="fingerprint_not_recognized">Empreinte non reconnue</string>
+    <string name="unlock_fingerprint_hint">Numérisez votre empreinte pour débloquer</string>
+    <string name="enable_fingerprint">Autorisez l’empreinte</string>
+
+    <string name="storage_permission_required_title">Autorisation nécessaire</string>
+    <string name="storage_permission_required_text">Cette application a besoin d\'autorisations d\'accès au stockage. Vous pouvez donner ces droits dans les paramètres de l\'application.</string>
+    <string name="got_to_system_settings">Allez à Paramètres</string>
+    <string name="file_save_error">Impossible de sauvegarder le fichier:
+%s</string>
+
+    <string name="years_range">Tranche d\'années dans les dates</string>
+    <string name="begin_year">Début</string>
+    <string name="end_year">Fin</string>
+    <string name="years_range_wrong">L\'année de fin doit être supérieure ou égale à l\'année de début</string>
 </resources>
