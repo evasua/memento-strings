@@ -92,7 +92,7 @@
     <string name="home">maison</string>
     <string name="work">travail</string>
     <string name="other">autres</string>
-    <string name="pager">pager</string>
+    <string name="pager">téléavertisseur</string>
     <string name="image_not_found">Image non trouvée</string>
     <string name="audio_not_found">Aucune piste musicale n\'a été trouvée</string>
     <string name="flex_type_money_currency_dlg_title">Choisir une monnaie</string>
