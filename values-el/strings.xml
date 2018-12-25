@@ -245,7 +245,7 @@
     <string name="memento_pass_hint">Κωδικός πρόσβασης</string>
     <string name="memento_pass_hint2">Επανάληψη κωδικού πρόσβασης</string>
     <string name="memento_email_hint">Ηλ. Ταχυδρομείο</string>
-    <string name="memento_register_button">Δημιουργία</string>
+    <string name="memento_register_button">Δημιουργία λογαριασμού</string>
     <string name="memento_have_button">Έχω ένα λογαριασμό</string>
     <string name="login_empty">Πληκτρολογήστε το όνομα χρήστη</string>
     <string name="pass_not_equal">Παρακαλώ επιβεβαιώστε ξανά τον κωδικό πρόσβασής σας</string>
@@ -622,7 +622,7 @@
     <string name="google_play_not_found_message">Η συσκευή σας δεν διαθέτει το Google Play. Μπορείτε να κατεβάσετε OI Διαχειριστή Αρχείων από τον ιστότοπο του προγαρμματιστή.</string>
     <string name="library_not_found_dialog_title">Βιβλιοήκη</string>
     <string name="auto_bakup_dir_pref_title">Κατάλογος για αυτόματη δημιουργία αντιγράφων ασφαλείας</string>
-    <string name="library_not_found_dialog_message">H Βιβλιοθήκη δεν βρέθηκε. Ίσως η βιβλιοθήκη έχει αφαιρεθεί.</string>
+    <string name="library_not_found_dialog_message">H Βιβλιοθήκη δεν βρέθηκε. Πιθανόν η βιβλιοθήκη έχει αφαιρεθεί.</string>
     <string name="add_field_above">Προσθήκη πεδίου από πάνω</string>
     <string name="add_field_below">Προσθήκη πεδίου από κάτω</string>
     <string name="year_default_now">Τρέχον έτος από προεπιλογή</string>
@@ -1060,7 +1060,7 @@
 	<string name="need_make_slave_library_unique_import">Για να εισάγετε πεδία τύπου \"Σύνδεσμος σε καταχώρηση\", θα πρέπει να ενεργοποιήσετε τον έλεγχο μοναδικότητας του ονόματος καταχώρησης στη βιβλιοθήκη στην οποία αναφέρονται οι συνδέσεις.\nΝα το κάνω αυτό τώρα;</string>
 	<string name="run_sync_slave_libraries_pref">Σχετικές βιβλιοθήκες</string>
 	<string name="run_sync_slave_libraries_summary">Πρώτα συγχρονίστε τις σχετικές βιβλιοθήκες</string>
-	<string name="choice_type_add_button_in_edit_title">Η δημιουργία των στοιχείων, ενώ γίνεται επεξεργασία σε μια καταχώρηση</string>
+	<string name="choice_type_add_button_in_edit_title">Να επιτρέπεται η δημιουργία στοιχείων, ενώ γίνεται επεξεργασία σε μια καταχώρηση</string>
 	
 	<string name="show_deleted_entries_menu_item">Εμφάνιση διαγραμμένων καταχωρήσεων</string>
 	<string name="upload_to_cloud_menu_item">Στο Σύννεφο</string>
@@ -1181,7 +1181,10 @@
 	<string name="find_library_by_url_title">Άνοιγμα με URL</string>
 	<string name="library_not_found_by_uri">Η βιβλιοθήκη δεν βρέθηκε</string>
 	<string name="upload_to_cloud_offer_title">{κατάλληλη για το σύννεφο...}</string>
-	<string name="upload_to_cloud_offer_text">• Η ομαδική εργασία\n• Συγχρονισμός σε συσκευές\n• Αντίγραφα ασφαλείας πάντα στο σύννεφο</string>
+	<string name="upload_to_cloud_offer_text">• Η ομαδική εργασία
+• Συγχρονισμός σε συσκευές
+• Αντίγραφα ασφαλείας πάντα στο σύννεφο
+• Ιστορικό έκδοσης</string>
 	<string name="button_no_thanks">Οχι, ευχαριστώ</string>
 	<string name="button_upload">Αποστολή</string>
 	
@@ -1481,7 +1484,7 @@
     <string name="trigger_permission_write_file">Εγγραφή αρχείων</string>
     <string name="trigger_permission_write_file_hint">Επιτρέπει στην δέσμη ενεργειών την εγγραφή σε εξωτερικό χώρο αποθήκευσης</string>
     <string name="trigger_permission_network">Δίκτυο</string>
-    <string name="trigger_permission_network_hint">Επιτρέπει στο σενάριο (script) να εκτελεί αιτήσεις HTTP</string>
+    <string name="trigger_permission_network_hint">"Επιτρέπει στο σενάριο (script) να εκτελεί αιτήσεις HTTP,  και να στείλει emails."</string>
 
     <string name="trigger_permission_libraries">Βιβλιοθήκες</string>
     <string name="trigger_permission_libraries_hint">Πρόσβαση σε όλες τις βιβλιοθήκες</string>
