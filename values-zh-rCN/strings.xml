@@ -1705,12 +1705,12 @@
     <string name="hint_insert_contact_button">插入联系人</string>
     <string name="hint_create_contact_button">创建联系人</string>
     <string name="hint_insert_audio_button">插入音频</string>
-    <string name="hint_record_audio_button">录制音频</string>
+    <string name="hint_record_audio_button">录音</string>
     <string name="hint_insert_location_button">插入位置</string>
-    <string name="hint_get_my_location_button">获取我的位置</string>
+    <string name="hint_get_my_location_button">取当前位置</string>
     <string name="hint_insert_entry_button">插入条目</string>
     <string name="barcode_type_option_title">类型</string>
-    <string name="barcode_type_1d">条码</string>
+    <string name="barcode_type_1d">条形码</string>
     <string name="barcode_type_2d">二维码</string>
 
     <string name="repository_js_libraries">库</string>
