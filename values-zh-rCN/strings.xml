@@ -1270,7 +1270,7 @@
     <string name="field_orientation_option_horizontal">水平</string>
     <string name="field_orientation_option_vertical">垂直</string>
     <string name="preparing_files_for_sending">准备文件发送...</string>
-    <string name="whats_new_dialog_title">更新内容</string>
+    <string name="whats_new_dialog_title">更新内容?</string>
     <string name="font_size">尺寸</string>
     <string name="font_family">字体</string>
     <string name="font_style">样式</string>
