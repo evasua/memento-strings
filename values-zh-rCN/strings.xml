@@ -206,8 +206,8 @@
     <!-- 1.2.5 -->
     <string name="view_category">视图</string>
     <string name="title_lib_theme_preference">主题</string>
-    <string name="summary_lib_theme_preference">为库选择一个主题</string>
-    <string name="dialog_title_lib_theme_preference">为库选择一个主题</string>
+    <string name="summary_lib_theme_preference">主题选择</string>
+    <string name="dialog_title_lib_theme_preference">主题选择</string>
     <!-- 1.3.0 -->
     <string name="unbind_from_gdocs">中断与Google Sheets的连接</string>
     <string name="bind_to_gdocs">同步到Google Sheets</string>
@@ -619,13 +619,13 @@
     <string formatted="false" name="library_item_position_text">%d/%d</string>
     <string name="search_in_protected_libraries">在受密码加密的库搜索\n（除了加密）</string>
     <string name="stat_result_type">结果格式</string>
-    <string name="backup_file_name_title">备份文件名</string>
-    <string name="backup_file_path_title">备份目录</string>
+    <string name="backup_file_name_title">所要备份的文件名</string>
+    <string name="backup_file_path_title">所要备份的目录</string>
     <string name="change_dir_button">更改</string>
     <string name="file_already_exists">*目标文件已存在</string>
     <string name="backup_success2">备份完成</string>
     <string name="restore_file_path_title">目录备份</string>
-    <string name="auto_bakup_dir_pref_title">目录自动备份</string>
+    <string name="auto_bakup_dir_pref_title">用于自动备份的目录</string>
     <string name="google_play_not_found_message">你的设备上没有谷歌商店。你可以下载OI开发网站的文件管理器。</string>
     <string name="library_not_found_dialog_title">库</string>
     <string name="library_not_found_dialog_message">未找到库。也许该库已被删除。</string>
@@ -662,7 +662,7 @@
     <string name="sl_content_depend_type">这个字段的内容</string>
     <string name="sl_content_depend_pretitle">字段值%s</string>
     <string name="sl_content_depend_description">如果该字段的值为%s，该字段的值将可供选择</string>
-    <string name="backup_images_checkbox">创建备份相关图像、音频记录和其他文件的备份副本</string>
+    <string name="backup_images_checkbox">创建相关图片、音频和其他文件的副本备份</string>
     <string name="backup_files_progress_title">文件备份</string>
     <string name="backup_files_error">备份文件中的错误：%s</string>
     <string name="restore_files_message">备份副本包含与数据库相关的文件存档;你想恢复呢？</string>
@@ -884,7 +884,7 @@
     <string name="empty_chart_list_text">该库不包含图表。</string>
     <string name="empty_entry_list_text">本库没有条目。</string>
     <string name="empty_recycle_bin_text">没有可用于恢复在该库条目。</string>
-    <string name="empty_main_recycle_bin_text">没有可用于恢复的库。</string>
+    <string name="empty_main_recycle_bin_text">没有库可以恢复。</string>
     <string name="string_edit_cap_options_title">大写</string>
     <string name="string_edit_cap_options_none">没有</string>
     <string name="string_edit_cap_options_sent">在句子的开头</string>
@@ -956,8 +956,8 @@
     <string name="library_recover_dialog_text">你想还原库“%s”？</string>
     <string name="library_recover_snackbar_text">库中的组的恢复\"%s\"</string>
     <string name="sort_by_name">按名称排序</string>
-    <string name="sort_by_time">按时间排序添加</string>
-    <string name="favorites_empty_list_layout">没有最喜欢的作品。</string>
+    <string name="sort_by_time">按添加时间排序</string>
+    <string name="favorites_empty_list_layout">没有收藏的条目。</string>
     <string name="history_empty_list_layout">没有以前浏览过的条目。</string>
     <string name="clear_history">清除历史记录</string>
     <string name="entry_not_found">项目丢失</string>
@@ -1072,17 +1072,17 @@
 	<string name="need_make_slave_library_unique_import">要导入“连接条目”字段，您必须启用条目名称的唯一性控制指向该库的连接。\n现在做到这一点？</string>
 	<string name="run_sync_slave_libraries_pref">相关库</string>
 	<string name="run_sync_slave_libraries_summary">首先同步相关库</string>
-	<string name="choice_type_add_button_in_edit_title">允许一条记录在编辑时增加其他记录</string>
+	<string name="choice_type_add_button_in_edit_title">允许在编辑条目时创建项目</string>
 	
-	<string name="show_deleted_entries_menu_item">显示已删除的项</string>
+	<string name="show_deleted_entries_menu_item">显示已删除的条目</string>
 	<string name="upload_to_cloud_menu_item">在线云</string>
 	<string name="welcome_text_title">欢迎使用memento database</string>
-	<string name="welcome_text_description">库是存储您信息的地方。你可以通过右上角的三点按钮添加库，通过提供的模板来创建库，从而熟知软件的使用。</string>
+	<string name="welcome_text_description">库可以存储您的信息，您可以点击下面的添加库，或者通过右上角的三点按钮，也可以添加库，然后通过向导，多创建一些库，从而熟悉软件的使用。</string>
 	
 	<string name="memento_cloud">云同步</string>
 	<string name="start_remove_librarary_from_cloud">删除库...</string>
-	<string name="success_remove_librarary_from_cloud">库从云中成功删除</string>
-	<string name="start_upload_library_to_cloud">上传库...</string>	
+	<string name="success_remove_librarary_from_cloud">库已经从云中成功删除</string>
+	<string name="start_upload_library_to_cloud">库正在上传...</string>	
 	<string name="success_upload_library_to_cloud">库成功上传。\n该库将自动同步。</string>
 	<string name="success_upload_library_to_cloud2">你可以设置你的库被其他Memento用户访问。</string>	
 	<string name="push_entries_to_cloud_message" formatted="false">上传作品\n%s项%s的处理</string>
@@ -1270,7 +1270,7 @@
     <string name="field_orientation_option_horizontal">水平</string>
     <string name="field_orientation_option_vertical">垂直</string>
     <string name="preparing_files_for_sending">准备文件发送...</string>
-    <string name="whats_new_dialog_title">更新内容?</string>
+    <string name="whats_new_dialog_title">更新内容</string>
     <string name="font_size">尺寸</string>
     <string name="font_family">字体</string>
     <string name="font_style">样式</string>
@@ -1484,7 +1484,7 @@
     <string name="log_files_folder">日志文件目录</string>
 
     <string name="enable_logging_cloud">Memento云电话</string>
-    <string name="enable_logging_triggers">触发日志</string>
+    <string name="enable_logging_triggers">脚本日志</string>
     <string name="script_log">脚本日志</string>
 
     <string name="trigger_permissions">触发器权限</string>
@@ -1493,7 +1493,7 @@
     <string name="trigger_permission_write_file">写文件</string>
     <string name="trigger_permission_write_file_hint">允许脚本写入外部存储</string>
     <string name="trigger_permission_network">网络</string>
-    <string name="trigger_permission_network_hint">允许脚本执行HTTP请求</string>
+    <string name="trigger_permission_network_hint">允许脚本执行HTTP请求并发送电子邮件。</string>
 
     <string name="trigger_permission_libraries">库</string>
     <string name="trigger_permission_libraries_hint">访问所有库</string>
@@ -1684,7 +1684,7 @@
 <string name="tasker_plugin_create_entry_event_title">条目已创建</string>
     <string name="tasker_plugin_delete_entry_event_title">条目已删除</string>
     <string name="tasker_plugin_modified_entry_event_title">条目已修改</string>
-    <string name="no_libraries_text">还没有库！</string>
+    <string name="no_libraries_text">没有库</string>
     <string name="add_linked_libraries">包含相关的库</string>
     <string name="create_collections">创建库</string>
     <string name="create_collections_success">创建了库</string>
@@ -1804,10 +1804,10 @@
 
 
     <string name="wizard">向导</string>
-    <string name="wizard_library_name_title">Memento要把信息入库.请命名此库为?</string>
-    <string name="wizard_library_name_hint2">库曾经使用过一种特定类型的项目列表.</string>
-    <string name="wizard_library_name_hint3">库类似电子表格中的工作表.</string>
-    <string name="wizard_library_icon_title">为此库选择一个图标</string>
+    <string name="wizard_library_name_title">您创建的库即将存储，请命名此库的名称为？</string>
+    <string name="wizard_library_name_hint2">库用于保存一种特定类型的列表。</string>
+    <string name="wizard_library_name_hint3">库类似于电子表格中的工作表。</string>
+    <string name="wizard_library_icon_title">选择此库的图标</string>
     <string name="wizard_library_structure_title">为此库创建库结构.</string>
     <string name="wizard_library_structure_hint2">你录入数据库的每条项目称为\'记录\'.每条记录都有一些用来存储信息的字段.</string>
     <string name="wizard_library_structure_hint3">一条记录相当于电子表格中的一行.</string>
@@ -1959,4 +1959,26 @@
     <string name="time_field_group_by_day_and_time">按日和时间分组</string>
 
     <string name="select_source_library_dialog_title">选择要复制数据的库</string>
-    </resources>
+    <string name="wiki">官方资料库</string>
+
+    <string name="moby_source">mobygames.com</string>
+    <string name="type_desc_color">颜色类型允许以RGB格式存储任何颜色。</string>
+    <string name="image_cache_settings_path_title">用于缓存图片的文件夹</string>
+
+    <string name="unlock_fingerprint_dialog_title">用指纹解锁</string>
+    <string name="unlock_fingerprint_dialog_text">您想下次使用指纹解锁受到保护的库吗？</string>
+    <string name="fingerprint_not_recognized">指纹无法识别</string>
+    <string name="unlock_fingerprint_hint">扫描指纹以解锁</string>
+    <string name="enable_fingerprint">启用指纹</string>
+
+    <string name="storage_permission_required_title">需要许可</string>
+    <string name="storage_permission_required_text">此应用需要存储权限，您可以在应用设置中给它授予权限。</string>
+    <string name="got_to_system_settings">前往设置</string>
+    <string name="file_save_error">无法保存文件：
+%s</string>
+
+    <string name="years_range">年份的日期范围</string>
+    <string name="begin_year">开始</string>
+    <string name="end_year">结束</string>
+    <string name="years_range_wrong">年末必须大于或等于年份的开始</string>
+</resources>
