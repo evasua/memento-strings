@@ -1943,21 +1943,21 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="choose_username">Choisissez votre nom d\'utilisateur</string>
     <string name="account_without_password_message">Votre compte est un compte Google sans mot de passe. Essayez d\'utiliser le bouton \"Continuer avec Google\".</string>
     <string name="template_not_found_by_uri">Modèle non trouvé</string>
-    <string name="public_template_address_text">Modèle adresse</string>
+    <string name="public_template_address_text">Modèle d\'adresse</string>
     <string name="wrong_template_address">Format de modèle d\'adresse invalide</string>
     <string name="search_index_tokenizer">Analyseur lexical</string>
 
     <string name="permission_contacts_title">Contacts</string>
     <string name="permission_contacts_text">Il est impératif de donner l\'accès aux contacts à Memento pour les champs de type Contact.</string>
     <string name="boolean_format">Format</string>
-    <string name="boolean_format_on">Etiquette On</string>
+    <string name="boolean_format_on">Étiquette \"On\"</string>
     <string name="boolean_format_off">Etiquette Off</string>
     <string name="plans_comparison">Consulter l\'intégralité de notre comparatif des fonctionnalités</string>
 
     <string name="revision_history">Historique de version</string>
     <string name="revision_current_version">Version actuelle</string>
-    <string name="revision_action_edit">%s changé</string>
-    <string name="revision_action_create">%s enregistrement créé</string>
+    <string name="revision_action_edit">%s changé(es)</string>
+    <string name="revision_action_create">%s enregistrement(s) créé(s)</string>
     <string name="revert_to_version">Retour à cette version</string>
     <string name="revert_to_version_message">Etes-vous sûr de vouloir retourner à la version depuis %s ?</string>
     <string name="revision_history_only_for_cloud">"L\'historique de version est disponible uniquement pour les bases qui ont été téléversées sur le nuage et pour les comptes PRO  et TEAM."</string>
