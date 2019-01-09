@@ -475,7 +475,7 @@
     <string name="error_empty_template_title">Voer de naam van het sjabloon in</string>
     <string name="error_empty_template_desc">Voer de beschrijving van het sjabloon in</string>
     <string name="template_downloads">Downloads %s</string>
-    <string name="clear">Duidelijk</string>
+    <string name="clear">Legen</string>
     <string name="latest">Laaste</string>
     <string name="pref_cat_library_view">Bekijk</string>
     <string name="field_email_preferences">Een e-mail opstellen</string>
