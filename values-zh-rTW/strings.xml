@@ -1492,7 +1492,7 @@
     <string name="trigger_permission_write_file">寫入檔案</string>
     <string name="trigger_permission_write_file_hint">允許 scripts 寫入外部儲存裝置</string>
     <string name="trigger_permission_network">網路</string>
-    <string name="trigger_permission_network_hint">允許 scripts 發送 HTTP 請求</string>
+    <string name="trigger_permission_network_hint">允許 scripts 發送 HTTP 請求、寄送 Email。</string>
 
     <string name="trigger_permission_libraries">庫</string>
     <string name="trigger_permission_libraries_hint">操作所有庫</string>
