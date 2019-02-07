@@ -1065,7 +1065,7 @@
 	<string name="show_deleted_entries_menu_item">Εμφάνιση διαγραμμένων καταχωρήσεων</string>
 	<string name="upload_to_cloud_menu_item">Στο Σύννεφο</string>
 	<string name="welcome_text_title">Καλώς ήρθατε στη Βάση Δεδομένων Memento</string>
-	<string name="welcome_text_description">Η Βιβλιοθήκη είναι ο τόπος όπου θα αποθηκεύονται καταχωρήσεις σας. Μπορείτε να αρχίσετε την εξοικείωσή σας με το Memento, με τη δημιουργία μιας βιβλιοθήκης, που βασίζεται σε ένα από τα πρότυπα που παρέχονται.</string>
+	<string name="welcome_text_description">"Η Βιβλιοθήκη είναι το μέρος όπου θα αποθηκεύονται οι καταχωρήσεις σας. Εξοικειωθείτε με το Memento,  δημιουργώντας μια βιβλιοθήκη, διαλέγοντας από τα έτοιμα πρότυπα που υπάρχουν."</string>
 	
 	<string name="memento_cloud">Σύννεφο Memento</string>
 	<string name="start_remove_librarary_from_cloud">Διαγραφή βιβλιοθήκης...</string>
