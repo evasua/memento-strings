@@ -248,7 +248,7 @@
     <string name="memento_login_hint">Nama pengguna</string>
     <string name="memento_pass_hint">Kata sandi</string>
     <string name="memento_pass_hint2">Ulangi kata sandi</string>
-    <string name="memento_register_button">Buat</string>
+    <string name="memento_register_button">Buat Akun</string>
     <string name="memento_have_button">Saya punya akun</string>
     <string name="login_empty">Masukkan nama pengguna</string>
     <string name="login_format_error">Nama login hanya boleh berisi huruf dan angka</string>
@@ -604,7 +604,7 @@
     <string name="auto_bakup_dir_pref_title">Folder untuk backup otomatis</string>
     <string name="google_play_not_found_message">Perangkat anda tidak memiliki Google Play. Anda dapat mengunduh OI Manager dari situs developer.</string>
     <string name="library_not_found_dialog_title">Koleksi</string>
-    <string name="library_not_found_dialog_message">Koleksi tidak ditemukan. Barangkali koleksi telah dihapus.</string>
+    <string name="library_not_found_dialog_message">Koleksi tidak ditemukan. Koleksi mungkin telah dihapus.</string>
     <string name="add_field_above">Tambah field di atas</string>
     <string name="add_field_below">Tambah field di bawah</string>
     <string name="year_default_now">Tahun sekarang secara default</string>
@@ -1014,7 +1014,7 @@
 \nLakukan hal ini sekarang?</string>
 	<string name="run_sync_slave_libraries_pref">Koleksi terkait</string>
 	<string name="run_sync_slave_libraries_summary">Koleksi terkait sinkronisasi pertama</string>
-	<string name="choice_type_add_button_in_edit_title">Pembuatan elemen saat menyuting entri</string>
+	<string name="choice_type_add_button_in_edit_title">Izinkan pembuatan elemen saat menyunting entri</string>
 	
 	<string name="show_deleted_entries_menu_item">Tampilkan entri yang dihapus</string>
 	<string name="upload_to_cloud_menu_item">Ke Cloud</string>
@@ -1135,8 +1135,9 @@ Anda dapat upgrade ke paket tarif yang menyediakan lebih banyak ruang tempat pen
 	<string name="library_not_found_by_uri">Koleksi tidak ditemukan</string>
 	<string name="upload_to_cloud_offer_title">{siap untuk cloud...}</string>
 	<string name="upload_to_cloud_offer_text">• Kolaborasi tim
-\n• Sinkronisasi antar perangkat
-\n• Backup selalu tersedia di cloud</string>
+• Sinkronisasi antar perangkat
+• Backup selalu tersedia di cloud
+• Riyawat versi</string>
 	<string name="button_no_thanks">Tidak, terima kasih</string>
 	<string name="button_upload">Unggah</string>
 	
@@ -1393,7 +1394,7 @@ Anda dapat upgrade ke paket tarif yang menyediakan lebih banyak ruang tempat pen
     <string name="trigger_permission_write_file">Penulisan berkas</string>
     <string name="trigger_permission_write_file_hint">Izinkan script menulis ke tempat penyimpanan eksternal</string>
     <string name="trigger_permission_network">Jaringan</string>
-    <string name="trigger_permission_network_hint">Izinkan script menjalankan request HTTP</string>
+    <string name="trigger_permission_network_hint">Izinkan script menjalankan request HTTP, dan mengirim email.</string>
 
     <string name="trigger_permission_libraries">Koleksi</string>
     <string name="trigger_permission_libraries_hint">Akses ke semua koleksi</string>
@@ -1528,7 +1529,7 @@ Anda dapat upgrade ke paket tarif yang menyediakan lebih banyak ruang tempat pen
     <string name="cloud_plan_team10">Tim 10</string>
     <string name="cloud_plan_team15">Tim 15</string>
     <string name="cloud_plan_team20">Tim 20</string>
-    <string name="pro_for_team">Fitur pro untuk semua pengguna dalam grup</string>
+    <string name="pro_for_team">" Fitur pro untuk semua anggota tim"</string>
     <string name="team_features_trial">Semua paket termasuk 14‑Hari Gratis Percobaan.</string>
 
     <string name="tasker_plugin_create_entry_event_title">Entri dibuat</string>
@@ -1909,4 +1910,88 @@ Anda dapat upgrade ke paket tarif yang menyediakan lebih banyak ruang tempat pen
 
 <string name="script_error_message">Galat Script: %s</string>
     <string name="button_upgrade">Upgrade</string>
-    </resources>
+    <string name="link_attributes_empty_text">Field ini tidak punya atribut untuk tautan tersebut.</string>
+    <string name="cant_find_contact_selection_app">Maaf, tapi aplikasi untuk pemilihan kontak tidak ditemukan.</string>
+    <string name="library_item_not_found_dialog_message">Entri tidak ditemukan. Mungkin telah dihapus.</string>
+
+    <string name="license_key_tab">Kunci Lisensi</string>
+    <string name="pro_feature_0">Tidak ada iklan</string>
+    <string name="pro_feature_1">Jumlah koleksi tak terbatas yang dapat disinkronkan dengan Google Sheets</string>
+    <string name="pro_feature_2">Jumlah koleksi \'terproteksi\' tak terbatas</string>
+    <string name="pro_feature_3">Jumlah bagan tak terbatas</string>
+    <string name="pro_feature_4">Jumlah script tak terbatas</string>
+    <string name="pro_feature_5">Pencarian lanjutan</string>
+    <string name="pro_feature_6">Satu field entri boleh berisi beberapa objek (gambar, berkas, kontak, koordinat, dll.</string>
+    <string name="pro_feature_7">Penyuntingan berganda entri</string>
+    <string name="pro_feature_8">App widget yang berguna</string>
+    <string name="pro_license_activated">Lisensi telah aktif</string>
+    <string name="pro_features_title">Fitur pro</string>
+    <string name="activate_with_key">Aktifkan dengan kunci</string>
+    <string name="plans_and_pricing">Paket &amp; Harga</string>
+    <string name="email_or_username">Email atau nama pengguna</string>
+    <string name="sign_in_with_google">Lanjutkan dengan Google</string>
+    <string name="minimum_pass_length">Kata sandi harus kurang lebih %d karakter.</string>
+    <string name="please_sign_in">Silakan masuk ke Memento Cloud.</string>
+    <string name="sign_up_or_sign_in">Daftar atau log masuk</string>
+    <string name="auth_error_title">Galat autentikasi</string>
+    <string name="auth_error_text">Terjadi kesalahan, silakan autentikasikan lagi %s.</string>
+    <string name="logout">Log keluar</string>
+    <string name="logout_confirmation">Apa anda yakin untuk log keluar?</string>
+    <string name="current_plan">Paket saat ini</string>
+    <string name="change_password">Ganti kata sandi</string>
+    <string name="current_password">Kata sandi saat ini</string>
+    <string name="new_password">Kata sandi baru</string>
+    <string name="password_changed_message">Kata sandi anda telah berhasil diubah!</string>
+    <string name="sign_in_error">Tidak dapat masuk</string>
+    <string name="choose_username">Pilih nama pengguna anda</string>
+    <string name="account_without_password_message">Akun tersebut tampaknya bukan Akun Google tanpa kata sandi. Coba gunakan tombol \"Continue with Google\".</string>
+    <string name="template_not_found_by_uri">Templat tidak ditemukan</string>
+    <string name="public_template_address_text">Templat alamat</string>
+    <string name="wrong_template_address">Format templat alamat salah</string>
+    <string name="search_index_tokenizer">Penganalisa Leksikal</string>
+
+    <string name="permission_contacts_title">Kontak</string>
+    <string name="permission_contacts_text">Memento memerlukan izin akses ke kontak untuk tipe field Kontak.</string>
+    <string name="boolean_format">Format</string>
+    <string name="boolean_format_on">Pada label</string>
+    <string name="boolean_format_off">Luar label</string>
+    <string name="plans_comparison">Lihat perbandingan lengkap fitur kami</string>
+
+    <string name="revision_history">Riwayat versi</string>
+    <string name="revision_current_version">Versi saat ini</string>
+    <string name="revision_action_edit">%s terubah</string>
+    <string name="revision_action_create">%s entri terbuat</string>
+    <string name="revert_to_version">Kembalikan ke versi ini</string>
+    <string name="revert_to_version_message">Apa anda yakin untuk mengembalikan ke versi dari %s ?</string>
+    <string name="revision_history_only_for_cloud">Riwayat versi hanya tersedia untuk koleksi yang diunggah ke cloud dan pada akun PRO atau TEAM.</string>
+    <string name="barcode_type_nfc">NFC</string>
+    <string name="pending_user">Menunda...</string>
+    <string name="uom_category_userdefined">Didefinisikan Pengguna</string>
+    <string name="uom_custom_name">Nama unit</string>
+    <string name="time_field_group_by_day_and_time">Grupkan menurut hari dan waktu</string>
+
+    <string name="select_source_library_dialog_title">Pilih koleksi dari mana penyalinan data</string>
+    <string name="select_source_library_dialog_hint">Pilih sumber data</string>
+    <string name="wiki">Wiki</string>
+
+    <string name="moby_source">mobygames.com</string>
+    <string name="type_desc_color">Tipe field warna mengizinkan penyimpanan warna apa pun dalam format RGB.</string>
+    <string name="image_cache_settings_path_title">Folder cache gambar</string>
+
+    <string name="unlock_fingerprint_dialog_title">Buka dengan fingerprint</string>
+    <string name="unlock_fingerprint_dialog_text">Di kesempatan selanjutnya, inginkah anda membuka koleksi terproteksi anda menggunakan Fingerprint?</string>
+    <string name="fingerprint_not_recognized">Fingerprint tidak dikenali</string>
+    <string name="unlock_fingerprint_hint">Pindai fingerprint anda untuk membuka</string>
+    <string name="enable_fingerprint">Hidupkan fingerprint</string>
+
+    <string name="storage_permission_required_title">Butuh izin</string>
+    <string name="storage_permission_required_text">Aplikasi ini membutuhkan izin penyimpanan. Anda bisa menerimanya pada pengaturan app.</string>
+    <string name="got_to_system_settings">Pengaturan Goto</string>
+    <string name="file_save_error">Tidak dapat menyimpan berkas:
+%s</string>
+
+    <string name="years_range">Jarak tahun dalam penanggalan</string>
+    <string name="begin_year">Awal</string>
+    <string name="end_year">Akhir</string>
+    <string name="years_range_wrong">Akhir tahun harus lebih besar atau sama dengan awal tahun</string>
+</resources>
