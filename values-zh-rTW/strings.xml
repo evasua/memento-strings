@@ -633,8 +633,8 @@
     <string name="main_menu_add_group">添加群組</string>
     <string name="main_title">Memento 資料庫</string>
     <string name="build_navigate_list_dialog">對條目進行排序...</string>
-    <string name="navigate_first_entry">此條目是第一個</string>
-    <string name="navigate_last_entry">此條目是最後一個</string>
+    <string name="navigate_first_entry">這是首個條目</string>
+    <string name="navigate_last_entry">這是最後一個條目</string>
     <string name="select_library_filter">選擇篩選條件</string>
     <string name="no_filter_item">刪除篩選條件</string>
     <string name="library_custom_filter_name">使用者篩選器</string>
