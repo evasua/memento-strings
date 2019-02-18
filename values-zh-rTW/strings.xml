@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
-    <string name="library_menu_add_item">新增條目</string>
-    <string name="main_menu_add_lib">新增庫</string>
-    <string name="ghostData_lib_title">庫名稱</string>
+    <string name="library_menu_add_item">新增項目</string>
+    <string name="main_menu_add_lib">新增資料庫</string>
+    <string name="ghostData_lib_title">資料庫名稱</string>
     <string name="custom_template_title">自訂</string>
     <string name="button_create">建立</string>
     <string name="button_yes">是</string>
