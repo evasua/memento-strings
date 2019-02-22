@@ -92,7 +92,7 @@
     <string name="home">maison</string>
     <string name="work">travail</string>
     <string name="other">autres</string>
-    <string name="pager">pager</string>
+    <string name="pager">téléavertisseur</string>
     <string name="image_not_found">Image non trouvée</string>
     <string name="audio_not_found">Aucune piste musicale n\'a été trouvée</string>
     <string name="flex_type_money_currency_dlg_title">Choisir une monnaie</string>
@@ -1510,7 +1510,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="trigger_permission_read_file">Lecture des fichiers</string>
     <string name="trigger_permission_write_file">Ecrire les fichiers</string>
     <string name="trigger_permission_network">Réseau</string>
-    <string name="trigger_permission_network_hint">Permet aux scripts d\'exécuter des requêtes HTTP</string>
+    <string name="trigger_permission_network_hint">Permet aux scripts d\'exécuter des requêtes HTTP et d\'envoyer des emails.</string>
 
     <string name="trigger_permission_libraries">Librairies</string>
     <string name="trigger_permission_libraries_hint">Accès à toutes les librairies</string>
@@ -1943,21 +1943,21 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="choose_username">Choisissez votre nom d\'utilisateur</string>
     <string name="account_without_password_message">Votre compte est un compte Google sans mot de passe. Essayez d\'utiliser le bouton \"Continuer avec Google\".</string>
     <string name="template_not_found_by_uri">Modèle non trouvé</string>
-    <string name="public_template_address_text">Modèle adresse</string>
+    <string name="public_template_address_text">Modèle d\'adresse</string>
     <string name="wrong_template_address">Format de modèle d\'adresse invalide</string>
     <string name="search_index_tokenizer">Analyseur lexical</string>
 
     <string name="permission_contacts_title">Contacts</string>
     <string name="permission_contacts_text">Il est impératif de donner l\'accès aux contacts à Memento pour les champs de type Contact.</string>
     <string name="boolean_format">Format</string>
-    <string name="boolean_format_on">Etiquette On</string>
+    <string name="boolean_format_on">Étiquette \"On\"</string>
     <string name="boolean_format_off">Etiquette Off</string>
     <string name="plans_comparison">Consulter l\'intégralité de notre comparatif des fonctionnalités</string>
 
     <string name="revision_history">Historique de version</string>
     <string name="revision_current_version">Version actuelle</string>
-    <string name="revision_action_edit">%s changé</string>
-    <string name="revision_action_create">%s enregistrement créé</string>
+    <string name="revision_action_edit">%s changé(es)</string>
+    <string name="revision_action_create">%s enregistrement(s) créé(s)</string>
     <string name="revert_to_version">Retour à cette version</string>
     <string name="revert_to_version_message">Etes-vous sûr de vouloir retourner à la version depuis %s ?</string>
     <string name="revision_history_only_for_cloud">"L\'historique de version est disponible uniquement pour les bases qui ont été téléversées sur le nuage et pour les comptes PRO  et TEAM."</string>
@@ -1970,4 +1970,26 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="select_source_library_dialog_title">Sélectionner la base source pour la copie des données</string>
     <string name="select_source_library_dialog_hint">Sélectionner une source de données</string>
 
+<string name="wiki">Wiki</string>
+
+    <string name="moby_source">mobygames.com</string>
+    <string name="type_desc_color">Le type de champ Couleur autorise toute couleur au format RGB.</string>
+    <string name="image_cache_settings_path_title">Dossier du cache image</string>
+
+    <string name="unlock_fingerprint_dialog_title">Débloquer sur empreinte</string>
+    <string name="unlock_fingerprint_dialog_text">La prochaine fois, souhaitez-vous débloquer votre base avec votre empreinte ?</string>
+    <string name="fingerprint_not_recognized">Empreinte non reconnue</string>
+    <string name="unlock_fingerprint_hint">Numérisez votre empreinte pour débloquer</string>
+    <string name="enable_fingerprint">Autorisez l’empreinte</string>
+
+    <string name="storage_permission_required_title">Autorisation nécessaire</string>
+    <string name="storage_permission_required_text">Cette application a besoin d\'autorisations d\'accès au stockage. Vous pouvez donner ces droits dans les paramètres de l\'application.</string>
+    <string name="got_to_system_settings">Allez à Paramètres</string>
+    <string name="file_save_error">Impossible de sauvegarder le fichier:
+%s</string>
+
+    <string name="years_range">Tranche d\'années dans les dates</string>
+    <string name="begin_year">Début</string>
+    <string name="end_year">Fin</string>
+    <string name="years_range_wrong">L\'année de fin doit être supérieure ou égale à l\'année de début</string>
 </resources>
