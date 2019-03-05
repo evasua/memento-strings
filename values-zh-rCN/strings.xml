@@ -1548,7 +1548,7 @@
     <string name="uom_foot">英尺</string>
     <string name="uom_yard">码</string>
     <string name="uom_inch">英寸</string>
-    <string name="uom_angstrom">Angstrem</string>
+    <string name="uom_angstrom">埃</string>
     <string name="uom_astronomical_unit">天文单位</string>
     <string name="uom_light_year">光年</string>
     <string name="uom_parsec">秒差距</string>
@@ -1686,7 +1686,7 @@
 <string name="tasker_plugin_create_entry_event_title">条目已创建</string>
     <string name="tasker_plugin_delete_entry_event_title">条目已删除</string>
     <string name="tasker_plugin_modified_entry_event_title">条目已修改</string>
-    <string name="no_libraries_text">没有库</string>
+    <string name="no_libraries_text">还没有库！</string>
     <string name="add_linked_libraries">包含相关的库</string>
     <string name="create_collections">创建库</string>
     <string name="create_collections_success">创建了库</string>
