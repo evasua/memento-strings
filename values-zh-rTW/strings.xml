@@ -1736,19 +1736,19 @@
     <string name="library_related_cloud_model_changed_message">相關庫的結構在雲端改變了。請前往相關庫進行更新。</string>
 <string name="faq">常見問題</string>
     <string name="icon_pack_title_field_material">Material 圖示</string>
-    <string name="memento_cloud">Memento Cloud</string>
+    <string name="memento_cloud">Memento 雲</string>
 	<string name="byteShort">B</string>    
     <string name="kilobyteShort">KB</string>
     <string name="megabyteShort">MB</string>
     <string name="gigabyteShort">GB</string>
     <string name="find_library_by_url_hint">http://libs.mobi/address</string>
-	<string name="uservoice_menu_title">UserVoice</string>
+	<string name="uservoice_menu_title">用戶反饋</string>
 	<string name="music_brainz_source">musicbrainz.org</string>
 	<string name="google_books_source">Google Books</string>
     <string name="themoviedb_source">themoviedb.org</string>
     <string name="themoviedb_source_tv">TV</string>
 
-    <string name="flex_type_rich_text">Rich Text</string>
+    <string name="flex_type_rich_text">富文本</string>
     <string name="script">Script</string>
     <string name="js_libraries">JavaScript 函式庫</string>
     <string name="powered_by_text">Powered by Memento Database</string>
