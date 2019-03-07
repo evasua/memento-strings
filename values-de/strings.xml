@@ -16,18 +16,18 @@
     <string name="add_new_library_item">Eintrag hinzufügen</string>
     <string name="flex_type_title_string">Text</string>
     <string name="flex_type_title_int">Ganzzahl</string>
-    <string name="flex_type_title_bool">Boolean</string>
+    <string name="flex_type_title_bool">Boolean (Auswahlkästchen)</string>
     <string name="flex_type_title_date">Datum</string>
-    <string name="flex_type_title_date_time">Datum/Zeit</string>
+    <string name="flex_type_title_date_time">Datum/Uhrzeit</string>
     <string name="flex_type_contact">Kontakt</string>
     <string name="flex_type_image">Bild</string>
-    <string name="flex_type_string_list">String Werte</string>
+    <string name="flex_type_string_list">Einzelauswahlliste</string>
     <string name="flex_type_audio">Audio</string>
     <string name="flex_type_money">Währung</string>
     <string name="flex_type_rating">Bewertung</string>
     <string name="flex_type_web">Hyperlink</string>
-    <string name="flex_type_map">Lage</string>
-    <string name="flex_type_real">Fliesskommazahl</string>
+    <string name="flex_type_map">Standort</string>
+    <string name="flex_type_real">Reelle Zahl</string>
     <string name="field_list_caption">Eingabefelder der Sammlung</string>
     <string name="flextemplate_up_item">Aufwärts</string>
     <string name="flextemplate_down_item">Abwärts</string>
@@ -37,21 +37,21 @@
     <string name="template_title">Feldname</string>
     <string name="select_flex_template_title">Feldtyp</string>
     <string name="select_flex_template_role">Feldfunktion</string>
-    <string name="select_create_lib_template">Wähle eine Sammlungvorlage</string>
-    <string name="button_next">Nächste</string>
+    <string name="select_create_lib_template">Wähle eine Sammlungsvorlage</string>
+    <string name="button_next">Weiter</string>
     <string name="select_flex_template_type">Feldtyp</string>
-    <string name="default_value">Vorgabewert</string>
+    <string name="default_value">Standardwert</string>
     <string name="flex_template_options_title">Fortgeschrittene Parameter</string>
-    <string name="error_template_empty_title">Gebe den Feldnamen ein</string>
-    <string name="error_library_withous_name_flex">Ein Sammlung muss wenigstens ein Feld mit der Funktion – \"name\" haben.</string>
-    <string name="select_library_icon_activity">Wähle ein Icon für die Sammlung</string>
+    <string name="error_template_empty_title">Gib den Feldnamen ein</string>
+    <string name="error_library_withous_name_flex">Eine Sammlung muss mindestens ein Feld mit der Funktion \"name\" haben.</string>
+    <string name="select_library_icon_activity">Wähle ein Icon für die Sammlung aus</string>
     <string name="select_flex_template_role_title">Feldfunktion</string>
     <string name="library_edit2">Bearbeite die Sammlung</string>
     <string name="library_edit">Bearbeiten</string>
     <string name="library_delete">Löschen</string>
     <string name="library_delete_message_title">Lösche die Sammlung</string>
     <string name="library_delete_message_text">Soll die Sammlung \"%s\" wirklich gelöscht werden?</string>
-    <string name="error_library_empty_title">Gebe den Sammlungnamen ein</string>
+    <string name="error_library_empty_title">Gib den Sammlungsnamen ein</string>
     <string name="library_item_edit">Bearbeiten</string>
     <string name="library_item_delete">Löschen</string>
     <string name="library_item_delete_message_text">Soll der Eintrag \"%s\" wirklich gelöscht werden?</string>
@@ -138,11 +138,11 @@
     <string name="load_templates_message">Bite warten bis die Sammlung vorlagen geladen sind.</string>
     <string name="help_title">Memento Hilfe</string>
     <string name="activate_button_title">Aktiviere die PRO Version</string>
-    <string name="activate_button_hint">Dazu brauchen Sie den Aktivierungsschlüssel</string>
+    <string name="activate_button_hint">Dazu wird der Aktivierungsschlüssel benötigt</string>
     <string name="activate_main_text">Upgrade nach PRO Version</string>
     <string name="activation_dialog_text_hint">Aktivierungscode</string>
     <string name="activation_dialog_title">Upgrade zur PRO Version</string>
-    <string name="activation_ok">Danke dass Sie Memento aktiviert haben</string>
+    <string name="activation_ok">Danke, dass Sie Memento aktiviert haben</string>
     <string name="activation_error">Aktivierungscode ungültig. Bitte nochmal versuchen.</string>
     <string name="about">Über</string>
     <string name="copyright">Copyright © 2018 LuckyDroid
@@ -186,7 +186,7 @@
     <string name="empty_result_text">Sorry\nProdukt nicht gefunden</string>
     <string name="add_entry_manual">Manuell hinzufügen ...</string>
     <string name="fill_entry_manual">Manuell ergänzen ...</string>
-    <string name="flex_type_barcode">Barcode</string>
+    <string name="flex_type_barcode">Strichcode</string>
     <string name="flex_type_barcode_option">Automatisches Ausfüllen</string>
     <string name="button_add_fill_field">Regel zum Ausfülen erstellen</string>
     <string name="barcode_auto_fill_checkbox">Automatisches Ausfüllen</string>
@@ -223,19 +223,19 @@
     <string name="bind_to_gdocs_message">Verknüpfe die Sammlung mit Google Sheets.</string>
     <!-- für & wirklich amp notwendig? -->
     <string name="bind_to_gdocs_success">Die Sammlung wurde mit Google Sheets verknüpft.</string>
-    <string name="sync_with_gdocs_success">Die Sammlung wurde mit Google Text Tabellen synchronisiert</string>
-    <string name="sync_with_gdocs_success_2">Die Sammlung \"%s\" wurde mit Google Text Tabellen synchronisiert</string>
+    <string name="sync_with_gdocs_success">Die Sammlung wurde mit Google Tabellen synchronisiert</string>
+    <string name="sync_with_gdocs_success_2">Die Sammlung \"%s\" wurde mit Google Tabellen synchronisiert</string>
     <string name="sync_with_gdocs_title">Synchronisation mit Google Sheets</string>
     <string name="sync_with_gdocs_message">Synchronisation des Sammlung mit Google Text Tabellen.</string>
-    <string name="sync_with_gdocs">Synchronisiere mit Google Sheets</string>
+    <string name="sync_with_gdocs">Synchronisiere mit Google Tabellen</string>
     <string name="google_docs_task_step_auth">Authentifizierung an den Text Tabellen-Service</string>
     <string name="google_docs_task_step_get_rows">Empfange einen Listen-basierten Datenfluss</string>
     <string formatted="false" name="google_docs_task_step_process_row">Bearbeite Listenzeilen. %s von %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">Füge eine Listenzeile hinzu. %s von %s</string>
-    <string formatted="false" name="google_docs_task_step_update_row">Akualisiere eine Listenzeile. %s von %s</string>
+    <string formatted="false" name="google_docs_task_step_update_row">Aktualisiere eine Listenzeile. %s von %s</string>
     <string name="google_docs_task_create_document">Erstelle eine Tabelle</string>
     <string name="google_docs_task_create_worksheet">Hinzufügen eines Tabellenblattes</string>
-    <string name="google_docs_task_shange_columns">Tabellenblatt aktualisieren</string>
+    <string name="google_docs_task_shange_columns">Tabellenblatt wird aktualisiert</string>
     <string name="username_hint">Email Adresse</string>
     <string name="pass_hint">Passwort</string>
     <string name="gdocs_error">Fehler bei der Synchronisation mit Google Text &amp; Tabellen - %s</string>
@@ -255,7 +255,7 @@
     <string name="please_wait">Bitte warten...</string>
     <!-- 1.4.0 -->
     <string name="public_library_title">Veröffentliche Sammlung</string>
-    <string name="public_to_picasa_message">Upload von Sammlungbildern nach Picasa</string>
+    <string name="public_to_picasa_message">Upload von Bildern der Sammlung zu Picasa</string>
     <string name="public_to_picasa_create_album">Estelle ein Picasa Album für das veröffentlichte Sammlung</string>
     <string name="public_to_picasa_success">Upload der Bilder fertig</string>
     <string name="picasa_task_step_auth">Anmelden beim Picasa Service</string>
@@ -263,7 +263,7 @@
     <string name="public_library">Veröffentliche die Sammlung</string>
     <string name="update_public_library">Aktualisiere die veröffentlichten Sammlungen</string>
     <string name="memento_register_account_title">Erstelle ein Passwort\nauf dem Memento Server</string>
-    <string name="memento_register_account_text">Ein Passwort bei Memento ist notwendig um Sammlungen zu veröffentlichen und sie zu abonnieren</string>
+    <string name="memento_register_account_text">Ein Benutzerkonto bei Memento ist notwendig, um Sammlungen zu veröffentlichen und sie zu abonnieren</string>
     <string name="memento_login_hint">Benutzerkennung</string>
     <string name="memento_pass_hint">Passwort</string>
     <string name="memento_pass_hint2">Wiederhole Passwort</string>
@@ -272,7 +272,7 @@
     <string name="memento_have_button">Ich habe bereits ein Konto</string>
     <string name="login_empty">Benutzerkennung eingeben</string>
     <string name="login_format_error">Die Benutzerkennung darf nur aus Buchstaben und Zahlen bestehen</string>
-    <string name="pass_not_equal">Bitte kontrollieren Sie das Passwort nochmal</string>
+    <string name="pass_not_equal">Bitte bestätigen Sie das Passwort erneut</string>
     <string name="incorrect_email">Email ungültig</string>
     <string name="create_memento_account_dlg_title">Registrierung</string>
     <string name="create_memento_account_dlg_text">Registriere den Benutzer am Memento Server ...</string>
@@ -301,7 +301,7 @@
     <string name="alias_exists">Ein Sammlung mit dem gleichen Alias wurde bereits veröffentlicht</string>
     <string name="memento_forbidden_error">Zugriff auf die Sammlung ist nicht erlaubt</string>
     <string name="publish_library_address">Die Sammlung %s ist nun verfügbar unter</string>
-    <string name="publish_library_address_hint"> Ihre Bekannten können nun Memento benutzen um sich die Sammlung anzusehen. Zum Abonnieren sollte sie die oben genannte Adresse benutzen.</string>
+    <string name="publish_library_address_hint">Ihre Bekannten können Memento benutzen, um sich die Sammlung anzusehen. Zum Abonnieren sollten sie die oben genannte Adresse benutzen.</string>
     <string name="deafult_group_title">Meine Sammlungen</string>
     <string name="subscribe_activity_title">Sammlung abonnieren</string>
     <string name="library_uri_hint">Sammlung Adresse</string>
@@ -314,21 +314,21 @@
     <string name="wrong_library_address_format">Sammlungadresse Format ungültig</string>
     <string name="last_update">Letzte Aktualisierung: %s</string>
     <string name="subscribe_button">Abonnieren</string>
-    <string name="subscribe_task_get_library">Empfange Sammlungeinträge</string>
+    <string name="subscribe_task_get_library">Empfange Sammlungseinträge</string>
     <string name="subscribe_task_create_library">Erstelle Sammlung</string>
     <string formatted="false" name="subscribe_task_save_library_task">Speichere Einträge.\n%s von %s</string>
     <string name="subscribe_task_create_index">Erstelle Index</string>
     <string name="subscribes_group_title">Abonnements</string>
     <string name="library_settings">Einstellungen</string>
     <string name="subscribe_get_updated_pack">Prüfe auf Aktualisierungen</string>
-    <string name="subscribe_have_updated_pack">Empfange Sammlungaktualisierung</string>
+    <string name="subscribe_have_updated_pack">Sammlungsaktualisierung empfangen</string>
     <string name="subscribe_last_update">Letzte Aktualisierung %s</string>
     <string name="subscribe_last_update_dialog_title">Aktualisiere Sammlung</string>
     <string name="subscribe_last_update_dialog_message">Aktualisiere die Sammlung</string>
     <string name="clear_preference">Leere die Sammlung</string>
     <string name="clear_preference_hint">Lösche alle Einträge in dem Sammlung</string>
     <string name="clear_preference_quest">Löschen aller Einträge des Sammlung?</string>
-    <string name="last_sync">Letzte Aktualisierung: %s</string>
+    <string name="last_sync">Letzte Synchronisierung: %s</string>
     <string name="last_public">Veröffentlicht: %s</string>
     <string name="unpublic_library_title">Ziehe Veröffentlichung des Sammlung zurück</string>
     <string name="unpublic_library">Zurückziehen</string>
@@ -356,7 +356,7 @@
     <string name="export_template">Exportiere Vorlage</string>
     <string name="export_template_error">Fehler beim Export der Sammlungvorlagen: %s</string>
     <string name="import_template_success">Die Vorlage wurde importiert</string>
-    <string name="wrong_template_version">Ihre Version von Memento unterstützt die gewälte Vorlage nicht. Aktualisiere Memento.</string>
+    <string name="wrong_template_version">Ihre Version von Memento unterstützt die gewählte Vorlage nicht. Aktualisieren Sie Memento.</string>
     <string name="flex_type_library_entry">Verknüpfung zum Eintrag</string>
     <string name="flex_type_entry_option_title">Sammlung</string>
     <string name="flex_type_entry_option_dlg_title">Wähle Sammlung aus</string>
@@ -389,10 +389,10 @@
     <string name="help_library_items">Mit Sammlungeinträgen arbeiten</string>
     <string name="help_import_export">Importieren and Exportieren von CSV Dateien</string>
     <string name="help_barcode">Barcodescanner</string>
-    <string name="help_gdocs_sync">Synchronisiere mit Google Text &amp; Tabellen</string>
+    <string name="help_gdocs_sync">Synchronisiere mit Google Tabellen</string>
     <string name="help_publish">Sammlungen veröffentlichen</string>
     <string name="help_subscribe">Sammlungen abonnieren</string>
-<string name="sync_with_gdocs_message_2">Synchronisiere \"%s\" mit Google Sheets.</string>
+<string name="sync_with_gdocs_message_2">Synchronisiere \"%s\" mit Google Tabellen.</string>
     <string name="lib_protection">Schutz des Sammlung</string>
     <string name="set_library_protection">Schutz</string>
     <string name="set_master_pass_text">Erstelle ein Master-Passwort für den Zugriff auf die Datenbanken.\nDieses Master-Passwort muss eingegeben werden, um Zugriff zu den verschlüsselten Datenbanken zu erhalten.</string>
@@ -404,21 +404,21 @@
     <string name="button_continue">Fortsetzen</string>
     <string name="wrong_master_password">Ungültiges Passwort</string>
     <string name="library_is_locked">Der Zugriff auf die verschlüsselten Sammlungen ist gesperrt</string>
-    <string name="library_pass_access_description">Sie müssen das Master-Passwort eingeben, um Zugriff auf die verschlüsselten Dateien zu erhalten</string>
+    <string name="library_pass_access_description">Sie müssen das Master-Passwort eingeben, um auf diese Sammlung zuzugreifen</string>
     <string name="library_encription_checkbox">Inhalte verschlüsseln</string>
     <string name="set_library_protection_title">Einträge verschlüsseln</string>
     <string name="set_library_protection_message">Sammlung-Einträge werden verschlüsselt...</string>
     <string name="remove_library_protection">Schutz aufheben</string>
     <string name="remove_library_protection_desc">Für den Zugriff auf dieses Sammlung ist kein Passwort nötig</string>
-    <string name="remove_library_protection_question">Wollen Sie wirklich den Sammlung-Schutz aufheben?</string>
+    <string name="remove_library_protection_question">Wollen Sie wirklich den Schutz der Sammlung aufheben?</string>
     <string name="preference_category_security">Sicherheit</string>
     <string name="remove_library_protection_title">Schutz aufheben</string>
     <string name="remove_library_protection_message">Sammlung-Einträge werden entschlüsselt...</string>
-    <string name="change_master_password">Ändern Sie das Master-Passwort-Passwort</string>
+    <string name="change_master_password">Master-Passwort ändern</string>
     <string name="change_master_password_hint">Ihre Daten werden mit dem neuen Passwort erneut verschlüsselt.</string>
     <string name="old_master_pass_hint">Altes Passwort</string>
     <string name="new_master_pass_hint">Neues Passwort</string>
-    <string name="new_master_pass_hint2">Bestätigen Sie das Passwort</string>
+    <string name="new_master_pass_hint2">Passwort bestätigen</string>
     <string name="pass_changed">Das Passwort wurde erfolgreich geändert</string>
     <string name="library_protection_options">Sammlung Schutz</string>
     <string name="library_protection_not">Nichts</string>
@@ -453,10 +453,10 @@
     <string name="entry_field_value_font_size_preference_summary">Textgröße für Feld Wert</string>
     <string name="flex_type_calc">Berechnung</string>
     <string name="flex_type_calc_option_header">Ausdruck</string>
-    <string name="expression_hint">Geben Sie hier Ihre Berechnungsformel ein</string>
+    <string name="expression_hint">Berechnungsformel hier eingeben</string>
     <string name="add_function_button">Funktion hinzufügen</string>
     <string name="calc_result_type_prompt">Ergebnistyp</string>
-    <string name="save_library_task_message">Sichere Bibliotheksstruktur</string>
+    <string name="save_library_task_message">Speichere die Struktur der Sammlung</string>
     <string name="save_library_task_recalc">Felder neuberechnen</string>
     <string name="memento_funct_promt">Funktionen</string>
     <string name="help_calc">Berechnungsfeld</string>
@@ -467,8 +467,8 @@
     <string name="template_category">Kategorie</string>
     <string name="template_description">Beschreibung der Vorlage</string>
     <string name="button_share_template">Vorlage teilen</string>
-    <string name="share_template_text">Bibliotheksvorlage zum Online-Katalog hochladen</string>
-    <string name="share_success">Bibliotheksvorlage erfolgreich zum Online-K atalog hochgeladen</string>
+    <string name="share_template_text">Sammlungsvorlage in den Online-Katalog hochladen</string>
+    <string name="share_success">Sammlungsvorlage erfolgreich in den Online-Katalog hochgeladen</string>
     <string name="template_from_catalog_title">vom Online-Katalog</string>
     <string name="template_category_text">Vorlagenkategorie</string>
     <string name="template_description_title">Beschreibung der Vorlage</string>
@@ -510,10 +510,10 @@
     <string name="fill_required_fields">erforderliche Felder müssen ausgefüllt werden</string>
     <string name="required_mark">erforderlich</string>
     <string name="reset_master_password">Master Password zurück setzen</string>
-    <string name="reset_master_password_hint">Alle verschlüsselten Bibliotheken werde gelöscht</string>
-    <string name="reset_master_quest">Möchten Sie das Master Password wirklich zurück setzen?
-\nAchtung! Alle verschlüsselten Bibliotheken werden gelöscht!</string>
-    <string name="remove_encript_lib_dlg_msg">verschlüsselte Bibliotheken löschen</string>
+    <string name="reset_master_password_hint">Alle verschlüsselten Sammlungen werden gelöscht</string>
+    <string name="reset_master_quest">Möchten Sie das Master-Passwort wirklich zurücksetzen?
+Achtung! Alle verschlüsselten Sammlungen werden gelöscht!</string>
+    <string name="remove_encript_lib_dlg_msg">Verschlüsselte Sammlungen löschen</string>
     <string name="master_password_reset">Master Password zurück setzen</string>
     <string name="edit_entry_screen_preference">Einträge bearbeiten</string>
     <string name="edit_entry_screen_preference_summary">Formparameter für das Erstellen/Bearbeiten von Einträgen</string>
@@ -525,8 +525,8 @@
     <string name="select_app">Applikation auswählen</string>
     <string name="forum">Forum</string>
     <string name="autoincrement">automatisch verkleinern</string>
-    <string name="cant_protect">Die freie Version kann nur zwei Bibliotheken schützen.
-\nUpgrade zur Pro-Version zum Aufheben dieser Beschränkung.</string>
+    <string name="cant_protect">In der freien Version können nur zwei Sammlungen geschützt werden. 
+Upgrade zur PRO Version, um diese Beschränkung aufzuheben.</string>
     <string name="flex_edit_option_title">Wo Sie bearbeiten können</string>
     <string name="flex_edit_option_default">Form zum Bearbeiten der Einträge</string>
     <string name="flex_edit_option_in_list">Listeneinträge</string>
@@ -542,7 +542,7 @@
     <string name="google_doc_exists_link_option">Verknüpfungsparameter</string>
     <string name="get_google_docs_columns_message">Die Liste der Spalten für das ausgewählte Google Sheets wird geladen ...</string>
     <string name="field_not_found">nicht gefunden</string>
-    <string name="field_not_sync">nicht synchronisiert</string>
+    <string name="field_not_sync">Nicht synchronisiert</string>
     <string name="link_button">Verknüpfung</string>
     <string name="prepare_linking_library">Vorbereitung für das Verbinden...</string>
     <string name="error_prepare_linking">Während der Vorbereitung zur Verbindung ist ein Fehler aufgetreten: %s</string>
@@ -570,7 +570,7 @@
     <string name="select_field_title">Feld auswählen</string>
     <string name="dont_have_field_for_function">keine passenden Felder gefunden</string>
     <string name="line_number">Zeile %s</string>
-    <string name="ghostData_template_hint">Geben Sie einen Hinweis für das Feld ein</string>
+    <string name="ghostData_template_hint">Hinweis für das Feld eingeben</string>
     <string name="template_hint">Hinweis für Feld</string>
     <string name="time_default_now">aktuelle Zeit übernehmen</string>
     <string name="determination_location">Ort ermitteln...</string>
@@ -590,13 +590,13 @@
     <string name="add_group_dialog_hint">Gruppenname eingeben</string>
     <string name="button_delete_goup">Gruppe löschen</string>
     <string name="group_delete_message_title">Gruppe löschen</string>
-    <string name="group_delete_message_text">Möchte Sie die Gruppe \"%s\" wirklich löschen?</string>
+    <string name="group_delete_message_text">Möchten Sie die Gruppe \"%s\" wirklich löschen?</string>
     <string name="main_lock_button_text">Zugriff auf Sammlungen schützen</string>
     <string name="lock_libraries_completed">Zugriff auf verschlüsselte Bilbliotheken ist nicht möglich</string>
-    <string name="sync_google_all">mit Google synchronisieren</string>
+    <string name="sync_google_all">Mit Google synchronisieren</string>
     <string name="library_ex_options">Erweiterte Parameter</string>
     <string name="library_last_edit">Aktualisiert %s</string>
-    <string name="library_last_sync">Synchronisiere %s</string>
+    <string name="library_last_sync">%s synchronisieren</string>
     <string name="user_manual_menu">Inhalt der Hilfe</string>
     <string name="save_library_changes">Änderungen speichern?</string>
     <string name="build_navigate_list_dialog">Einträge sortieren...</string>
@@ -625,16 +625,18 @@
     <string name="most_popular">am Meisten gesehen</string>
     <string name="templates_sort_dialog_title">Vorlagen sortieren</string>
     <string name="delete_catalog_template_title">Vorlage löschen</string>
-    <string name="delete_catalog_template_message">Möchten Sie die Vorlage %s vom Online Katalog löschen?</string>
+    <string name="delete_catalog_template_message">Möchten Sie die Vorlage %s wirklich aus dem Online-Katalog löschen?</string>
     <string name="cant_share_template_withous_fields">Vorlagen ohne Felder können nicht geteilt werden</string>
     <string name="reset_pass_button">Password vergessen?</string>
     <string name="request_pass_dialog_title">Password ändern</string>
-    <string name="request_pass_dialog_text">Bitte geben Sie eine Mailadresse ein, damit wir Ihren Memento Zugang finden können</string>
+    <string name="request_pass_dialog_text">Bitte geben Sie eine E-Mail-Adresse ein, damit wir Ihr Memento Benutzerkonto finden können</string>
     <string name="request_pass_dialog_hint">Mailadresse</string>
-    <string name="change_password_success">Bitte prüfen Sie Ihre Mails\nWir haben Ihnen eine Mail mit Informationen zum zurücksetzen Ihres Passwordes gesendet.</string>
+    <string name="change_password_success">Bitte prüfen Sie Ihre E-Mails
+Wir haben Ihnen eine E-Mail geschickt, die das schnelle und einfache Zurücksetzen Ihres Passworts ermöglicht.</string>
     <string name="tile_options_text">Titel</string>
     <string formatted="false" name="library_item_position_text">%d%d</string>
-    <string name="search_in_protected_libraries">Suche in Password geschützten Bibliotheken\n(außer veschlüsselte)</string>
+    <string name="search_in_protected_libraries">Suche in passwortgeschützten Sammlungen 
+(außer in verschlüsselten Sammlungen)</string>
     <string name="stat_result_type">Ergebnisformat</string>
     <string name="backup_file_name_title">Backup Dateiname</string>
     <string name="backup_file_path_title">Backup Verzeichnis</string>
@@ -643,7 +645,7 @@
     <string name="backup_success2">Backup wurde fertig gestellt</string>
     <string name="restore_file_path_title">Verzeichnis mit Backups</string>
     <string name="auto_bakup_dir_pref_title">Verzeichnis für Auto-Backup</string>
-    <string name="google_play_not_found_message">Ihr Gerät hat kein Google Play. Sie können den OI Dateimanager von der Herstellerseite herunter laden.</string>
+    <string name="google_play_not_found_message">Ihr Gerät hat kein Google Play. Sie können den OI Dateimanager von der Herstellerseite herunterladen.</string>
     <string name="library_not_found_dialog_title">Sammlung</string>
     <string name="library_not_found_dialog_message">Sammlung wurde nicht gefunden. Es ist möglich, dass Ihre Sammlung entfernt wurde.</string>
     <string name="add_field_above">Feld obendrüber hinzufügen</string>
@@ -684,7 +686,7 @@
     <string name="backup_images_checkbox">Erzeuge eine Backupkopie der zugeordneten Bilder, Audio Records und anderer Dateien</string>
     <string name="backup_files_progress_title">Dateibackup</string>
     <string name="backup_files_error">Fehler während des Backupfiles: %s</string>
-    <string name="restore_files_message">Die Backupkopie enthält ein Archiv mit zugeordneten Dateien; Möchten Sie diese wiederherstellen?</string>
+    <string name="restore_files_message">Die Backupkopie enthält ein Archiv mit zugeordneten Dateien; möchten Sie diese wiederherstellen?</string>
     <string name="restore_files_progress_title">Dateien wiederherstellen</string>
     <string name="restore_files_success2">Alle zugehörigen Dateien zur Datenbank wurden entpackt</string>
     <string formatted="false" name="restore_files_error_message">Wiederherstellung der Dateien aus dem Archiv %s fehlgeschlagen</string>
@@ -693,7 +695,7 @@
     <string name="send_files_to_cloud_error">Fehler beim Hochladen der Dateien in die Cloud:</string>
     <string formatted="false" name="upload_file_to_cloud_message">Hochgeladen %s (%d%d)</string>
     <string name="prepare_google_sync">Verbinde mit Account...</string>
-    <string name="no_google_accounts">kein Google Account verfügbar. Bitte fügen Sie zuerst einen Account zum Gerät hinzu.</string>
+    <string name="no_google_accounts">Kein Google Account verfügbar. Bitte fügen Sie zuerst einen Account zum Gerät hinzu.</string>
     <string name="google_account_not_selected">Account nicht ausgewählt</string>
     <string name="bakup_files_need_pro_title">PRO Version erforderlich</string>
     <string name="bakup_files_need_pro_message">Das Erzeugen von Dateibackups ist nur in der PRO Version möglich</string>
@@ -727,9 +729,10 @@
     <string name="list_library_in_google">Verzeichnis der Sammlungen auf Google Drive</string>
     <string name="add_lib_from_google_drive">von Google Drive</string>
     <string name="selected">%s ausgewählt</string>
-    <string name="delete_template_from_google_drive_question">Möchten Sie die ausgewählten Bibliotheken auf Google Drive wirklich löschen?</string>
+    <string name="delete_template_from_google_drive_question">Möchten Sie die ausgewählten Sammlungen wirklich von Google Drive löschen?</string>
     <string name="delete_data_table_from_google_drive">"Löschen der Datentabellen,  die mit den Vorlagen verknüpft sind"</string>
-    <string name="lock_library_edit_message">Änderungen an der Struktur der Sammlung sind gesperrt.\nSie können die Bearbeitung in den Einstellungen der Sammlung erlauben.</string>
+    <string name="lock_library_edit_message">Änderungen an der Struktur der Sammlung sind gesperrt.
+Sie können die Bearbeitung in den Einstellungen dieser Sammlung erlauben.</string>
     <string name="lock_edit_library_pref_title">Struktur sperren</string>
     <string name="lock_edit_library_pref_summary_on">Veränderungen an der Struktur der Sammlung sind nicht erlaubt</string>
     <string name="lock_edit_library_pref_summary_off">Änderungen an der Struktur der Sammlung sind erlaubt</string>
@@ -752,7 +755,7 @@
     <string name="view_on_this_page_title">auf dieser Seite anzeigen</string>
     <string name="set_default_page">Als Standard einstellen</string>
     <string name="entry_page_default">Standard</string>
-    <string name="entry_page_delete_message_text">Wollen Sie die Seite %s wirklich löschen?</string>
+    <string name="entry_page_delete_message_text">Wollen Sie die Seite \"%s\" wirklich löschen?</string>
     <string name="faq">FAQ</string>
     <string name="accept_button">Ich akzeptiere</string>
     <string name="sort_by_subtitle">nach %s</string>
@@ -763,12 +766,12 @@
 \nSortieren, Gruppieren, Filtern, Diagramme und mehr ...</string>
     <string name="multy_sorting">Sortieren mit mehreren Feldern</string>
     <string name="new_button">neu</string>
-    <string name="free_version_entry_page_limit">In der freien Version können Sie nur zwei Seiten erstellen. Die PRO Version hebt diese Einschränkung auf.</string>
+    <string name="free_version_entry_page_limit">In der freien Version können Sie nur zwei Seiten erstellen. Upgraden Sie auf die PRO Version, um diese Einschränkung aufzuheben.</string>
     <string name="button_change_activation_code">Aktivierung</string>
     <string name="select_button">Auswahl</string>
     <string name="clear_button">Löschen</string>
     <string name="image_info_button">Info</string>
-    <string name="error_library_not_unique_field_names">Feldnamen müssen eindeutig sein. Prüfen Sie das Feld %s.</string>
+    <string name="error_library_not_unique_field_names">Die Feldnamen see Sammlung müssen eindeutig sein. Prüfen Sie das Feld %s.</string>
     <string name="info_path">Pfad:</string>
     <string name="info_resolution">Auflösung:</string>
     <string name="info_size">Größe:</string>
@@ -804,7 +807,7 @@
     <string name="chart_option_display_legends">Legende anzeigen</string>
     <string name="chart_values_function">Funktion</string>
     <string name="chart_edit_error_need_title">Chartname eingeben</string>
-    <string name="chart_delete_message">Möchten Sie das Chart %s wirklich löschen?</string>
+    <string name="chart_delete_message">Möchten Sie das Diagramm \"%s\" wirklich löschen?</string>
     <string name="chart_other_value">Andere</string>
     <string name="pie_chart_category_title">Kategorie</string>
     <string name="pie_chart_values_title">Werte</string>
@@ -828,15 +831,15 @@
     <string name="chart_to_image_file_name">Dateiname eingeben</string>
     <string name="copy_chart_menu_item">Kopie</string>
     <string name="change_chart_type_dialog_title">Verfügbare Typen</string>
-    <string name="chart_dont_have_compatible_types">Der Typ des Charts ist nicht kompatibel mit anderen Typen</string>
+    <string name="chart_dont_have_compatible_types">Die Art dieses Diagramms ist nicht kompatibel mit anderen Arten von Diagrammen</string>
     <string name="chart_copy_title_postfix">Kopie</string>
     <string name="chart_validate_error_empty_fields">Sie müssen ein Datenfeld auswählen</string>
     <string name="no_data_for_chart">Keine Daten</string>
-    <string name="cant_delete_charts_filter_message">Sie können diesen Filter nicht entfernen, da er für Charts verwendet wird: %s</string>
-    <string name="cant_delete_charts_field_message">Sie können dieses Feld nicht entfernen, es wird in Chats benutzt: %s</string>
+    <string name="cant_delete_charts_filter_message">Sie können diesen Filter nicht entfernen, da er für Diagramme verwendet wird: %s</string>
+    <string name="cant_delete_charts_field_message">Sie können dieses Feld nicht entfernen, weil es für Diagramme benutzt wird: %s</string>
     <string name="save_to_file_name">Dateiname</string>
     <string name="save_to_file_directory">Verzeichnis</string>
-    <string name="need_pro_for_charts">In der kostenlosen Version kann eine Sammlung nur ein Chart enthalten. Um diese Beschränkung aufzuheben, kaufen Sie die PRO Version.</string>
+    <string name="need_pro_for_charts">In der kostenlosen Version kann eine Sammlung nur ein Diagramm enthalten. Um diese Beschränkung aufzuheben, kaufen Sie die PRO Version.</string>
     <string name="need_internet_for_charts">Google Charts benötigt eine Verbindung zum Internet</string>
     <string name="download_image_from_google_photo_message">Bild von Google Photo herunterladen...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">Für diese Felder werden Daten aus dem Web verwendet</string>
@@ -848,8 +851,8 @@
     <string name="sd_storage_title">SD Karte</string>
     <string name="external_storage_title">externer Speicher</string>
     <string name="custom_storage_title">Benutzer</string>
-    <string name="choose_dir">Wählen Sie ein Sammlung aus</string>
-    <string name="choose_file">Wählen Sie eine Datei aus</string>
+    <string name="choose_dir">Ordner auswählen</string>
+    <string name="choose_file">Datei auswählen</string>
     <string name="file_is_not_database">Die ausgewählte Datei ist keine Datenbank</string>
     <string name="create_collection">Sammlung erstellen</string>
     <string name="edit_collection">Sammlung bearbeiten</string>
@@ -864,7 +867,7 @@
     <string name="edit_library_main_color">Farbe der Sammlung</string>
     <string name="color_swatch_description">Farbe %d</string>
     <string name="color_swatch_description_selected">Farbe %d ausgewählt</string>
-    <string name="button_palette">Palette</string>
+    <string name="button_palette">Palette...</string>
     <string name="button_own_pictures">Gallerie...</string>
     <string name="icon_pack_title_flat">flach</string>
     <string name="icon_pack_title_circle">Kreise</string>
@@ -898,7 +901,7 @@
     <string name="empty_chart_list_text">Diese Sammlung enthält keine Charts.</string>
     <string name="empty_entry_list_text">Diese Sammlung enthält momentan keine Einträge.</string>
     <string name="empty_recycle_bin_text">Es sind keine Einträge zur Wiederherstellung vorhanden.</string>
-    <string name="empty_main_recycle_bin_text">Keine Bibliotheken für eine Wiederherstellung verfügbar.</string>
+    <string name="empty_main_recycle_bin_text">Keine Sammlungen für eine Wiederherstellung verfügbar.</string>
     <string name="string_edit_cap_options_title">Großschreibung</string>
     <string name="string_edit_cap_options_none">Nein</string>
     <string name="string_edit_cap_options_sent">Am Anfang vom Satz</string>
@@ -932,7 +935,7 @@
     <string name="export_template_snackbar_ok">Die Vorlage wurde exportiert</string>
     <string name="import_template_error">Fehler beim Vorlagenimport: %s</string>
     <string name="mass_delete_string_list_item_message">Sind Sie sicher, dass Sie die ausgewählten Einträge löschen wollen?</string>
-    <string name="reminders_count_limit">Sie können maximal 10 Erinnerungen hinzufügen</string>
+    <string name="reminders_count_limit">Sie können maximal 10 Erinnerungen für ein Feld hinzufügen</string>
     <string name="aggregation_add_item_dialog_title">Aggregation Funktion hinzufügen</string>
     <string name="aggregation_edit_item_dialog_title">Aggregation Funktion bearbeiten</string>
     <string name="aggregation_result_position">Position</string>
@@ -940,8 +943,8 @@
     <string name="aggregation_result_left">links</string>
     <string name="aggregation_result_right">rechts</string>
     <string name="aggregation_delete_title">Aggregation löschen</string>
-    <string name="aggregation_delete_message">Möchten Sie die Aggregation \"%s\" löschen?</string>
-    <string name="aggregation_need_select_field_message">Sie müssen ein Feld für die Aggregation auswählen</string>
+    <string name="aggregation_delete_message">Möchten Sie die Gruppierung \"%s\" wirklich löschen?</string>
+    <string name="aggregation_need_select_field_message">Sie müssen ein Feld für diese Gruppierung auswählen</string>
     <string name="open_object_by_uri_error">Objekt %s kann nicht geöffnet werden</string>
     <string name="import_and_export_menu_item">Import und Export...</string>
     <string name="entries_export_snackbar_ok">Einträge wurden erfolgreich exportiert</string>
@@ -950,7 +953,9 @@
     <string name="csv_import_errors_count">Fehler:</string>
     <string formatted="false" name="csv_import_error_item">Zeile %d - %s</string>
     <string name="undo_button">Rückgängig</string>
-    <string name="google_sync_without_memento_id_text">Diese Sammlung wurde unter Verwendung der alten Methode synchronisiert, die fehlergaft ist.\nÜbertragen Sie die Sammlung in eine neue Tabelle und nutzen Sie die neue Methode.\nMöchten Sie den Vorgang starten?</string>
+    <string name="google_sync_without_memento_id_text">Diese Sammlung wurde unter Verwendung der alten Methode synchronisiert, die fehlerhaft ist.
+Übertragen Sie die Sammlung in eine neue Tabelle, um die neue Methode zu nutzen.
+Möchten Sie den Vorgang jetzt starten?</string>
     <string name="rating_field_max_value">Maximum Rate</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d Stern</item>
@@ -962,9 +967,9 @@
 </plurals>
     <string name="auto_fill_barcode_empty2">Vergleiche die Attribute der Vervollständigung</string>
     <string name="barcode_rule_delete_title">Löschen der Regel</string>
-    <string name="barcode_rule_delete_text">Möchten Sie die Autovervollständigungsregel für das Feld \"%s\" löschen?</string>
-    <string name="multi_library_item_trush_message_text">Möchten Sie die ausgewählten Einträge in den Papierkorb verschieben?</string>
-    <string name="multi_library_item_delete_message_text">Möchten Sie die ausgewählten Einträge löschen?</string>
+    <string name="barcode_rule_delete_text">Möchten Sie die Autovervollständigungsregel für das Feld \"%s\" wirklich löschen?</string>
+    <string name="multi_library_item_trush_message_text">Möchten Sie die ausgewählten Einträge wirklich in den Papierkorb verschieben?</string>
+    <string name="multi_library_item_delete_message_text">Möchten Sie die ausgewählten Einträge wirklich löschen?</string>
     <string name="delete_library_snackbar_text">Sammlung \"%s\" wurde in den Papierkorb verschoben</string>
     <string name="deleted">gelöscht</string>
     <string name="library_recover_dialog_text">Möchten Sie die Sammlung \"%s\" wiederherstellen?</string>
@@ -985,8 +990,8 @@
     <string name="calc_value_type_number">Nummerischer Wert</string>
     <string name="calc_value_type_string">Text</string>
     <string name="sort_by_downloads">nach Downloads sortieren</string>
-    <string name="need_auth_on_memento_server">Sie müssen einen Account auf dem Memento Server erstellen</string>
-    <string name="empty_my_templates_list">Sie haben keine veröffentlichten Vorlagen für Bibliotheken.</string>
+    <string name="need_auth_on_memento_server">Sie müssen ein Benutzerkonto für die Memento cloud erstellen</string>
+    <string name="empty_my_templates_list">Sie haben keine veröffentlichten Sammlungsvorlagen.</string>
     <string name="empty_field_depend_list">Dieses Feld hat keine Abhängigkeiten zu anderen Feldern.</string>
     <string name="share_template_dialog_title">Teile Vorlage über den Online Katalog</string>
     <string name="catalog_templates">Vorlagenkatalog</string>
@@ -1017,8 +1022,8 @@
     <string name="auto_backup_run_group">Wenn das Autobackup gestartet wird</string>
     <string name="auto_backup_when_close_app">Nachdem die Applikation geschlossen wurde</string>
     <string name="auto_backup_when_sync">vor der Synchronisation mit Google</string>
-    <string name="auto_backup_when_edit_libs">bevor die Bibliotheken geändert werden</string>
-    <string name="free_version_multi_field_limit">In der freien Version können Sie nur zwei Elemente hinzufügen. In der PRO Version gibt es keine Beschränkungen.</string>
+    <string name="auto_backup_when_edit_libs">Bevor die Sammlung gewechselt wird</string>
+    <string name="free_version_multi_field_limit">In der freien Version können Sie nur zwei Elemente hinzufügen. Upgraden Sie auf die PRO Version, um diese Beschränkung zu entfernen.</string>
     <string name="scale">Skalieren %d</string>
     <plurals name="duration_seconds">
 	<item quantity="one">1 Sekunde</item>
@@ -1053,7 +1058,7 @@
     <string name="calendar_3day_view">3 Tagesansicht</string>
     <string name="calendar_week_view">Wochenansicht</string>
     <string name="go_to_date">zu Datum gehen</string>
-    <string name="lost_linked_library">Verknüpfte Sammlung wurde nicht gefunden, kann sein das Sie entfernt wurde.</string>
+    <string name="lost_linked_library">Verknüpfte Sammlung wurde nicht gefunden, vielleicht wurde sie gelöscht.</string>
     <string name="multichoice_field_empty">Keine Werte für diese Auswahl</string>
     <string name="show_add_button_on_tile">Knopf \"Eintrag hinzufügen\"</string>
     <string name="cant_find_audio_selection_app">Entschuldigung, aber die Applikation für den Audio Track wurde nicht gefunden.</string>
@@ -1076,7 +1081,7 @@
 	<string name="use_depend_only_in_edit_hint_true">Nur während Bearbeitung des Eintrages</string>
     <string name="use_depend_only_in_edit_hint_false">Während Bearbatung und lesen des Eintrages</string>
 	<string name="most_viewed_templates">Am Meisten gelesen</string>    
-	<string name="select_template_lang">Wählen Sie die Sprache des Schablones</string>
+	<string name="select_template_lang">Sprache der Vorlage auswählen</string>
 	<string name="display_lang_option">Filtern nach Sprache</string>
 	<string name="display_lang_option_all">Alle Vorlagen</string>
 	<string name="entries_name_dialog_title">Namen der Einträge werden bestimmt nach die Werte der ausgewählen Felder</string>
@@ -1086,12 +1091,14 @@
 	<string name="update_item_name_index">Baue Index auf ...</string>	
 	<string name="entry_name_must_be_notnull">Der Eintragsname sollte nicht leer sein</string>
 	<string name="library_have_duplicates">Einträge mit ähnlichen Namen im Sammlung</string>
-	<string name="library_have_duplicates2">Für gutes Funktionieren ändern oder löschen Sie doppelte Einträge.</string>
+	<string name="library_have_duplicates2">Ändern oder löschen Sie Duplikate für korrekte Funktion.</string>
 	<string name="dont_show_anymore">Nicht mehr zeigen</string>
-	<string name="need_make_slave_library_unique">Um “Verknüpfung zum Eintrag“-Felder zu synchronisieren, müssen Sie im Sammlung, auf das sich die Verknüpfung bezieht, die Eindeutigkeit des Eintragsnamens aktivieren.\nWissen Sie das?</string>
-	<string name="need_make_slave_library_unique_import">Um “Verknüpfung zum Eintrag“-Felder zu importieren, müssen Sie im Sammlung, auf das sich die Verknüpfung bezieht, die Eindeutigkeit des Eintragsnamens aktivieren.\nWissen Sie das?</string>
+	<string name="need_make_slave_library_unique">Um “Verknüpfung zum Eintrag“-Felder zu synchronisieren, müssen Sie die Eindeutigkeit des Eintragsnamens in der Sammlung, auf die sich die Verknüpfung bezieht, aktivieren.
+Möchten Sie das jetzt tun?</string>
+	<string name="need_make_slave_library_unique_import">Um “Verknüpfung zum Eintrag“-Felder zu importieren, müssen Sie im Sammlung, auf das sich die Verknüpfung bezieht, die Eindeutigkeit des Eintragsnamens aktivieren.
+Wissen Sie das?</string>
 	<string name="run_sync_slave_libraries_pref">Verknüpfte Sammlungen</string>
-	<string name="run_sync_slave_libraries_summary">Synchronisieren Sie zuerst verknüpfte Verzeignisse</string>
+	<string name="run_sync_slave_libraries_summary">Zuerst verknüpfte Sammlungen synchronisieren</string>
 	<string name="choice_type_add_button_in_edit_title">Erstellung von Elementen erlauben, während ein Eintrag bearbeitet wird</string>
 	
 	<string name="show_deleted_entries_menu_item">"Zeige gelöschte Einträge "</string>
@@ -1100,14 +1107,15 @@
 	<string name="start_remove_librarary_from_cloud">Sammlung wird gelöscht...</string>
 	<string name="success_remove_librarary_from_cloud">Sammlung mit erfolg gelöscht aus der Cloud</string>
 	<string name="start_upload_library_to_cloud">Sammlung wird hochgeladen...</string>	
-	<string name="success_upload_library_to_cloud">Die Sammlung wurde erfolgreich hochgeladen...\nDie Sammlung wird automatisch synchronisiert.</string>
+	<string name="success_upload_library_to_cloud">Die Sammlung wurde erfolgreich hochgeladen.
+Die Sammlung wird automatisch synchronisiert.</string>
 	<string name="push_entries_to_cloud_message" formatted="false">"Einträge werden hochgeladen
 \n%s von %s Einträgen verarbeitet "</string>
 	<string name="permissions">Erlaubnisse</string>
 	<string name="button_hide">Verstecken</string>	
 	<string name="empty_cloud_libraries_list_text">Sie haben keine hochgeladen Sammlungen</string>
 	<string name="my_cloud_libraries_menu_item">Cloud Speicher</string>
-	<string name="start_download_library_model">Bibliotheksstruktur wird hochgeladen ...</string>
+	<string name="start_download_library_model">Sammlungsstruktur wird hochgeladen...</string>
 	<string name="open_library">Sammlung öffnen</string>
 	<string name="open_library_hint">Öffne lokale Kopie</string>
 	<string name="download_library">Sammlung wird eingelesen</string>
@@ -1118,7 +1126,7 @@
     <string name="button_select">Auswählen</string>
     <string name="cloud">Cloud</string>
     <string name="library_not_in_cloud">Nicht in der Cloud</string>
-    <string name="synced">Synchronisiert %s</string>
+    <string name="synced">%s synchronisiert</string>
     <string name="cloud_synced_progress">Synchronisation...</string>
     <string name="cloud_offline">Offline</string>
     <string name="cloud_last_sync">Letzte Synchronisierung</string>
@@ -1126,9 +1134,9 @@
     <string name="cloud_created">Erstellt</string>
     <string name="cloud_modified">Geändert</string>
     <string name="cloud_size">Größe</string>
-    <string name="cloud_server_unavaliable">"Memento Cloud Server ist nicht erreichbar, checken Sie die Verbindung zum Internet, ob diese auf Ihrem Gerät eingeschaltet ist. "</string>
+    <string name="cloud_server_unavaliable">Memento Cloud Server ist nicht erreichbar, überprüfen Sie die Internetverbindung auf Ihrem Gerät</string>
     <string name="delete_from_cloud">Löschen aus der Cloud</string>
-    <string name="delete_from_cloud_message_question">Wollen Sie wirklich die Sammlung aus der Cloud löschen?</string>
+    <string name="delete_from_cloud_message_question">Möchten Sie wirklich die Sammlung aus der Cloud löschen?</string>
         
     <string name="byteShort">B</string>    
     <string name="kilobyteShort">KB</string>
@@ -1139,9 +1147,10 @@
     <string name="start_download_file_from_cloud">"Datei %s wird heruntergeladen "</string>
     <string name="upload_file_to_cloud">Datei wird hochgeladen...</string>    
     <string name="upload_files_to_cloud">Dateien werden hochgeladen</string>
-    <string name="cloud_upload_error_title">Wir konnten dieses Sammlung nicht synchronisieren</string>
+    <string name="cloud_upload_error_title">Wir konnten diese Sammlung nicht synchronisieren</string>
     <string name="featured_templates">Bevorzugt</string>
-	<string name="welcome_text_description">Die Sammlung ist der Platz, wo Ihre Einträge gespeichert werden.\nSie können mit der Einarbeitung in das Programm beginnen, indem Sie ein Sammlung erstellen, das auf einer der mitgelieferten Vorlagen basiert.</string>
+	<string name="welcome_text_description">Die Sammlung ist der Platz, wo Ihre Einträge gespeichert werden.
+Sie können mit der Einarbeitung in das Programm beginnen, indem Sie eine Sammlung erstellen, die auf einer der mitgelieferten Vorlagen basiert.</string>
 	
 	<string name="success_pull_library_from_cloud">Einträge wurden erfolgreich heruntergeladen.\nDie Sammlung wird automatisch synchronisiert.</string>
 	<string name="cloud_files_count">Dateien Anzahl</string>
@@ -1160,7 +1169,7 @@
 	<string name="user_not_found">Anwender nicht gefunden</string>
 	<string name="push_error_forbidden">Zugriff verweigert</string>
 	<string name="button_ignore">Ignorieren</string>
-	<string name="cloud_library_forbidden">Sie haben kein Zugriffsberechtigung für dieses Sammlung</string>
+	<string name="cloud_library_forbidden">Sie haben keine Zugriffsberechtigung für diese Sammlung</string>
 	<string name="shared_with_me">Mit mir geteilt</string>
 	<string name="entry_author">Verfasser</string>
 	<string name="info_menu_item">Info</string>   
@@ -1168,7 +1177,7 @@
 	<item quantity="one">%d Konflikt aufgetreten während Synchronisation</item>
 	<item quantity="other">%d Konflikte aufgetreten während Synchronisation</item>
 </plurals>
-    <string name="library_cloud_model_changed_message">Die Bibloptheksstrukturwurde ind er Cloud aktualisiert. Aktualisieren Sie die Struktur für weitere Synchronisation.</string>
+    <string name="library_cloud_model_changed_message">Die Struktur der Sammlung wurde in der Cloud aktualisiert. Aktualisieren Sie die Struktur für weitere Synchronisierung.</string>
     <string name="price_per_month">%s pro Monat</string>
 	<string name="unlimited_libraries">Unbegrenzte Sammlungen</string>	
 	<string name="adv_free">Keine Werbung</string>
@@ -1193,12 +1202,12 @@
 	
 	<string name="cant_upload_file_to_cloud">Datei(en) hochladen fehlgeschlagen.</string>
     <string name="button_show">Zeigen</string>
-	<string name="cant_add_yourself">Sie können Sich selbst nicht hinzufügen</string>
+	<string name="cant_add_yourself">Sie können sich selbst nicht hinzufügen</string>
 	<string name="select_template_title">Vorlage auswählen</string>
 	<string name="empty_library_title">Leere Sammlung</string>
 	<string name="catalog_templates_hint">Mehr als 3000 Vorlagen</string>
 	<string name="templates">Vorlagen</string>
-	<string name="success_upload_library_to_cloud2">Sie können Ihren Sammlung zugänglich machen für andere Memento Anwender in den Zugriff Einstellungen.</string>
+	<string name="success_upload_library_to_cloud2">Sie können Ihre Sammlung in den Zugangseinstellungen für andere Memento-Nutzer zugänglich machen.</string>
 	<string name="upload_big_file_error" formatted="false">Eintrag enthält grosser Datei %s (%s).\nMaximale Dateigröße ist %s.</string>
     <string name="edit_permission">Einstellungen für teilen mit Anwender</string>	
 	<string name="start_download_slave_library_model">Hochladen abhängiges Sammlung %s</string>
@@ -1219,7 +1228,7 @@
 	<string name="music_brainz_source_artist">Musikartisten</string>
     <string name="music_brainz_source_album">Alben</string>
 	<string name="music_brainz_source">musicbrainz.org</string>
-	<string name="google_books_source">Google Books</string>
+	<string name="google_books_source">Google Bücher</string>
     <string name="google_books_source_books">Bücher</string>
     <string name="themoviedb_source">themoviedb.org</string>
     <string name="themoviedb_source_movies">Filme</string>
@@ -1243,8 +1252,8 @@
     <string name="font_style_italic">Kursiv</string>
     <string name="font_style_bold_italic">Fett kursiv</string>
     <string name="push_entry_error_text" formatted="false">Der Eintrag is nicht in die Cloud eingespeichert\nName: %s\nFehler: %s</string>
-	<string name="need_upload_to_cloud_slave_libraries">Bitte laden Sie abhängige Sammlungen in die Cloud.</string>
-	<string name="open_access_for_slave_libraries">Bearbeiten Sie Lesezugriff zu abhängige Sammlungen</string>
+	<string name="need_upload_to_cloud_slave_libraries">Bitte laden Sie abhängige Sammlungen in die Cloud hoch.</string>
+	<string name="open_access_for_slave_libraries">Leseberechtigung für untergeordnete Sammlungen bereitstellen</string>
 	<string name="cloud_file_while_not_upload">Die Datei ist noch nicht in die Cloud</string>
 	<string name="button_tarifs">Preispläne</string>
 	<string name="cloud_storage_plans">Preispläne</string>
@@ -1259,19 +1268,23 @@
     <string name="cloud_storage_full_text">Speicherplatz in der Cloud nicht ausreichend.
 \nKaufen Sie ein Upgrade, um mehr Speicherplatz zu erhalten.</string>
 	<string name="cloud_storage_full_text2" formatted="false">Speicherplatz in der Cloud nicht ausreichend.
-\n%s notwendig, aber nur %s verfügbar.
-\nKaufen Sie ein Upgrade, um mehr Speicherplatz zu erhalten.</string>
+%s notwendig, aber nur %s verfügbar.
+Kaufen Sie ein Upgrade, um mehr Speicherplatz zu erhalten.</string>
 	<string name="alien_cloud_storage_full_text">Der Eigentümer des Sammlung hat zu wenig Speicherplatz zur Verfügung.</string>
 	<string name="subscription_reactivation_error">Keine aktiven Abonnements: %s</string>
-	<string name="return_to_free_plan_message">Wechseln Sie zu einem kostenlosen Account, indem Sie in Google Play Ihr kostenpflichtiges Abonnement kündigen</string>
-	<string name="upload_ecrypted_libraries_dont_supported">Verschlüsselte Bibliotheken können temporär nicht in der Cloud gespeichert werden.</string>
-	<string name="cloud_library_not_found">Die Sammlung konnte nicht in der Cloud gefunden werden. Wurde sie gelöscht?\nSoll eine lokale Kopie erstellt werden?</string>
-	<string name="upload_to_cloud_offer_text">• Teamwork\n• Synchronisieren auf allen Geräten\n• Backup in der Cloud\n• Versionen-Historie</string>
+	<string name="return_to_free_plan_message">Sie können zu einem kostenlosen Account wechseln, indem Sie Ihr kostenpflichtiges Abo in Google Play löschen</string>
+	<string name="upload_ecrypted_libraries_dont_supported">Verschlüsselte Sammlungen können temporär nicht in der Cloud gespeichert werden.</string>
+	<string name="cloud_library_not_found">Die Sammlung konnte nicht in der Cloud gefunden werden. Eventuell wurde sie gelöscht.
+Soll eine lokale Kopie erstellt werden?</string>
+	<string name="upload_to_cloud_offer_text">• Teamwork
+• Synchronisieren auf allen Geräten
+• Backup in der Cloud
+• Versionsverlauf</string>
 	<string name="invalid_library_template_file_format">Ungültiges Dateiformat der Vorlage</string>    
 	<string name="remove_from_old_public">Vor dem Hochladen der Sammlung in die Cloud wird die Veröffentlichung rückgängig gemacht, falls sie über veraltete Methoden erfolgt war.</string>
 	<string name="subscription_pro_bonus_text">Die meisten Preispläne für Cloudspeicher enthalten die PRO-Version als Bonus</string>
 	<string name="clear_search_history_hint">Entfernt alle bislang durchgeführten Suchen</string>
-	<string name="clear_search_history_quest">Sind Sie sich sicher, dass Sie ihre gesamten bislang ausgeführten Suchen löschen wollen?</string>
+	<string name="clear_search_history_quest">Sind Sie sicher, dass Sie den Suchverlauf löschen möchten?</string>
 	<string name="view_csv_error_dialog_message">Keine Anwendung zur Anzeige von CSV-Dateien gefunden</string>
 	
 	<string name="autofill_by_barcode">Nach Barcode</string>
@@ -1288,13 +1301,14 @@
     <string name="encryption_for_cloud_uploaded_library">Verschlüsselung kann nur vor dem Hochladen in die Cloud aktiviert werden.</string>
     <string name="need_reload_library_from_cloud_encrypted">Kopien der Sammlung im Cloudspeicher wurden verschlüsselt.
 \nLöschen Sie die lokale Kopie der Sammlung und laden Sie die Sammlung dann aus der Cloud herunter.</string>
-    <string name="need_reload_library_from_cloud_decrypted">Kopien der Sammlung im Cloudspeicher wurden entschlüsselt.
-\nLöschen Sie die lokale Kopie der Sammlung und laden Sie die Sammlung dann aus der Cloud herunter.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Sammlungskopien im Cloudspeicher wurden entschlüsselt.
+
+Löschen Sie die lokale Kopie der Sammlung und laden Sie die Sammlung dann erneut aus der Cloud herunter.</string>
 
     <string name="protected_libraries_not_show_in_widget">Sammlung ist geschützt und kann nicht angezeigt werden</string>
     <string name="widget_free_limit_item_text">Ansicht aller Datensätze nur für Nutzer der PRO-Version</string>
     <string name="rate_me_dialog_title">Gefällt Ihnen Memento?</string>
-    <string name="rate_me_dialog_text">Bewerten Sie uns in Google Play</string>
+    <string name="rate_me_dialog_text">Bitte bewerten Sie uns im Google Play Store</string>
     <string name="preparing_files_for_sending">Versand wird vorbereitet...</string>
     <string name="font_style">Stil</string>
     <string name="font_sample">Beispiel</string>
@@ -1305,10 +1319,10 @@
     <string name="rating_tooltips_empty">Feld enthält keine Hinweise</string>
     <plurals name="rating_tooltips_count">
 	<item quantity="one">%d Hinweis</item>
-	<item quantity="other">%d Hinweis</item>
+	<item quantity="other">%d Hinweise</item>
 </plurals>
     <string name="calculator">Rechner</string>
-    <string name="calculator_options_hint">Um den Rechner anzuzeigen, fügen Sie eine Schaltfläche hinzu</string>
+    <string name="calculator_options_hint">Schaltfläche zum Anzeigen des Rechners hinzufügen</string>
     <string name="filter_by_number">Nach Anzahl filtern</string>
     <string name="filter_by_string">Nach Text filtern</string>
     <string name="multiediting_only_in_pro">Simultane Bearbeitung mehrerer Datensätze nur in der PRO-Version.</string>
@@ -1323,7 +1337,7 @@
     <string name="cloud_library_notification_hint">Push-Benachrichtigungen, sobald andere Nutzer die Sammlung ändern</string>
     <string name="cloud_library_notification_title">Benachrichtigungen</string>
     <string name="comments">Kommentar</string>
-    <string name="comment_input_hint">Schreiben Sie einen Kommentar</string>
+    <string name="comment_input_hint">Kommentar schreiben</string>
     <string name="comment_send_error">Fehler beim Senden des Kommentars: %s</string>
     <string name="edit_comment_dialog_title">Kommentar bearbeiten</string>
 
@@ -1356,11 +1370,11 @@
     <string name="select_calc_preview_entry">Eintrag für Vorschau</string>
     <string name="calc_preview_title">Vorschau</string>
     <string name="add_relationship">Beziehung</string>
-    <string name="add_relationship_with_title">Wählen Sie eine zweite Sammlung aus</string>
-    <string name="add_relationship_success">Die Beziehung zwischen beiden Bibliotheken wird über das Feld \"%s\" hergestellt.</string>
-    <string name="create_shortcut_text">Benennen Sie diesen Shortcut</string>
+    <string name="add_relationship_with_title">Zweite Sammlung auswählen</string>
+    <string name="add_relationship_success">Die Beziehung zwischen den Sammlungen wird über das Feld \"%s\" hergestellt.</string>
+    <string name="create_shortcut_text">Einen Namen für diesen Shortcut hinzufügen</string>
     <string name="permission_storage_title">Speicher</string>
-    <string name="permission_storage_text">Um fortzufahren, gewähren Sie Memento Zugriff auf Ihren Speicher.</string>
+    <string name="permission_storage_text">Gewähren Sie Memento Zugriff auf Ihren Speicher um fortzufahren.</string>
     <string name="permission_storage_explanation_text">Speicherzugang ist notwendig, um Dateien zwischenzuspeichern, zu sichern und Dateianhänge zu speichern.</string>
     <string name="permission_accounts_title">Konten</string>
     <string name="permission_location_title">Ort</string>
@@ -1447,9 +1461,9 @@
 	<item quantity="one">Ein Kommentar</item>
 	<item quantity="other">%d Kommentare</item>
 </plurals>
-    <string name="comments_only_for_cloud">Kommentare können nur für Bibliotheken abgegeben werden, die auf den Server hochgeladen wurden. Bibliothek auf den Server hochladen?</string>
+    <string name="comments_only_for_cloud">Kommentare können nur für Sammlungen abgegeben werden, die auf den Server hochgeladen wurden. Sammlung auf den Server hochladen?</string>
     <string name="locale_plugin_add_edit_entry_title">Eintrag hinzufügen/bearbeiten</string>
-    <string name="locale_to_fields_list_empty_text">Den + Button klicken um neue Regeln für das Ausfüllen von Bibliotheksfeldern zu erstellen.</string>
+    <string name="locale_to_fields_list_empty_text">Auf den + Button klicken, um neue Regeln für das Ausfüllen von Sammlungsfeldern zu erstellen.</string>
     <string name="locale_to_fields_var">Text von %s</string>
     <string name="locale_to_fields_add_rule_title">Regel hinzufügen</string>
     <string name="locale_to_fields_edit_rule_title">Regel bearbeiten</string>
@@ -1468,7 +1482,7 @@
     <string name="trigger_event_remove_favorites">Einen Eintrag aus den Favoriten entfernen</string>
     <string name="trigger_enabled">Aktiviert</string>
     <string name="trigger_switched_off">Ausgeschaltet</string>
-    <string name="trigger_delete_message">Wollen Sie den Trigger \"%s\" wirklich löschen ?</string>
+    <string name="trigger_delete_message">Wollen Sie den Auslöser \"%s\" wirklich löschen?</string>
 
 
     <string name="application">Anwendung</string>
@@ -1483,12 +1497,12 @@
     <string name="trigger_permission_write_file">Dateien schreiben</string>
     <string name="trigger_permission_write_file_hint">Erlaubt Skripten auf externen Speicher zu schreiben</string>
     <string name="trigger_permission_network">Netzwerk</string>
-    <string name="trigger_permission_libraries">Bibliotheken</string>
-    <string name="trigger_permission_libraries_hint">Zugriff auf alle Bibliotheken</string>
+    <string name="trigger_permission_libraries">Sammlungen</string>
+    <string name="trigger_permission_libraries_hint">Zugriff auf alle Sammlungen</string>
 
-    <string name="trigger_permission_libraries_select">Verfügbare Bibliotheken</string>
-    <string name="trigger_permission_libraries_select_title">Bibliotheken auswählen</string>
-    <string name="need_pro_for_triggers">In der kostenlosen Version kann eine Bibliothek nur einen Trigger enthalten. Bitte auf die PRO Version upgraden, um diese Beschränkung aufzuheben.</string>
+    <string name="trigger_permission_libraries_select">Verfügbare Sammlungen</string>
+    <string name="trigger_permission_libraries_select_title">Sammlungen auswählen</string>
+    <string name="need_pro_for_triggers">In der kostenlosen Version kann eine Sammlung nur einen Auslöser enthalten. Bitte auf die PRO Version upgraden, um diese Beschränkung aufzuheben.</string>
     <string name="filters_tab">Registerkarten...</string>
     <string name="filters_tab_dialog_title">Filter auswählen für Registerkarten</string>
     <string name="export_template_include_filters">Filter einschließen</string>
@@ -1561,7 +1575,7 @@
     <string name="uom_megabyte">Megabyte</string>
     <string name="uom_category_area">Fläche</string>
     <string name="uom_square_metre">Quadratmeter</string>
-    <string name="uom_are">Are</string>
+    <string name="uom_are">Ar</string>
     <string name="uom_hectare">Hektar</string>
 
     <string name="uom_category_velocity">Geschwindigkeit</string>
@@ -1584,14 +1598,14 @@
 	<item quantity="one">Ein Benutzer</item>
 	<item quantity="other">%s Benutzer</item>
 </plurals>
-    <string name="user_group_delete_message">Wollen Sie die Gruppe \"%s\" wirklich löschen ?</string>
+    <string name="user_group_delete_message">Möchten Sie die Gruppe \"%s\" wirklich löschen?</string>
     <string name="group_not_found">Gruppe nicht gefunden</string>
     <string name="relation_type_one_limit">Gewählter Eintrag hat bereits eine Beziehung</string>
     <string name="trigger_moment_after_save">Nach dem Speichern des Eintrags</string>
     <string name="trigger_moment_before_delete">Vor dem Löschen eines Eintrags</string>
     <string name="trigger_moment_after_delete">Nach dem Löschen eines Eintrags</string>
     <string name="trigger_moment_before_save">Vor dem Speichern des Eintrags</string>
-    <string name="trigger_permission_network_hint">Erlaubt Skripten HTTP-Anfragen auszuführen</string>
+    <string name="trigger_permission_network_hint">Erlaubt es Skripten, HTTP-Anfragen auszuführen, und E-Mails zu senden.</string>
 
     <string name="wrong_field_value">Feld %s hat einen unakzeptablen Wert</string>
 
@@ -1611,18 +1625,18 @@
     <string name="from_google_drive">Von Google Drive</string>
     <string name="field_values_delimiter">Feldtrenner</string>
     <string name="aggr_always_show">Immer anzeigen</string>
-    <string name="cant_add_management">Der Admin hat vollen Zugang zu dieser Bibliothek</string>
+    <string name="cant_add_management">Der Administrator hat vollen Zugang zu dieser Sammlung</string>
     <string name="auth_error_user_blocked">Ihr Account wurde deaktiviert</string>
     <string name="team_license">Team</string>
     <string name="user_manager_only_for_team">Verwaltung von Benutzern und Lizenzen ist nur für Teamtarife möglich</string>
     <string name="send_password_to_user">Passwort an Benutzer per Email senden</string>
     <string name="create_permissions">Berechtigungen anlegen</string>
     <string name="edit_permissions">Berechtigungen bearbeiten</string>
-    <string name="library_permissions">Bibliotheksberechtigungen</string>
+    <string name="library_permissions">Sammlungsberechtigungen</string>
     <string name="field_permissions">Feldberechtigungen</string>
     <string name="library_permissions_subject">Benutzername/Email/Gruppe</string>
-    <string name="permissions_delete_message">Wollen Sie wirklich die Berechtigungen für \"%s\" löschen ?</string>
-    <string name="field_right_need_library_download">Sie müssen eine Bibliothek auf Ihr Gerät downloaden, um neue Zugriffsrechte für Felder hinzuzufügen.</string>
+    <string name="permissions_delete_message">Wollen Sie wirklich die Berechtigungen für \"%s\" löschen?</string>
+    <string name="field_right_need_library_download">Sie müssen eine Sammlung auf Ihr Gerät herunterladen, um neue Zugriffsrechte für Felder hinzuzufügen.</string>
     <string name="field_permission_invisible">Unsichtbar</string>
     <string name="field_permission_read_only">Nur lesen</string>
     <string name="field_permissions_limit">Zugriffsrechte für Felder können nur in Teamtarifen gesetzt werden.</string>
@@ -1631,13 +1645,13 @@
     <string name="add_user_group_hint">Gruppenname</string>
     <string name="user_group_name_empty">Der Gruppenname soll nicht leer sein</string>
     <string name="users_count_none">Keine Benutzer</string>
-    <string name="uom_angstrom">Angstrem</string>
-    <string name="trigger_event_open_library">Eine Bibliothek öffnen</string>
+    <string name="uom_angstrom">Ångström</string>
+    <string name="trigger_event_open_library">Eine Sammlung öffnen</string>
     <string name="memento_server_private_hint">host:port</string>
     <string name="memento_server_private_not_found">Privater Server wurde nicht an der angegebenen Adresse gefunden</string>
-    <string name="library_edit_mode_hint">Öffnen Sie das Bearbeitungsformular indem Sie auf einen Eintrag klicken</string>
+    <string name="library_edit_mode_hint">Bearbeitungsformular durch Klicken auf einen Eintrag öffnen</string>
     <string name="send_field_title_summary">Der Feldname wird dem Feldwert vorangestellt</string>
-    <string name="auto_lock_libraries_time_title">Schließen Sie den Zugriff auf die Bibliotheken</string>
+    <string name="auto_lock_libraries_time_title">Zugriff auf Sammlungen aufheben</string>
     <string name="trigger_name">Name des Auslösers</string>
     <string name="trigger_moment">Phase</string>
     <string name="unknown_trigger_moment_type">Unbekannte Phase</string>
@@ -1650,7 +1664,8 @@
     <string name="memento_server_settings_group">Memento Server</string>
     <string name="locale_plugin_edit_mode_create_new_entry">Erstellen Sie einen neuen Eintrag, wenn Sie keinen Eintrag nach dem Schlüsselfeld gefunden haben</string>
 
-    <string name="empty_triggers_list_text">Diese Bibliothek enthält keine Trigger.\n
+    <string name="empty_triggers_list_text">Diese Sammlung enthält keine Auslöser. 
+
 Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf einem Ereignis definiert.</string>
     <string name="uom_fahrenheit">Fahrenheit</string>
     <string name="uom_kelvin">Kelvin</string>
@@ -1678,7 +1693,7 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
 
     <string name="increase">Anstieg</string>
     <string name="decrease">Abnahme</string>
-    <string name="frozen_text">Die Bibliothek wurde eingefroren, da Ihr Tarifplan für die Anzahl der in die Cloud hochgeladenen Bibliotheken überschritten wurde.</string>
+    <string name="frozen_text">Die Sammlung wurde eingefroren, da das Limit Ihres Tarifes für die Anzahl der in die Cloud hochgeladenen Sammlungen überschritten wurde.</string>
     <string name="bulk_add">Masse hinzufügen</string>
     <string name="memento_cloud2">Memento Cloud</string>
 
@@ -1700,11 +1715,11 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="tasker_plugin_create_entry_event_title">Eintrag erstellt</string>
     <string name="tasker_plugin_delete_entry_event_title">Eintrag gelöscht</string>
     <string name="tasker_plugin_modified_entry_event_title">Eintrag geändert</string>
-    <string name="no_libraries_text">Noch keine Bibliotheken!</string>
-    <string name="add_linked_libraries">Enthalten Sie verwandte Bibliotheken</string>
-    <string name="create_collections">Erstellen Sie Bibliotheken</string>
-    <string name="create_collections_success">Bibliotheken erstellt</string>
-    <string name="template_included_libraries">Die Vorlage enthält zusätzliche Bibliotheken.</string>
+    <string name="no_libraries_text">Noch keine Sammlungen!</string>
+    <string name="add_linked_libraries">Verwandte Sammlungen einschließen</string>
+    <string name="create_collections">Sammlungen erstellen</string>
+    <string name="create_collections_success">Sammlungen erstellt</string>
+    <string name="template_included_libraries">Die Vorlage enthält zusätzliche Sammlungen.</string>
 
     <string name="entries_view_type_cards">Karten</string>
     <string name="card_view_number_of_columns">Anzahl der Spalten</string>
@@ -1732,7 +1747,7 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="hint_get_my_location_button">Suche meinen Standort</string>
     <string name="hint_insert_entry_button">Eintrag hinzufügen</string>
     <string name="barcode_type_option_title">Typ</string>
-    <string name="barcode_type_1d">Barcode</string>
+    <string name="barcode_type_1d">Strichcode</string>
     <string name="barcode_type_2d">QR Code</string>
 
     <string name="embedded_js_libraries">Version</string>
@@ -1740,7 +1755,7 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="repository_android_intents_hint">Funktionen für die Interaktion mit einer anderen Android-Anwendungen</string>
     <string name="repository_data_sources_hint">Datenquellen für das automatisch ausfüllen</string>
     <string name="warning">Warnung</string>
-    <string name="add_javascript_library">Füge Javascript-Bibliotheken hinzu</string>
+    <string name="add_javascript_library">Füge Javascript-Bibliotheken hinzu...</string>
     <string name="add_repository">Quelle hinzufügen</string>
     <string name="repository_location_hint">GitHub Quelle URL</string>
     <string name="repository_location_error">Geben Sie den HTTPS-Link zur GitHub-Quelle an. Zum Beispiel: https://github.com/username/repo-name</string>
@@ -1749,12 +1764,12 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="repository_other">Andere</string>
 
     <string name="map_field_current_by_default_title">Aktueller Standort</string>
-    <string name="map_field_current_by_default_hint">Besorgen Sie sich den aktuellen Standort standardmäßig</string>
+    <string name="map_field_current_by_default_hint">Standardmäßig den aktuellen Standort erhalten</string>
     <string name="receiving_document_content">Dokumenteninhalt empfangen</string>
     <string name="find_address">Adresse suchen</string>
     <string name="privacy_policy">Datenschutz-Bestimmungen</string>
     <string name="trigger_event_action">Aktion</string>
-    <string name="action_context_library">Bibliothek</string>
+    <string name="action_context_library">Sammlung</string>
     <string name="trigger">Auslöser</string>
     <string name="action_default_name">Aktion %d</string>
     <string name="place_of_action">Ort der Aktion</string>
@@ -1762,30 +1777,30 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="action_arguments_empty">Das Skript kann Argumente haben, deren Werte vom Benutzer eingegeben werden.</string>
     <string name="select_argument_type">Argumenttyp</string>
     <string name="script_argument_delete_message_text">Möchten Sie das Argument \"%s\" wirklich löschen?</string>
-    <string name="create_argument">Erstellen Sie ein Argument</string>
+    <string name="create_argument">Argument erstellen</string>
     <string name="edit_argument">Argument bearbeiten</string>
     <string name="argument_name">Argumentname</string>
     <string name="argument_hint">Argument Hinweis</string>
     <string name="required_argument_text">Argument muss ausgefüllt sein</string>
     <string name="scripts">Skripte</string>
     <string name="actions">Aktionen</string>
-    <string name="empty_script_list_text">Diese Bibliothek enthält keine Skripte</string>
-    <string name="empty_script_list_trigger_text">Trigger ist ein Skript, das die Verarbeitung eines Eintrags basierend auf einem Ereignis definiert.</string>
-    <string name="empty_script_list_action_text">Aktion ist ein Skript, das manuell durch Drücken der Taste in der Bibliothek oder der Eingangskarte gestartet wird.</string>
+    <string name="empty_script_list_text">Diese Sammlung enthält keine Skripte</string>
+    <string name="empty_script_list_trigger_text">Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf einem Ereignis definiert.</string>
+    <string name="empty_script_list_action_text">Eine Aktion ist ein Skript, das manuell durch Drücken der Taste in der Bibliothek oder in der Eintragskarte gestartet wird.</string>
     <string name="autofill_goto_script_title">Script Editor</string>
     <string name="java_script_data_source_title">Benutzerdefinierte Quelle</string>
     <string name="java_script_data_source_hint">JavaScript</string>
-    <string name="script_cant_run_for_not_saved_library">Sie können das Skript erst nach dem Speichern der Bibliothek ausführen.</string>
-    <string name="autofill_script_source_key_title">Weisen Sie auf die Objekteigenschaft hin die vom Skript zurückgegeben wird</string>
+    <string name="script_cant_run_for_not_saved_library">Sie können das Skript erst nach dem Speichern der Sammlung ausführen.</string>
+    <string name="autofill_script_source_key_title">Weisen Sie auf die Objekteigenschaft hin, die vom Skript zurückgegeben wird</string>
     <string name="test_js_data_source_query_hint">Abfragezeichenfolge</string>
     <string name="test_js_data_source_query_result">Abfrageergebnis:\n%s</string>
     <string name="run">Läuft</string>
-    <string name="script_cant_set_permissions_for_not_saved_library">Sie können Berechtigungen nur nach dem Speichern der Bibliothek für das Skript festlegen.</string>
-    <string name="script_permissions_required_message">Die Bibliothek verfügt über die Skripts, die die folgenden Berechtigungen erfordern:</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">Sie können Berechtigungen für das Skript erst nach dem Speichern der Sammlung festlegen.</string>
+    <string name="script_permissions_required_message">Die Sammlung verfügt über Skripte, die die folgenden Berechtigungen erfordern:</string>
     <string name="required_access_to_library">Zugriff auf %s</string>
-    <string name="action_with_library_context">Bibliotheksaktion</string>
+    <string name="action_with_library_context">Sammlungsaktion</string>
     <string name="action_with_entry_context">Einstiegsaktion</string>
-    <string name="library_related_cloud_model_changed_message">Die Struktur der zugehörigen Bibliothek wurde in der Cloud aktualisiert. Wechseln Sie zur entsprechenden Bibliothek für das Update.</string>
+    <string name="library_related_cloud_model_changed_message">Die Struktur der zugehörigen Sammlung wurde in der Cloud aktualisiert. Wechseln Sie zur entsprechenden Sammlung für das Update.</string>
     
     <string name="monthly_plan">Monatlich</string>
     <string name="yearly_plan">Jährlich</string>
@@ -1798,7 +1813,7 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="cloud_plan_team20_annual">Team 20</string>
     <string name="price_per_year">%s/yr</string>
 
-    <string name="frozen_alien_text">Die Bibliothek ist eingefroren. Bitte wenden Sie sich an den Eigentümer der Bibliothek (%s).</string>
+    <string name="frozen_alien_text">Die Sammlung ist eingefroren. Bitte wenden Sie sich an den Eigentümer der Sammlung (%s).</string>
     <string name="copy_field">Feld kopieren</string>
     <string name="delete_reminder_dialog_text">Möchten Sie die Erinnerung wirklich löschen?</string>
     <string name="igdb_source">igdb.com</string>
@@ -1813,11 +1828,11 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
 
 
     <string name="wizard">Wizard</string>
-    <string name="wizard_library_name_title">Memento organisiert Ihre Informationen in den Bibliotheken. Wie möchten Sie Ihre Bibliothek benennen?</string>
-    <string name="wizard_library_name_hint2">Bibliotheken werden verwendet, um eine Liste eines bestimmten Elementtyps zu speichern.</string>
-    <string name="wizard_library_icon_title">Wählen Sie das Symbol für diese Bibliothek</string>
-    <string name="wizard_library_structure_title">Lassen Sie uns die Struktur Ihrer Bibliothek erstellen.</string>
-    <string name="wizard_library_structure_hint2">Jedes Objekt, das Sie in Ihre Bibliothek legen, wird als \"Eintrag\" bezeichnet. Jeder Eintrag hat seine eigenen Felder mit allen Informationen, die Sie darüber speichern möchten.</string>
+    <string name="wizard_library_name_title">Memento organisiert Ihre Informationen in Sammlungen. Wie möchten Sie Ihre Sammlung nennen?</string>
+    <string name="wizard_library_name_hint2">Sammlungen werden verwendet, um eine Liste von Einträgen eines bestimmten Typs zu speichern.</string>
+    <string name="wizard_library_icon_title">Symbol für diese Sammlung auswählen</string>
+    <string name="wizard_library_structure_title">Lassen Sie uns die Struktur Ihrer Sammlung erstellen.</string>
+    <string name="wizard_library_structure_hint2">Jedes Objekt, das Sie zu Ihrer Sammlung hinzufügen, wird als \"Eintrag\" bezeichnet. Jeder Eintrag hat seine eigenen Felder mit allen Informationen, die Sie darüber speichern möchten.</string>
     <string name="wizard_library_structure_hint3">Ein Eintrag entspricht einer Zeile in einer Tabelle.</string>
     <string name="wizard_library_structure_hint4">Ein Feld entspricht einer Spalte in einer Tabelle.</string>
     <string name="wizard_select_field_type_message">Bitte wählen Sie den Feldtyp aus</string>
@@ -1827,9 +1842,9 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="wizard_field_options_select_type_message">Feldattribute sind nach Auswahl des Feldtyps verfügbar.</string>
     <string name="wizard_field_options_empty">Für den ausgewählten Feldtyp sind nur erweiterte Attribute verfügbar.</string>
     <string name="wizard_field_advanced_options_button">Fortgeschritten</string>
-    <string name="wizard_choice_field_items_empty_text">Sie sollten eine voreingestellte Anzahl von Elementen (Werten) für den Feldtyp erstellen.</string>
-    <string name="wizard_field_name_title">Wie möchten Sie dieses Feld benennen?</string>
-    <string name="wizard_field_name_examples">Zum Beispiel könnten Sie Felder für \"Titel\", \"Beschreibung\", \"Gerätetyp\", \"Kosten\", \"Größe\", \"Standort\" usw. haben.</string>
+    <string name="wizard_choice_field_items_empty_text">Sie sollten eine vorgegebene Anzahl von Elementen (Werten) für den Feldtyp erstellen.</string>
+    <string name="wizard_field_name_title">Wie möchten Sie dieses Feld nennen?</string>
+    <string name="wizard_field_name_examples">Sie könnten zum Beispiel Felder haben für \"Titel\", \"Beschreibung\", \"Gerätetyp\", \"Kosten\", \"Größe\", \"Standort\" usw.</string>
     <string name="wizard_field_type_title">Jedes Feld kann so gestaltet werden, dass es eine bestimmte Art von Daten enthält.</string>
     <string name="wizard_field_display_options_title">Möchten Sie die Werte dieses Feldes in der Liste der Einträge anzeigen?</string>
     <string name="wizard_field_display_no">Nein Danke</string>
@@ -1837,10 +1852,10 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="wizard_field_display_thumb">Als ein Eintrags-Vorschaubild</string>
     <string name="wizard_field_display_desc">Als Eintrag Beschreibung</string>
     <string name="wizard_field_display_status">Als Eintragsstatus</string>
-    <string name="more_info">Brauche Sie Hilfe?</string>
+    <string name="more_info">Brauchen Sie Hilfe?</string>
     <string name="type_desc_rating">Ein Bewertungsfeld kann leer sein oder einen Zahlenwert von 1 bis 5 als Sterne enthalten.</string>
     <string name="type_desc_location">Ein Standortfeld kann einen Ort enthalten, der als Breiten- / Längengrad und Postadresse dargestellt ist.</string>
-    <string name="type_desc_link_to_entry">Ein Link zum Eingabefeld kann eine Verknüpfung zu einem Eintrag oder zu Einträgen in einer anderen Bibliothek enthalten.</string>
+    <string name="type_desc_link_to_entry">Ein \"Verknüpfung zum Eintrag\"-Feld kann eine Verknüpfung zu einem Eintrag oder zu Einträgen in einer anderen Bibliothek enthalten.</string>
     <string name="type_desc_contact">Ein Kontaktfeld enthält möglicherweise eine Verknüpfung zu einem Kontakt in der lokalen Kontaktanwendung.</string>
     <string name="type_desc_images">Ein Bildfeld kann Links zu Bildern enthalten.</string>
     <string name="type_desc_signature">Ein Signatursfeld ermöglicht es Ihnen, elektronische Signaturen zu sammeln.</string>
@@ -1849,7 +1864,7 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="type_desc_datetime">Ein Datum/Zeit-Feld kann einen Wert enthalten, der verwendet wird, um ein bestimmtes Kalenderdatum und eine bestimmte Uhrzeit darzustellen.</string>
     <string name="type_desc_time">Ein Zeitfeld kann einen Wert enthalten, der zur Darstellung einer bestimmten Tageszeit verwendet wird.</string>
     <string name="type_desc_boolean">Der boolesche Feldtyp bietet ein einzelnes Kontrollkästchen (ja / nein).</string>
-    <string name="type_desc_money">Ein Geldfeld hat eine Währung und einen Betrag. Die Währung muss ausgewählt sein, wenn die Vorlage definiert ist.</string>
+    <string name="type_desc_money">Ein Geldfeld hat eine Währung und einen Betrag. Die Währung muss ausgewählt werden, wenn die Vorlage definiert wird.</string>
     <string name="type_desc_real">Der Feldtyp Real enthält Zahlen mit oder ohne Dezimalstellen.</string>
     <string name="type_desc_int">Der Feldtyp Zahl enthält einfache Zahlen ohne Dezimalstellen.</string>
     <string name="type_desc_int_list">Ein Integer-Wertefeld ist eine geordnete Menge von Zahlen, aus denen ein Benutzer einen auswählen kann.</string>
@@ -1868,8 +1883,8 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="type_desc_calc">Ein Berechnungsfeld wird verwendet, um schreibgeschützte Werte anzuzeigen, die auf einer Berechnung basieren, die Werte aus anderen Feldern des Eintrags enthalten kann.</string>
 
     <string name="wizard_complete_text1">Glückwunsch!</string>
-    <string name="wizard_complete_text2">Sie haben Ihre Bibliothek erfolgreich erstellt.</string>
-    <string name="wizard_complete_text3">Sie können jederzeit die Struktur Ihrer Bibliothek ändern, Aggregation, AutoFill, Skripte usw. hinzufügen.</string>
+    <string name="wizard_complete_text2">Sie haben Ihre Sammlung erfolgreich erstellt.</string>
+    <string name="wizard_complete_text3">Sie können jederzeit die Struktur Ihrer Sammlung ändern, Gruppierung, AutoFill, Skripte usw. hinzufügen.</string>
     <string name="close">Schließen</string>
 
     <string name="attributes">Attribute</string>
@@ -1880,12 +1895,12 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="required_attribute_text">Attribute müssen ausgefüllt werden</string>
 
     <string name="attribute_display_title_in_card">Der Attributen Name</string>
-    <string name="attribute_display_title_in_card_hint">Zeigen Sie den Namen des Attributs im Karteneintrag an</string>
+    <string name="attribute_display_title_in_card_hint">Namen des Attributs im Karteneintrag anzeigen</string>
     <string name="attribute_delete_message_text">Möchten Sie das Attribut \"%s\" wirklich löschen?</string>
-    <string name="free_version_attributes_limit">In der kostenlosen Version können Sie nur ein Attribut hinzufügen. Aktualisieren Sie auf PRO-Version, um diese Einschränkung zu entfernen.</string>
+    <string name="free_version_attributes_limit">In der kostenlosen Version können Sie nur ein Attribut hinzufügen. Upgraden Sie auf die PRO Version, um diese Einschränkung zu entfernen.</string>
     <string name="trigger_event_link_entry">Einen Eintrag verknüpfen</string>
     <string name="trigger_event_unlink_entry">Verknüpfung eines Eintrags aufheben</string>
-    <string name="script_cant_run_links_not_exists">Skript kann nicht ausgeführt werden, Links zu dieser Bibliothek sind nicht vorhanden.</string>
+    <string name="script_cant_run_links_not_exists">Skript kann nicht ausgeführt werden, Verknüpfungen zu dieser Sammlung sind nicht vorhanden.</string>
     <string name="entry_name_and_description">Name und Beschreibung des Eintrags</string>
     <string name="all_searchable_fields">Alle durchsuchbaren Felder</string>
     <string name="search_settings_quick">Schnellsuche in</string>
@@ -1904,15 +1919,16 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="action_context_view_entry">Eintragsansichtskarte</string>
     <string name="autofill_goto_script_hint">Geskriptete Datenquelle</string>
     <string name="run_arguments">Argumente ausführen</string>
-    <string name="wizard_library_name_hint3">Bibliothek ähnlich wie Arbeitsblätter in einer Tabelle.</string>
+    <string name="wizard_library_name_hint3">Sammlung ähnlich wie Arbeitsblätter in einer Tabelle.</string>
     <string name="type_desc_file">Ein Link zum Datei Feld kann Links zu extern gespeicherten Dateien enthalten.</string>
     <string name="shortcut_not_supported">Leider unterstützt Ihr Launcher keine App-Verknüpfungen.</string>
     <string name="notification_channel_reminders">Erinnerungen</string>
-    <string name="notification_channel_entries">Änderungen in Bibliotheken</string>
+    <string name="notification_channel_entries">Änderungen in Sammlungen</string>
     <string name="notification_channel_files">Dateien</string>
-    <string name="quick_filter_limit_message">In der kostenlosen Version können Sie nur nach fünf Feldern suchen.\n
-Upgraden Sie zur PRO-Version, um diese Einschränkung zu deaktivieren.</string>
-    <string name="button_upgrade">Aktualisierung</string>
+    <string name="quick_filter_limit_message">In der kostenlosen Version können Sie nur nach fünf Feldern suchen.
+
+Upgraden Sie zur PRO Version, um diese Einschränkung zu deaktivieren.</string>
+    <string name="button_upgrade">Upgrade</string>
     <string name="autofilll_source_not_supported">Entschuldigung, %s wird nicht mehr unterstützt.</string>
 
 <string name="link_attributes_empty_text">Dieses Feld hat keine Attribute für die Links.</string>
@@ -1921,7 +1937,7 @@ Upgraden Sie zur PRO-Version, um diese Einschränkung zu deaktivieren.</string>
 
     <string name="license_key_tab">Lizenzschlüssel</string>
     <string name="pro_feature_0">Keine Werbung</string>
-    <string name="pro_feature_1">Unlimitierte Nummer von Sammlungen, die mit Google Sheets synchronisiert werden können</string>
+    <string name="pro_feature_1">Unbegrenzte Anzahl von Sammlungen, die mit Google Tabellen synchronisiert werden können</string>
     <string name="pro_feature_2">Unlimitierte Anzahl von \"geschützten\" Sammlungen</string>
     <string name="pro_feature_3">Unlimitierte Anzahl von Graphen</string>
     <string name="pro_feature_4">Unlimitierte Anzahl von Scripts</string>
@@ -1944,4 +1960,59 @@ Upgraden Sie zur PRO-Version, um diese Einschränkung zu deaktivieren.</string>
     <string name="current_password">Aktuelles Passwort</string>
     <string name="new_password">Neues Passwort</string>
     <string name="password_changed_message">Ihr Passwort wurde erfolgreich geändert!</string>
+    <string name="logout">Ausloggen</string>
+    <string name="logout_confirmation">Sind Sie sicher, dass Sie sich ausloggen wollen?</string>
+    <string name="sign_in_error">Einloggen war nicht möglich</string>
+    <string name="choose_username">Wählen Sie einen Benutzernamen</string>
+    <string name="account_without_password_message">Dieser Account scheint ein Google Account ohne ein Passwort zu sein. Probieren Sie die Schaltfläche \"Mit Google fortsetzen\".</string>
+    <string name="template_not_found_by_uri">Vorlage nicht gefunden</string>
+    <string name="public_template_address_text">Adresse der Vorlage</string>
+    <string name="wrong_template_address">Ungültiges Adressformat der Vorlage</string>
+    <string name="permission_contacts_title">Kontakte</string>
+    <string name="permission_contacts_text">Es ist erforderlich, Memento den Zugriff auf die Kontakte zu gewähren, um den Kontakt-Feldtyp zu nutzen.</string>
+    <string name="boolean_format">Format</string>
+    <string name="plans_comparison">Siehe unseren vollständigen Funktionsvergleich</string>
+
+    <string name="revision_history">Versionsverlauf</string>
+    <string name="revision_current_version">Aktuelle Version</string>
+    <string name="revision_action_edit">%s geändert</string>
+    <string name="revision_action_create">%s Eintrag erstellt</string>
+    <string name="revert_to_version">Zu dieser Version zurückkehren</string>
+    <string name="revert_to_version_message">Sind Sie sicher, dass Sie zu der Version von %s zurückkehren möchten?</string>
+    <string name="revision_history_only_for_cloud">Der Versionsverlauf ist nur verfügbar für Sammlungen, die in die Cloud hochgeladen wurden, und in den PRO oder TEAM Accounts.</string>
+    <string name="barcode_type_nfc">NFC</string>
+    <string name="pending_user">Ausstehend...</string>
+    <string name="uom_category_userdefined">Benutzerdefiniert</string>
+    <string name="uom_custom_name">Name der Einheit</string>
+    <string name="time_field_group_by_day_and_time">Gruppieren nach Tag und Uhrzeit</string>
+
+    <string name="select_source_library_dialog_title">Sammlung auswählen, aus der Daten kopiert werden sollen</string>
+    <string name="select_source_library_dialog_hint">Datenquelle auswählen</string>
+    <string name="wiki">Wiki</string>
+
+    <string name="moby_source">mobygames.com</string>
+    <string name="type_desc_color">Der Farb-Feldtyp ermöglicht es, Farben im RGB-Format zu speichern.</string>
+    <string name="unlock_fingerprint_dialog_title">Mit Fingerabdruck entsperren</string>
+    <string name="unlock_fingerprint_dialog_text">Möchten Sie beim nächsten Mal Ihre geschützten Sammlungen mit Ihrem Fingerabdruck entsperren?</string>
+    <string name="fingerprint_not_recognized">Fingerabdruck nicht erkannt</string>
+    <string name="unlock_fingerprint_hint">Scannen Sie Ihren Fingerabdruck zum Entsperren</string>
+    <string name="enable_fingerprint">Fingerabdruck aktivieren</string>
+
+    <string name="storage_permission_required_title">Berechtigung benötigt</string>
+    <string name="storage_permission_required_text">Diese App benötigt die Speicher-Berechtigung. Sie können diese in den App-Einstellungen gewähren.</string>
+    <string name="got_to_system_settings">Gehe zu den Einstellungen</string>
+    <string name="file_save_error">Kann die Datei nicht speichern:
+%s</string>
+
+    <string name="years_range">Jahresbereich bei Datum</string>
+    <string name="begin_year">Anfang</string>
+    <string name="end_year">Ende</string>
+    <string name="years_range_wrong">Das Endjahr muss größer als oder genau so groß sein wie das Anfangsjahr</string>
+<string name="boolean_format_on">An-Label</string>
+    <string name="boolean_format_off">Aus-Label</string>
+    <string name="auth_error_text">Ein Fehler ist aufgetreten, bitte authentifizieren Sie %s erneut.</string>
+    <string name="search_index_tokenizer">Lexikalischer Scanner</string>
+
+    <string name="image_cache_settings_path_title">Bild-Cache Ordner</string>
+
     </resources>
