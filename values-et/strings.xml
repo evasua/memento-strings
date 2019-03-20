@@ -313,4 +313,5 @@ toodet ei leitud</string>
     <string name="fingerprint_not_recognized">Sõrmejälge ei tuntud ära</string>
     <string name="library_menu_select_group">Grupp</string>
     <string name="select_sort_template">Vali väli, mille järgi sorteerida</string>
+    <string name="flex_type_title_int">Täisarv</string>
     </resources>
