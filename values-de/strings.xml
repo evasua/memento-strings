@@ -1104,7 +1104,7 @@ Möchten Sie den Vorgang jetzt starten?</string>
 	<string name="dont_show_anymore">Nicht mehr zeigen</string>
 	<string name="need_make_slave_library_unique">Um “Verknüpfung zum Eintrag“-Felder zu synchronisieren, müssen Sie die Eindeutigkeit des Eintragsnamens in der Sammlung, auf die sich die Verknüpfung bezieht, aktivieren.
 Möchten Sie das jetzt tun?</string>
-	<string name="need_make_slave_library_unique_import">Um “Verknüpfung zum Eintrag“-Felder zu importieren, müssen Sie im Sammlung, auf das sich die Verknüpfung bezieht, die Eindeutigkeit des Eintragsnamens aktivieren.
+	<string name="need_make_slave_library_unique_import">Um “Verknüpfung zum Eintrag“-Felder zu importieren, müssen Sie in der Sammlung, auf die sich die Verknüpfung bezieht, die Eindeutigkeit des Eintragsnamens aktiviert haben.
 Wissen Sie das?</string>
 	<string name="run_sync_slave_libraries_pref">Verknüpfte Sammlungen</string>
 	<string name="run_sync_slave_libraries_summary">Zuerst verknüpfte Sammlungen synchronisieren</string>
