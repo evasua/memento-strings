@@ -645,7 +645,7 @@
     <string name="user_manual_menu">幫助內容</string>
     <string name="save_library_changes">保存更改？</string>
     <string name="main_menu_add_group">添加群組</string>
-    <string name="main_title">Memento 資料庫</string>
+    <string name="main_title">Memento資料庫</string>
     <string name="build_navigate_list_dialog">對記錄進行排序...</string>
     <string name="navigate_first_entry">這是第一筆記錄</string>
     <string name="navigate_last_entry">這是最後一筆記錄</string>
