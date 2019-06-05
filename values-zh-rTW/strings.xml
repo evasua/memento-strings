@@ -1492,7 +1492,7 @@
     <string name="trigger_permission_write_file">寫入檔案</string>
     <string name="trigger_permission_write_file_hint">允許 scripts 寫入外部儲存裝置</string>
     <string name="trigger_permission_network">網路</string>
-    <string name="trigger_permission_network_hint">允許 scripts 發送 HTTP 請求</string>
+    <string name="trigger_permission_network_hint">允許 scripts 發送 HTTP 請求、寄送 Email。</string>
 
     <string name="trigger_permission_libraries">庫</string>
     <string name="trigger_permission_libraries_hint">操作所有庫</string>
@@ -1907,7 +1907,7 @@
     <string name="pro_feature_3">圖表數量無限制</string>
     <string name="pro_feature_4">指令稿的數量無限制</string>
     <string name="pro_feature_5">進階搜尋功能</string>
-    <string name="pro_feature_6">一個欄位可包含多個物件 (影像、檔案、聯絡人、座標等等)</string>
+    <string name="pro_feature_6">一個欄位可包含多個物件 (影像、檔案、聯絡人、座標等等)。</string>
     <string name="pro_feature_7">多項目編輯</string>
     <string name="pro_feature_8">便利的 App 小工具</string>
     <string name="pro_license_activated">授權已啟用</string>
@@ -1959,4 +1959,26 @@
     <string name="select_source_library_dialog_title">選擇要複製的來源資料庫</string>
     <string name="select_source_library_dialog_hint">選擇資料來源</string>
 
+<string name="wiki">Wiki</string>
+
+    <string name="moby_source">mobygames.com</string>
+    <string name="type_desc_color">色彩欄位型別可以用 RGB 格式儲存色彩資訊。</string>
+    <string name="image_cache_settings_path_title">圖片快取資料夾</string>
+
+    <string name="unlock_fingerprint_dialog_title">以指紋解鎖</string>
+    <string name="unlock_fingerprint_dialog_text">您希望之後能以指紋解鎖受保護的庫嗎？</string>
+    <string name="fingerprint_not_recognized">無法識別指紋</string>
+    <string name="unlock_fingerprint_hint">掃描指紋以解鎖</string>
+    <string name="enable_fingerprint">啟用指紋</string>
+
+    <string name="storage_permission_required_title">需要權限</string>
+    <string name="storage_permission_required_text">本程式需要讀寫儲存空間的權限，您可以在設定畫面賦予權限。</string>
+    <string name="got_to_system_settings">前往設定畫面</string>
+    <string name="file_save_error">無法存檔：
+%s</string>
+
+    <string name="years_range">日期的年份範圍</string>
+    <string name="begin_year">開始</string>
+    <string name="end_year">結束</string>
+    <string name="years_range_wrong">結束年份必須等於或大於起始年份</string>
 </resources>

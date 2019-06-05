@@ -1338,7 +1338,7 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
     <string name="remove_from_old_public">Antes de subir la biblioteca a la nube, será des-publicada si fue publicada con métodos desactualizados.</string>
 	<string name="empty_autofill_rules_list_text">Hacer coincidir atributos originales y campos de la biblioteca</string>
     <string name="decryption_for_cloud_uploaded_library">No se puede desactivar el cifrado para subir la biblioteca a la nube. Primero elimine la biblioteca de la nube.</string>
-    <string name="one_row_with_previous">Una fila con previsualización</string>
+    <string name="one_row_with_previous">Misma fila que el anterior</string>
     <string name="group_separator_option_title">Separadores de millares</string>
     <string name="group_separator_option_hints">Usar un espacio como separador de millares</string>
 
