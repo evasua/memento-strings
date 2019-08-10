@@ -97,7 +97,7 @@
     <string name="audio_not_found">Lydspor ikke funnet</string>
     <string name="flex_type_money_currency_dlg_title">Velg valuta</string>
     <string name="flex_type_money_currency_option_title">Valuta</string>
-    <string name="flex_type_money_default_currency">NOK</string>
+    <string name="flex_type_money_default_currency">USD</string>
     <string name="flex_role_not_usage">Vanlig felt</string>
     <string name="flex_role_name">Postnavn</string>
     <string name="flex_role_hint">Postbeskrivelse</string>
