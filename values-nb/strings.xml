@@ -60,7 +60,7 @@
     <string name="library_menu_select_group">Gruppe</string>
     <string name="select_sort_template">Marker feltet for sortering</string>
     <string name="select_group_template">Marker feltet for gruppering</string>
-    <string name="sort_by_date">Tid brukt</string>
+    <string name="sort_by_date">Opprettet</string>
     <string name="flex_delete_message_title">Slett feltet</string>
     <string name="flex_delete_message_text">Vil du virkelig slette feltet \"%s\"?</string>
     <string name="not_group">Ingen gruppering</string>
