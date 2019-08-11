@@ -1780,7 +1780,7 @@ En trigger er et skript som definerer behandlingen av en oppføring basert på e
     <string name="repository_js_libraries">Oppbevaringssteder</string>
     <string name="repository_data_sources_hint">Datakilder for automatisk utfylling</string>
     <string name="warning">Advarsel</string>
-    <string name="add_repository">Legg til javascript-biblioteker ...</string>
+    <string name="add_repository">Legg til depot</string>
     <string name="repository_location_hint">GitHub Repository URL</string>
     <string name="repository_location_error">Spesifiser HTTPS-koblingen til GitHub-depot. For eksempel: https://github.com/usname/repo-name</string>
     <string name="repository_delete_message">Vil du virkelig slette depotet \"%s\"?</string>
