@@ -84,7 +84,7 @@
     <string name="removed">Slettes på %s</string>
     <string name="trush">Søppelkurv</string>
     <string name="library_item_restore">Gjennopprett</string>
-    <string name="clear_trash">Tøm søppelkassen</string>
+    <string name="clear_trash">Tøm søppelkurven</string>
     <string name="clear_trash_progress_dialog_title">Tøm søppelkurven</string>
     <string name="clear_trash_dialog_title">Tøm søppelkurv</string>
     <string name="clear_trash_dialog_text">Vil du virkelig slette alle poster fra søppelkurven?</string>
@@ -265,7 +265,7 @@ Oppgrader til PRO-versjonen for å deaktivere denne begrensningen.</string>
     <string name="public_library">Publiserer biblioteket</string>
     <string name="update_public_library">Oppdater publikasjonen</string>
     <string name="memento_register_account_title">Lag en konto \npå Memento serveren</string>
-    <string name="memento_register_account_text">For å kunne publisere bibliotek og abonnere på dem, behøves en konto på Memento-serveren</string>
+    <string name="memento_register_account_text">For å kunne publisere bibliotek og abonnere på dem, behøves en konto på Memento-tjeneren</string>
     <string name="memento_login_hint">Brukernavn</string>
     <string name="memento_pass_hint">Passord</string>
     <string name="memento_pass_hint2">Gjenta passord</string>
@@ -574,7 +574,7 @@ Oppgrader til PRO versjon for å fjerne denne begrensningen.</string>
     <string name="date_format_sample">Dato format: %s</string>
     <string formatted="false" name="stats_title_in_list">%s ved %s</string>
     <string name="sum_function_title">Sum</string>
-    <string name="max_function_title">Maks.</string>
+    <string name="max_function_title">Maks</string>
     <string name="min_function_title">Min.</string>
     <string name="avg_function_title">Gjennomsnittlig</string>
     <string name="align_left">venstre</string>
@@ -1288,4 +1288,753 @@ Konverter til et lokalt bibliotek?</string>
     <string name="subscription_activation">Aktiver abonnement ...</string>
 	<string name="button_upload">Last opp</string>
 	
-	</resources>
+	<string name="uom_angstrom">Ångstrøm</string>
+    <string name="invalid_library_template_file_format">Ugyldig mal filformat</string>    
+	<string name="clear_search_history_hint">Fjern alle søk du har gjennomført</string>
+	<string name="autofill_from">fra %s</string>
+	<string name="music_brainz_source">musicbrainz.org</string>
+	<string name="google_books_source">Google Books</string>
+    <string name="google_books_source_books">Bøker</string>
+    <string name="themoviedb_source">themoviedb.org</string>
+    <string name="themoviedb_source_movies">Filmer</string>
+    <string name="themoviedb_source_tv">TV</string>
+
+    <string name="autofill_rules_delete_title">Slett autofyll regler</string>
+    <string name="autofill_rules_delete_text">Er du sikker på at du vil slette autofyll reglene fra kilden \"%s\" ?</string>
+    <string name="empty_autofill_list_text">Opprett autofyll regler for dataregistreringer fra Internett</string>
+    <string name="empty_autofill_rules_list_text">Match kildeattributter og bibliotekfelt</string>
+    <string formatted="false" name="movie_cast_person_item">%s som %s</string>
+
+    <string name="copy_library_structure_menu_item">Kun struktur</string>
+    <string name="copy_all_library_menu_item">Struktur og oppføringer</string>
+    <string name="copying_entries">Kopierer poster ...</string>
+
+    <string name="encryption_for_cloud_uploaded_library">Bibliotekskryptering kan bare aktiveres før den lastes opp til skyen.</string>
+    <string name="decryption_for_cloud_uploaded_library">Deaktivering av kryptering for opplasting til bibliotekets sky støttes ikke. Fjern først biblioteket fra skyen.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Bibliotekskopier på skyen ble kryptert.
+Slett bibliotekets lokale kopi, og last ned biblioteket igjen fra skyen.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Bibliotekskopier på skyen ble kryptert.
+Slett bibliotekets lokale kopi, og last ned biblioteket igjen fra skyen.</string>
+
+    <string name="render_pdf_menu_item">Lagre som PDF</string>
+    <string name="entry_saved_as_pdf_success">PDF opprettet</string>
+    <string name="one_row_with_previous">En rad med forrige</string>
+    <string name="protected_libraries_not_show_in_widget">Beskyttede biblioteker kan ikke vises i widgeten</string>
+    <string name="widget_free_limit_item_text">Alle oppføringer kan bare bli vist til PRO-versjon brukere</string>
+    <string name="rate_me_dialog_title">Elsker du å bruke Memento?</string>
+    <string name="rate_me_dialog_text">Vennligst ranger oss i Google Play</string>
+    <string name="button_rate_now">Ranger nå</string>
+    <string name="button_ask_later">Spør igjen senere</string>
+    <string name="flex_type_radiobuttons">Radioknapper</string>
+    <string name="flex_type_checkboxes">Avkryssingsbokser</string>
+    <string name="field_orientation_option_title">Orientering</string>
+    <string name="field_orientation_option_horizontal">Horisontal</string>
+    <string name="field_orientation_option_vertical">Vertikal</string>
+    <string name="preparing_files_for_sending">Forbereder filer for sending ...</string>
+    <string name="whats_new_dialog_title">Hva er nytt?</string>
+    <string name="font_size">Størrelse</string>
+    <string name="font_family">Familie</string>
+    <string name="font_style">Stil</string>
+    <string name="font_color">Farge</string>
+    <string name="font_picker_dialog_title">Skrifttype</string>
+    <string name="font_style_normal">Normal</string>
+    <string name="font_style_bold">Fet</string>
+    <string name="font_style_italic">Kursiv</string>
+    <string name="font_style_bold_italic">Fet Kursiv</string>
+    <string name="font_sample">Prøve</string>
+    <string name="font_sample_text">Den kvikke brune reven hoppet over den late hunden.</string>
+    <string name="font_default_title">Standard skrifttype</string>
+    <string name="choice_item_use_color_for_text">Bruk farge på tekst</string>
+    <string name="rating_tooltips">Tootips/hint</string>
+    <string name="rating_tooltips_hint">Tooltip/hint</string>
+    <string name="rating_tooltips_empty">Feltet har ikke tooltips/hint</string>
+    <plurals name="rating_tooltips_count">
+	<item quantity="one">tooltip/hint</item>
+	<item quantity="other">%d flere tooltips/hint</item>
+</plurals>
+    <string name="calculator">Kalkulator</string>
+    <string name="calculator_options_hint">Legg til en knapp for å vise kalkulator</string>
+    <string name="filter_by_number">Filtrer etter nummer</string>
+    <string name="filter_by_string">Filtrer etter streng</string>
+    <string name="multiediting_only_in_pro">Redigering av flere oppføringer er kun tilgjengelig for PRO-versjon eiere.</string>
+    <string name="multiediting_title">Multi-redigering</string>
+    <string name="select_all">Velg alle</string>
+    <string name="group_separator_option_title">Tusenskilletegn</string>
+    <string name="group_separator_option_hints">Bruk mellomrom som et tusenskilletegn</string>
+
+
+    <string name="cloud_library_notification_title">Varslinger</string>
+    <string name="cloud_library_notification_hint">Motta push-varsling når andre brukere gjør endringer i biblioteket</string>
+    <string name="cloud_library_download_notification_text">%s: lastet ned av biblioteket</string>
+    <string name="cloud_notification_for_subscribers">Beklager, kun abonnementer kan motta varslinger.</string>
+    <string name="comments">Kommentarer</string>
+    <string name="comment_input_hint">Skriv en kommentar</string>
+    <string name="comment_send_error">Feil ved sending av kommentar: %s</string>
+    <string name="edit_comment_dialog_title">Rediger kommentar</string>
+
+    <plurals name="notification_edit_library_common_text">
+	<item quantity="one">%d ulest endring</item>
+	<item quantity="other">%d uleste endringer</item>
+</plurals>
+
+    <string name="notification_edit_library_create_text">ny oppføring lagt til</string>
+    <string name="notification_edit_library_edit_text">oppføring redigert</string>
+    <string name="notification_edit_library_delete_text">oppføring slettet</string>
+    <plurals name="notification_comments_common_text">
+	<item quantity="one">%d ny kommentar</item>
+	<item quantity="other">%d nye kommentarer</item>
+</plurals>
+
+    <string name="flex_type_rich_text">Rik Tekst</string>
+    <string name="text_background_color">Bakgrunnsfarge</string>
+    <string name="field_type_rich_only_for_android_kit_kat">Denne typen felt er kun tilgjengelig for Android 4.4 KitKat og nyere versjoner.</string>
+    <string name="field_type_rich_list_free_limit">Beklager, lister er kun tilgjengelig for PRO-versjon brukere.</string>
+    <string name="field_type_rich_align_free_limit">Beklager, justering er kun tilgjengelig for PRO-versjon brukere.</string>
+    <string name="attached_files">Vedlegg</string>
+    <string name="cloud_file_not_downloaded">Ikke nedlastet</string>
+    <string name="cloud_file_download_pending">Venter</string>
+    <string name="cloud_file_queued">I kø</string>
+    <string name="cloud_file_error_upload">Feil ved sending</string>
+    <string name="cloud_file_uploading">Laster opp</string>
+    <string name="cloud_file_downloading">Laster ned</string>
+    <string name="file_show_in_folder">Vis i mappe</string>
+    <string name="file_show_in_entry">Vis i oppføringen</string>
+    <string name="sort_by_size">Sorter etter størrelse</string>
+    <string name="download_all">Last ned alle</string>
+    <string name="find_missing_files">Finn manglende filer</string>
+    <string name="button_apply">Påfør</string>
+    <string name="find_missing_files_empty">Manglende filer er ikke funnet</string>
+    <string name="file_manager_not_found">Ingen støttede filbehandlere ble funnet på din enhet.</string>
+    <string name="file_list_empty">Biblioteket inneholder ikke filer</string>
+    <string name="feature_available_only_in_pro">Denne funksjonen er bare tilgjengelig i PRO-versjonen.</string>
+    <string name="preview_button">Forhåndsvis</string>
+    <string name="select_calc_preview_entry">Post for forhåndsvisning</string>
+    <string name="calc_preview_title">Forhåndsvis</string>
+    <string name="add_relationship">Relasjon</string>
+    <string name="add_relationship_with_title">Velg et sekundær bibliotek</string>
+    <string name="add_relationship_success">Relajonen mellom bibliotekene vil bli gitt ved bruk av feltet \"%s\".</string>
+    <string name="display_aggregation">Vis aggregering</string>
+    <string name="display_aggregation_hint">Aggregering etter oppføringer i det koblede biblioteket</string>
+    <string name="create_shortcut_text">Angi navn for denne snarveien</string>
+    <string name="permission_storage_title">Lagring</string>
+    <string name="permission_storage_text">For å fortsette, gi Memento tilgang til din lagring.</string>
+    <string name="permission_storage_explanation_text">Tilgang til lagring er nødvendig for hurtigbufring, sikkerhetskopiering og tilgjengelighet for å knytte bilder og filer til oppføringene.</string>
+    <string name="permission_accounts_title">Kontoer</string>
+    <string name="permission_accounts_text">Det er påkrevd å gi Memento tilgang til kontoer som skal synkroniseres med Google Sheets og for feltfeltypen Kontakter.</string>
+    <string name="permission_location_title">Lokasjon</string>
+    <string name="permission_location_text">Det er påkrevd å gi Memento tilgang til plassering for feltypen Lokasjon.</string>
+    <string name="permission_not_necessarily">Denne tillatelsen er ikke obligatorisk.</string>
+    <string name="app_permissions">App tillatelser</string>
+    <string name="app_permissions_only_for_android6">Kun for Android 6 og nyere</string>
+    <string name="need_permission_dialog_title">Tillatelser påkrevd</string>
+    <string name="need_permission_dialog_text">Denne operasjonen krever system tillatelse - %s</string>
+    <string name="unlock_linked_library_text">Tilknyttet bibliotek er kryptert, du må angi hovedpassordet</string>
+    <string name="preview_calc_exec_time">Kjørbar tid: %d ms</string>
+    <string name="group_by_and">Alt av (OG)</string>
+    <string name="group_by_or">Noe av (ELLER)</string>
+    <string name="field_delimiters">Feltavgrensning</string>
+    <string name="field_enclosed">Tekstkvalifisering</string>
+
+    <string name="users_manager">Bruker behandling</string>
+    <string name="create_new_user_dialog">Opprett ny bruker</string>
+
+    <string name="script">Skript</string>
+    <string name="js_libraries">JavaSkript Biblioteker</string>
+    <string name="js_moment_library">Bibliotek for analyse, validering, manipulering og formatering av datoer</string>
+    <string name="js_realtime">Utfør skript i sanntid</string>
+    <string name="js_realtime_hint_off">Skriptet kjøres bare når du redigerer en registrering</string>
+    <string name="js_realtime_hint_on">Skriptet kjøres når det vises en plate</string>
+    <string name="user_limit_message">Du har nådd din brukergrense</string>
+    <string name="remaining_users" formatted="false">%d av %d lisenser brukt</string>
+    <string name="delete_slave_user_message">Vil du virkelig slette brukeren \"% s\"?</string>
+    <string name="active_users">Aktive brukere</string>
+    <string name="deleted_users">Slettede brukere</string>
+    <string name="powered_by_text">Drevet av Memento Database</string>
+
+    <string name="string_list_sort_menu_title">Sorter etter tittel</string>
+    <string name="previous_value">Forrige verdi</string>
+    <string name="specify_value">Spesifiser verdi</string>
+    <string name="filters_order">Ordne...</string>
+    <string name="full_screen_mode">Fullskjerm visning</string>
+    <string name="standard_screen_mode">Standard skjermvisning</string>
+    <string name="restore_from_cloud">Gjennopprett fra Sky</string>
+    <string formatted="false" name="of_counter">%d av %d</string>
+
+    <string name="lost_database_text">Kan ikke åpne databasefilen, sjekk at den er til stede i den angitte banen</string>
+    <string name="upload_to_cloud">Last opp til Sky</string>
+    <string name="multi_choice_delimiter">Delimiter</string>
+    <string name="cloud_plan_free">Gratis</string>
+    <string name="cloud_plan_plan3">Lite</string>
+    <string name="cloud_plan_plan6">Pro</string>
+    <string name="cloud_plan_plan10">Pro Pluss</string>
+    <string name="cloud_plan_storage">%s Lagring</string>
+
+    <string name="memento_server_settings_group">Memento Tjener</string>
+    <string name="memento_server_host">Adressen til Memento Tjeneren</string>
+    <string name="memento_server_cloud">Bruk Memento Cloud</string>
+    <string name="memento_server_private">Bruk Memento Privat tjener</string>
+    <string name="memento_server_private_hint">host:port</string>
+    <string name="memento_server_private_not_found">Privat tjener ikke funnet med spesifisert adresse</string>
+    <string name="latitude_longitude">Breddegrad og lengdegrad</string>
+    <string name="latitude_longitude_hint">breddegrad,lengdegrad</string>
+    <string name="latitude_longitude_parse_error">Kan ikke analysere breddegrad/lengdegrad</string>
+    <string name="relation_type_one_to_one">En-til-En</string>
+    <string name="relation_type_one_to_many">En-til-Mange</string>
+    <string name="relation_type_many_to_many">Mange-til-Mange</string>
+    <string name="relation_type_one_limit">Valgte registreringer har allerede en relasjon</string>
+    <string name="relation_type_one_limit2">%s har allerede en relasjon</string>
+    <string name="library_edit_mode">Redigeringsmodus</string>
+    <string name="library_edit_mode_hint">Åpne rediger ved å klikke på en oppføring</string>
+    <string name="desktop_version">Skrivebord versjon</string>
+
+    <string name="no_comments">Ingen kommentarer</string>
+    <plurals name="comments_count">
+	<item quantity="one">En kommentar</item>
+	<item quantity="other">%d kommentarer</item>
+</plurals>
+    <string name="comments_only_for_cloud">Kommentarer kan bare legges ut på bibliotekene som ble lastet opp til skyen. Last opp et bibliotek til skyen?</string>
+    <string name="locale_plugin_add_edit_entry_title">Legg til/rediger en oppføring</string>
+    <string name="locale_to_fields_list_empty_text">Klikk på + -knappen for å lage nye regler for utfylling av bibliotekfelt.</string>
+    <string name="locale_to_fields_var">Tekst fra %s</string>
+    <string name="locale_to_fields_add_rule_title">Legg til regel</string>
+    <string name="locale_to_fields_edit_rule_title">Rediger regel</string>
+    <string name="variable_select">Variabel valg</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Rediger oppføring</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Opprett en ny oppføring, hvis du ikke fant en oppføring etter nøkkelfelt</string>
+
+    <string name="send_field_title">Send filnavnet</string>
+    <string name="send_field_title_summary">Feltnavnet kommer foran feltverdien</string>
+    <string name="auto_lock_libraries_time_title">Steng tilgang til biblioteker</string>
+    <string name="auto_lock_libraries_after">Etter %s</string>
+
+    <string name="empty_triggers_list_text">Dette biblioteket inneholder ikke triggere.
+En trigger er et skript som definerer behandlingen av en oppføring basert på en hendelse som har funnet sted.</string>
+    <string name="triggers">Triggere</string>
+    <string name="trigger_name">Trigger navn</string>
+    <string name="trigger_event">Hendelse</string>
+    <string name="trigger_moment">Fase</string>
+    <string name="unknown_trigger_event_type">Ukjent hendelse</string>
+    <string name="unknown_trigger_moment_type">Ukjent fase</string>
+
+    <string name="trigger_event_create_entry">Oppretter en oppføring</string>
+    <string name="trigger_event_modify_entry">Oppdaterer en oppføring</string>
+    <string name="trigger_event_delete_entry">Sletter en oppføring</string>
+    <string name="trigger_event_open_entry">Åpner en oppføring visningskort</string>
+    <string name="trigger_event_add_favorites">Legger til oppføringer i favoritter</string>
+    <string name="trigger_event_remove_favorites">Sletter en oppføring fra Favoritter</string>
+    <string name="trigger_default_name">Trigger %d</string>
+    <string name="trigger_enabled">Aktivert</string>
+    <string name="trigger_switched_off">Skudd av</string>
+    <string name="trigger_delete_message">Vil du virkelig slette skriptet \"%s\" ?</string>
+
+
+    <string name="trigger_moment_open_form">Åpner et oppførings redigeringskort</string>
+    <string name="trigger_moment_before_save">Før lagring av oppføringen</string>
+    <string name="trigger_moment_after_save">Etter lagring av oppføringen</string>
+    <string name="trigger_moment_before_delete">Før sletting av en oppføring</string>
+    <string name="trigger_moment_after_delete">Etter sletting av en oppføring</string>
+    <string name="trigger_moment_before_show">Før vindusvisning</string>
+    <string name="trigger_moment_after_show">Etter vindusvisning</string>
+
+    <string name="application">Applikasjon</string>
+    <string name="debug">Feilsøk</string>
+    <string name="debug_summary">Alternativer for logging</string>
+    <string name="log_files_folder">Logg-filer katalog</string>
+
+    <string name="enable_logging_cloud">Memento Sky samtaler</string>
+    <string name="enable_logging_triggers">Skript logger</string>
+    <string name="script_log">Skript logg</string>
+
+    <string name="trigger_permissions">Tillatelser for skript</string>
+    <string name="trigger_permission_read_file">Les filer</string>
+    <string name="trigger_permission_read_file_hint">Tillat skript å lese fra ekstern lagring</string>
+    <string name="trigger_permission_write_file">Skriv filer</string>
+    <string name="trigger_permission_write_file_hint">Tillat skript å skrive til ekstern lagring</string>
+    <string name="trigger_permission_network">Nettverk</string>
+    <string name="trigger_permission_network_hint">Lar skripter utføre HTTP-forespørsler og sende e-post.</string>
+
+    <string name="trigger_permission_libraries">Biblioteker</string>
+    <string name="trigger_permission_libraries_hint">Tilgang til alle biblioteker</string>
+
+    <string name="trigger_permission_libraries_select">Tilgjengelige biblioteker</string>
+    <string name="trigger_permission_libraries_select_title">Velg biblioteker</string>
+    <string name="need_pro_for_triggers">I gratisversjonen kan et bibliotek bare inneholde en trigger. For å fjerne denne begrensningen, må du oppgradere til PRO-versjonen.</string>
+    <string name="filters_tab">Faner...</string>
+    <string name="filters_tab_dialog_title">Velg filtre for faner</string>
+    <string name="export_template_include_filters">Inkluder filter</string>
+
+    <string name="unit_of_measurement_enable">Legg til en måleenhet til feltet</string>
+    <string name="unit_of_measurement_none">Ingen</string>
+
+    <string name="unit_of_measurement_category">Kategori</string>
+    <string name="unit_of_measurement">Måleenhet</string>
+    <string name="unit_of_measurement_button">Legg til konvertering av enheter til feltet</string>
+
+    <string name="uom_category_temperature">Temperatur</string>
+    <string name="uom_celsius">Celisius</string>
+    <string name="uom_fahrenheit">Fahrenheit</string>
+    <string name="uom_kelvin">Kelvin</string>
+    <string name="uom_rankine">Rankine</string>
+
+    <string name="uom_category_time">Tid</string>
+    <string name="uom_nanosecond">Nanosekund</string>
+    <string name="uom_microsecond">Mikrosekund</string>
+    <string name="uom_millisecond">Millisekund</string>
+    <string name="uom_second">Sekund</string>
+    <string name="uom_minute">Minutt</string>
+    <string name="uom_hour">Time</string>
+    <string name="uom_day">Dag</string>
+    <string name="uom_week">Uke</string>
+    <string name="uom_year">År</string>
+
+    <string name="uom_category_pressure">Trykk</string>
+    <string name="uom_pascal">Pascal</string>
+    <string name="uom_atmosphere">Atmosfære</string>
+    <string name="uom_bar">Bar</string>
+
+    <string name="uom_category_length">Lengde</string>
+    <string name="uom_meter">Metger</string>
+    <string name="uom_kilometer">Kilometer</string>
+    <string name="uom_centimeter">Centimenter</string>
+    <string name="uom_millimeter">Millimeter</string>
+    <string name="uom_micrometer">Mikrometer</string>
+    <string name="uom_nanometer">Nanometer</string>
+    <string name="uom_mile">Mil</string>
+    <string name="uom_nautical_mile">Nautisk mil</string>
+    <string name="uom_foot">Fot</string>
+    <string name="uom_yard">Yard</string>
+    <string name="uom_inch">Tommer</string>
+    <string name="uom_astronomical_unit">Astronomisk enhet</string>
+    <string name="uom_light_year">Lysår</string>
+    <string name="uom_parsec">Parsec</string>
+
+    <string name="uom_category_mass">Masse</string>
+    <string name="uom_microgram">Mikrogram</string>
+    <string name="uom_milligram">Milligram</string>
+    <string name="uom_gram">Gram</string>
+    <string name="uom_kilogram">Kilogram</string>
+    <string name="uom_ton">Tonn</string>
+    <string name="uom_ton_uk">Imperial tonn</string>
+    <string name="uom_ton_us">US tonn</string>
+    <string name="uom_pound">Pound</string>
+    <string name="uom_ounce">Ounce</string>
+
+    <string name="uom_category_volume">Volum</string>
+    <string name="uom_cubic_metre">Kubikkmeter</string>
+    <string name="uom_liter">Liter</string>
+    <string name="uom_cubic_inch">Kubikktommer</string>
+    <string name="uom_gallon_liquid_us">US gallon</string>
+    <string name="uom_ounce_liquid_us">US væske onuce</string>
+    <string name="uom_gallon_uk">Imeprial gallon</string>
+    <string name="uom_ounce_liquid_uk">Imperial væske ounce</string>
+
+    <string name="uom_category_dataamount">Digital lagring</string>
+    <string name="uom_bit">Bit</string>
+    <string name="uom_byte">Byte</string>
+    <string name="uom_kilobit">Kilobit</string>
+    <string name="uom_kilobyte">Kilobyte</string>
+    <string name="uom_megabit">Megabit</string>
+    <string name="uom_megabyte">Megabyte</string>
+    <string name="uom_gigabit">Gigabit</string>
+    <string name="uom_gigabyte">Gigabyte</string>
+    <string name="uom_terabit">Terabit</string>
+    <string name="uom_terabyte">Terabyte</string>
+    <string name="uom_petabit">Petabit</string>
+    <string name="uom_petabyte">Petabyte</string>
+
+    <string name="uom_category_area">Område</string>
+    <string name="uom_square_metre">Kvadratmeter</string>
+    <string name="uom_are">Are</string>
+    <string name="uom_hectare">Hektar</string>
+
+    <string name="uom_category_velocity">Hastighet</string>
+    <string name="uom_meters_per_second">Meters per sekund</string>
+    <string name="uom_miles_per_hour">Mil per time</string>
+    <string name="uom_kilometers_per_hour">Kilometer per time</string>
+    <string name="uom_knot">Knop</string>
+    <string name="uom_mach">Mach</string>
+
+    <string name="uom_category_power">Kraft</string>
+    <string name="uom_watt">Watt</string>
+    <string name="uom_kilowatt">Kilowatt</string>
+    <string name="uom_megawatt">Megawatt</string>
+    <string name="uom_horsepower">Hestekrefter</string>
+
+    <string name="uom_category_energy">Energi</string>
+    <string name="uom_joule">Joule</string>
+    <string name="uom_kilojoule">Kilojoule</string>
+
+    <string name="uom_category_frequency">Frekvens</string>
+    <string name="uom_hertz">Hertz</string>
+    <string name="uom_kilohertz">Kilohertz</string>
+    <string name="uom_megahertz">Megahertz</string>
+    <string name="uom_gigahertz">Gigahertz</string>
+
+    <string name="wrong_field_value">Felt %s har en uakseptabel verdi</string>
+
+    <string name="unit_converter">Enhetsomformer</string>
+    <string name="increase">Øk</string>
+    <string name="decrease">Minsk</string>
+    <string name="frozen">Fryst</string>
+    <string name="frozen_text">Biblioteket er frossent fordi takstplangrensen for antall biblioteker lastet opp til skyen ble overskredet.</string>
+    <string name="date_and_time_formats">Dato og tids formater</string>
+    <string name="date_formats">Datoformater</string>
+    <string name="time_formats">Tidsformater</string>
+    <string name="date_formats_short">Kort dato</string>
+    <string name="date_formats_long">Lang dato</string>
+    <string name="time_formats_short">Kort tid</string>
+    <string name="time_formats_long">Lang tid</string>
+    <string name="language">Språk</string>
+    <string name="next_button">Neste</string>
+    <string name="bulk_add">Legg til i bulk</string>
+    <string name="login">Logg inn</string>
+    <string name="sign_up">Registrer deg</string>
+    <string name="memento_cloud2">Memento Sky</string>
+
+    <string name="from_file">Fra fil</string>
+    <string name="from_google_drive">Fra Google Drive</string>
+    <string name="locale_key_field_description">Nøkkelfeltet for redigering av oppføringer</string>
+
+    <string name="field_values_delimiter">Felt delimiter</string>
+    <string name="entries_desc_dialog_title">Inngangsbeskrivelsen bestemmes av verdiene til valgte felt</string>
+    <string name="image_caption">Bildetekst</string>
+    <string name="flex_type_subheader">Undertittel</string>
+    <string name="create_subheader">Lag undertittel</string>
+    <string name="edit_subheader">Rediger undertittel</string>
+    <string name="subheader_collapsed_by_default">Kollapset som standard</string>
+    <string name="aggr_always_show">Vis alltid</string>
+    <string name="cant_add_management">Administratoren har full tilgang til dette biblioteket</string>
+    <string name="auth_error_user_blocked">Din konto har blitt deaktivert</string>
+    <string name="team_license">Team</string>
+    <string name="user_manager_only_for_team">Administrasjon av brukere og lisenser er kun tilgjengelig på Team tariffer</string>
+    <string name="send_password_to_user">Send passord til bruker via epost</string>
+    <string name="create_permissions">Opprett tilganger</string>
+    <string name="edit_permissions">Rediger tilganger</string>
+    <string name="library_permissions">Bibliotek tilganger</string>
+    <string name="field_permissions">Felt tilganger</string>
+    <string name="library_permissions_subject">Brukernavn/epost/gruppe</string>
+    <string name="permissions_delete_message">Vil du virkelig slette tillatelsene for \"%s\"?</string>
+    <string name="field_right_need_library_download">Du må laste ned et bibliotek på enheten din for å legge til nye tilgangsrettigheter for felt.</string>
+    <string name="field_permission_invisible">Usynlig</string>
+    <string name="field_permission_read_only">Kun lesetilgang</string>
+    <string name="field_permissions_limit">Tilgangsrettigheter for felt kan bare angis på teamtariffer.</string>
+    <string name="user_groups">Brukergrupper</string>
+    <string name="add_user_group">Legg til brukergruppe</string>
+    <string name="add_user_group_hint">Gruppenavn</string>
+    <string name="user_group_name_empty">Gruppenavnet kan ikke være tomt</string>
+    <string name="users_count_none">Ingen brukere</string>
+    <plurals name="users_count">
+	<item quantity="one">En bruker</item>
+	<item quantity="other">%d brukere</item>
+</plurals>
+    <string name="user_group_delete_message">Vil du virkelig slette gruppen \"%s\" ?</string>
+    <string name="group_not_found">Gruppen ikke funnet</string>
+    <string name="individual">Individuell</string>
+    <string name="team">Team</string>
+    <string name="cloud_plan_team5">Team 5</string>
+    <string name="cloud_plan_team10">Team 10</string>
+    <string name="cloud_plan_team15">Team 15</string>
+    <string name="cloud_plan_team20">Team 20</string>
+    <string name="pro_for_team">" Pro-funksjoner for alle teambrukere"</string>
+    <string name="team_features_trial">Alle planer inkluderer en gratis 14-dagers prøveperiode.</string>
+
+    <string name="tasker_plugin_create_entry_event_title">Oppføring opprettet</string>
+    <string name="tasker_plugin_delete_entry_event_title">Oppføring slettet</string>
+    <string name="tasker_plugin_modified_entry_event_title">Oppføring modifisert</string>
+    <string name="no_libraries_text">Ingen biblioteker enda!</string>
+    <string name="add_linked_libraries">Inkluder relaterte biblioteker</string>
+    <string name="create_collections">Opprett bibliotek</string>
+    <string name="create_collections_success">Bibliotek opprettet</string>
+    <string name="template_included_libraries">Malen inneholder flere biblioteker.</string>
+
+    <string name="entries_view_type_cards">Kort</string>
+    <string name="card_view_number_of_columns">Antall kolonner</string>
+    <plurals name="columns_count">
+	<item quantity="one">En kolonne</item>
+	<item quantity="other">%d kolonner</item>
+</plurals>
+
+    <string name="card_view_title_on_image">Vis tekst over bildet</string>
+    <string name="card_view_squared_image">Beskjær bilder til et kvadrat</string>
+    <string name="hint_previous_entry">Forrige oppføring</string>
+    <string name="hint_next_entry">Neste oppføring</string>
+    <string name="hint_remove_image_button">Fjern bilde</string>
+    <string name="hint_insert_image_button">Sett inn bilde</string>
+    <string name="hint_capture_image_button">Ta bilde</string>
+    <string name="hint_change_date">Endre dato</string>
+    <string name="hint_change_time">Endre tid</string>
+    <string name="hint_add_reminder">Legg til påminnelse</string>
+    <string name="hint_remove_reminder">Fjern påminnelse</string>
+    <string name="hint_insert_contact_button">Sett inn kontakt</string>
+    <string name="hint_create_contact_button">Opprett en kontakt</string>
+    <string name="hint_insert_audio_button">Sett inn lydspor</string>
+    <string name="hint_record_audio_button">Ta opp lyd</string>
+    <string name="hint_insert_location_button">Sett inn lokajon</string>
+    <string name="hint_get_my_location_button">Finn min lokasjon</string>
+    <string name="hint_insert_entry_button">Sett inn oppføring</string>
+    <string name="barcode_type_option_title">Type</string>
+    <string name="barcode_type_1d">Strekkode</string>
+    <string name="barcode_type_2d">QR Kode</string>
+
+    <string name="embedded_js_libraries">En del av</string>
+    <string name="repository_js_libraries">Oppbevaringssteder</string>
+    <string name="repository_data_sources_hint">Datakilder for automatisk utfylling</string>
+    <string name="warning">Advarsel</string>
+    <string name="add_repository">Legg til javascript-biblioteker ...</string>
+    <string name="repository_location_hint">GitHub Repository URL</string>
+    <string name="repository_location_error">Spesifiser HTTPS-koblingen til GitHub-depot. For eksempel: https://github.com/usname/repo-name</string>
+    <string name="repository_delete_message">Vil du virkelig slette depotet \"%s\"?</string>
+    <string name="repository_other">Andre</string>
+
+    <string name="map_field_current_by_default_title">Nåværende lokasjon</string>
+    <string name="map_field_current_by_default_hint">Få gjeldende plassering som standard</string>
+    <string name="receiving_document_content">Motta dokumentinnhold</string>
+    <string name="find_address">Finn adresse</string>
+    <string name="privacy_policy">Retningslinjer for personvern</string>
+    <string name="trigger_event_action">Handling</string>
+    <string name="action_context_library">Bibliotek</string>
+    <string name="trigger">Trigger</string>
+    <string name="action_default_name">Handling %d</string>
+    <string name="place_of_action">Plassering av handling</string>
+    <string name="action_arguments">Argumenter</string>
+    <string name="action_arguments_empty">Skriptet kan ha argumenter, hvis verdier blir lagt inn av brukeren.</string>
+    <string name="select_argument_type">Argument type</string>
+    <string name="script_argument_delete_message_text">Vil du virkelig slette argumentet \"%s\" ?</string>
+    <string name="create_argument">Opprett argument</string>
+    <string name="edit_argument">Rediger argument</string>
+    <string name="argument_name">Argument navn</string>
+    <string name="argument_hint">Argument hint</string>
+    <string name="required_argument_text">Argument må fylles inn</string>
+    <string name="scripts">Skript</string>
+    <string name="actions">Handlinger</string>
+    <string name="empty_script_list_text">Biblioteket inneholder ikke skript</string>
+    <string name="empty_script_list_trigger_text">Trigger er et skript som definerer prosessen av en oppføring basert på en Handling som har funnet sted.</string>
+    <string name="empty_script_list_action_text">Handling er et skript som startes manuelt ved å presse på knappen i biblioteket eller på oppføringskortet.</string>
+    <string name="autofill_goto_script_title">Skript redaktør</string>
+    <string name="autofill_goto_script_hint">Skriptert datakilde</string>
+    <string name="java_script_data_source_title">Tilpasset kilde</string>
+    <string name="java_script_data_source_hint">JavaScript</string>
+    <string name="script_cant_run_for_not_saved_library">Du kan kjøre skript kun etter at biblioteket er lagret.</string>
+    <string name="autofill_script_source_key_title">Påpek objektegenskapen som returneres av skriptet</string>
+    <string name="test_js_data_source_query_hint">Spørrestreng</string>
+    <string name="test_js_data_source_query_result">Spørreresultat:
+%s</string>
+    <string name="run">Kjør</string>
+    <string name="run_arguments">Kjør argumenter</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">Du kan bare sette tillatelser for skript etter at biblioteket er lagret.</string>
+    <string name="script_permissions_required_message">Biblioteket har skript som krever følgende tillatelser:</string>
+    <string name="required_access_to_library">tilgang til %s</string>
+    <string name="action_with_library_context">Bibliotek handling</string>
+    <string name="action_with_entry_context">Oppføring handling</string>
+    <string name="library_related_cloud_model_changed_message">Strukturen til relatert bibliotek ble oppdatert i skyen. Gå til det relaterte biblioteket for oppdateringen.</string>
+    
+    <string name="monthly_plan">Månedlig</string>
+    <string name="yearly_plan">Årlig</string>
+    <string name="cloud_plan_plan3_annual">Lite</string>
+    <string name="cloud_plan_plan6_annual">Pro</string>
+    <string name="cloud_plan_plan10_annual">Pro Pluss</string>
+    <string name="cloud_plan_team5_annual">tEAM 5</string>
+    <string name="cloud_plan_team10_annual">Team 10</string>
+    <string name="cloud_plan_team15_annual">Team 15</string>
+    <string name="cloud_plan_team20_annual">Team 20</string>
+    <string name="price_per_year">%s/år</string>
+
+    <string name="frozen_alien_text">Biblioteket er frossent. Ta kontakt med bibliotekets eier (%s).</string>
+    <string name="copy_field">Kopier felt</string>
+    <string name="delete_reminder_dialog_text">Vil du virkelig slette påminnelsen?</string>
+    <string name="igdb_source">igdb.com</string>
+    <string name="games">Spill</string>
+    <string name="number_increment_delta_title">Økning / reduksjonsknapper</string>
+    <string name="number_increment_delta_value">Steg størrelse %s</string>
+    <string name="number_increment_visible_option">Vis knapper</string>
+    <string name="is_empty">Er tom</string>
+    <string name="is_not_empty">Er ikke tom</string>
+    <string name="trigger_event_open_library">Åpner et bibliotek</string>
+    <string name="search_base_folder">Søk i basen</string>
+    <string name="wizard">Veiviser</string>
+    <string name="wizard_library_name_title">Memento organiserer informasjonen din i biblioteker. Hva vil du kalle biblioteket ditt?</string>
+    <string name="wizard_library_name_hint2">Biblioteker brukes til å holde en liste over en bestemt type element.</string>
+    <string name="wizard_library_name_hint3">Bibliotek ligner på regnearkene i et regneark.</string>
+    <string name="wizard_library_icon_title">Velg ikon for dette biblioteket</string>
+    <string name="wizard_library_structure_title">La oss lage en struktur for biblioteket ditt.</string>
+    <string name="wizard_library_structure_hint2">Hvert element du legger inn i biblioteket ditt kalles en \'oppføring\'. Hver oppføring har sine egne felt med all informasjonen du vil lagre om den.</string>
+    <string name="wizard_library_structure_hint3">En oppføring tilsvarer en rad i et regneark.</string>
+    <string name="wizard_library_structure_hint4">Et felt tilsvarer en kolonne i et regneark.</string>
+    <string name="wizard_select_field_type_message">Vennligst velg en felttype</string>
+    <string name="wizard_add_name_field_message">Legg til feltet som vil bli navnet på oppføringen.</string>
+    <string name="wizard_field_options_title">Feltattributter</string>
+    <string name="wizard_field_items_title">Elementer</string>
+    <string name="wizard_field_options_select_type_message">Feltattributter vil være tilgjengelige etter valg av feltype.</string>
+    <string name="wizard_field_options_empty">Bare avanserte attributter er tilgjengelige for den valgte felttypen.</string>
+    <string name="wizard_field_advanced_options_button">Avansert</string>
+    <string name="wizard_choice_field_items_empty_text">Du bør opprette et forhåndsinnstilt antall elementer (verdier) for feltypen.</string>
+    <string name="wizard_field_name_title">Hva ønsker du å navngi dette feltet?</string>
+    <string name="wizard_field_name_examples">For eksempel kan du ha felt for \'tittel\', \'beskrivelse\', \'type utstyr\', \'kostnad\', \'størrelse\', \'plassering\', etc.</string>
+    <string name="wizard_field_type_title">Hvert felt kan utformes for å inneholde en bestemt type data.</string>
+    <string name="wizard_field_display_options_title">Vil du vise verdiene for dette feltet i listen over oppføringer?</string>
+    <string name="wizard_field_display_no">Nei, takk</string>
+    <string name="wizard_field_display_name">Som navn på oppføring</string>
+    <string name="wizard_field_display_thumb">Som oppføringens miniatyrbilde</string>
+    <string name="wizard_field_display_desc">Som oppføringens beskrivelse</string>
+    <string name="wizard_field_display_status">Som oppføringens status</string>
+    <string name="more_info">Trenger du hjelp?</string>
+    <string name="type_desc_rating">Et vurderingsfelt kan være tomt eller inneholde en tallverdi fra 1 til 5 som stjerner.</string>
+    <string name="type_desc_location">Et posisjonsfelt kan inneholde et sted, avbildet som en breddegrad/lengdegrad og en postadresse.</string>
+    <string name="type_desc_link_to_entry">Et lenke til oppføringsfelt kan inneholde en lenke til en oppføring eller til oppføringer i et annet bibliotek.</string>
+    <string name="type_desc_contact">Et kontaktfelt kan inneholde en lenke til en kontakt i den lokale kontaktappen.</string>
+    <string name="type_desc_images">Et bildefelt kan inneholde lenker til bilder.</string>
+    <string name="type_desc_signature">Et signaturfelt lar deg samle elektroniske signaturer.</string>
+    <string name="type_desc_file">Et link til fil-felt kan inneholde lenker til eksternt lagrede filer.</string>
+    <string name="type_desc_date">Et Datofelt kan inneholde en verdi som brukes til å representere en bestemt kalenderdato.</string>
+    <string name="type_desc_datetime">Et DateTime-felt kan inneholde en verdi som brukes til å representere en bestemt kalenderdato og -tid.</string>
+    <string name="type_desc_time">Et tidsfelt kan inneholde en verdi som brukes til å representere et bestemt tidspunkt på dagen.</string>
+    <string name="type_desc_boolean">Den boolske feltet gir en enkelt avkrysningsrute (ja / nei).</string>
+    <string name="type_desc_money">Et pengefelt har en valuta og et beløp. Valutaen må velges når malen er definert.</string>
+    <string name="type_desc_real">Feltypen Real inneholder tall med eller uten desimaler.</string>
+    <string name="type_desc_int">Feltypen Nummer inneholder vanlige tall uten desimaler.</string>
+    <string name="type_desc_int_list">Et felt for heltallverdier er et ordnet sett med tall som en bruker kan velge et fra.</string>
+    <string name="type_desc_phone">Et telefonnummerfelt kan inneholde et telefonnummer i tekstform.</string>
+    <string name="type_desc_email">Et e-postadressefelt kan inneholde en e-postadresse i tekstform.</string>
+    <string name="type_desc_barcode">Strekkodefeltet brukes til å skanne strekkoder eller QR-koder.</string>
+    <string name="type_desc_pass">Et passordfelt kan inneholde tekstdata. Tegnene i et passordfelt er maskert (vist som stjerner).</string>
+    <string name="type_desc_rich">Et rik tekstfelt kan inneholde tekstdata, inkludert tekstformatering.</string>
+    <string name="type_desc_multiple_choice">Et felt med flervalgslister er et sett med tekststrenger som en bruker kan velge en eller alle fra.</string>
+    <string name="type_desc_checkboxes">I avkrysningsfeltet kan du presentere en eller mange avkrysningsbokser som tillater flere valg.</string>
+    <string name="type_desc_single_choice">"Et enkeltvalgsfelt er et sett med tekststrenger som en bruker  bare kan velge èn fra."</string>
+    <string name="type_desc_radiobuttons">Radioknappefeltet brukes til å gjøre et valg fra en gruppe med valg.</string>
+    <string name="type_desc_js">Verdien på feltet vil være et resultat av utførelsen av skriptet som er definert i feltet og utført i oppføringskonteksten.</string>
+    <string name="type_desc_calc">Et beregningsfelt brukes til å vise skrivebeskyttede verdier basert på en beregning som kan inneholde verdier, fra andre felt på oppføringen.</string>
+
+    <string name="wizard_complete_text1">Gratulerer!</string>
+    <string name="wizard_complete_text2">Du har opprettet biblioteket ditt.</string>
+    <string name="wizard_complete_text3">Du kan når som helst endre strukturen på biblioteket ditt, legge til aggregering, autofyll, skript osv.</string>
+    <string name="close">Lukk</string>
+
+    <string name="attributes">Egenskaper</string>
+    <string name="select_attribute_type">Egenskap type</string>
+    <string name="create_attribute">Opprett egenskap</string>
+    <string name="edit_attribute">Rediger egenskap</string>
+    <string name="attribute_name">Atributt navn</string>
+    <string name="required_attribute_text">Egenskapen må fylles ut</string>
+
+    <string name="attribute_display_title_in_card">Egenskapsnavn</string>
+    <string name="attribute_display_title_in_card_hint">Vis navnet til egenskapen i oppføringskortet</string>
+    <string name="attribute_delete_message_text">Vil du virkelig slette egenskapen \"%s\" ?</string>
+    <string name="free_version_attributes_limit">I gratisversjonen kan du bare legge til en egenskap. Oppgrader til PRO-versjon for å fjerne denne begrensningen.</string>
+    <string name="trigger_event_link_entry">Knytte til en oppføring</string>
+    <string name="trigger_event_unlink_entry">Fjern knyttning til oppføring</string>
+    <string name="script_cant_run_links_not_exists">Skript kan ikke kjøres. Koblinger til dette biblioteket eksisterer ikke.</string>
+    <string name="all_searchable_fields">Alle søkbare felter</string>
+    <string name="search_settings_quick">Raskt søkt i</string>
+    <string name="search_by_specified_fields">Spesifiserte felter</string>
+    <string name="index_not_found_message">Søk er ikke mulig, oppføringene er ikke indeksert</string>
+    <string name="script_error_message">Skript feil: %s</string>
+    <string name="advanced_search">Avansert søk</string>
+    <string name="quick_filter_for_text">For tekst</string>
+    <string name="quick_filter_for_numbers">For tall</string>
+    <string name="save_as_filter">Lagre som et filter</string>
+    <string name="save_as_filter_success">Nytt filter er opprettet</string>
+    <string name="years_range_wrong">Årsslutt må være større enn eller lik årsstart</string>
+<string name="end_year">Slutt</string>
+    <string name="begin_year">Start</string>
+    <string name="years_range">År rekkevidde i datoer</string>
+    <string name="file_save_error">Kan ikke lage fil:
+%s</string>
+
+    <string name="got_to_system_settings">Gå til innstillinger</string>
+    <string name="storage_permission_required_text">Denne appen trenger tillatelse til lagring. Du kan godkjenne det i app innstillinger.</string>
+    <string name="storage_permission_required_title">Trenger tillatelse</string>
+    <string name="enable_fingerprint">Aktiver fingeravtrykk</string>
+
+    <string name="unlock_fingerprint_hint">Skkan ditt fingeravtrykk for å åpne</string>
+    <string name="fingerprint_not_recognized">Fingeravtrykk ikke gjenkjent</string>
+    <string name="unlock_fingerprint_dialog_text">Neste gang, vil du låse opp dine beskyttede bibliotek ved bruk av fingeravtrykk?</string>
+    <string name="unlock_fingerprint_dialog_title">Lås opp med fingeravtrykk</string>
+    <string name="image_cache_settings_path_title">Bildebuffermappe</string>
+
+    <string name="type_desc_color">Fargefeltstypen gjør det mulig å lagre hvilken som helst farge i RGB-format.</string>
+    <string name="moby_source">mobygames.com</string>
+    <string name="wiki">Wiki</string>
+
+    <string name="select_source_library_dialog_hint">Velg en datakilde</string>
+    <string name="select_source_library_dialog_title">Velg biblioteket data skal kopieres fra</string>
+    <string name="time_field_group_by_day_and_time">Grupper etter dag og tid</string>
+
+    <string name="uom_custom_name">Enhetsnavn</string>
+    <string name="uom_category_userdefined">Bruker definert</string>
+    <string name="pending_user">Venter...</string>
+    <string name="barcode_type_nfc">NFC</string>
+    <string name="revision_history_only_for_cloud">Versjon historikk er bare tilgjengelig for bliblioteker som er lastet opp i skyen og for PRO eller TEAM kontoer.</string>
+    <string name="revert_to_version_message">Er du sikker på at du vil gå tilbake til versjonen fra %s?</string>
+    <string name="revert_to_version">Gå tilbake til denne versjonen</string>
+    <string name="revision_action_create">%s opprettet oppføring</string>
+    <string name="revision_action_edit">%s endret</string>
+    <string name="revision_current_version">Nåværende versjon</string>
+    <string name="revision_history">Versjon historikk</string>
+    <string name="plans_comparison">Se vår komplette funksjonssammenligning</string>
+
+    <string name="boolean_format_off">Av merke</string>
+    <string name="boolean_format_on">På merke</string>
+    <string name="boolean_format">Format</string>
+    <string name="permission_contacts_text">Det er påkrevd å gi Memento tilgang til kontakter for typen Kontaktfelt.</string>
+    <string name="permission_contacts_title">Kontakter</string>
+    <string name="search_index_tokenizer">Leksikalsk analysator</string>
+
+    <string name="wrong_template_address">Ugyldig maladresseformat</string>
+    <string name="public_template_address_text">Mal adresse</string>
+    <string name="template_not_found_by_uri">Mal ikke funnet</string>
+    <string name="account_without_password_message">Den kontoen ser ut til å være en Google-konto uten passord. Prøv å bruke \"Fortsett med Google\" -knappen.</string>
+    <string name="choose_username">Velg ditt brukernavn</string>
+    <string name="sign_in_error">Kunne ikke logge inn</string>
+    <string name="password_changed_message">Ditt passord er blitt endret!</string>
+    <string name="new_password">Nytt passord</string>
+    <string name="current_password">Nåværende passord</string>
+    <string name="change_password">Endre passord</string>
+    <string name="current_plan">Nåværende plan</string>
+    <string name="logout_confirmation">Er du sikker på at du vil logge ut?</string>
+    <string name="logout">Logg ut</string>
+    <string name="auth_error_text">En feil oppstod, vennligst autentiser igjen %s.</string>
+    <string name="auth_error_title">Autentiseringsfeil</string>
+    <string name="sign_up_or_sign_in">Registrer deg eller logg inn</string>
+    <string name="please_sign_in">Vennligst logg inn på Memento Sky.</string>
+    <string name="minimum_pass_length">Passord må være minst %d karakterer langt.</string>
+    <string name="sign_in_with_google">Fortsett med Google</string>
+    <string name="email_or_username">Epost eller brukernavn</string>
+    <string name="plans_and_pricing">Planer &amp; Priser</string>
+    <string name="activate_with_key">Aktiver med lisensnøkkel</string>
+    <string name="pro_features_title">PRO funksjoner</string>
+    <string name="pro_license_activated">Lisens aktivitert</string>
+    <string name="pro_feature_8">Praktisk app-widget</string>
+    <string name="pro_feature_7">Redigering av flere oppføringer</string>
+    <string name="pro_feature_6">Ett oppføringsfelt kan inneholde flere antall objekter (bilder, filer, kontakter, koordinater, etc.</string>
+    <string name="pro_feature_5">Avansert søk</string>
+    <string name="pro_feature_4">Ubegrenset antall skipt</string>
+    <string name="pro_feature_3">Ubegrenset antall grafer</string>
+    <string name="pro_feature_2">Ubegrenset antall \"beskyttede\" biblioteker</string>
+    <string name="pro_feature_1">Ubegrenset antall bibliotek som kan bli synkronisert med Google Sheets</string>
+    <string name="pro_feature_0">Ingen reklame</string>
+    <string name="license_key_tab">Lisens nøkkel</string>
+    <string name="library_item_not_found_dialog_message">Oppføring ikke funnet. Den kan ha blitt slettet.</string>
+
+    <string name="cant_find_contact_selection_app">Beklager, men applikasjonen for valg av kontakter er ikke funnet.</string>
+    <string name="link_attributes_empty_text">Dette feltet har ikke egenskaper for lenker.</string>
+    <string name="autofilll_source_not_supported">Beklager, men %s er ikke støttet lenger.</string>
+    <string name="button_upgrade">Oppgrader</string>
+    <string name="quick_filter_limit_message">Gratisversjonen lar deg bare søke etter fem felt.
+Oppgrader til PRO-versjonen for å deaktivere denne begrensningen.</string>
+    <string name="notification_channel_files">Filer</string>
+    <string name="notification_channel_entries">Endringer i biblioteket</string>
+    <string name="notification_channel_reminders">Påminnelser</string>
+    <string name="shortcut_not_supported">Dessverre så støtter ikke din launcher appsnarveier.</string>
+    <string name="entry_name_and_description">Oppførings navn og beskrivelse</string>
+    <string name="type_desc_url">Et hyperkoblingsfelt kan inneholde en tekstlig HTML-kobling.</string>
+    <string name="type_desc_text">Et tekstfelt kan inneholde tekstdata.</string>
+    <string name="type_desc_audio">Et lydfelt kan inneholde lenker til lagrede lyder.</string>
+    <string name="line_interpolate_nulls_titles">Interpolere tomme verdier</string>
+
+
+    <string name="action_context_view_entry">Oppføring visningskort</string>
+    <string name="repository_not_found_error">Finner ikke depot: %s</string>
+    <string name="repository_android_intents_hint">Funksjoner for interaksjon med andre Android-applikasjoner</string>
+    <string name="add_javascript_library">Legg til javascript-biblioteker ...</string>
+    </resources>
