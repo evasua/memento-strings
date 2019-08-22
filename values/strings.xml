@@ -142,7 +142,7 @@
     <string name="activation_ok">Thank you for activation Memento</string>
     <string name="activation_error">Activation code is invalid. Please, try again.</string>
     <string name="about">About</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2019 LuckyDroid\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">View software version</string>
     <string name="about_license_type">License:</string>
@@ -168,7 +168,7 @@
     <string name="need_title_column_text">The name of a column must correspond to the name of an entry field. </string>
     <string name="csv_result_import_text">The entries have been imported</string>
     <string name="csv_result_import_succes_items">Added entries:</string>
-    <string formatted="false" name="csv_result_import_fail_items">Number of rows with errors: %s \nRows: %s</string>
+    <string name="csv_result_import_fail_items" formatted="false">Number of rows with errors: %s \nRows: %s</string>
     <string name="enter_csv_name_dialog_title">Export to CSV</string>
     <string name="enter_csv_name_dialog_value_title">Enter the name of the CSV file</string>
     <string name="enter_csv_name_dialog_value_hint">File name</string>
@@ -226,9 +226,9 @@
     <string name="sync_with_gdocs">Sync with Google Sheets</string>
     <string name="google_docs_task_step_auth">Authenticating to the Sheets service</string>
     <string name="google_docs_task_step_get_rows">Retrieving a list-based feed</string>
-    <string formatted="false" name="google_docs_task_step_process_row">Processing a list rows. %s of %s</string>
-    <string formatted="false" name="google_docs_task_step_send_row">Adding a list row. %s of %s</string>
-    <string formatted="false" name="google_docs_task_step_update_row">Updating a list row. %s of %s</string>
+    <string name="google_docs_task_step_process_row" formatted="false">Processing a list rows. %s of %s</string>
+    <string name="google_docs_task_step_send_row" formatted="false">Adding a list row. %s of %s</string>
+    <string name="google_docs_task_step_update_row" formatted="false">Updating a list row. %s of %s</string>
     <string name="google_docs_task_create_document">Creating a spreadsheet</string>
     <string name="google_docs_task_create_worksheet">Adding a worksheet</string>
     <string name="google_docs_task_shange_columns">Updating a worksheet</string>
@@ -255,7 +255,7 @@
     <string name="public_to_picasa_create_album">Creating a Picasa album for the published library</string>
     <string name="public_to_picasa_success">Images has been uploaded to Picasa</string>
     <string name="picasa_task_step_auth">Authenticating to the Picasa service</string>
-    <string formatted="false" name="picasa_send_image_step">Uploading library images to Picasa. %s of %s</string>
+    <string name="picasa_send_image_step" formatted="false">Uploading library images to Picasa. %s of %s</string>
     <string name="public_library">Publish the library</string>
     <string name="update_public_library">Update the publication</string>
     <string name="memento_register_account_title">Creating an account\non the Memento server</string>
@@ -283,7 +283,7 @@
     <string name="preference_memento_account_hint">Your Memento Account username and password</string>
     <string name="public_library_task_auth">Authenticating to the Memento service</string>
     <string name="public_library_task_send_template">Transferring the library template</string>
-    <string formatted="false" name="public_library_task_send_items">Transferring library entries.\n%s from %s</string>
+    <string name="public_library_task_send_items" formatted="false">Transferring library entries.\n%s from %s</string>
     <string name="memento_not_support_template">Your version of Memento is out of date, update it</string>
     <string name="memento_not_found">Resource not found</string>
     <string name="alias_hint">Enter the library alias</string>
@@ -312,7 +312,7 @@
     <string name="subscribe_button">Subscribe</string>
     <string name="subscribe_task_get_library">Getting library entries</string>
     <string name="subscribe_task_create_library">Creating library</string>
-    <string formatted="false" name="subscribe_task_save_library_task">Saving entries.\n%s from %s</string>
+    <string name="subscribe_task_save_library_task" formatted="false">Saving entries.\n%s from %s</string>
     <string name="subscribe_task_create_index">Creating indexes</string>
     <string name="subscribes_group_title">Subscriptions</string>
     <string name="library_settings">Settings</string>
@@ -556,7 +556,7 @@
     <string name="last_auto_backup_time">Last auto-backup: %s</string>
     <string name="select_file_for_restore_db">Select the backup file</string>
     <string name="date_format_sample">Date format: %s</string>
-    <string formatted="false" name="stats_title_in_list">%s by %s</string>
+    <string name="stats_title_in_list" formatted="false">%s by %s</string>
     <string name="sum_function_title">Sum</string>
     <string name="max_function_title">Max</string>
     <string name="min_function_title">Min</string>
@@ -589,9 +589,9 @@
     <string name="no_entries">No entries</string>
     <plurals name="library_box_entries_count">
         <item quantity="one">One entry</item>
-    	<item quantity="few">%d entries</item>
-    	<item quantity="many">%d entries</item>       
-        <item quantity="other">%d entries</item>                
+        <item quantity="few">%d entries</item>
+        <item quantity="many">%d entries</item>
+        <item quantity="other">%d entries</item>
     </plurals>
     <string name="add_group_dialog_text">Name of the group</string>
     <string name="add_group_dialog_hint">Type the group name</string>
@@ -640,7 +640,7 @@
     <string name="request_pass_dialog_hint">Email address</string>
     <string name="change_password_success">Please check your email\nWe\'ve sent you an email that will allow you to reset your password quickly and easily.</string>
     <string name="tile_options_text">title</string>
-    <string formatted="false" name="library_item_position_text">%d/%d</string>
+    <string name="library_item_position_text" formatted="false">%d/%d</string>
     <!-- 2.0.3 -->
     <string name="search_in_protected_libraries">Search in password-protected libraries\n(except for the encrypted)</string>
     <!-- 2.1.0 -->
@@ -673,9 +673,9 @@
     <string name="no_dependencies">no dependencies</string>
     <plurals name="field_depends_count">
         <item quantity="one">One dependency</item>
-    	<item quantity="few">%d dependencies</item>
-    	<item quantity="many">%d dependencies</item>       
-        <item quantity="other">%d dependencies</item>                
+        <item quantity="few">%d dependencies</item>
+        <item quantity="many">%d dependencies</item>
+        <item quantity="other">%d dependencies</item>
     </plurals>
     <string name="add_depends_button_title">Add a dependency</string>
     <string name="library_dont_have_fields_for_depends">Library does not contain the appropriate fields for the construction of dependence of this field</string>
@@ -700,11 +700,11 @@
     <string name="restore_files_message">The backup copy contains an archive with files associated with the database; do you want to restore them?</string>
     <string name="restore_files_progress_title">Restoring files</string>
     <string name="restore_files_success2">All files associated with the database have been unpacked</string>
-    <string formatted="false" name="restore_files_error_message">Failed restore files from archive: %s</string>
+    <string name="restore_files_error_message" formatted="false">Failed restore files from archive: %s</string>
     <string name="restore_files_error">Failed to restore files</string>
     <string name="select_google_account">Select a Google account</string>
     <string name="send_files_to_cloud_error">Error upload files to the cloud:</string>
-    <string formatted="false" name="upload_file_to_cloud_message">Upload %s (%d/%d)</string>
+    <string name="upload_file_to_cloud_message" formatted="false">Upload %s (%d/%d)</string>
     <string name="prepare_google_sync">Connecting to your account ...</string>
     <string name="no_google_accounts">No google account available. Please add an account to the device first.</string>
     <string name="google_account_not_selected">Account not selected</string>
@@ -902,11 +902,11 @@
     <string name="only_title_on_tile">Only the name of the library</string>
     <plurals name="fields_count">
         <item quantity="one">One field</item>
-        <item quantity="other">%d fields</item>                
+        <item quantity="other">%d fields</item>
     </plurals>
     <plurals name="libraries_count">
         <item quantity="one">One library</item>
-        <item quantity="other">%d libraries</item>                
+        <item quantity="other">%d libraries</item>
     </plurals>
     <string name="empty">Empty</string>
     <string name="add_page">Add Page</string>
@@ -948,7 +948,7 @@
         <item quantity="zero">Imported 0 items</item>
         <item quantity="one">Imported %d item</item>
         <item quantity="other">Imported %d items</item>
-      </plurals>
+    </plurals>
     <string name="export_template_snackbar_ok">The template has been exported</string>
     <string name="import_template_error">Error import template: %s</string>
     <string name="mass_delete_string_list_item_message">Are you sure that you want to delete the selected item(s) ?</string>
@@ -968,7 +968,7 @@
     <string name="entries_import_result_dialog_title">Import entries</string>
     <string name="csv_import_total_lines">Processed rows:</string>
     <string name="csv_import_errors_count">Errors:</string>
-    <string formatted="false" name="csv_import_error_item">Row %d - %s</string>
+    <string name="csv_import_error_item" formatted="false">Row %d - %s</string>
     <string name="undo_button">Undo</string>
     <string name="google_sync_without_memento_id_text">This library is synchronized using the old method, which has the potential errors.\nPerform the rebinding of the library to the new table to use the new method.\nRun rebinding now?</string>
     <string name="rating_field_max_value">Maximum rating</string>
@@ -976,11 +976,11 @@
         <item quantity="zero">%d star</item>
         <item quantity="one">%d star</item>
         <item quantity="other">%d stars</item>
-     </plurals>
+    </plurals>
     <plurals name="delete_entries_snackbar_text">
         <item quantity="one">%d entry has been moved to trash</item>
         <item quantity="other">%d entries has been moved to trash</item>
-     </plurals>
+    </plurals>
     <string name="auto_fill_barcode_empty2">Compare the attributes of the autocomplete source and entry fields</string>
     <string name="barcode_rule_delete_title">Delete the rule</string>
     <string name="barcode_rule_delete_text">Are you sure you want to delete the autocompletion rule for field \"%s\" ?</string>
@@ -1089,64 +1089,64 @@
     <string name="use_depend_only_in_edit_title">Where to use</string>
     <string name="use_depend_only_in_edit_hint_true">Only when editing entry</string>
     <string name="use_depend_only_in_edit_hint_false">When editing and viewing entry</string>
-	<!-- 3.2.0 -->
-	<string name="most_viewed_templates">Most viewed</string>    
-	<string name="featured_templates">Featured</string>
-	<string name="template_views_count">Views: %s</string>
-	<string name="sort_by_views">Sort by Views</string>
-	<string name="select_category_template">Please select category</string>	
-	<string name="select_template_lang">Select language of template</string>
-	<string name="template_language">Language:</string>	
-	<string name="display_lang_option">Filter by language</string>
-	<string name="display_lang_option_all">All templates</string>
-	<string name="entries_name_dialog_title">Entry names are determined by the values of chosen fields</string>
-	<string name="entries_name_is_unique">The entry name is unique</string> 
-	<string name="no_fields_for_role">In this library there are no suitable fields for this role</string>
-	<string name="update_item_name_index">Building the index...</string>	
-	<string name="entry_name_must_be_unique">The entry name is not unique</string>
-	<string name="entry_name_must_be_notnull">The entry name shouldn\'t be empty</string>
-	<string name="library_have_duplicates">In the library, entries with similar names</string>
-	<string name="library_have_duplicates2">Change or delete duplicates for working correctly.</string>
-	<string name="dont_show_anymore">Don\'t show anymore</string>
-	<string name="need_make_slave_library_unique">To synchronize \"Link to entry\" fields, you must enable entry name uniqueness control in the library to which the links refer.\nDo this now?</string>
-	<string name="need_make_slave_library_unique_import">To import \"Link to entry\" fields, you must enable entry name uniqueness control in the library to which the links refer.\nDo this now?</string>
-	<string name="run_sync_slave_libraries_pref">Related libraries</string>
-	<string name="run_sync_slave_libraries_summary">First synchronize associated libraries</string>
-	<string name="choice_type_add_button_in_edit_title">Allow creation of items while an entry is being edited</string>
-	
-	<!-- 3.2.3 -->
-	<string name="show_deleted_entries_menu_item">Show deleted entries</string>
-	<string name="upload_to_cloud_menu_item">To Cloud</string>
-	<string name="welcome_text_title">Welcome to Memento Database</string>
-	<string name="welcome_text_description">The Library is the place where your information will be stored. You can begin familiarizing yourself with the Memento by creating a library based on one of the templates provided.</string>
-	
-	<!-- 3.5.0 -->
-	<string name="memento_cloud">Memento Cloud</string>
-	<string name="start_remove_librarary_from_cloud">Deleting library...</string>
-	<string name="success_remove_librarary_from_cloud">Library deleted successfully from the cloud</string>
-	<string name="start_upload_library_to_cloud">Uploading library...</string>	
-	<string name="success_upload_library_to_cloud">The library is successfully uploaded.\nThe library will be synchronized automatically.</string>
-	<string name="success_upload_library_to_cloud2">You can make your library accessible by other Memento users in access settings.</string>	
-	<string name="push_entries_to_cloud_message" formatted="false">Uploading entries\n%s of %s entries processed</string>
-	<string name="permissions">Permissions</string>
-	<string name="button_hide">hide</string>	
-	<string name="empty_cloud_libraries_list_text">You have no uploaded libraries</string>
-	<string name="my_cloud_libraries_menu_item">Cloud Storage</string>
-	<string name="start_download_library_model">Uploading library structure...</string>
-	<string name="open_library">Open library</string>
-	<string name="open_library_hint">Open local copy</string>
-	<string name="download_library">Download library</string>
-	<string name="download_library_hint">Create local copy</string>			
-	<string name="pull_entries_from_cloud_message">Downloading entries...</string>
-	<string name="pull_entries_from_cloud_message2" formatted="false">%s of %s entries processed</string>
-	<string name="success_pull_library_from_cloud">Entries are successfully downloaded.\nThe library will be synchronized automatically.</string>
-	<string name="cloud_conflict_fields_title">Conflicts</string>
-	<string name="cloud_conflict_fix_button_title">Fix</string>
-    <plurals name="conflict_count">        
-        <item quantity="one">%d conflict occurred during synchronization</item> 		
-    	<item quantity="few">%d conflicts occurred during synchronization</item>
-    	<item quantity="many">%d conflicts occurred during synchronization</item>       
-        <item quantity="other">%d conflicts occurred during synchronization</item>                
+    <!-- 3.2.0 -->
+    <string name="most_viewed_templates">Most viewed</string>
+    <string name="featured_templates">Featured</string>
+    <string name="template_views_count">Views: %s</string>
+    <string name="sort_by_views">Sort by Views</string>
+    <string name="select_category_template">Please select category</string>
+    <string name="select_template_lang">Select language of template</string>
+    <string name="template_language">Language:</string>
+    <string name="display_lang_option">Filter by language</string>
+    <string name="display_lang_option_all">All templates</string>
+    <string name="entries_name_dialog_title">Entry names are determined by the values of chosen fields</string>
+    <string name="entries_name_is_unique">The entry name is unique</string>
+    <string name="no_fields_for_role">In this library there are no suitable fields for this role</string>
+    <string name="update_item_name_index">Building the index...</string>
+    <string name="entry_name_must_be_unique">The entry name is not unique</string>
+    <string name="entry_name_must_be_notnull">The entry name shouldn\'t be empty</string>
+    <string name="library_have_duplicates">In the library, entries with similar names</string>
+    <string name="library_have_duplicates2">Change or delete duplicates for working correctly.</string>
+    <string name="dont_show_anymore">Don\'t show anymore</string>
+    <string name="need_make_slave_library_unique">To synchronize \"Link to entry\" fields, you must enable entry name uniqueness control in the library to which the links refer.\nDo this now?</string>
+    <string name="need_make_slave_library_unique_import">To import \"Link to entry\" fields, you must enable entry name uniqueness control in the library to which the links refer.\nDo this now?</string>
+    <string name="run_sync_slave_libraries_pref">Related libraries</string>
+    <string name="run_sync_slave_libraries_summary">First synchronize associated libraries</string>
+    <string name="choice_type_add_button_in_edit_title">Allow creation of items while an entry is being edited</string>
+
+    <!-- 3.2.3 -->
+    <string name="show_deleted_entries_menu_item">Show deleted entries</string>
+    <string name="upload_to_cloud_menu_item">To Cloud</string>
+    <string name="welcome_text_title">Welcome to Memento Database</string>
+    <string name="welcome_text_description">The Library is the place where your information will be stored. You can begin familiarizing yourself with the Memento by creating a library based on one of the templates provided.</string>
+
+    <!-- 3.5.0 -->
+    <string name="memento_cloud">Memento Cloud</string>
+    <string name="start_remove_librarary_from_cloud">Deleting library...</string>
+    <string name="success_remove_librarary_from_cloud">Library deleted successfully from the cloud</string>
+    <string name="start_upload_library_to_cloud">Uploading library...</string>
+    <string name="success_upload_library_to_cloud">The library is successfully uploaded.\nThe library will be synchronized automatically.</string>
+    <string name="success_upload_library_to_cloud2">You can make your library accessible by other Memento users in access settings.</string>
+    <string name="push_entries_to_cloud_message" formatted="false">Uploading entries\n%s of %s entries processed</string>
+    <string name="permissions">Permissions</string>
+    <string name="button_hide">hide</string>
+    <string name="empty_cloud_libraries_list_text">You have no uploaded libraries</string>
+    <string name="my_cloud_libraries_menu_item">Cloud Storage</string>
+    <string name="start_download_library_model">Uploading library structure...</string>
+    <string name="open_library">Open library</string>
+    <string name="open_library_hint">Open local copy</string>
+    <string name="download_library">Download library</string>
+    <string name="download_library_hint">Create local copy</string>
+    <string name="pull_entries_from_cloud_message">Downloading entries...</string>
+    <string name="pull_entries_from_cloud_message2" formatted="false">%s of %s entries processed</string>
+    <string name="success_pull_library_from_cloud">Entries are successfully downloaded.\nThe library will be synchronized automatically.</string>
+    <string name="cloud_conflict_fields_title">Conflicts</string>
+    <string name="cloud_conflict_fix_button_title">Fix</string>
+    <plurals name="conflict_count">
+        <item quantity="one">%d conflict occurred during synchronization</item>
+        <item quantity="few">%d conflicts occurred during synchronization</item>
+        <item quantity="many">%d conflicts occurred during synchronization</item>
+        <item quantity="other">%d conflicts occurred during synchronization</item>
     </plurals>
     <string name="button_select">Select</string>
     <string name="cloud">Cloud</string>
@@ -1164,120 +1164,120 @@
     <string name="cloud_server_unavaliable">Memento Cloud Server is unavailable, check the Internet on your device</string>
     <string name="delete_from_cloud">Delete from cloud</string>
     <string name="delete_from_cloud_message_question">Do you really want to delete the library from cloud?</string>
-        
-    <string name="byteShort">B</string>    
+
+    <string name="byteShort">B</string>
     <string name="kilobyteShort">KB</string>
     <string name="megabyteShort">MB</string>
     <string name="gigabyteShort">GB</string>
     <string name="button_refresh">Refresh</string>
-    <string name="cloud_storage_space_text"  formatted="false">%s (%s) of %s used</string>   
+    <string name="cloud_storage_space_text" formatted="false">%s (%s) of %s used</string>
     <string name="start_download_file_from_cloud">File %s will be downloaded</string>
-    <string name="upload_file_to_cloud">Uploading file...</string>    
+    <string name="upload_file_to_cloud">Uploading file...</string>
     <string name="upload_files_to_cloud">Uploading files</string>
     <string name="cloud_upload_error_title">We couldn\'t sync this library</string>
     <string name="upload_big_file_error" formatted="false">Entry %s contains large file %s (%s).\nMaximum file size is %s.</string>
     <string name="prepare_library_for_cloud">Library is under processing...</string>
     <string name="download_files_from_cloud">Downloading files from the cloud...</string>
-    <string name="cant_download_item_files_for_copy">Downloading of files to create copies failed.</string> 
+    <string name="cant_download_item_files_for_copy">Downloading of files to create copies failed.</string>
     <string name="library_cloud_model_changed_message">The library structure was updated in the cloud. Update the structure for further synchronization.</string>
     <string name="button_update">Update</string>
     <string name="add_people">Add user or group</string>
-    <string name="read_permission">Read</string>      
+    <string name="read_permission">Read</string>
     <string name="write_permission">Write</string>
     <string name="create_permission">Create</string>
     <string name="delete_permission">Delete</string>
-    
+
     <string name="allow_permission">Allow</string>
-	<string name="deny_permission">Deny</string>
-	<string name="only_owner_permission">Only own</string>
-	<string name="user_not_found">User not found</string>
-	<string name="edit_permission">User sharing settings</string>	
-	<string name="push_entry_error_text" formatted="false">The entry is not stored in the cloud.\nName: %s\nError: %s</string>
-	<string name="push_error_forbidden">Access denied</string>
-	<string name="button_ignore">Ignore</string>
-	<string name="button_try_again">Try again</string>	
-	<string name="cloud_library_forbidden">You don\'t have permission to access this library</string>
-	<string name="shared_with_me">Shared with me</string>
-	<string name="entry_author">Author</string>
-	<string name="info_menu_item">Info</string>   
-	<string name="need_upload_to_cloud_slave_libraries">Please, upload subordinate libraries to the cloud.</string>
-	<string name="start_download_slave_library_model">Uploading subordinate library %s</string>
-	<string name="open_access_for_slave_libraries">Provide reading access to subordinate libraries</string>
-	<string name="cloud_storage_full_text">Not enough space in the cloud storage.\nYou can upgrade to a tariff plan providing more storage space.</string>
-	<string name="cloud_storage_full_text2" formatted="false">Not enough space in the cloud storage.\n%s are required, %s are available.\nYou can upgrade to a tariff plan providing more storage space.</string>
-	<string name="alien_cloud_storage_full_text">The library owner does not have enough storage space.</string>	
-	<string name="button_tarifs">Tariffs</string>
-	<string name="cloud_storage_plans">Subscription plans</string>
-	<string name="price_free">FREE</string>
-	<string name="price_per_month">%s/mo</string>
-	<string name="unlimited_libraries">Unlimited libraries</string>	
-	<string name="adv_free">No advertising</string>
-	<string name="subscription_activation">Activate subscription ...</string>
-	<string name="subscription_activation_error">Activation error: %s</string>
-	<string name="subscription_reactivation_error">Failed to get active subscriptions: %s</string>
-	<string name="google_play_unavaliable">Google Play is not available:(</string>
-	<string name="return_to_free_plan_message">You can transfer to a free account by unsubscribing in Google Play</string>
-	<string name="subscription_already_activation_for_user">Subscription cannot be activated as it was purchased for user %s.</string>
-	<string name="library_cloud_count_limit">Your tariff plan allows uploading up to %s libraries to the cloud.</string>
-	<string name="restore_cloud_library_from_recycle">This library locale is deleted. Recover?</string>
-	<string name="cloud_file_while_not_upload">The file is not yet in the cloud</string>
-	<string name="upload_ecrypted_libraries_dont_supported">Encrypted libraries uploading to the cloud is temporarily unavailable.</string>
-	<string name="button_signin">Sign in</string>
-	<string name="cloud_library_not_found">The library was not found in the cloud. Perhaps, it was deleted.\nConvert the library into a locale?</string>
-	<string name="cloud_library_already_uploaded">This library is already uploaded into the cloud.</string>
-	<string name="library_alias_menu_item">Alias</string>
-	<string name="library_public_access">Public access</string>
-	<string name="library_public_access_disabled">Disabled</string>
-	<string name="library_access_read_only">Read only</string>
-	<string name="library_access_can_edit">Can edit</string>
-	<string name="owner">Owner</string>
-	<string name="find_library_by_url_title">Open by URL</string>
-	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
-	<string name="library_not_found_by_uri">Library not found</string>
-	<string name="upload_to_cloud_offer_title">{cloud ready...}</string>
-	<string name="upload_to_cloud_offer_text">&#8226; Teamwork\n&#8226; Sync across devices\n&#8226; Backup are always in the cloud\n&#8226; Version history</string>
-	<string name="button_no_thanks">No, thanks</string>
-	<string name="button_upload">Upload</string>
-	
-	<!-- 3.5.0 beta2 -->
+    <string name="deny_permission">Deny</string>
+    <string name="only_owner_permission">Only own</string>
+    <string name="user_not_found">User not found</string>
+    <string name="edit_permission">User sharing settings</string>
+    <string name="push_entry_error_text" formatted="false">The entry is not stored in the cloud.\nName: %s\nError: %s</string>
+    <string name="push_error_forbidden">Access denied</string>
+    <string name="button_ignore">Ignore</string>
+    <string name="button_try_again">Try again</string>
+    <string name="cloud_library_forbidden">You don\'t have permission to access this library</string>
+    <string name="shared_with_me">Shared with me</string>
+    <string name="entry_author">Author</string>
+    <string name="info_menu_item">Info</string>
+    <string name="need_upload_to_cloud_slave_libraries">Please, upload subordinate libraries to the cloud.</string>
+    <string name="start_download_slave_library_model">Uploading subordinate library %s</string>
+    <string name="open_access_for_slave_libraries">Provide reading access to subordinate libraries</string>
+    <string name="cloud_storage_full_text">Not enough space in the cloud storage.\nYou can upgrade to a tariff plan providing more storage space.</string>
+    <string name="cloud_storage_full_text2" formatted="false">Not enough space in the cloud storage.\n%s are required, %s are available.\nYou can upgrade to a tariff plan providing more storage space.</string>
+    <string name="alien_cloud_storage_full_text">The library owner does not have enough storage space.</string>
+    <string name="button_tarifs">Tariffs</string>
+    <string name="cloud_storage_plans">Subscription plans</string>
+    <string name="price_free">FREE</string>
+    <string name="price_per_month">%s/mo</string>
+    <string name="unlimited_libraries">Unlimited libraries</string>
+    <string name="adv_free">No advertising</string>
+    <string name="subscription_activation">Activate subscription ...</string>
+    <string name="subscription_activation_error">Activation error: %s</string>
+    <string name="subscription_reactivation_error">Failed to get active subscriptions: %s</string>
+    <string name="google_play_unavaliable">Google Play is not available:(</string>
+    <string name="return_to_free_plan_message">You can transfer to a free account by unsubscribing in Google Play</string>
+    <string name="subscription_already_activation_for_user">Subscription cannot be activated as it was purchased for user %s.</string>
+    <string name="library_cloud_count_limit">Your tariff plan allows uploading up to %s libraries to the cloud.</string>
+    <string name="restore_cloud_library_from_recycle">This library locale is deleted. Recover?</string>
+    <string name="cloud_file_while_not_upload">The file is not yet in the cloud</string>
+    <string name="upload_ecrypted_libraries_dont_supported">Encrypted libraries uploading to the cloud is temporarily unavailable.</string>
+    <string name="button_signin">Sign in</string>
+    <string name="cloud_library_not_found">The library was not found in the cloud. Perhaps, it was deleted.\nConvert the library into a locale?</string>
+    <string name="cloud_library_already_uploaded">This library is already uploaded into the cloud.</string>
+    <string name="library_alias_menu_item">Alias</string>
+    <string name="library_public_access">Public access</string>
+    <string name="library_public_access_disabled">Disabled</string>
+    <string name="library_access_read_only">Read only</string>
+    <string name="library_access_can_edit">Can edit</string>
+    <string name="owner">Owner</string>
+    <string name="find_library_by_url_title">Open by URL</string>
+    <string name="find_library_by_url_hint">http://libs.mobi/address</string>
+    <string name="library_not_found_by_uri">Library not found</string>
+    <string name="upload_to_cloud_offer_title">{cloud ready...}</string>
+    <string name="upload_to_cloud_offer_text">&#8226; Teamwork\n&#8226; Sync across devices\n&#8226; Backup are always in the cloud\n&#8226; Version history</string>
+    <string name="button_no_thanks">No, thanks</string>
+    <string name="button_upload">Upload</string>
+
+    <!-- 3.5.0 beta2 -->
     <string name="cant_upload_file_to_cloud">File(s) upload failed.</string>
     <string name="button_show">Show</string>
-	<string name="invalid_library_template_file_format">Invalid template file format</string>    
-	<string name="cant_add_yourself">You can\'t add yourself</string>
-	<string name="remove_from_old_public">Prior to uploading the library to the cloud it will be unpublished if it was published by outdated methods.</string>
-	<string name="select_template_title">Select template</string>
-	<string name="empty_library_title">Empty library</string>
-	<string name="catalog_templates_title">Online catalog</string>
-	<string name="catalog_templates_hint">Over 3000 templates</string>
-	<string name="add_lib_from_google_drive_hint">Restore from Google Drive</string>
-	<string name="templates">Templates</string>
-	<string name="import_template_from_file_hint">Import template from file</string>
-	<string name="help_cloud">Cloud storage and Teamwork</string>
-	<string name="subscription_pro_bonus_text">Most tariff plans for cloud storage also include PRO-version as a bonus</string>
-	<string name="send_formatting_menu_item">Formatting...</string>
-	<string name="pro_for_cloud_storage_title">Subscription</string>
-	<string name="default_file_manager_pref_title">File manager</string>
-	<string name="default_file_manager_built_in">built-in</string>	
-	<string name="clear_search_history">Clear Search History</string>
-	<string name="clear_search_history_hint">Remove all the searches you have performed</string>
-	<string name="success_clear_search_history">Your search history was cleared</string>	
-	<string name="clear_search_history_quest">Are you sure you want to clear search history?</string>
-	<string name="uservoice_menu_title">UserVoice</string>
-	<string name="view_csv_error_dialog_message">Sorry, but application for viewing csv-file does not found</string>
-	
-	<!-- 3.6.0 -->
-	<string name="edit_library_tabs_autofill">Autofill</string>
-	<string name="autofill_from">from %s</string>
-	<string name="autofill_by_barcode">By barcode</string>
-	<string name="autofill_by_title">By title</string>
-	<string name="autofill_need_barcode_field">In order to autofill your library by barcode it must contain the \"Barcode\" field. How do you create this?</string>
-	<string name="autofill_need_text_field">In order to autofill your library by title it must contain the \"Text\" field. How do you create this?</string>
-	<string name="autofill_select_master_field">Input field for search</string>
-	<string name="autofill_rules_title">Autofill rules</string>
-	<string name="music_brainz_source_artist">Music artists</string>
+    <string name="invalid_library_template_file_format">Invalid template file format</string>
+    <string name="cant_add_yourself">You can\'t add yourself</string>
+    <string name="remove_from_old_public">Prior to uploading the library to the cloud it will be unpublished if it was published by outdated methods.</string>
+    <string name="select_template_title">Select template</string>
+    <string name="empty_library_title">Empty library</string>
+    <string name="catalog_templates_title">Online catalog</string>
+    <string name="catalog_templates_hint">Over 3000 templates</string>
+    <string name="add_lib_from_google_drive_hint">Restore from Google Drive</string>
+    <string name="templates">Templates</string>
+    <string name="import_template_from_file_hint">Import template from file</string>
+    <string name="help_cloud">Cloud storage and Teamwork</string>
+    <string name="subscription_pro_bonus_text">Most tariff plans for cloud storage also include PRO-version as a bonus</string>
+    <string name="send_formatting_menu_item">Formatting...</string>
+    <string name="pro_for_cloud_storage_title">Subscription</string>
+    <string name="default_file_manager_pref_title">File manager</string>
+    <string name="default_file_manager_built_in">built-in</string>
+    <string name="clear_search_history">Clear Search History</string>
+    <string name="clear_search_history_hint">Remove all the searches you have performed</string>
+    <string name="success_clear_search_history">Your search history was cleared</string>
+    <string name="clear_search_history_quest">Are you sure you want to clear search history?</string>
+    <string name="uservoice_menu_title">UserVoice</string>
+    <string name="view_csv_error_dialog_message">Sorry, but application for viewing csv-file does not found</string>
+
+    <!-- 3.6.0 -->
+    <string name="edit_library_tabs_autofill">Autofill</string>
+    <string name="autofill_from">from %s</string>
+    <string name="autofill_by_barcode">By barcode</string>
+    <string name="autofill_by_title">By title</string>
+    <string name="autofill_need_barcode_field">In order to autofill your library by barcode it must contain the \"Barcode\" field. How do you create this?</string>
+    <string name="autofill_need_text_field">In order to autofill your library by title it must contain the \"Text\" field. How do you create this?</string>
+    <string name="autofill_select_master_field">Input field for search</string>
+    <string name="autofill_rules_title">Autofill rules</string>
+    <string name="music_brainz_source_artist">Music artists</string>
     <string name="music_brainz_source_album">Albums</string>
-	<string name="music_brainz_source">musicbrainz.org</string>
-	<string name="unknown_data_source">Unknown source</string>
+    <string name="music_brainz_source">musicbrainz.org</string>
+    <string name="unknown_data_source">Unknown source</string>
     <string name="google_books_source">Google Books</string>
     <string name="google_books_source_books">Books</string>
     <string name="themoviedb_source">themoviedb.org</string>
@@ -1288,7 +1288,7 @@
     <string name="autofill_rules_delete_text">Are you sure you want to delete the autofill rules from source \"%s\" ?</string>
     <string name="empty_autofill_list_text">Create autofill rules for data records from the Internet</string>
     <string name="empty_autofill_rules_list_text">Match source attributes and library fields</string>
-    <string formatted="false" name="movie_cast_person_item">%s as %s</string>
+    <string name="movie_cast_person_item" formatted="false">%s as %s</string>
 
     <string name="copy_library_structure_menu_item">Structure only</string>
     <string name="copy_all_library_menu_item">Structure and entries</string>
@@ -1453,7 +1453,7 @@
     <string name="full_screen_mode">Full screen mode</string>
     <string name="standard_screen_mode">Standard screen mode</string>
     <string name="restore_from_cloud">Restore from Cloud</string>
-    <string formatted="false" name="of_counter">%d of %d</string>
+    <string name="of_counter" formatted="false">%d of %d</string>
 
     <!--3.9.5-->
     <string name="lost_database_text">Unable to open the database file, check that it is present in the specified path</string>
@@ -1790,7 +1790,7 @@
     <string name="repository_data_sources_hint">Data sources for autofill</string>
     <string name="warning">Warning</string>
     <string name="add_javascript_library">Add javascript libraries...</string>
-    <string name="add_repository">Add repository</string>
+    <string name="add_repository">Add GitHub repository</string>
     <string name="repository_location_hint">GitHub Repository URL</string>
     <string name="repository_location_error">Specify the HTTPS link to GitHub repository. For example: https://github.com/username/repo-name</string>
     <string name="repository_not_found_error">Can\'t find repository: %s</string>
@@ -1839,7 +1839,7 @@
     <string name="action_with_library_context">Library Action</string>
     <string name="action_with_entry_context">Entry Action</string>
     <string name="library_related_cloud_model_changed_message">The structure of related library  was updated in the cloud. Go to the related library for the update.</string>
-    
+
     <string name="monthly_plan">Monthly</string>
     <string name="yearly_plan">Yearly</string>
     <string name="cloud_plan_plan3_annual">Lite</string>
@@ -1855,7 +1855,7 @@
     <string name="frozen_alien_text">The library is frozen , please contact with library owner (%s).</string>
     <string name="copy_field">Copy field</string>
     <string name="delete_reminder_dialog_text">Do you really want to delete the reminder?</string>
-    <string name="igdb_source">igdb.com</string>
+    <string translatable="false" name="igdb_source">igdb.com</string>
     <string name="games">Games</string>
     <string name="number_increment_delta_title">Increment/decrement buttons</string>
     <string name="number_increment_delta_value">Step size %s</string>
@@ -2030,7 +2030,7 @@
     <string name="wiki">Wiki</string>
 
     <!-- 4.5.5 -->
-    <string name="moby_source">mobygames.com</string>
+    <string name="moby_source" translatable="false">mobygames.com</string>
     <string name="type_desc_color">The color field type allows store any color in RGB format.</string>
     <string name="image_cache_settings_path_title">Image cache folder</string>
 
@@ -2051,4 +2051,83 @@
     <string name="begin_year">Begin</string>
     <string name="end_year">End</string>
     <string name="years_range_wrong">Year end must be larger than or equal to year start</string>
+
+    <!-- 4.6.0 -->
+    <string name="orientation_portrait">Portrait</string>
+    <string name="orientation_landscape">Landscape</string>
+    <string name="scale_mode">Resize fit mode</string>
+    <string name="scale_size">Scale</string>
+    <string name="pdf_scale_mode_crop">Crop</string>
+    <string name="pdf_scale_mode_expand">Expand</string>
+    <string name="pdf_scale_mode_fit">Fit</string>
+    <string name="workplace">Workplace</string>
+    <string name="share_filters">Share filters</string>
+    <string name="share_charts">Share charts</string>
+    <string name="shared_by">Shared by %s</string>
+    <string name="share_workplace_limit">Sorry, you can share charts or filters only on Team tariffs.</string>
+    <string name="bulk_action">Bulk Action</string>
+    <string name="action_context_bulk_actions">Bulk actions menu</string>
+    <string name="move_to">Move to...</string>
+    <string name="copy_to">Copy to...</string>
+    <string name="move_to_no_libraries">Could not find libraries compatible with the current library.\nPlease create an entries transfer rule to migrate to any library.</string>
+    <string name="migrate">Migrate</string>
+    <string name="barcode_display_error">Sorry, could not encode a barcode from the data provided</string>
+    <string name="barcode_format">Barcode format</string>
+    <string name="barcode_format_auto">Autodetection</string>
+    <string name="orientation">Orientation</string>
+    <string name="paper_size">Paper size</string>
+    <string name="camera_permission_title">Camera</string>
+    <string name="camera_permission_required_text">In order to capture an image, we need access to your camera. Go to settings to enable the permission.</string>
+    <string name="require_external_audio_app">Memento uses an external audio recording application. Would you like to install it?</string>
+
+
+    <!--4.6.5 -->
+    <string name="agree_terms_privacy">By creating an account, you agree to the Memento <a href="https://mementodatabase.com#terms">Terms of Use</a> and <a href="http://mementodatabase.com#privacy_policy">Privacy Policy</a>.</string>
+    <string name="enter_email_address_hint">Please enter your email address</string>
+    <string name="android_pro" translatable="false">Android PRO</string>
+    <string name="desktop_pro" translatable="false">Desktop PRO</string>
+    <string name="duration_label_days">d</string>
+    <string name="duration_label_hours">h</string>
+    <string name="duration_label_minutes">m</string>
+    <string name="duration_label_seconds">s</string>
+    <string name="duration_label_mseconds">ms</string>
+    <string name="duration_precision_option_title">Duration precision</string>
+    <string name="duration_precision_min">Minimum Unit</string>
+    <string name="duration_precision_max">Maximum Unit</string>
+    <string name="duration_precision_wrong">Maximum Unit must be larger than or equal to Minimum Unit</string>
+    <plurals name="duration_ms">
+        <item quantity="one">1 ms</item>
+        <item quantity="other">%d ms</item>
+    </plurals>
+    <string name="duration_display_format_option_title">Duration format</string>
+    <string name="duration_display_format_short">Short</string>
+    <string name="duration_display_format_long">Long</string>
+    <string name="type_desc_duration">A Duration field may contain a value that is used to represent a time duration measured in days, hours, minutes, seconds, or milliseconds.</string>
+
+    <plurals name="after_entries_multiedit_message">
+        <item quantity="one">One entry has been edited</item>
+        <item quantity="other">%d entries have been edited</item>
+    </plurals>
+
+    <string name="locals_js_libraries">Locals</string>
+    <string name="js_libraries_add_url">Add URL</string>
+    <string name="js_file_url">JavaScript file URL</string>
+    <string name="js_file_url_error">Specify the HTTP/HTTPS link to JavaScript file.</string>
+    <string name="js_file_url_not_found">Could not find JavaScript file at this URL: %S</string>
+    <string name="image_capture_size">Image capture size</string>
+    <string name="image_capture_size_original">Original</string>
+    <string name="max_width">Max width</string>
+    <string name="max_height">Max height</string>
+    <string name="speech_recognition_not_supported">Speech recognition is not supported</string>
+
+    <string name="templates_category_personal">Personal</string>
+    <string name="templates_category_collections">Collections</string>
+    <string name="templates_category_business">Business</string>
+    <string name="templates_category_healthy">Healthy &amp; Sport</string>
+    <string name="templates_category_travel">Travel</string>
+    <string name="templates_category_edu">Education</string>
+    <string name="board_games">Board Games</string>
+    <string translatable="false" name="bgg_source">boardgamegeek.com</string>
+    <string name="new_database">New database</string>
+
 </resources>

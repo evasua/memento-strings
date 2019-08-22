@@ -140,7 +140,7 @@
     <string name="activation_ok">谢谢您激活 Memento</string>
     <string name="activation_error">无效的激活码，请重试。</string>
     <string name="about">关于</string>
-    <string name="copyright">版权所有 © 2018 LuckyDroid</string>
+    <string name="copyright">版权所有 © 2019 LuckyDroid</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">查看软件版本</string>
     <string name="about_license_type">许可协议：</string>
@@ -1068,10 +1068,8 @@
 	<string name="library_have_duplicates">在库里，条目名称相似</string>
 	<string name="library_have_duplicates2">更改或删除重复的正常工作。</string>
 	<string name="dont_show_anymore">不要再显示</string>
-	<string name="need_make_slave_library_unique">要同步“链接条目”字段，您必须启用条目名称的唯一性控制指向该库的连接。
-现在做到这一点？</string>
-	<string name="need_make_slave_library_unique_import">要导入“链接条目”字段，您必须启用条目名称的唯一性控制指向该库的连接。
-现在做到这一点？</string>
+	<string name="need_make_slave_library_unique">要同步“链接条目”字段，您必须启用条目名称的唯一性控制指向该库的连接。\n现在做到这一点？</string>
+	<string name="need_make_slave_library_unique_import">要导入“链接条目”字段，您必须启用条目名称的唯一性控制指向该库的连接。\n现在做到这一点？</string>
 	<string name="run_sync_slave_libraries_pref">相关库</string>
 	<string name="run_sync_slave_libraries_summary">首先同步相关库</string>
 	<string name="choice_type_add_button_in_edit_title">允许在编辑条目时创建项目</string>
@@ -1193,10 +1191,7 @@
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">库未找到</string>
 	<string name="upload_to_cloud_offer_title">{云就绪...}</string>
-	<string name="upload_to_cloud_offer_text">•团队合作
-•跨设备同步
-•备份到云中
-• 版本历史</string>
+	<string name="upload_to_cloud_offer_text">•团队合作\n•跨设备同步\n•备份到云中\n• 版本历史</string>
 	<string name="button_no_thanks">不用了，谢谢</string>
 	<string name="button_upload">上传</string>
 	
@@ -1768,8 +1763,7 @@
     <string name="script_cant_run_for_not_saved_library">必须保存库后才能运行脚本。</string>
     <string name="autofill_script_source_key_title">指定脚本返回的对象属性</string>
     <string name="test_js_data_source_query_hint">查询语句字符串</string>
-    <string name="test_js_data_source_query_result">查询结果:
-%s</string>
+    <string name="test_js_data_source_query_result">查询结果:\n%s</string>
     <string name="run">运行</string>
     <string name="run_arguments">运行参数</string>
     <string name="script_cant_set_permissions_for_not_saved_library">库必须保存后才能设置脚本权限.</string>
@@ -1896,8 +1890,7 @@
     <string name="notification_channel_reminders">提醒</string>
     <string name="notification_channel_entries">数据库中的变动</string>
     <string name="notification_channel_files">文件</string>
-    <string name="quick_filter_limit_message">免费版本只能搜索5个字段.
-升级到专业版可取消此限制.</string>
+    <string name="quick_filter_limit_message">免费版本只能搜索5个字段.\n升级到专业版可取消此限制.</string>
     <string name="button_upgrade">升级</string>
     <string name="autofilll_source_not_supported">"对不起, 不在支持%s  ."</string>
     <string name="link_attributes_empty_text">此字段不支持该属性的链接.</string>
@@ -1976,8 +1969,7 @@
     <string name="storage_permission_required_title">需要许可</string>
     <string name="storage_permission_required_text">此应用需要存储权限，您可以在应用设置中给它授予权限。</string>
     <string name="got_to_system_settings">前往设置</string>
-    <string name="file_save_error">无法保存文件：
-%s</string>
+    <string name="file_save_error">无法保存文件：\n%s</string>
 
     <string name="years_range">年份的日期范围</string>
     <string name="begin_year">开始</string>

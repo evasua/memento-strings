@@ -142,8 +142,7 @@
     <string name="activation_ok">謝謝您啟用 Memento</string>
     <string name="activation_error">無效的啟用碼。請重試。</string>
     <string name="about">關於</string>
-    <string name="copyright">版權所有 © 2018 LuckyDroid
-\n保留所有權利</string>
+    <string name="copyright">版權所有 © 2019 LuckyDroid\n保留所有權利</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">檢視軟體版本</string>
     <string name="about_license_type">授權：</string>
@@ -169,14 +168,12 @@
     <string name="need_title_column_text">"欄位的名稱必須對應一個記錄欄位的名稱. "</string>
     <string name="csv_result_import_text">已匯入此記錄</string>
     <string name="csv_result_import_succes_items">新增記錄：</string>
-    <string formatted="false" name="csv_result_import_fail_items">有列包含錯誤: %s
-\n列數: %s</string>
+    <string formatted="false" name="csv_result_import_fail_items">有列包含錯誤: %s\n列數: %s</string>
     <string name="enter_csv_name_dialog_title">匯出到CSV</string>
     <string name="enter_csv_name_dialog_value_title">輸入CSV檔案的名子</string>
     <string name="enter_csv_name_dialog_value_hint">檔案名</string>
     <string name="export_success">記錄已匯出到 /sdcard/memento/%s</string>
-    <string name="export_error">匯出以下記錄失敗:
-%s</string>
+    <string name="export_error">匯出以下記錄失敗:\n%s</string>
     <string name="library_saved">已儲存資料庫</string>
     <string name="library_created">已建立資料庫</string>
     <string name="msg_default_status">在取景器範圍內放置條碼以掃瞄它。</string>
@@ -204,8 +201,7 @@
     <string name="preference_category_general">一般</string>
     <string name="library_import_and_export">匯入和匯出</string>
     <string name="recovering">正在還原</string>
-    <string name="recovering_message">正在還原資料庫
-%s</string>
+    <string name="recovering_message">正在還原資料庫\n%s</string>
     <string name="library_recover">還原</string>
     <string name="deleting_library_title">正在刪除</string>
     <string name="deleting_library_message">正在刪除資料庫</string>
@@ -244,8 +240,7 @@
     <string name="copy_memento_to_gdocs">來自Memento的記錄</string>
     <string name="copy_gdocs_to_memento">來自Google 試算表的記錄</string>
     <string name="edit_flex_title_disabled">由於目前資料庫已連接到Google 試算表，無法重新命名欄位</string>
-    <string name="cant_bind">免費版本只允許您連接三個資料庫到Google Sheets。
-升級到 PRO 版以解除此限制。</string>
+    <string name="cant_bind">免費版本只允許您連接三個資料庫到Google Sheets。\n升級到 PRO 版以解除此限制。</string>
     <string name="button_pro_version">PRO 版</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">自動完成</string>
@@ -286,8 +281,7 @@
     <string name="preference_memento_account_hint">您的Memento賬戶使用者名和密碼</string>
     <string name="public_library_task_auth">正在驗證Memento服務</string>
     <string name="public_library_task_send_template">正在傳送資料庫範本</string>
-    <string formatted="false" name="public_library_task_send_items">正在傳送資料庫記錄。
-%s 來自 %s</string>
+    <string formatted="false" name="public_library_task_send_items">正在傳送資料庫記錄。\n%s 來自 %s</string>
     <string name="memento_not_support_template">您所使用的Memento版本已過期，請更新</string>
     <string name="memento_not_found">未找到資源</string>
     <string name="alias_hint">輸入資料庫的別名</string>
@@ -306,10 +300,8 @@
     <string name="subscribe_activity_title">訂閱資料庫</string>
     <string name="library_uri_hint">資料庫的位址</string>
     <string name="find_libraries_task_title">資料庫搜索</string>
-    <string name="find_libraries_task_by_uri">正在依照位址
-取得資料庫</string>
-    <string name="find_libraries_task_by_user">正在獲取該使用者
-擁有的所有資料庫</string>
+    <string name="find_libraries_task_by_uri">正在依照位址\n取得資料庫</string>
+    <string name="find_libraries_task_by_user">正在獲取該使用者\n擁有的所有資料庫</string>
     <string name="libraries_list_result_header">已找到的資料庫</string>
     <string name="libraries_by_user_not_found">未找到指定的使用者或該使用者未發佈任何資料庫</string>
     <string name="library_not_found">通過該位址未找到任何資料庫</string>
@@ -318,8 +310,7 @@
     <string name="subscribe_button">訂閱</string>
     <string name="subscribe_task_get_library">正在取得資料庫記錄</string>
     <string name="subscribe_task_create_library">正在建立資料庫</string>
-    <string formatted="false" name="subscribe_task_save_library_task">正在儲存記錄。
-%s 來自 %s</string>
+    <string formatted="false" name="subscribe_task_save_library_task">正在儲存記錄。\n%s 來自 %s</string>
     <string name="subscribe_task_create_index">正在建立索引</string>
     <string name="subscribes_group_title">我的訂閱</string>
     <string name="library_settings">設定</string>
@@ -349,8 +340,7 @@
     <string name="flex_image_load">正在載入圖片 ...</string>
     <string name="subscribed">已訂閱</string>
     <string name="info_public_library">資料庫位址</string>
-    <string name="cant_public">免費版僅允許你發佈三個資料庫。
-升級到專業版來解除這個限制。</string>
+    <string name="cant_public">免費版僅允許你發佈三個資料庫。\n升級到專業版來解除這個限制。</string>
     <string name="add_permission_user_hint">輸入使用者名或Email</string>
     <string name="edit_pub_permissions">資料庫存取權限</string>
     <string name="edit_pub_permissions_hint">編輯擁有存取這個資料庫權限的使用者清單</string>
@@ -402,8 +392,7 @@
     <string name="master_pass_hint2">重複輸入密碼</string>
     <string name="lib_protection">加密資料庫</string>
     <string name="set_library_protection">保護</string>
-    <string name="set_master_pass_text">設定進入資料庫的主密碼。
-您必須輸入此密碼才能進入加密資料庫。</string>
+    <string name="set_master_pass_text">設定進入資料庫的主密碼。\n您必須輸入此密碼才能進入加密資料庫。</string>
     <string name="set_master_pass_dialog">設置主密碼</string>
     <string name="check_master_pass_text">請輸入進入資料庫的主密碼</string>
     <string name="master_password_hint">主密碼</string>
@@ -412,8 +401,7 @@
     <string name="button_home">主頁</string>
     <string name="library_is_locked">關閉加密資料庫</string>
     <string name="library_encription_checkbox">加密內容</string>
-    <string name="library_encription_description">將使用 AES 加密記錄的字串欄位。
-不支援搜尋加密記錄。</string>
+    <string name="library_encription_description">將使用 AES 加密記錄的字串欄位。\n不支援搜尋加密記錄。</string>
     <string name="library_pass_access_description">您必須輸入主密碼才能進入資料庫</string>
     <string name="set_library_protection_title">加密記錄</string>
     <string name="set_library_protection_message">正在加密資料庫記錄...</string>
@@ -545,8 +533,7 @@
     <string name="unit_converter">單位換算</string>
     <string name="reset_master_password">重置主密碼</string>
     <string name="reset_master_password_hint">所有的加密的資料庫將被刪除</string>
-    <string name="reset_master_quest">您確實要重置主密碼嗎？
-注意 ！所有的加密的資料庫將被刪除 ！</string>
+    <string name="reset_master_quest">您確實要重置主密碼嗎？\n注意 ！所有的加密的資料庫將被刪除 ！</string>
     <string name="remove_encript_lib_dlg_msg">刪除加密的資料庫副本</string>
     <string name="master_password_reset">主密碼重設副本</string>
     <string name="edit_entry_screen_preference">編輯記錄</string>
@@ -559,9 +546,7 @@
     <string name="select_app">選擇一個應用程式</string>
     <string name="forum">論壇</string>
     <string name="autoincrement">自動遞增</string>
-    <string name="cant_protect">免費版本只允許保護兩個資料庫。
-
-升級到PRO版本以禁用此限制。</string>
+    <string name="cant_protect">免費版本只允許保護兩個資料庫。\n升級到PRO版本以禁用此限制。</string>
     <string name="flex_edit_option_title">您可以在哪裡編輯</string>
     <string name="flex_edit_option_default">編輯記錄的形式</string>
     <string name="flex_edit_option_in_list">清單記錄</string>
@@ -670,8 +655,7 @@
     <string name="change_password_success">請查看你的電子郵箱.\n我們剛寄出一封電子郵件，你可以很快捷及容易地重置你的密碼.</string>
     <string name="tile_options_text">標題</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
-    <string name="search_in_protected_libraries">搜尋已密碼保護的資料庫
-(已加密的除外)</string>
+    <string name="search_in_protected_libraries">搜尋已密碼保護的資料庫\n(已加密的除外)</string>
     <string name="stat_result_type">結果格式</string>
     <string name="backup_file_name_title">備份資料名稱</string>
     <string name="backup_file_path_title">備份路徑</string>
@@ -765,8 +749,7 @@
     <string name="selected">已選擇%s</string>
     <string name="delete_template_from_google_drive_question">你是否確定要刪除谷歌雲端硬盤上的資料庫?</string>
     <string name="delete_data_table_from_google_drive">移除與範本相關的資料試算表</string>
-    <string name="lock_library_edit_message">資料庫結構已被鎖定，不可變更。
-您可在此資料庫的選項裡關閉保護。</string>
+    <string name="lock_library_edit_message">資料庫結構已被鎖定，不可變更。\n您可在此資料庫的選項裡關閉保護。</string>
     <string name="lock_edit_library_pref_title">鎖定結構</string>
     <string name="lock_edit_library_pref_summary_on">禁止變更資料庫結構</string>
     <string name="lock_edit_library_pref_summary_off">允許變更資料庫結構</string>
@@ -925,8 +908,7 @@
     <string name="empty">空</string>
     <string name="add_page">新增分頁</string>
     <string name="move_to_page">移動到分頁</string>
-    <string name="empty_entry_page_text">本分頁是空的。
-您可以在此新增欄位或記錄清單。</string>
+    <string name="empty_entry_page_text">本分頁是空的。\n您可以在此新增欄位或記錄清單。</string>
     <string name="empty_fields_list_text">這個資料庫沒有欄位。</string>
     <string name="empty_aggregation_list_text">這個資料庫沒有聚合函數。</string>
     <string name="empty_chart_list_text">這個資料庫沒有圖表。</string>
@@ -984,9 +966,7 @@
     <string name="csv_import_errors_count">錯誤:</string>
     <string formatted="false" name="csv_import_error_item">列 %d - %s</string>
     <string name="undo_button">復原</string>
-    <string name="google_sync_without_memento_id_text">本資料庫正以舊方式同步，有發生問題的可能。
-必須重新綁定到新表格才能使用新方式。
-立刻重新綁定嗎？</string>
+    <string name="google_sync_without_memento_id_text">本資料庫正以舊方式同步，有發生問題的可能。\n必須重新綁定到新表格才能使用新方式。\n立刻重新綁定嗎？</string>
     <string name="rating_field_max_value">最高評分</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d 星</item>
@@ -1108,10 +1088,8 @@
 	<string name="library_have_duplicates">本資料庫內名稱相近的記錄</string>
 	<string name="library_have_duplicates2">修改或刪除重複項目才能正常運作。</string>
 	<string name="dont_show_anymore">以後不要再顯示</string>
-	<string name="need_make_slave_library_unique">要同步「連結到記錄」欄位，您必須啟用連結對象資料庫的記錄名稱重複檢查。
-要立刻啟用嗎？</string>
-	<string name="need_make_slave_library_unique_import">要匯入「連結到記錄」欄位，您必須啟用連結對象資料庫的記錄名稱重複檢查。
-要立刻啟用嗎？</string>
+	<string name="need_make_slave_library_unique">要同步「連結到記錄」欄位，您必須啟用連結對象資料庫的記錄名稱重複檢查。\n要立刻啟用嗎？</string>
+	<string name="need_make_slave_library_unique_import">要匯入「連結到記錄」欄位，您必須啟用連結對象資料庫的記錄名稱重複檢查。\n要立刻啟用嗎？</string>
 	<string name="run_sync_slave_libraries_pref">相關資料庫</string>
 	<string name="run_sync_slave_libraries_summary">首先同步相關資料庫</string>
 	<string name="choice_type_add_button_in_edit_title">允許編輯記錄時新建元素</string>
@@ -1119,18 +1097,14 @@
 	<string name="show_deleted_entries_menu_item">顯示被刪除的記錄</string>
 	<string name="upload_to_cloud_menu_item">上傳到雲端</string>
 	<string name="welcome_text_title">歡迎使用 Memento 資料庫</string>
-	<string name="welcome_text_description">資料庫是儲存您的資料的地方。
-
-您可以依照提供的範本建立新資料庫，開始熟悉 Memento 的使用。</string>
+	<string name="welcome_text_description">資料庫是儲存您的資料的地方。\n您可以依照提供的範本建立新資料庫，開始熟悉 Memento 的使用。</string>
 	
 	<string name="start_remove_librarary_from_cloud">正在刪除資料庫 ...</string>
 	<string name="success_remove_librarary_from_cloud">成功從雲端刪除資料庫</string>
 	<string name="start_upload_library_to_cloud">正在上傳資料庫 ...</string>	
-	<string name="success_upload_library_to_cloud">資料庫已成功上傳。
-這個資料庫將會自動同步。</string>
+	<string name="success_upload_library_to_cloud">資料庫已成功上傳。\n這個資料庫將會自動同步。</string>
 	<string name="success_upload_library_to_cloud2">您可在權限設定允許其他 Memento 使用者取用您的資料庫。</string>	
-	<string name="push_entries_to_cloud_message" formatted="false">正在上傳記錄
-已處理 %s 筆，總共 %s 筆</string>
+	<string name="push_entries_to_cloud_message" formatted="false">正在上傳記錄\n已處理 %s 筆，總共 %s 筆</string>
 	<string name="permissions">權限</string>
 	<string name="button_hide">隱藏</string>	
 	<string name="empty_cloud_libraries_list_text">您沒有已上傳的資料庫</string>
@@ -1142,8 +1116,7 @@
 	<string name="download_library_hint">建立本機副本</string>			
 	<string name="pull_entries_from_cloud_message">正在下載記錄...</string>
 	<string name="pull_entries_from_cloud_message2" formatted="false">已處理 %s 筆，共 %s 筆</string>
-	<string name="success_pull_library_from_cloud">成功下載記錄。
-本資料庫將自動同步。</string>
+	<string name="success_pull_library_from_cloud">成功下載記錄。\n本資料庫將自動同步。</string>
 	<string name="cloud_conflict_fields_title">衝突</string>
 	<string name="cloud_conflict_fix_button_title">修正</string>
     <plurals name="conflict_count">
@@ -1173,8 +1146,7 @@
     <string name="upload_file_to_cloud">正在上傳檔案 ...</string>    
     <string name="upload_files_to_cloud">正在上傳檔案</string>
     <string name="cloud_upload_error_title">無法同步本資料庫</string>
-    <string name="upload_big_file_error" formatted="false">記錄 %s 包含大檔案 %s (%s)。
-檔案大小上限為 %s。</string>
+    <string name="upload_big_file_error" formatted="false">記錄 %s 包含大檔案 %s (%s)。\n檔案大小上限為 %s。</string>
     <string name="prepare_library_for_cloud">正在處理資料庫...</string>
     <string name="download_files_from_cloud">正在從雲端下載檔案...</string>
     <string name="cant_download_item_files_for_copy">無法建立下載檔案的副本。</string> 
@@ -1191,9 +1163,7 @@
 	<string name="only_owner_permission">僅限擁有者</string>
 	<string name="user_not_found">找不到使用者</string>
 	<string name="edit_permission">使用者共享設定</string>	
-	<string name="push_entry_error_text" formatted="false">記錄沒有存到雲端。
-名稱: %s
-錯誤: %s</string>
+	<string name="push_entry_error_text" formatted="false">記錄沒有存到雲端。\n名稱: %s\n錯誤: %s</string>
 	<string name="push_error_forbidden">操作被拒</string>
 	<string name="button_ignore">忽略</string>
 	<string name="button_try_again">重試</string>	
@@ -1224,8 +1194,7 @@
 	<string name="cloud_file_while_not_upload">檔案還沒傳到雲端</string>
 	<string name="upload_ecrypted_libraries_dont_supported">暫不支援將加密資料庫上傳到雲端。</string>
 	<string name="button_signin">登入</string>
-	<string name="cloud_library_not_found">雲端找不到本資料庫，可能已被刪除。
-將資料庫轉換成本機嗎？</string>
+	<string name="cloud_library_not_found">雲端找不到本資料庫，可能已被刪除。\n將資料庫轉換成本機嗎？</string>
 	<string name="cloud_library_already_uploaded">本資料庫已上傳到雲端。</string>
 	<string name="library_alias_menu_item">別名</string>
 	<string name="library_public_access">公開存取</string>
@@ -1236,10 +1205,7 @@
 	<string name="find_library_by_url_title">以 URL 開啟</string>
 	<string name="library_not_found_by_uri">找不到資料庫</string>
 	<string name="upload_to_cloud_offer_title">{雲端準備完成...}</string>
-	<string name="upload_to_cloud_offer_text">• 團隊協作
-• 多裝置同步
-• 雲端上總是有備份
-• 版本歷史紀錄</string>
+	<string name="upload_to_cloud_offer_text">• 團隊協作\n• 多裝置同步\n• 雲端上總是有備份\n• 版本歷史紀錄</string>
 	<string name="button_no_thanks">不，謝謝</string>
 	<string name="button_upload">上傳</string>
 	
@@ -1292,10 +1258,8 @@
 
     <string name="encryption_for_cloud_uploaded_library">資料庫加密只能在上傳到雲端前啟用。</string>
     <string name="decryption_for_cloud_uploaded_library">不支援將上傳到雲端的資料庫解除加密。請先把資料庫移出雲端。</string>
-    <string name="need_reload_library_from_cloud_encrypted">雲端上的資料庫副本已被加密。
-請刪除資料庫的本機副本，再從雲端下載一次。</string>
-    <string name="need_reload_library_from_cloud_decrypted">雲端上的資料庫副本未被加密。
-請刪除資料庫的本機副本，再從雲端下載一次。</string>
+    <string name="need_reload_library_from_cloud_encrypted">雲端上的資料庫副本已被加密。\n請刪除資料庫的本機副本，再從雲端下載一次。</string>
+    <string name="need_reload_library_from_cloud_decrypted">雲端上的資料庫副本未被加密。\n請刪除資料庫的本機副本，再從雲端下載一次。</string>
 
     <string name="render_pdf_menu_item">存成 PDF</string>
     <string name="entry_saved_as_pdf_success">成功建立 PDF</string>
@@ -1478,8 +1442,7 @@
     <string name="auto_lock_libraries_time_title">關閉資料庫操作權</string>
     <string name="auto_lock_libraries_after">%s 之後</string>
 
-    <string name="empty_triggers_list_text">此資料庫不包含觸發器。
-觸發器是在發生指定行為後，對記錄進行處理的 script。</string>
+    <string name="empty_triggers_list_text">此資料庫不包含觸發器。\n觸發器是在發生指定行為後，對記錄進行處理的 script。</string>
     <string name="triggers">觸發器</string>
     <string name="trigger_name">觸發器名稱</string>
     <string name="trigger_event">事件</string>
@@ -1916,8 +1879,7 @@
     <string name="notification_channel_reminders">提醒</string>
     <string name="notification_channel_entries">資料庫修改</string>
     <string name="notification_channel_files">檔案</string>
-    <string name="quick_filter_limit_message">免費版只能搜尋五個欄位。
-\n升級到 PRO 版就沒有這個限制。</string>
+    <string name="quick_filter_limit_message">免費版只能搜尋五個欄位。\n升級到 PRO 版就沒有這個限制。</string>
     <string name="button_upgrade">升級</string>
     <string name="autofilll_source_not_supported">抱歉，%s 已不被支援。</string>
 
@@ -2004,8 +1966,7 @@
     <string name="storage_permission_required_title">需要權限</string>
     <string name="storage_permission_required_text">本程式需要讀寫儲存空間的權限，您可以在設定畫面賦予權限。</string>
     <string name="got_to_system_settings">前往設定畫面</string>
-    <string name="file_save_error">無法存檔：
-%s</string>
+    <string name="file_save_error">無法存檔：\n%s</string>
 
     <string name="years_range">日期的年份範圍</string>
     <string name="begin_year">開始</string>
