@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="call">Ringe</string>
     <string name="send_sms">Sende SMS</string>
@@ -52,15 +52,18 @@
     <string name="time_field_group_entries_year">Grupper etter år</string>
     <string name="slice_text_percent">Prosentvis</string>
     <string name="slice_text_value">Verdi</string>
-    <string name="slice_text_label">Lable</string>
+    <string name="slice_text_label">Merke</string>
     <string name="slice_text_none">Ingen</string>
-    <string name="edit_library_tabs_fields">Felter</string>
-    <string name="edit_library_tabs_aggr">Sammenlagt</string>
+    <string name="edit_library_tabs_fields">FELTER</string>
+    <string name="edit_library_tabs_aggr">SAMMENLAGT</string>
     <string name="show_soft_keyboard_no">Ikke vis</string>
-    <string name="show_soft_keyboard_create">Når du oppretter post</string>
+    <string name="show_soft_keyboard_create">Når du oppretter oppføring</string>
     <string name="show_soft_keyboard_always">Alltid</string>
     <string name="auto_backup_time_never">Aldri</string>
-    <string name="auto_backup_time_always">Alltid</string>
-    <string name="auto_backup_time_hour">Ikke oftere enn en gang i timen</string>
+    <string name="auto_backup_time_always">Hver gang</string>
+    <string name="auto_backup_time_hour">Ikke oftere enn en gang per time</string>
     <string name="auto_backup_time_day">Ikke oftere enn en gang om dagen</string>
-</resources>
+<string name="chart_discrete_axis">Diskret akse</string>
+    <string name="chart_continuous_axis">Kontinuerlig akse</string>
+    <string name="edit_library_tabs_facade">FASADE</string>
+    </resources>
