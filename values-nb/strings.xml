@@ -125,8 +125,8 @@
     <string name="restore_summary_preference">Gjennoppretter biblioteker fra sikkerherhetskopien</string>
     <string name="backup_file_not_found">Ingen sikkerhetskopi fil er funnet.</string>
     <string name="restore_dialog_message">De eksisterende bibliotekene vil bli erstattet med bibliotekene fra sikkerhetskopien under gjenoppretting.
-Alle endringer som blir gjort i disse bibliotekene etter at sikkerhetskopien ble opprettet, vil gå tapt.
-Start gjenoppretting?</string>
+\nAlle endringer som blir gjort i disse bibliotekene etter at sikkerhetskopien ble opprettet, vil gå tapt.
+\nStart gjenoppretting?</string>
     <string name="backup_dialog_message">Erstatte eksisterende sikkerhetskopi med den nye?</string>
     <string name="restore_success">Bibliotekene har blitt gjennopprettet fra sikkerhetskopien</string>
     <string name="restore_step1">Gjennoppretter</string>
@@ -144,7 +144,7 @@ Start gjenoppretting?</string>
     <string name="activation_ok">Takk for du har aktivisert Memento</string>
     <string name="activation_error">Aktiveringskoden er ugyldig. Vennligst, prøv igjen.</string>
     <string name="about">Om applikasjonen</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid\nAlle rettigheter reservert</string>
+    <string name="copyright">Copyright © 2019 LuckyDroid\nAlle rettigheter reservert</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Vis programvareversjonen</string>
     <string name="about_license_type">Lisens:</string>
@@ -170,21 +170,18 @@ Start gjenoppretting?</string>
     <string name="need_title_column_text">"Navnet på en kolonne må motsvare navnet på et inmatingsfelt. "</string>
     <string name="csv_result_import_text">Oppgaven er importert</string>
     <string name="csv_result_import_succes_items">Feltene ble lagt til:</string>
-    <string formatted="false" name="csv_result_import_fail_items">Antall rader med feil:%s 
-Rader: %s</string>
+    <string formatted="false" name="csv_result_import_fail_items">Antall rader med feil:%s\nRader: %s</string>
     <string name="enter_csv_name_dialog_title">Eksportere til CSV</string>
     <string name="enter_csv_name_dialog_value_title">Angi navnet på CSV-filen</string>
     <string name="enter_csv_name_dialog_value_hint">Filnavn</string>
     <string name="export_success">Postene har blitt eksportert til /sdcard/memento/%s</string>
-    <string name="export_error">Kunne ikke eksportere oppføringer:
-%s</string>
+    <string name="export_error">Kunne ikke eksportere oppføringer:\n%s</string>
     <string name="library_saved">Biblioteket lagret</string>
     <string name="library_created">Bibliotek opprettet</string>
     <string name="msg_default_status">Plasser en strekkode i søkerens rektangel for å lese den.</string>
     <string name="scan_library_item">Les strekkode</string>
     <string name="search_product_title">Søker produktet etter strekkoden ...</string>
-    <string name="empty_result_text">Beklager,
-produktet ble ikke funnet</string>
+    <string name="empty_result_text">Beklager,\nproduktet ble ikke funnet</string>
     <string name="add_entry_manual">Legg til manuelt ...</string>
     <string name="fill_entry_manual">Fyll manuelt ...</string>
     <string name="flex_type_barcode">Strekkode</string>
@@ -247,8 +244,7 @@ produktet ble ikke funnet</string>
     <string name="copy_memento_to_gdocs">Poster fra Memento</string>
     <string name="copy_gdocs_to_memento">Poster fra Google Sheets</string>
     <string name="edit_flex_title_disabled">Dette feltet kan ikke forandres fordi biblioteket er koblet til Google Sheets</string>
-    <string name="cant_bind">Gratisversjonen lar deg bare koble to biblioteker til Google Sheets.
-Oppgrader til PRO-versjonen for å deaktivere denne begrensningen.</string>
+    <string name="cant_bind">Gratisversjonen lar deg bare koble to biblioteker til Google Sheets.\nOppgrader til PRO-versjonen for å deaktivere denne begrensningen.</string>
     <string name="button_pro_version">PRO versjon</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">Autofullfør</string>
@@ -289,8 +285,7 @@ Oppgrader til PRO-versjonen for å deaktivere denne begrensningen.</string>
     <string name="preference_memento_account_hint">Ditt Memento-konto brukernavn og passord</string>
     <string name="public_library_task_auth">Autentiserer mot Memento tjenesten</string>
     <string name="public_library_task_send_template">Overfører bibliotekets mal</string>
-    <string formatted="false" name="public_library_task_send_items">Overfører poster fra biblioteket.
-%s fra %s</string>
+    <string formatted="false" name="public_library_task_send_items">Overfører poster fra biblioteket.\n%s fra %s</string>
     <string name="memento_not_support_template">Din versjon av Memento er utdatert, vennligst oppdater</string>
     <string name="memento_not_found">Ressurs ikke funnet</string>
     <string name="alias_hint">Angi bibliotekets alias</string>
@@ -310,8 +305,7 @@ Oppgrader til PRO-versjonen for å deaktivere denne begrensningen.</string>
     <string name="library_uri_hint">Bibliotekets adresse / brukenavn</string>
     <string name="find_libraries_task_title">Bibliotek-søk</string>
     <string name="find_libraries_task_by_uri">Finn biblioteket \netter adressen</string>
-    <string name="find_libraries_task_by_user">Finn liste 
-over brukerens bibliotek</string>
+    <string name="find_libraries_task_by_user">Finn liste \nover brukerens bibliotek</string>
     <string name="libraries_list_result_header">Bibliotek funnet</string>
     <string name="libraries_by_user_not_found">Det angitte brukernavn ikke funnet eller så finnes det ingen bibliotek publisert med brukernavnet</string>
     <string name="library_not_found">Ingen bibliotek er funnet med denne adressen</string>
@@ -350,8 +344,7 @@ over brukerens bibliotek</string>
     <string name="flex_image_load">Laster inn bildet ...</string>
     <string name="subscribed">Abonnering</string>
     <string name="info_public_library">Bibliotekets adresse</string>
-    <string name="cant_public">Gratisversjonen lar deg publisere bare to biblioteker.
-Oppgrader til PRO-versjonen for å deaktivere denne begrensningen.</string>
+    <string name="cant_public">Gratisversjonen lar deg publisere bare to biblioteker.\nOppgrader til PRO-versjonen for å deaktivere denne begrensningen.</string>
     <string name="add_permission_user_hint">Angi brukernavn eller e-post</string>
     <string name="edit_pub_permissions">Bibliotek brukerrettigheter</string>
     <string name="edit_pub_permissions_hint">Rediger listen over brukere som har tilgang til biblioteket</string>
@@ -400,8 +393,7 @@ Oppgrader til PRO-versjonen for å deaktivere denne begrensningen.</string>
     <string name="lib_protection">Bibliotek beskyttelse</string>
     <!-- 1.6.0 -->
     <string name="set_library_protection">Beskyttelse</string>
-    <string name="set_master_pass_text">Sett opp et hovedpassord for tilgang til biblioteker.
-Du må angi dette passordet for å få tilgang til krypterte biblioteker.</string>
+    <string name="set_master_pass_text">Sett opp et hovedpassord for tilgang til biblioteker.\nDu må angi dette passordet for å få tilgang til krypterte biblioteker.</string>
     <string name="master_pass_hint">Passord</string>
     <string name="master_pass_hint2">Gjenta passord</string>
     <string name="set_master_pass_dialog">Angi et hovedpassord</string>
@@ -413,8 +405,7 @@ Du må angi dette passordet for å få tilgang til krypterte biblioteker.</strin
     <string name="library_is_locked">Tilgangen til kryptert bibliotek er stengt</string>
     <string name="library_pass_access_description">Du må angi hovedpassord for å få tilgang til dette biblioteket</string>
     <string name="library_encription_checkbox">Krypter innholdet</string>
-    <string name="library_encription_description">Strengefelt for oppføringene blir kryptert med AES.
-Søk i de krypterte oppføringene støttes ikke.</string>
+    <string name="library_encription_description">Strengefelt for oppføringene blir kryptert med AES.\nSøk i de krypterte oppføringene støttes ikke.</string>
     <string name="set_library_protection_title">Krypter oppføringer</string>
     <string name="set_library_protection_message">Krypterer bibliotekets oppføringer ...</string>
     <string name="remove_library_protection">Fjern beskyttelse</string>
@@ -540,8 +531,7 @@ Søk i de krypterte oppføringene støttes ikke.</string>
     <string name="select_app">Velg en applikasjon</string>
     <string name="forum">Forum</string>
     <string name="autoincrement">Autonummer</string>
-    <string name="cant_protect">Gratisversjonen tillater kun å beskytte to bibliotek.
-Oppgrader til PRO versjon for å fjerne denne begrensningen.</string>
+    <string name="cant_protect">Gratisversjonen tillater kun å beskytte to bibliotek.\nOppgrader til PRO versjon for å fjerne denne begrensningen.</string>
     <!-- 1.8.4 -->
     <string name="flex_edit_option_title">Hvor du kan redigere</string>
     <string name="flex_edit_option_default">Skjema for endring av oppføring</string>
@@ -647,13 +637,11 @@ Oppgrader til PRO versjon for å fjerne denne begrensningen.</string>
     <string name="request_pass_dialog_title">Endre passord</string>
     <string name="request_pass_dialog_text">Skriv inn epost for å hjelpe oss å lokalisere din Memento konto</string>
     <string name="request_pass_dialog_hint">Epostadresse</string>
-    <string name="change_password_success">Vennligst sjekk din epost
-Vi har sendt deg en epost som vil tillate deg å resette ditt passord raskt og enkelt.</string>
+    <string name="change_password_success">Vennligst sjekk din epost\nVi har sendt deg en epost som vil tillate deg å resette ditt passord raskt og enkelt.</string>
     <string name="tile_options_text">tittel</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
     <!-- 2.0.3 -->
-    <string name="search_in_protected_libraries">Søk i passordbeskyttet bibliotek
-(unntatt krypterte)</string>
+    <string name="search_in_protected_libraries">Søk i passordbeskyttet bibliotek\n(unntatt krypterte)</string>
     <string name="link_to_new_document">Lenke til nytt dokument</string>
     <string name="link_to_existing_document">Lenke til eksisterende dokument</string>
     <string name="internal_storage_title">Intern enhetslagring</string>
@@ -684,7 +672,7 @@ Vi har sendt deg en epost som vil tillate deg å resette ditt passord raskt og e
     <string name="relation_type">Type relasjon</string>
     <plurals name="library_box_entries_count">
 	<item quantity="one">én oppføring</item>
-	<item quantity="other">oppføringer</item>
+	<item quantity="other">%d oppføringer</item>
 </plurals>
     <string name="stat_result_type">Resultat format</string>
     <string name="backup_file_name_title">Sikkerhetskopi filnavn</string>
@@ -695,7 +683,7 @@ Vi har sendt deg en epost som vil tillate deg å resette ditt passord raskt og e
     <string name="no_dependencies">ingen avhegigheter</string>
     <plurals name="field_depends_count">
 	<item quantity="one">avhengighet</item>
-	<item quantity="other">avhengigheter</item>
+	<item quantity="other">%d avhengigheter</item>
 </plurals>
     <string name="add_depends_button_title">Legg til en avhengighet</string>
     <string name="library_dont_have_fields_for_depends">Biblioteket inneholder ikke de aktuelle feltene for konstruksjon av avhengighet av dette feltet</string>
@@ -758,8 +746,7 @@ Vi har sendt deg en epost som vil tillate deg å resette ditt passord raskt og e
     <string name="selected">%s valgt</string>
     <string name="delete_template_from_google_drive_question">Vil du virkelig slette de valgte bibliotekene fra Google Drive?</string>
     <string name="delete_data_table_from_google_drive">Fjern data regneark forbundet med maler</string>
-    <string name="lock_library_edit_message">Endringer i bibliotekstrukturen er låst.
-Du kan slå på redigeringsfunksjonen i innstillingene for dette biblioteket.</string>
+    <string name="lock_library_edit_message">Endringer i bibliotekstrukturen er låst.\nDu kan slå på redigeringsfunksjonen i innstillingene for dette biblioteket.</string>
     <string name="lock_edit_library_pref_title">Lås struktur</string>
     <string name="lock_edit_library_pref_summary_on">Endring av bibliotekstruktur er ikke tillatt</string>
     <string name="lock_edit_library_pref_summary_off">Endring av bibliotekstruktur er tillatt</string>
@@ -789,9 +776,7 @@ Du kan slå på redigeringsfunksjonen i innstillingene for dette biblioteket.</s
     <string name="group_by_subtitle">ved %s</string>
     <string name="sort_asc">ASC</string>
     <string name="sort_desc">DESC</string>
-    <string name="sliding_hint_text">Sveip fra høyre til venstre
-for å åpne den avanserte menyen -
-sortere, gruppere, filtre, diagrammer og mer ...</string>
+    <string name="sliding_hint_text">Sveip fra høyre til venstre\nfor å åpne den avanserte menyen -\nsortere, gruppere, filtre, diagrammer og mer ...</string>
     <string name="multy_sorting">Sorter etter flere felter</string>
     <string name="new_button">ny</string>
     <string name="free_version_entry_page_limit">I gratisversjonen kan du bare lage to sider. Oppgrader til PRO-versjonen for å deaktivere denne begrensningen.</string>
@@ -921,8 +906,7 @@ sortere, gruppere, filtre, diagrammer og mer ...</string>
     <string name="empty">Tom</string>
     <string name="add_page">Legg til side</string>
     <string name="move_to_page">Flytt til side</string>
-    <string name="empty_entry_page_text">Denne siden er tom.
-Du kan legge til felter eller lister av poster her.</string>
+    <string name="empty_entry_page_text">Denne siden er tom.\nDu kan legge til felter eller lister av poster her.</string>
     <string name="empty_fields_list_text">Det er ingen felter i dette biblioteket.</string>
     <string name="empty_aggregation_list_text">Dette biblioteket inneholder ikke aggregeringsfunksjoner.</string>
     <string name="empty_chart_list_text">Dette biblioteket inneholder ikke diagrammer.</string>
@@ -934,8 +918,7 @@ Du kan legge til felter eller lister av poster her.</string>
     <string name="string_edit_cap_options_sent">I starten på setningen</string>
     <string name="string_edit_cap_options_wolds">I starten på hvert ord</string>
     <string name="string_edit_cap_options_all">Alle bokstaver</string>
-    <string name="single_line_options_title">Enkel-linje
-tekstfelt</string>
+    <string name="single_line_options_title">Enkel-linje\ntekstfelt</string>
     <string name="main_field_options_tab_title">Grunleggende</string>
     <string name="string_list_items_tab_title">Elementer</string>
     <string name="string_list_edit_item_title_hint">Element tittel</string>
@@ -981,12 +964,11 @@ tekstfelt</string>
     <string name="csv_import_errors_count">Feil:</string>
     <string formatted="false" name="csv_import_error_item">Rad %d - %s</string>
     <string name="undo_button">Angre</string>
-    <string name="google_sync_without_memento_id_text">Dette biblioteket er synkronisert ved hjelp av den gamle metoden, som har potensielle feil. Utfør gjenoppretting av biblioteket til den nye tabellen for å bruke den nye metoden. 
-Utfør gjennoppretting nå?</string>
+    <string name="google_sync_without_memento_id_text">Dette biblioteket er synkronisert ved hjelp av den gamle metoden, som har potensielle feil. Utfør gjenoppretting av biblioteket til den nye tabellen for å bruke den nye metoden.\nUtfør gjennoppretting nå?</string>
     <string name="rating_field_max_value">Maksimum rangering</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">stjerne</item>
-	<item quantity="other">stjerner</item>
+	<item quantity="other">%d stjerner</item>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
 	<item quantity="one">%d post har blitt flyttet til søppelkurven</item>
@@ -1113,10 +1095,8 @@ Utfør gjennoppretting nå?</string>
 	<string name="library_have_duplicates">I biblioteket, poster med liknende navn</string>
 	<string name="library_have_duplicates2">Endre eller slett duplikater for å fungere korrekt.</string>
 	<string name="dont_show_anymore">Ikke vis lenger</string>
-	<string name="need_make_slave_library_unique">For å synkronisere \"Link til oppføring\" -felter, må du aktivere unikhetskontroll av oppføringens navn i biblioteket som koblingene refererer til.
-Gjør dette nå?</string>
-	<string name="need_make_slave_library_unique_import">For å importere \"Link til oppføring\" -felter, må du aktivere unikhetskontroll av oppføringsnavn i biblioteket som koblingene henviser til.
-Gjør dette nå?</string>
+	<string name="need_make_slave_library_unique">For å synkronisere \"Link til oppføring\" -felter, må du aktivere unikhetskontroll av oppføringens navn i biblioteket som koblingene refererer til.\nGjør dette nå?</string>
+	<string name="need_make_slave_library_unique_import">For å importere \"Link til oppføring\" -felter, må du aktivere unikhetskontroll av oppføringsnavn i biblioteket som koblingene henviser til.\nGjør dette nå?</string>
 	<string name="run_sync_slave_libraries_pref">Relaterte biblioteker</string>
 	<string name="run_sync_slave_libraries_summary">Synkroniser først tilknyttede biblioteker</string>
 	<string name="choice_type_add_button_in_edit_title">Tillat oppretting av elementer mens en oppføring redigeres</string>
@@ -1130,11 +1110,9 @@ Gjør dette nå?</string>
 	<string name="start_remove_librarary_from_cloud">Sletter biblioteket...</string>
 	<string name="success_remove_librarary_from_cloud">Biblioteket ble slettet fra skyen</string>
 	<string name="start_upload_library_to_cloud">Later opp biblioteket....</string>	
-	<string name="success_upload_library_to_cloud">Biblioteket er opplastet.
-Biblioteket vil bli synkronisert automatisk.</string>
+	<string name="success_upload_library_to_cloud">Biblioteket er opplastet.\nBiblioteket vil bli synkronisert automatisk.</string>
 	<string name="success_upload_library_to_cloud2">Du kan gjøre bliblioteket ditt tilgjengelig for andre Memento brukere i tilgangs-innstillinger.</string>	
-	<string name="push_entries_to_cloud_message" formatted="false">Laster opp oppføringer
-%s of %s oppføringer behandlet</string>
+	<string name="push_entries_to_cloud_message" formatted="false">Laster opp oppføringer\n%s of %s oppføringer behandlet</string>
 	<string name="permissions">Tillatelser</string>
 	<string name="button_hide">gjem</string>	
 	<string name="empty_cloud_libraries_list_text">Du har ingen opplastede biblioteker</string>
@@ -1146,13 +1124,12 @@ Biblioteket vil bli synkronisert automatisk.</string>
 	<string name="download_library_hint">Opprett en lokal kopi</string>			
 	<string name="pull_entries_from_cloud_message">Laster ned oppføringer...</string>
 	<string name="pull_entries_from_cloud_message2" formatted="false">%s av %s oppføringer behandlet</string>
-	<string name="success_pull_library_from_cloud">Oppføringene er lastet ned.
-Biblioteket blir synkronisert automatisk.</string>
+	<string name="success_pull_library_from_cloud">Oppføringene er lastet ned.\nBiblioteket blir synkronisert automatisk.</string>
 	<string name="cloud_conflict_fields_title">Konflikter</string>
 	<string name="cloud_conflict_fix_button_title">Fiks</string>
     <plurals name="conflict_count">
-	<item quantity="one">%s konflikt oppsto under synkronisering</item>
-	<item quantity="other">%s konflikter oppsto under synkronisering</item>
+	<item quantity="one">%d konflikt oppsto under synkronisering</item>
+	<item quantity="other">%d konflikter oppsto under synkronisering</item>
 </plurals>
     <string name="button_select">Velg</string>
     <string name="cloud">Sky</string>
@@ -1181,8 +1158,7 @@ Biblioteket blir synkronisert automatisk.</string>
     <string name="upload_file_to_cloud">Laster opp fil...</string>    
     <string name="upload_files_to_cloud">Laster opp filer</string>
     <string name="cloud_upload_error_title">Vi kunne ikke synke dette biblioteket</string>
-    <string name="upload_big_file_error" formatted="false">Oppføringen %s inneholder stor fil %s (%s).
-Maksimum file størrelse er %s.</string>
+    <string name="upload_big_file_error" formatted="false">Oppføringen %s inneholder stor fil %s (%s).\nMaksimum file størrelse er %s.</string>
     <string name="prepare_library_for_cloud">Bibliotek er under behandling...</string>
     <string name="download_files_from_cloud">Laster ned filer fra skyen ...</string>
     <string name="cant_download_item_files_for_copy">Nedlasting av filer for å lage kopier mislyktes.</string> 
@@ -1199,9 +1175,7 @@ Maksimum file størrelse er %s.</string>
 	<string name="only_owner_permission">Bare egne</string>
 	<string name="user_not_found">Bruker ikke funnet</string>
 	<string name="edit_permission">Bruker deling innstillinger</string>	
-	<string name="push_entry_error_text" formatted="false">Oppføringen er ikke lagret i skyen.
-Navn:%s
-Feil :%s</string>
+	<string name="push_entry_error_text" formatted="false">Oppføringen er ikke lagret i skyen.\nNavn:%s\nFeil :%s</string>
 	<string name="push_error_forbidden">Ingen tilgang</string>
 	<string name="button_ignore">Ignorer</string>
 	<string name="button_try_again">Prøv igjen</string>	
@@ -1212,11 +1186,8 @@ Feil :%s</string>
 	<string name="need_upload_to_cloud_slave_libraries">Vennligst, last opp underordnede biblioteker til skyen.</string>
 	<string name="start_download_slave_library_model">Laster opp underordnet bibliotek %s</string>
 	<string name="open_access_for_slave_libraries">Gi lesetilgang til underordnede biblioteker</string>
-	<string name="cloud_storage_full_text">Ikke nok lagringasplass i skyen.
-Du kan oppgradere til en tariffplan som gir mer lagringsplass.</string>
-	<string name="cloud_storage_full_text2" formatted="false">Ikke nok lagringsplass i skyen.
-% s er påkrevd,% s er tilgjengelige.
-Du kan oppgradere til en tariffplan som gir mer lagringsplass.</string>
+	<string name="cloud_storage_full_text">Ikke nok lagringasplass i skyen.\nDu kan oppgradere til en tariffplan som gir mer lagringsplass.</string>
+	<string name="cloud_storage_full_text2" formatted="false">Ikke nok lagringsplass i skyen.\n%s er påkrevd,%s er tilgjengelige.\nDu kan oppgradere til en tariffplan som gir mer lagringsplass.</string>
 	<string name="alien_cloud_storage_full_text">Bibliotekeieren har ikke nok lagringsplass.</string>	
 	<string name="button_tarifs">Tariffer</string>
 	<string name="cloud_storage_plans">Abonnementsplaner</string>
@@ -1234,8 +1205,7 @@ Du kan oppgradere til en tariffplan som gir mer lagringsplass.</string>
 	<string name="cloud_file_while_not_upload">Filen er ikke i skyen ennå</string>
 	<string name="upload_ecrypted_libraries_dont_supported">Krypterte biblioteker som lastes opp til skyen er midlertidig utilgjengelig.</string>
 	<string name="button_signin">Logg inn</string>
-	<string name="cloud_library_not_found">Biblioteket ble ikke funnet i skyen. Kanskje den ble slettet.
-Konverter til et lokalt bibliotek?</string>
+	<string name="cloud_library_not_found">Biblioteket ble ikke funnet i skyen. Kanskje den ble slettet.\nKonverter til et lokalt bibliotek?</string>
 	<string name="cloud_library_already_uploaded">Dette biblioteket er allerede lastet opp til skyen.</string>
 	<string name="library_alias_menu_item">Alias</string>
 	<string name="library_public_access">Offentlig tilgang</string>
@@ -1247,10 +1217,7 @@ Konverter til et lokalt bibliotek?</string>
 	<string name="find_library_by_url_hint">http://libs.mobi/adresse</string>
 	<string name="library_not_found_by_uri">Biblioteket ble ikke funnet</string>
 	<string name="upload_to_cloud_offer_title">{sky klar ...}</string>
-	<string name="upload_to_cloud_offer_text">• Teamarbeid
-• Synkroniser på tvers av enheter
-• Sikkerhetskopiering er alltid i skyen
-• Versjonshistorikk</string>
+	<string name="upload_to_cloud_offer_text">• Teamarbeid\n• Synkroniser på tvers av enheter\n• Sikkerhetskopiering er alltid i skyen\n• Versjonshistorikk</string>
 	<string name="button_no_thanks">Nei takk</string>
 	<string name="cant_upload_file_to_cloud">Opplasting av fil(er) mislyktes.</string>
     <string name="button_show">Vis</string>
@@ -1311,10 +1278,8 @@ Konverter til et lokalt bibliotek?</string>
 
     <string name="encryption_for_cloud_uploaded_library">Bibliotekskryptering kan bare aktiveres før den lastes opp til skyen.</string>
     <string name="decryption_for_cloud_uploaded_library">Deaktivering av kryptering for opplasting til bibliotekets sky støttes ikke. Fjern først biblioteket fra skyen.</string>
-    <string name="need_reload_library_from_cloud_encrypted">Bibliotekskopier på skyen ble kryptert.
-Slett bibliotekets lokale kopi, og last ned biblioteket igjen fra skyen.</string>
-    <string name="need_reload_library_from_cloud_decrypted">Bibliotekskopier på skyen ble kryptert.
-Slett bibliotekets lokale kopi, og last ned biblioteket igjen fra skyen.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Bibliotekskopier på skyen ble kryptert.\nSlett bibliotekets lokale kopi, og last ned biblioteket igjen fra skyen.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Bibliotekskopier på skyen ble kryptert.\nSlett bibliotekets lokale kopi, og last ned biblioteket igjen fra skyen.</string>
 
     <string name="render_pdf_menu_item">Lagre som PDF</string>
     <string name="entry_saved_as_pdf_success">PDF opprettet</string>
@@ -1446,7 +1411,7 @@ Slett bibliotekets lokale kopi, og last ned biblioteket igjen fra skyen.</string
     <string name="js_realtime_hint_on">Skriptet kjøres når det vises en plate</string>
     <string name="user_limit_message">Du har nådd din brukergrense</string>
     <string name="remaining_users" formatted="false">%d av %d lisenser brukt</string>
-    <string name="delete_slave_user_message">Vil du virkelig slette brukeren \"% s\"?</string>
+    <string name="delete_slave_user_message">Vil du virkelig slette brukeren \"%s\"?</string>
     <string name="active_users">Aktive brukere</string>
     <string name="deleted_users">Slettede brukere</string>
     <string name="powered_by_text">Drevet av Memento Database</string>
@@ -1507,8 +1472,7 @@ Slett bibliotekets lokale kopi, og last ned biblioteket igjen fra skyen.</string
     <string name="auto_lock_libraries_time_title">Steng tilgang til biblioteker</string>
     <string name="auto_lock_libraries_after">Etter %s</string>
 
-    <string name="empty_triggers_list_text">Dette biblioteket inneholder ikke triggere.
-En trigger er et skript som definerer behandlingen av en oppføring basert på en hendelse som har funnet sted.</string>
+    <string name="empty_triggers_list_text">Dette biblioteket inneholder ikke triggere.\nEn trigger er et skript som definerer behandlingen av en oppføring basert på en hendelse som har funnet sted.</string>
     <string name="triggers">Triggere</string>
     <string name="trigger_name">Trigger navn</string>
     <string name="trigger_event">Hendelse</string>
@@ -1817,8 +1781,7 @@ En trigger er et skript som definerer behandlingen av en oppføring basert på e
     <string name="script_cant_run_for_not_saved_library">Du kan kjøre skript kun etter at biblioteket er lagret.</string>
     <string name="autofill_script_source_key_title">Påpek objektegenskapen som returneres av skriptet</string>
     <string name="test_js_data_source_query_hint">Spørrestreng</string>
-    <string name="test_js_data_source_query_result">Spørreresultat:
-%s</string>
+    <string name="test_js_data_source_query_result">Spørreresultat:\n%s</string>
     <string name="run">Kjør</string>
     <string name="run_arguments">Kjør argumenter</string>
     <string name="script_cant_set_permissions_for_not_saved_library">Du kan bare sette tillatelser for skript etter at biblioteket er lagret.</string>
@@ -1938,8 +1901,7 @@ En trigger er et skript som definerer behandlingen av en oppføring basert på e
 <string name="end_year">Slutt</string>
     <string name="begin_year">Start</string>
     <string name="years_range">År rekkevidde i datoer</string>
-    <string name="file_save_error">Kan ikke lage fil:
-%s</string>
+    <string name="file_save_error">Kan ikke lage fil:\n%s</string>
 
     <string name="got_to_system_settings">Gå til innstillinger</string>
     <string name="storage_permission_required_text">Denne appen trenger tillatelse til lagring. Du kan godkjenne det i app innstillinger.</string>
@@ -2020,8 +1982,7 @@ En trigger er et skript som definerer behandlingen av en oppføring basert på e
     <string name="link_attributes_empty_text">Dette feltet har ikke egenskaper for lenker.</string>
     <string name="autofilll_source_not_supported">Beklager, men %s er ikke støttet lenger.</string>
     <string name="button_upgrade">Oppgrader</string>
-    <string name="quick_filter_limit_message">Gratisversjonen lar deg bare søke etter fem felt.
-Oppgrader til PRO-versjonen for å deaktivere denne begrensningen.</string>
+    <string name="quick_filter_limit_message">Gratisversjonen lar deg bare søke etter fem felt.\nOppgrader til PRO-versjonen for å deaktivere denne begrensningen.</string>
     <string name="notification_channel_files">Filer</string>
     <string name="notification_channel_entries">Endringer i biblioteket</string>
     <string name="notification_channel_reminders">Påminnelser</string>
