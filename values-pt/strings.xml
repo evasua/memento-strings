@@ -250,11 +250,11 @@
     <string name="please_wait">Por favor, aguarde...</string>
     <!-- 1.4.0 -->
     <string name="public_library_title">Publicando biblioteca</string>
-    <string name="public_to_picasa_message">Enviando biblioteca de imagens para Picasa</string>
-    <string name="public_to_picasa_create_album">Criando um álbum do Picasa para as bibliotecas publicadas</string>
-    <string name="public_to_picasa_success">As images foram transferidas para o Picasa</string>
-    <string name="picasa_task_step_auth">Autenticação no serviço Picasa</string>
-    <string formatted="false" name="picasa_send_image_step">Transferindo biblioteca de imagens para o Picasa. %s de %s</string>
+    <string name="public_to_picasa_message">Enviando biblioteca de imagens para o Google photos</string>
+    <string name="public_to_picasa_create_album">Criando um álbum do Google photos para as bibliotecas publicadas</string>
+    <string name="public_to_picasa_success">As images foram transferidas para o Google photos</string>
+    <string name="picasa_task_step_auth">Autenticação no serviço Google photos</string>
+    <string formatted="false" name="picasa_send_image_step">Transferindo biblioteca de imagens para o Google photos. %s de %s</string>
     <string name="public_library">Publicar a biblioteca</string>
     <string name="update_public_library">Actualizar a publicação</string>
     <string name="memento_register_account_title">Criando uma conta\nno servidor Memento</string>
@@ -1972,4 +1972,23 @@
     <string name="select_source_library_dialog_title">Seleccione a biblioteca da qual copiar dados</string>
     <string name="select_source_library_dialog_hint">Seleccione os dados de origem</string>
 
+<string name="unlock_fingerprint_dialog_title">Desbloquear com impressão digital</string>
+    <string name="type_desc_color">O tipo de campo de cor permite armazenar qualquer cor no formato RGB.</string>
+    <string name="image_cache_settings_path_title">Pasta de cache de imagem</string>
+
+    <string name="fingerprint_not_recognized">Impressão digital não reconhecida</string>
+    <string name="unlock_fingerprint_hint">Digitalize sua impressão digital para desbloquear</string>
+    <string name="unlock_fingerprint_dialog_text">Da próxima vez, você gostaria de desbloquear suas bibliotecas protegidas usando impressão digital?</string>
+    <string name="enable_fingerprint">Ativar impressão digital</string>
+
+    <string name="storage_permission_required_title">Precisa de permissão</string>
+    <string name="storage_permission_required_text">Este aplicativo precisa da permissão de armazenamento. Você pode conceder isso nas configurações do aplicativo.</string>
+    <string name="got_to_system_settings">Ir para as configurações</string>
+    <string name="file_save_error">Não é possível salvar o arquivo:
+%s</string>
+
+    <string name="years_range">Faixa de anos em datas</string>
+    <string name="begin_year">Início</string>
+    <string name="end_year">Fim</string>
+    <string name="years_range_wrong">O final do ano deve ser maior ou igual ao início do ano</string>
 </resources>

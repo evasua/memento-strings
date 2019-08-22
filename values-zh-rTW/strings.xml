@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
-    <string name="library_menu_add_item">新增條目</string>
-    <string name="main_menu_add_lib">新增庫</string>
-    <string name="ghostData_lib_title">庫名稱</string>
+    <string name="library_menu_add_item">新增項目</string>
+    <string name="main_menu_add_lib">新增資料庫</string>
+    <string name="ghostData_lib_title">資料庫名稱</string>
     <string name="custom_template_title">自訂</string>
     <string name="button_create">建立</string>
     <string name="button_yes">是</string>
@@ -12,7 +12,7 @@
     <string name="button_save">儲存</string>
     <string name="button_cancel">取消</string>
     <string name="button_add_field">新增欄位</string>
-    <string name="add_new_library_item">新增條目</string>
+    <string name="add_new_library_item">新增記錄</string>
     <string name="flex_type_title_string">文字</string>
     <string name="flex_type_title_int">整數</string>
     <string name="flex_type_title_bool">布林值 (勾選框)</string>
@@ -27,7 +27,7 @@
     <string name="flex_type_web">超連結</string>
     <string name="flex_type_map">地圖位置</string>
     <string name="flex_type_real">實數</string>
-    <string name="field_list_caption">庫條目欄位</string>
+    <string name="field_list_caption">資料庫記錄欄位</string>
     <string name="flextemplate_up_item">向上</string>
     <string name="flextemplate_down_item">向下</string>
     <string name="flextemplate_edit_item">修改</string>
@@ -36,26 +36,26 @@
     <string name="template_title">欄位名稱</string>
     <string name="select_flex_template_title">欄位類型</string>
     <string name="select_flex_template_role">欄位功能</string>
-    <string name="select_create_lib_template">選取庫範本</string>
+    <string name="select_create_lib_template">選取資料庫樣板</string>
     <string name="button_next">下一步</string>
     <string name="select_flex_template_type">欄位類型</string>
     <string name="default_value">預設值</string>
     <string name="flex_template_options_title">高級參數</string>
     <string name="error_template_empty_title">鍵入欄位名子</string>
-    <string name="error_library_withous_name_flex">一個庫至少需要含有一個欄位設為「名稱」。</string>
-    <string name="select_library_icon_activity">選取該庫的圖示</string>
+    <string name="error_library_withous_name_flex">一個資料庫至少需要含有一個欄位設為「名稱」。</string>
+    <string name="select_library_icon_activity">選取該資料庫的圖示</string>
     <string name="select_flex_template_role_title">欄位功能</string>
-    <string name="library_edit2">編輯此庫</string>
+    <string name="library_edit2">編輯此資料庫</string>
     <string name="library_edit">編輯</string>
     <string name="library_delete">刪除</string>
-    <string name="library_delete_message_title">刪除此庫</string>
-    <string name="library_delete_message_text">您真的確定要刪除庫\"%s\"？</string>
-    <string name="error_library_empty_title">輸入庫的名字</string>
+    <string name="library_delete_message_title">刪除此資料庫</string>
+    <string name="library_delete_message_text">您真的確定要刪除資料庫\"%s\"？</string>
+    <string name="error_library_empty_title">輸入資料庫名稱</string>
     <string name="library_item_edit">編輯</string>
     <string name="library_item_delete">刪除</string>
-    <string name="library_item_delete_message_text">您真的確定要刪除「%s」條目？</string>
-    <string name="library_item_trush_message_text">您真的要把「%s」條目丟到垃圾桶？</string>
-    <string name="library_items_count">條目： %s</string>
+    <string name="library_item_delete_message_text">您真的確定要刪除「%s」記錄？</string>
+    <string name="library_item_trush_message_text">您真的要把「%s」記錄丟到垃圾桶？</string>
+    <string name="library_items_count">記錄： %s</string>
     <string name="library_menu_select_sort">排序</string>
     <string name="library_menu_select_group">群組</string>
     <string name="select_sort_template">選取排序欄位</string>
@@ -72,10 +72,10 @@
     <string name="date_default_null">預設空值</string>
     <string name="date_default_now">預設為目前日期</string>
     <string name="search">搜尋</string>
-    <string name="search_hint">搜尋條目</string>
+    <string name="search_hint">搜尋記錄</string>
     <string name="search_parse_exception_messagee">無效的搜尋字串</string>
     <plurals name="NItemsFind">
-	<item quantity="other">找到條目: %d</item>
+	<item quantity="other">找到記錄: %d</item>
 </plurals>
     <string name="memento_search">Memento 搜尋</string>
     <string name="memento_search_in_lib">Memento 在 %s 搜尋</string>
@@ -85,7 +85,7 @@
     <string name="clear_trash">清空垃圾桶</string>
     <string name="clear_trash_progress_dialog_title">清空垃圾桶</string>
     <string name="clear_trash_dialog_title">清空垃圾桶</string>
-    <string name="clear_trash_dialog_text">您真的確定要清空垃圾桶中所有條目？</string>
+    <string name="clear_trash_dialog_text">您真的確定要清空垃圾桶中所有記錄？</string>
     <string name="mobile">手機</string>
     <string name="home">住宅電話</string>
     <string name="work">工作電話</string>
@@ -97,14 +97,14 @@
     <string name="flex_type_money_currency_option_title">貨幣</string>
     <string name="flex_type_money_default_currency">美元</string>
     <string name="flex_role_not_usage">一般欄位</string>
-    <string name="flex_role_name">條目名稱</string>
-    <string name="flex_role_hint">條目描述</string>
-    <string name="flex_role_status">條目狀態</string>
+    <string name="flex_role_name">記錄名稱</string>
+    <string name="flex_role_hint">記錄描述</string>
+    <string name="flex_role_status">記錄狀態</string>
     <string name="short_flex_role_name">名字</string>
     <string name="short_flex_role_hint">描述</string>
     <string name="short_flex_role_status">狀態</string>
-    <string name="item_add_to_favorite">該條目已新增到最愛</string>
-    <string name="item_remove_from_favorite">該條目已從最愛刪除</string>
+    <string name="item_add_to_favorite">該記錄已新增到最愛</string>
+    <string name="item_remove_from_favorite">該記錄已從最愛刪除</string>
     <string name="history_dialog_title">歷史</string>
     <string name="favorites_dialog_title">最愛</string>
     <string name="map_coord_not_set_hint">點擊以選取位置</string>
@@ -115,22 +115,24 @@
     <string name="preference_category_backup">備份</string>
     <string name="main_preferences_title">設定</string>
     <string name="backup_preference">備份</string>
-    <string name="backup_summary_preference">備份所有的庫到記憶卡</string>
+    <string name="backup_summary_preference">備份所有的資料庫到記憶卡</string>
     <string name="backup_fail">備份錯誤</string>
     <string name="cdcard_not_found">抱歉，你的SD卡正忙</string>
-    <string name="backup_process">正在備份庫。</string>
+    <string name="backup_process">正在備份資料庫。</string>
     <string name="restore_preference">還原</string>
-    <string name="restore_summary_preference">正在從備份副本還原庫</string>
+    <string name="restore_summary_preference">正在從備份副本還原資料庫</string>
     <string name="backup_file_not_found">沒有找到備份檔案。</string>
-    <string name="restore_dialog_message">已存在的庫將會在還原時被備份副本所覆寫。\n備份副本之後做的所有變化將會遺失。\n開始還原？</string>
+    <string name="restore_dialog_message">已存在的資料庫將會在還原時被備份副本所覆寫。
+備份副本之後做的所有變化將會遺失。
+開始還原？</string>
     <string name="backup_dialog_message">替換為新的備份副本？</string>
-    <string name="restore_success">庫已成功地從備份副本還原</string>
+    <string name="restore_success">資料庫已成功地從備份副本還原</string>
     <string name="restore_step1">正在還原</string>
     <string name="restore_step2">正在清除快取</string>
     <string name="clear_index">正在刪除索引</string>
     <string name="reindex">重新索引：</string>
     <string name="load_templates_title">正在載入範本</string>
-    <string name="load_templates_message">請稍等，庫範本庫正在初始化載入。</string>
+    <string name="load_templates_message">請稍等，資料庫範本正在初始化載入。</string>
     <string name="help_title">Memento 說明</string>
     <string name="activate_button_title">啟用 PRO 版</string>
     <string name="activate_button_hint">您需要啟用碼</string>
@@ -149,33 +151,34 @@
     <string name="send_library_item">傳送</string>
     <string name="send_chooser_title">選取要傳送的套用程式：</string>
     <string name="create_shortcut">建立捷徑</string>
-    <string name="app_name_library">Memento 庫</string>
+    <string name="app_name_library">Memento 資料庫</string>
     <string name="error_cant_open_memento_dir">錯誤：無法在存儲卡上建立Memento目錄</string>
     <string name="preference_category_csv_import">資料操作</string>
     <string name="csvexport">匯出到CSV</string>
-    <string name="csvexport_summary">匯出條目到CSV檔案中</string>
+    <string name="csvexport_summary">匯出記錄到CSV檔案中</string>
     <string name="csvimport">從CSV中匯入</string>
     <string name="csvimport_from">從 %s 中匯入</string>
     <string name="csvexport_to">匯出到 %s</string>
-    <string name="csvimport_summary">從CSV檔案匯入條目</string>
+    <string name="csvimport_summary">從CSV檔案匯入記錄</string>
     <string name="select_csv_file_title">Memento資料夾中的CSV檔案</string>
     <string name="button_import">匯入</string>
     <string name="button_export">匯出</string>
-    <string name="find_csv_column_title">在選取檔案中找到的條目欄位：</string>
+    <string name="find_csv_column_title">在選取檔案中找到的記錄欄位：</string>
     <string name="not_find_csv_column_title">在選取的檔案中未找到欄位。</string>
     <string name="csv_delimiter_text">欄位值必須用逗號分隔(,)</string>
-    <string name="need_title_column_text">"欄位的名稱必須對應一個條目欄位的名稱. "</string>
-    <string name="csv_result_import_text">已匯入此條目</string>
-    <string name="csv_result_import_succes_items">新增條目：</string>
+    <string name="need_title_column_text">"欄位的名稱必須對應一個記錄欄位的名稱. "</string>
+    <string name="csv_result_import_text">已匯入此記錄</string>
+    <string name="csv_result_import_succes_items">新增記錄：</string>
     <string formatted="false" name="csv_result_import_fail_items">有列包含錯誤: %s
 \n列數: %s</string>
     <string name="enter_csv_name_dialog_title">匯出到CSV</string>
     <string name="enter_csv_name_dialog_value_title">輸入CSV檔案的名子</string>
     <string name="enter_csv_name_dialog_value_hint">檔案名</string>
-    <string name="export_success">條目已匯出到 /sdcard/memento/%s</string>
-    <string name="export_error">匯出以下條目失敗:\n%s</string>
-    <string name="library_saved">已儲存庫</string>
-    <string name="library_created">已建立庫</string>
+    <string name="export_success">記錄已匯出到 /sdcard/memento/%s</string>
+    <string name="export_error">匯出以下記錄失敗:
+%s</string>
+    <string name="library_saved">已儲存資料庫</string>
+    <string name="library_created">已建立資料庫</string>
     <string name="msg_default_status">在取景器範圍內放置條碼以掃瞄它。</string>
     <string name="scan_library_item">掃瞄條碼</string>
     <string name="search_product_title">正在以條碼搜尋商品 ...</string>
@@ -188,39 +191,40 @@
     <string name="barcode_auto_fill_checkbox">自動完成欄位</string>
     <string name="add_fill_field_dialog_title">建立一個自動完成規則</string>
     <string name="memento_field">它將被儲存到輸入欄位</string>
-    <string name="memento_field_promt">庫條目欄位</string>
-    <string name="uniquery_check_fail">一個庫只能包含一個 "%s" 類型的欄位</string>
+    <string name="memento_field_promt">資料庫記錄欄位</string>
+    <string name="uniquery_check_fail">一個資料庫只能包含一個 %s 類型的欄位</string>
     <string name="to">到</string>
     <string name="barcode_search">條碼搜索</string>
     <!-- 1.2.1 -->
     <string name="msg_camera_framework_bug">抱歉，Android相機出現了一個問題。您可能需要重啟設備。</string>
     <!-- 1.2.3 -->
-    <string name="deleted_library_hint">條目: %s</string>
-    <string name="preference_restore_libs_title">還原庫</string>
-    <string name="preference_restore_libs_hint">還原被刪除的庫</string>
+    <string name="deleted_library_hint">記錄: %s</string>
+    <string name="preference_restore_libs_title">還原資料庫</string>
+    <string name="preference_restore_libs_hint">還原被刪除的資料庫</string>
     <string name="preference_category_general">一般</string>
     <string name="library_import_and_export">匯入和匯出</string>
     <string name="recovering">正在還原</string>
-    <string name="recovering_message">正在還原庫\n%s</string>
+    <string name="recovering_message">正在還原資料庫
+%s</string>
     <string name="library_recover">還原</string>
     <string name="deleting_library_title">正在刪除</string>
-    <string name="deleting_library_message">正在刪除庫</string>
+    <string name="deleting_library_message">正在刪除資料庫</string>
     <!-- 1.2.5 -->
     <string name="view_category">檢視</string>
     <string name="title_lib_theme_preference">主題</string>
-    <string name="summary_lib_theme_preference">為庫選取一個主題</string>
-    <string name="dialog_title_lib_theme_preference">為庫選取一個主題</string>
+    <string name="summary_lib_theme_preference">為資料庫選取一個主題</string>
+    <string name="dialog_title_lib_theme_preference">為資料庫選取一個主題</string>
     <!-- 1.3.0 -->
     <string name="unbind_from_gdocs">中斷與Google Sheets的連接</string>
     <string name="bind_to_gdocs">連接到Google Sheets</string>
     <string name="bind_to_gdocs_title">連接到Google Sheets</string>
     <string name="unbind_message_title">中斷與Google Sheets的連接</string>
-    <string name="unbind_message_text">您是否確定要中斷庫\"%s\"到Google Sheets的連接？</string>
-    <string name="bind_to_gdocs_message">正在連接Google Spreadsheets。</string>
-    <string name="bind_to_gdocs_success">此庫已連接到 Google Spreadsheets。</string>
-    <string name="sync_with_gdocs_success">此庫已完成與Google Spreadsheets的同步</string>
+    <string name="unbind_message_text">您是否確定要中斷資料庫\"%s\"到Google 試算表的連接？</string>
+    <string name="bind_to_gdocs_message">正在連接Google 試算表。</string>
+    <string name="bind_to_gdocs_success">此資料庫已連接到 Google 試算表。</string>
+    <string name="sync_with_gdocs_success">此資料庫已完成與Google 試算表的同步</string>
     <string name="sync_with_gdocs_title">與Google Sheets同步</string>
-    <string name="sync_with_gdocs_message">正在與Google Spreadsheets同步。</string>
+    <string name="sync_with_gdocs_message">正在與Google 試算表同步。</string>
     <string name="sync_with_gdocs">與Google Sheets同步檔案</string>
     <string name="google_docs_task_step_auth">正在與 Sheets 取得授權</string>
     <string name="google_docs_task_step_get_rows">檢索源清單</string>
@@ -236,29 +240,30 @@
     <string name="preference_category_accounts">帳號</string>
     <string name="preference_google_account_title">Google帳戶</string>
     <string name="preference_google_account_hint">您的Google帳戶Email和密碼</string>
-    <string name="conflict_dialog_text">同條目在 Memento 與 Google Sheets 都被編輯。哪一個是正確版本？</string>
-    <string name="copy_memento_to_gdocs">來自Memento的條目</string>
-    <string name="copy_gdocs_to_memento">來自Google Sheets的條目</string>
-    <string name="edit_flex_title_disabled">由於目前庫已連接到Google Sheets，無法重新命名欄位</string>
-    <string name="cant_bind">免費版本只允許您連接三個庫到Google Sheets。\n升級到 PRO 版以解除此限制。</string>
+    <string name="conflict_dialog_text">同記錄在 Memento 與 Google 試算表都被編輯。哪一個是正確版本？</string>
+    <string name="copy_memento_to_gdocs">來自Memento的記錄</string>
+    <string name="copy_gdocs_to_memento">來自Google 試算表的記錄</string>
+    <string name="edit_flex_title_disabled">由於目前資料庫已連接到Google 試算表，無法重新命名欄位</string>
+    <string name="cant_bind">免費版本只允許您連接三個資料庫到Google Sheets。
+升級到 PRO 版以解除此限制。</string>
     <string name="button_pro_version">PRO 版</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">自動完成</string>
-    <string name="option_autofill_hint">下拉清單顯示來自其他條目的可用值</string>
+    <string name="option_autofill_hint">下拉清單顯示來自其他記錄的可用值</string>
     <string name="capture_picture">截圖</string>
     <string name="please_wait">請稍等...</string>
     <!-- 1.4.0 -->
-    <string name="public_library_title">正在發佈庫</string>
-    <string name="public_to_picasa_message">正在上傳庫圖片到Picasa</string>
-    <string name="public_to_picasa_create_album">正在為已發佈的庫建立一個Picasa相冊</string>
+    <string name="public_library_title">正在發佈資料庫</string>
+    <string name="public_to_picasa_message">正在上傳資料庫圖片到Picasa</string>
+    <string name="public_to_picasa_create_album">正在為已發佈的資料庫建立一個Picasa相冊</string>
     <string name="public_to_picasa_success">圖片已上傳到Picasa</string>
     <string name="picasa_task_step_auth">正在驗證Picasa服務</string>
-    <string formatted="false" name="picasa_send_image_step">正在上傳庫圖片到Picasa。%s из %s</string>
-    <string name="public_library">發佈這個庫</string>
+    <string formatted="false" name="picasa_send_image_step">正在上傳資料庫圖片到Picasa。%s of %s</string>
+    <string name="public_library">發佈這個資料庫</string>
     <string name="update_public_library">更新發佈</string>
     <string name="memento_register_account_title">正在Memento伺服器上\n建立一個賬戶</string>
-    <string name="memento_register_account_text">發佈庫以及訂閱庫，需要在 Memento Server 上的帳號</string>
-    <string name="memento_login_hint">使用者名</string>
+    <string name="memento_register_account_text">發佈資料庫以及訂閱資料庫，需要在 Memento Server 上的帳號</string>
+    <string name="memento_login_hint">使用者名稱</string>
     <string name="memento_pass_hint">密碼</string>
     <string name="memento_pass_hint2">重複密碼</string>
     <string name="memento_email_hint">Email</string>
@@ -276,85 +281,90 @@
     <string name="memento_account_title">Memento 帳號</string>
     <string name="memento_create_account_button">新增帳號</string>
     <string name="memento_auth_error">錯誤的使用者名或密碼</string>
-    <string name="memento_library_lock">庫被鎖定，請稍後重試</string>
+    <string name="memento_library_lock">資料庫被鎖定，請稍後重試</string>
     <string name="preference_memento_account_title">Memento 帳號</string>
     <string name="preference_memento_account_hint">您的Memento賬戶使用者名和密碼</string>
     <string name="public_library_task_auth">正在驗證Memento服務</string>
-    <string name="public_library_task_send_template">正在傳送庫範本</string>
-    <string formatted="false" name="public_library_task_send_items">正在傳送庫條目。\n%s 來自 %s</string>
+    <string name="public_library_task_send_template">正在傳送資料庫範本</string>
+    <string formatted="false" name="public_library_task_send_items">正在傳送資料庫記錄。
+%s 來自 %s</string>
     <string name="memento_not_support_template">您所使用的Memento版本已過期，請更新</string>
     <string name="memento_not_found">未找到資源</string>
-    <string name="alias_hint">輸入庫的別名</string>
+    <string name="alias_hint">輸入資料庫的別名</string>
     <string name="button_publish">發佈</string>
-    <string name="publish_update_success">發佈的庫已更新</string>
+    <string name="publish_update_success">發佈的資料庫已更新</string>
     <string name="private_library_checkbox">私有權限</string>
-    <string name="private_library_checkbox_hint">僅指定的使用者有權限存取這個庫</string>
-    <string name="enter_alias">輸入庫的別名</string>
-    <string name="incorrect_alias">庫的別名中只能含有字母或是數字</string>
-    <string name="public_library_address_text">庫的位址</string>
-    <string name="alias_exists">你已經有一個已發佈的庫使用了這個別名</string>
-    <string name="memento_forbidden_error">禁止存取該庫</string>
-    <string name="publish_library_address">庫 %s 目前已可在以下位址中檢視</string>
-    <string name="publish_library_address_hint">你的朋友們能夠使用Memento來檢視這個庫。如需這樣做，他們應該使用上面的位址來訂閱這個庫。</string>
-    <string name="deafult_group_title">我的庫</string>
-    <string name="subscribe_activity_title">訂閱庫</string>
-    <string name="library_uri_hint">庫的位址</string>
-    <string name="find_libraries_task_title">庫搜索</string>
-    <string name="find_libraries_task_by_uri">正在依照位址\n取得庫</string>
-    <string name="find_libraries_task_by_user">正在獲取該使用者\n擁有的所有庫</string>
-    <string name="libraries_list_result_header">已找到的庫</string>
-    <string name="libraries_by_user_not_found">未找到指定的使用者或該使用者未發佈任何庫</string>
-    <string name="library_not_found">通過該位址未找到任何庫</string>
-    <string name="wrong_library_address_format">無效的庫位址格式</string>
+    <string name="private_library_checkbox_hint">僅指定的使用者有權限存取這個資料庫</string>
+    <string name="enter_alias">輸入資料庫的別名</string>
+    <string name="incorrect_alias">資料庫的別名中只能含有字母或是數字</string>
+    <string name="public_library_address_text">資料庫的位址</string>
+    <string name="alias_exists">你已經有一個已發佈的資料庫使用了這個別名</string>
+    <string name="memento_forbidden_error">禁止存取該資料庫</string>
+    <string name="publish_library_address">資料庫 %s 目前已可在以下位址中檢視</string>
+    <string name="publish_library_address_hint">你的朋友們能夠使用Memento來檢視這個資料庫。如需這樣做，他們應該使用上面的位址來訂閱這個資料庫。</string>
+    <string name="deafult_group_title">我的資料庫</string>
+    <string name="subscribe_activity_title">訂閱資料庫</string>
+    <string name="library_uri_hint">資料庫的位址</string>
+    <string name="find_libraries_task_title">資料庫搜索</string>
+    <string name="find_libraries_task_by_uri">正在依照位址
+取得資料庫</string>
+    <string name="find_libraries_task_by_user">正在獲取該使用者
+擁有的所有資料庫</string>
+    <string name="libraries_list_result_header">已找到的資料庫</string>
+    <string name="libraries_by_user_not_found">未找到指定的使用者或該使用者未發佈任何資料庫</string>
+    <string name="library_not_found">通過該位址未找到任何資料庫</string>
+    <string name="wrong_library_address_format">無效的資料庫位址格式</string>
     <string name="last_update">上次更新：%s</string>
     <string name="subscribe_button">訂閱</string>
-    <string name="subscribe_task_get_library">正在取得庫條目</string>
-    <string name="subscribe_task_create_library">正在建立庫</string>
-    <string formatted="false" name="subscribe_task_save_library_task">正在儲存條目。\n%s 來自 %s</string>
+    <string name="subscribe_task_get_library">正在取得資料庫記錄</string>
+    <string name="subscribe_task_create_library">正在建立資料庫</string>
+    <string formatted="false" name="subscribe_task_save_library_task">正在儲存記錄。
+%s 來自 %s</string>
     <string name="subscribe_task_create_index">正在建立索引</string>
     <string name="subscribes_group_title">我的訂閱</string>
     <string name="library_settings">設定</string>
     <string name="subscribe_get_updated_pack">檢查更新</string>
-    <string name="subscribe_have_updated_pack">接收庫更新</string>
+    <string name="subscribe_have_updated_pack">接收資料庫更新</string>
     <string name="subscribe_last_update">上次更新 %s</string>
-    <string name="subscribe_last_update_dialog_title">更新庫</string>
-    <string name="subscribe_last_update_dialog_message">正在更新庫</string>
-    <string name="clear_preference">正在清除庫</string>
-    <string name="clear_preference_hint">正在刪除庫中的所有條目</string>
-    <string name="clear_preference_quest">刪除庫中的所有條目？</string>
+    <string name="subscribe_last_update_dialog_title">更新資料庫</string>
+    <string name="subscribe_last_update_dialog_message">正在更新資料庫</string>
+    <string name="clear_preference">正在清除資料庫</string>
+    <string name="clear_preference_hint">正在刪除資料庫中的所有記錄</string>
+    <string name="clear_preference_quest">刪除資料庫中的所有記錄？</string>
     <string name="last_sync">上次同步：%s</string>
     <string name="last_public">已發佈：%s</string>
-    <string name="unpublic_library_title">取消發佈的庫</string>
+    <string name="unpublic_library_title">取消發佈的資料庫</string>
     <string name="unpublic_library">取消發佈</string>
-    <string name="unpublish_success">這個庫已被取消發佈</string>
-    <string name="unpublic_message_text">你確定要取消庫\"%s\"的發佈？</string>
+    <string name="unpublish_success">這個資料庫已被取消發佈</string>
+    <string name="unpublic_message_text">你確定要取消資料庫\"%s\"的發佈？</string>
     <string name="unbind_from_gdocs_hint">中斷與Google Sheets的連接</string>
     <string name="preference_category_google_docs">Google試算表</string>
-    <string name="unbind_from_google_docs_success">這個庫已不再連接到Google Sheets</string>
+    <string name="unbind_from_google_docs_success">這個資料庫已不再連接到Google 試算表</string>
     <string name="preference_category_memento_server">Memento伺服器</string>
-    <string name="unpublic_library_hint">取消發佈的庫</string>
-    <string name="need_unpublic_library">在你刪除該庫之前，你需要先取消對其的發佈</string>
+    <string name="unpublic_library_hint">取消發佈的資料庫</string>
+    <string name="need_unpublic_library">在你刪除該資料庫之前，你需要先取消對其的發佈</string>
     <string name="rename_library">重新命名</string>
     <string name="rename_dialog_title">重新命名</string>
-    <string name="rename_dialog_text">庫名</string>
+    <string name="rename_dialog_text">資料庫名稱</string>
     <string name="flex_image_load">正在載入圖片 ...</string>
     <string name="subscribed">已訂閱</string>
-    <string name="info_public_library">庫的位址</string>
-    <string name="cant_public">免費版僅允許你發佈三個庫。\n升級到專業版來解除這個限制。</string>
+    <string name="info_public_library">資料庫位址</string>
+    <string name="cant_public">免費版僅允許你發佈三個資料庫。
+升級到專業版來解除這個限制。</string>
     <string name="add_permission_user_hint">輸入使用者名或Email</string>
-    <string name="edit_pub_permissions">庫的存取權限</string>
-    <string name="edit_pub_permissions_hint">編輯擁有存取這個庫的權限的使用者清單</string>
-    <string name="edit_pub_permissions_task_dialog_message">變更庫的存取權限</string>
+    <string name="edit_pub_permissions">資料庫存取權限</string>
+    <string name="edit_pub_permissions_hint">編輯擁有存取這個資料庫權限的使用者清單</string>
+    <string name="edit_pub_permissions_task_dialog_message">變更資料庫的存取權限</string>
     <!-- 1.4.5 -->
     <string name="import_template">匯入範本</string>
     <string name="export_template">匯出範本</string>
     <string name="export_template_error">匯出以下範本錯誤：%s</string>
     <string name="import_template_success">範本已被匯入</string>
     <string name="wrong_template_version">你目前的Memento版本不支援選取的範本檔案。請更新Memento。</string>
-    <string name="flex_type_library_entry">連接條目</string>
-    <string name="flex_type_entry_option_title">庫</string>
-    <string name="flex_type_entry_option_dlg_title">選取庫</string>
-    <string name="flex_type_entry_select_library">選取一個庫，其內容會成為本欄位的選項。</string>
+    <string name="flex_type_library_entry">連接記錄</string>
+    <string name="flex_type_entry_option_title">資料庫</string>
+    <string name="flex_type_entry_option_dlg_title">選取資料庫</string>
+    <string name="flex_type_entry_select_library">選取一個資料庫，其內容會成為本欄位的選項。</string>
     <string name="error_template_wrong_title">這個欄位只能含有字母或是數字</string>
     <!-- 1.4.8 -->
     <string name="filter_not_set">無過濾器</string>
@@ -372,52 +382,54 @@
     <string name="flex_type_multy_sl">多選值</string>
     <string name="library_item_copy">複製</string>
     <string name="send_all_dialog_title">傳送全部</string>
-    <string name="send_all_dialog_message">正在準備要傳送的條目 ...</string>
+    <string name="send_all_dialog_message">正在準備要傳送的記錄 ...</string>
     <string name="send_all_csv">以CSV傳送</string>
     <string name="send_all_text">以文字傳送</string>
     <string name="flex_type_time">時間</string>
 <string name="from_google_drive">取自雲端硬碟</string>
 
-<string name="sync_with_gdocs_success_2">庫“％s”已與Google同步</string>
+<string name="sync_with_gdocs_success_2">資料庫“％s”已與Google同步</string>
     <string name="sync_with_gdocs_message_2">與Google表格\"%s\" 同步 .</string>
-    <string name="help_create_library">創建庫</string>
-    <string name="help_edit_field">定義庫的結構</string>
-    <string name="help_library_items">操作庫條目</string>
+    <string name="help_create_library">創建資料庫</string>
+    <string name="help_edit_field">定義資料庫的結構</string>
+    <string name="help_library_items">操作資料庫記錄</string>
     <string name="help_import_export">導入和導出CSV文件</string>
     <string name="help_barcode">條碼掃瞄</string>
     <string name="help_gdocs_sync">與Google試算表同步處理</string>
-    <string name="help_publish">發佈庫</string>
-    <string name="help_subscribe">訂閱庫</string>
+    <string name="help_publish">發佈資料庫</string>
+    <string name="help_subscribe">訂閱資料庫</string>
     <string name="master_pass_hint">密碼</string>
     <string name="master_pass_hint2">重複輸入密碼</string>
-    <string name="lib_protection">加密庫</string>
+    <string name="lib_protection">加密資料庫</string>
     <string name="set_library_protection">保護</string>
-    <string name="set_master_pass_text">設置進入庫的主密碼。\n您必須輸入此密碼才能進入加密庫。</string>
+    <string name="set_master_pass_text">設定進入資料庫的主密碼。
+您必須輸入此密碼才能進入加密資料庫。</string>
     <string name="set_master_pass_dialog">設置主密碼</string>
-    <string name="check_master_pass_text">請輸入進入庫的主密碼</string>
+    <string name="check_master_pass_text">請輸入進入資料庫的主密碼</string>
     <string name="master_password_hint">主密碼</string>
     <string name="wrong_master_password">無效的密碼</string>
     <string name="button_continue">下一步</string>
     <string name="button_home">主頁</string>
-    <string name="library_is_locked">關閉加密庫</string>
+    <string name="library_is_locked">關閉加密資料庫</string>
     <string name="library_encription_checkbox">加密內容</string>
-    <string name="library_encription_description">將使用 AES 加密條目的字串欄位。\n不支援搜尋加密條目。</string>
-    <string name="library_pass_access_description">您必須輸入主密碼才能進入此庫</string>
-    <string name="set_library_protection_title">加密條目</string>
-    <string name="set_library_protection_message">正在加密庫條目...</string>
+    <string name="library_encription_description">將使用 AES 加密記錄的字串欄位。
+不支援搜尋加密記錄。</string>
+    <string name="library_pass_access_description">您必須輸入主密碼才能進入資料庫</string>
+    <string name="set_library_protection_title">加密記錄</string>
+    <string name="set_library_protection_message">正在加密資料庫記錄...</string>
     <string name="remove_library_protection">取消加密</string>
     <string name="remove_library_protection_title">取消加密</string>
     <string name="change_master_password">更改主密碼</string>
     <string name="old_master_pass_hint">輸入現在使用的密碼</string>
     <string name="new_master_pass_hint">輸入新密碼</string>
     <string name="new_master_pass_hint2">輸入驗證碼</string>
-    <string name="re_encripted_entries">重新加密條目...</string>
+    <string name="re_encripted_entries">重新加密記錄...</string>
     <string name="pass_changed">成功更改密碼</string>
     <string name="help_intro">Memento 是甚麼</string>
-    <string name="remove_library_protection_desc">訪問此庫不需要密碼</string>
-    <string name="remove_library_protection_question">你真的要取消保護庫嗎?</string>
+    <string name="remove_library_protection_desc">訪問此資料庫不需要密碼</string>
+    <string name="remove_library_protection_question">你真的要取消保護資料庫嗎?</string>
     <string name="preference_category_security">安全性</string>
-    <string name="remove_library_protection_message">解密庫條目 ...</string>
+    <string name="remove_library_protection_message">解密資料庫記錄 ...</string>
     <string name="change_master_password_hint">您的數據將使用新密碼重新加密.</string>
     <string name="library_protection_pass">密碼</string>
     <string name="library_protection_pass_checkbox">密碼訪問</string>
@@ -429,17 +441,17 @@
     <string name="email_chooser_title">選擇電子郵件應用程式</string>
     <string name="choose_own_icon_text">選擇您自己的圖示</string>
     <string name="font_size_screen_preference">字體</string>
-    <string name="library_protection_options">加密庫</string>
+    <string name="library_protection_options">加密資料庫</string>
     <string name="library_protection_not">一個也沒有</string>
     <string name="buy_from_market_title">通過Google Play購買</string>
     <string name="buy_from_market_hint">Google電子錢包</string>
-    <string name="font_size_screen_preference_summary">條目和條目列表中的字體</string>
-    <string name="font_size_category_entries_list">條目列表中的字體</string>
-    <string name="font_size_category_entries_card">條目中的字體</string>
+    <string name="font_size_screen_preference_summary">記錄和記錄列表中的字體</string>
+    <string name="font_size_category_entries_list">記錄列表中的字體</string>
+    <string name="font_size_category_entries_card">記錄中的字體</string>
     <string name="font_size_dialog">字體大小</string>
-    <string name="entry_name_font_size_preference">條目名稱</string>
-    <string name="entry_desc_font_size_preference">條目描述</string>
-    <string name="entry_status_font_size_preference">條目狀態</string>
+    <string name="entry_name_font_size_preference">記錄名稱</string>
+    <string name="entry_desc_font_size_preference">記錄描述</string>
+    <string name="entry_status_font_size_preference">記錄狀態</string>
     <string name="entry_field_title_font_size_preference">欄位名稱</string>
     <string name="entry_field_value_font_size_preference">欄位值</string>
 
@@ -448,7 +460,7 @@
     <string name="expression_hint">在此處輸入計算表達式</string>
     <string name="add_function_button">添加函數</string>
     <string name="calc_result_type_prompt">結果類型</string>
-    <string name="save_library_task_message">存儲庫結構</string>
+    <string name="save_library_task_message">存儲資料庫結構</string>
     <string name="save_library_task_recalc">重新計算欄位</string>
     <string name="memento_funct_promt">函數</string>
     <string name="help_calc">計算字段</string>
@@ -459,15 +471,15 @@
     <string name="template_category">類別</string>
     <string name="template_description">範本說明</string>
     <string name="button_share_template">共用範本</string>
-    <string name="share_template_text">將庫範本上載到線上目錄</string>
-    <string name="share_success">庫範本成功上傳到線上目錄</string>
+    <string name="share_template_text">將資料庫範本上載到線上目錄</string>
+    <string name="share_success">資料庫範本成功上傳到線上目錄</string>
     <string name="template_from_catalog_title">從線上目錄下載</string>
     <string name="template_category_text">範本類別</string>
     <string name="template_description_title">範本說明</string>
     <string name="template_author_text">從 %s</string>
     <string name="template_date_text">已創建％s</string>
     <string name="button_download">下載</string>
-    <string name="get_template_body_message">下載範本庫...</string>
+    <string name="get_template_body_message">下載範本資料庫...</string>
     <string name="error_empty_template_title">輸入範本名稱</string>
     <string name="error_empty_template_desc">輸入範本的說明</string>
     <string name="template_downloads">下載: %s</string>
@@ -476,7 +488,7 @@
     <string name="pref_cat_library_view">閱覽</string>
     <string name="clear">清除</string>
     <string name="field_email_preferences">格式化電子郵件</string>
-    <string name="field_email_preferences_summary">當您通過電子郵件發送它們的格式設置選項條目</string>
+    <string name="field_email_preferences_summary">當您通過電子郵件發送它們的格式設置選項記錄</string>
     <string name="formatted_field_prompt">選擇欄位</string>
     <string name="field">欄位</string>
     <string name="calc_value_type_date">數值類型，秒</string>
@@ -524,7 +536,7 @@
     <string name="time_formats_short">短時間</string>
     <string name="time_formats_long">長時間</string>
     <string name="time_formats">時間格式</string>
-    <string name="frozen_text">此庫被凍結，因您上傳到雲端的庫數量超出付費方案限制。</string>
+    <string name="frozen_text">此資料庫被凍結，因您上傳到雲端的資料庫數量超出付費方案限制。</string>
     <string name="date_and_time_formats">日期和時間格式</string>
     <string name="date_formats">日期格式</string>
     <string name="increase">新增</string>
@@ -532,12 +544,13 @@
     <string name="frozen">凍結</string>
     <string name="unit_converter">單位換算</string>
     <string name="reset_master_password">重置主密碼</string>
-    <string name="reset_master_password_hint">所有的加密的庫將被刪除</string>
-    <string name="reset_master_quest">您確實要重置主密碼嗎？\n注意 ！所有的加密的庫將被刪除 ！</string>
-    <string name="remove_encript_lib_dlg_msg">刪除加密的庫副本</string>
+    <string name="reset_master_password_hint">所有的加密的資料庫將被刪除</string>
+    <string name="reset_master_quest">您確實要重置主密碼嗎？
+注意 ！所有的加密的資料庫將被刪除 ！</string>
+    <string name="remove_encript_lib_dlg_msg">刪除加密的資料庫副本</string>
     <string name="master_password_reset">主密碼重設副本</string>
-    <string name="edit_entry_screen_preference">編輯條目</string>
-    <string name="edit_entry_screen_preference_summary">形式參數創建編輯條目</string>
+    <string name="edit_entry_screen_preference">編輯記錄</string>
+    <string name="edit_entry_screen_preference_summary">表單參數建立編輯記錄</string>
     <string name="auto_show_soft_keyboard">顯示軟鍵盤</string>
     <string name="auto_show_soft_keyboard_summary">當表單打開-打開軟鍵盤</string>
     <string name="flex_type_file">連結到檔案</string>
@@ -546,17 +559,18 @@
     <string name="select_app">選擇一個應用程式</string>
     <string name="forum">論壇</string>
     <string name="autoincrement">自動遞增</string>
-    <string name="cant_protect">免費版本只允許保護兩個庫。
-\n升級到PRO版本以禁用此限制。</string>
+    <string name="cant_protect">免費版本只允許保護兩個資料庫。
+
+升級到PRO版本以禁用此限制。</string>
     <string name="flex_edit_option_title">您可以在哪裡編輯</string>
-    <string name="flex_edit_option_default">編輯條目的形式</string>
-    <string name="flex_edit_option_in_list">清單條目</string>
-    <string name="flex_edit_option_in_view">卡片條目</string>
+    <string name="flex_edit_option_default">編輯記錄的形式</string>
+    <string name="flex_edit_option_in_list">清單記錄</string>
+    <string name="flex_edit_option_in_view">卡片記錄</string>
     <string name="loading_google_document_list">載入中...</string>
     <string name="google_doc_list_title">Google文件</string>
     <string name="updated_document_time">更新: %s</string>
     <string name="move_from_google_docs">將數據從Google試算表傳輸到Memento</string>
-    <string name="move_from_google_docs_attention">所有可用的庫條目將被刪除</string>
+    <string name="move_from_google_docs_attention">所有可用的資料庫記錄將被刪除</string>
     <string name="move_from_memento">將數據從Memento傳輸到Google試算表</string>
     <string name="move_from_memento_attention">Google試算表中的所有可用資料將被刪除</string>
     <string name="find_in_spreadsheet_column_title">Memento和Google試算表中的欄位清單</string>
@@ -568,7 +582,7 @@
     <string name="prepare_linking_library">準備連接…</string>
     <string name="error_prepare_linking">準備連接時發生錯誤: %s</string>
     <string name="have_library_items_ask_title">鏈接到Google表格</string>
-    <string name="have_library_items_ask_message">庫包含在連結操作中刪除的記錄。執行該操作的連結與Google表格庫嗎？</string>
+    <string name="have_library_items_ask_message">資料庫包含在連結操作中刪除的記錄。執行操作，將資料庫與Google試算表連結嗎？</string>
     <string name="autofill_source_option_title">資料來源</string>
     <string name="amazon_source_option_title">亞馬遜</string>
     <string name="auto_backup_option_title">自動備份</string>
@@ -612,18 +626,18 @@
     <string name="preference_category_export_data_cfg">設置導入/導出/同步</string>
     <string name="import_export_date_format">選擇日期格式</string>
     <string name="import_export_date_format_dialog">導入/導出/同步選擇日期格式</string>
-    <string name="main_menu_add_lib_group">添加庫或組</string>
-    <string name="no_entries">沒有條目</string>
+    <string name="main_menu_add_lib_group">添加資料庫或群組</string>
+    <string name="no_entries">沒有記錄</string>
     <string name="add_group_dialog_text">該群組的名稱</string>
     <string name="add_group_dialog_hint">輸入群組名</string>
     <string name="button_delete_goup">刪除群組</string>
     <string name="group_delete_message_title">刪除群組</string>
     <string name="group_delete_message_text">你真的要刪除群組“％s”嗎？</string>
     <plurals name="library_box_entries_count">
-	<item quantity="other">%d 個條目</item>
+	<item quantity="other">%d 筆記錄</item>
 </plurals>
-    <string name="main_lock_button_text">鎖定這個庫</string>
-    <string name="lock_libraries_completed">訪問加密庫被關閉</string>
+    <string name="main_lock_button_text">鎖定這個資料庫</string>
+    <string name="lock_libraries_completed">訪問加密資料庫被關閉</string>
     <string name="sync_google_all">與Google同步</string>
     <string name="library_ex_options">高級參數</string>
     <string name="library_last_edit">更新 %s</string>
@@ -631,10 +645,10 @@
     <string name="user_manual_menu">幫助內容</string>
     <string name="save_library_changes">保存更改？</string>
     <string name="main_menu_add_group">添加群組</string>
-    <string name="main_title">Memento 資料庫</string>
-    <string name="build_navigate_list_dialog">對條目進行排序...</string>
-    <string name="navigate_first_entry">此條目是第一個</string>
-    <string name="navigate_last_entry">此條目是最後一個</string>
+    <string name="main_title">Memento資料庫</string>
+    <string name="build_navigate_list_dialog">對記錄進行排序...</string>
+    <string name="navigate_first_entry">這是第一筆記錄</string>
+    <string name="navigate_last_entry">這是最後一筆記錄</string>
     <string name="select_library_filter">選擇篩選條件</string>
     <string name="no_filter_item">刪除篩選條件</string>
     <string name="library_custom_filter_name">使用者篩選器</string>
@@ -643,8 +657,8 @@
 <string name="delete_filter_dialog_text">你確定要刪除「%s」篩選條件嗎？</string>
     <string name="reindex_dialog_message">創建索引...</string>
     <string name="add_product_manually">手動</string>
-    <string name="moving_database_dialog_message">移動數據庫...</string>
-    <string name="moving_database_error">這個數據庫不能移動</string>
+    <string name="moving_database_dialog_message">移動資料庫...</string>
+    <string name="moving_database_error">這個資料庫不能移動</string>
     <string name="templates_sort_dialog_title">排序範本</string>
     <string name="delete_catalog_template_title">刪除範本</string>
     <string name="delete_catalog_template_message">你真的想要從線上目錄刪除範本 %s？</string>
@@ -656,7 +670,8 @@
     <string name="change_password_success">請查看你的電子郵箱.\n我們剛寄出一封電子郵件，你可以很快捷及容易地重置你的密碼.</string>
     <string name="tile_options_text">標題</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
-    <string name="search_in_protected_libraries">搜尋已密碼保護的資庫\n(已加密的除外)</string>
+    <string name="search_in_protected_libraries">搜尋已密碼保護的資料庫
+(已加密的除外)</string>
     <string name="stat_result_type">結果格式</string>
     <string name="backup_file_name_title">備份資料名稱</string>
     <string name="backup_file_path_title">備份路徑</string>
@@ -691,7 +706,7 @@
     <string name="select_type_depends">選擇相關性的種類</string>
     <string name="select_type_depends_spinner_title">相關性的種類</string>
     <string name="select_master_field_for_depend">選擇要連結的儲存格</string>
-    <string name="library_fields">庫條目欄位</string>
+    <string name="library_fields">資料庫記錄欄位</string>
     <string name="boolean_field_check_value">已檢查</string>
     <string name="boolean_field_uncheck_value">未檢查</string>
     <string name="visible_field_depend_pretitle">「%s」欄位的狀態</string>
@@ -729,9 +744,9 @@
     <string formatted="false" name="restore_files_error_message">封存檔案還原失敗: %s</string>
     <string name="start_reindex_title">重編索引</string>
     <string name="reindex_complete_message">重編索引已完成</string>
-    <string name="files_storage_settings_dublicate_summary">連接到紀錄的檔案將被複制到儲存資料夾</string>
+    <string name="files_storage_settings_dublicate_summary">連接到記錄的檔案將被複制到儲存資料夾</string>
     <string name="files_storage_settings_remove_original_summary">複制完成後，刪除原有檔案</string>
-    <string name="dublicate_file_error">"未能移動檔案到儲存庫: "</string>
+    <string name="dublicate_file_error">"未能移動檔案到儲存資料庫: "</string>
     <string name="select_map_type">地圖的種類</string>
     <string name="normal">正常</string>
     <string name="hybrid">混合</string>
@@ -744,32 +759,33 @@
     <string name="files_cloud_storage_pref">同步資料</string>
     <string name="link_to_new_document">連接到新文件</string>
     <string name="link_to_existing_document">連接到已存在的文件</string>
-    <string name="google_sync_files_checkbox">上載連結到紀錄的檔案(圖片)到雲端硬盤.</string>
+    <string name="google_sync_files_checkbox">上載連結到記錄的檔案(圖片)到雲端儲存.</string>
     <string name="list_library_in_google">谷歌雲端硬盤上的資料庫清單</string>
     <string name="add_lib_from_google_drive">來自谷歌雲端硬盤</string>
     <string name="selected">已選擇%s</string>
     <string name="delete_template_from_google_drive_question">你是否確定要刪除谷歌雲端硬盤上的資料庫?</string>
     <string name="delete_data_table_from_google_drive">移除與範本相關的資料試算表</string>
-    <string name="lock_library_edit_message">庫結構已被鎖定，不可變更。\n您可在此庫的選項裡關閉保護。</string>
+    <string name="lock_library_edit_message">資料庫結構已被鎖定，不可變更。
+您可在此資料庫的選項裡關閉保護。</string>
     <string name="lock_edit_library_pref_title">鎖定結構</string>
-    <string name="lock_edit_library_pref_summary_on">禁止變更庫結構</string>
-    <string name="lock_edit_library_pref_summary_off">允許變更庫結構</string>
-    <string name="cant_restore_form_google_drive">您的裝置不支援從 Google Drive 建立新庫</string>
+    <string name="lock_edit_library_pref_summary_on">禁止變更資料庫結構</string>
+    <string name="lock_edit_library_pref_summary_off">允許變更資料庫結構</string>
+    <string name="cant_restore_form_google_drive">您的裝置不支援從 Google Drive 建立新資料庫</string>
     <string name="record_error_dialog_message">抱歉，找不到錄音程式。</string>
     <string name="sync_error_dialog_title">同步錯誤</string>
     <string name="field_display_options_group">顯示選項</string>
     <string name="display_in_list_how">在清單中顯示為</string>
     <string name="field_display_title_in_card">欄位名</string>
-    <string name="field_display_title_in_card_hint">在卡片條目內顯示欄位名稱</string>
+    <string name="field_display_title_in_card_hint">在卡片記錄內顯示欄位名稱</string>
     <string name="edit_library_tab_structure">結構</string>
     <string name="edit_library_tab_view">檢視</string>
-    <string name="add_library_tabs_header">條目分頁</string>
+    <string name="add_library_tabs_header">記錄分頁</string>
     <string name="add_button">新增</string>
     <string name="default_entry_page_title">主要</string>
     <string name="entry_page_title">分頁名稱</string>
     <string name="cant_delete_main_page">您不能刪除預設頁面。</string>
     <string name="field_count_on_page">欄位數: %s</string>
-    <string name="master_libraries_list_caption">庫條目清單</string>
+    <string name="master_libraries_list_caption">資料庫記錄清單</string>
     <string name="view_on_this_page_title">在本頁顯示</string>
     <string name="set_default_page">設為預設</string>
     <string name="entry_page_default">預設</string>
@@ -787,7 +803,7 @@
     <string name="select_button">選取</string>
     <string name="clear_button">清除</string>
     <string name="image_info_button">資訊</string>
-    <string name="error_library_not_unique_field_names">庫內欄位名稱不能重複。請檢查欄位: %s。</string>
+    <string name="error_library_not_unique_field_names">資料庫內欄位名稱不能重複。請檢查欄位: %s。</string>
     <string name="info_path">路徑：</string>
     <string name="info_resolution">解析度：</string>
     <string name="info_size">容量：</string>
@@ -840,7 +856,7 @@
     <string name="column_chart_category_title">欄位</string>
     <string name="column_chart_values_title">值</string>
     <string name="chart_option_stack_series">堆疊序列元素</string>
-    <string name="chart_field_count_entries">條目數</string>
+    <string name="chart_field_count_entries">記錄的數量</string>
     <string name="chart_field_category_none">無</string>
     <string name="change_chart_type_menu_item">變更圖表類型</string>
     <string name="chart_to_image_menu_item">存成圖片</string>
@@ -855,13 +871,13 @@
     <string name="cant_delete_charts_field_message">您不能移除這個欄位，因為有圖表用到它: %s</string>
     <string name="save_to_file_name">檔名</string>
     <string name="save_to_file_directory">目錄</string>
-    <string name="need_pro_for_charts">免費版一個庫只能有一個圖表。若想移除限制，請升級到 PRO 版。</string>
+    <string name="need_pro_for_charts">免費版一個資料庫只能有一個圖表。若想移除限制，請升級到 PRO 版。</string>
     <string name="need_internet_for_charts">Google Charts 需要維持 Internet 連線</string>
     <string name="download_image_from_google_photo_message">正在從 Google Photo 下載影像 ...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">網路上的資料會被填入欄位輸入框</string>
     <string name="google_base_field_new">來源的屬性值</string>
     <string name="wrong_search_query_string_1">查詢語法不能用「-」開頭</string>
-    <string name="link_master_library_not_found">抱歉，找不到這個欄位連到的庫</string>
+    <string name="link_master_library_not_found">抱歉，找不到這個欄位連到的資料庫</string>
     <string name="sync_with_google_drive_dont_support">您的 Android 裝置不支援與 Google Drive 同步</string>
     <string name="internal_storage_title">裝置內部儲存空間</string>
     <string name="sd_storage_title">SD 卡</string>
@@ -870,17 +886,17 @@
     <string name="choose_dir">選擇資料夾</string>
     <string name="choose_file">選擇檔案</string>
     <string name="file_is_not_database">選定的檔案不是資料庫</string>
-    <string name="create_collection">建立庫</string>
-    <string name="edit_collection">編輯庫</string>
+    <string name="create_collection">建立資料庫</string>
+    <string name="edit_collection">編輯資料庫</string>
     <string name="create_field">建立欄位</string>
     <string name="edit_field">編輯欄位</string>
     <string name="create_dependency">建立相依連結</string>
     <string name="edit_dependency">編輯相依連結</string>
-    <string name="create_entry">建立條目</string>
-    <string name="edit_entry">編輯條目</string>
+    <string name="create_entry">建立記錄</string>
+    <string name="edit_entry">編輯記錄</string>
     <string name="create_chart">建立圖表</string>
     <string name="edit_chart">編輯圖表</string>
-    <string name="edit_library_main_color">庫顏色</string>
+    <string name="edit_library_main_color">資料庫顏色</string>
     <string name="color_swatch_description">%d 色</string>
     <string name="color_swatch_description_selected">選擇了 %d 色</string>
     <string name="button_palette">色盤...</string>
@@ -895,28 +911,28 @@
     <string name="icon_pack_title_field_mult_flat">多媒體</string>
     <string name="icon_pack_title_field_net_flat">網路</string>
     <string name="library_tile_options">放在磚塊上</string>
-    <string name="show_icon_on_tile">庫圖示</string>
-    <string name="show_num_entries_on_tile">條目數</string>
+    <string name="show_icon_on_tile">資料庫圖示</string>
+    <string name="show_num_entries_on_tile">記錄的數量</string>
     <string name="show_update_time_on_tile">更新時間</string>
-    <string name="only_title_on_tile">只顯示庫名</string>
+    <string name="only_title_on_tile">只顯示資料庫名稱</string>
     <plurals name="fields_count">
 	<item quantity="one">%d 個欄位</item>
         <item quantity="other">%d 個欄位</item>
 </plurals>
     <plurals name="libraries_count">
-	<item quantity="one">%d 個庫</item>
-        <item quantity="other">%d 個庫</item>
+	<item quantity="other">%d 個資料庫</item>
 </plurals>
     <string name="empty">空</string>
     <string name="add_page">新增分頁</string>
     <string name="move_to_page">移動到分頁</string>
-    <string name="empty_entry_page_text">本分頁是空的。\n您可以在此新增欄位或條目清單。</string>
-    <string name="empty_fields_list_text">這個庫沒有欄位。</string>
-    <string name="empty_aggregation_list_text">這個庫沒有聚合函數。</string>
-    <string name="empty_chart_list_text">這個庫沒有圖表。</string>
-    <string name="empty_entry_list_text">這個庫還沒有條目。</string>
-    <string name="empty_recycle_bin_text">這個庫沒有可以救回的條目。</string>
-    <string name="empty_main_recycle_bin_text">沒有可以救回的庫。</string>
+    <string name="empty_entry_page_text">本分頁是空的。
+您可以在此新增欄位或記錄清單。</string>
+    <string name="empty_fields_list_text">這個資料庫沒有欄位。</string>
+    <string name="empty_aggregation_list_text">這個資料庫沒有聚合函數。</string>
+    <string name="empty_chart_list_text">這個資料庫沒有圖表。</string>
+    <string name="empty_entry_list_text">這個資料庫還沒有記錄。</string>
+    <string name="empty_recycle_bin_text">這個資料庫沒有可以救回的記錄。</string>
+    <string name="empty_main_recycle_bin_text">沒有可以救回的資料庫。</string>
     <string name="string_edit_cap_options_title">大寫</string>
     <string name="string_edit_cap_options_none">否</string>
     <string name="string_edit_cap_options_sent">句子開頭</string>
@@ -931,10 +947,10 @@
     <string name="delete_string_list_item_message">您真的想刪除「%s」項目嗎？</string>
     <string name="icon">圖示</string>
     <string name="color">顏色</string>
-    <string name="edit_library_entries_options_group">條目清單</string>
-    <string name="entries_color">條目顏色</string>
-    <string name="entries_color_dialog_title">將此欄位作為條目顏色</string>
-    <string name="entries_icon">條目縮圖</string>
+    <string name="edit_library_entries_options_group">記錄清單</string>
+    <string name="entries_color">記錄的顏色</string>
+    <string name="entries_color_dialog_title">將此欄位作為記錄的顏色</string>
+    <string name="entries_icon">記錄的縮圖</string>
     <string name="entries_icon_dialog_title">將此欄位作為縮圖</string>
     <string name="string_list_export_menu_title">匯出項目</string>
     <string name="string_list_import_menu_title">匯入項目</string>
@@ -962,58 +978,59 @@
     <string name="aggregation_need_select_field_message">您必須為這個統計函數選擇欄位</string>
     <string name="open_object_by_uri_error">無法開啟物件: %s</string>
     <string name="import_and_export_menu_item">匯入與匯出 ...</string>
-    <string name="entries_export_snackbar_ok">條目匯出成功</string>
-    <string name="entries_import_result_dialog_title">匯入條目</string>
+    <string name="entries_export_snackbar_ok">記錄匯出成功</string>
+    <string name="entries_import_result_dialog_title">匯入記錄</string>
     <string name="csv_import_total_lines">已處理列數:</string>
     <string name="csv_import_errors_count">錯誤:</string>
     <string formatted="false" name="csv_import_error_item">列 %d - %s</string>
     <string name="undo_button">復原</string>
-    <string name="google_sync_without_memento_id_text">本庫正以舊方式同步，有發生問題的可能。\n必須重捆到新表格才能使用新方式。\n立刻重捆嗎？</string>
+    <string name="google_sync_without_memento_id_text">本資料庫正以舊方式同步，有發生問題的可能。
+必須重新綁定到新表格才能使用新方式。
+立刻重新綁定嗎？</string>
     <string name="rating_field_max_value">最高評分</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d 星</item>
         <item quantity="other">%d 星</item>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
-	<item quantity="one">%d 條目已丟到垃圾桶</item>
-        <item quantity="other">%d 條目已丟到垃圾桶</item>
+	<item quantity="other">%d 記錄已丟到垃圾桶</item>
 </plurals>
-    <string name="auto_fill_barcode_empty2">比較自動完成來源與條目欄位的屬性</string>
+    <string name="auto_fill_barcode_empty2">比較自動完成來源與記錄欄位的屬性</string>
     <string name="barcode_rule_delete_title">刪除規則</string>
     <string name="barcode_rule_delete_text">您確定要刪除「%s」欄位的自動完成規則嗎？</string>
-    <string name="multi_library_item_trush_message_text">您確定要把選定的條目丟到垃圾桶嗎？</string>
-    <string name="multi_library_item_delete_message_text">您確定要刪除選定的條目嗎？</string>
-    <string name="delete_library_snackbar_text">「%s」庫已被丟到垃圾桶</string>
+    <string name="multi_library_item_trush_message_text">您確定要把選定的記錄丟到垃圾桶嗎？</string>
+    <string name="multi_library_item_delete_message_text">您確定要刪除選定的記錄嗎？</string>
+    <string name="delete_library_snackbar_text">「%s」資料庫已被丟到垃圾桶</string>
     <string name="deleted">已刪除</string>
-    <string name="library_recover_dialog_text">您想復原「%s」庫嗎？</string>
-    <string name="library_recover_snackbar_text">已將庫復原到「%s」群組</string>
+    <string name="library_recover_dialog_text">您想復原「%s」資料庫嗎？</string>
+    <string name="library_recover_snackbar_text">已將資料庫復原到「%s」群組</string>
     <string name="sort_by_name">依名稱排序</string>
     <string name="sort_by_time">依加入時間排序</string>
-    <string name="favorites_empty_list_layout">沒有最愛的條目。</string>
-    <string name="history_empty_list_layout">沒有先前檢視過的條目。</string>
+    <string name="favorites_empty_list_layout">沒有最愛的記錄。</string>
+    <string name="history_empty_list_layout">沒有先前檢視過的記錄。</string>
     <string name="clear_history">清除歷程</string>
-    <string name="entry_not_found">條目遺失</string>
+    <string name="entry_not_found">記錄遺失</string>
     <string name="need_auth_on_memento_server">您需要在 Memento Cloud 建立帳戶</string>
-    <string name="empty_my_templates_list">您沒有已發表的庫範本。</string>
+    <string name="empty_my_templates_list">您沒有已發表的資料庫範本。</string>
     <string name="empty_field_depend_list">這個欄位沒有相依連結其他欄位。</string>
     <string name="share_template_dialog_title">透過線上目錄共享範本</string>
     <string name="catalog_templates">範本目錄</string>
-    <string name="empty_search_result2">您的搜尋 - %s - 沒有任何條目符合</string>
+    <string name="empty_search_result2">您的搜尋 - %s - 沒有任何記錄符合</string>
     <string name="rename_group">編輯群組</string>
     <string name="move">移動</string>
     <string name="select_group">選擇群組</string>
-    <string name="library_moved_message">庫已移動到「%s」群組</string>
-    <string name="master_library_entries">相關庫的條目</string>
+    <string name="library_moved_message">資料庫已移動到「%s」群組</string>
+    <string name="master_library_entries">相關資料庫的記錄</string>
     <string name="invisible">不可見</string>
     <string name="display_master_libraries_items">在卡片上顯示</string>
     <string name="sync_with_google_left_menu_item">與 Google 同步</string>
     <string name="entries_view_menu_title">檢視</string>
     <string name="entries_view_list">清單</string>
     <string name="entries_view_table">表格</string>
-    <string name="flex_edit_option_in_table">表格條目</string>
+    <string name="flex_edit_option_in_table">表格記錄</string>
     <string name="table_cell_image_text">顯示</string>
     <string name="table_column_width">欄位寬度</string>
-    <string name="empty_list_after_filter">沒有條目符合過濾條件。</string>
+    <string name="empty_list_after_filter">沒有記錄符合過濾條件。</string>
     <string name="size_of_line">行高</string>
     <string name="map_coord_source_network">網路</string>
     <string name="search_address_hint">搜尋地址</string>
@@ -1025,7 +1042,7 @@
     <string name="auto_backup_run_group">何時執行自動備份</string>
     <string name="auto_backup_when_close_app">在程式關閉後</string>
     <string name="auto_backup_when_sync">與 Google 同步前</string>
-    <string name="auto_backup_when_edit_libs">在修改庫前</string>
+    <string name="auto_backup_when_edit_libs">在修改資料庫前</string>
     <string name="free_version_multi_field_limit">免費版只能加入兩個元素。升級到 PRO 版就沒有這個限制。</string>
     <string name="scale">比例 %d</string>
     <plurals name="duration_seconds">
@@ -1061,9 +1078,9 @@
     <string name="calendar_3day_view">三日檢視</string>
     <string name="calendar_week_view">週檢視</string>
     <string name="go_to_date">前往日期</string>
-    <string name="lost_linked_library">找不到連結的庫，它可能已被刪除。</string>
+    <string name="lost_linked_library">找不到連結的資料庫，它可能已被刪除。</string>
     <string name="multichoice_field_empty">沒有值可供選取</string>
-    <string name="show_add_button_on_tile">「新增條目」按鈕</string>
+    <string name="show_add_button_on_tile">「新增記錄」按鈕</string>
     <string name="cant_find_audio_selection_app">抱歉，沒有程式可以處理選定的音軌。</string>
     <string name="library_group_view_type">檢視</string>
     <string name="library_group_view_type_big_tile">大磚塊</string>
@@ -1071,8 +1088,8 @@
     <string name="library_group_view_type_icons">圖示</string>
     <string name="icon_pack_title_files_types">檔案</string>
     <string name="use_depend_only_in_edit_title">使用場所</string>
-    <string name="use_depend_only_in_edit_hint_true">只在編輯條目時</string>
-    <string name="use_depend_only_in_edit_hint_false">在編輯與檢視條目時</string>
+    <string name="use_depend_only_in_edit_hint_true">只在編輯記錄時</string>
+    <string name="use_depend_only_in_edit_hint_false">在編輯與檢視記錄時</string>
 	<string name="most_viewed_templates">最多檢視數</string>    
 	<string name="featured_templates">推薦</string>
 	<string name="template_views_count">檢視數: %s</string>
@@ -1082,45 +1099,51 @@
 	<string name="template_language">語言:</string>	
 	<string name="display_lang_option">依照語言過濾</string>
 	<string name="display_lang_option_all">所有範本</string>
-	<string name="entries_name_dialog_title">條目名稱由選定欄位決定</string>
-	<string name="entries_name_is_unique">條目名稱不能重複</string> 
-	<string name="no_fields_for_role">本庫沒有適合這個用途的欄位</string>
+	<string name="entries_name_dialog_title">記錄名稱由選定欄位決定</string>
+	<string name="entries_name_is_unique">記錄名稱不能重複</string> 
+	<string name="no_fields_for_role">本資料庫沒有適合這個用途的欄位</string>
 	<string name="update_item_name_index">建立索引中...</string>	
-	<string name="entry_name_must_be_unique">條目名稱有重複</string>
-	<string name="entry_name_must_be_notnull">條目名稱不能空白</string>
-	<string name="library_have_duplicates">本庫內名稱相近的條目</string>
+	<string name="entry_name_must_be_unique">記錄名稱有重複</string>
+	<string name="entry_name_must_be_notnull">記錄名稱不能空白</string>
+	<string name="library_have_duplicates">本資料庫內名稱相近的記錄</string>
 	<string name="library_have_duplicates2">修改或刪除重複項目才能正常運作。</string>
 	<string name="dont_show_anymore">以後不要再顯示</string>
-	<string name="need_make_slave_library_unique">要同步「連結到條目」欄位，您必須啟用連結對象庫的條目名稱重複檢查。\n要立刻啟用嗎？</string>
-	<string name="need_make_slave_library_unique_import">要匯入「連結到條目」欄位，您必須啟用連結對象庫的條目名稱重複檢查。\n要立刻啟用嗎？</string>
-	<string name="run_sync_slave_libraries_pref">相關庫</string>
-	<string name="run_sync_slave_libraries_summary">首先同步相關庫</string>
-	<string name="choice_type_add_button_in_edit_title">允許編輯條目時新建元素</string>
+	<string name="need_make_slave_library_unique">要同步「連結到記錄」欄位，您必須啟用連結對象資料庫的記錄名稱重複檢查。
+要立刻啟用嗎？</string>
+	<string name="need_make_slave_library_unique_import">要匯入「連結到記錄」欄位，您必須啟用連結對象資料庫的記錄名稱重複檢查。
+要立刻啟用嗎？</string>
+	<string name="run_sync_slave_libraries_pref">相關資料庫</string>
+	<string name="run_sync_slave_libraries_summary">首先同步相關資料庫</string>
+	<string name="choice_type_add_button_in_edit_title">允許編輯記錄時新建元素</string>
 	
-	<string name="show_deleted_entries_menu_item">顯示被刪除的條目</string>
+	<string name="show_deleted_entries_menu_item">顯示被刪除的記錄</string>
 	<string name="upload_to_cloud_menu_item">上傳到雲端</string>
 	<string name="welcome_text_title">歡迎使用 Memento 資料庫</string>
-	<string name="welcome_text_description">庫是儲存您的資料的地方。
-\n您可以依照提供的範本建立新庫，開始熟悉 Memento 的運用。</string>
+	<string name="welcome_text_description">資料庫是儲存您的資料的地方。
+
+您可以依照提供的範本建立新資料庫，開始熟悉 Memento 的使用。</string>
 	
-	<string name="start_remove_librarary_from_cloud">正在刪除庫 ...</string>
-	<string name="success_remove_librarary_from_cloud">成功從雲端刪除庫</string>
-	<string name="start_upload_library_to_cloud">正在上傳庫 ...</string>	
-	<string name="success_upload_library_to_cloud">庫已成功上傳。\n這個庫將會自動同步。</string>
-	<string name="success_upload_library_to_cloud2">您可在權限設定允許其他 Memento 使用者取用您的庫。</string>	
-	<string name="push_entries_to_cloud_message" formatted="false">正在上傳條目\n已處理 %s 筆，總共 %s 筆</string>
+	<string name="start_remove_librarary_from_cloud">正在刪除資料庫 ...</string>
+	<string name="success_remove_librarary_from_cloud">成功從雲端刪除資料庫</string>
+	<string name="start_upload_library_to_cloud">正在上傳資料庫 ...</string>	
+	<string name="success_upload_library_to_cloud">資料庫已成功上傳。
+這個資料庫將會自動同步。</string>
+	<string name="success_upload_library_to_cloud2">您可在權限設定允許其他 Memento 使用者取用您的資料庫。</string>	
+	<string name="push_entries_to_cloud_message" formatted="false">正在上傳記錄
+已處理 %s 筆，總共 %s 筆</string>
 	<string name="permissions">權限</string>
 	<string name="button_hide">隱藏</string>	
-	<string name="empty_cloud_libraries_list_text">您沒有已上傳的庫</string>
+	<string name="empty_cloud_libraries_list_text">您沒有已上傳的資料庫</string>
 	<string name="my_cloud_libraries_menu_item">雲端儲存</string>
-	<string name="start_download_library_model">正在上傳庫結構...</string>
-	<string name="open_library">開啟庫</string>
+	<string name="start_download_library_model">正在上傳資料庫結構...</string>
+	<string name="open_library">開啟資料庫</string>
 	<string name="open_library_hint">開啟本機副本</string>
-	<string name="download_library">下載庫</string>
+	<string name="download_library">下載資料庫</string>
 	<string name="download_library_hint">建立本機副本</string>			
-	<string name="pull_entries_from_cloud_message">正在下載條目...</string>
+	<string name="pull_entries_from_cloud_message">正在下載記錄...</string>
 	<string name="pull_entries_from_cloud_message2" formatted="false">已處理 %s 筆，共 %s 筆</string>
-	<string name="success_pull_library_from_cloud">成功下載條目。\n本庫將自動同步。</string>
+	<string name="success_pull_library_from_cloud">成功下載記錄。
+本資料庫將自動同步。</string>
 	<string name="cloud_conflict_fields_title">衝突</string>
 	<string name="cloud_conflict_fix_button_title">修正</string>
     <plurals name="conflict_count">
@@ -1134,7 +1157,7 @@
     <string name="cloud_synced_progress">正在同步...</string>
     <string name="cloud_offline">離線</string>
     <string name="cloud_last_sync">上次同步</string>
-    <string name="entries">條目</string>
+    <string name="entries">記錄</string>
     <string name="cloud_created">已建立</string>
     <string name="cloud_modified">已變更</string>
     <string name="cloud_size">大小</string>
@@ -1142,19 +1165,20 @@
     <string name="cloud_who_has_access">誰能取用</string>
     <string name="cloud_server_unavaliable">無法連上 Memento Cloud 主機無法使用，請檢查裝置網路連線</string>
     <string name="delete_from_cloud">從雲端刪除</string>
-    <string name="delete_from_cloud_message_question">您真的想從雲端刪除庫嗎？</string>
+    <string name="delete_from_cloud_message_question">您真的想從雲端刪除資料庫嗎？</string>
         
     <string name="button_refresh">重讀</string>
     <string name="cloud_storage_space_text" formatted="false">已使用 %s (%s) of %s</string>   
     <string name="start_download_file_from_cloud">將下載 %s 檔案</string>
     <string name="upload_file_to_cloud">正在上傳檔案 ...</string>    
     <string name="upload_files_to_cloud">正在上傳檔案</string>
-    <string name="cloud_upload_error_title">無法同步本庫</string>
-    <string name="upload_big_file_error" formatted="false">條目 %s 包含大檔案 %s (%s)。\n檔案大小上限為 %s。</string>
-    <string name="prepare_library_for_cloud">正在處理庫...</string>
+    <string name="cloud_upload_error_title">無法同步本資料庫</string>
+    <string name="upload_big_file_error" formatted="false">記錄 %s 包含大檔案 %s (%s)。
+檔案大小上限為 %s。</string>
+    <string name="prepare_library_for_cloud">正在處理資料庫...</string>
     <string name="download_files_from_cloud">正在從雲端下載檔案...</string>
     <string name="cant_download_item_files_for_copy">無法建立下載檔案的副本。</string> 
-    <string name="library_cloud_model_changed_message">雲端的庫結構有變。更新結構以繼續同步。</string>
+    <string name="library_cloud_model_changed_message">雲端資料庫結構有變。更新結構以繼續同步。</string>
     <string name="button_update">更新</string>
     <string name="add_people">新增使用者或群組</string>
     <string name="read_permission">讀取</string>      
@@ -1167,25 +1191,27 @@
 	<string name="only_owner_permission">僅限擁有者</string>
 	<string name="user_not_found">找不到使用者</string>
 	<string name="edit_permission">使用者共享設定</string>	
-	<string name="push_entry_error_text" formatted="false">條目沒有存到雲端。\n名稱: %s\n錯誤: %s</string>
+	<string name="push_entry_error_text" formatted="false">記錄沒有存到雲端。
+名稱: %s
+錯誤: %s</string>
 	<string name="push_error_forbidden">操作被拒</string>
 	<string name="button_ignore">忽略</string>
 	<string name="button_try_again">重試</string>	
-	<string name="cloud_library_forbidden">您沒有操作此庫的權限</string>
+	<string name="cloud_library_forbidden">您沒有操作此資料庫的權限</string>
 	<string name="shared_with_me">與我共享</string>
 	<string name="entry_author">作者</string>
 	<string name="info_menu_item">資訊</string>   
-	<string name="need_upload_to_cloud_slave_libraries">請將從屬庫上傳到雲端。</string>
-	<string name="start_download_slave_library_model">正在上傳從屬庫 %s</string>
-	<string name="open_access_for_slave_libraries">請允許讀取從屬庫</string>
+	<string name="need_upload_to_cloud_slave_libraries">請將從屬資料庫上傳到雲端。</string>
+	<string name="start_download_slave_library_model">正在上傳從屬資料庫 %s</string>
+	<string name="open_access_for_slave_libraries">請允許讀取從屬資料庫</string>
 	<string name="cloud_storage_full_text">雲端空間不足。\n您可以升級到提供更多空間的付費方案。</string>
 	<string name="cloud_storage_full_text2" formatted="false">雲端空間不足。\n需要 %s，現有 %s。\n您可以升級到提供更多空間的付費方案。</string>
-	<string name="alien_cloud_storage_full_text">庫擁有者的空間不足。</string>	
+	<string name="alien_cloud_storage_full_text">資料庫擁有者的空間不足。</string>	
 	<string name="button_tarifs">付費方案</string>
 	<string name="cloud_storage_plans">定期付費方案</string>
 	<string name="price_free">免費</string>
 	<string name="price_per_month">%s/月</string>
-	<string name="unlimited_libraries">庫數量無限</string>	
+	<string name="unlimited_libraries">資料庫數量無限</string>	
 	<string name="adv_free">無廣告</string>
 	<string name="subscription_activation">啟用定期付費 ...</string>
 	<string name="subscription_activation_error">啟用錯誤: %s</string>
@@ -1193,13 +1219,14 @@
 	<string name="google_play_unavaliable">Google Play 無法使用 :(</string>
 	<string name="return_to_free_plan_message">您可以在 Google Play 取消付費以轉到免費帳戶</string>
 	<string name="subscription_already_activation_for_user">無法啟用付費方案，因為它是買給 %s 使用者的。</string>
-	<string name="library_cloud_count_limit">您的付費方案允許上傳最多 %s 個庫到雲端。</string>
-	<string name="restore_cloud_library_from_recycle">本庫已被刪除，要復原嗎？</string>
+	<string name="library_cloud_count_limit">您的付費方案允許上傳最多 %s 個資料庫到雲端。</string>
+	<string name="restore_cloud_library_from_recycle">本資料庫已被刪除，要復原嗎？</string>
 	<string name="cloud_file_while_not_upload">檔案還沒傳到雲端</string>
-	<string name="upload_ecrypted_libraries_dont_supported">暫不支援將加密庫上傳到雲端。</string>
+	<string name="upload_ecrypted_libraries_dont_supported">暫不支援將加密資料庫上傳到雲端。</string>
 	<string name="button_signin">登入</string>
-	<string name="cloud_library_not_found">雲端找不到本庫，可能已被刪除。\n將庫轉換成本機嗎？</string>
-	<string name="cloud_library_already_uploaded">本庫已上傳到雲端。</string>
+	<string name="cloud_library_not_found">雲端找不到本資料庫，可能已被刪除。
+將資料庫轉換成本機嗎？</string>
+	<string name="cloud_library_already_uploaded">本資料庫已上傳到雲端。</string>
 	<string name="library_alias_menu_item">別名</string>
 	<string name="library_public_access">公開存取</string>
 	<string name="library_public_access_disabled">關閉</string>
@@ -1207,7 +1234,7 @@
 	<string name="library_access_can_edit">可編輯</string>
 	<string name="owner">擁有者</string>
 	<string name="find_library_by_url_title">以 URL 開啟</string>
-	<string name="library_not_found_by_uri">找不到庫</string>
+	<string name="library_not_found_by_uri">找不到資料庫</string>
 	<string name="upload_to_cloud_offer_title">{雲端準備完成...}</string>
 	<string name="upload_to_cloud_offer_text">• 團隊協作
 • 多裝置同步
@@ -1220,9 +1247,9 @@
     <string name="button_show">顯示</string>
 	<string name="invalid_library_template_file_format">範本檔案格式有誤</string>    
 	<string name="cant_add_yourself">您不能加入自己</string>
-	<string name="remove_from_old_public">將庫上傳到雲端之前，若它有用舊方式發布，會先被解除發布。</string>
+	<string name="remove_from_old_public">將資料庫上傳到雲端之前，若它有用舊方式發布，會先被解除發布。</string>
 	<string name="select_template_title">選擇範本</string>
-	<string name="empty_library_title">空庫</string>
+	<string name="empty_library_title">空資料庫</string>
 	<string name="catalog_templates_title">線上目錄</string>
 	<string name="catalog_templates_hint">超過 3000 種範本</string>
 	<string name="add_lib_from_google_drive_hint">從 Google Drive 復原</string>
@@ -1244,8 +1271,8 @@
 	<string name="autofill_from">從 %s</string>
 	<string name="autofill_by_barcode">以條碼</string>
 	<string name="autofill_by_title">以標題</string>
-	<string name="autofill_need_barcode_field">若要以條碼自動填寫，庫必須有「條碼」欄位。您想如何建立？</string>
-	<string name="autofill_need_text_field">若要以標題自動填寫，庫必須有「文字」欄位。您想如何建立？</string>
+	<string name="autofill_need_barcode_field">若要以條碼自動填寫，資料庫必須有「條碼」欄位。您想如何建立？</string>
+	<string name="autofill_need_text_field">若要以標題自動填寫，資料庫必須有「文字」欄位。您想如何建立？</string>
 	<string name="autofill_select_master_field">搜尋的輸入欄位</string>
 	<string name="autofill_rules_title">自動填寫規則</string>
 	<string name="music_brainz_source_artist">音樂作者</string>
@@ -1256,23 +1283,25 @@
     <string name="autofill_rules_delete_title">刪除自動填寫規則</string>
     <string name="autofill_rules_delete_text">您確定要刪除「%s」來源的自動填寫規則嗎？</string>
     <string name="empty_autofill_list_text">建立來自網路資料的自動填寫規則</string>
-    <string name="empty_autofill_rules_list_text">配對來源屬性與庫欄位</string>
+    <string name="empty_autofill_rules_list_text">配對來源屬性與資料庫欄位</string>
     <string formatted="false" name="movie_cast_person_item">%s 演出 %s</string>
 
     <string name="copy_library_structure_menu_item">僅結構</string>
-    <string name="copy_all_library_menu_item">結構與條目</string>
-    <string name="copying_entries">正在複製條目...</string>
+    <string name="copy_all_library_menu_item">結構與記錄</string>
+    <string name="copying_entries">正在複製記錄...</string>
 
-    <string name="encryption_for_cloud_uploaded_library">庫加密只能在上傳到雲端前啟用。</string>
-    <string name="decryption_for_cloud_uploaded_library">不支援將上傳到雲端的庫解除加密。請先把庫移出雲端。</string>
-    <string name="need_reload_library_from_cloud_encrypted">雲端上的庫副本已被加密。\n請刪除庫的本機副本，再從雲端下載一次。</string>
-    <string name="need_reload_library_from_cloud_decrypted">雲端上的庫副本未被加密。\n請刪除庫的本機副本，再從雲端下載一次。</string>
+    <string name="encryption_for_cloud_uploaded_library">資料庫加密只能在上傳到雲端前啟用。</string>
+    <string name="decryption_for_cloud_uploaded_library">不支援將上傳到雲端的資料庫解除加密。請先把資料庫移出雲端。</string>
+    <string name="need_reload_library_from_cloud_encrypted">雲端上的資料庫副本已被加密。
+請刪除資料庫的本機副本，再從雲端下載一次。</string>
+    <string name="need_reload_library_from_cloud_decrypted">雲端上的資料庫副本未被加密。
+請刪除資料庫的本機副本，再從雲端下載一次。</string>
 
     <string name="render_pdf_menu_item">存成 PDF</string>
     <string name="entry_saved_as_pdf_success">成功建立 PDF</string>
     <string name="one_row_with_previous">與前一筆同列</string>
-    <string name="protected_libraries_not_show_in_widget">保護的庫不能在小工具顯示</string>
-    <string name="widget_free_limit_item_text">只有 PRO 版使用者能顯示所有條目</string>
+    <string name="protected_libraries_not_show_in_widget">保護的資料庫不能在小工具顯示</string>
+    <string name="widget_free_limit_item_text">只有 PRO 版使用者能顯示所有記錄</string>
     <string name="rate_me_dialog_title">Memento 好用嗎？</string>
     <string name="rate_me_dialog_text">請在 Google Play 為我們評分</string>
     <string name="button_rate_now">馬上評分</string>
@@ -1308,7 +1337,7 @@
     <string name="calculator_options_hint">新增顯示計算機按鈕</string>
     <string name="filter_by_number">依數值過濾</string>
     <string name="filter_by_string">依字串過濾</string>
-    <string name="multiediting_only_in_pro">只有 PRO 版才能編輯多筆條目。</string>
+    <string name="multiediting_only_in_pro">只有 PRO 版才能編輯多筆記錄。</string>
     <string name="multiediting_title">多筆編輯</string>
     <string name="select_all">全選</string>
     <string name="group_separator_option_title">千位分隔符號</string>
@@ -1316,8 +1345,8 @@
 
 
     <string name="cloud_library_notification_title">通知</string>
-    <string name="cloud_library_notification_hint">接收其他使用者修改庫的推播通知</string>
-    <string name="cloud_library_download_notification_text">%s: 已下載庫</string>
+    <string name="cloud_library_notification_hint">接收其他使用者修改資料庫的推播通知</string>
+    <string name="cloud_library_download_notification_text">%s: 已下載資料庫</string>
     <string name="cloud_notification_for_subscribers">抱歉，只有定期付費者能接收通知。</string>
     <string name="comments">註解</string>
     <string name="comment_input_hint">寫註解</string>
@@ -1329,9 +1358,9 @@
 	<item quantity="other">%d 個未讀變動</item>
 </plurals>
 
-    <string name="notification_edit_library_create_text">新增條目</string>
-    <string name="notification_edit_library_edit_text">編輯過的條目</string>
-    <string name="notification_edit_library_delete_text">刪除的條目</string>
+    <string name="notification_edit_library_create_text">新增記錄</string>
+    <string name="notification_edit_library_edit_text">編輯過的記錄</string>
+    <string name="notification_edit_library_delete_text">刪除的記錄</string>
     <plurals name="notification_comments_common_text">
 	<item quantity="one">%d 個新註解</item>
 	<item quantity="other">%d 個新註解</item>
@@ -1349,27 +1378,27 @@
     <string name="cloud_file_uploading">上傳中</string>
     <string name="cloud_file_downloading">正在下載</string>
     <string name="file_show_in_folder">在目錄內顯示</string>
-    <string name="file_show_in_entry">在條目內顯示</string>
+    <string name="file_show_in_entry">在記錄內顯示</string>
     <string name="sort_by_size">依大小排序</string>
     <string name="download_all">全部下載</string>
     <string name="find_missing_files">尋找遺失檔案</string>
     <string name="button_apply">套用</string>
     <string name="find_missing_files_empty">找不到遺失檔案</string>
     <string name="file_manager_not_found">您的裝置上沒有支援的檔案管理程式。</string>
-    <string name="file_list_empty">本庫沒有包含檔案</string>
+    <string name="file_list_empty">本資料庫沒有包含檔案</string>
     <string name="feature_available_only_in_pro">這個功能只有 PRO 版提供。</string>
     <string name="preview_button">預覽</string>
-    <string name="select_calc_preview_entry">條目預覽</string>
+    <string name="select_calc_preview_entry">記錄預覽</string>
     <string name="calc_preview_title">預覽</string>
     <string name="add_relationship">相依連結</string>
-    <string name="add_relationship_with_title">選擇要連結的庫</string>
-    <string name="add_relationship_success">兩庫間會透過「%s」欄位連結。</string>
+    <string name="add_relationship_with_title">選擇要連結的資料庫</string>
+    <string name="add_relationship_success">兩資料庫間會透過「%s」欄位連結。</string>
     <string name="display_aggregation">顯示統計</string>
-    <string name="display_aggregation_hint">統計連結對象庫內的條目</string>
+    <string name="display_aggregation_hint">統計連結對象資料庫內的記錄</string>
     <string name="create_shortcut_text">為這個捷徑輸入名稱</string>
     <string name="permission_storage_title">儲存</string>
     <string name="permission_storage_text">請允許 Memento 操作儲存空間才能繼續。</string>
-    <string name="permission_storage_explanation_text">快取、備份、將圖片與檔案附加到條目，都需要操作儲存空間的權限。</string>
+    <string name="permission_storage_explanation_text">快取、備份、將圖片與檔案附加到記錄，都需要操作儲存空間的權限。</string>
     <string name="permission_accounts_title">帳戶</string>
     <string name="permission_accounts_text">Memento 需要帳戶權限才能與 Google Sheets、通訊錄欄位進行同步。</string>
     <string name="permission_location_title">定位</string>
@@ -1379,7 +1408,7 @@
     <string name="app_permissions_only_for_android6">只有 Android 6 或新版才需要</string>
     <string name="need_permission_dialog_title">需要的權限</string>
     <string name="need_permission_dialog_text">這個動作需要系統權限 - %s</string>
-    <string name="unlock_linked_library_text">連結的庫已加密，您必須輸入主密碼</string>
+    <string name="unlock_linked_library_text">連結的資料庫已加密，您必須輸入主密碼</string>
     <string name="preview_calc_exec_time">執行時間: %d ms</string>
     <string name="group_by_and">全部 (AND)</string>
     <string name="group_by_or">任一 (OR)</string>
@@ -1391,8 +1420,8 @@
 
     <string name="js_moment_library">解析、驗證、操作、格式化資料的函式庫</string>
     <string name="js_realtime">即時執行 script</string>
-    <string name="js_realtime_hint_off">只在編輯條目時執行 script</string>
-    <string name="js_realtime_hint_on">顯示條目時執行 script</string>
+    <string name="js_realtime_hint_off">只在編輯記錄時執行 script</string>
+    <string name="js_realtime_hint_on">顯示記錄時執行 script</string>
     <string name="user_limit_message">您已達到使用者數上限</string>
     <string name="remaining_users" formatted="false">用了 %d 份授權，總共 %d 份</string>
     <string name="delete_slave_user_message">您真的想刪除「%s」使用者嗎？</string>
@@ -1423,10 +1452,10 @@
     <string name="relation_type_one_to_one">一對一</string>
     <string name="relation_type_one_to_many">一對多</string>
     <string name="relation_type_many_to_many">多對多</string>
-    <string name="relation_type_one_limit">選定條目已有相依連結</string>
+    <string name="relation_type_one_limit">選定記錄已有相依連結</string>
     <string name="relation_type_one_limit2">%s 已有相依連結</string>
     <string name="library_edit_mode">編輯模式</string>
-    <string name="library_edit_mode_hint">點選條目打開編輯表單</string>
+    <string name="library_edit_mode_hint">點選記錄打開編輯表單</string>
     <string name="desktop_version">桌面版</string>
 
     <string name="no_comments">無註解</string>
@@ -1434,22 +1463,23 @@
 	<item quantity="one">%d 個註解</item>
 	<item quantity="other">%d 個註解</item>
 </plurals>
-    <string name="comments_only_for_cloud">註解只能加到上傳到雲端的庫。要把庫上傳到雲端嗎？</string>
-    <string name="locale_plugin_add_edit_entry_title">新增/編輯條目</string>
-    <string name="locale_to_fields_list_empty_text">按 + 按鈕建立過濾庫欄位的新規則。</string>
+    <string name="comments_only_for_cloud">註解只能加到上傳到雲端的資料庫。要把資料庫上傳到雲端嗎？</string>
+    <string name="locale_plugin_add_edit_entry_title">新增/編輯記錄</string>
+    <string name="locale_to_fields_list_empty_text">按 + 按鈕建立過濾資料庫欄位的新規則。</string>
     <string name="locale_to_fields_var">來自 %s 的文字</string>
     <string name="locale_to_fields_add_rule_title">新增規則</string>
     <string name="locale_to_fields_edit_rule_title">編輯規則</string>
     <string name="variable_select">選取變數</string>
-    <string name="locale_plugin_add_edit_entry_edit_mode">編輯條目</string>
-    <string name="locale_plugin_edit_mode_create_new_entry">如果根據欄位找不到條目的話，就建立新條目</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">編輯記錄</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">如果根據欄位找不到記錄的話，就建立新記錄</string>
 
     <string name="send_field_title">傳送欄位名稱</string>
     <string name="send_field_title_summary">欄位名稱會出現在欄位值之前</string>
-    <string name="auto_lock_libraries_time_title">關閉庫操作權</string>
+    <string name="auto_lock_libraries_time_title">關閉資料庫操作權</string>
     <string name="auto_lock_libraries_after">%s 之後</string>
 
-    <string name="empty_triggers_list_text">此庫不包含觸發器。\n觸發器是在發生指定行為後，對條目進行處理的 script。</string>
+    <string name="empty_triggers_list_text">此資料庫不包含觸發器。
+觸發器是在發生指定行為後，對記錄進行處理的 script。</string>
     <string name="triggers">觸發器</string>
     <string name="trigger_name">觸發器名稱</string>
     <string name="trigger_event">事件</string>
@@ -1457,23 +1487,23 @@
     <string name="unknown_trigger_event_type">不明事件</string>
     <string name="unknown_trigger_moment_type">不明階段</string>
 
-    <string name="trigger_event_create_entry">建立條目</string>
-    <string name="trigger_event_modify_entry">更新條目</string>
-    <string name="trigger_event_delete_entry">刪除條目</string>
-    <string name="trigger_event_open_entry">打開條目檢視卡</string>
-    <string name="trigger_event_add_favorites">將條目加到最愛</string>
-    <string name="trigger_event_remove_favorites">從最愛刪除條目</string>
+    <string name="trigger_event_create_entry">建立記錄</string>
+    <string name="trigger_event_modify_entry">更新記錄</string>
+    <string name="trigger_event_delete_entry">刪除記錄</string>
+    <string name="trigger_event_open_entry">打開記錄檢視卡</string>
+    <string name="trigger_event_add_favorites">將記錄加到最愛</string>
+    <string name="trigger_event_remove_favorites">從最愛刪除記錄</string>
     <string name="trigger_default_name">觸發 %d</string>
     <string name="trigger_enabled">啟用</string>
     <string name="trigger_switched_off">關閉</string>
     <string name="trigger_delete_message">您真的想刪除「%s」script 嗎？</string>
 
 
-    <string name="trigger_moment_open_form">開啟條目編輯卡</string>
-    <string name="trigger_moment_before_save">儲存條目前</string>
-    <string name="trigger_moment_after_save">儲存條目後</string>
-    <string name="trigger_moment_before_delete">刪除條目前</string>
-    <string name="trigger_moment_after_delete">刪除條目後</string>
+    <string name="trigger_moment_open_form">開啟記錄編輯卡</string>
+    <string name="trigger_moment_before_save">儲存記錄前</string>
+    <string name="trigger_moment_after_save">儲存記錄後</string>
+    <string name="trigger_moment_before_delete">刪除記錄前</string>
+    <string name="trigger_moment_after_delete">刪除記錄後</string>
     <string name="trigger_moment_before_show">視窗顯示前</string>
     <string name="trigger_moment_after_show">視窗顯示後</string>
 
@@ -1494,12 +1524,12 @@
     <string name="trigger_permission_network">網路</string>
     <string name="trigger_permission_network_hint">允許 scripts 發送 HTTP 請求、寄送 Email。</string>
 
-    <string name="trigger_permission_libraries">庫</string>
-    <string name="trigger_permission_libraries_hint">操作所有庫</string>
+    <string name="trigger_permission_libraries">資料庫</string>
+    <string name="trigger_permission_libraries_hint">操作所有資料庫</string>
 
-    <string name="trigger_permission_libraries_select">可用庫</string>
-    <string name="trigger_permission_libraries_select_title">選取庫</string>
-    <string name="need_pro_for_triggers">免費版內，一個庫只能有一個觸發器。想解除此限制的話，請升級到 PRO 版。</string>
+    <string name="trigger_permission_libraries_select">可用資料庫</string>
+    <string name="trigger_permission_libraries_select_title">選取資料庫</string>
+    <string name="need_pro_for_triggers">免費版內，一個資料庫只能有一個觸發器。想解除此限制的話，請升級到 PRO 版。</string>
     <string name="filters_tab">頁籤 ...</string>
     <string name="filters_tab_dialog_title">選擇頁籤的過濾條件</string>
     <string name="export_template_include_filters">包含過濾條件</string>
@@ -1601,28 +1631,28 @@
 
     <string name="wrong_field_value">%s 欄位值無法接受</string>
 
-    <string name="locale_key_field_description">編輯條目的 key 欄位</string>
+    <string name="locale_key_field_description">編輯記錄的 key 欄位</string>
 
     <string name="field_values_delimiter">欄位分隔符號</string>
-    <string name="entries_desc_dialog_title">以選定的欄位作為條目描述</string>
+    <string name="entries_desc_dialog_title">以選定的欄位作為記錄描述</string>
     <string name="image_caption">標題</string>
     <string name="flex_type_subheader">副標題</string>
     <string name="create_subheader">建立副標題</string>
     <string name="edit_subheader">編輯副標題</string>
     <string name="subheader_collapsed_by_default">預設閉合</string>
     <string name="aggr_always_show">總是顯示</string>
-    <string name="cant_add_management">管理者有此庫的完整權限</string>
+    <string name="cant_add_management">管理者有此資料庫的完整權限</string>
     <string name="auth_error_user_blocked">您的帳戶已被關閉</string>
     <string name="team_license">團隊</string>
     <string name="user_manager_only_for_team">只有團隊付費方案可管理使用者與授權</string>
     <string name="send_password_to_user">以 email 傳送密碼給使用者</string>
     <string name="create_permissions">建立權限</string>
     <string name="edit_permissions">編輯權限</string>
-    <string name="library_permissions">庫權限</string>
+    <string name="library_permissions">資料庫權限</string>
     <string name="field_permissions">欄位權限</string>
     <string name="library_permissions_subject">使用者名稱/email/群組</string>
     <string name="permissions_delete_message">您真的要刪除「%s」的權限嗎？</string>
-    <string name="field_right_need_library_download">您必須把庫下載到本機，才能為欄位新增權限。</string>
+    <string name="field_right_need_library_download">您必須把資料庫下載到本機，才能為欄位新增權限。</string>
     <string name="field_permission_invisible">不可見</string>
     <string name="field_permission_read_only">唯讀</string>
     <string name="field_permissions_limit">只有團隊付費方案才能設定欄位權限。</string>
@@ -1646,14 +1676,14 @@
     <string name="pro_for_team">" 團隊所有使用者都能使用 PRO 功能"</string>
     <string name="team_features_trial">所有方案都提供 14 天免費適用。</string>
 
-    <string name="tasker_plugin_create_entry_event_title">已建立條目</string>
-    <string name="tasker_plugin_delete_entry_event_title">已刪除條目</string>
-    <string name="tasker_plugin_modified_entry_event_title">已修改條目</string>
-    <string name="no_libraries_text">還沒有庫！</string>
-    <string name="add_linked_libraries">包含相關庫</string>
-    <string name="create_collections">建立庫</string>
-    <string name="create_collections_success">已建立庫</string>
-    <string name="template_included_libraries">範本包含額外庫。</string>
+    <string name="tasker_plugin_create_entry_event_title">已建立記錄</string>
+    <string name="tasker_plugin_delete_entry_event_title">已刪除記錄</string>
+    <string name="tasker_plugin_modified_entry_event_title">已修改記錄</string>
+    <string name="no_libraries_text">還沒有資料庫！</string>
+    <string name="add_linked_libraries">包含相關資料庫</string>
+    <string name="create_collections">建立資料庫</string>
+    <string name="create_collections_success">已建立資料庫</string>
+    <string name="template_included_libraries">範本包含額外資料庫。</string>
 
     <string name="entries_view_type_cards">卡片</string>
     <string name="card_view_number_of_columns">欄位數量</string>
@@ -1664,8 +1694,8 @@
 
     <string name="card_view_title_on_image">在圖片上顯示文字</string>
     <string name="card_view_squared_image">將圖片裁切成方形</string>
-    <string name="hint_previous_entry">前條目</string>
-    <string name="hint_next_entry">次條目</string>
+    <string name="hint_previous_entry">前記錄</string>
+    <string name="hint_next_entry">下一筆記錄</string>
     <string name="hint_remove_image_button">移除影像</string>
     <string name="hint_insert_image_button">插入影像</string>
     <string name="hint_capture_image_button">拍攝影像</string>
@@ -1679,11 +1709,11 @@
     <string name="hint_record_audio_button">錄製音訊</string>
     <string name="hint_insert_location_button">插入位置</string>
     <string name="hint_get_my_location_button">取得我的位置</string>
-    <string name="hint_insert_entry_button">插入條目</string>
+    <string name="hint_insert_entry_button">插入記錄</string>
     <string name="barcode_type_option_title">類型</string>
     <string name="barcode_type_1d">條碼</string>
     <string name="embedded_js_libraries">內嵌</string>
-    <string name="repository_js_libraries">儲存庫</string>
+    <string name="repository_js_libraries">儲存資料庫</string>
     <string name="repository_android_intents_hint">與其他 Android 程式互動的函式</string>
     <string name="repository_data_sources_hint">自動填寫的資料來源</string>
     <string name="warning">警告</string>
@@ -1700,8 +1730,8 @@
     <string name="find_address">尋找地址</string>
     <string name="privacy_policy">隱私條款</string>
     <string name="trigger_event_action">動作</string>
-    <string name="action_context_library">庫</string>
-    <string name="action_context_view_entry">條目檢視卡</string>
+    <string name="action_context_library">資料庫</string>
+    <string name="action_context_view_entry">記錄檢視卡</string>
     <string name="trigger">觸發器</string>
     <string name="action_default_name">動作 %d</string>
     <string name="place_of_action">動作位置</string>
@@ -1715,62 +1745,62 @@
     <string name="argument_hint">引數提示</string>
     <string name="required_argument_text">引數必須填寫</string>
     <string name="actions">動作</string>
-    <string name="empty_script_list_text">本庫沒有 scripts</string>
-    <string name="empty_script_list_trigger_text">觸發器是根據發生的事件對條目進行處理的 script。</string>
-    <string name="empty_script_list_action_text">動作是手動按下庫或條目卡上的按鈕啟動的 script。</string>
+    <string name="empty_script_list_text">本資料庫沒有 scripts</string>
+    <string name="empty_script_list_trigger_text">觸發器是根據發生的事件對記錄進行處理的 script。</string>
+    <string name="empty_script_list_action_text">動作是手動按下資料庫或記錄卡上的按鈕啟動的 script。</string>
     <string name="autofill_goto_script_title">Script 編輯器</string>
     <string name="autofill_goto_script_hint">Script 資料來源</string>
     <string name="java_script_data_source_title">自訂來源</string>
     <string name="java_script_data_source_hint">JavaScript</string>
-    <string name="script_cant_run_for_not_saved_library">您只能在儲存庫後才能執行 script。</string>
+    <string name="script_cant_run_for_not_saved_library">您只能在儲存資料庫後才能執行 script。</string>
     <string name="autofill_script_source_key_title">指出 script 回傳的物件屬性</string>
     <string name="test_js_data_source_query_hint">查詢字串</string>
     <string name="test_js_data_source_query_result">查詢結果:\n%s</string>
     <string name="run">執行</string>
     <string name="run_arguments">執行引數</string>
-    <string name="script_cant_set_permissions_for_not_saved_library">您只能在儲存庫後設定 script 權限。</string>
-    <string name="script_permissions_required_message">這個庫有 scripts 要求下列權限:</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">您只能在儲存資料庫後設定 script 權限。</string>
+    <string name="script_permissions_required_message">這個資料庫有 scripts 要求下列權限:</string>
     <string name="required_access_to_library">操作 %s</string>
-    <string name="action_with_library_context">庫動作</string>
-    <string name="action_with_entry_context">條目動作</string>
-    <string name="library_related_cloud_model_changed_message">相關庫的結構在雲端改變了。請前往相關庫進行更新。</string>
+    <string name="action_with_library_context">資料庫動作</string>
+    <string name="action_with_entry_context">記錄的操作</string>
+    <string name="library_related_cloud_model_changed_message">相關資料庫的結構在雲端改變了。請前往相關資料庫進行更新。</string>
 <string name="faq">常見問題</string>
     <string name="icon_pack_title_field_material">Material 圖示</string>
-    <string name="memento_cloud">Memento Cloud</string>
+    <string name="memento_cloud">Memento 雲端同步</string>
 	<string name="byteShort">B</string>    
     <string name="kilobyteShort">KB</string>
     <string name="megabyteShort">MB</string>
     <string name="gigabyteShort">GB</string>
     <string name="find_library_by_url_hint">http://libs.mobi/address</string>
-	<string name="uservoice_menu_title">UserVoice</string>
+	<string name="uservoice_menu_title">用戶回饋</string>
 	<string name="music_brainz_source">musicbrainz.org</string>
-	<string name="google_books_source">Google Books</string>
+	<string name="google_books_source">Google 圖書</string>
     <string name="themoviedb_source">themoviedb.org</string>
     <string name="themoviedb_source_tv">TV</string>
 
-    <string name="flex_type_rich_text">Rich Text</string>
+    <string name="flex_type_rich_text">Rich Text 文件编辑器</string>
     <string name="script">Script</string>
     <string name="js_libraries">JavaScript 函式庫</string>
-    <string name="powered_by_text">Powered by Memento Database</string>
+    <string name="powered_by_text">由Memento Database提供技術</string>
 
     <string name="cloud_plan_plan3">Lite</string>
     <string name="cloud_plan_plan6">Pro</string>
     <string name="cloud_plan_plan10">Pro Plus</string>
-    <string name="memento_server_settings_group">Memento Server</string>
+    <string name="memento_server_settings_group">Memento 伺服器</string>
     <string name="memento_server_private_hint">host:port</string>
     <string name="latitude_longitude_hint">緯度,經度</string>
     <string name="uom_bit">bit</string>
     <string name="uom_byte">Byte</string>
     <string name="uom_kilobit">Kilobit</string>
-    <string name="uom_kilobyte">Kilobyte</string>
+    <string name="uom_kilobyte">KB</string>
     <string name="uom_megabit">Megabit</string>
-    <string name="uom_megabyte">Megabyte</string>
+    <string name="uom_megabyte">MB</string>
     <string name="uom_gigabit">Gigabit</string>
-    <string name="uom_gigabyte">Gigabyte</string>
+    <string name="uom_gigabyte">GB</string>
     <string name="uom_terabit">Terabit</string>
-    <string name="uom_terabyte">Terabyte</string>
+    <string name="uom_terabyte">TB</string>
     <string name="uom_petabit">Petabit</string>
-    <string name="uom_petabyte">Petabyte</string>
+    <string name="uom_petabyte">PB</string>
 
     <string name="repository_location_hint">GitHub Repository URL</string>
     <string name="scripts">Scripts</string>
@@ -1781,7 +1811,7 @@
     <string name="cloud_plan_plan10_annual">Pro Plus</string>
     <string name="price_per_year">%s/年</string>
 
-    <string name="frozen_alien_text">此庫已被凍結，請聯絡庫擁有者 (%s)。</string>
+    <string name="frozen_alien_text">此資料庫已被凍結，請聯絡資料庫擁有者 (%s)。</string>
     <string name="copy_field">複製欄位</string>
     <string name="delete_reminder_dialog_text">您真的要刪除提醒嗎？</string>
     <string name="games">遊戲</string>
@@ -1790,22 +1820,22 @@
     <string name="number_increment_visible_option">顯示按鈕</string>
     <string name="is_empty">是空的</string>
     <string name="is_not_empty">不是空的</string>
-    <string name="trigger_event_open_library">開啟一個庫</string>
+    <string name="trigger_event_open_library">開啟一個資料庫</string>
     <string name="search_base_folder">搜尋基礎</string>
     <string name="line_interpolate_nulls_titles">內插空值</string>
 
 
     <string name="wizard">精靈</string>
-    <string name="wizard_library_name_title">Memento 將您的資訊整理成庫。您想怎麼稱呼這個庫？</string>
-    <string name="wizard_library_name_hint2">「庫」的用途是儲存一種特定物品的清單。</string>
-    <string name="wizard_library_name_hint3">「庫」很像試算表裡的工作表。</string>
-    <string name="wizard_library_icon_title">選擇代表此庫的圖示</string>
-    <string name="wizard_library_structure_title">讓我們開始建立庫的結構。</string>
-    <string name="wizard_library_structure_hint2">您放進庫的每個項目稱為「條目」。每個條目都有一系列欄位，容納所有您想儲存的資訊。</string>
-    <string name="wizard_library_structure_hint3">「條目」等於試算表內的一條橫列。</string>
+    <string name="wizard_library_name_title">Memento 將您的資訊整理成資料庫。您想怎麼稱呼這個資料庫？</string>
+    <string name="wizard_library_name_hint2">「資料庫」的用途是儲存一種特定物品的清單。</string>
+    <string name="wizard_library_name_hint3">「資料庫」很像試算表裡的工作表。</string>
+    <string name="wizard_library_icon_title">選擇代表此資料庫的圖示</string>
+    <string name="wizard_library_structure_title">讓我們開始建立資料庫的結構。</string>
+    <string name="wizard_library_structure_hint2">您放進資料庫的每個項目稱為「記錄」。每個記錄都有一系列欄位，容納所有您想儲存的資訊。</string>
+    <string name="wizard_library_structure_hint3">「記錄」等於試算表內的一條橫列。</string>
     <string name="wizard_library_structure_hint4">欄位等於試算表裡的直欄。</string>
     <string name="wizard_select_field_type_message">請選擇欄位型別</string>
-    <string name="wizard_add_name_field_message">新增要作為條目名稱的欄位。</string>
+    <string name="wizard_add_name_field_message">新增要作為記錄名稱的欄位。</string>
     <string name="wizard_field_options_title">欄位屬性</string>
     <string name="wizard_field_items_title">項目</string>
     <string name="wizard_field_options_select_type_message">欄位屬性要在選擇欄位型別之後才能調整。</string>
@@ -1815,7 +1845,7 @@
     <string name="wizard_field_name_title">您想如何稱呼這個欄位？</string>
     <string name="wizard_field_name_examples">比如說您可能會想建立「標題」「描述」「器材類型」「價格」「大小」「位置」之類的欄位。</string>
     <string name="wizard_field_type_title">每個欄位都可指定儲存一種特定類型的資料。</string>
-    <string name="wizard_field_display_options_title">您想在條目清單內顯示這個欄位的內容嗎？</string>
+    <string name="wizard_field_display_options_title">您想在記錄清單內顯示這個欄位的內容嗎？</string>
     <string name="wizard_field_display_no">不，謝謝</string>
     <string name="wizard_field_display_name">作為項目名稱</string>
     <string name="wizard_field_display_thumb">顯示為項目縮圖</string>
@@ -1824,7 +1854,7 @@
     <string name="more_info">需要說明？</string>
     <string name="type_desc_rating">評分欄位可以留空，或是儲存 1 到 5 之間的數值代表星等。</string>
     <string name="type_desc_location">位置欄位可以存放位置，以經緯度與地址表示。</string>
-    <string name="type_desc_link_to_entry">連結條目欄位可以連到另一個庫的單一條目、或一系列相關條目。</string>
+    <string name="type_desc_link_to_entry">連結記錄欄位可以連到另一個資料庫的單一記錄、或一系列相關記錄。</string>
     <string name="type_desc_contact">聯絡人欄位可以儲存連到本機通訊錄一位聯絡人的連結。</string>
     <string name="type_desc_images">影像欄位可以儲存影像連結。</string>
     <string name="type_desc_signature">簽章欄位讓您能收集數位簽章。</string>
@@ -1844,17 +1874,17 @@
     <string name="type_desc_email">Email 信箱欄位能以文字形式儲存一組信箱。</string>
     <string name="type_desc_barcode">條碼欄位可用來掃描一維或二維條碼 (QR-code)。</string>
     <string name="type_desc_pass">密碼欄位可儲存任意文字資料。編修時內容會被遮蔽 (顯示為星號)。</string>
-    <string name="type_desc_rich">豐富格式文字欄位可儲存各種文字資料，包含文字格式化資訊。</string>
+    <string name="type_desc_rich">Rich Text欄位可儲存各種文字資料，包含文字格式化資訊。</string>
     <string name="type_desc_multiple_choice">多選清單欄位可提供一系列選項，使用者可在其中選擇任意或所有項目。</string>
     <string name="type_desc_checkboxes">勾選框欄位可顯示一或多個勾選框，允許使用者分別勾選。</string>
     <string name="type_desc_single_choice">單選欄位是一系列文字選項，使用者只能在其中選擇一個。</string>
     <string name="type_desc_radiobuttons">單選框欄位用來在一系列選項之中挑選一個。</string>
     <string name="type_desc_js">欄位的值會是 script 在輸入資料的環境下執行後得到的結果。</string>
-    <string name="type_desc_calc">計算欄位可用來顯示根據條目內其他欄位的內容，以指定算式計算後求得的數值 (不可修改)。</string>
+    <string name="type_desc_calc">計算欄位可用來顯示根據記錄內其他欄位的內容，以指定算式計算後求得的數值 (不可修改)。</string>
 
     <string name="wizard_complete_text1">恭喜！</string>
-    <string name="wizard_complete_text2">您已成功建立您的庫。</string>
-    <string name="wizard_complete_text3">您之後可以隨時修改庫的結構、加入集合統計條件、自動填滿、script 等等。</string>
+    <string name="wizard_complete_text2">您已成功建立您的資料庫。</string>
+    <string name="wizard_complete_text3">您之後可以隨時修改資料庫的結構、加入集合統計條件、自動填滿、script 等等。</string>
     <string name="close">關閉</string>
 
     <string name="attributes">屬性</string>
@@ -1865,17 +1895,17 @@
     <string name="required_attribute_text">屬性必須填寫</string>
 
     <string name="attribute_display_title_in_card">屬性名稱</string>
-    <string name="attribute_display_title_in_card_hint">在條目卡片上顯示屬性的名稱</string>
+    <string name="attribute_display_title_in_card_hint">在記錄卡片上顯示屬性的名稱</string>
     <string name="attribute_delete_message_text">您真的要刪除「%s」屬性嗎？</string>
     <string name="free_version_attributes_limit">免費版您只能新增一個屬性。升級到 PRO 版就沒有這個限制。</string>
-    <string name="trigger_event_link_entry">連結一個條目</string>
-    <string name="trigger_event_unlink_entry">取消連結條目</string>
-    <string name="script_cant_run_links_not_exists">無法執行 script，沒有任何連到這個庫的連結。</string>
-    <string name="entry_name_and_description">條目名稱與描述</string>
+    <string name="trigger_event_link_entry">連結一筆記錄</string>
+    <string name="trigger_event_unlink_entry">取消連結記錄</string>
+    <string name="script_cant_run_links_not_exists">無法執行 script，沒有任何連到這個資料庫的連結。</string>
+    <string name="entry_name_and_description">記錄名稱與描述</string>
     <string name="all_searchable_fields">所有可搜尋欄位</string>
     <string name="search_settings_quick">快速搜尋</string>
     <string name="search_by_specified_fields">指定欄位</string>
-    <string name="index_not_found_message">無法搜尋，條目沒有索引</string>
+    <string name="index_not_found_message">無法搜尋，記錄沒有索引</string>
     <string name="script_error_message">Script 錯誤: %s</string>
     <string name="advanced_search">進階搜尋</string>
     <string name="quick_filter_for_numbers">數字</string>
@@ -1884,7 +1914,7 @@
     <string name="save_as_filter_success">您已成功建立新的過濾條件</string>
     <string name="shortcut_not_supported">可惜您的啟動器不支援 App 捷徑。</string>
     <string name="notification_channel_reminders">提醒</string>
-    <string name="notification_channel_entries">庫修改</string>
+    <string name="notification_channel_entries">資料庫修改</string>
     <string name="notification_channel_files">檔案</string>
     <string name="quick_filter_limit_message">免費版只能搜尋五個欄位。
 \n升級到 PRO 版就沒有這個限制。</string>
@@ -1898,7 +1928,7 @@
     <string name="igdb_source">igdb.com</string>
     <string name="link_attributes_empty_text">此欄位的連結沒有屬性。</string>
     <string name="cant_find_contact_selection_app">抱歉，找不到能選擇聯絡人的程式。</string>
-    <string name="library_item_not_found_dialog_message">找不到條目。可能已被刪除。</string>
+    <string name="library_item_not_found_dialog_message">找不到記錄。可能已被刪除。</string>
 
     <string name="license_key_tab">授權金鑰</string>
     <string name="pro_feature_0">無廣告</string>
@@ -1946,7 +1976,7 @@
     <string name="revision_history">版本歷史</string>
     <string name="revision_current_version">目前版本</string>
     <string name="revision_action_edit">%s 編輯</string>
-    <string name="revision_action_create">%s 新增條目</string>
+    <string name="revision_action_create">%s 新增記錄</string>
     <string name="revert_to_version">退回到這個版本</string>
     <string name="revert_to_version_message">您確定要從 %s 退回到這個版本嗎？</string>
     <string name="revision_history_only_for_cloud">版本歷史只有上傳到雲端、且使用 PRO 或 TEAM 帳戶的資料庫才能使用。</string>
@@ -1966,7 +1996,7 @@
     <string name="image_cache_settings_path_title">圖片快取資料夾</string>
 
     <string name="unlock_fingerprint_dialog_title">以指紋解鎖</string>
-    <string name="unlock_fingerprint_dialog_text">您希望之後能以指紋解鎖受保護的庫嗎？</string>
+    <string name="unlock_fingerprint_dialog_text">您希望之後能以指紋解鎖受保護的資料庫嗎？</string>
     <string name="fingerprint_not_recognized">無法識別指紋</string>
     <string name="unlock_fingerprint_hint">掃描指紋以解鎖</string>
     <string name="enable_fingerprint">啟用指紋</string>

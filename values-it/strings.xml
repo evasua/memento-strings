@@ -240,7 +240,8 @@
     <string name="copy_memento_to_gdocs">Elementi da Memento</string>
     <string name="copy_gdocs_to_memento">Elementi da Google Docs</string>
     <string name="edit_flex_title_disabled">Questo campo non può essere rinominato perché la libreria è collegata a Google Docs</string>
-    <string name="cant_bind">La versione gratuita ti permette di collegare al massimo tre librerie con Google Docs.\nPassa alla versione PRO per annullare questa limitazione.</string>
+    <string name="cant_bind">La versione gratuita ti permette di collegare al massimo due librerie con Google Docs.
+Passa alla versione PRO per annullare questa limitazione.</string>
     <string name="button_pro_version">versione PRO</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">Autocompletamento</string>
