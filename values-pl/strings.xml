@@ -310,8 +310,7 @@ serwerze Memento ...</string>
 istnieje</string>
     <string name="memento_register_email_exists">Użytkownik z takim adresem
 email już istnieje</string>
-    <string name="memento_server_error">Błąd serwera, spróbuj
-później</string>
+    <string name="memento_server_error">Błąd serwera, spróbuj później</string>
     <string name="memento_account_title">Konto Memento</string>
     <string name="memento_create_account_button">Nowe konto</string>
     <string name="memento_auth_error">Błędny użytkownik lub hasło</string>
