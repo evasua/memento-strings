@@ -145,15 +145,15 @@ Rozpocząć przywracanie?</string>
     <string name="load_templates_title">Ładowanie szablonów</string>
     <string name="load_templates_message">Proszę czekać, ładuję szablony bibliotek.</string>
     <string name="help_title">Pomoc Memento</string>
-    <string name="activate_button_title">Aktywuj wersję PRO</string>
+    <string name="activate_button_title">Aktywuj wersję Pro</string>
     <string name="activate_button_hint">Wymagany klucz aktywacyjny</string>
-    <string name="activate_main_text">Uaktualnij do wersji PRO</string>
+    <string name="activate_main_text">Uaktualnij do wersji Pro</string>
     <string name="activation_dialog_text_hint">Kod aktywacji</string>
-    <string name="activation_dialog_title">Uaktualnij do wersji PRO</string>
+    <string name="activation_dialog_title">Uaktualnij do wersji Pro</string>
     <string name="activation_ok">Dziękujemy za aktywację Memento</string>
     <string name="activation_error">Niepoprawny kod aktywacyjny. Spróbuj ponownie.</string>
     <string name="about">O aplikacji</string>
-    <string name="copyright">Prawo autorskie © 2018 LuckyDroid
+    <string name="copyright">Prawo autorskie © 2019 LuckyDroid
 Wszelkie prawa zastrzeżone</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Sprawdzanie wersję aplikacji</string>
@@ -296,7 +296,7 @@ Memento</string>
     <string name="memento_pass_hint">Hasło</string>
     <string name="memento_pass_hint2">Powtórz hasło</string>
     <string name="memento_email_hint">Email</string>
-    <string name="memento_register_button">Utwórz</string>
+    <string name="memento_register_button">Utwórz konto</string>
     <string name="memento_have_button">Mam już konto</string>
     <string name="login_empty">Wprowadź użytkownika</string>
     <string name="login_format_error">Login może zawierać tylko litery i
@@ -624,7 +624,7 @@ Uaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
     <string name="preference_category_export_data_cfg">Ustawienia Importu/Eksportu/Synchronizacji</string>
     <string name="import_export_date_format">Wybierz format daty</string>
     <string name="import_export_date_format_dialog">Wybierz format daty do importu/eksportu/synchronizacji</string>
-    <string name="main_title">Memento Database</string>
+    <string name="main_title">Baza Danych Memento</string>
     <string name="main_menu_add_group">Dodaj Grupę</string>
     <string name="main_menu_bookmarks">Zakładki i Historia</string>
     <string name="main_menu_add_lib_group">Dodaj bibliotekę lub grupę</string>
@@ -1050,64 +1050,64 @@ Uruchomić przetwarzanie?</string>
     <string name="page">Strona</string>
     <string name="translate">Tłumaczenie</string>
 <plurals name="library_box_entries_count">
-	<item quantity="one">Wpisów: 1</item>
-	<item quantity="few">Wpisów: %d</item>
+	<item quantity="one">Wpis: 1</item>
+	<item quantity="few">Wpisy: %d</item>
 	<item quantity="many">Wpisów: %d</item>
-	<item quantity="other">Wpisów: %d</item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="field_depends_count">
-	<item quantity="one">Zależności: 1</item>
+	<item quantity="one">Zależność: 1</item>
 	<item quantity="few">Zależności: %d</item>
 	<item quantity="many">Zależności: %d</item>
-	<item quantity="other">Zależności: %d</item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="fields_count">
-	<item quantity="one">Pól: 1</item>
-	<item quantity="few">Pól: %d</item>
-	<item quantity="many">Pól: %d</item>
-	<item quantity="other">Pól: %d</item>
+	<item quantity="one">1 pole</item>
+	<item quantity="few">%d pola</item>
+	<item quantity="many">%d pól</item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="libraries_count">
-	<item quantity="one">Bibliotek: 1</item>
-	<item quantity="few">Bibliotek: %d</item>
-	<item quantity="many">Bibliotek: %d</item>
-	<item quantity="other">Bibliotek: %d</item>
+	<item quantity="one">1 biblioteka</item>
+	<item quantity="few">%d biblioteki</item>
+	<item quantity="many">%d bibliotek</item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="rating_stars_count">
-	<item quantity="one">Gwiazdek: %d</item>
-	<item quantity="few">Gwiazdek: %d</item>
-	<item quantity="many">Gwiazdek: %d</item>
-	<item quantity="other">Gwiazdek: %d</item>
+	<item quantity="one">%d gwiazdka</item>
+	<item quantity="few">%d gwiazdki</item>
+	<item quantity="many">%d gwiazdek</item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
-	<item quantity="one">Wpisów przeniesionych do kosza: %d</item>
-	<item quantity="few">Wpisów przeniesionych do kosza: %d</item>
-	<item quantity="many">Wpisów przeniesionych do kosza: %d</item>
-	<item quantity="other">Wpisów przeniesionych do kosza: %d</item>
+	<item quantity="one">%d wpis przeniesiony do kosza</item>
+	<item quantity="few">%d wpisy przeniesione do kosza</item>
+	<item quantity="many">%d wpisów przeniesionych do kosza</item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="duration_seconds">
-	<item quantity="one">Sekund: 1</item>
-	<item quantity="few">Sekund: %d</item>
-	<item quantity="many">Sekund: %d</item>
-	<item quantity="other">Sekund: %d</item>
+	<item quantity="one">1 sekunda</item>
+	<item quantity="few">%d sekundy</item>
+	<item quantity="many">%d sekund</item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="duration_minutes">
-	<item quantity="one">Minut: 1</item>
-	<item quantity="few">Minut: %d</item>
-	<item quantity="many">Minut: %d</item>
-	<item quantity="other">Minut: %d</item>
+	<item quantity="one">1 minuta</item>
+	<item quantity="few">%d minuty</item>
+	<item quantity="many">%d minut</item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="duration_hours">
-	<item quantity="one">Godzin: 1</item>
-	<item quantity="few">Godzin: %d</item>
-	<item quantity="many">Godzin: %d</item>
-	<item quantity="other">Godzin: %d</item>
+	<item quantity="one">1 godzina</item>
+	<item quantity="few">%d godziny</item>
+	<item quantity="many">%d godzin</item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="duration_days">
-	<item quantity="one">Dni: 1</item>
-	<item quantity="few">Dni: %d</item>
-	<item quantity="many">Dni: %d</item>
-	<item quantity="other">Dni: %d</item>
+	<item quantity="one">1 dzień</item>
+	<item quantity="few">%d dni</item>
+	<item quantity="many">%d dni</item>
+	<item quantity="other"/>
 </plurals>
     <string name="entries_view_type_calendar">Kalendarz</string>
     <string name="calendar_field_role">Użyj w kalendarzu jako</string>
@@ -1133,9 +1133,9 @@ Uruchomić przetwarzanie?</string>
     <string name="library_group_view_type_icons">Ikony</string>
     
 <plurals name="string_list_import_snackbar_ok">
-	<item quantity="one">Zaimportowano punktów: 0</item>
-	<item quantity="few">Zaimportowano punktów: %d</item>
-	<item quantity="many">Zaimportowano punktów: %d</item>
+	<item quantity="one">Zaimportowano 0 punktów</item>
+	<item quantity="few">Zaimportowano %d punkty</item>
+	<item quantity="many">Zaimportowano %d punktów</item>
 	<item quantity="other"/>
 </plurals>
     <string name="icon_pack_title_files_types">Pliki</string>
@@ -1166,7 +1166,7 @@ Uruchomić przetwarzanie?</string>
 	<string name="need_make_slave_library_unique_import">Aby zaimportować pola \"Łącze do wpisu\", musisz włączyć kontrolę unikalności nazw wpisów w bibliotece, do której łącze się odwołuje. ↵\nWłączyć kontrolę teraz?</string>
 	<string name="run_sync_slave_libraries_pref">Powiązane biblioteki</string>
 	<string name="run_sync_slave_libraries_summary">Najpierw zsynchronizuj powiązane biblioteki</string>
-	<string name="choice_type_add_button_in_edit_title">Tworzenie elementów w trakcie edycji wpisu</string>	
+	<string name="choice_type_add_button_in_edit_title">Zezwalaj na tworzenie elementów podczas edytowania wpisu</string>	
 	
 <string name="show_deleted_entries_menu_item">Pokaż skasowane wpisy</string>
 	<string name="upload_to_cloud_menu_item">Do Chmury</string>
@@ -1294,9 +1294,10 @@ Maksymalny rozmiar pliku to %s.</string>
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Biblioteka nie znaleziona</string>
 	<string name="upload_to_cloud_offer_title">{chmura...}</string>
-	<string name="upload_to_cloud_offer_text">• Praca zespołowa
-\n• Synchronizacja z różnymi urządzeniami
-\n• Backup\'y są zawsze w chmurze</string>
+	<string name="upload_to_cloud_offer_text">• Praca Zespołowa
+• Synchronizacja na różnych urządzeniach
+• Kopie zapasowe są zawsze w Chmurze
+• Historia wersji</string>
 	<string name="button_no_thanks">Nie, dzięki</string>
 	<string name="button_upload">Wysyłanie</string>
 	
@@ -1312,7 +1313,7 @@ Maksymalny rozmiar pliku to %s.</string>
 	<string name="add_lib_from_google_drive_hint">Odtwarzanie z Google Drive</string>
 	<string name="templates">Szablony</string>
 	<string name="import_template_from_file_hint">Import szablonu z pliku</string>
-	<string name="help_cloud">Przechowywanie w chmurze i Praca zespołowa</string>
+	<string name="help_cloud">Przechowywanie w Chmurze i Praca Zespołowa</string>
 	<string name="subscription_pro_bonus_text">Większość planów taryfowych zawierarównież bonus w postaci wersji PRO</string>
 	<string name="send_formatting_menu_item">Formatowanie...</string>
 	<string name="pro_for_cloud_storage_title">Subskrybcja</string>
@@ -1526,8 +1527,8 @@ Maksymalny rozmiar pliku to %s.</string>
     <string name="multi_choice_delimiter">Separator</string>
     <string name="cloud_plan_free">Za darmo</string>
     <string name="cloud_plan_plan3">Lite</string>
-    <string name="cloud_plan_plan6">Pro</string>
-    <string name="cloud_plan_plan10">Pro Plus</string>
+    <string name="cloud_plan_plan6">PRO</string>
+    <string name="cloud_plan_plan10">PRO Plus</string>
     <string name="cloud_plan_storage">Pojemność %s</string>
 
     <string name="memento_server_settings_group">3.9.7</string>
@@ -1559,7 +1560,7 @@ Maksymalny rozmiar pliku to %s.</string>
     <string name="locale_plugin_edit_mode_create_new_entry">Utwórz nowy wpis, jeśli nie udało się znaleźć wpisu według pola klucza</string>
 
     <string name="send_field_title">Wyślij nazwę pola</string>
-    <string name="send_field_title_summary">Nazwa pola będzie odpowiadać wartości pola</string>
+    <string name="send_field_title_summary">Nazwa pola poprzedza wartość pola</string>
     <string name="auto_lock_libraries_time_title">Zamknij dostęp do biblioteki</string>
     <string name="auto_lock_libraries_after">Po %s</string>
 
@@ -1606,7 +1607,7 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
     <string name="trigger_permission_write_file">Zapis pliku</string>
     <string name="trigger_permission_write_file_hint">Zezwól skryptom na zapis w pamięci zewnętrznej</string>
     <string name="trigger_permission_network">Sieć</string>
-    <string name="trigger_permission_network_hint">Zezwól skryptom na wykonywanie żądań HTTP</string>
+    <string name="trigger_permission_network_hint">Zezwól skryptom wykonywanie żądań HTTP i wysyłanie wiadomości e-mail.</string>
 
     <string name="trigger_permission_libraries">Biblioteki</string>
     <string name="trigger_permission_libraries_hint">Dostęp do wszystkich bibliotek</string>
@@ -1786,7 +1787,7 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
     <string name="cloud_plan_team10">Zespół 10</string>
     <string name="cloud_plan_team15">Zespół 15</string>
     <string name="cloud_plan_team20">Zespół 20</string>
-    <string name="pro_for_team">Funkcje Pro dla wszystkich użytkowników w planie Zespół</string>
+    <string name="pro_for_team">" Funkcje Pro dla wszystkich użytkowników w planie Zespół"</string>
     <string name="team_features_trial">Każdy plan zawiera 14 dniowy okres próbny.</string>
 
     <string name="tasker_plugin_create_entry_event_title">Utworzono wpis</string>
@@ -1832,7 +1833,7 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
     <string name="card_view_squared_image">Przytnij obrazek do kształtu kwadratu</string>
     <string name="warning">Uwaga</string>
     <string name="add_javascript_library">Dodaj biblioteki JavaScript...</string>
-    <string name="add_repository">Dodaj magazyn</string>
+    <string name="add_repository">Dodaj repozytorium GitHub</string>
     <string name="repository_location_hint">Adres URL magazynu GitHub</string>
     <string name="repository_location_error">Podaj link HTTPS do magazynu GitHub. Na przykład: https://github.com/username/repo-name</string>
     <string name="repository_not_found_error">Nie można znaleźć magazynu: %s</string>
@@ -1877,8 +1878,8 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
     <string name="monthly_plan">Miesięcznie</string>
     <string name="yearly_plan">Rocznie</string>
     <string name="cloud_plan_plan3_annual">Lite</string>
-    <string name="cloud_plan_plan6_annual">Pro</string>
-    <string name="cloud_plan_plan10_annual">Pro Plus</string>
+    <string name="cloud_plan_plan6_annual">PRO</string>
+    <string name="cloud_plan_plan10_annual">PRO Plus</string>
     <string name="copy_field">Kopiuj pole</string>
     <string name="delete_reminder_dialog_text">Czy na pewno chcesz usunąć przypomnienie?</string>
     <string name="igdb_source">igdb.com</string>
@@ -1980,4 +1981,197 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
 %s</string>
     <string name="type_desc_radiobuttons">Pole \'Przycisk opcji\' może służyć do wyboru z grupy opcji.</string>
     <string name="type_desc_checkboxes">Pole \'Przycisk wyboru\' pozwala na przedstawienie jednego lub wielu pól, umożliwiających wielokrotny wybór.</string>
+    <string name="attributes">Atrybuty</string>
+    <string name="select_attribute_type">Typy atrybutów</string>
+    <string name="create_attribute">Tworzenie atrybutu</string>
+    <string name="edit_attribute">Edycja atrybutu</string>
+    <string name="attribute_name">Nazwa atrybutu</string>
+    <string name="required_attribute_text">Atrybut nie może być pusty</string>
+
+    <string name="attribute_display_title_in_card">Nazwa atrybutu</string>
+    <string name="attribute_display_title_in_card_hint">Wyświetl nazwę atrybutu we wpisie karty</string>
+    <string name="attribute_delete_message_text">Czy na pewno usunąć atrybut \"%s\" ?</string>
+    <string name="free_version_attributes_limit">W wersji darmowej możesz dodać tylko jeden atrybut. Zaktualizuj do wersji PRO, aby usunąć to ograniczenie.</string>
+    <string name="trigger_event_link_entry">Łącze do wpisu</string>
+    <string name="trigger_event_unlink_entry">Usuń łącze do wpisu</string>
+    <string name="script_cant_run_links_not_exists">Nie można uruchomić skryptu, żadne łącza do tej biblioteki nie istnieją.</string>
+    <string name="entry_name_and_description">Wpisz nazwę i opis</string>
+    <string name="all_searchable_fields">Wszystkie pola do przeszukiwania</string>
+    <string name="search_settings_quick">Szybkie szukanie w</string>
+    <string name="search_by_specified_fields">Określone pola</string>
+    <string name="index_not_found_message">Wyszukiwanie nie jest możliwe, wpisy nie są indeksowane</string>
+    <string name="script_error_message">Błąd skryptu: %s</string>
+    <string name="advanced_search">Zaawansowane wyszukiwanie</string>
+    <string name="quick_filter_for_numbers">Dla liczb</string>
+    <string name="quick_filter_for_text">Dla tekstu</string>
+    <string name="save_as_filter">Zapisz jako filtr</string>
+    <string name="save_as_filter_success">Pomyślnie utworzyłeś nowy filtr</string>
+    <string name="shortcut_not_supported">Niestety twój program uruchamiający nie obsługuje skrótów do aplikacji.</string>
+    <string name="notification_channel_reminders">Przypomnienia</string>
+    <string name="notification_channel_entries">Zmiany w bibliotekach</string>
+    <string name="notification_channel_files">Pliki</string>
+    <string name="quick_filter_limit_message">Darmowa wersja umożliwia wyszukiwanie tylko według pięciu pól.
+Zaktualizuj do wersji PRO, aby wyłączyć to ograniczenie.</string>
+    <string name="button_upgrade">Aktualizacja</string>
+    <string name="autofilll_source_not_supported">Przepraszamy, ale %s nie jest już obsługiwany.</string>
+    <string name="link_attributes_empty_text">To pole nie ma atrybutów dla łączy.</string>
+    <string name="cant_find_contact_selection_app">Przepraszamy, ale nie znaleziono zgłoszenia wybranego kontaktu.</string>
+    <string name="library_item_not_found_dialog_message">Wpis nie został znaleziony. Być może został usunięty.</string>
+
+    <string name="license_key_tab">Klucz Licencji</string>
+    <string name="pro_feature_0">Bez reklam</string>
+    <string name="pro_feature_1">Nieograniczona liczba bibliotek, które można synchronizować z Arkuszami Google</string>
+    <string name="pro_feature_2">Nieograniczona liczba „chronionych” bibliotek</string>
+    <string name="pro_feature_3">Nieograniczona liczba wykresów</string>
+    <string name="pro_feature_4">Nieograniczona liczba skryptów</string>
+    <string name="pro_feature_5">Wyszukiwanie zaawansowane</string>
+    <string name="pro_feature_6">Jedno pole wprowadzania może zawierać wiele obiektów (obrazy, pliki, kontakty, współrzędne itp.</string>
+    <string name="pro_feature_7">Edycja wielu wpisów</string>
+    <string name="pro_feature_8">Przydatny widget aplikacji</string>
+    <string name="pro_license_activated">Licencja aktywowana</string>
+    <string name="pro_features_title">Funkcje PRO</string>
+    <string name="activate_with_key">Aktywuj za pomocą klucza</string>
+    <string name="plans_and_pricing">Plany i Ceny</string>
+    <string name="email_or_username">Email lub nazwa użytkownika</string>
+    <string name="sign_in_with_google">Kontynuuj z Google</string>
+    <string name="minimum_pass_length">Hasło musi mieć co najmniej %d znaków.</string>
+    <string name="please_sign_in">Zaloguj się do Memento Cloud.</string>
+    <string name="sign_up_or_sign_in">Zarejestruj się lub zaloguj</string>
+    <string name="auth_error_title">Błąd uwierzytelniania</string>
+    <string name="auth_error_text">Wystąpił błąd, ponownie uwierzytelnij %s.</string>
+    <string name="logout">Wyloguj</string>
+    <string name="logout_confirmation">Czy na pewno chcesz się wylogować?</string>
+    <string name="current_plan">Obecny plan</string>
+    <string name="change_password">Zmień hasło</string>
+    <string name="current_password">Aktualne hasło</string>
+    <string name="new_password">Nowe hasło</string>
+    <string name="password_changed_message">Twoje hasło zostało zmienione!</string>
+    <string name="sign_in_error">Nie można się zalogować</string>
+    <string name="choose_username">Wybierz swoją nazwę użytkownika</string>
+    <string name="account_without_password_message">To konto wydaje się być kontem Google bez hasła. Spróbuj użyć przycisku „Kontynuuj z Google”.</string>
+    <string name="template_not_found_by_uri">Nie znaleziono szablonu</string>
+    <string name="public_template_address_text">Adres szablonu</string>
+    <string name="wrong_template_address">Nieprawidłowy format adresu szablonu</string>
+    <string name="search_index_tokenizer">Analizator leksykalny</string>
+
+    <string name="permission_contacts_title">Kontakty</string>
+    <string name="permission_contacts_text">Wymagane jest przyznanie Memento dostępu do kontaktów dla typu pola Kontakt.</string>
+    <string name="boolean_format">Format</string>
+    <string name="boolean_format_on">Etykieta włączenia</string>
+    <string name="boolean_format_off">Etykieta wyłączenia</string>
+    <string name="plans_comparison">Zobacz pełne porównanie funkcji</string>
+
+    <string name="revision_history">Historia wersji</string>
+    <string name="revision_current_version">Obecna wersja</string>
+    <string name="revision_action_edit">%s zmieniono</string>
+    <string name="revision_action_create">Utworzono %s wpisów</string>
+    <string name="revert_to_version">Wróć do tej wersji</string>
+    <string name="revert_to_version_message">Czy na pewno chcesz przywrócić wersję z %s?</string>
+    <string name="revision_history_only_for_cloud">Historia wersji jest dostępna tylko dla bibliotek przesłanych do chmury i na konta Pro lub Zespół.</string>
+    <string name="barcode_type_nfc">NFC</string>
+    <string name="pending_user">Oczekuję...</string>
+    <string name="uom_category_userdefined">Określony przez użytkownika</string>
+    <string name="uom_custom_name">Nazwa jednostki</string>
+    <string name="time_field_group_by_day_and_time">Grupuj według dnia i godziny</string>
+
+    <string name="select_source_library_dialog_title">Wybierz bibliotekę, z której chcesz skopiować dane</string>
+    <string name="select_source_library_dialog_hint">Wybierz źródło danych</string>
+    <string name="wiki">Wiki</string>
+
+    <string name="type_desc_color">Typ pola koloru umożliwia przechowywanie dowolnego koloru w formacie RGB.</string>
+    <string name="image_cache_settings_path_title">Folder pamięci podręcznej obrazu</string>
+
+    <string name="unlock_fingerprint_dialog_title">Odblokuj za pomocą odcisku palca</string>
+    <string name="unlock_fingerprint_dialog_text">Czy następnym razem chcesz odblokować swoje chronione biblioteki za pomocą odcisku palca?</string>
+    <string name="fingerprint_not_recognized">Nie rozpoznano odcisku palca</string>
+    <string name="unlock_fingerprint_hint">Zeskanuj odcisk palca, aby odblokować</string>
+    <string name="enable_fingerprint">Włącz odcisk palca</string>
+
+    <string name="storage_permission_required_title">Wymagane pozwolenie</string>
+    <string name="storage_permission_required_text">Ta aplikacja wymaga pozwolenia na przechowywanie. Możesz to przyznać w ustawieniach aplikacji.</string>
+    <string name="got_to_system_settings">Przejdź do Ustawień</string>
+    <string name="file_save_error">Nie można zapisać pliku:
+%s</string>
+
+    <string name="years_range">Zakres lat w datach</string>
+    <string name="begin_year">Początek</string>
+    <string name="end_year">Koniec</string>
+    <string name="years_range_wrong">Koniec roku musi być większy lub równy początkowi roku</string>
+
+    <string name="orientation_portrait">Pionowo</string>
+    <string name="orientation_landscape">Poziomo</string>
+    <string name="scale_mode">Zmień rozmiar by dopasować</string>
+    <string name="scale_size">Skala</string>
+    <string name="pdf_scale_mode_crop">Przytnij</string>
+    <string name="pdf_scale_mode_expand">Rozciąg</string>
+    <string name="pdf_scale_mode_fit">Dopasowanie</string>
+    <string name="workplace">Obszar pracy</string>
+    <string name="share_filters">Udostępniaj filtry</string>
+    <string name="share_charts">Udostępniaj wykresy</string>
+    <string name="shared_by">Udostępniaj %s</string>
+    <string name="share_workplace_limit">Przepraszamy, możesz udostępniać wykresy lub filtry tylko w planie Zespół.</string>
+    <string name="bulk_action">Akcje Zbiorcze</string>
+    <string name="action_context_bulk_actions">Menu Akcji Zbiorczych</string>
+    <string name="move_to">Przenieś do...</string>
+    <string name="copy_to">Kopiuj do...</string>
+    <string name="move_to_no_libraries">Nie można znaleźć bibliotek zgodnych z bieżącą biblioteką.
+Utwórz regułę przesyłania wpisów, aby przeprowadzić migrację do dowolnej biblioteki.</string>
+    <string name="migrate">Migracja</string>
+    <string name="barcode_display_error">Przepraszamy, nie można zakodować kodu kreskowego na podstawie podanych danych</string>
+    <string name="barcode_format">Format kodu kreskowego</string>
+    <string name="barcode_format_auto">Autodetekcja</string>
+    <string name="orientation">Orientacja</string>
+    <string name="paper_size">Rozmiar papieru</string>
+    <string name="camera_permission_title">Kamera</string>
+    <string name="camera_permission_required_text">Aby zrobić zdjęcie, potrzebujemy dostępu do twojego aparatu. Przejdź do ustawień, aby włączyć uprawnienie.</string>
+    <string name="require_external_audio_app">Memento korzysta z zewnętrznej aplikacji do nagrywania dźwięku. Czy chcesz ją zainstalować?</string>
+
+
+    <string name="agree_terms_privacy">Tworząc konto w Memento, akceptujesz <a href="https://mementodatabase.com#terms">Warunki Korzystania</a> i <a href="http://mementodatabase.com#privacy_policy">Politykę Prywatności</a>.</string>
+    <string name="enter_email_address_hint">Podaj swój adres e-mail</string>
+    <string name="duration_label_days">d</string>
+    <string name="duration_label_hours">h</string>
+    <string name="duration_label_minutes">m</string>
+    <string name="duration_label_seconds">s</string>
+    <string name="duration_label_mseconds">ms</string>
+    <string name="duration_precision_option_title">Precyzja zakresu czasu</string>
+    <string name="duration_precision_min">Minimalna jednostka</string>
+    <string name="duration_precision_max">Maksymalna jednostka</string>
+    <string name="duration_precision_wrong">Maksymalna jednostka musi być większa lub równa minimalnej jednostce</string>
+    <string name="duration_display_format_option_title">Format zakresu czasu</string>
+    <string name="duration_display_format_short">Krótki</string>
+    <string name="duration_display_format_long">Długi</string>
+    <string name="type_desc_duration">Pole zakresu czasu może zawierać wartość używaną do reprezentowania czasu mierzonego w dniach, godzinach, minutach, sekundach lub milisekundach.</string>
+
+    <plurals name="after_entries_multiedit_message">
+	<item quantity="one">Jeden wpis był edytowany</item>
+	<item quantity="other">%d wpisy były edytowane</item>
+</plurals>
+
+    <string name="locals_js_libraries">Lokacja</string>
+    <string name="js_libraries_add_url">Dodaj URL</string>
+    <string name="js_file_url">URL pliku JavaScript</string>
+    <string name="js_file_url_error">Podaj link HTTP/HTTPS do pliku JavaScript.</string>
+    <string name="js_file_url_not_found">Nie znaleziono pliku JavaScript pod tym adresem URL: %S</string>
+    <string name="image_capture_size">Rozmiar przechwytywania obrazu</string>
+    <string name="image_capture_size_original">Oryginalny</string>
+    <string name="max_width">Maksymalna szerokość</string>
+    <string name="max_height">Maksymalna wysokość</string>
+    <string name="speech_recognition_not_supported">Rozpoznawanie mowy nie jest obsługiwane</string>
+
+    <string name="templates_category_personal">Własny</string>
+    <string name="templates_category_collections">Kolekcje</string>
+    <string name="templates_category_business">Biznes</string>
+    <string name="templates_category_healthy">Zdrowie i Sport</string>
+    <string name="templates_category_travel">Podróże</string>
+    <string name="templates_category_edu">Edukacja</string>
+    <string name="board_games">Gry planszowe</string>
+    <string name="new_database">Nowa baza danych</string>
+
+<plurals name="duration_ms">
+	<item quantity="one">1 ms</item>
+	<item quantity="few">%d ms</item>
+	<item quantity="many">%d ms</item>
+	<item quantity="other"/>
+</plurals>
     </resources>
