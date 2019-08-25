@@ -1681,7 +1681,7 @@
     <string name="repository_data_sources_hint">自動填寫的資料來源</string>
     <string name="warning">警告</string>
     <string name="add_javascript_library">新增 javascript 函式庫...</string>
-    <string name="add_repository">新增 repository</string>
+    <string name="add_repository">新增 GitHub的容器檔</string>
     <string name="repository_location_error">指定 GitHub repository 的 HTTPS 連結。舉例: https://github.com/username/repo-name</string>
     <string name="repository_not_found_error">找不到 repository: %s</string>
     <string name="repository_delete_message">您真的想刪除「%s」repository 嗎？</string>
@@ -1972,4 +1972,78 @@
     <string name="begin_year">開始</string>
     <string name="end_year">結束</string>
     <string name="years_range_wrong">結束年份必須等於或大於起始年份</string>
-</resources>
+<string name="orientation_portrait">直式畫面</string>
+    <string name="orientation_landscape">橫式畫面</string>
+    <string name="scale_mode">符合畫面</string>
+    <string name="scale_size">比例</string>
+    <string name="pdf_scale_mode_expand">延伸</string>
+    <string name="pdf_scale_mode_fit">符合畫面</string>
+    <string name="share_filters">分享過濾器</string>
+    <string name="share_charts">分享圖表</string>
+    <string name="shared_by">以 %s 分享</string>
+    <string name="bulk_action">批量處理</string>
+    <string name="action_context_bulk_actions">批量處理選單</string>
+    <string name="move_to">搬移到 ...</string>
+    <string name="copy_to">複製到 ...</string>
+    <string name="move_to_no_libraries">無法找到與目前相容的函式庫.
+請建立一個紀錄轉換規則來轉移到任何函式庫.</string>
+    <string name="migrate">轉移</string>
+    <string name="barcode_display_error">抱歉，無法從提供的資料編碼成條碼</string>
+    <string name="barcode_format">條碼格式</string>
+    <string name="barcode_format_auto">自動偵測</string>
+    <string name="orientation">畫面轉向</string>
+    <string name="paper_size">紙張大小</string>
+    <string name="camera_permission_title">相機</string>
+    <string name="camera_permission_required_text">為了擷取影像，我們必須存取你的相機。請到設定值開啟權限。</string>
+    <string name="require_external_audio_app">Memento使用外部錄音程式，你要安裝它嗎？</string>
+
+
+    <string name="agree_terms_privacy">建立帳號前，你必須同意Memento <a href="https://mementodatabase.com#terms">Terms of Use</a> 和 <a href="http://mementodatabase.com#privacy_policy">隱私政策</a>.</string>
+    <string name="enter_email_address_hint">請輸入你的電子郵件位址</string>
+    <string name="duration_label_days">日</string>
+    <string name="duration_label_hours">時</string>
+    <string name="duration_label_minutes">分</string>
+    <string name="duration_label_seconds">秒</string>
+    <string name="duration_label_mseconds">毫秒</string>
+    <string name="duration_precision_option_title">時間精度</string>
+    <string name="duration_precision_min">最小單位</string>
+    <string name="duration_precision_max">最大單位</string>
+    <string name="duration_precision_wrong">最大單位必須大於等於最小單位</string>
+    <plurals name="duration_ms">
+	<item quantity="one">%d ms</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="duration_display_format_option_title">時間格式</string>
+    <string name="duration_display_format_short">短格式</string>
+    <string name="duration_display_format_long">長格式</string>
+    <string name="type_desc_duration">時間欄位須包含數值，以表示日/時/分/秒/毫秒。</string>
+
+    <plurals name="after_entries_multiedit_message">
+	<item quantity="one">%d 筆紀錄已經被修編輯</item>
+	<item quantity="other"/>
+</plurals>
+
+    <string name="locals_js_libraries">本地化翻譯</string>
+    <string name="js_libraries_add_url">加入超連結</string>
+    <string name="js_file_url">JavaScript 檔案的超連結</string>
+    <string name="js_file_url_error">描述 HTTP/HTTPS 連結到 JavaScript 檔案.</string>
+    <string name="js_file_url_not_found">無法找到JavaScript 檔案於這個超連結: %S</string>
+    <string name="image_capture_size">截圖大小</string>
+    <string name="image_capture_size_original">原始大小</string>
+    <string name="max_width">最大寬度</string>
+    <string name="max_height">最大高度</string>
+    <string name="speech_recognition_not_supported">不支援語音辨識</string>
+
+    <string name="templates_category_personal">個人的</string>
+    <string name="templates_category_collections">收集</string>
+    <string name="templates_category_business">商務</string>
+    <string name="templates_category_healthy">健康與運動</string>
+    <string name="templates_category_travel">旅遊</string>
+    <string name="templates_category_edu">教育</string>
+    <string name="board_games">棋盤遊戲</string>
+    <string name="new_database">新資料庫</string>
+
+<string name="pdf_scale_mode_crop">裁切</string>
+    <string name="workplace">工作區</string>
+    <string name="share_workplace_limit">抱歉，你無法在Team tariffs分享圖表或過濾器.</string>
+    </resources>
