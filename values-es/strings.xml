@@ -124,9 +124,7 @@
     <string name="restore_preference">Restaurar</string>
     <string name="restore_summary_preference">Restaurando bibliotecas desde la copia de seguridad</string>
     <string name="backup_file_not_found">No se encuentra copia de seguridad previa.</string>
-    <string name="restore_dialog_message">Las bibliotecas existentes serán reemplazadas durante la restauración por las de la copia de seguridad.
-Se perderán todos los cambios realizados tras la creación de la copia de seguridad.
-¿Comenzar la restauración?</string>
+    <string name="restore_dialog_message">Las bibliotecas existentes serán reemplazadas durante la restauración por las de la copia de seguridad.\nSe perderán todos los cambios realizados tras la creación de la copia de seguridad.\n¿Comenzar la restauración?</string>
     <string name="backup_dialog_message">¿Reemplazar la copia de seguridad anterior por la nueva?</string>
     <string name="restore_success">Las bibliotecas se han restaurado con éxito desde la copia de seguridad</string>
     <string name="restore_step1">Restaurando</string>
@@ -144,8 +142,7 @@ Se perderán todos los cambios realizados tras la creación de la copia de segur
     <string name="activation_ok">Gracias por activar Memento</string>
     <string name="activation_error">El código no es válido. Por favor, inténtalo de nuevo.</string>
     <string name="about">Acerca de</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid
-Todos los derechos reservados</string>
+    <string name="copyright">Copyright © 2019 LuckyDroid\nTodos los derechos reservados</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Ver versión del software</string>
     <string name="about_license_type">Licencia:</string>
@@ -519,8 +516,7 @@ Todos los derechos reservados</string>
     <!-- 1.8.3 -->
     <string name="reset_master_password">Restablecer contraseña maestra</string>
     <string name="reset_master_password_hint">Todas las bibliotecas cifradas serán eliminadas</string>
-    <string name="reset_master_quest">¿Seguro que deseas restablecer la contraseña maestra?
-¡Atención! ¡Todas las bibliotecas cifradas serán eliminadas!</string>
+    <string name="reset_master_quest">¿Seguro que deseas restablecer la contraseña maestra?\n¡Atención! ¡Todas las bibliotecas cifradas serán eliminadas!</string>
     <string name="remove_encript_lib_dlg_msg">Eliminar bibliotecas cifradas</string>
     <string name="master_password_reset">Reajustar contraseña</string>
     <string name="edit_entry_screen_preference">Edición entradas</string>
@@ -533,8 +529,7 @@ Todos los derechos reservados</string>
     <string name="select_app">Selecciona una aplicación</string>
     <string name="forum">Foro</string>
     <string name="autoincrement">Autoincrementar</string>
-    <string name="cant_protect">La versión gratuita sólo permite proteger dos bibliotecas.
-Actualiza a la versión PRO y elimina esta limitación.</string>
+    <string name="cant_protect">La versión gratuita sólo permite proteger dos bibliotecas.\nActualiza a la versión PRO y elimina esta limitación.</string>
     <!-- 1.8.4 -->
     <string name="flex_edit_option_title">Dónde puedes editar</string>
     <string name="flex_edit_option_default">Formulario de edición de entrada</string>
@@ -640,13 +635,11 @@ Actualiza a la versión PRO y elimina esta limitación.</string>
     <string name="request_pass_dialog_title">Cambio de contraseña</string>
     <string name="request_pass_dialog_text">Por favor, introduzca un email para ayudarle a localizar su cuenta de Memento</string>
     <string name="request_pass_dialog_hint">Dirección de correo electrónico</string>
-    <string name="change_password_success">Por favor, comprueba tu email
-Te hemos enviado un correo que te permitirá restablecer tu contraseña fácil y rápidamente.</string>
+    <string name="change_password_success">Por favor, comprueba tu email\nTe hemos enviado un correo que te permitirá restablecer tu contraseña fácil y rápidamente.</string>
     <string name="tile_options_text">título</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
     <!-- 2.0.3 -->
-    <string name="search_in_protected_libraries">Buscar en bibliotecas protegidas por contraseña
-(excepto en las cifradas)</string>
+    <string name="search_in_protected_libraries">Buscar en bibliotecas protegidas por contraseña\n(excepto en las cifradas)</string>
     <string name="link_to_new_document">Enlazar a nuevo documento</string>
     <string name="link_to_existing_document">Enlazar a documento existente</string>
     <string name="internal_storage_title">Almacenamiento interno</string>
@@ -759,9 +752,7 @@ Te hemos enviado un correo que te permitirá restablecer tu contraseña fácil y
     <string name="accept_button">Acepto</string>
     <string name="sort_by_subtitle">por %s</string>
     <string name="group_by_subtitle">por %s</string>
-    <string name="sliding_hint_text">Deslice de derecha a izquierda
-para abrir el menú avanzado -
-organizar, agrupar, filtros, gráficas y más...</string>
+    <string name="sliding_hint_text">Deslice de derecha a izquierda\npara abrir el menú avanzado -\norganizar, agrupar, filtros, gráficas y más...</string>
     <string name="multy_sorting">Ordenar por múltiples campos</string>
     <string name="new_button">nuevo</string>
     <string name="free_version_entry_page_limit">En la versión gratuita sólo se pueden crear dos páginas. Actualiza a la versión PRO para eliminar esta limitación.</string>
@@ -1047,8 +1038,7 @@ organizar, agrupar, filtros, gráficas y más...</string>
     <string name="library_group_view_type_big_tile">Mosaicos grandes</string>
     <string name="library_group_view_type_small_tile">Mosaicos pequeños</string>
     <string name="visible_field_depend_description">El campo estará en este estado si el campo %s acepta los valores</string>
-    <string name="lock_library_edit_message">Los cambios en la estructura de la biblioteca están bloqueados.
-Puedes activar la capacidad de edición en los ajustes de esta biblioteca.</string>
+    <string name="lock_library_edit_message">Los cambios en la estructura de la biblioteca están bloqueados.\nPuedes activar la capacidad de edición en los ajustes de esta biblioteca.</string>
     <string name="add_library_tabs_header">Páginas en entradas</string>
     <string name="sort_desc">DESC</string>
     <string name="flex_type_signature_options_hint">Tamaño y fondo del lienzo, configuración del pincel</string>
@@ -1113,8 +1103,7 @@ Puedes activar la capacidad de edición en los ajustes de esta biblioteca.</stri
 	<string name="show_deleted_entries_menu_item">Mostrar entradas borradas</string>
 	<string name="upload_to_cloud_menu_item">A la Nube</string>
 	<string name="welcome_text_title">Bienvenido a Memento Database</string>
-	<string name="welcome_text_description">La biblioteca es el lugar donde se almacenarán tus datos.
-Puedes empezar familiarizándote con Memento creando una biblioteca basada en una de las plantillas proporcionadas.</string>	
+	<string name="welcome_text_description">La biblioteca es el lugar donde se almacenarán tus datos.\nPuedes empezar familiarizándote con Memento creando una biblioteca basada en una de las plantillas proporcionadas.</string>
 	
 <string name="memento_cloud">Nube de Memento</string>
 	<string name="start_remove_librarary_from_cloud">Borrando biblioteca...</string>
@@ -1271,19 +1260,14 @@ Puedes empezar familiarizándote con Memento creando una biblioteca basada en un
 	<string name="need_upload_to_cloud_slave_libraries">Por favor, sube las bibliotecas dependientes a la nube.</string>
 	<string name="start_download_slave_library_model">Subiendo biblioteca dependiente %s</string>
 	<string name="cloud_storage_full_text">No hay suficiente espacio en el almacenamiento en la nube.\nPuedes actualizar a un plan de tarifas que proporcione más espacio de almacenamiento.</string>
-	<string name="cloud_storage_full_text2" formatted="false">No hay suficiente espacio en el almacenamiento en la nube.
-%s son necesarios, %s están disponibles.
-Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</string>
+	<string name="cloud_storage_full_text2" formatted="false">No hay suficiente espacio en el almacenamiento en la nube.\n%s son necesarios, %s están disponibles.\nPuedes suscribirte a un plan que proporcione más espacio de almacenamiento.</string>
 	<string name="restore_cloud_library_from_recycle">La biblioteca local esta borrada. ¿Recuperar?</string>
 	<string name="cloud_file_while_not_upload">El archivo no está aún en la nube</string>
 	<string name="upload_ecrypted_libraries_dont_supported">La subida de librerías encriptadas a la nube no está disponible temporalmente.</string>
 	<string name="cloud_library_already_uploaded">Esta librería ya está subida en la nube.</string>
 	<string name="find_library_by_url_title">Abrir por URL</string>
 	<string name="upload_to_cloud_offer_title">{nube preparada...}</string>
-	<string name="upload_to_cloud_offer_text">• Trabajo en equipo
-• Sincronización a través de dispositivos
-• Las copias de seguridad están siempre en la nube
-• Histórico de versiones</string>
+	<string name="upload_to_cloud_offer_text">• Trabajo en equipo\n• Sincronización a través de dispositivos\n• Las copias de seguridad están siempre en la nube\n• Histórico de versiones</string>
 	<string name="cant_upload_file_to_cloud">La subida de archivo(s) falló.</string>
     <string name="button_show">Mostrar</string>
 	<string name="cant_add_yourself">No puedes añadirte a ti mismo</string>
@@ -1794,8 +1778,7 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
     <string name="script_cant_run_for_not_saved_library">Sólo se puede ejecutar el script después de guardar la biblioteca.</string>
     <string name="autofill_script_source_key_title">Señale la propiedad del objeto devuelta por el script</string>
     <string name="test_js_data_source_query_hint">Cadena de consulta</string>
-    <string name="test_js_data_source_query_result">Resultado de la consulta:
-%s</string>
+    <string name="test_js_data_source_query_result">Resultado de la consulta:\n%s</string>
     <string name="run">Ejecutar</string>
     <string name="run_arguments">Ejecutar argumentos</string>
     <string name="script_cant_set_permissions_for_not_saved_library">Solo se pueden conceder permisos al script después de guardar la biblioteca.</string>
@@ -1933,12 +1916,11 @@ Puedes suscribirte a un plan que proporcione más espacio de almacenamiento.</st
     <string name="notification_channel_reminders">Recordatorios</string>
     <string name="notification_channel_entries">Cambios en bibliotecas</string>
     <string name="notification_channel_files">Ficheros</string>
-    <string name="quick_filter_limit_message">La versión gratuita sólo permite buscar por cinco campos.
-Actualiza a la versión PRO para deshabilitar esta limitación.</string>
+    <string name="quick_filter_limit_message">La versión gratuita sólo permite buscar por cinco campos.\nActualiza a la versión PRO para deshabilitar esta limitación.</string>
     <string name="button_upgrade">Actualiza</string>
     <string name="autofilll_source_not_supported">Lo sentimos, pero %s ya no está soportado.</string>
 
-<string name="cant_find_contact_selection_app">Disculpe, no se encuentra la aplicación para elegir contacto.</string>
+    <string name="cant_find_contact_selection_app">Disculpe, no se encuentra la aplicación para elegir contacto.</string>
     <string name="library_item_not_found_dialog_message">Entrada no encontrada. Quizás ha sido borrada.</string>
 
     <string name="license_key_tab">Clave de la licencia</string>

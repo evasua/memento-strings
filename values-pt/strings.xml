@@ -141,7 +141,7 @@
     <string name="activation_ok">Obrigado por activar Memento</string>
     <string name="activation_error">O código de activação é inválido. Por favor, tente novamente.</string>
     <string name="about">Sobre</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid\nTodos os direitos reservados</string>
+    <string name="copyright">Copyright © 2019 LuckyDroid\nTodos os direitos reservados</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Verificar versão do programa</string>
     <string name="about_license_type">Licença:</string>
@@ -1984,8 +1984,7 @@
     <string name="storage_permission_required_title">Precisa de permissão</string>
     <string name="storage_permission_required_text">Este aplicativo precisa da permissão de armazenamento. Você pode conceder isso nas configurações do aplicativo.</string>
     <string name="got_to_system_settings">Ir para as configurações</string>
-    <string name="file_save_error">Não é possível salvar o arquivo:
-%s</string>
+    <string name="file_save_error">Não é possível salvar o arquivo:\n%s</string>
 
     <string name="years_range">Faixa de anos em datas</string>
     <string name="begin_year">Início</string>

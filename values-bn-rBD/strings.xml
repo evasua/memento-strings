@@ -139,7 +139,7 @@
     <string name="activation_ok">অ্যাক্টিভেশন করার জন্য আপনাকে ধন্যবাদ</string>
     <string name="activation_error">অ্যাক্টিভেশন কোডটি অবৈধ। অনুগ্রহপূর্বক আবার চেষ্টা করুন.</string>
     <string name="about">সম্পর্কিত</string>
-    <string name="copyright">কপিরাইট © 2018 LuckyDroid\nসর্বস্বত্ব সংরক্ষিত</string>
+    <string name="copyright">কপিরাইট © 2019 LuckyDroid\nসর্বস্বত্ব সংরক্ষিত</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">সফ্টওয়্যার ভার্সন দেখুন</string>
     <string name="about_license_type">লাইসেন্স:</string>
@@ -1960,10 +1960,9 @@
     <string name="select_source_library_dialog_title">ডাটা কপি করার জন্য লাইব্রেরি নির্বাচন করুন</string>
     <string name="select_source_library_dialog_hint">একটি ডাটা উৎস নির্বাচন করুন</string>
 
-<string name="barcode_type_nfc">NFC</string>
+    <string name="barcode_type_nfc">NFC</string>
     <string name="wiki">Wiki</string>
 
-    <string name="moby_source">4.5.5</string>
     <string name="type_desc_color">কালার ফিল্ড RGB ফরম্যাটে যেকোন কালার সংরক্ষণ করতে দেয়।</string>
     <string name="image_cache_settings_path_title">ছবির cache ফোল্ডার</string>
 
@@ -1976,10 +1975,8 @@
     <string name="storage_permission_required_title">অনুমতি প্রয়োজন</string>
     <string name="storage_permission_required_text">এই অ্যাপ্লিকেশনটির স্টোরেজ অনুমতি প্রয়োজন। আপনি এটি অ্যাপ্লিকেশন সেটিংস থেকে দিতে পারবেন।</string>
     <string name="got_to_system_settings">সেটিংস এ যান</string>
-    <string name="file_save_error">ফাইলটি সংরক্ষণ করা যাবে না:
-%s</string>
+    <string name="file_save_error">ফাইলটি সংরক্ষণ করা যাবে না:\n%s</string>
 
-    <string name="years_range">4.5.10</string>
     <string name="begin_year">শুরু</string>
     <string name="end_year">শেষ</string>
     <string name="years_range_wrong">বছরের শেষ অবশ্যই বছরের শুরু বা তার চেয়ে বড় হতে হবে</string>

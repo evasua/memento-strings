@@ -1951,7 +1951,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="permission_contacts_text">Il est impératif de donner l\'accès aux contacts à Memento pour les champs de type Contact.</string>
     <string name="boolean_format">Format</string>
     <string name="boolean_format_on">Étiquette \"On\"</string>
-    <string name="boolean_format_off">Etiquette Off</string>
+    <string name="boolean_format_off">Etiquette \"Off\"</string>
     <string name="plans_comparison">Consulter l\'intégralité de notre comparatif des fonctionnalités</string>
 
     <string name="revision_history">Historique de version</string>

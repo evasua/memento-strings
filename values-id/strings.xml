@@ -1704,8 +1704,7 @@ Anda dapat upgrade ke paket tarif yang menyediakan lebih banyak ruang tempat pen
     <string name="preference_category_backup">Backup</string>
     <string name="backup_preference">Backup</string>
     <string name="flex_type_audio">Audio</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid
-\nHak cipta dilindungi</string>
+    <string name="copyright">Copyright © 2019 LuckyDroid\nHak cipta dilindungi</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="flex_type_barcode">Barcode</string>
     <string name="barcode_auto_fill_checkbox">Autocompletion field</string>
@@ -1987,8 +1986,7 @@ Anda dapat upgrade ke paket tarif yang menyediakan lebih banyak ruang tempat pen
     <string name="storage_permission_required_title">Butuh izin</string>
     <string name="storage_permission_required_text">Aplikasi ini membutuhkan izin penyimpanan. Anda bisa menerimanya pada pengaturan app.</string>
     <string name="got_to_system_settings">Pengaturan Goto</string>
-    <string name="file_save_error">Tidak dapat menyimpan berkas:
-%s</string>
+    <string name="file_save_error">Tidak dapat menyimpan berkas:\n%s</string>
 
     <string name="years_range">Jarak tahun dalam penanggalan</string>
     <string name="begin_year">Awal</string>
