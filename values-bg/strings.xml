@@ -147,7 +147,7 @@
     <string name="activation_ok">Благодарим Ви за активирането на Memento</string>
     <string name="activation_error">Активиращият код е невалиден. Моля, опитайте отново.</string>
     <string name="about">За програмата</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid
+    <string name="copyright">Copyright © 2019 LuckyDroid
 Всички права запазени</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Вижте версията на програмата</string>
@@ -264,7 +264,7 @@
     <string name="memento_pass_hint">Парола</string>
     <string name="memento_pass_hint2">Повторете паролата</string>
     <string name="memento_email_hint">Email</string>
-    <string name="memento_register_button">Създаване</string>
+    <string name="memento_register_button">Създаване на акаунт</string>
     <string name="memento_have_button">Имам акаунт</string>
     <string name="login_empty">Въведете потребителско име</string>
     <string name="login_format_error">Данните за вход може да съдържат само букви и цифри</string>
