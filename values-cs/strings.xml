@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento - Připomínka</string>
     <string name="library_menu_add_item">Přidat záznam</string>
@@ -144,7 +144,7 @@
     <string name="activation_ok">Děkujeme za aktivaci Mementa</string>
     <string name="activation_error">Aktivační kód je chybný. Prosím, zadejte jej znovu.</string>
     <string name="about">O programu</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2019 LuckyDroid\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Zobrazit verzi softwaru</string>
     <string name="about_license_type">Licence:</string>
@@ -245,8 +245,7 @@
     <string name="copy_memento_to_gdocs">Záznamy z Mementa</string>
     <string name="copy_gdocs_to_memento">Záznamy z Google Sheets</string>
     <string name="edit_flex_title_disabled">Toto pole nemůže být přejmenováno, protože knihovna je spojená s Google Sheets</string>
-    <string name="cant_bind">Bezplatná verze Vám dovoluje spojit pouze dva knihovny s Google Sheets.
-Upgrade na PRO verzi zruší toto omezení.</string>
+    <string name="cant_bind">Bezplatná verze Vám dovoluje spojit pouze dve knihovny s Google Sheets.\nUpgrade na PRO verzi zruší toto omezení.</string>
     <string name="button_pro_version">PRO verze</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">Auto-vyplnění</string>

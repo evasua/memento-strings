@@ -153,8 +153,7 @@ Rozpocząć przywracanie?</string>
     <string name="activation_ok">Dziękujemy za aktywację Memento</string>
     <string name="activation_error">Niepoprawny kod aktywacyjny. Spróbuj ponownie.</string>
     <string name="about">O aplikacji</string>
-    <string name="copyright">Prawo autorskie © 2018 LuckyDroid
-Wszelkie prawa zastrzeżone</string>
+    <string name="copyright">Prawo autorskie © 2019 LuckyDroid\nWszelkie prawa zastrzeżone</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Sprawdzanie wersję aplikacji</string>
     <string name="about_license_type">Licencja:</string>
@@ -269,13 +268,11 @@ Google</string>
     <string name="copy_memento_to_gdocs">Wpisy z Memento</string>
     <string name="copy_gdocs_to_memento">Wpisy z Google Sheets</string>
     <string name="edit_flex_title_disabled">Nie może zmienić nazwy tego pola ponieważ biblioteka jest połączona z Arkuszem Google</string>
-    <string name="cant_bind">Darmowa wersja pozwala na połączenie z Arkuszem Google tylko dwóch bibliotek.
-Aktualizuj do wersji PRO, aby usunąć te ograniczenia.</string>
+    <string name="cant_bind">Darmowa wersja pozwala na połączenie z Arkuszem Google tylko dwóch bibliotek.\nAktualizuj do wersji PRO, aby usunąć te ograniczenia.</string>
     <string name="button_pro_version">Wersja PRO</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">Autouzupełnianie</string>
-    <string name="option_autofill_hint">Pole wyboru możliwych wartości z
-poprzednich wpisów</string>
+    <string name="option_autofill_hint">Pole wyboru możliwych wartości z\npoprzednich wpisów</string>
     <string name="capture_picture">Zrób zdjęcie</string>
     <string name="please_wait">Proszę czekać...</string>
     <!-- 1.4.0 -->
@@ -386,8 +383,7 @@ bibliotek użytkownika</string>
     <string name="flex_image_load">Ładowanie obrazu...</string>
     <string name="subscribed">Subskrybowana</string>
     <string name="info_public_library">Adres biblioteki</string>
-    <string name="cant_public">Darmowa wersja umożliwia Ci publikację tylko dwóch bibliotek.
-Uaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
+    <string name="cant_public">Darmowa wersja umożliwia Ci publikację tylko dwóch bibliotek.\nUaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
     <string name="add_permission_user_hint">Wprowadź nazwę użytkownika lub
 email</string>
     <string name="edit_pub_permissions">Prawa dostępu do biblioteki</string>
@@ -558,8 +554,7 @@ Przeszukiwanie zaszyfrowanych bibliotek będzie niemożliwe.</string>
     <string name="required_mark">wymagane</string>
     <string name="reset_master_password">Zresetuj hasło główne</string>
     <string name="reset_master_password_hint">Wszystkie zaszyfrowane biblioteki zostaną usunięte</string>
-    <string name="reset_master_quest">Czy chcesz zresetować hasło główne?
-Uwaga! Wszystkie zaszyfrowane biblioteki zostaną usunięte!</string>
+    <string name="reset_master_quest">Czy chcesz zresetować hasło główne?\nUwaga! Wszystkie zaszyfrowane biblioteki zostaną usunięte!</string>
     <string name="remove_encript_lib_dlg_msg">Usuń zaszyfrowane biblioteki</string>
     <string name="master_password_reset">Reset głównego hasła</string>
     <string name="edit_entry_screen_preference">Edycja wpisów</string>
@@ -572,8 +567,7 @@ Uwaga! Wszystkie zaszyfrowane biblioteki zostaną usunięte!</string>
     <string name="select_app">Wybierz aplikację</string>
     <string name="forum">Forum</string>
     <string name="autoincrement">Auto-przyrost</string>
-    <string name="cant_protect">Wersja darmowa pozwala zabezpieczyć tylko dwie biblioteki.
-Uaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
+    <string name="cant_protect">Wersja darmowa pozwala zabezpieczyć tylko dwie biblioteki.\nUaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
     <string name="flex_edit_option_title">Kiedy możesz edytować</string>
     <string name="flex_edit_option_default">Formularz edycji danych</string>
     <string name="flex_edit_option_in_list">lista rekordów</string>
@@ -677,8 +671,7 @@ Uaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
     <string name="change_password_success">Sprawdź skrzynkę pocztową.\nWysłaliśmy do ciebie wiadomość, która pozwoli ci łatwo i szybko zresetować hasło.</string>
     <string name="tile_options_text">tytuł</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
-    <string name="search_in_protected_libraries">Przeszukiwanie bibliotek chronionych hasłem
-(z wyjątkiem zaszyfrowanych)</string>
+    <string name="search_in_protected_libraries">Przeszukiwanie bibliotek chronionych hasłem\n(z wyjątkiem zaszyfrowanych)</string>
     <string name="stat_result_type">Format wyniku</string>
     <string name="backup_file_name_title">Nazwa pliku kopii bezpieczeństwa</string>
     <string name="backup_file_path_title">Folder kopii bezpieczeństwa</string>
@@ -769,8 +762,7 @@ Uaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
     <string name="selected">%s wybrane</string>
     <string name="delete_template_from_google_drive_question">Czy na pewno chcesz usunąć zaznaczone biblioteki z Dysk Google?</string>
     <string name="delete_data_table_from_google_drive">Usuwanie danych arkuszy powiązanych z szablonami</string>
-    <string name="lock_library_edit_message">Zmiany w strukturze biblioteki są zablokowane.
-Możesz włączyć możliwość edycji w opcjach dla tej biblioteki.</string>
+    <string name="lock_library_edit_message">Zmiany w strukturze biblioteki są zablokowane.\nMożesz włączyć możliwość edycji w opcjach dla tej biblioteki.</string>
     <string name="lock_edit_library_pref_title">Blokada struktury</string>
     <string name="lock_edit_library_pref_summary_on">Zmiany w strukturze biblioteki są zablokowane</string>
     <string name="lock_edit_library_pref_summary_off">Zmiany w strukturze biblioteki są odblokowane</string>
@@ -982,9 +974,7 @@ Możesz włączyć możliwość edycji w opcjach dla tej biblioteki.</string>
     <string name="csv_import_errors_count">Błędy:</string>
     <string formatted="false" name="csv_import_error_item">Wiersz %d - %s</string>
     <string name="undo_button">Cofnij</string>
-    <string name="google_sync_without_memento_id_text">Ta biblioteka jest synchronizowana przy pomocy starej metody, która może zawierać potencjalne błędy.
-Wykonaj przeniesienie biblioteki do nowej tabeli, stosując nową metodę.
-Uruchomić przetwarzanie?</string>
+    <string name="google_sync_without_memento_id_text">Ta biblioteka jest synchronizowana przy pomocy starej metody, która może zawierać potencjalne błędy.\nWykonaj przeniesienie biblioteki do nowej tabeli, stosując nową metodę.\nUruchomić przetwarzanie?</string>
     <string name="rating_field_max_value">Ocena maksimum</string>
     <string name="auto_fill_barcode_empty2">Porównaj atrybuty autokompletacji źródła i pól wpisu</string>
     <string name="barcode_rule_delete_text">Czy rzeczywiście chcesz usunąć regułę autokompletacji dla pola \"%s\" ?</string>
@@ -1228,8 +1218,7 @@ Uruchomić przetwarzanie?</string>
     <string name="upload_file_to_cloud">Przesyłanie pliku...</string>    
     <string name="upload_files_to_cloud">Przesyłanie plików</string>
     <string name="cloud_upload_error_title">Nie można zsynchronizować tej biblioteki</string>
-    <string name="upload_big_file_error" formatted="false">Wpis %s zawiera zbyt duże pliki %s (%s).
-Maksymalny rozmiar pliku to %s.</string>
+    <string name="upload_big_file_error" formatted="false">Wpis %s zawiera zbyt duże pliki %s (%s).\nMaksymalny rozmiar pliku to %s.</string>
     <string name="prepare_library_for_cloud">Przetwarzanie biblioteki...</string>
     <string name="download_files_from_cloud">Pobieranie plików z chmury...</string>
     <string name="cant_download_item_files_for_copy">Nieudane pobieranie plików w celu utworzenia kopii.</string> 
