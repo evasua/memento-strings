@@ -142,7 +142,7 @@
     <string name="activation_ok">Grazie per aver acquistato la versione PRO di Memento</string>
     <string name="activation_error">La chiave di attivazione non è valida. Riprova.</string>
     <string name="about">Informazioni</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid\nTutti i diritti riservati</string>
+    <string name="copyright">Copyright © 2019 LuckyDroid\nTutti i diritti riservati</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Mostra la versione dell\'applicazione</string>
     <string name="about_license_type">Licenza:</string>
@@ -240,8 +240,7 @@
     <string name="copy_memento_to_gdocs">Elementi da Memento</string>
     <string name="copy_gdocs_to_memento">Elementi da Google Docs</string>
     <string name="edit_flex_title_disabled">Questo campo non può essere rinominato perché la libreria è collegata a Google Docs</string>
-    <string name="cant_bind">La versione gratuita ti permette di collegare al massimo due librerie con Google Docs.
-Passa alla versione PRO per annullare questa limitazione.</string>
+    <string name="cant_bind">La versione gratuita ti permette di collegare al massimo a due librerie con Google Docs.\nPassa alla versione PRO per annullare questa limitazione.</string>
     <string name="button_pro_version">versione PRO</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">Autocompletamento</string>
