@@ -142,7 +142,8 @@
     <string name="activation_ok">Merci pour l\'activation de Memento</string>
     <string name="activation_error">Le code d\'activation est invalide. Merci de réessayer.</string>
     <string name="about">A propos</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid\nTout droits réservés</string>
+    <string name="copyright">Copyright © 2019 LuckyDroid
+Tout droits réservés</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Version du logiciel</string>
     <string name="about_license_type">Licence :</string>
@@ -1739,7 +1740,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="repository_data_sources_hint">Sources de données pour autoremplissage</string>
     <string name="warning">Attention</string>
     <string name="add_javascript_library">Ajouter des bibliothèques javascript...</string>
-    <string name="add_repository">Ajouter un référentiel</string>
+    <string name="add_repository">Ajouter un référentiel GiHub</string>
     <string name="repository_location_hint">URL du référentiel GitHub</string>
     <string name="repository_location_error">Indiquer le lien HTTPS du référentiel GitHub. Exemple : https://github.com/username/repo-name</string>
     <string name="repository_not_found_error">Impossible de trouver le référentiel : %s</string>
@@ -1992,4 +1993,78 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="begin_year">Début</string>
     <string name="end_year">Fin</string>
     <string name="years_range_wrong">L\'année de fin doit être supérieure ou égale à l\'année de début</string>
+<string name="orientation_portrait">Portrait</string>
+    <string name="orientation_landscape">Paysage</string>
+    <string name="scale_mode">Ajuster à la taille</string>
+    <string name="scale_size">Échelle</string>
+    <string name="pdf_scale_mode_crop">Rogner</string>
+    <string name="pdf_scale_mode_expand">Agrandir</string>
+    <string name="pdf_scale_mode_fit">Ajuster</string>
+    <string name="workplace">Espace de travail</string>
+    <string name="share_filters">Partager les filtres</string>
+    <string name="share_charts">Partager les graphiques</string>
+    <string name="shared_by">Partagé par %s</string>
+    <string name="share_workplace_limit">Désolé, le partage des graphiques et des filtres nécessitent un abonnement Équipe.</string>
+    <string name="bulk_action">Action par lot</string>
+    <string name="action_context_bulk_actions">Menu des actions par lot</string>
+    <string name="move_to">Déplacer vers...</string>
+    <string name="copy_to">Copier vers...</string>
+    <string name="move_to_no_libraries">Could not find libraries compatible with the current library.
+Please create an entries transfer rule to migrate to any library.</string>
+    <string name="migrate">Migrer</string>
+    <string name="barcode_display_error">Désolé, création de code-barres impossible avec les données fournies</string>
+    <string name="barcode_format">Format de code-barres</string>
+    <string name="barcode_format_auto">Autodétection</string>
+    <string name="orientation">Orientation</string>
+    <string name="paper_size">Taille du papier</string>
+    <string name="camera_permission_title">Appareil photo</string>
+    <string name="camera_permission_required_text">Pour permettre la capture d\'une image, l\'accès à l\'appareil photo est nécessaire. Aller aux Paramètres pour donner la permission.</string>
+    <string name="require_external_audio_app">Mémento utilise une application externe d\'enregistrement audio. Souhaitez-vous l\'installer ?</string>
+
+
+    <string name="agree_terms_privacy">"En créant un compte, vous acceptez  "<a href="https://mementodatabase.com#terms">les Conditions d\'utilisation</a> et <a href="http://mementodatabase.com#privacy_policy">la Politique de confidentialité</a> de Memento.</string>
+    <string name="enter_email_address_hint">Merci de saisir votre adresse email.</string>
+    <string name="duration_label_days">j</string>
+    <string name="duration_label_hours">h</string>
+    <string name="duration_label_minutes">m</string>
+    <string name="duration_label_seconds">s</string>
+    <string name="duration_label_mseconds">ms</string>
+    <string name="duration_precision_option_title">Précision pour la durée</string>
+    <string name="duration_precision_min">Unité minimum</string>
+    <string name="duration_precision_max">Unité maximum</string>
+    <string name="duration_precision_wrong">L\'unité maximum doit être supérieure ou égale à l\'unité minimum</string>
+    <plurals name="duration_ms">
+	<item quantity="one">1 ms</item>
+	<item quantity="other">%d ms</item>
+</plurals>
+    <string name="duration_display_format_option_title">Format de durée</string>
+    <string name="duration_display_format_short">Court</string>
+    <string name="duration_display_format_long">Long</string>
+    <string name="type_desc_duration">Un champ Durée peut contenir une valeur utilisée pour représenter une durée mesurée en jours, heures, minutes, secondes ou millisecondes.</string>
+
+    <plurals name="after_entries_multiedit_message">
+	<item quantity="one">Un enregistrement a été modifié</item>
+	<item quantity="other">%d enregistrements ont été modifiés</item>
+</plurals>
+
+    <string name="locals_js_libraries">Locales</string>
+    <string name="js_libraries_add_url">Ajouter une URL</string>
+    <string name="js_file_url">URL d\'un fichier JavaScript</string>
+    <string name="js_file_url_error">Indiquer le lien HTTP/HTTPS au fichier JavaScript.</string>
+    <string name="js_file_url_not_found">Impossible de trouver le fichier JavaScript à cette URL : %S</string>
+    <string name="image_capture_size">Taille de capture de l\'image</string>
+    <string name="image_capture_size_original">Originale</string>
+    <string name="max_width">Largeur maximum</string>
+    <string name="max_height">Hauteur maximum</string>
+    <string name="speech_recognition_not_supported">La reconnaissance de la parole n\'est pas supportée</string>
+
+    <string name="templates_category_personal">Personnel</string>
+    <string name="templates_category_collections">Collections</string>
+    <string name="templates_category_business">Affaires</string>
+    <string name="templates_category_healthy">Santé et Sport</string>
+    <string name="templates_category_travel">Voyage</string>
+    <string name="templates_category_edu">Éducation</string>
+    <string name="board_games">Jeux de société</string>
+    <string name="new_database">Nouvelle base de donnees</string>
+
 </resources>
