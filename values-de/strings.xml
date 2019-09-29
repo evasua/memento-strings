@@ -1387,7 +1387,7 @@ Löschen Sie die lokale Kopie der Sammlung und laden Sie die Sammlung dann erneu
     <string name="permission_storage_explanation_text">Speicherzugang ist notwendig, um Dateien zwischenzuspeichern, zu sichern und Dateianhänge zu speichern.</string>
     <string name="permission_accounts_title">Konten</string>
     <string name="permission_location_title">Ort</string>
-    <string name="one_row_with_previous">Eine Zeile mit Vorschau</string>
+    <string name="one_row_with_previous">Darstellung in einer Zeile</string>
     <string name="font_default_title">Standardschriftart</string>
     <plurals name="notification_edit_library_common_text">
 	<item quantity="one">%d ungelesene Änderung</item>
