@@ -514,7 +514,7 @@
     <string name="from_file">從檔案</string>
     <string name="login">登入</string>
     <string name="sign_up">註冊</string>
-    <string name="memento_cloud2">Memento Cloud</string>
+    <string name="memento_cloud2">Memento 雲儲存</string>
 
     <string name="bulk_add">批量添加</string>
     <string name="next_button">下一步</string>
@@ -538,8 +538,8 @@
     <string name="master_password_reset">主密碼重設副本</string>
     <string name="edit_entry_screen_preference">編輯記錄</string>
     <string name="edit_entry_screen_preference_summary">表單參數建立編輯記錄</string>
-    <string name="auto_show_soft_keyboard">顯示軟鍵盤</string>
-    <string name="auto_show_soft_keyboard_summary">當表單打開-打開軟鍵盤</string>
+    <string name="auto_show_soft_keyboard">顯示軟體鍵盤</string>
+    <string name="auto_show_soft_keyboard_summary">當表單打開-打開軟體鍵盤</string>
     <string name="flex_type_file">連結到檔案</string>
     <string name="file_size">檔案大小: %s</string>
     <string name="file_not_found">找不到檔案</string>
@@ -720,7 +720,7 @@
     <string name="files_storage_settings_screen">檔案儲存</string>
     <string name="files_storage_settings_screen_summary">放入圖片及其他檔案</string>
     <string name="files_storage_settings_path_title">檔案儲存資料夾</string>
-    <string name="files_storage_settings_dublicate_title">複制到儲存</string>
+    <string name="files_storage_settings_dublicate_title">複製到儲存媒體</string>
     <string name="files_storage_settings_remove_original_title">刪除原檔案</string>
     <string name="backup_files_error">備份過程中發現錯誤: %s</string>
     <string name="restore_files_message">備份檔案中找到已連結到資料庫的封存檔案，你要還原它們嗎?</string>
@@ -728,8 +728,8 @@
     <string formatted="false" name="restore_files_error_message">封存檔案還原失敗: %s</string>
     <string name="start_reindex_title">重編索引</string>
     <string name="reindex_complete_message">重編索引已完成</string>
-    <string name="files_storage_settings_dublicate_summary">連接到記錄的檔案將被複制到儲存資料夾</string>
-    <string name="files_storage_settings_remove_original_summary">複制完成後，刪除原有檔案</string>
+    <string name="files_storage_settings_dublicate_summary">連接到記錄的檔案將被複製到儲存資料夾</string>
+    <string name="files_storage_settings_remove_original_summary">複製完成後，刪除原有檔案</string>
     <string name="dublicate_file_error">"未能移動檔案到儲存資料庫: "</string>
     <string name="select_map_type">地圖的種類</string>
     <string name="normal">正常</string>
@@ -1681,7 +1681,7 @@
     <string name="repository_data_sources_hint">自動填寫的資料來源</string>
     <string name="warning">警告</string>
     <string name="add_javascript_library">新增 javascript 函式庫...</string>
-    <string name="add_repository">新增 repository</string>
+    <string name="add_repository">新增 GitHub的容器檔</string>
     <string name="repository_location_error">指定 GitHub repository 的 HTTPS 連結。舉例: https://github.com/username/repo-name</string>
     <string name="repository_not_found_error">找不到 repository: %s</string>
     <string name="repository_delete_message">您真的想刪除「%s」repository 嗎？</string>
@@ -1741,37 +1741,37 @@
     <string name="themoviedb_source">themoviedb.org</string>
     <string name="themoviedb_source_tv">TV</string>
 
-    <string name="flex_type_rich_text">Rich Text 文件编辑器</string>
+    <string name="flex_type_rich_text">Rich Text 文件編輯器</string>
     <string name="script">Script</string>
     <string name="js_libraries">JavaScript 函式庫</string>
     <string name="powered_by_text">由Memento Database提供技術</string>
 
-    <string name="cloud_plan_plan3">Lite</string>
-    <string name="cloud_plan_plan6">Pro</string>
-    <string name="cloud_plan_plan10">Pro Plus</string>
+    <string name="cloud_plan_plan3">精簡版</string>
+    <string name="cloud_plan_plan6">專業版</string>
+    <string name="cloud_plan_plan10">專業加強版</string>
     <string name="memento_server_settings_group">Memento 伺服器</string>
     <string name="memento_server_private_hint">host:port</string>
     <string name="latitude_longitude_hint">緯度,經度</string>
     <string name="uom_bit">bit</string>
     <string name="uom_byte">Byte</string>
-    <string name="uom_kilobit">Kilobit</string>
+    <string name="uom_kilobit">千位元</string>
     <string name="uom_kilobyte">KB</string>
-    <string name="uom_megabit">Megabit</string>
+    <string name="uom_megabit">兆位元</string>
     <string name="uom_megabyte">MB</string>
-    <string name="uom_gigabit">Gigabit</string>
+    <string name="uom_gigabit">千兆</string>
     <string name="uom_gigabyte">GB</string>
     <string name="uom_terabit">Terabit</string>
     <string name="uom_terabyte">TB</string>
     <string name="uom_petabit">Petabit</string>
     <string name="uom_petabyte">PB</string>
 
-    <string name="repository_location_hint">GitHub Repository URL</string>
+    <string name="repository_location_hint">GitHub 儲存庫超連結</string>
     <string name="scripts">Scripts</string>
     <string name="monthly_plan">每月</string>
     <string name="yearly_plan">每年</string>
     <string name="cloud_plan_plan3_annual">Lite</string>
-    <string name="cloud_plan_plan6_annual">Pro</string>
-    <string name="cloud_plan_plan10_annual">Pro Plus</string>
+    <string name="cloud_plan_plan6_annual">專業版</string>
+    <string name="cloud_plan_plan10_annual">專業加強版</string>
     <string name="price_per_year">%s/年</string>
 
     <string name="frozen_alien_text">此資料庫已被凍結，請聯絡資料庫擁有者 (%s)。</string>
@@ -1972,4 +1972,78 @@
     <string name="begin_year">開始</string>
     <string name="end_year">結束</string>
     <string name="years_range_wrong">結束年份必須等於或大於起始年份</string>
-</resources>
+<string name="orientation_portrait">直式畫面</string>
+    <string name="orientation_landscape">橫式畫面</string>
+    <string name="scale_mode">符合畫面</string>
+    <string name="scale_size">比例</string>
+    <string name="pdf_scale_mode_expand">延伸</string>
+    <string name="pdf_scale_mode_fit">符合畫面</string>
+    <string name="share_filters">分享過濾器</string>
+    <string name="share_charts">分享圖表</string>
+    <string name="shared_by">以 %s 分享</string>
+    <string name="bulk_action">批量處理</string>
+    <string name="action_context_bulk_actions">批量處理選單</string>
+    <string name="move_to">搬移到 ...</string>
+    <string name="copy_to">複製到 ...</string>
+    <string name="move_to_no_libraries">無法找到與目前相容的函式庫.
+請建立一個紀錄轉換規則來轉移到任何函式庫.</string>
+    <string name="migrate">轉移</string>
+    <string name="barcode_display_error">抱歉，無法從提供的資料編碼成條碼</string>
+    <string name="barcode_format">條碼格式</string>
+    <string name="barcode_format_auto">自動偵測</string>
+    <string name="orientation">畫面轉向</string>
+    <string name="paper_size">紙張大小</string>
+    <string name="camera_permission_title">相機</string>
+    <string name="camera_permission_required_text">為了擷取影像，我們必須存取你的相機。請到設定值開啟權限。</string>
+    <string name="require_external_audio_app">Memento使用外部錄音程式，你要安裝它嗎？</string>
+
+
+    <string name="agree_terms_privacy">建立帳號前，你必須同意Memento <a href="https://mementodatabase.com#terms">Terms of Use</a> 和 <a href="http://mementodatabase.com#privacy_policy">隱私政策</a>.</string>
+    <string name="enter_email_address_hint">請輸入你的電子郵件位址</string>
+    <string name="duration_label_days">日</string>
+    <string name="duration_label_hours">時</string>
+    <string name="duration_label_minutes">分</string>
+    <string name="duration_label_seconds">秒</string>
+    <string name="duration_label_mseconds">毫秒</string>
+    <string name="duration_precision_option_title">時間精度</string>
+    <string name="duration_precision_min">最小單位</string>
+    <string name="duration_precision_max">最大單位</string>
+    <string name="duration_precision_wrong">最大單位必須大於等於最小單位</string>
+    <plurals name="duration_ms">
+	<item quantity="one">%d ms</item>
+	<item quantity="other"/>
+</plurals>
+    <string name="duration_display_format_option_title">時間格式</string>
+    <string name="duration_display_format_short">短格式</string>
+    <string name="duration_display_format_long">長格式</string>
+    <string name="type_desc_duration">時間欄位須包含數值，以表示日/時/分/秒/毫秒。</string>
+
+    <plurals name="after_entries_multiedit_message">
+	<item quantity="one">%d 筆紀錄已經被修編輯</item>
+	<item quantity="other"/>
+</plurals>
+
+    <string name="locals_js_libraries">本地化翻譯</string>
+    <string name="js_libraries_add_url">加入超連結</string>
+    <string name="js_file_url">JavaScript 檔案的超連結</string>
+    <string name="js_file_url_error">描述 HTTP/HTTPS 連結到 JavaScript 檔案.</string>
+    <string name="js_file_url_not_found">無法找到JavaScript 檔案於這個超連結: %S</string>
+    <string name="image_capture_size">截圖大小</string>
+    <string name="image_capture_size_original">原始大小</string>
+    <string name="max_width">最大寬度</string>
+    <string name="max_height">最大高度</string>
+    <string name="speech_recognition_not_supported">不支援語音辨識</string>
+
+    <string name="templates_category_personal">個人的</string>
+    <string name="templates_category_collections">收集</string>
+    <string name="templates_category_business">商務</string>
+    <string name="templates_category_healthy">健康與運動</string>
+    <string name="templates_category_travel">旅遊</string>
+    <string name="templates_category_edu">教育</string>
+    <string name="board_games">棋盤遊戲</string>
+    <string name="new_database">新資料庫</string>
+
+<string name="pdf_scale_mode_crop">裁切</string>
+    <string name="workplace">工作區</string>
+    <string name="share_workplace_limit">抱歉，你無法在Team tariffs分享圖表或過濾器.</string>
+    </resources>

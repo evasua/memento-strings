@@ -1715,7 +1715,7 @@
     <string name="repository_data_sources_hint">用于自动填充的数据源</string>
     <string name="warning">警告</string>
     <string name="add_javascript_library">添加JavaScript库...</string>
-    <string name="add_repository">添加存储库</string>
+    <string name="add_repository">添加GitHub存储库</string>
     <string name="repository_location_hint">GitHub存储库URL</string>
     <string name="repository_location_error">指定GitHub存储库的HTTPS链接。 例如：https://github.com/username/repo-name</string>
     <string name="repository_not_found_error">找不到存储库：％s</string>

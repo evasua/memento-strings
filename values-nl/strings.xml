@@ -142,7 +142,7 @@
     <string name="activation_ok">Bedankt voor het activeren van Memento</string>
     <string name="activation_error">Activatiecode is onjuist. Probeer het nogmaals.</string>
     <string name="about">Over</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid\nAlle rechten voorbehouden</string>
+    <string name="copyright">Copyright © 2019 LuckyDroid\nAlle rechten voorbehouden</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Bekijk softwareversie</string>
     <string name="about_license_type">Licentie:</string>
@@ -240,8 +240,7 @@
     <string name="copy_memento_to_gdocs">Objecten in Memento</string>
     <string name="copy_gdocs_to_memento">Objecten in Google Sheets</string>
     <string name="edit_flex_title_disabled">Dit veld kan niet hernoemd worden omdat de verzameling gelinkt is naar Google Sheets</string>
-    <string name="cant_bind">De gratis versie staat maximaal twee links van verzamelingen naar Google Sheets toe.
-Upgrade naar de PRO versie om deze limiet op te heffen.</string>
+    <string name="cant_bind">De gratis versie staat maximaal twee links van verzamelingen naar Google Sheets toe.\nUpgrade naar de PRO versie om deze limiet op te heffen.</string>
     <string name="button_pro_version">PRO versie</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">auto-aanvullen</string>
