@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="call">Pozovi</string>
     <string name="send_sms">Pošalji SMS poruku</string>
     <string name="light_theme">Svetla tema</string>
@@ -63,4 +63,6 @@
     <string name="edit_library_tabs_aggr">OBJEDINJENO</string>
     <string name="auto_backup_time_always">Svaki put</string>
     <string name="calc_result_types_string">Rezultat niza</string>
+    <string name="datetime_filter_items_custom">Željeno</string>
+    <string name="db_location_pref_custom">Željeno</string>
     </resources>
