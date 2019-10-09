@@ -1517,7 +1517,7 @@
     <string name="trigger_permission_write_file">Escribir archivos</string>
     <string name="trigger_permission_write_file_hint">Permite que los scripts escriban en el almacenamiento externo</string>
     <string name="trigger_permission_network">Red</string>
-    <string name="trigger_permission_network_hint">Permite a los scripts ejecutar peticiones HTTP</string>
+    <string name="trigger_permission_network_hint">Permite a los scripts ejecutar peticiones HTTP y enviar correos.</string>
 
     <string name="trigger_permission_libraries">Bibliotecas</string>
     <string name="trigger_permission_libraries_hint">Acceso a todas las bibliotecas</string>
@@ -1705,7 +1705,7 @@
     <string name="edit_subheader">Modificar sub encabezado</string>
     <string name="add_user_group">Añadir grupo de usuario</string>
     <string name="users_count_none">Sin usuarios</string>
-    <string name="pro_for_team">Funcionalidades Pro para todos los usuarios del equipo</string>
+    <string name="pro_for_team">" Funcionalidades Pro para todos los usuarios del equipo"</string>
     <string name="team_features_trial">Todos los planes incluyen 14 días de prueba gratis.</string>
 
     <string name="tasker_plugin_create_entry_event_title">Entrada creada</string>
@@ -1744,7 +1744,7 @@
     <string name="repository_data_sources_hint">Fuentes de datos para el autocompletado</string>
     <string name="warning">Advertencia</string>
     <string name="add_javascript_library">Añadir librerías de JavaScript...</string>
-    <string name="add_repository">Añadir contenedor</string>
+    <string name="add_repository">Añadir contenedor GitHub</string>
     <string name="repository_not_found_error">No se puede encontrar el contenedor: %s</string>
     <string name="repository_delete_message">¿Seguro que deseas eliminar el contenedor \"%s\"?</string>
     <string name="repository_other">Otros</string>
@@ -1930,4 +1930,52 @@
     <string name="pro_feature_3">Número ilimitado de gráficos</string>
     <string name="pro_feature_4">Número ilimitado de «scripts»</string>
     <string name="pro_feature_5">Búsqueda avanzada</string>
+    <string name="link_attributes_empty_text">Este campo no tiene atributos para los enlaces.</string>
+    <string name="pro_feature_7">Editando múltiples entradas</string>
+    <string name="pro_license_activated">Activada la licencia</string>
+    <string name="pro_features_title">Funcionalidades Pro</string>
+    <string name="activate_with_key">Activar con una clave</string>
+    <string name="plans_and_pricing">Planes y Precios</string>
+    <string name="email_or_username">Correo o nombre de usuario</string>
+    <string name="sign_in_with_google">Continuar con Google</string>
+    <string name="minimum_pass_length">La contraseña debe tener un mínimo de %d caracteres.</string>
+    <string name="please_sign_in">Por favor, firme en Memento Cloud.</string>
+    <string name="sign_up_or_sign_in">Regístrese o inicie sesión</string>
+    <string name="auth_error_title">Error de autenticación</string>
+    <string name="auth_error_text">Ha ocurrido un error, por favor vuelva a autenticar %s.</string>
+    <string name="logout">Desconectar</string>
+    <string name="logout_confirmation">¿Está seguro de querer desconectarse?</string>
+    <string name="current_plan">Plan vigente</string>
+    <string name="change_password">Cambio de contraseña</string>
+    <string name="current_password">Contraseña vigente</string>
+    <string name="new_password">Nueva contraseña</string>
+    <string name="password_changed_message">¡Su contraseña ha sido cambiada con éxito!</string>
+    <string name="sign_in_error">No ha podido entrar</string>
+    <string name="choose_username">Eliga su nombre de usuario</string>
+    <string name="account_without_password_message">Esta cuenta de Google no cuenta con contraseña. Inténtelo usando el botón \"Continúe con Google\".</string>
+    <string name="template_not_found_by_uri">Plantilla no encontrada</string>
+    <string name="search_index_tokenizer">Analizador léxico</string>
+
+    <string name="permission_contacts_title">Contactos</string>
+    <string name="boolean_format">Formato</string>
+    <string name="revision_history">Histórico de versiones</string>
+    <string name="revision_current_version">Versión vigente</string>
+    <string name="revision_action_edit">Cambiado %s</string>
+    <string name="revision_action_create">Creada entrada %s</string>
+    <string name="revert_to_version">Volver a esta versión</string>
+    <string name="barcode_type_nfc">NFC</string>
+    <string name="move_to">Mover a...</string>
+    <string name="copy_to">Copiar en...</string>
+    <string name="migrate">Migrar</string>
+    <string name="barcode_format_auto">Autodetección</string>
+    <string name="orientation">Orientación</string>
+    <string name="paper_size">Tamaño del papel</string>
+    <string name="camera_permission_title">Cámara</string>
+    <string name="enter_email_address_hint">Por favor, escriba su dirección de correo-e</string>
+    <string name="pro_feature_8">Widget app a mano</string>
+    <string name="permission_contacts_text">Se requiere para permitir el acceso de Memento a los contactos en el tipo de campo Contacto.</string>
+    <string name="revert_to_version_message">¿Está seguro de querer volver a la versión desde %S?</string>
+    <string name="revision_history_only_for_cloud">El histórico de versiones sólo está disponible para las bibliotecas que han sido cargadas en la nube y en las cuentas PRO o TEAM.</string>
+    <string name="pending_user">En espera...</string>
+    <string name="uom_custom_name">Nombre de la unidad</string>
     </resources>
