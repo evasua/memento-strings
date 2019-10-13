@@ -648,9 +648,9 @@ Tout droits réservés</string>
     <string name="field_depends_activity_title">Dépendances</string>
     <string name="no_dependencies">pas de dépendances</string>
     <plurals name="field_depends_count">
-	<item quantity="one">Une dépendance</item>
-	<item quantity="other">Plusieurs dépendances</item>
-</plurals>
+	    <item quantity="one">Une dépendance</item>
+	    <item quantity="other">%d dépendances</item>
+    </plurals>
     <string name="add_depends_button_title">Ajouter une dépendance</string>
     <string name="select_type_depends">Sélectionner le type de dépendance</string>
     <string name="select_type_depends_spinner_title">Type de dépendance</string>
@@ -1007,7 +1007,7 @@ Tout droits réservés</string>
     <string name="string_list_import_error">Erreur lors de l\'importation : %s</string>
     <string name="something_wrong_dialog_title">Anomalie</string>
     <plurals name="string_list_import_snackbar_ok">
-	<item quantity="one">0 item importé</item>
+	<item quantity="one">%d item importé</item>
 	<item quantity="other">%d items importés</item>
 </plurals>
     <string name="import_template_error">Erreur à l\'importation du modèle : %</string>
@@ -1083,10 +1083,8 @@ Tout droits réservés</string>
 	<string name="show_deleted_entries_menu_item">Montrer les enregistrements supprimés</string>
 	<string name="upload_to_cloud_menu_item">Vers le net</string>
 	<string name="welcome_text_title">Bienvenue sur la Base de Données Memento</string>
-	<string name="welcome_text_description">La base de données est le lieu de stockage de vos informations.
-Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'un des modèles fournis.</string>	
-	
-<string name="featured_templates">Mis en avant</string>
+	<string name="welcome_text_description">La base de données est le lieu de stockage de vos informations.\nVous pouvez vous familiariser avec Memento en créant une base inspirée de l\'un des modèles fournis.</string>
+    <string name="featured_templates">Mis en avant</string>
 	<string name="need_make_slave_library_unique">Pour synchroniser le \"lien avec l\'enregistrement\" il faut d\'abord activer le contrôle de l\'unicité de l\'identifiant des enregistrements dans la base à laquelle le lien se réfère. Voulez-vous le faire maintenant ?</string>
 	<string name="need_make_slave_library_unique_import">Pour importer le \"lien avec l\'enregistrement\" il faut d\'abord activer le contrôle de l\'unicité de l\'identifiant des enregistrements dans la base à laquelle le lien se réfère. Voulez-vous le faire maintenant ?</string>
 	<string name="memento_cloud">Nuage Memento</string>
@@ -1111,9 +1109,9 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
 	<string name="cloud_conflict_fields_title">Conflits</string>
 	<string name="cloud_conflict_fix_button_title">Réparer</string>
     <plurals name="conflict_count">
-	<item quantity="one">Un conflit s\'est produit durant la synchronisation</item>
+	<item quantity="one">%d conflit s\'est produit durant la synchronisation</item>
 	<item quantity="other">%d conflits se sont produits durant la synchronisation</item>
-</plurals>
+    </plurals>
     <string name="button_select">Sélectionner</string>
     <string name="cloud">Nuage</string>
     <string name="library_not_in_cloud">Hors nuage</string>
@@ -1201,10 +1199,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Base non trouvée</string>
 	<string name="upload_to_cloud_offer_title">{Cloud ready...}</string>
-	<string name="upload_to_cloud_offer_text">• Travail en équipe
-• Synchronisation entre matériels
-• Sauvegarde toujours présente dans le nuage
-• Historique des versions</string>
+	<string name="upload_to_cloud_offer_text">• Travail en équipe\n• Synchronisation entre matériels\n• Sauvegarde toujours présente dans le nuage\n• Historique des versions</string>
 	<string name="button_no_thanks">Non, merci</string>
 	<string name="button_upload">Téléverser</string>
 	
@@ -1214,7 +1209,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
 	<string name="cant_add_yourself">Vous ne pouvez pas vous ajouter</string>    
 
 		        	
-<string name="select_template_title">Choisir un modèle</string>
+    <string name="select_template_title">Choisir un modèle</string>
 	<string name="empty_library_title">Base vide</string>
 	<string name="templates">Modèles</string>
 	<string name="import_template_from_file_hint">Importer un modèle depuis un fichier</string>
@@ -1229,7 +1224,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
 	<string name="success_clear_search_history">Votre historique de recherche a été effacé</string>	
 	<string name="clear_search_history_quest">Etes-vous sûr de vouloir effacer votre historique de recherche ?</string>
 		        	
-<string name="remove_from_old_public">Avant le téléversement de la base vers le nuage, elle sera dépubliée si elle a été publiée par des méthodes obsolètes.</string>
+    <string name="remove_from_old_public">Avant le téléversement de la base vers le nuage, elle sera dépubliée si elle a été publiée par des méthodes obsolètes.</string>
 	<string name="catalog_templates_title">Catalogue en ligne</string>
 	<string name="catalog_templates_hint">Plus de 3000 modèles</string>
 	<string name="add_lib_from_google_drive_hint">Restaurer depuis Google Drive</string>
@@ -1301,7 +1296,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <plurals name="rating_tooltips_count">
 	<item quantity="one">%d aide</item>
 	<item quantity="other">%d aides</item>
-</plurals>
+    </plurals>
     <string name="calculator">Calculatrice</string>
     <string name="calculator_options_hint">Ajouter un bouton pour afficher la calculatrice</string>
     <string name="filter_by_number">Filtrer par nombre</string>
@@ -1309,7 +1304,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="multiediting_only_in_pro">L\'édition de plusieurs enregistrements n\'est disponible que dans la version PRO.</string>
     <string name="multiediting_title">Edition multiple</string>
     
-<string name="need_reload_library_from_cloud_encrypted">Les copies de la base dans le nuage sont chiffrées.\nSupprimer la copie locale de la base, puis télécharger la base à nouveau depuis le nuage.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Les copies de la base dans le nuage sont chiffrées.\nSupprimer la copie locale de la base, puis télécharger la base à nouveau depuis le nuage.</string>
     <string name="need_reload_library_from_cloud_decrypted">Les copies de la base dans le nuage sont déchiffrées.\nSupprimer la copie locale de la base, puis télécharger la base à nouveau depuis le nuage.</string>
 
     <string name="select_all">Tout sélectionner</string>
@@ -1329,7 +1324,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <plurals name="notification_edit_library_common_text">
 	<item quantity="one">%d modification non lue</item>
 	<item quantity="other">%d modifications non lues</item>
-</plurals>
+    </plurals>
 
     <string name="notification_edit_library_create_text">enregistrement ajouté</string>
     <string name="notification_edit_library_edit_text">enregistrement modifié</string>
@@ -1337,7 +1332,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <plurals name="notification_comments_common_text">
 	<item quantity="one">%d nouveau commentaire</item>
 	<item quantity="other">%d nouveaux commentaires</item>
-</plurals>
+    </plurals>
 
     <string name="flex_type_rich_text">Texte riche</string>
     <string name="text_background_color">Couleur d\'arrière plan</string>
@@ -1383,14 +1378,14 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="need_permission_dialog_title">Autorisation obligatoire</string>
     <string name="need_permission_dialog_text">Cette opération nécessite l\'autorisation système - %s</string>
     
-<string name="unlock_linked_library_text">La base liée est chiffrée, vous devez saisir le mot de passe maitre</string>
+    <string name="unlock_linked_library_text">La base liée est chiffrée, vous devez saisir le mot de passe maitre</string>
     <string name="preview_calc_exec_time">Temps d\'exécution : %d ms</string>
     <string name="group_by_and">Tous (AND)</string>
     <string name="group_by_or">N\'importe lequel (OR)</string>
     <string name="field_delimiters">Délimiteur de champ</string>
     <string name="field_enclosed">Marqueur de texte</string>
     
-<string name="users_manager">Gestion des utilisateurs</string>
+    <string name="users_manager">Gestion des utilisateurs</string>
     <string name="create_new_user_dialog">Créer un nouvel utilisateur</string>
 
     <string name="script">Script</string>
@@ -1416,7 +1411,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string formatted="false" name="of_counter">%d de %d</string>
 
 
-<string name="lost_database_text">Impossible d\'ouvrir le fichier base de données, vérifier s\'il est présent dans le chemin indiqué</string>
+    <string name="lost_database_text">Impossible d\'ouvrir le fichier base de données, vérifier s\'il est présent dans le chemin indiqué</string>
     <string name="upload_to_cloud">Téléversez sur le Cloud</string>
     <string name="multi_choice_delimiter">Délimiteur</string>
     <string name="cloud_plan_free">Gratuit</string>
@@ -1446,14 +1441,14 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
 
     <string name="no_comments">Pas de commentaires</string>
     <plurals name="comments_count">
-	<item quantity="one">1 commentaire</item>
+	<item quantity="one">%d commentaire</item>
 	<item quantity="other">%d commentaires</item>
-</plurals>
+    </plurals>
     <string name="comments_only_for_cloud">Les commentaires ne peuvent ^ter publiés que sur les bases téléversées dans le nuage. Voulez-vous téléverser la base dans le nuage ?</string>
     <string name="locale_plugin_add_edit_entry_title">Ajouter/modifier un enregistrement</string>
     <string name="from_google_drive">Depuis Google Drive</string>
 
-<string name="locale_to_fields_add_rule_title">Ajouter une règle</string>
+    <string name="locale_to_fields_add_rule_title">Ajouter une règle</string>
     <string name="locale_to_fields_edit_rule_title">Modifier une règle</string>
     <string name="locale_plugin_add_edit_entry_edit_mode">Modifier un enregistrement</string>
     <string name="send_field_title">Envoyer le nom du champ</string>
@@ -1677,9 +1672,9 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="user_group_name_empty">Le nom du groupe ne doit pas être vide</string>
     <string name="users_count_none">Aucun utilisateur</string>
     <plurals name="users_count">
-	<item quantity="one">Un utilisateur</item>
+	<item quantity="one">%d utilisateur</item>
 	<item quantity="other">%d utilisateurs</item>
-</plurals>
+    </plurals>
     <string name="user_group_delete_message">Voulez-vous vraiment supprimer le groupe \"%s\" ?</string>
     <string name="group_not_found">Groupe non trouvé</string>
     <string name="individual">Individuel</string>
@@ -1703,9 +1698,9 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="entries_view_type_cards">Fiches</string>
     <string name="card_view_number_of_columns">Nombre de colonnes</string>
     <plurals name="columns_count">
-	<item quantity="one">Une colonne</item>
+	<item quantity="one">%d colonne</item>
 	<item quantity="other">%d colonnes</item>
-</plurals>
+    </plurals>
 
     <string name="card_view_title_on_image">Afficher le texte au-dessus de l\'image</string>
     <string name="card_view_squared_image">Recadrer les images dans un carré</string>
@@ -1729,7 +1724,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="barcode_type_1d">Code-barres</string>
     <string name="barcode_type_2d">QR Code</string>
 
-<string name="frozen_text">La base est gelée car la limite de votre plan tarifaire en nombre de bases téléversées dans le nuage est dépassée.</string>
+    <string name="frozen_text">La base est gelée car la limite de votre plan tarifaire en nombre de bases téléversées dans le nuage est dépassée.</string>
     <string name="bulk_add">Ajout par lot</string>
     <string name="locale_key_field_description">Le champ clef pour modifier les enregistrements</string>
 
@@ -1779,8 +1774,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="script_cant_run_for_not_saved_library">Vous ne pouvez exécuter un script qu\'après avoir sauvegardé la bibliothèque.</string>
     <string name="autofill_script_source_key_title">Indiquer la propriété de l\'objet retournée par le script</string>
     <string name="test_js_data_source_query_hint">Chaîne requête</string>
-    <string name="test_js_data_source_query_result">Résultat de la requête: 
-%s</string>
+    <string name="test_js_data_source_query_result">Résultat de la requête:\n%s</string>
     <string name="run">Exécuter</string>
     <string name="run_arguments">Exécuter les arguments</string>
     <string name="script_cant_set_permissions_for_not_saved_library">Vous pouvez indiquer des autorisations pour le script uniquement après avoir sauvegardé la bibliothèque.</string>
@@ -1814,7 +1808,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="trigger_event_open_library">Ouverture d\'une bibliothèque</string>
     <string name="search_base_folder">Base de recherche</string>
     <string name="line_interpolate_nulls_titles">Interpoler les valeurs vides</string>
-<string name="wizard">Assistant</string>
+    <string name="wizard">Assistant</string>
     <string name="wizard_library_name_title">Memento organise vos informations en bases de données. Quel nom voulez-vous donner à cette base de données ?</string>
     <string name="wizard_library_name_hint2">Les bases de donnée sont utilisées pour contenir une liste d\'enregistrements d\'un type particulier.</string>
     <string name="wizard_library_name_hint3">Une base de donnée est comparable à une feuille de tableur.</string>
@@ -1870,7 +1864,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="wizard_complete_text3">A tout moment, vous pouvez modifier la structure de votre base de données, ajouter des agrégats, des remplissages automatiques, des scripts, etc.</string>
     <string name="close">Fermer</string>
 
-<string name="wizard_field_display_options_title">Voulez-vous afficher les valeurs de ce champ dans la liste des enregistrements ?</string>
+    <string name="wizard_field_display_options_title">Voulez-vous afficher les valeurs de ce champ dans la liste des enregistrements ?</string>
     <string name="wizard_field_display_no">Non, merci</string>
     <string name="wizard_field_display_name">Comme nom de l\'enregistrement</string>
     <string name="wizard_field_display_thumb">Comme miniature de l\'enregistrement</string>
@@ -1971,7 +1965,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="select_source_library_dialog_title">Sélectionner la base source pour la copie des données</string>
     <string name="select_source_library_dialog_hint">Sélectionner une source de données</string>
 
-<string name="wiki">Wiki</string>
+    <string name="wiki">Wiki</string>
 
     <string name="moby_source">mobygames.com</string>
     <string name="type_desc_color">Le type de champ Couleur autorise toute couleur au format RGB.</string>
@@ -1986,14 +1980,13 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="storage_permission_required_title">Autorisation nécessaire</string>
     <string name="storage_permission_required_text">Cette application a besoin d\'autorisations d\'accès au stockage. Vous pouvez donner ces droits dans les paramètres de l\'application.</string>
     <string name="got_to_system_settings">Allez à Paramètres</string>
-    <string name="file_save_error">Impossible de sauvegarder le fichier:
-%s</string>
+    <string name="file_save_error">Impossible de sauvegarder le fichier:\n%s</string>
 
     <string name="years_range">Tranche d\'années dans les dates</string>
     <string name="begin_year">Début</string>
     <string name="end_year">Fin</string>
     <string name="years_range_wrong">L\'année de fin doit être supérieure ou égale à l\'année de début</string>
-<string name="orientation_portrait">Portrait</string>
+    <string name="orientation_portrait">Portrait</string>
     <string name="orientation_landscape">Paysage</string>
     <string name="scale_mode">Ajuster à la taille</string>
     <string name="scale_size">Échelle</string>
@@ -2009,8 +2002,7 @@ Vous pouvez vous familiariser avec Memento en créant une base inspirée de l\'u
     <string name="action_context_bulk_actions">Menu des actions par lot</string>
     <string name="move_to">Déplacer vers...</string>
     <string name="copy_to">Copier vers...</string>
-    <string name="move_to_no_libraries">Could not find libraries compatible with the current library.
-Please create an entries transfer rule to migrate to any library.</string>
+    <string name="move_to_no_libraries">Could not find libraries compatible with the current library.\nPlease create an entries transfer rule to migrate to any library.</string>
     <string name="migrate">Migrer</string>
     <string name="barcode_display_error">Désolé, création de code-barres impossible avec les données fournies</string>
     <string name="barcode_format">Format de code-barres</string>
@@ -2034,18 +2026,18 @@ Please create an entries transfer rule to migrate to any library.</string>
     <string name="duration_precision_max">Unité maximum</string>
     <string name="duration_precision_wrong">L\'unité maximum doit être supérieure ou égale à l\'unité minimum</string>
     <plurals name="duration_ms">
-	<item quantity="one">1 ms</item>
+	<item quantity="one">%d ms</item>
 	<item quantity="other">%d ms</item>
-</plurals>
+    </plurals>
     <string name="duration_display_format_option_title">Format de durée</string>
     <string name="duration_display_format_short">Court</string>
     <string name="duration_display_format_long">Long</string>
     <string name="type_desc_duration">Un champ Durée peut contenir une valeur utilisée pour représenter une durée mesurée en jours, heures, minutes, secondes ou millisecondes.</string>
 
     <plurals name="after_entries_multiedit_message">
-	<item quantity="one">Un enregistrement a été modifié</item>
+	<item quantity="one">%d enregistrement a été modifié</item>
 	<item quantity="other">%d enregistrements ont été modifiés</item>
-</plurals>
+    </plurals>
 
     <string name="locals_js_libraries">Locales</string>
     <string name="js_libraries_add_url">Ajouter une URL</string>
