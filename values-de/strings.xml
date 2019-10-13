@@ -1765,7 +1765,7 @@ Ein Auslöser ist ein Skript, das die Verarbeitung eines Eintrags basierend auf 
     <string name="repository_data_sources_hint">Datenquellen für das automatisch ausfüllen</string>
     <string name="warning">Warnung</string>
     <string name="add_javascript_library">Füge Javascript-Bibliotheken hinzu...</string>
-    <string name="add_repository">Quelle hinzufügen</string>
+    <string name="add_repository">GitHub-Quelle hinzufügen</string>
     <string name="repository_location_hint">GitHub Quelle URL</string>
     <string name="repository_location_error">Geben Sie den HTTPS-Link zur GitHub-Quelle an. Zum Beispiel: https://github.com/username/repo-name</string>
     <string name="repository_not_found_error">Quelle nicht gefunden: %s</string>
@@ -2024,4 +2024,70 @@ Upgraden Sie zur PRO Version, um diese Einschränkung zu deaktivieren.</string>
 
     <string name="image_cache_settings_path_title">Bild-Cache Ordner</string>
 
-    </resources>
+    <string name="orientation_portrait">Querformat</string>
+    <string name="orientation_landscape">Querformat</string>
+    <string name="scale_mode">einpassen</string>
+    <string name="scale_size">Faktor</string>
+    <string name="pdf_scale_mode_crop">zuschneiden</string>
+    <string name="pdf_scale_mode_expand">vergrößern</string>
+    <string name="pdf_scale_mode_fit">einpassen</string>
+    <string name="workplace">Arbeitsplatz</string>
+    <string name="share_filters">Filter teilen</string>
+    <string name="share_charts">Diagramm teilen</string>
+    <string name="shared_by">geteilt von %s</string>
+    <string name="share_workplace_limit">Filter und Diagramme können nur für das Team geteilt werden.</string>
+    <string name="bulk_action">Massen Bearbeitung</string>
+    <string name="action_context_bulk_actions">Massen Bearbeitungs Menu</string>
+    <string name="move_to">verschieben nach ...</string>
+    <string name="copy_to">kopieren nach ...</string>
+    <string name="move_to_no_libraries">Keine kompatible Sammlung gefunden
+Bitte neue verschiebe Regel erstellen um in eine andere Sammlung zu migrieren.</string>
+    <string name="migrate">migrieren</string>
+    <string name="barcode_format">Barcode Format</string>
+    <string name="barcode_format_auto">Automatische Erkennung</string>
+    <string name="orientation">Ausrichtung</string>
+    <string name="paper_size">Papier Format</string>
+    <string name="camera_permission_title">Kamera</string>
+    <string name="camera_permission_required_text">Um ein Bild zu speichern benötigen wir Zugriff auf die Kamera. Bitte erlaube den Zugriff in den Einstellungen.</string>
+    <string name="require_external_audio_app">Memento verwendet einen externen Audio-Recorder. Möchtest Du diesen installieren?</string>
+
+
+    <string name="enter_email_address_hint">Bitte E-Mail Adresse eingeben</string>
+    <string name="duration_label_days">d</string>
+    <string name="duration_label_hours">h</string>
+    <string name="duration_label_minutes">m</string>
+    <string name="duration_label_seconds">s</string>
+    <string name="duration_label_mseconds">ms</string>
+    <string name="duration_precision_option_title">Genauigkeit der Dauer</string>
+    <string name="duration_precision_min">Kleinste Einheit</string>
+    <string name="duration_precision_max">Größte Einheit</string>
+    <string name="duration_precision_wrong">Größte Einheit muss größer oder gleich der kleinsten Einheit sein</string>
+    <plurals name="duration_ms">
+	<item quantity="one">1 ms</item>
+	<item quantity="other">%d ms</item>
+</plurals>
+    <string name="duration_display_format_short">Kurz</string>
+    <string name="duration_display_format_long">Lang</string>
+    <plurals name="after_entries_multiedit_message">
+	<item quantity="one">Ein Eintrag wurde geändert</item>
+	<item quantity="other">%d Eintrag wurde geändert</item>
+</plurals>
+
+    <string name="locals_js_libraries">Lokale</string>
+    <string name="js_libraries_add_url">URL hinzufügen</string>
+    <string name="js_file_url">JavaScript Datei URL</string>
+    <string name="js_file_url_not_found">Keine JavaScript Datei unter dieser URL gefunden: %S</string>
+    <string name="image_capture_size">Bildgröße</string>
+    <string name="image_capture_size_original">Originalgröße</string>
+    <string name="max_width">Max breite</string>
+    <string name="max_height">Max Höhe</string>
+    <string name="templates_category_personal">eigene</string>
+    <string name="templates_category_collections">Sammlungen</string>
+    <string name="templates_category_business">Geschäftlich</string>
+    <string name="templates_category_healthy">Gesundheit &amp; Sport</string>
+    <string name="templates_category_travel">Reise</string>
+    <string name="templates_category_edu">Erziehung</string>
+    <string name="board_games">Spiele</string>
+    <string name="new_database">Neue Datenbank</string>
+
+</resources>
