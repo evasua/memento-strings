@@ -2173,4 +2173,36 @@ Utwórz regułę przesyłania wpisów, aby przeprowadzić migrację do dowolnej 
 	<item quantity="many">%d ms</item>
 	<item quantity="other"/>
 </plurals>
+    <string name="send_entries_too_large">Przepraszamy, nie możesz wysłać wszystkich tych wpisów w formie tekstowej. Za dużo danych.</string>
+    <string name="request_button">Pytanie</string>
+
+    <string name="edit_library_not_available">Tylko właściciel może zmienić strukturę biblioteki.</string>
+    <string name="menu">Menu</string>
+    <string name="period_this_year">Ten rok</string>
+    <string name="number_filter_types_between">Pomiędzy</string>
+    <string name="field_role_hidden">Ukryte pole</string>
+    <string name="field_role_hidden_short">ukryte</string>
+    <string name="export_hidden_fields">Eksport ukrytych pól</string>
+    <string name="move_select_destination">Wybierz cel</string>
+    <string name="match_fields">Dopasuj pola</string>
+    <string name="dest_fields">Pola docelowe</string>
+    <string name="move_rules_empty">W tej bibliotece brak reguł przenoszenia</string>
+
+    <string name="delete_move_rule_dialog_title">Usuń regułę</string>
+    <string name="delete_move_rule_dialog_message">Czy na pewno chcesz usunąć regułę przenoszenia do „% s” ?</string>
+    <string name="no_field">Brak pól</string>
+    <string name="moving_entries">Przenoszenie wpisów. %d do %d.</string>
+    <string name="copying_entries2">Kopiowanie wpisów. %d do %d.</string>
+    <string name="need_pro_for_move_entries">Wpisy można przenosić lub kopiować do innej biblioteki tylko w wersji PRO programu.</string>
+    <string name="create_copy">Tworzenie kopii</string>
+    <string name="move_or_copy">Przenieś lub Kopiuj</string>
+    <string name="duplicate">Duplikat</string>
+
+    <string name="buy_license_key_hint">Kup samodzielną licencję PRO na Androida</string>
+    <string name="flex_type_user">Użytkownik</string>
+    <string name="select_user">Wybór użytkownika</string>
+    <string name="select_user_empty_list">Nie ma już użytkowników do wyboru</string>
+    <string name="memento_full_name_hint">Pełna nazwa</string>
+    <string name="not_set">Nie ustawione</string>
+    <string name="objects_limit_option_title">Ograniczenie</string>
     </resources>
