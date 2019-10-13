@@ -752,7 +752,7 @@
     <string name="sync_error_dialog_title">Sync error</string>
     <!-- 2.4.0 -->
     <string name="field_display_options_group">Display options</string>
-    <string name="display_in_list_how">Display in the list as</string>
+    <string name="display_in_list_how">Display as</string>
     <string name="field_display_title_in_card">The field name</string>
     <string name="field_display_title_in_card_hint">Display the name of the field in the card entry</string>
     <string name="edit_library_tab_structure">STRUCTURE</string>
@@ -963,7 +963,7 @@
     <string name="aggregation_delete_message">Do you really want to delete the aggregation \"%s\" ?</string>
     <string name="aggregation_need_select_field_message">You must select a field for this aggregation function</string>
     <string name="open_object_by_uri_error">Can\'t open object: %s</string>
-    <string name="import_and_export_menu_item">Import and export...</string>
+    <string name="import_and_export_menu_item">Import and export</string>
     <string name="entries_export_snackbar_ok">Entries exported successfully</string>
     <string name="entries_import_result_dialog_title">Import entries</string>
     <string name="csv_import_total_lines">Processed rows:</string>
@@ -1411,7 +1411,7 @@
     <string name="permission_storage_text">To continue, give Memento access to your Storage.</string>
     <string name="permission_storage_explanation_text">Access to the storage is required for caching, backup, and availability to attach images and files to your entries.</string>
     <string name="permission_accounts_title">Accounts</string>
-    <string name="permission_accounts_text">It is required to grant Memento access to accounts to sync with Google Sheets and for the Contact field type.</string>
+    <string name="permission_accounts_text">It is required to grant Memento access to accounts to sync with Google Sheets.</string>
     <string name="permission_location_title">Location</string>
     <string name="permission_location_text">It is required to grant Memento access to location for the Location field type.</string>
     <string name="permission_not_necessarily">This permission is not obligatory.</string>
@@ -2129,5 +2129,59 @@
     <string name="board_games">Board Games</string>
     <string translatable="false" name="bgg_source">boardgamegeek.com</string>
     <string name="new_database">New database</string>
+
+    <!-- 4.6.6 -->
+    <string name="send_entries_too_large">Sorry, you can\'t send all these entries as text. There is too much data.</string>
+    <string name="request_button">Request</string>
+
+    <!-- 4.7.0 -->
+    <string name="edit_library_not_available">Only owner can change the structure of the library.</string>
+    <string name="menu">Menu</string>
+    <string name="period_this_year">This year</string>
+    <string name="number_filter_types_between">Between</string>
+    <string name="field_role_hidden">Hidden field</string>
+    <string name="field_role_hidden_short">hidden</string>
+    <string name="export_hidden_fields">Export hidden fields</string>
+    <string name="move_select_destination">Select destination</string>
+    <string name="match_fields">Match fields</string>
+    <string name="dest_fields">Destination fields</string>
+    <string name="move_rules_empty">There are no move rules in this library</string>
+
+    <string name="delete_move_rule_dialog_title">Delete rule</string>
+    <string name="delete_move_rule_dialog_message">Are you sure you want to delete the move rule to \"%s\" ?</string>
+    <string name="no_field">No field</string>
+    <string name="moving_entries">Moving entries. %d of %d.</string>
+    <string name="copying_entries2">Copying entries. %d of %d.</string>
+    <plurals name="moving_entries_success">
+        <item quantity="one">%d entry has been moved to the library %s</item>
+        <item quantity="other">%d entries have been moved to the library %s</item>
+    </plurals>
+    <plurals name="copying_entries_success">
+        <item quantity="one">%d entry has been copied to the library %s</item>
+        <item quantity="other">%d entries have been copied to the library %s</item>
+    </plurals>
+    <string name="need_pro_for_move_entries">Entries can be moved or copied to another library only in the PRO version of the program.</string>
+    <string name="create_copy">Create a copy</string>
+    <string name="move_or_copy">Move or Copy</string>
+    <string name="duplicate">Duplicate</string>
+
+    <string name="buy_license_key_hint">Buy a standalone PRO license for Android</string>
+    <string name="flex_type_user">User</string>
+    <string name="select_user">Select user</string>
+    <string name="select_user_empty_list">There are no more users to select</string>
+    <string name="memento_full_name_hint">Full name</string>
+    <string name="not_set">Not set</string>
+    <string name="objects_limit_option_title">Limit</string>
+    <string name="max_number_of_users">Max number of users</string>
+    <string name="no_limit">No Limit</string>
+    <string name="conditional_permission">Depends on field</string>
+    <string name="conditional_field_empty">You should select the \"User\" field that will provide permissions for the operation.</string>
+    <string name="conditional_permission_limit">Access rights by a \"User\" field can be set only on Team tariffs.</string>
+    <string name="filter_rule_is_one_of">Is one of</string>
+    <string name="filter_rule_is_not_one_of">Is not one of</string>
+    <string name="send_email">Send email</string>
+    <string name="type_desc_user">The user field allows you to select one or more users from a list of all the users with whom your library is shared.</string>
+    <string name="field_copied_to_clipboard">%s copied to clipboard</string>
+    <string name="max_number_of_users_limit_message">You can choose only %d users</string>
 
 </resources>
