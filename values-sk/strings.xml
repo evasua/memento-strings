@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="app_name">Pripomienka</string>
     <string name="library_menu_add_item">Pridať záznam</string>
     <string name="main_menu_add_lib">Pridať knižnicu</string>
@@ -136,7 +136,8 @@
     <string name="activation_ok">Ďakujeme za aktiváciu Mementa</string>
     <string name="activation_error">Aktivačný kód je chybný. Prosím, zadajte ho znovu.</string>
     <string name="about">O programe</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid↵\nVšetky práva vyhradené</string>
+    <string name="copyright">Copyright © 2018 LuckyDroid↵
+Všetky práva vyhradené</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Prehliadnuť softwarovú verziu</string>
     <string name="about_license_type">Licencia:</string>
@@ -257,7 +258,7 @@
     <string name="memento_pass_hint">Heslo</string>
     <string name="memento_pass_hint2">Opakovať heslo</string>
     <string name="memento_email_hint">Email</string>
-    <string name="memento_register_button">Vytvoriť</string>
+    <string name="memento_register_button">Vytvoriť účet</string>
     <string name="memento_have_button">Mám už účet</string>
     <string name="login_empty">Zadajte užívateľské meno</string>
     <string name="login_format_error">Užívateľské meno môže obsahovať len písmená a číslice</string>
@@ -1085,7 +1086,8 @@
 	<string name="show_deleted_entries_menu_item">Ukázať zmazané záznamy</string>
 	<string name="upload_to_cloud_menu_item">Do Cloud-u</string>
 	<string name="welcome_text_title">Vitajte v Memento Databáze</string>
-	<string name="welcome_text_description">Knižnica je miesto, kde sa budú ukladať vaše záznamy.↵\nMôžete sa oboznámiť s programom vytvorením knižnice založenej na jednej z uvedených šablón.</string>
+	<string name="welcome_text_description">Knižnica je miesto, kde sa budú ukladať vaše záznamy.↵
+Môžete sa oboznámiť s programom vytvorením knižnice založenej na niektorej z ponúkaných šablón.</string>
 	
 	<string name="memento_cloud">Cloud</string>
 	<string name="start_remove_librarary_from_cloud">Mazanie knižnice ...</string>
@@ -1199,7 +1201,10 @@
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Knižnica nenájdená</string>
 	<string name="upload_to_cloud_offer_title">{cloud pripravený...}</string>
-	<string name="upload_to_cloud_offer_text">• Spolupráca↵\n• Synchronizácia medzi zariadeniami↵\n• Zálohovanie je vždy v cloude</string>
+	<string name="upload_to_cloud_offer_text">• Spolupráca↵
+• Synchronizácia medzi zariadeniami↵
+• Zálohovanie je vždy do cloudu
+• História verzií</string>
 	<string name="button_no_thanks">Nie, ďakujem</string>
 	<string name="button_upload">Upload</string>
 	
@@ -1365,7 +1370,7 @@
     <string name="permission_storage_text">Ak chcete pokračovať, dajte Mementu prístup k svojmu úložisku.</string>
     <string name="permission_storage_explanation_text">Prístup k úložisku je nutný pre vyrovnávaciu pamäť, zálohovanie a schopnosť pripojiť obrázky a súbory k vašim záznamom.</string>
     <string name="permission_accounts_title">Účty</string>
-    <string name="permission_accounts_text">Je nevyhnutné udeliť Mementu prístup k účtom pre synchronizáciu s Google Sheets a pre daný typ poľa Kontakt.</string>
+    <string name="permission_accounts_text">Je nevyhnutné udeliť Mementu prístup k účtom pre synchronizáciu s Google Sheets.</string>
     <string name="permission_location_title">Umiestnenie</string>
     <string name="permission_location_text">Je nevyhnutné udeliť Mementu prístup k polohe pre daný typ poľa Umiestnenie.</string>
     <string name="permission_not_necessarily">Toto oprávnenie nie je povinné.</string>
@@ -1380,4 +1385,20 @@
     <string name="field_delimiters">Oddeľovač poľa</string>
     <string name="field_enclosed">Kvalifikácia textu</string>
     
-</resources>
+<string name="create_new_user_dialog">Vytvoriť nového užívateľa</string>
+
+    <string name="script">Skript</string>
+    <string name="js_libraries">Knižnice JavaScriptu</string>
+    <string name="users_manager">Správa užívateľov</string>
+    <string name="js_realtime">Vykoná skript v reálnom čase</string>
+    <string name="js_realtime_hint_off">Skript sa vykoná len pri úprave záznamu</string>
+    <string name="js_realtime_hint_on">Skript sa vykoná len pri zobrazení záznamu</string>
+    <string name="remaining_users" formatted="false">využitých %ď z %d licencií</string>
+    <string name="delete_slave_user_message">Naozaj chcete vymazať užívateľa \"%s\"?</string>
+    <string name="active_users">Aktívny užívatelia</string>
+    <string name="deleted_users">Zmazaný užívatelia</string>
+    <string name="powered_by_text">Powered by Memento Database</string>
+
+    <string name="string_list_sort_menu_title">Triediť podľa názvu</string>
+    <string name="previous_value">Predchádzajúca hodnota</string>
+    </resources>
