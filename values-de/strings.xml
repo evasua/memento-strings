@@ -733,7 +733,7 @@
     <string name="record_error_dialog_message">"Entschuldigung,  aber eine Applikation für das Aufnehmen wurde nicht gefunden."</string>
     <string name="sync_error_dialog_title">Synchronisationsfehler</string>
     <string name="field_display_options_group">Einstellungen für die Anzeige</string>
-    <string name="display_in_list_how">"In Liste als ...  anzeigen"</string>
+    <string name="display_in_list_how">Anzeigen als</string>
     <string name="field_display_title_in_card">Der Feldname</string>
     <string name="field_display_title_in_card_hint">Feldname in der Kartenansicht anzeigen</string>
     <string name="edit_library_tab_structure">Struktur</string>
@@ -871,7 +871,7 @@
     <string name="icon_pack_title_field_edu_flat">Bildung</string>
     <string name="icon_pack_title_field_mult_flat">Multimedia</string>
     <string name="icon_pack_title_field_net_flat">Netzwerk</string>
-    <string name="library_tile_options">Am Teil ansetzen</string>
+    <string name="library_tile_options">Ansicht der Sammlung in der Startseite</string>
     <string name="show_icon_on_tile">Symbol für Sammlung</string>
     <string name="show_num_entries_on_tile">Anzahl der Einträge</string>
     <string name="show_update_time_on_tile">Bearbeitungszeit</string>
@@ -938,7 +938,7 @@
     <string name="aggregation_delete_message">Möchten Sie die Gruppierung \"%s\" wirklich löschen?</string>
     <string name="aggregation_need_select_field_message">Sie müssen ein Feld für diese Gruppierung auswählen</string>
     <string name="open_object_by_uri_error">Objekt %s kann nicht geöffnet werden</string>
-    <string name="import_and_export_menu_item">Import und Export...</string>
+    <string name="import_and_export_menu_item">Import und Export</string>
     <string name="entries_export_snackbar_ok">Einträge wurden erfolgreich exportiert</string>
     <string name="entries_import_result_dialog_title">Einträge importieren</string>
     <string name="csv_import_total_lines">Bearbeitete Zeilen:</string>
@@ -1403,7 +1403,7 @@
 
 
 <string name="decryption_for_cloud_uploaded_library">Deaktivieren der Verschlüsselung beim Hochladen der Sammlung in die Cloud wird nicht unterstützt. Bitte löschen Sie zuerst die Sammlung aus der Cloud.</string>
-    <string name="permission_accounts_text">Für die Synchronisierung mit Google Tabellen und den Zugriff auf Felder vom Typ \"Kontakt\" ist es erforderlich, Memento Zugriff auf Konten zu geben.</string>
+    <string name="permission_accounts_text">Für die Synchronisierung mit Google Tabellen ist es erforderlich, Memento Zugriff auf Konten zu geben.</string>
     <string name="permission_location_text">Für den Zugriff auf Felder vom Typ Standort ist es erforderlich, Memento Zugriff auf den Standort zu geben.</string>
     <string name="permission_not_necessarily">Diese Berechtigung ist nicht obligatorisch.</string>
     <string name="field_enclosed">Textbegrenzer</string>
@@ -2051,5 +2051,55 @@ Bitte neue verschiebe Regel erstellen um in eine andere Sammlung zu migrieren.</
     <string name="templates_category_edu">Erziehung</string>
     <string name="board_games">Spiele</string>
     <string name="new_database">Neue Datenbank</string>
+
+<string name="js_file_url_error">HTTP/HTTPS link zur JavaScript Datei eingeben.</string>
+    <string name="speech_recognition_not_supported">Sprachausgabe nicht unterstützt</string>
+
+    <string name="send_entries_too_large">Du kannst diese Einträge nicht senden - zuviel Daten.</string>
+    <string name="request_button">Anfrage</string>
+
+    <string name="edit_library_not_available">Nur der Besitzer kann die Struktur der Sammlung ändern.</string>
+    <string name="menu">Menu</string>
+    <string name="period_this_year">Aktuelles Jahr</string>
+    <string name="number_filter_types_between">zwischen</string>
+    <string name="field_role_hidden">Verstecktes Feld</string>
+    <string name="field_role_hidden_short">versteckt</string>
+    <string name="export_hidden_fields">Exportiere versteckte Felder</string>
+    <string name="move_select_destination">Ziel wählen</string>
+    <string name="match_fields"/>
+    <string name="dest_fields">Ziel Felder</string>
+    <string name="delete_move_rule_dialog_title">Regel löschen</string>
+    <string name="delete_move_rule_dialog_message">Bist Du sicher, dass Du die verschiebe Regel zu \"%2\" löschen willst ?</string>
+    <string name="move_rules_empty">Keine verschiebe Regeln in dieser Sammlung</string>
+
+    <string name="no_field">Kein Feld</string>
+    <string name="moving_entries">Einträge verschieben. %d von %d.</string>
+    <string name="copying_entries2">Einträge kopiert. %d von %d.</string>
+    <plurals name="moving_entries_success">
+	<item quantity="one">%d Eintrag wurde in die Sammlung %s verschoben</item>
+	<item quantity="other">%d Einträge wurden in die Sammlung %s verschoben</item>
+</plurals>
+    <string name="need_pro_for_move_entries">Verschieben und kopieren von Einträgen in andere Sammlungen ist nur in der PRO version möglich.</string>
+    <string name="create_copy">Erzeugt eine Kopie</string>
+    <string name="move_or_copy">Verschieben oder kopieren</string>
+    <string name="duplicate">Duplizieren</string>
+
+    <string name="buy_license_key_hint">Standalone PRO Lizenz für Android kaufen</string>
+    <string name="flex_type_user">Benutzer</string>
+    <string name="select_user">Wähle Benutzer</string>
+    <string name="select_user_empty_list">Keine Benutzer zum Auswählen</string>
+    <string name="memento_full_name_hint">Ganzer Name</string>
+    <string name="not_set">Nicht gesetzt</string>
+    <string name="objects_limit_option_title">Begrenzt</string>
+    <string name="max_number_of_users">Max Anzahl der Benutzer</string>
+    <string name="no_limit">Unbegrenzt</string>
+    <string name="conditional_permission"/>
+    <string name="conditional_field_empty"/>
+    <string name="conditional_permission_limit"/>
+    <string name="filter_rule_is_one_of">Eins von</string>
+    <string name="filter_rule_is_not_one_of">Keins von</string>
+    <string name="send_email">E-Mail versenden</string>
+    <string name="field_copied_to_clipboard">%s in die Zwischenablage kopiert</string>
+    <string name="max_number_of_users_limit_message">Du kannst nur %d Benutzer auswählen</string>
 
 </resources>
