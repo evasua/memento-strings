@@ -118,7 +118,7 @@
     <string name="restore_preference">Obnova</string>
     <string name="restore_summary_preference">Obnova knižníc zo záložnej kópie</string>
     <string name="backup_file_not_found">Záložný súbor nenájdený.</string>
-    <string name="restore_dialog_message">Počas obnovy budú existujúce knižnice nahradené knižnicami zo záložnej kópie.↵\nVšetky zmeny vytvorené po záložnej kópii budú stratené.↵\nSpustiť obnovu ?</string>
+    <string name="restore_dialog_message">Počas obnovy budú existujúce knižnice nahradené knižnicami zo záložnej kópie.\nVšetky zmeny vytvorené po záložnej kópii budú stratené.\nSpustiť obnovu ?</string>
     <string name="backup_dialog_message">Prepísať záložnú kópiu novou ?</string>
     <string name="restore_success">Knižnice boli úspešne obnovené zo záložnej kópie</string>
     <string name="restore_step1">Obnova</string>
@@ -136,8 +136,7 @@
     <string name="activation_ok">Ďakujeme za aktiváciu Mementa</string>
     <string name="activation_error">Aktivačný kód je chybný. Prosím, zadajte ho znovu.</string>
     <string name="about">O programe</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid↵
-Všetky práva vyhradené</string>
+    <string name="copyright">Copyright © 2019 LuckyDroid\nVšetky práva vyhradené</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Prehliadnuť softwarovú verziu</string>
     <string name="about_license_type">Licencia:</string>
@@ -163,7 +162,7 @@ Všetky práva vyhradené</string>
     <string name="need_title_column_text">"Meno stĺpca musí zodpovedať menu poľa záznamu. "</string>
     <string name="csv_result_import_text">Záznamy boli importované</string>
     <string name="csv_result_import_succes_items">Pridané záznamy:</string>
-    <string formatted="false" name="csv_result_import_fail_items">Počet chybných stĺpcov: %s ↵\nStĺpcov: %s</string>
+    <string formatted="false" name="csv_result_import_fail_items">Počet chybných stĺpcov: %s \nStĺpcov: %s</string>
     <string name="enter_csv_name_dialog_title">Export do CSV</string>
     <string name="enter_csv_name_dialog_value_title">Zadajte meno CSV súboru</string>
     <string name="enter_csv_name_dialog_value_hint">Meno súboru</string>
@@ -174,7 +173,7 @@ Všetky práva vyhradené</string>
     <string name="msg_default_status">Umiestnite čiarový kód doprostred hľadáčika pre naskenovanie.</string>
     <string name="scan_library_item">Skenovanie čiarového kódu</string>
     <string name="search_product_title">Hľadanie produktu podľa čiarového kódu...</string>
-    <string name="empty_result_text">Bohužiaľ↵\nProdukt nenájdený</string>
+    <string name="empty_result_text">Bohužiaľ\n\nProdukt nenájdený</string>
     <string name="add_entry_manual">Pridať ručne ...</string>
     <string name="fill_entry_manual">Vyplniť ručne ...</string>
     <string name="flex_type_barcode">Čiarový kód</string>
@@ -238,7 +237,7 @@ Všetky práva vyhradené</string>
     <string name="copy_memento_to_gdocs">Záznamy z Mementa</string>
     <string name="copy_gdocs_to_memento">Záznamy z Google Sheets</string>
     <string name="edit_flex_title_disabled">Toto pole nemôže byť premenované, pretože knižnica je spojená s Google Sheets</string>
-    <string name="cant_bind">Bezplatná verzia Vám dovoľuje spojiť iba dve knižnice s Google Sheets.↵\nUpgrade na PRO verziu zruší toto obmedzenie.</string>
+    <string name="cant_bind">Bezplatná verzia Vám dovoľuje spojiť iba dve knižnice s Google Sheets.\n\nUpgrade na PRO verziu zruší toto obmedzenie.</string>
     <string name="button_pro_version">PRO verzia</string>
     <string name="option_autofill_title">Automatické dokončovanie</string>
     <string name="option_autofill_hint">Zobraziť zoznam možných hodnôt z iných záznamov</string>
@@ -252,7 +251,7 @@ Všetky práva vyhradené</string>
     <string formatted="false" name="picasa_send_image_step">Uploading knižnice obrázkov doPicasa. %s of %s</string>
     <string name="public_library">Publikovanie knižnice</string>
     <string name="update_public_library">Update publikácie</string>
-    <string name="memento_register_account_title">Vytvorenie účtu↵\nna servere Memento</string>
+    <string name="memento_register_account_title">Vytvorenie účtu\nna servere Memento</string>
     <string name="memento_register_account_text">K publikovaniu knižníc a ich podpisu je vyžadovaný účet na serveri Memento</string>
     <string name="memento_login_hint">Užívateľské meno</string>
     <string name="memento_pass_hint">Heslo</string>
@@ -277,7 +276,7 @@ Všetky práva vyhradené</string>
     <string name="preference_memento_account_hint">Užívateľské meno a heslo Vášho Memento účtu</string>
     <string name="public_library_task_auth">Autorizácia služby Memento</string>
     <string name="public_library_task_send_template">Prenos šablóny knižnice</string>
-    <string formatted="false" name="public_library_task_send_items">Prenos záznamov knižnice.↵\n%s z %s</string>
+    <string formatted="false" name="public_library_task_send_items">Prenos záznamov knižnice.\n%s z %s</string>
     <string name="memento_not_support_template">Vaša verzia Mementa je zastaraná, vykonajte jej aktualizáciu</string>
     <string name="memento_not_found">Zdroj nebol nájdený</string>
     <string name="alias_hint">Zadajte alias meno knižnice</string>
@@ -296,8 +295,8 @@ Všetky práva vyhradené</string>
     <string name="subscribe_activity_title">Podpísané knžnice</string>
     <string name="library_uri_hint">Adresa knižnice</string>
     <string name="find_libraries_task_title">Hľadanie knižnice</string>
-    <string name="find_libraries_task_by_uri">Hľadanie knižnice↵\npodľa adresy</string>
-    <string name="find_libraries_task_by_user">Získanie zoznamu↵\nknižníc užívateľa</string>
+    <string name="find_libraries_task_by_uri">Hľadanie knižnice\npodľa adresy</string>
+    <string name="find_libraries_task_by_user">Získanie zoznamu\nknižníc užívateľa</string>
     <string name="libraries_list_result_header">Nájdené knižnice</string>
     <string name="libraries_by_user_not_found">Uvedený užívateľ nebol nájdený, alebo nemá publikované žiadne knižnice</string>
     <string name="library_not_found">Knižnica s touto adresou nebola nájdená</string>
@@ -336,7 +335,7 @@ Všetky práva vyhradené</string>
     <string name="flex_image_load">Nahrávam obraz ...</string>
     <string name="subscribed">Podpísaná</string>
     <string name="info_public_library">Adresa knižnice</string>
-    <string name="cant_public">Bezplatná verzia Vám dovoľuje publikovať iba dve knižnice.↵\nUpgrade na PRO verziu zruší toto obmedzenie.</string>
+    <string name="cant_public">Bezplatná verzia Vám dovoľuje publikovať iba dve knižnice.\nUpgrade na PRO verziu zruší toto obmedzenie.</string>
     <string name="add_permission_user_hint">Zadajte užívateľské meno alebo e-mail</string>
     <string name="edit_pub_permissions">Práva prístupu ku knižnici</string>
     <string name="edit_pub_permissions_hint">Editácia zoznamu užívateľov s prístupom ku knižnici</string>
@@ -381,7 +380,7 @@ Všetky práva vyhradené</string>
     <string name="help_subscribe">Prihlásenie do knižníc</string>
     <string name="lib_protection">Ochrana knižnice</string>
     <string name="set_library_protection">Ochrana</string>
-    <string name="set_master_pass_text">Nastavenie hlavného hesla pre prístup do knižnice.↵\nToto heslo budete musieť zadať pre prístup do šifrovaných knižníc.</string>
+    <string name="set_master_pass_text">Nastavenie hlavného hesla pre prístup do knižnice.\nToto heslo budete musieť zadať pre prístup do šifrovaných knižníc.</string>
     <string name="master_pass_hint">Heslo</string>
     <string name="master_pass_hint2">Zopakovať heslo</string>
     <string name="set_master_pass_dialog">Nastavenie hlavného hesla</string>
@@ -393,7 +392,7 @@ Všetky práva vyhradené</string>
     <string name="library_is_locked">Prístup k šifrovaným knižniciam je uzavretý</string>
     <string name="library_pass_access_description">Budete musieť zadať hlavné heslo k sprístupneniu tejto knižnice</string>
     <string name="library_encription_checkbox">Šifrovať obsah</string>
-    <string name="library_encription_description">Textové polia položiek budú šifrované podľa štandardu AES↵↵\nHľadanie šifrovaných položiek nie je podporované.</string>
+    <string name="library_encription_description">Textové polia položiek budú šifrované podľa štandardu AES\nHľadanie šifrovaných položiek nie je podporované.</string>
     <string name="set_library_protection_title">Šifrovanie položiek</string>
     <string name="set_library_protection_message">Šifrovanie knižničných položiek ...</string>
     <string name="remove_library_protection">Oodstránenie ochrany</string>
@@ -497,7 +496,7 @@ Všetky práva vyhradené</string>
     <string name="required_mark">Povinné</string>
     <string name="reset_master_password">Zmazanie hlavného hesla</string>
     <string name="reset_master_password_hint">Všetky šifrované knižnice budú odstránené</string>
-    <string name="reset_master_quest">Skutočne chcete zmazať hlavné heslo? ↵\nPOZOR! Všetky šifrované knižnice budú odstránené!</string>
+    <string name="reset_master_quest">Skutočne chcete zmazať hlavné heslo? \nPOZOR! Všetky šifrované knižnice budú odstránené!</string>
     <string name="remove_encript_lib_dlg_msg">Odstránenie šifrovaných knižníc</string>
     <string name="master_password_reset">Hlavné heslo vymazané</string>
     <string name="edit_entry_screen_preference">Úprava záznamov</string>
@@ -510,7 +509,7 @@ Všetky práva vyhradené</string>
     <string name="select_app">Vyberte aplikáciu</string>
     <string name="forum">Fórum</string>
     <string name="autoincrement">Automatické zvyšovanie</string>
-    <string name="cant_protect">Bezplatná verzia dovoľuje chrániť iba tri knižnice.↵\nPre odstránenie tohto obmedzenia si kúpte PRO-verziu.</string>
+    <string name="cant_protect">Bezplatná verzia dovoľuje chrániť iba tri knižnice.\nPre odstránenie tohto obmedzenia si kúpte PRO-verziu.</string>
     <string name="flex_edit_option_title">Kde je možné editovať</string>
     <string name="flex_edit_option_default">Formulár úpravy záznamu</string>
     <string name="flex_edit_option_in_list">zoznam záznamov</string>
@@ -616,10 +615,10 @@ Všetky práva vyhradené</string>
     <string name="request_pass_dialog_title">Zmena hesla</string>
     <string name="request_pass_dialog_text">Prosím, zadajte e mailovú adresu, aby sme vám pomohli lokalizovať váš účet Memento</string>
     <string name="request_pass_dialog_hint">Emailová adresa</string>
-    <string name="change_password_success">Prosím, skontrolujte si svoj email↵\nPoslali sme vám e mail, ktorý vám umožní nastaviť nové heslo rýchlo a ľahko.</string>
+    <string name="change_password_success">Prosím, skontrolujte si svoj email\nPoslali sme vám e mail, ktorý vám umožní nastaviť nové heslo rýchlo a ľahko.</string>
     <string name="tile_options_text">nadpis</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
-    <string name="search_in_protected_libraries">Hľadať v heslom chránených knižniciach ↵\n (s výnimkou šifrovaných)</string>
+    <string name="search_in_protected_libraries">Hľadať v heslom chránených knižniciach \n (s výnimkou šifrovaných)</string>
     <string name="stat_result_type">Formát výsledku</string>
     <string name="backup_file_name_title">Názov záložného súboru</string>
     <string name="backup_file_path_title">Adresár pre zálohovanie</string>
@@ -715,7 +714,7 @@ Všetky práva vyhradené</string>
     <string name="selected">vybrané %s</string>
     <string name="delete_template_from_google_drive_question">Chcete skutočne zmazať vybrané knižnice z Google Drive?</string>
     <string name="delete_data_table_from_google_drive">Odstrániť tabuľkové editory prepojené so šablónami</string>
-    <string name="lock_library_edit_message">Zmeny v štruktúre knižnice sú zamknuté↵\nV nastavení môžete zmeniť možnosť úprav štruktúry tejto knižnice.</string>
+    <string name="lock_library_edit_message">Zmeny v štruktúre knižnice sú zamknuté\nV nastavení môžete zmeniť možnosť úprav štruktúry tejto knižnice.</string>
     <string name="lock_edit_library_pref_title">Uzamknutá štruktúra</string>
     <string name="lock_edit_library_pref_summary_on">Zmena štruktúry knižnice nie je povolená</string>
     <string name="lock_edit_library_pref_summary_off">Zmena štruktúry knižnice je povolená</string>
@@ -745,7 +744,7 @@ Všetky práva vyhradené</string>
     <string name="group_by_subtitle">podľa %s</string>
     <string name="sort_asc">Stúpajúco</string>
     <string name="sort_desc">Klesajúco</string>
-    <string name="sliding_hint_text">Potiahnite sprava doľava↵\npre otvorenie rozšírenej ponuky -↵\ntriedenie, zoskupovanie, filtre, grafy a ďalšie ...</string>
+    <string name="sliding_hint_text">Potiahnite sprava doľava\npre otvorenie rozšírenej ponuky -\ntriedenie, zoskupovanie, filtre, grafy a ďalšie ...</string>
     <string name="multy_sorting">Triediť podľa viacerých polí</string>
     <string name="new_button">nový</string>
     <string name="free_version_entry_page_limit">Vo free verzii môžete vytvoriť len dve stránky. Povýšenie na PRO verziu deaktivuje toto obmedzenie.</string>
@@ -879,7 +878,7 @@ Všetky práva vyhradené</string>
     <string name="empty">Prázdny</string>
     <string name="add_page">Pridať stránku</string>
     <string name="move_to_page">Presunúť na stránku</string>
-    <string name="empty_entry_page_text">Táto stránka je prázdná.↵\nMôžete sem pridať polia alebo zoznamy záznamov.</string>
+    <string name="empty_entry_page_text">Táto stránka je prázdná.\nMôžete sem pridať polia alebo zoznamy záznamov.</string>
     <string name="empty_fields_list_text">V tejto knižnici nie sú žiadne polia.</string>
     <string name="empty_aggregation_list_text">Táto knižnica neobsahuje agregačné funkcie.</string>
     <string name="empty_chart_list_text">Táto knižnica neobsahuje diagramy.</string>
@@ -891,7 +890,7 @@ Všetky práva vyhradené</string>
     <string name="string_edit_cap_options_sent">Na začiatku vety</string>
     <string name="string_edit_cap_options_wolds">Na začiatku každého slova</string>
     <string name="string_edit_cap_options_all">Všetky písmená</string>
-    <string name="single_line_options_title">Jednoriadkové↵\ntextové pole</string>
+    <string name="single_line_options_title">Jednoriadkové\ntextové pole</string>
     <string name="main_field_options_tab_title">Hlavné</string>
     <string name="string_list_items_tab_title">Položky</string>
     <string name="string_list_edit_item_title_hint">Názov položky</string>
@@ -938,7 +937,7 @@ Všetky práva vyhradené</string>
     <string name="csv_import_errors_count">Chyby:</string>
     <string formatted="false" name="csv_import_error_item">Riadok %d - %s</string>
     <string name="undo_button">Návrat späť</string>
-    <string name="google_sync_without_memento_id_text">Knižnica je synchronizovaná použitím starej metódy, ktorá má potenciálny chyby.↵\nVykonať znova prepojenie knižnice do novej tabuľky použitím novej metódy.↵\nSpustiť teraz nové prepojenie?</string>
+    <string name="google_sync_without_memento_id_text">Knižnica je synchronizovaná použitím starej metódy, ktorá má potenciálny chyby.\nVykonať znova prepojenie knižnice do novej tabuľky použitím novej metódy.\nSpustiť teraz nové prepojenie?</string>
     <string name="rating_field_max_value">Najvyššie hodnotenie</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d hviezda</item>
@@ -1077,8 +1076,8 @@ Všetky práva vyhradené</string>
 	<string name="library_have_duplicates">V tejto knižnici, záznamy s podobnými názvami</string>
 	<string name="library_have_duplicates2">Pre správne fungovanie zmeňte alebo zmažte duplicity.</string>
 	<string name="dont_show_anymore">Už viac nezobrazovať</string>
-	<string name="need_make_slave_library_unique">Ak chcete synchronizovať pole \"Odkaz na záznam\", musíte povoliť kontrolu jedinečnosti názvu položky v knižnici, na ktorú sa viaže odkaz.↵\nUrobiť to teraz?</string>
-	<string name="need_make_slave_library_unique_import">Ak chcete importovať polia \"Odkaz na záznam\", musíte povoliť kontrolu jedinečnosti názvu položky v knižnici, na ktorú sa viaže odkaz.↵\nUrobiť to teraz?</string>
+	<string name="need_make_slave_library_unique">Ak chcete synchronizovať pole \"Odkaz na záznam\", musíte povoliť kontrolu jedinečnosti názvu položky v knižnici, na ktorú sa viaže odkaz.\nUrobiť to teraz?</string>
+	<string name="need_make_slave_library_unique_import">Ak chcete importovať polia \"Odkaz na záznam\", musíte povoliť kontrolu jedinečnosti názvu položky v knižnici, na ktorú sa viaže odkaz.\nUrobiť to teraz?</string>
 	<string name="run_sync_slave_libraries_pref">Spojené knižnice</string>
 	<string name="run_sync_slave_libraries_summary">Prvá synchronizácia prepojených knižníc</string>
 	<string name="choice_type_add_button_in_edit_title">Vytvorenie prvkov, počas úpravy záznamu</string>
@@ -1086,16 +1085,15 @@ Všetky práva vyhradené</string>
 	<string name="show_deleted_entries_menu_item">Ukázať zmazané záznamy</string>
 	<string name="upload_to_cloud_menu_item">Do Cloud-u</string>
 	<string name="welcome_text_title">Vitajte v Memento Databáze</string>
-	<string name="welcome_text_description">Knižnica je miesto, kde sa budú ukladať vaše záznamy.↵
-Môžete sa oboznámiť s programom vytvorením knižnice založenej na niektorej z ponúkaných šablón.</string>
+	<string name="welcome_text_description">Knižnica je miesto, kde sa budú ukladať vaše záznamy.\nMôžete sa oboznámiť s programom vytvorením knižnice založenej na niektorej z ponúkaných šablón.</string>
 	
 	<string name="memento_cloud">Cloud</string>
 	<string name="start_remove_librarary_from_cloud">Mazanie knižnice ...</string>
 	<string name="success_remove_librarary_from_cloud">Knižnica bola úspešne odstránená z cloud-u</string>
 	<string name="start_upload_library_to_cloud">Nahrávanie knižnice ...</string>	
-	<string name="success_upload_library_to_cloud">Knižnica je úspešne nahratá.↵\nKnižnica bude synchronizovaná automaticky.</string>
+	<string name="success_upload_library_to_cloud">Knižnica je úspešne nahratá.\nKnižnica bude synchronizovaná automaticky.</string>
 	<string name="success_upload_library_to_cloud2">Môžete sprístupniť svoju knižnicu pre ostatných užívateľov Mementa v nastavení prístupu.</string>	
-	<string name="push_entries_to_cloud_message" formatted="false">Nahrávanie záznamov↵\n%s of %s záznamov spracovaných</string>
+	<string name="push_entries_to_cloud_message" formatted="false">Nahrávanie záznamov\n%s of %s záznamov spracovaných</string>
 	<string name="permissions">Oprávnenia</string>
 	<string name="button_hide">skryť</string>	
 	<string name="empty_cloud_libraries_list_text">Nemáte žiadne odoslané knižnice</string>
@@ -1107,13 +1105,14 @@ Môžete sa oboznámiť s programom vytvorením knižnice založenej na niektore
 	<string name="download_library_hint">Vytvorí lokálnu kópiu</string>			
 	<string name="pull_entries_from_cloud_message">Sťahovanie záznamov ...</string>
 	<string name="pull_entries_from_cloud_message2" formatted="false">%s of %s záznamov spracovaných</string>
-	<string name="success_pull_library_from_cloud">Záznamy sú úspešne stiahnuté.↵\nKnižnica bude automaticky synchronizovaná.</string>
+	<string name="success_pull_library_from_cloud">Záznamy sú úspešne stiahnuté.\nKnižnica bude automaticky synchronizovaná.</string>
 	<string name="cloud_conflict_fields_title">Konflikt</string>
 	<string name="cloud_conflict_fix_button_title">Opraviť</string>
     <plurals name="conflict_count">
-	<item quantity="one">%d konflikt sa vyskytol počas synchronizácie</item>
-	<item quantity="other">%d konflikty sa vyskytli počas synchronizácie</item>
-</plurals>
+	    <item quantity="one">%d konflikt sa vyskytol počas synchronizácie</item>
+        <item quantity="few">%d konflikty sa vyskytli počas synchronizácie</item>
+	    <item quantity="other">%d konflikty sa vyskytli počas synchronizácie</item>
+    </plurals>
     <string name="button_select">Vybrať</string>
     <string name="cloud">Cloud</string>
     <string name="library_not_in_cloud">Nie je v cloude</string>
@@ -1141,7 +1140,7 @@ Môžete sa oboznámiť s programom vytvorením knižnice založenej na niektore
     <string name="upload_file_to_cloud">Nahrávanie súboru ...</string>    
     <string name="upload_files_to_cloud">Nahrávanie súboru</string>
     <string name="cloud_upload_error_title">Nemohli sme synchronizovať túto knižnicu</string>
-    <string name="upload_big_file_error" formatted="false">Položka %s obsahuje veľký súbor %s (%s).↵\nMaximálna veľkosť súboru je %s.</string>
+    <string name="upload_big_file_error" formatted="false">Položka %s obsahuje veľký súbor %s (%s).\nMaximálna veľkosť súboru je %s.</string>
     <string name="prepare_library_for_cloud">Knižnica sa spracováva...</string>
     <string name="download_files_from_cloud">Sťahovanie súborov z cloudu...</string>
     <string name="cant_download_item_files_for_copy">Sťahovanie súborov na vytvorenie kópií zlyhalo.</string> 
@@ -1158,7 +1157,7 @@ Môžete sa oboznámiť s programom vytvorením knižnice založenej na niektore
 	<string name="only_owner_permission">Iba vlastné</string>
 	<string name="user_not_found">Užívateľ nenájdený</string>
 	<string name="edit_permission">Nastavenie zdieľania užívateľa</string>	
-	<string name="push_entry_error_text" formatted="false">Položka nie je uložená v cloude.↵\nMeno: %s↵\nChyba: %s</string>
+	<string name="push_entry_error_text" formatted="false">Položka nie je uložená v cloude.\nMeno: %s\nChyba: %s</string>
 	<string name="push_error_forbidden">Prístup zamietnutý</string>
 	<string name="button_ignore">Ignorovať</string>
 	<string name="button_try_again">Skúsiť znova</string>	
@@ -1169,8 +1168,8 @@ Môžete sa oboznámiť s programom vytvorením knižnice založenej na niektore
 	<string name="need_upload_to_cloud_slave_libraries">Prosím, nahrať podriadené knižnice do cloudu.</string>
 	<string name="start_download_slave_library_model">Nahrávanie podriadenej knižnice %s</string>
 	<string name="open_access_for_slave_libraries">Poskytni prístup na čítanie podriadených knižníc</string>
-	<string name="cloud_storage_full_text">Nedostatok miesta v cloud úložisku.↵\nMôžete prejsť na tarifu poskytujúcu viac úložného priestoru.</string>
-	<string name="cloud_storage_full_text2" formatted="false">"Nedostatok miesta v cloud úložisku.↵\n%s  je potrebné, %s sú voľné.↵\nMôžete prejsť na tarifu poskytujúcu viac úložného priestoru."</string>
+	<string name="cloud_storage_full_text">Nedostatok miesta v cloud úložisku.\nMôžete prejsť na tarifu poskytujúcu viac úložného priestoru.</string>
+	<string name="cloud_storage_full_text2" formatted="false">"Nedostatok miesta v cloud úložisku.\n%s  je potrebné, %s sú voľné.\nMôžete prejsť na tarifu poskytujúcu viac úložného priestoru."</string>
 	<string name="alien_cloud_storage_full_text">Majiteľ knižnice nemá dostatok úložného priestoru.</string>	
 	<string name="button_tarifs">Tarify</string>
 	<string name="cloud_storage_plans">Plány</string>
@@ -1189,7 +1188,7 @@ Môžete sa oboznámiť s programom vytvorením knižnice založenej na niektore
 	<string name="cloud_file_while_not_upload">Súbor ešte nie je v cloude</string>
 	<string name="upload_ecrypted_libraries_dont_supported">Šifrované knižnice s nahrávaním do cloudu sú dočasne nedostupné.</string>
 	<string name="button_signin">Prihlásiť sa</string>
-	<string name="cloud_library_not_found">Knižnica nebola nájdená v cloude. Pravdepodobne bola zmazaná.↵\nZmeniť knižnicu na lokálnu?</string>
+	<string name="cloud_library_not_found">Knižnica nebola nájdená v cloude. Pravdepodobne bola zmazaná.\nZmeniť knižnicu na lokálnu?</string>
 	<string name="cloud_library_already_uploaded">Táto knižnica je už nahraná do cloudu.</string>
 	<string name="library_alias_menu_item">Alias</string>
 	<string name="library_public_access">Verejný prístup</string>
@@ -1201,10 +1200,7 @@ Môžete sa oboznámiť s programom vytvorením knižnice založenej na niektore
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Knižnica nenájdená</string>
 	<string name="upload_to_cloud_offer_title">{cloud pripravený...}</string>
-	<string name="upload_to_cloud_offer_text">• Spolupráca↵
-• Synchronizácia medzi zariadeniami↵
-• Zálohovanie je vždy do cloudu
-• História verzií</string>
+	<string name="upload_to_cloud_offer_text">• Spolupráca\n• Synchronizácia medzi zariadeniami\n• Zálohovanie je vždy do cloudu\n• História verzií</string>
 	<string name="button_no_thanks">Nie, ďakujem</string>
 	<string name="button_upload">Upload</string>
 	
@@ -1263,8 +1259,8 @@ Môžete sa oboznámiť s programom vytvorením knižnice založenej na niektore
 
     <string name="encryption_for_cloud_uploaded_library">Aktivovať šifrovanie knižnice je možné iba pred tým, než je nahraná do cloudu.</string>
     <string name="decryption_for_cloud_uploaded_library">Deaktivácia šifrovania knižnice pre nahranie na cloud nie je podporované. Najprv odstráňte knižnicu z cloudu.</string>
-    <string name="need_reload_library_from_cloud_encrypted">"Kópie knižníc na cloude boli zašifrované.↵\nOdstráňte miestnu kópiu knižnice, a potom prevezmite knižnicu znova z  cloudu."</string>
-    <string name="need_reload_library_from_cloud_decrypted">"Kópie knižníc na cloude boli odšifrované.↵\nOdstráňte miestnu kópiu knižnice, a potom prevezmite knižnicu znova z  cloudu."</string>
+    <string name="need_reload_library_from_cloud_encrypted">"Kópie knižníc na cloude boli zašifrované.\nOdstráňte miestnu kópiu knižnice, a potom prevezmite knižnicu znova z  cloudu."</string>
+    <string name="need_reload_library_from_cloud_decrypted">"Kópie knižníc na cloude boli odšifrované.\nOdstráňte miestnu kópiu knižnice, a potom prevezmite knižnicu znova z  cloudu."</string>
 
     <string name="render_pdf_menu_item">Uložiť ako PDF</string>
     <string name="entry_saved_as_pdf_success">PDF úspešne vytvorený</string>
@@ -1299,9 +1295,10 @@ Môžete sa oboznámiť s programom vytvorením knižnice založenej na niektore
     <string name="rating_tooltips_hint">Popisy nástrojov</string>
     <string name="rating_tooltips_empty">Pole nemá popisky</string>
     <plurals name="rating_tooltips_count">
-	<item quantity="one">%d popis</item>
-	<item quantity="other">%d popisy</item>
-</plurals>
+	    <item quantity="one">%d popis</item>
+        <item quantity="few">%d popisy</item>
+	    <item quantity="other">%d popisy</item>
+    </plurals>
     <string name="calculator">Kalkulačka</string>
     <string name="calculator_options_hint">Pridanie tlačidla pre zobrazenie kalkulačky</string>
     <string name="filter_by_number">Filter podľa čísla</string>
@@ -1323,17 +1320,19 @@ Môžete sa oboznámiť s programom vytvorením knižnice založenej na niektore
     <string name="edit_comment_dialog_title">Upraviť komentár</string>
 
     <plurals name="notification_edit_library_common_text">
-	<item quantity="one">%d neprečítaná zmena</item>
-	<item quantity="other">%d neprečítané zmeny</item>
-</plurals>
+	    <item quantity="one">%d neprečítaná zmena</item>
+        <item quantity="few">%d neprečítané zmeny</item>
+	    <item quantity="other">%d neprečítané zmeny</item>
+    </plurals>
 
     <string name="notification_edit_library_create_text">pridaná položka</string>
     <string name="notification_edit_library_edit_text">upravená položka</string>
     <string name="notification_edit_library_delete_text">zmazaná položka</string>
     <plurals name="notification_comments_common_text">
-	<item quantity="one">%d nový komentár</item>
-	<item quantity="other">%d nové komentáre</item>
-</plurals>
+	    <item quantity="one">%d nový komentár</item>
+        <item quantity="few">%d nové komentáre</item>
+	    <item quantity="other">%d nové komentáre</item>
+    </plurals>
 
     <string name="flex_type_rich_text">Viacriadkový text</string>
     <string name="text_background_color">Farba pozadia</string>
@@ -1385,7 +1384,7 @@ Môžete sa oboznámiť s programom vytvorením knižnice založenej na niektore
     <string name="field_delimiters">Oddeľovač poľa</string>
     <string name="field_enclosed">Kvalifikácia textu</string>
     
-<string name="create_new_user_dialog">Vytvoriť nového užívateľa</string>
+    <string name="create_new_user_dialog">Vytvoriť nového užívateľa</string>
 
     <string name="script">Skript</string>
     <string name="js_libraries">Knižnice JavaScriptu</string>
@@ -1401,4 +1400,4 @@ Môžete sa oboznámiť s programom vytvorením knižnice založenej na niektore
 
     <string name="string_list_sort_menu_title">Triediť podľa názvu</string>
     <string name="previous_value">Predchádzajúca hodnota</string>
-    </resources>
+</resources>
