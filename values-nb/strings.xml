@@ -45,7 +45,7 @@
     <string name="error_library_withous_name_flex">Et bibliotek skal ha minst et felt med funsjonen - \"navn \".</string>
     <string name="select_library_icon_activity">Velg ikon for biblioteket</string>
     <string name="select_flex_template_role_title">Feltfunksjon</string>
-    <string name="library_edit2">Redigere biblioteket</string>
+    <string name="library_edit2">Rediger biblioteket</string>
     <string name="library_edit">Redigere</string>
     <string name="library_delete">Slett</string>
     <string name="library_delete_message_title">Slett biblioteket</string>
@@ -430,7 +430,7 @@
     <string name="buy_from_market_title">Kjøp via Google Play</string>
     <string name="buy_from_market_hint">Google Checkout</string>
     <!-- 1.6.5 -->
-    <string name="flex_type_email">e-post</string>
+    <string name="flex_type_email">E-post</string>
     <string name="email_chooser_title">Velg e-postprogram</string>
     <string name="choose_own_icon_text">Velg ditt eget ikon</string>
     <string name="font_size_screen_preference">Skrifttype</string>
@@ -628,7 +628,7 @@
     <string name="moving_database_dialog_message">Flytter database ...</string>
     <string name="moving_database_error">Database kan ikke flyttes</string>
     <string name="my_templates">Mine maler</string>
-    <string name="most_popular">Mest populære</string>
+    <string name="most_popular">Mest populær</string>
     <string name="templates_sort_dialog_title">Sortere maler</string>
     <string name="delete_catalog_template_title">Sletter malen</string>
     <string name="delete_catalog_template_message">Vil du virkelig slette malen %s fra onlinekatalogen?</string>
@@ -754,7 +754,7 @@
     <string name="record_error_dialog_message">Beklager, men applikasjon for opptak ble ikke funnet.</string>
     <string name="sync_error_dialog_title">Synkroniseringsfeil</string>
     <string name="field_display_options_group">Vis alternativer</string>
-    <string name="display_in_list_how">Vis i listen som</string>
+    <string name="display_in_list_how">Vis som</string>
     <string name="field_display_title_in_card">Feltnavn</string>
     <string name="field_display_title_in_card_hint">Vis navnet på feltet i kortoppføringen</string>
     <string name="edit_library_tab_structure">STRUKTUR</string>
@@ -957,7 +957,7 @@
     <string name="aggregation_delete_message">Vil du virkelig slette aggregeringen \"%s\" ?</string>
     <string name="aggregation_need_select_field_message">Du må velge et felt for denne aggregeringsfunksjonen</string>
     <string name="open_object_by_uri_error">Kan ikke åpne objektet: %s</string>
-    <string name="import_and_export_menu_item">Import og eksport...</string>
+    <string name="import_and_export_menu_item">Import og eksport</string>
     <string name="entries_export_snackbar_ok">Oppføringer ble eksportert</string>
     <string name="entries_import_result_dialog_title">Importer oppføringer</string>
     <string name="csv_import_total_lines">Behandlede rader:</string>
@@ -1235,7 +1235,7 @@
 	<string name="send_formatting_menu_item">Formaterer...</string>
 	<string name="pro_for_cloud_storage_title">Abonnement</string>
 	<string name="default_file_manager_pref_title">Fil behandler</string>
-	<string name="default_file_manager_built_in">innebygd</string>	
+	<string name="default_file_manager_built_in">innebygget</string>	
 	<string name="clear_search_history">Fjern søkehistorikk</string>
 	<string name="success_clear_search_history">Din søkehistorikk er tømt</string>	
 	<string name="clear_search_history_quest">Er du sikker på at du vil tømme søkehistorikken?</string>
@@ -1385,7 +1385,7 @@
     <string name="permission_storage_text">For å fortsette, gi Memento tilgang til din lagring.</string>
     <string name="permission_storage_explanation_text">Tilgang til lagring er nødvendig for hurtigbufring, sikkerhetskopiering og tilgjengelighet for å knytte bilder og filer til oppføringene.</string>
     <string name="permission_accounts_title">Kontoer</string>
-    <string name="permission_accounts_text">Det er påkrevd å gi Memento tilgang til kontoer som skal synkroniseres med Google Sheets og for feltfeltypen Kontakter.</string>
+    <string name="permission_accounts_text">Det er påkrevd å gi Memento tilgang til kontoer som skal synkroniseres med Google Sheets.</string>
     <string name="permission_location_title">Lokasjon</string>
     <string name="permission_location_text">Det er påkrevd å gi Memento tilgang til plassering for feltypen Lokasjon.</string>
     <string name="permission_not_necessarily">Denne tillatelsen er ikke obligatorisk.</string>
@@ -1744,7 +1744,7 @@
     <string name="repository_js_libraries">Oppbevaringssteder</string>
     <string name="repository_data_sources_hint">Datakilder for automatisk utfylling</string>
     <string name="warning">Advarsel</string>
-    <string name="add_repository">Legg til depot</string>
+    <string name="add_repository">Legg til GitHub repository</string>
     <string name="repository_location_hint">GitHub Repository URL</string>
     <string name="repository_location_error">Spesifiser HTTPS-koblingen til GitHub-depot. For eksempel: https://github.com/usname/repo-name</string>
     <string name="repository_delete_message">Vil du virkelig slette depotet \"%s\"?</string>
@@ -1965,7 +1965,7 @@
     <string name="plans_and_pricing">Planer &amp; Priser</string>
     <string name="activate_with_key">Aktiver med lisensnøkkel</string>
     <string name="pro_features_title">PRO funksjoner</string>
-    <string name="pro_license_activated">Lisens aktivitert</string>
+    <string name="pro_license_activated">Lisens aktivert</string>
     <string name="pro_feature_8">Praktisk app-widget</string>
     <string name="pro_feature_7">Redigering av flere oppføringer</string>
     <string name="pro_feature_6">Ett oppføringsfelt kan inneholde flere antall objekter (bilder, filer, kontakter, koordinater, etc.</string>
@@ -1998,4 +1998,130 @@
     <string name="repository_not_found_error">Finner ikke depot: %s</string>
     <string name="repository_android_intents_hint">Funksjoner for interaksjon med andre Android-applikasjoner</string>
     <string name="add_javascript_library">Legg til javascript-biblioteker ...</string>
+    <string name="orientation_portrait">Portrait</string>
+    <string name="orientation_landscape">Liggende</string>
+    <string name="share_filters">Del filtre</string>
+    <string name="shared_by">Delt av %s</string>
+    <string name="move_to">Flytt til...</string>
+    <string name="copy_to">Kopier til...</string>
+    <string name="migrate">Migrer</string>
+    <string name="barcode_display_error">Beklager, kunne ikke lage en strekkode av gitte data</string>
+    <string name="barcode_format">Strekkodeformat</string>
+    <string name="barcode_format_auto">Autogjenkjenning</string>
+    <string name="orientation">Retning</string>
+    <string name="paper_size">Papirstørrelse</string>
+    <string name="camera_permission_title">Kamera</string>
+    <string name="camera_permission_required_text">For å ta et bilde, trenger vi tilgang til kameraet ditt. Gå til innstillinger for å aktivere tillatelsen.</string>
+    <string name="require_external_audio_app">Memento bruker et eksternt lydopptaksprogram. Vil du installere det?</string>
+
+
+    <string name="enter_email_address_hint">Vennligst skriv inn E-postadressen din</string>
+    <string name="duration_label_days">d</string>
+    <string name="duration_label_hours">t</string>
+    <string name="duration_label_minutes">m</string>
+    <string name="duration_label_seconds">s</string>
+    <string name="duration_label_mseconds">ms</string>
+    <string name="duration_precision_option_title">Varighet presisjon</string>
+    <string name="duration_precision_min">Minimumsenhet</string>
+    <string name="duration_precision_max">Maksimumsenhet</string>
+    <string name="duration_precision_wrong">Maksimumsenhet må være større enn eller lik minimumsenhet</string>
+    <string name="duration_display_format_option_title">Varighet format</string>
+    <string name="duration_display_format_short">Kort</string>
+    <string name="duration_display_format_long">Lang</string>
+    <string name="js_libraries_add_url">Legg til URL</string>
+    <string name="js_file_url">JavaScript-fil URL</string>
+    <string name="image_capture_size_original">Original</string>
+    <string name="max_width">Maks. bredde</string>
+    <string name="max_height">Maks. høyde</string>
+    <string name="speech_recognition_not_supported">Stemmegjenkjenning er ikke støttet</string>
+
+    <string name="templates_category_personal">Personlig</string>
+    <string name="templates_category_collections">Samlinger</string>
+    <string name="templates_category_healthy">Helse &amp; Sport</string>
+    <string name="templates_category_travel">Reise</string>
+    <string name="templates_category_edu">Utdanning</string>
+    <string name="board_games">Brettspill</string>
+    <string name="new_database">Ny database</string>
+
+    <string name="request_button">Forespørsel</string>
+
+    <string name="menu">Meny</string>
+    <string name="number_filter_types_between">Mellom</string>
+    <string name="field_role_hidden">Skjult felt</string>
+    <string name="field_role_hidden_short">skjult</string>
+    <string name="export_hidden_fields">Eksporter skjulte felt</string>
+    <string name="delete_move_rule_dialog_title">Slett regel</string>
+    <string name="need_pro_for_move_entries">Oppføringer kan bare flyttes eller kopieres til et annet bibliotek i PRO-versjonen av programmet.</string>
+    <string name="create_copy">Lag en kopi</string>
+    <string name="move_or_copy">Flytt eller kopier</string>
+    <string name="duplicate">Dupliser</string>
+
+    <string name="flex_type_user">Bruker</string>
+    <string name="select_user">Velg bruker</string>
+    <string name="select_user_empty_list">Det er ingen flere brukere å velge</string>
+    <string name="memento_full_name_hint">Fullt navn</string>
+    <string name="not_set">Ikke satt</string>
+    <string name="max_number_of_users">Maks. antall brukere</string>
+    <string name="conditional_permission">Avhenger av felt</string>
+    <string name="filter_rule_is_one_of">Er en av</string>
+    <string name="filter_rule_is_not_one_of">Er ikke en av</string>
+    <string name="send_email">Send e-post</string>
+    <string name="pdf_scale_mode_crop">Beskjær</string>
+    <string name="pdf_scale_mode_expand">Utvid</string>
+    <string name="share_charts">Del diagrammer</string>
+    <string name="share_workplace_limit">Beklager, du kan bare dele diagrammer og filtre med Team.</string>
+    <string name="bulk_action">Massehandling</string>
+    <string name="action_context_bulk_actions">Massehandlingsmeny</string>
+    <string name="move_to_no_libraries">Kunne ikke finne biblioteker som er kompatible med det nåværende biblioteket.
+Lag en oppføringsregel for å migrere til et hvilket som helst bibliotek.</string>
+    <string name="agree_terms_privacy">Ved å opprette en konto, godtar du Mementos <a href="https://mementodatabase.com#terms">brukervilkår</a> og <a href="http://mementodatabase.com#privacy_policy">retningslinjer for personvern</a>.</string>
+    <string name="scale_size">Skala</string>
+    <string name="pdf_scale_mode_fit">Tilpass</string>
+    <string name="type_desc_duration">Et Varighet-felt kan inneholde en verdi som brukes til å representere en tidsvarighet målt i dager, timer, minutter, sekunder eller millisekunder.</string>
+
+    <plurals name="after_entries_multiedit_message">
+	<item quantity="one">En oppføring ble redigert</item>
+	<item quantity="other">% d oppføringer ble redigert</item>
+</plurals>
+
+    <string name="js_file_url_error">Spesifiser HTTP / HTTPS-lenken til JavaScript-filen.</string>
+    <string name="locals_js_libraries">Språk</string>
+    <string name="js_file_url_not_found">Kunne ikke finne JavaScript-fil på denne URL:% S</string>
+    <string name="send_entries_too_large">Beklager, du kan ikke sende alle disse oppføringene som tekst. Det er for mye data.</string>
+    <string name="period_this_year">I år</string>
+    <string name="edit_library_not_available">Kun eier kan endre strukturen på biblioteket.</string>
+    <string name="match_fields">Match felt</string>
+    <string name="dest_fields">Målfelt</string>
+    <string name="move_rules_empty">Det er ingen flytteregler i dette biblioteket</string>
+
+    <string name="delete_move_rule_dialog_message">Er du sikker på at du vil slette flytteregelen til \"%s\" ?</string>
+    <string name="no_field">Ingen felt</string>
+    <string name="copying_entries2">Kopierer oppføringer. %d av %d.</string>
+    <string name="workplace">Arbeidssted</string>
+    <string name="moving_entries">Flytter oppføringer. %d of %d.</string>
+    <plurals name="moving_entries_success">
+	<item quantity="one">%d oppføringen er flyttet til biblioteket %s</item>
+	<item quantity="other">%d oppføringer er flyttet til biblioteket %s</item>
+</plurals>
+    <string name="buy_license_key_hint">Kjøp en frittstående PRO-lisens for Android</string>
+    <string name="objects_limit_option_title">Grense</string>
+    <string name="no_limit">Ingen grense</string>
+    <string name="conditional_field_empty">Du bør velge \"Bruker\"-feltet som vil gi tillatelser for operasjonen.</string>
+    <plurals name="duration_ms">
+	<item quantity="one">1 ms</item>
+	<item quantity="other">%d ms</item>
+</plurals>
+    <string name="templates_category_business">Forretning</string>
+    <string name="move_select_destination">Velg destinasjon</string>
+    <string name="image_capture_size">Bildestørrelse</string>
+    <plurals name="copying_entries_success">
+	<item quantity="one">%d oppføring er kopiert til biblioteket %s</item>
+	<item quantity="other">%d oppføringer er kopiert til biblioteket %s</item>
+</plurals>
+    <string name="conditional_permission_limit">Tilgangsrettigheter av et \"Bruker\"-felt kan bare settes i Team.</string>
+    <string name="type_desc_user">Brukerfeltet lar deg velge en eller flere brukere fra en liste over alle brukerne som biblioteket ditt er delt med.</string>
+    <string name="field_copied_to_clipboard">%s kopiert til utklippstavlen</string>
+    <string name="max_number_of_users_limit_message">Du kan kun velge %d brukere</string>
+
+<string name="scale_mode">Endre størrelse</string>
     </resources>
