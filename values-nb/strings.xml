@@ -4,7 +4,7 @@
     <string name="library_menu_add_item">Legg til en post</string>
     <string name="main_menu_add_lib">Legg til et bibliotek</string>
     <string name="ghostData_lib_title">Bibliotekets navn</string>
-    <string name="custom_template_title">Tilpass</string>
+    <string name="custom_template_title">Tilpasset</string>
     <string name="button_create">Lage</string>
     <string name="button_yes">Ja</string>
     <string name="button_ok">OK</string>
@@ -606,7 +606,7 @@
     <string name="user_manual_menu">Hjelp innhold</string>
     <string name="save_library_changes">Lagre endringer?</string>
     <string name="build_navigate_list_dialog">Sorterer oppføringer ...</string>
-    <string name="navigate_first_entry">Denne oppføringen er først</string>
+    <string name="navigate_first_entry">Denne oppføringen er den første</string>
     <string name="navigate_last_entry">Denne oppføringen er sist</string>
     <string name="library_custom_filter_name">Brukerfilter</string>
     <string name="select_library_filter">Velg filter</string>
@@ -1998,7 +1998,7 @@
     <string name="repository_not_found_error">Finner ikke depot: %s</string>
     <string name="repository_android_intents_hint">Funksjoner for interaksjon med andre Android-applikasjoner</string>
     <string name="add_javascript_library">Legg til javascript-biblioteker ...</string>
-    <string name="orientation_portrait">Portrait</string>
+    <string name="orientation_portrait">Stående</string>
     <string name="orientation_landscape">Liggende</string>
     <string name="share_filters">Del filtre</string>
     <string name="shared_by">Delt av %s</string>
