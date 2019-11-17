@@ -40,8 +40,7 @@
     <string name="button_next">Dalej</string>
     <string name="select_flex_template_type">Typ pola</string>
     <string name="default_value">Wartość domyślna</string>
-    <string name="flex_template_options_title">Parametry
-zaawansowane</string>
+    <string name="flex_template_options_title">Parametry zaawansowane</string>
     <string name="error_template_empty_title">Wprowadź nazwę pola</string>
     <string name="error_library_withous_name_flex">Biblioteka musi posiadać przynajmniej jedno pole z funkcją – \"nazwa\".</string>
     <string name="select_library_icon_activity">Wybór ikony dla biblioteki</string>
@@ -63,8 +62,7 @@ zaawansowane</string>
     <string name="select_group_template">Wybierz pole do grupowania</string>
     <string name="sort_by_date">Data utworzenia</string>
     <string name="flex_delete_message_title">Usuń pole</string>
-    <string name="flex_delete_message_text">Naprawdę chcesz usunąć pole
-\"%s\" ?</string>
+    <string name="flex_delete_message_text">Naprawdę chcesz usunąć pole \"%s\" ?</string>
     <string name="not_group">Bez grupowania</string>
     <string name="bool_yes">Tak</string>
     <string name="bool_not">Nie</string>
@@ -93,8 +91,7 @@ zaawansowane</string>
     <string name="clear_trash">Opróżnij Kosz</string>
     <string name="clear_trash_progress_dialog_title">Kosz pusty</string>
     <string name="clear_trash_dialog_title">Opróżnij Kosz</string>
-    <string name="clear_trash_dialog_text">Czy naprawdę chcesz usunąć z
-Kosza wszystkie wpisy ?</string>
+    <string name="clear_trash_dialog_text">Czy naprawdę chcesz usunąć z Kosza wszystkie wpisy ?</string>
     <string name="mobile">komórka</string>
     <string name="home">domowy</string>
     <string name="work">praca</string>
@@ -116,8 +113,7 @@ Kosza wszystkie wpisy ?</string>
     <string name="item_remove_from_favorite">Wpis jest usunięty z Ulubionych</string>
     <string name="history_dialog_title">Historia</string>
     <string name="favorites_dialog_title">Ulubione</string>
-    <string name="map_coord_not_set_hint">Dotknij by wybrać
-lokalizację</string>
+    <string name="map_coord_not_set_hint">Dotknij by wybrać lokalizację</string>
     <string name="select_map_coord">Wybór lokalizacji</string>
     <string name="find_selected_address">Szukanie adresu ...</string>
     <string name="open_gmap">Otwórz Mapy Google</string>
@@ -127,15 +123,12 @@ lokalizację</string>
     <string name="backup_preference">Kopia zapasowa</string>
     <string name="backup_summary_preference">Wykonywanie kopii zapasowej wszystkich bibliotek na kartę pamięci</string>
     <string name="backup_fail">Błąd kopii zapasowej</string>
-    <string name="cdcard_not_found">Przepraszamy, Twoja karta SD jest
-zajęta</string>
+    <string name="cdcard_not_found">Przepraszamy, Twoja karta SD jest zajęta</string>
     <string name="backup_process">Kopia zapasowa bibliotek.</string>
     <string name="restore_preference">Przywracanie</string>
     <string name="restore_summary_preference">Przywracanie bibliotek z kopii zapasowej</string>
     <string name="backup_file_not_found">Nie znaleziono plików kopii zapasowej.</string>
-    <string name="restore_dialog_message">W trakcie odtwarzania kopii zapasowej, istniejące biblioteki zostaną zastąpione bibliotekami z kopii.
-Wszystkie zmiany wprowadzone po stworzeniu kopii zapasowej zostaną utracone.
-Rozpocząć przywracanie?</string>
+    <string name="restore_dialog_message">W trakcie odtwarzania kopii zapasowej, istniejące biblioteki zostaną zastąpione bibliotekami z kopii.\nWszystkie zmiany wprowadzone po stworzeniu kopii zapasowej zostaną utracone.\nRozpocząć przywracanie?</string>
     <string name="backup_dialog_message">Zastąpić istniejący plik kopii zapasowej nową?</string>
     <string name="restore_success">Biblioteki zostały pomyślnie przywrócone z plików kopii zapasowej</string>
     <string name="restore_step1">Przywracanie</string>
@@ -153,8 +146,7 @@ Rozpocząć przywracanie?</string>
     <string name="activation_ok">Dziękujemy za aktywację Memento</string>
     <string name="activation_error">Niepoprawny kod aktywacyjny. Spróbuj ponownie.</string>
     <string name="about">O aplikacji</string>
-    <string name="copyright">Prawo autorskie © 2019 LuckyDroid
-Wszelkie prawa zastrzeżone</string>
+    <string name="copyright">Prawo autorskie © 2019 LuckyDroid\nWszelkie prawa zastrzeżone</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Sprawdzanie wersję aplikacji</string>
     <string name="about_license_type">Licencja:</string>
@@ -163,8 +155,7 @@ Wszelkie prawa zastrzeżone</string>
     <string name="send_chooser_title">Wybierz aplikację:</string>
     <string name="create_shortcut">Utwórz skrót</string>
     <string name="app_name_library">Biblioteka Memento</string>
-    <string name="error_cant_open_memento_dir">Błąd: nie można otworzyć
-folderu Memento na karcie SD</string>
+    <string name="error_cant_open_memento_dir">Błąd: nie można otworzyć folderu Memento na karcie SD</string>
     <string name="preference_category_csv_import">Operacje na danych</string>
     <string name="csvexport">Eksport do CSV</string>
     <string name="csvexport_summary">Eksportowanie wpisów do pliku CSV</string>
@@ -176,18 +167,14 @@ folderu Memento na karcie SD</string>
     <string name="button_import">Importuj</string>
     <string name="button_export">Eksportuj</string>
     <string name="find_csv_column_title">Pola wpisów znalezione we wskazanym pliku:</string>
-    <string name="not_find_csv_column_title">Nie znaleziono pól we wskazanym
-pliku.</string>
-    <string name="csv_delimiter_text">Wartości kolumn muszą być rozdzielone
-przecinkiem (,)</string>
+    <string name="not_find_csv_column_title">Nie znaleziono pól we wskazanym pliku.</string>
+    <string name="csv_delimiter_text">Wartości kolumn muszą być rozdzielone przecinkiem (,)</string>
     <string name="need_title_column_text">"Nazwa kolumny musi być taka sama jak nazwa pola wpisu. "</string>
     <string name="csv_result_import_text">Wpisy zostały zaimportowane</string>
     <string name="csv_result_import_succes_items">Dodane wpisy:</string>
-    <string formatted="false" name="csv_result_import_fail_items">Numery wierszy z błędami: %s
-\nWiersze: %s</string>
+    <string formatted="false" name="csv_result_import_fail_items">Numery wierszy z błędami: %s\nWiersze: %s</string>
     <string name="enter_csv_name_dialog_title">Eksport do pliku CSV</string>
-    <string name="enter_csv_name_dialog_value_title">Wprowadź nazwę pliku
-CSV</string>
+    <string name="enter_csv_name_dialog_value_title">Wprowadź nazwę pliku CSV</string>
     <string name="enter_csv_name_dialog_value_hint">Nazwa pliku</string>
     <string name="export_success">Wpisy zostały wyeksportowane do /sdcard/memento/%s</string>
     <string name="export_error">Błąd eksportu wpisów: %s</string>
@@ -196,15 +183,12 @@ CSV</string>
     <string name="msg_default_status">Aby zeskanować, umieść kod paskowy wewnątrz pola.</string>
     <string name="scan_library_item">Skanowanie Barcodu</string>
     <string name="search_product_title">Wyszukiwanie produktu po kodzie kreskowym...</string>
-    <string name="empty_result_text">Przepraszamy,
-Produkt nie został znaleziony</string>
+    <string name="empty_result_text">Przepraszamy,\nProdukt nie został znaleziony</string>
     <string name="add_entry_manual">Dodaj ręcznie ...</string>
     <string name="fill_entry_manual">Uzupełnij ręcznie ...</string>
     <string name="flex_type_barcode">Kod paskowy</string>
-    <string name="flex_type_barcode_option">Automatyczna konfiguracja
-pola</string>
-    <string name="button_add_fill_field">Dodaj zasadę
-autouzupełniania</string>
+    <string name="flex_type_barcode_option">Automatyczna konfiguracja pola</string>
+    <string name="button_add_fill_field">Dodaj zasadę autouzupełniania</string>
     <string name="barcode_auto_fill_checkbox">Pole autouzupełniania</string>
     <string name="add_fill_field_dialog_title">Tworzenie zasady autouzupełniania</string>
     <string name="memento_field">Zostanie to zapisane w polu</string>
@@ -213,8 +197,7 @@ autouzupełniania</string>
     <string name="to">do</string>
     <string name="barcode_search">Wyszukaj kod kreskowy</string>
     <!-- 1.2.1 -->
-    <string name="msg_camera_framework_bug">Przepraszam, kamera Androida
-napotkała problem. Może być konieczny restart urządzenia.</string>
+    <string name="msg_camera_framework_bug">Przepraszam, kamera Androida napotkała problem. Może być konieczny restart urządzenia.</string>
     <!-- 1.2.3 -->
     <string name="deleted_library_hint">Rekordy: %s</string>
     <string name="preference_restore_libs_title">Odzyskiwanie bibliotek</string>
@@ -247,50 +230,39 @@ napotkała problem. Może być konieczny restart urządzenia.</string>
     <string name="sync_with_gdocs">Synchronizacja z Arkuszem Google</string>
     <string name="google_docs_task_step_auth">Uwierzytelnianie w serwisie Arkuszy</string>
     <string name="google_docs_task_step_get_rows">Pobieranie zawartości biblioteki</string>
-    <string formatted="false" name="google_docs_task_step_process_row">Przetwarzanie wierszy. %s
-z %s</string>
-    <string formatted="false" name="google_docs_task_step_send_row">Dodawanie wierszy. %s z
-%s</string>
-    <string formatted="false" name="google_docs_task_step_update_row">Aktualizacja wierszy. %s z
-%s</string>
+    <string formatted="false" name="google_docs_task_step_process_row">Przetwarzanie wierszy. %s z %s</string>
+    <string formatted="false" name="google_docs_task_step_send_row">Dodawanie wierszy. %s z %s</string>
+    <string formatted="false" name="google_docs_task_step_update_row">Aktualizacja wierszy. %s z %s</string>
     <string name="google_docs_task_create_document">Tworzenie Arkusza</string>
     <string name="google_docs_task_create_worksheet">Dodawanie Arkusza</string>
-    <string name="google_docs_task_shange_columns">Aktualizacja
-Arkusza</string>
+    <string name="google_docs_task_shange_columns">Aktualizacja Arkusza</string>
     <string name="username_hint">Adres email</string>
     <string name="pass_hint">Hasło</string>
-    <string name="gdocs_error">Błąd synchronizacji z Google Sheets -
-%s</string>
+    <string name="gdocs_error">Błąd synchronizacji z Google Sheets - %s</string>
     <string name="preference_category_accounts">Konta</string>
     <string name="preference_google_account_title">Konto Google</string>
-    <string name="preference_google_account_hint">Email i hasło Twojego konta
-Google</string>
+    <string name="preference_google_account_hint">Email i hasło Twojego konta Google</string>
     <string name="conflict_dialog_text">Zostały edytowane te same wpisy w Memento i Google Sheets. Która wersja jest poprawna ?</string>
     <string name="copy_memento_to_gdocs">Wpisy z Memento</string>
     <string name="copy_gdocs_to_memento">Wpisy z Google Sheets</string>
     <string name="edit_flex_title_disabled">Nie może zmienić nazwy tego pola ponieważ biblioteka jest połączona z Arkuszem Google</string>
-    <string name="cant_bind">Darmowa wersja pozwala na połączenie z Arkuszem Google tylko dwóch bibliotek.
-Aktualizuj do wersji PRO, aby usunąć te ograniczenia.</string>
+    <string name="cant_bind">Darmowa wersja pozwala na połączenie z Arkuszem Google tylko dwóch bibliotek.\nAktualizuj do wersji PRO, aby usunąć te ograniczenia.</string>
     <string name="button_pro_version">Wersja PRO</string>
     <!-- 1.3.1 -->
     <string name="option_autofill_title">Autouzupełnianie</string>
-    <string name="option_autofill_hint">Pole wyboru możliwych wartości z
-poprzednich wpisów</string>
+    <string name="option_autofill_hint">Pole wyboru możliwych wartości z poprzednich wpisów</string>
     <string name="capture_picture">Zrób zdjęcie</string>
     <string name="please_wait">Proszę czekać...</string>
     <!-- 1.4.0 -->
     <string name="public_library_title">Publikuję bibliotekę</string>
     <string name="public_to_picasa_message">Przesyłam obrazy biblioteki do Picasa</string>
     <string name="public_to_picasa_create_album">Tworzenie albumu Picasa dla publikowanej biblioteki</string>
-    <string name="public_to_picasa_success">Obrazy zostały wgrane do
-Picasa</string>
-    <string name="picasa_task_step_auth">Uwierzytelnianie w serwisie
-Picasa</string>
+    <string name="public_to_picasa_success">Obrazy zostały wgrane do Picasa</string>
+    <string name="picasa_task_step_auth">Uwierzytelnianie w serwisie Picasa</string>
     <string formatted="false" name="picasa_send_image_step">Przesyłanie obrazów biblioteki do Picasa. %s z %s</string>
     <string name="public_library">Opublikuj bibliotekę</string>
     <string name="update_public_library">Aktualizuj publikację</string>
-    <string name="memento_register_account_title">Tworzenie konta\nna serwerze
-Memento</string>
+    <string name="memento_register_account_title">Tworzenie konta\nna serwerze Memento</string>
     <string name="memento_register_account_text">Aby mieć możliwość publikowania własnych bibliotek i subskrypcji bibliotek innych użytkowników, wymagane jest konto na serwerze Memento</string>
     <string name="memento_login_hint">Użytkownik</string>
     <string name="memento_pass_hint">Hasło</string>
@@ -299,32 +271,24 @@ Memento</string>
     <string name="memento_register_button">Utwórz konto</string>
     <string name="memento_have_button">Mam już konto</string>
     <string name="login_empty">Wprowadź użytkownika</string>
-    <string name="login_format_error">Login może zawierać tylko litery i
-cyfry</string>
+    <string name="login_format_error">Login może zawierać tylko litery i cyfry</string>
     <string name="pass_not_equal">Zweryfikuj swoje hasło</string>
     <string name="incorrect_email">Niewłaściwy email</string>
     <string name="create_memento_account_dlg_title">Rejestracja</string>
-    <string name="create_memento_account_dlg_text">Rejestruję użytkownika na
-serwerze Memento ...</string>
-    <string name="memento_register_user_exists">Taki użytkownik już
-istnieje</string>
-    <string name="memento_register_email_exists">Użytkownik z takim adresem
-email już istnieje</string>
+    <string name="create_memento_account_dlg_text">Rejestruję użytkownika na serwerze Memento ...</string>
+    <string name="memento_register_user_exists">Taki użytkownik już istnieje</string>
+    <string name="memento_register_email_exists">Użytkownik z takim adresem email już istnieje</string>
     <string name="memento_server_error">Błąd serwera, spróbuj później</string>
     <string name="memento_account_title">Konto Memento</string>
     <string name="memento_create_account_button">Nowe konto</string>
     <string name="memento_auth_error">Błędny użytkownik lub hasło</string>
     <string name="memento_library_lock">Biblioteka jest zablokowana, spróbuj ponownie później</string>
     <string name="preference_memento_account_title">Konto Memento</string>
-    <string name="preference_memento_account_hint">Twoje konto Memento. Nazwa
-użytkownika i hasło</string>
-    <string name="public_library_task_auth">Uwierzytelnianie serwisu
-Memento</string>
+    <string name="preference_memento_account_hint">Twoje konto Memento. Nazwa użytkownika i hasło</string>
+    <string name="public_library_task_auth">Uwierzytelnianie serwisu Memento</string>
     <string name="public_library_task_send_template">Transfer szablonu biblioteki</string>
-    <string formatted="false" name="public_library_task_send_items">Transfer wpisów biblioteki.
-%s z %s</string>
-    <string name="memento_not_support_template">Twoja wersja Memento jest
-nieaktualna, uaktualnij ją</string>
+    <string formatted="false" name="public_library_task_send_items">Transfer wpisów biblioteki. %s z %s</string>
+    <string name="memento_not_support_template">Twoja wersja Memento jest nieaktualna, uaktualnij ją</string>
     <string name="memento_not_found">Nie znaleziono zasobu</string>
     <string name="alias_hint">Wprowadź alias biblioteki</string>
     <string name="button_publish">Publikuj</string>
@@ -332,8 +296,7 @@ nieaktualna, uaktualnij ją</string>
     <string name="private_library_checkbox">Dostęp prywatny</string>
     <string name="private_library_checkbox_hint">Tylko wskazani użytkownicy będą mieli dostęp do biblioteki</string>
     <string name="enter_alias">Wprowadź alias biblioteki</string>
-    <string name="incorrect_alias">Alias może zawierać tylko litery i
-cyfry</string>
+    <string name="incorrect_alias">Alias może zawierać tylko litery i cyfry</string>
     <string name="public_library_address_text">Adres biblioteki</string>
     <string name="alias_exists">Już opublikowałeś bibliotekę z takim aliasem</string>
     <string name="memento_forbidden_error">Dostęp do biblioteki jest zabroniony</string>
@@ -343,10 +306,8 @@ cyfry</string>
     <string name="subscribe_activity_title">Subskrypcja biblioteki</string>
     <string name="library_uri_hint">Adres biblioteki / nazwa użytkownika</string>
     <string name="find_libraries_task_title">Wyszukaj bibliotekę</string>
-    <string name="find_libraries_task_by_uri">Dostęp do biblioteki
-po jej adresie</string>
-    <string name="find_libraries_task_by_user">Dostęp do listy
-bibliotek użytkownika</string>
+    <string name="find_libraries_task_by_uri">Dostęp do biblioteki po jej adresie</string>
+    <string name="find_libraries_task_by_user">Dostęp do listy bibliotek użytkownika</string>
     <string name="libraries_list_result_header">Znalezione biblioteki</string>
     <string name="libraries_by_user_not_found">Podany użytkownik nie został znaleziony lub nie opublikował żadnej biblioteki</string>
     <string name="library_not_found">Nie znaleziono biblioteki pod tym adresem</string>
@@ -385,10 +346,8 @@ bibliotek użytkownika</string>
     <string name="flex_image_load">Ładowanie obrazu...</string>
     <string name="subscribed">Subskrybowana</string>
     <string name="info_public_library">Adres biblioteki</string>
-    <string name="cant_public">Darmowa wersja umożliwia Ci publikację tylko dwóch bibliotek.
-Uaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
-    <string name="add_permission_user_hint">Wprowadź nazwę użytkownika lub
-email</string>
+    <string name="cant_public">Darmowa wersja umożliwia Ci publikację tylko dwóch bibliotek.\nUaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
+    <string name="add_permission_user_hint">Wprowadź nazwę użytkownika lub email</string>
     <string name="edit_pub_permissions">Prawa dostępu do biblioteki</string>
     <string name="edit_pub_permissions_hint">Edycja listy użytkowników mających dostęp do biblioteki</string>
     <string name="edit_pub_permissions_task_dialog_message">Zmiana praw dostępu do biblioteki</string>
@@ -419,15 +378,13 @@ email</string>
     <string name="flex_type_multy_sl">Lista wielokrotnego wyboru</string>
     <string name="library_item_copy">Kopiuj</string>
     <string name="send_all_dialog_title">Wyślij wszystko</string>
-    <string name="send_all_dialog_message">Przygotowuję rekordy do
-wysłania...</string>
+    <string name="send_all_dialog_message">Przygotowuję rekordy do wysłania...</string>
     <string name="send_all_csv">Wyślij jako csv</string>
     <string name="send_all_text">Wyślij jako tekst</string>
     <string name="flex_type_time">Godzina</string>
     <!-- 1.6.0 -->
     <string name="set_library_protection">Zabezpieczenia</string>
-    <string name="set_master_pass_text">Ustaw hasło główne dostępu do biblioteki.
-W celu dostępu do chronionych bibliotek będziesz musiał wprowadzać to hasło.</string>
+    <string name="set_master_pass_text">Ustaw hasło główne dostępu do biblioteki.\nW celu dostępu do chronionych bibliotek będziesz musiał wprowadzać to hasło.</string>
     <string name="master_pass_hint">Hasło</string>
     <string name="master_pass_hint2">Powtórz hasło</string>
     <string name="set_master_pass_dialog">Ustawienia hasła głównego</string>
@@ -439,8 +396,7 @@ W celu dostępu do chronionych bibliotek będziesz musiał wprowadzać to hasło
     <string name="library_is_locked">Dostęp do zaszyfrowanych bibliotek jest zablokowany</string>
     <string name="library_pass_access_description">W celu dostępu do tej biblioteki będziesz musiał wprowadzić hasło główne</string>
     <string name="library_encription_checkbox">Szyfruj zawartość</string>
-    <string name="library_encription_description">Zawartość pól wpisów będzie zaszyfrowana za pomocą AES.
-Przeszukiwanie zaszyfrowanych bibliotek będzie niemożliwe.</string>
+    <string name="library_encription_description">Zawartość pól wpisów będzie zaszyfrowana za pomocą AES.\nPrzeszukiwanie zaszyfrowanych bibliotek będzie niemożliwe.</string>
     <string name="set_library_protection_title">Szyfrowanie rekordów</string>
     <string name="set_library_protection_message">Szyfruję wpisy biblioteki...</string>
     <string name="remove_library_protection">Usuń ochronę</string>
@@ -485,7 +441,7 @@ Przeszukiwanie zaszyfrowanych bibliotek będzie niemożliwe.</string>
     <string name="entry_field_title_font_size_preference_summary">Ustaw rozmiar czcionki pola Nazwa</string>
     <string name="entry_field_value_font_size_preference">Pole \'Wartość\'</string>
     <string name="entry_field_value_font_size_preference_summary">Ustaw rozmiar czcionki pola Wartość</string>
-<string name="help_intro">Czym jest Memento</string>
+    <string name="help_intro">Czym jest Memento</string>
     <string name="help_create_library">Tworzenie biblioteki</string>
     <string name="help_edit_field">Określanie struktury biblioteki</string>
     <string name="help_library_items">Praca z wpisami biblioteki</string>
@@ -557,8 +513,7 @@ Przeszukiwanie zaszyfrowanych bibliotek będzie niemożliwe.</string>
     <string name="required_mark">wymagane</string>
     <string name="reset_master_password">Zresetuj hasło główne</string>
     <string name="reset_master_password_hint">Wszystkie zaszyfrowane biblioteki zostaną usunięte</string>
-    <string name="reset_master_quest">Czy chcesz zresetować hasło główne?
-Uwaga! Wszystkie zaszyfrowane biblioteki zostaną usunięte!</string>
+    <string name="reset_master_quest">Czy chcesz zresetować hasło główne?\nUwaga! Wszystkie zaszyfrowane biblioteki zostaną usunięte!</string>
     <string name="remove_encript_lib_dlg_msg">Usuń zaszyfrowane biblioteki</string>
     <string name="master_password_reset">Reset głównego hasła</string>
     <string name="edit_entry_screen_preference">Edycja wpisów</string>
@@ -571,8 +526,7 @@ Uwaga! Wszystkie zaszyfrowane biblioteki zostaną usunięte!</string>
     <string name="select_app">Wybierz aplikację</string>
     <string name="forum">Forum</string>
     <string name="autoincrement">Auto-przyrost</string>
-    <string name="cant_protect">Wersja darmowa pozwala zabezpieczyć tylko dwie biblioteki.
-Uaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
+    <string name="cant_protect">Wersja darmowa pozwala zabezpieczyć tylko dwie biblioteki.\nUaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
     <string name="flex_edit_option_title">Kiedy możesz edytować</string>
     <string name="flex_edit_option_default">Formularz edycji danych</string>
     <string name="flex_edit_option_in_list">lista rekordów</string>
@@ -676,8 +630,7 @@ Uaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
     <string name="change_password_success">Sprawdź skrzynkę pocztową.\nWysłaliśmy do ciebie wiadomość, która pozwoli ci łatwo i szybko zresetować hasło.</string>
     <string name="tile_options_text">tytuł</string>
     <string formatted="false" name="library_item_position_text">%d/%d</string>
-    <string name="search_in_protected_libraries">Przeszukiwanie bibliotek chronionych hasłem
-(z wyjątkiem zaszyfrowanych)</string>
+    <string name="search_in_protected_libraries">Przeszukiwanie bibliotek chronionych hasłem\n(z wyjątkiem zaszyfrowanych)</string>
     <string name="stat_result_type">Format wyniku</string>
     <string name="backup_file_name_title">Nazwa pliku kopii bezpieczeństwa</string>
     <string name="backup_file_path_title">Folder kopii bezpieczeństwa</string>
@@ -768,8 +721,7 @@ Uaktualnij do wersji PRO, aby usunąć te ograniczenia.</string>
     <string name="selected">%s wybrane</string>
     <string name="delete_template_from_google_drive_question">Czy na pewno chcesz usunąć zaznaczone biblioteki z Dysk Google?</string>
     <string name="delete_data_table_from_google_drive">Usuwanie danych arkuszy powiązanych z szablonami</string>
-    <string name="lock_library_edit_message">Zmiany w strukturze biblioteki są zablokowane.
-Możesz włączyć możliwość edycji w opcjach dla tej biblioteki.</string>
+    <string name="lock_library_edit_message">Zmiany w strukturze biblioteki są zablokowane.\nMożesz włączyć możliwość edycji w opcjach dla tej biblioteki.</string>
     <string name="lock_edit_library_pref_title">Blokada struktury</string>
     <string name="lock_edit_library_pref_summary_on">Zmiany w strukturze biblioteki są zablokowane</string>
     <string name="lock_edit_library_pref_summary_off">Zmiany w strukturze biblioteki są odblokowane</string>
@@ -799,9 +751,7 @@ Możesz włączyć możliwość edycji w opcjach dla tej biblioteki.</string>
     <string name="group_by_subtitle">przez %s</string>
     <string name="sort_asc">ROSNĄCO</string>
     <string name="sort_desc">MALEJĄCO</string>
-    <string name="sliding_hint_text">Przesuń od prawej do lewej strony
-\naby otworzyć zaawansowane menu -
-\nsortowania, grupowania, filtrowania i inne...</string>
+    <string name="sliding_hint_text">Przesuń od prawej do lewej strony\naby otworzyć zaawansowane menu -\nsortowania, grupowania, filtrowania i inne...</string>
     <string name="multy_sorting">Sortuj - wielokrotne kryteria</string>
     <string name="new_button">nowy</string>
     <string name="free_version_entry_page_limit">W darmowej wersji możesz utworzyć tylko dwie strony. Zakup wersję PRO, aby wyłączyć to ograniczenie.</string>
@@ -925,8 +875,7 @@ Możesz włączyć możliwość edycji w opcjach dla tej biblioteki.</string>
     <string name="empty">Puste</string>
     <string name="add_page">Dodaj Stronę</string>
     <string name="move_to_page">Przenieś na stronę</string>
-    <string name="empty_entry_page_text">Ta strona jest pusta.
-\nMożesz tutaj dodać pola lub listy wpisów.</string>
+    <string name="empty_entry_page_text">Ta strona jest pusta.\nMożesz tutaj dodać pola lub listy wpisów.</string>
     <string name="empty_fields_list_text">W tej bibliotece nie ma pól.</string>
     <string name="empty_aggregation_list_text">Biblioteka nie zawiera funkcji agregujących.</string>
     <string name="empty_chart_list_text">Biblioteka nie zawiera wykresów.</string>
@@ -938,8 +887,7 @@ Możesz włączyć możliwość edycji w opcjach dla tej biblioteki.</string>
     <string name="string_edit_cap_options_sent">Na początku zdania</string>
     <string name="string_edit_cap_options_wolds">Na początku każdego słowa</string>
     <string name="string_edit_cap_options_all">Wszystkie litery</string>
-    <string name="single_line_options_title">Pole formularza
-\nTekst w jednej linii</string>
+    <string name="single_line_options_title">Pole formularza\nTekst w jednej linii</string>
     <string name="main_field_options_tab_title">Główna</string>
     <string name="string_list_items_tab_title">Punkty</string>
     <string name="string_list_edit_item_title_hint">Tytuł punktu</string>
@@ -981,9 +929,7 @@ Możesz włączyć możliwość edycji w opcjach dla tej biblioteki.</string>
     <string name="csv_import_errors_count">Błędy:</string>
     <string formatted="false" name="csv_import_error_item">Wiersz %d - %s</string>
     <string name="undo_button">Cofnij</string>
-    <string name="google_sync_without_memento_id_text">Ta biblioteka jest synchronizowana przy pomocy starej metody, która może zawierać potencjalne błędy.
-Wykonaj przeniesienie biblioteki do nowej tabeli, stosując nową metodę.
-Uruchomić przetwarzanie?</string>
+    <string name="google_sync_without_memento_id_text">Ta biblioteka jest synchronizowana przy pomocy starej metody, która może zawierać potencjalne błędy.\nWykonaj przeniesienie biblioteki do nowej tabeli, stosując nową metodę.\nUruchomić przetwarzanie?</string>
     <string name="rating_field_max_value">Ocena maksimum</string>
     <string name="auto_fill_barcode_empty2">Porównaj atrybuty autokompletacji źródła i pól wpisu</string>
     <string name="barcode_rule_delete_text">Czy rzeczywiście chcesz usunąć regułę autokompletacji dla pola \"%s\" ?</string>
@@ -1052,61 +998,61 @@ Uruchomić przetwarzanie?</string>
 	<item quantity="one">Wpis: 1</item>
 	<item quantity="few">Wpisy: %d</item>
 	<item quantity="many">Wpisów: %d</item>
-	<item quantity="other"/>
+    <item quantity="other">Wpisów: %d</item>
 </plurals>
     <plurals name="field_depends_count">
 	<item quantity="one">Zależność: 1</item>
 	<item quantity="few">Zależności: %d</item>
 	<item quantity="many">Zależności: %d</item>
-	<item quantity="other"/>
+    <item quantity="other">Zależności: %d</item>
 </plurals>
     <plurals name="fields_count">
 	<item quantity="one">1 pole</item>
 	<item quantity="few">%d pola</item>
 	<item quantity="many">%d pól</item>
-	<item quantity="other"/>
+    <item quantity="other">%d pól</item>
 </plurals>
     <plurals name="libraries_count">
 	<item quantity="one">1 biblioteka</item>
 	<item quantity="few">%d biblioteki</item>
 	<item quantity="many">%d bibliotek</item>
-	<item quantity="other"/>
+    <item quantity="other">%d bibliotek</item>
 </plurals>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d gwiazdka</item>
 	<item quantity="few">%d gwiazdki</item>
 	<item quantity="many">%d gwiazdek</item>
-	<item quantity="other"/>
+    <item quantity="other">%d gwiazdek</item>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
 	<item quantity="one">%d wpis przeniesiony do kosza</item>
 	<item quantity="few">%d wpisy przeniesione do kosza</item>
 	<item quantity="many">%d wpisów przeniesionych do kosza</item>
-	<item quantity="other"/>
+    <item quantity="other">%d wpisów przeniesionych do kosza</item>
 </plurals>
     <plurals name="duration_seconds">
 	<item quantity="one">1 sekunda</item>
 	<item quantity="few">%d sekundy</item>
 	<item quantity="many">%d sekund</item>
-	<item quantity="other"/>
+    <item quantity="other">%d sekund</item>
 </plurals>
     <plurals name="duration_minutes">
 	<item quantity="one">1 minuta</item>
 	<item quantity="few">%d minuty</item>
 	<item quantity="many">%d minut</item>
-	<item quantity="other"/>
+    <item quantity="other">%d minut</item>
 </plurals>
     <plurals name="duration_hours">
 	<item quantity="one">1 godzina</item>
 	<item quantity="few">%d godziny</item>
 	<item quantity="many">%d godzin</item>
-	<item quantity="other"/>
+    <item quantity="other">%d godzin</item>
 </plurals>
     <plurals name="duration_days">
 	<item quantity="one">1 dzień</item>
 	<item quantity="few">%d dni</item>
 	<item quantity="many">%d dni</item>
-	<item quantity="other"/>
+    <item quantity="other">%d dni</item>
 </plurals>
     <string name="entries_view_type_calendar">Kalendarz</string>
     <string name="calendar_field_role">Użyj w kalendarzu jako</string>
@@ -1135,7 +1081,7 @@ Uruchomić przetwarzanie?</string>
 	<item quantity="one">Zaimportowano 0 punktów</item>
 	<item quantity="few">Zaimportowano %d punkty</item>
 	<item quantity="many">Zaimportowano %d punktów</item>
-	<item quantity="other"/>
+    <item quantity="other">Zaimportowano %d punktów</item>
 </plurals>
     <string name="icon_pack_title_files_types">Pliki</string>
     <string name="use_depend_only_in_edit_title">Gdzie użyć</string>
@@ -1160,24 +1106,22 @@ Uruchomić przetwarzanie?</string>
 	<string name="library_have_duplicates">Wpisy z podobnymi nazwami w bibliotece</string>
 	<string name="library_have_duplicates2">Zmień lub usuń duplikaty dla poprawnego działania.</string>
 	<string name="dont_show_anymore">Nie pokazuj więcej</string>
-	<string name="need_make_slave_library_unique">Aby zsynchronizować pola \"Łącze do wpisu\", musisz włączyć kontrolę unikalności nazw wpisów w bibliotece, do której łącze się odwołuje.
-\nWłączyć kontrolę teraz?</string>
+	<string name="need_make_slave_library_unique">Aby zsynchronizować pola \"Łącze do wpisu\", musisz włączyć kontrolę unikalności nazw wpisów w bibliotece, do której łącze się odwołuje.\nWłączyć kontrolę teraz?</string>
 	<string name="need_make_slave_library_unique_import">Aby zaimportować pola \"Łącze do wpisu\", musisz włączyć kontrolę unikalności nazw wpisów w bibliotece, do której łącze się odwołuje. ↵\nWłączyć kontrolę teraz?</string>
 	<string name="run_sync_slave_libraries_pref">Powiązane biblioteki</string>
 	<string name="run_sync_slave_libraries_summary">Najpierw zsynchronizuj powiązane biblioteki</string>
 	<string name="choice_type_add_button_in_edit_title">Zezwalaj na tworzenie elementów podczas edytowania wpisu</string>	
 	
-<string name="show_deleted_entries_menu_item">Pokaż skasowane wpisy</string>
+    <string name="show_deleted_entries_menu_item">Pokaż skasowane wpisy</string>
 	<string name="upload_to_cloud_menu_item">Do Chmury</string>
 	<string name="welcome_text_title">Witaj w Memento Database</string>
 	<string name="welcome_text_description">"Biblioteka jest miejscem, gdzie przechowywane są twoje wpisy. Możesz rozpocząć poznawanie programu,  poprzez utworzenie biblioteki opartej na jednym z dołączonych szablonów."</string>	
 	
-<string name="memento_cloud">W Chmurze</string>
+    <string name="memento_cloud">Memento Cloud</string>
 	<string name="start_remove_librarary_from_cloud">Usuwanie biblioteki...</string>
 	<string name="success_remove_librarary_from_cloud">Biblioteka pomyślnie usunięta z chmury</string>
 	<string name="start_upload_library_to_cloud">Wysyłanie biblioteki...</string>	
-	<string name="success_upload_library_to_cloud">Biblioteka pomyślnie załadowana.
-\nBiblioteka będzie aktualizowana automatycznie.</string>
+	<string name="success_upload_library_to_cloud">Biblioteka pomyślnie załadowana.\nBiblioteka będzie aktualizowana automatycznie.</string>
 	<string name="success_upload_library_to_cloud2">Możesz ustanowić dostęp do biblioteki dla innych użytkowników Memento w ustawieniach dostępu.</string>	
 	<string name="push_entries_to_cloud_message" formatted="false">Wysyłanie wpisów\n%s z %s wpisów przesłane</string>
 	<string name="permissions">Pozwolenia</string>
@@ -1191,15 +1135,14 @@ Uruchomić przetwarzanie?</string>
 	<string name="download_library_hint">Tworzenie lokalnej kopii</string>			
 	<string name="pull_entries_from_cloud_message">Pobieranie wpisów...</string>
 	<string name="pull_entries_from_cloud_message2" formatted="false">%s z %s wpisów przetworzone</string>
-	<string name="success_pull_library_from_cloud">Wpisy pomyślnie pobrane.
-\nBiblioteka będzie aktualizowana automatycznie.</string>
+	<string name="success_pull_library_from_cloud">Wpisy pomyślnie pobrane.\nBiblioteka będzie aktualizowana automatycznie.</string>
 	<string name="cloud_conflict_fields_title">Konflikty</string>
 	<string name="cloud_conflict_fix_button_title">Zastosuj</string>
     <plurals name="conflict_count">
 	<item quantity="one">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
 	<item quantity="few">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
 	<item quantity="many">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
-	<item quantity="other"/>
+    <item quantity="other">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
 </plurals>
     <string name="button_select">Wybierz</string>
     <string name="cloud">Chmura</string>
@@ -1227,8 +1170,7 @@ Uruchomić przetwarzanie?</string>
     <string name="upload_file_to_cloud">Przesyłanie pliku...</string>    
     <string name="upload_files_to_cloud">Przesyłanie plików</string>
     <string name="cloud_upload_error_title">Nie można zsynchronizować tej biblioteki</string>
-    <string name="upload_big_file_error" formatted="false">Wpis %s zawiera zbyt duże pliki %s (%s).
-Maksymalny rozmiar pliku to %s.</string>
+    <string name="upload_big_file_error" formatted="false">Wpis %s zawiera zbyt duże pliki %s (%s).\nMaksymalny rozmiar pliku to %s.</string>
     <string name="prepare_library_for_cloud">Przetwarzanie biblioteki...</string>
     <string name="download_files_from_cloud">Pobieranie plików z chmury...</string>
     <string name="cant_download_item_files_for_copy">Nieudane pobieranie plików w celu utworzenia kopii.</string> 
@@ -1245,8 +1187,7 @@ Maksymalny rozmiar pliku to %s.</string>
 	<string name="only_owner_permission">Tylko własne</string>
 	<string name="user_not_found">Użytkownik nie znaleziony</string>
 	<string name="edit_permission">Ustawienia udostępniania</string>	
-	<string name="push_entry_error_text" formatted="false">Brak wpisów w chmurze.
-\nNazwa: %s\nError: %s</string>
+	<string name="push_entry_error_text" formatted="false">Brak wpisów w chmurze.\nNazwa: %s\nError: %s</string>
 	<string name="push_error_forbidden">Dostęp niedozwolony</string>
 	<string name="button_ignore">Pomiń</string>
 	<string name="button_try_again">Spróbuj ponownie</string>	
@@ -1258,9 +1199,7 @@ Maksymalny rozmiar pliku to %s.</string>
 	<string name="start_download_slave_library_model">Wysyłanie powiązanej biblioteki %s</string>
 	<string name="open_access_for_slave_libraries">Udostępnij odczyt do powiązanych bibliotek</string>
 	<string name="cloud_storage_full_text">Brak wolnego miejsca na dysku w chmurze .\nMożesz zmienić plan taryfowy na wyższy, dający więcej miejsca.</string>
-	<string name="cloud_storage_full_text2" formatted="false">Brak wolnego miejsca na dysku w chmurze.
-\n%s potrzeba, %s jest dostępne.
-\nMożesz zmienić plan taryfowy na wyższy, dający więcej miejsca na dysku.</string>
+	<string name="cloud_storage_full_text2" formatted="false">Brak wolnego miejsca na dysku w chmurze.\n%s potrzeba, %s jest dostępne.\nMożesz zmienić plan taryfowy na wyższy, dający więcej miejsca na dysku.</string>
 	<string name="alien_cloud_storage_full_text">Właściciel biblioteki nie posiada wystarczającej przestrzeni na dysku.</string>	
 	<string name="button_tarifs">Taryfy</string>
 	<string name="cloud_storage_plans">Plany</string>
@@ -1280,8 +1219,7 @@ Maksymalny rozmiar pliku to %s.</string>
 	<string name="cloud_file_while_not_upload">Plik jeszcze nie znajduje się w chmurze</string>
 	<string name="upload_ecrypted_libraries_dont_supported">Ładowanie zabezpieczonych bibliotek w chmurę jest czasowo wyłączone.</string>
 	<string name="button_signin">Zarejestruj</string>
-	<string name="cloud_library_not_found">Biblioteka nie została odnaleziona w chmurze. Być może została usunięta.
-\nZmienić bibliotekę w lokalną?</string>
+	<string name="cloud_library_not_found">Biblioteka nie została odnaleziona w chmurze. Być może została usunięta.\nZmienić bibliotekę w lokalną?</string>
 	<string name="cloud_library_already_uploaded">Ta biblioteka jest już w chmurze.</string>
 	<string name="library_alias_menu_item">Alias</string>
 	<string name="library_public_access">Dostęp publiczny</string>
@@ -1293,10 +1231,7 @@ Maksymalny rozmiar pliku to %s.</string>
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Biblioteka nie znaleziona</string>
 	<string name="upload_to_cloud_offer_title">{chmura...}</string>
-	<string name="upload_to_cloud_offer_text">• Praca Zespołowa
-• Synchronizacja na różnych urządzeniach
-• Kopie zapasowe są zawsze w Chmurze
-• Historia wersji</string>
+	<string name="upload_to_cloud_offer_text">• Praca Zespołowa\n• Synchronizacja na różnych urządzeniach\n• Kopie zapasowe są zawsze w Chmurze\n• Historia wersji</string>
 	<string name="button_no_thanks">Nie, dzięki</string>
 	<string name="button_upload">Wysyłanie</string>
 	
@@ -1323,7 +1258,7 @@ Maksymalny rozmiar pliku to %s.</string>
 	<string name="success_clear_search_history">Historia wyszukiwania została wyczyszczona</string>	
 	<string name="clear_search_history_quest">Czy na pewni chcesz wyczyścić historię wyszukiwania?</string>
 		        	
-<string name="uservoice_menu_title">Głosy użytkowników</string>
+    <string name="uservoice_menu_title">Głosy użytkowników</string>
 	<string name="view_csv_error_dialog_message">Przepraszamy, nie znaleziono aplikacji do poglądu plików CSV</string>
 	
 	<string name="edit_library_tabs_autofill">Autouzupełnianie</string>
@@ -1397,7 +1332,7 @@ Maksymalny rozmiar pliku to %s.</string>
 	<item quantity="one">Podpowiedzi: %d</item>
 	<item quantity="few">Podpowiedzi: %d</item>
 	<item quantity="many">Podpowiedzi: %d</item>
-	<item quantity="other"/>
+    <item quantity="other">Podpowiedzi: %d</item>
 </plurals>
     <string name="calculator">Kalkulator</string>
     <string name="calculator_options_hint">Dodaj przycisk wyświetlania kalkulatora</string>
@@ -1407,7 +1342,7 @@ Maksymalny rozmiar pliku to %s.</string>
     <string name="multiediting_title">Edycja zbiorowa</string>
     <string name="select_all">Zaznacz wszystko</string>
     
-<string name="group_separator_option_title">Separator tysięcy</string>
+    <string name="group_separator_option_title">Separator tysięcy</string>
     <string name="group_separator_option_hints">Użyj spacji jako separatora tysięcy</string>
 
 
@@ -1424,7 +1359,7 @@ Maksymalny rozmiar pliku to %s.</string>
 	<item quantity="one">Nieodczytanych zmian: %d</item>
 	<item quantity="few">Nieodczytanych zmian: %d</item>
 	<item quantity="many">Nieodczytanych zmian: %d</item>
-	<item quantity="other"/>
+    <item quantity="other">Nieodczytanych zmian: %d</item>
 </plurals>
 
     <string name="notification_edit_library_create_text">dodany wpis</string>
@@ -1434,7 +1369,7 @@ Maksymalny rozmiar pliku to %s.</string>
 	<item quantity="one">Nowych komentarzy: %d</item>
 	<item quantity="few">Nowych komentarzy: %d</item>
 	<item quantity="many">Nowych komentarzy: %d</item>
-	<item quantity="other"/>
+    <item quantity="other">Nowych komentarzy: %d</item>
 </plurals>
 
     <string name="flex_type_rich_text">Tekst RTF</string>
@@ -1547,7 +1482,7 @@ Maksymalny rozmiar pliku to %s.</string>
 	<item quantity="one">Komentarze: %d</item>
 	<item quantity="few">Komentarze: %d</item>
 	<item quantity="many">Komentarze: %d</item>
-	<item quantity="other"/>
+    <item quantity="other">Komentarze: %d</item>
 </plurals>
     <string name="comments_only_for_cloud">Komentarze można zamieszczać tylko w bibliotekach przesłanych do chmur. Przesłać bibliotekę do chmury?</string>
     <string name="locale_to_fields_list_empty_text">Dotknij +, aby utworzyć nową regułę wypełniania pól w bibliotece.</string>
@@ -1563,8 +1498,7 @@ Maksymalny rozmiar pliku to %s.</string>
     <string name="auto_lock_libraries_time_title">Zamknij dostęp do biblioteki</string>
     <string name="auto_lock_libraries_after">Po %s</string>
 
-    <string name="empty_triggers_list_text">Ta biblioteka nie zawiera wyzwalaczy.
-Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie, które miało miejsce.</string>
+    <string name="empty_triggers_list_text">Ta biblioteka nie zawiera wyzwalaczy.\nWyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie, które miało miejsce.</string>
     <string name="triggers">Wyzwalacze</string>
     <string name="trigger_name">Nazwa wyzwalacza</string>
     <string name="trigger_event">Zdarzenie</string>
@@ -1776,7 +1710,7 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
 	<item quantity="one">Użytkowników: %d</item>
 	<item quantity="few">Użytkowników: %d</item>
 	<item quantity="many">Użytkowników: %d</item>
-	<item quantity="other"/>
+    <item quantity="other">Użytkowników: %d</item>
 </plurals>
     <string name="user_group_delete_message">Czy na pewno chcesz usunąć grupę \"%s\"?</string>
     <string name="group_not_found">Nie znaleziono grupy</string>
@@ -1803,7 +1737,7 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
 	<item quantity="one">Kolumny: %d</item>
 	<item quantity="few">Kolumny: %d</item>
 	<item quantity="many">Kolumny: %d</item>
-	<item quantity="other"/>
+    <item quantity="other">Kolumny: %d</item>
 </plurals>
 
     <string name="card_view_title_on_image">Wyświetl tekst na obrazem</string>
@@ -1976,8 +1910,7 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
     <string name="wizard_field_name_examples">Na przykład można mieć pola: \"tytuł\", \"opis\", \"typ sprzętu\", \"koszt\", \"rozmiar\", \"lokalizacja\" itp.</string>
     <string name="bulk_add">Dodaj luźny</string>
     <string name="test_js_data_source_query_hint">Ciąg zapytania</string>
-    <string name="test_js_data_source_query_result">Wynik zapytania:
-%s</string>
+    <string name="test_js_data_source_query_result">Wynik zapytania:\n%s</string>
     <string name="type_desc_radiobuttons">Pole \'Przycisk opcji\' może służyć do wyboru z grupy opcji.</string>
     <string name="type_desc_checkboxes">Pole \'Przycisk wyboru\' pozwala na przedstawienie jednego lub wielu pól, umożliwiających wielokrotny wybór.</string>
     <string name="attributes">Atrybuty</string>
@@ -2009,8 +1942,7 @@ Wyzwalacz to skrypt, który definiuje przetwarzanie wpisu w oparciu o wydarzenie
     <string name="notification_channel_reminders">Przypomnienia</string>
     <string name="notification_channel_entries">Zmiany w bibliotekach</string>
     <string name="notification_channel_files">Pliki</string>
-    <string name="quick_filter_limit_message">Darmowa wersja umożliwia wyszukiwanie tylko według pięciu pól.
-Zaktualizuj do wersji PRO, aby wyłączyć to ograniczenie.</string>
+    <string name="quick_filter_limit_message">Darmowa wersja umożliwia wyszukiwanie tylko według pięciu pól.\nZaktualizuj do wersji PRO, aby wyłączyć to ograniczenie.</string>
     <string name="button_upgrade">Aktualizacja</string>
     <string name="autofilll_source_not_supported">Przepraszamy, ale %s nie jest już obsługiwany.</string>
     <string name="link_attributes_empty_text">To pole nie ma atrybutów dla łączy.</string>
@@ -2089,8 +2021,7 @@ Zaktualizuj do wersji PRO, aby wyłączyć to ograniczenie.</string>
     <string name="storage_permission_required_title">Wymagane pozwolenie</string>
     <string name="storage_permission_required_text">Ta aplikacja wymaga pozwolenia na przechowywanie. Możesz to przyznać w ustawieniach aplikacji.</string>
     <string name="got_to_system_settings">Przejdź do Ustawień</string>
-    <string name="file_save_error">Nie można zapisać pliku:
-%s</string>
+    <string name="file_save_error">Nie można zapisać pliku:\n%s</string>
 
     <string name="years_range">Zakres lat w datach</string>
     <string name="begin_year">Początek</string>
@@ -2113,8 +2044,7 @@ Zaktualizuj do wersji PRO, aby wyłączyć to ograniczenie.</string>
     <string name="action_context_bulk_actions">Menu Akcji Zbiorczych</string>
     <string name="move_to">Przenieś do...</string>
     <string name="copy_to">Kopiuj do...</string>
-    <string name="move_to_no_libraries">Nie można znaleźć bibliotek zgodnych z bieżącą biblioteką.
-Utwórz regułę przesyłania wpisów, aby przeprowadzić migrację do dowolnej biblioteki.</string>
+    <string name="move_to_no_libraries">Nie można znaleźć bibliotek zgodnych z bieżącą biblioteką.\nUtwórz regułę przesyłania wpisów, aby przeprowadzić migrację do dowolnej biblioteki.</string>
     <string name="migrate">Migracja</string>
     <string name="barcode_display_error">Przepraszamy, nie można zakodować kodu kreskowego na podstawie podanych danych</string>
     <string name="barcode_format">Format kodu kreskowego</string>
@@ -2143,9 +2073,11 @@ Utwórz regułę przesyłania wpisów, aby przeprowadzić migrację do dowolnej 
     <string name="type_desc_duration">Pole zakresu czasu może zawierać wartość używaną do reprezentowania czasu mierzonego w dniach, godzinach, minutach, sekundach lub milisekundach.</string>
 
     <plurals name="after_entries_multiedit_message">
-	<item quantity="one">Jeden wpis był edytowany</item>
-	<item quantity="other">%d wpisy były edytowane</item>
-</plurals>
+	    <item quantity="one">Jeden wpis był edytowany</item>
+        <item quantity="few">%d wpisy były edytowane</item>
+        <item quantity="many">%d wpisy były edytowane</item>
+	    <item quantity="other">%d wpisy były edytowane</item>
+    </plurals>
 
     <string name="locals_js_libraries">Lokacja</string>
     <string name="js_libraries_add_url">Dodaj URL</string>
@@ -2167,10 +2099,42 @@ Utwórz regułę przesyłania wpisów, aby przeprowadzić migrację do dowolnej 
     <string name="board_games">Gry planszowe</string>
     <string name="new_database">Nowa baza danych</string>
 
-<plurals name="duration_ms">
-	<item quantity="one">1 ms</item>
-	<item quantity="few">%d ms</item>
-	<item quantity="many">%d ms</item>
-	<item quantity="other"/>
-</plurals>
-    </resources>
+    <plurals name="duration_ms">
+	    <item quantity="one">1 ms</item>
+	    <item quantity="few">%d ms</item>
+	    <item quantity="many">%d ms</item>
+        <item quantity="other">%d ms</item>
+    </plurals>
+    <string name="send_entries_too_large">Przepraszamy, nie możesz wysłać wszystkich tych wpisów w formie tekstowej. Za dużo danych.</string>
+    <string name="request_button">Pytanie</string>
+
+    <string name="edit_library_not_available">Tylko właściciel może zmienić strukturę biblioteki.</string>
+    <string name="menu">Menu</string>
+    <string name="period_this_year">Ten rok</string>
+    <string name="number_filter_types_between">Pomiędzy</string>
+    <string name="field_role_hidden">Ukryte pole</string>
+    <string name="field_role_hidden_short">ukryte</string>
+    <string name="export_hidden_fields">Eksport ukrytych pól</string>
+    <string name="move_select_destination">Wybierz cel</string>
+    <string name="match_fields">Dopasuj pola</string>
+    <string name="dest_fields">Pola docelowe</string>
+    <string name="move_rules_empty">W tej bibliotece brak reguł przenoszenia</string>
+
+    <string name="delete_move_rule_dialog_title">Usuń regułę</string>
+    <string name="delete_move_rule_dialog_message">Czy na pewno chcesz usunąć regułę przenoszenia do „% s” ?</string>
+    <string name="no_field">Brak pól</string>
+    <string name="moving_entries">Przenoszenie wpisów. %d do %d.</string>
+    <string name="copying_entries2">Kopiowanie wpisów. %d do %d.</string>
+    <string name="need_pro_for_move_entries">Wpisy można przenosić lub kopiować do innej biblioteki tylko w wersji PRO programu.</string>
+    <string name="create_copy">Tworzenie kopii</string>
+    <string name="move_or_copy">Przenieś lub Kopiuj</string>
+    <string name="duplicate">Duplikat</string>
+
+    <string name="buy_license_key_hint">Kup samodzielną licencję PRO na Androida</string>
+    <string name="flex_type_user">Użytkownik</string>
+    <string name="select_user">Wybór użytkownika</string>
+    <string name="select_user_empty_list">Nie ma już użytkowników do wyboru</string>
+    <string name="memento_full_name_hint">Pełna nazwa</string>
+    <string name="not_set">Nie ustawione</string>
+    <string name="objects_limit_option_title">Ograniczenie</string>
+</resources>
