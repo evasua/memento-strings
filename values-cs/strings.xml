@@ -75,11 +75,10 @@
     <string name="search_hint">Hledat záznam</string>
     <string name="search_parse_exception_messagee">Chybný vyhledávaný řetězec</string>
     <plurals name="NItemsFind">
-	<item quantity="one">1 nalezený záznam</item>
-	<item quantity="few">Nalezené záznamy: <xliff:g id="COUNT">%d</xliff:g></item>
-	<item quantity="many">Nalezeno záznamů: <xliff:g id="COUNT">%d</xliff:g></item>
-	<item quantity="other"/>
-</plurals>
+	    <item quantity="one">1 nalezený záznam</item>
+        <item quantity="few">Nalezené záznamy: <xliff:g id="COUNT">%d</xliff:g></item>
+        <item quantity="other">Nalezené záznamy: <xliff:g id="COUNT">%d</xliff:g></item>
+    </plurals>
     <string name="memento_search">Memento hledání</string>
     <string name="memento_search_in_lib">Memento hledá v "%s"</string>
     <string name="removed">Smazán %s</string>
@@ -1281,10 +1280,10 @@
     <string name="edit_comment_dialog_title">Upravit komentář</string>
 
     <plurals name="notification_comments_common_text">
-	<item quantity="one">%d nový komentář</item>
-	<item quantity="few">%d nové komentáře</item>
-	<item quantity="other">%d nových komentářů</item>
-</plurals>
+	    <item quantity="one">%d nový komentář</item>
+        <item quantity="few">%d nové komentáře</item>
+	    <item quantity="other">%d nových komentářů</item>
+    </plurals>
 
     <string name="text_background_color">Barva pozadí</string>
     <string name="notification_edit_library_edit_text">upravený záznam</string>
@@ -1329,10 +1328,7 @@
 	<string name="open_access_for_slave_libraries">Poskytnout podřízeným knihovnám přístup ke čtení</string>
 	<string name="subscription_already_activation_for_user">Předplatné nelze aktivovat, protože bylo zakoupeno pro uživatele %s.</string>
 	<string name="find_library_by_url_title">Otevřít přes URL adresu</string>
-	<string name="upload_to_cloud_offer_text">• Spolupráce v týmu
-• Synchronizace mezi zařízeními
-• Vždy zálohováno v cloudu
-• Historie verzí</string>
+	<string name="upload_to_cloud_offer_text">• Spolupráce v týmu\n• Synchronizace mezi zařízeními\n• Vždy zálohováno v cloudu\n• Historie verzí</string>
 	<string name="featured_templates">Charakteristický</string>
 	<string name="entries_view_type_cards">Karty</string>
     <string name="card_view_number_of_columns">Počet sloupců</string>
@@ -1371,8 +1367,7 @@
     <string name="library_cloud_count_limit">Váše předplatné vám umožňuje nahrávání až %s knihoven do cloudu.</string>
     <string name="restore_cloud_library_from_recycle">Tato místní knihovna je odstraněna. Obnovit?</string>
     <string name="upload_ecrypted_libraries_dont_supported">Šifrované knihovny nahrané do cloudu jsou dočasně nedostupné.</string>
-    <string name="cloud_library_not_found">Knihovna nebyla v cloudu nalezena. Možná byla smazána.
-Převést knihovnu na místní?</string>
+    <string name="cloud_library_not_found">Knihovna nebyla v cloudu nalezena. Možná byla smazána.\nPřevést knihovnu na místní?</string>
     <string name="remove_from_old_public">Před nahráním knihovny do cloudu bude nepublikována, pokud byla publikována zastaralou metodou.</string>
     <string name="help_cloud">Cloudové uložiště a týmová práce</string>
     <string name="subscription_pro_bonus_text">Většina tarifů pro cloud také obsahuje PRO-verzi jako bonus</string>
@@ -1387,10 +1382,8 @@ Převést knihovnu na místní?</string>
 
     <string name="encryption_for_cloud_uploaded_library">Šifrování knihovny lze aktivovat pouze před jejím nahráním do cloudu.</string>
     <string name="decryption_for_cloud_uploaded_library">Vypnutí šifrování pro nahrávání knihovny do cloudu není povoleno. Nejprve je třeba odebrat knihovnu z cloudu.</string>
-    <string name="need_reload_library_from_cloud_encrypted">Kopie knihovny na cloudu byly zašifrovány.
-Smažte místní kopii knihovny a knihovnu si znovu stáhněte z cloudu.</string>
-    <string name="need_reload_library_from_cloud_decrypted">Kopie knihovny na cloudu byly dešifrovány.
-Smažte místní kopii knihovny a knihovnu si znovu stáhněte z cloudu.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Kopie knihovny na cloudu byly zašifrovány.\nSmažte místní kopii knihovny a knihovnu si znovu stáhněte z cloudu.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Kopie knihovny na cloudu byly dešifrovány.\nSmažte místní kopii knihovny a knihovnu si znovu stáhněte z cloudu.</string>
 
     <string name="one_row_with_previous">Jeden řádek s předchozím</string>
     <string name="protected_libraries_not_show_in_widget">Chráněnou knihovnu nelze zobrazit ve widgetu</string>
@@ -1399,9 +1392,10 @@ Smažte místní kopii knihovny a knihovnu si znovu stáhněte z cloudu.</string
     <string name="rating_tooltips_hint">Popis</string>
     <string name="rating_tooltips_empty">Pole nemá popis</string>
     <plurals name="rating_tooltips_count">
-	<item quantity="one">Popis</item>
-	<item quantity="other">Popisy</item>
-</plurals>
+	    <item quantity="one">%d popis</item>
+        <item quantity="few">%d popisy</item>
+	    <item quantity="other">%d popisy</item>
+    </plurals>
     <string name="filter_by_string">Filtrovat podle řetězce</string>
     <string name="multiediting_only_in_pro">Úprava více položek je dostupná pouze pro majitele verze PRO.</string>
     <string name="multiediting_title">Multi-editace</string>
@@ -1411,9 +1405,10 @@ Smažte místní kopii knihovny a knihovnu si znovu stáhněte z cloudu.</string
     <string name="cloud_library_notification_hint">Dostávat Push-notifikace při úpravách knihovny jinými uživateli</string>
     <string name="cloud_notification_for_subscribers">Je nám líto, oznámení mohou přijímat jen předplatitelé.</string>
     <plurals name="notification_edit_library_common_text">
-	<item quantity="one">%d nepřečtená změna</item>
-	<item quantity="other">%d nepřečtené změny</item>
-</plurals>
+	    <item quantity="one">%d nepřečtená změna</item>
+        <item quantity="few">%d nepřečtené změny</item>
+	    <item quantity="other">%d nepřečtené změny</item>
+    </plurals>
 
     <string name="relation_type">Typ vztahu</string>
     <string name="uom_angstrom">Ångström</string>
