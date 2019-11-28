@@ -4,7 +4,7 @@
     <string name="library_menu_add_item">Voeg een item toe</string>
     <string name="main_menu_add_lib">Verzameling toevoegen</string>
     <string name="ghostData_lib_title">Naam van de verzameling</string>
-    <string name="custom_template_title">Aangepast</string>
+    <string name="custom_template_title">Aangepast(e)</string>
     <string name="button_create">Aanmaken</string>
     <string name="button_yes">Ja</string>
     <string name="button_ok">OK</string>
@@ -262,7 +262,7 @@
     <string name="memento_pass_hint">Wachtwoord</string>
     <string name="memento_pass_hint2">Herhaal wachtwoord</string>
     <string name="memento_email_hint">Email</string>
-    <string name="memento_register_button">Aanmaken</string>
+    <string name="memento_register_button">Account aanmaken</string>
     <string name="memento_have_button">Ik heb reeds een account</string>
     <string name="login_empty">Voer gebruikersnaam in</string>
     <string name="login_format_error">De loginnaam mag alleen cijfers en letters bevatten</string>
@@ -641,7 +641,7 @@
     <string name="auto_bakup_dir_pref_title">Bestandsmap voor automatische back-up</string>
     <string name="google_play_not_found_message">Jouw apparaat beschikt niet over Google Play. Je kunt OI File Manager downloaden van de website van de ontwikkelaar.</string>
     <string name="library_not_found_dialog_title">Verzameling</string>
-    <string name="library_not_found_dialog_message">Verzameling is niet gevonden. Misschien is deze verwijderd.</string>
+    <string name="library_not_found_dialog_message">Verzameling niet gevonden. Misschien is deze verwijderd.</string>
     <string name="add_field_above">Een veld hierboven toevoegen</string>
     <string name="add_field_below">Een veld hieronder toevoegen</string>
     <string name="year_default_now">Huidig jaar als standaardwaarde</string>
@@ -1739,4 +1739,5 @@
     <string name="action_arguments">Argumenten</string>
     <string name="actions">Acties</string>
     <string name="warning">Waarschuwing</string>
+    <string name="embedded_js_libraries">ingebedde</string>
     </resources>

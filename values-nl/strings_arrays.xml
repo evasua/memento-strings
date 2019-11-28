@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-     <string name="call">Oproepen</string>
+     <string name="call">roep op</string>
     <string name="send_sms">Stuur SMS-bericht</string>
     <string name="light_theme">Licht Thema</string>
     <string name="dark_theme">Donker Thema</string>    

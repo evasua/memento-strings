@@ -952,7 +952,7 @@ Tout droits réservés</string>
     <string name="selected">%s sélectionné</string>
     <string name="lock_library_edit_message">Les changements dans la base sont verrouillés.\nVous devez activer l\'option de modification dans le paramétrage de cette base.</string>
     <string name="field_display_options_group">Options d\'affichage</string>
-    <string name="display_in_list_how">Afficher dans la liste comme</string>
+    <string name="display_in_list_how">Afficher comme</string>
     <string name="default_entry_page_title">Principal</string>
     <string name="select_button">SELECTIONNER</string>
     <string name="clear_button">EFFACER</string>
@@ -1018,7 +1018,7 @@ Tout droits réservés</string>
     <string name="aggregation_delete_message">Voulez-vous vraiment supprimer l\'agrégation \"%s\" ?</string>
     <string name="aggregation_need_select_field_message">Vous devez sélectionner un champ pour la fonction d\'agrégation</string>
     <string name="open_object_by_uri_error">Impossible d\'ouvrir l\'objet : %s</string>
-    <string name="import_and_export_menu_item">Importer et exporter...</string>
+    <string name="import_and_export_menu_item">Importer et exporter</string>
     <string name="entries_export_snackbar_ok">Enregistrements exportés avec succès</string>
     <string name="entries_import_result_dialog_title">Importer des enregistrements</string>
     <string name="csv_import_errors_count">Erreurs :</string>
@@ -1369,7 +1369,7 @@ Tout droits réservés</string>
     <string name="permission_storage_text">Pour poursuivre, donner accès à votre stockage pour Memento.</string>
     <string name="permission_storage_explanation_text">L\'accès au stockage est obligatoire pour le cache, la sauvegarde et la disponibilité des images et fichiers joints dans vos enregistrements.</string>
     <string name="permission_accounts_title">Comptes</string>
-    <string name="permission_accounts_text">Il est indispensable de donner un accès à Memento aux comptes à synchroniser avec Google Sheets et pour les champs de type Contact.</string>
+    <string name="permission_accounts_text">Il est indispensable de donner un accès à Memento aux comptes à synchroniser avec Google Sheets.</string>
     <string name="permission_location_title">Emplacement</string>
     <string name="permission_location_text">Il est indispensable de donner accès à Memento à l\'emplacement pour les champs de type Emplacement.</string>
     <string name="permission_not_necessarily">Cette autorisation n\'est pas obligatoire.</string>
@@ -2058,5 +2058,57 @@ Tout droits réservés</string>
     <string name="templates_category_edu">Éducation</string>
     <string name="board_games">Jeux de société</string>
     <string name="new_database">Nouvelle base de donnees</string>
+
+<string name="send_entries_too_large">Désolé, vous ne pouvez pas envoyer tous ces enregistrements comme texte. Il y a trop de données.</string>
+    <string name="request_button">Requête</string>
+
+    <string name="edit_library_not_available">Seul le propriétaire peut changer la structure de la base.</string>
+    <string name="menu">Menu</string>
+    <string name="period_this_year">Cette année</string>
+    <string name="number_filter_types_between">Entre</string>
+    <string name="field_role_hidden">Champ caché</string>
+    <string name="field_role_hidden_short">caché</string>
+    <string name="export_hidden_fields">Exporter les champs cachés</string>
+    <string name="move_select_destination">Choisir la destination</string>
+    <string name="match_fields">Champs correspondants</string>
+    <string name="dest_fields">Champs destination</string>
+    <string name="move_rules_empty">Il n\'y a pas de règles de déplacement dans cette base</string>
+
+    <string name="delete_move_rule_dialog_title">Règle de suppression</string>
+    <string name="delete_move_rule_dialog_message">Etes-vous sûr de vouloir supprimer la règle de déplacement vers \"%s\" ?</string>
+    <string name="no_field">Pas de champ</string>
+    <string name="moving_entries">Déplacement des enregistrements. %d of %d.</string>
+    <string name="copying_entries2">Copie des enregistrements. %d of %d.</string>
+    <plurals name="moving_entries_success">
+	<item quantity="one">%d enregistrement a été déplacé vers la base %s</item>
+	<item quantity="other">%d enregistrements ont été déplacés vers la base %s</item>
+</plurals>
+    <plurals name="copying_entries_success">
+	<item quantity="one">%d enregistrement a été copié dans la base %s</item>
+	<item quantity="other">%d enregistrements ont été copiés dans la base %s</item>
+</plurals>
+    <string name="need_pro_for_move_entries">Les enregistrements ne peuvent être déplacés ou copiés vers une autre base qu\'avec la version PRO du programme.</string>
+    <string name="create_copy">Créer une copie</string>
+    <string name="move_or_copy">Déplacer ou Copier</string>
+    <string name="duplicate">Dupliquer</string>
+
+    <string name="buy_license_key_hint">Acheter une licence PRO standalone pour Android</string>
+    <string name="flex_type_user">Utilisateur</string>
+    <string name="select_user">Sélectionner un utilisateur</string>
+    <string name="select_user_empty_list">Il n\'y a plus d\'utilisateurs à sélectionner</string>
+    <string name="memento_full_name_hint">Nom complet</string>
+    <string name="not_set">Non défini</string>
+    <string name="objects_limit_option_title">Limite</string>
+    <string name="max_number_of_users">Nombre maximum d\'utilisateurs</string>
+    <string name="no_limit">Pas de limite</string>
+    <string name="conditional_permission">Dépend du champ</string>
+    <string name="conditional_field_empty">Vous devez choisir le champ \"Utilisateur\" qui donnera les autorisations pour l’opération.</string>
+    <string name="conditional_permission_limit">Les droits d\'accès près du champ \"Utilisateur\" ne peuvent être modifiés qu\'avec le tarif Team.</string>
+    <string name="filter_rule_is_one_of">Est un de</string>
+    <string name="filter_rule_is_not_one_of">N\'est pas l\'un de</string>
+    <string name="send_email">Envoyer email</string>
+    <string name="type_desc_user">Le champ utilisateur vous permet de choisir un ou plusieurs utilisateurs de la liste de tous les utilisateurs qui partagent votre base.</string>
+    <string name="field_copied_to_clipboard">%s copiés dans le presse-papier</string>
+    <string name="max_number_of_users_limit_message">Vous ne pouvez choisir que %d utilisateurs</string>
 
 </resources>

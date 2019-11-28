@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento - Připomínka</string>
     <string name="library_menu_add_item">Přidat záznam</string>
@@ -75,11 +75,9 @@
     <string name="search_hint">Hledat záznam</string>
     <string name="search_parse_exception_messagee">Chybný vyhledávaný řetězec</string>
     <plurals name="NItemsFind">
-        <item quantity="one">1 nalezený záznam</item>
-        <item quantity="few">Nalezeno záznamů: <xliff:g id="COUNT">%d</xliff:g>
-        </item>
-        <item quantity="other">Nalezeno záznamů: <xliff:g id="COUNT">%d</xliff:g>
-        </item>
+	    <item quantity="one">1 nalezený záznam</item>
+        <item quantity="few">Nalezené záznamy: <xliff:g id="COUNT">%d</xliff:g></item>
+        <item quantity="other">Nalezené záznamy: <xliff:g id="COUNT">%d</xliff:g></item>
     </plurals>
     <string name="memento_search">Memento hledání</string>
     <string name="memento_search_in_lib">Memento hledá v "%s"</string>
@@ -254,7 +252,7 @@
     <string name="please_wait">Čekejte prosím...</string>
     <!-- 1.4.0 -->
     <string name="public_library_title">Publikování knihovny</string>
-    <string name="public_to_picasa_message">Nahrání knihovny obrázků do Picasa</string>
+    <string name="public_to_picasa_message">Nahrání obrázků knihovny do Picasy</string>
     <string name="public_to_picasa_create_album">"Vytvoření alba Picasa  pro publikovanou knihovnu"</string>
     <string name="public_to_picasa_success">Obrázky byly nahrány do Picasa</string>
     <string name="picasa_task_step_auth">Autorizace k službě Picasa</string>
@@ -267,7 +265,7 @@
     <string name="memento_pass_hint">Heslo</string>
     <string name="memento_pass_hint2">Opakovat heslo</string>
     <string name="memento_email_hint">Email</string>
-    <string name="memento_register_button">Vytvořit</string>
+    <string name="memento_register_button">Vytvořit účet</string>
     <string name="memento_have_button">Mám již účet</string>
     <string name="login_empty">Zadejte uživatelské jméno</string>
     <string name="login_format_error">Uživatelské jméno smí obsahovat pouze písmena a číslice</string>
@@ -735,7 +733,7 @@
     <string name="record_error_dialog_message">Bohužel, ale aplikace pro záznam není nalezena.</string>
     <string name="sync_error_dialog_title">Chyba synchronizace</string>
     <string name="field_display_options_group">Zobrazit možnosti</string>
-    <string name="display_in_list_how">Zobrazit v seznamu jako</string>
+    <string name="display_in_list_how">Zobrazit jako</string>
     <string name="field_display_title_in_card">Jméno/Název pole</string>
     <string name="field_display_title_in_card_hint">Zobrazit název pole v záznamové kartě</string>
     <string name="edit_library_tab_structure">STRUKTURA</string>
@@ -928,7 +926,7 @@
     <string name="library_last_sync">Synchonizace %s</string>
     <string name="user_manual_menu">Pomoc obsahuje</string>
     <string name="line_width_titles">Šířka řádku dat</string>
-    <string name="import_and_export_menu_item">Import a export...</string>
+    <string name="import_and_export_menu_item">Import/Export</string>
     <string name="entries_export_snackbar_ok">Záznamy úspěšně exportovány</string>
     <string name="entries_import_result_dialog_title">Import záznamů</string>
     <string name="csv_import_total_lines">Zpracované řádky:</string>
@@ -1105,7 +1103,7 @@
 	<string name="show_deleted_entries_menu_item">Zobrazit smazané záznamy</string>
 	<string name="upload_to_cloud_menu_item">Do cloudu</string>
 	<string name="welcome_text_title">Vítejte v Memento databázi</string>
-	<string name="welcome_text_description">Knihovna je místo, kde budou uloženy vaše záznamy.\nVytvořením knihovny založené na jedné z poskytnutých šablon se můžete začít seznamovat s programem.</string>
+	<string name="welcome_text_description">Knihovna je místo, kde budou uloženy vaše záznamy. Vytvořením knihovny založené na jedné z poskytnutých šablon se můžete začít seznamovat s programem.</string>
 	
 	<string name="memento_cloud">Cloudové</string>
 	<string name="start_remove_librarary_from_cloud">Mazání knihovny...</string>
@@ -1282,10 +1280,10 @@
     <string name="edit_comment_dialog_title">Upravit komentář</string>
 
     <plurals name="notification_comments_common_text">
-	<item quantity="one">%d nový komentář</item>
-	<item quantity="few">%d nové komentáře</item>
-	<item quantity="other">%d nových komentářů</item>
-</plurals>
+	    <item quantity="one">%d nový komentář</item>
+        <item quantity="few">%d nové komentáře</item>
+	    <item quantity="other">%d nových komentářů</item>
+    </plurals>
 
     <string name="text_background_color">Barva pozadí</string>
     <string name="notification_edit_library_edit_text">upravený záznam</string>
@@ -1297,7 +1295,7 @@
 	<string name="button_tarifs">Tarify</string>
 	<string name="upload_to_cloud_offer_title">{připraveno pro cloud...}</string>
 	<string name="button_no_thanks">Děkuji, nechci</string>
-	<string name="uservoice_menu_title">UserVoice</string>
+	<string name="uservoice_menu_title">USERVOICE</string>
 	<string name="copy_all_library_menu_item">Strukturu a záznamy</string>
     <string name="button_rate_now">Ohodnotit hned</string>
     <string name="button_ask_later">Později</string>
@@ -1311,7 +1309,7 @@
     <string name="calculator_options_hint">Přidá tlačítko pro zobrazení kalkulačky</string>
     <string name="filter_by_number">Filtrovat podle čísla</string>
     <string name="group_separator_option_title">Oddělovače tisíců</string>
-    <string name="cloud_library_download_notification_text">%s: stažená knihovna</string>
+    <string name="cloud_library_download_notification_text">%s: knihovna stažena</string>
     <string name="comment_send_error">Při odesílání komentářů došlo k chybě: %s</string>
     <string name="notification_edit_library_create_text">přidaný záznam</string>
     <string name="field_type_rich_only_for_android_kit_kat">Tento typ pole je dostupný jen v Androidu 4.4 KitKat a novějším.</string>
@@ -1330,18 +1328,18 @@
 	<string name="open_access_for_slave_libraries">Poskytnout podřízeným knihovnám přístup ke čtení</string>
 	<string name="subscription_already_activation_for_user">Předplatné nelze aktivovat, protože bylo zakoupeno pro uživatele %s.</string>
 	<string name="find_library_by_url_title">Otevřít přes URL adresu</string>
-	<string name="upload_to_cloud_offer_text">• Spolupráce v týmu\n• Synchronizace různých zařízení\n• Vždy dostupná záloha v cloudu</string>
+	<string name="upload_to_cloud_offer_text">• Spolupráce v týmu\n• Synchronizace mezi zařízeními\n• Vždy zálohováno v cloudu\n• Historie verzí</string>
 	<string name="featured_templates">Charakteristický</string>
 	<string name="entries_view_type_cards">Karty</string>
     <string name="card_view_number_of_columns">Počet sloupců</string>
     <string name="create_collections">Vytvořit knihovny</string>
     <string name="create_collections_success">Knihovny vytvořeny</string>
-    <string name="template_included_libraries">Šablona obsahuje další knihovny</string>
+    <string name="template_included_libraries">Šablona obsahuje další knihovny.</string>
 
     <string name="tasker_plugin_create_entry_event_title">Záznam vytvořen</string>
     <string name="tasker_plugin_delete_entry_event_title">Záznam vymazán</string>
     <string name="tasker_plugin_modified_entry_event_title">Záznam upraven</string>
-    <string name="no_libraries_text">Ještě není vytvořena žádná knihovna</string>
+    <string name="no_libraries_text">Zatím žádné knihovny!</string>
     <string name="flex_type_rich_text">Rozšířený text</string>
     <string name="attached_files">Připojené soubory</string>
     <string name="cloud_file_download_pending">Nerozhodnuto</string>
@@ -1357,4 +1355,73 @@
     <string name="date_and_time_formats">Formát data a času</string>
     <string name="date_formats">Formát data</string>
     <string name="time_formats">Formát času</string>
+    <string name="need_make_slave_library_unique">Pro synchronizaci pole „Odkaz na položku“, musíte povolit řízení jedinečnosti názvu položky v knihovně, na kterou odkazy odkazují. Povolit nyní?</string>
+    <string name="need_make_slave_library_unique_import">Chcete li importovat „Odkaz na položku“, musíte povolit řízení jedinečnosti názvu položky v knihovně, na kterou odkazy odkazují. Povolit nyní?</string>
+    <string name="choice_type_add_button_in_edit_title">Povolit vytváření položek během úpravy záznamu</string>
+
+    <string name="success_upload_library_to_cloud2">Knihovnu můžete zpřístupnit ostatním uživatelům Memento v nastavení přístupu.</string>
+    <string name="library_cloud_model_changed_message">Struktura knihovny byla aktualizována v cloudu. Příští aktualizace proběhne po další změně.</string>
+    <string name="cloud_storage_plans">Plány předplatného</string>
+    <string name="subscription_reactivation_error">Nepodařilo se ověřit aktivní předplatné: %s</string>
+    <string name="return_to_free_plan_message">Na bezplatný účet můžete přejít odhlášením v Google Play</string>
+    <string name="library_cloud_count_limit">Váše předplatné vám umožňuje nahrávání až %s knihoven do cloudu.</string>
+    <string name="restore_cloud_library_from_recycle">Tato místní knihovna je odstraněna. Obnovit?</string>
+    <string name="upload_ecrypted_libraries_dont_supported">Šifrované knihovny nahrané do cloudu jsou dočasně nedostupné.</string>
+    <string name="cloud_library_not_found">Knihovna nebyla v cloudu nalezena. Možná byla smazána.\nPřevést knihovnu na místní?</string>
+    <string name="remove_from_old_public">Před nahráním knihovny do cloudu bude nepublikována, pokud byla publikována zastaralou metodou.</string>
+    <string name="help_cloud">Cloudové uložiště a týmová práce</string>
+    <string name="subscription_pro_bonus_text">Většina tarifů pro cloud také obsahuje PRO-verzi jako bonus</string>
+    <string name="autofill_need_barcode_field">Pro automatické vyplnění knihovny pomocí čárového kódu, musí obsahovat pole „Čárový kód“. Jak to vytvoříte?</string>
+    <string name="autofill_need_text_field">Pro automatické vyplnění knihovny podle názvu, musí obsahovat pole „Text“. Jak to vytvoříte?</string>
+    <string name="music_brainz_source">musicbrainz.org</string>
+    <string name="themoviedb_source">themoviedb.org</string>
+    <string name="autofill_rules_delete_text">Opravdu chcete odstranit pravidla automatického vyplňování ze zdroje \"%s\"?</string>
+    <string name="empty_autofill_list_text">Vytvořit pravidla automatického vyplňování pomocí dat z Internetu</string>
+    <string name="empty_autofill_rules_list_text">Porovnat atributy zdroje a pole knihovny</string>
+    <string name="movie_cast_person_item" formatted="false">%s jako %s</string>
+
+    <string name="encryption_for_cloud_uploaded_library">Šifrování knihovny lze aktivovat pouze před jejím nahráním do cloudu.</string>
+    <string name="decryption_for_cloud_uploaded_library">Vypnutí šifrování pro nahrávání knihovny do cloudu není povoleno. Nejprve je třeba odebrat knihovnu z cloudu.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Kopie knihovny na cloudu byly zašifrovány.\nSmažte místní kopii knihovny a knihovnu si znovu stáhněte z cloudu.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Kopie knihovny na cloudu byly dešifrovány.\nSmažte místní kopii knihovny a knihovnu si znovu stáhněte z cloudu.</string>
+
+    <string name="one_row_with_previous">Jeden řádek s předchozím</string>
+    <string name="protected_libraries_not_show_in_widget">Chráněnou knihovnu nelze zobrazit ve widgetu</string>
+    <string name="widget_free_limit_item_text">Všechny položky můžou zobrazit jen uživatele verze PRO</string>
+    <string name="rating_tooltips">Popisy</string>
+    <string name="rating_tooltips_hint">Popis</string>
+    <string name="rating_tooltips_empty">Pole nemá popis</string>
+    <plurals name="rating_tooltips_count">
+	    <item quantity="one">%d popis</item>
+        <item quantity="few">%d popisy</item>
+	    <item quantity="other">%d popisy</item>
+    </plurals>
+    <string name="filter_by_string">Filtrovat podle řetězce</string>
+    <string name="multiediting_only_in_pro">Úprava více položek je dostupná pouze pro majitele verze PRO.</string>
+    <string name="multiediting_title">Multi-editace</string>
+    <string name="group_separator_option_hints">Použít mezerník jako oddělovač tisíců</string>
+
+
+    <string name="cloud_library_notification_hint">Dostávat Push-notifikace při úpravách knihovny jinými uživateli</string>
+    <string name="cloud_notification_for_subscribers">Je nám líto, oznámení mohou přijímat jen předplatitelé.</string>
+    <plurals name="notification_edit_library_common_text">
+	    <item quantity="one">%d nepřečtená změna</item>
+        <item quantity="few">%d nepřečtené změny</item>
+	    <item quantity="other">%d nepřečtené změny</item>
+    </plurals>
+
+    <string name="relation_type">Typ vztahu</string>
+    <string name="uom_angstrom">Ångström</string>
+    <string name="field_type_rich_list_free_limit">Je nám líto, seznamy jsou jen pro uživatele verze PRO.</string>
+    <string name="field_type_rich_align_free_limit">Je nám líto, zarovnání je jen pro uživatele verze PRO.</string>
+    <string name="cloud_file_error_upload">Chyba při odesílání</string>
+    <string name="button_apply">Použít</string>
+    <string name="add_relationship_with_title">Vyberte sekundární knihovnu</string>
+    <string name="add_relationship_success">Vazba mezi knihovnami bude poskytnuta pomocí pole \"%s\".</string>
+    <string name="display_aggregation">Agregace zobrazení</string>
+    <string name="display_aggregation_hint">Agregace dle položek propojené knihovny</string>
+    <string name="permission_storage_text">Pro pokračování, povolte Mementu přístup k vašemu úložišti.</string>
+    <string name="permission_storage_explanation_text">Přístup k uložišti je vyžadován pro vyhledávání, zálohování a připojení obrázků a souboru k vaším záznamům.</string>
+    <string name="permission_accounts_text">Memento vyžaduje přístup k vašemu účtu pro synchronizaci s Google Tabulkami.</string>
+    <string name="permission_location_text">Memento vyžaduje přístup k určování vaší polohy pro pole typu Lokalizace.</string>
     </resources>

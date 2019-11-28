@@ -1978,4 +1978,38 @@
     <string name="revision_history_only_for_cloud">El histórico de versiones sólo está disponible para las bibliotecas que han sido cargadas en la nube y en las cuentas PRO o TEAM.</string>
     <string name="pending_user">En espera...</string>
     <string name="uom_custom_name">Nombre de la unidad</string>
+    <string name="pro_feature_6">Un campo de entrada puede contener múltiples objetos (imágenes, archivos, contactos, coordenadas, etc.).</string>
+    <string name="plans_comparison">Vea nuestra comparación completa de características.</string>
+
+    <string name="time_field_group_by_day_and_time">Grupo por fecha y hora</string>
+
+    <string name="select_source_library_dialog_title">Seleccione la biblioteca de donde copiar los datos</string>
+    <string name="select_source_library_dialog_hint">Seleccione una fuente de datos</string>
+    <string name="wiki">Wiki</string>
+
+    <string name="type_desc_color">El tipo de campo de color permite almacenar cualquier color en formato RGB.</string>
+    <string name="image_cache_settings_path_title">Carpeta de caché de imágenes</string>
+
+    <string name="unlock_fingerprint_dialog_title">Desbloquear con la huella dactilar</string>
+    <string name="unlock_fingerprint_dialog_text">La próxima vez, ¿quiere desbloquear sus bibliotecas protegidas usando la huella dactilar?</string>
+    <string name="fingerprint_not_recognized">Huella dactilar no reconocida</string>
+    <string name="unlock_fingerprint_hint">Escanee su huella para desbloquear</string>
+    <string name="enable_fingerprint">Active la huella dactilar</string>
+
+    <string name="storage_permission_required_title">Permiso requerido</string>
+    <string name="storage_permission_required_text">La app necesita el permiso de almacenamiento. Puede otorgarlo en los ajustes de la app.</string>
+    <string name="got_to_system_settings">Ir a los Ajustes</string>
+    <string name="file_save_error">No se puede guardar el archivo:
+%s</string>
+
+    <string name="years_range">Rango de años en las fechas</string>
+    <string name="begin_year">Comienzo</string>
+    <string name="end_year">Final</string>
+    <string name="years_range_wrong">El último año debe ser igual o posterior al año de comienzo</string>
+
+    <string name="orientation_portrait">Retrato</string>
+    <string name="orientation_landscape">Paisaje</string>
+    <string name="pdf_scale_mode_crop">Recortar</string>
+    <string name="pdf_scale_mode_expand">Expandir</string>
+    <string name="pdf_scale_mode_fit">Ajustar</string>
     </resources>
