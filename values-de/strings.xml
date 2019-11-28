@@ -2069,7 +2069,7 @@ Bitte neue verschiebe Regel erstellen um in eine andere Sammlung zu migrieren.</
     <string name="match_fields"/>
     <string name="dest_fields">Ziel Felder</string>
     <string name="delete_move_rule_dialog_title">Regel löschen</string>
-    <string name="delete_move_rule_dialog_message">Bist Du sicher, dass Du die verschiebe Regel zu \"%2\" löschen willst ?</string>
+    <string name="delete_move_rule_dialog_message">Bist Du sicher, dass Du die verschiebe Regel zu \"%s\" löschen willst ?</string>
     <string name="move_rules_empty">Keine verschiebe Regeln in dieser Sammlung</string>
 
     <string name="no_field">Kein Feld</string>
