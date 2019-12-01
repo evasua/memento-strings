@@ -726,7 +726,7 @@
     <string name="record_error_dialog_message">দুঃখিত, রেকর্ডিংয়ের জন্য অ্যাপ্লিকেশন পাওয়া যায় নি।</string>
     <string name="sync_error_dialog_title">সিঙ্ক্রোনাইজেশন ত্রুটি</string>
     <string name="field_display_options_group">প্রদর্শনের বিকল্পসমূহ</string>
-    <string name="display_in_list_how">হিসাবে তালিকা প্রদর্শন করুন হিসাবে</string>
+    <string name="display_in_list_how">তালিকা হিসাবে প্রদর্শন করুন</string>
     <string name="field_display_title_in_card">ফিল্ডের নাম</string>
     <string name="field_display_title_in_card_hint">কার্ড এন্ট্রিতে ফিল্ডের নাম প্রদর্শন করুন</string>
     <string name="edit_library_tab_structure">গঠন</string>
@@ -1365,7 +1365,7 @@
     <string name="permission_storage_text">চালিয়ে যেতে, আপনার স্টোরেজের জন্য Mementoস্তম্ভ অ্যাক্সেস দিন।</string>
     <string name="permission_storage_explanation_text">আপনার এন্ট্রিতে ইমেজ এবং ফাইল সংযুক্ত করার জন্য ক্যাশে, ব্যাকআপ এবং প্রাপ্যতার জন্য স্টোরেজ অ্যাক্সেসের প্রয়োজন।</string>
     <string name="permission_accounts_title">অ্যাকাউন্টস</string>
-    <string name="permission_accounts_text">Google Sheets এবং কন্টাক্টের ফিল্ডের ধরণের সাথে সমন্বয় করার জন্য Memento access প্রদান করা প্রয়োজন।</string>
+    <string name="permission_accounts_text">Google Sheets এবং Contact ফিল্ডের ধরণের সাথে সমন্বয় করার জন্য Memento access প্রদান করা প্রয়োজন।</string>
     <string name="permission_location_title">লোকেশন</string>
     <string name="permission_location_text">এটি লোকেশন ফিল্ডের লোকেশনের জন্য Memento access প্রদান করা প্রয়োজন।</string>
     <string name="permission_not_necessarily">এই অনুমতি বাধ্যতামূলক নয়।</string>
@@ -1728,7 +1728,7 @@
     <string name="repository_data_sources_hint">স্বতঃপূর্ণের জন্য ডেটা উৎস</string>
     <string name="warning">সতর্কতা</string>
     <string name="add_javascript_library">জাভাস্ক্রিপ্ট লাইব্রেরি যোগ করুন ...</string>
-    <string name="add_repository">সংগ্রহস্থল যোগ করুন</string>
+    <string name="add_repository">GitHub সংগ্রহস্থল যোগ করুন</string>
     <string name="repository_location_hint">GitHub সংগ্রহস্থল URL</string>
     <string name="repository_location_error">GitHub সংগ্রহস্থলের জন্য HTTPS লিঙ্ক নির্দিষ্ট করুন। উদাহরণস্বরূপ: https://github.com/username/repo-name</string>
     <string name="repository_not_found_error">সংগ্রহস্থল খুঁজে পাওয়া যাবে না:%s</string>
