@@ -938,7 +938,7 @@ Tout droits réservés</string>
     <string name="sl_content_depend_pretitle">La valeur du champ %s</string>
     <string name="sl_content_depend_description">La valeur du champ sera disponible à la sélection si la valeur du champ %s est</string>
     <string name="backup_images_checkbox">Création de sauvegardes des images, sons et autres fichiers associés</string>
-    <string name="backup_files_progress_title">Sauvegardes de fichiers</string>
+    <string name="backup_files_progress_title">Sauvegarde des fichiers</string>
     <string name="restore_files_message">La sauvegarde contient une archive avec des fichiers associés à la base ; voulez-vous les restaurer ?</string>
     <string name="restore_files_progress_title">Restauration des fichiers</string>
     <string name="restore_files_success2">Tous les fichiers associés à la base ont été décompressés</string>
@@ -2002,7 +2002,8 @@ Tout droits réservés</string>
     <string name="action_context_bulk_actions">Menu des actions par lot</string>
     <string name="move_to">Déplacer vers...</string>
     <string name="copy_to">Copier vers...</string>
-    <string name="move_to_no_libraries">Could not find libraries compatible with the current library.\nPlease create an entries transfer rule to migrate to any library.</string>
+    <string name="move_to_no_libraries">Impossible de trouver une base de données compatible avec la base courante.
+SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base de données.</string>
     <string name="migrate">Migrer</string>
     <string name="barcode_display_error">Désolé, création de code-barres impossible avec les données fournies</string>
     <string name="barcode_format">Format de code-barres</string>
