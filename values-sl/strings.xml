@@ -1,2 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="library_menu_add_item">dodaj vnos</string>
+    <string name="main_menu_add_lib">Dodaj knjižnico</string>
+    <string name="restore_files_message">" do you want to restore them?\",\",\",FALSE\""</string>
+    </resources>
