@@ -2,4 +2,11 @@
 <resources><string name="library_menu_add_item">dodaj vnos</string>
     <string name="main_menu_add_lib">Dodaj knjižnico</string>
     <string name="restore_files_message">" do you want to restore them?\",\",\",FALSE\""</string>
+    <string name="ghostData_lib_title">Ime knjižnice</string>
+    <string name="mobile">mobilno</string>
+    <string name="home">doma</string>
+    <string name="work">služba</string>
+    <string name="other">ostalo</string>
+    <string name="pager">dlančnik</string>
+    <string name="invisible">Nevidno</string>
     </resources>
