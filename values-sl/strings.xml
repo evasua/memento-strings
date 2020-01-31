@@ -74,7 +74,7 @@
     <string name="date_default_null">Privzeto prazna vrednost</string>
     <string name="date_default_now">Privzeto trenutni datum</string>
     <string name="search">Iskanje</string>
-    <string name="search_hint">Vstopno iskanje</string>
+    <string name="search_hint">Iskanje vnosa</string>
     <string name="search_parse_exception_messagee">Neveljaven iskalni niz</string>
     <string name="memento_search">Memento iskanje</string>
     <string name="memento_search_in_lib">Memento iskanje v %s</string>
@@ -90,7 +90,7 @@
     <string name="flex_type_money_currency_dlg_title">Izberi valuto</string>
     <string name="flex_type_money_currency_option_title">Valuta</string>
     <string name="flex_type_money_default_currency">USD</string>
-    <string name="flex_role_not_usage">Redno polje</string>
+    <string name="flex_role_not_usage">Običajno polje</string>
     <string name="flex_role_name">Ime vnosa</string>
     <string name="flex_role_hint">Opis vnosa</string>
     <string name="flex_role_status">Stanje vnosa</string>
@@ -250,7 +250,7 @@ Nadgradite na različico PRO, da odstranite to omejitev.</string>
     <string name="public_to_picasa_message">Nalaganje slik knjižnice v Picasa</string>
     <string name="public_to_picasa_create_album">Ustvarjanje Picasa albuma za objavljeno knjižnico</string>
     <string name="public_to_picasa_success">Slike so bile naložene na Picasa</string>
-    <string name="picasa_task_step_auth">Preverjanje pristnosti na storitvi Picasa</string>
+    <string name="picasa_task_step_auth">Overjanje pristnosti na storitvi Picasa</string>
     <string name="picasa_send_image_step" formatted="false">Nalaganje slik knjižnice v Picasa. %s od %s</string>
     <string name="public_library">Objavi knjižnico</string>
     <string name="update_public_library">Posodobi objavo</string>
@@ -467,18 +467,18 @@ Iskanje po šifriranih vnosih ni podprto.</string>
     <string name="share_template_text">Nalaganje predloge knjižnice v spletni katalog</string>
     <string name="share_success">Predloga knjižnice je bila uspešno naložena v spletni katalog</string>
     <string name="template_from_catalog_title">Iz spletnega kataloga</string>
-    <string name="get_template_body_message">Prenos knjižnico predloge...</string>
+    <string name="get_template_body_message">Prenesi knjižnico predloge...</string>
     <string name="error_empty_template_title">Vnesite ime predloge</string>
     <string name="error_empty_template_desc">Vnesite opis predloge</string>
     <string name="template_downloads">Prenosi: %s</string>
     <string name="clear">Počistiti</string>
     <string name="latest">Najnovejše</string>
-    <string name="scale_dialog">Lestvica rezultatov</string>
+    <string name="scale_dialog">Obseg rezultatov</string>
     <string name="pref_cat_library_view">Pogled</string>
     <string name="field_email_preferences">Oblikovanje E-pošte</string>
     <string name="field_email_preferences_summary">Možnosti oblikovanja vnosov, ko jih pošljete po E-mailu</string>
     <string name="formatted_field_prompt">Izberi polje</string>
-    <string name="formatted_field_name">Oblika za polje</string>
+    <string name="formatted_field_name">Oblika formata za polje</string>
     <string name="field_email_enter">Začni novo vrstico</string>
     <string name="field_email_enter_summary">Polja z imenom in vrednostmi bodo prikazana v novi vrstici</string>
     <string name="colon_after_name">Dvopičje za imenom</string>
@@ -534,7 +534,7 @@ Nadgradi na različico PRO, da odstraniš to omejitev.</string>
     <string name="google_doc_exists_link_option">Parametri povezovanja</string>
     <string name="get_google_docs_columns_message">Nalaganje seznama stolpcev za izbrane Google preglednice ...</string>
     <string name="field_not_found">Ni najdeno</string>
-    <string name="field_not_sync">Ne sinhroniziraj</string>
+    <string name="field_not_sync">Ni sinhronizirano</string>
     <string name="link_button">Povezava</string>
     <string name="prepare_linking_library">Priprava na povezovanje ...</string>
     <string name="error_prepare_linking">Pri pripravi povezovanja je prišlo do napake: %s</string>
@@ -546,7 +546,7 @@ Nadgradi na različico PRO, da odstraniš to omejitev.</string>
     <string name="last_auto_backup_time">Zadnja samodejna varnostna kopija: %s</string>
     <string name="select_file_for_restore_db">Izberite datoteko varnostne kopije</string>
     <string name="date_format_sample">Oblika datuma: %s</string>
-    <string name="stats_title_in_list" formatted="false">%s za %s</string>
+    <string name="stats_title_in_list" formatted="false">%s po %s</string>
     <string name="sum_function_title">Vsota</string>
     <string name="max_function_title">Maks.</string>
     <string name="min_function_title">Min.</string>
@@ -555,7 +555,7 @@ Nadgradi na različico PRO, da odstraniš to omejitev.</string>
     <string name="align_right">desno</string>
     <string name="button_add_stat_item">Dodajte funkcijo</string>
     <string name="stats_edit_title_hint">Predpona rezultata</string>
-    <string name="stat_item_align_prompt">Porava rezultata</string>
+    <string name="stat_item_align_prompt">Poravava rezultata</string>
     <string name="stat_item_line_prompt">Vrstna postavitev rezultatov.</string>
     <string name="create_stat_item_title">Ustvarjanje funkcije</string>
     <string name="select_stat_function_title">Izberi funkcijo</string>
@@ -678,7 +678,7 @@ Poslali smo ti E-mail, ki ti bo omogočil hitro in enostavno ponastavitev gesla.
     <string name="backup_files_error">Napaka med varnostnimi kopijami datotek: %s</string>
     <string name="restore_files_progress_title">Obnavljanje datotek</string>
     <string name="restore_files_success2">Vse datoteke, povezane z bazo podatkov, so bile razpakirane</string>
-    <string name="restore_files_error_message" formatted="false">Obnovitev datotek iz arhiva ni uspelo: %s</string>
+    <string name="restore_files_error_message" formatted="false">Obnovitev datotek iz arhiva %s ni uspelo</string>
     <string name="restore_files_error">Obnovtev datotek ni uspelo</string>
     <string name="select_google_account">Izberi Google račun</string>
     <string name="send_files_to_cloud_error">Napaka pri nalaganju datotek v oblak:</string>
@@ -726,7 +726,7 @@ V nastavitvah te knjižnice lahko vključite možnost urejanja.</string>
     <string name="lock_edit_library_pref_summary_on">Spreminjanje strukture knjižnice ni dovoljeno</string>
     <string name="lock_edit_library_pref_summary_off">Spreminjanje strukture knjižnice je dovoljeno</string>
     <string name="cant_restore_form_google_drive">Vaša naprava ne podpira ustvarjanja knjižnice iz Google Drive</string>
-    <string name="record_error_dialog_message">Oprosti, aplikacije za snemanje ni mogoče najti.</string>
+    <string name="record_error_dialog_message">Oprosti, aplikacije za snemanje ni bilo mogoče najti.</string>
     <string name="sync_error_dialog_title">Napaka sinhronizacije</string>
     <string name="field_display_options_group">Možnosti prikaza</string>
     <string name="display_in_list_how">Prikaži kot</string>
@@ -747,7 +747,7 @@ V nastavitvah te knjižnice lahko vključite možnost urejanja.</string>
     <string name="entry_page_delete_message_text">Ali res želiš izbrisati stran \"%s\"?</string>
     <string name="faq">pogosta vprašanja</string>
     <string name="accept_button">Sprejmem</string>
-    <string name="sort_by_subtitle">za %s</string>
+    <string name="sort_by_subtitle">po %s</string>
     <string name="group_by_subtitle">za %s</string>
     <string name="sort_asc">Naraščajoče</string>
     <string name="sort_desc">Padajoče</string>
@@ -773,7 +773,7 @@ razvrsti, združi, filtri, grafikoni in še več ...</string>
     <string name="pref_entry_editor_with_margin">Polja pri urejanju</string>
     <string name="pref_entry_editor_with_margin_summary">Možnost ležečega načina</string>
     <string name="flex_type_signature">Podpis</string>
-    <string name="flex_type_signature_options_title">Možnosti barvanja</string>
+    <string name="flex_type_signature_options_title">Možnosti risanja</string>
     <string name="flex_type_signature_options_hint">Velikost in ozadje platna, nastavitve čopiča</string>
     <string name="flex_type_signature_width_title">Širina podpisa</string>
     <string name="flex_type_signature_height_title">Višina podpisa</string>
@@ -987,7 +987,7 @@ Ali želite zagnati prevezavo zdaj?</string>
     <string name="entries_view_list">Seznam</string>
     <string name="entries_view_table">Tabela</string>
     <string name="flex_edit_option_in_table">vnosi v tabelo</string>
-    <string name="table_cell_image_text">ZASLON</string>
+    <string name="table_cell_image_text">PRIKAZ</string>
     <string name="table_column_width">Širina stolpca</string>
     <string name="empty_list_after_filter">Noben zapis ne ustreza kriterijem filtra.</string>
     <string name="size_of_line">Velikost vrstice</string>
@@ -1003,7 +1003,7 @@ Ali želite zagnati prevezavo zdaj?</string>
     <string name="auto_backup_when_sync">Pred sinhronizacijo z Googlom</string>
     <string name="auto_backup_when_edit_libs">Pred menjavo knjižnic</string>
     <string name="free_version_multi_field_limit">V brezplačni različici lahko dodate samo dva elementa. Nadgradite na PRO različico, da odstranite to omejitev.</string>
-    <string name="scale">Lestvica %d</string>
+    <string name="scale">Obseg %d</string>
     <plurals name="duration_seconds">
 	<item quantity="one">1 sekunda</item>
 	<item quantity="other">%d sekundi</item>
@@ -1170,7 +1170,7 @@ Največja velikost datoteke je %s.</string>
     <string name="allow_permission">Dovoli</string>
     <string name="deny_permission">Zavrni</string>
     <string name="only_owner_permission">Samo lastno</string>
-    <string name="user_not_found">Uporabnik ni najden</string>
+    <string name="user_not_found">Uporabnik ni bil najden</string>
     <string name="edit_permission">Nastavitve skupne rabe uporabnikov</string>
     <string name="push_entry_error_text" formatted="false">Vnos ni shranjen v oblaku.
 Ime: %s
@@ -1206,8 +1206,8 @@ Lahko nadgradite na tarifni načrt, ki zagotavlja več prostora za shranjevanje.
     <string name="library_cloud_count_limit">Vaš tarifni načrt omogoča nalaganje do %s knjižnic v oblak.</string>
     <string name="restore_cloud_library_from_recycle">Ta lokalna knjižnica je izbrisana. Obnovim?</string>
     <string name="cloud_file_while_not_upload">Ta datoteka še ni v oblaku</string>
-    <string name="upload_ecrypted_libraries_dont_supported">Šifrirane knjižnice, naložene v oblak, začasno niso na voljo.</string>
-    <string name="button_signin">Prijavite se</string>
+    <string name="upload_ecrypted_libraries_dont_supported">Nalaganje šifriranih knjižnic v oblak začasno ni na voljo.</string>
+    <string name="button_signin">Vpiši se</string>
     <string name="cloud_library_not_found">Knjižnice ni bilo mogoče najti v oblaku. Morda je bila izbrisana.
 Pretvorim knjižnico v lokalno?</string>
     <string name="cloud_library_already_uploaded">Ta knjižnica je že naložena v oblak.</string>
@@ -1251,7 +1251,7 @@ Pretvorim knjižnico v lokalno?</string>
     <string name="clear_search_history_hint">Odstrani vsa iskanja, ki so bila izvedena</string>
     <string name="success_clear_search_history">Zgodovina iskanja je bila izbrisana</string>
     <string name="clear_search_history_quest">Ali si prepričan, da želiš počistiti zgodovino iskanja?</string>
-    <string name="uservoice_menu_title">Uporabniški glas</string>
+    <string name="uservoice_menu_title">Uporabnikov glas</string>
     <string name="view_csv_error_dialog_message">Oprosti, programa za prikaz datoteke CSV ni mogoče najti</string>
 
     <string name="edit_library_tabs_autofill">Samodejno izpolnjevanje</string>
@@ -1377,7 +1377,7 @@ Izbrišite lokalno kopijo knjižnice in jo nato ponovno prenesite iz oblaka.</st
     <string name="find_missing_files">Poišči manjkajoče datoteke</string>
     <string name="button_apply">Uporabi</string>
     <string name="find_missing_files_empty">Manjkajočih datotek ni mogoče najti</string>
-    <string name="file_manager_not_found">V vaši napravi ni najdenih podprtih upraviteljev datotek.</string>
+    <string name="file_manager_not_found">V vaši napravi ni programov za upravljanje datotek.</string>
     <string name="file_list_empty">Ta knjižnica ne vsebuje datotek</string>
     <string name="feature_available_only_in_pro">Ta funkcija je na voljo samo v različici PRO.</string>
     <string name="preview_button">Predogled</string>
@@ -1417,9 +1417,9 @@ Izbrišite lokalno kopijo knjižnice in jo nato ponovno prenesite iz oblaka.</st
     <string name="js_realtime">Izvedi skripte v realnem času</string>
     <string name="js_realtime_hint_off">Skript se izvaja samo pri urejanju zapisa</string>
     <string name="js_realtime_hint_on">Skript se izvaja pri prikazu zapisa</string>
-    <string name="user_limit_message">Dosegli ste omejitev uporabnikov</string>
+    <string name="user_limit_message">Dosegel si omejitev uporabnikov</string>
     <string name="remaining_users" formatted="false">%d od %d uporabljenih licenc</string>
-    <string name="delete_slave_user_message">Ali res želite izbrisati uporabnika \"%s\"?</string>
+    <string name="delete_slave_user_message">Ali res želiš izbrisati uporabnika \"%s\"?</string>
     <string name="active_users">Aktivni uporabniki</string>
     <string name="deleted_users">Izbrisani uporabniki</string>
     <string name="powered_by_text">Podprto s strani Memento zbirke podatkov</string>
@@ -1438,7 +1438,7 @@ Izbrišite lokalno kopijo knjižnice in jo nato ponovno prenesite iz oblaka.</st
     <string name="multi_choice_delimiter">Ločilo</string>
     <string name="cloud_plan_free">Brezplačno</string>
     <string name="cloud_plan_plan3">Lite</string>
-    <string name="cloud_plan_plan6">Pro</string>
+    <string name="cloud_plan_plan6">PRO</string>
     <string name="cloud_plan_plan10">Pro Plus</string>
     <string name="cloud_plan_storage">%s Prostor za shranjevanje</string>
 
@@ -1968,7 +1968,7 @@ Nadgradite na različico PRO, da odstranite to omejitev.</string>
     <string name="search_index_tokenizer">Leksikalni analizator</string>
 
     <string name="permission_contacts_title">Kontakti</string>
-    <string name="permission_contacts_text">Za vrsto polja kontakt je potrebno Memento odobriti dostop do stikov.</string>
+    <string name="permission_contacts_text">Za polje kontakt je potrebno Memento odobriti dostop do stikov.</string>
     <string name="boolean_format">Format</string>
     <string name="boolean_format_on">Vklop etikete</string>
     <string name="boolean_format_off">Izklop etikete</string>
