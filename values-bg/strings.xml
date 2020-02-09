@@ -719,7 +719,7 @@
     <string name="record_error_dialog_message">Съжаляваме, но програмата не е намерена.</string>
     <string name="sync_error_dialog_title">Грешка при синхронизация</string>
     <string name="field_display_options_group">Опции на дисплея</string>
-    <string name="display_in_list_how">Показване на списъка като</string>
+    <string name="display_in_list_how">Показване като</string>
     <string name="field_display_title_in_card">Име на поле</string>
     <string name="field_display_title_in_card_hint">Посочете името на полето в карта записи</string>
     <string name="edit_library_tab_structure">СТРУКТУРА</string>
@@ -936,7 +936,7 @@
     <string name="aggregation_delete_message">Наистина ли искате да изтриете агрегацията \"%s\" ?</string>
     <string name="aggregation_need_select_field_message">Трябва да изберете поле за тази функция агрегация</string>
     <string name="open_object_by_uri_error">Не може да се отвори обект: %s</string>
-    <string name="import_and_export_menu_item">Импорт и експорт...</string>
+    <string name="import_and_export_menu_item">Импорт и експорт</string>
     <string name="entries_export_snackbar_ok">Записи са експортирани успешно</string>
     <string name="entries_import_result_dialog_title">Импорт на записи</string>
     <string name="csv_import_total_lines">Обработени редове:</string>
@@ -1069,7 +1069,7 @@
 	<string name="dont_show_anymore">Не показвай повече</string>
 	<string name="run_sync_slave_libraries_pref">Подобни библиотеки</string>
 	<string name="run_sync_slave_libraries_summary">Първо се синхронизират свързаните библиотеки</string>
-	<string name="choice_type_add_button_in_edit_title">Създаване на елементи, докато записът се редактира</string>	
+	<string name="choice_type_add_button_in_edit_title">Разрешаване на създаване на елементи, докато записът се редактира</string>	
 	
 <string name="need_make_slave_library_unique">За да синхронизирате \"Линк към позиция\" полета, трябва да се даде възможност за контрол на уникалните имена на записи в библиотеката, към която сочи връзката.↵\nНаправете това сега?</string>
 	<string name="need_make_slave_library_unique_import">За да импортирате \"Линк към позиция\" полета, трябва да се даде възможност за контрол на уникалните имена записи в библиотеката, към която сочи връзката.↵\nНаправете това сега?</string>
@@ -1179,7 +1179,10 @@
 	<string name="find_library_by_url_hint">http://libs.mobi/address</string>
 	<string name="library_not_found_by_uri">Библиотеката не е намерена</string>
 	<string name="upload_to_cloud_offer_title">{облакът е готов...}</string>
-	<string name="upload_to_cloud_offer_text">• Работа в екип↵\n• Синхронизация между устройства↵\n• Резервно копие винаги в облака</string>
+	<string name="upload_to_cloud_offer_text">• Работа в екип↵
+• Синхронизация между устройства↵
+• Резервно копие винаги в облака
+• Версия</string>
 	<string name="button_no_thanks">Не, благодаря</string>
 	<string name="button_upload">Качване</string>
 	
@@ -1355,7 +1358,7 @@
     <string name="permission_storage_text">За да продължите, дайте достъп на Memento до вашето Място.</string>
     <string name="permission_storage_explanation_text">Достъп до мястото за съхранение се изисква за кеширане, архивиране и достъпност до прикачени изображения и файлове към вашите записи.</string>
     <string name="permission_accounts_title">Профили</string>
-    <string name="permission_accounts_text">Необходимо е да дадете достъп на Memento до профилите за синхронизиране с Google Таблици и за тип на поле Контакт.</string>
+    <string name="permission_accounts_text">Необходимо е да дадете достъп на Memento до профилите за синхронизиране с Google Таблици.</string>
     <string name="permission_location_title">Местоположение</string>
     <string name="permission_location_text">Необходимо е да дадете достъп на Memento до местоположението си за тип на поле Местоположение.</string>
     <string name="permission_not_necessarily">Това разрешение не е задължително.</string>
@@ -1486,7 +1489,7 @@
     <string name="trigger_permission_write_file">Запишете файлове</string>
     <string name="trigger_permission_write_file_hint">Позволява скриптове за писане във външна памет</string>
     <string name="trigger_permission_network">Мрежа</string>
-    <string name="trigger_permission_network_hint">Позволява скриптове за изпълнение на HTTP заявки</string>
+    <string name="trigger_permission_network_hint">Позволява скриптове за изпълнение на HTTP заявки и да изпраща имейли.</string>
 
     <string name="trigger_permission_libraries">Библиотеки</string>
     <string name="trigger_permission_libraries_hint">Достъп до всички библиотеки</string>
@@ -1676,7 +1679,7 @@
     <string name="cloud_plan_team10">Екип 10</string>
     <string name="cloud_plan_team15">Екип 15</string>
     <string name="cloud_plan_team20">Екип 20</string>
-    <string name="pro_for_team">Pro функции за всички потребители в рамките на екипа</string>
+    <string name="pro_for_team">" Pro функции за всички потребители в екипа"</string>
     <string name="team_features_trial">Всички планове включват безплатна 14-дневна пробна версия.</string>
 
 <string name="tasker_plugin_create_entry_event_title">Записът е създаден</string>
@@ -1723,7 +1726,7 @@
     <string name="repository_data_sources_hint">Източници на данни за автоматично попълване</string>
     <string name="warning">Внимание</string>
     <string name="add_javascript_library">Добавяне на JavaScript библиотеки...</string>
-    <string name="add_repository">Добавяне на хранилище</string>
+    <string name="add_repository">Добавяне на хранилище в GitHub</string>
     <string name="repository_location_hint">URL адрес на хранилището GitHub</string>
     <string name="repository_location_error">Посочете HTTPS връзка към хранилището на GitHub. Например: https://github.com/username/repo-name</string>
     <string name="repository_not_found_error">Не може да се намери хранилище: %s</string>
@@ -1799,4 +1802,31 @@
 <string name="wizard_library_name_title">Memento организира информацията ви в библиотеки. Как бихте искали да назовете библиотеката си?</string>
     <string name="wizard_library_name_hint3">Библиотека, подобна на работните листове в електронна таблица.</string>
     <string name="wizard">Съветник</string>
+    <string name="wizard_library_icon_title">Изберете икона за тази библиотека</string>
+    <string name="wizard_field_advanced_options_button">За напреднали</string>
+    <string name="wizard_field_display_no">Не, благодаря</string>
+    <string name="more_info">Нужда от помощ?</string>
+    <string name="wizard_complete_text1">Поздравления!</string>
+    <string name="close">Затваряне</string>
+
+    <string name="attributes">Атрибут</string>
+    <string name="select_attribute_type">Тип атрибут</string>
+    <string name="create_attribute">Създаване на атрибут</string>
+    <string name="edit_attribute">Редактиране на атрибут</string>
+    <string name="attribute_name">Име на атрибут</string>
+    <string name="field_copied_to_clipboard">%s е копирано в клипборда</string>
+    <string name="send_email">Изпратете имейл</string>
+    <string name="no_limit">Няма ограничение</string>
+    <string name="max_number_of_users">Максимален брой потребители</string>
+    <string name="no_field">Няма поле</string>
+    <string name="create_copy">Създаване на копие</string>
+    <string name="move_or_copy">Преместване или копиране</string>
+    <string name="duplicate">Създаване на дубликат</string>
+
+    <string name="buy_license_key_hint">Купете самостоятелен PRO лиценз за Android</string>
+    <string name="flex_type_user">Потребител</string>
+    <string name="select_user">Изберете потребител</string>
+    <string name="wizard_library_structure_title">Създаване структура на вашата библиотека.</string>
+    <string name="wizard_library_structure_hint3">Записът е еквивалент на ред в електронна таблица.</string>
+    <string name="wizard_library_structure_hint4">Поле е еквивалент на колона в електронна таблица.</string>
     </resources>
