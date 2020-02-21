@@ -2066,10 +2066,10 @@ Bitte neue verschiebe Regel erstellen um in eine andere Sammlung zu migrieren.</
     <string name="field_role_hidden_short">versteckt</string>
     <string name="export_hidden_fields">Exportiere versteckte Felder</string>
     <string name="move_select_destination">Ziel wählen</string>
-    <string name="match_fields"/>
+    <string name="match_fields">Felder abgleichen</string>
     <string name="dest_fields">Ziel Felder</string>
     <string name="delete_move_rule_dialog_title">Regel löschen</string>
-    <string name="delete_move_rule_dialog_message">Bist Du sicher, dass Du die verschiebe Regel zu \"%2\" löschen willst ?</string>
+    <string name="delete_move_rule_dialog_message">Bist Du sicher, dass Du die verschiebe Regel zu \"%s\" löschen willst ?</string>
     <string name="move_rules_empty">Keine verschiebe Regeln in dieser Sammlung</string>
 
     <string name="no_field">Kein Feld</string>
@@ -2093,13 +2093,23 @@ Bitte neue verschiebe Regel erstellen um in eine andere Sammlung zu migrieren.</
     <string name="objects_limit_option_title">Begrenzt</string>
     <string name="max_number_of_users">Max Anzahl der Benutzer</string>
     <string name="no_limit">Unbegrenzt</string>
-    <string name="conditional_permission"/>
-    <string name="conditional_field_empty"/>
-    <string name="conditional_permission_limit"/>
+    <string name="conditional_permission">Hängt vom Feld ab</string>
+    <string name="conditional_field_empty">Sie sollten das Feld \"Benutzer\" auswählen, das Berechtigungen für den Vorgang bereitstellt.</string>
+    <string name="conditional_permission_limit">Zugriffsrechte für ein \"Benutzer\" -Feld können nur für Team-Tarife festgelegt werden.</string>
     <string name="filter_rule_is_one_of">Eins von</string>
     <string name="filter_rule_is_not_one_of">Keins von</string>
     <string name="send_email">E-Mail versenden</string>
     <string name="field_copied_to_clipboard">%s in die Zwischenablage kopiert</string>
     <string name="max_number_of_users_limit_message">Du kannst nur %d Benutzer auswählen</string>
 
-</resources>
+<string name="barcode_display_error">Leider konnte kein Barcode aus den angegebenen Daten decodiert werden</string>
+    <string name="agree_terms_privacy">Wenn Sie ein Konto erstellen, stimmen Sie dem Memento <a href="https://mementodatabase.com#terms">Nutzungsbedingungen</a> und <a href="http://mementodatabase.com#privacy_policy">Datenschutz-Bestimmungen zu</a>.</string>
+    <string name="duration_display_format_option_title">Dauer Format</string>
+    <string name="type_desc_duration">Ein Dauer Feld kann einen Wert enthalten, der verwendet wird, um eine Zeitdauer darzustellen, die in Tagen, Stunden, Minuten, Sekunden oder Millisekunden gemessen wird.</string>
+
+    <plurals name="copying_entries_success">
+	<item quantity="one">Der Eintrag %d wurde in die Bibliothek %s kopiert</item>
+	<item quantity="other">Die Einträge %d wurden in die Bibliothek %s kopiert</item>
+</plurals>
+    <string name="type_desc_user">Im Benutzerfeld ermöglicht Ihnen einen oder mehrere Benutzer aus einer Liste aller Benutzer auszuwählen, mit denen Ihre Bibliothek geteilt wird.</string>
+    </resources>

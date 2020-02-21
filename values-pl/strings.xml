@@ -2121,7 +2121,7 @@
     <string name="move_rules_empty">W tej bibliotece brak reguł przenoszenia</string>
 
     <string name="delete_move_rule_dialog_title">Usuń regułę</string>
-    <string name="delete_move_rule_dialog_message">Czy na pewno chcesz usunąć regułę przenoszenia do „% s” ?</string>
+    <string name="delete_move_rule_dialog_message">Czy na pewno chcesz usunąć regułę przenoszenia do „%s” ?</string>
     <string name="no_field">Brak pól</string>
     <string name="moving_entries">Przenoszenie wpisów. %d do %d.</string>
     <string name="copying_entries2">Kopiowanie wpisów. %d do %d.</string>
