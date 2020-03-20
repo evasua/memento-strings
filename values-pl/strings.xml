@@ -596,8 +596,8 @@
     <string name="user_manual_menu">Zawartość Pomocy</string>
     <string name="save_library_changes">Zapisać zmiany?</string>
     <string name="build_navigate_list_dialog">Sortowanie wpisów...</string>
-    <string name="navigate_first_entry">Ten wpis jest pierwszy</string>
-    <string name="navigate_last_entry">Ten wpis jest ostatnim</string>
+    <string name="navigate_first_entry">Pierwszy wpis</string>
+    <string name="navigate_last_entry">Ostatni wpis</string>
     <string name="library_custom_filter_name">Filtr użytkownika</string>
     <string name="select_library_filter">Wybierz filtr</string>
     <string name="no_filter_item">Zdejmij filtr</string>
