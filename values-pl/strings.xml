@@ -729,7 +729,7 @@
     <string name="record_error_dialog_message">Przepraszamy, aplikacja do zapisu nie znaleziona.</string>
     <string name="sync_error_dialog_title">Błąd synchronizacji</string>
     <string name="field_display_options_group">Opcje wyświetlania</string>
-    <string name="display_in_list_how">Wyświetla listę wg</string>
+    <string name="display_in_list_how">Wyświetla wg</string>
     <string name="field_display_title_in_card">Nazwa pola</string>
     <string name="field_display_title_in_card_hint">Wyświetla nazwę pola na karcie wpisu</string>
     <string name="edit_library_tab_structure">STRUKTURA</string>
@@ -922,7 +922,7 @@
     <string name="aggregation_delete_message">Czy rzeczywiście chcesz usunąć agregację \"%s\" ?</string>
     <string name="aggregation_need_select_field_message">Musisz wybrać pole do tej funkcji agregacji</string>
     <string name="open_object_by_uri_error">Nie mogę otworzyć obiektu: %s</string>
-    <string name="import_and_export_menu_item">Import i eksport...</string>
+    <string name="import_and_export_menu_item">Import i eksport</string>
     <string name="entries_export_snackbar_ok">Wpisy pomyślnie wyeksportowane</string>
     <string name="entries_import_result_dialog_title">Import wpisów</string>
     <string name="csv_import_total_lines">Przetwarzane wiersze:</string>
@@ -1407,7 +1407,7 @@
     <string name="permission_storage_text">Aby kontynuować, zezwól Memento na dostęp do twojego Składowania.</string>
     <string name="permission_storage_explanation_text">"Dostęp do składowania jest wymagany,  aby rozpoznawać, kopiować i przyłączać  obrazy i pliki do twoich wpisów."</string>
     <string name="permission_accounts_title">Konta</string>
-    <string name="permission_accounts_text">Wymagany jest dostęp dla Memento do kont aby synchronizować z Arkuszami Google oraz dla pól typu Kontakt.</string>
+    <string name="permission_accounts_text">Wymagany jest dostęp dla Memento do kont, aby synchronizować z Arkuszami Google.</string>
     <string name="permission_location_title">Lokalizacja</string>
     <string name="permission_location_text">Wymagane jest pozwolenie dostępu dla Memento do lokalizacji dla pól typu Lokalizacja.</string>
     <string name="permission_not_necessarily">To pozwolenie nie jest obowiązkowe.</string>
@@ -2137,4 +2137,24 @@
     <string name="memento_full_name_hint">Pełna nazwa</string>
     <string name="not_set">Nie ustawione</string>
     <string name="objects_limit_option_title">Ograniczenie</string>
+<plurals name="moving_entries_success">
+	<item quantity="one">Wpis %d został przeniesiony do biblioteki %s</item>
+	<item quantity="other">Wpisy %d zostały przeniesione do biblioteki %s</item>
+</plurals>
+    <plurals name="copying_entries_success">
+	<item quantity="one">%d wpis został skopiowany do biblioteki %s</item>
+	<item quantity="other">%d wpisy zostały skopiowane do biblioteki %s</item>
+</plurals>
+    <string name="max_number_of_users">Maks. ilość użytkowników</string>
+    <string name="no_limit">Bez ograniczeń</string>
+    <string name="conditional_permission">Zależy od pola</string>
+    <string name="conditional_field_empty">Należy wybrać pole \"Użytkownik\", które zapewni uprawnienia do operacji.</string>
+    <string name="conditional_permission_limit">Prawa dostępu dla pola \"Użytkownik\" można ustawić tylko w taryfach zespołów.</string>
+    <string name="filter_rule_is_one_of">Jest jednym z</string>
+    <string name="filter_rule_is_not_one_of">Nie jest jednym z</string>
+    <string name="send_email">Wyślij email</string>
+    <string name="type_desc_user">Pole Użytkownik pozwala wybrać jednego lub więcej użytkowników z listy wszystkich użytkowników, którym udostępniana jest twoja biblioteka.</string>
+    <string name="field_copied_to_clipboard">%s skopiowano do schowka</string>
+    <string name="max_number_of_users_limit_message">Możesz wybrać tylko %d użytkowników</string>
+
 </resources>
