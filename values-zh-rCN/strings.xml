@@ -142,10 +142,10 @@
     <string name="about">关于</string>
     <string name="copyright">版权所有 © 2019 LuckyDroid</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
-    <string name="about_hint">查看软件版本</string>
+    <string name="about_hint">查看软件版本 | 翻译人员建议，中国用户方便交流等，可加入QQ群号：290681197 (非官方)</string>
     <string name="about_license_type">许可协议：</string>
     <string name="pro_version">专业版</string>
-    <string name="send_library_item">分享到QQ（分享）</string>
+    <string name="send_library_item">发送</string>
     <string name="send_chooser_title">选择要分享的应用程序：</string>
     <string name="create_shortcut">创建快捷方式</string>
     <string name="app_name_library">Memento 库</string>
@@ -906,7 +906,7 @@
     <string name="entries_icon_dialog_title">请选择作为的缩略图字段</string>
     <string name="string_list_export_menu_title">导出项目</string>
     <string name="string_list_import_menu_title">导入项目</string>
-    <string name="open_button">分享到QQ（或打开）</string>
+    <string name="open_button">打开</string>
     <string name="string_list_export_snackbar_ok">项目已导出</string>
     <string name="string_list_export_error">导出发生错误 %s</string>
     <string name="string_list_import_error">在导入时发生错误: %s</string>
