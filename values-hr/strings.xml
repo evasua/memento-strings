@@ -287,4 +287,6 @@ na poslužitelju Memento</string>
 %s od %s</string>
     <string name="memento_not_support_template">Vaša verzija Mementoa je zastarjela, ažurirajte je</string>
     <string name="memento_not_found">Resurs nije pronađen</string>
+    <string name="alias_hint">Unesite alias knjižnice</string>
+    <string name="button_publish">Objavi</string>
     </resources>
