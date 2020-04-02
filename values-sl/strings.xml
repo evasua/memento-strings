@@ -139,7 +139,7 @@ Začnem z obnovo?</string>
     <string name="activation_ok">Hvala da ste aktivirali Memento</string>
     <string name="activation_error">Aktivacijska koda ni veljavna. Prosim poskusi ponovno.</string>
     <string name="about">O programu</string>
-    <string name="copyright">Copyright © 2019 LuckyDroid
+    <string name="copyright">Copyright © 2020 LuckyDroid
 Vse pravice pridržane</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Prikaži različico programske opreme</string>
@@ -1048,7 +1048,7 @@ Ali želite zagnati prevezavo zdaj?</string>
     <string name="library_group_view_type_icons">Ikone</string>
     <string name="icon_pack_title_files_types">Datoteke</string>
     <string name="use_depend_only_in_edit_title">Kje uporabiti</string>
-    <string name="use_depend_only_in_edit_hint_true">Samo pri urejanju vnosa</string>
+    <string name="use_depend_only_in_edit_hint_true">Uporabi samo pri urejanju vnosa</string>
     <string name="use_depend_only_in_edit_hint_false">Pri urejanju in ogledu vnosa</string>
     <string name="most_viewed_templates">Najbolj gledano</string>
     <string name="featured_templates">Predstavljeno</string>
@@ -1235,7 +1235,7 @@ Pretvorim knjižnico v lokalno?</string>
     <string name="cant_add_yourself">Ne morete dodati sebe</string>
     <string name="remove_from_old_public">Pred nalaganjem knjižnice v oblak bo objava preklicana, če je bila objavljena po zastarelih metodah.</string>
     <string name="select_template_title">Izberi predlogo</string>
-    <string name="empty_library_title">Prazna knjižnica</string>
+    <string name="empty_library_title">Prični od začetka</string>
     <string name="catalog_templates_title">Spletni katalog</string>
     <string name="catalog_templates_hint">Več kot 3000 predlog</string>
     <string name="add_lib_from_google_drive_hint">Obnovitev iz Google Drive</string>
@@ -2144,5 +2144,19 @@ Ustvarite pravilo za prenos vnosov za preselitev v katero koli knjižnico.</stri
     <string name="type_desc_user">Uporabniško polje vam omogoča, da na seznamu vseh uporabnikov, s katerimi si delite knjižnico, izberete enega ali več uporabnikov.</string>
     <string name="field_copied_to_clipboard">%s kopirano v odložišče</string>
     <string name="max_number_of_users_limit_message">Izbereš lahko le %d uporabnikov</string>
+
+<string name="entries_view_type_kanban">Kanban</string>
+    <string name="staggered_grid">Zamaknjena mreža</string>
+    <string name="choose_google_account">Izberi Google račun</string>
+    <string name="selected_file_is_too_large">Izbrana datoteka je prevelika</string>
+
+    <string name="google_sheet_not_found">Povezan delovni list z id-jem %d ni bil najden.</string>
+    <string name="google_sheet_header_not_found">V tabeli Google Preglednice ni naslovne vrstice.</string>
+    <string name="google_sheet_id_column_not_found">V tabeli Google Preglednice ni ključne vrstice.</string>
+    <string name="google_sheet_new_link_text">Ta knjižnica po povezana na novo tabelo <b>%s</b> na Google Drive.</string>
+    <string name="google_sync_migration_to_v4">Ta knjižnica se sinhronizira po zastareli metodi.
+Za uporabo nove metode izvedite ponovno povezavo knjižnice na novo tabelo.
+Ali želite sedaj zagnati ponovno povezavo?</string>
+    <string name="enable_logging_sheets">Dnevniki Google Preglednic</string>
 
 </resources>
