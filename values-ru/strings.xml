@@ -143,7 +143,7 @@
     <string name="activation_ok">Спасибо за активацию Memento</string>
     <string name="activation_error">Код активации неверен. Пожалуйста, попробуйте снова.</string>
     <string name="about">О программе</string>
-    <string name="copyright">Copyright © 2018 LuckyDroid\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2020 MementoDB Inc.\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Посмотреть версию программы</string>
     <string name="about_license_type">Лицензия:</string>
@@ -195,7 +195,7 @@
     <string name="view_category">Вид</string>
     <string name="title_lib_theme_preference">Тема</string>
     <string name="summary_lib_theme_preference">Выбор темы для библиотек</string>
-    <string name="dialog_title_lib_theme_preference">&amp;gt;Выбор темы для библиотек</string>
+    <string name="dialog_title_lib_theme_preference">Выбор темы для библиотек</string>
     <!-- 1.2.3 -->
     <string name="deleted_library_hint">Записей: %s</string>
     <string name="preference_restore_libs_title">Восстановление библиотек</string>
@@ -337,7 +337,7 @@
     <string name="subscribed">Подписан</string>
     <string name="info_public_library">Адрес библиотеки</string>
     <string name="cant_public">Бесплатная версия позволяет опубликовать только три библиотеки.\nОбновитесь до PRO версии для снятия этого ограничения.</string>
-    <string name="cant_bind">Бесплатная версия позволяет связать с Google Sheets только три библиотеки.\nОбновитесь до PRO версии для снятия этого ограничения.</string>
+    <string name="cant_bind">Бесплатная версия позволяет связать с Google Sheets только две библиотеки. Обновитесь до PRO версии для снятия этого ограничения.</string>
     <string name="add_permission_user_hint">Введите логин или e-mail</string>
     <string name="edit_pub_permissions">Права доступа к библиотеке</string>
     <string name="edit_pub_permissions_hint">Редактирование списка пользователей имеющих доступ к библиотеки</string>
@@ -922,7 +922,6 @@
     <string name="string_list_import_error">Возникла ошибка при импорте: %s</string>
     <string name="something_wrong_dialog_title">Что-то не так</string>
     <plurals name="string_list_import_snackbar_ok">
-        <item quantity="zero">Импортировано 0 элементов</item>
         <item quantity="one">Импортирован %1$d элемент</item>
     	<item quantity="few">Импортировано %1$d элемента</item>
     	<item quantity="many">Импортировано %1$d элементов</item>       
@@ -952,14 +951,12 @@
     <string name="google_sync_without_memento_id_text">Данная библиотека синхронизируется с использованием старого метода, имеющего потенциальные ошибки.\nВыполните перепривязку библиотеки к новой таблице для использования нового метода.\nВыполнить перепривязку сейчаc?</string>
     <string name="rating_field_max_value">Максимальный рейтинг</string>
     <plurals name="rating_stars_count">
-        <item quantity="zero">%1$d звезд</item>
         <item quantity="one">%1$d звезда</item>
     	<item quantity="few">%1$d звезды</item>
     	<item quantity="many">%1$d звезд</item>       
         <item quantity="other">%1$d звезд</item>
      </plurals>
     <plurals name="delete_entries_snackbar_text">
-        <item quantity="zero"/>
         <item quantity="one">%1$d запись отправлена в корзину</item>
     	<item quantity="few">%1$d записи отправлены в корзину</item>
     	<item quantity="many">%1$d записей отправлено в корзину</item>       
@@ -1403,7 +1400,7 @@
     <string name="permission_storage_text">Для работы Memento требуется доступ к памяти устройства.</string>
     <string name="permission_storage_explanation_text">Доступ к памяти требуется для кэширования, резервного копирования и возможности прикрепления изображений и файлов к вашим записям.</string>
     <string name="permission_accounts_title">Аккаунты</string>
-    <string name="permission_accounts_text">Для синхронизации с Google Sheets и для типа поля "Контакты" требуется предоставить Memento доступ к аккаунтам.</string>
+    <string name="permission_accounts_text">Для синхронизации с Google Sheets требуется предоставить Memento доступ к аккаунтам.</string>
     <string name="permission_location_title">Местоположение</string>
     <string name="permission_location_text">Для типа поля "Местоположение" требуется предоставить Memento доступ к местоположению.</string>
     <string name="permission_not_necessarily">Это разрешение является не обязательным.</string>
@@ -1689,7 +1686,6 @@
     <string name="decrease">Уменьшить</string>
     <string name="frozen">Блокировка</string>
     <string name="frozen_text">Библиотека блокирована так как вы превысили лимит на количество загруженных в облако библиотек на вашем тарифном плане.</string>
-    <string name="time_accuracy_option"></string>
     <string name="date_and_time_formats">Форматы даты и времени</string>
     <string name="date_formats">Формат даты</string>
     <string name="time_formats">Формат времени</string>
@@ -1739,7 +1735,7 @@
     <string name="user_group_name_empty">Название группы не должно быть пустым</string>
     <string name="users_count_none">Нет пользователей</string>
     <plurals name="users_count">
-        <item quantity="one">Один пользователь</item>
+        <item quantity="one">%d пользователь</item>
         <item quantity="few">%d пользователя</item>
         <item quantity="many">%d пользователей</item>
         <item quantity="other">%d пользователей</item>
@@ -1766,7 +1762,7 @@
     <string name="entries_view_type_cards">Карточки</string>
     <string name="card_view_number_of_columns">Количество колонок</string>
     <plurals name="columns_count">
-        <item quantity="one">Одна колонка</item>
+        <item quantity="one">%d колонка</item>
         <item quantity="few">%d колонки</item>
         <item quantity="many">%d колонок</item>
         <item quantity="other">%d колонок</item>
@@ -1976,7 +1972,7 @@
     <string name="autofilll_source_not_supported">Извините, источник %s больше не поддерживается.</string>
     <string name="link_attributes_empty_text">Это поле не имеет атрибутов для связи.</string>
     <string name="cant_find_contact_selection_app">Извините, приложение для работы с контактами не найдено.</string>
-    <string name="library_item_not_found_dialog_message">Запись не найдена. ВОзможно эта запись была удалена.</string>
+    <string name="library_item_not_found_dialog_message">Запись не найдена. Возможно эта запись была удалена.</string>
 
     <!-- 4.4.5 -->
     <string name="license_key_tab">PRO Ключ</string>
@@ -2022,6 +2018,24 @@
     <string name="boolean_format_off">Метка для Нет</string>
     <string name="plans_comparison">Открыть сравнение тарифов</string>
 
+    <!-- 4.5.0 -->
+    <string name="revision_history">История изменений</string>
+    <string name="revision_current_version">Текущая версия</string>
+    <string name="revision_action_edit">%s изменил</string>
+    <string name="revision_action_create">%s создал запись</string>
+    <string name="revert_to_version">Возвратиться к этой версии</string>
+    <string name="revert_to_version_message">Вы действительно хотите вернуться к версии от %s ?</string>
+    <string name="revision_history_only_for_cloud">История изменений доступна только для библиотек загруженных в облако и только на PRO и TEAM тарифах.</string>
+    <string name="barcode_type_nfc">NFC</string>
+    <string name="pending_user">Ожидание...</string>
+    <string name="uom_category_userdefined">Пользовательская</string>
+    <string name="uom_custom_name">Название</string>
+    <string name="time_field_group_by_day_and_time">Группировать по дню и времени</string>
+
+    <string name="select_source_library_dialog_title">Выберите библиотеку из которой копировать данные</string>
+    <string name="select_source_library_dialog_hint">Выберите источник данных</string>
+    <string name="wiki">Wiki</string>
+
     <!-- 4.5.5 -->
     <string name="moby_source">mobygames.com</string>
     <string name="type_desc_color">Тип поля цвет позволяет хранить любой цвет в RGB формате.</string>
@@ -2046,5 +2060,153 @@
     <string name="end_year">Конец</string>
     <string name="years_range_wrong">Конец должен быть больше или равен началу</string>
 
+    <!-- 4.6.0 -->
+    <string name="orientation_portrait">Портретная</string>
+    <string name="orientation_landscape">Альбомная</string>
+    <string name="scale_mode">Режим подгонки</string>
+    <string name="scale_size">Масштаб</string>
+    <string name="pdf_scale_mode_crop">Обрезать</string>
+    <string name="pdf_scale_mode_expand">Расширять</string>
+    <string name="pdf_scale_mode_fit">Подстраивать</string>
+    <string name="workplace">Рабочее пространство</string>
+    <string name="share_filters">Поделиться фильтрами</string>
+    <string name="share_charts">Поделиться графиками</string>
+    <string name="shared_by">Доступно от %s</string>
+    <string name="share_workplace_limit">Извините, вы можете поделиться фильтрами и графиками только на Team-тафривах.</string>
+    <string name="bulk_action">Массовое действие</string>
+    <string name="action_context_bulk_actions">Меню массовых действий</string>
+    <string name="move_to">Перенести в...</string>
+    <string name="copy_to">Копировать в...</string>
+    <string name="move_to_no_libraries">Не удалось найти библиотеки совместимые с этой библиотекой.\nДля выполнения миграции в любую из библиотек - создайте правило перемещения записей.</string>
+    <string name="migrate">Миграция</string>
+    <string name="barcode_display_error">Извините, не удалось сгенерировать штрихкод из предоставленных данных.</string>
+    <string name="barcode_format">Формат штрихкода</string>
+    <string name="barcode_format_auto">Автоопределение</string>
+    <string name="orientation">Ориентация</string>
+    <string name="paper_size">Размер</string>
+
+    <string name="camera_permission_title">Камера</string>
+    <string name="camera_permission_required_text">Приложению требуется доступ к камере. Пожаулйста включите доступ к камере в системных настройках приложения.</string>
+    <string name="require_external_audio_app">Memento использует внешнее приложение для записи звука. Вы желаете установить его из Google Play?</string>
+
+
+    <!--4.6.5 -->
+    <string name="agree_terms_privacy">Создавая аккаунт вы соглашаетесь с <a href="https://mementodatabase.com#terms">Условиями пользования</a> и <a href="http://mementodatabase.com#privacy_policy">Политикой конфиденциальности</a>.</string>
+    <string name="enter_email_address_hint">Пожалуйста введите ваш email адрес</string>
+    <string name="duration_label_days">д</string>
+    <string name="duration_label_hours">ч</string>
+    <string name="duration_label_minutes">м</string>
+    <string name="duration_label_seconds">с</string>
+    <string name="duration_label_mseconds">мс</string>
+    <string name="duration_precision_option_title">Точность длительности</string>
+    <string name="duration_precision_min">Минимальная единица</string>
+    <string name="duration_precision_max">Максимальная единица</string>
+    <string name="duration_precision_wrong">Максимальная единица должна быть больше или равна Минимальной единице</string>
+    <plurals name="duration_ms">
+        <item quantity="one">%d мс</item>
+        <item quantity="few">%d мс</item>
+        <item quantity="many">%d мс</item>
+        <item quantity="other">%d мс</item>
+    </plurals>
+    <string name="duration_display_format_option_title">Формат длительности</string>
+    <string name="duration_display_format_short">Короткий</string>
+    <string name="duration_display_format_long">Длинный</string>
+    <string name="type_desc_duration">Поле типа Длительность может содержать значение промежутка времени в днях, часах, минутах, секундах и миллисекундах.</string>
+
+    <plurals name="after_entries_multiedit_message">
+        <item quantity="one">%d запись была изменена</item>
+        <item quantity="few">%d записи были изменены</item>
+        <item quantity="many">%d записей было изменено</item>
+        <item quantity="other">%d записей было изменено</item>
+    </plurals>
+
+    <string name="locals_js_libraries">Локальные</string>
+    <string name="js_libraries_add_url">Добавить URL</string>
+    <string name="js_file_url">Ссылка на JavaScript файл</string>
+    <string name="js_file_url_error">Укажите HTTP/HTTPS ссылку на JavaScript файл.</string>
+    <string name="js_file_url_not_found">Не удалось найти JavaScript файл по ссылке: %S</string>
+    <string name="image_capture_size">Размер изображения при фото</string>
+    <string name="image_capture_size_original">Оригинальный</string>
+    <string name="max_width">Макс ширина</string>
+    <string name="max_height">Макс высота</string>
+
+    <string name="speech_recognition_not_supported">Распознавание голоса не поддерживается</string>
+
+    <string name="templates_category_personal">Личные</string>
+    <string name="templates_category_collections">Коллекции и Хобби</string>
+    <string name="templates_category_business">Бизнес</string>
+    <string name="templates_category_healthy">Здоровье и Спорт</string>
+    <string name="templates_category_travel">Путешествия</string>
+    <string name="templates_category_edu">Образование</string>
+    <string name="board_games">Настольные игры</string>
+    <string translatable="false" name="bgg_source">boardgamegeek.com</string>
+    <string name="new_database">Новая база данных</string>
+
+    <!-- 4.6.6 -->
+    <string name="send_entries_too_large">Извините, выбранные записи имеют слишком большой объем и не могут быть отправлены в виде текста.</string>
+    <string name="request_button">Запрос</string>
+
+    <!-- 4.7.0 -->
+    <string name="edit_library_not_available">Редактирование структуры библиотеки доступно только для её владельца.</string>
+    <string name="menu">Меню</string>
+    <string name="period_this_year">Этот год</string>
+    <string name="number_filter_types_between">Между</string>
+    <string name="field_role_hidden">Скрытое поле</string>
+    <string name="field_role_hidden_short">скрытое</string>
+    <string name="export_hidden_fields">Экспортировать скрытые поля</string>
+    <string name="move_select_destination">Правила перемещения</string>
+    <string name="match_fields">Соответствие полей</string>
+    <string name="dest_fields">Поля назначения</string>
+    <string name="move_rules_empty">В этой библиотеке пока нет правил перемещения записей</string>
+
+    <string name="delete_move_rule_dialog_title">Удалить правило</string>
+    <string name="delete_move_rule_dialog_message">Вы действительно желаете удалить правило перемещения записей для \"%s\" ?</string>
+    <string name="no_field">Нет поля</string>
+    <string name="moving_entries">Перемещение записей. %d из %d.</string>
+    <string name="copying_entries2">Копирование записей. %d из %d.</string>
+    <plurals name="moving_entries_success">
+        <item quantity="one">%d запись была перемещена в библиотеку %s</item>
+        <item quantity="few">%d записи были перемещены в библиотеку %s</item>
+        <item quantity="many">%d записей были перемещены в библиотеку %s</item>
+        <item quantity="other">%d записей были перемещены в библиотеку %s</item>
+    </plurals>
+    <plurals name="copying_entries_success">
+        <item quantity="one">%d запись была скопированы в библиотеку %s</item>
+        <item quantity="few">%d записи были скопированы в библиотеку %s</item>
+        <item quantity="many">%d записей были скопированы в библиотеку %s</item>
+        <item quantity="other">%d записей были скопированы в библиотеку %s</item>
+    </plurals>
+
+    <string name="need_pro_for_move_entries">Перемещение или копирование записей в другую библиотеку доступно только в PRO версии программы.</string>
+    <string name="create_copy">Создавать копии</string>
+    <string name="move_or_copy">Переместить или Копировать</string>
+    <string name="duplicate">Дублировать</string>
+
+    <string name="buy_license_key_hint">Купить автономную PRO лицензию для Android</string>
+    <string name="flex_type_user">Пользователь</string>
+    <string name="select_user">Выберите пользователя</string>
+    <string name="select_user_empty_list">Больше нет пользователей доступных для выбора</string>
+    <string name="memento_full_name_hint">Полное имя</string>
+    <string name="not_set">Не задано</string>
+    <string name="objects_limit_option_title">Лимит</string>
+    <string name="max_number_of_users">Максимальное количество</string>
+    <string name="no_limit">Без лимита</string>
+    <string name="conditional_permission">Зависит от поля</string>
+    <string name="conditional_field_empty">Вы должны выбрать поле типа \"Пользователь\", которое будет предоставлять разрешение на операцию.</string>
+    <string name="conditional_permission_limit">Доступ по полю \"Пользователь\" может быть использован только на тарифах категории \"Команда\".</string>
+    <string name="filter_rule_is_one_of">Одно из</string>
+    <string name="filter_rule_is_not_one_of">Ни одно из</string>
+    <string name="send_email">Отправить письмо</string>
+    <string name="type_desc_user">Поле типа \"Пользователь\" позволяет выбрать одного или несколько пользователей, имеющих доступ к библиотеке.</string>
+    <string name="field_copied_to_clipboard">%s скопировано в буфер обмена</string>
+    <string name="max_number_of_users_limit_message">Вы можете выбрать только %d пользователей</string>
+
+    <!--4.7.3-->
+    <string name="google_sheet_not_found">Связанный с библиотекой лист не найден (%d)</string>
+    <string name="google_sheet_header_not_found">В таблице не найден заголовок с именами полей</string>
+    <string name="google_sheet_id_column_not_found">В таблице не найден ключевой столбец</string>
+    <string name="google_sheet_new_link_text"><![CDATA[Эта библиотека бдет связана с новой таблицей <b>%s</b> на Гугл Диске.]]></string>
+    <string name="google_sync_migration_to_v4">Эта библиотека синхронизируется с использованием устаревшего метода.\nВыполните перепривязку библиотеки для использования актуального метода синхронизации.\nВыполнить перепривязку сейчас?</string>
+    <string name="enable_logging_sheets">Лог Google Таблиц</string>
 </resources>
 

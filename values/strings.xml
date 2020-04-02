@@ -142,7 +142,7 @@
     <string name="activation_ok">Thank you for activation Memento</string>
     <string name="activation_error">Activation code is invalid. Please, try again.</string>
     <string name="about">About</string>
-    <string name="copyright">Copyright © 2019 LuckyDroid\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2020 MementoDB Inc.\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">View software version</string>
     <string name="about_license_type">License:</string>
@@ -1087,7 +1087,7 @@
     <!-- 3.1.2 -->
     <string name="icon_pack_title_files_types">Files</string>
     <string name="use_depend_only_in_edit_title">Where to use</string>
-    <string name="use_depend_only_in_edit_hint_true">Only when editing entry</string>
+    <string name="use_depend_only_in_edit_hint_true">Apply only when editing entry</string>
     <string name="use_depend_only_in_edit_hint_false">When editing and viewing entry</string>
     <!-- 3.2.0 -->
     <string name="most_viewed_templates">Most viewed</string>
@@ -1246,7 +1246,7 @@
     <string name="cant_add_yourself">You can\'t add yourself</string>
     <string name="remove_from_old_public">Prior to uploading the library to the cloud it will be unpublished if it was published by outdated methods.</string>
     <string name="select_template_title">Select template</string>
-    <string name="empty_library_title">Empty library</string>
+    <string name="empty_library_title">Start from scratch</string>
     <string name="catalog_templates_title">Online catalog</string>
     <string name="catalog_templates_hint">Over 3000 templates</string>
     <string name="add_lib_from_google_drive_hint">Restore from Google Drive</string>
@@ -2183,5 +2183,19 @@
     <string name="type_desc_user">The user field allows you to select one or more users from a list of all the users with whom your library is shared.</string>
     <string name="field_copied_to_clipboard">%s copied to clipboard</string>
     <string name="max_number_of_users_limit_message">You can choose only %d users</string>
+
+    <!--4.7.2-->
+    <string name="entries_view_type_kanban">Kanban</string>
+    <string name="staggered_grid">Staggered grid</string>
+    <string name="choose_google_account">Choose a Google Account</string>
+    <string name="selected_file_is_too_large">The selected file is too large</string>
+
+    <!--4.7.3-->
+    <string name="google_sheet_not_found">The linked worksheet with id %d is not found.</string>
+    <string name="google_sheet_header_not_found">There is no header row in the Google Sheet table.</string>
+    <string name="google_sheet_id_column_not_found">There is no key column in the Google Sheet table.</string>
+    <string name="google_sheet_new_link_text"><![CDATA[This library will be linked to a new table <b>%s</b> on Google Drive.]]></string>
+    <string name="google_sync_migration_to_v4">This library is synchronized using the deprecated method.\nPerform the rebinding of the library to the new table to use the new method.\nRun rebinding now?</string>
+    <string name="enable_logging_sheets">Google Sheets logs</string>
 
 </resources>
