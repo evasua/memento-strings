@@ -144,7 +144,8 @@
     <string name="activation_ok">Danke, dass Du Memento aktiviert hast</string>
     <string name="activation_error">Aktivierungsschlüssel ungültig. Bitte versuche es erneut.</string>
     <string name="about">Über</string>
-    <string name="copyright">Copyright © 2019 LuckyDroid\nAlle Rechte vorbehalten</string>
+    <string name="copyright">Copyright © 2020 MementoDB Inc.
+Alle Rechte vorbehalten</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Softwareversion anzeigen</string>
     <string name="about_license_type">Lizenz:</string>
