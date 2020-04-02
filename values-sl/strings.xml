@@ -122,7 +122,7 @@
     <string name="restore_dialog_message">Obstoječe knjižnice bodo med obnovitvijo zamenjane z knjižnicami iz varnostne kopije.
 Vse spremembe, izvedene v teh knjižnicah po ustvarjanju varnostne kopije, bodo izgubljene.
 Začnem z obnovo?</string>
-    <string name="backup_dialog_message">Ali želiš varnostno kopijo zamenjati z novo?</string>
+    <string name="backup_dialog_message">Želite varnostno kopijo zamenjati z novo?</string>
     <string name="restore_success">Knjižnice so bile uspešno obnovljene iz varnostne kopije</string>
     <string name="restore_step1">Obnova</string>
     <string name="restore_step2">Brisanje predpomnilnika</string>
@@ -132,14 +132,14 @@ Začnem z obnovo?</string>
     <string name="load_templates_message">Počakaj, da se najprej naložijo predloge knjižnice.</string>
     <string name="help_title">Memento pomoč</string>
     <string name="activate_button_title">Aktiviraj različico PRO</string>
-    <string name="activate_button_hint">Potreboval boš aktivacijski ključ</string>
+    <string name="activate_button_hint">Potrebovali boste aktivacijski ključ</string>
     <string name="activate_main_text">Nadgradi na različico PRO</string>
     <string name="activation_dialog_text_hint">Aktivacijska koda</string>
     <string name="activation_dialog_title">Nadgradi na različico PRO</string>
     <string name="activation_ok">Hvala da ste aktivirali Memento</string>
     <string name="activation_error">Aktivacijska koda ni veljavna. Prosim poskusi ponovno.</string>
     <string name="about">O programu</string>
-    <string name="copyright">Copyright © 2020 LuckyDroid
+    <string name="copyright">Copyright © 2020 MementoDB Inc.
 Vse pravice pridržane</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Prikaži različico programske opreme</string>
@@ -332,7 +332,7 @@ uporabnikovih knjižnic</string>
     <string name="unpublish_success">Objava knjižnice je bila preklicana</string>
     <string name="unpublic_message_text">Ali res želiš preklicati objavo knjižnice \"%s\"?</string>
     <string name="unbind_from_gdocs_hint">Prekini povezavo z Google preglednicami</string>
-    <string name="preference_category_google_docs">Google preglednice</string>
+    <string name="preference_category_google_docs">Google Preglednice</string>
     <string name="unbind_from_google_docs_success">Knjižnica ni več povezana z Google preglednicami</string>
     <string name="preference_category_memento_server">Memento strežnik</string>
     <string name="unpublic_library_hint">Preklic objave knjižnice</string>
@@ -939,11 +939,15 @@ Ali želite zagnati prevezavo zdaj?</string>
     <string name="rating_field_max_value">Najvišja ocena</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d zvezdica</item>
-	<item quantity="other">%d zvezdici</item>
+	<item quantity="two">%d zvezdici</item>
+	<item quantity="few">%d zvezdice</item>
+	<item quantity="other">%d zvezdic</item>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
 	<item quantity="one">%d vnos je bil premaknjen v koš</item>
-	<item quantity="other">%d vnosa sta bila premaknjena v koš</item>
+	<item quantity="two">%d vnosa sta bila premaknjena v koš</item>
+	<item quantity="few">%d vnosi so bili premaknjeni v koš</item>
+	<item quantity="other">%d vnosov je bilo premaknjenih v koš</item>
 </plurals>
     <string name="auto_fill_barcode_empty2">Primerjaj atribute izvornega in vnosnega polja za samodokončanje</string>
     <string name="barcode_rule_delete_title">Izbrišite pravilo</string>
@@ -1006,15 +1010,21 @@ Ali želite zagnati prevezavo zdaj?</string>
     <string name="scale">Obseg %d</string>
     <plurals name="duration_seconds">
 	<item quantity="one">1 sekunda</item>
-	<item quantity="other">%d sekundi</item>
+	<item quantity="two">%d sekundi</item>
+	<item quantity="few">%d sekunde</item>
+	<item quantity="other">%d sekund</item>
 </plurals>
     <plurals name="duration_minutes">
 	<item quantity="one">1 minuta</item>
-	<item quantity="other">%d minuti</item>
+	<item quantity="two">%d minuti</item>
+	<item quantity="few">%d minute</item>
+	<item quantity="other">%d minut</item>
 </plurals>
     <plurals name="duration_hours">
 	<item quantity="one">1 ura</item>
-	<item quantity="other">%d uri</item>
+	<item quantity="two">%d uri</item>
+	<item quantity="few">%d ure</item>
+	<item quantity="other">%d ur</item>
 </plurals>
     <plurals name="duration_days">
 	<item quantity="one">1 dan</item>
@@ -1081,20 +1091,28 @@ Ali želite zagnati prevezavo zdaj?</string>
     <string name="welcome_text_title">Dobrodošli v Memento podatkovni bazi</string>
     <string name="memento_cloud">Memento oblak</string>
     <plurals name="library_box_entries_count">
-	<item quantity="one">En vnos</item>
-	<item quantity="other">%d vnosa</item>
+	<item quantity="one">1 vnos</item>
+	<item quantity="two">%d vnosa</item>
+	<item quantity="few">%d vnosi</item>
+	<item quantity="other">%d vnosov</item>
 </plurals>
     <plurals name="fields_count">
 	<item quantity="one">Eno polje</item>
-	<item quantity="other">%d polji</item>
+	<item quantity="two">%d polji</item>
+	<item quantity="few">%d polja</item>
+	<item quantity="other">%d polj</item>
 </plurals>
     <plurals name="libraries_count">
 	<item quantity="one">Ena knjižnica</item>
-	<item quantity="other">%d knjižnici</item>
+	<item quantity="two">%d knjižnici</item>
+	<item quantity="few">%d knjižnice</item>
+	<item quantity="other">%d knjižnic</item>
 </plurals>
     <plurals name="string_list_import_snackbar_ok">
-	<item quantity="one">Uvoženo 0 predmetov</item>
-	<item quantity="other">Uvožena %d predmeta</item>
+	<item quantity="one">Uvoženih 0 predmetov</item>
+	<item quantity="two">Uvožena %d predmeta</item>
+	<item quantity="few">Uvožen1 %d predmeti</item>
+	<item quantity="other">Uvoženih %d predmetov</item>
 </plurals>
     <string name="welcome_text_description">Knjižnica je kraj kjer se bodo shranjevali vaši podati. Z Memento se lahko začnete seznanjati tako, da ustvarite knjižnico na podlagi ene od razpoložljivih predlog.</string>
 
@@ -1323,7 +1341,9 @@ Izbrišite lokalno kopijo knjižnice in jo nato ponovno prenesite iz oblaka.</st
     <string name="rating_tooltips_empty">Polje ne vsebuje namigov</string>
     <plurals name="rating_tooltips_count">
 	<item quantity="one">%d namig</item>
-	<item quantity="other">%d namiga</item>
+	<item quantity="two">%d namiga</item>
+	<item quantity="few">%d namigi</item>
+	<item quantity="other">%d namigov</item>
 </plurals>
     <string name="calculator">Kalkulator</string>
     <string name="calculator_options_hint">Dodaj gumb za prikaz kalkulatorja</string>
@@ -1347,7 +1367,9 @@ Izbrišite lokalno kopijo knjižnice in jo nato ponovno prenesite iz oblaka.</st
 
     <plurals name="notification_edit_library_common_text">
 	<item quantity="one">%d neprebrana sprememba</item>
-	<item quantity="other">%d neprebrani spremembi</item>
+	<item quantity="two">%d neprebrani spremembi</item>
+	<item quantity="few">%d neprebrane spremembe</item>
+	<item quantity="other">%d neprebranih sprememb</item>
 </plurals>
 
     <string name="notification_edit_library_create_text">dodan vnos</string>
@@ -1355,7 +1377,9 @@ Izbrišite lokalno kopijo knjižnice in jo nato ponovno prenesite iz oblaka.</st
     <string name="notification_edit_library_delete_text">izbrisani vnos</string>
     <plurals name="notification_comments_common_text">
 	<item quantity="one">%d nov komentar</item>
-	<item quantity="other">%d nova komentarja</item>
+	<item quantity="two">%d nova komentarja</item>
+	<item quantity="few">%d novi komentarji</item>
+	<item quantity="other">%d novih komentarjev</item>
 </plurals>
 
     <string name="flex_type_rich_text">Obogateno besedilo</string>
@@ -1449,7 +1473,7 @@ Izbrišite lokalno kopijo knjižnice in jo nato ponovno prenesite iz oblaka.</st
     <string name="memento_server_private_hint">host:port</string>
     <string name="memento_server_private_not_found">Zasebnega strežnika ni bilo mogoče najti na podanem naslovu</string>
     <string name="latitude_longitude">Zemljepisna širina/zemljepisna dolžina</string>
-    <string name="latitude_longitude_hint">Zemljepisna širina,zemljepisna dolžina</string>
+    <string name="latitude_longitude_hint">Zemljepisna širina, zemljepisna dolžina</string>
     <string name="latitude_longitude_parse_error">Ne morem razčleniti zemljepisne širine/zemljepisne dolžine</string>
     <string name="relation_type">Vrsta odnosa</string>
     <string name="relation_type_one_to_one">Eden do enega</string>
@@ -1464,7 +1488,9 @@ Izbrišite lokalno kopijo knjižnice in jo nato ponovno prenesite iz oblaka.</st
     <string name="no_comments">Brez komentarjev</string>
     <plurals name="comments_count">
 	<item quantity="one">En komentar</item>
-	<item quantity="other">%d komentarja</item>
+	<item quantity="two">%d komentarja</item>
+	<item quantity="few">%d komentarji</item>
+	<item quantity="other">%d komentarjev</item>
 </plurals>
     <string name="comments_only_for_cloud">Komentarji se lahko objavijo samo v knjižnicah, ki so bile naložene v oblak. Naložim knjižnico v oblak?</string>
     <string name="locale_plugin_add_edit_entry_title">Dodaj/uredi vnos</string>
@@ -1700,7 +1726,9 @@ Sprožilec je skript, ki določa obdelavo vnosa na podlagi dogodka, ki se je zgo
     <string name="users_count_none">Ni uporabnikov</string>
     <plurals name="users_count">
 	<item quantity="one">En uporabnik</item>
-	<item quantity="other">%d uporabnika</item>
+	<item quantity="two">%d uporabnika</item>
+	<item quantity="few">%d uporabniki</item>
+	<item quantity="other">%d uporabnikov</item>
 </plurals>
     <string name="user_group_delete_message">Ali res želiš izbrisati skupino \"%s\"?</string>
     <string name="group_not_found">Skupine ni mogoče najti</string>
@@ -1726,7 +1754,9 @@ Sprožilec je skript, ki določa obdelavo vnosa na podlagi dogodka, ki se je zgo
     <string name="card_view_number_of_columns">Število stolpcev</string>
     <plurals name="columns_count">
 	<item quantity="one">En stolpec</item>
-	<item quantity="other">%d stolpca</item>
+	<item quantity="two">%d stolpca</item>
+	<item quantity="few">%d stolpci</item>
+	<item quantity="other">%d stolpcev</item>
 </plurals>
 
     <string name="card_view_title_on_image">Prikaži besedilo čez sliko</string>
@@ -2070,7 +2100,9 @@ Ustvarite pravilo za prenos vnosov za preselitev v katero koli knjižnico.</stri
 
     <plurals name="after_entries_multiedit_message">
 	<item quantity="one">En vnos je bil urejen</item>
-	<item quantity="other">%d vnosa sta bila urejena</item>
+	<item quantity="two">%d vnosa sta bila urejena</item>
+	<item quantity="few">%d vnosi so bili urejeni</item>
+	<item quantity="other">%d vnosov je bilo urejenih</item>
 </plurals>
 
     <string name="locals_js_libraries">Lokalni</string>
@@ -2115,11 +2147,15 @@ Ustvarite pravilo za prenos vnosov za preselitev v katero koli knjižnico.</stri
     <string name="copying_entries2">Kopiranje vnosov. %d od %d.</string>
     <plurals name="moving_entries_success">
 	<item quantity="one">%d vnos je bil premaknjen v knjižnico %s</item>
-	<item quantity="other">%d vnosa sta bila premaknjena v knjižnico %s</item>
+	<item quantity="two">%d vnosa sta bila premaknjena v knjižnico %s</item>
+	<item quantity="few">%d vnosi so bili premaknjeni v knjižnico %s</item>
+	<item quantity="other">%d vnosov je bilo premaknjenih v knjižnico %s</item>
 </plurals>
     <plurals name="copying_entries_success">
 	<item quantity="one">%d vnos je bil skopiran v knjižnico %s</item>
-	<item quantity="other">%d vnosa sta bila skopirana v knjižnico %s</item>
+	<item quantity="two">%d vnosa sta bila skopirana v knjižnico %s</item>
+	<item quantity="few">%d vnosi so bili skopirani v knjižnico %s</item>
+	<item quantity="other">%d vnosov je bilo skopiranih v knjižnico %s</item>
 </plurals>
     <string name="need_pro_for_move_entries">Vnose je mogoče premakniti ali kopirati v drugo knjižnico samo v PRO različici programa.</string>
     <string name="create_copy">Ustvari kopijo</string>
