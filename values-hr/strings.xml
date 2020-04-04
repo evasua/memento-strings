@@ -73,9 +73,9 @@
     <string name="search_hint">Pretraživanje unosa</string>
     <string name="search_parse_exception_messagee">Nevažeći niz pretraživanja</string>
     <plurals name="NItemsFind">
-	<item quantity="one">Pronađen je 1 unos</item>
-	<item quantity="few">Upisi su pronađeni: <xliff:g id="COUNT"> 1%d</xliff:g> 2</item>
-	<item quantity="other">Upisi su pronađeni: <xliff:g id="COUNT"> 1%d</xliff:g> 2</item>
+	<item quantity="one">1 unos je pronađen</item>
+	<item quantity="few">Unosa pronađeno: <xliff:g id="COUNT">%d</xliff:g></item>
+	<item quantity="other">Unosa pronađeno: <xliff:g id="COUNT">%d</xliff:g></item>
 </plurals>
     <string name="memento_search">Memento traženje</string>
     <string name="memento_search_in_lib">Memento traženje u %s</string>
@@ -186,7 +186,7 @@ Redovi: %s</string>
 proizvod nije pronađen</string>
     <string name="add_entry_manual">Dodaj ručno...</string>
     <string name="fill_entry_manual">Unesite ručno ...</string>
-    <string name="flex_type_barcode">Barcode</string>
+    <string name="flex_type_barcode">Barkod</string>
     <string name="flex_type_barcode_option">Konfiguriranje automatskog dovršavanja polja</string>
     <string name="button_add_fill_field">Dodajte pravilo završetka</string>
     <string name="barcode_auto_fill_checkbox">Automatsko dovršavanje polja</string>
@@ -643,7 +643,7 @@ Poslali smo vam e-poštu koja će vam omogućiti da brzo i jednostavno resetirat
     <string name="auto_bakup_dir_pref_title">Mapa za automatsku izradu sigurnosnih kopija</string>
     <string name="google_play_not_found_message">Vaš uređaj nema Google Play. Možete preuzeti OI File Manager s web lokacije za razvojne programere.</string>
     <string name="library_not_found_dialog_title">Knjižnica</string>
-    <string name="library_not_found_dialog_message">Knjižica nije pronađena. Knjižica je možda uklonjena</string>
+    <string name="library_not_found_dialog_message">Knjižica nije pronađena. Knjižica je možda uklonjena.</string>
     <string name="add_field_above">Dodajte polje iznad</string>
     <string name="add_field_below">Dodajte polje u nastavku</string>
     <string name="year_default_now">Trenutna godina po zadanom</string>
@@ -793,7 +793,7 @@ sortiranje, grupiranje, filtri, grafikoni i još mnogo toga ...</string>
     <string name="chart_list_activity_title">Grafikon</string>
     <string name="chart_type_pie">Pita</string>
     <string name="chart_type_line">Crta</string>
-    <string name="chart_type_bar">Pregrada</string>
+    <string name="chart_type_bar">Stupac</string>
     <string name="chart_type_column">Kolumne</string>
     <string name="chart_type_area">Područje</string>
     <string name="chart_type_scatter">Raspršiti</string>
@@ -961,7 +961,7 @@ Pokreni ponovno vezanje?</string>
     <string name="rating_field_max_value">Maksimalna ocjena</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d zvijezdica</item>
-	<item quantity="few">%d zvijezdica</item>
+	<item quantity="few">%d zvijezdice</item>
 	<item quantity="other">%d zvijezdica</item>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
@@ -1156,7 +1156,7 @@ Knjižica će se automatski sinkronizirati.</string>
     <string name="megabyteShort">MB</string>
     <string name="gigabyteShort">GB</string>
     <string name="button_refresh">Osvježi</string>
-    <string name="cloud_storage_space_text" formatted="false">%s (%s) korištenog %s</string>
+    <string name="cloud_storage_space_text" formatted="false">%s (%s) od %s korištenog</string>
     <string name="start_download_file_from_cloud">Preuzet će se datoteka %s</string>
     <string name="upload_file_to_cloud">Prijenos datoteke...</string>
     <string name="upload_files_to_cloud">Prijenos datoteka</string>
@@ -1305,7 +1305,7 @@ Izbrišite lokalnu kopiju knjižnice, a potom je ponovo preuzmite iz oblaka.</st
     <string name="button_rate_now">Ocijeni sada</string>
     <string name="button_ask_later">Pitajte me kasnije</string>
     <string name="flex_type_radiobuttons">Radio gumbi</string>
-    <string name="flex_type_checkboxes">Checkboxes</string>
+    <string name="flex_type_checkboxes">Kućice</string>
     <string name="field_orientation_option_title">Orijentacija</string>
     <string name="field_orientation_option_horizontal">Vodoravan</string>
     <string name="field_orientation_option_vertical">Okomito</string>
@@ -1491,7 +1491,7 @@ Izbrišite lokalnu kopiju knjižnice, a potom je ponovo preuzmite iz oblaka.</st
     <string name="auto_lock_libraries_time_title">Zatvori pristup knjižnicama</string>
     <string name="auto_lock_libraries_after">Nakon %s</string>
 
-    <string name="empty_triggers_list_text">Ova knjižnica ne sadrži amtivacije.
+    <string name="empty_triggers_list_text">Ova knjižnica ne sadrži aktivacije.
 Aktivacija je skripta koja definira obradu unosa na temelju događaja koji se dogodio.</string>
     <string name="triggers">Aktivacije</string>
     <string name="trigger_name">Ime aktivacije</string>
@@ -1520,7 +1520,7 @@ Aktivacija je skripta koja definira obradu unosa na temelju događaja koji se do
     <string name="trigger_moment_before_show">Prije prikaza prozora</string>
     <string name="trigger_moment_after_show">Nakon prikaza prozora</string>
 
-    <string name="application">Primjena</string>
+    <string name="application">Aplikacija</string>
     <string name="debug">Otkloniti neispravnost</string>
     <string name="debug_summary">Opcije zapisivanja</string>
     <string name="log_files_folder">Dnevnik datoteka</string>
@@ -1558,7 +1558,7 @@ Aktivacija je skripta koja definira obradu unosa na temelju događaja koji se do
     <string name="uom_celsius">Celzius</string>
     <string name="uom_fahrenheit">Farenhajt</string>
     <string name="uom_kelvin">Kelvin</string>
-    <string name="uom_rankine">Rankine</string>
+    <string name="uom_rankine">Rankine ljestvica</string>
 
     <string name="uom_category_time">Vrijeme</string>
     <string name="uom_nanosecond">Nanosekunda</string>
@@ -1949,7 +1949,7 @@ Nadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
     <string name="pro_feature_3">Neograničen broj grafova</string>
     <string name="pro_feature_4">Neograničen broj skripti</string>
     <string name="pro_feature_5">Napredna pretraga</string>
-    <string name="pro_feature_6">Jedno unosno polje može sadržavati višestruki broj objekata (slike, datoteke, kontakti, koordinate itd.)</string>
+    <string name="pro_feature_6">Jedno unosno polje može sadržavati višestruki broj objekata (slike, datoteke, kontakti, koordinate itd.</string>
     <string name="pro_feature_7">Uređivanje više unosa</string>
     <string name="pro_feature_8">Prikladan widget za aplikacije</string>
     <string name="pro_license_activated">Licenca je aktivirana</string>
@@ -2160,7 +2160,7 @@ Izradite pravilo prijenosa unosa da biste se premjestili u bilo koju knjižnicu.
     <string name="google_sheet_not_found">Povezani radni list s ID %d nije pronađen.</string>
     <string name="google_sheet_header_not_found">U tablici Google Sheet nema retka zaglavlja.</string>
     <string name="google_sheet_id_column_not_found">U tablici Google Sheet ne postoji ključni stupac.</string>
-    <string name="google_sheet_new_link_text">Ova će knjižnica biti povezana s novom tablicom <b>%s</b> na Google disku</string>
+    <string name="google_sheet_new_link_text">Ova će knjižnica biti povezana s novom tablicom <b>%s</b> na Google disku.</string>
     <string name="google_sync_migration_to_v4">Ova se biblioteka sinkronizira pomoću zastarjele metode.
 Izvršite ponovno vezanje knjižice u novu tablicu da biste koristili novu metodu.
 Pokreni ponovno vezanje?</string>
