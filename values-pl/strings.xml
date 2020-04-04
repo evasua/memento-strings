@@ -146,7 +146,8 @@
     <string name="activation_ok">Dziękujemy za aktywację Memento</string>
     <string name="activation_error">Niepoprawny kod aktywacyjny. Spróbuj ponownie.</string>
     <string name="about">O aplikacji</string>
-    <string name="copyright">Prawo autorskie © 2019 LuckyDroid\nWszelkie prawa zastrzeżone</string>
+    <string name="copyright">Prawo autorskie © 2020 MementoDB Inc
+Wszelkie prawa zastrzeżone</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Sprawdzanie wersję aplikacji</string>
     <string name="about_license_type">Licencja:</string>
@@ -1085,7 +1086,7 @@
 </plurals>
     <string name="icon_pack_title_files_types">Pliki</string>
     <string name="use_depend_only_in_edit_title">Gdzie użyć</string>
-    <string name="use_depend_only_in_edit_hint_true">Tylko podczas edycji</string>
+    <string name="use_depend_only_in_edit_hint_true">Dostępne tylko podczas edycji</string>
     <string name="use_depend_only_in_edit_hint_false">Podczas edycji i przeglądania</string>
     
 <string name="most_viewed_templates">Najczęściej oglądane</string>    
@@ -1241,7 +1242,7 @@
 	<string name="cant_add_yourself">Nie możesz dodać siebie</string>
 	<string name="remove_from_old_public">"Mimo wysłania biblioteki w chmurę, nie zostanie ona opublikowana,  jeśli wcześniej została opublikowana przestarzałą metodą."</string>
 	<string name="select_template_title">Wybierz szablon</string>
-	<string name="empty_library_title">Pusta biblioteka</string>
+	<string name="empty_library_title">Zacznij od początku</string>
 	<string name="catalog_templates_title">Katalog on-line</string>
 	<string name="catalog_templates_hint">Ponad 3000 szablonów</string>
 	<string name="add_lib_from_google_drive_hint">Odtwarzanie z Google Drive</string>
@@ -1472,7 +1473,7 @@
     <string name="latitude_longitude">Długość i szerokość geograficzna</string>
     <string name="latitude_longitude_hint">długość,szerokość</string>
     <string name="latitude_longitude_parse_error">Nie można przeanalizować szerokości/długości geograficznej</string>
-    <string name="relation_type">Rodzaj związku</string>
+    <string name="relation_type">Rodzaj relacji</string>
     <string name="relation_type_one_to_one">Jeden do jeden</string>
     <string name="relation_type_one_to_many">Jeden do wielu</string>
     <string name="relation_type_many_to_many">Wiele do wielu</string>
@@ -2138,12 +2139,16 @@
     <string name="not_set">Nie ustawione</string>
     <string name="objects_limit_option_title">Ograniczenie</string>
 <plurals name="moving_entries_success">
-	<item quantity="one">Wpis %d został przeniesiony do biblioteki %s</item>
-	<item quantity="other">Wpisy %d zostały przeniesione do biblioteki %s</item>
+	<item quantity="one">%d wpis został przeniesiony do biblioteki %s</item>
+	<item quantity="few">%d wpisy zostały przeniesione do biblioteki %s</item>
+	<item quantity="many">%d wpisów zostało przeniesionych do biblioteki %s</item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="copying_entries_success">
 	<item quantity="one">%d wpis został skopiowany do biblioteki %s</item>
-	<item quantity="other">%d wpisy zostały skopiowane do biblioteki %s</item>
+	<item quantity="few">%d wpisy zostały skopiowane do biblioteki %s</item>
+	<item quantity="many">%d wpisów zostało skopiowanych do biblioteki %s</item>
+	<item quantity="other"></item>
 </plurals>
     <string name="max_number_of_users">Maks. ilość użytkowników</string>
     <string name="no_limit">Bez ograniczeń</string>
@@ -2156,5 +2161,18 @@
     <string name="type_desc_user">Pole Użytkownik pozwala wybrać jednego lub więcej użytkowników z listy wszystkich użytkowników, którym udostępniana jest twoja biblioteka.</string>
     <string name="field_copied_to_clipboard">%s skopiowano do schowka</string>
     <string name="max_number_of_users_limit_message">Możesz wybrać tylko %d użytkowników</string>
+
+<string name="staggered_grid">Przesunięcie siatki</string>
+    <string name="choose_google_account">Wybierz Logowanie Google</string>
+    <string name="selected_file_is_too_large">Wybrany plik jest zbyt duży</string>
+
+    <string name="google_sheet_not_found">Nie znaleziono połączonego arkusza %d.</string>
+    <string name="google_sheet_header_not_found">W tabeli Arkusza Google nie ma wiersza nagłówka.</string>
+    <string name="google_sheet_id_column_not_found">W tabeli Arkusza Google nie ma kolumny klucza.</string>
+    <string name="google_sheet_new_link_text">Ta biblioteka zostanie połączona z nową tabelą <b>%s</b> w Google Drive.</string>
+    <string name="google_sync_migration_to_v4">Ta biblioteka jest synchronizowana przy użyciu przestarzałej metody.
+Wykonaj ponowne wiązanie biblioteki z nową tabelą, aby użyć nowej metody.
+Uruchomić wiązanie teraz?</string>
+    <string name="enable_logging_sheets">Dzienniki Arkuszy Google</string>
 
 </resources>
