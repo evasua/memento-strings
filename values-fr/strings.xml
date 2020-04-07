@@ -1997,7 +1997,7 @@ Tout droits réservés</string>
     <string name="share_filters">Partager les filtres</string>
     <string name="share_charts">Partager les graphiques</string>
     <string name="shared_by">Partagé par %s</string>
-    <string name="share_workplace_limit">Désolé, le partage des graphiques et des filtres nécessitent un abonnement Équipe.</string>
+    <string name="share_workplace_limit">Désolé, le partage des graphiques et des filtres nécessite un abonnement Équipe.</string>
     <string name="bulk_action">Action par lot</string>
     <string name="action_context_bulk_actions">Menu des actions par lot</string>
     <string name="move_to">Déplacer vers...</string>
@@ -2121,7 +2121,7 @@ SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base
     <string name="google_sheet_header_not_found">Il n\'y a pas de ligne d\'en-tête dans le tableau Google Sheet.</string>
     <string name="google_sheet_id_column_not_found">Il n\'y a pas de colonne clé dans la table Google Sheet.</string>
     <string name="google_sheet_new_link_text">Cette base e va être rattachée à une nouvelle table <b>%s</b> sur Google Drive.</string>
-    <string name="google_sync_migration_to_v4">Cette base est synchronisée en utilisant une méthode dépréciée.
+    <string name="google_sync_migration_to_v4">Cette base est synchronisée en utilisant une méthode obsolète.
 Rattacher la base à une nouvelle table pour utiliser la nouvelle méthode.
 Exécuter le rattachement maintenant ?</string>
     <string name="enable_logging_sheets">Journaux Google Sheets</string>
