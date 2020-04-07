@@ -142,7 +142,7 @@
     <string name="activation_ok">Merci pour l\'activation de Memento</string>
     <string name="activation_error">Le code d\'activation est invalide. Merci de réessayer.</string>
     <string name="about">A propos</string>
-    <string name="copyright">Copyright © 2019 LuckyDroid
+    <string name="copyright">Copyright © 2020 MementoDB Inc.
 Tout droits réservés</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Version du logiciel</string>
@@ -469,7 +469,7 @@ Tout droits réservés</string>
     <string name="remove_encript_lib_dlg_msg">Supprimer les bases chiffrées</string>
     <string name="master_password_reset">Mot de passe maître réinitialisé</string>
     <string name="auto_show_soft_keyboard">Afficher le clavier logiciel</string>
-    <string name="use_depend_only_in_edit_hint_true">Uniquement à l\'édition d\'enregistrement</string>
+    <string name="use_depend_only_in_edit_hint_true">S\'applique uniquement à l\'édition d\'enregistrement</string>
     <string name="use_depend_only_in_edit_hint_false">En édition et en visualisation d\'enregistrement</string>
     
 <string name="db_location_pref_title">Emplacement des bases</string>
@@ -1210,7 +1210,7 @@ Tout droits réservés</string>
 
 		        	
     <string name="select_template_title">Choisir un modèle</string>
-	<string name="empty_library_title">Base vide</string>
+	<string name="empty_library_title">A partir de rien</string>
 	<string name="templates">Modèles</string>
 	<string name="import_template_from_file_hint">Importer un modèle depuis un fichier</string>
 	<string name="help_cloud">Stockage en nuage et Collaboration</string>
@@ -2111,5 +2111,19 @@ SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base
     <string name="type_desc_user">Le champ utilisateur vous permet de choisir un ou plusieurs utilisateurs de la liste de tous les utilisateurs qui partagent votre base.</string>
     <string name="field_copied_to_clipboard">%s copiés dans le presse-papier</string>
     <string name="max_number_of_users_limit_message">Vous ne pouvez choisir que %d utilisateurs</string>
+
+<string name="entries_view_type_kanban">Kanban</string>
+    <string name="staggered_grid">Grille échelonnée</string>
+    <string name="choose_google_account">Choisir un compte Google</string>
+    <string name="selected_file_is_too_large">Le fichier sélectionné est trop volumineux</string>
+
+    <string name="google_sheet_not_found">Le feuille de calcul avec id %d est introuvable.</string>
+    <string name="google_sheet_header_not_found">Il n\'y a pas de ligne d\'en-tête dans le tableau Google Sheet.</string>
+    <string name="google_sheet_id_column_not_found">Il n\'y a pas de colonne clé dans la table Google Sheet.</string>
+    <string name="google_sheet_new_link_text">Cette base e va être rattachée à une nouvelle table <b>%s</b> sur Google Drive.</string>
+    <string name="google_sync_migration_to_v4">Cette base est synchronisée en utilisant une méthode dépréciée.
+Rattacher la base à une nouvelle table pour utiliser la nouvelle méthode.
+Exécuter le rattachement maintenant ?</string>
+    <string name="enable_logging_sheets">Journaux Google Sheets</string>
 
 </resources>
