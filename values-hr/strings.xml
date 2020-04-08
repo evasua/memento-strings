@@ -73,7 +73,7 @@
     <string name="search_hint">Pretraživanje unosa</string>
     <string name="search_parse_exception_messagee">Nevažeći niz pretraživanja</string>
     <plurals name="NItemsFind">
-	<item quantity="one">1 unos je pronađen</item>
+	<item quantity="one">%d unos je pronađen</item>
 	<item quantity="few">Unosa pronađeno: <xliff:g id="COUNT">%d</xliff:g></item>
 	<item quantity="other">Unosa pronađeno: <xliff:g id="COUNT">%d</xliff:g></item>
 </plurals>
@@ -122,9 +122,7 @@
     <string name="restore_preference">Vratiti</string>
     <string name="restore_summary_preference">Obnavljanje knjižnica iz sigurnosne kopije</string>
     <string name="backup_file_not_found">Nije pronađena nijedna sigurnosna kopija.</string>
-    <string name="restore_dialog_message">Tijekom oporavka postojeće će se knjižnice zamijeniti knjižnicama iz sigurnosne kopije.
-Sve promjene izvršene u tim knjižnicama nakon izrade sigurnosne kopije bit će izgubljene.
-Započeti obnovu?</string>
+    <string name="restore_dialog_message">Tijekom oporavka postojeće će se knjižnice zamijeniti knjižnicama iz sigurnosne kopije.\nSve promjene izvršene u tim knjižnicama nakon izrade sigurnosne kopije bit će izgubljene.\nZapočeti obnovu?</string>
     <string name="backup_dialog_message">Zamijenite sigurnosnu kopiju novom?</string>
     <string name="restore_success">Knjižnice su uspješno obnovljene iz sigurnosne kopije</string>
     <string name="restore_step1">Vraćanje</string>
@@ -142,8 +140,7 @@ Započeti obnovu?</string>
     <string name="activation_ok">Hvala na aktiviranju Memento</string>
     <string name="activation_error">Aktivacijski kod nije važeći. Molim te pokušaj ponovno.</string>
     <string name="about">O proizvodu</string>
-    <string name="copyright">Autorsko pravo © 2020 MementoDB Inc.
-Sva prava pridržana</string>
+    <string name="copyright">Autorsko pravo © 2020 MementoDB Inc.\nSva prava pridržana</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Pogledajte inačicu softvera</string>
     <string name="about_license_type">Licenca:</string>
@@ -169,21 +166,18 @@ Sva prava pridržana</string>
     <string name="need_title_column_text">"Naziv stupca mora odgovarati nazivu polja za unos. "</string>
     <string name="csv_result_import_text">Unosi su uvezeni</string>
     <string name="csv_result_import_succes_items">Dodani unosi:</string>
-    <string name="csv_result_import_fail_items" formatted="false">Broj redaka s pogreškama: %s
-Redovi: %s</string>
+    <string name="csv_result_import_fail_items" formatted="false">Broj redaka s pogreškama: %s\nRedovi: %s</string>
     <string name="enter_csv_name_dialog_title">Izvezi u CSV</string>
     <string name="enter_csv_name_dialog_value_title">Unesite naziv CSV datoteke</string>
     <string name="enter_csv_name_dialog_value_hint">Naziv datoteke</string>
     <string name="export_success">Unosi su izvezeni u /sdcard/memento/%s</string>
-    <string name="export_error">Izvoz unosa nije uspio:
-%s</string>
+    <string name="export_error">Izvoz unosa nije uspio:\n%s</string>
     <string name="library_saved">Biblioteka je spremljena</string>
     <string name="library_created">Knjižnica je napravljena</string>
     <string name="msg_default_status">Umetnite barkod unutar pravokutnika tražila kako biste ga skenirali.</string>
     <string name="scan_library_item">Skenirajte barkod</string>
     <string name="search_product_title">Pretraživanje proizvoda pomoću barkoda ...</string>
-    <string name="empty_result_text">Oprosti,
-proizvod nije pronađen</string>
+    <string name="empty_result_text">Oprosti,\nproizvod nije pronađen</string>
     <string name="add_entry_manual">Dodaj ručno...</string>
     <string name="fill_entry_manual">Unesite ručno ...</string>
     <string name="flex_type_barcode">Barkod</string>
@@ -242,8 +236,7 @@ proizvod nije pronađen</string>
     <string name="copy_memento_to_gdocs">Unosi iz Memento</string>
     <string name="copy_gdocs_to_memento">Unosi iz Google tablica</string>
     <string name="edit_flex_title_disabled">Ovo se polje ne može preimenovati jer je knjižnica povezana s Google tablicama</string>
-    <string name="cant_bind">Besplatna verzija omogućuje povezivanje samo dvije knjižnice s Google tablicama.
-Nadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
+    <string name="cant_bind">Besplatna verzija omogućuje povezivanje samo dvije knjižnice s Google tablicama.\nNadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
     <string name="button_pro_version">PRO verzija</string>
     <string name="option_autofill_title">Samodovršetak</string>
     <string name="option_autofill_hint">Padajući popis mogućih vrijednosti iz drugih unosa</string>
@@ -257,8 +250,7 @@ Nadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
     <string name="picasa_send_image_step" formatted="false">Prijenos slika iz biblioteke u Picasu. %s od %s</string>
     <string name="public_library">Objavite knjižnicu</string>
     <string name="update_public_library">Ažurirajte izdanje</string>
-    <string name="memento_register_account_title">Stvaranje računa
-na poslužitelju Memento</string>
+    <string name="memento_register_account_title">Stvaranje računa\nna poslužitelju Memento</string>
     <string name="memento_register_account_text">Da biste mogli objavljivati knjižnice i pretplatiti se na njih, potreban je račun na poslužitelju Memento</string>
     <string name="memento_login_hint">Korisničko ime</string>
     <string name="memento_pass_hint">Lozinka</string>
@@ -283,8 +275,7 @@ na poslužitelju Memento</string>
     <string name="preference_memento_account_hint">Korisničko ime i zaporka za vaš Memento račun</string>
     <string name="public_library_task_auth">Autentifikacija na usluzi Memento</string>
     <string name="public_library_task_send_template">Prijenos predloška knjižnice</string>
-    <string name="public_library_task_send_items" formatted="false">Prijenos unosa u biblioteku.
-%s od %s</string>
+    <string name="public_library_task_send_items" formatted="false">Prijenos unosa u biblioteku.\n%s od %s</string>
     <string name="memento_not_support_template">Vaša verzija Mementoa je zastarjela, ažurirajte je</string>
     <string name="memento_not_found">Resurs nije pronađen</string>
     <string name="alias_hint">Unesite nadimak knjižnice</string>
@@ -303,10 +294,8 @@ na poslužitelju Memento</string>
     <string name="subscribe_activity_title">Pretplata na biblioteke</string>
     <string name="library_uri_hint">Adresa knjižice / korisničko ime</string>
     <string name="find_libraries_task_title">Pretraživanje biblioteke</string>
-    <string name="find_libraries_task_by_uri">Dobivanje knjižnice
-po toj adresi</string>
-    <string name="find_libraries_task_by_user">Dobivanje popisa
-s knjižnica korisnika</string>
+    <string name="find_libraries_task_by_uri">Dobivanje knjižnice\npo toj adresi</string>
+    <string name="find_libraries_task_by_user">Dobivanje popisa\ns knjižnica korisnika</string>
     <string name="libraries_list_result_header">Pronađene knjižnice</string>
     <string name="libraries_by_user_not_found">Navedeni korisnik nije pronađen ili nema knjižnica koje je korisnik objavio</string>
     <string name="library_not_found">Ovom se adresom ne može pronaći knjižnica</string>
@@ -315,8 +304,7 @@ s knjižnica korisnika</string>
     <string name="subscribe_button">Pretplati</string>
     <string name="subscribe_task_get_library">Dohvaćanje unosa u biblioteku</string>
     <string name="subscribe_task_create_library">Izrada knjižnice</string>
-    <string name="subscribe_task_save_library_task" formatted="false">Spremanje unosa.
-%s od %s</string>
+    <string name="subscribe_task_save_library_task" formatted="false">Spremanje unosa.\n%s od %s</string>
     <string name="subscribe_task_create_index">Izrada indeksa</string>
     <string name="subscribes_group_title">Pretplate</string>
     <string name="library_settings">Postavke</string>
@@ -346,8 +334,7 @@ s knjižnica korisnika</string>
     <string name="flex_image_load">Učitavanje slike ...</string>
     <string name="subscribed">Pretplaćen</string>
     <string name="info_public_library">Adresa knjižnice</string>
-    <string name="cant_public">Besplatna verzija omogućuje vam da objavite samo dvije knjižnice.
-Nadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
+    <string name="cant_public">Besplatna verzija omogućuje vam da objavite samo dvije knjižnice.\nNadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
     <string name="add_permission_user_hint">Unesite korisničko ime ili e-mail</string>
     <string name="edit_pub_permissions">Prava pristupa knjižnici</string>
     <string name="edit_pub_permissions_hint">Uređivanje popisa korisnika koji imaju pristup knjižnici</string>
@@ -392,8 +379,7 @@ Nadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
     <string name="help_subscribe">Pretplata na knjižice</string>
     <string name="lib_protection">Zaštita knjižnice</string>
     <string name="set_library_protection">Zaštita</string>
-    <string name="set_master_pass_text">Postavljanje glavne lozinke za pristup knjižnicama.
-Morat ćete unijeti ovu lozinku za pristup šifriranim knjižnicama.</string>
+    <string name="set_master_pass_text">Postavljanje glavne lozinke za pristup knjižnicama.\nMorat ćete unijeti ovu lozinku za pristup šifriranim knjižnicama.</string>
     <string name="master_pass_hint">Lozinka</string>
     <string name="master_pass_hint2">Ponovi lozinku</string>
     <string name="set_master_pass_dialog">Postavljanje glavne lozinke</string>
@@ -405,8 +391,7 @@ Morat ćete unijeti ovu lozinku za pristup šifriranim knjižnicama.</string>
     <string name="library_is_locked">Pristup šifriranim knjižnicama je zatvoren</string>
     <string name="library_pass_access_description">Za pristup ovoj knjižici morat ćete unijeti glavnu lozinku</string>
     <string name="library_encription_checkbox">Šifrirajte sadržaj</string>
-    <string name="library_encription_description">Nizna polja unosa šifrirat će se pomoću AES-a.
-Pretraživanje šifriranih unosa nije podržano.</string>
+    <string name="library_encription_description">Nizna polja unosa šifrirat će se pomoću AES-a.\nPretraživanje šifriranih unosa nije podržano.</string>
     <string name="set_library_protection_title">Šifriranje unosa</string>
     <string name="set_library_protection_message">Šifriranje unosa u knjižice ...</string>
     <string name="remove_library_protection">Uklonite zaštitu</string>
@@ -506,8 +491,7 @@ Pretraživanje šifriranih unosa nije podržano.</string>
     <string name="required_mark">potreban</string>
     <string name="reset_master_password">Ponovno postavite glavnu lozinku</string>
     <string name="reset_master_password_hint">Sve šifrirane knjižnice bit će uklonjene</string>
-    <string name="reset_master_quest">Želite li stvarno resetirati glavnu lozinku?
-Pažnja! Sve šifrirane knjižnice bit će uklonjene!</string>
+    <string name="reset_master_quest">Želite li stvarno resetirati glavnu lozinku?\nPažnja! Sve šifrirane knjižnice bit će uklonjene!</string>
     <string name="remove_encript_lib_dlg_msg">Izbrišite šifrirane knjižnice</string>
     <string name="master_password_reset">Poništavanje glavne lozinke</string>
     <string name="edit_entry_screen_preference">Uređivanje unosa</string>
@@ -520,8 +504,7 @@ Pažnja! Sve šifrirane knjižnice bit će uklonjene!</string>
     <string name="select_app">Odaberite aplikaciju</string>
     <string name="forum">Forum</string>
     <string name="autoincrement">Automatsko povećanje</string>
-    <string name="cant_protect">Besplatna verzija omogućuje vam zaštitu samo dvije knjižnice.
-Nadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
+    <string name="cant_protect">Besplatna verzija omogućuje vam zaštitu samo dvije knjižnice.\nNadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
     <string name="flex_edit_option_title">Gdje možete uređivati</string>
     <string name="flex_edit_option_default">Oblik uređivanja unosa</string>
     <string name="flex_edit_option_in_list">popis zapisa</string>
@@ -578,7 +561,7 @@ Nadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
     <string name="main_menu_add_lib_group">Dodajte knjižicu ili grupu</string>
     <string name="no_entries">Nema unosa</string>
     <plurals name="library_box_entries_count">
-	<item quantity="one">Jedan unos</item>
+	<item quantity="one">%d unos</item>
 	<item quantity="few">%d unosa</item>
 	<item quantity="other">%d unosa</item>
 </plurals>
@@ -627,12 +610,10 @@ Nadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
     <string name="request_pass_dialog_title">Promjena lozinke</string>
     <string name="request_pass_dialog_text">Unesite adresu e-pošte kako biste nam pomogli pronaći svoj Memento račun</string>
     <string name="request_pass_dialog_hint">E-mail adresa</string>
-    <string name="change_password_success">Provjerite svoju e-poštu
-Poslali smo vam e-poštu koja će vam omogućiti da brzo i jednostavno resetirate zaporku.</string>
+    <string name="change_password_success">Provjerite svoju e-poštu\nPoslali smo vam e-poštu koja će vam omogućiti da brzo i jednostavno resetirate zaporku.</string>
     <string name="tile_options_text">naslov</string>
     <string name="library_item_position_text" formatted="false">%d/%d</string>
-    <string name="search_in_protected_libraries">Traži u karticama zaštićenim lozinkom
-(osim kodiranih)</string>
+    <string name="search_in_protected_libraries">Traži u karticama zaštićenim lozinkom\n(osim kodiranih)</string>
     <string name="stat_result_type">Format rezultata</string>
     <string name="backup_file_name_title">Naziv datoteke sigurnosne kopije</string>
     <string name="backup_file_path_title">Mapa sigurnosne kopije</string>
@@ -660,7 +641,7 @@ Poslali smo vam e-poštu koja će vam omogućiti da brzo i jednostavno resetirat
     <string name="field_depends_activity_title">Ovisnosti</string>
     <string name="no_dependencies">nema ovisnosti</string>
     <plurals name="field_depends_count">
-	<item quantity="one">Jedna ovisnost</item>
+	<item quantity="one">%d ovisnost</item>
 	<item quantity="few">%d ovisnosti</item>
 	<item quantity="other">%d ovisnosti</item>
 </plurals>
@@ -728,8 +709,7 @@ Poslali smo vam e-poštu koja će vam omogućiti da brzo i jednostavno resetirat
     <string name="selected">%s odabrano</string>
     <string name="delete_template_from_google_drive_question">Želite li zaista izbrisati odabrane knjižice s Google diska?</string>
     <string name="delete_data_table_from_google_drive">Uklonite proračunske tablice podataka povezane s predlošcima</string>
-    <string name="lock_library_edit_message">Promjene u strukturi knjižnice su zaključane.
-Možete uključiti mogućnost uređivanja u postavkama ove biblioteke.</string>
+    <string name="lock_library_edit_message">Promjene u strukturi knjižnice su zaključane.\nMožete uključiti mogućnost uređivanja u postavkama ove biblioteke.</string>
     <string name="lock_edit_library_pref_title">Zaključaj strukturu</string>
     <string name="lock_edit_library_pref_summary_on">Promjena strukture knjižnice nije dopuštena</string>
     <string name="lock_edit_library_pref_summary_off">Promjena strukture knjižnice je dopuštena</string>
@@ -759,9 +739,7 @@ Možete uključiti mogućnost uređivanja u postavkama ove biblioteke.</string>
     <string name="group_by_subtitle">od %s</string>
     <string name="sort_asc">Uzlazno</string>
     <string name="sort_desc">Silazno</string>
-    <string name="sliding_hint_text">Prijeđite prstom s desna na lijevo
-za otvaranje naprednog izbornika -
-sortiranje, grupiranje, filtri, grafikoni i još mnogo toga ...</string>
+    <string name="sliding_hint_text">Prijeđite prstom s desna na lijevo\nza otvaranje naprednog izbornika -\nsortiranje, grupiranje, filtri, grafikoni i još mnogo toga ...</string>
     <string name="multy_sorting">Poredaj po više polja</string>
     <string name="new_button">novo</string>
     <string name="free_version_entry_page_limit">U besplatnoj verziji možete stvoriti samo dvije stranice. Nadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
@@ -883,20 +861,19 @@ sortiranje, grupiranje, filtri, grafikoni i još mnogo toga ...</string>
     <string name="show_update_time_on_tile">Vrijeme uređivanja</string>
     <string name="only_title_on_tile">Samo naziv knjižnice</string>
     <plurals name="fields_count">
-	<item quantity="one">Jedno polje</item>
+	<item quantity="one">%d polje</item>
 	<item quantity="few">%d polja</item>
 	<item quantity="other">%d polja</item>
 </plurals>
     <plurals name="libraries_count">
-	<item quantity="one">Jedna knjižica</item>
+	<item quantity="one">%d knjižica</item>
 	<item quantity="few">%d knjižica</item>
 	<item quantity="other">%d knjižica</item>
 </plurals>
     <string name="empty">Prazno</string>
     <string name="add_page">Dodaj stranicu</string>
     <string name="move_to_page">Pomicanje na stranicu</string>
-    <string name="empty_entry_page_text">Stranica je prazna
-Ovdje možete dodati polja ili popise zapisa.</string>
+    <string name="empty_entry_page_text">Stranica je prazna\nOvdje možete dodati polja ili popise zapisa.</string>
     <string name="empty_fields_list_text">U ovoj knjižici nema polja.</string>
     <string name="empty_aggregation_list_text">Ova biblioteka ne sadrži funkcije objedinjavanja.</string>
     <string name="empty_chart_list_text">Ova knjižica ne sadrži grafikone.</string>
@@ -908,8 +885,7 @@ Ovdje možete dodati polja ili popise zapisa.</string>
     <string name="string_edit_cap_options_sent">Na početku rečenice</string>
     <string name="string_edit_cap_options_wolds">Na početku svake riječi</string>
     <string name="string_edit_cap_options_all">Sva slova</string>
-    <string name="single_line_options_title">Jedna linija
-tekst polja</string>
+    <string name="single_line_options_title">Jedna linija\ntekst polja</string>
     <string name="main_field_options_tab_title">Glavni</string>
     <string name="string_list_items_tab_title">Predmeti</string>
     <string name="string_list_edit_item_title_hint">Naslov predmeta</string>
@@ -931,7 +907,8 @@ tekst polja</string>
     <string name="string_list_import_error">Došlo je do pogreške prilikom uvoza: %s</string>
     <string name="something_wrong_dialog_title">Nešto nije u redu</string>
     <plurals name="string_list_import_snackbar_ok">
-	<item quantity="one">Uvezeno 0 stavki</item>
+	<item quantity="one">Uvezeno %d stavki</item>
+        <item quantity="few">Uvezeno %d stavke</item>
 	<item quantity="other">Uvezeno %d stavke</item>
 </plurals>
     <string name="export_template_snackbar_ok">Predložak je izvezen</string>
@@ -955,9 +932,7 @@ tekst polja</string>
     <string name="csv_import_errors_count">Greške:</string>
     <string name="csv_import_error_item" formatted="false">Redak %d - %s</string>
     <string name="undo_button">Poništi</string>
-    <string name="google_sync_without_memento_id_text">Ova se knjižnica sinkronizira pomoću stare metode koja ima potencijalne pogreške.
-Izvršite ponovno vezanje knjižice u novu tablicu da biste koristili novu metodu.
-Pokreni ponovno vezanje?</string>
+    <string name="google_sync_without_memento_id_text">Ova se knjižnica sinkronizira pomoću stare metode koja ima potencijalne pogreške.\nIzvršite ponovno vezanje knjižice u novu tablicu da biste koristili novu metodu.\nPokreni ponovno vezanje?</string>
     <string name="rating_field_max_value">Maksimalna ocjena</string>
     <plurals name="rating_stars_count">
 	<item quantity="one">%d zvijezdica</item>
@@ -966,6 +941,7 @@ Pokreni ponovno vezanje?</string>
 </plurals>
     <plurals name="delete_entries_snackbar_text">
 	<item quantity="one">%d unos je premješten u otpad</item>
+    <item quantity="few">%d unosa je premješteno u otpad</item>
 	<item quantity="other">%d unosa je premješteno u otpad</item>
 </plurals>
     <string name="auto_fill_barcode_empty2">Usporedite atribute izvora automatskog dovršavanja i unosa</string>
@@ -1029,19 +1005,22 @@ Pokreni ponovno vezanje?</string>
     <string name="free_version_multi_field_limit">U besplatnoj verziji možete dodati samo dva elementa. Nadogradite na PRO verziju da biste uklonili ovo ograničenje.</string>
     <string name="scale">Ljestvica %d</string>
     <plurals name="duration_seconds">
-	<item quantity="one">1 sekunda</item>
+	<item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekunde</item>
 	<item quantity="other">%d sekunde</item>
 </plurals>
     <plurals name="duration_minutes">
-	<item quantity="one">1 minuta</item>
+	<item quantity="one">%d minuta</item>
+    <item quantity="few">%d minute</item>
 	<item quantity="other">%d minute</item>
 </plurals>
     <plurals name="duration_hours">
-	<item quantity="one">1 sat</item>
+	<item quantity="one">%d sat</item>
+        <item quantity="few">%d sata</item>
 	<item quantity="other">%d sata</item>
 </plurals>
     <plurals name="duration_days">
-	<item quantity="one">1 dan</item>
+	<item quantity="one">%d dan</item>
 	<item quantity="few">%d dana</item>
 	<item quantity="other">%d dana</item>
 </plurals>
@@ -1092,10 +1071,8 @@ Pokreni ponovno vezanje?</string>
     <string name="library_have_duplicates">U knjižnici su unosi sa sličnim imenima</string>
     <string name="library_have_duplicates2">Promijenite ili izbrišite duplikate za ispravan rad.</string>
     <string name="dont_show_anymore">Ne prikazuj se više</string>
-    <string name="need_make_slave_library_unique">Da biste sinkronizirali polja \"Veza na unos\", morate omogućiti kontrolu jedinstvenosti naziva unosa u knjižici na koju se veze odnose.
-Napraviti sada?</string>
-    <string name="need_make_slave_library_unique_import">Da biste uvezli polja \"Link na unos\", morate omogućiti kontrolu jedinstvenosti imena unosa u knjižici na koju se veze odnose.
-Napraviti sada?</string>
+    <string name="need_make_slave_library_unique">Da biste sinkronizirali polja \"Veza na unos\", morate omogućiti kontrolu jedinstvenosti naziva unosa u knjižici na koju se veze odnose.\nNapraviti sada?</string>
+    <string name="need_make_slave_library_unique_import">Da biste uvezli polja \"Link na unos\", morate omogućiti kontrolu jedinstvenosti imena unosa u knjižici na koju se veze odnose.\nNapraviti sada?</string>
     <string name="run_sync_slave_libraries_pref">Povezane knjižnice</string>
     <string name="run_sync_slave_libraries_summary">Prvo sinkronizirajte pridružene knjižnice</string>
     <string name="choice_type_add_button_in_edit_title">Dopusti stvaranje stavki dok se uređuje unos</string>
@@ -1109,11 +1086,9 @@ Napraviti sada?</string>
     <string name="start_remove_librarary_from_cloud">Brisanje knjižice...</string>
     <string name="success_remove_librarary_from_cloud">Knjižica je uspješno izbrisana iz oblaka</string>
     <string name="start_upload_library_to_cloud">Prijenos knjižnice...</string>
-    <string name="success_upload_library_to_cloud">Knjižnica je uspješno prenesena.
-Knjižnica će se automatski sinkronizirati.</string>
+    <string name="success_upload_library_to_cloud">Knjižnica je uspješno prenesena.\nKnjižnica će se automatski sinkronizirati.</string>
     <string name="success_upload_library_to_cloud2">Svoju knjižicu možete učiniti dostupnom drugim Memento korisnicima u postavkama pristupa.</string>
-    <string name="push_entries_to_cloud_message" formatted="false">Prijenos unosa
-Obrađeno je %s od %s unosa</string>
+    <string name="push_entries_to_cloud_message" formatted="false">Prijenos unosa\nObrađeno je %s od %s unosa</string>
     <string name="permissions">Dozvole</string>
     <string name="button_hide">sakriti</string>
     <string name="empty_cloud_libraries_list_text">Nemate prenesene knjižice</string>
@@ -1125,8 +1100,7 @@ Obrađeno je %s od %s unosa</string>
     <string name="download_library_hint">Stvorite lokalnu kopiju</string>
     <string name="pull_entries_from_cloud_message">Preuzimanje zapisa...</string>
     <string name="pull_entries_from_cloud_message2" formatted="false">Obrađeno je %s od %s unosa</string>
-    <string name="success_pull_library_from_cloud">Unosi se uspješno preuzimaju.
-Knjižica će se automatski sinkronizirati.</string>
+    <string name="success_pull_library_from_cloud">Unosi se uspješno preuzimaju.\nKnjižica će se automatski sinkronizirati.</string>
     <string name="cloud_conflict_fields_title">Sukobi</string>
     <string name="cloud_conflict_fix_button_title">Popraviti</string>
     <plurals name="conflict_count">
@@ -1161,8 +1135,7 @@ Knjižica će se automatski sinkronizirati.</string>
     <string name="upload_file_to_cloud">Prijenos datoteke...</string>
     <string name="upload_files_to_cloud">Prijenos datoteka</string>
     <string name="cloud_upload_error_title">Nismo mogli sinkronizirati ovu knjižicu</string>
-    <string name="upload_big_file_error" formatted="false">Unos %s sadrži veliku datoteku %s (%s).
-Maksimalna veličina datoteke je %s.</string>
+    <string name="upload_big_file_error" formatted="false">Unos %s sadrži veliku datoteku %s (%s).\nMaksimalna veličina datoteke je %s.</string>
     <string name="prepare_library_for_cloud">Knjižnica je u obradi...</string>
     <string name="download_files_from_cloud">Preuzimanje datoteka iz oblaka ...</string>
     <string name="cant_download_item_files_for_copy">Preuzimanje datoteka za stvaranje kopija nije uspjelo.</string>
@@ -1179,9 +1152,7 @@ Maksimalna veličina datoteke je %s.</string>
     <string name="only_owner_permission">Samo svoj</string>
     <string name="user_not_found">Korisnik nije pronađen</string>
     <string name="edit_permission">Postavke dijeljenja korisnika</string>
-    <string name="push_entry_error_text" formatted="false">Unos nije pohranjen u oblaku.
-Ime: %s
-Greške: %s</string>
+    <string name="push_entry_error_text" formatted="false">Unos nije pohranjen u oblaku.\nIme: %s\nGreške: %s</string>
     <string name="push_error_forbidden">Pristup odbijen</string>
     <string name="button_ignore">Zanemariti</string>
     <string name="button_try_again">Pokušajte ponovo</string>
@@ -1192,11 +1163,8 @@ Greške: %s</string>
     <string name="need_upload_to_cloud_slave_libraries">Molimo, prenesite podređene knjižice u oblak.</string>
     <string name="start_download_slave_library_model">Prijenos podređene knjižice %s</string>
     <string name="open_access_for_slave_libraries">Omogućite pristup čitanju podređenim knjižnicama</string>
-    <string name="cloud_storage_full_text">Nema dovoljno prostora u pohrani u oblaku.
-Možete nadograditi tarifni plan koji osigurava više prostora za pohranu.</string>
-    <string name="cloud_storage_full_text2" formatted="false">Nema dovoljno prostora u pohrani u oblaku.
-Potrebni su %s, a dostupni su %s.
-Možete nadograditi na tarifni plan koji osigurava više prostora za pohranu.</string>
+    <string name="cloud_storage_full_text">Nema dovoljno prostora u pohrani u oblaku.\nMožete nadograditi tarifni plan koji osigurava više prostora za pohranu.</string>
+    <string name="cloud_storage_full_text2" formatted="false">Nema dovoljno prostora u pohrani u oblaku.\nPotrebni su %s, a dostupni su %s.\nMožete nadograditi na tarifni plan koji osigurava više prostora za pohranu.</string>
     <string name="alien_cloud_storage_full_text">Vlasnik knjižnice nema dovoljno prostora za pohranu.</string>
     <string name="button_tarifs">Tarife</string>
     <string name="cloud_storage_plans">Planovi pretplate</string>
@@ -1215,8 +1183,7 @@ Možete nadograditi na tarifni plan koji osigurava više prostora za pohranu.</s
     <string name="cloud_file_while_not_upload">Datoteka još nije u oblaku</string>
     <string name="upload_ecrypted_libraries_dont_supported">Šifrirane biblioteke koje prenose u oblak privremeno su nedostupne.</string>
     <string name="button_signin">Prijavite se</string>
-    <string name="cloud_library_not_found">Knjižica nije pronađena u oblaku. Možda je izbrisana.
-Pretvoriti knjižicu u lokalno?</string>
+    <string name="cloud_library_not_found">Knjižica nije pronađena u oblaku. Možda je izbrisana.\nPretvoriti knjižicu u lokalno?</string>
     <string name="cloud_library_already_uploaded">Ova je knjižnica već prenesena u oblak.</string>
     <string name="library_alias_menu_item">Naslov</string>
     <string name="library_public_access">Javni pristup</string>
@@ -1229,9 +1196,9 @@ Pretvoriti knjižicu u lokalno?</string>
     <string name="library_not_found_by_uri">Knjižica nije pronađena</string>
     <string name="upload_to_cloud_offer_title">{cloud ready...}</string>
     <string name="upload_to_cloud_offer_text">• Timski rad
-• Sinkroniziraj na svim uređajima
-• Rezervne kopije uvijek su u oblaku
-• Povijest verzija</string>
+\n• Sinkroniziraj na svim uređajima
+\n• Rezervne kopije uvijek su u oblaku
+\n• Povijest verzija</string>
     <string name="button_no_thanks">Ne, hvala</string>
     <string name="button_upload">Učitaj</string>
 
@@ -1290,10 +1257,8 @@ Pretvoriti knjižicu u lokalno?</string>
 
     <string name="encryption_for_cloud_uploaded_library">Šifriranje knjižnice može se aktivirati samo prije prijenosa u oblak.</string>
     <string name="decryption_for_cloud_uploaded_library">Deaktiviranje enkripcije za prijenos u oblak knjižnice nije podržano. Prvo uklonite biblioteku iz oblaka.</string>
-    <string name="need_reload_library_from_cloud_encrypted">Kopije knjižice na oblaku bile su šifrirane.
-Izbrišite lokalnu kopiju knjižnice, a potom je ponovo preuzmite iz oblaka.</string>
-    <string name="need_reload_library_from_cloud_decrypted">Kopije knjižice u oblaku su dešifrirane.
-Izbrišite lokalnu kopiju knjižnice, a potom je ponovo preuzmite iz oblaka.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Kopije knjižice na oblaku bile su šifrirane.\nIzbrišite lokalnu kopiju knjižnice, a potom je ponovo preuzmite iz oblaka.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Kopije knjižice u oblaku su dešifrirane.\nIzbrišite lokalnu kopiju knjižnice, a potom je ponovo preuzmite iz oblaka.</string>
 
     <string name="render_pdf_menu_item">Spremi kao PDF</string>
     <string name="entry_saved_as_pdf_success">PDF je uspješno stvoren</string>
@@ -1472,7 +1437,7 @@ Izbrišite lokalnu kopiju knjižnice, a potom je ponovo preuzmite iz oblaka.</st
 
     <string name="no_comments">Bez komentara</string>
     <plurals name="comments_count">
-	<item quantity="one">jedan komentar</item>
+	<item quantity="one">%d komentar</item>
 	<item quantity="few">%d komentara</item>
 	<item quantity="other">%d komentara</item>
 </plurals>
@@ -1491,8 +1456,7 @@ Izbrišite lokalnu kopiju knjižnice, a potom je ponovo preuzmite iz oblaka.</st
     <string name="auto_lock_libraries_time_title">Zatvori pristup knjižnicama</string>
     <string name="auto_lock_libraries_after">Nakon %s</string>
 
-    <string name="empty_triggers_list_text">Ova knjižnica ne sadrži aktivacije.
-Aktivacija je skripta koja definira obradu unosa na temelju događaja koji se dogodio.</string>
+    <string name="empty_triggers_list_text">Ova knjižnica ne sadrži aktivacije.\nAktivacija je skripta koja definira obradu unosa na temelju događaja koji se dogodio.</string>
     <string name="triggers">Aktivacije</string>
     <string name="trigger_name">Ime aktivacije</string>
     <string name="trigger_event">Događaj</string>
@@ -1708,7 +1672,7 @@ Aktivacija je skripta koja definira obradu unosa na temelju događaja koji se do
     <string name="user_group_name_empty">Naziv grupe ne smije biti prazan</string>
     <string name="users_count_none">Nema korisnika</string>
     <plurals name="users_count">
-	<item quantity="one">Jedan korisnik</item>
+	<item quantity="one">%d korisnik</item>
 	<item quantity="few">%d korisnika</item>
 	<item quantity="other">%d korisnika</item>
 </plurals>
@@ -1735,7 +1699,7 @@ Aktivacija je skripta koja definira obradu unosa na temelju događaja koji se do
     <string name="entries_view_type_cards">Kartice</string>
     <string name="card_view_number_of_columns">Broj stupaca</string>
     <plurals name="columns_count">
-	<item quantity="one">Jedan stupac</item>
+	<item quantity="one">%d stupac</item>
 	<item quantity="few">%d stupca</item>
 	<item quantity="other">%d stupca</item>
 </plurals>
@@ -1807,8 +1771,7 @@ Aktivacija je skripta koja definira obradu unosa na temelju događaja koji se do
     <string name="script_cant_run_for_not_saved_library">Skriptu možete pokrenuti samo nakon spremanja knjižice.</string>
     <string name="autofill_script_source_key_title">Istaknite svojstvo objekta vraćeno u skriptu</string>
     <string name="test_js_data_source_query_hint">Niz upita</string>
-    <string name="test_js_data_source_query_result">Rezultat upita:
-%s</string>
+    <string name="test_js_data_source_query_result">Rezultat upita:\n%s</string>
     <string name="run">Pokreni</string>
     <string name="run_arguments">Pokrenite argumente</string>
     <string name="script_cant_set_permissions_for_not_saved_library">Dozvole za skriptu možete postaviti samo nakon spremanja knjižnice.</string>
@@ -1934,8 +1897,7 @@ Aktivacija je skripta koja definira obradu unosa na temelju događaja koji se do
     <string name="notification_channel_reminders">Podsjetnici</string>
     <string name="notification_channel_entries">Promjene u knjižnicama</string>
     <string name="notification_channel_files">Datoteke</string>
-    <string name="quick_filter_limit_message">Besplatna verzija omogućuje vam pretraživanje samo po pet polja.
-Nadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
+    <string name="quick_filter_limit_message">Besplatna verzija omogućuje vam pretraživanje samo po pet polja.\nNadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
     <string name="button_upgrade">Nadogradnja</string>
     <string name="autofilll_source_not_supported">Žao nam je, ali %s više nije podržan.</string>
     <string name="link_attributes_empty_text">Ovo polje nema značajke za veze.</string>
@@ -2014,8 +1976,7 @@ Nadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
     <string name="storage_permission_required_title">Trebate dopuštenje</string>
     <string name="storage_permission_required_text">Ova aplikacija treba dozvolu za pohranu. Možete ju odobriti u postavkama aplikacije.</string>
     <string name="got_to_system_settings">Idite na Postavke</string>
-    <string name="file_save_error">Nije moguće spremiti datoteku:
-%s</string>
+    <string name="file_save_error">Nije moguće spremiti datoteku:\n%s</string>
 
     <string name="years_range">Raspon godina u datumima</string>
     <string name="begin_year">Početi</string>
@@ -2038,8 +1999,7 @@ Nadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
     <string name="action_context_bulk_actions">Izbornik skupnih radnji</string>
     <string name="move_to">Premjesti u...</string>
     <string name="copy_to">Kopiraj u...</string>
-    <string name="move_to_no_libraries">Nije moguće pronaći knjižnice kompatibilne s trenutnom knjižicom.
-Izradite pravilo prijenosa unosa da biste se premjestili u bilo koju knjižnicu.</string>
+    <string name="move_to_no_libraries">Nije moguće pronaći knjižnice kompatibilne s trenutnom knjižicom.\nIzradite pravilo prijenosa unosa da biste se premjestili u bilo koju knjižnicu.</string>
     <string name="migrate">Migracija</string>
     <string name="barcode_display_error">Nažalost, od pruženih podataka nisam mogao kodirati barkod</string>
     <string name="barcode_format">Format barkoda</string>
@@ -2063,7 +2023,7 @@ Izradite pravilo prijenosa unosa da biste se premjestili u bilo koju knjižnicu.
     <string name="duration_precision_max">Maksimalna jedinica</string>
     <string name="duration_precision_wrong">Maksimalna jedinica mora biti veća od ili jednaka minimalnoj jedinici</string>
     <plurals name="duration_ms">
-	<item quantity="one">1 ms</item>
+	<item quantity="one">%d ms</item>
 	<item quantity="few">%d ms</item>
 	<item quantity="other">%d ms</item>
 </plurals>
@@ -2073,7 +2033,7 @@ Izradite pravilo prijenosa unosa da biste se premjestili u bilo koju knjižnicu.
     <string name="type_desc_duration">Polje Trajanje može sadržavati vrijednost koja se koristi za predstavljanje trajanja vremena izmjerenog u danima, satima, minutama, sekundama ili milisekundama.</string>
 
     <plurals name="after_entries_multiedit_message">
-	<item quantity="one">Jedan je unos uređen</item>
+	<item quantity="one">%d je unos uređen</item>
 	<item quantity="few">%d unosa su uređena</item>
 	<item quantity="other">%d unosa su uređena</item>
 </plurals>
@@ -2161,10 +2121,8 @@ Izradite pravilo prijenosa unosa da biste se premjestili u bilo koju knjižnicu.
     <string name="google_sheet_header_not_found">U tablici Google Sheet nema retka zaglavlja.</string>
     <string name="google_sheet_id_column_not_found">U tablici Google Sheet ne postoji ključni stupac.</string>
     <string name="google_sheet_new_link_text">Ova će knjižnica biti povezana s novom tablicom <b>%s</b> na Google disku.</string>
-    <string name="google_sync_migration_to_v4">Ova se biblioteka sinkronizira pomoću zastarjele metode.
-Izvršite ponovno vezanje knjižice u novu tablicu da biste koristili novu metodu.
-Pokreni ponovno vezanje?</string>
+    <string name="google_sync_migration_to_v4">Ova se biblioteka sinkronizira pomoću zastarjele metode.\nIzvršite ponovno vezanje knjižice u novu tablicu da biste koristili novu metodu.\nPokreni ponovno vezanje?</string>
     <string name="enable_logging_sheets">Zapisnici Google tablica</string>
 
-<string name="image_caption">Naslov</string>
+    <string name="image_caption">Naslov</string>
     </resources>
