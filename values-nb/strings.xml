@@ -144,7 +144,8 @@
     <string name="activation_ok">Takk for du har aktivisert Memento</string>
     <string name="activation_error">Aktiveringskoden er ugyldig. Vennligst, prøv igjen.</string>
     <string name="about">Om applikasjonen</string>
-    <string name="copyright">Copyright © 2019 LuckyDroid\nAlle rettigheter reservert</string>
+    <string name="copyright">Copyright © 2020 MementoDB Inc.
+Alle rettigheter reservert</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Vis programvareversjonen</string>
     <string name="about_license_type">Lisens:</string>
@@ -1075,7 +1076,7 @@
     <string name="library_group_view_type_icons">Ikoner</string>
     <string name="icon_pack_title_files_types">Filer</string>
     <string name="use_depend_only_in_edit_title">Brukes når</string>
-    <string name="use_depend_only_in_edit_hint_true">Bare ved redigering av oppføring</string>
+    <string name="use_depend_only_in_edit_hint_true">Brukes bare ved redigering av oppføring</string>
     <string name="use_depend_only_in_edit_hint_false">Ved redigering og visning av oppføring</string>
 	<string name="most_viewed_templates">Mest vist</string>    
 	<string name="featured_templates">Utvalgte</string>
@@ -1224,7 +1225,7 @@
 	<string name="cant_add_yourself">Du kan ikke legge til deg selv</string>
 	<string name="remove_from_old_public">Før du laster opp biblioteket til skyen vil det være upublisert hvis den ble utgitt av utdaterte metoder.</string>
 	<string name="select_template_title">Velg mal</string>
-	<string name="empty_library_title">Tomt bibliotek</string>
+	<string name="empty_library_title">Begynn fra start</string>
 	<string name="catalog_templates_title">Online katalog</string>
 	<string name="catalog_templates_hint">Over 3000 maler</string>
 	<string name="add_lib_from_google_drive_hint">Gjennopprett fra Google Drive</string>
@@ -2124,4 +2125,14 @@ Lag en oppføringsregel for å migrere til et hvilket som helst bibliotek.</stri
     <string name="max_number_of_users_limit_message">Du kan kun velge %d brukere</string>
 
 <string name="scale_mode">Endre størrelse</string>
-    </resources>
+    <string name="entries_view_type_kanban">Kanban</string>
+    <string name="staggered_grid">Forskjøvet rutenett</string>
+    <string name="choose_google_account">Velg en Google-konto</string>
+    <string name="selected_file_is_too_large">Valgt fil er for stor</string>
+
+    <string name="google_sheet_not_found">Det koblede regnearket med id %d ble ikke funnet.</string>
+    <string name="google_sheet_header_not_found">Det er ingen overskriftsrad i Google Regneark-tabellen.</string>
+    <string name="google_sheet_new_link_text">Dette biblioteket vil bli koblet til en ny tabell <b>1%s</b>2 på Google Disk.</string>
+    <string name="enable_logging_sheets">Google Regneark logger</string>
+
+</resources>

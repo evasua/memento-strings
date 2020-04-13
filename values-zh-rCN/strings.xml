@@ -142,10 +142,10 @@
     <string name="about">关于</string>
     <string name="copyright">版权所有 © 2019 LuckyDroid</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
-    <string name="about_hint">查看软件版本</string>
+    <string name="about_hint">查看软件版本 | 翻译人员建议，中国用户方便交流等，可加入QQ群号：290681197 (非官方)</string>
     <string name="about_license_type">许可协议：</string>
     <string name="pro_version">专业版</string>
-    <string name="send_library_item">分享到QQ（分享）</string>
+    <string name="send_library_item">发送</string>
     <string name="send_chooser_title">选择要分享的应用程序：</string>
     <string name="create_shortcut">创建快捷方式</string>
     <string name="app_name_library">Memento 库</string>
@@ -718,7 +718,7 @@
     <string name="record_error_dialog_message">对不起，但申请不到录音。</string>
     <string name="sync_error_dialog_title">同步误差</string>
     <string name="field_display_options_group">显示选项</string>
-    <string name="display_in_list_how">在列表中显示</string>
+    <string name="display_in_list_how">显示为</string>
     <string name="field_display_title_in_card">字段名</string>
     <string name="field_display_title_in_card_hint">显示卡片输入字段的名称</string>
     <string name="edit_library_tab_structure">结构</string>
@@ -906,7 +906,7 @@
     <string name="entries_icon_dialog_title">请选择作为的缩略图字段</string>
     <string name="string_list_export_menu_title">导出项目</string>
     <string name="string_list_import_menu_title">导入项目</string>
-    <string name="open_button">分享到QQ（或打开）</string>
+    <string name="open_button">打开</string>
     <string name="string_list_export_snackbar_ok">项目已导出</string>
     <string name="string_list_export_error">导出发生错误 %s</string>
     <string name="string_list_import_error">在导入时发生错误: %s</string>
@@ -929,7 +929,7 @@
     <string name="aggregation_delete_message">难道你真的要删除聚合“%s”吗？</string>
     <string name="aggregation_need_select_field_message">您必须为这个聚合函数选择一个字段</string>
     <string name="open_object_by_uri_error">无法打开对象：%s</string>
-    <string name="import_and_export_menu_item">导入和导出...</string>
+    <string name="import_and_export_menu_item">导入和导出</string>
     <string name="entries_export_snackbar_ok">导出成功</string>
     <string name="entries_import_result_dialog_title">导入项</string>
     <string name="csv_import_total_lines">处理的行：</string>
@@ -1356,7 +1356,7 @@
     <string name="permission_storage_text">要继续，给予Memento权限访问您的存储。</string>
     <string name="permission_storage_explanation_text">访问存储所需的高速缓存，备份和可用性，图片和文件附加到您的输入。</string>
     <string name="permission_accounts_title">帐户</string>
-    <string name="permission_accounts_text">需要memento帐户访问与谷歌表和对联系人字段类型同步。</string>
+    <string name="permission_accounts_text">必须授予Memento访问帐户的权限才能与Google表格同步。</string>
     <string name="permission_location_title">位置</string>
     <string name="permission_location_text">这是需要给予纪念品获取位置位置字段类型。</string>
     <string name="permission_not_necessarily">此权限不是必须的。</string>
@@ -1975,4 +1975,125 @@
     <string name="begin_year">开始</string>
     <string name="end_year">结束</string>
     <string name="years_range_wrong">年末必须大于或等于年份的开始</string>
+<string name="max_number_of_users">最大用户数</string>
+    <string name="no_limit">没有限制</string>
+    <string name="objects_limit_option_title">限制</string>
+    <string name="select_user">选择用户</string>
+    <string name="select_user_empty_list">没有更多用户可供选择</string>
+    <string name="flex_type_user">用户</string>
+    <string name="orientation_portrait">全名</string>
+    <string name="orientation_landscape">景观</string>
+    <string name="scale_mode">调整版型</string>
+    <string name="scale_size">规模</string>
+    <string name="pdf_scale_mode_crop">农作物</string>
+    <string name="pdf_scale_mode_expand">扩大</string>
+    <string name="pdf_scale_mode_fit">适合</string>
+    <string name="workplace">工作场所</string>
+    <string name="share_filters">分享过滤条件</string>
+    <string name="share_charts">分享图表</string>
+    <string name="shared_by">由 %s 共享</string>
+    <string name="share_workplace_limit">抱歉，您只能共享团队费率的图表或过滤器。</string>
+    <string name="bulk_action">批量动作</string>
+    <string name="action_context_bulk_actions">批量操作菜单</string>
+    <string name="move_to">移动...</string>
+    <string name="copy_to">复制到...</string>
+    <string name="move_to_no_libraries">找不到与当前库兼容的库。请创建条目转移规则以迁移到任何库。</string>
+    <string name="migrate">迁移</string>
+    <string name="barcode_display_error">抱歉，无法从提供的数据中编码条形码</string>
+    <string name="barcode_format">条码格式</string>
+    <string name="barcode_format_auto">自动侦测</string>
+    <string name="orientation">取向</string>
+    <string name="paper_size">纸张尺寸</string>
+    <string name="camera_permission_title">相机</string>
+    <string name="camera_permission_required_text">为了捕获图像，我们需要访问您的相机。转到设置以启用权限。</string>
+    <string name="require_external_audio_app">Memento使用外部音频录制应用程序。您要安装吗？</string>
+
+
+    <string name="agree_terms_privacy">Memento使用外部音频录制应用程序。您要安装吗？创建帐户即表示您同意Memento <a href="https://mementodatabase.com#terms">使用条款</a>和<a href="http://mementodatabase.com#privacy_policy">隐私政策</a>。</string>
+    <string name="enter_email_address_hint">请输入您的电子邮件地址</string>
+    <string name="duration_label_days">天</string>
+    <string name="duration_label_hours">小时</string>
+    <string name="duration_label_minutes">分钟</string>
+    <string name="duration_label_seconds">秒</string>
+    <string name="duration_label_mseconds">毫秒</string>
+    <string name="duration_precision_option_title">持续时间精度</string>
+    <string name="duration_precision_min">最小单位</string>
+    <string name="duration_precision_max">最大单位</string>
+    <string name="duration_precision_wrong">最大单位必须大于或等于最小单位</string>
+    <plurals name="duration_ms">
+	<item quantity="other">%d 毫秒</item>
+</plurals>
+    <string name="duration_display_format_option_title">持续时间格式</string>
+    <string name="duration_display_format_short">短</string>
+    <string name="duration_display_format_long">长</string>
+    <string name="type_desc_duration">持续时间字段可以包含一个值，该值用于表示以天，小时，分钟，秒或毫秒为单位的持续时间。</string>
+
+    <plurals name="after_entries_multiedit_message">
+	<item quantity="other">%d 条目已被编辑</item>
+</plurals>
+
+    <string name="locals_js_libraries">当地人</string>
+    <string name="js_libraries_add_url">添加网址</string>
+    <string name="js_file_url">JavaScript文件网址</string>
+    <string name="js_file_url_error">指定到JavaScript文件的HTTP / HTTPS链接。</string>
+    <string name="js_file_url_not_found">在以下URL找不到JavaScript文件： %S</string>
+    <string name="image_capture_size">图像拍摄尺寸</string>
+    <string name="image_capture_size_original">原版的</string>
+    <string name="max_width">最大宽度</string>
+    <string name="max_height">最大高度</string>
+    <string name="speech_recognition_not_supported">不支持语音识别</string>
+
+    <string name="templates_category_personal">个人</string>
+    <string name="templates_category_collections">馆藏</string>
+    <string name="templates_category_business">商业</string>
+    <string name="templates_category_healthy">健康与运动</string>
+    <string name="templates_category_travel">旅行</string>
+    <string name="templates_category_edu">教育</string>
+    <string name="board_games">棋盘游戏</string>
+    <string name="new_database">新资料库</string>
+
+    <string name="send_entries_too_large">抱歉，您无法将所有这些条目作为文本发送。数据过多。</string>
+    <string name="request_button">请求</string>
+
+    <string name="edit_library_not_available">只有所有者可以更改库的结构。</string>
+    <string name="menu">菜单</string>
+    <string name="period_this_year">今年</string>
+    <string name="number_filter_types_between">之间</string>
+    <string name="field_role_hidden">隐藏字段</string>
+    <string name="field_role_hidden_short">隐藏</string>
+    <string name="export_hidden_fields">导出隐藏字段</string>
+    <string name="move_select_destination">选择目的地</string>
+    <string name="match_fields">匹配字段</string>
+    <string name="dest_fields">目标字段</string>
+    <string name="move_rules_empty">该库中没有移动规则</string>
+
+    <string name="delete_move_rule_dialog_title">删除规则</string>
+    <string name="delete_move_rule_dialog_message">您确定要删除%s的移动规则吗？</string>
+    <string name="no_field">无字段</string>
+    <string name="moving_entries">移动条目。第 %d 个，共 %d 个。</string>
+    <string name="copying_entries2">复制条目。第 %d 个，共 %d 个。</string>
+    <plurals name="moving_entries_success">
+	<item quantity="other">%d 个条目已移至库 %s</item>
+</plurals>
+    <plurals name="copying_entries_success">
+	<item quantity="other">%d 条目已复制到库 %s</item>
+</plurals>
+    <string name="need_pro_for_move_entries">只能在程序的PRO版本中将条目移动或复制到另一个库。</string>
+    <string name="create_copy">建立副本</string>
+    <string name="move_or_copy">移动或复制</string>
+    <string name="duplicate">重复</string>
+
+    <string name="buy_license_key_hint">购买Android的独立PRO许可证</string>
+    <string name="memento_full_name_hint">全名</string>
+    <string name="not_set">没有设置</string>
+    <string name="conditional_permission">取决于字段</string>
+    <string name="conditional_field_empty">您应该选择用户字段，该字段将提供操作权限。</string>
+    <string name="conditional_permission_limit">用户字段的访问权限只能在团队费率上设置。</string>
+    <string name="filter_rule_is_one_of">是其中之一</string>
+    <string name="filter_rule_is_not_one_of">不是其中之一</string>
+    <string name="send_email">发送电子邮件</string>
+    <string name="type_desc_user">用户字段允许您从与您的库共享的所有用户的列表中选择一个或多个用户。</string>
+    <string name="field_copied_to_clipboard">%s 已复制到剪贴板</string>
+    <string name="max_number_of_users_limit_message">您只能选择 %d 个用户</string>
+
 </resources>
