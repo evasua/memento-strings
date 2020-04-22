@@ -142,7 +142,8 @@
     <string name="activation_ok">Gracias por activar Memento</string>
     <string name="activation_error">El código no es válido. Por favor, inténtalo de nuevo.</string>
     <string name="about">Acerca de</string>
-    <string name="copyright">Copyright © 2019 LuckyDroid\nTodos los derechos reservados</string>
+    <string name="copyright">Copyright © 2020 MementoDB Inc.
+Todos los derechos reservados</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Ver versión del software</string>
     <string name="about_license_type">Licencia:</string>
@@ -2127,5 +2128,15 @@ Por favor, crea una regla de transferencia de entradas para mover a cualquier bi
     <string name="type_desc_user">El campo de usuario te permite seleccionar uno o mas usuarios de la lista de usuarios con los que tu biblioteca está compartida.</string>
     <string name="field_copied_to_clipboard">%s copiado al portapapeles</string>
     <string name="max_number_of_users_limit_message">Sólo puedes elegir %d usuarios</string>
+
+<string name="scale_size">Escalar</string>
+    <string name="scale_mode">Adaptar al espacio</string>
+    <string name="workplace">Lugar de trabajo</string>
+    <string name="choose_google_account">Elige una cuenta de Google</string>
+    <string name="selected_file_is_too_large">El archivo seleccionado es demasiado grande</string>
+
+    <string name="google_sheet_header_not_found">No hay cabecera de fila en la tabla de la Hoja de cálculo de Google.</string>
+    <string name="google_sheet_new_link_text">"Esta biblioteca se vinculará a una nueva tabla  "<b>%s</b> en Google Drive</string>
+    <string name="enable_logging_sheets">Registros de Hojas de cálculo de Google</string>
 
 </resources>
