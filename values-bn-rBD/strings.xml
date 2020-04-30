@@ -139,7 +139,8 @@
     <string name="activation_ok">অ্যাক্টিভেশন করার জন্য আপনাকে ধন্যবাদ</string>
     <string name="activation_error">অ্যাক্টিভেশন কোডটি অবৈধ। অনুগ্রহপূর্বক আবার চেষ্টা করুন.</string>
     <string name="about">সম্পর্কিত</string>
-    <string name="copyright">কপিরাইট © 2019 LuckyDroid\nসর্বস্বত্ব সংরক্ষিত</string>
+    <string name="copyright">কপিরাইট © 2020 MementoDB Inc.
+সর্বস্বত্ব সংরক্ষিত</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">সফ্টওয়্যার ভার্সন দেখুন</string>
     <string name="about_license_type">লাইসেন্স:</string>
@@ -242,7 +243,7 @@
     <string name="capture_picture">ছবি ক্যাপচার করুন</string>
     <string name="please_wait">অনুগ্রহপূর্বক অপেক্ষা করুন...</string>
     <string name="public_library_title">লাইব্রেরি প্রকাশ করা হচ্ছে</string>
-    <string name="public_to_picasa_message">Picasa তে লাইব্রেরির ছবিসমূহ আপলোড করা হচ্ছে</string>
+    <string name="public_to_picasa_message">Google photos তে লাইব্রেরির ছবিসমূহ আপলোড করা হচ্ছে</string>
     <string name="public_to_picasa_create_album">প্রকাশিত লাইব্রেরির জন্য একটি Picasa অ্যালবাম তৈরি করা হচ্ছে</string>
     <string name="public_to_picasa_success">চিত্র Picasa এ আপলোড করা হয়েছে</string>
     <string name="picasa_task_step_auth">Picasa সার্ভিসে প্রমাণ করা হচ্ছে</string>
@@ -931,7 +932,7 @@
     <string name="aggregation_delete_message">আপনি কি সত্যিই সমষ্টি \"%s\" ডিলেট করতে চান?</string>
     <string name="aggregation_need_select_field_message">এই সমষ্টি ফাংশনের জন্য আপনাকে একটি ফিল্ড সিলেক্ট করতে হবে</string>
     <string name="open_object_by_uri_error">বস্তুটি খোলা যাবে না:%s</string>
-    <string name="import_and_export_menu_item">ইমপোর্ট এবং এক্সপোর্ট...</string>
+    <string name="import_and_export_menu_item">ইমপোর্ট এবং এক্সপোর্ট</string>
     <string name="entries_export_snackbar_ok">এন্ট্রিসমূহ সফলভাবে এক্সপোর্ট করা হয়েছে</string>
     <string name="entries_import_result_dialog_title">এন্ট্রি ইমপোর্ট করুন</string>
     <string name="csv_import_total_lines">প্রক্রিয়াকৃত সারি:</string>
@@ -1201,7 +1202,7 @@
 	<string name="cant_add_yourself">আপনি নিজেকে যোগ করতে পারবেন না</string>
 	<string name="remove_from_old_public">ক্লাউডে লাইব্রেরি আপলোড করার আগে এটি অপ্রকাশিত হবে যদি এটি পুরনো পদ্ধতি দ্বারা প্রকাশিত হয়।</string>
 	<string name="select_template_title">টেমপ্লেট সিলেক্ট করুন</string>
-	<string name="empty_library_title">খালি লাইব্রেরি</string>
+	<string name="empty_library_title">খালি লাইব্রেরি থেকে শুরু করুন</string>
 	<string name="catalog_templates_title">অনলাইন তালিকা</string>
 	<string name="catalog_templates_hint">3000 টিরও বেশি টেমপ্লেট</string>
 	<string name="add_lib_from_google_drive_hint">Google Drive থেকে পুনরুদ্ধার করুন</string>
@@ -1980,4 +1981,147 @@
     <string name="begin_year">শুরু</string>
     <string name="end_year">শেষ</string>
     <string name="years_range_wrong">বছরের শেষ অবশ্যই বছরের শুরু বা তার চেয়ে বড় হতে হবে</string>
-</resources>
+<string name="years_range">বছরের সীমা দিনের মাধ্যমে</string>
+    <string name="orientation_portrait">প্রতিকৃতি</string>
+    <string name="orientation_landscape">শোয়ানো</string>
+    <string name="scale_mode">ফিট মোডে আকার ঠিক করুন</string>
+    <string name="scale_size">দাঁড়িপাল্লা</string>
+    <string name="pdf_scale_mode_crop">কাটা</string>
+    <string name="pdf_scale_mode_expand">বাড়ানো</string>
+    <string name="pdf_scale_mode_fit">উপযুক্ত</string>
+    <string name="workplace">কাজের জায়গা</string>
+    <string name="share_filters">ফিল্টার শেয়ার করুন</string>
+    <string name="share_charts">ছক শেয়ার করুন</string>
+    <string name="shared_by">শেয়ার করেছে %s</string>
+    <string name="share_workplace_limit">দুঃখিত, চার্ট অথবা ফিল্টার আপনি শুধু টিম প্লেন শেয়ার করতে পারবেন।</string>
+    <string name="bulk_action">বড় কাজ</string>
+    <string name="action_context_bulk_actions">বড় কাজের তালিকা</string>
+    <string name="move_to">সরান....</string>
+    <string name="copy_to">কপি করুন...</string>
+    <string name="migrate">সরানো</string>
+    <string name="barcode_format">বারকোড ফরম্যাট</string>
+    <string name="barcode_format_auto">স্বংয়ক্রিতভাবে ঠিক করা</string>
+    <string name="orientation">ঘূর্ণন</string>
+    <string name="enable_logging_sheets">গুগল সিটের লগ</string>
+
+<string name="selected_file_is_too_large">বাছাইকৃত ফাইলটি অনেক বড়</string>
+
+    <string name="choose_google_account">গুগল এক্যাউন্ট বাছাই করুন</string>
+    <string name="send_email">ইমেইল পাঠান</string>
+    <string name="conditional_permission">ফিল্ডের উপর নির্ভরশীল</string>
+    <string name="no_limit">কোন সীমা নেই</string>
+    <string name="max_number_of_users">সর্বোচ্চ সংখ্যক ব্যবহারকারী</string>
+    <string name="objects_limit_option_title">সীমা</string>
+    <string name="not_set">ঠিক করা হয়নি</string>
+    <string name="memento_full_name_hint">পূর্ণনাম</string>
+    <string name="select_user">ব্যবহারকারী বাছাই করুন</string>
+    <string name="flex_type_user">ব্যবহারকারী</string>
+    <string name="duplicate">কপি</string>
+
+    <string name="move_or_copy">সরান অথবা কপি</string>
+    <string name="create_copy">কপি তৈরি করুন</string>
+    <string name="no_field">কোন ফিল্ড নেই</string>
+    <string name="delete_move_rule_dialog_title">নিয়ম মুছে ফেলুন</string>
+    <string name="match_fields">ফিল্ড মিলানো</string>
+    <string name="move_select_destination">গন্তব্যস্থান ঠিক করুন</string>
+    <string name="export_hidden_fields">লুকায়িত ফিল্ড এক্সপোর্ট করুন</string>
+    <string name="field_role_hidden_short">লুকায়িত</string>
+    <string name="field_role_hidden">লুকায়িত ফিল্ড</string>
+    <string name="number_filter_types_between">মধ্যে</string>
+    <string name="period_this_year">এই বছর</string>
+    <string name="menu">তালিকা</string>
+    <string name="request_button">অনুরোধ</string>
+
+    <string name="new_database">নতুন ডাটাবেজ</string>
+
+    <string name="board_games">বোর্ড গেম</string>
+    <string name="templates_category_edu">শিক্ষা</string>
+    <string name="templates_category_travel">ভ্রমণ</string>
+    <string name="templates_category_healthy">স্বাস্থ্য ও খেলাধুলা</string>
+    <string name="templates_category_business">ব্যবসা</string>
+    <string name="templates_category_collections">সংগ্রহ</string>
+    <string name="templates_category_personal">নিজস্ব</string>
+    <string name="max_height">সর্বোচ্চ উচ্চতা</string>
+    <string name="max_width">সর্বোচ্চ প্রস্থ</string>
+    <string name="image_capture_size_original">আসল</string>
+    <string name="image_capture_size">ছবি তোলার সাইজ</string>
+    <string name="js_libraries_add_url">URL যোগ করুন</string>
+    <string name="locals_js_libraries">স্থানীয়</string>
+    <string name="duration_display_format_long">দীর্ঘ</string>
+    <string name="duration_display_format_short">সংক্ষিপ্ত</string>
+    <string name="duration_display_format_option_title">ব্যাপ্তিকালের ফরম্যাট</string>
+    <string name="duration_precision_max">সর্বোচ্চ একক</string>
+    <string name="duration_precision_min">সর্বনিম্ন একক</string>
+    <string name="duration_precision_option_title">ব্যাপ্তিকালের নির্ভুলতা</string>
+    <string name="duration_label_mseconds">মিলিসেকেন্ড</string>
+    <string name="duration_label_seconds">সেকেন্ড</string>
+    <string name="duration_label_minutes">মিনিট</string>
+    <string name="duration_label_hours">ঘণ্টা</string>
+    <string name="duration_label_days">দিন</string>
+    <string name="enter_email_address_hint">দয়া করে আপনার ইমেইল ঠিকানা দিন</string>
+    <string name="paper_size">কাগজের মাপ</string>
+    <string name="camera_permission_title">ক্যামেরা</string>
+    <string name="js_file_url">জাভাস্কিপ্ট ফাইলের URL</string>
+    <string name="dest_fields">গন্তব্যস্থানের ফিল্ড</string>
+    <string name="move_to_no_libraries">বর্তমান লাইব্রেরির সাথে সামঞ্জস্যপূর্ণ লাইব্রেরি খুঁজে পাওয়া যায়নি।
+যেকোন লাইব্রেরিতে স্থানান্তর করতে দয়া করে একটি এন্ট্রি স্থানান্তর নিয়ম তৈরি করুন।</string>
+    <string name="barcode_display_error">দুঃখিত, সরবরাহিত ডেটা থেকে একটি বারকোড এনকোড করা যায়নি</string>
+    <string name="camera_permission_required_text">কোনও চিত্র ক্যাপচার করার জন্য, আমাদের আপনার ক্যামেরাটিতে অ্যাক্সেস দরকার। অনুমতি প্রদান করতে সেটিংসে যান।</string>
+    <string name="require_external_audio_app">Memento একটি বাহ্যিক অডিও রেকর্ডিং অ্যাপ্লিকেশন ব্যবহার করে। আপনি কি এটি ইনস্টল করতে চান?</string>
+
+
+    <string name="agree_terms_privacy">একটি অ্যাকাউন্ট তৈরি করে আপনি মেমেন্টো 
+<a href="https://mementodatedia.com#terms"> 1 ব্যবহারের শর্তাদি </a> 2 এবং 
+<a href="http: //mementodatedia.com#privacy_policy"> 3 গোপনীয়তা নীতি </a> 4.</string>
+    <string name="duration_precision_wrong">সর্বোচ্চ ইউনিট অবশ্যই ন্যূনতম ইউনিটের চেয়ে বড় বা সমান হতে হবে</string>
+    <plurals name="duration_ms">
+	<item quantity="one">১ মিলিসেকেন্ড</item>
+	<item quantity="other">%d মিলিসেকেন্ড</item>
+</plurals>
+    <string name="type_desc_duration">একটি স্থিতিকালীন ক্ষেত্রে এমন একটি মান থাকতে পারে যা দিন, ঘন্টা, মিনিট, সেকেন্ড বা মিলিসেকেন্ডে পরিমাপ করা সময়কাল উপস্থাপন করতে ব্যবহৃত হয়।</string>
+
+    <plurals name="after_entries_multiedit_message">
+	<item quantity="one">একটি এন্ট্রি সম্পাদনা করা হয়েছে</item>
+	<item quantity="other">%d এন্ট্রি সম্পাদনা করা হয়েছে</item>
+</plurals>
+
+    <string name="js_file_url_error">জাভাস্ক্রিপ্ট ফাইলে HTTP / HTTPS লিঙ্কটি নির্দিষ্ট করুন।</string>
+    <string name="js_file_url_not_found">এই URL এ জাভাস্ক্রিপ্ট ফাইল খুঁজে পাওয়া যায় নি: %S</string>
+    <string name="speech_recognition_not_supported">স্পিচ স্বীকৃতি সমর্থিত নয়</string>
+
+    <string name="send_entries_too_large">দুঃখিত, আপনি পাঠ্য হিসাবে এই সমস্ত এন্ট্রি প্রেরণ করতে পারবেন না। অনেক বেশি ডেটা আছে।</string>
+    <string name="edit_library_not_available">কেবল মালিকই লাইব্রেরির কাঠামো পরিবর্তন করতে পারবেন।</string>
+    <string name="move_rules_empty">এই লাইব্রেরিতে কোনও সরানোর নিয়ম নেই</string>
+
+    <string name="delete_move_rule_dialog_message">আপনি কি \"%s\" এ সরানো নিয়মটি মুছে ফেলার বিষয়ে নিশ্চিত?</string>
+    <string name="moving_entries">এন্ট্রিসমূহ সরানো হচ্ছে। %d এর %d।</string>
+    <string name="copying_entries2">এন্ট্রি কপি করা হচ্ছে। %d এর %d।</string>
+    <plurals name="moving_entries_success">
+	<item quantity="one">%d এন্ট্রি %s লাইব্রেরিতে পাঠানো হয়েছে</item>
+	<item quantity="other">%d এন্ট্রিসমূহ %s লাইব্রেরিতে পাঠানো হয়েছে</item>
+</plurals>
+    <plurals name="copying_entries_success">
+	<item quantity="one">%d এন্ট্রিটি %s লাইব্রেরিতে কপি করা হয়েছে</item>
+	<item quantity="other">%d এন্ট্রিসমূহ %s লাইব্রেরিতে কপি করা হয়েছে</item>
+</plurals>
+    <string name="need_pro_for_move_entries">প্রোগ্রামের কেবলমাত্র PRO সংস্করণে এন্ট্রিগুলি অন্য লাইব্রেরিতে স্থানান্তরিত বা কপি করা যায়।</string>
+    <string name="buy_license_key_hint">অ্যান্ড্রয়েডের জন্য একটি স্বতন্ত্র PRO লাইসেন্স কিনুন</string>
+    <string name="select_user_empty_list">নির্বাচন করার মতো আর কোনও ব্যবহারকারী নেই</string>
+    <string name="conditional_field_empty">আপনার \"ব্যবহারকারী\" ফিল্ড নির্বাচন করা উচিত যা অপারেশনের জন্য অনুমতি প্রদান করবে।</string>
+    <string name="conditional_permission_limit">কোনও \"ব্যবহারকারী\" ফিল্ডের মাধ্যমে অ্যাক্সেসের অধিকারগুলি কেবলমাত্র টিম টারিফে সেট করা যেতে পারে।</string>
+    <string name="filter_rule_is_one_of">এক</string>
+    <string name="filter_rule_is_not_one_of">এর একটিও নয়</string>
+    <string name="type_desc_user">ব্যবহারকারীর ফিল্ড আপনাকে আপনার লাইব্রেরি শেয়ার করা সমস্ত ব্যবহারকারীর তালিকা থেকে এক বা একাধিক ব্যবহারকারী নির্বাচন করতে দেয়।</string>
+    <string name="field_copied_to_clipboard">%s ক্লিপবোর্ডে অনুলিপি করা হয়েছে</string>
+    <string name="max_number_of_users_limit_message">আপনি কেবল %d ব্যবহারকারী বেছে নিতে পারেন</string>
+
+    <string name="entries_view_type_kanban">Kanban</string>
+    <string name="staggered_grid">স্তম্ভিত গ্রিড</string>
+    <string name="google_sheet_not_found">%d আইডির সাথে লিঙ্কযুক্ত ওয়ার্কশীট পাওয়া যায় নি।</string>
+    <string name="google_sheet_header_not_found">গুগল শিট টেবিলে কোনও শিরোনাম নেই।</string>
+    <string name="google_sheet_id_column_not_found">গুগল শিট টেবিলে কোনও কী কলাম নেই।</string>
+    <string name="google_sheet_new_link_text">এই লাইব্রেরিটি গুগল ড্রাইভে <b> 1%s </b> 2 একটি নতুন টেবিলের সাথে লিঙ্ক করা হবে।</string>
+    <string name="google_sync_migration_to_v4">অবজ্ঞাত পদ্ধতিটি ব্যবহার করে এই লাইব্রেরি সিঙ্ক্রোনাইজ করা হয়েছে।
+নতুন পদ্ধতিটি ব্যবহার করতে লাইব্রেরির রিবাইন্ডিং এ নতুন টেবিলটি করুন।
+এখন রিবাইন্ডিং চালাবেন?</string>
+    </resources>
