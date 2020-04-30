@@ -829,7 +829,7 @@
     <string name="need_internet_for_charts">Google চার্টসমূহের জন্য ইন্টারনেটের একটি সক্রিয় সংযোগ প্রয়োজন</string>
     <string name="download_image_from_google_photo_message">ছবিটি Google ফটো থেকে ডাউনলোড করা হচ্ছে ...</string>
     <string name="barcode_auto_fill_checkbox_hint_new">ওয়েব থেকে তথ্য প্রবেশ ফিল্ডসমূহতে প্রবেশ করা হবে</string>
-    <string name="google_base_field_new">উৎস থেকে অ্যাট্রিবিউট মান</string>
+    <string name="google_base_field_new">উৎস থেকে প্রাপ্ত মান</string>
     <string name="wrong_search_query_string_1">অনুসন্ধান প্রশ্ন \"-\" দিয়ে শুরু করতে পারে না</string>
     <string name="link_master_library_not_found">দুঃখিত, এই ফিল্ডের সাথে সংযুক্ত লাইব্রেরিটি পাওয়া যায় না</string>
     <string name="sync_with_google_drive_dont_support">আপনার Android Google Driveের সাথে সিঙ্ক্রোনাইজেশন সমর্থন করে না</string>
@@ -1090,7 +1090,8 @@
 	<string name="start_upload_library_to_cloud">লাইব্রেরি আপলোড হচ্ছে ...</string>	
 	<string name="success_upload_library_to_cloud">লাইব্রেরিটি সফলভাবে আপলোড করা হয়েছে।\nলাইব্রেরিটি স্বয়ংক্রিয়ভাবে সিঙ্ক্রোনাইজেশন করা হবে।</string>
 	<string name="success_upload_library_to_cloud2">আপনি অ্যাক্সেস সেটিংসে অন্যান্য Memento ব্যবহারকারীদের দ্বারা আপনার লাইব্রেরিটি অ্যাক্সেস করতে পারেন।</string>	
-	<string name="push_entries_to_cloud_message" formatted="false">এন্ট্রিসমূহ আপলোড\n%s এর%s এন্ট্রি প্রক্রিয়া</string>
+	<string name="push_entries_to_cloud_message" formatted="false">এন্ট্রিসমূহ আপলোড করা হচ্ছে
+%s এর %s এন্ট্রিসমূহ প্রক্রিয়াজাত করা হয়েছে</string>
 	<string name="permissions">পারমিশনস</string>
 	<string name="button_hide">লুকানো</string>	
 	<string name="empty_cloud_libraries_list_text">আপনার কোন আপলোড করা লাইব্রেরি নেই</string>
@@ -2115,7 +2116,7 @@
     <string name="field_copied_to_clipboard">%s ক্লিপবোর্ডে অনুলিপি করা হয়েছে</string>
     <string name="max_number_of_users_limit_message">আপনি কেবল %d ব্যবহারকারী বেছে নিতে পারেন</string>
 
-    <string name="entries_view_type_kanban">Kanban</string>
+    <string name="entries_view_type_kanban">সাইনবোর্ড</string>
     <string name="staggered_grid">স্তম্ভিত গ্রিড</string>
     <string name="google_sheet_not_found">%d আইডির সাথে লিঙ্কযুক্ত ওয়ার্কশীট পাওয়া যায় নি।</string>
     <string name="google_sheet_header_not_found">গুগল শিট টেবিলে কোনও শিরোনাম নেই।</string>
