@@ -1855,7 +1855,7 @@
     <string name="frozen_alien_text">The library is frozen , please contact with library owner (%s).</string>
     <string name="copy_field">Copy field</string>
     <string name="delete_reminder_dialog_text">Do you really want to delete the reminder?</string>
-    <string translatable="false" name="igdb_source">igdb.com</string>
+    <string name="igdb_source" translatable="false">igdb.com</string>
     <string name="games">Games</string>
     <string name="number_increment_delta_title">Increment/decrement buttons</string>
     <string name="number_increment_delta_value">Step size %s</string>
@@ -2127,7 +2127,7 @@
     <string name="templates_category_travel">Travel</string>
     <string name="templates_category_edu">Education</string>
     <string name="board_games">Board Games</string>
-    <string translatable="false" name="bgg_source">boardgamegeek.com</string>
+    <string name="bgg_source" translatable="false">boardgamegeek.com</string>
     <string name="new_database">New database</string>
 
     <!-- 4.6.6 -->
@@ -2198,4 +2198,56 @@
     <string name="google_sync_migration_to_v4">This library is synchronized using the deprecated method.\nPerform the rebinding of the library to the new table to use the new method.\nRun rebinding now?</string>
     <string name="enable_logging_sheets">Google Sheets logs</string>
 
+    <!--4.8.0-->
+    <string name="position_column_1">1st column</string>
+    <string name="position_column_2">2nd column</string>
+    <string name="position_column_3">3rd column</string>
+    <string name="position_column_auto">Auto</string>
+    <string name="copy_to_google_docs">Copy to Google Docs</string>
+    <string name="google_docs_select_template">Select template</string>
+
+    <string name="google_docs_templates_empty">There are no Google Docs templates in this library</string>
+    <string name="google_docs_task_create_document2">Creating a document</string>
+    <string name="google_docs_task_delete_document2">Deleting a document</string>
+    <string name="google_docs_task_step_auth2">Authenticating to the Docs service</string>
+    <string name="delete_google_docs_template_dialog_text">Do you really want to delete the template \"%s\"?</string>
+    <string name="generating_doc">Generating the document ...</string>
+    <string name="populating_table">Populating the table ...</string>
+    <string name="entry_has_been_copied_to_docs">The entry has been copied to Google Docs</string>
+    <string name="entries_has_been_copied_to_docs">The entries have been copied to Google Docs</string>
+    <string name="google_docs_out_folder_name">Folder name</string>
+    <string name="google_docs_out_folder_hint">Specify a folder that will contain output documents</string>
+    <string name="preparing_doc">Preparing entries ...</string>
+    <string name="google_docs_left_operations">In the Free and Lite versions, the number of operations is limited to %d per day, you have %d left.</string>
+    <string name="need_pro_for_google_docs">The free version allows you to copy only 10 entries per day.\nUpgrade to the PRO version to disable this limitation.</string>
+
+    <string name="user_field_current_by_default_title">Current user</string>
+
+    <string name="spotlight_create_library_by_template_title">Create a library</string>
+    <string name="spotlight_create_library_by_template_text">Tap \"Save\" to create a new library based on this template.</string>
+
+    <string name="spotlight_from_scratch_title">Start from scratch</string>
+    <string name="spotlight_from_scratch_text">Memento organizes your information into libraries. Library similar to worksheets in a spreadsheet.\nFirst, enter the name of your new library, select the icon and color for it.</string>
+    <string name="spotlight_from_scratch_fields_title">Fields</string>
+    <string name="spotlight_from_scratch_fields_text">On this tab, you can define fields for each entry in this library.\nA field is the equivalent of a column in a spreadsheet.</string>
+    <string name="spotlight_from_scratch_save_title">Save a structure</string>
+    <string name="spotlight_from_scratch_save_text">Once the fields are added, tap \"Save\" to start adding entries.</string>
+    <string name="spotlight_create_entry_title">Create an entry</string>
+    <string name="spotlight_create_entry_text">Tap \"+\" to create a first entry in this library.</string>
+    <string name="spotlight_library_menu_title">Our magic tools</string>
+    <string name="spotlight_library_menu_text">If you want to adjust sorting or filtering, change view to Table, Map or Calendar, add Charts or change a set of fields, tap here.</string>
+    <string name="spotlight_library_edit_title">Edit library</string>
+    <string name="spotlight_library_edit_text">You can change your Library anytime — add or edit fields.</string>
+    <string name="spotlight_library_edit_fields_title">Fields</string>
+    <string name="spotlight_library_edit_fields_text">A field is a holder for a unit of data, or value. Every field has a type, and a name. Fields may also have advanced parameters or display options.</string>
+    <string name="spotlight_library_aggregation_title">Aggregation</string>
+    <string name="spotlight_library_aggregation_text">Aggregation is a math function applied to all entries in Library by the selected field. It helps you to find the minimal, maximal or average value or the total sum.</string>
+
+    <string name="button_need_help">Need help?</string>
+    <string name="export_template_include_charts">Include charts</string>
+    <string name="sort_manually">Manually</string>
+    <string name="hide_column">Hide column</string>
+    <string name="add_group_field">Add group field</string>
+    <string name="add_another_group_field">Add another group field</string>
+    <string name="filter">Filter</string>
 </resources>

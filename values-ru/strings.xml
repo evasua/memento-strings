@@ -1569,7 +1569,7 @@
     <string name="need_pro_for_triggers">Бесплатная версия позволяет создать только один триггер.\nОбновитесь до PRO версии для снятия этого ограничения.</string>
     <string name="filters_tab">Вкладки...</string>
     <string name="filters_tab_dialog_title">Выберите фильтры для табов</string>
-    <string name="export_template_include_filters">Включить фильтры</string>
+    <string name="export_template_include_filters">Добавить фильтры</string>
 
     <string name="unit_of_measurement_enable">Добавить к полю единицу измерения</string>
     <string name="unit_of_measurement_none">Нет</string>
@@ -2208,5 +2208,56 @@
     <string name="google_sheet_new_link_text"><![CDATA[Эта библиотека бдет связана с новой таблицей <b>%s</b> на Гугл Диске.]]></string>
     <string name="google_sync_migration_to_v4">Эта библиотека синхронизируется с использованием устаревшего метода.\nВыполните перепривязку библиотеки для использования актуального метода синхронизации.\nВыполнить перепривязку сейчас?</string>
     <string name="enable_logging_sheets">Лог Google Таблиц</string>
+
+    <!--4.8.0-->
+    <string name="position_column_1">1-я колонка</string>
+    <string name="position_column_2">2-я колонка</string>
+    <string name="position_column_3">3-я колонка</string>
+    <string name="position_column_auto">Авто</string>
+    <string name="copy_to_google_docs">Скопировать в Google Docs</string>
+    <string name="google_docs_select_template">Выберите шаблон</string>
+
+    <string name="google_docs_templates_empty">В этой библиотеки пока нет шаблонов для копирования в Google Docs</string>
+    <string name="google_docs_task_create_document2">Создание документа</string>
+    <string name="google_docs_task_delete_document2">Удаление документа</string>
+    <string name="google_docs_task_step_auth2">Авторизация в Docs сервисе</string>
+    <string name="delete_google_docs_template_dialog_text">Вы действительно хотите удалить шаблон \"%s\"?</string>
+    <string name="generating_doc">Генерация документа ...</string>
+    <string name="populating_table">Заполнение таблицы ...</string>
+    <string name="entry_has_been_copied_to_docs">Запись была скопирована в Google Docs</string>
+    <string name="entries_has_been_copied_to_docs">Записи были скопированы в Google Docs</string>
+    <string name="google_docs_out_folder_name">Имя папки</string>
+    <string name="google_docs_out_folder_hint">Укажите папку которая будет содержать сгенерированные документы</string>
+    <string name="preparing_doc">Подготовка записей ...</string>
+    <string name="google_docs_left_operations">В бесплатной и Lite версиях приложения количество операций ограничено до %d за день, у вас осталось %d.</string>
+    <string name="need_pro_for_google_docs">Ваша версия приложения позволяет вам скопировать в Google Docs только 10 записей в день.\nОбновите приложение до PRO версии для снятия этого ограничения.</string>
+    <string name="user_field_current_by_default_title">Текущий пользователь</string>
+    <string name="spotlight_create_library_by_template_title">Создать библиотеку</string>
+    <string name="spotlight_create_library_by_template_text">Нажмите кнопку \'Сохранить\' для создания новой библиотеки по этому шаблону.</string>
+    <string name="spotlight_from_scratch_title">С чистого листа</string>
+    <string name="spotlight_from_scratch_text">Ваша информация в Мементо сохраняется в библиотеках. Библиотека похоже на таблицу.\nНачните создание своей библиотеки с названия, выберите иконку и цвет библиотеки.</string>
+    <string name="spotlight_from_scratch_fields_title">Поля</string>
+    <string name="spotlight_from_scratch_fields_text">Определите на этой вкладке набор полей который будет иметь каждая запись в этой бибилиотеке.\nПоле является эквивалентом столбца в таблице.</string>
+    <string name="spotlight_from_scratch_save_title">Сохранить структуру</string>
+    <string name="spotlight_from_scratch_save_text">После определения полей нажмите кнопку \'Сохранить\' и вы сможете создавать записи в этой библиотеке.</string>
+    <string name="spotlight_create_entry_title">Создать запись</string>
+    <string name="spotlight_create_entry_text">Нажмите кнопку \'+\' для создания вашей первой записи в этой библиотеке.</string>
+    <string name="spotlight_library_menu_title">Наши волшебные инструменты</string>
+    <string name="spotlight_library_menu_text">Вам сюда, если хотите настроить сортировку или фильтрацию записей; отобразить записи в таблице, на карте или в календаре; построить графики или изменить наборы полей в записях.</string>
+    <string name="spotlight_library_edit_title">Изменить библиотеку</string>
+    <string name="spotlight_library_edit_text">Вы в любой момент можете изменить структуру библиотеки - добавить новые поля или изменить существующие.</string>
+    <string name="spotlight_library_edit_fields_title">Поля</string>
+    <string name="spotlight_library_edit_fields_text">Поле хранит единицу информации. Каждое поле имеет тип и имя. Поля также могут иметь расширенные параметры или параметры отображения.</string>
+    <string name="spotlight_library_aggregation_title">Агрегация</string>
+    <string name="spotlight_library_aggregation_text">Агрегация - это математическая функция, применяемая ко всем записям в библиотеке по выбранному полю. Это поможет вам найти минимальное, максимальное или среднее значение или общую сумму.</string>
+
+    <string name="button_need_help">Нужна помощь?</string>
+    <string name="export_template_include_charts">Добавить графики</string>
+    <string name="sort_manually">Вручную</string>
+    <string name="hide_column">Скрыть столбец</string>
+    <string name="add_group_field">Добавить поле</string>
+    <string name="add_another_group_field">Добавить ещё поле</string>
+    <string name="filter">Фильтр</string>
+
 </resources>
 
