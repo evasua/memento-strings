@@ -2120,10 +2120,64 @@ SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base
     <string name="google_sheet_not_found">Le feuille de calcul avec id %d est introuvable.</string>
     <string name="google_sheet_header_not_found">Il n\'y a pas de ligne d\'en-tête dans le tableau Google Sheet.</string>
     <string name="google_sheet_id_column_not_found">Il n\'y a pas de colonne clé dans la table Google Sheet.</string>
-    <string name="google_sheet_new_link_text">Cette base e va être rattachée à une nouvelle table <b>%s</b> sur Google Drive.</string>
+    <string name="google_sheet_new_link_text">Cette base va être rattachée à une nouvelle table <b>%s</b> sur Google Drive.</string>
     <string name="google_sync_migration_to_v4">Cette base est synchronisée en utilisant une méthode obsolète.
 Rattacher la base à une nouvelle table pour utiliser la nouvelle méthode.
 Exécuter le rattachement maintenant ?</string>
     <string name="enable_logging_sheets">Journaux Google Sheets</string>
 
-</resources>
+<string name="position_column_1">1ère colonne</string>
+    <string name="position_column_2">2e colonne</string>
+    <string name="position_column_3">3e colonne</string>
+    <string name="position_column_auto">Auto</string>
+    <string name="copy_to_google_docs">Copier vers Google Docs</string>
+    <string name="google_docs_select_template">Sélectionner un modèle</string>
+
+    <string name="google_docs_templates_empty">Il n\'y pas de modèle Google Docs dans cette base</string>
+    <string name="google_docs_task_create_document2">Création d\'un document</string>
+    <string name="google_docs_task_delete_document2">Suppression d\'un document</string>
+    <string name="google_docs_task_step_auth2">Authentification au service Docs</string>
+    <string name="delete_google_docs_template_dialog_text">Voulez-vous vraiment supprimer le modèle \"%s\" ?</string>
+    <string name="generating_doc">Génération du document...</string>
+    <string name="populating_table">Remplissage de la table...</string>
+    <string name="entry_has_been_copied_to_docs">L\'enregistrement a été copié vers Google Docs</string>
+    <string name="entries_has_been_copied_to_docs">Les enregistrements ont été copiés vers Google Docs</string>
+    <string name="google_docs_out_folder_name">Nom du dossier</string>
+    <string name="google_docs_out_folder_hint">Indiquez un dossier qui contiendra les documents produits</string>
+    <string name="preparing_doc">Préparation des enregistrements...</string>
+    <string name="google_docs_left_operations">Dans les versions Free et Lite, le nombre d\'opérations est limité à %d par jour, il vous en reste %d.</string>
+    <string name="need_pro_for_google_docs">La version gratuite vous permet de copier un maximum de 10 enregistrements par jour.
+Passez à la version PRO pour lever cette limite.</string>
+
+    <string name="user_field_current_by_default_title">Utilisateur actuel</string>
+
+    <string name="spotlight_create_library_by_template_title">Créer une base</string>
+    <string name="spotlight_create_library_by_template_text">Taper \"Save\" pour créer une nouvelle base sur ce modèle.</string>
+
+    <string name="spotlight_from_scratch_title">Partir de rien</string>
+    <string name="spotlight_from_scratch_text">Memento organise vos informations en bases. Les bases sont identiques aux feuilles d\'un classeur de tableur.
+D\'abord, entrez le nom de votre base, sélectionnez un icône et une couleur associée.</string>
+    <string name="spotlight_from_scratch_fields_title">Champs</string>
+    <string name="spotlight_from_scratch_fields_text">Sur cet onglet, vous définissez les champs pour chaque enregistrement de la base.
+Un champ est l\'équivalent d\'une colonne de feuille de tableur.</string>
+    <string name="spotlight_from_scratch_save_title">Sauvegarder la structure</string>
+    <string name="spotlight_from_scratch_save_text">Une fois le champ ajouté, taper \"Save\" pour commencer à ajouter des enregistrements.</string>
+    <string name="spotlight_create_entry_title">Créer un enregistrement</string>
+    <string name="spotlight_create_entry_text">Cliquez sur \"+\" pour créer le premier enregistrement de la base.</string>
+    <string name="spotlight_library_menu_title">Nos outils magiques</string>
+    <string name="spotlight_library_edit_title">Modifier la base</string>
+    <string name="spotlight_library_edit_text">Vous pouvez modifier votre base à tout moment — ajouter ou modifier des champs.</string>
+    <string name="spotlight_library_edit_fields_title">Champs</string>
+    <string name="spotlight_library_aggregation_title">Agrégation</string>
+    <string name="button_need_help">Besoin d\'aide ?</string>
+    <string name="export_template_include_charts">Inclure des graphiques</string>
+    <string name="sort_manually">Manuellement</string>
+    <string name="hide_column">Masquer la colonne</string>
+    <string name="add_group_field">Ajouter un champ groupe</string>
+    <string name="add_another_group_field">Ajouter un autre champ groupe</string>
+    <string name="filter">Filtre</string>
+<string name="spotlight_library_menu_text">Pour ajuster le tri, le filtre, passer a une vue Table, Carte ou Calendrier, ajouter des graphiques ou modifier des champs, cliquez ici.</string>
+    <string name="spotlight_library_edit_fields_text">Un champ est le support d\'une unité de donnée, ou valeur. Chaque champ a un type et un nom. Les champs peuvent aussi comporter des paramètres avancés ou des options d\'affichage.</string>
+    <string name="spotlight_library_aggregation_text">L’agrégation est une fonction mathématique appliquée à tous les enregistrements de la base pour le champ sélectionné. Il vous aide à déterminer les valeurs minimales, maximales ou moyennes ou le total général.</string>
+
+    </resources>
