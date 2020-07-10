@@ -1839,4 +1839,345 @@ Tout droits réservés</string>
     <string name="type_desc_audio">Un champ Audio peut contenir des liens vers des fichiers audios.</string>
     <string name="type_desc_date">Un champ Date peut contenir une valeur utilisée pour représenter une date calendaire particulière.</string>
     <string name="type_desc_datetime">Un champ Date/Heure peut contenir une valeur utilisée pour représenter une date/heure particulière.</string>
-    <string name="type_d
+    <string name="type_desc_time">Un champ Heure peut contenir une valeur utilisée pour représenter une heure particulière de la journée.</string>
+    <string name="type_desc_boolean">Un champ Bouléen propose une case à cocher unique (valeurs oui/non).</string>
+    <string name="type_desc_money">Un champ Monnaie correspond à une devise et à un montant. La devise doit être choisie au moment de la définition du champ.</string>
+    <string name="type_desc_real">Un champ Nombre Réel contient des nombres avec ou sans décimales.</string>
+    <string name="type_desc_int">Un champ Entier contient des nombres entiers (sans décimales).</string>
+    <string name="type_desc_int_list">Un champ Liste d\'Entiers correspond à une liste d\'entiers prédéfinie dans laquelle un utilisateur peut en choisir un.</string>
+    <string name="type_desc_text">Un champ Texte peut contenir toute donnée textuelle.</string>
+    <string name="type_desc_phone">Un champ Téléphone peut contenir un numéro de téléphone sous forme textuelle.</string>
+    <string name="type_desc_url">Un champ Lien peut contenir un lien HTML au format texte.</string>
+    <string name="type_desc_email">Un champ Email peut contenir une adresse messagerie au format textuel.</string>
+    <string name="type_desc_barcode">Un champ Code-barres est utilisé pour numériser des code-barres ou des QR-codes.</string>
+    <string name="type_desc_pass">Un champ Mot de passe peut contenir tout type de texte. Les caractères du champ Mot de passe sont masqués (affichés par des astérisques).</string>
+    <string name="type_desc_rich">Un champ Texte riche peut contenir tout type de données textuelles, y compris des caractéristiques de format (gras, italique, etc.).</string>
+    <string name="type_desc_multiple_choice">Un champ Choix multiples contient un ensemble de chaines textuelles dans lequel un utilisateur peut sélectionner un ou plusieurs éléments.</string>
+    <string name="type_desc_checkboxes">Le champ Cases à cocher offre la sélection multiple dans une ou plusieurs cases à cocher.</string>
+    <string name="type_desc_single_choice">Le champ Liste à choix unique permet la sélection d\'un élément dans une liste de chaines textuelles.</string>
+    <string name="type_desc_radiobuttons">Le champ Boutons radio est utilisé pour sélectionner un élément dans un panel d\'options.</string>
+    <string name="type_desc_js">La valeur du champ sera le résultat de l\'exécution du script défini dans le champ et exécuter dans le contexte de l\'enregistrement.</string>
+    <string name="type_desc_calc">Un Champ calculé est utilisé pour afficher des valeurs résultant de calculs qui peuvent associer des valeurs d\'autres champs de l’enregistrement.</string>
+
+    <string name="wizard_complete_text1">Félicitations !</string>
+    <string name="wizard_complete_text2">Vous avez réussi à créer votre base de données.</string>
+    <string name="wizard_complete_text3">A tout moment, vous pouvez modifier la structure de votre base de données, ajouter des agrégats, des remplissages automatiques, des scripts, etc.</string>
+    <string name="close">Fermer</string>
+
+    <string name="wizard_field_display_options_title">Voulez-vous afficher les valeurs de ce champ dans la liste des enregistrements ?</string>
+    <string name="wizard_field_display_no">Non, merci</string>
+    <string name="wizard_field_display_name">Comme nom de l\'enregistrement</string>
+    <string name="wizard_field_display_thumb">Comme miniature de l\'enregistrement</string>
+    <string name="wizard_field_display_desc">Comme description de l\'enregistrement</string>
+    <string name="wizard_field_display_status">Comme statut de l\'enregistrement</string>
+    <string name="attributes">Attributs</string>
+    <string name="select_attribute_type">Type d\'attribut</string>
+    <string name="create_attribute">Créer un attribut</string>
+    <string name="edit_attribute">Editer un attribut</string>
+    <string name="attribute_name">Nom de l\'attribut</string>
+    <string name="required_attribute_text">L\'attribut doit être rempli</string>
+
+    <string name="attribute_display_title_in_card">Le nom de l\'attribut</string>
+    <string name="attribute_delete_message_text">Voulez-vous vraiment supprimer l\'attribut \"%s\" ?</string>
+    <string name="free_version_attributes_limit">Version gratuite : vous pouvez ajouter un seul attribut. Actualiser vers la version PRO pour lever cette restriction.</string>
+    <string name="trigger_event_link_entry">Lier un enregistrement</string>
+    <string name="trigger_event_unlink_entry">Délier un enregistrement</string>
+    <string name="script_cant_run_links_not_exists">Le script ne peut être exécuté, aucun lien existant vers cette base.</string>
+    <string name="all_searchable_fields">Tous les champs accessibles en recherche</string>
+    <string name="search_by_specified_fields">Champs spécifiés</string>
+    <string name="script_error_message">Erreur de script : %s</string>
+    <string name="advanced_search">Recherche avancée</string>
+    <string name="quick_filter_for_numbers">Pour les nombres</string>
+    <string name="quick_filter_for_text">Pour le texte</string>
+    <string name="save_as_filter">Enregistrer comme filtre</string>
+    <string name="save_as_filter_success">Vous avez créé un nouveau filtre avec succès</string>
+    <string name="shortcut_not_supported">Malheureusement votre lanceur n\'accepte pas les raccourcis de l\'application.</string>
+    <string name="notification_channel_entries">Modifications dans les bases</string>
+    <string name="notification_channel_files">Fichiers</string>
+    <string name="quick_filter_limit_message">La version gratuite n\'autorise que 5 champs de recherche. Actualisez vers la version PRO pour supprimer cette limitation.</string>
+    <string name="button_upgrade">Passer à une version supérieure</string>
+    <string name="autofilll_source_not_supported">Désolé, mais %s n\'est plus supporté.</string>
+    <string name="entry_name_and_description">Nom de l\'enregistrement et description</string>
+    <string name="search_settings_quick">Recherche rapide dans</string>
+    <string name="index_not_found_message">Recherche impossible, les enregistrements ne sont pas indexés</string>
+    <string name="notification_channel_reminders">Rappels</string>
+    <string name="attribute_display_title_in_card_hint">Afficher le nom de l\'attribut sur la fiche enregistrement</string>
+    <string name="link_attributes_empty_text">Ce champ n\'a pas d\'attributs pour les liens.</string>
+    <string name="cant_find_contact_selection_app">Désolé, l\'application pour le choix de contact n\'a pas été trouvée.</string>
+    <string name="library_item_not_found_dialog_message">Enregistrement non trouvé. Il a peut-être été supprimé.</string>
+
+    <string name="license_key_tab">Clé de licence</string>
+    <string name="pro_feature_0">Pas de publicité</string>
+    <string name="pro_feature_1">Pas de limite en nombre de bibliothèques synchronisables avec Google Sheets</string>
+    <string name="pro_feature_2">Nombre illimité de bibliothèques \"protégées\"</string>
+    <string name="pro_feature_3">Nombre illimité de graphiques</string>
+    <string name="pro_feature_4">Nombre illimité de scripts</string>
+    <string name="pro_feature_5">Recherche avancée</string>
+    <string name="pro_feature_6">Un champ d\'enregistrement peur contenir plusieurs objets (images, contacts, coordonnées, etc.).</string>
+    <string name="pro_feature_7">Modification multi-enregistrements</string>
+    <string name="pro_feature_8">Widget d\'application pratique</string>
+    <string name="pro_license_activated">Licence activée</string>
+    <string name="pro_features_title">Fonctionnalités Pro</string>
+    <string name="activate_with_key">Activer avec une clé</string>
+    <string name="plans_and_pricing">Options &amp; Prix</string>
+    <string name="email_or_username">Email ou nom d\'utilisateur</string>
+    <string name="sign_in_with_google">Continuer avec Google</string>
+    <string name="minimum_pass_length">Le mot de passe doit contenir au moins %d caractères.</string>
+    <string name="please_sign_in">Se connecter au nuage Memento, SVP.</string>
+    <string name="sign_up_or_sign_in">S\'enregistrer ou se connecter</string>
+    <string name="auth_error_title">Erreur d\'authentification</string>
+    <string name="auth_error_text">Une erreur est survenue, merci de vous authentifier à nouveau %s.</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="logout_confirmation">Etes-vous sûr de vouloir vous déconnecter ?</string>
+    <string name="current_plan">Option actuelle</string>
+    <string name="change_password">Changer le mot de passe</string>
+    <string name="current_password">Mot de passe actuel</string>
+    <string name="new_password">Nouveau mot de passe</string>
+    <string name="password_changed_message">Votre mot de passe a bien été changé !</string>
+    <string name="sign_in_error">Connexion impossible</string>
+    <string name="choose_username">Choisissez votre nom d\'utilisateur</string>
+    <string name="account_without_password_message">Votre compte est un compte Google sans mot de passe. Essayez d\'utiliser le bouton \"Continuer avec Google\".</string>
+    <string name="template_not_found_by_uri">Modèle non trouvé</string>
+    <string name="public_template_address_text">Modèle d\'adresse</string>
+    <string name="wrong_template_address">Format de modèle d\'adresse invalide</string>
+    <string name="search_index_tokenizer">Analyseur lexical</string>
+
+    <string name="permission_contacts_title">Contacts</string>
+    <string name="permission_contacts_text">Il est impératif de donner l\'accès aux contacts à Memento pour les champs de type Contact.</string>
+    <string name="boolean_format">Format</string>
+    <string name="boolean_format_on">Étiquette \"On\"</string>
+    <string name="boolean_format_off">Etiquette \"Off\"</string>
+    <string name="plans_comparison">Consulter l\'intégralité de notre comparatif des fonctionnalités</string>
+
+    <string name="revision_history">Historique de version</string>
+    <string name="revision_current_version">Version actuelle</string>
+    <string name="revision_action_edit">%s changé(es)</string>
+    <string name="revision_action_create">%s enregistrement(s) créé(s)</string>
+    <string name="revert_to_version">Retour à cette version</string>
+    <string name="revert_to_version_message">Etes-vous sûr de vouloir retourner à la version depuis %s ?</string>
+    <string name="revision_history_only_for_cloud">"L\'historique de version est disponible uniquement pour les bases qui ont été téléversées sur le nuage et pour les comptes PRO  et TEAM."</string>
+    <string name="barcode_type_nfc">NFC</string>
+    <string name="pending_user">En attente...</string>
+    <string name="uom_category_userdefined">Défini par l\'utilisateur</string>
+    <string name="uom_custom_name">Nom de l\'unité</string>
+    <string name="time_field_group_by_day_and_time">Regroupement par date et heure</string>
+
+    <string name="select_source_library_dialog_title">Sélectionner la base source pour la copie des données</string>
+    <string name="select_source_library_dialog_hint">Sélectionner une source de données</string>
+
+    <string name="wiki">Wiki</string>
+
+    <string name="moby_source">mobygames.com</string>
+    <string name="type_desc_color">Le type de champ Couleur autorise toute couleur au format RGB.</string>
+    <string name="image_cache_settings_path_title">Dossier du cache image</string>
+
+    <string name="unlock_fingerprint_dialog_title">Débloquer sur empreinte</string>
+    <string name="unlock_fingerprint_dialog_text">La prochaine fois, souhaitez-vous débloquer votre base avec votre empreinte ?</string>
+    <string name="fingerprint_not_recognized">Empreinte non reconnue</string>
+    <string name="unlock_fingerprint_hint">Numérisez votre empreinte pour débloquer</string>
+    <string name="enable_fingerprint">Autorisez l’empreinte</string>
+
+    <string name="storage_permission_required_title">Autorisation nécessaire</string>
+    <string name="storage_permission_required_text">Cette application a besoin d\'autorisations d\'accès au stockage. Vous pouvez donner ces droits dans les paramètres de l\'application.</string>
+    <string name="got_to_system_settings">Allez à Paramètres</string>
+    <string name="file_save_error">Impossible de sauvegarder le fichier:\n%s</string>
+
+    <string name="years_range">Tranche d\'années dans les dates</string>
+    <string name="begin_year">Début</string>
+    <string name="end_year">Fin</string>
+    <string name="years_range_wrong">L\'année de fin doit être supérieure ou égale à l\'année de début</string>
+    <string name="orientation_portrait">Portrait</string>
+    <string name="orientation_landscape">Paysage</string>
+    <string name="scale_mode">Ajuster à la taille</string>
+    <string name="scale_size">Échelle</string>
+    <string name="pdf_scale_mode_crop">Rogner</string>
+    <string name="pdf_scale_mode_expand">Agrandir</string>
+    <string name="pdf_scale_mode_fit">Ajuster</string>
+    <string name="workplace">Espace de travail</string>
+    <string name="share_filters">Partager les filtres</string>
+    <string name="share_charts">Partager les graphiques</string>
+    <string name="shared_by">Partagé par %s</string>
+    <string name="share_workplace_limit">Désolé, le partage des graphiques et des filtres nécessite un abonnement Équipe.</string>
+    <string name="bulk_action">Action par lot</string>
+    <string name="action_context_bulk_actions">Menu des actions par lot</string>
+    <string name="move_to">Déplacer vers...</string>
+    <string name="copy_to">Copier vers...</string>
+    <string name="move_to_no_libraries">Impossible de trouver une base de données compatible avec la base courante.
+SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base de données.</string>
+    <string name="migrate">Migrer</string>
+    <string name="barcode_display_error">Désolé, création de code-barres impossible avec les données fournies</string>
+    <string name="barcode_format">Format de code-barres</string>
+    <string name="barcode_format_auto">Autodétection</string>
+    <string name="orientation">Orientation</string>
+    <string name="paper_size">Taille du papier</string>
+    <string name="camera_permission_title">Appareil photo</string>
+    <string name="camera_permission_required_text">Pour permettre la capture d\'une image, l\'accès à l\'appareil photo est nécessaire. Aller aux Paramètres pour donner la permission.</string>
+    <string name="require_external_audio_app">Mémento utilise une application externe d\'enregistrement audio. Souhaitez-vous l\'installer ?</string>
+
+
+    <string name="agree_terms_privacy">"En créant un compte, vous acceptez  "<a href="https://mementodatabase.com#terms">les Conditions d\'utilisation</a> et <a href="http://mementodatabase.com#privacy_policy">la Politique de confidentialité</a> de Memento.</string>
+    <string name="enter_email_address_hint">Merci de saisir votre adresse email.</string>
+    <string name="duration_label_days">j</string>
+    <string name="duration_label_hours">h</string>
+    <string name="duration_label_minutes">m</string>
+    <string name="duration_label_seconds">s</string>
+    <string name="duration_label_mseconds">ms</string>
+    <string name="duration_precision_option_title">Précision pour la durée</string>
+    <string name="duration_precision_min">Unité minimum</string>
+    <string name="duration_precision_max">Unité maximum</string>
+    <string name="duration_precision_wrong">L\'unité maximum doit être supérieure ou égale à l\'unité minimum</string>
+    <plurals name="duration_ms">
+	<item quantity="one">%d ms</item>
+	<item quantity="other">%d ms</item>
+    </plurals>
+    <string name="duration_display_format_option_title">Format de durée</string>
+    <string name="duration_display_format_short">Court</string>
+    <string name="duration_display_format_long">Long</string>
+    <string name="type_desc_duration">Un champ Durée peut contenir une valeur utilisée pour représenter une durée mesurée en jours, heures, minutes, secondes ou millisecondes.</string>
+
+    <plurals name="after_entries_multiedit_message">
+	<item quantity="one">%d enregistrement a été modifié</item>
+	<item quantity="other">%d enregistrements ont été modifiés</item>
+    </plurals>
+
+    <string name="locals_js_libraries">Locales</string>
+    <string name="js_libraries_add_url">Ajouter une URL</string>
+    <string name="js_file_url">URL d\'un fichier JavaScript</string>
+    <string name="js_file_url_error">Indiquer le lien HTTP/HTTPS au fichier JavaScript.</string>
+    <string name="js_file_url_not_found">Impossible de trouver le fichier JavaScript à cette URL : %S</string>
+    <string name="image_capture_size">Taille de capture de l\'image</string>
+    <string name="image_capture_size_original">Originale</string>
+    <string name="max_width">Largeur maximum</string>
+    <string name="max_height">Hauteur maximum</string>
+    <string name="speech_recognition_not_supported">La reconnaissance de la parole n\'est pas supportée</string>
+
+    <string name="templates_category_personal">Personnel</string>
+    <string name="templates_category_collections">Collections</string>
+    <string name="templates_category_business">Affaires</string>
+    <string name="templates_category_healthy">Santé et Sport</string>
+    <string name="templates_category_travel">Voyage</string>
+    <string name="templates_category_edu">Éducation</string>
+    <string name="board_games">Jeux de société</string>
+    <string name="new_database">Nouvelle base de donnees</string>
+
+<string name="send_entries_too_large">Désolé, vous ne pouvez pas envoyer tous ces enregistrements comme texte. Il y a trop de données.</string>
+    <string name="request_button">Requête</string>
+
+    <string name="edit_library_not_available">Seul le propriétaire peut changer la structure de la base.</string>
+    <string name="menu">Menu</string>
+    <string name="period_this_year">Cette année</string>
+    <string name="number_filter_types_between">Entre</string>
+    <string name="field_role_hidden">Champ caché</string>
+    <string name="field_role_hidden_short">caché</string>
+    <string name="export_hidden_fields">Exporter les champs cachés</string>
+    <string name="move_select_destination">Choisir la destination</string>
+    <string name="match_fields">Champs correspondants</string>
+    <string name="dest_fields">Champs destination</string>
+    <string name="move_rules_empty">Il n\'y a pas de règles de déplacement dans cette base</string>
+
+    <string name="delete_move_rule_dialog_title">Règle de suppression</string>
+    <string name="delete_move_rule_dialog_message">Etes-vous sûr de vouloir supprimer la règle de déplacement vers \"%s\" ?</string>
+    <string name="no_field">Pas de champ</string>
+    <string name="moving_entries">Déplacement des enregistrements. %d of %d.</string>
+    <string name="copying_entries2">Copie des enregistrements. %d of %d.</string>
+    <plurals name="moving_entries_success">
+	<item quantity="one">%d enregistrement a été déplacé vers la base %s</item>
+	<item quantity="other">%d enregistrements ont été déplacés vers la base %s</item>
+</plurals>
+    <plurals name="copying_entries_success">
+	<item quantity="one">%d enregistrement a été copié dans la base %s</item>
+	<item quantity="other">%d enregistrements ont été copiés dans la base %s</item>
+</plurals>
+    <string name="need_pro_for_move_entries">Les enregistrements ne peuvent être déplacés ou copiés vers une autre base qu\'avec la version PRO du programme.</string>
+    <string name="create_copy">Créer une copie</string>
+    <string name="move_or_copy">Déplacer ou Copier</string>
+    <string name="duplicate">Dupliquer</string>
+
+    <string name="buy_license_key_hint">Acheter une licence PRO standalone pour Android</string>
+    <string name="flex_type_user">Utilisateur</string>
+    <string name="select_user">Sélectionner un utilisateur</string>
+    <string name="select_user_empty_list">Il n\'y a plus d\'utilisateurs à sélectionner</string>
+    <string name="memento_full_name_hint">Nom complet</string>
+    <string name="not_set">Non défini</string>
+    <string name="objects_limit_option_title">Limite</string>
+    <string name="max_number_of_users">Nombre maximum d\'utilisateurs</string>
+    <string name="no_limit">Pas de limite</string>
+    <string name="conditional_permission">Dépend du champ</string>
+    <string name="conditional_field_empty">Vous devez choisir le champ \"Utilisateur\" qui donnera les autorisations pour l’opération.</string>
+    <string name="conditional_permission_limit">Les droits d\'accès près du champ \"Utilisateur\" ne peuvent être modifiés qu\'avec le tarif Team.</string>
+    <string name="filter_rule_is_one_of">Est un de</string>
+    <string name="filter_rule_is_not_one_of">N\'est pas l\'un de</string>
+    <string name="send_email">Envoyer email</string>
+    <string name="type_desc_user">Le champ utilisateur vous permet de choisir un ou plusieurs utilisateurs de la liste de tous les utilisateurs qui partagent votre base.</string>
+    <string name="field_copied_to_clipboard">%s copiés dans le presse-papier</string>
+    <string name="max_number_of_users_limit_message">Vous ne pouvez choisir que %d utilisateurs</string>
+
+<string name="entries_view_type_kanban">Kanban</string>
+    <string name="staggered_grid">Grille échelonnée</string>
+    <string name="choose_google_account">Choisir un compte Google</string>
+    <string name="selected_file_is_too_large">Le fichier sélectionné est trop volumineux</string>
+
+    <string name="google_sheet_not_found">Le feuille de calcul avec id %d est introuvable.</string>
+    <string name="google_sheet_header_not_found">Il n\'y a pas de ligne d\'en-tête dans le tableau Google Sheet.</string>
+    <string name="google_sheet_id_column_not_found">Il n\'y a pas de colonne clé dans la table Google Sheet.</string>
+    <string name="google_sheet_new_link_text">Cette base va être rattachée à une nouvelle table <b>%s</b> sur Google Drive.</string>
+    <string name="google_sync_migration_to_v4">Cette base est synchronisée en utilisant une méthode obsolète.
+Rattacher la base à une nouvelle table pour utiliser la nouvelle méthode.
+Exécuter le rattachement maintenant ?</string>
+    <string name="enable_logging_sheets">Journaux Google Sheets</string>
+
+<string name="position_column_1">1ère colonne</string>
+    <string name="position_column_2">2e colonne</string>
+    <string name="position_column_3">3e colonne</string>
+    <string name="position_column_auto">Auto</string>
+    <string name="copy_to_google_docs">Copier vers Google Docs</string>
+    <string name="google_docs_select_template">Sélectionner un modèle</string>
+
+    <string name="google_docs_templates_empty">Il n\'y pas de modèle Google Docs dans cette base</string>
+    <string name="google_docs_task_create_document2">Création d\'un document</string>
+    <string name="google_docs_task_delete_document2">Suppression d\'un document</string>
+    <string name="google_docs_task_step_auth2">Authentification au service Docs</string>
+    <string name="delete_google_docs_template_dialog_text">Voulez-vous vraiment supprimer le modèle \"%s\" ?</string>
+    <string name="generating_doc">Génération du document...</string>
+    <string name="populating_table">Remplissage de la table...</string>
+    <string name="entry_has_been_copied_to_docs">L\'enregistrement a été copié vers Google Docs</string>
+    <string name="entries_has_been_copied_to_docs">Les enregistrements ont été copiés vers Google Docs</string>
+    <string name="google_docs_out_folder_name">Nom du dossier</string>
+    <string name="google_docs_out_folder_hint">Indiquez un dossier qui contiendra les documents produits</string>
+    <string name="preparing_doc">Préparation des enregistrements...</string>
+    <string name="google_docs_left_operations">Dans les versions Free et Lite, le nombre d\'opérations est limité à %d par jour, il vous en reste %d.</string>
+    <string name="need_pro_for_google_docs">La version gratuite vous permet de copier un maximum de 10 enregistrements par jour.
+Passez à la version PRO pour lever cette limite.</string>
+
+    <string name="user_field_current_by_default_title">Utilisateur actuel</string>
+
+    <string name="spotlight_create_library_by_template_title">Créer une base</string>
+    <string name="spotlight_create_library_by_template_text">Taper \"Save\" pour créer une nouvelle base sur ce modèle.</string>
+
+    <string name="spotlight_from_scratch_title">Partir de rien</string>
+    <string name="spotlight_from_scratch_text">Memento organise vos informations en bases. Les bases sont identiques aux feuilles d\'un classeur de tableur.
+D\'abord, entrez le nom de votre base, sélectionnez un icône et une couleur associée.</string>
+    <string name="spotlight_from_scratch_fields_title">Champs</string>
+    <string name="spotlight_from_scratch_fields_text">Sur cet onglet, vous définissez les champs pour chaque enregistrement de la base.
+Un champ est l\'équivalent d\'une colonne de feuille de tableur.</string>
+    <string name="spotlight_from_scratch_save_title">Sauvegarder la structure</string>
+    <string name="spotlight_from_scratch_save_text">Une fois le champ ajouté, taper \"Save\" pour commencer à ajouter des enregistrements.</string>
+    <string name="spotlight_create_entry_title">Créer un enregistrement</string>
+    <string name="spotlight_create_entry_text">Cliquez sur \"+\" pour créer le premier enregistrement de la base.</string>
+    <string name="spotlight_library_menu_title">Nos outils magiques</string>
+    <string name="spotlight_library_edit_title">Modifier la base</string>
+    <string name="spotlight_library_edit_text">Vous pouvez modifier votre base à tout moment — ajouter ou modifier des champs.</string>
+    <string name="spotlight_library_edit_fields_title">Champs</string>
+    <string name="spotlight_library_aggregation_title">Agrégation</string>
+    <string name="button_need_help">Besoin d\'aide ?</string>
+    <string name="export_template_include_charts">Inclure des graphiques</string>
+    <string name="sort_manually">Manuellement</string>
+    <string name="hide_column">Masquer la colonne</string>
+    <string name="add_group_field">Ajouter un champ groupe</string>
+    <string name="add_another_group_field">Ajouter un autre champ groupe</string>
+    <string name="filter">Filtre</string>
+<string name="spotlight_library_menu_text">Pour ajuster le tri, le filtre, passer a une vue Table, Carte ou Calendrier, ajouter des graphiques ou modifier des champs, cliquez ici.</string>
+    <string name="spotlight_library_edit_fields_text">Un champ est le support d\'une unité de donnée, ou valeur. Chaque champ a un type et un nom. Les champs peuvent aussi comporter des paramètres avancés ou des options d\'affichage.</string>
+    <string name="spotlight_library_aggregation_text">L’agrégation est une fonction mathématique appliquée à tous les enregistrements de la base pour le champ sélectionné. Il vous aide à déterminer les valeurs minimales, maximales ou moyennes ou le total général.</string>
+
+    </resources>
