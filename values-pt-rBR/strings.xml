@@ -118,10 +118,10 @@
     <string name="backup_summary_preference">Salvando todas as bibliotecas para o cartão flash</string>
     <string name="backup_fail">Erro no backup</string>
     <string name="cdcard_not_found">Desculpe, o cartão está ocupado</string>
-    <string name="backup_process">Copiando bibliotecas</string>
+    <string name="backup_process">Copiando bibliotecas.</string>
     <string name="restore_preference">Recuperar</string>
     <string name="restore_summary_preference">Recuperando bibliotecas da cópia de backup</string>
-    <string name="backup_file_not_found">Não foi encontrado um arquivo de backup</string>
+    <string name="backup_file_not_found">Não foi encontrado um arquivo de backup.</string>
     <string name="restore_dialog_message">As bibliotecas existentes serão substituídas pelas bibliotecas da cópia de backup durante a recuperação.
 Todas as alterações feitas nestas bibliotecas depois da cópia de backup ser criada serão perdidas. 
 Iniciar recuperação?</string>
@@ -130,7 +130,7 @@ Iniciar recuperação?</string>
     <string name="restore_step1">Restaurando</string>
     <string name="restore_step2">Limpando cache</string>
     <string name="clear_index">Removendo índices</string>
-    <string name="reindex">Re-indexando</string>
+    <string name="reindex">Re-indexando :</string>
     <string name="load_templates_title">Baixando modelos</string>
     <string name="load_templates_message">Por favor aguarde enquanto os modelos estão a ser baixados.</string>
     <string name="help_title">Ajuda Memento</string>
@@ -271,7 +271,7 @@ no servidor Memento</string>
     <string name="pass_not_equal">Verifique a senha novamente</string>
     <string name="incorrect_email">Email inválido</string>
     <string name="create_memento_account_dlg_title">Registro</string>
-    <string name="create_memento_account_dlg_text">Registrando o usuário no servidor Memento</string>
+    <string name="create_memento_account_dlg_text">Registrando o usuário no servidor Memento...</string>
     <string name="memento_register_user_exists">O usuário já existe</string>
     <string name="memento_register_email_exists">Já existe um usuário com este email</string>
     <string name="memento_server_error">Erro do servidor, tente novamente mais tarde</string>
@@ -578,10 +578,8 @@ Atualize para a versão PRO para desativar esta limitação.</string>
     <string name="main_menu_add_lib_group">Adicionar Biblioteca ou Grupo</string>
     <string name="no_entries">Nenhuma entrada</string>
     <plurals name="library_box_entries_count">
-	<item quantity="one">Um
-%d entrada</item>
-	<item quantity="other">Outros
-%d entradas</item>
+	<item quantity="one">%d entrada</item>
+	<item quantity="other">%d entradas</item>
 </plurals>
     <string name="add_group_dialog_text">Nome do grupo</string>
     <string name="add_group_dialog_hint">Digite o nome do grupo</string>
@@ -772,7 +770,7 @@ Você pode ativar o recurso de edição nas configurações desta biblioteca.</s
     <string name="error_library_not_unique_field_names">"Os nomes dos campos na biblioteca devem ser exclusivos.  Verifique os campos: %s."</string>
     <string name="info_path">Caminho:</string>
     <string name="info_resolution">Resolução:</string>
-    <string name="info_size">Tamanho</string>
+    <string name="info_size">Tamanho:</string>
     <string name="info_camera">Câmera:</string>
     <string name="info_date">Data:</string>
     <string name="info_exif">EXIF:</string>
@@ -883,16 +881,12 @@ Você pode ativar o recurso de edição nas configurações desta biblioteca.</s
     <string name="show_update_time_on_tile">Tempo de edição</string>
     <string name="only_title_on_tile">Somente o nome da biblioteca</string>
     <plurals name="fields_count">
-	<item quantity="one">Um
-Um campo</item>
-	<item quantity="other">Outros
-%d campos</item>
+	<item quantity="one">Um campo</item>
+	<item quantity="other">%d campos</item>
 </plurals>
     <plurals name="libraries_count">
-	<item quantity="one">Um
-Uma biblioteca</item>
-	<item quantity="other">Outros
-%d bibliotecas</item>
+	<item quantity="one">Uma biblioteca</item>
+	<item quantity="other">%d bibliotecas</item>
 </plurals>
     <string name="empty">Vazio</string>
     <string name="add_page">Adicionar Página</string>
@@ -901,7 +895,7 @@ Uma biblioteca</item>
  Você pode adicionar campos ou listas de registros aqui.</string>
     <string name="empty_fields_list_text">Não há campos nesta biblioteca.</string>
     <string name="empty_aggregation_list_text">Esta biblioteca não contém funções de agregação.</string>
-    <string name="empty_chart_list_text">Esta biblioteca não contém gráficos</string>
+    <string name="empty_chart_list_text">Esta biblioteca não contém gráficos.</string>
     <string name="empty_entry_list_text">A biblioteca ainda não possui entradas.</string>
     <string name="empty_recycle_bin_text">Não há entradas disponíveis para recuperação nesta biblioteca.</string>
     <string name="empty_main_recycle_bin_text">Nenhuma biblioteca disponível para a recuperação.</string>
@@ -1131,12 +1125,7 @@ A biblioteca será sincronizada automaticamente.</string>
     <string name="cloud_conflict_fix_button_title">Corrigir</string>
     <plurals name="conflict_count">
 	<item quantity="one">%d conflito ocorreu durante a sincronização</item>
-	<item quantity="other">Outros
-%d conflitos ocorreram durante a sincronização
-Forma plural 2
-%d conflitos ocorreram durante a sincronização
-Forma plural 3
-%d conflitos ocorreram durante a sincronização</item>
+	<item quantity="other">%d conflitos ocorreram durante a sincronização</item>
 </plurals>
     <string name="button_select">Selecionar</string>
     <string name="cloud">Nuvem</string>
@@ -2079,7 +2068,7 @@ Crie uma regra de transferência de entradas para migrar para qualquer bibliotec
     <string name="locals_js_libraries">Locais</string>
     <string name="js_libraries_add_url">Adicionar URL</string>
     <string name="js_file_url">URL do arquivo JavaScript</string>
-    <string name="js_file_url_error">Especifique o link HTTP/HTTPS para o arquivo JavaScript</string>
+    <string name="js_file_url_error">Especifique o link HTTP/HTTPS para o arquivo JavaScript.</string>
     <string name="js_file_url_not_found">Não foi possível encontrar o arquivo JavaScript neste URL: %S</string>
     <string name="image_capture_size">Tamanho de captura de imagem</string>
     <string name="image_capture_size_original">Original</string>
