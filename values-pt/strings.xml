@@ -250,7 +250,7 @@
     <string name="please_wait">Por favor, aguarde...</string>
     <!-- 1.4.0 -->
     <string name="public_library_title">Publicando biblioteca</string>
-    <string name="public_to_picasa_message">Enviando biblioteca de imagens para o Google photos</string>
+    <string name="public_to_picasa_message">Enviando biblioteca de imagens para o Google Fotos</string>
     <string name="public_to_picasa_create_album">Criando um álbum do Google photos para as bibliotecas publicadas</string>
     <string name="public_to_picasa_success">As images foram transferidas para o Google photos</string>
     <string name="picasa_task_step_auth">Autenticação no serviço Google photos</string>
@@ -273,7 +273,7 @@
     <string name="create_memento_account_dlg_text">A registar o utilizador no servidor Memento ...</string>
     <string name="memento_register_user_exists">Esse nome de utilizador já existe</string>
     <string name="memento_register_email_exists">Já existe um utilizador com esse endereço de email</string>
-    <string name="memento_server_error">Erro do servidor. Tente novamente mais tarde.</string>
+    <string name="memento_server_error">Erro do servidor, tente novamente mais tarde</string>
     <string name="memento_account_title">Conta Memento</string>
     <string name="memento_create_account_button">Nova conta</string>
     <string name="memento_auth_error">Erro no nome do utilizador ou na palavra-passe</string>
@@ -283,7 +283,7 @@
     <string name="public_library_task_auth">Autenticando no serviço Memento</string>
     <string name="public_library_task_send_template">Transferindo a biblioteca modelo</string>
     <string formatted="false" name="public_library_task_send_items">Transferindo entradas da biblioteca.\n%s de %s</string>
-    <string name="memento_not_support_template">A sua versão do Memento está desactualizada. Actualize-a, por favor.</string>
+    <string name="memento_not_support_template">A sua versão do Memento está desactualizada, actualize-a, por favor</string>
     <string name="memento_not_found">Recurso não encontrado</string>
     <string name="alias_hint">Indique um nome alternativo da biblioteca</string>
     <string name="button_publish">Publicar</string>
@@ -425,7 +425,7 @@
     <string name="library_protection_pass_checkbox">Acesso por palavra-passe</string>
     <!-- while not used -->
     <string name="buy_from_market_title">Compre pelo Google Play</string>
-    <string name="buy_from_market_hint">Google Wallet</string>
+    <string name="buy_from_market_hint">Google Play</string>
     <!-- 1.6.2 -->
     <string name="flex_type_password">Palavra-passe</string>
     <string name="flex_type_phone">Telefone</string>
@@ -898,7 +898,7 @@
     <string name="icon_pack_title_field_edu_flat">Educação</string>
     <string name="icon_pack_title_field_mult_flat">Multimédia</string>
     <string name="icon_pack_title_field_net_flat">Rede</string>
-    <string name="library_tile_options">Colocar no mosaico</string>
+    <string name="library_tile_options">Colocar no cartão</string>
     <string name="show_icon_on_tile">Ícone da biblioteca</string>
     <string name="show_num_entries_on_tile">Número de entradas</string>
     <string name="show_update_time_on_tile">Hora da edição</string>
@@ -965,7 +965,7 @@
     <string name="aggregation_delete_message">Quer realmente apagar a agregação \"%s\" ?</string>
     <string name="aggregation_need_select_field_message">Deve seleccionar um campo por cada função de agregação</string>
     <string name="open_object_by_uri_error">Não é possível abrir o objecto: %s</string>
-    <string name="import_and_export_menu_item">Importar e exportar...</string>
+    <string name="import_and_export_menu_item">Importar e exportar</string>
     <string name="entries_export_snackbar_ok">Entradas exportadas com sucesso</string>
     <string name="entries_import_result_dialog_title">Entradas importadas</string>
     <string name="csv_import_total_lines">Linhas processadas:</string>
@@ -1628,7 +1628,7 @@
     <string name="uom_watt">Watt</string>
     <string name="uom_kilowatt">Quilowatt</string>
     <string name="uom_megawatt">Megawatt</string>
-    <string name="uom_horsepower">Cavalos</string>
+    <string name="uom_horsepower">Cavalo-vapor</string>
 
     <string name="uom_category_energy">Energia</string>
     <string name="uom_joule">Joule</string>
@@ -1836,7 +1836,7 @@
     <string name="wizard_field_name_examples">Por exemplo, pode ter campos para \'título\', \'descrição\', \'tipo de equipamento\', \'custo\', \'tamanho\', \'localização\', etc.</string>
     <string name="wizard_field_type_title">Cada campo é concebido para guardar un tipo específico de dados.</string>
     <string name="wizard_field_display_options_title">Deseja mostrar os valores deste campo na lista de entradas?</string>
-    <string name="wizard_field_display_no">Não, obrigado.</string>
+    <string name="wizard_field_display_no">Não, obrigado</string>
     <string name="wizard_field_display_name">Como Nome de Entrada</string>
     <string name="wizard_field_display_thumb">Como Miniatura de Entrada</string>
     <string name="wizard_field_display_desc">Como Descrição de Entrada</string>
@@ -2156,7 +2156,7 @@ Executar agora?</string>
     <string name="delete_google_docs_template_dialog_text">Confirma apagar o midelo \"%s\"?</string>
     <string name="generating_doc">Gerando o documento...</string>
     <string name="populating_table">A preencher a tabela...</string>
-    <string name="entry_has_been_copied_to_docs">A entrada foi copiada para o Google Docs.</string>
+    <string name="entry_has_been_copied_to_docs">A entrada foi copiada para o Google Docs</string>
     <string name="entries_has_been_copied_to_docs">As entradas foram copiadas para o Google Docs</string>
     <string name="google_docs_out_folder_name">Nome da pasta</string>
     <string name="google_docs_out_folder_hint">Indique uma pasta para onde irão os documentos feitos</string>
