@@ -31,7 +31,7 @@
     <string name="flex_type_rating">Ocena</string>
     <string name="flex_type_web">Hiperpovezava</string>
     <string name="flex_type_map">Lokacija</string>
-    <string name="flex_type_real">Prava številka</string>
+    <string name="flex_type_real">Realno število</string>
     <string name="field_list_caption">Vnosna polja knjižnice</string>
     <string name="flextemplate_up_item">Gor</string>
     <string name="flextemplate_down_item">Dol</string>
@@ -642,7 +642,7 @@ Poslali smo ti E-mail, ki ti bo omogočil hitro in enostavno ponastavitev gesla.
     <string name="flex_type_int_list">Cele vrednosti</string>
     <string name="flex_type_int_default_value">Določi privzeto vrednost</string>
     <string name="flex_type_int_min">Začni</string>
-    <string name="flex_type_int_max">Končaj</string>
+    <string name="flex_type_int_max">Konec</string>
     <string name="flex_type_int_main_options_title">Zaporedje števil</string>
     <string name="flex_type_int_allow_direct_input">Dovoli neposreden vnos</string>
     <string name="flex_type_int_allow_direct_input2">neposreden vnos</string>
@@ -869,7 +869,7 @@ razvrsti, združi, filtri, grafikoni in še več ...</string>
     <string name="icon_pack_title_field_edu_flat">Izobraževanje</string>
     <string name="icon_pack_title_field_mult_flat">Multimedija</string>
     <string name="icon_pack_title_field_net_flat">Omrežje</string>
-    <string name="library_tile_options">Položite na ploščico</string>
+    <string name="library_tile_options">Položite na ploščice</string>
     <string name="show_icon_on_tile">Ikona knjižnice</string>
     <string name="show_num_entries_on_tile">Število vnosov</string>
     <string name="show_update_time_on_tile">Čas urejanja</string>
@@ -926,7 +926,7 @@ tekstovno polje</string>
     <string name="aggregation_delete_message">Ali res želiš izbrisati združevanje \"%s\"?</string>
     <string name="aggregation_need_select_field_message">Za to funkcijo združevanja morate izbrati polje</string>
     <string name="open_object_by_uri_error">Ni mogoče odpreti objekta: %s</string>
-    <string name="import_and_export_menu_item">Uvoz in izvoz</string>
+    <string name="import_and_export_menu_item">Uvažanje in izvažanje</string>
     <string name="entries_export_snackbar_ok">Vnosi so bili uspešno izvoženi</string>
     <string name="entries_import_result_dialog_title">Uvoz vnosov</string>
     <string name="csv_import_total_lines">Obdelane vrstice:</string>
@@ -2096,7 +2096,7 @@ Ustvarite pravilo za prenos vnosov za preselitev v katero koli knjižnico.</stri
     <string name="duration_display_format_option_title">Format trajanja</string>
     <string name="duration_display_format_short">Kratko</string>
     <string name="duration_display_format_long">Dolgo</string>
-    <string name="type_desc_duration">Polje trajanje lahko vsebuje vrednost, ki se uporablja za prikaz trajanja časa, izmerjenega v dnevih, urah, minutah, sekundah ali milisekundah.</string>
+    <string name="type_desc_duration">Polje trajanja lahko vsebuje vrednost, ki se uporablja za prikaz trajanja časa, izmerjenega v dnevih, urah, minutah, sekundah ali milisekundah.</string>
 
     <plurals name="after_entries_multiedit_message">
 	<item quantity="one">En vnos je bil urejen</item>
@@ -2170,7 +2170,7 @@ Ustvarite pravilo za prenos vnosov za preselitev v katero koli knjižnico.</stri
     <string name="not_set">Ni nastavljeno</string>
     <string name="objects_limit_option_title">Omejeno</string>
     <string name="max_number_of_users">Maks. število uporabnikov</string>
-    <string name="no_limit">Neomejeno</string>
+    <string name="no_limit">Brez omejitev</string>
     <string name="conditional_permission">Odvisno od polja</string>
     <string name="conditional_field_empty">Izbrati morate polje \"Uporabnik\", ki bo dalo dovoljenja za operacijo.</string>
     <string name="conditional_permission_limit">Pravice dostopa v polju \"Uporabnik\" se lahko določijo samo na ekipnih paketih.</string>
@@ -2208,7 +2208,7 @@ Ali želite sedaj zagnati ponovno povezavo?</string>
     <string name="google_docs_task_step_auth2">Preverjanje pristnosti za storitev Dokumenti</string>
     <string name="delete_google_docs_template_dialog_text">Ali res želite izbrisati predlogo \"%s\"?</string>
     <string name="generating_doc">Ustvarjanje dokumenta ...</string>
-    <string name="populating_table">Poseljevanje tabele ...</string>
+    <string name="populating_table">Izpolnjevanje tabele ...</string>
     <string name="entry_has_been_copied_to_docs">Vnos je skopiran v Google Dokumente</string>
     <string name="entries_has_been_copied_to_docs">Vnosi so bili skopirani v Google Dokumente</string>
     <string name="google_docs_out_folder_name">Ime mape</string>
