@@ -2125,4 +2125,59 @@
     <string name="google_sync_migration_to_v4">অবজ্ঞাত পদ্ধতিটি ব্যবহার করে এই লাইব্রেরি সিঙ্ক্রোনাইজ করা হয়েছে।
 নতুন পদ্ধতিটি ব্যবহার করতে লাইব্রেরির রিবাইন্ডিং এ নতুন টেবিলটি করুন।
 এখন রিবাইন্ডিং চালাবেন?</string>
+    <string name="position_column_1">১ম কলাম</string>
+    <string name="position_column_2">২য় কলাম</string>
+    <string name="position_column_3">৩য় কলাম</string>
+    <string name="position_column_auto">সয়ংক্রিয়</string>
+    <string name="copy_to_google_docs">Google Docs এ কপি করা</string>
+    <string name="google_docs_select_template">টেমপ্লেট বাছাই করুন</string>
+
+    <string name="google_docs_templates_empty">এই লাইব্রেরির জন্য কোন Google Docs টেমপ্লেট নাই</string>
+    <string name="google_docs_task_create_document2">ডকুমেন্ট তৈরি করুন</string>
+    <string name="google_docs_task_delete_document2">ডকুমেন্ট ডিলেট করুন</string>
+    <string name="google_docs_task_step_auth2">Docs service এ অথেনটিকেশন করা হচ্ছে</string>
+    <string name="delete_google_docs_template_dialog_text">আপনি কি সত্যিই টেমপ্লেটটি ডিলেট করতে চান?</string>
+    <string name="generating_doc">ডকুমেন্ট জেনারেট করা হচ্ছে</string>
+    <string name="populating_table">টেবিলটি পূর্ণ করা হচ্ছে</string>
+    <string name="entry_has_been_copied_to_docs">এই এন্ট্রিটি Google Docs এ কপি করা হয়েছে</string>
+    <string name="entries_has_been_copied_to_docs">এই এন্ট্রিসমূহ Google Docs এ কপি করা হয়েছে</string>
+    <string name="google_docs_out_folder_name">ফোল্ডারের নাম</string>
+    <string name="preparing_doc">এন্ট্রিসমূহ প্রস্তুত করা হচ্ছে ...</string>
+    <string name="user_field_current_by_default_title">বর্তমান ব্যবহারকারী</string>
+
+    <string name="spotlight_create_library_by_template_title">লাইব্রেরি তৈরি করুন</string>
+    <string name="spotlight_from_scratch_fields_title">ফিল্ডসমূহ</string>
+    <string name="spotlight_from_scratch_save_title">গঠনটি সংরক্ষণ করুন</string>
+    <string name="spotlight_create_entry_title">এন্ট্রি তৈরি করুন</string>
+    <string name="spotlight_library_menu_title">আমাদের জাদুর টুলস</string>
+    <string name="spotlight_library_edit_title">লাইব্রেরি সম্পাদনা করুন</string>
+    <string name="spotlight_library_edit_fields_title">ফিল্ডসমূহ</string>
+    <string name="spotlight_library_aggregation_title">যোগফল</string>
+    <string name="button_need_help">সাহায্য দরকার?</string>
+    <string name="export_template_include_charts">চার্টসমূহ সহ</string>
+    <string name="sort_manually">ম্যানুয়ালি</string>
+    <string name="hide_column">কলাম হাইড করুন</string>
+    <string name="add_group_field">গ্রুপ ফিল্ড যোগ করুন</string>
+    <string name="add_another_group_field">আরেকটি গ্রুপ ফিল্ড যোগ করুন</string>
+    <string name="filter">ফিল্টার</string>
+<string name="google_docs_out_folder_hint">এমন একটি ফোল্ডার নির্দিষ্ট করুন যাতে আউটপুট ডকুমেন্টসমূহ থাকবে</string>
+    <string name="google_docs_left_operations">ফ্রি এবং লাইট ভার্সনে, অপারেশনের সংখ্যা প্রতিদিন %d এর মধ্যে সীমাবদ্ধ রয়েছে, আপনার
+%d বাকি রয়েছে।</string>
+    <string name="need_pro_for_google_docs">ফ্রি ভার্সন আপনাকে প্রতিদিন 10 টি এন্ট্রি কপি করতে দেয়।
+এই সীমাবদ্ধতাটি দূর করতে প্রো ভার্সনে আপগ্রেড করুন।</string>
+
+    <string name="spotlight_create_library_by_template_text">এই টেমপ্লেটের উপর ভিত্তি করে একটি নতুন লাইব্রেরি তৈরি করতে \"সংরক্ষণ করুন\" এ চাপুন।</string>
+
+    <string name="spotlight_from_scratch_title">শুন্য থেকে শুরু করুন</string>
+    <string name="spotlight_from_scratch_text">মেমেন্টো আপনার তথ্যগুলি লাইব্রেরিতে সংগঠিত করে। স্প্রেডশিটে ওয়ার্কশিটের অনুরূপ লাইব্রেরি।
+প্রথমে আপনার নতুন লাইব্রেরির নাম লিখুন, এর জন্য আইকন এবং রঙটি নির্বাচন করুন।</string>
+    <string name="spotlight_from_scratch_fields_text">এই ট্যাবে আপনি এই লাইব্রেরিতে প্রতিটি এন্ট্রির জন্য ফিল্ডসমূহ নির্ধারণ করতে পারেন।
+একটি ফিল্ড একটি স্প্রেডশিটে কলামের সমতুল্য।</string>
+    <string name="spotlight_from_scratch_save_text">ফিল্ডসমূহ যুক্ত হয়ে গেলে, এন্ট্রিসমূহ যোগ করতে শুরুতে \"সংরক্ষণ করুন\" এ চাপুন।</string>
+    <string name="spotlight_create_entry_text">এই লাইব্রেরিতে প্রথম এন্ট্রি তৈরি করতে \"+\" এ চাপুন।</string>
+    <string name="spotlight_library_menu_text">আপনি যদি বাছাই বা ফিল্টারিং সামঞ্জস্য করতে চান তাহলে টেবিল, মানচিত্র বা ক্যালেন্ডারে ভিউ পরিবর্তন করুন, চার্ট যুক্ত করতে বা এক সেট ফিল্ড পরিবর্তন করতে, এখানে চাপুন।</string>
+    <string name="spotlight_library_edit_text">আপনি যে কোনও সময় আপনার লাইব্রেরি পরিবর্তন করতে পারেন - ফিল্ড যুক্ত বা সম্পাদনা করুন।</string>
+    <string name="spotlight_library_edit_fields_text">ফিল্ড হচ্ছে ডেটা বা মানের এককের ধারক। প্রতিটি ফিল্ডে একটি প্রকার এবং একটি নাম থাকে। ফিল্ডে উন্নত প্যারামিটার বা ডিসপ্লে অপশন ও থাকতে পারে।</string>
+    <string name="spotlight_library_aggregation_text">যোগফল নির্বাচিত ফিল্ড দ্বারা লাইব্রেরির সমস্ত এন্ট্রিগুলিতে প্রয়োগ করা হয় এমন একটি গণিত ফাংশন। এটি আপনাকে সর্বনিম্ন, সর্বাধিক বা গড় মান বা মোট যোগফল খুঁজে পেতে সহায়তা করে।</string>
+
     </resources>
