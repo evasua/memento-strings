@@ -1541,8 +1541,8 @@
     <string name="debug_summary">Logging Options</string>
     <string name="log_files_folder">Log files directory</string>
 
-    <string name="enable_logging_cloud">Memento Cloud calls</string>
-    <string name="enable_logging_triggers">Scripts logs</string>
+    <string name="enable_logging_cloud">Memento Cloud</string>
+    <string name="enable_logging_triggers">Scripts</string>
     <string name="script_log">Script Log</string>
 
     <string name="trigger_permissions">Permissions for scripts</string>
@@ -1918,7 +1918,7 @@
     <string name="type_desc_barcode">The Barcode Field is used to scan barcodes or QR-codes.</string>
     <string name="type_desc_pass">A Password field may contain any textual data. The characters in a password field are masked (shown as asterisks).</string>
     <string name="type_desc_rich">A Rich Text field may contain any textual data, including text formatting information.</string>
-    <string name="type_desc_multiple_choice">A Multiple-choice List field is an set of text strings from which a user might select any or all.</string>
+    <string name="type_desc_multiple_choice">A Multiple-choice List field is a set of text strings from which a user might select any or all.</string>
     <string name="type_desc_checkboxes">The Checkboxes field allows to present one or many checkboxes which allow multiple selections.</string>
     <string name="type_desc_single_choice">A Single-choice field is an set of text strings from which a user might select one.</string>
     <string name="type_desc_radiobuttons">The radio buttons field is used to make a selection from a group of choices.</string>
@@ -2196,7 +2196,7 @@
     <string name="google_sheet_id_column_not_found">There is no key column in the Google Sheet table.</string>
     <string name="google_sheet_new_link_text"><![CDATA[This library will be linked to a new table <b>%s</b> on Google Drive.]]></string>
     <string name="google_sync_migration_to_v4">This library is synchronized using the deprecated method.\nPerform the rebinding of the library to the new table to use the new method.\nRun rebinding now?</string>
-    <string name="enable_logging_sheets">Google Sheets logs</string>
+    <string name="enable_logging_sheets">Google Sheets</string>
 
     <!--4.8.0-->
     <string name="position_column_1">1st column</string>
@@ -2250,4 +2250,22 @@
     <string name="add_group_field">Add group field</string>
     <string name="add_another_group_field">Add another group field</string>
     <string name="filter">Filter</string>
+
+    <!--4.8.1-->
+    <string name="comment_delete_message_text">Do you really want to delete this comment?</string>
+
+    <!--4.9.0-->
+    <string name="logs_empty">There are no logs files.</string>
+    <string name="logs_send">Send logs files</string>
+    <string name="choose_grouping_field">Choose a grouping field</string>
+    <string name="flex_type_title_dynamic_list">Dynamic list</string>
+    <string name="add_dynamic_list_item">List Item</string>
+    <string name="type_desc_dynamic_list">A Dynamic List field is a set of text strings with checkboxes. For example, it can be used for ToDo lists.</string>
+    <string name="type_desc_tags">A tag field is an editable text box where you can type in a tag and perform search other entries by it.</string>
+    <string name="entries_background_color">Entry background color</string>
+    <string name="flex_type_tags">Tags</string>
+    <string name="group_multiple_values_split">Split values</string>
+    <string name="unique_fields">Unique Fields</string>
+    <string name="entry_field_must_be_unique">The field %s is not unique</string>
+    <string name="non_unique_entries_message">There are non-unique entries in the library</string>
 </resources>
