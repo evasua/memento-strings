@@ -1615,12 +1615,12 @@ Tout droits réservés</string>
 
     <string name="from_file">Depuis un fichier</string>
     <string name="trigger_moment_open_form">Ouvrir une fenêtre d\'édition d\'un enregistrement</string>
-    <string name="enable_logging_triggers">Traçage des déclencheurs</string>
+    <string name="enable_logging_triggers">Scripts</string>
     <string name="script_log">Traçage des scripts</string>
 
     <string name="sign_up">S\'inscrire</string>
     <string name="trigger_event_open_entry">Ouverture d\'une vue de l\'enregistrement</string>
-    <string name="enable_logging_cloud">Appels sur le nuage Memento</string>
+    <string name="enable_logging_cloud">Nuage Memento</string>
     <string name="trigger_permission_read_file_hint">Permet aux scripts de lire à partir d\'un stockage externe</string>
     <string name="trigger_permission_write_file_hint">Permet aux scripts d\'écrire sur un stockage externe</string>
     <string name="login">S\'identifier</string>
@@ -2124,7 +2124,7 @@ SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base
     <string name="google_sync_migration_to_v4">Cette base est synchronisée en utilisant une méthode obsolète.
 Rattacher la base à une nouvelle table pour utiliser la nouvelle méthode.
 Exécuter le rattachement maintenant ?</string>
-    <string name="enable_logging_sheets">Journaux Google Sheets</string>
+    <string name="enable_logging_sheets">Google Sheets</string>
 
 <string name="position_column_1">1ère colonne</string>
     <string name="position_column_2">2e colonne</string>
@@ -2180,4 +2180,19 @@ Un champ est l\'équivalent d\'une colonne de feuille de tableur.</string>
     <string name="spotlight_library_edit_fields_text">Un champ est le support d\'une unité de donnée, ou valeur. Chaque champ a un type et un nom. Les champs peuvent aussi comporter des paramètres avancés ou des options d\'affichage.</string>
     <string name="spotlight_library_aggregation_text">L’agrégation est une fonction mathématique appliquée à tous les enregistrements de la base pour le champ sélectionné. Il vous aide à déterminer les valeurs minimales, maximales ou moyennes ou le total général.</string>
 
-    </resources>
+    <string name="comment_delete_message_text">Voulez-vous vraiment supprimer ce commentaire ?</string>
+
+    <string name="logs_empty">Il n\'y a aucun fichier de traces.</string>
+    <string name="logs_send">Envoyer les fichiers de traces</string>
+    <string name="choose_grouping_field">Choisir un champ de regroupement</string>
+    <string name="flex_type_title_dynamic_list">Liste dynamique</string>
+    <string name="add_dynamic_list_item">Liste d\'items</string>
+    <string name="type_desc_dynamic_list">Un champ Liste dynamique est un jeu de chaines de texte avec cases à cocher. Par exemple, il peut être utilisé pour des listes A faire.</string>
+    <string name="type_desc_tags">A tag field is an editable text box where you can type in a tag and perform search other entries by it.</string>
+    <string name="entries_background_color">Couleur de fond de l’enregistrement</string>
+    <string name="flex_type_tags">Étiquettes</string>
+    <string name="group_multiple_values_split">Séparer les valeurs</string>
+    <string name="unique_fields">Champs uniques</string>
+    <string name="entry_field_must_be_unique">Le champ %s n\'est pas unique</string>
+    <string name="non_unique_entries_message">Il y a des enregistrements non-uniques dans cette base</string>
+</resources>
