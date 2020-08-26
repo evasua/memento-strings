@@ -427,7 +427,7 @@ Pesquisar entradas criptografadas não são suportadas.</string>
     <string name="library_protection_pass">Senha</string>
     <string name="library_protection_pass_checkbox">Acesso por senha</string>
     <string name="buy_from_market_title">Compre através do Google Play</string>
-    <string name="buy_from_market_hint">Google Wallet</string>
+    <string name="buy_from_market_hint">Google Play</string>
     <string name="flex_type_password">Senha</string>
     <string name="flex_type_phone">Telefone</string>
     <string name="license_check">Verificando licenças</string>
@@ -1099,7 +1099,7 @@ Fazer isso agora?</string>
     <string name="welcome_text_title">Bem-vindo ao Banco de dados Memento</string>
     <string name="welcome_text_description">"A Biblioteca é o local onde suas informações serão armazenadas.  Você pode começar a se familiarizar com o Memento criando uma biblioteca baseada em um dos modelos fornecidos."</string>
 
-    <string name="memento_cloud">Memento Cloud</string>
+    <string name="memento_cloud">Nuvem Memento</string>
     <string name="start_remove_librarary_from_cloud">Excluindo biblioteca ...</string>
     <string name="success_remove_librarary_from_cloud">Biblioteca excluída com sucesso da nuvem</string>
     <string name="start_upload_library_to_cloud">A carregar biblioteca ...</string>
