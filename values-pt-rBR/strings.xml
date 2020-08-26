@@ -1515,8 +1515,8 @@ Um disparador é um script que define o processamento de uma entrada com base em
     <string name="debug_summary">Opções de registro</string>
     <string name="log_files_folder">Diretório de arquivos de log</string>
 
-    <string name="enable_logging_cloud">Chamadas do Memento Cloud</string>
-    <string name="enable_logging_triggers">Logs de scripts</string>
+    <string name="enable_logging_cloud">Nuvem Memento</string>
+    <string name="enable_logging_triggers">Scripts</string>
     <string name="script_log">Log de Script</string>
 
     <string name="trigger_permissions">Permissões para scripts</string>
@@ -1882,7 +1882,7 @@ Um disparador é um script que define o processamento de uma entrada com base em
     <string name="type_desc_barcode">O campo Código de barras é usado para digitalizar códigos de barras ou códigos QR.</string>
     <string name="type_desc_pass">"Um campo Senha pode conter quaisquer dados textuais.  Os caracteres em um campo de senha são mascarados (mostrados como asteriscos)."</string>
     <string name="type_desc_rich">Um campo Texto Enriquecido pode conter quaisquer dados textuais, incluindo informações de formatação de texto.</string>
-    <string name="type_desc_multiple_choice">Um campo Lista de múltipla escolha é um conjunto de cadeias de texto a partir das quais um usuário pode selecionar uma ou todas.</string>
+    <string name="type_desc_multiple_choice">Um campo de Lista de múltipla escolha é um conjunto de strings de texto a partir do qual um usuário pode selecionar qualquer uma ou todas.</string>
     <string name="type_desc_checkboxes">O campo Caixas de seleção permite apresentar uma ou várias caixas de seleção que permitem várias seleções.</string>
     <string name="type_desc_single_choice">Um campo Escolha única é um conjunto de cadeias de texto a partir das quais um usuário pode selecionar uma.</string>
     <string name="type_desc_radiobuttons">O campo de botões de rádio é usado para fazer uma seleção de um grupo de opções.</string>
@@ -2149,7 +2149,7 @@ Crie uma regra de transferência de entradas para migrar para qualquer bibliotec
     <string name="google_sync_migration_to_v4">Esta biblioteca é sincronizada usando o método descontinuado.
 Execute a religação da biblioteca para a nova tabela para usar o novo método.
 Executar a religação agora?</string>
-    <string name="enable_logging_sheets">Logs do Planilhas Google</string>
+    <string name="enable_logging_sheets">Planilhas Google</string>
 
     <string name="position_column_1">1a coluna</string>
     <string name="position_column_2">2a coluna</string>
@@ -2205,4 +2205,19 @@ Um campo é equivalente a uma coluna em uma planilha.</string>
     <string name="add_group_field">Adicionar campo de grupo</string>
     <string name="add_another_group_field">Adicionar outro campo de grupo</string>
     <string name="filter">Filtro</string>
+<string name="comment_delete_message_text">Você quer realmente excluir este comentário?</string>
+
+    <string name="logs_empty">Não há arquivos de log.</string>
+    <string name="logs_send">Enviar arquivos de registros</string>
+    <string name="choose_grouping_field">Escolha um campo de agrupamento</string>
+    <string name="flex_type_title_dynamic_list">Lista dinâmica</string>
+    <string name="add_dynamic_list_item">Item da Lista</string>
+    <string name="type_desc_dynamic_list">"Um campo de Lista Dinâmica é um conjunto de strings de texto com caixas de seleção.  Por exemplo, pode ser usado para listas de tarefas."</string>
+    <string name="type_desc_tags">Um campo de tag é uma caixa de texto editável onde você pode digitar uma tag e realizar a pesquisa de outras entradas por ela.</string>
+    <string name="entries_background_color">Cor de fundo da entrada</string>
+    <string name="flex_type_tags">Tags</string>
+    <string name="group_multiple_values_split">Valores de divisão</string>
+    <string name="unique_fields">Campos Únicos</string>
+    <string name="entry_field_must_be_unique">O campo %s não é único</string>
+    <string name="non_unique_entries_message">Existem entradas não exclusivas na biblioteca</string>
 </resources>
