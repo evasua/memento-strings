@@ -2016,7 +2016,7 @@ SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base
 
 
     <string name="agree_terms_privacy">"En créant un compte, vous acceptez  "<a href="https://mementodatabase.com#terms">les Conditions d\'utilisation</a> et <a href="http://mementodatabase.com#privacy_policy">la Politique de confidentialité</a> de Memento.</string>
-    <string name="enter_email_address_hint">Merci de saisir votre adresse email.</string>
+    <string name="enter_email_address_hint">Merci de saisir votre adresse email</string>
     <string name="duration_label_days">j</string>
     <string name="duration_label_hours">h</string>
     <string name="duration_label_minutes">m</string>
@@ -2113,7 +2113,7 @@ SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base
     <string name="max_number_of_users_limit_message">Vous ne pouvez choisir que %d utilisateurs</string>
 
 <string name="entries_view_type_kanban">Kanban</string>
-    <string name="staggered_grid">Grille échelonnée</string>
+    <string name="staggered_grid">Grille irrégulière</string>
     <string name="choose_google_account">Choisir un compte Google</string>
     <string name="selected_file_is_too_large">Le fichier sélectionné est trop volumineux</string>
 
@@ -2188,7 +2188,7 @@ Un champ est l\'équivalent d\'une colonne de feuille de tableur.</string>
     <string name="flex_type_title_dynamic_list">Liste dynamique</string>
     <string name="add_dynamic_list_item">Liste d\'items</string>
     <string name="type_desc_dynamic_list">Un champ Liste dynamique est un jeu de chaines de texte avec cases à cocher. Par exemple, il peut être utilisé pour des listes A faire.</string>
-    <string name="type_desc_tags">A tag field is an editable text box where you can type in a tag and perform search other entries by it.</string>
+    <string name="type_desc_tags">Un champ Étiquette est une boîte de texte éditable où vous pouvez saisir une étiquette et effectuer des recherches sur d\'autres enregistrements.</string>
     <string name="entries_background_color">Couleur de fond de l’enregistrement</string>
     <string name="flex_type_tags">Étiquettes</string>
     <string name="group_multiple_values_split">Séparer les valeurs</string>
