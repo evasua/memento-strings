@@ -2135,4 +2135,55 @@ Lag en oppføringsregel for å migrere til et hvilket som helst bibliotek.</stri
     <string name="google_sheet_new_link_text">Dette biblioteket vil bli koblet til en ny tabell <b>1%s</b>2 på Google Disk.</string>
     <string name="enable_logging_sheets">Google Regneark logger</string>
 
-</resources>
+<string name="google_sync_migration_to_v4">Dette biblioteket synkroniseres ved hjelp av utdatert metode.
+Utfør gjenoppretting av biblioteket til den nye tabellen for å bruke den nye metoden.
+Vil du gjenopprette nå?</string>
+    <string name="position_column_1">1. kolonne</string>
+    <string name="position_column_2">2. kolonne</string>
+    <string name="position_column_3">3. kolonne</string>
+    <string name="position_column_auto">Auto</string>
+    <string name="copy_to_google_docs">Kopier til Google Dokumenter</string>
+    <string name="google_docs_select_template">Velg mal</string>
+
+    <string name="google_docs_task_create_document2">Oppretter et dokument</string>
+    <string name="google_docs_task_delete_document2">Sletter et dokument</string>
+    <string name="delete_google_docs_template_dialog_text">Vil du virkelig slette malen \"%s\"?</string>
+    <string name="generating_doc">Genererer dokumentet...</string>
+    <string name="google_docs_out_folder_name">Mappenavn</string>
+    <string name="user_field_current_by_default_title">Nåværende bruker</string>
+
+    <string name="spotlight_create_library_by_template_title">Opprett et bibliotek</string>
+    <string name="spotlight_from_scratch_fields_title">Felt</string>
+    <string name="spotlight_from_scratch_fields_text"/>
+    <string name="spotlight_from_scratch_save_title">Lagre en struktur</string>
+    <string name="spotlight_from_scratch_save_text">Når feltene er lagt til, trykk \"Lagre\" for å begynne å legge til poster.</string>
+    <string name="spotlight_create_entry_title">Opprett en post</string>
+    <string name="spotlight_library_menu_title">Våre magiske verktøy</string>
+    <string name="spotlight_library_edit_title">Endre bibliotek</string>
+    <string name="spotlight_library_edit_text">Du kan endre biblioteket ditt når du vil - legg til eller endre felt.</string>
+    <string name="spotlight_library_edit_fields_title">Felt</string>
+    <string name="button_need_help">Trenger du hjelp?</string>
+    <string name="export_template_include_charts">Inkluder diagrammer</string>
+    <string name="sort_manually">Manuelt</string>
+    <string name="hide_column">Skjul kolonne</string>
+    <string name="filter">Filter</string>
+
+    <string name="comment_delete_message_text">Vil du virkelig slette denne kommentaren?</string>
+
+    <string name="logs_empty">Det finnes ingen loggfiler.</string>
+    <string name="logs_send">Send loggfiler</string>
+    <string name="choose_grouping_field"/>
+    <string name="flex_type_title_dynamic_list">Dynamisk liste</string>
+    <string name="entries_background_color">Velg bakgrunnsfarge</string>
+    <string name="entry_field_must_be_unique">Feltet %s er ikke unikt</string>
+    <string name="google_sheet_id_column_not_found">Det finnes ingen nøkkelkolonne i Google-regnearket.</string>
+    <string name="google_docs_templates_empty">Det finnes ingen Google Dokumentmaler i dette biblioteket</string>
+    <string name="google_docs_task_step_auth2">Autentiserer mot Dokumenter-tjenesten</string>
+    <string name="entry_has_been_copied_to_docs">Posten er blitt kopiert til Google Dokumenter</string>
+    <string name="entries_has_been_copied_to_docs">Postene er blitt kopiert til Google Dokumenter</string>
+    <string name="preparing_doc">Forbereder poster...</string>
+    <string name="google_docs_left_operations">I Gratis- og Lite-versjonene er antallet operasjoner begrenset til %d pr. dag. Du har %d igjen.</string>
+    <string name="need_pro_for_google_docs">I gratisversjonen kan kun kopiere 10 poster pr. dag.
+Oppgrader til PRO-versjonen for å fjerne denne begrensningen.</string>
+
+    </resources>
