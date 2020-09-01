@@ -2125,4 +2125,58 @@
     <string name="enable_logging_sheets">Zapisnici Google tablica</string>
 
     <string name="image_caption">Naslov</string>
-    </resources>
+    <string name="position_column_1">1. kolona</string>
+    <string name="position_column_2">2. kolona</string>
+    <string name="position_column_3">3. kolona</string>
+    <string name="position_column_auto">Automatski</string>
+    <string name="copy_to_google_docs">Kopiraj u Google dokumente</string>
+    <string name="google_docs_select_template">Odaberi predložak</string>
+
+    <string name="google_docs_templates_empty">U ovoj knjižici nema predložaka Google Dokumenata</string>
+    <string name="google_docs_task_create_document2">Napravi dokument</string>
+    <string name="google_docs_task_delete_document2">Obriši dokument</string>
+    <string name="google_docs_task_step_auth2">Autentifikacija za uslugu Docs</string>
+    <string name="delete_google_docs_template_dialog_text">Želite li stvarno izbrisati predložak \"%s\"?</string>
+    <string name="generating_doc">Generiranje dokumenta ...</string>
+    <string name="populating_table">Popunjavanje tablice ...</string>
+    <string name="entry_has_been_copied_to_docs">Unos je kopiran u Google dokumente</string>
+    <string name="entries_has_been_copied_to_docs">Unosi su kopirani u Google dokumente</string>
+    <string name="google_docs_out_folder_name">Ime mape</string>
+    <string name="google_docs_out_folder_hint">Odaberite mapu koja će sadržavati izlazne dokumente</string>
+    <string name="preparing_doc">Priprema unosa ...</string>
+    <string name="google_docs_left_operations">U verzijama Free i Lite, broj operacija ograničen je na %d dnevno, preostalo vam je %d.</string>
+    <string name="need_pro_for_google_docs">Besplatna verzija omogućuje vam kopiranje samo 10 unosa dnevno.
+Nadogradite na PRO verziju da biste onemogućili ovo ograničenje.</string>
+
+    <string name="user_field_current_by_default_title">Trenutni korisnik</string>
+
+    <string name="spotlight_create_library_by_template_title">Napravi knjižicu</string>
+    <string name="spotlight_create_library_by_template_text">Dodirnite \"Spremi\" da biste stvorili novu knjižicu na temelju ovog predloška.</string>
+
+    <string name="spotlight_from_scratch_title">Početi od nule</string>
+    <string name="spotlight_from_scratch_text">Memento organizira vaše podatke u knjižnice. Knjižice slične radnim listovima u proračunskoj tablici.
+Prvo upišite naziv svoje nove knjižice, odaberite ikonu i boju za nju.</string>
+    <string name="spotlight_from_scratch_fields_title">Polja</string>
+    <string name="spotlight_from_scratch_fields_text">Na ovoj kartici možete definirati polja za svaki unos u ovoj knjižici.
+Polje je ekvivalent stupcu u proračunskoj tablici.</string>
+    <string name="spotlight_from_scratch_save_title">Spremi strukturu</string>
+    <string name="spotlight_from_scratch_save_text">Nakon što se polja dodaju, dodirnite \"Spremi\" za početak dodavanja unosa.</string>
+    <string name="spotlight_create_entry_title">Napravi unos</string>
+    <string name="spotlight_create_entry_text">Dodirnite \"+\" da biste stvorili prvi unos u ovoj knjižici.</string>
+    <string name="spotlight_library_menu_title">Naši čarobni alati</string>
+    <string name="spotlight_library_menu_text">Ako želite prilagoditi sortiranje ili filtriranje, promijenite prikaz u Tablica, Karta ili Kalendar, dodajte grafikone ili promijenite skup polja, ovdje dodirnite.</string>
+    <string name="spotlight_library_edit_title">Uredi knjižicu</string>
+    <string name="spotlight_library_edit_text">Svoju knjižnicu možete promijeniti u bilo kojem trenutku - dodati ili urediti polja.</string>
+    <string name="spotlight_library_edit_fields_title">Polja</string>
+    <string name="spotlight_library_edit_fields_text">Polje je držač jedinice podataka ili vrijednosti. Svako polje ima vrstu i naziv. Polja također mogu imati napredne parametre ili mogućnosti prikaza.</string>
+    <string name="spotlight_library_aggregation_title">Sakupljanje</string>
+    <string name="spotlight_library_aggregation_text">Sakupljanje je matematička funkcija koja se primjenjuje na sve unose u knjižici odabranim poljem. Pomaže vam da pronađete minimalnu, maksimalnu ili prosječnu vrijednost ili ukupni zbroj.</string>
+
+    <string name="button_need_help">Trebate pomoć?</string>
+    <string name="export_template_include_charts">Sadrži grafikone</string>
+    <string name="sort_manually">Ručno</string>
+    <string name="hide_column">Sakrij kolone</string>
+    <string name="add_group_field">Dodajte grupno polje</string>
+    <string name="add_another_group_field">Dodajte još jedno grupno polje</string>
+    <string name="filter">Filter</string>
+</resources>

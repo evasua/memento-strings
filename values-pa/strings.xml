@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources><string name="app_name">ਮੀਮੈਂਟੋ</string>
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="app_name">ਮੀਮੈਂਟੋ</string>
     <string name="library_menu_add_item">ਇੰਦਰਾਜ ਜੋੜੋ</string>
     <string name="main_menu_add_lib">ਲਾਇਬ੍ਰੇਰੀ ਜੋੜੋ</string>
     <string name="ghostData_lib_title">ਲਾਇਬ੍ਰੇਰੀ ਦਾ ਨਾਮ</string>
@@ -89,7 +89,7 @@
     <string name="date_default_now">ਮੂਲ ਤੌਰ \'ਤੇ ਹਾਲੀਆ ਮਿਤੀ</string>
     <plurals name="NItemsFind">
 	<item quantity="one">1 ਇੰਦਰਾਜ ਲੱਭਿਆ</item>
-	<item quantity="other">ਇੰਜਰਾਜ ਲੱਭੇ: <xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="COUNT">%d</xliff:g></item>
+	<item quantity="other">ਇੰਜਰਾਜ ਲੱਭੇ: <xliff:g id="COUNT">%d</xliff:g></item>
 </plurals>
     <string name="pager">ਪੇਜਰ</string>
     <string name="audio_not_found">ਕੋਈ ਆਡੀਓ ਟ੍ਰੈਕ ਨਹੀਂ ਲੱਭਿਆ</string>
@@ -138,7 +138,8 @@
     <string name="activation_ok">ਮੀਮੈਂਟੋ ਚਾਲੂ ਕਰਨ ਲਈ ਤੁਹਾਡਾ ਧੰਨਵਾਦ</string>
     <string name="activation_error">ਚਾਲੂ ਕਰਨ ਵਾਲੀ ਕੁੰਜੀ ਅਯੋਗ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਮੁੜ-ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
     <string name="about">ਇਸ ਬਾਰੇ</string>
-    <string name="copyright">ਕਾਪੀਰਾਈਟ 2015 ਲੱਕੀ-ਡਰਾਇਡ\nਸਾਰੇ ਹੱਕ ਰਾਖਵੇਂ ਹਨ</string>
+    <string name="copyright">ਕਾਪੀਰਾਈਟ © 2020 MementoDB Inc.
+ਸਾਰੇ ਹੱਕ ਰਾਖਵੇਂ ਹਨ</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">ਆਦੇਸ਼ਕਾਰੀ ਦਾ ਸੰਸਕਰਣ ਦੇਖੋ</string>
     <string name="about_license_type">ਲਾਇਸੈਂਸ:</string>
@@ -612,4 +613,14 @@
     <string name="build_navigate_list_dialog">ਇੰਦਰਾਜ ਟਿਕਾਏ ਜਾ ਰਹੇ ਹਨ ...</string>
     <string name="navigate_first_entry">ਇਹ ਪਹਿਲਾ ਇੰਦਰਾਜ ਹੈ</string>
     <string name="navigate_last_entry">ਇਹ ਆਖ਼ਰੀ ਇੰਦਰਾਜ ਹੈ</string>
+    <string name="google_docs_task_step_process_row" formatted="false">Processing a list rows. %s of %s</string>
+    <string name="filter">ਛਾਂਟੀ</string>
+<string name="add_another_group_field">ਹੋਰ ਗਰੁੱਪ ਖੇਤਰ ਜੋੜੋ</string>
+    <string name="button_need_help">ਮਦਦ ਚਾਹੀਦੀ ਹੈ?</string>
+    <string name="export_template_include_charts">ਚਾਰਟ ਸ਼ਾਮਲ ਕਰੋ</string>
+    <string name="hide_column">ਕਾਲਮ ਲੁਕਾਓ</string>
+    <string name="spotlight_library_edit_text">ਤੁਸੀਂ ਕਦੇ ਵੀ ਆਪਣੀ ਲਾਇਬ੍ਰੇਰੀ ਬਦਲ ਸਕਦੇ ਹੋ – ਖੇਤਰ ਜੋੜੋ ਜਾਂ ਸੋਧੋ।</string>
+    <string name="spotlight_library_edit_fields_title">ਖੇਤਰ</string>
+    <string name="spotlight_library_menu_title">ਸਾਡੇ ਜਾਦੂਈ ਸੰਦ</string>
+    <string name="spotlight_from_scratch_save_title">ਢਾਂਚਾ ਸਾਂਭੋ</string>
     </resources>

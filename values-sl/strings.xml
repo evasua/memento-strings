@@ -31,7 +31,7 @@
     <string name="flex_type_rating">Ocena</string>
     <string name="flex_type_web">Hiperpovezava</string>
     <string name="flex_type_map">Lokacija</string>
-    <string name="flex_type_real">Prava številka</string>
+    <string name="flex_type_real">Realno število</string>
     <string name="field_list_caption">Vnosna polja knjižnice</string>
     <string name="flextemplate_up_item">Gor</string>
     <string name="flextemplate_down_item">Dol</string>
@@ -642,7 +642,7 @@ Poslali smo ti E-mail, ki ti bo omogočil hitro in enostavno ponastavitev gesla.
     <string name="flex_type_int_list">Cele vrednosti</string>
     <string name="flex_type_int_default_value">Določi privzeto vrednost</string>
     <string name="flex_type_int_min">Začni</string>
-    <string name="flex_type_int_max">Končaj</string>
+    <string name="flex_type_int_max">Konec</string>
     <string name="flex_type_int_main_options_title">Zaporedje števil</string>
     <string name="flex_type_int_allow_direct_input">Dovoli neposreden vnos</string>
     <string name="flex_type_int_allow_direct_input2">neposreden vnos</string>
@@ -869,7 +869,7 @@ razvrsti, združi, filtri, grafikoni in še več ...</string>
     <string name="icon_pack_title_field_edu_flat">Izobraževanje</string>
     <string name="icon_pack_title_field_mult_flat">Multimedija</string>
     <string name="icon_pack_title_field_net_flat">Omrežje</string>
-    <string name="library_tile_options">Položite na ploščico</string>
+    <string name="library_tile_options">Položite na ploščice</string>
     <string name="show_icon_on_tile">Ikona knjižnice</string>
     <string name="show_num_entries_on_tile">Število vnosov</string>
     <string name="show_update_time_on_tile">Čas urejanja</string>
@@ -926,7 +926,7 @@ tekstovno polje</string>
     <string name="aggregation_delete_message">Ali res želiš izbrisati združevanje \"%s\"?</string>
     <string name="aggregation_need_select_field_message">Za to funkcijo združevanja morate izbrati polje</string>
     <string name="open_object_by_uri_error">Ni mogoče odpreti objekta: %s</string>
-    <string name="import_and_export_menu_item">Uvoz in izvoz</string>
+    <string name="import_and_export_menu_item">Uvažanje in izvažanje</string>
     <string name="entries_export_snackbar_ok">Vnosi so bili uspešno izvoženi</string>
     <string name="entries_import_result_dialog_title">Uvoz vnosov</string>
     <string name="csv_import_total_lines">Obdelane vrstice:</string>
@@ -2096,7 +2096,7 @@ Ustvarite pravilo za prenos vnosov za preselitev v katero koli knjižnico.</stri
     <string name="duration_display_format_option_title">Format trajanja</string>
     <string name="duration_display_format_short">Kratko</string>
     <string name="duration_display_format_long">Dolgo</string>
-    <string name="type_desc_duration">Polje trajanje lahko vsebuje vrednost, ki se uporablja za prikaz trajanja časa, izmerjenega v dnevih, urah, minutah, sekundah ali milisekundah.</string>
+    <string name="type_desc_duration">Polje trajanja lahko vsebuje vrednost, ki se uporablja za prikaz trajanja časa, izmerjenega v dnevih, urah, minutah, sekundah ali milisekundah.</string>
 
     <plurals name="after_entries_multiedit_message">
 	<item quantity="one">En vnos je bil urejen</item>
@@ -2170,7 +2170,7 @@ Ustvarite pravilo za prenos vnosov za preselitev v katero koli knjižnico.</stri
     <string name="not_set">Ni nastavljeno</string>
     <string name="objects_limit_option_title">Omejeno</string>
     <string name="max_number_of_users">Maks. število uporabnikov</string>
-    <string name="no_limit">Neomejeno</string>
+    <string name="no_limit">Brez omejitev</string>
     <string name="conditional_permission">Odvisno od polja</string>
     <string name="conditional_field_empty">Izbrati morate polje \"Uporabnik\", ki bo dalo dovoljenja za operacijo.</string>
     <string name="conditional_permission_limit">Pravice dostopa v polju \"Uporabnik\" se lahko določijo samo na ekipnih paketih.</string>
@@ -2195,4 +2195,58 @@ Za uporabo nove metode izvedite ponovno povezavo knjižnice na novo tabelo.
 Ali želite sedaj zagnati ponovno povezavo?</string>
     <string name="enable_logging_sheets">Dnevniki Google Preglednic</string>
 
+<string name="position_column_1">1. stolpec</string>
+    <string name="position_column_2">2. stolpec</string>
+    <string name="position_column_3">3. stolpec</string>
+    <string name="position_column_auto">Samodejno</string>
+    <string name="copy_to_google_docs">Kopiraj v Google Dokumenti</string>
+    <string name="google_docs_select_template">Izberite predlogo</string>
+
+    <string name="google_docs_templates_empty">V tej knjižnici ni Google Dokumentovih predlog</string>
+    <string name="google_docs_task_create_document2">Ustvari dokument</string>
+    <string name="google_docs_task_delete_document2">Izbriši dokument</string>
+    <string name="google_docs_task_step_auth2">Preverjanje pristnosti za storitev Dokumenti</string>
+    <string name="delete_google_docs_template_dialog_text">Ali res želite izbrisati predlogo \"%s\"?</string>
+    <string name="generating_doc">Ustvarjanje dokumenta ...</string>
+    <string name="populating_table">Izpolnjevanje tabele ...</string>
+    <string name="entry_has_been_copied_to_docs">Vnos je skopiran v Google Dokumente</string>
+    <string name="entries_has_been_copied_to_docs">Vnosi so bili skopirani v Google Dokumente</string>
+    <string name="google_docs_out_folder_name">Ime mape</string>
+    <string name="google_docs_out_folder_hint">Določite mapo, ki bo vsebovala izhodne dokumente</string>
+    <string name="preparing_doc">Priprava vnosov ...</string>
+    <string name="google_docs_left_operations">V različicah Free in Lite je število operacij omejeno na %d na dan, ostalo vam jih je še %d.</string>
+    <string name="need_pro_for_google_docs">Brezplačna različica omogoča kopiranje samo 10 vnosov na dan.
+Nadgradite na različico PRO, da odstranite to omejitev.</string>
+
+    <string name="user_field_current_by_default_title">Trenutni uporabnik</string>
+
+    <string name="spotlight_create_library_by_template_title">Ustvari knjižnico</string>
+    <string name="spotlight_create_library_by_template_text">Tapnite \"Shrani\", da ustvarite novo knjižnico na podlagi te predloge.</string>
+
+    <string name="spotlight_from_scratch_title">Začni od začetka</string>
+    <string name="spotlight_from_scratch_text">Memento vaše podatke organizira v knjižnice. Knjižnica, podobna delovnim listom v preglednici.
+Najprej vnesite ime nove knjižnice, izberite ikono in barvo zanjo.</string>
+    <string name="spotlight_from_scratch_fields_title">Polja</string>
+    <string name="spotlight_from_scratch_fields_text">Na tem zavihku lahko določite polja za vsak vnos v tej knjižnici.
+Polje je ekvivalent stolpca v preglednici.</string>
+    <string name="spotlight_from_scratch_save_title">Shrani strukturo</string>
+    <string name="spotlight_from_scratch_save_text">Ko so polja dodana, tapnite »Shrani«, da začnete dodajati vnose.</string>
+    <string name="spotlight_create_entry_title">Ustvari vnos</string>
+    <string name="spotlight_create_entry_text">Tapnite \"+\", da ustvarite prvi vnos v tej knjižnici.</string>
+    <string name="spotlight_library_menu_title">Naša magična orodja</string>
+    <string name="spotlight_library_menu_text">Če želite prilagoditi razvrščanje ali filtriranje, spremeniti pogled v Tabela, Zemljevid ali Koledar, dodati grafikone ali spremenite niz polj, tapnite tukaj.</string>
+    <string name="spotlight_library_edit_title">Uredi Knjižnico</string>
+    <string name="spotlight_library_edit_text">Vašo knjižnico lahko kadar koli spremenite - dodate ali uredite polja.</string>
+    <string name="spotlight_library_edit_fields_title">Polja</string>
+    <string name="spotlight_library_edit_fields_text">Polje je nosilec za enote podatkov ali vrednosti. Vsako polje ima svojo vrsto in ime. Polja imajo lahko tudi napredne parametre ali možnosti prikaza.</string>
+    <string name="spotlight_library_aggregation_title">Združevanje</string>
+    <string name="spotlight_library_aggregation_text">Združevanje je matematična funkcija, ki jo za vse vnose v knjižnici uporablja izbrano polje. Pomaga vam najti minimalno, največjo ali povprečno vrednost ali skupno vsoto.</string>
+
+    <string name="button_need_help">Potrebujete pomoč?</string>
+    <string name="export_template_include_charts">Vključi grafikone</string>
+    <string name="sort_manually">Ročno</string>
+    <string name="hide_column">Skrij stolpec</string>
+    <string name="add_group_field">Dodajte skupinsko polje</string>
+    <string name="add_another_group_field">Dodajte še eno skupinsko polje</string>
+    <string name="filter">Filter</string>
 </resources>

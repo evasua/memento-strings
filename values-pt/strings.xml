@@ -250,7 +250,7 @@
     <string name="please_wait">Por favor, aguarde...</string>
     <!-- 1.4.0 -->
     <string name="public_library_title">Publicando biblioteca</string>
-    <string name="public_to_picasa_message">Enviando biblioteca de imagens para o Google photos</string>
+    <string name="public_to_picasa_message">Enviando biblioteca de imagens para o Google Fotos</string>
     <string name="public_to_picasa_create_album">Criando um álbum do Google photos para as bibliotecas publicadas</string>
     <string name="public_to_picasa_success">As images foram transferidas para o Google photos</string>
     <string name="picasa_task_step_auth">Autenticação no serviço Google photos</string>
@@ -273,7 +273,7 @@
     <string name="create_memento_account_dlg_text">A registar o utilizador no servidor Memento ...</string>
     <string name="memento_register_user_exists">Esse nome de utilizador já existe</string>
     <string name="memento_register_email_exists">Já existe um utilizador com esse endereço de email</string>
-    <string name="memento_server_error">Erro do servidor. Tente novamente mais tarde.</string>
+    <string name="memento_server_error">Erro do servidor, tente novamente mais tarde</string>
     <string name="memento_account_title">Conta Memento</string>
     <string name="memento_create_account_button">Nova conta</string>
     <string name="memento_auth_error">Erro no nome do utilizador ou na palavra-passe</string>
@@ -283,7 +283,7 @@
     <string name="public_library_task_auth">Autenticando no serviço Memento</string>
     <string name="public_library_task_send_template">Transferindo a biblioteca modelo</string>
     <string formatted="false" name="public_library_task_send_items">Transferindo entradas da biblioteca.\n%s de %s</string>
-    <string name="memento_not_support_template">A sua versão do Memento está desactualizada. Actualize-a, por favor.</string>
+    <string name="memento_not_support_template">A sua versão do Memento está desactualizada, actualize-a, por favor</string>
     <string name="memento_not_found">Recurso não encontrado</string>
     <string name="alias_hint">Indique um nome alternativo da biblioteca</string>
     <string name="button_publish">Publicar</string>
@@ -425,7 +425,7 @@
     <string name="library_protection_pass_checkbox">Acesso por palavra-passe</string>
     <!-- while not used -->
     <string name="buy_from_market_title">Compre pelo Google Play</string>
-    <string name="buy_from_market_hint">Google Wallet</string>
+    <string name="buy_from_market_hint">Google Play</string>
     <!-- 1.6.2 -->
     <string name="flex_type_password">Palavra-passe</string>
     <string name="flex_type_phone">Telefone</string>
@@ -898,7 +898,7 @@
     <string name="icon_pack_title_field_edu_flat">Educação</string>
     <string name="icon_pack_title_field_mult_flat">Multimédia</string>
     <string name="icon_pack_title_field_net_flat">Rede</string>
-    <string name="library_tile_options">Colocar no mosaico</string>
+    <string name="library_tile_options">Colocar no cartão</string>
     <string name="show_icon_on_tile">Ícone da biblioteca</string>
     <string name="show_num_entries_on_tile">Número de entradas</string>
     <string name="show_update_time_on_tile">Hora da edição</string>
@@ -965,7 +965,7 @@
     <string name="aggregation_delete_message">Quer realmente apagar a agregação \"%s\" ?</string>
     <string name="aggregation_need_select_field_message">Deve seleccionar um campo por cada função de agregação</string>
     <string name="open_object_by_uri_error">Não é possível abrir o objecto: %s</string>
-    <string name="import_and_export_menu_item">Importar e exportar...</string>
+    <string name="import_and_export_menu_item">Importar e exportar</string>
     <string name="entries_export_snackbar_ok">Entradas exportadas com sucesso</string>
     <string name="entries_import_result_dialog_title">Entradas importadas</string>
     <string name="csv_import_total_lines">Linhas processadas:</string>
@@ -1513,7 +1513,7 @@
     <string name="trigger_permission_write_file">Escrever ficheiros</string>
     <string name="trigger_permission_write_file_hint">Permite aos scripts escrever no armazenamento externo</string>
     <string name="trigger_permission_network">Rede</string>
-    <string name="trigger_permission_network_hint">Permite aos scripts executar solicitações HTTP</string>
+    <string name="trigger_permission_network_hint">Permite aos scripts executar solicitações HTTP e enviar emails.</string>
 
     <string name="trigger_permission_libraries">Bibliotecas</string>
     <string name="trigger_permission_libraries_hint">Acesso a todas as bibliotecas</string>
@@ -1628,7 +1628,7 @@
     <string name="uom_watt">Watt</string>
     <string name="uom_kilowatt">Quilowatt</string>
     <string name="uom_megawatt">Megawatt</string>
-    <string name="uom_horsepower">Cavalos</string>
+    <string name="uom_horsepower">Cavalo-vapor</string>
 
     <string name="uom_category_energy">Energia</string>
     <string name="uom_joule">Joule</string>
@@ -1740,7 +1740,7 @@
     <string name="repository_data_sources_hint">Origem de dados para preenchimento automático</string>
     <string name="warning">Aviso</string>
     <string name="add_javascript_library">Adicionar bibliotecas javascript.</string>
-    <string name="add_repository">Adicionar repositório</string>
+    <string name="add_repository">Adicionar repositório GitHub</string>
     <string name="repository_location_hint">Endereço do Repositório GitHub</string>
     <string name="repository_location_error">Indicar o endereço HTTPS para o repositório GitHub. Exemplo:\nhttps://github.com/username/repo-name</string>
     <string name="repository_not_found_error">Não é possível encontrar o repositório: %s</string>
@@ -1836,7 +1836,7 @@
     <string name="wizard_field_name_examples">Por exemplo, pode ter campos para \'título\', \'descrição\', \'tipo de equipamento\', \'custo\', \'tamanho\', \'localização\', etc.</string>
     <string name="wizard_field_type_title">Cada campo é concebido para guardar un tipo específico de dados.</string>
     <string name="wizard_field_display_options_title">Deseja mostrar os valores deste campo na lista de entradas?</string>
-    <string name="wizard_field_display_no">Não, obrigado.</string>
+    <string name="wizard_field_display_no">Não, obrigado</string>
     <string name="wizard_field_display_name">Como Nome de Entrada</string>
     <string name="wizard_field_display_thumb">Como Miniatura de Entrada</string>
     <string name="wizard_field_display_desc">Como Descrição de Entrada</string>
@@ -1990,4 +1990,209 @@
     <string name="begin_year">Início</string>
     <string name="end_year">Fim</string>
     <string name="years_range_wrong">O final do ano deve ser maior ou igual ao início do ano</string>
-</resources>
+<string name="filter">Filtro</string>
+<string name="wiki">Wiki</string>
+
+    <string name="orientation_portrait">Retrato</string>
+    <string name="orientation_landscape">Paisagem</string>
+    <string name="scale_mode">Ajustar ao espaço</string>
+    <string name="scale_size">Escala</string>
+    <string name="pdf_scale_mode_crop">Recortar</string>
+    <string name="pdf_scale_mode_expand">Expandir</string>
+    <string name="pdf_scale_mode_fit">Ajustar</string>
+    <string name="workplace">Área de trabalho</string>
+    <string name="share_filters">Partilhar filtros</string>
+    <string name="share_charts">Partilhar gráficos</string>
+    <string name="shared_by">Partilhado por %s</string>
+    <string name="share_workplace_limit">Desculpe, só pode partilhar gráficos ou filtros com a subscrição Equipa.</string>
+    <string name="bulk_action">Acção em bloco</string>
+    <string name="action_context_bulk_actions">Menu de acções em bloco</string>
+    <string name="move_to">Mover para...</string>
+    <string name="copy_to">Copiar para...</string>
+    <string name="move_to_no_libraries">Não há bibliotecas compatíveis com a biblioteca actual. 
+Por favor, crie uma regra de transferência de entradas para migrar para qualquer biblioteca.</string>
+    <string name="migrate">Migrar</string>
+    <string name="barcode_display_error">Desculpe, não é possível codificar um código de barras com os dados fornecidos</string>
+    <string name="barcode_format">Formato do código de barras</string>
+    <string name="barcode_format_auto">Autodetecção</string>
+    <string name="orientation">Orientação</string>
+    <string name="paper_size">Tamanho do papel</string>
+    <string name="camera_permission_title">Câmara</string>
+    <string name="camera_permission_required_text">Para capturar uma imagem, é necessário o acesso à câmara. Vá a configurações para dar permissão.</string>
+    <string name="require_external_audio_app">Memento usa uma aplicação externa de gravação áudio. Deseja instalá-la?</string>
+
+
+    <string name="agree_terms_privacy">Ao criar uma conta, concorda com 
+<a href="https://mementodatabase.com#terms"> os Termos de Utilização </a> e <a href="http://mementodatabase.com#privacy_policy"> Política dee Privacidade </a> de Memento.</string>
+    <string name="enter_email_address_hint">Por favor, indique o seu endereço de email</string>
+    <string name="duration_label_days">d</string>
+    <string name="duration_label_hours">h</string>
+    <string name="duration_label_minutes">m</string>
+    <string name="duration_label_seconds">s</string>
+    <string name="duration_label_mseconds">ms</string>
+    <string name="duration_precision_option_title">Precisão da duração</string>
+    <string name="duration_precision_min">Unidade Mínima</string>
+    <string name="duration_precision_max">Unidade Máxima</string>
+    <string name="duration_precision_wrong">A unidade máxima deve ser maior ou igual à unidade mínima</string>
+    <plurals name="duration_ms">
+	<item quantity="one">Um
+1 ms</item>
+	<item quantity="other">Outros
+%d ms</item>
+</plurals>
+    <string name="duration_display_format_option_title">Formato da duração</string>
+    <string name="duration_display_format_short">Abreviado</string>
+    <string name="duration_display_format_long">Longo</string>
+    <string name="type_desc_duration">"Um campo Duração pode conter um valor que é utilizado para representar uma duração de tempo medida em  dias, horas, minutos, segundos ou milisegundos."</string>
+
+    <plurals name="after_entries_multiedit_message">
+	<item quantity="one">Um
+Foi editada uma entrada</item>
+	<item quantity="other">Outros
+Foram editadas %d entradas</item>
+</plurals>
+
+    <string name="locals_js_libraries">Locais</string>
+    <string name="js_libraries_add_url">Adicionar URL</string>
+    <string name="js_file_url">URL do ficheiro JavaScript</string>
+    <string name="js_file_url_error">Indique a ligação HTTP/HTTPS do ficheiro JavaScript.</string>
+    <string name="js_file_url_not_found">Não é possível encontrar o ficheiro JavaScript neste URL: %S</string>
+    <string name="image_capture_size">Tamanho da captura de imagem</string>
+    <string name="image_capture_size_original">Original</string>
+    <string name="max_width">Largura máxima</string>
+    <string name="max_height">Altura máxima</string>
+    <string name="speech_recognition_not_supported">O reconhecimento de voz não é suportado</string>
+
+    <string name="templates_category_personal">Pessoal</string>
+    <string name="templates_category_collections">Colecções</string>
+    <string name="templates_category_business">Negócios</string>
+    <string name="templates_category_healthy">Saúde &amp; Desporto</string>
+    <string name="templates_category_travel">Viagens</string>
+    <string name="templates_category_edu">Educação</string>
+    <string name="board_games">Jogos de Mesa</string>
+    <string name="new_database">Nova base de dados</string>
+
+    <string name="send_entries_too_large">Desculpe, não pode enviar todas estas entradas como texto. Há demasiados dados.</string>
+    <string name="request_button">Solicitar</string>
+
+    <string name="edit_library_not_available">Só o proprietário pode mudar a estrutura de uma biblioteca.</string>
+    <string name="menu">Menu</string>
+    <string name="period_this_year">Este ano</string>
+    <string name="number_filter_types_between">Entre</string>
+    <string name="field_role_hidden">Campo oculto</string>
+    <string name="field_role_hidden_short">oculto</string>
+    <string name="export_hidden_fields">Exportar campos ocultos</string>
+    <string name="move_select_destination">Seleccionar destino</string>
+    <string name="match_fields">Campos coincidentes</string>
+    <string name="dest_fields">Campos de destino</string>
+    <string name="move_rules_empty">Não há regras para a função mover nesta biblioteca</string>
+
+    <string name="delete_move_rule_dialog_title">Apagar regra</string>
+    <string name="delete_move_rule_dialog_message">Deseja mesmo apagar a regra para mover \"%s\" ?</string>
+    <string name="no_field">Não há campo</string>
+    <string name="moving_entries">Movendo entradas. %d de %d.</string>
+    <string name="copying_entries2">Copiando entradas. %d de %d.</string>
+    <plurals name="moving_entries_success">
+	<item quantity="one">Um
+%d entrada foi movida para a biblioteca %s</item>
+	<item quantity="other">Outros
+%d entradas foram movidas para a biblioteca %s</item>
+</plurals>
+    <plurals name="copying_entries_success">
+	<item quantity="one">Um
+%d entrada foi copiada para a biblioteca %s</item>
+	<item quantity="other">Outros
+%d entradas foram copiadas para a biblioteca %s</item>
+</plurals>
+    <string name="need_pro_for_move_entries">As entradas só podem ser movidas ou copiadas para outra biblioteca na versão PRO do programa.</string>
+    <string name="create_copy">Criar uma cópia</string>
+    <string name="move_or_copy">Mover ou copiar</string>
+    <string name="duplicate">Duplicar</string>
+
+    <string name="buy_license_key_hint">Comprar uma licença PRO para Android</string>
+    <string name="flex_type_user">Utilizador</string>
+    <string name="select_user">Seleccionar um utilizador</string>
+    <string name="select_user_empty_list">Não há mais utilizadores para seleccionar</string>
+    <string name="memento_full_name_hint">Nome completo</string>
+    <string name="not_set">Não atribuído</string>
+    <string name="objects_limit_option_title">Limite</string>
+    <string name="max_number_of_users">Número máximo de utilizadores</string>
+    <string name="no_limit">Sem limite</string>
+    <string name="conditional_permission">Depende do campo</string>
+    <string name="conditional_field_empty">Deve seleccionar o campo \"Utilizador\" que dará as permissões para a operação.</string>
+    <string name="conditional_permission_limit">Os direitos de acesso ao campo \"Utilizador\" estão reservados às tarifas Equipa.</string>
+    <string name="filter_rule_is_one_of">É um de</string>
+    <string name="filter_rule_is_not_one_of">Não é um de</string>
+    <string name="send_email">Enviar email</string>
+    <string name="type_desc_user">O campo utilizador permite seleccionar um ou mais utilizadores da lista de todos os utilizadores com quem partilha a biblioteca.</string>
+    <string name="field_copied_to_clipboard">%s copiado para a área de transferência</string>
+    <string name="max_number_of_users_limit_message">Só pode escolher %d utilizadores</string>
+
+    <string name="entries_view_type_kanban">Kanban</string>
+    <string name="staggered_grid">Grelha escalonada</string>
+    <string name="choose_google_account">Escolha uma conta Google</string>
+    <string name="selected_file_is_too_large">O ficheiro seleccionado é demasiado grande</string>
+
+    <string name="google_sheet_not_found">A folha de cálculo %d não foi encontrada.</string>
+    <string name="google_sheet_header_not_found">Não há linha de cabeçalho na tabela da folha de cálculo Google.</string>
+    <string name="google_sheet_id_column_not_found">Não há coluna chave na tabela da folha de cálculo Google.</string>
+    <string name="google_sheet_new_link_text">A biblioteca será ligada a uma nova tabela <b>%s</b> no Google Drive.</string>
+    <string name="google_sync_migration_to_v4">Esta biblioteca está sincronizada usando um método desactualizado.
+Execute a religação da biblioteca para a nova tabela para usar o novo método. 
+Executar agora?</string>
+    <string name="enable_logging_sheets">Registos de Folhas ds Cálculo Google</string>
+
+    <string name="position_column_1">1a coluna</string>
+    <string name="position_column_2">2a coluna</string>
+    <string name="position_column_3">3a coluna</string>
+    <string name="position_column_auto">Auto</string>
+    <string name="copy_to_google_docs">Copiar para Google Docs</string>
+    <string name="google_docs_select_template">Seleccionar um modelo</string>
+
+    <string name="google_docs_templates_empty">Não há modelos Google Docs nesta biblioteca</string>
+    <string name="google_docs_task_create_document2">Criando um documento</string>
+    <string name="google_docs_task_delete_document2">Apagando um documento</string>
+    <string name="google_docs_task_step_auth2">Autenticando no serviço Docs</string>
+    <string name="delete_google_docs_template_dialog_text">Confirma apagar o midelo \"%s\"?</string>
+    <string name="generating_doc">Gerando o documento...</string>
+    <string name="populating_table">A preencher a tabela...</string>
+    <string name="entry_has_been_copied_to_docs">A entrada foi copiada para o Google Docs</string>
+    <string name="entries_has_been_copied_to_docs">As entradas foram copiadas para o Google Docs</string>
+    <string name="google_docs_out_folder_name">Nome da pasta</string>
+    <string name="google_docs_out_folder_hint">Indique uma pasta para onde irão os documentos feitos</string>
+    <string name="preparing_doc">Preparando as entradas...</string>
+    <string name="google_docs_left_operations">Nas versões Free e Lite, o número de operações está limitada a %d por dia, tem %d disponíveis.</string>
+    <string name="need_pro_for_google_docs">A versão gratuita permite copiar apenas 10 entradas por dia.
+Actualize para PRO para remover esta limitação.</string>
+
+    <string name="user_field_current_by_default_title">Utilizador actual</string>
+
+    <string name="spotlight_create_library_by_template_title">Criar uma biblioteca</string>
+    <string name="spotlight_create_library_by_template_text">Toque em \"Guardar\" para criar uma nova biblioteca baseada neste modelo.</string>
+
+    <string name="spotlight_from_scratch_title">Começar do nada</string>
+    <string name="spotlight_from_scratch_text">Memento organiza a sua informação em bibliotecas. Uma biblioteca é como uma folha de cálculo.
+Primeiro, indique o nome da nova biblioteca, seleccione o ícone e a cor.</string>
+    <string name="spotlight_from_scratch_fields_title">Campos</string>
+    <string name="spotlight_from_scratch_fields_text">Neste separador, pode definir campos para cada entrada nesta biblioteca.
+Um campo é equivalente a uma coluna numa folha de cálculo.</string>
+    <string name="spotlight_from_scratch_save_title">Guardar a estrutura</string>
+    <string name="spotlight_from_scratch_save_text">Depois de adicionar os campos, toque em \"Guardar\" para começar a adicionar entradas.</string>
+    <string name="spotlight_create_entry_title">Criar uma entrada</string>
+    <string name="spotlight_create_entry_text">Toque em \"+\" para criar a primeira entrada nesta biblioteca.</string>
+    <string name="spotlight_library_menu_title">As nossas ferramentas mágicas</string>
+    <string name="spotlight_library_menu_text">Para ajustar a ordenação ou filtragem, mudar para a vista Tabela, Mapa ou Calendário, adicionar Gráficos ou alterar um conjunto de campos, toque aqui.</string>
+    <string name="spotlight_library_edit_title">Editar biblioteca</string>
+    <string name="spotlight_library_edit_text">Pode modificar a sua Biblioteca em qualquer momento - adicionar ou editar campos.</string>
+    <string name="spotlight_library_edit_fields_title">Campos</string>
+    <string name="spotlight_library_edit_fields_text">Um campo é um suporte de uma unidade de dados ou valor. Cada campo tem um tipo e um nome. Os campos podem ter também parâmetros avançados ou opções de visualização.</string>
+    <string name="spotlight_library_aggregation_title">Agregação</string>
+    <string name="spotlight_library_aggregation_text">Agregação é uma função matemática aplicada a todas as entradas na Biblioteca pelo campo seleccionado. Ajuda a encontrar o valor mínimo, máximo ou a média ou a soma total.</string>
+
+    <string name="button_need_help">Precisa de ajuda?</string>
+    <string name="export_template_include_charts">Incluir gráficos</string>
+    <string name="sort_manually">Manualmente</string>
+    <string name="hide_column">Ocultar coluna</string>
+    <string name="add_group_field">Adicionar campo de grupo</string>
+    <string name="add_another_group_field">Adicionar outro campo de grupo</string>
+    </resources>
