@@ -73,10 +73,9 @@
     <string name="search_hint">Pesquisar entradas</string>
     <string name="search_parse_exception_messagee">Cadeia de pesquisa inválida</string>
     <plurals name="NItemsFind">
-	<item quantity="one">1 entrada encontrada</item>
-	<item quantity="other">Entradas encontradas: 
-<xliff:g id="COUNT"> 1%d</xliff:g> 2</item>
-</plurals>
+	<item quantity="one">%d entrada encontrada</item>
+	<item quantity="other">Entradas encontradas:<xliff:g id="COUNT"> 1%d</xliff:g> 2</item>
+    </plurals>
     <string name="memento_search">Pesquisa Memento</string>
     <string name="memento_search_in_lib">Pesquisa Memento em %s</string>
     <string name="removed">Removido em %s</string>
@@ -659,7 +658,7 @@ Atualize para a versão PRO para desativar esta limitação.</string>
     <string name="field_depends_activity_title">Dependências</string>
     <string name="no_dependencies">sem dependências</string>
     <plurals name="field_depends_count">
-	<item quantity="one">Uma dependência</item>
+	<item quantity="one">%d dependência</item>
 	<item quantity="other">%d dependências</item>
 </plurals>
     <string name="add_depends_button_title">Adicione uma dependência</string>
@@ -881,11 +880,11 @@ Você pode ativar o recurso de edição nas configurações desta biblioteca.</s
     <string name="show_update_time_on_tile">Tempo de edição</string>
     <string name="only_title_on_tile">Somente o nome da biblioteca</string>
     <plurals name="fields_count">
-	<item quantity="one">Um campo</item>
+	<item quantity="one">%d campo</item>
 	<item quantity="other">%d campos</item>
 </plurals>
     <plurals name="libraries_count">
-	<item quantity="one">Uma biblioteca</item>
+	<item quantity="one">%d biblioteca</item>
 	<item quantity="other">%d bibliotecas</item>
 </plurals>
     <string name="empty">Vazio</string>
@@ -1024,19 +1023,19 @@ Executar a religação agora?</string>
     <string name="free_version_multi_field_limit">"Na versão gratuita, você pode adicionar apenas dois elementos.  Atualize para a versão PRO para remover esta restrição."</string>
     <string name="scale">Escala %d</string>
     <plurals name="duration_seconds">
-	<item quantity="one">1 segundo</item>
+	<item quantity="one">%d segundo</item>
 	<item quantity="other">%d segundos</item>
 </plurals>
     <plurals name="duration_minutes">
-	<item quantity="one">1 minuto</item>
+	<item quantity="one">%d minuto</item>
 	<item quantity="other">%d minutos</item>
 </plurals>
     <plurals name="duration_hours">
-	<item quantity="one">1 hora</item>
+	<item quantity="one">%d hora</item>
 	<item quantity="other">%d horas</item>
 </plurals>
     <plurals name="duration_days">
-	<item quantity="one">1 dia</item>
+	<item quantity="one">%d dia</item>
 	<item quantity="other">%d dias</item>
 </plurals>
     <string name="all">Tudo</string>
@@ -1154,7 +1153,7 @@ A biblioteca será sincronizada automaticamente.</string>
     <string name="upload_file_to_cloud">A carregar ficheiro ...</string>
     <string name="upload_files_to_cloud">Upload de arquivos</string>
     <string name="cloud_upload_error_title">Não foi possível sincronizar esta biblioteca</string>
-    <string name="upload_big_file_error" formatted="false">A entrada% s contém um arquivo grande %s (%s).
+    <string name="upload_big_file_error" formatted="false">A entrada %s contém um arquivo grande %s (%s).
 O tamanho máximo do arquivo é %s.</string>
     <string name="prepare_library_for_cloud">A biblioteca está em processamento ...</string>
     <string name="download_files_from_cloud">Fazendo download de arquivos da nuvem ...</string>
@@ -1462,7 +1461,7 @@ Exclua a cópia local da biblioteca e faça o download da biblioteca novamente n
 
     <string name="no_comments">Sem comentários</string>
     <plurals name="comments_count">
-	<item quantity="one">Um comentário</item>
+	<item quantity="one">%d comentário</item>
 	<item quantity="other">%d comentários</item>
 </plurals>
     <string name="comments_only_for_cloud">"Os comentários podem ser postados apenas nas bibliotecas que foram carregadas na nuvem.  Carregar uma biblioteca para a nuvem?"</string>
@@ -1699,7 +1698,7 @@ Um disparador é um script que define o processamento de uma entrada com base em
     <string name="user_group_name_empty">O nome do grupo não deve estar vazio</string>
     <string name="users_count_none">Sem usuários</string>
     <plurals name="users_count">
-	<item quantity="one">Um usuário</item>
+	<item quantity="one">%d usuário</item>
 	<item quantity="other">%d usuários</item>
 </plurals>
     <string name="user_group_delete_message">Deseja realmente excluir o grupo \"%s\"?</string>
@@ -1725,7 +1724,7 @@ Um disparador é um script que define o processamento de uma entrada com base em
     <string name="entries_view_type_cards">Cartões</string>
     <string name="card_view_number_of_columns">Número de colunas</string>
     <plurals name="columns_count">
-	<item quantity="one">Uma coluna</item>
+	<item quantity="one">%d coluna</item>
 	<item quantity="other">%d colunas</item>
 </plurals>
 
@@ -2052,7 +2051,7 @@ Crie uma regra de transferência de entradas para migrar para qualquer bibliotec
     <string name="duration_precision_max">Unidade Máxima</string>
     <string name="duration_precision_wrong">A unidade máxima deve ser maior ou igual à unidade mínima</string>
     <plurals name="duration_ms">
-	<item quantity="one">1 ms</item>
+	<item quantity="one">%d ms</item>
 	<item quantity="other">%d ms</item>
 </plurals>
     <string name="duration_display_format_option_title">Formato de duração</string>
@@ -2061,7 +2060,7 @@ Crie uma regra de transferência de entradas para migrar para qualquer bibliotec
     <string name="type_desc_duration">Um campo Duração pode conter um valor usado para representar uma duração medida em dias, horas, minutos, segundos ou milissegundos.</string>
 
     <plurals name="after_entries_multiedit_message">
-	<item quantity="one">Uma entrada foi editada</item>
+	<item quantity="one">%d entrada foi editada</item>
 	<item quantity="other">%d entradas foram editadas</item>
 </plurals>
 
