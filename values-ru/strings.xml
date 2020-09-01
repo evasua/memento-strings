@@ -2259,5 +2259,24 @@
     <string name="add_another_group_field">Добавить ещё поле</string>
     <string name="filter">Фильтр</string>
 
+    <!--4.8.1-->
+    <string name="comment_delete_message_text">Вы действительно хотите удалить этот комментарий?</string>
+
+    <!--4.9.0-->
+    <string name="logs_empty">Нет файлов журналов.</string>
+    <string name="logs_send">Отправить файлы журналов</string>
+    <string name="choose_grouping_field">Выберите поле группировки</string>
+    <string name="flex_type_title_dynamic_list">Список</string>
+    <string name="add_dynamic_list_item">Новая строка</string>
+    <string name="type_desc_dynamic_list">Поле типа "Список" - это набор текстовых строк с флажками. Например, его можно использовать для списков дел.</string>
+    <string name="type_desc_tags">Поле типа "Теги" - это редактируемое текстовое поле, в котором вы можете вводить теги и и выполнять поиск по ним других записей.</string>
+    <string name="entries_background_color">Цвет фона записи</string>
+    <string name="flex_type_tags">Теги</string>
+    <string name="group_multiple_values_split">Разделить значения</string>
+    <string name="unique_fields">Уникальные поля</string>
+    <string name="entry_field_must_be_unique">Значение поля %s не уникально</string>
+    <string name="non_unique_entries_message">В библиотеке есть не уникальные записи</string>
+    <string name="primary_external_storage">Основное внешнее хранилище</string>
+
 </resources>
 

@@ -75,7 +75,7 @@
     <string name="search_hint">Pesquisar</string>
     <string name="search_parse_exception_messagee">Cadeia de pesquisa inválida</string>
     <plurals name="NItemsFind">
-	    <item quantity="one">1 entrada encontrada</item>
+	    <item quantity="one">%d entrada encontrada</item>
 	    <item quantity="other">Entradas encontradas:<xliff:g id="COUNT">%d</xliff:g></item>
     </plurals>
     <string name="memento_search">Pesquisa Memento</string>
@@ -141,7 +141,7 @@
     <string name="activation_ok">Obrigado por activar Memento</string>
     <string name="activation_error">O código de activação é inválido. Por favor, tente novamente.</string>
     <string name="about">Sobre</string>
-    <string name="copyright">Copyright © 2019 LuckyDroid\nTodos os direitos reservados</string>
+    <string name="copyright">Copyright © 2020 MementoDB Inc.\nTodos os direitos reservados</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Verificar versão do programa</string>
     <string name="about_license_type">Licença:</string>
@@ -586,7 +586,7 @@
     <string name="main_menu_add_lib_group">Adicionar Biblioteca ou Grupo</string>
     <string name="no_entries">Sem entradas</string>
     <plurals name="library_box_entries_count">
-	<item quantity="one">Um registo</item>
+	<item quantity="one">%d registo</item>
 	<item quantity="other">%d registos</item>
 </plurals>
     <string name="add_group_dialog_text">Nome do grupo</string>
@@ -665,7 +665,7 @@
     <string name="flex_type_int_list">Valores inteiros</string>
     <string name="flex_type_int_default_value">Indique o valor por defeito</string>
     <plurals name="field_depends_count">
-	<item quantity="one">Uma</item>
+	<item quantity="one">%d</item>
 	<item quantity="other">Várias %d</item>
 </plurals>
     <string name="visible_field_depend_pretitle">Estado do campo %s</string>
@@ -904,11 +904,11 @@
     <string name="show_update_time_on_tile">Hora da edição</string>
     <string name="only_title_on_tile">Só o nome da biblioteca</string>
     <plurals name="fields_count">
-	<item quantity="one">Um campo</item>
+	<item quantity="one">%d campo</item>
 	<item quantity="other">%d campos</item>
 </plurals>
     <plurals name="libraries_count">
-	<item quantity="one">Uma biblioteca</item>
+	<item quantity="one">%d biblioteca</item>
 	<item quantity="other">%d Bibliotecas</item>
 </plurals>
     <string name="empty">Vazia</string>
@@ -948,7 +948,7 @@
     <string name="string_list_import_error">Ocorreu um erro ao importar: %s</string>
     <string name="something_wrong_dialog_title">Alguma coisa está mal</string>
     <plurals name="string_list_import_snackbar_ok">
-	<item quantity="one">Foi importado um item</item>
+	<item quantity="one">Foi importado %d item</item>
 	<item quantity="other">Foram importados %d itens</item>
 </plurals>
     <string name="export_template_snackbar_ok">O modelo foi exportado</string>
@@ -1044,19 +1044,19 @@
     <string name="auto_backup_when_edit_libs">Antes de alterar bibliotecas</string>
     <string name="free_version_multi_field_limit">Na versão gratuita, só pode adicionar dois elementos. Actualize para a versão PRO para remover esta restrição.</string>
     <plurals name="duration_seconds">
-	<item quantity="one">1 segundo</item>
+	<item quantity="one">%d segundo</item>
 	<item quantity="other">%d segundos</item>
 </plurals>
     <plurals name="duration_minutes">
-	<item quantity="one">1 minuto</item>
+	<item quantity="one">%d minuto</item>
 	<item quantity="other">%d minutos</item>
 </plurals>
     <plurals name="duration_hours">
-	<item quantity="one">1 hora</item>
+	<item quantity="one">%d hora</item>
 	<item quantity="other">%d horas</item>
 </plurals>
     <plurals name="duration_days">
-	<item quantity="one">1 dia</item>
+	<item quantity="one">%d dia</item>
 	<item quantity="other">%d dias</item>
 </plurals>
     <string name="page">Página</string>
@@ -1453,7 +1453,7 @@
 
     <string name="no_comments">Sem comentários</string>
     <plurals name="comments_count">
-	<item quantity="one">Um comentário</item>
+	<item quantity="one">%d comentário</item>
 	<item quantity="other">%d comentários</item>
 </plurals>
     <string name="comments_only_for_cloud">Os comentários só podem ser publicados para as bibliotecas que foram enviadas para a nuvem. Enviar uma biblioteca para a nuvem?</string>
@@ -1682,7 +1682,7 @@
     <string name="user_group_name_empty">O nome do grupo não pode ficar vazio</string>
     <string name="users_count_none">Sem utilizadores</string>
     <plurals name="users_count">
-	<item quantity="one">Um utilizador</item>
+	<item quantity="one">%d utilizador</item>
 	<item quantity="other">%d utilizadores</item>
 </plurals>
     <string name="user_group_delete_message">Deseja mesmo apagar o grupo \"%s\"?</string>
@@ -1708,7 +1708,7 @@
     <string name="entries_view_type_cards">Cartões</string>
     <string name="card_view_number_of_columns">Número de colunas</string>
     <plurals name="columns_count">
-	<item quantity="one">Uma coluna</item>
+	<item quantity="one">%d coluna</item>
 	<item quantity="other">%d colunas</item>
 </plurals>
 
@@ -2035,21 +2035,17 @@ Por favor, crie uma regra de transferência de entradas para migrar para qualque
     <string name="duration_precision_max">Unidade Máxima</string>
     <string name="duration_precision_wrong">A unidade máxima deve ser maior ou igual à unidade mínima</string>
     <plurals name="duration_ms">
-	<item quantity="one">Um
-1 ms</item>
-	<item quantity="other">Outros
-%d ms</item>
-</plurals>
+	    <item quantity="one">Um %d ms</item>
+	    <item quantity="other">Outros %d ms</item>
+    </plurals>
     <string name="duration_display_format_option_title">Formato da duração</string>
     <string name="duration_display_format_short">Abreviado</string>
     <string name="duration_display_format_long">Longo</string>
     <string name="type_desc_duration">"Um campo Duração pode conter um valor que é utilizado para representar uma duração de tempo medida em  dias, horas, minutos, segundos ou milisegundos."</string>
 
     <plurals name="after_entries_multiedit_message">
-	<item quantity="one">Um
-Foi editada uma entrada</item>
-	<item quantity="other">Outros
-Foram editadas %d entradas</item>
+	<item quantity="one">Um Foi editada %d entrada</item>
+	<item quantity="other">Outros Foram editadas %d entradas</item>
 </plurals>
 
     <string name="locals_js_libraries">Locais</string>
