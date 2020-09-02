@@ -2209,9 +2209,9 @@ Um campo é equivalente a uma coluna em uma planilha.</string>
     <string name="logs_empty">Não há arquivos de log.</string>
     <string name="logs_send">Enviar arquivos de registros</string>
     <string name="choose_grouping_field">Escolha um campo de agrupamento</string>
-    <string name="flex_type_title_dynamic_list">Lista dinâmica</string>
+    <string name="flex_type_title_dynamic_list">Lista</string>
     <string name="add_dynamic_list_item">Item da Lista</string>
-    <string name="type_desc_dynamic_list">"Um campo de Lista Dinâmica é um conjunto de strings de texto com caixas de seleção.  Por exemplo, pode ser usado para listas de tarefas."</string>
+    <string name="type_desc_dynamic_list">"Um campo Lista é um conjunto de strings de texto com caixas de seleção.  Por exemplo, pode ser usado para listas de tarefas."</string>
     <string name="type_desc_tags">Um campo de tag é uma caixa de texto editável onde você pode digitar uma tag e realizar a pesquisa de outras entradas por ela.</string>
     <string name="entries_background_color">Cor de fundo da entrada</string>
     <string name="flex_type_tags">Tags</string>
@@ -2219,4 +2219,5 @@ Um campo é equivalente a uma coluna em uma planilha.</string>
     <string name="unique_fields">Campos Únicos</string>
     <string name="entry_field_must_be_unique">O campo %s não é único</string>
     <string name="non_unique_entries_message">Existem entradas não exclusivas na biblioteca</string>
+<string name="primary_external_storage">Armazenamento Externo Primário</string>
 </resources>
