@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="library_menu_add_item">dodaj vnos</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"><string name="library_menu_add_item">Dodaj vnos</string>
     <string name="main_menu_add_lib">Dodaj knjižnico</string>
     <string name="restore_files_message">Rezervna kopija vsebuje arhiv z datotekami, povezanimi z bazo; jih želite obnoviti?</string>
     <string name="ghostData_lib_title">Ime knjižnice</string>
@@ -1541,8 +1541,8 @@ Sprožilec je skript, ki določa obdelavo vnosa na podlagi dogodka, ki se je zgo
     <string name="debug_summary">Možnosti pisanja dnevnika</string>
     <string name="log_files_folder">Imenik dnevniških datotek</string>
 
-    <string name="enable_logging_cloud">Memento Cloud klici</string>
-    <string name="enable_logging_triggers">Dnevniki skriptov</string>
+    <string name="enable_logging_cloud">Memento Cloud</string>
+    <string name="enable_logging_triggers">Skripti</string>
     <string name="script_log">Dnevnik skripta</string>
 
     <string name="trigger_permissions">Dovoljenja za skripte</string>
@@ -1912,7 +1912,7 @@ Sprožilec je skript, ki določa obdelavo vnosa na podlagi dogodka, ki se je zgo
     <string name="type_desc_barcode">Polje črtne kode se uporablja za skeniranje črtnih kod ali QR kod.</string>
     <string name="type_desc_pass">Polje z geslom lahko vsebuje kakršne koli tekstovne podatke. Znaki v polju z geslom so maskirani (prikazani kot zvezdice).</string>
     <string name="type_desc_rich">Polje za obogateno besedilo lahko vsebuje kakršne koli tekstovne podatke, vključno s podatki o oblikovanju besedila.</string>
-    <string name="type_desc_multiple_choice">Seznam z več izbirami je niz tekstovnih nizov, iz katerih lahko uporabnik izbere poljubno ali vse.</string>
+    <string name="type_desc_multiple_choice">Seznam z več izbirami je nabor tekstovnih nizov, iz katerih lahko uporabnik izbere poljubnega ali vse.</string>
     <string name="type_desc_checkboxes">Potrditveno polje omogoča predstavitev enega ali več potrditvenih polj, ki omogočajo več izbirnih možnosti.</string>
     <string name="type_desc_single_choice">Polje z eno izbiro je nabor tekstovnih nizov, iz katerih lahko uporabnik izbere enega.</string>
     <string name="type_desc_radiobuttons">Radijski gumbi se uporablja za izdelavo izbora iz skupine izbir.</string>
@@ -2193,7 +2193,7 @@ Ustvarite pravilo za prenos vnosov za preselitev v katero koli knjižnico.</stri
     <string name="google_sync_migration_to_v4">Ta knjižnica se sinhronizira po zastareli metodi.
 Za uporabo nove metode izvedite ponovno povezavo knjižnice na novo tabelo.
 Ali želite sedaj zagnati ponovno povezavo?</string>
-    <string name="enable_logging_sheets">Dnevniki Google Preglednic</string>
+    <string name="enable_logging_sheets">Google Preglednice</string>
 
 <string name="position_column_1">1. stolpec</string>
     <string name="position_column_2">2. stolpec</string>
@@ -2249,4 +2249,20 @@ Polje je ekvivalent stolpca v preglednici.</string>
     <string name="add_group_field">Dodajte skupinsko polje</string>
     <string name="add_another_group_field">Dodajte še eno skupinsko polje</string>
     <string name="filter">Filter</string>
+<string name="comment_delete_message_text">Ali res želite izbrisati ta komentar?</string>
+
+    <string name="logs_empty">Ni datotek dnevnikov.</string>
+    <string name="logs_send">Pošlji datoteke dnevnikov</string>
+    <string name="choose_grouping_field">Izberi polje za razvrščanje</string>
+    <string name="flex_type_title_dynamic_list">Seznam</string>
+    <string name="add_dynamic_list_item">Element seznama</string>
+    <string name="type_desc_dynamic_list">Polje seznam je nabor tekstovnih nizov s potrditvenimi polji. Na primer, lahko se uporablja za sezname opravil.</string>
+    <string name="type_desc_tags">Polje oznake je polje z besedilom za urejanje, v katerega lahko vnesete oznako in po njej iščete druge vnose.</string>
+    <string name="entries_background_color">Vnos barve ozadja</string>
+    <string name="flex_type_tags">Označbe</string>
+    <string name="group_multiple_values_split">Razdeljene vrednosti</string>
+    <string name="unique_fields">Edinstvena polja</string>
+    <string name="entry_field_must_be_unique">Polje %s ni edinstveno</string>
+    <string name="non_unique_entries_message">V knjižnici so neenotni vnosi</string>
+    <string name="primary_external_storage">Primarni zunanji pomnilnik</string>
 </resources>
