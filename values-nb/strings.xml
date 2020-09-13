@@ -410,7 +410,7 @@ Alle rettigheter reservert</string>
     <string name="set_library_protection_title">Krypter oppføringer</string>
     <string name="set_library_protection_message">Krypterer bibliotekets oppføringer ...</string>
     <string name="remove_library_protection">Fjern beskyttelse</string>
-    <string name="remove_library_protection_desc">Ingen passord behøves for å få tilgang til dette bibliotek</string>
+    <string name="remove_library_protection_desc">Ingen passord behøves for å få tilgang til dette biblioteket</string>
     <string name="remove_library_protection_question">Vil du virkelig oppheve beskyttelsen for biblioteket?</string>
     <string name="preference_category_security">Sikkerhet</string>
     <string name="remove_library_protection_title">Fjern beskyttelse</string>
@@ -1395,7 +1395,7 @@ Alle rettigheter reservert</string>
     <string name="need_permission_dialog_title">Tillatelser påkrevd</string>
     <string name="need_permission_dialog_text">Denne operasjonen krever system tillatelse - %s</string>
     <string name="unlock_linked_library_text">Tilknyttet bibliotek er kryptert, du må angi hovedpassordet</string>
-    <string name="preview_calc_exec_time">Kjørbar tid: %d ms</string>
+    <string name="preview_calc_exec_time">Kjøretid: %d ms</string>
     <string name="group_by_and">Alt av (OG)</string>
     <string name="group_by_or">Noe av (ELLER)</string>
     <string name="field_delimiters">Feltavgrensning</string>
@@ -1581,7 +1581,7 @@ Alle rettigheter reservert</string>
     <string name="uom_ton">Tonn</string>
     <string name="uom_ton_uk">Imperial tonn</string>
     <string name="uom_ton_us">US tonn</string>
-    <string name="uom_pound">Pound</string>
+    <string name="uom_pound">Pund</string>
     <string name="uom_ounce">Ounce</string>
 
     <string name="uom_category_volume">Volum</string>
@@ -1752,7 +1752,7 @@ Alle rettigheter reservert</string>
     <string name="repository_other">Andre</string>
 
     <string name="map_field_current_by_default_title">Nåværende lokasjon</string>
-    <string name="map_field_current_by_default_hint">Få gjeldende plassering som standard</string>
+    <string name="map_field_current_by_default_hint">Få nåværende plassering som standard</string>
     <string name="receiving_document_content">Motta dokumentinnhold</string>
     <string name="find_address">Finn adresse</string>
     <string name="privacy_policy">Retningslinjer for personvern</string>
@@ -1896,7 +1896,7 @@ Alle rettigheter reservert</string>
     <string name="advanced_search">Avansert søk</string>
     <string name="quick_filter_for_text">For tekst</string>
     <string name="quick_filter_for_numbers">For tall</string>
-    <string name="save_as_filter">Lagre som et filter</string>
+    <string name="save_as_filter">Lagre som filter</string>
     <string name="save_as_filter_success">Nytt filter er opprettet</string>
     <string name="years_range_wrong">Årsslutt må være større enn eller lik årsstart</string>
 <string name="end_year">Slutt</string>
@@ -2016,7 +2016,7 @@ Alle rettigheter reservert</string>
     <string name="require_external_audio_app">Memento bruker et eksternt lydopptaksprogram. Vil du installere det?</string>
 
 
-    <string name="enter_email_address_hint">Vennligst skriv inn E-postadressen din</string>
+    <string name="enter_email_address_hint">Vennligst skriv inn epostadressen din</string>
     <string name="duration_label_days">d</string>
     <string name="duration_label_hours">t</string>
     <string name="duration_label_minutes">m</string>
@@ -2066,7 +2066,7 @@ Alle rettigheter reservert</string>
     <string name="conditional_permission">Avhenger av felt</string>
     <string name="filter_rule_is_one_of">Er en av</string>
     <string name="filter_rule_is_not_one_of">Er ikke en av</string>
-    <string name="send_email">Send e-post</string>
+    <string name="send_email">Send epost</string>
     <string name="pdf_scale_mode_crop">Beskjær</string>
     <string name="pdf_scale_mode_expand">Utvid</string>
     <string name="share_charts">Del diagrammer</string>
