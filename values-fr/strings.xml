@@ -2146,8 +2146,7 @@ Exécuter le rattachement maintenant ?</string>
     <string name="google_docs_out_folder_hint">Indiquez un dossier qui contiendra les documents produits</string>
     <string name="preparing_doc">Préparation des enregistrements...</string>
     <string name="google_docs_left_operations">Dans les versions Free et Lite, le nombre d\'opérations est limité à %d par jour, il vous en reste %d.</string>
-    <string name="need_pro_for_google_docs">La version gratuite vous permet de copier un maximum de 10 enregistrements par jour.
-Passez à la version PRO pour lever cette limite.</string>
+    <string name="need_pro_for_google_docs">La version gratuite vous permet de copier un maximum de 10 enregistrements par jour.\nPassez à la version PRO pour lever cette limite.</string>
 
     <string name="user_field_current_by_default_title">Utilisateur actuel</string>
 
@@ -2155,11 +2154,9 @@ Passez à la version PRO pour lever cette limite.</string>
     <string name="spotlight_create_library_by_template_text">Taper \"Save\" pour créer une nouvelle base sur ce modèle.</string>
 
     <string name="spotlight_from_scratch_title">Partir de rien</string>
-    <string name="spotlight_from_scratch_text">Memento organise vos informations en bases. Les bases sont identiques aux feuilles d\'un classeur de tableur.
-D\'abord, entrez le nom de votre base, sélectionnez un icône et une couleur associée.</string>
+    <string name="spotlight_from_scratch_text">Memento organise vos informations en bases. Les bases sont identiques aux feuilles d\'un classeur de tableur.\nD\'abord, entrez le nom de votre base, sélectionnez un icône et une couleur associée.</string>
     <string name="spotlight_from_scratch_fields_title">Champs</string>
-    <string name="spotlight_from_scratch_fields_text">Sur cet onglet, vous définissez les champs pour chaque enregistrement de la base.
-Un champ est l\'équivalent d\'une colonne de feuille de tableur.</string>
+    <string name="spotlight_from_scratch_fields_text">Sur cet onglet, vous définissez les champs pour chaque enregistrement de la base.\nUn champ est l\'équivalent d\'une colonne de feuille de tableur.</string>
     <string name="spotlight_from_scratch_save_title">Sauvegarder la structure</string>
     <string name="spotlight_from_scratch_save_text">Une fois le champ ajouté, taper \"Save\" pour commencer à ajouter des enregistrements.</string>
     <string name="spotlight_create_entry_title">Créer un enregistrement</string>
@@ -2176,7 +2173,7 @@ Un champ est l\'équivalent d\'une colonne de feuille de tableur.</string>
     <string name="add_group_field">Ajouter un champ groupe</string>
     <string name="add_another_group_field">Ajouter un autre champ groupe</string>
     <string name="filter">Filtre</string>
-<string name="spotlight_library_menu_text">Pour ajuster le tri, le filtre, passer a une vue Table, Carte ou Calendrier, ajouter des graphiques ou modifier des champs, cliquez ici.</string>
+    <string name="spotlight_library_menu_text">Pour ajuster le tri, le filtre, passer a une vue Table, Carte ou Calendrier, ajouter des graphiques ou modifier des champs, cliquez ici.</string>
     <string name="spotlight_library_edit_fields_text">Un champ est le support d\'une unité de donnée, ou valeur. Chaque champ a un type et un nom. Les champs peuvent aussi comporter des paramètres avancés ou des options d\'affichage.</string>
     <string name="spotlight_library_aggregation_text">L’agrégation est une fonction mathématique appliquée à tous les enregistrements de la base pour le champ sélectionné. Il vous aide à déterminer les valeurs minimales, maximales ou moyennes ou le total général.</string>
 
@@ -2189,7 +2186,7 @@ Un champ est l\'équivalent d\'une colonne de feuille de tableur.</string>
     <string name="add_dynamic_list_item">Liste d\'items</string>
     <string name="type_desc_dynamic_list">Un champ Liste dynamique est un jeu de chaines de texte avec cases à cocher. Par exemple, il peut être utilisé pour des listes A faire.</string>
     <string name="type_desc_tags">Un champ Étiquette est une boîte de texte éditable où vous pouvez saisir une étiquette et effectuer des recherches sur d\'autres enregistrements.</string>
-    <string name="entries_background_color">Couleur de fond de l’enregistrement</string>
+    <string name="entries_background_color">Couleur de fond de l\'enregistrement</string>
     <string name="flex_type_tags">Étiquettes</string>
     <string name="group_multiple_values_split">Séparer les valeurs</string>
     <string name="unique_fields">Champs uniques</string>

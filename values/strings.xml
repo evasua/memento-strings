@@ -2261,7 +2261,7 @@
     <string name="flex_type_title_dynamic_list">List</string>
     <string name="add_dynamic_list_item">List Item</string>
     <string name="type_desc_dynamic_list">A List field is a set of text strings with checkboxes. For example, it can be used for ToDo lists.</string>
-    <string name="type_desc_tags">A tag field is an editable text box where you can type in a tag and perform search other entries by it.</string>
+    <string name="type_desc_tags">A Tags field is an editable text box where you can type in a word and perform search other entries by it.</string>
     <string name="entries_background_color">Entry background color</string>
     <string name="flex_type_tags">Tags</string>
     <string name="group_multiple_values_split">Split values</string>
@@ -2269,4 +2269,5 @@
     <string name="entry_field_must_be_unique">The field %s is not unique</string>
     <string name="non_unique_entries_message">There are non-unique entries in the library</string>
     <string name="primary_external_storage">Primary External Storage</string>
+    <string name="chart_field_missing">Cannot find the field for the chart. Perhaps, it was deleted.</string>
 </resources>
