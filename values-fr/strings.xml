@@ -1945,7 +1945,7 @@ Tout droits réservés</string>
     <string name="permission_contacts_title">Contacts</string>
     <string name="permission_contacts_text">Il est impératif de donner l\'accès aux contacts à Memento pour les champs de type Contact.</string>
     <string name="boolean_format">Format</string>
-    <string name="boolean_format_on">Étiquette \"On\"</string>
+    <string name="boolean_format_on">Étiquettes activées</string>
     <string name="boolean_format_off">Etiquette \"Off\"</string>
     <string name="plans_comparison">Consulter l\'intégralité de notre comparatif des fonctionnalités</string>
 
