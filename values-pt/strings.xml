@@ -2199,7 +2199,7 @@ Um campo é equivalente a uma coluna numa folha de cálculo.</string>
     <string name="flex_type_title_dynamic_list">Lista</string>
     <string name="add_dynamic_list_item">Item da lista</string>
     <string name="type_desc_dynamic_list">Um campo Lista é um conjunto de strings de texto com caixas de selecção. Pode ser usado, por exemplo, para listas de tarefas.</string>
-    <string name="type_desc_tags">Um campo de etiqueta é uma caixa de texto editável onde se pode inserir uma etiqueta e realizar a pesquisa de outras entradas através dela.</string>
+    <string name="type_desc_tags">Um campo de Etiqueta é uma caixa de texto editável onde se pode inserir uma palavra e realizar pesquisas de outras entradas através dela.</string>
     <string name="entries_background_color">Cor de fundo da entrada</string>
     <string name="flex_type_tags">Etiquetas</string>
     <string name="group_multiple_values_split">Dividir valores</string>
@@ -2207,4 +2207,5 @@ Um campo é equivalente a uma coluna numa folha de cálculo.</string>
     <string name="entry_field_must_be_unique">O campo %s não é único</string>
     <string name="non_unique_entries_message">Há entradas não exclusivas na biblioteca</string>
 <string name="primary_external_storage">Armazenamento Externo Primário</string>
+<string name="chart_field_missing">Não é possível encontrar o campo do gráfico. Talvez tenha sido apagado.</string>
 </resources>
