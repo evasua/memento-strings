@@ -1051,7 +1051,8 @@ Tout droits réservés</string>
     <string name="icon_pack_title_field_material">Matériel</string>
     <string name="google_base_field_new">Valeur de l\'attribut d\'après la source</string>
     <string name="icon_pack_title_field_general_flat">Général</string>
-    <string name="single_line_options_title">Ligne unique (sans )\nchamp texte</string>
+    <string name="single_line_options_title">Ligne unique
+champ texte</string>
     <string name="reminders_count_limit">Vous pouvez ajouter un maximum de 10 rappels par champ</string>
     <string name="aggregation_result_position">Emplacement</string>
     <string name="aggregation_result_prev_line">Pas de retour à la ligne</string>
@@ -1718,7 +1719,7 @@ Tout droits réservés</string>
     <string name="hint_insert_audio_button">Insérer un son</string>
     <string name="hint_record_audio_button">Enregistrer un son</string>
     <string name="hint_insert_location_button">Insérer un emplacement</string>
-    <string name="hint_get_my_location_button">Obtenir mon emplacement</string>
+    <string name="hint_get_my_location_button">Indiquer mon emplacement</string>
     <string name="hint_insert_entry_button">Insérer un enregistrement</string>
     <string name="barcode_type_option_title">Type</string>
     <string name="barcode_type_1d">Code-barres</string>
@@ -1945,8 +1946,8 @@ Tout droits réservés</string>
     <string name="permission_contacts_title">Contacts</string>
     <string name="permission_contacts_text">Il est impératif de donner l\'accès aux contacts à Memento pour les champs de type Contact.</string>
     <string name="boolean_format">Format</string>
-    <string name="boolean_format_on">Étiquettes activées</string>
-    <string name="boolean_format_off">Etiquette \"Off\"</string>
+    <string name="boolean_format_on">Libellé pour \"activé\"</string>
+    <string name="boolean_format_off">Libellé pour \"désactivé\"</string>
     <string name="plans_comparison">Consulter l\'intégralité de notre comparatif des fonctionnalités</string>
 
     <string name="revision_history">Historique de version</string>
