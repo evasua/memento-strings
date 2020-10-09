@@ -1615,12 +1615,12 @@ Tout droits réservés</string>
 
     <string name="from_file">Depuis un fichier</string>
     <string name="trigger_moment_open_form">Ouvrir une fenêtre d\'édition d\'un enregistrement</string>
-    <string name="enable_logging_triggers">Traçage des déclencheurs</string>
+    <string name="enable_logging_triggers">Scripts</string>
     <string name="script_log">Traçage des scripts</string>
 
     <string name="sign_up">S\'inscrire</string>
     <string name="trigger_event_open_entry">Ouverture d\'une vue de l\'enregistrement</string>
-    <string name="enable_logging_cloud">Appels sur le nuage Memento</string>
+    <string name="enable_logging_cloud">Nuage Memento</string>
     <string name="trigger_permission_read_file_hint">Permet aux scripts de lire à partir d\'un stockage externe</string>
     <string name="trigger_permission_write_file_hint">Permet aux scripts d\'écrire sur un stockage externe</string>
     <string name="login">S\'identifier</string>
@@ -2016,7 +2016,7 @@ SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base
 
 
     <string name="agree_terms_privacy">"En créant un compte, vous acceptez  "<a href="https://mementodatabase.com#terms">les Conditions d\'utilisation</a> et <a href="http://mementodatabase.com#privacy_policy">la Politique de confidentialité</a> de Memento.</string>
-    <string name="enter_email_address_hint">Merci de saisir votre adresse email.</string>
+    <string name="enter_email_address_hint">Merci de saisir votre adresse email</string>
     <string name="duration_label_days">j</string>
     <string name="duration_label_hours">h</string>
     <string name="duration_label_minutes">m</string>
@@ -2113,7 +2113,7 @@ SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base
     <string name="max_number_of_users_limit_message">Vous ne pouvez choisir que %d utilisateurs</string>
 
 <string name="entries_view_type_kanban">Kanban</string>
-    <string name="staggered_grid">Grille échelonnée</string>
+    <string name="staggered_grid">Grille irrégulière</string>
     <string name="choose_google_account">Choisir un compte Google</string>
     <string name="selected_file_is_too_large">Le fichier sélectionné est trop volumineux</string>
 
@@ -2124,7 +2124,7 @@ SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base
     <string name="google_sync_migration_to_v4">Cette base est synchronisée en utilisant une méthode obsolète.
 Rattacher la base à une nouvelle table pour utiliser la nouvelle méthode.
 Exécuter le rattachement maintenant ?</string>
-    <string name="enable_logging_sheets">Journaux Google Sheets</string>
+    <string name="enable_logging_sheets">Google Sheets</string>
 
 <string name="position_column_1">1ère colonne</string>
     <string name="position_column_2">2e colonne</string>
@@ -2146,8 +2146,7 @@ Exécuter le rattachement maintenant ?</string>
     <string name="google_docs_out_folder_hint">Indiquez un dossier qui contiendra les documents produits</string>
     <string name="preparing_doc">Préparation des enregistrements...</string>
     <string name="google_docs_left_operations">Dans les versions Free et Lite, le nombre d\'opérations est limité à %d par jour, il vous en reste %d.</string>
-    <string name="need_pro_for_google_docs">La version gratuite vous permet de copier un maximum de 10 enregistrements par jour.
-Passez à la version PRO pour lever cette limite.</string>
+    <string name="need_pro_for_google_docs">La version gratuite vous permet de copier un maximum de 10 enregistrements par jour.\nPassez à la version PRO pour lever cette limite.</string>
 
     <string name="user_field_current_by_default_title">Utilisateur actuel</string>
 
@@ -2155,11 +2154,9 @@ Passez à la version PRO pour lever cette limite.</string>
     <string name="spotlight_create_library_by_template_text">Taper \"Save\" pour créer une nouvelle base sur ce modèle.</string>
 
     <string name="spotlight_from_scratch_title">Partir de rien</string>
-    <string name="spotlight_from_scratch_text">Memento organise vos informations en bases. Les bases sont identiques aux feuilles d\'un classeur de tableur.
-D\'abord, entrez le nom de votre base, sélectionnez un icône et une couleur associée.</string>
+    <string name="spotlight_from_scratch_text">Memento organise vos informations en bases. Les bases sont identiques aux feuilles d\'un classeur de tableur.\nD\'abord, entrez le nom de votre base, sélectionnez un icône et une couleur associée.</string>
     <string name="spotlight_from_scratch_fields_title">Champs</string>
-    <string name="spotlight_from_scratch_fields_text">Sur cet onglet, vous définissez les champs pour chaque enregistrement de la base.
-Un champ est l\'équivalent d\'une colonne de feuille de tableur.</string>
+    <string name="spotlight_from_scratch_fields_text">Sur cet onglet, vous définissez les champs pour chaque enregistrement de la base.\nUn champ est l\'équivalent d\'une colonne de feuille de tableur.</string>
     <string name="spotlight_from_scratch_save_title">Sauvegarder la structure</string>
     <string name="spotlight_from_scratch_save_text">Une fois le champ ajouté, taper \"Save\" pour commencer à ajouter des enregistrements.</string>
     <string name="spotlight_create_entry_title">Créer un enregistrement</string>
@@ -2176,8 +2173,23 @@ Un champ est l\'équivalent d\'une colonne de feuille de tableur.</string>
     <string name="add_group_field">Ajouter un champ groupe</string>
     <string name="add_another_group_field">Ajouter un autre champ groupe</string>
     <string name="filter">Filtre</string>
-<string name="spotlight_library_menu_text">Pour ajuster le tri, le filtre, passer a une vue Table, Carte ou Calendrier, ajouter des graphiques ou modifier des champs, cliquez ici.</string>
+    <string name="spotlight_library_menu_text">Pour ajuster le tri, le filtre, passer a une vue Table, Carte ou Calendrier, ajouter des graphiques ou modifier des champs, cliquez ici.</string>
     <string name="spotlight_library_edit_fields_text">Un champ est le support d\'une unité de donnée, ou valeur. Chaque champ a un type et un nom. Les champs peuvent aussi comporter des paramètres avancés ou des options d\'affichage.</string>
     <string name="spotlight_library_aggregation_text">L’agrégation est une fonction mathématique appliquée à tous les enregistrements de la base pour le champ sélectionné. Il vous aide à déterminer les valeurs minimales, maximales ou moyennes ou le total général.</string>
 
-    </resources>
+    <string name="comment_delete_message_text">Voulez-vous vraiment supprimer ce commentaire ?</string>
+
+    <string name="logs_empty">Il n\'y a aucun fichier de traces.</string>
+    <string name="logs_send">Envoyer les fichiers de traces</string>
+    <string name="choose_grouping_field">Choisir un champ de regroupement</string>
+    <string name="flex_type_title_dynamic_list">Liste dynamique</string>
+    <string name="add_dynamic_list_item">Liste d\'items</string>
+    <string name="type_desc_dynamic_list">Un champ Liste dynamique est un jeu de chaines de texte avec cases à cocher. Par exemple, il peut être utilisé pour des listes A faire.</string>
+    <string name="type_desc_tags">Un champ Étiquette est une boîte de texte éditable où vous pouvez saisir une étiquette et effectuer des recherches sur d\'autres enregistrements.</string>
+    <string name="entries_background_color">Couleur de fond de l\'enregistrement</string>
+    <string name="flex_type_tags">Étiquettes</string>
+    <string name="group_multiple_values_split">Séparer les valeurs</string>
+    <string name="unique_fields">Champs uniques</string>
+    <string name="entry_field_must_be_unique">Le champ %s n\'est pas unique</string>
+    <string name="non_unique_entries_message">Il y a des enregistrements non-uniques dans cette base</string>
+</resources>

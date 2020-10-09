@@ -957,7 +957,7 @@ Wszelkie prawa zastrzeżone</string>
     <string name="calc_value_type_number">Dane numeryczne</string>
     <string name="calc_value_type_string">Dane typu ciągi</string>
     <string name="sort_by_downloads">Sortuj po Pobraniach</string>
-    <string name="need_auth_on_memento_server">Musisz utworzyć konto na Serwerze Memento</string>
+    <string name="need_auth_on_memento_server">Musisz utworzyć konto na Serwerze chmury Memento</string>
     <string name="empty_my_templates_list">Nie posiadasz opublikowanych szablonów bibliotek.</string>
     <string name="empty_field_depend_list">To pole nie posiada zależności od innych pól.</string>
     <string name="share_template_dialog_title">Udostępnij szablon poprzez katalog on-line</string>
@@ -1118,7 +1118,7 @@ Wszelkie prawa zastrzeżone</string>
 	<string name="welcome_text_title">Witaj w Memento Database</string>
 	<string name="welcome_text_description">"Biblioteka jest miejscem, gdzie przechowywane są twoje wpisy. Możesz rozpocząć poznawanie programu,  poprzez utworzenie biblioteki opartej na jednym z dołączonych szablonów."</string>	
 	
-    <string name="memento_cloud">Memento Cloud</string>
+    <string name="memento_cloud">Chmura Memento</string>
 	<string name="start_remove_librarary_from_cloud">Usuwanie biblioteki...</string>
 	<string name="success_remove_librarary_from_cloud">Biblioteka pomyślnie usunięta z chmury</string>
 	<string name="start_upload_library_to_cloud">Wysyłanie biblioteki...</string>	
@@ -1157,7 +1157,7 @@ Wszelkie prawa zastrzeżone</string>
     <string name="cloud_size">Rozmiar</string>
     <string name="cloud_files_count">Pliki</string>
     <string name="cloud_who_has_access">Kto ma dostęp</string>
-    <string name="cloud_server_unavaliable">"Memento Cloud Server niedostępny,  sprawdź łącze z internetem na urządzeniu"</string>
+    <string name="cloud_server_unavaliable">"Serwer Chmury Memento niedostępny,  sprawdź łącze z internetem na urządzeniu"</string>
     <string name="delete_from_cloud">Usuń z chmury</string>
     <string name="delete_from_cloud_message_question">Czy na pewno chcesz usunąć bibliotekę z chmury?</string>
         
@@ -1531,8 +1531,8 @@ Wszelkie prawa zastrzeżone</string>
     <string name="debug_summary">Opcje wylogowania</string>
     <string name="log_files_folder">Folder dziennika zdarzeń</string>
 
-    <string name="enable_logging_cloud">Połączenia Memento Cloud</string>
-    <string name="enable_logging_triggers">Dziennik skryptów</string>
+    <string name="enable_logging_cloud">Chmura Memento</string>
+    <string name="enable_logging_triggers">Skrypty</string>
     <string name="script_log">Dziennik skryptu</string>
 
     <string name="trigger_permissions">Uprawnienia dla skryptów</string>
@@ -1679,7 +1679,7 @@ Wszelkie prawa zastrzeżone</string>
     <string name="next_button">Dalej</string>
     <string name="login">Zaloguj</string>
     <string name="sign_up">Zarejestruj się</string>
-    <string name="memento_cloud2">Memento Cloud</string>
+    <string name="memento_cloud2">Chmura Memento</string>
 
     <string name="from_file">Z pliku</string>
     <string name="from_google_drive">Z Dysk Google</string>
@@ -2148,7 +2148,7 @@ Wszelkie prawa zastrzeżone</string>
 	<item quantity="one">%d wpis został skopiowany do biblioteki %s</item>
 	<item quantity="few">%d wpisy zostały skopiowane do biblioteki %s</item>
 	<item quantity="many">%d wpisów zostało skopiowanych do biblioteki %s</item>
-	<item quantity="other"></item>
+	<item quantity="other"/>
 </plurals>
     <string name="max_number_of_users">Maks. ilość użytkowników</string>
     <string name="no_limit">Bez ograniczeń</string>
@@ -2173,6 +2173,66 @@ Wszelkie prawa zastrzeżone</string>
     <string name="google_sync_migration_to_v4">Ta biblioteka jest synchronizowana przy użyciu przestarzałej metody.
 Wykonaj ponowne wiązanie biblioteki z nową tabelą, aby użyć nowej metody.
 Uruchomić wiązanie teraz?</string>
-    <string name="enable_logging_sheets">Dzienniki Arkuszy Google</string>
+    <string name="enable_logging_sheets">Arkusze Google</string>
 
+<string name="position_column_1">1 kolumna</string>
+    <string name="position_column_2">2 kolumna</string>
+    <string name="position_column_3">3 kolumna</string>
+    <string name="position_column_auto">Auto</string>
+    <string name="copy_to_google_docs">Kopiuj do Dokumentów Google</string>
+    <string name="google_docs_select_template">Wybierz szablon</string>
+
+    <string name="google_docs_templates_empty">W bibliotece brak szablonów Dokumentów Google</string>
+    <string name="google_docs_task_create_document2">Tworzenie dokumentu</string>
+    <string name="google_docs_task_delete_document2">Usuwanie dokumentu</string>
+    <string name="google_docs_task_step_auth2">Uwierzytelnianie w usłudze Dokumentów</string>
+    <string name="delete_google_docs_template_dialog_text">Czy na pewno usunąć szablon \"%s\"?</string>
+    <string name="generating_doc">Tworzenie dokumentu...</string>
+    <string name="populating_table">Wypełnianie tabeli...</string>
+    <string name="entry_has_been_copied_to_docs">Wpis skopiowano do Dokumentów Google</string>
+    <string name="entries_has_been_copied_to_docs">Wpisy skopiowano do Dokumentów Google</string>
+    <string name="google_docs_out_folder_name">Nazwa folderu</string>
+    <string name="google_docs_out_folder_hint">Wybierz folder, który będzie zawierał dokumenty wynikowe</string>
+    <string name="preparing_doc">Przygotowanie wpisów...</string>
+    <string name="google_docs_left_operations">W wersjach Free i Lite liczba operacji jest ograniczona do %d dziennie, pozostało Ci %d.</string>
+    <string name="need_pro_for_google_docs">Wersja darmowa umożliwia skopiowanie tylko 10 wpisów dziennie.
+Uaktualnij do wersji PRO, aby wyłączyć to ograniczenie.</string>
+
+    <string name="user_field_current_by_default_title">Aktualny użytkownik</string>
+
+    <string name="spotlight_create_library_by_template_title">Tworzenie biblioteki</string>
+    <string name="spotlight_create_library_by_template_text">Naciśnij \"Zapisz\" by utworzyć nową bibliotekę z tego szablonu.</string>
+
+    <string name="spotlight_from_scratch_title">Zacznij od początku</string>
+    <string name="spotlight_from_scratch_fields_title">Pola</string>
+    <string name="spotlight_from_scratch_save_title">Zapisz strukturę</string>
+    <string name="spotlight_create_entry_title">Utwórz wpis</string>
+    <string name="spotlight_create_entry_text">Naciśnij \"+\" by utworzyć pierwszy wpis w tej bibliotece.</string>
+    <string name="spotlight_library_edit_fields_title">Pola</string>
+    <string name="spotlight_library_edit_title">Edycja biblioteki</string>
+    <string name="spotlight_library_aggregation_title">Agregacja</string>
+    <string name="hide_column">Ukryj kolumnę</string>
+    <string name="export_template_include_charts">Dołącz wykres</string>
+    <string name="sort_manually">Ręcznie</string>
+    <string name="filter">Filtr</string>
+
+    <string name="comment_delete_message_text">Czy na pewno usunąć ten komentarz?</string>
+
+    <string name="logs_empty">Brak plików dziennika.</string>
+    <string name="logs_send">Wyślij pliki dzienników</string>
+    <string name="flex_type_title_dynamic_list">Lista dynamiczna</string>
+    <string name="add_dynamic_list_item">Element listy</string>
+    <string name="entries_view_type_kanban">Znak</string>
+    <string name="spotlight_from_scratch_save_text">Po dodaniu pól naciśnij \"Zapisz\", aby rozpocząć dodawanie wpisów.</string>
+    <string name="spotlight_library_edit_text">Możesz zmienić swoją Bibliotekę w dowolnym momencie - dodaj lub edytuj pola.</string>
+    <string name="button_need_help">Potrzebna pomoc?</string>
+    <string name="add_group_field">Dodaj pole grupy</string>
+    <string name="add_another_group_field">Dodaj kolejne pole grupy</string>
+    <string name="choose_grouping_field">Wybierz pole grupowania</string>
+    <string name="entries_background_color">Wybór koloru tła</string>
+    <string name="flex_type_tags">Tag</string>
+    <string name="group_multiple_values_split">Podział wartości</string>
+    <string name="unique_fields">Pola unikalne</string>
+    <string name="entry_field_must_be_unique">Pole %s nie jest unikalne</string>
+    <string name="non_unique_entries_message">W bibliotece znajdują się nieunikalne wpisy</string>
 </resources>

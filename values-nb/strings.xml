@@ -410,7 +410,7 @@ Alle rettigheter reservert</string>
     <string name="set_library_protection_title">Krypter oppføringer</string>
     <string name="set_library_protection_message">Krypterer bibliotekets oppføringer ...</string>
     <string name="remove_library_protection">Fjern beskyttelse</string>
-    <string name="remove_library_protection_desc">Ingen passord behøves for å få tilgang til dette bibliotek</string>
+    <string name="remove_library_protection_desc">Ingen passord behøves for å få tilgang til dette biblioteket</string>
     <string name="remove_library_protection_question">Vil du virkelig oppheve beskyttelsen for biblioteket?</string>
     <string name="preference_category_security">Sikkerhet</string>
     <string name="remove_library_protection_title">Fjern beskyttelse</string>
@@ -608,7 +608,7 @@ Alle rettigheter reservert</string>
     <string name="save_library_changes">Lagre endringer?</string>
     <string name="build_navigate_list_dialog">Sorterer oppføringer ...</string>
     <string name="navigate_first_entry">Denne oppføringen er den første</string>
-    <string name="navigate_last_entry">Denne oppføringen er sist</string>
+    <string name="navigate_last_entry">Denne oppføringen er den siste</string>
     <string name="library_custom_filter_name">Brukerfilter</string>
     <string name="select_library_filter">Velg filter</string>
     <string name="no_filter_item">Fjern filter</string>
@@ -1395,7 +1395,7 @@ Alle rettigheter reservert</string>
     <string name="need_permission_dialog_title">Tillatelser påkrevd</string>
     <string name="need_permission_dialog_text">Denne operasjonen krever system tillatelse - %s</string>
     <string name="unlock_linked_library_text">Tilknyttet bibliotek er kryptert, du må angi hovedpassordet</string>
-    <string name="preview_calc_exec_time">Kjørbar tid: %d ms</string>
+    <string name="preview_calc_exec_time">Kjøretid: %d ms</string>
     <string name="group_by_and">Alt av (OG)</string>
     <string name="group_by_or">Noe av (ELLER)</string>
     <string name="field_delimiters">Feltavgrensning</string>
@@ -1506,8 +1506,8 @@ Alle rettigheter reservert</string>
     <string name="debug_summary">Alternativer for logging</string>
     <string name="log_files_folder">Logg-filer katalog</string>
 
-    <string name="enable_logging_cloud">Memento Sky samtaler</string>
-    <string name="enable_logging_triggers">Skript logger</string>
+    <string name="enable_logging_cloud">Memento Sky</string>
+    <string name="enable_logging_triggers">Skript</string>
     <string name="script_log">Skript logg</string>
 
     <string name="trigger_permissions">Tillatelser for skript</string>
@@ -1581,7 +1581,7 @@ Alle rettigheter reservert</string>
     <string name="uom_ton">Tonn</string>
     <string name="uom_ton_uk">Imperial tonn</string>
     <string name="uom_ton_us">US tonn</string>
-    <string name="uom_pound">Pound</string>
+    <string name="uom_pound">Pund</string>
     <string name="uom_ounce">Ounce</string>
 
     <string name="uom_category_volume">Volum</string>
@@ -1752,7 +1752,7 @@ Alle rettigheter reservert</string>
     <string name="repository_other">Andre</string>
 
     <string name="map_field_current_by_default_title">Nåværende lokasjon</string>
-    <string name="map_field_current_by_default_hint">Få gjeldende plassering som standard</string>
+    <string name="map_field_current_by_default_hint">Få nåværende plassering som standard</string>
     <string name="receiving_document_content">Motta dokumentinnhold</string>
     <string name="find_address">Finn adresse</string>
     <string name="privacy_policy">Retningslinjer for personvern</string>
@@ -1862,7 +1862,7 @@ Alle rettigheter reservert</string>
     <string name="type_desc_barcode">Strekkodefeltet brukes til å skanne strekkoder eller QR-koder.</string>
     <string name="type_desc_pass">Et passordfelt kan inneholde tekstdata. Tegnene i et passordfelt er maskert (vist som stjerner).</string>
     <string name="type_desc_rich">Et rik tekstfelt kan inneholde tekstdata, inkludert tekstformatering.</string>
-    <string name="type_desc_multiple_choice">Et felt med flervalgslister er et sett med tekststrenger som en bruker kan velge en eller alle fra.</string>
+    <string name="type_desc_multiple_choice">Et felt med flervalgslister er et sett med tekststrenger som en bruker kan velge en eller flere fra.</string>
     <string name="type_desc_checkboxes">I avkrysningsfeltet kan du presentere en eller mange avkrysningsbokser som tillater flere valg.</string>
     <string name="type_desc_single_choice">"Et enkeltvalgsfelt er et sett med tekststrenger som en bruker  bare kan velge èn fra."</string>
     <string name="type_desc_radiobuttons">Radioknappefeltet brukes til å gjøre et valg fra en gruppe med valg.</string>
@@ -1896,7 +1896,7 @@ Alle rettigheter reservert</string>
     <string name="advanced_search">Avansert søk</string>
     <string name="quick_filter_for_text">For tekst</string>
     <string name="quick_filter_for_numbers">For tall</string>
-    <string name="save_as_filter">Lagre som et filter</string>
+    <string name="save_as_filter">Lagre som filter</string>
     <string name="save_as_filter_success">Nytt filter er opprettet</string>
     <string name="years_range_wrong">Årsslutt må være større enn eller lik årsstart</string>
 <string name="end_year">Slutt</string>
@@ -2016,7 +2016,7 @@ Alle rettigheter reservert</string>
     <string name="require_external_audio_app">Memento bruker et eksternt lydopptaksprogram. Vil du installere det?</string>
 
 
-    <string name="enter_email_address_hint">Vennligst skriv inn E-postadressen din</string>
+    <string name="enter_email_address_hint">Vennligst skriv inn epostadressen din</string>
     <string name="duration_label_days">d</string>
     <string name="duration_label_hours">t</string>
     <string name="duration_label_minutes">m</string>
@@ -2066,7 +2066,7 @@ Alle rettigheter reservert</string>
     <string name="conditional_permission">Avhenger av felt</string>
     <string name="filter_rule_is_one_of">Er en av</string>
     <string name="filter_rule_is_not_one_of">Er ikke en av</string>
-    <string name="send_email">Send e-post</string>
+    <string name="send_email">Send epost</string>
     <string name="pdf_scale_mode_crop">Beskjær</string>
     <string name="pdf_scale_mode_expand">Utvid</string>
     <string name="share_charts">Del diagrammer</string>
@@ -2133,6 +2133,81 @@ Lag en oppføringsregel for å migrere til et hvilket som helst bibliotek.</stri
     <string name="google_sheet_not_found">Det koblede regnearket med id %d ble ikke funnet.</string>
     <string name="google_sheet_header_not_found">Det er ingen overskriftsrad i Google Regneark-tabellen.</string>
     <string name="google_sheet_new_link_text">Dette biblioteket vil bli koblet til en ny tabell <b>1%s</b>2 på Google Disk.</string>
-    <string name="enable_logging_sheets">Google Regneark logger</string>
+    <string name="enable_logging_sheets">Google Regneark</string>
 
+<string name="google_sync_migration_to_v4">Dette biblioteket synkroniseres ved hjelp av utdatert metode.
+Utfør gjenoppretting av biblioteket til den nye tabellen for å bruke den nye metoden.
+Vil du gjenopprette nå?</string>
+    <string name="position_column_1">1. kolonne</string>
+    <string name="position_column_2">2. kolonne</string>
+    <string name="position_column_3">3. kolonne</string>
+    <string name="position_column_auto">Auto</string>
+    <string name="copy_to_google_docs">Kopier til Google Dokumenter</string>
+    <string name="google_docs_select_template">Velg mal</string>
+
+    <string name="google_docs_task_create_document2">Oppretter et dokument</string>
+    <string name="google_docs_task_delete_document2">Sletter et dokument</string>
+    <string name="delete_google_docs_template_dialog_text">Vil du virkelig slette malen \"%s\"?</string>
+    <string name="generating_doc">Genererer dokumentet...</string>
+    <string name="google_docs_out_folder_name">Mappenavn</string>
+    <string name="user_field_current_by_default_title">Nåværende bruker</string>
+
+    <string name="spotlight_create_library_by_template_title">Opprett et bibliotek</string>
+    <string name="spotlight_from_scratch_fields_title">Felt</string>
+    <string name="spotlight_from_scratch_fields_text">I denne kategorien kan du definere felt for hver oppføring i dette biblioteket.
+Et felt tilsvarer en kolonne i et regneark.</string>
+    <string name="spotlight_from_scratch_save_title">Lagre en struktur</string>
+    <string name="spotlight_from_scratch_save_text">Når feltene er lagt til, trykk \"Lagre\" for å begynne å legge til poster.</string>
+    <string name="spotlight_create_entry_title">Opprett en post</string>
+    <string name="spotlight_library_menu_title">Våre magiske verktøy</string>
+    <string name="spotlight_library_edit_title">Endre bibliotek</string>
+    <string name="spotlight_library_edit_text">Du kan endre biblioteket ditt når du vil - legg til eller endre felt.</string>
+    <string name="spotlight_library_edit_fields_title">Felt</string>
+    <string name="button_need_help">Trenger du hjelp?</string>
+    <string name="export_template_include_charts">Inkluder diagrammer</string>
+    <string name="sort_manually">Manuelt</string>
+    <string name="hide_column">Skjul kolonne</string>
+    <string name="filter">Filter</string>
+
+    <string name="comment_delete_message_text">Vil du virkelig slette denne kommentaren?</string>
+
+    <string name="logs_empty">Det finnes ingen loggfiler.</string>
+    <string name="logs_send">Send loggfiler</string>
+    <string name="choose_grouping_field">Velg et grupperingsfelt</string>
+    <string name="flex_type_title_dynamic_list">Liste</string>
+    <string name="entries_background_color">Velg bakgrunnsfarge</string>
+    <string name="entry_field_must_be_unique">Feltet %s er ikke unikt</string>
+    <string name="google_sheet_id_column_not_found">Det er ingen nøkkelkolonne i Google Regneark-tabellen.</string>
+    <string name="google_docs_templates_empty">Det finnes ingen Google Dokumentmaler i dette biblioteket</string>
+    <string name="google_docs_task_step_auth2">Autentiserer mot Dokumenter-tjenesten</string>
+    <string name="entry_has_been_copied_to_docs">Posten er blitt kopiert til Google Dokumenter</string>
+    <string name="entries_has_been_copied_to_docs">Postene er blitt kopiert til Google Dokumenter</string>
+    <string name="preparing_doc">Forbereder poster...</string>
+    <string name="google_docs_left_operations">I Gratis- og Lite-versjonene er antallet operasjoner begrenset til %d pr. dag. Du har %d igjen.</string>
+    <string name="need_pro_for_google_docs">I gratisversjonen kan kun kopiere 10 poster pr. dag.
+Oppgrader til PRO-versjonen for å fjerne denne begrensningen.</string>
+
+    <string name="spotlight_create_library_by_template_text">Trykk \"Lagre\" for å opprette et nytt bibliotek basert på denne malen.</string>
+
+    <string name="spotlight_create_entry_text">Trykk \"+\" for å opprette den første posten i dette biblioteket.</string>
+    <string name="populating_table">Fyller ut tabellen...</string>
+    <string name="google_docs_out_folder_hint">Spesifiser en mappe som inneholder utdataene</string>
+    <string name="spotlight_from_scratch_title">Start fra begynnelsen</string>
+    <string name="spotlight_from_scratch_text">Memento organiserer informasjonen din i biblioteker.
+Først skriver du inn navnet på det nye biblioteket ditt, velger ikonet og fargen for det.</string>
+    <string name="spotlight_library_menu_text">Hvis du vil justere sortering eller filtrering, endre visning til Tabell, Kart eller Kalender, legge til diagrammer eller endre et sett med felt, trykk her.</string>
+    <string name="spotlight_library_edit_fields_text">Et felt er en holder for en dataenhet eller verdi. Hvert felt har en type og et navn. Felt kan også ha avanserte parametere eller visningsalternativer.</string>
+    <string name="spotlight_library_aggregation_title">Aggregering</string>
+    <string name="spotlight_library_aggregation_text">Aggregering er en matematisk funksjon som brukes på alle oppføringer i biblioteket av det valgte feltet. Det hjelper deg å finne den minimale, maksimale eller gjennomsnittlige verdien eller totalsummen.</string>
+
+    <string name="add_group_field">Legg til gruppefelt</string>
+    <string name="add_another_group_field">Legg til enda et gruppefelt</string>
+    <string name="type_desc_dynamic_list">Et listefelt er et sett med tekststrenger med avkrysningsruter. For eksempel kan den brukes til ToDo-lister.</string>
+    <string name="add_dynamic_list_item">Listelement</string>
+    <string name="type_desc_tags">Et tagfelt er en redigerbar tekstboks der du kan skrive inn en tag og utføre søk etter andre oppføringer etter den.</string>
+    <string name="flex_type_tags">Tagger</string>
+    <string name="group_multiple_values_split">Splitt verdier</string>
+    <string name="unique_fields">Unike felt</string>
+    <string name="non_unique_entries_message">Det er ikke-unike oppføringer i biblioteket</string>
+    <string name="primary_external_storage">Primær ekstern lagring</string>
 </resources>

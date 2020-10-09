@@ -73,10 +73,9 @@
     <string name="search_hint">Pesquisar entradas</string>
     <string name="search_parse_exception_messagee">Cadeia de pesquisa inválida</string>
     <plurals name="NItemsFind">
-	<item quantity="one">1 entrada encontrada</item>
-	<item quantity="other">Entradas encontradas: 
-<xliff:g id="COUNT"> 1%d</xliff:g> 2</item>
-</plurals>
+	<item quantity="one">%d entrada encontrada</item>
+	<item quantity="other">Entradas encontradas:<xliff:g id="COUNT"> 1%d</xliff:g> 2</item>
+    </plurals>
     <string name="memento_search">Pesquisa Memento</string>
     <string name="memento_search_in_lib">Pesquisa Memento em %s</string>
     <string name="removed">Removido em %s</string>
@@ -427,7 +426,7 @@ Pesquisar entradas criptografadas não são suportadas.</string>
     <string name="library_protection_pass">Senha</string>
     <string name="library_protection_pass_checkbox">Acesso por senha</string>
     <string name="buy_from_market_title">Compre através do Google Play</string>
-    <string name="buy_from_market_hint">Google Wallet</string>
+    <string name="buy_from_market_hint">Google Play</string>
     <string name="flex_type_password">Senha</string>
     <string name="flex_type_phone">Telefone</string>
     <string name="license_check">Verificando licenças</string>
@@ -659,7 +658,7 @@ Atualize para a versão PRO para desativar esta limitação.</string>
     <string name="field_depends_activity_title">Dependências</string>
     <string name="no_dependencies">sem dependências</string>
     <plurals name="field_depends_count">
-	<item quantity="one">Uma dependência</item>
+	<item quantity="one">%d dependência</item>
 	<item quantity="other">%d dependências</item>
 </plurals>
     <string name="add_depends_button_title">Adicione uma dependência</string>
@@ -881,11 +880,11 @@ Você pode ativar o recurso de edição nas configurações desta biblioteca.</s
     <string name="show_update_time_on_tile">Tempo de edição</string>
     <string name="only_title_on_tile">Somente o nome da biblioteca</string>
     <plurals name="fields_count">
-	<item quantity="one">Um campo</item>
+	<item quantity="one">%d campo</item>
 	<item quantity="other">%d campos</item>
 </plurals>
     <plurals name="libraries_count">
-	<item quantity="one">Uma biblioteca</item>
+	<item quantity="one">%d biblioteca</item>
 	<item quantity="other">%d bibliotecas</item>
 </plurals>
     <string name="empty">Vazio</string>
@@ -1024,19 +1023,19 @@ Executar a religação agora?</string>
     <string name="free_version_multi_field_limit">"Na versão gratuita, você pode adicionar apenas dois elementos.  Atualize para a versão PRO para remover esta restrição."</string>
     <string name="scale">Escala %d</string>
     <plurals name="duration_seconds">
-	<item quantity="one">1 segundo</item>
+	<item quantity="one">%d segundo</item>
 	<item quantity="other">%d segundos</item>
 </plurals>
     <plurals name="duration_minutes">
-	<item quantity="one">1 minuto</item>
+	<item quantity="one">%d minuto</item>
 	<item quantity="other">%d minutos</item>
 </plurals>
     <plurals name="duration_hours">
-	<item quantity="one">1 hora</item>
+	<item quantity="one">%d hora</item>
 	<item quantity="other">%d horas</item>
 </plurals>
     <plurals name="duration_days">
-	<item quantity="one">1 dia</item>
+	<item quantity="one">%d dia</item>
 	<item quantity="other">%d dias</item>
 </plurals>
     <string name="all">Tudo</string>
@@ -1099,7 +1098,7 @@ Fazer isso agora?</string>
     <string name="welcome_text_title">Bem-vindo ao Banco de dados Memento</string>
     <string name="welcome_text_description">"A Biblioteca é o local onde suas informações serão armazenadas.  Você pode começar a se familiarizar com o Memento criando uma biblioteca baseada em um dos modelos fornecidos."</string>
 
-    <string name="memento_cloud">Memento Cloud</string>
+    <string name="memento_cloud">Nuvem Memento</string>
     <string name="start_remove_librarary_from_cloud">Excluindo biblioteca ...</string>
     <string name="success_remove_librarary_from_cloud">Biblioteca excluída com sucesso da nuvem</string>
     <string name="start_upload_library_to_cloud">A carregar biblioteca ...</string>
@@ -1154,7 +1153,7 @@ A biblioteca será sincronizada automaticamente.</string>
     <string name="upload_file_to_cloud">A carregar ficheiro ...</string>
     <string name="upload_files_to_cloud">Upload de arquivos</string>
     <string name="cloud_upload_error_title">Não foi possível sincronizar esta biblioteca</string>
-    <string name="upload_big_file_error" formatted="false">A entrada% s contém um arquivo grande %s (%s).
+    <string name="upload_big_file_error" formatted="false">A entrada %s contém um arquivo grande %s (%s).
 O tamanho máximo do arquivo é %s.</string>
     <string name="prepare_library_for_cloud">A biblioteca está em processamento ...</string>
     <string name="download_files_from_cloud">Fazendo download de arquivos da nuvem ...</string>
@@ -1462,7 +1461,7 @@ Exclua a cópia local da biblioteca e faça o download da biblioteca novamente n
 
     <string name="no_comments">Sem comentários</string>
     <plurals name="comments_count">
-	<item quantity="one">Um comentário</item>
+	<item quantity="one">%d comentário</item>
 	<item quantity="other">%d comentários</item>
 </plurals>
     <string name="comments_only_for_cloud">"Os comentários podem ser postados apenas nas bibliotecas que foram carregadas na nuvem.  Carregar uma biblioteca para a nuvem?"</string>
@@ -1515,8 +1514,8 @@ Um disparador é um script que define o processamento de uma entrada com base em
     <string name="debug_summary">Opções de registro</string>
     <string name="log_files_folder">Diretório de arquivos de log</string>
 
-    <string name="enable_logging_cloud">Chamadas do Memento Cloud</string>
-    <string name="enable_logging_triggers">Logs de scripts</string>
+    <string name="enable_logging_cloud">Nuvem Memento</string>
+    <string name="enable_logging_triggers">Scripts</string>
     <string name="script_log">Log de Script</string>
 
     <string name="trigger_permissions">Permissões para scripts</string>
@@ -1699,7 +1698,7 @@ Um disparador é um script que define o processamento de uma entrada com base em
     <string name="user_group_name_empty">O nome do grupo não deve estar vazio</string>
     <string name="users_count_none">Sem usuários</string>
     <plurals name="users_count">
-	<item quantity="one">Um usuário</item>
+	<item quantity="one">%d usuário</item>
 	<item quantity="other">%d usuários</item>
 </plurals>
     <string name="user_group_delete_message">Deseja realmente excluir o grupo \"%s\"?</string>
@@ -1725,7 +1724,7 @@ Um disparador é um script que define o processamento de uma entrada com base em
     <string name="entries_view_type_cards">Cartões</string>
     <string name="card_view_number_of_columns">Número de colunas</string>
     <plurals name="columns_count">
-	<item quantity="one">Uma coluna</item>
+	<item quantity="one">%d coluna</item>
 	<item quantity="other">%d colunas</item>
 </plurals>
 
@@ -1882,7 +1881,7 @@ Um disparador é um script que define o processamento de uma entrada com base em
     <string name="type_desc_barcode">O campo Código de barras é usado para digitalizar códigos de barras ou códigos QR.</string>
     <string name="type_desc_pass">"Um campo Senha pode conter quaisquer dados textuais.  Os caracteres em um campo de senha são mascarados (mostrados como asteriscos)."</string>
     <string name="type_desc_rich">Um campo Texto Enriquecido pode conter quaisquer dados textuais, incluindo informações de formatação de texto.</string>
-    <string name="type_desc_multiple_choice">Um campo Lista de múltipla escolha é um conjunto de cadeias de texto a partir das quais um usuário pode selecionar uma ou todas.</string>
+    <string name="type_desc_multiple_choice">Um campo de Lista de múltipla escolha é um conjunto de strings de texto a partir do qual um usuário pode selecionar qualquer uma ou todas.</string>
     <string name="type_desc_checkboxes">O campo Caixas de seleção permite apresentar uma ou várias caixas de seleção que permitem várias seleções.</string>
     <string name="type_desc_single_choice">Um campo Escolha única é um conjunto de cadeias de texto a partir das quais um usuário pode selecionar uma.</string>
     <string name="type_desc_radiobuttons">O campo de botões de rádio é usado para fazer uma seleção de um grupo de opções.</string>
@@ -2052,7 +2051,7 @@ Crie uma regra de transferência de entradas para migrar para qualquer bibliotec
     <string name="duration_precision_max">Unidade Máxima</string>
     <string name="duration_precision_wrong">A unidade máxima deve ser maior ou igual à unidade mínima</string>
     <plurals name="duration_ms">
-	<item quantity="one">1 ms</item>
+	<item quantity="one">%d ms</item>
 	<item quantity="other">%d ms</item>
 </plurals>
     <string name="duration_display_format_option_title">Formato de duração</string>
@@ -2061,7 +2060,7 @@ Crie uma regra de transferência de entradas para migrar para qualquer bibliotec
     <string name="type_desc_duration">Um campo Duração pode conter um valor usado para representar uma duração medida em dias, horas, minutos, segundos ou milissegundos.</string>
 
     <plurals name="after_entries_multiedit_message">
-	<item quantity="one">Uma entrada foi editada</item>
+	<item quantity="one">%d entrada foi editada</item>
 	<item quantity="other">%d entradas foram editadas</item>
 </plurals>
 
@@ -2149,7 +2148,7 @@ Crie uma regra de transferência de entradas para migrar para qualquer bibliotec
     <string name="google_sync_migration_to_v4">Esta biblioteca é sincronizada usando o método descontinuado.
 Execute a religação da biblioteca para a nova tabela para usar o novo método.
 Executar a religação agora?</string>
-    <string name="enable_logging_sheets">Logs do Planilhas Google</string>
+    <string name="enable_logging_sheets">Planilhas Google</string>
 
     <string name="position_column_1">1a coluna</string>
     <string name="position_column_2">2a coluna</string>
@@ -2205,4 +2204,20 @@ Um campo é equivalente a uma coluna em uma planilha.</string>
     <string name="add_group_field">Adicionar campo de grupo</string>
     <string name="add_another_group_field">Adicionar outro campo de grupo</string>
     <string name="filter">Filtro</string>
+<string name="comment_delete_message_text">Você quer realmente excluir este comentário?</string>
+
+    <string name="logs_empty">Não há arquivos de log.</string>
+    <string name="logs_send">Enviar arquivos de registros</string>
+    <string name="choose_grouping_field">Escolha um campo de agrupamento</string>
+    <string name="flex_type_title_dynamic_list">Lista</string>
+    <string name="add_dynamic_list_item">Item da Lista</string>
+    <string name="type_desc_dynamic_list">"Um campo Lista é um conjunto de strings de texto com caixas de seleção.  Por exemplo, pode ser usado para listas de tarefas."</string>
+    <string name="type_desc_tags">Um campo de tag é uma caixa de texto editável onde você pode digitar uma tag e realizar a pesquisa de outras entradas por ela.</string>
+    <string name="entries_background_color">Cor de fundo da entrada</string>
+    <string name="flex_type_tags">Tags</string>
+    <string name="group_multiple_values_split">Valores de divisão</string>
+    <string name="unique_fields">Campos Únicos</string>
+    <string name="entry_field_must_be_unique">O campo %s não é único</string>
+    <string name="non_unique_entries_message">Existem entradas não exclusivas na biblioteca</string>
+<string name="primary_external_storage">Armazenamento Externo Primário</string>
 </resources>
