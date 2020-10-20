@@ -75,11 +75,10 @@
     <string name="search_hint">Hledat záznam</string>
     <string name="search_parse_exception_messagee">Chybný vyhledávaný řetězec</string>
     <plurals name="NItemsFind">
-	<item quantity="one">bNalezen 1 záznam</item>
-	<item quantity="few">Nalezené záznamy: <xliff:g id="COUNT">%d</xliff:g></item>
-	<item quantity="many">Nalezených záznamů: <xliff:g id="COUNT">%d</xliff:g></item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one">Nalezen 1 záznam</item>
+        <item quantity="few">Nalezené záznamy: <xliff:g id="COUNT">%d</xliff:g></item>
+        <item quantity="other">Nalezených záznamů: <xliff:g id="COUNT">%d</xliff:g></item>
+    </plurals>
     <string name="memento_search">Memento hledání</string>
     <string name="memento_search_in_lib">Memento hledá v "%s"</string>
     <string name="removed">Smazán %s</string>
@@ -143,8 +142,7 @@
     <string name="activation_ok">Děkujeme za aktivaci Mementa</string>
     <string name="activation_error">Aktivační kód je chybný. Prosím, zadejte jej znovu.</string>
     <string name="about">O programu</string>
-    <string name="copyright">Copyright © 2020 MementoDB Inc.
-All rights reserved</string>
+    <string name="copyright">Copyright © 2020 MementoDB Inc.\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Zobrazit verzi softwaru</string>
     <string name="about_license_type">Licence:</string>
@@ -1394,11 +1392,10 @@ All rights reserved</string>
     <string name="rating_tooltips_hint">Popis</string>
     <string name="rating_tooltips_empty">Pole nemá popis</string>
     <plurals name="rating_tooltips_count">
-	<item quantity="one">%d popis</item>
-	<item quantity="few">%d popisy</item>
-	<item quantity="many">%d popisů</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one">%d popis</item>
+        <item quantity="few">%d popisy</item>
+        <item quantity="other">%d popisů</item>
+    </plurals>
     <string name="filter_by_string">Filtrovat podle řetězce</string>
     <string name="multiediting_only_in_pro">Úprava více položek je dostupná pouze pro majitele verze PRO.</string>
     <string name="multiediting_title">Multi-editace</string>
@@ -1408,11 +1405,10 @@ All rights reserved</string>
     <string name="cloud_library_notification_hint">Dostávat Push-notifikace při úpravách knihovny jinými uživateli</string>
     <string name="cloud_notification_for_subscribers">Je nám líto, oznámení mohou přijímat jen předplatitelé.</string>
     <plurals name="notification_edit_library_common_text">
-	<item quantity="one">%d nepřečtená změna</item>
-	<item quantity="few">%d nepřečtené změny</item>
-	<item quantity="many">%d nepřečtených změn</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one">%d nepřečtená změna</item>
+        <item quantity="few">%d nepřečtené změny</item>
+        <item quantity="other">%d nepřečtených změn</item>
+    </plurals>
 
     <string name="relation_type">Typ vztahu</string>
     <string name="uom_angstrom">Ångström</string>
@@ -1447,17 +1443,15 @@ All rights reserved</string>
     <string name="moving_entries">Přesouvání záznamů. %d z %d.</string>
     <string name="copying_entries2">Kopírování záznamů. %d z %d.</string>
     <plurals name="moving_entries_success">
-	<item quantity="one">%d záznam byl přesunut do knihovny %s</item>
-	<item quantity="few">%d záznamy bylo přesunuty do knihovny %s</item>
-	<item quantity="many">%d záznamů bylo přesunuto do knihovny %s</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one">%d záznam byl přesunut do knihovny %s</item>
+        <item quantity="few">%d záznamy bylo přesunuty do knihovny %s</item>
+        <item quantity="other">%d záznamů bylo přesunuto do knihovny %s</item>
+    </plurals>
     <plurals name="copying_entries_success">
-	<item quantity="one">%d položka byla zkopírována do knihovny %s</item>
-	<item quantity="few">%d položky byly zkopírovány do knihovny %s</item>
-	<item quantity="many">%d položek bylo zkopírováno do knihovny %s</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one">%d položka byla zkopírována do knihovny %s</item>
+        <item quantity="few">%d položky byly zkopírovány do knihovny %s</item>
+        <item quantity="other">%d položek bylo zkopírováno do knihovny %s</item>
+    </plurals>
     <string name="menu">Menu</string>
     <string name="need_pro_for_move_entries">Záznamy lze přesouvat nebo kopírovat do jiné knihovny jen v PRO verzi programu.</string>
     <string name="create_copy">Vytvořit kopii</string>
@@ -1492,9 +1486,7 @@ All rights reserved</string>
     <string name="google_sheet_header_not_found">V tabulce Google Sheet není žádný řádek záhlaví.</string>
     <string name="google_sheet_id_column_not_found">V tabulce Google Sheet není žádný klíčový sloupec.</string>
     <string name="google_sheet_new_link_text">Tato knihovna bude propojena s novou tabulkou <b>%s</b> na Disku Google.</string>
-    <string name="google_sync_migration_to_v4">Tato knihovna je synchronizována pomocí zastaralé metody.
-Pro použití nové metody, propojte znovu knihovnu s novou tabulkou.
-Spustit znovu propojení teď?</string>
+    <string name="google_sync_migration_to_v4">Tato knihovna je synchronizována pomocí zastaralé metody.\nPro použití nové metody, propojte znovu knihovnu s novou tabulkou.\nSpustit znovu propojení teď?</string>
     <string name="enable_logging_sheets">Google Tabulky</string>
 
     <string name="position_column_1">1 sloupec</string>
@@ -1516,8 +1508,7 @@ Spustit znovu propojení teď?</string>
     <string name="google_docs_out_folder_hint">Určete složku pro vytvořené dokumenty</string>
     <string name="preparing_doc">Příprava záznamů ...</string>
     <string name="google_docs_left_operations">Ve verzích Free a Lite je počet operací omezen na %d za den, zbývá vám %d.</string>
-    <string name="need_pro_for_google_docs">Bezplatná verze umožňuje kopírovat jen 10 záznamů denně.
-Chcete-li toto omezení zrušit, upgradujte na verzi PRO.</string>
+    <string name="need_pro_for_google_docs">Bezplatná verze umožňuje kopírovat jen 10 záznamů denně.\nChcete-li toto omezení zrušit, upgradujte na verzi PRO.</string>
 
     <string name="position_column_auto">Auto</string>
     <string name="user_field_current_by_default_title">Aktuální uživatel</string>
@@ -1526,11 +1517,9 @@ Chcete-li toto omezení zrušit, upgradujte na verzi PRO.</string>
     <string name="spotlight_create_library_by_template_text">Klepnutím na \"Uložit\" vytvoříte novou knihovnu založenou na této šabloně.</string>
 
     <string name="spotlight_from_scratch_title">Začít od začátku</string>
-    <string name="spotlight_from_scratch_text">Memento organizuje vaše informace do knihoven. Knihovna je podobná listům v tabulce.
-Nejprve zadejte název vaší nové knihovny, vyberte její ikonu a barvu.</string>
+    <string name="spotlight_from_scratch_text">Memento organizuje vaše informace do knihoven. Knihovna je podobná listům v tabulce.\nNejprve zadejte název vaší nové knihovny, vyberte její ikonu a barvu.</string>
     <string name="spotlight_from_scratch_fields_title">Pole</string>
-    <string name="spotlight_from_scratch_fields_text">Na této kartě můžete definovat pole pro každou položku v této knihovně.
-Pole je ekvivalent sloupce v tabulce.</string>
+    <string name="spotlight_from_scratch_fields_text">Na této kartě můžete definovat pole pro každou položku v této knihovně.\nPole je ekvivalent sloupce v tabulce.</string>
     <string name="spotlight_from_scratch_save_title">Uložit strukturu</string>
     <string name="spotlight_from_scratch_save_text">Po přidání polí začněte přidávat záznamy klepnutím na \"Uložit\".</string>
     <string name="spotlight_create_entry_title">Vytvořit záznam</string>
@@ -1623,9 +1612,10 @@ Pole je ekvivalent sloupce v tabulce.</string>
 
     <string name="no_comments">Bez komentářů</string>
     <plurals name="comments_count">
-	<item quantity="one">komentář</item>
-	<item quantity="other">%d komentáře</item>
-</plurals>
+	    <item quantity="one">%d komentář</item>
+        <item quantity="few">%d komentáře</item>
+	    <item quantity="other">%d komentáře</item>
+    </plurals>
     <string name="comments_only_for_cloud">Komentáře lze zveřejnit pouze v knihovnách, které byly nahrány do cloudu. Nahrát knihovnu do cloudu?</string>
     <string name="locale_plugin_add_edit_entry_title">Přidat/upravit záznam</string>
     <string name="locale_to_fields_list_empty_text">Kliknutím na tlačítko + vytvoříte nová pravidla pro vyplňování polí knihovny.</string>
@@ -1645,8 +1635,7 @@ Pole je ekvivalent sloupce v tabulce.</string>
     <string name="trigger">Spouštěč</string>
     <string name="empty_script_list_trigger_text">Spouštěč je skript, který definuje zpracování záznamu na základě události, ke které došlo.</string>
     <string name="need_pro_for_triggers">Ve verzi zdarma může jedna knihovna obsahovat pouze jeden spouštěč. Chcete-li toto omezení odstranit, upgradujte na verzi PRO.</string>
-    <string name="empty_triggers_list_text">Tato knihovna neobsahuje spouštěče.
-Spouštěč je skript, který definuje zpracování záznamu na základě události, která proběhla.</string>
+    <string name="empty_triggers_list_text">Tato knihovna neobsahuje spouštěče.\nSpouštěč je skript, který definuje zpracování záznamu na základě události, která proběhla.</string>
     <string name="trigger_moment">Fáze</string>
     <string name="unknown_trigger_event_type">Neznámá událost</string>
     <string name="unknown_trigger_moment_type">Neznámá fáze</string>

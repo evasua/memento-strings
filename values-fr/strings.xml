@@ -1051,8 +1051,7 @@ Tout droits réservés</string>
     <string name="icon_pack_title_field_material">Matériel</string>
     <string name="google_base_field_new">Valeur de l\'attribut d\'après la source</string>
     <string name="icon_pack_title_field_general_flat">Général</string>
-    <string name="single_line_options_title">Ligne unique
-champ texte</string>
+    <string name="single_line_options_title">Ligne unique\nchamp texte</string>
     <string name="reminders_count_limit">Vous pouvez ajouter un maximum de 10 rappels par champ</string>
     <string name="aggregation_result_position">Emplacement</string>
     <string name="aggregation_result_prev_line">Pas de retour à la ligne</string>
