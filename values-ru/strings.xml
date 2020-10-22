@@ -2277,6 +2277,13 @@
     <string name="entry_field_must_be_unique">Значение поля %s не уникально</string>
     <string name="non_unique_entries_message">В библиотеке есть не уникальные записи</string>
     <string name="primary_external_storage">Основное внешнее хранилище</string>
+    <string name="non_unique_values">Не уникальные значения</string>
+
+    <!--4.9.1-->
+    <string name="append_tags">Добавить теги</string>
+    <string name="trigger_event_modify_field">Изменение поля</string>
+    <string name="select_templates">Выберите шаблоны</string>
+    <string name="fast_create_libraries">Создайте библиотеки по готовым шаблонам</string>
 
 </resources>
 

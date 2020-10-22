@@ -75,9 +75,9 @@
     <string name="search_hint">Hledat záznam</string>
     <string name="search_parse_exception_messagee">Chybný vyhledávaný řetězec</string>
     <plurals name="NItemsFind">
-	    <item quantity="one">1 nalezený záznam</item>
+        <item quantity="one">Nalezen 1 záznam</item>
         <item quantity="few">Nalezené záznamy: <xliff:g id="COUNT">%d</xliff:g></item>
-        <item quantity="other">Nalezené záznamy: <xliff:g id="COUNT">%d</xliff:g></item>
+        <item quantity="other">Nalezených záznamů: <xliff:g id="COUNT">%d</xliff:g></item>
     </plurals>
     <string name="memento_search">Memento hledání</string>
     <string name="memento_search_in_lib">Memento hledá v "%s"</string>
@@ -142,7 +142,7 @@
     <string name="activation_ok">Děkujeme za aktivaci Mementa</string>
     <string name="activation_error">Aktivační kód je chybný. Prosím, zadejte jej znovu.</string>
     <string name="about">O programu</string>
-    <string name="copyright">Copyright © 2019 LuckyDroid\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2020 MementoDB Inc.\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Zobrazit verzi softwaru</string>
     <string name="about_license_type">Licence:</string>
@@ -1098,7 +1098,7 @@
     <string name="most_viewed_templates">Často prohlížené</string>    
 	<string name="library_have_duplicates2">Pro správné fungování změnit nebo smazat duplicity.</string>
 	<string name="calendar_field_role">Použít kalendář jako</string>
-    <string name="use_depend_only_in_edit_hint_true">Jen při úpravě položky</string>
+    <string name="use_depend_only_in_edit_hint_true">Dostupné jen při úpravách záznamu</string>
     <string name="use_depend_only_in_edit_hint_false">Při úpravě a zobrazení položky</string>
 	<string name="show_deleted_entries_menu_item">Zobrazit smazané záznamy</string>
 	<string name="upload_to_cloud_menu_item">Do cloudu</string>
@@ -1199,7 +1199,7 @@
 	<string name="invalid_library_template_file_format">Neplatný formát souboru šablony</string>    
 	<string name="cant_add_yourself">Nemůžete přidat sebe sama</string>
 	<string name="select_template_title">Vyberte šablonu</string>
-	<string name="empty_library_title">Prázdná knihovna</string>
+	<string name="empty_library_title">Začít od začátku</string>
 	<string name="catalog_templates_title">Online katalog</string>
 	<string name="catalog_templates_hint">Přes 3000 šablon</string>
 	<string name="add_lib_from_google_drive_hint">Obnovit z Google Disku</string>
@@ -1392,9 +1392,9 @@
     <string name="rating_tooltips_hint">Popis</string>
     <string name="rating_tooltips_empty">Pole nemá popis</string>
     <plurals name="rating_tooltips_count">
-	    <item quantity="one">%d popis</item>
+        <item quantity="one">%d popis</item>
         <item quantity="few">%d popisy</item>
-	    <item quantity="other">%d popisy</item>
+        <item quantity="other">%d popisů</item>
     </plurals>
     <string name="filter_by_string">Filtrovat podle řetězce</string>
     <string name="multiediting_only_in_pro">Úprava více položek je dostupná pouze pro majitele verze PRO.</string>
@@ -1405,9 +1405,9 @@
     <string name="cloud_library_notification_hint">Dostávat Push-notifikace při úpravách knihovny jinými uživateli</string>
     <string name="cloud_notification_for_subscribers">Je nám líto, oznámení mohou přijímat jen předplatitelé.</string>
     <plurals name="notification_edit_library_common_text">
-	    <item quantity="one">%d nepřečtená změna</item>
+        <item quantity="one">%d nepřečtená změna</item>
         <item quantity="few">%d nepřečtené změny</item>
-	    <item quantity="other">%d nepřečtené změny</item>
+        <item quantity="other">%d nepřečtených změn</item>
     </plurals>
 
     <string name="relation_type">Typ vztahu</string>
@@ -1424,4 +1424,250 @@
     <string name="permission_storage_explanation_text">Přístup k uložišti je vyžadován pro vyhledávání, zálohování a připojení obrázků a souboru k vaším záznamům.</string>
     <string name="permission_accounts_text">Memento vyžaduje přístup k vašemu účtu pro synchronizaci s Google Tabulkami.</string>
     <string name="permission_location_text">Memento vyžaduje přístup k určování vaší polohy pro pole typu Lokalizace.</string>
+    <string name="chart_field_missing">Nelze najít pole pro graf. Možná bylo smazáno.</string>
+<string name="primary_external_storage">Primární externí úložiště</string>
+    <string name="non_unique_entries_message">V knihovně existují nejedinečné položky</string>
+    <string name="period_this_year">Tento rok</string>
+    <string name="number_filter_types_between">Mezi</string>
+    <string name="field_role_hidden">Skryté pole</string>
+    <string name="field_role_hidden_short">skryté</string>
+    <string name="export_hidden_fields">Export skrytých polí</string>
+    <string name="move_select_destination">Vyberte cíl</string>
+    <string name="match_fields">Odpovídající pole</string>
+    <string name="dest_fields">Cílová pole</string>
+    <string name="move_rules_empty">"Pro přesun nejsou v knihovně  žádná pravidla"</string>
+
+    <string name="delete_move_rule_dialog_title">Smazat pravidlo</string>
+    <string name="delete_move_rule_dialog_message">Opravdu chcete smazat pravidlo přesunu do \"%s\" ?</string>
+    <string name="no_field">Žádné pole</string>
+    <string name="moving_entries">Přesouvání záznamů. %d z %d.</string>
+    <string name="copying_entries2">Kopírování záznamů. %d z %d.</string>
+    <plurals name="moving_entries_success">
+        <item quantity="one">%d záznam byl přesunut do knihovny %s</item>
+        <item quantity="few">%d záznamy bylo přesunuty do knihovny %s</item>
+        <item quantity="other">%d záznamů bylo přesunuto do knihovny %s</item>
+    </plurals>
+    <plurals name="copying_entries_success">
+        <item quantity="one">%d položka byla zkopírována do knihovny %s</item>
+        <item quantity="few">%d položky byly zkopírovány do knihovny %s</item>
+        <item quantity="other">%d položek bylo zkopírováno do knihovny %s</item>
+    </plurals>
+    <string name="menu">Menu</string>
+    <string name="need_pro_for_move_entries">Záznamy lze přesouvat nebo kopírovat do jiné knihovny jen v PRO verzi programu.</string>
+    <string name="create_copy">Vytvořit kopii</string>
+    <string name="move_or_copy">Přesunout nebo zkopírovat</string>
+    <string name="duplicate">Duplikovat</string>
+
+    <string name="buy_license_key_hint">Koupit samostatnou PRO licenci pro Android</string>
+    <string name="flex_type_user">Uživatel</string>
+    <string name="select_user">Vyberte uživatele</string>
+    <string name="select_user_empty_list">Žádní uživatelé na výběr</string>
+    <string name="memento_full_name_hint">Celé jméno</string>
+    <string name="not_set">Nenastaveno</string>
+    <string name="objects_limit_option_title">Omezení</string>
+    <string name="max_number_of_users">Maximální počet uživatelů</string>
+    <string name="no_limit">Bez omezení</string>
+    <string name="conditional_permission">Závisí na poli</string>
+    <string name="conditional_field_empty">Vyberte v poli \"Uživatel\", pro poskytnutí oprávnění k operaci.</string>
+    <string name="conditional_permission_limit">Přístupová práva podle pole \"Uživatel“ lze nastavit pouze u týmových tarifů.</string>
+    <string name="filter_rule_is_one_of">Je jedním z</string>
+    <string name="filter_rule_is_not_one_of">Není jedním z</string>
+    <string name="send_email">Odeslání emailu</string>
+    <string name="type_desc_user">Uživatelské pole umožňuje vybrat jednoho nebo více uživatelů ze seznamu uživatelů, se kterými je knihovna sdílena.</string>
+    <string name="field_copied_to_clipboard">%s zkopírováno do schránky</string>
+    <string name="max_number_of_users_limit_message">Můžete zvolit pouze %d uživatelů</string>
+
+    <string name="entries_view_type_kanban">Kanban</string>
+    <string name="staggered_grid">Přesazená mřížka</string>
+    <string name="choose_google_account">Vyberte účet Google</string>
+    <string name="selected_file_is_too_large">Vybraný soubor je příliš velký</string>
+
+    <string name="google_sheet_not_found">Propojený list s id %d nebyl nalezen.</string>
+    <string name="google_sheet_header_not_found">V tabulce Google Sheet není žádný řádek záhlaví.</string>
+    <string name="google_sheet_id_column_not_found">V tabulce Google Sheet není žádný klíčový sloupec.</string>
+    <string name="google_sheet_new_link_text">Tato knihovna bude propojena s novou tabulkou <b>%s</b> na Disku Google.</string>
+    <string name="google_sync_migration_to_v4">Tato knihovna je synchronizována pomocí zastaralé metody.\nPro použití nové metody, propojte znovu knihovnu s novou tabulkou.\nSpustit znovu propojení teď?</string>
+    <string name="enable_logging_sheets">Google Tabulky</string>
+
+    <string name="position_column_1">1 sloupec</string>
+    <string name="position_column_2">2 sloupec</string>
+    <string name="position_column_3">3 sloupec</string>
+    <string name="copy_to_google_docs">Kopírování do Google Docs</string>
+    <string name="google_docs_select_template">Vybrat šablonu</string>
+
+    <string name="google_docs_templates_empty">V této knihovně nejsou žádné šablony Google Docs</string>
+    <string name="google_docs_task_create_document2">Vytvoření dokumentu</string>
+    <string name="google_docs_task_delete_document2">Odstranění dokumentu</string>
+    <string name="google_docs_task_step_auth2">Ověření ve službě Docs</string>
+    <string name="delete_google_docs_template_dialog_text">Opravdu chcete odstranit šablonu \"%s“?</string>
+    <string name="generating_doc">Vytváření dokumentu ...</string>
+    <string name="populating_table">Vyplnění tabulky ...</string>
+    <string name="entry_has_been_copied_to_docs">Záznam byl zkopírován do Google Docs</string>
+    <string name="entries_has_been_copied_to_docs">Položky byly zkopírovány do Google Docs</string>
+    <string name="google_docs_out_folder_name">Název složky</string>
+    <string name="google_docs_out_folder_hint">Určete složku pro vytvořené dokumenty</string>
+    <string name="preparing_doc">Příprava záznamů ...</string>
+    <string name="google_docs_left_operations">Ve verzích Free a Lite je počet operací omezen na %d za den, zbývá vám %d.</string>
+    <string name="need_pro_for_google_docs">Bezplatná verze umožňuje kopírovat jen 10 záznamů denně.\nChcete-li toto omezení zrušit, upgradujte na verzi PRO.</string>
+
+    <string name="position_column_auto">Auto</string>
+    <string name="user_field_current_by_default_title">Aktuální uživatel</string>
+
+    <string name="spotlight_create_library_by_template_title">Vytvoření knihovny</string>
+    <string name="spotlight_create_library_by_template_text">Klepnutím na \"Uložit\" vytvoříte novou knihovnu založenou na této šabloně.</string>
+
+    <string name="spotlight_from_scratch_title">Začít od začátku</string>
+    <string name="spotlight_from_scratch_text">Memento organizuje vaše informace do knihoven. Knihovna je podobná listům v tabulce.\nNejprve zadejte název vaší nové knihovny, vyberte její ikonu a barvu.</string>
+    <string name="spotlight_from_scratch_fields_title">Pole</string>
+    <string name="spotlight_from_scratch_fields_text">Na této kartě můžete definovat pole pro každou položku v této knihovně.\nPole je ekvivalent sloupce v tabulce.</string>
+    <string name="spotlight_from_scratch_save_title">Uložit strukturu</string>
+    <string name="spotlight_from_scratch_save_text">Po přidání polí začněte přidávat záznamy klepnutím na \"Uložit\".</string>
+    <string name="spotlight_create_entry_title">Vytvořit záznam</string>
+    <string name="spotlight_create_entry_text">Klepnutím na “+“ vytvoříte první záznam v této knihovně.</string>
+    <string name="spotlight_library_menu_title">Naše kouzelné nástroje</string>
+    <string name="spotlight_library_menu_text">Pokud chcete upravit řazení nebo filtrování, změnit zobrazení na Tabulku, Mapu nebo Kalendář, přidat grafy nebo změnit sadu polí, klepněte sem.</string>
+    <string name="spotlight_library_edit_title">Upravit knihovnu</string>
+    <string name="spotlight_library_edit_text">Knihovnu můžete kdykoli změnit - přidat nebo upravit pole.</string>
+    <string name="spotlight_library_edit_fields_title">Pole</string>
+    <string name="spotlight_library_edit_fields_text">Pole je držitel pro jednotku dat nebo hodnoty. Každé pole má typ a název. Pole mohou mít také rozšířené parametry nebo možnosti zobrazení.</string>
+    <string name="spotlight_library_aggregation_title">Agregace</string>
+    <string name="spotlight_library_aggregation_text">Agregace je matematická funkce použitá u všech záznamů v knihovně podle vybraného pole. Pomůže vám najít minimální, maximální, průměrnou nebo celkovou hodnotu.</string>
+
+    <string name="button_need_help">Potřebujete pomoc?</string>
+    <string name="export_template_include_charts">Zahrnout grafy</string>
+    <string name="sort_manually">Ručně</string>
+    <string name="hide_column">Skrýt sloupec</string>
+    <string name="add_group_field">Přidat skupinové pole</string>
+    <string name="add_another_group_field">Přidejte další pole skupiny</string>
+    <string name="filter">Filtr</string>
+
+    <string name="comment_delete_message_text">Opravdu chcete smazat tento komentář?</string>
+
+    <string name="logs_empty">Žádné soubory protokolu.</string>
+    <string name="logs_send">Odesílat soubory protokolů</string>
+    <string name="choose_grouping_field">Vyberte pole seskupení</string>
+    <string name="flex_type_title_dynamic_list">Seznam</string>
+    <string name="add_dynamic_list_item">Položka seznamu</string>
+    <string name="type_desc_dynamic_list">Pole Seznam je sada textových řetězců se zaškrtávacími políčky. Lze jej například použít pro seznamy úkolů.</string>
+    <string name="type_desc_tags">Pole Tagy je upravitelné textové pole, do kterého můžete zadat slovo a provádět hledání dalších položek.</string>
+    <string name="entries_background_color">Vyberte barvu pozadí</string>
+    <string name="flex_type_tags">Tagy</string>
+    <string name="group_multiple_values_split">Rozdělit hodnoty</string>
+    <string name="unique_fields">Unikátní pole</string>
+    <string name="entry_field_must_be_unique">Pole %s není jedinečné</string>
+    <string name="unlock_linked_library_text">Propojená knihovna je šifrovaná, musíte zadat hlavní heslo</string>
+    <string name="preview_calc_exec_time">Čas výpočtu: %d ms</string>
+    <string name="field_enclosed">Kvalifikace textu</string>
+
+    <string name="users_manager">Správa uživatelů</string>
+    <string name="create_new_user_dialog">Vytvořit nového uživatele</string>
+
+    <string name="script">Skript</string>
+    <string name="js_libraries">Knihovny JavaScriptu</string>
+    <string name="js_moment_library">Knihovna pro analýzu, ověřování, manipulaci a formátování dat</string>
+    <string name="js_realtime">Spustit skript v reálném čase</string>
+    <string name="js_realtime_hint_off">Skript se spustí pouze při úpravě záznamu</string>
+    <string name="js_realtime_hint_on">Skript se spustí při zobrazení záznamu</string>
+    <string name="user_limit_message">Dosáhli jste svého limitu uživatelů</string>
+    <string name="remaining_users" formatted="false">Využitých %d z %d licencí</string>
+    <string name="delete_slave_user_message">Opravdu chcete smazat uživatele \"%s\"?</string>
+    <string name="active_users">Aktivní uživatele</string>
+    <string name="deleted_users">Smazaní uživatele</string>
+    <string name="powered_by_text">Powered by Memento Database</string>
+
+    <string name="string_list_sort_menu_title">Třídit podle názvu</string>
+    <string name="previous_value">Předchozí hodnota</string>
+    <string name="specify_value">Zadejte hodnotu</string>
+    <string name="filters_order">Objednat...</string>
+    <string name="full_screen_mode">Režim celé obrazovky</string>
+    <string name="standard_screen_mode">Standardní režim obrazovky</string>
+    <string name="restore_from_cloud">Obnovit z cloudu</string>
+    <string name="of_counter" formatted="false">%d z %d</string>
+
+    <string name="lost_database_text">Nelze otevřít databázový soubor, zkontrolujte, zda je přítomen v zadané cestě</string>
+    <string name="multi_choice_delimiter">Oddělovač</string>
+    <string name="cloud_plan_free">Zdarma</string>
+    <string name="cloud_plan_plan3">Lite</string>
+    <string name="cloud_plan_plan6">PRO</string>
+    <string name="cloud_plan_plan10">PRO Plus</string>
+    <string name="cloud_plan_storage">%s úložiště</string>
+
+    <string name="memento_server_settings_group">Memento Server</string>
+    <string name="memento_server_host">Adresa Memento Serveru</string>
+    <string name="memento_server_cloud">Použít Memento Cloud</string>
+    <string name="memento_server_private">Použít privátní Memento Server</string>
+    <string name="memento_server_private_hint">host:port</string>
+    <string name="memento_server_private_not_found">Privátní server nebyl na zadané adrese nalezen</string>
+    <string name="latitude_longitude">Zeměpisná šířka / délka</string>
+    <string name="latitude_longitude_hint">šířka / délka</string>
+    <string name="latitude_longitude_parse_error">Nelze analyzovat zeměpisnou šířku/délku</string>
+    <string name="relation_type_one_to_one">Jeden na jednoho</string>
+    <string name="relation_type_one_to_many">Jeden k mnoha</string>
+    <string name="relation_type_many_to_many">Mnoho k mnoha</string>
+    <string name="relation_type_one_limit">Vybraný záznam už má souvislost/vztah</string>
+    <string name="relation_type_one_limit2">%s už má souvislost/vztah</string>
+    <string name="library_edit_mode">Režim úprav</string>
+    <string name="library_edit_mode_hint">Kliknutím na záznam otevřete úpravy</string>
+    <string name="desktop_version">Desktop verze</string>
+
+    <string name="no_comments">Bez komentářů</string>
+    <plurals name="comments_count">
+	    <item quantity="one">%d komentář</item>
+        <item quantity="few">%d komentáře</item>
+	    <item quantity="other">%d komentáře</item>
+    </plurals>
+    <string name="comments_only_for_cloud">Komentáře lze zveřejnit pouze v knihovnách, které byly nahrány do cloudu. Nahrát knihovnu do cloudu?</string>
+    <string name="locale_plugin_add_edit_entry_title">Přidat/upravit záznam</string>
+    <string name="locale_to_fields_list_empty_text">Kliknutím na tlačítko + vytvoříte nová pravidla pro vyplňování polí knihovny.</string>
+    <string name="locale_to_fields_var">Text z %s</string>
+    <string name="locale_to_fields_add_rule_title">Přidat pravidlo</string>
+    <string name="locale_to_fields_edit_rule_title">Upravit pravidlo</string>
+    <string name="variable_select">Výběr proměnné</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Upravit záznam</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Vytvořit novou položku, pokud se vám nepodařilo najít položku podle klíčového pole</string>
+
+    <string name="send_field_title">Odeslat název pole</string>
+    <string name="send_field_title_summary">Název pole bude před hodnotou pole</string>
+    <string name="auto_lock_libraries_time_title">Uzavřít přístup ke knihovnám</string>
+    <string name="auto_lock_libraries_after">Po %s</string>
+
+    <string name="trigger_default_name">Spouštěč %d</string>
+    <string name="trigger">Spouštěč</string>
+    <string name="empty_script_list_trigger_text">Spouštěč je skript, který definuje zpracování záznamu na základě události, ke které došlo.</string>
+    <string name="need_pro_for_triggers">Ve verzi zdarma může jedna knihovna obsahovat pouze jeden spouštěč. Chcete-li toto omezení odstranit, upgradujte na verzi PRO.</string>
+    <string name="empty_triggers_list_text">Tato knihovna neobsahuje spouštěče.\nSpouštěč je skript, který definuje zpracování záznamu na základě události, která proběhla.</string>
+    <string name="trigger_moment">Fáze</string>
+    <string name="unknown_trigger_event_type">Neznámá událost</string>
+    <string name="unknown_trigger_moment_type">Neznámá fáze</string>
+
+    <string name="trigger_event_create_entry">Vytváření záznamu</string>
+    <string name="trigger_event_modify_entry">Aktualizace záznamu</string>
+    <string name="trigger_event_delete_entry">Mazání záznam</string>
+    <string name="trigger_event_open_entry">Otevření záznamové karty</string>
+    <string name="trigger_event_add_favorites">Přidání položek do oblíbených</string>
+    <string name="trigger_event_remove_favorites">Odstranění položky z oblíbených</string>
+    <string name="trigger_enabled">Zapnuto</string>
+    <string name="trigger_switched_off">Vypnuto</string>
+    <string name="trigger_delete_message">Opravdu chcete smazat skript \"%s\" ?</string>
+
+
+    <string name="trigger_moment_open_form">Otevřít kartu pro úpravu záznamu</string>
+    <string name="trigger_moment_before_save">Před uložením záznamu</string>
+    <string name="trigger_moment_after_save">Po uložení záznamu</string>
+    <string name="trigger_moment_before_delete">Před odstraněním záznamu</string>
+    <string name="trigger_moment_after_delete">Po smazání záznamu</string>
+    <string name="trigger_moment_before_show">Před otevřením okna</string>
+    <string name="trigger_moment_after_show">Po otevření okna</string>
+
+    <string name="application">Aplikace</string>
+    <string name="debug">Odstraňování problémů</string>
+    <string name="debug_summary">Možnosti protokolování</string>
+    <string name="log_files_folder">Adresář souborů protokolu</string>
+
+    <string name="enable_logging_cloud">Cloud Memento</string>
+    <string name="enable_logging_triggers">Skript</string>
+    <string name="script_log">log skriptu</string>
+
+    <string name="trigger_permissions">Oprávnění pro skripty</string>
+    <string name="trigger_permission_read_file">Číst soubory</string>
     </resources>

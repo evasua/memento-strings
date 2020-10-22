@@ -2204,10 +2204,11 @@ Først skriver du inn navnet på det nye biblioteket ditt, velger ikonet og farg
     <string name="add_another_group_field">Legg til enda et gruppefelt</string>
     <string name="type_desc_dynamic_list">Et listefelt er et sett med tekststrenger med avkrysningsruter. For eksempel kan den brukes til ToDo-lister.</string>
     <string name="add_dynamic_list_item">Listelement</string>
-    <string name="type_desc_tags">Et tagfelt er en redigerbar tekstboks der du kan skrive inn en tag og utføre søk etter andre oppføringer etter den.</string>
+    <string name="type_desc_tags">Et tagfelt er en redigerbar tekstboks der du kan skrive inn et ord og utføre søk etter andre oppføringer etter det.</string>
     <string name="flex_type_tags">Tagger</string>
     <string name="group_multiple_values_split">Splitt verdier</string>
     <string name="unique_fields">Unike felt</string>
     <string name="non_unique_entries_message">Det er ikke-unike oppføringer i biblioteket</string>
     <string name="primary_external_storage">Primær ekstern lagring</string>
+<string name="chart_field_missing">Kan ikke finne feltet for diagrammet. Kanskje det ble slettet?.</string>
 </resources>

@@ -1051,7 +1051,7 @@ Tout droits réservés</string>
     <string name="icon_pack_title_field_material">Matériel</string>
     <string name="google_base_field_new">Valeur de l\'attribut d\'après la source</string>
     <string name="icon_pack_title_field_general_flat">Général</string>
-    <string name="single_line_options_title">Ligne unique (sans )\nchamp texte</string>
+    <string name="single_line_options_title">Ligne unique\nchamp texte</string>
     <string name="reminders_count_limit">Vous pouvez ajouter un maximum de 10 rappels par champ</string>
     <string name="aggregation_result_position">Emplacement</string>
     <string name="aggregation_result_prev_line">Pas de retour à la ligne</string>
@@ -1718,7 +1718,7 @@ Tout droits réservés</string>
     <string name="hint_insert_audio_button">Insérer un son</string>
     <string name="hint_record_audio_button">Enregistrer un son</string>
     <string name="hint_insert_location_button">Insérer un emplacement</string>
-    <string name="hint_get_my_location_button">Obtenir mon emplacement</string>
+    <string name="hint_get_my_location_button">Indiquer mon emplacement</string>
     <string name="hint_insert_entry_button">Insérer un enregistrement</string>
     <string name="barcode_type_option_title">Type</string>
     <string name="barcode_type_1d">Code-barres</string>
@@ -1945,8 +1945,8 @@ Tout droits réservés</string>
     <string name="permission_contacts_title">Contacts</string>
     <string name="permission_contacts_text">Il est impératif de donner l\'accès aux contacts à Memento pour les champs de type Contact.</string>
     <string name="boolean_format">Format</string>
-    <string name="boolean_format_on">Étiquette \"On\"</string>
-    <string name="boolean_format_off">Etiquette \"Off\"</string>
+    <string name="boolean_format_on">Libellé pour \"activé\"</string>
+    <string name="boolean_format_off">Libellé pour \"désactivé\"</string>
     <string name="plans_comparison">Consulter l\'intégralité de notre comparatif des fonctionnalités</string>
 
     <string name="revision_history">Historique de version</string>
@@ -2184,12 +2184,14 @@ Exécuter le rattachement maintenant ?</string>
     <string name="choose_grouping_field">Choisir un champ de regroupement</string>
     <string name="flex_type_title_dynamic_list">Liste dynamique</string>
     <string name="add_dynamic_list_item">Liste d\'items</string>
-    <string name="type_desc_dynamic_list">Un champ Liste dynamique est un jeu de chaines de texte avec cases à cocher. Par exemple, il peut être utilisé pour des listes A faire.</string>
-    <string name="type_desc_tags">Un champ Étiquette est une boîte de texte éditable où vous pouvez saisir une étiquette et effectuer des recherches sur d\'autres enregistrements.</string>
+    <string name="type_desc_dynamic_list">Un champ Liste est un jeu de chaines de texte avec cases à cocher. Par exemple, il peut être utilisé pour des listes A faire.</string>
+    <string name="type_desc_tags">Un champ Étiquettes est une boîte de texte éditable où vous pouvez saisir un texte et effectuer des recherches sur d\'autres enregistrements.</string>
     <string name="entries_background_color">Couleur de fond de l\'enregistrement</string>
     <string name="flex_type_tags">Étiquettes</string>
     <string name="group_multiple_values_split">Séparer les valeurs</string>
     <string name="unique_fields">Champs uniques</string>
     <string name="entry_field_must_be_unique">Le champ %s n\'est pas unique</string>
     <string name="non_unique_entries_message">Il y a des enregistrements non-uniques dans cette base</string>
+<string name="primary_external_storage">Stockage externe principal</string>
+    <string name="chart_field_missing">Champ du graphique introuvable. Il a peut-être été supprimé.</string>
 </resources>
