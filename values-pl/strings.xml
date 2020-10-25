@@ -1002,10 +1002,10 @@ Wszelkie prawa zastrzeżone</string>
     <item quantity="other">Wpisów: %d</item>
 </plurals>
     <plurals name="field_depends_count">
-	<item quantity="one">Zależność: 1</item>
-	<item quantity="few">Zależności: %d</item>
-	<item quantity="many">Zależności: %d</item>
-    <item quantity="other">Zależności: %d</item>
+	<item quantity="one">Jedna zależność</item>
+	<item quantity="few">%d zależności</item>
+	<item quantity="many">%d zależności</item>
+	<item quantity="other"/>
 </plurals>
     <plurals name="fields_count">
 	<item quantity="one">1 pole</item>
@@ -1053,7 +1053,7 @@ Wszelkie prawa zastrzeżone</string>
 	<item quantity="one">1 dzień</item>
 	<item quantity="few">%d dni</item>
 	<item quantity="many">%d dni</item>
-    <item quantity="other">%d dni</item>
+	<item quantity="other"/>
 </plurals>
     <string name="entries_view_type_calendar">Kalendarz</string>
     <string name="calendar_field_role">Użyj w kalendarzu jako</string>
@@ -1140,10 +1140,10 @@ Wszelkie prawa zastrzeżone</string>
 	<string name="cloud_conflict_fields_title">Konflikty</string>
 	<string name="cloud_conflict_fix_button_title">Zastosuj</string>
     <plurals name="conflict_count">
-	<item quantity="one">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
-	<item quantity="few">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
-	<item quantity="many">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
-    <item quantity="other">Liczba zaistniałych konfliktów podczas aktualizacji: %d</item>
+	<item quantity="one">%d zaistniały konflikt podczas synchronizacji</item>
+	<item quantity="few">%d zaistniałych konfliktów podczas synchronizacji</item>
+	<item quantity="many">%d zaistniałych konfliktów podczas synchronizacji</item>
+	<item quantity="other"/>
 </plurals>
     <string name="button_select">Wybierz</string>
     <string name="cloud">Chmura</string>
@@ -1330,10 +1330,10 @@ Wszelkie prawa zastrzeżone</string>
     <string name="rating_tooltips_hint">Podpowiedź</string>
     <string name="rating_tooltips_empty">Pole nie zawiera podpowiedzi</string>
     <plurals name="rating_tooltips_count">
-	<item quantity="one">Podpowiedzi: %d</item>
-	<item quantity="few">Podpowiedzi: %d</item>
-	<item quantity="many">Podpowiedzi: %d</item>
-    <item quantity="other">Podpowiedzi: %d</item>
+	<item quantity="one">%d podpowiedź</item>
+	<item quantity="few">%d podpowiedzi</item>
+	<item quantity="many">%d podpowiedzi</item>
+	<item quantity="other"/>
 </plurals>
     <string name="calculator">Kalkulator</string>
     <string name="calculator_options_hint">Dodaj przycisk wyświetlania kalkulatora</string>
@@ -1357,20 +1357,20 @@ Wszelkie prawa zastrzeżone</string>
     <string name="edit_comment_dialog_title">Edytuj komentarz</string>
 
     <plurals name="notification_edit_library_common_text">
-	<item quantity="one">Nieodczytanych zmian: %d</item>
-	<item quantity="few">Nieodczytanych zmian: %d</item>
-	<item quantity="many">Nieodczytanych zmian: %d</item>
-    <item quantity="other">Nieodczytanych zmian: %d</item>
+	<item quantity="one">%d nieodczytana zmiana</item>
+	<item quantity="few">%d nieodczytanych zmian</item>
+	<item quantity="many">%d nieodczytanych zmian</item>
+	<item quantity="other"/>
 </plurals>
 
     <string name="notification_edit_library_create_text">dodany wpis</string>
     <string name="notification_edit_library_edit_text">edytowany wpis</string>
     <string name="notification_edit_library_delete_text">usunięty wpis</string>
     <plurals name="notification_comments_common_text">
-	<item quantity="one">Nowych komentarzy: %d</item>
-	<item quantity="few">Nowych komentarzy: %d</item>
-	<item quantity="many">Nowych komentarzy: %d</item>
-    <item quantity="other">Nowych komentarzy: %d</item>
+	<item quantity="one">%d nowy komentarz</item>
+	<item quantity="few">%d nowych komentarzy</item>
+	<item quantity="many">%d nowych komentarzy</item>
+	<item quantity="other"/>
 </plurals>
 
     <string name="flex_type_rich_text">Tekst RTF</string>
@@ -1480,10 +1480,10 @@ Wszelkie prawa zastrzeżone</string>
     <string name="library_edit_mode">Tryb edycji</string>
     <string name="library_edit_mode_hint">Otwórz okienko edycji dotykając wpis</string>
     <plurals name="comments_count">
-	<item quantity="one">Komentarze: %d</item>
-	<item quantity="few">Komentarze: %d</item>
-	<item quantity="many">Komentarze: %d</item>
-    <item quantity="other">Komentarze: %d</item>
+	<item quantity="one">%d komentarz</item>
+	<item quantity="few">%d komentarze</item>
+	<item quantity="many">%d komentarzy</item>
+	<item quantity="other"/>
 </plurals>
     <string name="comments_only_for_cloud">Komentarze można zamieszczać tylko w bibliotekach przesłanych do chmur. Przesłać bibliotekę do chmury?</string>
     <string name="locale_to_fields_list_empty_text">Dotknij +, aby utworzyć nową regułę wypełniania pól w bibliotece.</string>
@@ -1708,10 +1708,10 @@ Wszelkie prawa zastrzeżone</string>
     <string name="user_group_name_empty">Nazwa grupy nie może być pusta</string>
     <string name="users_count_none">Brak użytkowników</string>
     <plurals name="users_count">
-	<item quantity="one">Użytkowników: %d</item>
-	<item quantity="few">Użytkowników: %d</item>
-	<item quantity="many">Użytkowników: %d</item>
-    <item quantity="other">Użytkowników: %d</item>
+	<item quantity="one">%d użytkownik</item>
+	<item quantity="few">%d użytkowników</item>
+	<item quantity="many">%d użytkowników</item>
+	<item quantity="other"/>
 </plurals>
     <string name="user_group_delete_message">Czy na pewno chcesz usunąć grupę \"%s\"?</string>
     <string name="group_not_found">Nie znaleziono grupy</string>
@@ -1735,10 +1735,10 @@ Wszelkie prawa zastrzeżone</string>
     <string name="entries_view_type_cards">Karty</string>
     <string name="card_view_number_of_columns">Liczba kolumn</string>
     <plurals name="columns_count">
-	<item quantity="one">Kolumny: %d</item>
-	<item quantity="few">Kolumny: %d</item>
-	<item quantity="many">Kolumny: %d</item>
-    <item quantity="other">Kolumny: %d</item>
+	<item quantity="one">Jedna kolumna</item>
+	<item quantity="few">%d kolumny</item>
+	<item quantity="many">%d kolumn</item>
+	<item quantity="other"/>
 </plurals>
 
     <string name="card_view_title_on_image">Wyświetl tekst na obrazem</string>
@@ -2074,11 +2074,11 @@ Wszelkie prawa zastrzeżone</string>
     <string name="type_desc_duration">Pole zakresu czasu może zawierać wartość używaną do reprezentowania czasu mierzonego w dniach, godzinach, minutach, sekundach lub milisekundach.</string>
 
     <plurals name="after_entries_multiedit_message">
-	    <item quantity="one">Jeden wpis był edytowany</item>
-        <item quantity="few">%d wpisy były edytowane</item>
-        <item quantity="many">%d wpisy były edytowane</item>
-	    <item quantity="other">%d wpisy były edytowane</item>
-    </plurals>
+	<item quantity="one">Jeden wpis był edytowany</item>
+	<item quantity="few">%d wpisy były edytowane</item>
+	<item quantity="many">%d wpisów było edytowane</item>
+	<item quantity="other"/>
+</plurals>
 
     <string name="locals_js_libraries">Lokacja</string>
     <string name="js_libraries_add_url">Dodaj URL</string>
@@ -2101,11 +2101,11 @@ Wszelkie prawa zastrzeżone</string>
     <string name="new_database">Nowa baza danych</string>
 
     <plurals name="duration_ms">
-	    <item quantity="one">1 ms</item>
-	    <item quantity="few">%d ms</item>
-	    <item quantity="many">%d ms</item>
-        <item quantity="other">%d ms</item>
-    </plurals>
+	<item quantity="one">1 ms</item>
+	<item quantity="few">%d ms</item>
+	<item quantity="many">%d ms</item>
+	<item quantity="other"/>
+</plurals>
     <string name="send_entries_too_large">Przepraszamy, nie możesz wysłać wszystkich tych wpisów w formie tekstowej. Za dużo danych.</string>
     <string name="request_button">Pytanie</string>
 
@@ -2220,7 +2220,7 @@ Uaktualnij do wersji PRO, aby wyłączyć to ograniczenie.</string>
 
     <string name="logs_empty">Brak plików dziennika.</string>
     <string name="logs_send">Wyślij pliki dzienników</string>
-    <string name="flex_type_title_dynamic_list">Lista dynamiczna</string>
+    <string name="flex_type_title_dynamic_list">Lista</string>
     <string name="add_dynamic_list_item">Element listy</string>
     <string name="entries_view_type_kanban">Znak</string>
     <string name="spotlight_from_scratch_save_text">Po dodaniu pól naciśnij \"Zapisz\", aby rozpocząć dodawanie wpisów.</string>
@@ -2235,4 +2235,26 @@ Uaktualnij do wersji PRO, aby wyłączyć to ograniczenie.</string>
     <string name="unique_fields">Pola unikalne</string>
     <string name="entry_field_must_be_unique">Pole %s nie jest unikalne</string>
     <string name="non_unique_entries_message">W bibliotece znajdują się nieunikalne wpisy</string>
+<string name="spotlight_from_scratch_text">Memento organizuje informacje w bibliotekach. Biblioteka jest podobna do arkuszy w arkuszu kalkulacyjnym.
+Najpierw wprowadź nazwę nowej biblioteki, wybierz jej ikonę i kolor.</string>
+    <string name="spotlight_from_scratch_fields_text">Na tej karcie możesz zdefiniować pola dla każdego wpisu w tej bibliotece.
+Pole jest odpowiednikiem kolumny w arkuszu kalkulacyjnym.</string>
+    <string name="spotlight_library_menu_title">Nasze magiczne narzędzia</string>
+    <string name="spotlight_library_menu_text">Jeśli chcesz dostosować sortowanie lub filtrowanie, zmienić widok na tabelę, mapę lub kalendarz, dodać wykresy lub zmienić zestaw pól, dotknij tutaj.</string>
+    <string name="spotlight_library_edit_fields_text">Pole jest miejscem na przechowywanie jednostki danych lub wartości. Każde pole ma swój typ i nazwę. Pola mogą mieć również zaawansowane parametry lub opcje wyświetlania.</string>
+    <string name="spotlight_library_aggregation_text">Agregacja to funkcja matematyczna stosowana do wszystkich pozycji w bibliotece przez wybrane pole. Pomaga znaleźć minimalną, maksymalną lub średnią wartość, oraz całkowitą sumę.</string>
+
+    <string name="type_desc_dynamic_list">Pole listy to zestaw ciągów tekstowych z polem wyboru. Na przykład, może służyć do tworzenia list rzeczy do zrobienia.</string>
+    <string name="type_desc_tags">Pole Tagów to edytowalne pole tekstowe, w którym można wpisać słowo i wyszukiwać według niego inne wpisy.</string>
+    <string name="primary_external_storage">Podstawowa pamięć zewnętrzna</string>
+    <string name="chart_field_missing">Nie można znaleźć pola dla wykresu. Być może zostało usunięte.</string>
+    <string name="non_unique_values">Nieunikalne wartości</string>
+
+    <string name="append_tags">Dołącz tagi</string>
+    <string name="trigger_event_modify_field">Aktualizacja pola</string>
+    <string name="select_templates">Wybierz szablon</string>
+    <string name="fast_create_libraries">Utwórz nowe biblioteki z szablonów</string>
+    <string name="view_quick_access_toolbar">Pokaż szybkie narzędzia</string>
+    <string name="quick_button_close">Ukryj</string>
+
 </resources>
