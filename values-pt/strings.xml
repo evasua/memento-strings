@@ -2208,4 +2208,13 @@ Um campo é equivalente a uma coluna numa folha de cálculo.</string>
     <string name="non_unique_entries_message">Há entradas não exclusivas na biblioteca</string>
 <string name="primary_external_storage">Armazenamento Externo Primário</string>
 <string name="chart_field_missing">Não é possível encontrar o campo do gráfico. Talvez tenha sido apagado.</string>
+<string name="non_unique_values">Valores não únicos</string>
+
+    <string name="append_tags">Anexar etiquetas</string>
+    <string name="trigger_event_modify_field">Actualizando um campo</string>
+    <string name="select_templates">Seleccionar modelos</string>
+    <string name="fast_create_libraries">Criar novas bibliotecas a partir de modelos</string>
+    <string name="view_quick_access_toolbar">Mostrar Ferramentas Rápidas</string>
+    <string name="quick_button_close">Ocultar</string>
+
 </resources>
