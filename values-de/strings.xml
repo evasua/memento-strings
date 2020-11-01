@@ -1071,7 +1071,7 @@ Alle Rechte vorbehalten</string>
 	<string name="allow_permission">Zulassen</string>
 	<string name="deny_permission">Verweigern</string>
 	<string name="button_try_again">Nochmals versuchen</string>	
-	<string name="use_depend_only_in_edit_hint_true">Nur während Bearbeitung des Eintrages</string>
+	<string name="use_depend_only_in_edit_hint_true">Nur während der bearbeitung des Eintrages</string>
     <string name="use_depend_only_in_edit_hint_false">Während Bearbatung und lesen des Eintrages</string>
 	<string name="most_viewed_templates">Am Meisten gelesen</string>    
 	<string name="select_template_lang">Sprache der Vorlage auswählen</string>
@@ -1191,7 +1191,7 @@ Alle Rechte vorbehalten</string>
     <string name="button_show">Zeigen</string>
 	<string name="cant_add_yourself">Sie können sich selbst nicht hinzufügen</string>
 	<string name="select_template_title">Vorlage auswählen</string>
-	<string name="empty_library_title">Leere Sammlung</string>
+	<string name="empty_library_title">Neustart</string>
 	<string name="catalog_templates_hint">Mehr als 3000 Vorlagen</string>
 	<string name="templates">Vorlagen</string>
 	<string name="success_upload_library_to_cloud2">Sie können Ihre Sammlung in den Zugangseinstellungen für andere Memento-Nutzer zugänglich machen.</string>
@@ -1850,7 +1850,7 @@ Alle Rechte vorbehalten</string>
     <string name="type_desc_barcode">Das Strichcode-Feld wird zum Scannen von Strichcodes oder QR-Codes verwendet.</string>
     <string name="type_desc_pass">Ein Passwortfeld kann beliebige Textdaten enthalten. Die Zeichen in einem Passwortfeld sind maskiert (als Sternchen dargestellt).</string>
     <string name="type_desc_rich">Ein Rich-Text-Feld kann beliebige Textdaten einschließlich Textformatierungsinformationen enthalten.</string>
-    <string name="type_desc_multiple_choice">Ein Multiple-Choice-Listenfeld ist eine Gruppe von Textzeichenfolgen, aus denen ein Benutzer beliebige oder alle auswählen kann.</string>
+    <string name="type_desc_multiple_choice">Ein Multiple-Choice-Listenfeld ist eine Liste von Textzeichenfolgen, aus denen ein Benutzer beliebige oder alle auswählen kann.</string>
     <string name="type_desc_checkboxes">Im Feld Checkboxes können ein oder mehrere Kontrollkästchen angezeigt werden, die mehrere Auswahlmöglichkeiten zulassen.</string>
     <string name="type_desc_single_choice">Ein Single-Choice-Feld ist eine Reihe von Textstrings, aus denen ein Benutzer einen auswählen kann.</string>
     <string name="type_desc_radiobuttons">Das Optionsfeld wird verwendet, um eine Auswahl aus einer Gruppe von Auswahlmöglichkeiten zu treffen.</string>
@@ -2113,4 +2113,97 @@ Bitte neue verschiebe Regel erstellen um in eine andere Sammlung zu migrieren.</
 	<item quantity="other">Die Einträge %d wurden in die Bibliothek %s kopiert</item>
 </plurals>
     <string name="type_desc_user">Im Benutzerfeld ermöglicht Ihnen einen oder mehrere Benutzer aus einer Liste aller Benutzer auszuwählen, mit denen Ihre Bibliothek geteilt wird.</string>
-    </resources>
+    <string name="staggered_grid">Versetztes Gitter</string>
+    <string name="choose_google_account">Wählen Sie ein Google-Konto</string>
+    <string name="selected_file_is_too_large">Die ausgewählte Datei ist zu groß</string>
+
+    <string name="google_sheet_not_found">Das verknüpfte Arbeitsblatt mit der ID %d wurde nicht gefunden.</string>
+    <string name="google_sheet_header_not_found">Die Google Sheet-Tabelle enthält keine Kopfzeile.</string>
+    <string name="google_sheet_id_column_not_found">Die Google Sheet-Tabelle enthält keine Schlüsselspalte.</string>
+    <string name="google_sheet_new_link_text">Diese Bibliothek wird mit einer neuen Tabelle <b> %s</b>"  in Google Drive verknüpft."</string>
+    <string name="google_sync_migration_to_v4">Diese Bibliothek wird mit der veralteten Methode synchronisiert.
+Führen Sie das erneute Binden der Bibliothek an die neue Tabelle durch, um die neue Methode zu verwenden.
+Jetzt erneut binden?</string>
+    <string name="enable_logging_sheets">Google Sheets</string>
+
+    <string name="position_column_1">1. Spalte</string>
+    <string name="position_column_2">2. Spalte</string>
+    <string name="position_column_3">3. Spalte</string>
+    <string name="copy_to_google_docs">Kopieren in Google Text &amp; Tabellen</string>
+    <string name="google_docs_select_template">Vorlage auswählen</string>
+
+    <string name="google_docs_templates_empty">In dieser Bibliothek befinden sich keine Google Text &amp; Tabellen-Vorlagen</string>
+    <string name="google_docs_task_create_document2">Dokument erstellen</string>
+    <string name="google_docs_task_delete_document2">Dokument löschen</string>
+    <string name="google_docs_task_step_auth2">Authentifizierung beim Docs-Dienst</string>
+    <string name="delete_google_docs_template_dialog_text">Möchten Sie die Vorlage \"%s\" wirklich löschen?</string>
+    <string name="generating_doc">Dokument erstellen ...</string>
+    <string name="populating_table">Tabelle völlen.</string>
+    <string name="entry_has_been_copied_to_docs">Der Eintrag wurde in Google Text &amp; Tabellen kopiert</string>
+    <string name="entries_has_been_copied_to_docs">Die Einträge wurden in Google Text &amp; Tabellen kopiert</string>
+    <string name="google_docs_out_folder_name">Überschrifft</string>
+    <string name="google_docs_out_folder_hint">Geben Sie einen Ordner an, der das Ausgabedokumente enthält</string>
+    <string name="preparing_doc">Einträge vorbereiten ...</string>
+    <string name="google_docs_left_operations">In den Free- und Lite-Versionen ist die Anzahl der Vorgänge auf %d pro Tag begrenzt, Sie haben noch %d übrig.</string>
+    <string name="need_pro_for_google_docs">Mit der kostenlosen Version können Sie nur 10 Einträge pro Tag kopieren.
+Aktualisieren Sie auf die PRO-Version, um diese Einschränkung zu deaktivieren.</string>
+
+    <string name="user_field_current_by_default_title">Aktueller Benutzer</string>
+
+    <string name="spotlight_create_library_by_template_title">Erstellen Sie eine Bibliothek</string>
+    <string name="spotlight_create_library_by_template_text">Tippen Sie auf \"Speichern\", um eine neue Bibliothek basierend auf dieser Vorlage zu erstellen.</string>
+
+    <string name="entries_view_type_kanban">Kanban</string>
+    <string name="spotlight_from_scratch_title">Neustart</string>
+    <string name="spotlight_from_scratch_text">Memento organisiert Ihre Informationen in Bibliotheken. Bibliothek ähnlich Arbeitsblättern in einer Tabelle.
+Geben Sie zuerst den Namen Ihrer neuen Bibliothek ein, wählen Sie das Symbol und die Farbe dafür aus.</string>
+    <string name="spotlight_from_scratch_fields_title">Felder</string>
+    <string name="spotlight_from_scratch_fields_text">Auf dieser Registerkarte können Sie Felder für jeden Eintrag in dieser Bibliothek definieren.
+Ein Feld entspricht einer Spalte in einer Tabelle.</string>
+    <string name="spotlight_from_scratch_save_title">Speichern Sie die Struktur</string>
+    <string name="spotlight_from_scratch_save_text">Sobald die Felder hinzugefügt wurden, tippen Sie auf \"Speichern\". Nun könnern Einträge hinzuzufügen werden.</string>
+    <string name="spotlight_create_entry_title">Erstellen Sie einen Eintrag</string>
+    <string name="spotlight_create_entry_text">Tippen Sie auf \"+\", um einen neuen Eintrag in dieser Bibliothek zu erstellen.</string>
+    <string name="spotlight_library_menu_title">Magischen Werkzeuge</string>
+    <string name="spotlight_library_menu_text">Wenn Sie die Sortierung oder Filterung anpassen, die Ansicht in Tabelle, Karte oder Kalender ändern, Diagramme hinzufügen oder eine Reihe von Feldern ändern möchten, tippen Sie hier.</string>
+    <string name="spotlight_library_edit_title">Bibliothek bearbeiten</string>
+    <string name="spotlight_library_edit_text">Sie können Ihre Bibliothek jederzeit ändern - Felder hinzufügen oder bearbeiten.</string>
+    <string name="spotlight_library_edit_fields_title">Felder</string>
+    <string name="spotlight_library_edit_fields_text">Ein Feld ist der Platz für eine Dateneinheit oder einen Wert. Jedes Feld hat einen Typ und einen Namen. Felder können auch erweiterte Parameter oder Anzeigeoptionen haben.</string>
+    <string name="spotlight_library_aggregation_text">Die Aggregation ist eine mathematische Funktion, die vom ausgewählten Feld auf alle Einträge in der Bibliothek angewendet wird. Es hilft Ihnen, den minimalen, maximalen oder durchschnittlichen Wert oder die Gesamtsumme zu finden.</string>
+
+    <string name="button_need_help">Brauchen Sie Hilfe?</string>
+    <string name="export_template_include_charts">Diagramme einschließen</string>
+    <string name="sort_manually">Manuell</string>
+    <string name="hide_column">Spalte ausblenden</string>
+    <string name="add_group_field">Neue Gruppe hinzufügen</string>
+    <string name="add_another_group_field">Ein weitere Gruppen hinzufügen</string>
+    <string name="filter">Filter</string>
+
+    <string name="comment_delete_message_text">Möchten Sie den Kommentar löschen?</string>
+
+    <string name="logs_empty">Es gibt keine Protokolldateien.</string>
+    <string name="logs_send">Protokolldateien senden</string>
+    <string name="choose_grouping_field">Wählen Sie ein Feld zum Gruppieren</string>
+    <string name="flex_type_title_dynamic_list">Liste</string>
+    <string name="add_dynamic_list_item">Listenpunkt</string>
+    <string name="type_desc_dynamic_list">Ein Listenfeld besteht aus einer Reihe von Textzeichenfolgen mit Kontrollkästchen. Beispielsweise kann es für Aufgabenlisten (ToDo) verwendet werden.</string>
+    <string name="type_desc_tags">Ein Tags-Feld ist ein bearbeitbares Textfeld, in das Sie ein Wort eingeben und nach anderen Einträgen suchen können.</string>
+    <string name="entries_background_color">Hintergrundfarbe eingeben</string>
+    <string name="flex_type_tags">Suchfeld</string>
+    <string name="group_multiple_values_split">Werte teilen</string>
+    <string name="unique_fields">Einzigartige Felder</string>
+    <string name="entry_field_must_be_unique">Das Feld %s ist nicht eindeutig</string>
+    <string name="non_unique_entries_message">Es gibt keinen eindeutige Einträge in der Bibliothek</string>
+    <string name="primary_external_storage">Primärer ,externer Speicher</string>
+    <string name="chart_field_missing">Das Feld für das Diagramm kann nicht gefunden werden. Vielleicht wurde es gelöscht.</string>
+    <string name="non_unique_values">Nicht eindeutige Werte</string>
+
+    <string name="append_tags">Tags Hinzufügen</string>
+    <string name="trigger_event_modify_field">Feld aktualisieren</string>
+    <string name="select_templates">Vorlagen auswählen</string>
+    <string name="fast_create_libraries">Ein neue Bibliotheken aus Vorlagen erstellen</string>
+    <string name="view_quick_access_toolbar">Quick Tools anzeigen</string>
+    <string name="quick_button_close">Ausblenden</string>
+
+</resources>
