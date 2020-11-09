@@ -2284,6 +2284,17 @@
     <string name="trigger_event_modify_field">Изменение поля</string>
     <string name="select_templates">Выберите шаблоны</string>
     <string name="fast_create_libraries">Создайте библиотеки по готовым шаблонам</string>
+    <string name="view_quick_access_toolbar">Быстрые Инструменты</string>
+    <string name="quick_button_close">Скрыть</string>
+    <string name="append_list_items">Добавить элементы</string>
+
+    <!--4.9.2-->
+    <string name="launcher">Главный экран</string>
+    <string name="time_field_group_entries_week">Группировать по неделе</string>
+    <string name="cant_download">Немогу загрузить</string>
+    <string name="manage_subscription">Управление подпиской</string>
+    <string name="promo_label">Промо</string>
+
 
 </resources>
 

@@ -2279,5 +2279,12 @@
     <string name="fast_create_libraries">Create new libraries from templates</string>
     <string name="view_quick_access_toolbar">Show Quick Tools</string>
     <string name="quick_button_close">Hide</string>
+    <string name="append_list_items">Append Items</string>
 
+    <!--4.9.5-->
+    <string name="launcher">Launcher</string>
+    <string name="time_field_group_entries_week">Group by week</string>
+    <string name="cant_download">Can\'t download</string>
+    <string name="manage_subscription">Manage subscription</string>
+    <string name="promo_label">Promo</string>
 </resources>

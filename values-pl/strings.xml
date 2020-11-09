@@ -1002,11 +1002,11 @@ Wszelkie prawa zastrzeżone</string>
     <item quantity="other">Wpisów: %d</item>
 </plurals>
     <plurals name="field_depends_count">
-	<item quantity="one">Jedna zależność</item>
-	<item quantity="few">%d zależności</item>
-	<item quantity="many">%d zależności</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one">Jedna zależność</item>
+        <item quantity="few">%d zależności</item>
+        <item quantity="many">%d zależności</item>
+        <item quantity="other">%d zależności</item>
+    </plurals>
     <plurals name="fields_count">
 	<item quantity="one">1 pole</item>
 	<item quantity="few">%d pola</item>
@@ -1050,11 +1050,11 @@ Wszelkie prawa zastrzeżone</string>
     <item quantity="other">%d godzin</item>
 </plurals>
     <plurals name="duration_days">
-	<item quantity="one">1 dzień</item>
-	<item quantity="few">%d dni</item>
-	<item quantity="many">%d dni</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one">1 dzień</item>
+        <item quantity="few">%d dni</item>
+        <item quantity="many">%d dni</item>
+        <item quantity="other">%d dni</item>
+    </plurals>
     <string name="entries_view_type_calendar">Kalendarz</string>
     <string name="calendar_field_role">Użyj w kalendarzu jako</string>
     <string name="calendar_field_role_start">Czas rozpoczęcia</string>
@@ -1118,7 +1118,7 @@ Wszelkie prawa zastrzeżone</string>
 	<string name="welcome_text_title">Witaj w Memento Database</string>
 	<string name="welcome_text_description">"Biblioteka jest miejscem, gdzie przechowywane są twoje wpisy. Możesz rozpocząć poznawanie programu,  poprzez utworzenie biblioteki opartej na jednym z dołączonych szablonów."</string>	
 	
-    <string name="memento_cloud">Chmura Memento</string>
+    <string name="memento_cloud">Memento Cloud</string>
 	<string name="start_remove_librarary_from_cloud">Usuwanie biblioteki...</string>
 	<string name="success_remove_librarary_from_cloud">Biblioteka pomyślnie usunięta z chmury</string>
 	<string name="start_upload_library_to_cloud">Wysyłanie biblioteki...</string>	
@@ -1143,7 +1143,7 @@ Wszelkie prawa zastrzeżone</string>
 	<item quantity="one">%d zaistniały konflikt podczas synchronizacji</item>
 	<item quantity="few">%d zaistniałych konfliktów podczas synchronizacji</item>
 	<item quantity="many">%d zaistniałych konfliktów podczas synchronizacji</item>
-	<item quantity="other"/>
+        <item quantity="other">%d zaistniałych konfliktów podczas synchronizacji</item>
 </plurals>
     <string name="button_select">Wybierz</string>
     <string name="cloud">Chmura</string>
@@ -1157,7 +1157,7 @@ Wszelkie prawa zastrzeżone</string>
     <string name="cloud_size">Rozmiar</string>
     <string name="cloud_files_count">Pliki</string>
     <string name="cloud_who_has_access">Kto ma dostęp</string>
-    <string name="cloud_server_unavaliable">"Serwer Chmury Memento niedostępny,  sprawdź łącze z internetem na urządzeniu"</string>
+    <string name="cloud_server_unavaliable">"Serwer Memento Cloud niedostępny,  sprawdź łącze z internetem na urządzeniu"</string>
     <string name="delete_from_cloud">Usuń z chmury</string>
     <string name="delete_from_cloud_message_question">Czy na pewno chcesz usunąć bibliotekę z chmury?</string>
         
@@ -1330,11 +1330,11 @@ Wszelkie prawa zastrzeżone</string>
     <string name="rating_tooltips_hint">Podpowiedź</string>
     <string name="rating_tooltips_empty">Pole nie zawiera podpowiedzi</string>
     <plurals name="rating_tooltips_count">
-	<item quantity="one">%d podpowiedź</item>
-	<item quantity="few">%d podpowiedzi</item>
-	<item quantity="many">%d podpowiedzi</item>
-	<item quantity="other"/>
-</plurals>
+        <item quantity="one">%d podpowiedź</item>
+        <item quantity="few">%d podpowiedzi</item>
+        <item quantity="many">%d podpowiedzi</item>
+        <item quantity="other">%d podpowiedzi</item>
+    </plurals>
     <string name="calculator">Kalkulator</string>
     <string name="calculator_options_hint">Dodaj przycisk wyświetlania kalkulatora</string>
     <string name="filter_by_number">Filtruj po liczbie</string>
@@ -1360,7 +1360,7 @@ Wszelkie prawa zastrzeżone</string>
 	<item quantity="one">%d nieodczytana zmiana</item>
 	<item quantity="few">%d nieodczytanych zmian</item>
 	<item quantity="many">%d nieodczytanych zmian</item>
-	<item quantity="other"/>
+        <item quantity="other">%d nieodczytanych zmian</item>
 </plurals>
 
     <string name="notification_edit_library_create_text">dodany wpis</string>
@@ -1370,7 +1370,7 @@ Wszelkie prawa zastrzeżone</string>
 	<item quantity="one">%d nowy komentarz</item>
 	<item quantity="few">%d nowych komentarzy</item>
 	<item quantity="many">%d nowych komentarzy</item>
-	<item quantity="other"/>
+        <item quantity="other">%d nowych komentarzy</item>
 </plurals>
 
     <string name="flex_type_rich_text">Tekst RTF</string>
@@ -1483,7 +1483,7 @@ Wszelkie prawa zastrzeżone</string>
 	<item quantity="one">%d komentarz</item>
 	<item quantity="few">%d komentarze</item>
 	<item quantity="many">%d komentarzy</item>
-	<item quantity="other"/>
+        <item quantity="other">%d komentarzy</item>
 </plurals>
     <string name="comments_only_for_cloud">Komentarze można zamieszczać tylko w bibliotekach przesłanych do chmur. Przesłać bibliotekę do chmury?</string>
     <string name="locale_to_fields_list_empty_text">Dotknij +, aby utworzyć nową regułę wypełniania pól w bibliotece.</string>
@@ -1711,7 +1711,7 @@ Wszelkie prawa zastrzeżone</string>
 	<item quantity="one">%d użytkownik</item>
 	<item quantity="few">%d użytkowników</item>
 	<item quantity="many">%d użytkowników</item>
-	<item quantity="other"/>
+        <item quantity="other">%d użytkowników</item>
 </plurals>
     <string name="user_group_delete_message">Czy na pewno chcesz usunąć grupę \"%s\"?</string>
     <string name="group_not_found">Nie znaleziono grupy</string>
@@ -1738,7 +1738,7 @@ Wszelkie prawa zastrzeżone</string>
 	<item quantity="one">Jedna kolumna</item>
 	<item quantity="few">%d kolumny</item>
 	<item quantity="many">%d kolumn</item>
-	<item quantity="other"/>
+        <item quantity="other">%d kolumn</item>
 </plurals>
 
     <string name="card_view_title_on_image">Wyświetl tekst na obrazem</string>
@@ -2077,7 +2077,7 @@ Wszelkie prawa zastrzeżone</string>
 	<item quantity="one">Jeden wpis był edytowany</item>
 	<item quantity="few">%d wpisy były edytowane</item>
 	<item quantity="many">%d wpisów było edytowane</item>
-	<item quantity="other"/>
+        <item quantity="other">%d wpisów było edytowane</item>
 </plurals>
 
     <string name="locals_js_libraries">Lokacja</string>
@@ -2104,7 +2104,7 @@ Wszelkie prawa zastrzeżone</string>
 	<item quantity="one">1 ms</item>
 	<item quantity="few">%d ms</item>
 	<item quantity="many">%d ms</item>
-	<item quantity="other"/>
+        <item quantity="other">%d ms</item>
 </plurals>
     <string name="send_entries_too_large">Przepraszamy, nie możesz wysłać wszystkich tych wpisów w formie tekstowej. Za dużo danych.</string>
     <string name="request_button">Pytanie</string>
@@ -2142,13 +2142,13 @@ Wszelkie prawa zastrzeżone</string>
 	<item quantity="one">%d wpis został przeniesiony do biblioteki %s</item>
 	<item quantity="few">%d wpisy zostały przeniesione do biblioteki %s</item>
 	<item quantity="many">%d wpisów zostało przeniesionych do biblioteki %s</item>
-	<item quantity="other"/>
+    <item quantity="other">%d wpisów zostało przeniesionych do biblioteki %s</item>
 </plurals>
     <plurals name="copying_entries_success">
 	<item quantity="one">%d wpis został skopiowany do biblioteki %s</item>
 	<item quantity="few">%d wpisy zostały skopiowane do biblioteki %s</item>
 	<item quantity="many">%d wpisów zostało skopiowanych do biblioteki %s</item>
-	<item quantity="other"/>
+        <item quantity="other">%d wpisów zostało skopiowanych do biblioteki %s</item>
 </plurals>
     <string name="max_number_of_users">Maks. ilość użytkowników</string>
     <string name="no_limit">Bez ograniczeń</string>
@@ -2170,9 +2170,7 @@ Wszelkie prawa zastrzeżone</string>
     <string name="google_sheet_header_not_found">W tabeli Arkusza Google nie ma wiersza nagłówka.</string>
     <string name="google_sheet_id_column_not_found">W tabeli Arkusza Google nie ma kolumny klucza.</string>
     <string name="google_sheet_new_link_text">Ta biblioteka zostanie połączona z nową tabelą <b>%s</b> w Google Drive.</string>
-    <string name="google_sync_migration_to_v4">Ta biblioteka jest synchronizowana przy użyciu przestarzałej metody.
-Wykonaj ponowne wiązanie biblioteki z nową tabelą, aby użyć nowej metody.
-Uruchomić wiązanie teraz?</string>
+    <string name="google_sync_migration_to_v4">Ta biblioteka jest synchronizowana przy użyciu przestarzałej metody.\nWykonaj ponowne wiązanie biblioteki z nową tabelą, aby użyć nowej metody.\nUruchomić wiązanie teraz?</string>
     <string name="enable_logging_sheets">Arkusze Google</string>
 
 <string name="position_column_1">1 kolumna</string>
@@ -2195,8 +2193,7 @@ Uruchomić wiązanie teraz?</string>
     <string name="google_docs_out_folder_hint">Wybierz folder, który będzie zawierał dokumenty wynikowe</string>
     <string name="preparing_doc">Przygotowanie wpisów...</string>
     <string name="google_docs_left_operations">W wersjach Free i Lite liczba operacji jest ograniczona do %d dziennie, pozostało Ci %d.</string>
-    <string name="need_pro_for_google_docs">Wersja darmowa umożliwia skopiowanie tylko 10 wpisów dziennie.
-Uaktualnij do wersji PRO, aby wyłączyć to ograniczenie.</string>
+    <string name="need_pro_for_google_docs">Wersja darmowa umożliwia skopiowanie tylko 10 wpisów dziennie.\nUaktualnij do wersji PRO, aby wyłączyć to ograniczenie.</string>
 
     <string name="user_field_current_by_default_title">Aktualny użytkownik</string>
 
@@ -2235,10 +2232,8 @@ Uaktualnij do wersji PRO, aby wyłączyć to ograniczenie.</string>
     <string name="unique_fields">Pola unikalne</string>
     <string name="entry_field_must_be_unique">Pole %s nie jest unikalne</string>
     <string name="non_unique_entries_message">W bibliotece znajdują się nieunikalne wpisy</string>
-<string name="spotlight_from_scratch_text">Memento organizuje informacje w bibliotekach. Biblioteka jest podobna do arkuszy w arkuszu kalkulacyjnym.
-Najpierw wprowadź nazwę nowej biblioteki, wybierz jej ikonę i kolor.</string>
-    <string name="spotlight_from_scratch_fields_text">Na tej karcie możesz zdefiniować pola dla każdego wpisu w tej bibliotece.
-Pole jest odpowiednikiem kolumny w arkuszu kalkulacyjnym.</string>
+<string name="spotlight_from_scratch_text">Memento organizuje informacje w bibliotekach. Biblioteka jest podobna do arkuszy w arkuszu kalkulacyjnym.\nNajpierw wprowadź nazwę nowej biblioteki, wybierz jej ikonę i kolor.</string>
+    <string name="spotlight_from_scratch_fields_text">Na tej karcie możesz zdefiniować pola dla każdego wpisu w tej bibliotece.\nPole jest odpowiednikiem kolumny w arkuszu kalkulacyjnym.</string>
     <string name="spotlight_library_menu_title">Nasze magiczne narzędzia</string>
     <string name="spotlight_library_menu_text">Jeśli chcesz dostosować sortowanie lub filtrowanie, zmienić widok na tabelę, mapę lub kalendarz, dodać wykresy lub zmienić zestaw pól, dotknij tutaj.</string>
     <string name="spotlight_library_edit_fields_text">Pole jest miejscem na przechowywanie jednostki danych lub wartości. Każde pole ma swój typ i nazwę. Pola mogą mieć również zaawansowane parametry lub opcje wyświetlania.</string>
