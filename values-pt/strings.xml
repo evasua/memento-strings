@@ -2217,4 +2217,11 @@ Um campo é equivalente a uma coluna numa folha de cálculo.</string>
     <string name="view_quick_access_toolbar">Mostrar Ferramentas Rápidas</string>
     <string name="quick_button_close">Ocultar</string>
 
+<string name="append_list_items">Anexar Itens</string>
+
+    <string name="launcher">Lançador</string>
+    <string name="time_field_group_entries_week">Agrupar por semana</string>
+    <string name="cant_download">Não é possível transferir</string>
+    <string name="manage_subscription">Gerir subscrição</string>
+    <string name="promo_label">Promoção</string>
 </resources>
