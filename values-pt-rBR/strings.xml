@@ -2230,4 +2230,11 @@ Um campo é equivalente a uma coluna em uma planilha.</string>
     <string name="view_quick_access_toolbar">Mostrar Ferramentas Rápidas</string>
     <string name="quick_button_close">Ocultar</string>
 
+<string name="append_list_items">Anexar Itens</string>
+
+    <string name="launcher">Lançador</string>
+    <string name="time_field_group_entries_week">Agrupar por semana</string>
+    <string name="cant_download">Não é possível baixar</string>
+    <string name="manage_subscription">Gerenciar assinatura</string>
+    <string name="promo_label">Promoção</string>
 </resources>
