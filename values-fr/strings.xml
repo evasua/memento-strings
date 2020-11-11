@@ -1938,7 +1938,7 @@ Tout droits réservés</string>
     <string name="choose_username">Choisissez votre nom d\'utilisateur</string>
     <string name="account_without_password_message">Votre compte est un compte Google sans mot de passe. Essayez d\'utiliser le bouton \"Continuer avec Google\".</string>
     <string name="template_not_found_by_uri">Modèle non trouvé</string>
-    <string name="public_template_address_text">Modèle d\'adresse</string>
+    <string name="public_template_address_text">Adresse du modèle</string>
     <string name="wrong_template_address">Format de modèle d\'adresse invalide</string>
     <string name="search_index_tokenizer">Analyseur lexical</string>
 
