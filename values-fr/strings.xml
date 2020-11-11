@@ -275,7 +275,7 @@ Tout droits réservés</string>
     <string name="create_memento_account_dlg_text">Inscription de l\'utilisateur sur le serveur Memento...</string>
     <string name="memento_register_user_exists">Ce nom d\'utilisateur existe déjà</string>
     <string name="memento_register_email_exists">Un utilisateur avec cette adresse e-mail existe déjà</string>
-    <string name="memento_server_error">Erreur du serveur, veuillez réessayer plus tard</string>
+    <string name="memento_server_error">Erreur de serveur, veuillez réessayer ultérieurement</string>
     <string name="memento_account_title">Compte Memento</string>
     <string name="memento_create_account_button">Nouveau compte</string>
     <string name="memento_auth_error">Mauvais nom ou mot de passe</string>
@@ -1173,7 +1173,7 @@ Tout droits réservés</string>
 	<string name="button_tarifs">Tarifs</string>
 	<string name="cloud_storage_plans">Offres d\'abonnement</string>
 	<string name="price_free">GRATUIT</string>
-	<string name="price_per_month">%s/mo</string>
+	<string name="price_per_month">%s/mois</string>
 	<string name="unlimited_libraries">Bases illimitées</string>	
 	<string name="adv_free">Pas de publicité</string>
 	<string name="subscription_activation">Activer la souscription...</string>
@@ -1415,9 +1415,9 @@ Tout droits réservés</string>
     <string name="upload_to_cloud">Téléversez sur le Cloud</string>
     <string name="multi_choice_delimiter">Délimiteur</string>
     <string name="cloud_plan_free">Gratuit</string>
-    <string name="cloud_plan_plan3">Version Light</string>
-    <string name="cloud_plan_plan6">Version Pro</string>
-    <string name="cloud_plan_plan10">Version Pro Plus</string>
+    <string name="cloud_plan_plan3">Lite</string>
+    <string name="cloud_plan_plan6">Pro</string>
+    <string name="cloud_plan_plan10">Pro Plus</string>
     <string name="cloud_plan_storage">%s Mémoire</string>
 
     <string name="memento_server_settings_group">Serveur Memento</string>
@@ -1629,7 +1629,7 @@ Tout droits réservés</string>
     <string name="uom_rankine">Rankine</string>
 
     <string name="uom_yard">Yard</string>
-    <string name="uom_angstrom">Angström</string>
+    <string name="uom_angstrom">Ångström</string>
     <string name="uom_parsec">Parsec</string>
 
     <string name="uom_pound">Livre</string>
@@ -1653,8 +1653,8 @@ Tout droits réservés</string>
     <string name="aggr_always_show">Toujours afficher</string>
     <string name="cant_add_management">L\'administrateur a un accès intégral à la base</string>
     <string name="auth_error_user_blocked">Votre compte a été désactivé</string>
-    <string name="team_license">Équipe</string>
-    <string name="user_manager_only_for_team">La gestion des utilisateurs et des licences est disponible uniquement avec les tarifs équipe</string>
+    <string name="team_license">Team</string>
+    <string name="user_manager_only_for_team">La gestion des utilisateurs et des licences est disponible uniquement avec les tarifs Team</string>
     <string name="send_password_to_user">Envoyer le mot de passe à l\'utilisateur par mail</string>
     <string name="library_permissions_subject">Nom d\'utilisateur / email / groupe</string>
     <string name="permissions_delete_message">Voulez-vous vraiment supprimer les droits d\'accès pour \"%s\" ?</string>
@@ -1665,7 +1665,7 @@ Tout droits réservés</string>
     <string name="field_right_need_library_download">Vous devez télécharger une base sur votre dispositif pour ajouter de nouveaux droits d\'accès aux champs.</string>
     <string name="field_permission_invisible">Invisible</string>
     <string name="field_permission_read_only">Lecture seule</string>
-    <string name="field_permissions_limit">Les droits d\'accès pour les champs ne peuvent être définis qu\'avec les tarifs Équipe.</string>
+    <string name="field_permissions_limit">Les droits d\'accès pour les champs ne peuvent être définis qu\'avec les tarifs Team.</string>
     <string name="user_groups">Groupes d\'utilisateurs</string>
     <string name="add_user_group">Ajouter un groupe d\'utilisateurs</string>
     <string name="add_user_group_hint">Nom du groupe</string>
@@ -1678,12 +1678,12 @@ Tout droits réservés</string>
     <string name="user_group_delete_message">Voulez-vous vraiment supprimer le groupe \"%s\" ?</string>
     <string name="group_not_found">Groupe non trouvé</string>
     <string name="individual">Individuel</string>
-    <string name="team">Équipe</string>
-    <string name="cloud_plan_team5">Équipe 5</string>
-    <string name="cloud_plan_team10">Équipe 10</string>
-    <string name="cloud_plan_team15">Équipe 15</string>
-    <string name="cloud_plan_team20">Équipe 20</string>
-    <string name="pro_for_team">" Fonctionnalités Pro pour tous les utilisateurs"</string>
+    <string name="team">Team</string>
+    <string name="cloud_plan_team5">Team 5</string>
+    <string name="cloud_plan_team10">Team 10</string>
+    <string name="cloud_plan_team15">Team 15</string>
+    <string name="cloud_plan_team20">Team 20</string>
+    <string name="pro_for_team">" Fonctionnalités Pro pour tous les utilisateurs de l\'équipe"</string>
     <string name="team_features_trial">Tous les abonnements incluent un essai gratuit de 14 jours.</string>
 
     <string name="tasker_plugin_create_entry_event_title">Enregistrement créé</string>
@@ -1793,7 +1793,7 @@ Tout droits réservés</string>
     <string name="cloud_plan_team10_annual">Team 10</string>
     <string name="cloud_plan_team15_annual">Team 15</string>
     <string name="cloud_plan_team20_annual">Team 20</string>
-    <string name="price_per_year">%s/yr</string>
+    <string name="price_per_year">%s/an</string>
 
     <string name="frozen_alien_text">Cette bibliothèque est gelée, contacter SVP le propriétaire de la bibliothèque (%s).</string>
     <string name="copy_field">Copier le champ</string>
@@ -1908,14 +1908,14 @@ Tout droits réservés</string>
 
     <string name="license_key_tab">Clé de licence</string>
     <string name="pro_feature_0">Pas de publicité</string>
-    <string name="pro_feature_1">Pas de limite en nombre de bibliothèques synchronisables avec Google Sheets</string>
+    <string name="pro_feature_1">Nombre illimité de bibliothèques synchronisables avec Google Sheets</string>
     <string name="pro_feature_2">Nombre illimité de bibliothèques \"protégées\"</string>
     <string name="pro_feature_3">Nombre illimité de graphiques</string>
     <string name="pro_feature_4">Nombre illimité de scripts</string>
     <string name="pro_feature_5">Recherche avancée</string>
-    <string name="pro_feature_6">Un champ d\'enregistrement peur contenir plusieurs objets (images, contacts, coordonnées, etc.).</string>
+    <string name="pro_feature_6">Plusieurs objets (images, contacts, coordonnées, etc.) par champ d\'enregistrement.</string>
     <string name="pro_feature_7">Modification multi-enregistrements</string>
-    <string name="pro_feature_8">Widget d\'application pratique</string>
+    <string name="pro_feature_8">Widget d\'application très pratique</string>
     <string name="pro_license_activated">Licence activée</string>
     <string name="pro_features_title">Fonctionnalités Pro</string>
     <string name="activate_with_key">Activer avec une clé</string>
@@ -1997,7 +1997,7 @@ Tout droits réservés</string>
     <string name="share_filters">Partager les filtres</string>
     <string name="share_charts">Partager les graphiques</string>
     <string name="shared_by">Partagé par %s</string>
-    <string name="share_workplace_limit">Désolé, le partage des graphiques et des filtres nécessite un abonnement Équipe.</string>
+    <string name="share_workplace_limit">Désolé, le partage de graphiques et de filtres est réservé au tarif Team.</string>
     <string name="bulk_action">Action par lot</string>
     <string name="action_context_bulk_actions">Menu des actions par lot</string>
     <string name="move_to">Déplacer vers...</string>
@@ -2104,7 +2104,7 @@ SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base
     <string name="no_limit">Pas de limite</string>
     <string name="conditional_permission">Dépend du champ</string>
     <string name="conditional_field_empty">Vous devez choisir le champ \"Utilisateur\" qui donnera les autorisations pour l’opération.</string>
-    <string name="conditional_permission_limit">Les droits d\'accès près du champ \"Utilisateur\" ne peuvent être modifiés qu\'avec le tarif Team.</string>
+    <string name="conditional_permission_limit">La modification des droits d\'accès d\'un champ \"Utilisateur\" est réservée au tarif Team.</string>
     <string name="filter_rule_is_one_of">Est un de</string>
     <string name="filter_rule_is_not_one_of">N\'est pas l\'un de</string>
     <string name="send_email">Envoyer email</string>
