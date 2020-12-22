@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="app_name">Memento</string>
     <string name="library_menu_add_item">Bir içerik ekleyin</string>
     <string name="main_menu_add_lib">Kütüphane Ekleyin</string>
@@ -744,4 +744,114 @@
     <string name="files_storage_settings_remove_original_title">Orijinalleri sil</string>
     <string name="hybrid">Hibrit</string>
     <string name="list_library_in_google">Google Drivedaki kütüphanelerin listesi</string>
+    <string name="conflict_dialog_text">Ayni girdiler hem Memento\'da hem Google Sheets\'te düzenlendi. Hangi versiyonlar doğru?</string>
+    <string name="template_author_text">%s \'dan</string>
+    <string name="template_date_text">oluşturuldu %s</string>
+    <string name="template_downloads">İndirilenler: %s</string>
+    <string name="scale_dialog">Sonucun ölçeği</string>
+    <string name="field_email_preferences">E-mail biçimlendirme</string>
+    <string name="formatted_string_value">Alan tipi Çoklu seçim değeri</string>
+    <string name="email_templates_spinner_hint">Şablon biçimlendirme</string>
+    <string name="field_send_by_email_summary">Alanın adını ve değerini e-posta/sms ile gönder</string>
+    <string name="reset_master_quest">Ana parolayı değiştirmek istediğinize emin misiniz?
+Dikkat şifrelenmiş tüm kütüphaneler silinecek!</string>
+    <string name="edit_entry_screen_preference_summary">Girdiler oluşturmak/düzenlemek için parametreler oluşturun</string>
+    <string name="auto_show_soft_keyboard">Sanal klavyeyi göster</string>
+    <string name="auto_show_soft_keyboard_summary">Form açıldığında - sanal klavyeyi aç</string>
+    <string name="file_size">Dosya boyutu: %s</string>
+    <string name="cant_protect">Ücretsiz versiyon sadece 2 tane kütüphaneyi korumanıza izin verir.
+Bu limiti kaldırmak için PRO versiyona yükseltin.</string>
+    <string name="flex_edit_option_title">Nerede düzenleyebilirsiniz</string>
+    <string name="flex_edit_option_default">Girdi düzenlemenin şekli</string>
+    <string name="updated_document_time">Güncellendi: %s</string>
+    <string name="move_from_google_docs">Google Sheets\'ten Memento\'ya verilerinizi aktarın</string>
+    <string name="move_from_google_docs_attention">Tüm mevcut kütüphane girdileri silinecek</string>
+    <string name="move_from_memento">Memento\'dan Google Sheets\'e verileri aktarın</string>
+    <string name="move_from_memento_attention">Google Sheets\'teki mevcut tüm veriler silinecek</string>
+    <string name="find_in_spreadsheet_column_title">Memento ve Google Sheets\'teki alanların listesi</string>
+    <string name="google_doc_exists_link_option">Bağlama parametreleri</string>
+    <string name="field_not_sync">Eşitlenmedi</string>
+    <string name="prepare_linking_library">Bağlama için hazırlanıyor...</string>
+    <string name="error_prepare_linking">Bağlamaya hazırlanırken bir sorun oluştu: %s</string>
+    <string name="have_library_items_ask_title">Google Sheets\'e bağlanıyor</string>
+    <string name="last_auto_backup_time">Son otomatik yedekleme: %s</string>
+    <string name="stats_title_in_list" formatted="false">%s tarafından %s</string>
+    <string name="stats_edit_title_hint">Sonucun öneki</string>
+    <string name="stat_item_align_prompt">Sonucun hizası</string>
+    <string name="stat_item_line_prompt">Sonucun satır yerleşimi.</string>
+    <string name="line_number">Satır %s</string>
+    <string name="time_default_now">Varsayılan olarak şimdiki zaman</string>
+    <string name="determination_location">Konum belirleniyor...</string>
+    <string name="preference_category_export_data_cfg">Ayarları İçe Aktar/Dışa Aktar/Eşitle</string>
+    <string name="import_export_date_format_dialog">İçe aktarmak/dışa aktarmak/eşitlemek için tarih formatını seçin</string>
+    <string name="group_delete_message_text">\"%s\" grubunu gerçekten silmek istiyor musunuz?</string>
+    <string name="library_last_sync">Eşitleme %s</string>
+    <string name="navigate_first_entry">Bu girdi ilk olan</string>
+    <string name="navigate_last_entry">Bu girdi son olan</string>
+    <string name="delete_filter_dialog_text">\"%s\" filtresini silmek istediğinize emin misiniz?</string>
+    <string name="reindex_dialog_message">İndeksler oluşturuluyor...</string>
+    <string name="delete_catalog_template_message">Online katalogtan %s şablonunu silmek istediğinize emin misiniz?</string>
+    <string name="cant_share_template_withous_fields">Alanlar olmadan şablon paylaşamazsınız</string>
+    <string name="request_pass_dialog_text">Lütfen Memento hesabınızı konumlandırmamıza yardımcı olmak için eposta adresinizi girin</string>
+    <string name="change_password_success">Lütfen e-posta adresinizi kontrol edin
+Şifrenizi yenilemeniz için gerekli olan e-postayı gönderdik.</string>
+    <string name="library_item_position_text" formatted="false">%d/%d</string>
+    <string name="search_in_protected_libraries">Parolayla korunmuş kütüphanelerde ara
+(şifrelenmişler hariç)</string>
+    <string name="stat_result_type">Sonuç biçimi</string>
+    <string name="file_already_exists">* Hedef dosya halihazırda mevcut</string>
+    <string name="google_play_not_found_message">Cihazınızda Google Play bulunmamaktadır. OI Dosya Yöneticisi\'ni geliştiricinin sitesinden indirebilirsiniz.</string>
+    <string name="library_not_found_dialog_message">Kütüphane bulunamadı. Belki silinmiş olabilir.</string>
+    <string name="year_default_now">Varsayılan olarak mevcut yıl</string>
+    <string name="flex_type_int_list">Tam sayı değerler</string>
+    <string name="flex_type_int_main_options_title">Numaraların sırası</string>
+    <string name="flex_type_int_allow_direct_input">Direk girişe izin ver</string>
+    <string name="flex_type_int_allow_direct_input2">Direk giriş</string>
+    <string name="visible_field_depend_type">Bu alanın görünürlüğü</string>
+    <string name="visible_field_depend_state_visible">Görünür</string>
+    <string name="field_depends">Bu alanın bağımlılıkları</string>
+    <plurals name="field_depends_count">
+	<item quantity="one">Bir bağımlılık</item>
+	<item quantity="other">%d bağımlılık
+2 bağımlılık
+3 bağımlılık</item>
+</plurals>
+    <string name="add_depends_button_title">Bir bağımlılık ekle</string>
+    <string name="visible_field_depend_pretitle">Alanın durumu %s</string>
+    <string name="visible_field_depend_description">%s alanı bu değerleri kabul ederse, alan bu durumda olacak</string>
+    <string name="depend_from">%s \'den bağımlılıklar</string>
+    <string name="delete_depend_dialog_title">Bağımlılığı sil</string>
+    <string name="delete_depend_dialog_message">\"%s\" alanından bağımlılığı silmek istediğinize emin misiniz?</string>
+    <string name="sl_content_depend_pretitle">Alan değeri %s</string>
+    <string name="backup_images_checkbox">Yedek oluşturmak bağlantılı resimleri, ses kayıtlarını ve diğer dosyaları kopyalayacak</string>
+    <string name="backup_files_error">Dosyaları yedeklerken hata: %s</string>
+    <string name="restore_files_message">Yedek kopya veritabanıyla ilişkili bir arşiv içermekte; geri yüklemek ister misiniz?</string>
+    <string name="restore_files_success2">Veritabanıyla ilişkilendirilmiş tüm dosyalar açılacaktır</string>
+    <string name="restore_files_error_message" formatted="false">Arşivden geri yükleme hatası: %s</string>
+    <string name="restore_files_error">Dosyalar geri yüklenemedi</string>
+    <string name="send_files_to_cloud_error">Dosyalar buluta yüklenemedi:</string>
+    <string name="upload_file_to_cloud_message" formatted="false">Yükleme %s (%d/%d)</string>
+    <string name="no_google_accounts">Google hesabı bulunamadı. Lütfen cihazınıza Google hesabı ekleyin.</string>
+    <string name="google_account_not_selected">Hesap seçilmedi</string>
+    <string name="bakup_files_need_pro_title">PRO versiyon gereklidir</string>
+    <string name="bakup_files_need_pro_message">Yedek dosyalar oluşturmak sadece PRO versiyonda mümkündür</string>
+    <string name="get_google_docs_columns_message">Seçilen Google Sheets için sütunların listesi yükleniyor...</string>
+    <string name="start_reindex_title">Yeniden indeksle</string>
+    <string name="start_reindex_summary">Arama İndeksi yeniden oluşturuluyor</string>
+    <string name="reindex_complete_message">Yeniden indeksleme tamamlandı</string>
+    <string name="files_storage_settings_dublicate_title">Depolamaya kopyala</string>
+    <string name="files_storage_settings_dublicate_summary">Kayda ilişkilendirilmiş dosyalar depolama klasörüne kopyalanacak</string>
+    <string name="files_storage_settings_remove_original_summary">Depolamaya kopyaladıktan sonra, orijinalleri sil</string>
+    <string name="dublicate_file_error">"Depolamada bir dosya taşınamıyor: "</string>
+    <string name="select_files_cloud_storage">Senkronizasyon için bulut sunucusunu seçin</string>
+    <string name="files_cloud_storage_pref">Dosyalar senkronize oluyor</string>
+    <string name="google_sync_files_checkbox">Kayıtla ilişkilendirilmiş dosyaları (resimleri) buluta yükleyin.</string>
+    <string name="add_lib_from_google_drive">Google Drive\'dan</string>
+    <string name="selected">%s seçildi</string>
+    <string name="delete_template_from_google_drive_question">Seçili kütüphaneleri Google Drive\'dan silmek istediğinize emin misiniz?</string>
+    <string name="delete_data_table_from_google_drive">Şablonla ilişkilendirilmiş elektronik tablo verisini sil</string>
+    <string name="lock_library_edit_message">Kütüphane yapısı değişime kilitli.
+Kütüphane ayarlarından değiştirilebilme ayarını açabilirsiniz.</string>
+    <string name="lock_edit_library_pref_summary_on">Kütüphane yapısını değiştirme izni yok</string>
+    <string name="lock_edit_library_pref_summary_off">Kütüphane yapısını değiştirme izni var</string>
     </resources>
