@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="app_name">Memento</string>
-    <string name="library_menu_add_item">Bir içerik ekleyin</string>
-    <string name="main_menu_add_lib">Kütüphane Ekleyin</string>
-    <string name="ghostData_lib_title">Kütüphane adı</string>
+    <string name="library_menu_add_item">Bir girdi ekleyin</string>
+    <string name="main_menu_add_lib">Kitaplık Ekleyin</string>
+    <string name="ghostData_lib_title">Kitaplık adı</string>
     <string name="custom_template_title">Özel</string>
     <string name="button_create">Oluştur</string>
     <string name="button_yes">Evet</string>
@@ -11,10 +11,10 @@
     <string name="button_save">Kaydet</string>
     <string name="button_cancel">İptal</string>
     <string name="button_add_field">Bir alan ekle</string>
-    <string name="add_new_library_item">Kayıt ekle</string>
-    <string name="flex_type_title_string">Yazı</string>
+    <string name="add_new_library_item">Girdi ekle</string>
+    <string name="flex_type_title_string">Metin</string>
     <string name="flex_type_title_int">Tamsayı</string>
-    <string name="flex_type_title_bool">Boolean (İşaretleme)</string>
+    <string name="flex_type_title_bool">Boolean (Onay kutusu)</string>
     <string name="flex_type_title_date">Tarih</string>
     <string name="flex_type_title_date_time">Tarih/Saat</string>
     <string name="flex_type_contact">Kişi</string>
@@ -41,18 +41,18 @@
     <string name="default_value">Varsayılan değer</string>
     <string name="flex_template_options_title">Gelişmiş seçenekler</string>
     <string name="error_template_empty_title">Alan adını giriniz</string>
-    <string name="error_library_withous_name_flex">Bir kütüphane en az bir \"isim\" alanına sahip olmalıdır.</string>
-    <string name="select_library_icon_activity">Kütüphane için ikon seçin</string>
+    <string name="error_library_withous_name_flex">Bir kitaplık en az bir \"isim\" alanına sahip olmalıdır.</string>
+    <string name="select_library_icon_activity">Kitaplık için simge seçin</string>
     <string name="select_flex_template_role_title">Alan fonksiyonu</string>
-    <string name="library_edit2">Kütüphaneyi düzenle</string>
+    <string name="library_edit2">Kitaplığı düzenle</string>
     <string name="library_edit">Düzenle</string>
     <string name="library_delete">Sil</string>
-    <string name="library_delete_message_title">Kütüphaneyi sil</string>
-    <string name="library_delete_message_text">\"%s\" isimli kütüphaneyi silmek istediğinizden emin misiniz?</string>
-    <string name="error_library_empty_title">Kütüphane adını giriniz</string>
+    <string name="library_delete_message_title">Kitaplık sil</string>
+    <string name="library_delete_message_text">\"%s\" isimli kitaplığı silmek istediğinizden emin misiniz?</string>
+    <string name="error_library_empty_title">Kitaplık adını giriniz</string>
     <string name="library_item_edit">Düzenle</string>
     <string name="library_item_delete">Sil</string>
-    <string name="library_item_delete_message_text">\"%s\" tanımlı girişi silmek istediğinize emin misiniz?</string>
+    <string name="library_item_delete_message_text">\"%s\" girdisini silmek istediğinize emin misiniz?</string>
     <string name="library_item_trush_message_text">\"%s\" kaydını Geri Dönüşüm Kutusuna göndermek istediğinizden emin misiniz?</string>
     <string name="library_items_count">Kayıtlar: %s</string>
     <string name="library_menu_select_sort">Sırala</string>
@@ -68,12 +68,12 @@
     <string name="group_null_value">Boş değer</string>
     <string name="date_not_set">Boş değer</string>
     <string name="set_default_value">Varsayılan değeri belirt</string>
-    <string name="date_default_null">Varsayılan olarak değeri boşalt</string>
+    <string name="date_default_null">Varsayılan olarak boş</string>
     <string name="date_default_now">Varsayılan olarak geçerli gün</string>
     <string name="search">Ara</string>
     <string name="search_hint">Kayıt ara</string>
     <string name="search_parse_exception_messagee">Geçersiz arama sorgusu</string>
-    <string name="memento_search">Memento Ara</string>
+    <string name="memento_search">Memento Araması</string>
     <string name="memento_search_in_lib">Memento içinde %s ara</string>
     <string name="removed">%s üzerinde sil</string>
     <string name="trush">Geri Dönüşüm Kutusu</string>
@@ -91,7 +91,7 @@
     <string name="audio_not_found">Ses dosyası bulunamadı</string>
     <string name="flex_type_money_currency_dlg_title">Para birimini seçin</string>
     <string name="flex_type_money_currency_option_title">Para birimi</string>
-    <string name="flex_type_money_default_currency">TL</string>
+    <string name="flex_type_money_default_currency">ABD Doları</string>
     <string name="flex_role_not_usage">Normal alan</string>
     <string name="flex_role_name">Kayıt adı</string>
     <string name="flex_role_hint">Kayıt açıklaması</string>
@@ -119,8 +119,9 @@
     <string name="restore_summary_preference">Kütüphaneler yedeklenmiş kopyalardan geri yükleniyor</string>
     <string name="backup_file_not_found">Yedekleme dosyası bulunamadı.</string>
     <plurals name="NItemsFind">
-	<item quantity="one">1 kayıt bulundu</item>
-	<item quantity="other"/>
+	<item quantity="one">1 girdi bulundu</item>
+	<item quantity="other">Girdiler bulundu:<xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="COUNT"> %d
+</xliff:g></item>
 </plurals>
     <string name="restore_dialog_message">Mevcut kütüphaneler kurtarma sırasında yedek kopyadan kitaplıkları ile değiştirilecektir.\nYedek kopya oluşturulduktan sonra bu kütüphanelerde yapılan tüm değişiklikler kaybolacak.\nGeri yüklemeyi başlat?</string>
     <string name="backup_dialog_message">Yenisi ile yedek kopya değiştirin?</string>
