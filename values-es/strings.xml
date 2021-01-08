@@ -2138,4 +2138,97 @@ Por favor, crea una regla de transferencia de entradas para mover a cualquier bi
     <string name="google_sheet_new_link_text"><![CDATA[Esta biblioteca se vinculará a una nueva tabla <b>%s</b> en Google Drive]]></string>
     <string name="enable_logging_sheets">Registros de Hojas de cálculo de Google</string>
 
+<string name="entries_view_type_kanban">Kanban</string>
+    <string name="google_sheet_not_found">No se encuentra la hoja de cálculo con id %d.</string>
+    <string name="google_sheet_id_column_not_found">No hay una columna clave en la tabla de Google Sheet.</string>
+    <string name="google_sync_migration_to_v4">Esta biblioteca está sincronizada usando un método obsoleto.
+Reenlaza la biblioteca a la nueva tabla para usar el nuevo método.
+Reenlazar ahora?</string>
+    <string name="position_column_1">1ª columna</string>
+    <string name="position_column_2">2ª columna</string>
+    <string name="position_column_3">3ª columna</string>
+    <string name="position_column_auto">Auto</string>
+    <string name="copy_to_google_docs">Copiar a Google Docs</string>
+    <string name="google_docs_select_template">Seleccionar plantilla</string>
+
+    <string name="google_docs_templates_empty">No hay ninguna plantilla de Google Docs en esta biblioteca</string>
+    <string name="google_docs_task_create_document2">Creando documento</string>
+    <string name="google_docs_task_delete_document2">Borrando documento</string>
+    <string name="google_docs_task_step_auth2">Autentificando al servicio de Docs</string>
+    <string name="delete_google_docs_template_dialog_text">Seguro que quieres borrar la plantilla \"%s\"?</string>
+    <string name="generating_doc">Generando el documento ...</string>
+    <string name="populating_table">Rellenando la tabla ...</string>
+    <string name="entry_has_been_copied_to_docs">La entrada ha sido copiada a Google Docs</string>
+    <string name="entries_has_been_copied_to_docs">Las entradas han sido copiadas a Google Docs</string>
+    <string name="google_docs_out_folder_name">Nombre de la carpeta</string>
+    <string name="google_docs_out_folder_hint">Especifica la carpeta que contendrá los documentos emitidos</string>
+    <string name="preparing_doc">Preparando entradas ...</string>
+    <string name="google_docs_left_operations">En las versiones Free y Lite el número de operaciones está limitado a %d por día, te quedan %d.</string>
+    <string name="need_pro_for_google_docs">La versión Free te permite copiar solo 10 entradas por día.
+Actualiza a la versión PRO para desactivar esta limitación.</string>
+
+    <string name="user_field_current_by_default_title">Usuario actual</string>
+
+    <string name="spotlight_create_library_by_template_title">Crear una biblioteca</string>
+    <string name="spotlight_create_library_by_template_text">Pulsa \"Guardar\" para crear una nueva biblioteca basada en esta plantilla.</string>
+
+    <string name="spotlight_from_scratch_title">Empezar desde cero</string>
+    <string name="spotlight_from_scratch_text">Memento organiza tu información en bibliotecas. Una biblioteca es similar a una de las páginas que forman una hoja de cálculo.
+Primero, escribe el nombre de tu nueva biblioteca, selecciona el icono y el color.</string>
+    <string name="spotlight_from_scratch_fields_title">Campos</string>
+    <string name="spotlight_from_scratch_fields_text">En esta pestaña puedes definir campos para las entradas de esta biblioteca.
+Un campo es el equivalente a una columna en una hoja de cálculo.</string>
+    <string name="spotlight_from_scratch_save_title">Guarda la estructura</string>
+    <string name="spotlight_from_scratch_save_text">Una vez has añadido los campos, pulsa \"Guardar\" para empezar a añadir entradas.</string>
+    <string name="spotlight_create_entry_title">Crear una entrada</string>
+    <string name="spotlight_create_entry_text">Pulsa \"*+\" para crear una primera entrada en esta biblioteca.</string>
+    <string name="spotlight_library_menu_title">Nuestras herramientas mágicas</string>
+    <string name="spotlight_library_menu_text">Si quieres ajustar el orden o filtrar, cambiar la vista a Tabla, Mapa o Calendario, añadir Gráficas o cambiar campos, pulsa aquí.</string>
+    <string name="spotlight_library_edit_title">Editar biblioteca</string>
+    <string name="spotlight_library_edit_text">Puedes cambiar tu Biblioteca en cualquier momento --- añade o edita campos.</string>
+    <string name="spotlight_library_edit_fields_title">Campos</string>
+    <string name="spotlight_library_edit_fields_text">Un campo es un contenedor para un dato o valor. Cada campo tiene un tipo y un nombre. Los campos también pueden tener parámetros avanzados o opciones de visualización.</string>
+    <string name="spotlight_library_aggregation_title">Agregación</string>
+    <string name="spotlight_library_aggregation_text">Agregación es una función matemática aplicada a todas las entradas de la Biblioteca sobre el campo seleccionado. Te ayuda a encontrar el valor mínimo, máximo o medio, o la suma total.</string>
+
+    <string name="button_need_help">Necesitas ayuda?</string>
+    <string name="export_template_include_charts">Incluir gráficas</string>
+    <string name="sort_manually">Manual</string>
+    <string name="hide_column">Esconder columna</string>
+    <string name="add_group_field">Añadir campo para agrupar</string>
+    <string name="add_another_group_field">Añadir otro campo para agrupar</string>
+    <string name="filter">Filtrar</string>
+
+    <string name="comment_delete_message_text">Seguro que quieres borrar este comentario?</string>
+
+    <string name="logs_empty">No hay archivos de registro.</string>
+    <string name="logs_send">Enviar archivos de registro</string>
+    <string name="choose_grouping_field">Elige un campo para agrupar</string>
+    <string name="flex_type_title_dynamic_list">Lista</string>
+    <string name="add_dynamic_list_item">Elemento de la lista</string>
+    <string name="type_desc_dynamic_list">Un campo de Lista es un conjunto de cadenas de texto con casillas de verificación. Por ejemplo, se puede usar para una lista de tareas.</string>
+    <string name="type_desc_tags">Un campo de Etiquetas es una caja de texto editable en el que puedes introducir una palabra y buscar otras entradas en base a ella.</string>
+    <string name="entries_background_color">Introduce color de fondo</string>
+    <string name="flex_type_tags">Etiquetas</string>
+    <string name="group_multiple_values_split">Separa valores</string>
+    <string name="unique_fields">Campos únicos</string>
+    <string name="entry_field_must_be_unique">El campo %s no es único</string>
+    <string name="non_unique_entries_message">Hay entradas que no son únicas en la biblioteca</string>
+    <string name="primary_external_storage">Almacenamiento Externo Primario</string>
+    <string name="chart_field_missing">No se puede encontrar el campo para la gráfica. Quizás fue borrado.</string>
+    <string name="non_unique_values">Valores no únicos</string>
+
+    <string name="append_tags">Agregar etiquetas</string>
+    <string name="trigger_event_modify_field">Actualizando un campo</string>
+    <string name="select_templates">Seleccionar plantillas</string>
+    <string name="fast_create_libraries">Crear nuevas bibliotecas desde plantillas</string>
+    <string name="view_quick_access_toolbar">Mostrar Herramientas Rapidas</string>
+    <string name="quick_button_close">Esconder</string>
+    <string name="append_list_items">Añadir elementos</string>
+
+    <string name="launcher">Lanzador</string>
+    <string name="time_field_group_entries_week">Agrupar por semana</string>
+    <string name="cant_download">No se puede descargar</string>
+    <string name="manage_subscription">Gestionar subscripción</string>
+    <string name="promo_label">Promoción</string>
 </resources>
