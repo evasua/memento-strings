@@ -117,12 +117,12 @@
     <string name="preference_category_backup">Backup</string>
     <string name="main_preferences_title">Settings</string>
     <string name="backup_preference">Backup</string>
-    <string name="backup_summary_preference">Backing up all libraries to the flash card</string>
+    <string name="backup_summary_preference">Backup all libraries and files</string>
     <string name="backup_fail">Backup error</string>
     <string name="cdcard_not_found">Sorry, your SD card is busy</string>
     <string name="backup_process">Backing up libraries.</string>
     <string name="restore_preference">Restore</string>
-    <string name="restore_summary_preference">Restoring libraries from the backup copy</string>
+    <string name="restore_summary_preference">Restore libraries and files from Backup</string>
     <string name="backup_file_not_found">No backup file is found.</string>
     <string name="restore_dialog_message">The existing libraries will be replaced with the libraries from the backup copy during recovery.\nAll changes made in these libraries after the backup copy was created will be lost.\nStart restoring ?</string>
     <string name="backup_dialog_message">Replace the backup copy with the new one ?</string>
@@ -1268,8 +1268,8 @@
     <!-- 3.6.0 -->
     <string name="edit_library_tabs_autofill">Autofill</string>
     <string name="autofill_from">from %s</string>
-    <string name="autofill_by_barcode">By barcode</string>
-    <string name="autofill_by_title">By title</string>
+    <string name="autofill_by_barcode">By Barcode</string>
+    <string name="autofill_by_title">By Title</string>
     <string name="autofill_need_barcode_field">In order to autofill your library by barcode it must contain the \"Barcode\" field. How do you create this?</string>
     <string name="autofill_need_text_field">In order to autofill your library by title it must contain the \"Text\" field. How do you create this?</string>
     <string name="autofill_select_master_field">Input field for search</string>
@@ -2281,10 +2281,87 @@
     <string name="quick_button_close">Hide</string>
     <string name="append_list_items">Append Items</string>
 
-    <!--4.9.5-->
+    <!--4.9.2-->
     <string name="launcher">Launcher</string>
     <string name="time_field_group_entries_week">Group by week</string>
     <string name="cant_download">Can\'t download</string>
     <string name="manage_subscription">Manage subscription</string>
     <string name="promo_label">Promo</string>
+    
+    <!-- 5.0-->
+    <string name="copying_files_message">Copying files %d of %d</string>
+    <string name="copying_database_message">Copying database</string>
+    <string name="restoring_database_message">Restoring database</string>
+    <string name="restoring_files_message">Restoring files %d of %d</string>
+    <string name="enable_auto_backup_summary">Backup all libraries without attached files</string>
+    <string name="backup_summary_preference_only_libraries">Backup all libraries</string>
+    <string name="limit_integer_field_toast">/"%s/" must be less than %d</string>
+    <string name="max_limit_integer_field_hint">Value must be less than %d</string>
+    <string name="min_limit_integer_field_hint">Value must be greater than %d</string>
+    <string name="validation_error_message">Some of the fields have invalid values</string>
+    <string name="data_validation">Data validation</string>
+    <string name="data_validation_fail_message">Value must be \"%s\"</string>
+    <string name="use_custom_validation_message">Show custom message after invalid data entered</string>
+    <string name="append_value">Append value</string>
+    <string name="trigger_common">Common</string>
+    <string name="trigger_common_default_name">Common %d</string>
+    <string name="empty_script_list_common_text">Common is a script whose functions can be reused in other scripts.</string>
+    <string name="action_context_list_item_entry">Entries in the list</string>
+    <string name="action_view_page_title">View</string>
+    <string name="action_select_icon">Select icon for the script button</string>
+    <string name="action_with_entry_list_context">Entries List Action</string>
+    <string name="autofill_by_image">By Image β</string>
+    <string name="autofill_need_image_field">In order to autofill your library by image it must contain the \"Image\" field. How do you create this?</string>
+    <string name="text_recognition">Text Recognition</string>
+    <string name="text_recognition_fields_empty">Add the fields you want to use with the text recognition</string>
+    <string name="select_recognized_text">Select recognized text</string>
+    <string name="split_text_block_lines">Split lines</string>
+    <string name="field_finder">Field finder</string>
+    <string name="field_parser">Field parser</string>
+    <string name="nlp_extractor">Language Processing Beta</string>
+    <string name="anchor_base_extractor">Anchor Base</string>
+    <string name="anchor_base_text">Anchor Text</string>
+    <string name="anchor_base_position">Anchor Position</string>
+    <string name="anchor_position_left">Left</string>
+    <string name="anchor_position_top">Top</string>
+    <string name="anchor_position_right">Right</string>
+    <string name="anchor_position_bottom">Bottom</string>
+    <string name="autofill_source_test">Test</string>
+    <string name="field_parser_default">Default</string>
+    <string name="field_parser_script">Script</string>
+    <string name="date_and_time_pattern">Date and Time Pattern</string>
+    <string name="number_format">Number format</string>
+    <string name="ignore_case">Ignore case</string>
+    <string name="ignore_non_word">Ignore non-word characters</string>
+    <string name="permissible_errors">Permissible errors</string>
+    <string name="permissible_errors_hint">Permissible errors</string>
+    <string name="text_scan_fields_found_count"  formatted="false">%d of %d fields found</string>
+    <string name="regex_extractor">RegEx</string>
+    <string name="regular_expression_text">Regular expression</string>
+    <string name="multi_line_value">Multi-line value</string>
+    <string name="text_scan_retry">Retry</string>
+    <string name="text_recognition_save_image_message">Do you want to store scanned images in a field?</string>
+    <string name="hidden_text_scan_field_name">Text scan field</string>
+    <string name="hidden_text_scan_field_hint">This is a system field for text recognition</string>
+    <string name="field_extractor_test_string">Test string</string>
+    <string name="field_extractor_test_string_hint">Input your test string here</string>
+    <string name="field_extractor_test_result">Result</string>
+    <string name="field_extractor_test_result_true">True</string>
+    <string name="field_extractor_test_result_false">False</string>
+    <string name="templates_categories">Categories</string>
+    <string name="quick_tools">Quick tools</string>
+    <string name="quick_tools_customize">Customize...</string>
+    <string name="sync_short">Sync</string>
+    <string name="create_entries_forbidden">You don\'t have permission to create entries in this library</string>
+    <string name="sync_with_memento_cloud">Sync with Memento Cloud</string>
+    <string name="empty_charts_message">There are no charts in this library.</string>
+    <string name="empty_action_scripts_message">There are no action scripts in this library.</string>
+    <string name="all_sync_library_progress">Synchronizing \"%s\"</string>
+    <string name="all_sync_check_versions">Checking for updates...</string>
+    <string name="all_sync_completed">Libraries are up to date</string>
+    <string name="image_file_name_format">File name format</string>
+    <string name="image_file_name_time">Time</string>
+    <string name="image_file_name_user_and_time">User and Time</string>
+    <string name="image_file_name_unique">Unique value</string>
+    <string name="invert_text_color_based_on_background">Invert text color based on background</string>
 </resources>
