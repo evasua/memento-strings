@@ -1740,4 +1740,17 @@
     <string name="actions">Acties</string>
     <string name="warning">Waarschuwing</string>
     <string name="embedded_js_libraries">ingebedde</string>
+    <string name="repository_android_intents_hint">Functies voor interactie met andere Android-applicaties</string>
+    <string name="repository_data_sources_hint">Gegevensbronnen voor automatisch aanvullen</string>
+    <string name="add_javascript_library">JavaScript-bibliotheken toevoegen...</string>
+    <string name="add_repository">Voeg GitHub-opslagplaats toe</string>
+    <string name="repository_location_hint">URL van GitHub-opslagplaats</string>
+    <string name="repository_location_error">Specificeer de HTTPS-link naar de GitHub-bewaarplaats. Bijvoorbeeld: https://github.com/username/repo-name</string>
+    <string name="repository_not_found_error">Kan opslagplaats niet vinden: %s</string>
+    <string name="repository_delete_message">Wilt u de opslagplaats \"%s\" echt verwijderen?</string>
+    <string name="map_field_current_by_default_hint">Verkrijg de huidige locatie standaard</string>
+    <string name="receiving_document_content">Documentinhoud ontvangen</string>
+    <string name="action_context_view_entry">Toegangszichtkaart</string>
+    <string name="action_default_name">Actie %d</string>
+    <string name="action_arguments_empty">Het script kan argumenten hebben, waarvan de waarden door de gebruiker worden ingevoerd.</string>
     </resources>
