@@ -2265,4 +2265,41 @@ Polje je ekvivalent stolpca v preglednici.</string>
     <string name="entry_field_must_be_unique">Polje %s ni edinstveno</string>
     <string name="non_unique_entries_message">V knjižnici so neenotni vnosi</string>
     <string name="primary_external_storage">Primarni zunanji pomnilnik</string>
-</resources>
+<string name="chart_field_missing">Polja za grafikon ni mogoče najti. Morda je bilo izbrisano.</string>
+    <string name="append_tags">Pripni oznake</string>
+    <string name="trigger_event_modify_field">Posodobitev polja</string>
+    <string name="select_templates">Izberi predloge</string>
+    <string name="fast_create_libraries">Ustvarite nove knjižnice iz predlog</string>
+    <string name="view_quick_access_toolbar">Pikaži Quick Tools (hitra orodja)</string>
+    <string name="quick_button_close">Skrij</string>
+    <string name="append_list_items">Dodaj elemente</string>
+
+    <string name="launcher">Zaganjalnik</string>
+    <string name="time_field_group_entries_week">Združi po tednih</string>
+    <string name="cant_download">Ne morem prenesti</string>
+    <string name="manage_subscription">Upravljanje naročnine</string>
+    <string name="promo_label">Promocija</string>
+    
+    <string name="copying_files_message">Kopiranje datotek %d od %d</string>
+    <string name="copying_database_message">Kopiranje baze podatkov</string>
+    <string name="restoring_database_message">Obnavljanje baze podatkov</string>
+    <string name="restoring_files_message">"Obnavljanje datotek %  od %d"</string>
+    <string name="enable_auto_backup_summary">Varnostno kopirajte vse knjižnice brez priloženih datotek</string>
+    <string name="backup_summary_preference_only_libraries">Varnostno kopirajte vse knjižnice</string>
+    <string name="limit_integer_field_toast">/%s/ mora biti manj od %d</string>
+    <string name="max_limit_integer_field_hint">Vrednost mora biti manjša od %d</string>
+    <string name="min_limit_integer_field_hint">Vrednost mora biti večja od %d</string>
+    <string name="validation_error_message">Nekatera polja imajo neveljavne vrednosti</string>
+    <string name="data_validation">Overjanje podatkov</string>
+    <string name="data_validation_fail_message">Vrednost mora biti \"%s\"</string>
+    <string name="use_custom_validation_message">Pokaži sporočilo po meri ko so vnešeni neveljavni podatki</string>
+    <string name="append_value">Dodaj vrednost</string>
+    <string name="trigger_common">V skupni rabi</string>
+    <string name="trigger_common_default_name">V skupni rabi %d</string>
+    <string name="empty_script_list_common_text">V skupni rabi je skript, katerih funkcije se lahko uporabijo v drugih skriptih.</string>
+    <string name="action_context_list_item_entry">Vnosi na seznamu</string>
+    <string name="action_view_page_title">Pogled</string>
+    <string name="action_select_icon">Izberi ikono za gumb skripta</string>
+    <string name="action_with_entry_list_context">Dejanje seznama vnosov</string>
+    <string name="autofill_by_image">Po sliki β</string>
+    </resources>
