@@ -2303,9 +2303,9 @@
     <string name="data_validation_fail_message">Value must be \"%s\"</string>
     <string name="use_custom_validation_message">Show custom message after invalid data entered</string>
     <string name="append_value">Append value</string>
-    <string name="trigger_common">Common</string>
-    <string name="trigger_common_default_name">Common %d</string>
-    <string name="empty_script_list_common_text">Common is a script whose functions can be reused in other scripts.</string>
+    <string name="trigger_common">Shared</string>
+    <string name="trigger_common_default_name">Shared %d</string>
+    <string name="empty_script_list_common_text">Shared is a script whose functions can be reused in other scripts.</string>
     <string name="action_context_list_item_entry">Entries in the list</string>
     <string name="action_view_page_title">View</string>
     <string name="action_select_icon">Select icon for the script button</string>
@@ -2315,10 +2315,8 @@
     <string name="text_recognition">Text Recognition</string>
     <string name="text_recognition_fields_empty">Add the fields you want to use with the text recognition</string>
     <string name="select_recognized_text">Select recognized text</string>
-    <string name="split_text_block_lines">Split lines</string>
     <string name="field_finder">Field finder</string>
     <string name="field_parser">Field parser</string>
-    <string name="nlp_extractor">Language Processing Beta</string>
     <string name="anchor_base_extractor">Anchor Base</string>
     <string name="anchor_base_text">Anchor Text</string>
     <string name="anchor_base_position">Anchor Position</string>
