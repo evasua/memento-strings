@@ -109,7 +109,7 @@
     <string name="preference_category_backup">Varnostna kopija</string>
     <string name="main_preferences_title">Nastavitve</string>
     <string name="backup_preference">Varnostna kopija</string>
-    <string name="backup_summary_preference">Varnostno kopiranje vseh knjižnic na flash kartico</string>
+    <string name="backup_summary_preference">Varnostno kopiranje vseh knjižnic in datotek</string>
     <string name="backup_fail">Napaka pri varnostnem kopiranju</string>
     <string name="cdcard_not_found">Žal je tvoja SD kartica zasedena</string>
     <string name="library_item_delete_message_text">Ali res želiš izbrisati vnos \"%s\"?</string>
@@ -117,7 +117,7 @@
     <string name="flex_delete_message_text">Ali res želiš izbrisati polje \"%s\"?</string>
     <string name="backup_process">Varnostno kopiranje knjižnic.</string>
     <string name="restore_preference">Obnovi</string>
-    <string name="restore_summary_preference">Obnovitev knjižnic iz varnostne kopije</string>
+    <string name="restore_summary_preference">Obnovitev knjižnic in datotek iz varnostne kopije</string>
     <string name="backup_file_not_found">Ni najdene datoteke varnostne kopije.</string>
     <string name="restore_dialog_message">Obstoječe knjižnice bodo med obnovitvijo zamenjane z knjižnicami iz varnostne kopije.
 Vse spremembe, izvedene v teh knjižnicah po ustvarjanju varnostne kopije, bodo izgubljene.
@@ -2257,7 +2257,7 @@ Polje je ekvivalent stolpca v preglednici.</string>
     <string name="flex_type_title_dynamic_list">Seznam</string>
     <string name="add_dynamic_list_item">Element seznama</string>
     <string name="type_desc_dynamic_list">Polje seznam je nabor tekstovnih nizov s potrditvenimi polji. Na primer, lahko se uporablja za sezname opravil.</string>
-    <string name="type_desc_tags">Polje oznake je polje z besedilom za urejanje, v katerega lahko vnesete oznako in po njej iščete druge vnose.</string>
+    <string name="type_desc_tags">Polje oznaka je polje z besedilom za urejanje, v katerega lahko vnesete besedo in po njej iščete druge vnose.</string>
     <string name="entries_background_color">Vnos barve ozadja</string>
     <string name="flex_type_tags">Označbe</string>
     <string name="group_multiple_values_split">Razdeljene vrednosti</string>
@@ -2302,4 +2302,57 @@ Polje je ekvivalent stolpca v preglednici.</string>
     <string name="action_select_icon">Izberi ikono za gumb skripta</string>
     <string name="action_with_entry_list_context">Dejanje seznama vnosov</string>
     <string name="autofill_by_image">Po sliki β</string>
-    </resources>
+    <string name="non_unique_values">Needinstvene vrednosti</string>
+
+    <string name="autofill_need_image_field">Če želite knjižnico samodejno izpolniti po sliki, mora vsebovati polje \"Slika\". Kako to ustvariti?</string>
+    <string name="text_recognition">Prepoznava besedila</string>
+    <string name="text_recognition_fields_empty">Dodajte polja, ki jih želite uporabiti pri prepoznavi besedila</string>
+    <string name="select_recognized_text">Izberi prepoznano besedilo</string>
+    <string name="field_finder">Iskalec polja</string>
+    <string name="field_parser">Razčlenjevalnik polja</string>
+    <string name="anchor_base_extractor">Sidrna baza</string>
+    <string name="anchor_base_text">Sidrno besedilo</string>
+    <string name="anchor_base_position">Sidrna pozicija</string>
+    <string name="anchor_position_left">Levo</string>
+    <string name="anchor_position_top">Zgoraj</string>
+    <string name="anchor_position_right">Desno</string>
+    <string name="anchor_position_bottom">Spodaj</string>
+    <string name="autofill_source_test">Test</string>
+    <string name="field_parser_default">Privzeto</string>
+    <string name="field_parser_script">Skript</string>
+    <string name="date_and_time_pattern">Vzorec datuma in časa</string>
+    <string name="number_format">Oblika števila</string>
+    <string name="ignore_case">Prezri primer</string>
+    <string name="ignore_non_word">PRezri nebesedne znake</string>
+    <string name="permissible_errors">Dovoljene napake</string>
+    <string name="permissible_errors_hint">Dovoljene napake</string>
+    <string name="text_scan_fields_found_count" formatted="false">%d od %d polj najdenih</string>
+    <string name="regex_extractor">RegIzraz</string>
+    <string name="regular_expression_text">Vsakdanji izraz</string>
+    <string name="multi_line_value">Večvrstična vrednost</string>
+    <string name="text_scan_retry">Poskusi znova</string>
+    <string name="text_recognition_save_image_message">Ali želite optično prebrane slike shraniti v polju?</string>
+    <string name="hidden_text_scan_field_name">Polje za optično branje besedila</string>
+    <string name="hidden_text_scan_field_hint">To je sistemsko polje za prepoznavo besedila</string>
+    <string name="field_extractor_test_string">Testni niz</string>
+    <string name="field_extractor_test_string_hint">Sem vnesite testni niz</string>
+    <string name="field_extractor_test_result">Rezultat</string>
+    <string name="field_extractor_test_result_true">Drži</string>
+    <string name="field_extractor_test_result_false">Ne drži</string>
+    <string name="templates_categories">Kategorije</string>
+    <string name="quick_tools">Hitra orodja</string>
+    <string name="quick_tools_customize">Prilagodi...</string>
+    <string name="sync_short">Sinhroniziraj</string>
+    <string name="create_entries_forbidden">Nimate dovoljenja za ustvarjanje vnosov v tej knjižnici</string>
+    <string name="sync_with_memento_cloud">Sinhroniziraj z Memento oblakom</string>
+    <string name="empty_charts_message">V tej knjižnici ni grafikonov.</string>
+    <string name="empty_action_scripts_message">V tej knjižnici ni skriptov za dejanja.</string>
+    <string name="all_sync_library_progress">Sinhroniziranje \"%s\"</string>
+    <string name="all_sync_check_versions">Preverjanje posodobitev...</string>
+    <string name="all_sync_completed">Knjižnice so posodobljene</string>
+    <string name="image_file_name_format">Oblika imena datoteke</string>
+    <string name="image_file_name_time">Čas</string>
+    <string name="image_file_name_user_and_time">Uporabnik in čas</string>
+    <string name="image_file_name_unique">Edinstvena vrednost</string>
+    <string name="invert_text_color_based_on_background">Pretvori barvo besedila glede na ozadje</string>
+</resources>
