@@ -119,17 +119,17 @@
     <string name="preference_category_backup">Backup</string>
     <string name="main_preferences_title">Einstellungen</string>
     <string name="backup_preference">Sichern</string>
-    <string name="backup_summary_preference">Alle Sammlungen auf SD-Karte sichern</string>
+    <string name="backup_summary_preference">Alle Sammlungen und Dateien auf SD-Karte sichern</string>
     <string name="backup_fail">Fehler beim Sichern</string>
     <string name="cdcard_not_found">Deine SD-Karte ist leider beschäftigt</string>
     <string name="backup_process">Sammlungen werden gesichert.</string>
     <string name="restore_preference">Wiederherstellen</string>
-    <string name="restore_summary_preference">Sammlungen werden aus der Sicherung wiederhergestellt</string>
-    <string name="backup_file_not_found">Keine Sicherungdateien gefunden.</string>
+    <string name="restore_summary_preference">Sammlungen und Dateien werden aus der Sicherung wiederhergestellt</string>
+    <string name="backup_file_not_found">Keine Sicherungsdatei gefunden.</string>
     <string name="restore_dialog_message">Bei der Wiederherstellungen werden alle bestehenden Sammlungen mit denen aus der Sicherungsdatei überschrieben. Alle Änderungen, die nach de, Erstellen der Sicherung vorgenommen wurden, werden verloren gehen.\nWiederherstellung starten?</string>
-    <string name="backup_dialog_message">Überschreibe die Sicherungsdatei mit den aktuellen Daten?</string>
-    <string name="restore_success">Die Sammlungen wurden erfolgreich aus der Sicherungsdatei wiederhergestellt</string>
-    <string name="restore_step1">Wird wiederhergestellt</string>
+    <string name="backup_dialog_message">Sicherungsdatei mit aktuellen Daten überschreiben?</string>
+    <string name="restore_success">Sammlungen wurden erfolgreich aus der Sicherungsdatei wiederhergestellt</string>
+    <string name="restore_step1">Wiederherstellung</string>
     <string name="restore_step2">Leere Cache</string>
     <string name="clear_index">Lösche Indizes</string>
     <string name="reindex">Erstelle Indizes:</string>
@@ -2124,7 +2124,7 @@ Bitte neue verschiebe Regel erstellen um in eine andere Sammlung zu migrieren.</
     <string name="google_sync_migration_to_v4">Diese Bibliothek wird mit der veralteten Methode synchronisiert.
 Führen Sie das erneute Binden der Bibliothek an die neue Tabelle durch, um die neue Methode zu verwenden.
 Jetzt erneut binden?</string>
-    <string name="enable_logging_sheets">Google Sheets</string>
+    <string name="enable_logging_sheets">Google Tabellen</string>
 
     <string name="position_column_1">1. Spalte</string>
     <string name="position_column_2">2. Spalte</string>
