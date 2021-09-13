@@ -31,7 +31,7 @@
     <string name="flex_edit_option_values_card">Karteneintrag</string>
     <string name="flex_edit_option_values_table">Tabelleneinträge</string>
     <string name="db_location_pref_sd">SD-Karte</string>
-    <string name="auto_backup_time_day">Nicht mehr als täglich</string>
+    <string name="auto_backup_time_day">Nicht mehr als einmal täglich</string>
 <string name="string_filter_types_contains">Enthält</string>
     <string name="string_filter_types_notcontains">Enthält nicht</string>
     <string name="time_field_group_entries_no">Keine Gruppierung</string>
@@ -52,10 +52,10 @@
     <string name="show_soft_keyboard_always">Immer</string>
     <string name="auto_backup_time_never">Nie</string>
     <string name="auto_backup_time_always">Jedesmal</string>
-    <string name="auto_backup_time_hour">Nicht mehr als stündlich</string>
+    <string name="auto_backup_time_hour">Nicht mehr als einmal stündlich</string>
     <string name="calc_result_types_int">Ganzzahl</string>
     <string name="calc_result_types_date">Datum</string>
-    <string name="calc_result_types_datetime">Datums/Uhrzeit</string>
+    <string name="calc_result_types_datetime">Datum/Uhrzeit</string>
     <string name="calc_result_types_string">Text</string>
     <string name="date_format_list_current_locale">Aktueller Standort</string>
     <string name="date_format_list_date_pref">Datumseinstellungen des Benutzers</string>
