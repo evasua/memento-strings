@@ -122,12 +122,12 @@
     <string name="preference_category_backup">Резервно копие</string>
     <string name="main_preferences_title">Настройки</string>
     <string name="backup_preference">Резервно копие</string>
-    <string name="backup_summary_preference">Архивиране на всички библиотеки на флаш картата</string>
+    <string name="backup_summary_preference">Архивиране на всички библиотеки и файлове</string>
     <string name="backup_fail">Грешка при изпълнение на резервното копиране</string>
     <string name="cdcard_not_found">За съжаление, вашата SD карта е заета</string>
     <string name="backup_process">Архивиране на библиотеките.</string>
     <string name="restore_preference">Възстановяване</string>
-    <string name="restore_summary_preference">Възстановяване на библиотеки от резервно копие</string>
+    <string name="restore_summary_preference">Възстановяване на библиотеки и файлове от резервно копие</string>
     <string name="backup_file_not_found">Архивен файл не е намерен.</string>
     <string name="restore_dialog_message">Съществуващите библиотеки ще бъдат заменени с библиотеки от архивното копие.↵\nВсички промени, направени в тези библиотеки след резервното копиране ще бъде изгубени.↵\nДа започне ли възстановяване?</string>
     <string name="backup_dialog_message">Ще замените ли резервното копие с ново ?</string>
@@ -147,7 +147,7 @@
     <string name="activation_ok">Благодарим Ви за активирането на Memento</string>
     <string name="activation_error">Активиращият код е невалиден. Моля, опитайте отново.</string>
     <string name="about">За програмата</string>
-    <string name="copyright">Copyright © 2019 LuckyDroid
+    <string name="copyright">Copyright © 2020 MementoDB Inc.
 Всички права запазени</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Вижте версията на програмата</string>
@@ -1048,7 +1048,7 @@
     <string name="use_depend_only_in_edit_title">Къде да използваме</string>
     <string name="use_depend_only_in_edit_hint_false">При редактиране и разглеждане на запис</string>
     
-<string name="use_depend_only_in_edit_hint_true">Само при редактиране на запис</string>
+<string name="use_depend_only_in_edit_hint_true">Прилагане само при редактиране на запис</string>
     <string name="most_viewed_templates">Най-гледани</string>    
 	<string name="featured_templates">Най-показвани</string>
 	<string name="template_views_count">Прегледи: %s</string>
@@ -1192,7 +1192,7 @@
 	<string name="cant_add_yourself">Не можете да добавите себе си</string>
 	<string name="remove_from_old_public">Преди качването на библиотеката в облака, тя ще бъде изтрита от публикуваните (ако публикуването се извършва по старите методи).</string>
 	<string name="select_template_title">Избор на шаблон</string>
-	<string name="empty_library_title">Празна библиотека</string>
+	<string name="empty_library_title">Започнете от нулата</string>
 	<string name="catalog_templates_title">Онлайн каталог</string>
 	<string name="catalog_templates_hint">Повече от 3000 шаблона</string>
 	<string name="add_lib_from_google_drive_hint">Възстановяване от Google Drive</string>
@@ -1479,8 +1479,8 @@
     <string name="application">Приложение</string>
     <string name="debug">Дебъг</string>
     <string name="debug_summary">Опции за регистрация</string>
-    <string name="enable_logging_cloud">Memento облак обаждания</string>
-    <string name="enable_logging_triggers">Тригери лог</string>
+    <string name="enable_logging_cloud">Memento облак</string>
+    <string name="enable_logging_triggers">Скриптове</string>
     <string name="script_log">Скриптове лог</string>
 
     <string name="trigger_permissions">Разрешения за тригери</string>

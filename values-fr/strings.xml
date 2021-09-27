@@ -117,12 +117,12 @@
     <string name="preference_category_backup">Sauvegarde et Restauration</string>
     <string name="main_preferences_title">Paramètres</string>
     <string name="backup_preference">Sauvegarder</string>
-    <string name="backup_summary_preference">Sauvegarder toutes les bases sur la carte SD</string>
+    <string name="backup_summary_preference">Sauvegarder l\'ensemble des bases et des fichiers</string>
     <string name="backup_fail">Erreur de sauvegarde</string>
     <string name="cdcard_not_found">Désolé, votre carte SD card est occupée</string>
     <string name="backup_process">Sauvegarde des bases en cours.</string>
     <string name="restore_preference">Restaurer</string>
-    <string name="restore_summary_preference">Restaurer les bases depuis la sauvegarde de la carte SD</string>
+    <string name="restore_summary_preference">Restaurer les bases et les fichiers depuis une sauvegarde</string>
     <string name="backup_file_not_found">Aucun fichier de sauvegarde trouvé.</string>
     <string name="restore_dialog_message">Les bases existantes seront remplacées avec les bases de la copie de sauvegarde durant la restauration.\nToutes les modifications faites dans ces bases après la copie de sauvegarde seront perdues.\nCommencer la restauration ?</string>
     <string name="backup_dialog_message">Voulez-vous remplacer la copie de sauvegarde existante avec la nouvelle sauvegarde ?</string>
@@ -275,7 +275,7 @@ Tout droits réservés</string>
     <string name="create_memento_account_dlg_text">Inscription de l\'utilisateur sur le serveur Memento...</string>
     <string name="memento_register_user_exists">Ce nom d\'utilisateur existe déjà</string>
     <string name="memento_register_email_exists">Un utilisateur avec cette adresse e-mail existe déjà</string>
-    <string name="memento_server_error">Erreur du serveur, veuillez réessayer plus tard</string>
+    <string name="memento_server_error">Erreur de serveur, veuillez réessayer ultérieurement</string>
     <string name="memento_account_title">Compte Memento</string>
     <string name="memento_create_account_button">Nouveau compte</string>
     <string name="memento_auth_error">Mauvais nom ou mot de passe</string>
@@ -1173,7 +1173,7 @@ Tout droits réservés</string>
 	<string name="button_tarifs">Tarifs</string>
 	<string name="cloud_storage_plans">Offres d\'abonnement</string>
 	<string name="price_free">GRATUIT</string>
-	<string name="price_per_month">%s/mo</string>
+	<string name="price_per_month">%s/mois</string>
 	<string name="unlimited_libraries">Bases illimitées</string>	
 	<string name="adv_free">Pas de publicité</string>
 	<string name="subscription_activation">Activer la souscription...</string>
@@ -1415,9 +1415,9 @@ Tout droits réservés</string>
     <string name="upload_to_cloud">Téléversez sur le Cloud</string>
     <string name="multi_choice_delimiter">Délimiteur</string>
     <string name="cloud_plan_free">Gratuit</string>
-    <string name="cloud_plan_plan3">Version Light</string>
-    <string name="cloud_plan_plan6">Version Pro</string>
-    <string name="cloud_plan_plan10">Version Pro Plus</string>
+    <string name="cloud_plan_plan3">Lite</string>
+    <string name="cloud_plan_plan6">Pro</string>
+    <string name="cloud_plan_plan10">Pro Plus</string>
     <string name="cloud_plan_storage">%s Mémoire</string>
 
     <string name="memento_server_settings_group">Serveur Memento</string>
@@ -1629,7 +1629,7 @@ Tout droits réservés</string>
     <string name="uom_rankine">Rankine</string>
 
     <string name="uom_yard">Yard</string>
-    <string name="uom_angstrom">Angström</string>
+    <string name="uom_angstrom">Ångström</string>
     <string name="uom_parsec">Parsec</string>
 
     <string name="uom_pound">Livre</string>
@@ -1653,8 +1653,8 @@ Tout droits réservés</string>
     <string name="aggr_always_show">Toujours afficher</string>
     <string name="cant_add_management">L\'administrateur a un accès intégral à la base</string>
     <string name="auth_error_user_blocked">Votre compte a été désactivé</string>
-    <string name="team_license">Équipe</string>
-    <string name="user_manager_only_for_team">La gestion des utilisateurs et des licences est disponible uniquement avec les tarifs équipe</string>
+    <string name="team_license">Team</string>
+    <string name="user_manager_only_for_team">La gestion des utilisateurs et des licences est disponible uniquement avec les tarifs Team</string>
     <string name="send_password_to_user">Envoyer le mot de passe à l\'utilisateur par mail</string>
     <string name="library_permissions_subject">Nom d\'utilisateur / email / groupe</string>
     <string name="permissions_delete_message">Voulez-vous vraiment supprimer les droits d\'accès pour \"%s\" ?</string>
@@ -1665,7 +1665,7 @@ Tout droits réservés</string>
     <string name="field_right_need_library_download">Vous devez télécharger une base sur votre dispositif pour ajouter de nouveaux droits d\'accès aux champs.</string>
     <string name="field_permission_invisible">Invisible</string>
     <string name="field_permission_read_only">Lecture seule</string>
-    <string name="field_permissions_limit">Les droits d\'accès pour les champs ne peuvent être définis qu\'avec les tarifs Équipe.</string>
+    <string name="field_permissions_limit">Les droits d\'accès pour les champs ne peuvent être définis qu\'avec les tarifs Team.</string>
     <string name="user_groups">Groupes d\'utilisateurs</string>
     <string name="add_user_group">Ajouter un groupe d\'utilisateurs</string>
     <string name="add_user_group_hint">Nom du groupe</string>
@@ -1678,12 +1678,12 @@ Tout droits réservés</string>
     <string name="user_group_delete_message">Voulez-vous vraiment supprimer le groupe \"%s\" ?</string>
     <string name="group_not_found">Groupe non trouvé</string>
     <string name="individual">Individuel</string>
-    <string name="team">Équipe</string>
-    <string name="cloud_plan_team5">Équipe 5</string>
-    <string name="cloud_plan_team10">Équipe 10</string>
-    <string name="cloud_plan_team15">Équipe 15</string>
-    <string name="cloud_plan_team20">Équipe 20</string>
-    <string name="pro_for_team">" Fonctionnalités Pro pour tous les utilisateurs"</string>
+    <string name="team">Team</string>
+    <string name="cloud_plan_team5">Team 5</string>
+    <string name="cloud_plan_team10">Team 10</string>
+    <string name="cloud_plan_team15">Team 15</string>
+    <string name="cloud_plan_team20">Team 20</string>
+    <string name="pro_for_team">" Fonctionnalités Pro pour tous les utilisateurs de l\'équipe"</string>
     <string name="team_features_trial">Tous les abonnements incluent un essai gratuit de 14 jours.</string>
 
     <string name="tasker_plugin_create_entry_event_title">Enregistrement créé</string>
@@ -1793,7 +1793,7 @@ Tout droits réservés</string>
     <string name="cloud_plan_team10_annual">Team 10</string>
     <string name="cloud_plan_team15_annual">Team 15</string>
     <string name="cloud_plan_team20_annual">Team 20</string>
-    <string name="price_per_year">%s/yr</string>
+    <string name="price_per_year">%s/an</string>
 
     <string name="frozen_alien_text">Cette bibliothèque est gelée, contacter SVP le propriétaire de la bibliothèque (%s).</string>
     <string name="copy_field">Copier le champ</string>
@@ -1908,14 +1908,14 @@ Tout droits réservés</string>
 
     <string name="license_key_tab">Clé de licence</string>
     <string name="pro_feature_0">Pas de publicité</string>
-    <string name="pro_feature_1">Pas de limite en nombre de bibliothèques synchronisables avec Google Sheets</string>
+    <string name="pro_feature_1">Nombre illimité de bibliothèques synchronisables avec Google Sheets</string>
     <string name="pro_feature_2">Nombre illimité de bibliothèques \"protégées\"</string>
     <string name="pro_feature_3">Nombre illimité de graphiques</string>
     <string name="pro_feature_4">Nombre illimité de scripts</string>
     <string name="pro_feature_5">Recherche avancée</string>
-    <string name="pro_feature_6">Un champ d\'enregistrement peur contenir plusieurs objets (images, contacts, coordonnées, etc.).</string>
+    <string name="pro_feature_6">Plusieurs objets (images, contacts, coordonnées, etc.) par champ d\'enregistrement.</string>
     <string name="pro_feature_7">Modification multi-enregistrements</string>
-    <string name="pro_feature_8">Widget d\'application pratique</string>
+    <string name="pro_feature_8">Widget d\'application très pratique</string>
     <string name="pro_license_activated">Licence activée</string>
     <string name="pro_features_title">Fonctionnalités Pro</string>
     <string name="activate_with_key">Activer avec une clé</string>
@@ -1938,7 +1938,7 @@ Tout droits réservés</string>
     <string name="choose_username">Choisissez votre nom d\'utilisateur</string>
     <string name="account_without_password_message">Votre compte est un compte Google sans mot de passe. Essayez d\'utiliser le bouton \"Continuer avec Google\".</string>
     <string name="template_not_found_by_uri">Modèle non trouvé</string>
-    <string name="public_template_address_text">Modèle d\'adresse</string>
+    <string name="public_template_address_text">Adresse du modèle</string>
     <string name="wrong_template_address">Format de modèle d\'adresse invalide</string>
     <string name="search_index_tokenizer">Analyseur lexical</string>
 
@@ -1954,7 +1954,7 @@ Tout droits réservés</string>
     <string name="revision_action_edit">%s changé(es)</string>
     <string name="revision_action_create">%s enregistrement(s) créé(s)</string>
     <string name="revert_to_version">Retour à cette version</string>
-    <string name="revert_to_version_message">Etes-vous sûr de vouloir retourner à la version depuis %s ?</string>
+    <string name="revert_to_version_message">Êtes-vous sûr de vouloir retourner à la version depuis %s ?</string>
     <string name="revision_history_only_for_cloud">"L\'historique de version est disponible uniquement pour les bases qui ont été téléversées sur le nuage et pour les comptes PRO  et TEAM."</string>
     <string name="barcode_type_nfc">NFC</string>
     <string name="pending_user">En attente...</string>
@@ -1997,7 +1997,7 @@ Tout droits réservés</string>
     <string name="share_filters">Partager les filtres</string>
     <string name="share_charts">Partager les graphiques</string>
     <string name="shared_by">Partagé par %s</string>
-    <string name="share_workplace_limit">Désolé, le partage des graphiques et des filtres nécessite un abonnement Équipe.</string>
+    <string name="share_workplace_limit">Désolé, le partage de graphiques et de filtres est réservé au tarif Team.</string>
     <string name="bulk_action">Action par lot</string>
     <string name="action_context_bulk_actions">Menu des actions par lot</string>
     <string name="move_to">Déplacer vers...</string>
@@ -2049,7 +2049,7 @@ SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base
     <string name="image_capture_size_original">Originale</string>
     <string name="max_width">Largeur maximum</string>
     <string name="max_height">Hauteur maximum</string>
-    <string name="speech_recognition_not_supported">La reconnaissance de la parole n\'est pas supportée</string>
+    <string name="speech_recognition_not_supported">La reconnaissance vocale n\'est pas supportée</string>
 
     <string name="templates_category_personal">Personnel</string>
     <string name="templates_category_collections">Collections</string>
@@ -2104,7 +2104,7 @@ SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base
     <string name="no_limit">Pas de limite</string>
     <string name="conditional_permission">Dépend du champ</string>
     <string name="conditional_field_empty">Vous devez choisir le champ \"Utilisateur\" qui donnera les autorisations pour l’opération.</string>
-    <string name="conditional_permission_limit">Les droits d\'accès près du champ \"Utilisateur\" ne peuvent être modifiés qu\'avec le tarif Team.</string>
+    <string name="conditional_permission_limit">La modification des droits d\'accès d\'un champ \"Utilisateur\" est réservée au tarif Team.</string>
     <string name="filter_rule_is_one_of">Est un de</string>
     <string name="filter_rule_is_not_one_of">N\'est pas l\'un de</string>
     <string name="send_email">Envoyer email</string>
@@ -2151,14 +2151,14 @@ Exécuter le rattachement maintenant ?</string>
     <string name="user_field_current_by_default_title">Utilisateur actuel</string>
 
     <string name="spotlight_create_library_by_template_title">Créer une base</string>
-    <string name="spotlight_create_library_by_template_text">Taper \"Save\" pour créer une nouvelle base sur ce modèle.</string>
+    <string name="spotlight_create_library_by_template_text">Taper \"Sauvegarder\" pour créer une nouvelle base à partir de ce modèle.</string>
 
     <string name="spotlight_from_scratch_title">Partir de rien</string>
     <string name="spotlight_from_scratch_text">Memento organise vos informations en bases. Les bases sont identiques aux feuilles d\'un classeur de tableur.\nD\'abord, entrez le nom de votre base, sélectionnez un icône et une couleur associée.</string>
     <string name="spotlight_from_scratch_fields_title">Champs</string>
     <string name="spotlight_from_scratch_fields_text">Sur cet onglet, vous définissez les champs pour chaque enregistrement de la base.\nUn champ est l\'équivalent d\'une colonne de feuille de tableur.</string>
     <string name="spotlight_from_scratch_save_title">Sauvegarder la structure</string>
-    <string name="spotlight_from_scratch_save_text">Une fois le champ ajouté, taper \"Save\" pour commencer à ajouter des enregistrements.</string>
+    <string name="spotlight_from_scratch_save_text">Une fois le champ ajouté, taper \"sauvegarder\" pour commencer à ajouter des enregistrements.</string>
     <string name="spotlight_create_entry_title">Créer un enregistrement</string>
     <string name="spotlight_create_entry_text">Cliquez sur \"+\" pour créer le premier enregistrement de la base.</string>
     <string name="spotlight_library_menu_title">Nos outils magiques</string>
@@ -2182,7 +2182,7 @@ Exécuter le rattachement maintenant ?</string>
     <string name="logs_empty">Il n\'y a aucun fichier de traces.</string>
     <string name="logs_send">Envoyer les fichiers de traces</string>
     <string name="choose_grouping_field">Choisir un champ de regroupement</string>
-    <string name="flex_type_title_dynamic_list">Liste dynamique</string>
+    <string name="flex_type_title_dynamic_list">Liste</string>
     <string name="add_dynamic_list_item">Liste d\'items</string>
     <string name="type_desc_dynamic_list">Un champ Liste est un jeu de chaines de texte avec cases à cocher. Par exemple, il peut être utilisé pour des listes A faire.</string>
     <string name="type_desc_tags">Un champ Étiquettes est une boîte de texte éditable où vous pouvez saisir un texte et effectuer des recherches sur d\'autres enregistrements.</string>
@@ -2194,4 +2194,92 @@ Exécuter le rattachement maintenant ?</string>
     <string name="non_unique_entries_message">Il y a des enregistrements non-uniques dans cette base</string>
 <string name="primary_external_storage">Stockage externe principal</string>
     <string name="chart_field_missing">Champ du graphique introuvable. Il a peut-être été supprimé.</string>
-</resources>
+<string name="non_unique_values">Valeurs non uniques</string>
+
+    <string name="append_tags">Ajout d\'étiquettes</string>
+    <string name="trigger_event_modify_field">Mise à jour d\'un champ</string>
+    <string name="select_templates">Sélectionner un modèle</string>
+    <string name="fast_create_libraries">Créer une nouvelle base à partir de modèles</string>
+    <string name="view_quick_access_toolbar">Afficher les outils rapides</string>
+    <string name="quick_button_close">Masquer</string>
+    <string name="append_list_items">Ajouter des items</string>
+
+    <string name="launcher">Lanceur</string>
+    <string name="time_field_group_entries_week">Grouper par semaine</string>
+    <string name="cant_download">Téléchargement impossible</string>
+    <string name="manage_subscription">Gérer l\'abonnement</string>
+    <string name="promo_label">Promo</string>
+<string name="copying_files_message">Copie des fichiers %d de %d</string>
+    <string name="copying_database_message">Copie de la base de données</string>
+    <string name="restoring_database_message">Restauration de la base de données</string>
+    <string name="restoring_files_message">Restauration des fichiers %d de %d</string>
+    <string name="enable_auto_backup_summary">Sauvegarde de toutes les bases sans les fichiers attachés</string>
+    <string name="backup_summary_preference_only_libraries">Sauvegarde de toutes les bases</string>
+    <string name="limit_integer_field_toast">/%s/ doit être inférieur à %d</string>
+    <string name="max_limit_integer_field_hint">La valeur doit être inférieure à %d</string>
+    <string name="min_limit_integer_field_hint">La valeur doit être supérieure à %d</string>
+    <string name="validation_error_message">Certains champs ont des valeurs invalides</string>
+    <string name="data_validation">Validation des données</string>
+    <string name="data_validation_fail_message">La valeur doit être \"%s\"</string>
+    <string name="use_custom_validation_message">Afficher un message personnalisé après la saisie d\'une donnée invalide</string>
+    <string name="append_value">Ajouter une valeur</string>
+    <string name="trigger_common">Partagé</string>
+    <string name="trigger_common_default_name">Partagé %d</string>
+    <string name="empty_script_list_common_text">Partagé est un script dont les fonctions peuvent réutilisées par d\'autres scripts.</string>
+    <string name="action_context_list_item_entry">Enregistrements de la liste</string>
+    <string name="action_view_page_title">Vue</string>
+    <string name="action_select_icon">Sélectionnez un icône pour le bouton du script</string>
+    <string name="text_recognition">Reconnaissance textuelle</string>
+    <string name="text_recognition_fields_empty">Ajoutez les champs à utiliser pour la reconnaissance textuelle</string>
+    <string name="select_recognized_text">Sélectionner le texte reconnu</string>
+    <string name="anchor_position_left">Gauche</string>
+    <string name="anchor_position_right">Droite</string>
+    <string name="anchor_position_bottom">Bas</string>
+    <string name="autofill_source_test">Test</string>
+    <string name="field_parser_default">Défaut</string>
+    <string name="field_parser_script">Script</string>
+    <string name="ignore_case">Ignorer la casse</string>
+    <string name="text_scan_fields_found_count" formatted="false">%d of %d champs trouvés</string>
+    <string name="regex_extractor">RegEx</string>
+    <string name="regular_expression_text">Expression régulière</string>
+    <string name="text_recognition_save_image_message">Voulez-vous stocker l\'image numérisée dans un champ ?</string>
+    <string name="hidden_text_scan_field_name">Champ texte de numérisation</string>
+    <string name="field_extractor_test_string">Chaîne test</string>
+    <string name="field_extractor_test_string_hint">Entrer votre chaîne test ici</string>
+    <string name="field_extractor_test_result">Résultat</string>
+    <string name="field_extractor_test_result_true">Vrai</string>
+    <string name="field_extractor_test_result_false">Faux</string>
+    <string name="templates_categories">Catégories</string>
+    <string name="quick_tools">Outils rapides</string>
+    <string name="quick_tools_customize">Personnaliser...</string>
+    <string name="sync_short">Sync</string>
+    <string name="create_entries_forbidden">Vous n\'avez pas d\'autorisation pour créer des enregistrements dans cette base</string>
+    <string name="empty_charts_message">Il n\'y a pas de graphiques dans cette base.</string>
+    <string name="all_sync_library_progress">Synchronisation \"%s\"</string>
+    <string name="all_sync_check_versions">Vérification des mises-à-jour...</string>
+    <string name="all_sync_completed">Les bases sont à jour</string>
+    <string name="image_file_name_format">Format du nom de fichier</string>
+    <string name="image_file_name_time">Heure</string>
+    <string name="image_file_name_user_and_time">Utilisateur et Heure</string>
+    <string name="image_file_name_unique">Valeur unique</string>
+    <string name="invert_text_color_based_on_background">Inverser la couleur du texte en fonction de l\'arrière-plan</string>
+<string name="action_with_entry_list_context">Enregistrements liste d\'actions</string>
+    <string name="autofill_by_image">Par image β</string>
+    <string name="autofill_need_image_field">Pour auto-remplir la base par image, un champ \"Image\" est nécessaire. Comment le créer ?</string>
+    <string name="field_finder">Recherche de champ</string>
+    <string name="field_parser">Analyseur de champ</string>
+    <string name="anchor_base_extractor">Base d\'ancrage</string>
+    <string name="anchor_base_text">Texte d\'ancrage</string>
+    <string name="anchor_base_position">Position d\'ancrage</string>
+    <string name="anchor_position_top">Haut</string>
+    <string name="date_and_time_pattern">Masque Date et Heure</string>
+    <string name="number_format">Format Nombre</string>
+    <string name="ignore_non_word">Ignorer les caractères non textuels</string>
+    <string name="permissible_errors">Erreurs tolérées</string>
+    <string name="permissible_errors_hint">Erreurs tolérées</string>
+    <string name="multi_line_value">Valeur multiligne</string>
+    <string name="text_scan_retry">Réessayer</string>
+    <string name="hidden_text_scan_field_hint">Ceci est un champ système pour la reconnaissance textuelle</string>
+    <string name="sync_with_memento_cloud">Synchroniser avec Memento Nuage</string>
+    <string name="empty_action_scripts_message">Il n\'y a pas de scripts \"action\" dans cette base.</string>
+    </resources>

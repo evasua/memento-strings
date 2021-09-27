@@ -1,8 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources><string name="app_name">Memento</string>
-    <string name="library_menu_add_item">Bir içerik ekleyin</string>
-    <string name="main_menu_add_lib">Kütüphane Ekleyin</string>
-    <string name="ghostData_lib_title">Kütüphane adı</string>
+    <string name="library_menu_add_item">Bir girdi ekleyin</string>
+    <string name="main_menu_add_lib">Kitaplık Ekleyin</string>
+    <string name="ghostData_lib_title">Kitaplık adı</string>
     <string name="custom_template_title">Özel</string>
     <string name="button_create">Oluştur</string>
     <string name="button_yes">Evet</string>
@@ -11,10 +11,10 @@
     <string name="button_save">Kaydet</string>
     <string name="button_cancel">İptal</string>
     <string name="button_add_field">Bir alan ekle</string>
-    <string name="add_new_library_item">Kayıt ekle</string>
-    <string name="flex_type_title_string">Yazı</string>
+    <string name="add_new_library_item">Girdi ekle</string>
+    <string name="flex_type_title_string">Metin</string>
     <string name="flex_type_title_int">Tamsayı</string>
-    <string name="flex_type_title_bool">Boolean (İşaretleme)</string>
+    <string name="flex_type_title_bool">Boolean (Onay kutusu)</string>
     <string name="flex_type_title_date">Tarih</string>
     <string name="flex_type_title_date_time">Tarih/Saat</string>
     <string name="flex_type_contact">Kişi</string>
@@ -41,18 +41,18 @@
     <string name="default_value">Varsayılan değer</string>
     <string name="flex_template_options_title">Gelişmiş seçenekler</string>
     <string name="error_template_empty_title">Alan adını giriniz</string>
-    <string name="error_library_withous_name_flex">Bir kütüphane en az bir \"isim\" alanına sahip olmalıdır.</string>
-    <string name="select_library_icon_activity">Kütüphane için ikon seçin</string>
+    <string name="error_library_withous_name_flex">Bir kitaplık en az bir \"isim\" alanına sahip olmalıdır.</string>
+    <string name="select_library_icon_activity">Kitaplık için simge seçin</string>
     <string name="select_flex_template_role_title">Alan fonksiyonu</string>
-    <string name="library_edit2">Kütüphaneyi düzenle</string>
+    <string name="library_edit2">Kitaplığı düzenle</string>
     <string name="library_edit">Düzenle</string>
     <string name="library_delete">Sil</string>
-    <string name="library_delete_message_title">Kütüphaneyi sil</string>
-    <string name="library_delete_message_text">\"%s\" isimli kütüphaneyi silmek istediğinizden emin misiniz?</string>
-    <string name="error_library_empty_title">Kütüphane adını giriniz</string>
+    <string name="library_delete_message_title">Kitaplık sil</string>
+    <string name="library_delete_message_text">\"%s\" isimli kitaplığı silmek istediğinizden emin misiniz?</string>
+    <string name="error_library_empty_title">Kitaplık adını giriniz</string>
     <string name="library_item_edit">Düzenle</string>
     <string name="library_item_delete">Sil</string>
-    <string name="library_item_delete_message_text">\"%s\" tanımlı girişi silmek istediğinize emin misiniz?</string>
+    <string name="library_item_delete_message_text">\"%s\" girdisini silmek istediğinize emin misiniz?</string>
     <string name="library_item_trush_message_text">\"%s\" kaydını Geri Dönüşüm Kutusuna göndermek istediğinizden emin misiniz?</string>
     <string name="library_items_count">Kayıtlar: %s</string>
     <string name="library_menu_select_sort">Sırala</string>
@@ -68,12 +68,12 @@
     <string name="group_null_value">Boş değer</string>
     <string name="date_not_set">Boş değer</string>
     <string name="set_default_value">Varsayılan değeri belirt</string>
-    <string name="date_default_null">Varsayılan olarak değeri boşalt</string>
+    <string name="date_default_null">Varsayılan olarak boş</string>
     <string name="date_default_now">Varsayılan olarak geçerli gün</string>
     <string name="search">Ara</string>
     <string name="search_hint">Kayıt ara</string>
     <string name="search_parse_exception_messagee">Geçersiz arama sorgusu</string>
-    <string name="memento_search">Memento Ara</string>
+    <string name="memento_search">Memento Araması</string>
     <string name="memento_search_in_lib">Memento içinde %s ara</string>
     <string name="removed">%s üzerinde sil</string>
     <string name="trush">Geri Dönüşüm Kutusu</string>
@@ -91,7 +91,7 @@
     <string name="audio_not_found">Ses dosyası bulunamadı</string>
     <string name="flex_type_money_currency_dlg_title">Para birimini seçin</string>
     <string name="flex_type_money_currency_option_title">Para birimi</string>
-    <string name="flex_type_money_default_currency">TL</string>
+    <string name="flex_type_money_default_currency">ABD Doları</string>
     <string name="flex_role_not_usage">Normal alan</string>
     <string name="flex_role_name">Kayıt adı</string>
     <string name="flex_role_hint">Kayıt açıklaması</string>
@@ -119,8 +119,9 @@
     <string name="restore_summary_preference">Kütüphaneler yedeklenmiş kopyalardan geri yükleniyor</string>
     <string name="backup_file_not_found">Yedekleme dosyası bulunamadı.</string>
     <plurals name="NItemsFind">
-	<item quantity="one">1 kayıt bulundu</item>
-	<item quantity="other"/>
+	<item quantity="one">1 girdi bulundu</item>
+	<item quantity="other">Girdiler bulundu:<xliff:g xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" id="COUNT"> %d
+</xliff:g></item>
 </plurals>
     <string name="restore_dialog_message">Mevcut kütüphaneler kurtarma sırasında yedek kopyadan kitaplıkları ile değiştirilecektir.\nYedek kopya oluşturulduktan sonra bu kütüphanelerde yapılan tüm değişiklikler kaybolacak.\nGeri yüklemeyi başlat?</string>
     <string name="backup_dialog_message">Yenisi ile yedek kopya değiştirin?</string>
@@ -140,7 +141,8 @@
     <string name="activation_ok">Memento aktivasyonu için teşekkür ederiz</string>
     <string name="activation_error">Aktivasyon kodu geçersiz. Lütfen tekrar deneyin.</string>
     <string name="about">Hakkında</string>
-    <string name="copyright">Telif Hakkı © 2015 LuckyDroid\nTüm hakları saklıdır</string>
+    <string name="copyright">Telif Hakkı © 2020 MementoDB Inc.
+Tüm hakları saklıdır</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">Yazılım sürümü görüntüle</string>
     <string name="about_license_type">Lisans:</string>
@@ -266,7 +268,7 @@
     <string name="memento_pass_hint">Parola</string>
     <string name="memento_pass_hint2">Parolayı tekrar girin</string>
     <string name="memento_email_hint">E-Posta</string>
-    <string name="memento_register_button">Oluştur</string>
+    <string name="memento_register_button">Hesap Oluştur</string>
     <string name="memento_have_button">Hesabım var</string>
     <string name="login_empty">Kullanıcı adını gir</string>
     <string name="login_format_error">Giriş sadece harf ve rakamları içerebilir</string>
@@ -690,7 +692,7 @@
     <string name="icon_pack_title_flat">Düz</string>
     <string name="icon_pack_title_circle">Yuvarlak</string>
     <string name="icon_pack_title_old">Eski</string>
-    <string name="icon_pack_title_field_material">Material</string>
+    <string name="icon_pack_title_field_material">Materyal</string>
     <string name="icon_pack_title_field_general_flat">Genel</string>
     <string name="icon_pack_title_field_account_flat">Muhasebe</string>
     <string name="icon_pack_title_field_mult_flat">Multimedya</string>
@@ -700,12 +702,12 @@
     <string name="show_update_time_on_tile">Düzenleme zamanı</string>
     <string name="only_title_on_tile">Sadece kütüphanenin adı</string>
     <plurals name="fields_count">
-	<item quantity="one">Bir kayıt</item>
-	<item quantity="other"/>
+	<item quantity="one">Bir alan</item>
+	<item quantity="other">%d alan</item>
 </plurals>
     <plurals name="libraries_count">
 	<item quantity="one">Bir kütüphane</item>
-	<item quantity="other"/>
+	<item quantity="other">%d kütüphane</item>
 </plurals>
     <string name="empty">Boş</string>
     <string name="add_page">Sayfa Ekle</string>
@@ -744,4 +746,1485 @@
     <string name="files_storage_settings_remove_original_title">Orijinalleri sil</string>
     <string name="hybrid">Hibrit</string>
     <string name="list_library_in_google">Google Drivedaki kütüphanelerin listesi</string>
+    <string name="conflict_dialog_text">Ayni girdiler hem Memento\'da hem Google Sheets\'te düzenlendi. Hangi versiyonlar doğru?</string>
+    <string name="template_author_text">%s \'dan</string>
+    <string name="template_date_text">oluşturuldu %s</string>
+    <string name="template_downloads">İndirilenler: %s</string>
+    <string name="scale_dialog">Sonucun ölçeği</string>
+    <string name="field_email_preferences">E-mail biçimlendirme</string>
+    <string name="formatted_string_value">Alan tipi Çoklu seçim değeri</string>
+    <string name="email_templates_spinner_hint">Şablon biçimlendirme</string>
+    <string name="field_send_by_email_summary">Alanın adını ve değerini e-posta/sms ile gönder</string>
+    <string name="reset_master_quest">Ana parolayı değiştirmek istediğinize emin misiniz?
+Dikkat şifrelenmiş tüm kütüphaneler silinecek!</string>
+    <string name="edit_entry_screen_preference_summary">Girdiler oluşturmak/düzenlemek için parametreler oluşturun</string>
+    <string name="auto_show_soft_keyboard">Sanal klavyeyi göster</string>
+    <string name="auto_show_soft_keyboard_summary">Form açıldığında - sanal klavyeyi aç</string>
+    <string name="file_size">Dosya boyutu: %s</string>
+    <string name="cant_protect">Ücretsiz versiyon sadece 2 tane kütüphaneyi korumanıza izin verir.
+Bu limiti kaldırmak için PRO versiyona yükseltin.</string>
+    <string name="flex_edit_option_title">Nerede düzenleyebilirsiniz</string>
+    <string name="flex_edit_option_default">Girdi düzenlemenin şekli</string>
+    <string name="updated_document_time">Güncellendi: %s</string>
+    <string name="move_from_google_docs">Google Sheets\'ten Memento\'ya verilerinizi aktarın</string>
+    <string name="move_from_google_docs_attention">Tüm mevcut kütüphane girdileri silinecek</string>
+    <string name="move_from_memento">Memento\'dan Google Sheets\'e verileri aktarın</string>
+    <string name="move_from_memento_attention">Google Sheets\'teki mevcut tüm veriler silinecek</string>
+    <string name="find_in_spreadsheet_column_title">Memento ve Google Sheets\'teki alanların listesi</string>
+    <string name="google_doc_exists_link_option">Bağlama parametreleri</string>
+    <string name="field_not_sync">Eşitlenmedi</string>
+    <string name="prepare_linking_library">Bağlama için hazırlanıyor...</string>
+    <string name="error_prepare_linking">Bağlamaya hazırlanırken bir sorun oluştu: %s</string>
+    <string name="have_library_items_ask_title">Google Sheets\'e bağlanıyor</string>
+    <string name="last_auto_backup_time">Son otomatik yedekleme: %s</string>
+    <string name="stats_title_in_list" formatted="false">%s tarafından %s</string>
+    <string name="stats_edit_title_hint">Sonucun öneki</string>
+    <string name="stat_item_align_prompt">Sonucun hizası</string>
+    <string name="stat_item_line_prompt">Sonucun satır yerleşimi.</string>
+    <string name="line_number">Satır %s</string>
+    <string name="time_default_now">Varsayılan olarak şimdiki zaman</string>
+    <string name="determination_location">Konum belirleniyor...</string>
+    <string name="preference_category_export_data_cfg">Ayarları İçe Aktar/Dışa Aktar/Eşitle</string>
+    <string name="import_export_date_format_dialog">İçe aktarmak/dışa aktarmak/eşitlemek için tarih formatını seçin</string>
+    <string name="group_delete_message_text">\"%s\" grubunu gerçekten silmek istiyor musunuz?</string>
+    <string name="library_last_sync">Eşitleme %s</string>
+    <string name="navigate_first_entry">Bu girdi ilk olan</string>
+    <string name="navigate_last_entry">Bu girdi son olan</string>
+    <string name="delete_filter_dialog_text">\"%s\" filtresini silmek istediğinize emin misiniz?</string>
+    <string name="reindex_dialog_message">İndeksler oluşturuluyor...</string>
+    <string name="delete_catalog_template_message">Online katalogtan %s şablonunu silmek istediğinize emin misiniz?</string>
+    <string name="cant_share_template_withous_fields">Alanlar olmadan şablon paylaşamazsınız</string>
+    <string name="request_pass_dialog_text">Lütfen Memento hesabınızı konumlandırmamıza yardımcı olmak için eposta adresinizi girin</string>
+    <string name="change_password_success">Lütfen e-posta adresinizi kontrol edin
+Şifrenizi yenilemeniz için gerekli olan e-postayı gönderdik.</string>
+    <string name="library_item_position_text" formatted="false">%d/%d</string>
+    <string name="search_in_protected_libraries">Parolayla korunmuş kütüphanelerde ara
+(şifrelenmişler hariç)</string>
+    <string name="stat_result_type">Sonuç biçimi</string>
+    <string name="file_already_exists">* Hedef dosya halihazırda mevcut</string>
+    <string name="google_play_not_found_message">Cihazınızda Google Play bulunmamaktadır. OI Dosya Yöneticisi\'ni geliştiricinin sitesinden indirebilirsiniz.</string>
+    <string name="library_not_found_dialog_message">Kütüphane bulunamadı. Belki silinmiş olabilir.</string>
+    <string name="year_default_now">Varsayılan olarak mevcut yıl</string>
+    <string name="flex_type_int_list">Tam sayı değerler</string>
+    <string name="flex_type_int_main_options_title">Numaraların sırası</string>
+    <string name="flex_type_int_allow_direct_input">Direk girişe izin ver</string>
+    <string name="flex_type_int_allow_direct_input2">Direk giriş</string>
+    <string name="visible_field_depend_type">Bu alanın görünürlüğü</string>
+    <string name="visible_field_depend_state_visible">Görünür</string>
+    <string name="field_depends">Bu alanın bağımlılıkları</string>
+    <plurals name="field_depends_count">
+	<item quantity="one">Bir bağımlılık</item>
+	<item quantity="other">%d bağımlılık
+2 bağımlılık
+3 bağımlılık</item>
+</plurals>
+    <string name="add_depends_button_title">Bir bağımlılık ekle</string>
+    <string name="visible_field_depend_pretitle">Alanın durumu %s</string>
+    <string name="visible_field_depend_description">%s alanı bu değerleri kabul ederse, alan bu durumda olacak</string>
+    <string name="depend_from">%s \'den bağımlılıklar</string>
+    <string name="delete_depend_dialog_title">Bağımlılığı sil</string>
+    <string name="delete_depend_dialog_message">\"%s\" alanından bağımlılığı silmek istediğinize emin misiniz?</string>
+    <string name="sl_content_depend_pretitle">Alan değeri %s</string>
+    <string name="backup_images_checkbox">Yedek oluşturmak bağlantılı resimleri, ses kayıtlarını ve diğer dosyaları kopyalayacak</string>
+    <string name="backup_files_error">Dosyaları yedeklerken hata: %s</string>
+    <string name="restore_files_message">Yedek kopya veritabanıyla ilişkili bir arşiv içermekte; geri yüklemek ister misiniz?</string>
+    <string name="restore_files_success2">Veritabanıyla ilişkilendirilmiş tüm dosyalar açılacaktır</string>
+    <string name="restore_files_error_message" formatted="false">Arşivden geri yükleme hatası: %s</string>
+    <string name="restore_files_error">Dosyalar geri yüklenemedi</string>
+    <string name="send_files_to_cloud_error">Dosyalar buluta yüklenemedi:</string>
+    <string name="upload_file_to_cloud_message" formatted="false">Yükleme %s (%d/%d)</string>
+    <string name="no_google_accounts">Google hesabı bulunamadı. Lütfen cihazınıza Google hesabı ekleyin.</string>
+    <string name="google_account_not_selected">Hesap seçilmedi</string>
+    <string name="bakup_files_need_pro_title">PRO versiyon gereklidir</string>
+    <string name="bakup_files_need_pro_message">Yedek dosyalar oluşturmak sadece PRO versiyonda mümkündür</string>
+    <string name="get_google_docs_columns_message">Seçilen Google Sheets için sütunların listesi yükleniyor...</string>
+    <string name="start_reindex_title">Yeniden indeksle</string>
+    <string name="start_reindex_summary">Arama İndeksi yeniden oluşturuluyor</string>
+    <string name="reindex_complete_message">Yeniden indeksleme tamamlandı</string>
+    <string name="files_storage_settings_dublicate_title">Depolamaya kopyala</string>
+    <string name="files_storage_settings_dublicate_summary">Kayda ilişkilendirilmiş dosyalar depolama klasörüne kopyalanacak</string>
+    <string name="files_storage_settings_remove_original_summary">Depolamaya kopyaladıktan sonra, orijinalleri sil</string>
+    <string name="dublicate_file_error">"Depolamada bir dosya taşınamıyor: "</string>
+    <string name="select_files_cloud_storage">Senkronizasyon için bulut sunucusunu seçin</string>
+    <string name="files_cloud_storage_pref">Dosyalar senkronize oluyor</string>
+    <string name="google_sync_files_checkbox">Kayıtla ilişkilendirilmiş dosyaları (resimleri) buluta yükleyin.</string>
+    <string name="add_lib_from_google_drive">Google Drive\'dan</string>
+    <string name="selected">%s seçildi</string>
+    <string name="delete_template_from_google_drive_question">Seçili kütüphaneleri Google Drive\'dan silmek istediğinize emin misiniz?</string>
+    <string name="delete_data_table_from_google_drive">Şablonla ilişkilendirilmiş elektronik tablo verisini sil</string>
+    <string name="lock_library_edit_message">Kütüphane yapısı değişime kilitli.
+Kütüphane ayarlarından değiştirilebilme ayarını açabilirsiniz.</string>
+    <string name="lock_edit_library_pref_summary_on">Kütüphane yapısını değiştirme izni yok</string>
+    <string name="lock_edit_library_pref_summary_off">Kütüphane yapısını değiştirme izni var</string>
+    <string name="restore_file_path_title">Yedeklerle dizin</string>
+    <string name="auto_bakup_dir_pref_title">Otomatik yedekleme için dizin</string>
+    <string name="record_error_dialog_message">Üzgünüz, kayıt için uygulama bulunamadı.</string>
+    <string name="sync_error_dialog_title">Eşitleme hatası</string>
+    <string name="display_in_list_how">Olarak görüntüle</string>
+    <string name="field_display_title_in_card_hint">Kart girişinde alan adını görüntüle</string>
+    <string name="cant_delete_main_page">Varsayılan sayfayı silemezsiniz.</string>
+    <string name="field_count_on_page">Alanlar: %s</string>
+    <string name="master_libraries_list_caption">Kütüphanedeki girdileri listele</string>
+    <string name="entry_page_delete_message_text">\"%s\" sayfasını gerçekten silmek istiyor musunuz?</string>
+    <string name="sort_by_subtitle">%s tarafından</string>
+    <string name="group_by_subtitle">%s tarafından</string>
+    <string name="sliding_hint_text">Sağdan sola kaydırın
+gelişmiş menüyü açmak için
+sıralamak, gruplar, filtreler, grafikler için...</string>
+    <string name="multy_sorting">Biden çok alana göre sırala</string>
+    <string name="free_version_entry_page_limit">Ücretsiz versiyonda en fazla 2 tane sayfa oluşturabilirsiniz. Bu limiti kaldırmak için PRO versiyona yükseltin.</string>
+    <string name="error_library_not_unique_field_names">Kütüphanedeki alan isimleri farklı olmalı. Alanları kontrol edin: %s.</string>
+    <string name="contact_not_found">Kişi eksik</string>
+    <string name="pref_entry_editor_with_margin">Düzenlerkenki alanlar</string>
+    <string name="pref_entry_editor_with_margin_summary">Yatay mod için seçenekler</string>
+    <string name="flex_type_signature_options_title">Renk seçenekleri</string>
+    <string name="flex_type_signature_options_hint">Tuval ve fırça için boyut ve arka plan ayarları</string>
+    <string name="signature_save_error">İmza kaydedilirken hata: %s</string>
+    <string name="change_color_only_in_pro">Renk değiştirme sadece PRO versiyon için mevcuttur.</string>
+    <string name="chart_type_stepped_area">Basamaklı Alan</string>
+    <string name="chart_option_display_legends">Göstergeyi görüntüle</string>
+    <string name="chart_delete_message">\"%s\" grafiğini gerçekten silmek istiyor musunuz?</string>
+    <string name="pie_chart_slice_text_options">Dilimde görüntülenen metin</string>
+    <string name="line_display_points_titles">Noktaları göster</string>
+    <string name="line_width_titles">Veri hattı genişliği</string>
+    <string name="line_chart_smooth_lines">Satır açıları yumuşatılacak</string>
+    <string name="chart_option_stack_series">Seri öğeler yığılmış</string>
+    <string name="chart_field_count_entries">Girdi sayısı</string>
+    <string name="chart_dont_have_compatible_types">Bu tip grafik, diğer grafik tipleriyle uyumsuz</string>
+    <string name="cant_delete_charts_filter_message">Bu filtreyi kaldıramazsınız, çünkü grafiklerde kullanılıyor: %s</string>
+    <string name="cant_delete_charts_field_message">Bu alanı kaldıramazsınız çünkü grafiklerde kullanılmakta: %s</string>
+    <string name="need_pro_for_charts">Ücretsiz versiyonda bir kütüphane en fazla bir tane grafik içerebilir. Bu limiti kaldırmak için lütfen PRO versiyona yükseltin.</string>
+    <string name="need_internet_for_charts">Google Grafikler aktif bir internet bağlantısı gerektirir</string>
+    <string name="download_image_from_google_photo_message">Görsel Google Fotoğraflar\'dan indiriliyor ...</string>
+    <string name="barcode_auto_fill_checkbox_hint_new">Web\'den gelecek olan bilgiler girdi alanlarına yazılacak</string>
+    <string name="google_base_field_new">Kaynaktan öznitelik değeri</string>
+    <string name="wrong_search_query_string_1">Arama sorgusu \"-\" ile başlayamaz</string>
+    <string name="link_master_library_not_found">Üzgünüz, bu alana bağlanan kütüphane bulunamadı</string>
+    <string name="sync_with_google_drive_dont_support">Android cihazınız Google Drive ile senkronizasyonu desteklememekte</string>
+    <string name="internal_storage_title">Dahili cihaz depolaması</string>
+    <string name="sd_storage_title">SD kart</string>
+    <string name="external_storage_title">Harici Depolama</string>
+    <string name="file_is_not_database">Seçilen dosya bir veritabanı değil</string>
+    <string name="create_dependency">Bağımlılık oluştur</string>
+    <string name="edit_dependency">Bağımlılığı düzenleyin</string>
+    <string name="color_swatch_description">Renk %d</string>
+    <string name="color_swatch_description_selected">%d rengi seçildi</string>
+    <string name="icon_pack_title_field_business_flat">İş</string>
+    <string name="icon_pack_title_field_edu_flat">Eğitim</string>
+    <string name="library_tile_options">Kiremit üzerine koy</string>
+    <string name="empty_entry_page_text">Bu sayfa boş.
+Buraya alanlar veya kayıt listesi ekleyebilirsiniz.</string>
+    <string name="empty_fields_list_text">Bu kütüphanede hiç alan yok.</string>
+    <string name="empty_aggregation_list_text">Bu kütüphane birleştirme fonksiyonunu içermemektedir.</string>
+    <string name="empty_chart_list_text">Bu kütüphane grafik içermemekte.</string>
+    <string name="empty_recycle_bin_text">Bu kitaplıkta kurtarılabilecek girdi yok.</string>
+    <string name="empty_main_recycle_bin_text">Kurtarılabilecek bir kitaplık yok.</string>
+    <string name="single_line_options_title">Tek satır
+metin alanı</string>
+    <string name="delete_string_list_item_message">\"%s\" öğesini gerçekten silmek istiyor musunuz?</string>
+    <string name="entries_color_dialog_title">Renk, alanın değerine göre belirlenir</string>
+    <string name="entries_icon">Girdi küçük resmi</string>
+    <string name="entries_icon_dialog_title">Küçük resim, alanın değerine göre belirlenir</string>
+    <string name="string_list_export_snackbar_ok">Öğeler dışarıya aktarıldı</string>
+    <string name="string_list_export_error">Dışa aktarma sırasına hata oluştu: %s</string>
+    <string name="string_list_import_error">İçe aktarma esnasında hata oluştu: %s</string>
+    <string name="something_wrong_dialog_title">Bir şeyler yanlış</string>
+    <plurals name="string_list_import_snackbar_ok">
+	<item quantity="one">0 öğe içe aktarıldı</item>
+	<item quantity="other">%d öğe içe aktarıldı</item>
+</plurals>
+    <string name="export_template_snackbar_ok">Şablon dışa aktarıldı</string>
+    <string name="import_template_error">Şablon içe aktarılırken hata oluştu: %s</string>
+    <string name="mass_delete_string_list_item_message">Seçili öğe(ler)i silmek istediğinizden emin misiniz?</string>
+    <string name="reminders_count_limit">Bir alan için en fazla 10 hatırlatıcı ekleyebilirsiniz</string>
+    <string name="aggregation_add_item_dialog_title">Toplama işlevi ekleyin</string>
+    <string name="aggregation_edit_item_dialog_title">Toplama işlevini düzenleyin</string>
+    <string name="aggregation_result_position">Pozisyon</string>
+    <string name="aggregation_result_prev_line">Yeni satırdan başlama</string>
+    <string name="aggregation_delete_title">Toplamayı silin</string>
+    <string name="aggregation_delete_message">\"%s\" toplamasını gerçekten silmek istiyor musunuz?</string>
+    <string name="aggregation_need_select_field_message">Bu toplama işlevi için bir alan seçmelisiniz</string>
+    <string name="open_object_by_uri_error">Nesne açılamıyor: %s</string>
+    <string name="import_and_export_menu_item">İçe/dışa aktar</string>
+    <string name="entries_export_snackbar_ok">Girdiler başarıyla dışa aktarıldı</string>
+    <string name="csv_import_total_lines">İşlenen satırlar:</string>
+    <string name="csv_import_error_item" formatted="false">Satır %d - %s</string>
+    <string name="rating_field_max_value">Maksimum değerlendirme</string>
+    <plurals name="rating_stars_count">
+	<item quantity="one">%d yıldız</item>
+	<item quantity="other">%d yıldız</item>
+</plurals>
+    <plurals name="delete_entries_snackbar_text">
+	<item quantity="one">%d girdi çöp kutusuna taşındı</item>
+	<item quantity="other">%d girdi çöp kutusuna taşındı</item>
+</plurals>
+    <string name="barcode_rule_delete_title">Kuralı sil</string>
+    <string name="barcode_rule_delete_text">\"%s\" alanı için otomatik tamamlama kuralını silmek istediğinizden emin misiniz?</string>
+    <string name="multi_library_item_trush_message_text">Seçilen girdileri çöp kutusuna göndermek istediğinizden emin misiniz?</string>
+    <string name="multi_library_item_delete_message_text">Seçilen girdileri silmek istediğinizden emin misiniz?</string>
+    <string name="delete_library_snackbar_text">\"%s\" kitaplığı çöp kutusuna taşındı</string>
+    <string name="deleted">Silindi</string>
+    <string name="library_recover_dialog_text">\"%s\" kitaplığını geri yüklemek istiyor musunuz?</string>
+    <string name="library_recover_snackbar_text">Kitaplık \"%s\" grubunda geri yüklendi</string>
+    <string name="sort_by_name">İsme göre sırala</string>
+    <string name="sort_by_time">Eklendiği zamana göre sırala</string>
+    <string name="favorites_empty_list_layout">Favori girdi yok.</string>
+    <string name="history_empty_list_layout">Daha önce görüntülenen girdi yok.</string>
+    <string name="clear_history">Geçmişi temizle</string>
+    <string name="entry_not_found">Girdi eksik</string>
+    <string name="field">Alan</string>
+    <string name="function">Fonksiyon</string>
+    <string name="math_functions">Matematik</string>
+    <string name="datetime_functions">Tarih/Zaman</string>
+    <string name="string_functions">Diziler</string>
+    <string name="logic_functions">Mantıklı</string>
+    <string name="calc_value_type_date">Sayısal değer türü, saniye</string>
+    <string name="calc_value_type_number">Sayısal değer türü</string>
+    <string name="calc_value_type_string">Dizi değer türü</string>
+    <string name="sort_by_downloads">İndirilenlere göre sırala</string>
+    <string name="need_auth_on_memento_server">Memento Cloud\'da hesap oluşturmalısınız</string>
+    <string name="empty_my_templates_list">Yayınlanmış kitaplık şablonunuz yok.</string>
+    <string name="empty_field_depend_list">Bu alanın diğer alanlara bağımlılığı yoktur.</string>
+    <string name="share_template_dialog_title">Şablonu çevrimiçi katalog aracılığıyla paylaşın</string>
+    <string name="catalog_templates">Katalog şablonları</string>
+    <string name="empty_search_result2">Aramanız -%s - hiçbir girdiyle eşleşmedi</string>
+    <string name="rename_group">Grubu düzenle</string>
+    <string name="move">Taşı</string>
+    <string name="select_group">Grubu seç</string>
+    <string name="library_moved_message">Kütüphane \"%s\" grubuna taşındı</string>
+    <string name="master_library_entries">İlgili kütüphaneden girdiler</string>
+    <string name="invisible">görünmez</string>
+    <string name="display_master_libraries_items">Kartta görüntüle</string>
+    <string name="sync_with_google_left_menu_item">Google ile eşitle</string>
+    <string name="entries_view_menu_title">Görüntüle</string>
+    <string name="entries_view_list">Listele</string>
+    <string name="entries_view_table">Tablo</string>
+    <string name="flex_edit_option_in_table">Tablo girdileri</string>
+    <string name="table_cell_image_text">GÖRÜNTÜLE</string>
+    <string name="table_column_width">Sütun genişliği</string>
+    <string name="empty_list_after_filter">Filtre kriterlerini karşılayan kayıt yok.</string>
+    <string name="size_of_line">Satır büyüklüğü</string>
+    <string name="map_coord_source_network">Ağ</string>
+    <string name="search_address_hint">Adres arama</string>
+    <string name="map_field_fast_option_title">Koordinatların hızlı belirlenmesi</string>
+    <string name="map_field_fast_option_hint">Yer, düşük doğrulukla belirlenecek</string>
+    <string name="map_field_address_option_title">Adres için ayrı alan</string>
+    <string name="off">Kapalı</string>
+    <string name="auto_backup_not_yeat_launched">Henüz başlatılmadı</string>
+    <string name="auto_backup_run_group">Otomatik yedekleme başlatıldığında</string>
+    <string name="auto_backup_when_close_app">Uygulama kapatıldıktan sonra</string>
+    <string name="auto_backup_when_sync">Google ile senkronize etmeden önce</string>
+    <string name="auto_backup_when_edit_libs">Kitaplıkları değiştirmeden önce</string>
+    <string name="free_version_multi_field_limit">Ücretsiz sürümde yalnızca iki öğe ekleyebilirsiniz. Bu kısıtlamayı kaldırmak için PRO sürümüne yükseltin.</string>
+    <string name="scale">%d ölçeği</string>
+    <plurals name="duration_seconds">
+	<item quantity="one">1 saniye</item>
+	<item quantity="other">%d saniye</item>
+</plurals>
+    <plurals name="duration_minutes">
+	<item quantity="one">1 dakika</item>
+	<item quantity="other">%d dakika</item>
+</plurals>
+    <plurals name="duration_hours">
+	<item quantity="one">1 saat</item>
+	<item quantity="other">%d saat</item>
+</plurals>
+    <plurals name="duration_days">
+	<item quantity="one">1 gün</item>
+	<item quantity="other">%d gün</item>
+</plurals>
+    <string name="all">Hepsi</string>
+    <string name="page">Sayfa</string>
+    <string name="translate">Çevir</string>
+    <string name="entries_view_type_calendar">Takvim</string>
+    <string name="calendar_field_role">Takvimde şu şekilde kullanın</string>
+    <string name="calendar_field_role_start">Başlangıç saati</string>
+    <string name="calendar_field_role_end">Bitiş zamanı</string>
+    <string name="calendar_field_role_duration_min">Süre, dk</string>
+    <string name="calendar_field_role_duration_hour">Süre, saat</string>
+    <string name="calendar_field_role_duration_hour_time">Süre</string>
+    <string name="calendar_field_role_start_short">başlat</string>
+    <string name="calendar_field_role_end_short">bitiş</string>
+    <string name="calendar_field_role_duration_short">süre</string>
+    <string name="calendar_day_view">Gün görünümü</string>
+    <string name="calendar_3day_view">3 gün görünümü</string>
+    <string name="calendar_week_view">Hafta görünümü</string>
+    <string name="go_to_date">Şu tarihe git</string>
+    <string name="lost_linked_library">Bağlanan kitaplık bulunamadı, kaldırılmış olabilir.</string>
+    <string name="multichoice_field_empty">Seçim için değer yok</string>
+    <string name="show_add_button_on_tile">\"Girdi ekle\" düğmesi</string>
+    <string name="cant_find_audio_selection_app">Maalesef ses kaydı seçimi için uygulama bulunamadı.</string>
+    <string name="library_group_view_type">Görüntüle</string>
+    <string name="library_group_view_type_icons">İkonlar</string>
+    <string name="icon_pack_title_files_types">Dosyalar</string>
+    <string name="use_depend_only_in_edit_title">Nerde kullanılacak</string>
+    <string name="use_depend_only_in_edit_hint_true">Yalnızca girişi düzenlerken uygula</string>
+    <string name="use_depend_only_in_edit_hint_false">Girdiyi düzenlerken ve görüntülerken</string>
+    <string name="most_viewed_templates">En çok görüntülenen</string>
+    <string name="featured_templates">Öne çıkan</string>
+    <string name="template_views_count">Görüntülenme: %s</string>
+    <string name="sort_by_views">Görüntülenmeye göre sırala</string>
+    <string name="select_category_template">Lütfen kategori seçin</string>
+    <string name="select_template_lang">Şablon dilini seçin</string>
+    <string name="template_language">Dil:</string>
+    <string name="display_lang_option">Dile göre filtrele</string>
+    <string name="display_lang_option_all">Tüm şablonlar</string>
+    <string name="entries_name_dialog_title">Girdi adları, seçilen alanların değerlerine göre belirlenir</string>
+    <string name="entries_name_is_unique">Giriş adları farklıdır</string>
+    <string name="no_fields_for_role">Bu kütüphanede bu rol için uygun alan yok</string>
+    <string name="update_item_name_index">Dizin oluşturuluyor...</string>
+    <string name="entry_name_must_be_unique">Giriş adı benzersiz değil</string>
+    <string name="entry_name_must_be_notnull">Girdi adı boş olmamalıdır</string>
+    <string name="library_have_duplicates">Kütüphanede, benzer adlara sahip girişler</string>
+    <string name="library_have_duplicates2">Doğru çalışması için kopyaları değiştirin veya silin.</string>
+    <string name="dont_show_anymore">Artık gösterme</string>
+    <string name="run_sync_slave_libraries_pref">İlgili kitaplıklar</string>
+    <string name="run_sync_slave_libraries_summary">İlk olarak ilişkili kitaplıkları senkronize edin</string>
+    <string name="choice_type_add_button_in_edit_title">Bir giriş düzenlenirken öğelerin oluşturulmasına izin verin</string>
+
+    <string name="show_deleted_entries_menu_item">Silinen girdileri göster</string>
+    <string name="upload_to_cloud_menu_item">Buluta</string>
+    <string name="welcome_text_title">Memento Database\'e hoşgeldiniz</string>
+    <string name="memento_cloud">Memento Cloud</string>
+    <string name="start_remove_librarary_from_cloud">Kütüphane siliniyor...</string>
+    <string name="success_remove_librarary_from_cloud">Kitaplık, buluttan başarıyla silindi</string>
+    <string name="start_upload_library_to_cloud">Kitaplık yükleniyor...</string>
+    <string name="success_upload_library_to_cloud">Kitaplık başarıyla yüklendi.
+Kitaplık otomatik olarak senkronize edilecektir.</string>
+    <string name="success_upload_library_to_cloud2">Erişim ayarlarında kitaplığınızı diğer Memento kullanıcıları tarafından erişilebilir hale getirebilirsiniz.</string>
+    <string name="push_entries_to_cloud_message" formatted="false">Girdiler yükleniyor
+%s / %s tamamlandı</string>
+    <string name="permissions">İzinler</string>
+    <string name="button_hide">gizle</string>
+    <string name="empty_cloud_libraries_list_text">Yüklenmiş kitaplığınız yok</string>
+    <string name="my_cloud_libraries_menu_item">Bulut Depolama</string>
+    <string name="start_download_library_model">Kitaplık yapısı yükleniyor...</string>
+    <string name="open_library">Kitaplığı aç</string>
+    <string name="open_library_hint">Yerel kopyayı aç</string>
+    <string name="download_library">Kitaplığı indir</string>
+    <string name="download_library_hint">Yerel kopya oluştur</string>
+    <string name="pull_entries_from_cloud_message">Girdiler indiriliyor...</string>
+    <string name="pull_entries_from_cloud_message2" formatted="false">%s / %s girdi işlendi</string>
+    <string name="success_pull_library_from_cloud">Girdiler başarıyla indirildi.
+Kitaplık otomatik eşitlenecek.</string>
+    <string name="cloud_conflict_fields_title">Çakışmalar</string>
+    <string name="cloud_conflict_fix_button_title">Düzelt</string>
+    <plurals name="conflict_count">
+	<item quantity="one">Senkronizasyon sırasında% d çakışma meydana geldi</item>
+	<item quantity="other">Senkronizasyon sırasında% d çakışma meydana geldi</item>
+</plurals>
+    <string name="button_select">Seç</string>
+    <string name="cloud">Bulut</string>
+    <string name="library_not_in_cloud">Bulutta değil</string>
+    <string name="synced">Eşitlendi %s</string>
+    <string name="cloud_synced_progress">Senkronizasyon ...</string>
+    <string name="cloud_offline">Çevrimdışı</string>
+    <string name="cloud_last_sync">Son eşitleme</string>
+    <string name="entries">Girdiler</string>
+    <string name="cloud_created">Oluşturuldu</string>
+    <string name="cloud_modified">Düzenlendi</string>
+    <string name="cloud_size">Boyut</string>
+    <string name="cloud_files_count">Dosya sayısı</string>
+    <string name="cloud_who_has_access">Kimler erişebilir</string>
+    <string name="cloud_server_unavaliable">Memento Cloud Sunucusu kullanılamıyor, cihazınızda İnternet\'i kontrol edin</string>
+    <string name="delete_from_cloud">Buluttan sil</string>
+    <string name="delete_from_cloud_message_question">Kitaplığı gerçekten buluttan silmek istiyor musunuz?</string>
+
+    <string name="byteShort">B</string>
+    <string name="kilobyteShort">KB</string>
+    <string name="megabyteShort">MB</string>
+    <string name="gigabyteShort">GB</string>
+    <string name="button_refresh">Yenile</string>
+    <string name="cloud_storage_space_text" formatted="false">%s (%s) / %s kullanıldı</string>
+    <string name="start_download_file_from_cloud">%s dosyası indirilecek</string>
+    <string name="upload_file_to_cloud">Dosya yükleniyor...</string>
+    <string name="upload_files_to_cloud">Dosyalar yükleniyor</string>
+    <string name="cloud_upload_error_title">Bu kitaplığı senkronize edemedik</string>
+    <string name="upload_big_file_error" formatted="false">%s girdisi büyük dosya içermekte %s (%s)
+Maksimum dosya boyutu %s.</string>
+    <string name="prepare_library_for_cloud">Kitaplık işleniyor...</string>
+    <string name="download_files_from_cloud">Dosyalar buluttan indiriliyor...</string>
+    <string name="cant_download_item_files_for_copy">Kopya oluşturmak için dosyaların indirilmesi başarısız oldu.</string>
+    <string name="library_cloud_model_changed_message">Kitaplık yapısı bulutta güncellendi. İleriye dönük senkronizasyon için yapıyı güncelleyin.</string>
+    <string name="button_update">Güncelle</string>
+    <string name="add_people">Kullanıcı veya grup ekleyin</string>
+    <string name="read_permission">Oku</string>
+    <string name="write_permission">Yaz</string>
+    <string name="create_permission">Oluştur</string>
+    <string name="delete_permission">Sil</string>
+
+    <string name="allow_permission">İzin ver</string>
+    <string name="deny_permission">Reddet</string>
+    <string name="only_owner_permission">Sadece kendi</string>
+    <string name="user_not_found">Kullanıcı bulunamadı</string>
+    <string name="edit_permission">Kullanıcı paylaşım ayarları</string>
+    <string name="push_entry_error_text" formatted="false">Girdi bulutta depolanmıyor.
+İsim: %s
+Hata: %s</string>
+    <string name="push_error_forbidden">Erişim reddedildi</string>
+    <string name="button_ignore">Yok say</string>
+    <string name="button_try_again">Tekrar deneyin</string>
+    <string name="cloud_library_forbidden">Bu kitaplığa erişim izniniz yok</string>
+    <string name="shared_with_me">Benimle paylaşılanlar</string>
+    <string name="entry_author">Yazar</string>
+    <string name="info_menu_item">Bilgi</string>
+    <string name="need_upload_to_cloud_slave_libraries">Lütfen alt kitaplıkları buluta yükleyin.</string>
+    <string name="start_download_slave_library_model">%s alt kitaplığı yükleniyor</string>
+    <string name="open_access_for_slave_libraries">Alt kitaplıklara okuma erişimi sağlayın</string>
+    <string name="cloud_storage_full_text">Bulut depolamada yeterli alan yok.
+Daha fazla depolama alanı sağlayan bir plana yükseltebilirsiniz.</string>
+    <string name="cloud_storage_full_text2" formatted="false">Bulut depolamada yeterli alan yok.
+%s gerekli, %s mevcut.
+Daha fazla depolama alanı sağlayan bir plana yükseltebilirsiniz.</string>
+    <string name="alien_cloud_storage_full_text">Kütüphane sahibinin yeterli depolama alanı yok.</string>
+    <string name="button_tarifs">Planlar</string>
+    <string name="cloud_storage_plans">Abonelik planları</string>
+    <string name="price_free">ÜCRETSİZ</string>
+    <string name="price_per_month">%s/ay</string>
+    <string name="unlimited_libraries">Sınırsız kitaplık</string>
+    <string name="adv_free">Reklamsız</string>
+    <string name="subscription_activation">Aboneliği etkinleştir ...</string>
+    <string name="subscription_activation_error">Etkinleştirme hatası: %s</string>
+    <string name="subscription_reactivation_error">Aktif abonelikler alınamadı: %s</string>
+    <string name="google_play_unavaliable">Google Play kullanılamıyor :(</string>
+    <string name="return_to_free_plan_message">Google Play\'de aboneliğinizi iptal ederek ücretsiz kullanabilirsiniz</string>
+    <string name="subscription_already_activation_for_user">%s kullanıcısı için satın alındığı için abonelik etkinleştirilemez.</string>
+    <string name="library_cloud_count_limit">Geçerli planınız, %s kütüphaneye kadar buluta yüklemenize izin verir.</string>
+    <string name="restore_cloud_library_from_recycle">Bu yerel kitaplık silinmiştir. Kurtarmak ister misiniz?</string>
+    <string name="cloud_file_while_not_upload">Dosya henüz bulutta değil</string>
+    <string name="upload_ecrypted_libraries_dont_supported">Buluta şifrelenmiş olarak kitaplık yükleme geçici olarak kullanılamıyor.</string>
+    <string name="button_signin">Giriş yap</string>
+    <string name="cloud_library_not_found">Kitaplık bulutta bulunamadı. Silinmiş olabilir.
+Kitaplığı yerel olarak ayarlamak ister misiniz?</string>
+    <string name="cloud_library_already_uploaded">Bu kitaplık zaten buluta yüklendi.</string>
+    <string name="library_alias_menu_item">Takma ad</string>
+    <string name="library_public_access">Herkese açık erişim</string>
+    <string name="library_public_access_disabled">Devre dışı</string>
+    <string name="library_access_read_only">Sadece okunabillir</string>
+    <string name="library_access_can_edit">Düzenlenebilir</string>
+    <string name="owner">Sahip</string>
+    <string name="find_library_by_url_title">URL olarak aç</string>
+    <string name="find_library_by_url_hint">http://libs.mobi/address</string>
+    <string name="library_not_found_by_uri">Kitaplık bulunamadı</string>
+    <string name="upload_to_cloud_offer_title">{bulut hazır...}</string>
+    <string name="upload_to_cloud_offer_text">• Takım çalışması
+• Cihazlar arasında senkronizasyon
+• Yedeklemeler her zaman bulutta
+• Sürüm geçmişi</string>
+    <string name="cant_upload_file_to_cloud">Dosya(lar) yüklenemedi.</string>
+    <string name="invalid_library_template_file_format">Geçersiz şablon dosya biçimi</string>
+    <string name="cant_add_yourself">Kendini ekleyemezsin</string>
+    <string name="remove_from_old_public">Kitaplığı buluta yüklemeden önce, eski yöntemlerle yayınlanmışsa, yayından kaldırılacaktır.</string>
+    <string name="select_template_title">Şablon seçin</string>
+    <string name="empty_library_title">Sıfırdan başla</string>
+    <string name="add_lib_from_google_drive_hint">Google Drive\'dan geri yükleyin</string>
+    <string name="templates">Şablonlar</string>
+    <string name="import_template_from_file_hint">Şablonu dosyadan içe aktar</string>
+    <string name="help_cloud">Bulut depolama ve takım çalışması</string>
+    <string name="subscription_pro_bonus_text">Bulut depolamaya yönelik çoğu plan, ek olarak PRO sürümünü de içerir</string>
+    <string name="send_formatting_menu_item">Biçimlendiriliyor...</string>
+    <string name="pro_for_cloud_storage_title">Abonelik</string>
+    <string name="default_file_manager_pref_title">Dosya yöneticisi</string>
+    <string name="default_file_manager_built_in">yerleşik</string>
+    <string name="clear_search_history">Arama geçmişini temizle</string>
+    <string name="clear_search_history_hint">Gerçekleştirdiğiniz tüm aramaları kaldırın</string>
+    <string name="success_clear_search_history">Arama geçmişiniz temizlendi</string>
+    <string name="clear_search_history_quest">Arama geçmişini temizlemek istediğinizden emin misiniz?</string>
+    <string name="uservoice_menu_title">UserVoice</string>
+    <string name="view_csv_error_dialog_message">Maalesef csv dosyasını görüntüleyebilecek bir uygulama bulunamadı</string>
+
+    <string name="edit_library_tabs_autofill">Otomatik doldur</string>
+    <string name="autofill_from">%s den</string>
+    <string name="autofill_by_barcode">Barkod tarafından</string>
+    <string name="autofill_by_title">Başlığa göre</string>
+    <string name="autofill_need_barcode_field">Kitaplığınızı barkoda göre otomatik doldurmak için \"Barkod\" alanını içermesi gerekir. Bunu nasıl yaratırsınız?</string>
+    <string name="autofill_need_text_field">Kitaplığınızı başlığa göre otomatik doldurmak için \"Metin\" alanını içermesi gerekmektedir. Bunu nasıl yaratırsınız?</string>
+    <string name="autofill_select_master_field">Arama için giriş alanı</string>
+    <string name="autofill_rules_title">Otomatik doldurma kuralları</string>
+    <string name="music_brainz_source_artist">Müzik sanatçıları</string>
+    <string name="music_brainz_source_album">Albümler</string>
+    <string name="unknown_data_source">Bilinmeyen kaynak</string>
+    <string name="google_books_source">Google Kitaplar</string>
+    <string name="google_books_source_books">Kitaplar</string>
+    <string name="themoviedb_source">themoviedb.org</string>
+    <string name="themoviedb_source_movies">Filmler</string>
+    <string name="autofill_rules_delete_title">Otomatik doldurma kurallarını silin</string>
+    <string name="autofill_rules_delete_text">Otomatik doldurma kurallarını \"%s\" kaynağından silmek istediğinizden emin misiniz?</string>
+    <string name="empty_autofill_list_text">İnternetten verileri kaydetmek için otomatik doldurma kuralları oluşturun</string>
+    <string name="empty_autofill_rules_list_text">Kaynak özniteliklerini ve kitaplık alanlarını eşleştirin</string>
+    <string name="movie_cast_person_item" formatted="false">%s olarak %s</string>
+
+    <string name="copy_library_structure_menu_item">Yalnızca yapı</string>
+    <string name="copy_all_library_menu_item">Yapı ve girdiler</string>
+    <string name="copying_entries">Girdiler kopyalanıyor ...</string>
+
+    <string name="encryption_for_cloud_uploaded_library">Kitaplık şifrelemesi yalnızca buluta yüklenmeden önce etkinleştirilebilir.</string>
+    <string name="decryption_for_cloud_uploaded_library">Buluta yüklenen kitaplığın şifrelenmesinin devre dışı bırakılması desteklenmez. Önce kitaplığı buluttan silin.</string>
+    <string name="need_reload_library_from_cloud_encrypted">Buluttaki kitaplık kopyaları şifrelenmiştir.
+Kitaplığın yerel kopyasını silin ve ardından kitaplığı buluttan yeniden indirin.</string>
+    <string name="need_reload_library_from_cloud_decrypted">Buluttaki kitaplık kopyalarının şifresi kaldırıldı.
+Kitaplığın yerel kopyasını silin ve ardından kitaplığı buluttan yeniden indirin.</string>
+
+    <string name="render_pdf_menu_item">PDF olarak kaydet</string>
+    <string name="entry_saved_as_pdf_success">PDF başarıyla oluşturuldu</string>
+    <string name="one_row_with_previous">Öncekiyle bir satır</string>
+    <string name="protected_libraries_not_show_in_widget">Korumalı kitaplık widget\'ta görüntülenemez</string>
+    <string name="widget_free_limit_item_text">Tüm girişler yalnızca PRO sürümü kullanıcıları tarafından görüntülenebilir</string>
+    <string name="rate_me_dialog_title">Memento kullanmayı seviyor musunuz?</string>
+    <string name="rate_me_dialog_text">Lütfen bizi Google Play\'de değerlendirin</string>
+    <string name="button_rate_now">Şimdi oyla</string>
+    <string name="button_ask_later">Daha sonra sor</string>
+    <string name="flex_type_radiobuttons">Radyo Düğmeleri</string>
+    <string name="flex_type_checkboxes">Onay kutuları</string>
+    <string name="field_orientation_option_title">Yönlendirme</string>
+    <string name="field_orientation_option_horizontal">Yatay</string>
+    <string name="field_orientation_option_vertical">Dikey</string>
+    <string name="preparing_files_for_sending">Dosyalar göndermek için hazırlanıyor ...</string>
+    <string name="whats_new_dialog_title">Neler yeni?</string>
+    <string name="font_size">Boyut</string>
+    <string name="font_family">Aile</string>
+    <string name="font_style">Stil</string>
+    <string name="font_color">Renk</string>
+    <string name="font_picker_dialog_title">Font</string>
+    <string name="font_style_normal">Normal</string>
+    <string name="font_style_bold">Kalın</string>
+    <string name="font_style_italic">İtalik</string>
+    <string name="font_style_bold_italic">Kalın İtalik</string>
+    <string name="font_sample">Örnek</string>
+    <string name="font_sample_text">Hızlı kahverengi tilki tembel köpeğin üzerinden atladı.</string>
+    <string name="font_default_title">Varsayılan font</string>
+    <string name="choice_item_use_color_for_text">Metin için renk kullan</string>
+    <string name="rating_tooltips_empty">Alanın ipucu yok</string>
+    <plurals name="rating_tooltips_count">
+	<item quantity="one">%d araç ipucu</item>
+	<item quantity="other">%d araç ipucu</item>
+</plurals>
+    <string name="calculator">Hesap makinesi</string>
+    <string name="calculator_options_hint">Hesap makinesini görüntülemek için bir düğme ekleyin</string>
+    <string name="filter_by_number">İsme göre filtrele</string>
+    <string name="filter_by_string">Diziye göre filtrele</string>
+    <string name="multiediting_only_in_pro">Birden fazla girdinin düzenlenmesi, yalnızca PRO sürüm sahipleri için mümkündür.</string>
+    <string name="multiediting_title">Çoklu düzenleme</string>
+    <string name="group_separator_option_title">Binlik ayırıcı</string>
+    <string name="group_separator_option_hints">Binlik ayırıcı olarak boşluk kullanın</string>
+
+
+    <string name="cloud_library_notification_title">Bildirimler</string>
+    <string name="cloud_library_notification_hint">Diğer kullanıcılar kitaplığı değiştirdiğinde anlık bildirimleri alın</string>
+    <string name="cloud_library_download_notification_text">%s: indirilen kitaplık</string>
+    <string name="cloud_notification_for_subscribers">Üzgünüz, sadece aboneler bildirimleri alabilir.</string>
+    <string name="comments">Yorumlar</string>
+    <string name="comment_input_hint">Bir yorum yaz</string>
+    <string name="comment_send_error">Yorum gönderilirken hata: %s</string>
+    <string name="edit_comment_dialog_title">Yorumu düzenle</string>
+
+    <plurals name="notification_edit_library_common_text">
+	<item quantity="one">%d okunmamış değişiklik</item>
+	<item quantity="other">%d okunmamış değişiklik</item>
+</plurals>
+
+    <string name="notification_edit_library_create_text">Girdi eklendi</string>
+    <string name="notification_edit_library_edit_text">girdi düzenlendi</string>
+    <string name="notification_edit_library_delete_text">girdi silindi</string>
+    <plurals name="notification_comments_common_text">
+	<item quantity="one">%d yeni yorum</item>
+	<item quantity="other">%d yeni yorum</item>
+</plurals>
+
+    <string name="flex_type_rich_text">Zengin Metin</string>
+    <string name="text_background_color">Arka plan rengi</string>
+    <string name="field_type_rich_only_for_android_kit_kat">Bu tür alan yalnızca Android 4.4 KitKat ve sonraki sürümler için kullanılabilir.</string>
+    <string name="field_type_rich_list_free_limit">Üzgünüz, listeler yalnızca PRO sürümü kullanıcıları için mevcuttur.</string>
+    <string name="field_type_rich_align_free_limit">Üzgünüz, hizalama yalnızca PRO sürümü kullanıcıları için mevcuttur.</string>
+    <string name="attached_files">Eklenen dosyalar</string>
+    <string name="cloud_file_not_downloaded">İndirilmedi</string>
+    <string name="cloud_file_download_pending">Bekliyor</string>
+    <string name="cloud_file_queued">Sıraya alındı</string>
+    <string name="cloud_file_error_upload">Gönderirken hata</string>
+    <string name="cloud_file_uploading">Yükleniyor</string>
+    <string name="cloud_file_downloading">İndiriliyor</string>
+    <string name="file_show_in_folder">Dosyada görüntüle</string>
+    <string name="file_show_in_entry">Girdide görüntüle</string>
+    <string name="sort_by_size">Boyuta göre sırala</string>
+    <string name="download_all">Hepsini indir</string>
+    <string name="find_missing_files">Eksik dosyaları bul</string>
+    <string name="button_apply">Uygula</string>
+    <string name="find_missing_files_empty">Eksik dosyalar bulunamadı</string>
+    <string name="file_manager_not_found">Cihazınızda desteklenen bir dosya yöneticisi bulunamadı.</string>
+    <string name="file_list_empty">Bu kitaplık dosya içermiyor</string>
+    <string name="feature_available_only_in_pro">Bu özellik yalnızca PRO sürümünde mevcuttur.</string>
+    <string name="preview_button">Önizleme</string>
+    <string name="select_calc_preview_entry">Ön izleme için girdi</string>
+    <string name="calc_preview_title">Ön izleme</string>
+    <string name="add_relationship">İlişki</string>
+    <string name="add_relationship_with_title">İkinci kitaplığı seçin</string>
+    <string name="add_relationship_success">Kütüphaneler arasındaki ilişki \"%s\" alanı kullanılarak sağlanacaktır.</string>
+    <string name="display_aggregation">Toplamı görüntüle</string>
+    <string name="display_aggregation_hint">Bağlantılı kitaplığın girişlerine göre toplama</string>
+    <string name="create_shortcut_text">Bu kısayol için bir ad yazın</string>
+    <string name="permission_storage_title">Depolama</string>
+    <string name="permission_storage_text">Devam etmek için Memento\'nun depolamanıza erişmesine izin verin.</string>
+    <string name="permission_storage_explanation_text">Önbelleğe alma, yedekleme ve girdilerinize görüntü ve dosya eklemek için depolamaya erişim izni gerekmektedir.</string>
+    <string name="permission_accounts_title">Hesaplar</string>
+    <string name="permission_accounts_text">Memento\'nun Google E-Tablolar ile senkronize olması için hesaplara erişim izni vermesi gerekir.</string>
+    <string name="permission_location_title">Konum</string>
+    <string name="permission_location_text">Konum alanı için Memento\'ya konuma erişim izni vermek gerekir.</string>
+    <string name="permission_not_necessarily">Bu izin zorunlu değildir.</string>
+    <string name="app_permissions">Uygulama izinleri</string>
+    <string name="app_permissions_only_for_android6">Yalnızca Android 6 ve üstü için</string>
+    <string name="need_permission_dialog_title">İzin gerekli</string>
+    <string name="need_permission_dialog_text">Bu işlem sistem izni gerektiriyor - %s</string>
+    <string name="unlock_linked_library_text">Bağlı kitaplık şifrelenmiştir, ana parolayı girmelisiniz</string>
+    <string name="preview_calc_exec_time">Yürütme süresi: %d ms</string>
+    <string name="group_by_and">Tümü (VE)</string>
+    <string name="group_by_or">Herhangi biri (VEYA)</string>
+    <string name="field_delimiters">Alan sınırlayıcı</string>
+    <string name="field_enclosed">Metin niteleyici</string>
+
+    <string name="users_manager">Kullanıcı yöneticisi</string>
+    <string name="create_new_user_dialog">Yeni kullanıcı oluştur</string>
+
+    <string name="script">Komut dosyası</string>
+    <string name="js_libraries">JavaScript Kitaplıkları</string>
+    <string name="js_moment_library">Tarihleri ayrıştırmak, doğrulamak, değiştirmek ve biçimlendirmek için kitaplık</string>
+    <string name="js_realtime">Komut dosyasını gerçek zamanlı çalıştır</string>
+    <string name="js_realtime_hint_off">Komut dosyası yalnızca bir kaydı düzenlerken çalışır</string>
+    <string name="js_realtime_hint_on">Komut dosyası, bir kaydı görüntülerken çalışır</string>
+    <string name="user_limit_message">Kullanıcı sınırınıza ulaştınız</string>
+    <string name="remaining_users" formatted="false">%d / %d lisans kullanıldı</string>
+    <string name="delete_slave_user_message">\"%s\" kullanıcısını gerçekten silmek istiyor musunuz?</string>
+    <string name="active_users">Aktif kullanıcılar</string>
+    <string name="deleted_users">Silinen kullanıcılar</string>
+    <string name="powered_by_text">Memento Veritabanı tarafından desteklenmektedir</string>
+
+    <string name="string_list_sort_menu_title">Başlığa göre sırala</string>
+    <string name="previous_value">Önceki değer</string>
+    <string name="specify_value">Değer belirtin</string>
+    <string name="filters_order">Sırala...</string>
+    <string name="full_screen_mode">Tam ekran modu</string>
+    <string name="standard_screen_mode">Standart ekran modu</string>
+    <string name="restore_from_cloud">Buluttan Geri Yükle</string>
+    <string name="of_counter" formatted="false">%d / %d</string>
+
+    <string name="lost_database_text">Veritabanı dosyası açılamıyor, belirtilen konumda olup olmadığını kontrol edin</string>
+    <string name="upload_to_cloud">Buluta Yükle</string>
+    <string name="multi_choice_delimiter">Sınırlayıcı</string>
+    <string name="cloud_plan_free">Ücretsiz</string>
+    <string name="cloud_plan_plan3">Lite</string>
+    <string name="cloud_plan_plan6">Pro</string>
+    <string name="cloud_plan_plan10">Pro Plus</string>
+    <string name="cloud_plan_storage">%s Depolama</string>
+
+    <string name="memento_server_settings_group">Memento Sunucusu</string>
+    <string name="memento_server_host">Memento Sunucusunun adresi</string>
+    <string name="memento_server_cloud">Memento Cloud\'u kullanın</string>
+    <string name="memento_server_private">Memento Özel Sunucusunu Kullanın</string>
+    <string name="memento_server_private_hint">ana bilgisayar bağlantı noktası</string>
+    <string name="memento_server_private_not_found">Özel Sunucu, belirtilen adrese göre bulunamadı</string>
+    <string name="latitude_longitude">Enlem/Boylam</string>
+    <string name="latitude_longitude_hint">enlem,boylam</string>
+    <string name="latitude_longitude_parse_error">Enlem/boylam belirlenemiyor</string>
+    <string name="relation_type">İlişki tipi</string>
+    <string name="relation_type_one_to_one">Bire bir</string>
+    <string name="relation_type_one_to_many">Bire Çok</string>
+    <string name="relation_type_many_to_many">Çoktan Çoğa</string>
+    <string name="relation_type_one_limit">Seçili kaydın zaten bir ilişkisi var</string>
+    <string name="relation_type_one_limit2">%s zaten bir ilişkiye sahip</string>
+    <string name="library_edit_mode">Düzenleme modu</string>
+    <string name="library_edit_mode_hint">Bir girdiye tıklayarak düzenleme formunu açın</string>
+    <string name="desktop_version">Masaüstü versiyonu</string>
+
+    <string name="no_comments">Yorum yok</string>
+    <plurals name="comments_count">
+	<item quantity="one">Bir yorum</item>
+	<item quantity="other">%d yorum</item>
+</plurals>
+    <string name="comments_only_for_cloud">Yorumlar yalnızca buluta yüklenen kitaplıklara yapılabilir. Buluta bir kitaplık yüklensin mi?</string>
+    <string name="locale_plugin_add_edit_entry_title">Girdi ekle/düzenle</string>
+    <string name="locale_to_fields_list_empty_text">Kitaplık alanlarını doldurmak için yeni kurallar oluşturmak için + düğmesine tıklayın.</string>
+    <string name="locale_to_fields_var">%s den metin</string>
+    <string name="locale_to_fields_add_rule_title">Kural ekle</string>
+    <string name="locale_to_fields_edit_rule_title">Kuralı düzenle</string>
+    <string name="variable_select">Değişken Seçim</string>
+    <string name="locale_plugin_add_edit_entry_edit_mode">Girdiyi Düzenle</string>
+    <string name="locale_plugin_edit_mode_create_new_entry">Anahtar alanına göre bir girdi bulamadıysanız, yeni bir girdi oluşturun</string>
+
+    <string name="send_field_title">Alan adını gönder</string>
+    <string name="send_field_title_summary">Alan adı, alan değerinden önce gelir</string>
+    <string name="auto_lock_libraries_time_title">Kitaplıklara erişimi kapatın</string>
+    <string name="auto_lock_libraries_after">%s sonra</string>
+
+    <string name="empty_triggers_list_text">Bu kitaplık tetikleyici içermiyor.
+Tetikleyici, bir girişin işlenmesini, gerçekleşen bir olaya göre tanımlayan bir komut dosyasıdır.</string>
+    <string name="triggers">Tetikleyiciler</string>
+    <string name="trigger_name">Tetikleyiciler adı</string>
+    <string name="trigger_event">Olay</string>
+    <string name="trigger_moment">Evre</string>
+    <string name="unknown_trigger_event_type">Bilinmeyen olay</string>
+    <string name="unknown_trigger_moment_type">Bilinmeyen evre</string>
+
+    <string name="trigger_event_create_entry">Bir girdi oluşturuluyor</string>
+    <string name="trigger_event_modify_entry">Bir girdi güncelleniyor</string>
+    <string name="trigger_event_delete_entry">Bir girdi siliniyor</string>
+    <string name="trigger_event_open_entry">Girdi görünüm kartı açılıyor</string>
+    <string name="trigger_event_add_favorites">Girdiler Favorilere ekleniyor</string>
+    <string name="trigger_event_remove_favorites">Bir girdi favorilerden siliniyor</string>
+    <string name="trigger_default_name">Tetikleyici %d</string>
+    <string name="trigger_enabled">Etkinleştirildi</string>
+    <string name="trigger_switched_off">Kapalı</string>
+    <string name="trigger_delete_message">\"%s\" komut dosyasını gerçekten silmek istiyor musunuz?</string>
+
+
+    <string name="trigger_moment_open_form">Girdi Düzenleme kartı açılıyor</string>
+    <string name="trigger_moment_before_save">Girdiyi kaydetmeden önce</string>
+    <string name="trigger_moment_after_save">Girdiyi kaydettikten sonra</string>
+    <string name="trigger_moment_before_delete">Girdiyi silmeden önce</string>
+    <string name="trigger_moment_after_delete">Girdiyi sildikten sonra</string>
+    <string name="trigger_moment_before_show">Pencere gösteriminden önce</string>
+    <string name="trigger_moment_after_show">Pencere gösteriminden sonra</string>
+
+    <string name="application">Uygulama</string>
+    <string name="debug">Hata ayıklama</string>
+    <string name="debug_summary">Günlük Seçenekleri</string>
+    <string name="log_files_folder">Günlük dosyaları dizini</string>
+
+    <string name="enable_logging_cloud">Memento Cloud</string>
+    <string name="enable_logging_triggers">Komut Dosyaları</string>
+    <string name="script_log">Komut Dosyası Günlüğü</string>
+
+    <string name="trigger_permissions">Komut dosyaları için izinler</string>
+    <string name="trigger_permission_read_file">Dosyaları oku</string>
+    <string name="trigger_permission_read_file_hint">Komut dosyalarının harici depolamadan okumasına izin verir</string>
+    <string name="trigger_permission_write_file">Dosyaları yaz</string>
+    <string name="trigger_permission_write_file_hint">Komut dosyalarının harici depolamaya yazmasına izin verir</string>
+    <string name="trigger_permission_network">Ağ</string>
+    <string name="trigger_permission_network_hint">Komut dosyalarının HTTP isteklerini yürütmesine ve e-posta göndermesine izin verir.</string>
+
+    <string name="trigger_permission_libraries">Kitaplıklar</string>
+    <string name="trigger_permission_libraries_hint">Tüm kitaplıklara erişim</string>
+
+    <string name="trigger_permission_libraries_select">Mevcut kitaplıklar</string>
+    <string name="trigger_permission_libraries_select_title">Kitaplıkları seçin</string>
+    <string name="need_pro_for_triggers">Ücretsiz sürümde, bir kitaplık yalnızca bir tetikleyici içerebilir. Bu kısıtlamayı kaldırmak için lütfen PRO sürümüne yükseltin.</string>
+    <string name="filters_tab">Sekmeler...</string>
+    <string name="filters_tab_dialog_title">Sekmeler için filtre seçin</string>
+    <string name="export_template_include_filters">Filtreleri dahil et</string>
+
+    <string name="unit_of_measurement_enable">Alana ölçü birimi ekleyin</string>
+    <string name="unit_of_measurement_none">Hiçbiri</string>
+
+    <string name="unit_of_measurement_category">Kategori</string>
+    <string name="unit_of_measurement">Ölçü birimi</string>
+    <string name="unit_of_measurement_button">Alana bir birim dönüştürücüsü ekleyin</string>
+
+    <string name="uom_category_temperature">Sıcaklık</string>
+    <string name="uom_celsius">Santigrat</string>
+    <string name="uom_fahrenheit">Fahrenhayt</string>
+    <string name="uom_kelvin">Kelvin</string>
+    <string name="uom_rankine">Rankine</string>
+
+    <string name="uom_category_time">Zaman</string>
+    <string name="uom_nanosecond">Nanosaniye</string>
+    <string name="uom_microsecond">Microsaniye</string>
+    <string name="uom_millisecond">Milisaniye</string>
+    <string name="uom_second">Saniye</string>
+    <string name="uom_minute">Dakika</string>
+    <string name="uom_hour">Saat</string>
+    <string name="uom_day">Gün</string>
+    <string name="uom_week">Hafta</string>
+    <string name="uom_year">Yıl</string>
+
+    <string name="uom_category_pressure">Basınç</string>
+    <string name="uom_pascal">Paskal</string>
+    <string name="uom_atmosphere">Atmosfer</string>
+    <string name="uom_bar">Bar</string>
+
+    <string name="uom_category_length">Uzunluk</string>
+    <string name="uom_meter">Metre</string>
+    <string name="uom_kilometer">Kilometre</string>
+    <string name="uom_centimeter">Santimetre</string>
+    <string name="uom_millimeter">Milimetre</string>
+    <string name="uom_micrometer">Mikrometre</string>
+    <string name="uom_nanometer">Nanometre</string>
+    <string name="uom_mile">Mil</string>
+    <string name="uom_nautical_mile">Deniz mili</string>
+    <string name="uom_foot">Adım</string>
+    <string name="uom_yard">Yard</string>
+    <string name="uom_inch">İnç</string>
+    <string name="uom_angstrom">Angstrem</string>
+    <string name="uom_astronomical_unit">Astronomik birim</string>
+    <string name="uom_light_year">Işık yılı</string>
+    <string name="uom_parsec">Parsek</string>
+
+    <string name="uom_category_mass">Kütle</string>
+    <string name="uom_microgram">Mikrogram</string>
+    <string name="uom_milligram">Miligram</string>
+    <string name="uom_gram">Gram</string>
+    <string name="uom_kilogram">Kilogram</string>
+    <string name="uom_ton">Ton</string>
+    <string name="uom_ton_uk">Emperyal ton</string>
+    <string name="uom_ton_us">ABD tonu</string>
+    <string name="uom_pound">Pound</string>
+    <string name="uom_ounce">Ons</string>
+
+    <string name="uom_category_volume">Hacim</string>
+    <string name="uom_cubic_metre">Metreküp</string>
+    <string name="uom_liter">Litre</string>
+    <string name="uom_cubic_inch">İnçküp</string>
+    <string name="uom_gallon_liquid_us">ABD galonu</string>
+    <string name="uom_ounce_liquid_us">ABD sıvı onsu</string>
+    <string name="uom_gallon_uk">İngiltere galonu</string>
+    <string name="uom_ounce_liquid_uk">Birleşik Krallık sıvı onsu</string>
+
+    <string name="uom_category_dataamount">Dijital Depolama</string>
+    <string name="uom_bit">Bit</string>
+    <string name="uom_byte">Bayt</string>
+    <string name="uom_kilobit">Kilobit</string>
+    <string name="uom_kilobyte">Kilobayt</string>
+    <string name="uom_megabit">Megabit</string>
+    <string name="uom_megabyte">Megabayt</string>
+    <string name="uom_gigabit">Gigabit</string>
+    <string name="uom_gigabyte">Gigabayt</string>
+    <string name="uom_terabit">Terabit</string>
+    <string name="uom_terabyte">Terabayt</string>
+    <string name="uom_petabit">Petabit</string>
+    <string name="uom_petabyte">Petabayt</string>
+
+    <string name="uom_category_area">Yüzey alanı</string>
+    <string name="uom_square_metre">Metre kare</string>
+    <string name="uom_are">Ar</string>
+    <string name="uom_hectare">Hektar</string>
+
+    <string name="uom_category_velocity">Hız</string>
+    <string name="uom_meters_per_second">Metre/saniye</string>
+    <string name="uom_miles_per_hour">Mil/saat</string>
+    <string name="uom_kilometers_per_hour">KM/saat</string>
+    <string name="uom_knot">Knot</string>
+    <string name="uom_mach">Mach</string>
+
+    <string name="uom_category_power">Güç</string>
+    <string name="uom_watt">Watt</string>
+    <string name="uom_kilowatt">Kilowatt</string>
+    <string name="uom_megawatt">Megawatt</string>
+    <string name="uom_horsepower">Beygir gücü</string>
+
+    <string name="uom_category_energy">Enerji</string>
+    <string name="uom_joule">Joule</string>
+    <string name="uom_kilojoule">Kilojoule</string>
+
+    <string name="uom_category_frequency">Sıklık</string>
+    <string name="uom_hertz">Hertz</string>
+    <string name="uom_kilohertz">Kilohertz</string>
+    <string name="uom_megahertz">Megahertz</string>
+    <string name="uom_gigahertz">Gigahertz</string>
+
+    <string name="wrong_field_value">%s alanı kabul edilemez bir değere sahip</string>
+
+    <string name="unit_converter">Birim dönüştürücü</string>
+    <string name="increase">Artırmak</string>
+    <string name="decrease">Azaltmak</string>
+    <string name="frozen">Dondurulmuş</string>
+    <string name="frozen_text">Buluta yüklenen kitaplık sayısı için plan sınırınız aşıldığı için kitaplık donduruldu.</string>
+    <string name="date_and_time_formats">Tarih ve saat biçimleri</string>
+    <string name="date_formats">Tarih biçimleri</string>
+    <string name="time_formats">Saat biçimleri</string>
+    <string name="date_formats_short">Kısa tarih</string>
+    <string name="date_formats_long">Uzun tarih</string>
+    <string name="time_formats_short">Kısa zaman</string>
+    <string name="time_formats_long">Uzun zaman</string>
+    <string name="language">Dil</string>
+    <string name="next_button">Sonraki</string>
+    <string name="bulk_add">Toplu Ekleme</string>
+    <string name="login">Oturum aç</string>
+    <string name="sign_up">Kaydol</string>
+    <string name="memento_cloud2">Memento Cloud</string>
+
+    <string name="from_file">Dosyadan</string>
+    <string name="from_google_drive">Google Drive\'dan</string>
+    <string name="locale_key_field_description">Girdileri düzenlemek için anahtar alan</string>
+
+    <string name="field_values_delimiter">Alan sınırlayıcı</string>
+    <string name="entries_desc_dialog_title">Giriş açıklaması, seçilen alanların değerleri ile belirlenir</string>
+    <string name="image_caption">Başlık</string>
+    <string name="flex_type_subheader">Alt başlık</string>
+    <string name="create_subheader">Alt başlık oluştur</string>
+    <string name="edit_subheader">Alt başlığı düzenleyin</string>
+    <string name="subheader_collapsed_by_default">Varsayılan olarak daraltıldı</string>
+    <string name="aggr_always_show">Her zaman göster</string>
+    <string name="cant_add_management">Yöneticinin bu kitaplığa tam erişimi vardır</string>
+    <string name="auth_error_user_blocked">Hesabınız engellendi</string>
+    <string name="team_license">Takım</string>
+    <string name="user_manager_only_for_team">Kullanıcıların ve lisansların yönetimi yalnızca Takım planlarında mevcuttur</string>
+    <string name="send_password_to_user">Kullanıcıya e-posta ile şifre gönder</string>
+    <string name="create_permissions">İzinleri oluşturun</string>
+    <string name="edit_permissions">İzinleri düzenleyin</string>
+    <string name="library_permissions">Kitaplık izinleri</string>
+    <string name="field_permissions">Alan izinleri</string>
+    <string name="library_permissions_subject">Kullanıcı adı/ e-posta/ grup</string>
+    <string name="permissions_delete_message">\"%s\" için izinleri gerçekten silmek istiyor musunuz?</string>
+    <string name="field_right_need_library_download">Alanlara yeni erişim hakları eklemek için cihazınıza bir kitaplık indirmelisiniz.</string>
+    <string name="field_permission_invisible">Görünmez</string>
+    <string name="field_permission_read_only">Okunabilir</string>
+    <string name="field_permissions_limit">Alanlar için erişim hakları sadece Takım planlarında belirlenebilir.</string>
+    <string name="user_groups">Kullanıcı Grupları</string>
+    <string name="add_user_group">Kullanıcı grubu ekleyin</string>
+    <string name="add_user_group_hint">Grup ismi</string>
+    <string name="user_group_name_empty">Grup adı boş bırakılmamalıdır</string>
+    <string name="users_count_none">Kullanıcı yok</string>
+    <plurals name="users_count">
+	<item quantity="one">Bir kullanıcı</item>
+	<item quantity="other">%d kullanıcı</item>
+</plurals>
+    <string name="user_group_delete_message">\"%s\" grubunu gerçekten silmek istiyor musunuz?</string>
+    <string name="group_not_found">Grup bulunamadı</string>
+    <string name="individual">Bireysel</string>
+    <string name="team">Takım</string>
+    <string name="cloud_plan_team5">Takım 5</string>
+    <string name="cloud_plan_team10">Takım 10</string>
+    <string name="cloud_plan_team15">Takım 15</string>
+    <string name="cloud_plan_team20">Takım 20</string>
+    <string name="pro_for_team">" Tüm ekip kullanıcıları için profesyonel özellikler"</string>
+    <string name="team_features_trial">Tüm Planlar Ücretsiz 14 Günlük Deneme içerir.</string>
+
+    <string name="tasker_plugin_create_entry_event_title">Girdi oluşturuldu</string>
+    <string name="tasker_plugin_delete_entry_event_title">Girdi silindi</string>
+    <string name="tasker_plugin_modified_entry_event_title">Girdi düzenlendi</string>
+    <string name="no_libraries_text">Henüz kitaplık yok!</string>
+    <string name="add_linked_libraries">İlgili kitaplıkları dahil et</string>
+    <string name="create_collections">Kitaplıklar oluştur</string>
+    <string name="create_collections_success">Kitaplıklar oluşturuldu</string>
+    <string name="template_included_libraries">Şablon ek kitaplıklar içerir.</string>
+
+    <string name="entries_view_type_cards">Kartlar</string>
+    <string name="card_view_number_of_columns">Sütun sayısı</string>
+    <plurals name="columns_count">
+	<item quantity="one">Bir sütun</item>
+	<item quantity="other">%d sütun</item>
+</plurals>
+
+    <string name="card_view_title_on_image">Metni resmin üzerinde göster</string>
+    <string name="card_view_squared_image">Resimleri kare şeklinde kırpın</string>
+    <string name="hint_previous_entry">Önceki girdi</string>
+    <string name="hint_next_entry">Sonraki girdi</string>
+    <string name="hint_remove_image_button">Resmi kaldır</string>
+    <string name="hint_insert_image_button">Resim ekle</string>
+    <string name="hint_capture_image_button">Görüntü yakala</string>
+    <string name="hint_change_date">Tarihi değiştir</string>
+    <string name="hint_change_time">Zamanı değiştir</string>
+    <string name="hint_add_reminder">Hatırlatıcı ekle</string>
+    <string name="hint_remove_reminder">Hatırlatıcıyı kaldır</string>
+    <string name="hint_insert_contact_button">Kişi Ekle</string>
+    <string name="hint_create_contact_button">Kişi Oluştur</string>
+    <string name="hint_insert_audio_button">Ses dosyası ekle</string>
+    <string name="hint_record_audio_button">Ses kaydet</string>
+    <string name="hint_insert_location_button">Konum Ekle</string>
+    <string name="hint_get_my_location_button">Konumumu al</string>
+    <string name="hint_insert_entry_button">Girdi ekle</string>
+    <string name="barcode_type_2d">Karekod</string>
+
+    <string name="embedded_js_libraries">Gömülü</string>
+    <string name="repository_js_libraries">Depolar</string>
+    <string name="repository_android_intents_hint">Diğer Android uygulamalarıyla etkileşim için işlevler</string>
+    <string name="repository_data_sources_hint">Otomatik doldurma için veri kaynakları</string>
+    <string name="warning">Uyarı</string>
+    <string name="add_javascript_library">JavaScript kitaplıkları ekle...</string>
+    <string name="add_repository">GitHub deposu ekle</string>
+    <string name="repository_location_hint">GitHub Deposu URL\'si</string>
+    <string name="repository_location_error">GitHub deposuna HTTPS bağlantısını belirtin. Örneğin: https://github.com/username/repo-name</string>
+    <string name="repository_not_found_error">Depo bulunamıyor: %s</string>
+    <string name="repository_delete_message">\"%s\" deposunu gerçekten silmek istiyor musunuz?</string>
+    <string name="repository_other">Diğer</string>
+
+    <string name="map_field_current_by_default_title">Mevcut konum</string>
+    <string name="map_field_current_by_default_hint">Varsayılan olarak mevcut konumu al</string>
+    <string name="receiving_document_content">Belge içeriği alınıyor</string>
+    <string name="find_address">Adresi bul</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="trigger_event_action">Aksiyon</string>
+    <string name="action_context_library">Kütüphane</string>
+    <string name="action_context_view_entry">Girdi görüntüleme kartı</string>
+    <string name="trigger">Tetikleyici</string>
+    <string name="action_default_name">Aksiyon %d</string>
+    <string name="place_of_action">Eylem yeri</string>
+    <string name="action_arguments">Argümanlar</string>
+    <string name="action_arguments_empty">Komut dosyası, değerleri kullanıcı tarafından girilecek argümanlara sahip olabilir.</string>
+    <string name="select_argument_type">Bağımsız değişken türü</string>
+    <string name="script_argument_delete_message_text">\"%s\" bağımsız değişkenini gerçekten silmek istiyor musunuz?</string>
+    <string name="create_argument">Bağımsız değişken oluştur</string>
+    <string name="edit_argument">Bağımsız değişkeni düzenle</string>
+    <string name="argument_name">Bağımsız değişken adı</string>
+    <string name="argument_hint">Bağımsız değişken ipucu</string>
+    <string name="required_argument_text">Bağımsız değişken doldurulmalıdır</string>
+    <string name="scripts">Komut dosyaları</string>
+    <string name="actions">Aksiyonlar</string>
+    <string name="empty_script_list_text">Bu kitaplık komut dosyası içermiyor</string>
+    <string name="empty_script_list_trigger_text">Tetikleyici, gerçekleşen bir olaya göre bir girişin işlenmesini tanımlayan bir komut dosyasıdır.</string>
+    <string name="empty_script_list_action_text">Eylem, kitaplık veya giriş kartındaki düğmeye basılarak manuel olarak başlatılan bir komut dizisidir.</string>
+    <string name="autofill_goto_script_title">Komut dosyası düzenleyici</string>
+    <string name="autofill_goto_script_hint">Komut dosyası yazılmış veri kaynağı</string>
+    <string name="java_script_data_source_title">Özel kaynak</string>
+    <string name="java_script_data_source_hint">JavaScript</string>
+    <string name="script_cant_run_for_not_saved_library">Komut dosyasını yalnızca kitaplığı kaydettikten sonra çalıştırabilirsiniz.</string>
+    <string name="autofill_script_source_key_title">Komut dosyası tarafından döndürülen nesne özelliğini gösterin</string>
+    <string name="test_js_data_source_query_hint">Sorgu dizesi</string>
+    <string name="test_js_data_source_query_result">Sorgu sonucu:
+%s</string>
+    <string name="run">Çalıştır</string>
+    <string name="run_arguments">Bağımsız değişkenleri çalıştır</string>
+    <string name="script_cant_set_permissions_for_not_saved_library">Komut dosyası için izinleri yalnızca kitaplığı kaydettikten sonra ayarlayabilirsiniz.</string>
+    <string name="script_permissions_required_message">Kütüphane, aşağıdaki izinleri gerektiren komut dosyalarına sahiptir:</string>
+    <string name="required_access_to_library">%s \'e erişim</string>
+    <string name="action_with_library_context">Kütüphane Eylemi</string>
+    <string name="action_with_entry_context">Girdi Eylemi</string>
+    <string name="library_related_cloud_model_changed_message">Bulutta ilgili kütüphanenin yapısı güncellendi. Güncelleme için ilgili kitaplığa gidin.</string>
+
+    <string name="monthly_plan">Aylık</string>
+    <string name="yearly_plan">Yıllık</string>
+    <string name="cloud_plan_plan3_annual">Lite</string>
+    <string name="cloud_plan_plan6_annual">Pro</string>
+    <string name="cloud_plan_plan10_annual">Pro Plus</string>
+    <string name="cloud_plan_team5_annual">Takım 5</string>
+    <string name="cloud_plan_team10_annual">Takım 10</string>
+    <string name="cloud_plan_team15_annual">Takım 15</string>
+    <string name="cloud_plan_team20_annual">Takım 20</string>
+    <string name="price_per_year">%s/yıl</string>
+
+    <string name="frozen_alien_text">Kütüphane donduruldu, lütfen kütüphane sahibi (%s) ile iletişime geçin.</string>
+    <string name="copy_field">Alanı kopyala</string>
+    <string name="delete_reminder_dialog_text">Hatırlatıcıyı gerçekten silmek istiyor musunuz?</string>
+    <string name="games">Oyunlar</string>
+    <string name="number_increment_delta_title">Arttırma/azaltma düğmeleri</string>
+    <string name="number_increment_delta_value">Adım boyutu %s</string>
+    <string name="number_increment_visible_option">Düğmeleri göster</string>
+    <string name="is_empty">Boş</string>
+    <string name="is_not_empty">Boş değil</string>
+    <string name="trigger_event_open_library">Kütüphane açılıyor</string>
+    <string name="search_base_folder">Arama tabanı</string>
+    <string name="line_interpolate_nulls_titles">Boş değerleri de kat</string>
+
+
+    <string name="wizard">Sihirbaz</string>
+    <string name="wizard_library_name_title">Memento, bilgilerinizi kitaplıklar halinde düzenler. Kitaplığınıza ne isim vermek istersiniz?</string>
+    <string name="wizard_library_name_hint2">Kitaplıklar, belirli bir öğe türünün listesini tutmak için kullanılır.</string>
+    <string name="wizard_library_name_hint3">Kitaplıklar elektronik tablolardaki sayfalara benzer.</string>
+    <string name="wizard_library_icon_title">Bu kitaplık için simge seçin</string>
+    <string name="wizard_library_structure_title">Kitaplığınızın yapısını oluşturalım.</string>
+    <string name="wizard_library_structure_hint2">Kitaplığınıza koyduğunuz her öğeye bir \'girdi\' denir. Her girdi, hakkında depolamak istediğiniz tüm bilgilerin bulunduğu kendi alanlarına sahip olacaktır.</string>
+    <string name="wizard_library_structure_hint3">Girdi, elektronik tablodaki bir satıra eşdeğerdir.</string>
+    <string name="wizard_library_structure_hint4">Alan, elektronik tablodaki bir sütuna eşdeğerdir.</string>
+    <string name="wizard_select_field_type_message">Lütfen alan türünü seçin</string>
+    <string name="wizard_add_name_field_message">Girdinin adı olacak alanı ekleyin.</string>
+    <string name="wizard_field_options_title">Alan özellikleri</string>
+    <string name="wizard_field_items_title">Öğeler</string>
+    <string name="wizard_field_options_select_type_message">Alan özellikleri, alan türü seçildikten sonra kullanılabilir olacaktır.</string>
+    <string name="wizard_field_options_empty">Seçilen alan türü için yalnızca gelişmiş özellikler mevcuttur.</string>
+    <string name="wizard_field_advanced_options_button">İleri</string>
+    <string name="wizard_choice_field_items_empty_text">Alan türü için önceden belirlenmiş sayıda öğe (değer) oluşturmalısınız.</string>
+    <string name="wizard_field_name_title">Bu alana ne isim vermek istersiniz?</string>
+    <string name="wizard_field_name_examples">Örneğin, \"başlık\", \"açıklama\", \"ekipman türü\", \"maliyet\", \"boyut\", \"konum\" vb. alanlarınız olabilir.</string>
+    <string name="wizard_field_type_title">Her alan, belirli bir veri türünü tutacak şekilde tasarlanabilir.</string>
+    <string name="wizard_field_display_options_title">Girdiler listesinde bu alanın değerlerini görüntülemek istiyor musunuz?</string>
+    <string name="wizard_field_display_no">Hayır, teşekkürler</string>
+    <string name="wizard_field_display_name">Girdi Adı olarak</string>
+    <string name="wizard_field_display_thumb">Girdi Küçük Resmi olarak</string>
+    <string name="wizard_field_display_desc">Girdi Açıklaması olarak</string>
+    <string name="wizard_field_display_status">Girdi Durumu olarak</string>
+    <string name="more_info">Yardıma mı ihtiyacınız var?</string>
+    <string name="type_desc_rating">Bir derecelendirme alanı boş olabilir veya yıldız olarak 1\'den 5\'e kadar bir sayı değeri içerebilir.</string>
+    <string name="type_desc_location">Bir konum alanı, enlem/boylam ve posta adresi gibi bilgiler içerebilir.</string>
+    <string name="type_desc_link_to_entry">Bir girdi bağlantısı alanı, bir girdiye veya başka bir kütüphanedeki girdilere bir bağlantı içerebilir.</string>
+    <string name="type_desc_contact">Bir Kişi alanı, yerel Kişiler uygulamasındaki bir kişiye bir bağlantı içerebilir.</string>
+    <string name="type_desc_images">Bir Görüntü alanı, görüntülere bağlantılar içerebilir.</string>
+    <string name="type_desc_signature">İmza alanı, elektronik imzaları toplamanıza olanak tanır.</string>
+    <string name="type_desc_file">Bir Dosyaya Bağlantı alanı, harici olarak depolanan dosyalara bağlantılar içerebilir.</string>
+    <string name="type_desc_audio">Bir Ses alanı, depolanan seslere bağlantılar içerebilir.</string>
+    <string name="type_desc_date">Tarih alanı, belirli bir takvim tarihini temsil etmek için kullanılan bir değer içerebilir.</string>
+    <string name="type_desc_datetime">Bir Tarih/zaman alanı, belirli bir takvim tarihini ve saatini temsil etmek için kullanılan bir değer içerebilir.</string>
+    <string name="type_desc_time">Bir Saat alanı, günün belirli bir saatini temsil etmek için kullanılan bir değer içerebilir.</string>
+    <string name="type_desc_boolean">Boolean alan türü, tek bir onay kutusu sağlar (evet/hayır).</string>
+    <string name="type_desc_money">Para alanında bir para birimi ve bir miktar vardır. Şablon tanımlandığında para birimi seçilmelidir.</string>
+    <string name="type_desc_real">Gerçek alan türü, ondalık basamaklı veya basamaksız sayıları tutar.</string>
+    <string name="type_desc_int">Sayı alan türü, ondalık basamak içermeyen düz sayıları içerir.</string>
+    <string name="type_desc_int_list">Tamsayı değerleri alanı, bir kullanıcının seçebileceği sıralı bir sayı kümesidir.</string>
+    <string name="type_desc_text">Bir Metin alanı herhangi bir metin verisi içerebilir.</string>
+    <string name="type_desc_phone">Telefon Numarası alanı metin biçiminde bir telefon numarası içerebilir.</string>
+    <string name="type_desc_url">Köprü alanı, metinsel bir HTML bağlantısı içerebilir.</string>
+    <string name="type_desc_email">E-posta Adresi alanı, metin biçiminde bir e-posta adresi içerebilir.</string>
+    <string name="type_desc_barcode">Barkod Alanı, barkodları veya QR kodlarını taramak için kullanılır.</string>
+    <string name="type_desc_pass">Parola alanı herhangi bir metin verisi içerebilir. Parola alanındaki karakterler maskelenir (yıldız işareti olarak gösterilir).</string>
+    <string name="type_desc_rich">Zengin Metin alanı, metin biçimlendirme bilgileri dahil olmak üzere herhangi bir metin verilerini içerebilir.</string>
+    <string name="type_desc_multiple_choice">Çoktan Seçmeli Liste alanı, kullanıcının herhangi birini veya tümünü seçebileceği bir dizi metin dizesidir.</string>
+    <string name="type_desc_checkboxes">Onay kutuları alanı, birden çok seçime izin veren bir veya daha fazla onay kutusu sunmaya izin verir.</string>
+    <string name="type_desc_single_choice">Tek seçenekli alan, bir kullanıcının seçebileceği bir metin dizeleri kümesidir.</string>
+    <string name="type_desc_radiobuttons">Radyo düğmeleri alanı, bir grup seçimden seçim yapmak için kullanılır.</string>
+    <string name="type_desc_js">Alanın değeri, alanda tanımlanan ve giriş bağlamında yürütülen komut dosyasının yürütülmesinin sonucu olacaktır.</string>
+    <string name="type_desc_calc">Hesaplama alanı, girişteki diğer alanlardan değerleri içerebilen bir hesaplamaya dayalı olarak salt okunur değerleri görüntülemek için kullanılır.</string>
+
+    <string name="wizard_complete_text1">Tebrikler!</string>
+    <string name="wizard_complete_text2">Kitaplığınızı başarıyla oluşturdunuz.</string>
+    <string name="wizard_complete_text3">İstediğiniz zaman kitaplığınızın yapısını değiştirebilir, toplama, otomatik doldurma, komut dosyaları vb. ekleyebilirsiniz.</string>
+    <string name="close">Kapat</string>
+
+    <string name="attributes">Öznitellikler</string>
+    <string name="select_attribute_type">Öznitelik türü</string>
+    <string name="create_attribute">Create attribute</string>
+    <string name="edit_attribute">Özniteliği düzenleyin</string>
+    <string name="attribute_name">Öznitelik adı</string>
+    <string name="required_attribute_text">Öznitelik doldurulmalıdır</string>
+
+    <string name="attribute_display_title_in_card">Öznitelik adı</string>
+    <string name="attribute_display_title_in_card_hint">Kart girdisinde özniteliğin adını görüntüleyin</string>
+    <string name="attribute_delete_message_text">\"%s\" özelliğini gerçekten silmek istiyor musunuz?</string>
+    <string name="free_version_attributes_limit">Ücretsiz sürümde, yalnızca bir öznitelik ekleyebilirsiniz. Bu kısıtlamayı kaldırmak için PRO sürümüne yükseltin.</string>
+    <string name="trigger_event_link_entry">Girdi bağlanıyor</string>
+    <string name="trigger_event_unlink_entry">Girdinin bağlantısı kaldırılıyor</string>
+    <string name="script_cant_run_links_not_exists">Komut dosyası çalıştırılamaz, bu kitaplığa herhangi bir bağlantı mevcut değil.</string>
+    <string name="entry_name_and_description">Girdi adı ve açıklaması</string>
+    <string name="all_searchable_fields">Tüm aranabilir alanlar</string>
+    <string name="search_settings_quick">Hızlı arama</string>
+    <string name="search_by_specified_fields">Belirtilen alanlar</string>
+    <string name="index_not_found_message">Arama mümkün değil, girdiler indekslenmiyor</string>
+    <string name="script_error_message">Komut Dosyası Hatası: %s</string>
+    <string name="advanced_search">Gelişmiş Arama</string>
+    <string name="quick_filter_for_numbers">Sayılar için</string>
+    <string name="quick_filter_for_text">Metin için</string>
+    <string name="save_as_filter">Filtre olarak kaydet</string>
+    <string name="save_as_filter_success">Başarıyla yeni bir filtre oluşturdunuz</string>
+    <string name="shortcut_not_supported">Maalesef başlatıcınız uygulama kısayollarını desteklemiyor.</string>
+    <string name="notification_channel_reminders">Hatırlatıcılar</string>
+    <string name="notification_channel_entries">Kitaplıklardaki değişiklikler</string>
+    <string name="notification_channel_files">Dosyalar</string>
+    <string name="quick_filter_limit_message">Ücretsiz sürüm yalnızca beş alana göre arama yapmanıza izin verir.
+Bu sınırlamayı devre dışı bırakmak için PRO sürümüne yükseltin.</string>
+    <string name="button_upgrade">Yükselt</string>
+    <string name="autofilll_source_not_supported">Maalesef %s artık desteklenmiyor.</string>
+    <string name="link_attributes_empty_text">Bu alan, bağlantılar için özniteliklere sahip değildir.</string>
+    <string name="cant_find_contact_selection_app">Maalesef, kişi seçimi için uygulama bulunamadı.</string>
+    <string name="library_item_not_found_dialog_message">Girdi bulunamadı. Silinmiş olabilir.</string>
+
+    <string name="license_key_tab">Lisans Anahtarı</string>
+    <string name="pro_feature_0">Reklam yok</string>
+    <string name="pro_feature_1">Google E-Tablolar ile senkronize edilebilen sınırsız sayıda kitaplık</string>
+    <string name="pro_feature_2">Sınırsız sayıda \"korumalı\" kitaplık</string>
+    <string name="pro_feature_3">Sınırsız sayıda grafik</string>
+    <string name="pro_feature_4">Sınırsız sayıda komut dosyası</string>
+    <string name="pro_feature_5">Gelişmiş arama</string>
+    <string name="pro_feature_6">Bir girdi alanı birden fazla sayıda öğe (resimler, dosyalar, kişiler, koordinatlar vb.) içerebilir.</string>
+    <string name="pro_feature_7">Birden çok girdi düzenleniyor</string>
+    <string name="pro_feature_8">Kullanışlı uygulama widget\'ı</string>
+    <string name="pro_license_activated">Lisans etkinleştirildi</string>
+    <string name="pro_features_title">Pro özellikleri</string>
+    <string name="activate_with_key">Bir anahtarla etkinleştirin</string>
+    <string name="plans_and_pricing">Planlar ve Fiyatlandırma</string>
+    <string name="email_or_username">E-posta ya da kullanıcı adı</string>
+    <string name="sign_in_with_google">Google ile devam et</string>
+    <string name="minimum_pass_length">Parola en az %d karakter olmalıdır.</string>
+    <string name="please_sign_in">Lütfen Memento Cloud\'da oturum açın.</string>
+    <string name="sign_up_or_sign_in">Kaydolun veya oturum açın</string>
+    <string name="auth_error_title">Doğrulama hatası</string>
+    <string name="auth_error_text">Bir hata oluştu, lütfen tekrar %s doğrulayın.</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="logout_confirmation">Çıkış yapmak istediğinizden emin misiniz?</string>
+    <string name="current_plan">Mevcut plan</string>
+    <string name="change_password">Şifreyi değiştir</string>
+    <string name="current_password">Mevcut Şifre</string>
+    <string name="new_password">Yeni şifre</string>
+    <string name="password_changed_message">Şifreniz başarıyla değiştirildi!</string>
+    <string name="sign_in_error">Oturum açılamadı</string>
+    <string name="choose_username">Kullanıcı adınızı seçin</string>
+    <string name="account_without_password_message">Bu hesap, şifresi olmayan bir Google Hesabı gibi görünüyor. \"Google ile Devam Et\" düğmesini kullanmayı deneyin.</string>
+    <string name="template_not_found_by_uri">Şablon bulunamadı</string>
+    <string name="public_template_address_text">Şablon adresi</string>
+    <string name="wrong_template_address">Geçersiz şablon adres biçimi</string>
+    <string name="search_index_tokenizer">Sözcüksel analizör</string>
+
+    <string name="permission_contacts_title">Kişiler</string>
+    <string name="permission_contacts_text">İlgili Kişi alanı türü için Memento\'nun ilgili kişilere erişmesine izin verilmesi gerekir.</string>
+    <string name="boolean_format">Biçim</string>
+    <string name="boolean_format_on">Etiketi aç</string>
+    <string name="boolean_format_off">Etiketi kapat</string>
+    <string name="plans_comparison">Tam özellik karşılaştırmamıza bakın</string>
+
+    <string name="revision_history">Sürüm geçmişi</string>
+    <string name="revision_current_version">Mevcut versiyon</string>
+    <string name="revision_action_edit">%s değişti</string>
+    <string name="revision_action_create">%s girdi oluşturdu</string>
+    <string name="revert_to_version">Bu sürüme geri dön</string>
+    <string name="revert_to_version_message">%s sürümünden sürüme dönmek istediğinizden emin misiniz?</string>
+    <string name="revision_history_only_for_cloud">Sürüm geçmişi yalnızca buluta yüklenen kitaplıklar ve PRO veya TAKIM hesapları için kullanılabilir.</string>
+    <string name="barcode_type_nfc">NFC</string>
+    <string name="pending_user">Bekleniyor...</string>
+    <string name="uom_category_userdefined">Kullanıcı tanımlı</string>
+    <string name="uom_custom_name">Ünite adı</string>
+    <string name="time_field_group_by_day_and_time">Güne ve saate göre grupla</string>
+
+    <string name="select_source_library_dialog_title">Verilerin kopyalanacağı kitaplığı seçin</string>
+    <string name="select_source_library_dialog_hint">Bir veri kaynağı seçin</string>
+    <string name="wiki">Wiki</string>
+
+    <string name="type_desc_color">Renk alanı türü, herhangi bir rengin RGB formatında saklanmasına izin verir.</string>
+    <string name="image_cache_settings_path_title">Görüntü önbellek klasörü</string>
+
+    <string name="unlock_fingerprint_dialog_title">Parmak iziyle kilidi açın</string>
+    <string name="unlock_fingerprint_dialog_text">Bir dahaki sefere korumalı kitaplıklarınızın kilidini parmak izi kullanarak açmak ister misiniz?</string>
+    <string name="fingerprint_not_recognized">Parmak izi tanınmadı</string>
+    <string name="unlock_fingerprint_hint">Kilidi açmak için parmak izinizi tarayın</string>
+    <string name="enable_fingerprint">Parmak izini etkinleştir</string>
+
+    <string name="storage_permission_required_title">İzin gerekiyor</string>
+    <string name="storage_permission_required_text">Bu uygulamanın depolama iznine ihtiyacı var. Bunu uygulama ayarlarında verebilirsiniz.</string>
+    <string name="got_to_system_settings">Ayarlara git</string>
+    <string name="file_save_error">Dosya kaydedilemiyor:
+%s</string>
+
+    <string name="years_range">Tarihlerdeki yıl aralığı</string>
+    <string name="begin_year">Başlangıç</string>
+    <string name="end_year">Bitiş</string>
+    <string name="years_range_wrong">Bitiş tarihi, başlangıç tarihine eşit veya daha büyük olmalı</string>
+
+    <string name="orientation_portrait">Dikey Mod</string>
+    <string name="orientation_landscape">Yatay mod</string>
+    <string name="scale_mode">Sığdırma modunu yeniden boyutlandır</string>
+    <string name="scale_size">Ölçek</string>
+    <string name="pdf_scale_mode_crop">Kırp</string>
+    <string name="pdf_scale_mode_expand">Genişlet</string>
+    <string name="pdf_scale_mode_fit">Sığdır</string>
+    <string name="workplace">İş yeri</string>
+    <string name="share_filters">Filtreleri paylaş</string>
+    <string name="share_charts">Grafikleri paylaşın</string>
+    <string name="shared_by">%s tarafından paylaşıldı</string>
+    <string name="share_workplace_limit">Üzgünüz, grafikleri ve filtreleri sadece Takım planlarında paylaşabilirsiniz.</string>
+    <string name="bulk_action">Toplu işlem</string>
+    <string name="action_context_bulk_actions">Toplu işlemler menüsü</string>
+    <string name="move_to">Şuraya taşı...</string>
+    <string name="copy_to">Şuraya kopyala...</string>
+    <string name="move_to_no_libraries">Mevcut kitaplıkla uyumlu kitaplıklar bulunamadı.
+Lütfen herhangi bir kitaplığa taşımak için bir girdi aktarım kuralı oluşturun.</string>
+    <string name="migrate">Taşı</string>
+    <string name="barcode_display_error">Üzgünüz, sağlanan verilerden bir barkod kodlanamadı</string>
+    <string name="barcode_format">Barkod biçimi</string>
+    <string name="barcode_format_auto">Otomatik algılama</string>
+    <string name="orientation">Yönlendirme</string>
+    <string name="paper_size">Kağıt boyutu</string>
+    <string name="camera_permission_title">Kamera</string>
+    <string name="camera_permission_required_text">Bir görüntü yakalamak için kameranıza erişmemiz gerekiyor. İzni etkinleştirmek için ayarlara gidin.</string>
+    <string name="require_external_audio_app">Memento, harici bir ses kayıt uygulaması kullanır. Kurmak ister misiniz?</string>
+
+
+    <string name="agree_terms_privacy">"Bir hesap oluşturarak Memento\'nun Kullanım Şartları\'nı &lt;a href=\"https://mementodatabase.com#terms\"&gt;  ve Gizlilik Politikası\'nı &lt;a href=\"http://mementodatabase.com#privacy_policy\"&gt; kabul etmiş olursunuz."<a href="https://mementodatabase.com#terms">Terms of Use</a> and <a href="http://mementodatabase.com#privacy_policy">Privacy Policy</a>.</string>
+    <string name="enter_email_address_hint">Lütfen e-posta adresinizi giriniz</string>
+    <string name="duration_label_days">g</string>
+    <string name="duration_label_hours">s</string>
+    <string name="duration_label_minutes">d</string>
+    <string name="duration_label_seconds">s</string>
+    <string name="duration_label_mseconds">ms</string>
+    <string name="duration_precision_option_title">Süre hassasiyeti</string>
+    <string name="duration_precision_min">Minimum Birim</string>
+    <string name="duration_precision_max">Maksimum Birim</string>
+    <string name="duration_precision_wrong">Maksimum Birim, Minimum Birimden büyük veya ona eşit olmalıdır</string>
+    <plurals name="duration_ms">
+	<item quantity="one">1 ms</item>
+	<item quantity="other">%d ms</item>
+</plurals>
+    <string name="duration_display_format_option_title">Süre biçimi</string>
+    <string name="duration_display_format_short">Kısa</string>
+    <string name="duration_display_format_long">Uzun</string>
+    <string name="type_desc_duration">Süre alanı, gün, saat, dakika, saniye veya milisaniye cinsinden ölçülen bir süreyi temsil etmek için kullanılan bir değer içerebilir.</string>
+
+    <plurals name="after_entries_multiedit_message">
+	<item quantity="one">Bir girdi düzenlendi</item>
+	<item quantity="other">%d girdi düzenlendi</item>
+</plurals>
+
+    <string name="locals_js_libraries">Yerel</string>
+    <string name="js_libraries_add_url">URL Ekle</string>
+    <string name="js_file_url">JavaScript dosyası URL\'si</string>
+    <string name="js_file_url_error">JavaScript dosyasına HTTP / HTTPS bağlantısını belirtin.</string>
+    <string name="js_file_url_not_found">Bu URL\'de JavaScript dosyası bulunamadı: %S</string>
+    <string name="image_capture_size">Görüntü yakalama boyutu</string>
+    <string name="image_capture_size_original">Orijinal</string>
+    <string name="max_width">Maksimum genişlik</string>
+    <string name="max_height">Maksimum yükseklik</string>
+    <string name="speech_recognition_not_supported">Konuşma tanıma desteklenmiyor</string>
+
+    <string name="templates_category_personal">Kişisel</string>
+    <string name="templates_category_collections">Koleksiyonlar</string>
+    <string name="templates_category_business">İş</string>
+    <string name="templates_category_healthy">Sağlık &amp; Spor</string>
+    <string name="templates_category_travel">Gezi</string>
+    <string name="templates_category_edu">Eğitim</string>
+    <string name="board_games">Masa Oyunları</string>
+    <string name="new_database">Yeni veritabanı</string>
+
+    <string name="send_entries_too_large">Üzgünüz, tüm bu girdileri metin olarak gönderemezsiniz. Çok fazla veri var.</string>
+    <string name="request_button">İstek</string>
+
+    <string name="edit_library_not_available">Kütüphanenin yapısını sadece sahibi değiştirebilir.</string>
+    <string name="menu">Menü</string>
+    <string name="period_this_year">Bu yıl</string>
+    <string name="number_filter_types_between">Arasında</string>
+    <string name="field_role_hidden">Gizli alan</string>
+    <string name="field_role_hidden_short">gizli</string>
+    <string name="export_hidden_fields">Gizli alanları dışa aktar</string>
+    <string name="move_select_destination">Nereye taşınsın</string>
+    <string name="match_fields">Alanları eşleştir</string>
+    <string name="dest_fields">Hedef alanları</string>
+    <string name="move_rules_empty">Bu kitaplıkta taşıma kuralı yok</string>
+
+    <string name="delete_move_rule_dialog_title">Kuralı sil</string>
+    <string name="delete_move_rule_dialog_message">\"%s\" taşıma kuralını silmek istediğinizden emin misiniz?</string>
+    <string name="no_field">Alan yok</string>
+    <string name="moving_entries">Girdiler taşınıyor. %d / %d.</string>
+    <string name="copying_entries2">Girdiler kopyalanıyor. %d / %d.</string>
+    <plurals name="moving_entries_success">
+	<item quantity="one">%d girdi %s kitaplığa taşındı</item>
+	<item quantity="other">%d girdi %s kitaplığa taşındı</item>
+</plurals>
+    <plurals name="copying_entries_success">
+	<item quantity="one">%d girdi %s kitaplığına kopyalandı</item>
+	<item quantity="other">%d girdi %s kitaplığına kopyalandı</item>
+</plurals>
+    <string name="need_pro_for_move_entries">Girdiler yalnızca programın PRO sürümünde başka bir kitaplığa taşınabilir veya kopyalanabilir.</string>
+    <string name="create_copy">Bir kopya oluştur</string>
+    <string name="move_or_copy">Taşı veya Kopyala</string>
+    <string name="duplicate">Çoğalt</string>
+
+    <string name="buy_license_key_hint">Android için bağımsız bir PRO lisansı satın alın</string>
+    <string name="flex_type_user">Kullanıcı</string>
+    <string name="select_user">Kullanıcı seçin</string>
+    <string name="select_user_empty_list">Seçilecek başka kullanıcı yok</string>
+    <string name="memento_full_name_hint">Tam isim</string>
+    <string name="not_set">Ayarlanmadı</string>
+    <string name="objects_limit_option_title">Limit</string>
+    <string name="max_number_of_users">Maksimum kullanıcı sayısı</string>
+    <string name="no_limit">Limitsiz</string>
+    <string name="conditional_permission">Alana bağlı</string>
+    <string name="conditional_field_empty">İşlem için izinler sağlayacak \"Kullanıcı\" alanını seçmelisiniz.</string>
+    <string name="conditional_permission_limit">Bir \"Kullanıcı\" alanına göre erişim hakkı tanımlamak yalnızca Takım planlarında geçerlidir.</string>
+    <string name="filter_rule_is_one_of">Biri</string>
+    <string name="filter_rule_is_not_one_of">Biri değil</string>
+    <string name="send_email">Eposta gönder</string>
+    <string name="type_desc_user">Kullanıcı alanı, kitaplığınızın paylaşıldığı tüm kullanıcıların listesinden bir veya daha fazla kullanıcı seçmenize olanak tanır.</string>
+    <string name="field_copied_to_clipboard">%s panoya kopyalandı</string>
+    <string name="max_number_of_users_limit_message">Yalnızca %d kullanıcı seçebilirsiniz</string>
+
+    <string name="entries_view_type_kanban">Kanban</string>
+    <string name="staggered_grid">Kademeli ızgara</string>
+    <string name="choose_google_account">Bir Google Hesabı seçin</string>
+    <string name="selected_file_is_too_large">Seçili dosya çok büyük</string>
+
+    <string name="google_sheet_not_found">%d kimliğine sahip bağlantılı çalışma sayfası bulunamadı.</string>
+    <string name="google_sheet_header_not_found">Google Sheet tablosunda başlık satırı yok.</string>
+    <string name="google_sheet_id_column_not_found">Google Sheet tablosunda anahtar sütun yoktur.</string>
+    <string name="google_sheet_new_link_text">Bu kitaplık Google Drive\'daki yeni bir tabloya bağlanacak <b> %s </b> .</string>
+    <string name="google_sync_migration_to_v4">Bu kitaplık, kullanımdan kaldırılan yöntem kullanılarak senkronize edilmiş.
+Yeni yöntemi kullanmak için kitaplığın yeni tabloya yeniden bağlanmasını sağlayın.
+Yeniden bağlama gerçekleştirilsin mi?</string>
+    <string name="enable_logging_sheets">Google E-Tablolar</string>
+
+    <string name="position_column_1">1. sütun</string>
+    <string name="position_column_2">2. sütun</string>
+    <string name="position_column_3">3. sütun</string>
+    <string name="position_column_auto">Otomatik</string>
+    <string name="copy_to_google_docs">Google Dokümanlar\'a Kopyala</string>
+    <string name="google_docs_select_template">Şablon seç</string>
+
+    <string name="google_docs_templates_empty">Bu kitaplıkta Google Dokümanlar şablonu yok</string>
+    <string name="google_docs_task_create_document2">Belge oluşturuluyor</string>
+    <string name="google_docs_task_delete_document2">Belge siliniyor</string>
+    <string name="google_docs_task_step_auth2">Dokümanlar hizmetinde kimlik doğrulanıyor</string>
+    <string name="delete_google_docs_template_dialog_text">\"%s\" şablonunu gerçekten silmek istiyor musunuz?</string>
+    <string name="generating_doc">Belge oluşturuluyor ..</string>
+    <string name="populating_table">Tablo dolduruluyor ...</string>
+    <string name="entry_has_been_copied_to_docs">Girdi Google Dokümanlar\'a kopyalandı</string>
+    <string name="entries_has_been_copied_to_docs">Girdiler Google Dokümanlar\'a kopyalandı</string>
+    <string name="google_docs_out_folder_name">Klasör ismi</string>
+    <string name="google_docs_out_folder_hint">Çıktı belgelerini içerecek bir klasör belirtin</string>
+    <string name="preparing_doc">Girdiler hazırlanıyor ...</string>
+    <string name="google_docs_left_operations">Ücretsiz ve Lite sürümlerde, işlem sayısı günlük %d ile sınırlıdır, %d hakkınız kaldı.</string>
+    <string name="need_pro_for_google_docs">Ücretsiz sürüm, günde yalnızca 10 girdi kopyalamanıza izin verir.
+Bu sınırlamayı devre dışı bırakmak için PRO sürümüne yükseltin.</string>
+
+    <string name="user_field_current_by_default_title">Şu anki kullanıcı</string>
+
+    <string name="spotlight_create_library_by_template_title">Bir kitaplık oluşturun</string>
+    <string name="spotlight_create_library_by_template_text">Bu şablonu temel alan yeni bir kitaplık oluşturmak için \"Kaydet\" e dokunun.</string>
+
+    <string name="spotlight_from_scratch_title">Sıfırdan başla</string>
+    <string name="spotlight_from_scratch_text">Memento, bilgilerinizi kitaplıklar halinde düzenler. Kitaplıklar elektronik tablodaki çalışma sayfalarına benzer.
+İlk olarak, yeni kitaplığınızın adını girin, simge ve rengini seçin.</string>
+    <string name="spotlight_from_scratch_fields_title">Alanlar</string>
+    <string name="spotlight_from_scratch_fields_text">Bu sekmede, bu kitaplıktaki her girdi için alanlar tanımlayabilirsiniz.
+Bir alan, bir elektronik tablodaki bir sütuna eşdeğerdir.</string>
+    <string name="spotlight_from_scratch_save_title">Bir yapıyı kaydedin</string>
+    <string name="spotlight_from_scratch_save_text">Alanlar ekledikten sonra, giriş eklemeye başlamak için \"Kaydet\"e dokunun.</string>
+    <string name="spotlight_create_entry_title">Girdi oluştur</string>
+    <string name="spotlight_create_entry_text">Bu kitaplıkta ilk girdiyi oluşturmak için \"+\" ya dokunun.</string>
+    <string name="spotlight_library_menu_title">Sihirli araçlarımız</string>
+    <string name="spotlight_library_menu_text">Sıralamayı veya filtrelemeyi ayarlamak, tablo, harita ve takvim görünümünü değiştirmek, grafikler eklemek veya bir alan kümesini değiştirmek istiyorsanız buraya dokunun.</string>
+    <string name="spotlight_library_edit_title">Kitaplığı düzenle</string>
+    <string name="spotlight_library_edit_text">Kitaplığınızı istediğiniz zaman değiştirebilir, alan ekleyip düzenleyebilirsiniz.</string>
+    <string name="spotlight_library_edit_fields_title">Alanlar</string>
+    <string name="spotlight_library_edit_fields_text">Alan, bir veri birimi veya değer için bir tutucudur. Her alanın bir türü ve bir adı vardır. Alanlar ayrıca gelişmiş parametrelere veya görüntüleme seçeneklerine sahip olabilir.</string>
+    <string name="spotlight_library_aggregation_title">Toplama</string>
+    <string name="spotlight_library_aggregation_text">Toplama, seçili alan tarafından Kitaplık\'taki tüm girişlere uygulanan bir matematik işlevidir. Minimum, maksimum veya ortalama değeri veya toplamı bulmanıza yardımcı olur.</string>
+
+    <string name="button_need_help">Yardıma mı ihtiyacınız var?</string>
+    <string name="export_template_include_charts">Grafikleri dahil et</string>
+    <string name="sort_manually">Manuel olarak</string>
+    <string name="hide_column">Sütunu gizle</string>
+    <string name="add_group_field">Grup alanı ekle</string>
+    <string name="add_another_group_field">Başka bir grup alanı ekle</string>
+    <string name="filter">Filtrele</string>
+
+    <string name="comment_delete_message_text">Bu yorumu gerçekten silmek istiyor musun?</string>
+
+    <string name="logs_empty">Günlük dosyası yok.</string>
+    <string name="logs_send">Günlük dosyalarını gönder</string>
+    <string name="choose_grouping_field">Bir gruplama alanı seçin</string>
+    <string name="flex_type_title_dynamic_list">Liste</string>
+    <string name="add_dynamic_list_item">Öğeleri Listele</string>
+    <string name="type_desc_dynamic_list">Liste alanı, onay kutuları içeren bir dizi metin dizesidir. Örneğin, Yapılacaklar listeleri için kullanılabilir.</string>
+    <string name="type_desc_tags">Etiketler alanı, bir kelimeyi yazabileceğiniz ve ona göre diğer girdileri arayabileceğiniz düzenlenebilir bir metin kutusudur.</string>
+    <string name="entries_background_color">Girdi arka plan rengi</string>
+    <string name="flex_type_tags">Etiketler</string>
+    <string name="group_multiple_values_split">Değerleri böl</string>
+    <string name="unique_fields">Benzersiz Alanlar</string>
+    <string name="entry_field_must_be_unique">%s alanı benzersiz değil</string>
+    <string name="non_unique_entries_message">Kitaplıkta benzersiz olmayan girişler var</string>
+    <string name="primary_external_storage">Birincil Harici Depolama</string>
+    <string name="chart_field_missing">Grafik için alan bulunamıyor. Silinmiş olabilir.</string>
+    <string name="non_unique_values">Benzersiz olmayan değerler</string>
+
+    <string name="append_tags">Etiketleri ekleyin</string>
+    <string name="trigger_event_modify_field">Alan güncelleniyor</string>
+    <string name="select_templates">Şablonları seçin</string>
+    <string name="fast_create_libraries">Şablonlardan yeni kitaplıklar oluşturun</string>
+    <string name="view_quick_access_toolbar">Hızlı Araçları Göster</string>
+    <string name="quick_button_close">Gizle</string>
+    <string name="append_list_items">Öğeleri Ekle</string>
+
+    <string name="launcher">Başlatıcı</string>
+    <string name="time_field_group_entries_week">Haftaya göre grupla</string>
+    <string name="cant_download">İndirilemiyor</string>
+    <string name="manage_subscription">Aboneliği yönetin</string>
+    <string name="promo_label">Promosyon</string>
+<string name="field_email_preferences_summary">Girdileri e-posta ile gönderdiğinizde biçimlendirme seçenekleri</string>
+    <string name="have_library_items_ask_message">Kitaplık, bağlama işlemi sırasında kaldırılan kayıtları içeriyor. Kitaplığı Google E-Tablolar ile bağlama işlemi gerçekleştirilsin mi?</string>
+    <string name="library_dont_have_fields_for_depends">Kütüphane, bu alanın bağımlılığının yapısı için uygun alanları içermiyor</string>
+    <string name="select_master_field_for_depend">Bağımlı olunacak alanı seçin</string>
+    <string name="sl_content_depend_description">Alanın değeri, %s alanının değeri şu ise seçilebilir olacaktır</string>
+    <string name="cant_restore_form_google_drive">Cihazınız Google Drive\'dan bir kitaplık oluşturmayı desteklemiyor</string>
+    <string name="google_sync_without_memento_id_text">Bu kitaplık, olası hataları içeren eski yöntem kullanılarak senkronize edilmiş.
+Yeni yöntemi kullanmak için kitaplığın yeni tabloya yeniden bağlanmasını sağlayın.
+Yeniden bağlama şimdi şimdi yapılsın mı?</string>
+    <string name="auto_fill_barcode_empty2">Otomatik tamamlama kaynağı ve giriş alanlarının özniteliklerini karşılaştırın</string>
+    <string name="library_group_view_type_big_tile">Büyük Simgeler</string>
+    <string name="library_group_view_type_small_tile">Küçük Simgeler</string>
+    <string name="need_make_slave_library_unique">\"Girişe bağlantı\" alanlarını senkronize etmek için, bağlantıların başvurduğu kitaplıkta giriş adı benzersizliği kontrolünü etkinleştirmelisiniz.
+Etkinleştirilsin mi?</string>
+    <string name="need_make_slave_library_unique_import">\"Girdi bağlantısı\" alanlarını içe aktarmak için, bağlantıların başvurduğu kitaplıkta girdi adı benzersizliği kontrolünü etkinleştirmelisiniz.
+Etkinleştirilsin mi?</string>
+    <string name="welcome_text_description">Kütüphane, bilgilerinizin saklanacağı yerdir. Sağlanan şablonlardan birini temel alan bir kitaplık oluşturarak Memento\'yu tanımaya başlayabilirsiniz.</string>
+
     </resources>
