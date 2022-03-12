@@ -1233,8 +1233,8 @@ Tout droits réservés</string>
 	
 	<string name="edit_library_tabs_autofill">Autoremplissage</string>
 	<string name="autofill_from">de %s</string>
-	<string name="autofill_by_barcode">Par code-barres</string>
-	<string name="autofill_by_title">Par titre</string>
+	<string name="autofill_by_barcode">Par Code-barres</string>
+	<string name="autofill_by_title">Par Titre</string>
 	<string name="autofill_need_barcode_field">Pour l\'autoremplissage par code-barres, la base doit contenir le champ Code-barres. Le créer ?</string>
 	<string name="autofill_need_text_field">Pour l\'autoremplissage par titre, la base doit contenir un champ Titre. Le créer ?</string>
 	<string name="autofill_select_master_field">Champ d\'entrée pour la recherche</string>
@@ -2045,7 +2045,7 @@ SVP, créer une règle de transfert d\'enregistrements pour migrer vers une base
     <string name="js_file_url">URL d\'un fichier JavaScript</string>
     <string name="js_file_url_error">Indiquer le lien HTTP/HTTPS au fichier JavaScript.</string>
     <string name="js_file_url_not_found">Impossible de trouver le fichier JavaScript à cette URL : %S</string>
-    <string name="image_capture_size">Taille de capture de l\'image</string>
+    <string name="image_capture_size">Taille de capture d\'image</string>
     <string name="image_capture_size_original">Originale</string>
     <string name="max_width">Largeur maximum</string>
     <string name="max_height">Hauteur maximum</string>
