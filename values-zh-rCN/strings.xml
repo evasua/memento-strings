@@ -1080,7 +1080,7 @@
 	<string name="welcome_text_title">欢迎使用memento database</string>
 	<string name="welcome_text_description">库可以存储您的信息，您可以点击下面的添加库，或者通过右上角的三点按钮，也可以添加库，然后通过向导，多创建一些库，从而熟悉软件的使用。</string>
 	
-	<string name="memento_cloud">云同步</string>
+	<string name="memento_cloud">Memento 云</string>
 	<string name="start_remove_librarary_from_cloud">删除库...</string>
 	<string name="success_remove_librarary_from_cloud">库已经从云中成功删除</string>
 	<string name="start_upload_library_to_cloud">库正在上传...</string>	
@@ -1755,8 +1755,8 @@
     <string name="scripts">脚本</string>
     <string name="actions">动作</string>
     <string name="empty_script_list_text">库未包含脚本</string>
-    <string name="empty_script_list_trigger_text">触发器是指基于一项已发生的事件，定义的一个处理数据库记录的脚本。</string>
-    <string name="empty_script_list_action_text">动作是在库或数据库记录卡片里通过点击按钮来手工启动的脚本。</string>
+    <string name="empty_script_list_trigger_text">触发器是指基于某项事件发生而定义条目处理方式的脚本</string>
+    <string name="empty_script_list_action_text">动作是指在库或条目卡片里通过点击按钮来手动启动的脚本</string>
     <string name="autofill_goto_script_title">脚本编辑器</string>
     <string name="autofill_goto_script_hint">脚本化的数据源</string>
     <string name="java_script_data_source_title">自定义源</string>
@@ -1779,11 +1779,11 @@
     <string name="cloud_plan_plan3_annual">精简版</string>
     <string name="cloud_plan_plan6_annual">专业版</string>
     <string name="cloud_plan_plan10_annual">专业增强版</string>
-    <string name="cloud_plan_team5_annual">5组</string>
-    <string name="cloud_plan_team10_annual">10组</string>
-    <string name="cloud_plan_team15_annual">15组</string>
-    <string name="cloud_plan_team20_annual">20组</string>
-    <string name="price_per_year">/年</string>
+    <string name="cloud_plan_team5_annual">5 人组</string>
+    <string name="cloud_plan_team10_annual">10 人组</string>
+    <string name="cloud_plan_team15_annual">15 人组</string>
+    <string name="cloud_plan_team20_annual">20 人组</string>
+    <string name="price_per_year">%s/年</string>
 
     <string name="frozen_alien_text">为库已经锁定，请联系库所有者(%s).</string>
     <string name="copy_field">复制字段</string>
@@ -1797,7 +1797,7 @@
     <string name="is_not_empty">不为空</string>
     <string name="trigger_event_open_library">正在打开库</string>
     <string name="search_base_folder">搜索根目录</string>
-    <string name="line_interpolate_nulls_titles">平滑空值</string>
+    <string name="line_interpolate_nulls_titles">插入空值</string>
 
 
     <string name="wizard">向导</string>
@@ -1895,7 +1895,7 @@
     <string name="button_upgrade">升级</string>
     <string name="autofilll_source_not_supported">"对不起, 不在支持%s  ."</string>
     <string name="link_attributes_empty_text">此字段不支持该属性的链接.</string>
-    <string name="cant_find_contact_selection_app">未找到选择联系人的应用软件.</string>
+    <string name="cant_find_contact_selection_app">抱歉，未找到选择联系人的应用程序</string>
     <string name="library_item_not_found_dialog_message">记录未找到.可以已经被删除.</string>
 
     <string name="license_key_tab">注册码</string>
@@ -1907,7 +1907,7 @@
     <string name="pro_feature_5">高级搜索</string>
     <string name="pro_feature_6">一条记录中的字段可以存储各种对象(如图片,文件,通讯录,坐标等).</string>
     <string name="pro_feature_7">多记录编辑</string>
-    <string name="pro_feature_8">手机桌面小部件</string>
+    <string name="pro_feature_8">实用桌面小部件</string>
     <string name="pro_license_activated">注册码激活</string>
     <string name="pro_features_title">专业版特有功能</string>
     <string name="activate_with_key">注册码激活</string>
@@ -1918,10 +1918,10 @@
     <string name="please_sign_in">登录Memento云.</string>
     <string name="sign_up_or_sign_in">注册或登录</string>
     <string name="auth_error_title">密码错误</string>
-    <string name="auth_error_text">发生错误,请再登录%s.</string>
+    <string name="auth_error_text">出错了，请重新验证 %s</string>
     <string name="logout">退出登录</string>
     <string name="logout_confirmation">确定退出登录?</string>
-    <string name="current_plan">当前方案</string>
+    <string name="current_plan">当前套餐</string>
     <string name="change_password">更改密码</string>
     <string name="current_password">当前密码</string>
     <string name="new_password">新密码</string>
@@ -1952,7 +1952,7 @@
     <string name="pending_user">待定中...</string>
     <string name="uom_category_userdefined">用户定义</string>
     <string name="uom_custom_name">单元名称</string>
-    <string name="time_field_group_by_day_and_time">按日和时间分组</string>
+    <string name="time_field_group_by_day_and_time">按天和时间分组</string>
 
     <string name="select_source_library_dialog_title">选择要复制数据的库</string>
     <string name="wiki">官方资料库</string>
