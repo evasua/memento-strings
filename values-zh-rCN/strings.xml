@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name">Memento</string>
-    <string name="library_menu_add_item">添加一个条目</string>
+    <string name="library_menu_add_item">添加条目</string>
     <string name="main_menu_add_lib">添加库</string>
-    <string name="ghostData_lib_title">库的名称</string>
+    <string name="ghostData_lib_title">库名</string>
     <string name="custom_template_title">自定义</string>
     <string name="button_create">创建</string>
     <string name="button_yes">是</string>
@@ -115,12 +115,12 @@
     <string name="preference_category_backup">备份</string>
     <string name="main_preferences_title">设置</string>
     <string name="backup_preference">备份</string>
-    <string name="backup_summary_preference">备份所有的库到存储卡</string>
+    <string name="backup_summary_preference">备份所有库和文件</string>
     <string name="backup_fail">备份错误</string>
     <string name="cdcard_not_found">抱歉，你的SD卡正忙</string>
     <string name="backup_process">正在备份库。</string>
     <string name="restore_preference">恢复</string>
-    <string name="restore_summary_preference">正在从备份副本还原库</string>
+    <string name="restore_summary_preference">从备份中恢复库和文件</string>
     <string name="backup_file_not_found">没有找到备份文件。</string>
     <string name="restore_dialog_message">已存在的库将会在恢复时被备份副本所覆盖。\n备份副本之后做的所有变化将会丢失。\n开始恢复？</string>
     <string name="backup_dialog_message">替换为新的备份副本？</string>
@@ -140,7 +140,8 @@
     <string name="activation_ok">谢谢您激活 Memento</string>
     <string name="activation_error">无效的激活码，请重试。</string>
     <string name="about">关于</string>
-    <string name="copyright">版权所有 © 2019 LuckyDroid</string>
+    <string name="copyright">版权所有 © 2020 MementoDB Inc.
+版权所有</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">查看软件版本 | 翻译人员建议，中国用户方便交流等，可加入QQ群号：290681197 (非官方)</string>
     <string name="about_license_type">许可协议：</string>
@@ -210,17 +211,17 @@
     <string name="dialog_title_lib_theme_preference">主题选择</string>
     <!-- 1.3.0 -->
     <string name="unbind_from_gdocs">中断与Google Sheets的连接</string>
-    <string name="bind_to_gdocs">同步到Google Sheets</string>
-    <string name="bind_to_gdocs_title">同步到Google Sheets</string>
-    <string name="unbind_message_title">中断与Google Sheets的连接</string>
-    <string name="unbind_message_text">您是否确定要断开库\"%s\"到Google Sheets的连接？</string>
-    <string name="bind_to_gdocs_message">正在连接到Google Spreadsheets。</string>
-    <string name="bind_to_gdocs_success">此库已连接到Google Spreadshets.</string>
-    <string name="sync_with_gdocs_success">此库已完成与Google Spreadsheets同步</string>
-    <string name="sync_with_gdocs_title">与Google Sheets同步</string>
-    <string name="sync_with_gdocs_message">正在与Google Spreadsheets同步。</string>
-    <string name="sync_with_gdocs">与Google Sheets同步文件</string>
-    <string name="google_docs_task_step_auth">认证到Spreadsheets服务</string>
+    <string name="bind_to_gdocs">同步到 Google Sheets</string>
+    <string name="bind_to_gdocs_title">同步到 Google Sheets</string>
+    <string name="unbind_message_title">断开 Google Sheets 连接</string>
+    <string name="unbind_message_text">您是否确定要断开库“%s”与 Google Sheets 的连接？</string>
+    <string name="bind_to_gdocs_message">正在连接到 Google Sheets</string>
+    <string name="bind_to_gdocs_success">此库已连接到 Google Sheets</string>
+    <string name="sync_with_gdocs_success">此库已同步到 Google Sheets</string>
+    <string name="sync_with_gdocs_title">同步到 Google Sheets</string>
+    <string name="sync_with_gdocs_message">正在将库与 Google Sheets 同步</string>
+    <string name="sync_with_gdocs">同步到 Google Sheets</string>
+    <string name="google_docs_task_step_auth">Sheets 服务身份验证</string>
     <string name="google_docs_task_step_get_rows">检索源列表</string>
     <string formatted="false" name="google_docs_task_step_process_row">正在处理一个列表行。 %s 于 %s</string>
     <string formatted="false" name="google_docs_task_step_send_row">正在添加一个列表行。 %s 于 %s</string>
@@ -374,8 +375,8 @@
     <string name="send_all_csv">以CSV分享</string>
     <string name="send_all_text">以文本分享</string>
     <string name="flex_type_time">时间</string>
-<string name="sync_with_gdocs_success_2">库\"%s\"已完成与Google Spreadsheets同步</string>
-    <string name="sync_with_gdocs_message_2">\"%s\"  与Google Sheets 同步。</string>
+<string name="sync_with_gdocs_success_2">库“%s”已同步到谷歌</string>
+    <string name="sync_with_gdocs_message_2">将“%s”与 Google Sheets 同步</string>
     <string name="help_intro">什么是Memento</string>
     <string name="help_create_library">创建库</string>
     <string name="help_edit_field">定义库的结构</string>
@@ -560,7 +561,7 @@
     <string name="preference_category_export_data_cfg">设置导入/导出/同步</string>
     <string name="import_export_date_format">选择日期格式</string>
     <string name="import_export_date_format_dialog">选择日期格式导入/导出/同步</string>
-    <string name="main_title">Memento数据库</string>
+    <string name="main_title">Memento 数据库</string>
     <string name="main_menu_add_group">添加组</string>
     <string name="main_menu_bookmarks">网页浏览历史记录</string>
     <string name="main_menu_add_lib_group">添加库或组</string>
@@ -748,7 +749,7 @@
     <string name="select_button">选择</string>
     <string name="clear_button">明确</string>
     <string name="image_info_button">信息</string>
-    <string name="error_library_not_unique_field_names">在库中的字段名必须是唯一的。检查字段：%s。</string>
+    <string name="error_library_not_unique_field_names">库中字段名必须是唯一的，请检查字段：%s</string>
     <string name="info_path">路径：</string>
     <string name="info_resolution">解析：</string>
     <string name="info_size">尺寸：</string>
@@ -880,7 +881,7 @@
     <string name="move_to_page">移动到页面</string>
     <string name="empty_entry_page_text">这个页面是空的。\n您可以在这里添加记录中的字段或列表。</string>
     <string name="empty_fields_list_text">此资料库中没有字段。</string>
-    <string name="empty_aggregation_list_text">该库不包含聚合函数。</string>
+    <string name="empty_aggregation_list_text">该库不包含聚合函数</string>
     <string name="empty_chart_list_text">该库不包含图表。</string>
     <string name="empty_entry_list_text">本库没有条目。</string>
     <string name="empty_recycle_bin_text">没有可用于恢复在该库条目。</string>
@@ -1043,7 +1044,7 @@
     <string name="library_group_view_type_icons">图标</string>
     <string name="icon_pack_title_files_types">文件</string>
     <string name="use_depend_only_in_edit_title">在哪里使用</string>
-    <string name="use_depend_only_in_edit_hint_true">只在编辑状态下</string>
+    <string name="use_depend_only_in_edit_hint_true">仅在编辑状态下应用</string>
     <string name="use_depend_only_in_edit_hint_false">在编辑和查看状态下</string>
 	<string name="year_default_now">默认今年</string>
     <plurals name="field_depends_count">
@@ -1060,7 +1061,7 @@
 	<string name="display_lang_option">按语言过滤</string>
 	<string name="display_lang_option_all">所有模板</string>
 	<string name="entries_name_dialog_title">请选择作为名称的字段</string>
-	<string name="entries_name_is_unique">记录主键只能选择一个</string> 
+	<string name="entries_name_is_unique">条目名称不可重复</string> 
 	<string name="no_fields_for_role">在这个库中没有合适的字段</string>
 	<string name="update_item_name_index">重建索引...</string>	
 	<string name="entry_name_must_be_unique">条目名称不唯一</string>
@@ -1079,7 +1080,7 @@
 	<string name="welcome_text_title">欢迎使用memento database</string>
 	<string name="welcome_text_description">库可以存储您的信息，您可以点击下面的添加库，或者通过右上角的三点按钮，也可以添加库，然后通过向导，多创建一些库，从而熟悉软件的使用。</string>
 	
-	<string name="memento_cloud">云同步</string>
+	<string name="memento_cloud">Memento 云</string>
 	<string name="start_remove_librarary_from_cloud">删除库...</string>
 	<string name="success_remove_librarary_from_cloud">库已经从云中成功删除</string>
 	<string name="start_upload_library_to_cloud">库正在上传...</string>	
@@ -1201,7 +1202,7 @@
 	<string name="cant_add_yourself">您不能添加自己</string>
 	<string name="remove_from_old_public">在此之前，在上传库云将是未发表的，如果它是出版的过时的方法。</string>
 	<string name="select_template_title">选择模板</string>
-	<string name="empty_library_title">空库</string>
+	<string name="empty_library_title">从零开始</string>
 	<string name="catalog_templates_title">在线目录</string>
 	<string name="catalog_templates_hint">在线模板3000</string>
 	<string name="add_lib_from_google_drive_hint">从谷歌硬盘恢复</string>
@@ -1223,7 +1224,7 @@
 	<string name="edit_library_tabs_autofill">自动填充</string>
 	<string name="autofill_from">来自%s</string>
 	<string name="autofill_by_barcode">通过条码</string>
-	<string name="autofill_by_title">按标题</string>
+	<string name="autofill_by_title">通过标题</string>
 	<string name="autofill_need_barcode_field">为了通过条形码自动填充您的库必须包含的“条形码”字段。如何创建呢？</string>
 	<string name="autofill_need_text_field">为了用标题自动填充您的库必须包含的“文本”字段中。如何创建呢？</string>
 	<string name="autofill_select_master_field">输入字段搜索</string>
@@ -1480,8 +1481,8 @@
     <string name="debug_summary">日志选项</string>
     <string name="log_files_folder">日志文件目录</string>
 
-    <string name="enable_logging_cloud">Memento云电话</string>
-    <string name="enable_logging_triggers">脚本日志</string>
+    <string name="enable_logging_cloud">Memento 云</string>
+    <string name="enable_logging_triggers">脚本</string>
     <string name="script_log">脚本日志</string>
 
     <string name="trigger_permissions">触发器权限</string>
@@ -1754,8 +1755,8 @@
     <string name="scripts">脚本</string>
     <string name="actions">动作</string>
     <string name="empty_script_list_text">库未包含脚本</string>
-    <string name="empty_script_list_trigger_text">触发器是指基于一项已发生的事件，定义的一个处理数据库记录的脚本。</string>
-    <string name="empty_script_list_action_text">动作是在库或数据库记录卡片里通过点击按钮来手工启动的脚本。</string>
+    <string name="empty_script_list_trigger_text">触发器是指基于某项事件发生而定义条目处理方式的脚本</string>
+    <string name="empty_script_list_action_text">动作是指在库或条目卡片里通过点击按钮来手动启动的脚本</string>
     <string name="autofill_goto_script_title">脚本编辑器</string>
     <string name="autofill_goto_script_hint">脚本化的数据源</string>
     <string name="java_script_data_source_title">自定义源</string>
@@ -1778,11 +1779,11 @@
     <string name="cloud_plan_plan3_annual">精简版</string>
     <string name="cloud_plan_plan6_annual">专业版</string>
     <string name="cloud_plan_plan10_annual">专业增强版</string>
-    <string name="cloud_plan_team5_annual">5组</string>
-    <string name="cloud_plan_team10_annual">10组</string>
-    <string name="cloud_plan_team15_annual">15组</string>
-    <string name="cloud_plan_team20_annual">20组</string>
-    <string name="price_per_year">/年</string>
+    <string name="cloud_plan_team5_annual">5 人组</string>
+    <string name="cloud_plan_team10_annual">10 人组</string>
+    <string name="cloud_plan_team15_annual">15 人组</string>
+    <string name="cloud_plan_team20_annual">20 人组</string>
+    <string name="price_per_year">%s/年</string>
 
     <string name="frozen_alien_text">为库已经锁定，请联系库所有者(%s).</string>
     <string name="copy_field">复制字段</string>
@@ -1796,7 +1797,7 @@
     <string name="is_not_empty">不为空</string>
     <string name="trigger_event_open_library">正在打开库</string>
     <string name="search_base_folder">搜索根目录</string>
-    <string name="line_interpolate_nulls_titles">平滑空值</string>
+    <string name="line_interpolate_nulls_titles">插入空值</string>
 
 
     <string name="wizard">向导</string>
@@ -1849,7 +1850,7 @@
     <string name="type_desc_barcode">条码字段可以保存通过扫描条码或二维码获得的数值。</string>
     <string name="type_desc_pass">密码字段保存文本形式的密码，保存的密码字符是用星号显示(不用明文显示)。</string>
     <string name="type_desc_rich">富文本格式字段可以保存富文本格式的文本。</string>
-    <string name="type_desc_multiple_choice">多选列表字段可以提供一系列选项，可以从其中选择一个或者全部。</string>
+    <string name="type_desc_multiple_choice">多选列表字段提供一系列选项，用户可从中选择一个或者全部</string>
     <string name="type_desc_checkboxes">复选框字段提供一系列可以任意勾选的复选框。</string>
     <string name="type_desc_single_choice">单选列表字段提供一组选项值，仅能选择一个值。</string>
     <string name="type_desc_radiobuttons">单选按钮字段提供一组选项，可以任意单选。</string>
@@ -1894,7 +1895,7 @@
     <string name="button_upgrade">升级</string>
     <string name="autofilll_source_not_supported">"对不起, 不在支持%s  ."</string>
     <string name="link_attributes_empty_text">此字段不支持该属性的链接.</string>
-    <string name="cant_find_contact_selection_app">未找到选择联系人的应用软件.</string>
+    <string name="cant_find_contact_selection_app">抱歉，未找到选择联系人的应用程序</string>
     <string name="library_item_not_found_dialog_message">记录未找到.可以已经被删除.</string>
 
     <string name="license_key_tab">注册码</string>
@@ -1906,7 +1907,7 @@
     <string name="pro_feature_5">高级搜索</string>
     <string name="pro_feature_6">一条记录中的字段可以存储各种对象(如图片,文件,通讯录,坐标等).</string>
     <string name="pro_feature_7">多记录编辑</string>
-    <string name="pro_feature_8">手机桌面小部件</string>
+    <string name="pro_feature_8">实用桌面小部件</string>
     <string name="pro_license_activated">注册码激活</string>
     <string name="pro_features_title">专业版特有功能</string>
     <string name="activate_with_key">注册码激活</string>
@@ -1917,10 +1918,10 @@
     <string name="please_sign_in">登录Memento云.</string>
     <string name="sign_up_or_sign_in">注册或登录</string>
     <string name="auth_error_title">密码错误</string>
-    <string name="auth_error_text">发生错误,请再登录%s.</string>
+    <string name="auth_error_text">出错了，请重新验证 %s</string>
     <string name="logout">退出登录</string>
     <string name="logout_confirmation">确定退出登录?</string>
-    <string name="current_plan">当前方案</string>
+    <string name="current_plan">当前套餐</string>
     <string name="change_password">更改密码</string>
     <string name="current_password">当前密码</string>
     <string name="new_password">新密码</string>
@@ -1951,7 +1952,7 @@
     <string name="pending_user">待定中...</string>
     <string name="uom_category_userdefined">用户定义</string>
     <string name="uom_custom_name">单元名称</string>
-    <string name="time_field_group_by_day_and_time">按日和时间分组</string>
+    <string name="time_field_group_by_day_and_time">按天和时间分组</string>
 
     <string name="select_source_library_dialog_title">选择要复制数据的库</string>
     <string name="wiki">官方资料库</string>
@@ -2096,4 +2097,179 @@
     <string name="field_copied_to_clipboard">%s 已复制到剪贴板</string>
     <string name="max_number_of_users_limit_message">您只能选择 %d 个用户</string>
 
-</resources>
+<string name="entries_view_type_kanban">看板</string>
+    <string name="staggered_grid">交错网格</string>
+    <string name="choose_google_account">请选择一个谷歌帐户</string>
+    <string name="selected_file_is_too_large">所选文件太大</string>
+
+    <string name="google_sheet_not_found">未找到 ID 为 %d 的链接工作表</string>
+    <string name="google_sheet_header_not_found">Google Sheets 表格中没有标题行</string>
+    <string name="google_sheet_id_column_not_found">Google Sheets 表格中没有键值列</string>
+    <string name="google_sheet_new_link_text">该库将链接到 Google Drive 上的一个新表格<b>%s</b></string>
+    <string name="google_sync_migration_to_v4">此库在使用已弃用的方式进行同步
+请将库重新绑定到新表格以使用新的同步方式
+立即重新绑定？</string>
+    <string name="enable_logging_sheets">Google Sheets</string>
+
+    <string name="position_column_1">第 1 列</string>
+    <string name="position_column_2">第 2 列</string>
+    <string name="position_column_3">第 3 列</string>
+    <string name="position_column_auto">自动</string>
+    <string name="copy_to_google_docs">复制到 Google Docs</string>
+    <string name="google_docs_select_template">选择模板</string>
+
+    <string name="google_docs_templates_empty">此库中没有 Google Docs 模板</string>
+    <string name="google_docs_task_create_document2">正在创建文档</string>
+    <string name="google_docs_task_delete_document2">正在删除文档</string>
+    <string name="google_docs_task_step_auth2">Docs 服务身份验证</string>
+    <string name="delete_google_docs_template_dialog_text">确定要删除模板“%s”吗？</string>
+    <string name="generating_doc">正在生成文档...</string>
+    <string name="populating_table">正在填充表格...</string>
+    <string name="entry_has_been_copied_to_docs">条目已复制到 Google Docs</string>
+    <string name="entries_has_been_copied_to_docs">条目已复制到 Google Docs</string>
+    <string name="google_docs_out_folder_name">文件夹名称</string>
+    <string name="google_docs_out_folder_hint">请指定输出文档路径</string>
+    <string name="preparing_doc">正在准备条目...</string>
+    <string name="google_docs_left_operations">免费和精简版中，操作次数限制为%d 次/天，您还剩 %d 次</string>
+    <string name="need_pro_for_google_docs">免费版每天只允许复制 10 个条目
+请升级至 PRO 版本以解除此限制</string>
+
+    <string name="user_field_current_by_default_title">当前用户</string>
+
+    <string name="spotlight_create_library_by_template_title">创建库</string>
+    <string name="spotlight_create_library_by_template_text">点击“保存”以基于此模板新建库</string>
+
+    <string name="spotlight_from_scratch_title">从零开始</string>
+    <string name="spotlight_from_scratch_text">Memento 将你的信息组织到库中，库类似于电子表格中的工作表
+首先，请输入新库的名称，然后选择其图标和颜色</string>
+    <string name="spotlight_from_scratch_fields_title">字段</string>
+    <string name="spotlight_from_scratch_fields_text">在此选项卡上，你可以为该库中的每个条目定义字段
+字段相当于电子表格中的列</string>
+    <string name="spotlight_from_scratch_save_title">保存结构</string>
+    <string name="spotlight_from_scratch_save_text">添加完字段后，点击“保存”开始添加条目</string>
+    <string name="spotlight_create_entry_title">创建条目</string>
+    <string name="spotlight_create_entry_text">点击 \"+\" 创建该库的第一个条目</string>
+    <string name="spotlight_library_menu_title">魔法工具</string>
+    <string name="spotlight_library_menu_text">如果想要调整排序或过滤规则，改为表格、地图或日历视图，添加图表或更改一组字段，请点击此处</string>
+    <string name="spotlight_library_edit_title">编辑库</string>
+    <string name="spotlight_library_edit_text">你可以随时更改库 - 添加或编辑字段</string>
+    <string name="spotlight_library_edit_fields_title">字段</string>
+    <string name="spotlight_library_edit_fields_text">字段是数据单位或值的所有者。每个字段都有一个类型和名称，字段也可能具有高级参数或显示选项</string>
+    <string name="spotlight_library_aggregation_title">聚合</string>
+    <string name="spotlight_library_aggregation_text">聚合是由选定字段应用于库中所有条目的数学函数。它可以帮助你找出最小值、最大值、平均值或总和</string>
+
+    <string name="button_need_help">需要帮助？</string>
+    <string name="export_template_include_charts">包括图表</string>
+    <string name="sort_manually">手动</string>
+    <string name="hide_column">隐藏列</string>
+    <string name="add_group_field">添加组字段</string>
+    <string name="add_another_group_field">添加另一个组字段</string>
+    <string name="filter">过滤器</string>
+
+    <string name="comment_delete_message_text">确定要删除此评论吗？</string>
+
+    <string name="logs_empty">无日志文件</string>
+    <string name="logs_send">发送日志文件</string>
+    <string name="choose_grouping_field">选择分组字段</string>
+    <string name="flex_type_title_dynamic_list">列表</string>
+    <string name="add_dynamic_list_item">列表项</string>
+    <string name="type_desc_dynamic_list">列表字段是一组带有复选框的文本字符串。例如，它可以用于待办清单</string>
+    <string name="type_desc_tags">标签字段是一个可编辑的文本框，你可以在其中输入一个词并通过它来搜索其他条目</string>
+    <string name="entries_background_color">条目背景色</string>
+    <string name="flex_type_tags">标签</string>
+    <string name="group_multiple_values_split">拆分值</string>
+    <string name="unique_fields">唯一字段</string>
+    <string name="entry_field_must_be_unique">字段 %s 不唯一</string>
+    <string name="non_unique_entries_message">库中存在非唯一条目</string>
+    <string name="primary_external_storage">主外部存储</string>
+    <string name="chart_field_missing">找不到图表的字段，也许被删除了</string>
+    <string name="non_unique_values">非唯一值</string>
+
+    <string name="image_file_name_unique">唯一值</string>
+    <string name="append_tags">附加标签</string>
+    <string name="trigger_event_modify_field">正在更新字段</string>
+    <string name="select_templates">选择模板</string>
+    <string name="fast_create_libraries">从模板新建库</string>
+    <string name="view_quick_access_toolbar">显示快速工具</string>
+    <string name="quick_button_close">隐藏</string>
+    <string name="append_list_items">追加条目</string>
+
+    <string name="time_field_group_entries_week">按周分组</string>
+    <string name="cant_download">无法下载</string>
+    <string name="manage_subscription">管理订阅</string>
+    <string name="promo_label">促销</string>
+    
+    <string name="copying_files_message">正在复制文件 %d/%d</string>
+    <string name="copying_database_message">正在复制数据库</string>
+    <string name="restoring_database_message">正在恢复数据库</string>
+    <string name="restoring_files_message">正在恢复文件 %d/%d</string>
+    <string name="enable_auto_backup_summary">备份所有不含附件的库</string>
+    <string name="backup_summary_preference_only_libraries">备份所有库</string>
+    <string name="limit_integer_field_toast">/%s/ 必须小于 %d</string>
+    <string name="max_limit_integer_field_hint">值必须小于 %d</string>
+    <string name="min_limit_integer_field_hint">值必须大于 %d</string>
+    <string name="validation_error_message">某些字段的值无效</string>
+    <string name="data_validation">数据验证</string>
+    <string name="data_validation_fail_message">值必须是 \"%s\"</string>
+    <string name="use_custom_validation_message">输入无效数据后显示自定义消息</string>
+    <string name="append_value">追加值</string>
+    <string name="trigger_common">Shared</string>
+    <string name="trigger_common_default_name">Shared %d</string>
+    <string name="empty_script_list_common_text">Shared 是一个脚本，其函数可在其他脚本中重复使用</string>
+    <string name="action_context_list_item_entry">列表中的条目</string>
+    <string name="action_view_page_title">视图</string>
+    <string name="action_select_icon">选择脚本按钮的图标</string>
+    <string name="action_with_entry_list_context">条目列表动作</string>
+    <string name="autofill_by_image">通过图像 β</string>
+    <string name="autofill_need_image_field">为了通过图像自动填充你的库，其必须包含“图像”字段，如何创建？</string>
+    <string name="text_recognition">文本识别</string>
+    <string name="text_recognition_fields_empty">添加要用于文本识别的字段</string>
+    <string name="select_recognized_text">选择识别到的文本</string>
+    <string name="field_finder">字段查找器</string>
+    <string name="field_parser">字段解析器</string>
+    <string name="anchor_position_left">左</string>
+    <string name="anchor_position_top">上</string>
+    <string name="anchor_position_right">右</string>
+    <string name="anchor_position_bottom">下</string>
+    <string name="autofill_source_test">测试</string>
+    <string name="field_parser_default">默认</string>
+    <string name="field_parser_script">脚本</string>
+    <string name="date_and_time_pattern">日期和时间模式</string>
+    <string name="number_format">数字格式</string>
+    <string name="ignore_case">忽略大小写</string>
+    <string name="ignore_non_word">忽略非单词字符</string>
+    <string name="permissible_errors">允许误差</string>
+    <string name="permissible_errors_hint">允许误差</string>
+    <string name="text_scan_fields_found_count" formatted="false">已找到 %d/%d 个字段</string>
+    <string name="regex_extractor">RegEx</string>
+    <string name="regular_expression_text">正则表达式</string>
+    <string name="multi_line_value">多行值</string>
+    <string name="text_scan_retry">重试</string>
+    <string name="text_recognition_save_image_message">是否要将扫描的图像存储在某个字段中？</string>
+    <string name="hidden_text_scan_field_name">文本扫描字段</string>
+    <string name="hidden_text_scan_field_hint">这是用于文本识别的系统字段</string>
+    <string name="field_extractor_test_string">测试字符串</string>
+    <string name="field_extractor_test_string_hint">请在此输入你的测试字符串</string>
+    <string name="field_extractor_test_result">结果</string>
+    <string name="field_extractor_test_result_true">真</string>
+    <string name="field_extractor_test_result_false">假</string>
+    <string name="templates_categories">类别</string>
+    <string name="quick_tools">快速工具</string>
+    <string name="quick_tools_customize">自定义...</string>
+    <string name="sync_short">同步</string>
+    <string name="create_entries_forbidden">您没有在此库中创建条目的权限</string>
+    <string name="sync_with_memento_cloud">同步到 Memento 云端</string>
+    <string name="empty_charts_message">此库中无图表</string>
+    <string name="empty_action_scripts_message">此库中无操作脚本</string>
+    <string name="all_sync_library_progress">正在同步“%s”</string>
+    <string name="all_sync_check_versions">正在检查更新...</string>
+    <string name="all_sync_completed">库都是最新的</string>
+    <string name="image_file_name_format">文件名格式</string>
+    <string name="image_file_name_time">时间</string>
+    <string name="image_file_name_user_and_time">用户和时间</string>
+    <string name="invert_text_color_based_on_background">根据背景反转文本颜色</string>
+<string name="launcher">启动器</string>
+    <string name="anchor_base_extractor">锚基</string>
+    <string name="anchor_base_text">锚文本</string>
+    <string name="anchor_base_position">锚位置</string>
+    </resources>
