@@ -117,12 +117,12 @@
     <string name="preference_category_backup">Zálohovat</string>
     <string name="main_preferences_title">Nastavení</string>
     <string name="backup_preference">Záloha</string>
-    <string name="backup_summary_preference">Zálohování všech knihoven na flash kartu</string>
+    <string name="backup_summary_preference">Zálohování všech knihoven a souborů</string>
     <string name="backup_fail">Chyba zálohování</string>
     <string name="cdcard_not_found">SD karta není přístupná</string>
     <string name="backup_process">Probíhá zálohování knihoven.</string>
     <string name="restore_preference">Obnova</string>
-    <string name="restore_summary_preference">Obnova knihoven ze záložní kopie</string>
+    <string name="restore_summary_preference">Obnova knihoven a souborů ze zálohy</string>
     <string name="backup_file_not_found">Záložní soubor nenalezen.</string>
     <string name="restore_dialog_message">Během obnovy budou existující knihovny nahrazeny knihovnami ze záložní kopie.\nVšechny změny vytvořené po záložní kopii budou ztraceny.\nSpustit obnovu ?</string>
     <string name="backup_dialog_message">Přepsat záložní kopii novou ?</string>
@@ -252,7 +252,7 @@
     <string name="please_wait">Čekejte prosím...</string>
     <!-- 1.4.0 -->
     <string name="public_library_title">Publikování knihovny</string>
-    <string name="public_to_picasa_message">Nahrání obrázků knihovny do Picasy</string>
+    <string name="public_to_picasa_message">Nahrání knihovny obrázků do Picasa</string>
     <string name="public_to_picasa_create_album">"Vytvoření alba Picasa  pro publikovanou knihovnu"</string>
     <string name="public_to_picasa_success">Obrázky byly nahrány do Picasa</string>
     <string name="picasa_task_step_auth">Autorizace k službě Picasa</string>
@@ -1411,7 +1411,7 @@
     </plurals>
 
     <string name="relation_type">Typ vztahu</string>
-    <string name="uom_angstrom">Ångström</string>
+    <string name="uom_angstrom">Angstrem</string>
     <string name="field_type_rich_list_free_limit">Je nám líto, seznamy jsou jen pro uživatele verze PRO.</string>
     <string name="field_type_rich_align_free_limit">Je nám líto, zarovnání je jen pro uživatele verze PRO.</string>
     <string name="cloud_file_error_upload">Chyba při odesílání</string>
@@ -1612,10 +1612,11 @@
 
     <string name="no_comments">Bez komentářů</string>
     <plurals name="comments_count">
-	    <item quantity="one">%d komentář</item>
-        <item quantity="few">%d komentáře</item>
-	    <item quantity="other">%d komentáře</item>
-    </plurals>
+	<item quantity="one">%d komentář</item>
+	<item quantity="few">%d komentáře</item>
+	<item quantity="many">%d komentářů</item>
+	<item quantity="other"/>
+</plurals>
     <string name="comments_only_for_cloud">Komentáře lze zveřejnit pouze v knihovnách, které byly nahrány do cloudu. Nahrát knihovnu do cloudu?</string>
     <string name="locale_plugin_add_edit_entry_title">Přidat/upravit záznam</string>
     <string name="locale_to_fields_list_empty_text">Kliknutím na tlačítko + vytvoříte nová pravidla pro vyplňování polí knihovny.</string>
@@ -1670,4 +1671,6 @@
 
     <string name="trigger_permissions">Oprávnění pro skripty</string>
     <string name="trigger_permission_read_file">Číst soubory</string>
+    <string name="trigger_permission_read_file_hint">Umožní skriptům číst z externího úložiště</string>
+    <string name="trigger_permission_write_file">Zápis souborů</string>
     </resources>
