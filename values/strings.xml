@@ -142,7 +142,7 @@
     <string name="activation_ok">Thank you for activation Memento</string>
     <string name="activation_error">Activation code is invalid. Please, try again.</string>
     <string name="about">About</string>
-    <string name="copyright">Copyright © 2020 MementoDB Inc.\nAll rights reserved</string>
+    <string name="copyright">Copyright © 2022 MementoDB Inc.\nAll rights reserved</string>
     <string name="luckydroid_web">www.mementodatabase.com</string>
     <string name="about_hint">View software version</string>
     <string name="about_license_type">License:</string>
@@ -2288,7 +2288,7 @@
     <string name="manage_subscription">Manage subscription</string>
     <string name="promo_label">Promo</string>
     
-    <!-- 5.0-->
+    <!-- 4.10.0-->
     <string name="copying_files_message">Copying files %d of %d</string>
     <string name="copying_database_message">Copying database</string>
     <string name="restoring_database_message">Restoring database</string>
@@ -2362,4 +2362,102 @@
     <string name="image_file_name_user_and_time">User and Time</string>
     <string name="image_file_name_unique">Unique value</string>
     <string name="invert_text_color_based_on_background">Invert text color based on background</string>
+    <string name="open_group">Open group</string>
+    <string name="text_scan_rule_fields_empty">There are no available fields for autocomplete</string>
+
+    <!-- 4.10.1-->
+    <string name="restore_from_file">Select a backup file</string>
+    <string name="restore_from_autobackup">Auto backup files</string>
+    <string name="files_migration_explanation">Starting in Android 11, apps can access only their own app-specific folders. You have to move all your files and the database to the app folder.</string>
+
+    <string name="files_migration_preparing">Preparing files from field \"%s\"</string>
+    <string name="files_migration_file_total">Copying %d files from field \"%s\"</string>
+    <string name="files_migration_file_remaining">%s\nFiles remaining %d</string>
+    <string name="skip_migration">Skip migration</string>
+    <string name="not_enough_space">Not enough space to copy files. You need an additional %s to copy libraries files.</string>
+    <string name="space_free">Space free: %s</string>
+
+
+    <!-- 4.10.4-->
+    <string name="clear_libraries_trash_dialog_text">Do you really want to delete all libraries from the Trash ?</string>
+    <string name="clear_libraries_trash_progress">Deleting libraries</string>
+
+    <!-- 4.11.0-->
+    <string name="map_type">Map type</string>
+    <string name="marker_clustering">Marker Clustering</string>
+    <string name="auto_reminder">Auto reminder</string>
+    <string name="auto_reminder_hint">Automatically create reminders by field value</string>
+    <string name="auto_reminder_when">When</string>
+    <string name="auto_reminder_value">Date field value</string>
+    <string name="auto_reminder_before">Before Date value</string>
+    <string name="prefill_list_activity_title">Prefilled entries</string>
+    <string name="empty_prefill_list_text">This library does not contain prefilled entries.</string>
+    <string name="need_pro_for_prefill">In the free version, one library can contain only one prefill entry. To remove this restriction, please upgrade to the PRO version.</string>
+    <string name="create_prefilled_entry">Create prefilled entry</string>
+    <string name="prefill_item_name">Name</string>
+    <string name="prefill_item_name_default">Template %d</string>
+    <string name="prefill_delete_message">Do you really want to delete the template \"%s\" ?</string>
+    <string name="share_prefill">Share prefilled entries</string>
+    <string name="readonly_field_text">Field is read-only in the user interface</string>
+    <string name="rich_input_html">HTML</string>
+
+    <!-- 4.12.0-->
+    <string name="show_as_tabs">Show as Tabs</string>
+    <string name="show_as_tabs_hint">Add tabs to the list of entries corresponding to field items</string>
+    <string name="button">Button</string>
+    <string name="type_desc_button">The button field is an interactive field type that lets you trigger certain actions</string>
+    <string name="button_action_type_url">Open URL</string>
+    <string name="button_action_type_script">Run script</string>
+    <string name="button_action_type_share">Share</string>
+    <string name="url_formula">URL formula</string>
+    <string name="button_action_error_wrong_url">Can\'t parse URL: %s</string>
+    <string name="button_action_goto_script_hint">Click to edit script</string>
+    <string name="share_text_hint">Text template</string>
+    <string name="special_permissions">Special permissions</string>
+    <string name="special_permissions_copy_structure">Ability to copy library structure</string>
+    <string name="hint_insert_image_url_button">Insert Image URL</string>
+    <string name="insert_by_url">Insert from URL</string>
+    <string name="insert_by_url_hint">Image URL</string>
+    <string name="lookup_field">Lookup</string>
+    <string name="lookup_field_options_title">Lookup parameters</string>
+    <string name="lookup_select_library_first">First select a linked library.</string>
+    <string name="lookup_field_no_library">Library is not specified</string>
+    <string name="lookup_field_no_field">Field is not specified</string>
+    <string name="type_desc_lookup">The Lookup field allows you to pull field values from linked entries.</string>
+
+    <!-- 4.13.0-->
+    <string name="preset">Preset</string>
+    <string name="preset_not_set">No preset</string>
+    <string name="new_preset_dialog_text">The name of the preset</string>
+    <string name="preset_name">Preset %d</string>
+    <string name="new_preset_dialog_title">New preset</string>
+    <string name="delete_preset">Delete preset</string>
+    <string name="delete_preset_dialog_text">Do you really want to delete the preset \"%s\"?</string>
+    <string name="parent">Parent</string>
+    <string name="add_folder">Add Folder</string>
+    <string name="edit_folder">Edit Folder</string>
+    <string name="choice_item">Item</string>
+    <string name="folder">Folder</string>
+    <string name="folder_title">Folder title</string>
+    <plurals name="choice_items_count">
+        <item quantity="zero">No items</item>
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <string name="tree_field_name">Tree</string>
+    <string name="tree_field_multiselect_enabled">Allow multi selection</string>
+    <string name="tree_field_expand_by_default">Expand all by default</string>
+    <string name="tree_field_display_item_path">Display full path</string>
+    <string name="select_folder">Select folder</string>
+    <string name="tree_root_folder">Root</string>
+    <string name="type_desc_tree">A Tree field is a set of items with folders (a hierarchical tree structure) from which a user might select any of them.</string>
+    <string name="tree_field_group_mode">Display as tree</string>
+    <string name="location_field_primary_name">Primary value</string>
+    <string name="location_field_primary_name_address">Address</string>
+    <string name="location_field_primary_name_location">Location</string>
+    <string name="image_loading_error_with_link">%s\n&lt;a href=%s>Open image in browser&lt;/a></string>
+    <string name="need_alarm_permission">Alarms permission is not granted</string>
+
+    <string name="found_files">Found files</string>
+
 </resources>
